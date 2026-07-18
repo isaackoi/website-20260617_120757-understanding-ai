@@ -273,13 +273,13 @@ Human [oversight]({{ 'oversight/' | relative_url }}) only protects people when t
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_meaningful_hu_790c10_real_ai_overr_21366a-Illustration-1-dark.svg" | relative_url }}" alt="Override Power illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_meaningful_hu_790c10_real_ai_overr_21366a-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_meaningful_hu_790c10_real_ai_overr_21366a-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-[Meaningful]({{ 'human-review/' | relative_url }}) oversight in high-risk AI systems therefore depends on more than a technical “human in the loop” requirement. It requires authority, resources, training, and organisational support. Regulators, researchers, and human-factors specialists increasingly emphasise that the critical question is not whether a human can theoretically intervene, but whether they can realistically do so when it matters. AI Act Service Desk+2Responsible AI Platform <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">AI Act Service Desk Article 14: Human oversight &#124; AI Act Service Desk</span><span class="citation-popover-snippet">AI Act Service DeskArticle 14: Human oversight &#124; AI Act Service DeskJune 13, 2024...</span><span class="citation-popover-meta">Published: June 13, 2024</span></span></span>
+[Meaningful]({{ 'human-review/' | relative_url }}) oversight in high-risk AI systems therefore depends on more than a technical “human in the loop” requirement. It requires authority, resources, training, and organisational support. Regulators, researchers, and human-factors specialists increasingly emphasise that the critical question is not whether a human can theoretically intervene, but whether they can realistically do so when it matters. AI Act Service Desk+2Responsible AI Platform<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">AI Act Service Desk Article 14: Human oversight &#124; AI Act Service Desk</span><span class="citation-popover-snippet">AI Act Service DeskArticle 14: Human oversight &#124; AI Act Service DeskJune 13, 2024...</span><span class="citation-popover-meta">Published: June 13, 2024</span></span></span>
 
 ## Can the Human Really Say No?
 
 A useful test for oversight is simple: if the AI system makes a recommendation that appears questionable, can the reviewer reject it without penalty, delay, or procedural obstacles?
 
-The European Union’s AI Act explicitly treats this as a core requirement for high-risk systems. Human overseers should be able to understand system limitations, recognise [automation bias]({{ 'automation-bias/' | relative_url }}), interpret outputs, disregard recommendations, override results, and stop system operation where necessary. The law does not describe oversight as passive observation; it describes active authority. AI Act Service Desk+2Responsible AI Platform <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">AI Act Service Desk Article 14: Human oversight &#124; AI Act Service Desk</span><span class="citation-popover-snippet">AI Act Service DeskArticle 14: Human oversight &#124; AI Act Service DeskJune 13, 2024...</span><span class="citation-popover-meta">Published: June 13, 2024</span></span></span>
+The European Union’s AI Act explicitly treats this as a core requirement for high-risk systems. Human overseers should be able to understand system limitations, recognise [automation bias]({{ 'automation-bias/' | relative_url }}), interpret outputs, disregard recommendations, override results, and stop system operation where necessary. The law does not describe oversight as passive observation; it describes active authority. AI Act Service Desk+2Responsible AI Platform<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">AI Act Service Desk Article 14: Human oversight &#124; AI Act Service Desk</span><span class="citation-popover-snippet">AI Act Service DeskArticle 14: Human oversight &#124; AI Act Service DeskJune 13, 2024...</span><span class="citation-popover-meta">Published: June 13, 2024</span></span></span>
 
 In practice, however, organisations often confuse formal authority with practical authority. A policy manual may state that staff can override the system, but the real question is whether they can do so without facing negative consequences.
 
@@ -300,7 +300,7 @@ The difference becomes clear when examining everyday workplace pressures:
 
 </div>
 
-When these pressures accumulate, the AI recommendation becomes the default outcome. Human review survives as a procedural step while genuine judgement disappears. Data-protection guidance in both Europe and the United Kingdom has repeatedly warned that a decision is not meaningfully human simply because a person signs off on it. Rubber-stamping does not constitute real oversight. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/?search=synthetic" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-title">ICOHow do we ensure individual rights in our AI systems? &#124; ICO</span><span class="citation-popover-snippet">ICOHow do we ensure individual rights in our AI systems? &#124; ICO</span></span></span>
+When these pressures accumulate, the AI recommendation becomes the default outcome. Human review survives as a procedural step while genuine judgement disappears. Data-protection guidance in both Europe and the United Kingdom has repeatedly warned that a decision is not meaningfully human simply because a person signs off on it. Rubber-stamping does not constitute real oversight.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/?search=synthetic" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-title">ICOHow do we ensure individual rights in our AI systems? &#124; ICO</span><span class="citation-popover-snippet">ICOHow do we ensure individual rights in our AI systems? &#124; ICO</span></span></span>
 
 A useful indicator of genuine authority is whether overrides occur in practice. If a system processes thousands of decisions and reviewers almost never disagree with it, organisations should ask whether the AI is extraordinarily accurate or whether the review process has become largely ceremonial.
 
@@ -311,7 +311,7 @@ A useful indicator of genuine authority is whether overrides occur in practice. 
 
 Even competent reviewers struggle to challenge automated systems when workload is high.
 
-Research on automation bias—the tendency to place excessive trust in automated recommendations—has consistently found that reliance on automation increases when people face time pressure, complex tasks, or competing demands on attention. Under these conditions, accepting the machine's recommendation becomes a cognitive shortcut. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">June 16, 2011...</span><span class="citation-popover-meta">Published: June 16, 2011</span></span></span>
+Research on automation bias—the tendency to place excessive trust in automated recommendations—has consistently found that reliance on automation increases when people face time pressure, complex tasks, or competing demands on attention. Under these conditions, accepting the machine's recommendation becomes a cognitive shortcut.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">June 16, 2011...</span><span class="citation-popover-meta">Published: June 16, 2011</span></span></span>
 
 This creates a structural problem for high-risk AI deployments. Organisations often introduce AI specifically to increase efficiency and process more cases. Yet the faster the workflow becomes, the less time reviewers have to independently verify outputs.
 
@@ -322,7 +322,7 @@ A reviewer handling hundreds of cases per day may:
 * Assume the system is probably correct because challenging every output is impossible.
 * Use [AI outputs]({{ 'ai-outputs/' | relative_url }}) as a starting point for judgement rather than conducting an independent assessment.
 
-At that point, human oversight remains present in a legal or organisational sense but loses much of its protective value. Researchers studying decision-support systems in healthcare, public administration, and other domains have repeatedly identified workload and time constraints as major contributors to automation bias. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">June 16, 2011...</span><span class="citation-popover-meta">Published: June 16, 2011</span></span></span>
+At that point, human oversight remains present in a legal or organisational sense but loses much of its protective value. Researchers studying decision-support systems in healthcare, public administration, and other domains have repeatedly identified workload and time constraints as major contributors to automation bias.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">June 16, 2011...</span><span class="citation-popover-meta">Published: June 16, 2011</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_meaningful_hu_790c10_real_ai_overr_21366a-Illustration-2-dark.svg" | relative_url }}" alt="Override Power illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_meaningful_hu_790c10_real_ai_overr_21366a-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_meaningful_hu_790c10_real_ai_overr_21366a-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -346,7 +346,7 @@ Several factors can reinforce this dynamic:
 
 </div>
 
-The challenge is especially severe when reviewers do not fully understand the system. If people perceive the AI as possessing expertise beyond their own, they may hesitate to intervene even when they notice warning signs. Studies of automated decision-making have found that perceived machine expertise can discourage human intervention and strengthen reliance on system outputs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making_fr" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: edps.europa.eu">[edps.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">edps.europa.eu</span><span class="citation-popover-title">2025 09 23 techdispatch 22025 human oversight automated making fr</span><span class="citation-popover-snippet">TechDispatch #2/2025 - Human Oversight of Automated Decision-Making &#124; European Data Protection SupervisorSeptember 23, 2025...</span><span class="citation-popover-meta">Published: September 23, 2025</span></span></span>
+The challenge is especially severe when reviewers do not fully understand the system. If people perceive the AI as possessing expertise beyond their own, they may hesitate to intervene even when they notice warning signs. Studies of automated decision-making have found that perceived machine expertise can discourage human intervention and strengthen reliance on system outputs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making_fr" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: edps.europa.eu">[edps.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">edps.europa.eu</span><span class="citation-popover-title">2025 09 23 techdispatch 22025 human oversight automated making fr</span><span class="citation-popover-snippet">TechDispatch #2/2025 - Human Oversight of Automated Decision-Making &#124; European Data Protection SupervisorSeptember 23, 2025...</span><span class="citation-popover-meta">Published: September 23, 2025</span></span></span>
 
 The lesson is that oversight cannot be created solely through software design. Institutions must actively support disagreement. Staff need to know that challenging the system is part of their role, not evidence that they are obstructing efficiency.
 
@@ -372,9 +372,9 @@ Meaningful oversight therefore requires training that goes beyond operating inst
 
 </div>
 
-European regulatory guidance increasingly links human oversight to competence and training. High-risk AI systems are expected to be accompanied by information enabling overseers to understand capabilities, limitations, and risks of over-reliance. Deployers are expected to assign trained and authorised personnel rather than simply inserting any available employee into the workflow. AI Act Service Desk+2Responsible AI Platform <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">AI Act Service Desk Article 14: Human oversight &#124; AI Act Service Desk</span><span class="citation-popover-snippet">AI Act Service DeskArticle 14: Human oversight &#124; AI Act Service DeskJune 13, 2024...</span><span class="citation-popover-meta">Published: June 13, 2024</span></span></span>
+European regulatory guidance increasingly links human oversight to competence and training. High-risk AI systems are expected to be accompanied by information enabling overseers to understand capabilities, limitations, and risks of over-reliance. Deployers are expected to assign trained and authorised personnel rather than simply inserting any available employee into the workflow. AI Act Service Desk+2Responsible AI Platform<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">AI Act Service Desk Article 14: Human oversight &#124; AI Act Service Desk</span><span class="citation-popover-snippet">AI Act Service DeskArticle 14: Human oversight &#124; AI Act Service DeskJune 13, 2024...</span><span class="citation-popover-meta">Published: June 13, 2024</span></span></span>
 
-Training also helps counter automation bias. Research has found that users are less likely to over-rely on automated recommendations when they understand system limitations, remain accountable for outcomes, and receive information that supports independent evaluation rather than unquestioning acceptance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">June 16, 2011...</span><span class="citation-popover-meta">Published: June 16, 2011</span></span></span>
+Training also helps counter automation bias. Research has found that users are less likely to over-rely on automated recommendations when they understand system limitations, remain accountable for outcomes, and receive information that supports independent evaluation rather than unquestioning acceptance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">June 16, 2011...</span><span class="citation-popover-meta">Published: June 16, 2011</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_meaningful_hu_790c10_real_ai_overr_21366a-Illustration-3-dark.svg" | relative_url }}" alt="Override Power illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_meaningful_hu_790c10_real_ai_overr_21366a-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_meaningful_hu_790c10_real_ai_overr_21366a-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -399,201 +399,201 @@ Indicators that oversight is functioning include:
 
 By contrast, warning signs of symbolic oversight include near-universal acceptance of AI outputs, extremely rapid review times, lack of training on system limitations, and organisational cultures that treat disagreement as an exception requiring extraordinary justification.
 
-The distinction matters because high-risk AI governance ultimately depends on human judgement remaining capable of correcting machine error. A person who technically possesses override authority but lacks time, [confidence]({{ 'confidence/' | relative_url }}), information, or institutional backing does not provide a meaningful safeguard. Oversight becomes real only when humans are empowered not merely to observe AI decisions, but to challenge them and prevail when necessary. PMC+3AI Act Service Desk+3Responsible AI Platform <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">AI Act Service Desk Article 14: Human oversight &#124; AI Act Service Desk</span><span class="citation-popover-snippet">AI Act Service DeskArticle 14: Human oversight &#124; AI Act Service DeskJune 13, 2024...</span><span class="citation-popover-meta">Published: June 13, 2024</span></span></span>
+The distinction matters because high-risk AI governance ultimately depends on human judgement remaining capable of correcting machine error. A person who technically possesses override authority but lacks time, [confidence]({{ 'confidence/' | relative_url }}), information, or institutional backing does not provide a meaningful safeguard. Oversight becomes real only when humans are empowered not merely to observe AI decisions, but to challenge them and prevail when necessary. PMC+3AI Act Service Desk+3Responsible AI Platform<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">AI Act Service Desk Article 14: Human oversight &#124; AI Act Service Desk</span><span class="citation-popover-snippet">AI Act Service DeskArticle 14: Human oversight &#124; AI Act Service DeskJune 13, 2024...</span><span class="citation-popover-meta">Published: June 13, 2024</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/2taHNzCUNmc" title="Stop Automation Drift: 5 Rules for Human–AI Decision Rights" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=2taHNzCUNmc" target="_blank" rel="noopener noreferrer">Stop Automation Drift: 5 Rules for Human–AI Decision Rights</a></p><p class="youtube-embed-meta">Channel: Human Capital Innovations</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=2taHNzCUNmc" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=2taHNzCUNmc">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can the Human Really Say No?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can the Human Really Say No?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Centres on maintaining meaningful human control over AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Centres on maintaining meaningful human control over AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explores human judgment versus automated recommendations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores human judgment versus automated recommendations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open A Human Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ep2QEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for A Human Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="A Human Algorithm">A Human Algorithm</a>
-        </h4>
-        <p class="fr-book-author">By Flynn Coleman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open A Human Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ep2QEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for A Human Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="A Human Algorithm">A Human Algorithm</a>
+</h4>
+<p class="fr-book-author">By Flynn Coleman</p>
         
-        <p class="fr-book-desc">Discusses human authority, values, and oversight.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses human authority, values, and oversight.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Provides examples where humans failed to challenge flawed systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides examples where humans failed to challenge flawed systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=A+Human+Algorithm&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">A Human Algorithm</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=A+Human+Algorithm&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">A Human Algorithm</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="override-power-can-the-human-really-say-no-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -609,7 +609,7 @@ The distinction matters because high-risk AI governance ultimately depends on hu
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -629,7 +629,7 @@ The distinction matters because high-risk AI governance ultimately depends on hu
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -661,7 +661,7 @@ The distinction matters because high-risk AI governance ultimately depends on hu
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -713,7 +713,7 @@ The distinction matters because high-risk AI governance ultimately depends on hu
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -758,7 +758,7 @@ The distinction matters because high-risk AI governance ultimately depends on hu
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -799,98 +799,98 @@ The distinction matters because high-risk AI governance ultimately depends on hu
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ai-act-service-desk.ec.europa.eu  
    Title: AI Act Service Desk Article 14: Human oversight | AI Act Service Desk  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskArticle 14: Human oversight | AI Act Service DeskJune 13, 2024...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskArticle 14: Human oversight | AI Act Service DeskJune 13, 2024...</p></details>
    Published: June 13, 2024  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: ico.org.uk  
    Title: ICOHow do we ensure individual rights in our AI systems? | ICO  
-   Link: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/?search=synthetic" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/?search=synthetic</a>  
+   Link:<a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/?search=synthetic" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-individual-rights-in-our-ai-systems/?search=synthetic</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>June 16, 2011...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC3240751/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>June 16, 2011...</p></details>
    Published: June 16, 2011  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/358515845_Human-AI_Interactions_in_Public_Sector_Decision-Making_%27Automation_Bias%27_and_%27Selective_Adherence%27_to_Algorithmic_Advice" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/358515845_Human-AI_Interactions_in_Public_Sector_Decision-Making_%27Automation_Bias%27_and_%27Selective_Adherence%27_to_Algorithmic_Advice</a>  
+   Link:<a href="https://www.researchgate.net/publication/358515845_Human-AI_Interactions_in_Public_Sector_Decision-Making_%27Automation_Bias%27_and_%27Selective_Adherence%27_to_Algorithmic_Advice" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/358515845_Human-AI_Interactions_in_Public_Sector_Decision-Making_%27Automation_Bias%27_and_%27Selective_Adherence%27_to_Algorithmic_Advice</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: edps.europa.eu  
    Title: 2025 09 23 techdispatch 22025 human oversight automated making fr  
-   Link: <a href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making_fr" target="_blank" rel="noopener noreferrer nofollow">https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making_fr</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>TechDispatch #2/2025 - Human Oversight of Automated Decision-Making | European Data Protection SupervisorSeptember 23, 2025...</p></details>
+   Link:<a href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making_fr" target="_blank" rel="noopener noreferrer nofollow">https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making_fr</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>TechDispatch #2/2025 - Human Oversight of Automated Decision-Making | European Data Protection SupervisorSeptember 23, 2025...</p></details>
    Published: September 23, 2025  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: aiactblog.nl  
    Title: [Responsible AI](&#123;&#123; 'responsible-ai/' | relative_url &#125;&#125;) Platform Article 14 AI Act: official text and human oversight  
-   Link: <a href="https://www.aiactblog.nl/en/ai-act/artikel/14" target="_blank" rel="noopener noreferrer nofollow">https://www.aiactblog.nl/en/ai-act/artikel/14</a>  
+   Link:<a href="https://www.aiactblog.nl/en/ai-act/artikel/14" target="_blank" rel="noopener noreferrer nofollow">https://www.aiactblog.nl/en/ai-act/artikel/14</a>  
 
 ### Additional References
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: colab.ws  
-   Link: <a href="https://colab.ws/articles/10.1136%2Famiajnl-2011-000089" target="_blank" rel="noopener noreferrer nofollow">https://colab.ws/articles/10.1136%2Famiajnl-2011-000089</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Automation bias: a systematic review of frequency, effect mediators, and mitigators | CoLabJanuary 1, 2012...</p></details>
+   Link:<a href="https://colab.ws/articles/10.1136%2Famiajnl-2011-000089" target="_blank" rel="noopener noreferrer nofollow">https://colab.ws/articles/10.1136%2Famiajnl-2011-000089</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automation bias: a systematic review of frequency, effect mediators, and mitigators | CoLabJanuary 1, 2012...</p></details>
    Published: January 1, 2012  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/legaltech/comments/1s09ze3/eu_ai_act_the_gap_between_we_have_traces_and_we/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/legaltech/comments/1s09ze3/eu_ai_act_the_gap_between_we_have_traces_and_we/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act: the gap between “we have traces” and “we can hand evidence to a reviewer”March 22, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/legaltech/comments/1s09ze3/eu_ai_act_the_gap_between_we_have_traces_and_we/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/legaltech/comments/1s09ze3/eu_ai_act_the_gap_between_we_have_traces_and_we/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act: the gap between “we have traces” and “we can hand evidence to a reviewer”March 22, 2026...</p></details>
    Published: March 22, 2026  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/u_Companial/comments/1tikxs0/a_lot_of_companies_still_underestimate_what_the/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/u_Companial/comments/1tikxs0/a_lot_of_companies_still_underestimate_what_the/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>lot of companies still underestimate what the [EU AI Act](&amp;#123;&amp;#123; &#x27;eu-ai-act/&#x27; | relative_url &amp;#125;&amp;#125;) is actually changingMay 20, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/u_Companial/comments/1tikxs0/a_lot_of_companies_still_underestimate_what_the/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/u_Companial/comments/1tikxs0/a_lot_of_companies_still_underestimate_what_the/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>lot of companies still underestimate what the [EU AI Act](&amp;#123;&amp;#123; &#x27;eu-ai-act/&#x27; | relative_url &amp;#125;&amp;#125;) is actually changingMay 20, 2026...</p></details>
    Published: May 20, 2026  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: nist.gov  
    Title: www.nist.gov A I Risk Management Framework  
-   Link: <a href="https://www.nist.gov/node/1674691" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/node/1674691</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Risk Management Framework - Engage | NISTApril 9, 2025...</p></details>
+   Link:<a href="https://www.nist.gov/node/1674691" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/node/1674691</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Risk Management Framework - Engage | NISTApril 9, 2025...</p></details>
    Published: April 9, 2025  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
    Title: Audit Trails and AI Transparency  
-   Link: <a href="https://www.youtube.com/watch?v=tiDTHaytcRQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=tiDTHaytcRQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>2 AI Oversight vs. Liability: The Governance Blueprint...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=tiDTHaytcRQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=tiDTHaytcRQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>2 AI Oversight vs. Liability: The Governance Blueprint...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
    Title: Stop Automation Drift: 5 Rules for Human–AI Decision Rights  
-   Link: <a href="https://www.youtube.com/watch?v=2taHNzCUNmc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=2taHNzCUNmc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act Compliance Practical Guide | Evidence Chains for High-Risk AI...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=2taHNzCUNmc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=2taHNzCUNmc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act Compliance Practical Guide | Evidence Chains for High-Risk AI...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: reddit.com  
    Title: www.reddit.com When Should AI Override Human Decisions?  
-   Link: <a href="https://www.reddit.com/r/QuestionClass/comments/1tdvbcf/when_should_ai_override_human_decisions/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/QuestionClass/comments/1tdvbcf/when_should_ai_override_human_decisions/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Should AI Override Human Decisions?May 15, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/QuestionClass/comments/1tdvbcf/when_should_ai_override_human_decisions/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/QuestionClass/comments/1tdvbcf/when_should_ai_override_human_decisions/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Should AI Override Human Decisions?May 15, 2026...</p></details>
    Published: May 15, 2026  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: EU AI Act Compliance Practical Guide | Evidence Chains for High-Risk AI  
-   Link: <a href="https://www.youtube.com/watch?v=ltp7yZr0c-M" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ltp7yZr0c-M</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Webinar: Human Oversight in the EU AI Act...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=ltp7yZr0c-M" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ltp7yZr0c-M</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Webinar: Human Oversight in the EU AI Act...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
    Title: Webinar: Human Oversight in the EU AI Act  
-   Link: <a href="https://www.youtube.com/watch?v=ZNv_55fV-mw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ZNv_55fV-mw</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Audit Trails and AI Transparency - Regulatory Compliance under the EU AI Act...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=ZNv_55fV-mw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ZNv_55fV-mw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Audit Trails and AI Transparency - Regulatory Compliance under the EU AI Act...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: cir.nii.ac.jp  
-   Link: <a href="https://cir.nii.ac.jp/crid/1364233270256055552" target="_blank" rel="noopener noreferrer nofollow">https://cir.nii.ac.jp/crid/1364233270256055552</a>  
+   Link:<a href="https://cir.nii.ac.jp/crid/1364233270256055552" target="_blank" rel="noopener noreferrer nofollow">https://cir.nii.ac.jp/crid/1364233270256055552</a>  

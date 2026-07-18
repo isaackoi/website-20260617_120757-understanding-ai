@@ -273,7 +273,7 @@ Legal cases have become one of the clearest demonstrations of AI citation risk b
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_ai_fake_legal_25c405-Illustration-1-dark.svg" | relative_url }}" alt="Fake Cases illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_ai_fake_legal_25c405-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_ai_fake_legal_25c405-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Unlike a mistaken summary or a weak argument, a fabricated court decision creates a direct test. Either the case exists in the legal record or it does not. As a result, legal filings have provided some of the most visible evidence of how large [language models]({{ 'language-models/' | relative_url }}) can generate references that look authentic without being [grounded]({{ 'rag-errors/' | relative_url }}) in real sources. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
+Unlike a mistaken summary or a weak argument, a fabricated court decision creates a direct test. Either the case exists in the legal record or it does not. As a result, legal filings have provided some of the most visible evidence of how large [language models]({{ 'language-models/' | relative_url }}) can generate references that look authentic without being [grounded]({{ 'rag-errors/' | relative_url }}) in real sources.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/VbjlpXC2c7k" title="Real AI Failure Stories: AI Lies in Court" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=VbjlpXC2c7k" target="_blank" rel="noopener noreferrer">Real AI Failure Stories: AI Lies in Court</a></p><p class="youtube-embed-meta">Channel: YanAITalk</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=VbjlpXC2c7k" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=VbjlpXC2c7k">Open on YouTube</a></p></div></div></div>
@@ -295,7 +295,7 @@ This creates a specific vulnerability. A fabricated legal citation does not need
 
 </div>
 
-To a reader who does not immediately verify the authority, the citation can appear indistinguishable from a real case. The model has effectively learned the grammar of legal authority without necessarily knowing whether a particular authority exists. That makes law an unusually clear environment for observing the broader problem of AI-generated references. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://lawra.io/learn/program/case-studies/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lawra.io">[Lawra]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lawra.io</span><span class="citation-popover-title">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law</span><span class="citation-popover-snippet">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law...</span></span></span>
+To a reader who does not immediately verify the authority, the citation can appear indistinguishable from a real case. The model has effectively learned the grammar of legal authority without necessarily knowing whether a particular authority exists. That makes law an unusually clear environment for observing the broader problem of AI-generated references.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://lawra.io/learn/program/case-studies/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lawra.io">[Lawra]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lawra.io</span><span class="citation-popover-title">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law</span><span class="citation-popover-snippet">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law...</span></span></span>
 
 The legal profession also places enormous weight on citation. Lawyers are expected not merely to make arguments but to support them with authorities that courts can independently inspect. When a citation is fabricated, the failure is therefore visible in a way that many other [AI errors]({{ 'ai-errors/' | relative_url }}) are not.
 
@@ -306,20 +306,20 @@ The legal profession also places enormous weight on citation. Lawyers are expect
 
 The most influential example remains *Mata v. Avianca* in the United States District Court for the Southern District of New York.
 
-In 2023, lawyers representing a passenger in a lawsuit against Avianca Airlines submitted a filing that cited multiple judicial decisions that did not exist. The citations had been generated by ChatGPT during legal research. When opposing counsel and the court attempted to locate the authorities, they discovered that several of the cases were entirely fictitious. Judge P. Kevin Castel described the filing as containing non-existent judicial decisions and initiated sanctions proceedings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lawnext.com/2023/05/why-the-avianca-bogus-cases-news-is-not-about-either-generative-ai-or-lawyers-tech-competence.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lawnext.com">[LawSites]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lawnext.com</span><span class="citation-popover-title">Law Sites Why the Avianca &#x27;Bogus Cases&#x27; News Is Not About Either Generative AI or Lawyers&#x27; Tech Competence &#124; Law Sites</span><span class="citation-popover-snippet">LawSitesWhy the Avianca &#x27;Bogus Cases&#x27; News Is Not About Either Generative AI or Lawyers&#x27; Tech Competence &#124; LawSitesMay 30, 2023</span></span></span>
+In 2023, lawyers representing a passenger in a lawsuit against Avianca Airlines submitted a filing that cited multiple judicial decisions that did not exist. The citations had been generated by ChatGPT during legal research. When opposing counsel and the court attempted to locate the authorities, they discovered that several of the cases were entirely fictitious. Judge P. Kevin Castel described the filing as containing non-existent judicial decisions and initiated sanctions proceedings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lawnext.com/2023/05/why-the-avianca-bogus-cases-news-is-not-about-either-generative-ai-or-lawyers-tech-competence.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lawnext.com">[LawSites]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lawnext.com</span><span class="citation-popover-title">Law Sites Why the Avianca &#x27;Bogus Cases&#x27; News Is Not About Either Generative AI or Lawyers&#x27; Tech Competence &#124; Law Sites</span><span class="citation-popover-snippet">LawSitesWhy the Avianca &#x27;Bogus Cases&#x27; News Is Not About Either Generative AI or Lawyers&#x27; Tech Competence &#124; LawSitesMay 30, 2023</span></span></span>
 
 What made the incident especially important was not merely that false citations appeared in a court document. It was the way they appeared.
 
-The fabricated cases were not obviously absurd. They included believable names, legal reasoning and citation structures. According to accounts of the proceedings, the lawyer relied on ChatGPT and even asked the system whether the cases were genuine. The system incorrectly confirmed that they were real. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://lawra.io/learn/program/case-studies/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lawra.io">[Lawra]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lawra.io</span><span class="citation-popover-title">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law</span><span class="citation-popover-snippet">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law...</span></span></span>
+The fabricated cases were not obviously absurd. They included believable names, legal reasoning and citation structures. According to accounts of the proceedings, the lawyer relied on ChatGPT and even asked the system whether the cases were genuine. The system incorrectly confirmed that they were real.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://lawra.io/learn/program/case-studies/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lawra.io">[Lawra]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lawra.io</span><span class="citation-popover-title">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law</span><span class="citation-popover-snippet">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law...</span></span></span>
 
 The episode demonstrated several key lessons about AI citation risk:
 
 * [Confidence]({{ 'confidence/' | relative_url }}) is not evidence. AI systems can express certainty about invented sources.
 * Citation detail does not guarantee authenticity. A reference can contain extensive legal-looking information while remaining fictional.
 * Self-verification fails. Asking the same model whether its own citation is real may simply produce another hallucination.
-* Human responsibility remains central. The error occurred because the citations were not independently checked before filing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://lawra.io/learn/program/case-studies/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lawra.io">[Lawra]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lawra.io</span><span class="citation-popover-title">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law</span><span class="citation-popover-snippet">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law...</span></span></span>
+* Human responsibility remains central. The error occurred because the citations were not independently checked before filing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://lawra.io/learn/program/case-studies/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lawra.io">[Lawra]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lawra.io</span><span class="citation-popover-title">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law</span><span class="citation-popover-snippet">Mata v. Avianca: When AI Hallucinations Reach the Courtroom &#124; Lawra — AI in Law...</span></span></span>
 
-For many observers, *Mata v. Avianca* became the defining case showing that AI-generated citations are not merely academic curiosities. They can alter litigation, consume court resources and expose lawyers to professional sanctions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
+For many observers, *Mata v. Avianca* became the defining case showing that AI-generated citations are not merely academic curiosities. They can alter litigation, consume court resources and expose lawyers to professional sanctions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_ai_fake_legal_25c405-Illustration-2-dark.svg" | relative_url }}" alt="Fake Cases illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_ai_fake_legal_25c405-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_ai_fake_legal_25c405-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -327,7 +327,7 @@ For many observers, *Mata v. Avianca* became the defining case showing that AI-g
 
 Courts have generally treated fabricated citations as a professional responsibility issue rather than a technological excuse.
 
-The sanction order in *Mata v. Avianca* established a principle that has echoed through later discussions: attorneys remain responsible for the accuracy of what they submit, regardless of whether AI assisted in producing it. Courts do not accept the use of a chatbot as a substitute for verification. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
+The sanction order in *Mata v. Avianca* established a principle that has echoed through later discussions: attorneys remain responsible for the accuracy of what they submit, regardless of whether AI assisted in producing it. Courts do not accept the use of a chatbot as a substitute for verification.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
 
 The consequences of phantom citations extend beyond embarrassment:
 
@@ -338,11 +338,11 @@ The consequences of phantom citations extend beyond embarrassment:
 * Litigation costs increase.
 * Court records can become contaminated with false references.
 * Public trust in legal filings may be weakened.
-* Lawyers may face sanctions, reputational damage or disciplinary scrutiny. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
+* Lawyers may face sanctions, reputational damage or disciplinary scrutiny.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
 
 </div>
 
-The issue has become significant enough that courts and rule-makers have begun discussing formal safeguards. Recent discussions within the US legal system have included proposals requiring lawyers and litigants to certify that authorities cited in filings have been checked and are accurate, reflecting concern that AI-generated phantom cases continue to appear despite widespread awareness of the problem. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/law/comments/1twy7ns/us_judiciary_asked_to_adopt_rule_to_curb_fake/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-title">US judiciary asked to adopt rule to curb fake AI-generated cases in filings</span><span class="citation-popover-snippet">US judiciary asked to adopt rule to curb fake AI-generated cases in filingsJune 4, 2026...</span><span class="citation-popover-meta">Published: June 4, 2026</span></span></span>
+The issue has become significant enough that courts and rule-makers have begun discussing formal safeguards. Recent discussions within the US legal system have included proposals requiring lawyers and litigants to certify that authorities cited in filings have been checked and are accurate, reflecting concern that AI-generated phantom cases continue to appear despite widespread awareness of the problem.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/law/comments/1twy7ns/us_judiciary_asked_to_adopt_rule_to_curb_fake/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-title">US judiciary asked to adopt rule to curb fake AI-generated cases in filings</span><span class="citation-popover-snippet">US judiciary asked to adopt rule to curb fake AI-generated cases in filingsJune 4, 2026...</span><span class="citation-popover-meta">Published: June 4, 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/_HhhPLUJEJI" title="How Robinson &amp; Cole uses Westlaw to handle the AI hallucination problem" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=_HhhPLUJEJI" target="_blank" rel="noopener noreferrer">How Robinson &amp; Cole uses Westlaw to handle the AI hallucination problem</a></p><p class="youtube-embed-meta">Channel: Thomson Reuters</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=_HhhPLUJEJI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=_HhhPLUJEJI">Open on YouTube</a></p></div></div></div>
@@ -353,202 +353,202 @@ The importance of legal fake cases extends far beyond law. They provide a rare e
 
 In many fields, a fabricated source may go unnoticed because readers lack access to specialised databases or because verification is difficult. Court decisions are different. Their existence can usually be checked directly. That makes legal hallucinations unusually visible and measurable.
 
-Research evaluating AI-assisted legal research tools has reinforced this concern. Although specialised legal systems often perform better than general-purpose chatbots, studies have found that hallucinated legal information and citations can still occur, showing that the underlying challenge has not been fully solved. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2405.20362" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Research evaluating AI-assisted legal research tools has reinforced this concern. Although specialised legal systems often perform better than general-purpose chatbots, studies have found that hallucinated legal information and citations can still occur, showing that the underlying challenge has not been fully solved.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2405.20362" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
-For anyone trying to understand artificial intelligence, *Mata v. Avianca* offers a concrete lesson. AI can generate references that look authoritative because it has learned the patterns associated with authority. Yet producing something that resembles a citation is not the same as retrieving a real source. The legal system exposed this distinction with unusual clarity because a court citation is either genuine or it is not. When AI crossed that line, the consequences became impossible to ignore. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR+2Lawra]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
+For anyone trying to understand artificial intelligence, *Mata v. Avianca* offers a concrete lesson. AI can generate references that look authoritative because it has learned the patterns associated with authority. Yet producing something that resembles a citation is not the same as retrieving a real source. The legal system exposed this distinction with unusual clarity because a court citation is either genuine or it is not. When AI crossed that line, the consequences became impossible to ignore.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ixsor.com">[IXSOR+2Lawra]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ixsor.com</span><span class="citation-popover-snippet">Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</span><span class="citation-popover-meta">Published: May 6, 2026</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_ai_fake_legal_25c405-Illustration-3-dark.svg" | relative_url }}" alt="Fake Cases illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_ai_fake_legal_25c405-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_ai_fake_legal_25c405-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When AI invents legal authority. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When AI invents legal authority. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence and Legal Analytics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ExwsDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence and Legal Analytics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence and Legal Analytics">Artificial Intelligence and Legal Analytics</a>
-        </h4>
-        <p class="fr-book-author">By Kevin D. Ashley</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence and Legal Analytics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ExwsDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence and Legal Analytics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence and Legal Analytics">Artificial Intelligence and Legal Analytics</a>
+</h4>
+<p class="fr-book-author">By Kevin D. Ashley</p>
         
-        <p class="fr-book-desc">Explains how AI interacts with legal reasoning and legal sources.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how AI interacts with legal reasoning and legal sources.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Law and Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=oqB5EAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Law and Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Law and Artificial Intelligence">Law and Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Bart Custers, Eduard Fosch-Villaronga</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Law and Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=oqB5EAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Law and Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Law and Artificial Intelligence">Law and Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Bart Custers, Eduard Fosch-Villaronga</p>
         
-        <p class="fr-book-desc">Covers AI applications and governance issues in legal contexts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers AI applications and governance issues in legal contexts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The LegalTech Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MtHoDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The LegalTech Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The LegalTech Book">The LegalTech Book</a>
-        </h4>
-        <p class="fr-book-author">By Sophia Adams Bhatti, Akber Datoo et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The LegalTech Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MtHoDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The LegalTech Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The LegalTech Book">The LegalTech Book</a>
+</h4>
+<p class="fr-book-author">By Sophia Adams Bhatti, Akber Datoo et al.</p>
         
-        <p class="fr-book-desc">Directly connects AI tools, legal practice, and risks around unreliable outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly connects AI tools, legal practice, and risks around unreliable outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Future of the Professions on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sr9pEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Future of the Professions" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Future of the Professions">The Future of the Professions</a>
-        </h4>
-        <p class="fr-book-author">By Richard Susskind, Daniel Susskind</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Future of the Professions on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sr9pEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Future of the Professions" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Future of the Professions">The Future of the Professions</a>
+</h4>
+<p class="fr-book-author">By Richard Susskind, Daniel Susskind</p>
         
-        <p class="fr-book-desc">Provides context for how AI changes professional responsibility in law.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for how AI changes professional responsibility in law.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence and Legal Analytics</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Law and Artificial Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+LegalTech+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The LegalTech Book</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence and Legal Analytics</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Law and Artificial Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+LegalTech+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The LegalTech Book</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/0897eded9b536f769450.jpg' | relative_url }}" alt="Listing image for Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/0897eded9b536f769450.jpg' | relative_url }}" alt="Listing image for Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/733ab76412f032036068.jpg' | relative_url }}" alt="Listing image for Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/733ab76412f032036068.jpg' | relative_url }}" alt="Listing image for Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for High Tech Neural Network Intertwini Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/133e1c3a9e5312518c68.jpg' | relative_url }}" alt="Listing image for High Tech Neural Network Intertwini Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">High Tech Neural Network Intertwini Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for High Tech Neural Network Intertwini Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/133e1c3a9e5312518c68.jpg' | relative_url }}" alt="Listing image for High Tech Neural Network Intertwini Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">High Tech Neural Network Intertwini Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/7a9ac001fd831d4281df.jpg' | relative_url }}" alt="Listing image for Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/7a9ac001fd831d4281df.jpg' | relative_url }}" alt="Listing image for Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="fake-cases-834b4d-when-ai-invents-legal-authority-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -564,7 +564,7 @@ For anyone trying to understand artificial intelligence, *Mata v. Avianca* offer
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -584,7 +584,7 @@ For anyone trying to understand artificial intelligence, *Mata v. Avianca* offer
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -616,7 +616,7 @@ For anyone trying to understand artificial intelligence, *Mata v. Avianca* offer
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -668,7 +668,7 @@ For anyone trying to understand artificial intelligence, *Mata v. Avianca* offer
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -713,7 +713,7 @@ For anyone trying to understand artificial intelligence, *Mata v. Avianca* offer
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -754,80 +754,80 @@ For anyone trying to understand artificial intelligence, *Mata v. Avianca* offer
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ixsor.com  
-   Link: <a href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow">https://ixsor.com/insights/mata-three-years-on</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</p></details>
+   Link:<a href="https://ixsor.com/insights/mata-three-years-on" target="_blank" rel="noopener noreferrer nofollow">https://ixsor.com/insights/mata-three-years-on</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca, Three Years On · IXSORMay 6, 2026...</p></details>
    Published: May 6, 2026  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: lawra.io  
    Title: Mata v. Avianca: When AI Hallucinations Reach the Courtroom | Lawra — AI in Law  
-   Link: <a href="https://lawra.io/learn/program/case-studies/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow">https://lawra.io/learn/program/case-studies/mata-v-avianca/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca: When AI Hallucinations Reach the Courtroom | Lawra — AI in Law...</p></details>
+   Link:<a href="https://lawra.io/learn/program/case-studies/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow">https://lawra.io/learn/program/case-studies/mata-v-avianca/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca: When AI Hallucinations Reach the Courtroom | Lawra — AI in Law...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2405.20362" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2405.20362</a>  
+   Link:<a href="https://arxiv.org/abs/2405.20362" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2405.20362</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: reddit.com  
    Title: US judiciary asked to adopt rule to curb fake AI-generated cases in filings  
-   Link: <a href="https://www.reddit.com/r/law/comments/1twy7ns/us_judiciary_asked_to_adopt_rule_to_curb_fake/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/law/comments/1twy7ns/us_judiciary_asked_to_adopt_rule_to_curb_fake/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>US judiciary asked to adopt rule to curb fake AI-generated cases in filingsJune 4, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/law/comments/1twy7ns/us_judiciary_asked_to_adopt_rule_to_curb_fake/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/law/comments/1twy7ns/us_judiciary_asked_to_adopt_rule_to_curb_fake/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>US judiciary asked to adopt rule to curb fake AI-generated cases in filingsJune 4, 2026...</p></details>
    Published: June 4, 2026  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: reddit.com  
    Title: www.reddit.com What happens when you use Chat GPT to create a legal brief  
-   Link: <a href="https://www.reddit.com/r/auslaw/comments/13t4m7s" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/auslaw/comments/13t4m7s</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>happens when you use ChatGPT to create a legal briefMay 27, 2023...</p></details>
+   Link:<a href="https://www.reddit.com/r/auslaw/comments/13t4m7s" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/auslaw/comments/13t4m7s</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>happens when you use ChatGPT to create a legal briefMay 27, 2023...</p></details>
    Published: May 27, 2023  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: lawnext.com  
-   Link: <a href="https://www.lawnext.com/2023/05/why-the-avianca-bogus-cases-news-is-not-about-either-[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.lawnext.com/2023/05/why-the-avianca-bogus-cases-news-is-not-about-either-[generative-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>LawSitesWhy the Avianca &#x27;Bogus Cases&#x27; News Is Not About Either Generative AI or Lawyers&#x27; Tech Competence | LawSitesMay 30, 2023...</p></details>
+   Link:<a href="https://www.lawnext.com/2023/05/why-the-avianca-bogus-cases-news-is-not-about-either-[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.lawnext.com/2023/05/why-the-avianca-bogus-cases-news-is-not-about-either-[generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LawSitesWhy the Avianca &#x27;Bogus Cases&#x27; News Is Not About Either Generative AI or Lawyers&#x27; Tech Competence | LawSitesMay 30, 2023...</p></details>
    Published: May 30, 2023  
 
 ### Additional References
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=hyIPSkdzyAw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=hyIPSkdzyAw</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Can You Trust AI for Legal Advice? ChatGPT vs Grok...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=hyIPSkdzyAw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=hyIPSkdzyAw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Can You Trust AI for Legal Advice? ChatGPT vs Grok...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: legalclarity.org  
    Title: Mata v. Avianca: Fake Cases, Chat GPT, and Sanctions  
-   Link: <a href="https://legalclarity.org/what-happened-in-the-mata-v-[avianca-case" target="_blank" rel="noopener noreferrer nofollow">https://legalclarity.org/what-happened-in-the-mata-v-[avianca-case</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca: Fake Cases, ChatGPT, and Sanctions - LegalClarityApril 1, 2026...</p></details>
+   Link:<a href="https://legalclarity.org/what-happened-in-the-mata-v-[avianca-case" target="_blank" rel="noopener noreferrer nofollow">https://legalclarity.org/what-happened-in-the-mata-v-[avianca-case</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca: Fake Cases, ChatGPT, and Sanctions - LegalClarityApril 1, 2026...</p></details>
    Published: April 1, 2026  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: youtube.com  
    Title: Decorum.Law Relying on AI in the Practice of Law  
-   Link: <a href="https://www.youtube.com/watch?v=U9vEgd2RcBg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=U9vEgd2RcBg</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI and Ethics: Existential Lawyer Risks from AI Errors (Compounded by Judicial Hypocrisy)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=U9vEgd2RcBg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=U9vEgd2RcBg</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI and Ethics: Existential Lawyer Risks from AI Errors (Compounded by Judicial Hypocrisy)...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: youtube.com  
    Title: Can You Trust AI for Legal Advice? Chat GPT vs Grok  
-   Link: <a href="https://www.youtube.com/watch?v=q-tLOPwUsoM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=q-tLOPwUsoM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Robinson &amp; Cole uses Westlaw to handle the AI hallucination problem...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=q-tLOPwUsoM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=q-tLOPwUsoM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Robinson &amp; Cole uses Westlaw to handle the AI hallucination problem...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
    Title: Real AI Failure Stories: AI Lies in Court  
-   Link: <a href="https://www.youtube.com/watch?v=VbjlpXC2c7k" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=VbjlpXC2c7k</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Relying on AI in the Practice of Law...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=VbjlpXC2c7k" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=VbjlpXC2c7k</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Relying on AI in the Practice of Law...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: ai-law.co.uk  
    Title: Ai Hallucinations in Court: The Risks for Litigants in Person | Ai Law  
-   Link: <a href="https://ai-law.co.uk/ai-hallucinations-and-the-litigant-in-person-a-warning-from-the-courts/" target="_blank" rel="noopener noreferrer nofollow">https://ai-law.co.uk/ai-hallucinations-and-the-litigant-in-person-a-warning-from-the-courts/</a>  
+   Link:<a href="https://ai-law.co.uk/ai-hallucinations-and-the-litigant-in-person-a-warning-from-the-courts/" target="_blank" rel="noopener noreferrer nofollow">https://ai-law.co.uk/ai-hallucinations-and-the-litigant-in-person-a-warning-from-the-courts/</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
    Title: How Robinson & Cole uses Westlaw to handle the AI hallucination problem  
-   Link: <a href="https://www.youtube.com/watch?v=_HhhPLUJEJI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=_HhhPLUJEJI</a>  
+   Link:<a href="https://www.youtube.com/watch?v=_HhhPLUJEJI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=_HhhPLUJEJI</a>  

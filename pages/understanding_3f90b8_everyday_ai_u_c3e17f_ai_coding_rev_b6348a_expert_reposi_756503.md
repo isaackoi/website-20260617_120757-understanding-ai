@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6
 
 ## Introduction
 
-AI coding assistants can accelerate some programming tasks, but evidence suggests they may slow down experienced developers when those developers are working inside repositories they already know intimately. The reason is not that the generated code is always poor. Rather, experts often possess deep project knowledge that the AI lacks, forcing them to spend time verifying, correcting and integrating suggestions that are only partially aligned with the repository's architecture, conventions and hidden assumptions. A major 2025 study by the research organisation METR found that experienced open-source maintainers working on familiar projects completed tasks about 19% more slowly when AI assistance was available, despite expecting substantial [speed]({{ 'speed/' | relative_url }}) gains and continuing to feel more productive while using the tools. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</span></span></span>
+AI coding assistants can accelerate some programming tasks, but evidence suggests they may slow down experienced developers when those developers are working inside repositories they already know intimately. The reason is not that the generated code is always poor. Rather, experts often possess deep project knowledge that the AI lacks, forcing them to spend time verifying, correcting and integrating suggestions that are only partially aligned with the repository's architecture, conventions and hidden assumptions. A major 2025 study by the research organisation METR found that experienced open-source maintainers working on familiar projects completed tasks about 19% more slowly when AI assistance was available, despite expecting substantial [speed]({{ 'speed/' | relative_url }}) gains and continuing to feel more productive while using the tools.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6348a_expert_reposi_756503-Illustration-1-dark.svg" | relative_url }}" alt="Expert Slowdowns illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6348a_expert_reposi_756503-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6348a_expert_reposi_756503-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,15 +277,15 @@ This finding is especially important when discussing AI coding assistants and th
 
 ## What the METR Study Measured
 
-The strongest evidence for expert slowdowns comes from METR's randomised controlled trial of experienced open-source developers. Researchers recruited 16 developers who worked on mature repositories where they had, on average, around five years of prior experience. Across 246 real development tasks, participants were randomly assigned periods when AI tools were permitted and periods when they were not. The developers primarily used contemporary tools such as Cursor and Claude-based assistants. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</span></span></span>
+The strongest evidence for expert slowdowns comes from METR's randomised controlled trial of experienced open-source developers. Researchers recruited 16 developers who worked on mature repositories where they had, on average, around five years of prior experience. Across 246 real development tasks, participants were randomly assigned periods when AI tools were permitted and periods when they were not. The developers primarily used contemporary tools such as Cursor and Claude-based assistants.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</span></span></span>
 
-The expectation before the experiment was clear. Developers predicted that AI would reduce completion time by roughly 24%. Even after completing the tasks, they still believed AI had helped them work faster. Yet measured outcomes showed the opposite: tasks took approximately 19% longer when AI assistance was available. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</span></span></span>
+The expectation before the experiment was clear. Developers predicted that AI would reduce completion time by roughly 24%. Even after completing the tasks, they still believed AI had helped them work faster. Yet measured outcomes showed the opposite: tasks took approximately 19% longer when AI assistance was available.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</span></span></span>
 
-What makes the result noteworthy is the setting. The developers were not novices learning unfamiliar systems. They were maintainers working in repositories they already understood. That distinction helps explain why results differed from earlier studies that reported substantial productivity gains on narrower programming exercises. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</span></span></span>
+What makes the result noteworthy is the setting. The developers were not novices learning unfamiliar systems. They were maintainers working in repositories they already understood. That distinction helps explain why results differed from earlier studies that reported substantial productivity gains on narrower programming exercises.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</span></span></span>
 
 ## Where Review Time Accumulates
 
-The slowdown was not caused by AI generating completely unusable code. Instead, time accumulated across several review-related activities that experts could not safely skip. Researchers observed that developers spent less time directly typing code and searching for information, but more time prompting, waiting for responses, reviewing output and cleaning up generated changes. Roughly 9% of total task time was spent reviewing or correcting AI-generated code. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/using-ai-might-actually-slow-down-experienced-devs" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar+2IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Using AI might actually slow down experienced devs</span><span class="citation-popover-snippet">Conducted on 16 seasoned developers working on 246 tasks across familiar open-source projects, the study revealed that while developers i...</span></span></span>
+The slowdown was not caused by AI generating completely unusable code. Instead, time accumulated across several review-related activities that experts could not safely skip. Researchers observed that developers spent less time directly typing code and searching for information, but more time prompting, waiting for responses, reviewing output and cleaning up generated changes. Roughly 9% of total task time was spent reviewing or correcting AI-generated code.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/using-ai-might-actually-slow-down-experienced-devs" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar+2IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Using AI might actually slow down experienced devs</span><span class="citation-popover-snippet">Conducted on 16 seasoned developers working on 246 tasks across familiar open-source projects, the study revealed that while developers i...</span></span></span>
 
 Several forms of review overhead repeatedly appeared:
 
@@ -293,9 +293,9 @@ Several forms of review overhead repeatedly appeared:
 * **Validating correctness beyond compilation.** Experts often need to verify behaviour across multiple subsystems, not merely confirm that code runs.
 * **Removing subtle regressions.** AI can introduce duplication, unnecessary abstractions or maintenance problems that are difficult to detect automatically.
 * **Rewriting generated solutions.** A suggestion may solve the immediate problem while conflicting with long-term project direction.
-* **Confirming repository conventions.** Naming patterns, dependency policies and testing expectations frequently exist outside the AI's understanding. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</span></span></span>
+* **Confirming repository conventions.** Naming patterns, dependency policies and testing expectations frequently exist outside the AI's understanding.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</span></span></span>
 
-An important detail from the study is that fewer than 44% of AI suggestions were accepted as generated. Many outputs required significant modification before they could be merged into the project. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/using-ai-might-actually-slow-down-experienced-devs" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar+2IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Using AI might actually slow down experienced devs</span><span class="citation-popover-snippet">Conducted on 16 seasoned developers working on 246 tasks across familiar open-source projects, the study revealed that while developers i...</span></span></span>
+An important detail from the study is that fewer than 44% of AI suggestions were accepted as generated. Many outputs required significant modification before they could be merged into the project.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/using-ai-might-actually-slow-down-experienced-devs" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar+2IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Using AI might actually slow down experienced devs</span><span class="citation-popover-snippet">Conducted on 16 seasoned developers working on 246 tasks across familiar open-source projects, the study revealed that while developers i...</span></span></span>
 
 For an expert who already knows how to implement a change, reviewing and repairing an almost-correct solution can take longer than writing the solution directly.
 
@@ -306,7 +306,7 @@ For an expert who already knows how to implement a change, reviewing and repairi
 
 The key difference between beginners and experienced maintainers is the value of tacit knowledge.
 
-Large software repositories contain extensive information that is not fully documented: historical design decisions, known edge cases, compatibility concerns, performance trade-offs and social expectations among contributors. Experienced maintainers carry much of this knowledge in their heads. AI systems generally do not. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/software/development/think-ai-coding-tools-are-speeding-up-work-think-again-theyre-actually-slowing-developers-down" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-title">IT Pro Think AI coding tools are speeding up work?</span><span class="citation-popover-snippet">Think again - they&#x27;re actually slowing developers downA recent study by Model Evaluation &amp; Threat Research (METR) challenges common assum...</span></span></span>
+Large software repositories contain extensive information that is not fully documented: historical design decisions, known edge cases, compatibility concerns, performance trade-offs and social expectations among contributors. Experienced maintainers carry much of this knowledge in their heads. AI systems generally do not.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/software/development/think-ai-coding-tools-are-speeding-up-work-think-again-theyre-actually-slowing-developers-down" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-title">IT Pro Think AI coding tools are speeding up work?</span><span class="citation-popover-snippet">Think again - they&#x27;re actually slowing developers downA recent study by Model Evaluation &amp; Threat Research (METR) challenges common assum...</span></span></span>
 
 As a result, experts often face a paradox. The more they know about the repository, the easier it becomes for them to spot shortcomings in generated code. Every detected issue creates additional review work.
 
@@ -329,7 +329,7 @@ Experienced maintainers often already know:
 * Which architectural patterns should be followed.
 * Which tests are likely to fail.
 * Which implementation approaches have previously been rejected.
-* Which maintainers will review the change. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</span></span></span>
+* Which maintainers will review the change.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</span></span></span>
 
 </div>
 
@@ -337,7 +337,7 @@ Because much of the discovery work is already complete, AI has fewer opportuniti
 
 This shifts the cost-benefit calculation. Instead of replacing expensive reasoning, the AI adds an additional artefact that must be inspected. The value of generated code declines while the review burden remains.
 
-Axios summarised this distinction by noting that AI tools often perform better when creating new software than when extending complex, ongoing projects where existing structure and context matter more. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.axios.com/2025/07/15/ai-coding-productivity-study" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: axios.com">[Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">axios.com</span><span class="citation-popover-title">AI&#x27;s elusive coding speedup</span><span class="citation-popover-snippet">Examining experienced developers working with large open-source projects, the research found that AI often slows down coders rather than...</span></span></span>
+Axios summarised this distinction by noting that AI tools often perform better when creating new software than when extending complex, ongoing projects where existing structure and context matter more.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.axios.com/2025/07/15/ai-coding-productivity-study" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: axios.com">[Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">axios.com</span><span class="citation-popover-title">AI&#x27;s elusive coding speedup</span><span class="citation-popover-snippet">Examining experienced developers working with large open-source projects, the research found that AI often slows down coders rather than...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/xWcBLpymKLc" title="Why AI Might Be Making Developers SLOWER (Not Faster!) 🚨" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=xWcBLpymKLc" target="_blank" rel="noopener noreferrer">Why AI Might Be Making Developers SLOWER (Not Faster!) 🚨</a></p><p class="youtube-embed-meta">Channel: AppStuff</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=xWcBLpymKLc" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=xWcBLpymKLc">Open on YouTube</a></p></div></div></div>
@@ -346,14 +346,14 @@ Axios summarised this distinction by noting that AI tools often perform better w
 
 One of the most intriguing findings is that developers often felt faster even when objective measurements showed a slowdown.
 
-METR found that participants believed AI improved their productivity both before and after the experiment. Independent commentary on the study highlighted the gap between perceived and measured performance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Sean Goedecke]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</span></span></span>
+METR found that participants believed AI improved their productivity both before and after the experiment. Independent commentary on the study highlighted the gap between perceived and measured performance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Sean Goedecke]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</span></span></span>
 
 Several factors may contribute to this perception:
 
 * Watching code appear instantly creates a strong impression of progress.
 * Editing generated code can feel easier than starting from a blank file.
 * Cognitive effort may decrease even when elapsed time increases.
-* Developers may remember rapid generation moments more vividly than lengthy [verification]({{ 'verification-cost/' | relative_url }}) work. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/business/ai-slows-down-some-experienced-software-developers-study-finds-2025-07-10/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">AI slows down some experienced software developers, study finds A new study by the AI research nonprofit METR found that using AI coding</span><span class="citation-popover-snippet">Despite initially believing AI would speed up their work by 24%, developers took 19% longer to complete tasks with AI assistance. The res...</span></span></span>
+* Developers may remember rapid generation moments more vividly than lengthy [verification]({{ 'verification-cost/' | relative_url }}) work.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/business/ai-slows-down-some-experienced-software-developers-study-finds-2025-07-10/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">AI slows down some experienced software developers, study finds A new study by the AI research nonprofit METR found that using AI coding</span><span class="citation-popover-snippet">Despite initially believing AI would speed up their work by 24%, developers took 19% longer to complete tasks with AI assistance. The res...</span></span></span>
 
 In other words, AI can reduce the feeling of labour while increasing the amount of time required to finish a task. For maintainers, this distinction matters because software projects are ultimately constrained by completed work, not by subjective impressions of productivity.
 
@@ -363,187 +363,187 @@ In other words, AI can reduce the feeling of labour while increasing the amount 
 
 The evidence does not suggest that AI coding assistants are universally harmful. Instead, it indicates that their usefulness depends heavily on context.
 
-For experts working in repositories they know well, the central challenge is not generating code but preserving correctness, consistency and maintainability. AI-generated output frequently shifts effort from writing to reviewing. When project knowledge is extensive and quality standards are high, that review burden can outweigh the benefits of automated code generation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</span></span></span>
+For experts working in repositories they know well, the central challenge is not generating code but preserving correctness, consistency and maintainability. AI-generated output frequently shifts effort from writing to reviewing. When project knowledge is extensive and quality standards are high, that review burden can outweigh the benefits of automated code generation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</span></span></span>
 
-This helps explain why AI tools can simultaneously feel helpful and produce slower completion times. In familiar repositories, the expert's deepest advantage is contextual [understanding]({{ 'understanding/' | relative_url }}). The more important that understanding becomes, the more likely it is that AI-generated code will require careful scrutiny before it can be trusted. Recent research on AI-authored commits and AI-assisted review systems also points to ongoing concerns about maintenance costs and the need for substantial human quality assurance, reinforcing the idea that generation is only part of the development process. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2603.28592" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Debt Behind the AI Boom: A Large-Scale Empirical Study of AI-Generated Code in the WildMarch 30, 2026...</span><span class="citation-popover-meta">Published: March 30, 2026</span></span></span>
+This helps explain why AI tools can simultaneously feel helpful and produce slower completion times. In familiar repositories, the expert's deepest advantage is contextual [understanding]({{ 'understanding/' | relative_url }}). The more important that understanding becomes, the more likely it is that AI-generated code will require careful scrutiny before it can be trusted. Recent research on AI-authored commits and AI-assisted review systems also points to ongoing concerns about maintenance costs and the need for substantial human quality assurance, reinforcing the idea that generation is only part of the development process.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2603.28592" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Debt Behind the AI Boom: A Large-Scale Empirical Study of AI-Generated Code in the WildMarch 30, 2026...</span><span class="citation-popover-meta">Published: March 30, 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/7mWn-MUKk8A" title="Why AI Coding Assistants Make Experts Slower (The Paradox)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=7mWn-MUKk8A" target="_blank" rel="noopener noreferrer">Why AI Coding Assistants Make Experts Slower (The Paradox)</a></p><p class="youtube-embed-meta">Channel: AI Unfiltered with Thorsten Meyer</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=7mWn-MUKk8A" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=7mWn-MUKk8A">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why Can AI Make Expert Developers Slower?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why Can AI Make Expert Developers Slower?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Designing Data-intensive Applications on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BM7woQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Designing Data-intensive Applications" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Designing Data-intensive Applications">Designing Data-intensive Applications</a>
-        </h4>
-        <p class="fr-book-author">By Martin Kleppmann</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Designing Data-intensive Applications on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BM7woQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Designing Data-intensive Applications" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Designing Data-intensive Applications">Designing Data-intensive Applications</a>
+</h4>
+<p class="fr-book-author">By Martin Kleppmann</p>
         
-        <p class="fr-book-desc">Demonstrates the complexity of mature systems and repositories.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Demonstrates the complexity of mature systems and repositories.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Pragmatic Programmer on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5wBQEp6ruIAC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Pragmatic Programmer" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Pragmatic Programmer">The Pragmatic Programmer</a>
-        </h4>
-        <p class="fr-book-author">By Andrew Hunt, David Thomas</p>
-        <p class="fr-book-popularity">Rating: 4.5/5 from 7 Google Books ratings</p>
-        <p class="fr-book-desc">Explains expert judgment and project-specific knowledge.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Pragmatic Programmer on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5wBQEp6ruIAC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Pragmatic Programmer" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Pragmatic Programmer">The Pragmatic Programmer</a>
+</h4>
+<p class="fr-book-author">By Andrew Hunt, David Thomas</p>
+<p class="fr-book-popularity">Rating: 4.5/5 from 7 Google Books ratings</p>
+<p class="fr-book-desc">Explains expert judgment and project-specific knowledge.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Clean+Architecture+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Clean Architecture on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uGE1DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Clean Architecture" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Clean+Architecture+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Clean Architecture">Clean Architecture</a>
-        </h4>
-        <p class="fr-book-author">By Robert C. Martin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Clean+Architecture+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Clean Architecture on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uGE1DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Clean Architecture" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Clean+Architecture+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Clean Architecture">Clean Architecture</a>
+</h4>
+<p class="fr-book-author">By Robert C. Martin</p>
         
-        <p class="fr-book-desc">Highlights architectural constraints AI may miss.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Clean+Architecture+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Highlights architectural constraints AI may miss.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Clean+Architecture+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Refactoring on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=HmrDHwgkbPsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Refactoring" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Refactoring">Refactoring</a>
-        </h4>
-        <p class="fr-book-author">By Martin Fowler, Kent Beck et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Refactoring on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=HmrDHwgkbPsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Refactoring" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Refactoring">Refactoring</a>
+</h4>
+<p class="fr-book-author">By Martin Fowler, Kent Beck et al.</p>
         
-        <p class="fr-book-desc">Focuses on improving existing codebases rather than generating new code.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on improving existing codebases rather than generating new code.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Designing+Data+intensive+Applications&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Designing Data intensive Applications</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Pragmatic Programmer</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Clean+Architecture&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Clean Architecture</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Designing+Data+intensive+Applications&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Designing Data intensive Applications</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Pragmatic Programmer</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Clean+Architecture&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Clean Architecture</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8ba80ddd3cc27fa6c1b9.jpg' | relative_url }}" alt="Listing image for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Never Give Up Coding Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8ba80ddd3cc27fa6c1b9.jpg' | relative_url }}" alt="Listing image for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Never Give Up Coding Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/925d06fe336970b2c015.jpg' | relative_url }}" alt="Listing image for I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/925d06fe336970b2c015.jpg' | relative_url }}" alt="Listing image for I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Coder Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b93df232d4f49ade265c.jpg' | relative_url }}" alt="Listing image for Coding Coder Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Coding Coder Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Coder Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b93df232d4f49ade265c.jpg' | relative_url }}" alt="Listing image for Coding Coder Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Coding Coder Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="expert-slowdowns-why-can-ai-make-expert-developers-slower-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -559,7 +559,7 @@ This helps explain why AI tools can simultaneously feel helpful and produce slow
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -579,7 +579,7 @@ This helps explain why AI tools can simultaneously feel helpful and produce slow
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -611,7 +611,7 @@ This helps explain why AI tools can simultaneously feel helpful and produce slow
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -663,7 +663,7 @@ This helps explain why AI tools can simultaneously feel helpful and produce slow
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -708,7 +708,7 @@ This helps explain why AI tools can simultaneously feel helpful and produce slow
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -749,135 +749,135 @@ This helps explain why AI tools can simultaneously feel helpful and produce slow
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: metr.org  
    Title: 2025 07 10 early 2025 ai experienced os dev study  
-   Link: <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow">https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</p></details>
+   Link:<a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow">https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring the Impact of Early-2025 AI on Experienced...10 Jul 2025 — We conduct a randomized controlled trial (RCT) to understand ho...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2507.09089</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</p></details>
+   Link:<a href="https://arxiv.org/abs/2507.09089" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2507.09089</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/[business/ai" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/[business/ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Despite initially believing AI would speed up their work by 24%, developers took 19% longer to complete tasks with AI assistance. The res...</p></details>
+   Link:<a href="https://www.reuters.com/[business/ai" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/[business/ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Despite initially believing AI would speed up their work by 24%, developers took 19% longer to complete tasks with AI assistance. The res...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: techradar.com  
    Title: Tech Radar Using AI might actually slow down experienced devs  
-   Link: <a href="https://www.techradar.com/pro/using-ai-might-actually-slow-down-experienced-devs" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/using-ai-might-actually-slow-down-experienced-devs</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Conducted on 16 seasoned developers working on 246 tasks across familiar open-source projects, the study revealed that while developers i...</p></details>
+   Link:<a href="https://www.techradar.com/pro/using-ai-might-actually-slow-down-experienced-devs" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/using-ai-might-actually-slow-down-experienced-devs</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Conducted on 16 seasoned developers working on 246 tasks across familiar open-source projects, the study revealed that while developers i...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: axios.com  
    Title: AI's elusive coding speedup  
-   Link: <a href="https://www.axios.com/2025/07/15/ai-coding-productivity-study" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2025/07/15/ai-coding-productivity-study</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Examining experienced developers working with large open-source projects, the research found that AI often slows down coders rather than...</p></details>
+   Link:<a href="https://www.axios.com/2025/07/15/ai-coding-productivity-study" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2025/07/15/ai-coding-productivity-study</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Examining experienced developers working with large open-source projects, the research found that AI often slows down coders rather than...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: time.com  
    Title: In the Loop: AI Promised Faster Coding  
-   Link: <a href="https://time.com/7302351/ai-software-coding-study/" target="_blank" rel="noopener noreferrer nofollow">https://time.com/7302351/ai-software-coding-study/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>This Study DisagreesA recent METR study challenges the assumption that AI accelerates software development. In tests with 16 experienced...</p></details>
+   Link:<a href="https://time.com/7302351/ai-software-coding-study/" target="_blank" rel="noopener noreferrer nofollow">https://time.com/7302351/ai-software-coding-study/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This Study DisagreesA recent METR study challenges the assumption that AI accelerates software development. In tests with 16 experienced...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2603.28592" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.28592</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Debt Behind the AI Boom: A Large-Scale Empirical Study of AI-Generated Code in the WildMarch 30, 2026...</p></details>
+   Link:<a href="https://arxiv.org/abs/2603.28592" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.28592</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Debt Behind the AI Boom: A Large-Scale Empirical Study of AI-Generated Code in the WildMarch 30, 2026...</p></details>
    Published: March 30, 2026  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
    Title: arXiv Does AI [Code Review](&#123;&#123; 'code-review/' | relative_url &#125;&#125;) Lead to Code Changes? A Case Study of Git Hub Actions  
-   Link: <a href="https://arxiv.org/abs/2508.18771" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2508.18771</a>  
+   Link:<a href="https://arxiv.org/abs/2508.18771" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2508.18771</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: metr.org  
-   Link: <a href="https://metr.org/" target="_blank" rel="noopener noreferrer nofollow">https://metr.org/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>METR (pronounced &#x27;meter&#x27;) is a research nonprofit that scientifically measures whether and when AI systems might threaten catastrophi...</p></details>
+   Link:<a href="https://metr.org/" target="_blank" rel="noopener noreferrer nofollow">https://metr.org/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>METR (pronounced &#x27;meter&#x27;) is a research nonprofit that scientifically measures whether and when AI systems might threaten catastrophi...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: metr.org  
-   Link: <a href="https://metr.org/blog/2026-02-24-uplift-update/" target="_blank" rel="noopener noreferrer nofollow">https://metr.org/blog/2026-02-24-uplift-update/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>We are Changing our Developer Productivity Experiment...24 Feb 2026 — Our early 2025 study found the use of AI causes tasks to take 19%...</p></details>
+   Link:<a href="https://metr.org/blog/2026-02-24-uplift-update/" target="_blank" rel="noopener noreferrer nofollow">https://metr.org/blog/2026-02-24-uplift-update/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We are Changing our Developer Productivity Experiment...24 Feb 2026 — Our early 2025 study found the use of AI causes tasks to take 19%...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2507.09089" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2507.09089</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring the Impact of Early-2025 AI on Experienced...by J Becker · 2025 · Cited by 118 — We provide evidence that recent AI systems sl...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2507.09089" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2507.09089</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring the Impact of Early-2025 AI on Experienced...by J Becker · 2025 · Cited by 118 — We provide evidence that recent AI systems sl...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2510.10165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.10165</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Authors:...Read more...</p></details>
+   Link:<a href="https://arxiv.org/abs/2510.10165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.10165</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Authors:...Read more...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: itpro.com  
    Title: IT Pro Think AI coding tools are speeding up work?  
-   Link: <a href="https://www.itpro.com/software/development/think-ai-coding-tools-are-speeding-up-work-think-again-theyre-actually-slowing-developers-down" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/software/development/think-ai-coding-tools-are-speeding-up-work-think-again-theyre-actually-slowing-developers-down</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Think again - they&#x27;re actually slowing developers downA recent study by Model Evaluation &amp; Threat Research (METR) challenges common assum...</p></details>
+   Link:<a href="https://www.itpro.com/software/development/think-ai-coding-tools-are-speeding-up-work-think-again-theyre-actually-slowing-developers-down" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/software/development/think-ai-coding-tools-are-speeding-up-work-think-again-theyre-actually-slowing-developers-down</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Think again - they&#x27;re actually slowing developers downA recent study by Model Evaluation &amp; Threat Research (METR) challenges common assum...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: seangoedecke.com  
-   Link: <a href="https://www.seangoedecke.com/impact-of-ai-study/" target="_blank" rel="noopener noreferrer nofollow">https://www.seangoedecke.com/impact-of-ai-study/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Sean GoedeckeMETR&#x27;s AI productivity study is really goodJul 11, 2025 — The other half is even more interesting: developers came away from...</p></details>
+   Link:<a href="https://www.seangoedecke.com/impact-of-ai-study/" target="_blank" rel="noopener noreferrer nofollow">https://www.seangoedecke.com/impact-of-ai-study/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Sean GoedeckeMETR&#x27;s AI productivity study is really goodJul 11, 2025 — The other half is even more interesting: developers came away from...</p></details>
 
 ### Additional References
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/slatestarcodex/comments/1lwrb09/metr_finds_that_experienced_opensource_developers/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/slatestarcodex/comments/1lwrb09/metr_finds_that_experienced_opensource_developers/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>METR finds that experienced open-source developers...METR finds that experienced open-source developers work 19% slower when using Early...</p></details>
+   Link:<a href="https://www.reddit.com/r/slatestarcodex/comments/1lwrb09/metr_finds_that_experienced_opensource_developers/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/slatestarcodex/comments/1lwrb09/metr_finds_that_experienced_opensource_developers/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>METR finds that experienced open-source developers...METR finds that experienced open-source developers work 19% slower when using Early...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/thestevemitchell_measuring-the-impact-of-early-2025-ai-on-activity-7349786687230644225-OqTH" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/thestevemitchell_measuring-the-impact-of-early-2025-ai-on-activity-7349786687230644225-OqTH</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>METR study: AI assistants slow down experienced...A study from METR shows that experienced developers working with AI assistants produce...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/thestevemitchell_measuring-the-impact-of-early-2025-ai-on-activity-7349786687230644225-OqTH" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/thestevemitchell_measuring-the-impact-of-early-2025-ai-on-activity-7349786687230644225-OqTH</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>METR study: AI assistants slow down experienced...A study from METR shows that experienced developers working with AI assistants produce...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: thezvi.substack.com  
-   Link: <a href="https://thezvi.substack.com/p/on-metrs-ai-coding-rct" target="_blank" rel="noopener noreferrer nofollow">https://thezvi.substack.com/p/on-metrs-ai-coding-rct</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>METR&#x27;s AI Coding RCTWe ran a randomized controlled trial to see how much AI coding tools speed up experienced open-source developers. The...</p></details>
+   Link:<a href="https://thezvi.substack.com/p/on-metrs-ai-coding-rct" target="_blank" rel="noopener noreferrer nofollow">https://thezvi.substack.com/p/on-metrs-ai-coding-rct</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>METR&#x27;s AI Coding RCTWe ran a randomized controlled trial to see how much AI coding tools speed up experienced open-source developers. The...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: comtrade360.com  
-   Link: <a href="https://www.comtrade360.com/insights/ai-coding-assistants-are-great-for-mvps-and-demos-shipping-[production" target="_blank" rel="noopener noreferrer nofollow">https://www.comtrade360.com/insights/ai-coding-assistants-are-great-for-mvps-and-demos-shipping-[production</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI coding assistants are great for MVPs and demos25 Feb 2026 — AI coding assistants are great for MVPs and demos – shipping production co...</p></details>
+   Link:<a href="https://www.comtrade360.com/insights/ai-coding-assistants-are-great-for-mvps-and-demos-shipping-[production" target="_blank" rel="noopener noreferrer nofollow">https://www.comtrade360.com/insights/ai-coding-assistants-are-great-for-mvps-and-demos-shipping-[production</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI coding assistants are great for MVPs and demos25 Feb 2026 — AI coding assistants are great for MVPs and demos – shipping production co...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: odsc.medium.com  
-   Link: <a href="https://odsc.medium.com/new-study-finds-ai-tools-slow-experienced-developers-in-familiar-codebases-d92695f23665" target="_blank" rel="noopener noreferrer nofollow">https://odsc.medium.com/new-study-finds-ai-tools-slow-experienced-developers-in-familiar-codebases-d92695f23665</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Study Finds AI Tools Slow Experienced Developers in...New Study Finds AI Tools Slow Experienced Developers in Familiar Codebases · Produ...</p></details>
+   Link:<a href="https://odsc.medium.com/new-study-finds-ai-tools-slow-experienced-developers-in-familiar-codebases-d92695f23665" target="_blank" rel="noopener noreferrer nofollow">https://odsc.medium.com/new-study-finds-ai-tools-slow-experienced-developers-in-familiar-codebases-d92695f23665</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Study Finds AI Tools Slow Experienced Developers in...New Study Finds AI Tools Slow Experienced Developers in Familiar Codebases · Produ...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/luminousmen_measuring-the-impact-of-early-2025-ai-on-activity-7367262407888412672-Vk8A" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/luminousmen_measuring-the-impact-of-early-2025-ai-on-activity-7367262407888412672-Vk8A</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI coding tools slow down experienced developers, but...Back in July 2025, a study from METR made some noise: “Early-2025 AI coding tool...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/luminousmen_measuring-the-impact-of-early-2025-ai-on-activity-7367262407888412672-Vk8A" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/luminousmen_measuring-the-impact-of-early-2025-ai-on-activity-7367262407888412672-Vk8A</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI coding tools slow down experienced developers, but...Back in July 2025, a study from METR made some noise: “Early-2025 AI coding tool...</p></details>
    Published: July 2025  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: linkedin.com  
    Title: ai coding assistants may slow developers 19 familiar codebases jha vfqvc  
-   Link: <a href="https://www.linkedin.com/pulse/ai-coding-assistants-may-slow-developers-19-familiar-codebases-jha-vfqvc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ai-coding-assistants-may-slow-developers-19-familiar-codebases-jha-vfqvc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Coding Assistants May Slow Developers by 19% in...A July 2025 study by METR found that developers using Cursor in familiar codebases...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/ai-coding-assistants-may-slow-developers-19-familiar-codebases-jha-vfqvc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ai-coding-assistants-may-slow-developers-19-familiar-codebases-jha-vfqvc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Coding Assistants May Slow Developers by 19% in...A July 2025 study by METR found that developers using Cursor in familiar codebases...</p></details>
    Published: July 2025  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: britannica.com  
-   Link: <a href="https://www.britannica.com/technology/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/technology/artificial-intelligence</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>er or computer-controlled robot to perform tasks commonly associated with intelligent beings.Read more...</p></details>
+   Link:<a href="https://www.britannica.com/technology/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/technology/artificial-intelligence</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>er or computer-controlled robot to perform tasks commonly associated with intelligent beings.Read more...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: actuia.com  
    Title: a metr study reveals that ai slows down experienced developers  
-   Link: <a href="https://www.actuia.com/en/news/a-metr-study-reveals-that-ai-slows-down-experienced-developers/" target="_blank" rel="noopener noreferrer nofollow">https://www.actuia.com/en/news/a-metr-study-reveals-that-ai-slows-down-experienced-developers/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A METR Study Reveals that AI Slows Down Experienced...Jul 16, 2025 — TLDR: A study by METR found that experienced developers were 19% s...</p></details>
+   Link:<a href="https://www.actuia.com/en/news/a-metr-study-reveals-that-ai-slows-down-experienced-developers/" target="_blank" rel="noopener noreferrer nofollow">https://www.actuia.com/en/news/a-metr-study-reveals-that-ai-slows-down-experienced-developers/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A METR Study Reveals that AI Slows Down Experienced...Jul 16, 2025 — TLDR: A study by METR found that experienced developers were 19% s...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: letsdatascience.com  
    Title: developers thought ai made them faster the data said otherwise  
-   Link: <a href="https://letsdatascience.com/blog/developers-thought-ai-made-them-faster-the-data-said-otherwise" target="_blank" rel="noopener noreferrer nofollow">https://letsdatascience.com/blog/developers-thought-ai-made-them-faster-the-data-said-otherwise</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Coding Tools Made Developers 19% Slower: METR Study20 Feb 2026 — A gold-standard scientific study found AI coding tools made experienc...</p></details>
+   Link:<a href="https://letsdatascience.com/blog/developers-thought-ai-made-them-faster-the-data-said-otherwise" target="_blank" rel="noopener noreferrer nofollow">https://letsdatascience.com/blog/developers-thought-ai-made-them-faster-the-data-said-otherwise</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Coding Tools Made Developers 19% Slower: METR Study20 Feb 2026 — A gold-standard scientific study found AI coding tools made experienc...</p></details>

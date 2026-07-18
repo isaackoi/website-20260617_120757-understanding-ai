@@ -269,23 +269,23 @@ image: /assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8
 
 ## Introduction
 
-When an image-recognition model begins training, it has no built-in concept of a line, boundary or object. It sees only grids of colour values. Yet one of the most consistent findings in [deep learning]({{ 'deep-learning/' | relative_url }}) is that the earliest image-processing layers learn detectors that respond to edges, orientations and colour contrasts. This behaviour appears across many successful convolutional neural networks and has been repeatedly confirmed through filter visualisation studies. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n+2Distill]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
+When an image-recognition model begins training, it has no built-in concept of a line, boundary or object. It sees only grids of colour values. Yet one of the most consistent findings in [deep learning]({{ 'deep-learning/' | relative_url }}) is that the earliest image-processing layers learn detectors that respond to edges, orientations and colour contrasts. This behaviour appears across many successful convolutional neural networks and has been repeatedly confirmed through filter visualisation studies.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n+2Distill]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8f85_early_edge_de_32e14b-Illustration-1-dark.svg" | relative_url }}" alt="Edges illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8f85_early_edge_de_32e14b-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8f85_early_edge_de_32e14b-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-The reason is not that programmers explicitly teach networks what an edge is. Instead, edge-like features emerge because they are among the most useful and efficient patterns for reducing recognition errors. Sharp changes in brightness and colour often correspond to [meaningful]({{ 'human-review/' | relative_url }}) structure in the world, making them ideal building blocks for later layers that must recognise textures, shapes and ultimately whole objects. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n+2christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
+The reason is not that programmers explicitly teach networks what an edge is. Instead, edge-like features emerge because they are among the most useful and efficient patterns for reducing recognition errors. Sharp changes in brightness and colour often correspond to [meaningful]({{ 'human-review/' | relative_url }}) structure in the world, making them ideal building blocks for later layers that must recognise textures, shapes and ultimately whole objects.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n+2christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
 
 ## Pixels as Raw Colour Numbers
 
 A digital image starts as a collection of numbers. Each pixel stores colour information, but neighbouring pixels viewed individually provide little information about the scene. A single pixel does not reveal whether it belongs to a cat, a road sign or a person's face.
 
-What matters is how pixel values change across space. Consider two adjacent regions with very different brightness values. That sudden transition often marks a boundary between surfaces, materials or objects. In natural photographs, these transitions occur far more frequently than perfectly uniform areas. As a result, learning systems gain more useful information by focusing on changes than on absolute colour values alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.14665" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Why Convolutional Networks Learn Oriented Bandpass Filters: Theory and Empirical SupportNovember 30, 2020...</span><span class="citation-popover-meta">Published: November 30, 2020</span></span></span>
+What matters is how pixel values change across space. Consider two adjacent regions with very different brightness values. That sudden transition often marks a boundary between surfaces, materials or objects. In natural photographs, these transitions occur far more frequently than perfectly uniform areas. As a result, learning systems gain more useful information by focusing on changes than on absolute colour values alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.14665" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Why Convolutional Networks Learn Oriented Bandpass Filters: Theory and Empirical SupportNovember 30, 2020...</span><span class="citation-popover-meta">Published: November 30, 2020</span></span></span>
 
 From a recognition perspective, an image represented as millions of independent colour values is difficult to interpret. An image represented as a collection of boundaries and orientations is far easier for later layers to organise into meaningful structures.
 
 ## Why Local Filters Become Edge Detectors
 
-Convolutional neural networks process images using small filters that scan across local regions. During training, these filters are adjusted repeatedly to improve performance on the target task. Filters that discover useful visual regularities are strengthened; filters that contribute little are modified or discarded through optimisation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
+Convolutional neural networks process images using small filters that scan across local regions. During training, these filters are adjusted repeatedly to improve performance on the target task. Filters that discover useful visual regularities are strengthened; filters that contribute little are modified or discarded through optimisation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/zfiSAzpy9NM" title="Simple explanation of convolutional neural network | Deep Learning Tutorial 23 (Tensorflow &amp; Python)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=zfiSAzpy9NM" target="_blank" rel="noopener noreferrer">Simple explanation of convolutional neural network | Deep Learning Tutorial 23 (Tensorflow &amp; Python)</a></p><p class="youtube-embed-meta">Channel: codebasics &middot; Views: 1.4M &middot; Uploaded: October 2020 &middot; Length: 23 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=zfiSAzpy9NM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=zfiSAzpy9NM">Open on YouTube</a></p></div></div></div>
@@ -294,19 +294,19 @@ Convolutional neural networks process images using small filters that scan acros
 
 An edge summarises many pixels with a simple statement: "something changes here." Instead of memorising exact colour values, a network can represent a scene through locations where brightness or colour shifts sharply.
 
-This is valuable because object boundaries tend to remain informative even when lighting conditions, colours or backgrounds vary. A dark cat and a white cat may differ in pixel values, but both contain consistent contours and shape boundaries. Edge-sensitive filters therefore capture information that generalises across many examples. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
+This is valuable because object boundaries tend to remain informative even when lighting conditions, colours or backgrounds vary. A dark cat and a white cat may differ in pixel values, but both contain consistent contours and shape boundaries. Edge-sensitive filters therefore capture information that generalises across many examples.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
 
 ### Natural Images Contain Strong Boundary Structure
 
-Researchers have long observed that natural images are dominated by contours, orientations and local structures. Feature visualisation studies repeatedly show that early convolutional filters converge towards oriented edge patterns resembling classic image-processing operators and biological vision models. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aman.ai/cs231n/visualization/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aman.ai">[aman.ai+2cs.unm.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aman.ai</span><span class="citation-popover-snippet">CS231n • Visualizing and UnderstandingThe filters in first layer are learning primitive shapes, oriented edges, blob-like structures and...</span></span></span>
+Researchers have long observed that natural images are dominated by contours, orientations and local structures. Feature visualisation studies repeatedly show that early convolutional filters converge towards oriented edge patterns resembling classic image-processing operators and biological vision models.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aman.ai/cs231n/visualization/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aman.ai">[aman.ai+2cs.unm.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aman.ai</span><span class="citation-popover-snippet">CS231n • Visualizing and UnderstandingThe filters in first layer are learning primitive shapes, oriented edges, blob-like structures and...</span></span></span>
 
-A theoretical explanation is that natural scenes are rich in locally oriented structures. Filters that respond to specific directions—horizontal, vertical or diagonal—are therefore well matched to the statistical structure of real-world images. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.14665" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Why Convolutional Networks Learn Oriented Bandpass Filters: Theory and Empirical SupportNovember 30, 2020...</span><span class="citation-popover-meta">Published: November 30, 2020</span></span></span>
+A theoretical explanation is that natural scenes are rich in locally oriented structures. Filters that respond to specific directions—horizontal, vertical or diagonal—are therefore well matched to the statistical structure of real-world images.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.14665" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Why Convolutional Networks Learn Oriented Bandpass Filters: Theory and Empirical SupportNovember 30, 2020...</span><span class="citation-popover-meta">Published: November 30, 2020</span></span></span>
 
 ### Training Rewards Reusable Features
 
 The earliest layers must support every later recognition decision. A detector that responds to a specific dog breed would be too specialised for a first layer. An edge detector, however, is useful for recognising animals, vehicles, buildings, letters and faces.
 
-Because edge information helps many downstream tasks simultaneously, optimisation tends to favour these broadly reusable features. Networks discover that recognising simple boundaries first creates a foundation on which more specialised representations can be built. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
+Because edge information helps many downstream tasks simultaneously, optimisation tends to favour these broadly reusable features. Networks discover that recognising simple boundaries first creates a foundation on which more specialised representations can be built.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8f85_early_edge_de_32e14b-Illustration-2-dark.svg" | relative_url }}" alt="Edges illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8f85_early_edge_de_32e14b-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8f85_early_edge_de_32e14b-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -314,13 +314,13 @@ Because edge information helps many downstream tasks simultaneously, optimisatio
 
 One reason this phenomenon is well understood is that researchers can directly inspect learned filters. When the first convolutional layers of successful image networks are visualised, they commonly resemble:
 
-* Horizontal edge detectors <span class="citation-chip-wrap"><a class="citation-chip" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span> * Vertical edge detectors <span class="citation-chip-wrap"><a class="citation-chip" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span> * Diagonal edge detectors <span class="citation-chip-wrap"><a class="citation-chip" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
+* Horizontal edge detectors<span class="citation-chip-wrap"><a class="citation-chip" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span> * Vertical edge detectors<span class="citation-chip-wrap"><a class="citation-chip" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span> * Diagonal edge detectors<span class="citation-chip-wrap"><a class="citation-chip" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
 * Colour-opposition filters
-* Simple blob-like detectors <span class="citation-chip-wrap"><a class="citation-chip" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
+* Simple blob-like detectors<span class="citation-chip-wrap"><a class="citation-chip" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
 
-These patterns appear in many architectures trained on different image datasets. Stanford's CS231n materials highlight that first-layer filters frequently learn oriented edges and colour contrasts, while interpretability research consistently reports similar findings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aman.ai/cs231n/visualization/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aman.ai">[aman.ai+2CS231n]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aman.ai</span><span class="citation-popover-snippet">CS231n • Visualizing and UnderstandingThe filters in first layer are learning primitive shapes, oriented edges, blob-like structures and...</span></span></span>
+These patterns appear in many architectures trained on different image datasets. Stanford's CS231n materials highlight that first-layer filters frequently learn oriented edges and colour contrasts, while interpretability research consistently reports similar findings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aman.ai/cs231n/visualization/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aman.ai">[aman.ai+2CS231n]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aman.ai</span><span class="citation-popover-snippet">CS231n • Visualizing and UnderstandingThe filters in first layer are learning primitive shapes, oriented edges, blob-like structures and...</span></span></span>
 
-This consistency is important. It suggests that edge detection is not an arbitrary accident of a particular model design. Instead, it emerges repeatedly because it is an effective solution to the problem of extracting useful visual information from raw pixels. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
+This consistency is important. It suggests that edge detection is not an arbitrary accident of a particular model design. Instead, it emerges repeatedly because it is an effective solution to the problem of extracting useful visual information from raw pixels.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/6wcs6szJWMY" title="Lecture 12 | Visualizing and Understanding" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=6wcs6szJWMY" target="_blank" rel="noopener noreferrer">Lecture 12 | Visualizing and Understanding</a></p><p class="youtube-embed-meta">Channel: Stanford University School of Engineering &middot; Views: 270.7K &middot; Uploaded: August 2017 &middot; Length: 1 hour 15 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=6wcs6szJWMY" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=6wcs6szJWMY">Open on YouTube</a></p></div></div></div>
@@ -329,7 +329,7 @@ This consistency is important. It suggests that edge detection is not an arbitra
 
 The significance of edge detectors becomes clearer when considering what later layers need to accomplish.
 
-A deeper layer does not usually work directly with raw pixels. Instead, it receives activations indicating where edges, orientations and colour transitions were found. By combining these signals, it can identify corners, curves and repeated textures. Additional layers can then combine those structures into [object parts]({{ 'object-parts/' | relative_url }}) and larger visual concepts. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
+A deeper layer does not usually work directly with raw pixels. Instead, it receives activations indicating where edges, orientations and colour transitions were found. By combining these signals, it can identify corners, curves and repeated textures. Additional layers can then combine those structures into [object parts]({{ 'object-parts/' | relative_url }}) and larger visual concepts.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
 
 For example:
 
@@ -342,7 +342,7 @@ For example:
 
 </div>
 
-Without reliable boundary information at the start of the hierarchy, later layers would need to discover complex structures directly from raw pixel values, a far more difficult learning problem. Edge detectors simplify the task by creating a structured description of the image before higher-level reasoning begins. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
+Without reliable boundary information at the start of the hierarchy, later layers would need to discover complex structures directly from raw pixel values, a far more difficult learning problem. Edge detectors simplify the task by creating a structured description of the image before higher-level reasoning begins.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8f85_early_edge_de_32e14b-Illustration-3-dark.svg" | relative_url }}" alt="Edges illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8f85_early_edge_de_32e14b-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_image_layers_fa8f85_early_edge_de_32e14b-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -352,187 +352,187 @@ A common misconception is that networks gradually learn edges because researcher
 
 Objects are highly variable. The appearance of a chair changes with viewpoint, lighting, colour and background. Edges are much more stable. A boundary remains a boundary even when many other visual details change.
 
-Learning therefore tends to proceed from simple, broadly applicable signals toward increasingly specialised ones. Early layers discover patterns that occur almost everywhere. Later layers use those patterns to construct richer visual representations. Feature visualisation research consistently shows this progression from edge and texture detectors in shallow layers to more abstract structures in deeper layers. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
+Learning therefore tends to proceed from simple, broadly applicable signals toward increasingly specialised ones. Early layers discover patterns that occur almost everywhere. Later layers use those patterns to construct richer visual representations. Feature visualisation research consistently shows this progression from edge and texture detectors in shallow layers to more abstract structures in deeper layers.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: christophm.github.io">[christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">christophm.github.io</span><span class="citation-popover-snippet">27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</span></span></span>
 
-In this sense, edge detectors are not merely an early step in image recognition. They are the mechanism that transforms a raw grid of colour values into a form that later layers can organise into meaningful objects. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n+2christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
+In this sense, edge detectors are not merely an early step in image recognition. They are the mechanism that transforms a raw grid of colour values into a form that later layers can organise into meaningful objects.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs231n.github.io">[CS231n+2christophm.github.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs231n.github.io</span><span class="citation-popover-snippet">Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/ghEmQSxT6tw" title="Visualizing and Understanding Deep Neural Networks by Matt Zeiler" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=ghEmQSxT6tw" target="_blank" rel="noopener noreferrer">Visualizing and Understanding Deep Neural Networks by Matt Zeiler</a></p><p class="youtube-embed-meta">Channel: AI Council</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=ghEmQSxT6tw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=ghEmQSxT6tw">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why do AI vision models learn edges first?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why do AI vision models learn edges first?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Provides practical examples illustrating learned image features and CNN behaviour.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides practical examples illustrating learned image features and CNN behaviour.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning with Python on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wzozEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning with Python" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning with Python">Deep Learning with Python</a>
-        </h4>
-        <p class="fr-book-author">By Francois Chollet</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning with Python on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wzozEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning with Python" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning with Python">Deep Learning with Python</a>
+</h4>
+<p class="fr-book-author">By Francois Chollet</p>
         
-        <p class="fr-book-desc">Clearly explains convolutional filters, edge detectors, and feature hierarchies.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Clearly explains convolutional filters, edge detectors, and feature hierarchies.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Explains why early visual layers learn simple features before complex concepts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Explains why early visual layers learn simple features before complex concepts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+for+Vision+Systems+by+Mohamed+Elgendy&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning for Vision Systems on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=97YCEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning for Vision Systems" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+for+Vision+Systems+by+Mohamed+Elgendy&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning for Vision Systems">Deep Learning for Vision Systems</a>
-        </h4>
-        <p class="fr-book-author">By Mohamed Elgendy</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+for+Vision+Systems+by+Mohamed+Elgendy&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning for Vision Systems on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=97YCEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning for Vision Systems" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+for+Vision+Systems+by+Mohamed+Elgendy&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning for Vision Systems">Deep Learning for Vision Systems</a>
+</h4>
+<p class="fr-book-author">By Mohamed Elgendy</p>
         
-        <p class="fr-book-desc">Discusses CNN filters, edges, textures, and visual feature extraction.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+for+Vision+Systems+by+Mohamed+Elgendy&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses CNN filters, edges, textures, and visual feature extraction.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+for+Vision+Systems+by+Mohamed+Elgendy&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+with+Python&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning with Python</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+with+Python&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning with Python</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5dab8409dd06438db006.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5dab8409dd06438db006.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/fd00da1c57d275a856b1.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/fd00da1c57d275a856b1.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="edges-why-do-ai-vision-models-learn-edges-first-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -548,7 +548,7 @@ In this sense, edge detectors are not merely an early step in image recognition.
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -568,7 +568,7 @@ In this sense, edge detectors are not merely an early step in image recognition.
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -600,7 +600,7 @@ In this sense, edge detectors are not merely an early step in image recognition.
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -652,7 +652,7 @@ In this sense, edge detectors are not merely an early step in image recognition.
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -697,7 +697,7 @@ In this sense, edge detectors are not merely an early step in image recognition.
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -738,109 +738,109 @@ In this sense, edge detectors are not merely an early step in image recognition.
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: cs231n.github.io  
-   Link: <a href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow">https://cs231n.github.io/convolutional-networks/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</p></details>
+   Link:<a href="https://cs231n.github.io/convolutional-networks/" target="_blank" rel="noopener noreferrer nofollow">https://cs231n.github.io/convolutional-networks/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Convolutional Neural Networks (CNNs / ConvNets)Course materials and notes for Stanford class CS231n: Deep Learning for Computer Vision...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: distill.pub  
    Title: feature visualization  
-   Link: <a href="https://distill.pub/2017/feature-visualization" target="_blank" rel="noopener noreferrer nofollow">https://distill.pub/2017/feature-visualization</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>by C Olah · 2017 · Cited by 1615 — Feature visualization answers questions about what a network — or parts of a network — are looking for...</p></details>
+   Link:<a href="https://distill.pub/2017/feature-visualization" target="_blank" rel="noopener noreferrer nofollow">https://distill.pub/2017/feature-visualization</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by C Olah · 2017 · Cited by 1615 — Feature visualization answers questions about what a network — or parts of a network — are looking for...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: christophm.github.io  
-   Link: <a href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow">https://christophm.github.io/interpretable-ml-book/cnn-features.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</p></details>
+   Link:<a href="https://christophm.github.io/interpretable-ml-book/cnn-features.html" target="_blank" rel="noopener noreferrer nofollow">https://christophm.github.io/interpretable-ml-book/cnn-features.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>27 Learned Features – Interpretable Machine LearningThrough feature visualization, we have learned that neural networks learn simple edge...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: aman.ai  
-   Link: <a href="https://aman.ai/cs231n/visualization/" target="_blank" rel="noopener noreferrer nofollow">https://aman.ai/cs231n/visualization/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>CS231n • Visualizing and UnderstandingThe filters in first layer are learning primitive shapes, oriented edges, blob-like structures and...</p></details>
+   Link:<a href="https://aman.ai/cs231n/visualization/" target="_blank" rel="noopener noreferrer nofollow">https://aman.ai/cs231n/visualization/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CS231n • Visualizing and UnderstandingThe filters in first layer are learning primitive shapes, oriented edges, blob-like structures and...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2011.14665" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2011.14665</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Convolutional Networks Learn Oriented Bandpass Filters: Theory and Empirical SupportNovember 30, 2020...</p></details>
+   Link:<a href="https://arxiv.org/abs/2011.14665" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2011.14665</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Convolutional Networks Learn Oriented Bandpass Filters: Theory and Empirical SupportNovember 30, 2020...</p></details>
    Published: November 30, 2020  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: cs.unm.edu  
-   Link: <a href="https://www.cs.unm.edu/~xychen/tensorview-DIDL2017.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.cs.unm.edu/~xychen/tensorview-DIDL2017.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Visualizing the Training of Convolutional Neural Network...by X Chen · 2017 · Cited by 7 — From such feature maps we can identify edges...</p></details>
+   Link:<a href="https://www.cs.unm.edu/~xychen/tensorview-DIDL2017.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.cs.unm.edu/~xychen/tensorview-DIDL2017.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Visualizing the Training of Convolutional Neural Network...by X Chen · 2017 · Cited by 7 — From such feature maps we can identify edges...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: cs231n.stanford.edu  
-   Link: <a href="https://cs231n.stanford.edu/" target="_blank" rel="noopener noreferrer nofollow">https://cs231n.stanford.edu/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>University CS231n: Deep Learning for Computer VisionThe Convolutional Neural Network in this example is classifying images live in your b...</p></details>
+   Link:<a href="https://cs231n.stanford.edu/" target="_blank" rel="noopener noreferrer nofollow">https://cs231n.stanford.edu/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>University CS231n: Deep Learning for Computer VisionThe Convolutional Neural Network in this example is classifying images live in your b...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: cs231n.stanford.edu  
    Title: lecture 9  
-   Link: <a href="https://cs231n.stanford.edu/slides/2025/lecture_9.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cs231n.stanford.edu/slides/2025/lecture_9.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Design a network with only convolutional layers without downsampling operators to make [predictions](&amp;#123;&amp;#123; &#x27;predictions/&#x27; | relative_url &amp;#125;&amp;#125;) for pixels all at once!Read more...</p></details>
+   Link:<a href="https://cs231n.stanford.edu/slides/2025/lecture_9.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cs231n.stanford.edu/slides/2025/lecture_9.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Design a network with only convolutional layers without downsampling operators to make [predictions](&amp;#123;&amp;#123; &#x27;predictions/&#x27; | relative_url &amp;#125;&amp;#125;) for pixels all at once!Read more...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: cs231n.github.io  
-   Link: <a href="https://cs231n.github.io/[understanding" target="_blank" rel="noopener noreferrer nofollow">https://cs231n.github.io/[understanding</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Visualizing what ConvNets learnSeveral approaches for understanding and visualizing Convolutional Networks have been developed in the lit...</p></details>
+   Link:<a href="https://cs231n.github.io/[understanding" target="_blank" rel="noopener noreferrer nofollow">https://cs231n.github.io/[understanding</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Visualizing what ConvNets learnSeveral approaches for understanding and visualizing Convolutional Networks have been developed in the lit...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: dictionary.cambridge.org  
-   Link: <a href="https://dictionary.cambridge.org/dictionary/english/first" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english/first</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>English meaning - Cambridge Dictionary6 days ago — FIRST definition: 1. (a person or thing) coming before all others in order, time, am...</p></details>
+   Link:<a href="https://dictionary.cambridge.org/dictionary/english/first" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english/first</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>English meaning - Cambridge Dictionary6 days ago — FIRST definition: 1. (a person or thing) coming before all others in order, time, am...</p></details>
 
 ### Additional References
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/FirstBusUK/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/FirstBusUK/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>First Bus (@FirstBusUK)Our open-top bus services are back across the country, connecting some of the UK&#x27;s best beaches, coastlines, attra...</p></details>
+   Link:<a href="https://www.facebook.com/FirstBusUK/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/FirstBusUK/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>First Bus (@FirstBusUK)Our open-top bus services are back across the country, connecting some of the UK&#x27;s best beaches, coastlines, attra...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: firstbus.co.uk  
-   Link: <a href="https://www.firstbus.co.uk/" target="_blank" rel="noopener noreferrer nofollow">https://www.firstbus.co.uk/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>First Bus | Bus Tickets, Timetables &amp; Journey Planning | First BusOur UK Bus division operates around a fifth of local bus services in th...</p></details>
+   Link:<a href="https://www.firstbus.co.uk/" target="_blank" rel="noopener noreferrer nofollow">https://www.firstbus.co.uk/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>First Bus | Bus Tickets, Timetables &amp; Journey Planning | First BusOur UK Bus division operates around a fifth of local bus services in th...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: firstdirect.com  
-   Link: <a href="https://www.firstdirect.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.firstdirect.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Online and Personal Banking | first direct bankStraight-talking banking, direct helps over 1.7 million UK customers with current accounts...</p></details>
+   Link:<a href="https://www.firstdirect.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.firstdirect.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Online and Personal Banking | first direct bankStraight-talking banking, direct helps over 1.7 million UK customers with current accounts...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: openfl.pressbooks.pub  
-   Link: <a href="https://openfl.pressbooks.pub/unfbusinessanalytics/chapter/feature-visualization/" target="_blank" rel="noopener noreferrer nofollow">https://openfl.pressbooks.pub/unfbusinessanalytics/chapter/feature-visualization/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Visualization – [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) AnalyticsFeature visualization for a unit of a neural network is done by finding the input that maximizes the ac...</p></details>
+   Link:<a href="https://openfl.pressbooks.pub/unfbusinessanalytics/chapter/feature-visualization/" target="_blank" rel="noopener noreferrer nofollow">https://openfl.pressbooks.pub/unfbusinessanalytics/chapter/feature-visualization/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Visualization – [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) AnalyticsFeature visualization for a unit of a neural network is done by finding the input that maximizes the ac...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: machinelearningmastery.com  
    Title: how to visualize filters and feature maps in convolutional neural networks  
-   Link: <a href="https://www.machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/" target="_blank" rel="noopener noreferrer nofollow">https://www.machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Visualize Filters and Feature Maps in Convolutional...5 Jul 2019 — In this tutorial, you will discover how to develop simple visu...</p></details>
+   Link:<a href="https://www.machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/" target="_blank" rel="noopener noreferrer nofollow">https://www.machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Visualize Filters and Feature Maps in Convolutional...5 Jul 2019 — In this tutorial, you will discover how to develop simple visu...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=6wcs6szJWMY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=6wcs6szJWMY</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Lecture 12 | Visualizing and UnderstandingIn Lecture 12 we discuss methods for visualizing and understanding the internal mechanisms of c...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=6wcs6szJWMY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=6wcs6szJWMY</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Lecture 12 | Visualizing and UnderstandingIn Lecture 12 we discuss methods for visualizing and understanding the internal mechanisms of c...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: firstgroupplc.com  
-   Link: <a href="https://www.firstgroupplc.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.firstgroupplc.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FirstGroup plc: HomeFirstGroup is a leading private sector provider of public transport. We provide easy and convenient mobility, improvi...</p></details>
+   Link:<a href="https://www.firstgroupplc.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.firstgroupplc.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FirstGroup plc: HomeFirstGroup is a leading private sector provider of public transport. We provide easy and convenient mobility, improvi...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=zfiSAzpy9NM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zfiSAzpy9NM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Convolutional neural network visualization layer 1 filters edges What are Convolutional Neural Networks (CNNs)?...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=zfiSAzpy9NM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zfiSAzpy9NM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Convolutional neural network visualization layer 1 filters edges What are Convolutional Neural Networks (CNNs)?...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/7bfa99/r_feature_visualization_how_neural_networks_build/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/7bfa99/r_feature_visualization_how_neural_networks_build/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>the network, but maybe some portion of these visualizations is “...Read more...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/7bfa99/r_feature_visualization_how_neural_networks_build/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/7bfa99/r_feature_visualization_how_neural_networks_build/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>the network, but maybe some portion of these visualizations is “...Read more...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: mathworks.com  
    Title: Deep Learning Visualization Methods  
-   Link: <a href="https://www.mathworks.com/help/deeplearning/ug/deep-learning-visualization-methods.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mathworks.com/help/deeplearning/ug/deep-learning-visualization-methods.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MATLAB &amp; SimulinkVisualization methods are a type of interpretability technique that explain network predictions using visual representat...</p></details>
+   Link:<a href="https://www.mathworks.com/help/deeplearning/ug/deep-learning-visualization-methods.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mathworks.com/help/deeplearning/ug/deep-learning-visualization-methods.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MATLAB &amp; SimulinkVisualization methods are a type of interpretability technique that explain network predictions using visual representat...</p></details>

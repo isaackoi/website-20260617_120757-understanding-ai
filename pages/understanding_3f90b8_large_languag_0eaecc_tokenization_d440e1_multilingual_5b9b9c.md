@@ -269,31 +269,31 @@ image: /assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d44
 
 ## Introduction
 
-Tokenisation does not affect all languages equally. Because chatbots measure input, memory, and cost in tokens rather than words, people using different languages can receive different levels of efficiency from the same AI system. A sentence that fits comfortably into a chatbot's context window in one language may consume far more tokens in another. This difference can increase costs, reduce the amount of information the model can remember, and sometimes lower answer quality. Research over the past several years has increasingly identified this phenomenon as a form of tokenisation bias: a structural inequality created before the model even begins generating a response. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Model Tokenizers Introduce Unfairness</span><span class="citation-popover-snippet">Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</span><span class="citation-popover-meta">Published: May 17, 2023</span></span></span>
+Tokenisation does not affect all languages equally. Because chatbots measure input, memory, and cost in tokens rather than words, people using different languages can receive different levels of efficiency from the same AI system. A sentence that fits comfortably into a chatbot's context window in one language may consume far more tokens in another. This difference can increase costs, reduce the amount of information the model can remember, and sometimes lower answer quality. Research over the past several years has increasingly identified this phenomenon as a form of tokenisation bias: a structural inequality created before the model even begins generating a response.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Model Tokenizers Introduce Unfairness</span><span class="citation-popover-snippet">Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</span><span class="citation-popover-meta">Published: May 17, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_multilingual_5b9b9c-Illustration-1-dark.svg" | relative_url }}" alt="Language Bias illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_multilingual_5b9b9c-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_multilingual_5b9b9c-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Within the broader question of how tokenisation shapes chatbot answers, multilingual tokenisation bias is important because it affects billions of users who interact with AI in languages other than English. The issue is not simply translation quality. It concerns how efficiently different languages are represented inside the model itself. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2510.12389v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Tokenization Disparities as Infrastructure Bias14 Oct 2025 — This study conducts a large-scale cross-linguistic evaluation of tokeni...</span></span></span>
+Within the broader question of how tokenisation shapes chatbot answers, multilingual tokenisation bias is important because it affects billions of users who interact with AI in languages other than English. The issue is not simply translation quality. It concerns how efficiently different languages are represented inside the model itself.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2510.12389v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Tokenization Disparities as Infrastructure Bias14 Oct 2025 — This study conducts a large-scale cross-linguistic evaluation of tokeni...</span></span></span>
 
 ## Do tokens make some languages harder for AI?
 
-The short answer is yes. Modern [language models]({{ 'language-models/' | relative_url }}) typically use subword tokenisers that build vocabularies from frequently occurring character patterns. Languages that resemble the data used to construct those vocabularies often compress efficiently into relatively few tokens. Languages with different writing systems, longer word structures, or lower representation in training data may be fragmented into many more pieces. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Model Tokenizers Introduce Unfairness</span><span class="citation-popover-snippet">Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</span><span class="citation-popover-meta">Published: May 17, 2023</span></span></span>
+The short answer is yes. Modern [language models]({{ 'language-models/' | relative_url }}) typically use subword tokenisers that build vocabularies from frequently occurring character patterns. Languages that resemble the data used to construct those vocabularies often compress efficiently into relatively few tokens. Languages with different writing systems, longer word structures, or lower representation in training data may be fragmented into many more pieces.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Model Tokenizers Introduce Unfairness</span><span class="citation-popover-snippet">Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</span><span class="citation-popover-meta">Published: May 17, 2023</span></span></span>
 
-Researchers studying multilingual tokenisation found that identical content translated into different languages can require dramatically different [token counts]({{ 'token-costs/' | relative_url }}), with some comparisons showing differences of more than an order of magnitude. The disparity appears before any reasoning or generation occurs; it is built into the text representation itself. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Model Tokenizers Introduce Unfairness</span><span class="citation-popover-snippet">Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</span><span class="citation-popover-meta">Published: May 17, 2023</span></span></span>
+Researchers studying multilingual tokenisation found that identical content translated into different languages can require dramatically different [token counts]({{ 'token-costs/' | relative_url }}), with some comparisons showing differences of more than an order of magnitude. The disparity appears before any reasoning or generation occurs; it is built into the text representation itself.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Model Tokenizers Introduce Unfairness</span><span class="citation-popover-snippet">Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</span><span class="citation-popover-meta">Published: May 17, 2023</span></span></span>
 
-This means that two users asking the same question in different languages may not be consuming the same amount of the model's available resources. One user's request may occupy a small portion of the context window, while another's may consume a much larger share despite conveying the same information. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/anthology-files/anthology-files/pdf/emnlp/2023.emnlp-main.614.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">ACL Anthology Do All Languages Cost the Same?</span><span class="citation-popover-snippet">Tokenization in the Era...by O Ahia · Cited by 201 — Many commercial LMs are multilingual, and text from languages that suffer from exce...</span></span></span>
+This means that two users asking the same question in different languages may not be consuming the same amount of the model's available resources. One user's request may occupy a small portion of the context window, while another's may consume a much larger share despite conveying the same information.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/anthology-files/anthology-files/pdf/emnlp/2023.emnlp-main.614.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">ACL Anthology Do All Languages Cost the Same?</span><span class="citation-popover-snippet">Tokenization in the Era...by O Ahia · Cited by 201 — Many commercial LMs are multilingual, and text from languages that suffer from exce...</span></span></span>
 
 ## Why scripts and word structures get unequal token budgets
 
 The unequal treatment of languages comes from several overlapping factors.
 
-**Writing systems matter.** Many tokenisers were originally optimised using data dominated by English and other widely represented languages. Languages using Latin scripts often receive more efficient token allocations than languages written in other scripts. Studies examining hundreds of languages have found that non-Latin scripts frequently experience substantially higher token inflation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.12389" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Tokenization Disparities as Infrastructure Bias: How Subword Systems Create Inequities in LLM Access and EfficiencyOctober 14, 2025...</span><span class="citation-popover-meta">Published: October 14, 2025</span></span></span>
+**Writing systems matter.** Many tokenisers were originally optimised using data dominated by English and other widely represented languages. Languages using Latin scripts often receive more efficient token allocations than languages written in other scripts. Studies examining hundreds of languages have found that non-Latin scripts frequently experience substantially higher token inflation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.12389" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Tokenization Disparities as Infrastructure Bias: How Subword Systems Create Inequities in LLM Access and EfficiencyOctober 14, 2025...</span><span class="citation-popover-meta">Published: October 14, 2025</span></span></span>
 
-**Word formation matters.** Some languages pack extensive grammatical information into a single word. Languages with rich morphology can create long word forms that are uncommon enough to be broken into many token fragments. Each fragment consumes part of the model's context budget. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.05486" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Token Tax: Systematic Bias in Multilingual Tokenization</span><span class="citation-popover-snippet">The Token Tax: Systematic Bias in Multilingual TokenizationSeptember 5, 2025 — by JM Lundin · 2025 · Cited by 6 — Abstract:Tokenizat...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+**Word formation matters.** Some languages pack extensive grammatical information into a single word. Languages with rich morphology can create long word forms that are uncommon enough to be broken into many token fragments. Each fragment consumes part of the model's context budget.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.05486" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Token Tax: Systematic Bias in Multilingual Tokenization</span><span class="citation-popover-snippet">The Token Tax: Systematic Bias in Multilingual TokenizationSeptember 5, 2025 — by JM Lundin · 2025 · Cited by 6 — Abstract:Tokenizat...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
-**Vocabulary allocation matters.** Tokenisers have limited vocabulary space. Languages that appear more often in training corpora tend to receive more dedicated token entries. Lower-resource languages may be forced to share vocabulary capacity, resulting in less efficient segmentation. Research on multilingual tokenizer design shows that training data composition strongly influences which languages receive efficient representations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=P2k908rWSP" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">How Multilingual Dataset Composition Affects Tokenizer...by A Selvamurugan · Cited by 1 — TL;DR: Balanced multilingual dataset...</span></span></span>
+**Vocabulary allocation matters.** Tokenisers have limited vocabulary space. Languages that appear more often in training corpora tend to receive more dedicated token entries. Lower-resource languages may be forced to share vocabulary capacity, resulting in less efficient segmentation. Research on multilingual tokenizer design shows that training data composition strongly influences which languages receive efficient representations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=P2k908rWSP" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">How Multilingual Dataset Composition Affects Tokenizer...by A Selvamurugan · Cited by 1 — TL;DR: Balanced multilingual dataset...</span></span></span>
 
-A useful concept in this area is **token fertility**, which measures how many tokens are needed to represent a unit of text. Higher fertility generally means greater fragmentation. Researchers increasingly use fertility as a way to quantify tokenisation inequality across languages. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.09947" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Analyzing STRR as a Metric for Multilingual Tokenization</span><span class="citation-popover-snippet">Analyzing STRR as a Metric for Multilingual Tokenization...October 11, 2025 — by MT Nayeem · 2025 · Cited by 3 — We analyze six wid...</span><span class="citation-popover-meta">Published: October 11, 2025</span></span></span>
+A useful concept in this area is **token fertility**, which measures how many tokens are needed to represent a unit of text. Higher fertility generally means greater fragmentation. Researchers increasingly use fertility as a way to quantify tokenisation inequality across languages.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.09947" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Analyzing STRR as a Metric for Multilingual Tokenization</span><span class="citation-popover-snippet">Analyzing STRR as a Metric for Multilingual Tokenization...October 11, 2025 — by MT Nayeem · 2025 · Cited by 3 — We analyze six wid...</span><span class="citation-popover-meta">Published: October 11, 2025</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/dWRymdPtbp8" title="What the LLM Token Tax Means for Foreign-Language Prompts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=dWRymdPtbp8" target="_blank" rel="noopener noreferrer">What the LLM Token Tax Means for Foreign-Language Prompts</a></p><p class="youtube-embed-meta">Channel: BotVibe AI</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=dWRymdPtbp8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=dWRymdPtbp8">Open on YouTube</a></p></div></div></div>
@@ -304,23 +304,23 @@ A useful concept in this area is **token fertility**, which measures how many to
 
 Large language models have fixed context windows measured in tokens. If a language requires more tokens to express the same ideas, users effectively receive less working memory from the system.
 
-Imagine two users providing documents of similar meaning and length. If one language consumes twice as many tokens, that user may reach the context limit sooner. The chatbot then has less room available for instructions, examples, conversation history, or supporting evidence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pokutta.com/blog/hidden-cost-tokenization/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pokutta.com">[Interactive Optimization and Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pokutta.com</span><span class="citation-popover-snippet">Interactive Optimization and LearningThe Hidden Cost of TokenizationMay 14, 2026 — The basic point is simple: tokenization is not a neutr...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
+Imagine two users providing documents of similar meaning and length. If one language consumes twice as many tokens, that user may reach the context limit sooner. The chatbot then has less room available for instructions, examples, conversation history, or supporting evidence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pokutta.com/blog/hidden-cost-tokenization/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pokutta.com">[Interactive Optimization and Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pokutta.com</span><span class="citation-popover-snippet">Interactive Optimization and LearningThe Hidden Cost of TokenizationMay 14, 2026 — The basic point is simple: tokenization is not a neutr...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
 
-This can influence answer quality in subtle ways. The model may have to truncate information earlier or compress more aggressively, increasing the chance of omissions and misunderstandings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pokutta.com/blog/hidden-cost-tokenization/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pokutta.com">[Interactive Optimization and Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pokutta.com</span><span class="citation-popover-snippet">Interactive Optimization and LearningThe Hidden Cost of TokenizationMay 14, 2026 — The basic point is simple: tokenization is not a neutr...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
+This can influence answer quality in subtle ways. The model may have to truncate information earlier or compress more aggressively, increasing the chance of omissions and misunderstandings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pokutta.com/blog/hidden-cost-tokenization/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pokutta.com">[Interactive Optimization and Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pokutta.com</span><span class="citation-popover-snippet">Interactive Optimization and LearningThe Hidden Cost of TokenizationMay 14, 2026 — The basic point is simple: tokenization is not a neutr...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_multilingual_5b9b9c-Illustration-2-dark.svg" | relative_url }}" alt="Language Bias illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_multilingual_5b9b9c-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_multilingual_5b9b9c-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Higher usage costs
 
-Many commercial AI services charge according to token counts. When the same meaning requires more tokens in one language than another, users can end up paying more for equivalent interactions. Researchers analysing multilingual API usage have described this as a fairness problem because pricing appears language-neutral while actual token consumption is not. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/anthology-files/anthology-files/pdf/emnlp/2023.emnlp-main.614.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">ACL Anthology Do All Languages Cost the Same?</span><span class="citation-popover-snippet">Tokenization in the Era...by O Ahia · Cited by 201 — Many commercial LMs are multilingual, and text from languages that suffer from exce...</span></span></span>
+Many commercial AI services charge according to token counts. When the same meaning requires more tokens in one language than another, users can end up paying more for equivalent interactions. Researchers analysing multilingual API usage have described this as a fairness problem because pricing appears language-neutral while actual token consumption is not.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/anthology-files/anthology-files/pdf/emnlp/2023.emnlp-main.614.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">ACL Anthology Do All Languages Cost the Same?</span><span class="citation-popover-snippet">Tokenization in the Era...by O Ahia · Cited by 201 — Many commercial LMs are multilingual, and text from languages that suffer from exce...</span></span></span>
 
-Several studies refer to this phenomenon as a "token tax": speakers of certain languages consume more computational resources and therefore incur greater costs for comparable tasks. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.05486" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Token Tax: Systematic Bias in Multilingual Tokenization</span><span class="citation-popover-snippet">The Token Tax: Systematic Bias in Multilingual TokenizationSeptember 5, 2025 — by JM Lundin · 2025 · Cited by 6 — Abstract:Tokenizat...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+Several studies refer to this phenomenon as a "token tax": speakers of certain languages consume more computational resources and therefore incur greater costs for comparable tasks.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.05486" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Token Tax: Systematic Bias in Multilingual Tokenization</span><span class="citation-popover-snippet">The Token Tax: Systematic Bias in Multilingual TokenizationSeptember 5, 2025 — by JM Lundin · 2025 · Cited by 6 — Abstract:Tokenizat...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
 ### Lower task accuracy
 
-The consequences extend beyond efficiency. Research evaluating large language models across African languages found that higher token fertility consistently predicted lower performance on knowledge and reasoning [benchmarks]({{ 'benchmarks/' | relative_url }}). Languages requiring more fragmented representations tended to achieve lower accuracy scores. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2026.africanlp-main.10/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyThe Token Tax: Systematic Bias in Multilingual Tokenizationby JM Lundin · 2026 · Cited by 6 — We evaluate 10 Large Language...</span></span></span>
+The consequences extend beyond efficiency. Research evaluating large language models across African languages found that higher token fertility consistently predicted lower performance on knowledge and reasoning [benchmarks]({{ 'benchmarks/' | relative_url }}). Languages requiring more fragmented representations tended to achieve lower accuracy scores.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2026.africanlp-main.10/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyThe Token Tax: Systematic Bias in Multilingual Tokenizationby JM Lundin · 2026 · Cited by 6 — We evaluate 10 Large Language...</span></span></span>
 
-The likely explanation is that fragmentation makes learning harder. When a concept is repeatedly broken into varying token combinations, the model receives a less stable representation of that concept during training. Over time, this can reduce the quality of the statistical patterns the model learns. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.05486" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Token Tax: Systematic Bias in Multilingual Tokenization</span><span class="citation-popover-snippet">The Token Tax: Systematic Bias in Multilingual TokenizationSeptember 5, 2025 — by JM Lundin · 2025 · Cited by 6 — Abstract:Tokenizat...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+The likely explanation is that fragmentation makes learning harder. When a concept is repeatedly broken into varying token combinations, the model receives a less stable representation of that concept during training. Over time, this can reduce the quality of the statistical patterns the model learns.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.05486" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Token Tax: Systematic Bias in Multilingual Tokenization</span><span class="citation-popover-snippet">The Token Tax: Systematic Bias in Multilingual TokenizationSeptember 5, 2025 — by JM Lundin · 2025 · Cited by 6 — Abstract:Tokenizat...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/w3kZbsYvL9Y" title="What Are Tokens ? Why AI Companies Charge Per Word" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=w3kZbsYvL9Y" target="_blank" rel="noopener noreferrer">What Are Tokens ? Why AI Companies Charge Per Word</a></p><p class="youtube-embed-meta">Channel: Create How2</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=w3kZbsYvL9Y" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=w3kZbsYvL9Y">Open on YouTube</a></p></div></div></div>
@@ -329,11 +329,11 @@ The likely explanation is that fragmentation makes learning harder. When a conce
 
 Tokenisation bias is sometimes presented as a technical optimisation problem, but its effects are social as well as computational.
 
-When speakers of some languages pay more, receive less context, and experience lower accuracy from the same system, access to AI becomes uneven. The disparity is especially significant for languages that already face disadvantages in digital resources and [machine-learning]({{ 'machine-learning/' | relative_url }}) datasets. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2510.12389v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Tokenization Disparities as Infrastructure Bias14 Oct 2025 — This study conducts a large-scale cross-linguistic evaluation of tokeni...</span></span></span>
+When speakers of some languages pay more, receive less context, and experience lower accuracy from the same system, access to AI becomes uneven. The disparity is especially significant for languages that already face disadvantages in digital resources and [machine-learning]({{ 'machine-learning/' | relative_url }}) datasets.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2510.12389v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Tokenization Disparities as Infrastructure Bias14 Oct 2025 — This study conducts a large-scale cross-linguistic evaluation of tokeni...</span></span></span>
 
-Researchers have therefore begun describing tokenisation disparities as a form of infrastructure bias. The concern is that inequality is embedded into the foundational representation layer of AI systems, influencing downstream performance before model reasoning even begins. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2510.12389v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Tokenization Disparities as Infrastructure Bias14 Oct 2025 — This study conducts a large-scale cross-linguistic evaluation of tokeni...</span></span></span>
+Researchers have therefore begun describing tokenisation disparities as a form of infrastructure bias. The concern is that inequality is embedded into the foundational representation layer of AI systems, influencing downstream performance before model reasoning even begins.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2510.12389v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Tokenization Disparities as Infrastructure Bias14 Oct 2025 — This study conducts a large-scale cross-linguistic evaluation of tokeni...</span></span></span>
 
-The problem does not mean multilingual chatbots are failing across all non-English languages. Many modern systems have improved substantially, and recent multilingual models demonstrate strong performance in a growing number of underrepresented languages. However, improvements in model capability do not automatically eliminate tokenisation disparities. A model can become more multilingual while still allocating context and computational resources unevenly across languages. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/a-transformative-moment-research-shows-ai-could-become-the-king-of-babel-as-llms-master-rare-obscure-languages" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-snippet">Google’s Gemini Pro model, for instance, scored over 4.5 out of 5 in Kinyarwanda, a language spoken by around 12 million people in East A...</span></span></span>
+The problem does not mean multilingual chatbots are failing across all non-English languages. Many modern systems have improved substantially, and recent multilingual models demonstrate strong performance in a growing number of underrepresented languages. However, improvements in model capability do not automatically eliminate tokenisation disparities. A model can become more multilingual while still allocating context and computational resources unevenly across languages.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/a-transformative-moment-research-shows-ai-could-become-the-king-of-babel-as-llms-master-rare-obscure-languages" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-snippet">Google’s Gemini Pro model, for instance, scored over 4.5 out of 5 in Kinyarwanda, a language spoken by around 12 million people in East A...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_multilingual_5b9b9c-Illustration-3-dark.svg" | relative_url }}" alt="Language Bias illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_multilingual_5b9b9c-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_multilingual_5b9b9c-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -341,209 +341,209 @@ The problem does not mean multilingual chatbots are failing across all non-Engli
 
 Researchers and developers are exploring several approaches to reduce multilingual tokenisation bias.
 
-**Better vocabulary allocation.** Instead of allowing dominant languages to occupy most of the token vocabulary, tokenisers can be designed to distribute representation capacity more evenly across languages and scripts. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=P2k908rWSP" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">How Multilingual Dataset Composition Affects Tokenizer...by A Selvamurugan · Cited by 1 — TL;DR: Balanced multilingual dataset...</span></span></span>
+**Better vocabulary allocation.** Instead of allowing dominant languages to occupy most of the token vocabulary, tokenisers can be designed to distribute representation capacity more evenly across languages and scripts.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=P2k908rWSP" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">How Multilingual Dataset Composition Affects Tokenizer...by A Selvamurugan · Cited by 1 — TL;DR: Balanced multilingual dataset...</span></span></span>
 
-**Language-aware tokenisation.** Incorporating linguistic structure can help preserve [meaningful]({{ 'human-review/' | relative_url }}) units rather than splitting words into arbitrary fragments. This is particularly valuable for morphologically rich languages. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/blog/omarkamali/tokenization" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceTokenization is Killing our Multilingual LLM DreamMar 15, 2026 — The bad tokenizer destroys both plural and case information...</span></span></span>
+**Language-aware tokenisation.** Incorporating linguistic structure can help preserve [meaningful]({{ 'human-review/' | relative_url }}) units rather than splitting words into arbitrary fragments. This is particularly valuable for morphologically rich languages.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/blog/omarkamali/tokenization" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceTokenization is Killing our Multilingual LLM DreamMar 15, 2026 — The bad tokenizer destroys both plural and case information...</span></span></span>
 
-**New [fairness metrics]({{ 'fairness-metrics/' | relative_url }}).** Researchers increasingly argue that simple token counts are not enough. New measures examine token premiums, relative tokenisation costs, vocabulary allocation, and cross-language parity to identify hidden inequities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.21909" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Explaining and Mitigating Crosslingual Tokenizer Inequities</span><span class="citation-popover-snippet">Explaining and Mitigating Crosslingual Tokenizer InequitiesOctober 24, 2025...</span><span class="citation-popover-meta">Published: October 24, 2025</span></span></span>
+**New [fairness metrics]({{ 'fairness-metrics/' | relative_url }}).** Researchers increasingly argue that simple token counts are not enough. New measures examine token premiums, relative tokenisation costs, vocabulary allocation, and cross-language parity to identify hidden inequities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.21909" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Explaining and Mitigating Crosslingual Tokenizer Inequities</span><span class="citation-popover-snippet">Explaining and Mitigating Crosslingual Tokenizer InequitiesOctober 24, 2025...</span><span class="citation-popover-meta">Published: October 24, 2025</span></span></span>
 
-**Balanced multilingual training data.** Studies indicate that the composition of multilingual corpora strongly affects tokeniser behaviour. More balanced language representation during tokeniser construction can improve efficiency and fairness. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=P2k908rWSP" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">How Multilingual Dataset Composition Affects Tokenizer...by A Selvamurugan · Cited by 1 — TL;DR: Balanced multilingual dataset...</span></span></span>
+**Balanced multilingual training data.** Studies indicate that the composition of multilingual corpora strongly affects tokeniser behaviour. More balanced language representation during tokeniser construction can improve efficiency and fairness.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=P2k908rWSP" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">How Multilingual Dataset Composition Affects Tokenizer...by A Selvamurugan · Cited by 1 — TL;DR: Balanced multilingual dataset...</span></span></span>
 
-The broader lesson is that multilingual chatbot quality depends not only on model size or training data volume but also on how language is broken into tokens. Tokenisation determines how much of a user's language fits into the model's memory, how much interaction costs, and how effectively the model learns linguistic patterns. As AI systems become global infrastructure, those seemingly small design choices increasingly shape who benefits equally from them. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Model Tokenizers Introduce Unfairness</span><span class="citation-popover-snippet">Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</span><span class="citation-popover-meta">Published: May 17, 2023</span></span></span>
+The broader lesson is that multilingual chatbot quality depends not only on model size or training data volume but also on how language is broken into tokens. Tokenisation determines how much of a user's language fits into the model's memory, how much interaction costs, and how effectively the model learns linguistic patterns. As AI systems become global infrastructure, those seemingly small design choices increasingly shape who benefits equally from them.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Model Tokenizers Introduce Unfairness</span><span class="citation-popover-snippet">Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</span><span class="citation-popover-meta">Published: May 17, 2023</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/6F06blbbbY0" title="Tokenization Explained: The Hidden Step Behind Every LLM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=6F06blbbbY0" target="_blank" rel="noopener noreferrer">Tokenization Explained: The Hidden Step Behind Every LLM</a></p><p class="youtube-embed-meta">Channel: TechSharing</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=6F06blbbbY0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=6F06blbbbY0">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Do tokens make some languages harder for AI?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Do tokens make some languages harder for AI?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Explains tokenization trade-offs across languages.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains tokenization trade-offs across languages.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Discusses tokenization and multilingual transformer workflows.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses tokenization and multilingual transformer workflows.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
-        </h4>
-        <p class="fr-book-author">By Sebastian Raschka</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
+</h4>
+<p class="fr-book-author">By Sebastian Raschka</p>
         
-        <p class="fr-book-desc">Provides foundations for understanding multilingual token handling.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides foundations for understanding multilingual token handling.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Speech and Language Processing: Pearson New International Edition PDF eBook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5c5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Speech and Language Processing: Pearson New International Edition PDF eBook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Speech and Language Processing: Pearson New International Edition PDF eBook">Speech and Language Processing: Pearson New International Edi...</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Jurafsky, James H. Martin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Speech and Language Processing: Pearson New International Edition PDF eBook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5c5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Speech and Language Processing: Pearson New International Edition PDF eBook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Speech and Language Processing: Pearson New International Edition PDF eBook">Speech and Language Processing: Pearson New International Edi...</a>
+</h4>
+<p class="fr-book-author">By Daniel Jurafsky, James H. Martin</p>
         
-        <p class="fr-book-desc">Covers multilingual NLP and language representation issues.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers multilingual NLP and language representation issues.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Engineer Fixes Sh*t You Can&#x27;t T-Shirt Funny Joke Novelty Engineering Gift Idea"><img src="{{ '/assets/images/marketplace-covers/41bec180b39a2b0f829c.jpg' | relative_url }}" alt="Listing image for Engineer Fixes Sh*t You Can&#x27;t T-Shirt Funny Joke Novelty Engineering Gift Idea" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Engineer Fixes Sh*t You Can&#x27;t T-Shirt Funny Joke Novelty Engineering Gift Idea</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Engineer Fixes Sh*t You Can&#x27;t T-Shirt Funny Joke Novelty Engineering Gift Idea"><img src="{{ '/assets/images/marketplace-covers/41bec180b39a2b0f829c.jpg' | relative_url }}" alt="Listing image for Engineer Fixes Sh*t You Can&#x27;t T-Shirt Funny Joke Novelty Engineering Gift Idea" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Engineer Fixes Sh*t You Can&#x27;t T-Shirt Funny Joke Novelty Engineering Gift Idea</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/19be95544703293f404b.jpg' | relative_url }}" alt="Listing image for Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/19be95544703293f404b.jpg' | relative_url }}" alt="Listing image for Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9dcb5d5e835ce33e5e1a.jpg' | relative_url }}" alt="Listing image for Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9dcb5d5e835ce33e5e1a.jpg' | relative_url }}" alt="Listing image for Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Director Of Technology T Shirt - We Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology T-shirt Funny Engineer Technology Lover Birthday Gift for Him Her"><img src="{{ '/assets/images/marketplace-covers/2ef4dd18a99ffc6849a6.jpg' | relative_url }}" alt="Listing image for Technology T-shirt Funny Engineer Technology Lover Birthday Gift for Him Her" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Technology T-shirt Funny Engineer Technology Lover Birthday Gift for Him Her</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology T-shirt Funny Engineer Technology Lover Birthday Gift for Him Her"><img src="{{ '/assets/images/marketplace-covers/2ef4dd18a99ffc6849a6.jpg' | relative_url }}" alt="Listing image for Technology T-shirt Funny Engineer Technology Lover Birthday Gift for Him Her" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Technology T-shirt Funny Engineer Technology Lover Birthday Gift for Him Her</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology t shirt" data-ebay-reference="language-bias-do-tokens-make-some-languages-harder-for-ai-understanding-technology-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -559,7 +559,7 @@ The broader lesson is that multilingual chatbot quality depends not only on mode
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -579,7 +579,7 @@ The broader lesson is that multilingual chatbot quality depends not only on mode
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -611,7 +611,7 @@ The broader lesson is that multilingual chatbot quality depends not only on mode
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -663,7 +663,7 @@ The broader lesson is that multilingual chatbot quality depends not only on mode
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -708,7 +708,7 @@ The broader lesson is that multilingual chatbot quality depends not only on mode
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -749,154 +749,154 @@ The broader lesson is that multilingual chatbot quality depends not only on mode
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv Language Model Tokenizers Introduce Unfairness  
-   Link: <a href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.15425</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</p></details>
+   Link:<a href="https://arxiv.org/abs/2305.15425" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.15425</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language Model Tokenizers Introduce Unfairness...May 17, 2023 — by A Petrov · 2023 · Cited by 283 — In this paper, we show how disp...</p></details>
    Published: May 17, 2023  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2510.12389v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.12389v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization Disparities as Infrastructure Bias14 Oct 2025 — This study conducts a large-scale cross-linguistic evaluation of tokeni...</p></details>
+   Link:<a href="https://arxiv.org/html/2510.12389v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.12389v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization Disparities as Infrastructure Bias14 Oct 2025 — This study conducts a large-scale cross-linguistic evaluation of tokeni...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=P2k908rWSP" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=P2k908rWSP</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How Multilingual Dataset Composition Affects Tokenizer...by A Selvamurugan · Cited by 1 — TL;DR: Balanced multilingual dataset...</p></details>
+   Link:<a href="https://openreview.net/forum?id=P2k908rWSP" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=P2k908rWSP</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Multilingual Dataset Composition Affects Tokenizer...by A Selvamurugan · Cited by 1 — TL;DR: Balanced multilingual dataset...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: openreview.net  
    Title: Open Review Do All Languages Cost the Same?  
-   Link: <a href="https://openreview.net/forum?id=OUmxBN45Gl" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=OUmxBN45Gl</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>[Tokenization](&amp;#123;&amp;#123; &#x27;tokenization/&#x27; | relative_url &amp;#125;&amp;#125;) in the Era...by O Ahia · Cited by 191 — We conduct a systematic analysis of the cost and utility of OpenAI&#x27;s language model...</p></details>
+   Link:<a href="https://openreview.net/forum?id=OUmxBN45Gl" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=OUmxBN45Gl</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Tokenization](&amp;#123;&amp;#123; &#x27;tokenization/&#x27; | relative_url &amp;#125;&amp;#125;) in the Era...by O Ahia · Cited by 191 — We conduct a systematic analysis of the cost and utility of OpenAI&#x27;s language model...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2510.12389" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.12389</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization Disparities as Infrastructure Bias: How Subword Systems Create Inequities in LLM Access and EfficiencyOctober 14, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2510.12389" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.12389</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization Disparities as Infrastructure Bias: How Subword Systems Create Inequities in LLM Access and EfficiencyOctober 14, 2025...</p></details>
    Published: October 14, 2025  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv The Token Tax: Systematic Bias in Multilingual Tokenization  
-   Link: <a href="https://arxiv.org/abs/2509.05486" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.05486</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Token Tax: Systematic Bias in Multilingual TokenizationSeptember 5, 2025 — by JM Lundin · 2025 · Cited by 6 — Abstract:Tokenizat...</p></details>
+   Link:<a href="https://arxiv.org/abs/2509.05486" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.05486</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Token Tax: Systematic Bias in Multilingual TokenizationSeptember 5, 2025 — by JM Lundin · 2025 · Cited by 6 — Abstract:Tokenizat...</p></details>
    Published: September 5, 2025  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=UJiP3m3EXs" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=UJiP3m3EXs</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Rethinking Multilingual Tokenizer Designby A Thakur · Cited by 1 — This paper presents a systematic study of multilingual tokenizer desig...</p></details>
+   Link:<a href="https://openreview.net/forum?id=UJiP3m3EXs" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=UJiP3m3EXs</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Rethinking Multilingual Tokenizer Designby A Thakur · Cited by 1 — This paper presents a systematic study of multilingual tokenizer desig...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
    Title: arXiv Analyzing STRR as a Metric for Multilingual Tokenization  
-   Link: <a href="https://arxiv.org/abs/2510.09947" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.09947</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Analyzing STRR as a Metric for Multilingual Tokenization...October 11, 2025 — by MT Nayeem · 2025 · Cited by 3 — We analyze six wid...</p></details>
+   Link:<a href="https://arxiv.org/abs/2510.09947" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.09947</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Analyzing STRR as a Metric for Multilingual Tokenization...October 11, 2025 — by MT Nayeem · 2025 · Cited by 3 — We analyze six wid...</p></details>
    Published: October 11, 2025  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/a-transformative-moment-research-shows-ai-could-become-the-king-of-babel-as-llms-master-rare-obscure-languages" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/a-transformative-moment-research-shows-ai-could-become-the-king-of-babel-as-llms-master-rare-obscure-languages</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google’s Gemini Pro model, for instance, scored over 4.5 out of 5 in Kinyarwanda, a language spoken by around 12 million people in East A...</p></details>
+   Link:<a href="https://www.techradar.com/pro/a-transformative-moment-research-shows-ai-could-become-the-king-of-babel-as-llms-master-rare-obscure-languages" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/a-transformative-moment-research-shows-ai-could-become-the-king-of-babel-as-llms-master-rare-obscure-languages</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google’s Gemini Pro model, for instance, scored over 4.5 out of 5 in Kinyarwanda, a language spoken by around 12 million people in East A...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
    Title: arXiv Explaining and Mitigating Crosslingual Tokenizer Inequities  
-   Link: <a href="https://arxiv.org/abs/2510.21909" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.21909</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Explaining and Mitigating Crosslingual Tokenizer InequitiesOctober 24, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2510.21909" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.21909</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Explaining and Mitigating Crosslingual Tokenizer InequitiesOctober 24, 2025...</p></details>
    Published: October 24, 2025  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2510.09947v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.09947v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Analyzing STRR as a Metric for Multilingual Tokenization...Oct 11, 2025 — Tokenization is a foundational step in large language models (...</p></details>
+   Link:<a href="https://arxiv.org/html/2510.09947v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.09947v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Analyzing STRR as a Metric for Multilingual Tokenization...Oct 11, 2025 — Tokenization is a foundational step in large language models (...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: aclanthology.org  
    Title: ACL Anthology Do All Languages Cost the Same?  
-   Link: <a href="https://aclanthology.org/anthology-files/anthology-files/pdf/emnlp/2023.emnlp-main.614.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/anthology-files/anthology-files/pdf/emnlp/2023.emnlp-main.614.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization in the Era...by O Ahia · Cited by 201 — Many commercial LMs are multilingual, and text from languages that suffer from exce...</p></details>
+   Link:<a href="https://aclanthology.org/anthology-files/anthology-files/pdf/emnlp/2023.emnlp-main.614.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/anthology-files/anthology-files/pdf/emnlp/2023.emnlp-main.614.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization in the Era...by O Ahia · Cited by 201 — Many commercial LMs are multilingual, and text from languages that suffer from exce...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: pokutta.com  
-   Link: <a href="https://www.pokutta.com/blog/hidden-cost-tokenization/" target="_blank" rel="noopener noreferrer nofollow">https://www.pokutta.com/blog/hidden-cost-tokenization/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Interactive Optimization and LearningThe Hidden Cost of TokenizationMay 14, 2026 — The basic point is simple: tokenization is not a neutr...</p></details>
+   Link:<a href="https://www.pokutta.com/blog/hidden-cost-tokenization/" target="_blank" rel="noopener noreferrer nofollow">https://www.pokutta.com/blog/hidden-cost-tokenization/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Interactive Optimization and LearningThe Hidden Cost of TokenizationMay 14, 2026 — The basic point is simple: tokenization is not a neutr...</p></details>
    Published: May 14, 2026  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: aclanthology.org  
-   Link: <a href="https://aclanthology.org/2026.africanlp-main.10/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2026.africanlp-main.10/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyThe Token Tax: Systematic Bias in Multilingual Tokenizationby JM Lundin · 2026 · Cited by 6 — We evaluate 10 Large Language...</p></details>
+   Link:<a href="https://aclanthology.org/2026.africanlp-main.10/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2026.africanlp-main.10/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyThe Token Tax: Systematic Bias in Multilingual Tokenizationby JM Lundin · 2026 · Cited by 6 — We evaluate 10 Large Language...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/blog/omarkamali/tokenization" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/blog/omarkamali/tokenization</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceTokenization is Killing our Multilingual LLM DreamMar 15, 2026 — The bad tokenizer destroys both plural and case information...</p></details>
+   Link:<a href="https://huggingface.co/blog/omarkamali/tokenization" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/blog/omarkamali/tokenization</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceTokenization is Killing our Multilingual LLM DreamMar 15, 2026 — The bad tokenizer destroys both plural and case information...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Language" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Language</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LanguageLanguage is a structured system of communication that consists of grammar and vocabulary. It is the primary means by which hum...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Language" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Language</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LanguageLanguage is a structured system of communication that consists of grammar and vocabulary. It is the primary means by which hum...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: aclanthology.org  
    Title: 2025.unlp 1.1  
-   Link: <a href="https://aclanthology.org/2025.unlp-1.1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2025.unlp-1.1.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>From English-Centric to Effective Bilingual: LLMs with...by A Kiulian · 2025 · Cited by 11 — In this paper, we propose a model-agnostic...</p></details>
+   Link:<a href="https://aclanthology.org/2025.unlp-1.1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2025.unlp-1.1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>From English-Centric to Effective Bilingual: LLMs with...by A Kiulian · 2025 · Cited by 11 — In this paper, we propose a model-agnostic...</p></details>
 
 ### Additional References
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/396459552_Beyond_Fertility_Analyzing_STRR_as_a_Metric_for_Multilingual_Tokenization_Evaluation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/396459552_Beyond_Fertility_Analyzing_STRR_as_a_Metric_for_Multilingual_Tokenization_Evaluation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Beyond Fertility: Analyzing STRR as a Metric for...Oct 28, 2025 — We analyze six widely used tokenizers across seven languages and...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/396459552_Beyond_Fertility_Analyzing_STRR_as_a_Metric_for_Multilingual_Tokenization_Evaluation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/396459552_Beyond_Fertility_Analyzing_STRR_as_a_Metric_for_Multilingual_Tokenization_Evaluation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Beyond Fertility: Analyzing STRR as a Metric for...Oct 28, 2025 — We analyze six widely used tokenizers across seven languages and...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/llm-tokenization-explained-your-guide-how-large-language-models-du7ff" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/llm-tokenization-explained-your-guide-how-large-language-models-du7ff</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Your Guide to How Large Language Models Understand TextTokenization isn&#x27;t just about slicing text; it also affects how much content can b...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/llm-tokenization-explained-your-guide-how-large-language-models-du7ff" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/llm-tokenization-explained-your-guide-how-large-language-models-du7ff</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Your Guide to How Large Language Models Understand TextTokenization isn&#x27;t just about slicing text; it also affects how much content can b...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: axios.com  
-   Link: <a href="https://www.axios.com/2024/02/13/open-source-ai-languages" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2024/02/13/open-source-ai-languages</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Aya was developed by pre-training a base model with diverse language data and then fine-tuning it for the same languages. This initiative...</p></details>
+   Link:<a href="https://www.axios.com/2024/02/13/open-source-ai-languages" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2024/02/13/open-source-ai-languages</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Aya was developed by pre-training a base model with diverse language data and then fine-tuning it for the same languages. This initiative...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: semanticscholar.org  
-   Link: <a href="https://www.semanticscholar.org/paper/Language-Model-Tokenizers-Introduce-Unfairness-Petrov-Malfa/879a7f5abdb7ab803d48172d4f0830965f989d46" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Language-Model-Tokenizers-Introduce-Unfairness-Petrov-Malfa/879a7f5abdb7ab803d48172d4f0830965f989d46</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Language Model Tokenizers Introduce Unfairness...It is shown how disparity in the treatment of different languages arises at the t...</p></details>
+   Link:<a href="https://www.semanticscholar.org/paper/Language-Model-Tokenizers-Introduce-Unfairness-Petrov-Malfa/879a7f5abdb7ab803d48172d4f0830965f989d46" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Language-Model-Tokenizers-Introduce-Unfairness-Petrov-Malfa/879a7f5abdb7ab803d48172d4f0830965f989d46</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Language Model Tokenizers Introduce Unfairness...It is shown how disparity in the treatment of different languages arises at the t...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40geosar/the-importance-of-tokenizers-for-multilingual-llms-a-case-study-on-greek-af5301b0bacf" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40geosar/the-importance-of-tokenizers-for-multilingual-llms-a-case-study-on-greek-af5301b0bacf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Importance of Tokenizers for Multilingual LLMsIn this blog post, we explore the impact of tokenizers on the cost and downstream appli...</p></details>
+   Link:<a href="https://medium.com/%40geosar/the-importance-of-tokenizers-for-multilingual-llms-a-case-study-on-greek-af5301b0bacf" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40geosar/the-importance-of-tokenizers-for-multilingual-llms-a-case-study-on-greek-af5301b0bacf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Importance of Tokenizers for Multilingual LLMsIn this blog post, we explore the impact of tokenizers on the cost and downstream appli...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40adnanmasood/history-and-state-of-llms-for-low-resource-languages-lrls-987986a3f2f5" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/history-and-state-of-llms-for-low-resource-languages-lrls-987986a3f2f5</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Ali et al. (2023) conducted a comprehensive study and found...Read more...</p></details>
+   Link:<a href="https://medium.com/%40adnanmasood/history-and-state-of-llms-for-low-resource-languages-lrls-987986a3f2f5" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/history-and-state-of-llms-for-low-resource-languages-lrls-987986a3f2f5</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Ali et al. (2023) conducted a comprehensive study and found...Read more...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/1n0r8b7/i_built_a_tool_to_benchmark_tokenizers_across_100/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1n0r8b7/i_built_a_tool_to_benchmark_tokenizers_across_100/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>te way more vocabulary to English patterns. These compound...Read more...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/1n0r8b7/i_built_a_tool_to_benchmark_tokenizers_across_100/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1n0r8b7/i_built_a_tool_to_benchmark_tokenizers_across_100/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>te way more vocabulary to English patterns. These compound...Read more...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: gigaspaces.com  
-   Link: <a href="https://www.gigaspaces.com/question/are-there-specific-tokenization-strategies-for-multilingual-llm" target="_blank" rel="noopener noreferrer nofollow">https://www.gigaspaces.com/question/are-there-specific-tokenization-strategies-for-multilingual-llm</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>text into a form that the model can understand &amp; process efficiently...</p></details>
+   Link:<a href="https://www.gigaspaces.com/question/are-there-specific-tokenization-strategies-for-multilingual-llm" target="_blank" rel="noopener noreferrer nofollow">https://www.gigaspaces.com/question/are-there-specific-tokenization-strategies-for-multilingual-llm</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>text into a form that the model can understand &amp; process efficiently...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: aipmguru.substack.com  
    Title: the invisible upgrade how tokenization  
-   Link: <a href="https://aipmguru.substack.com/p/the-invisible-upgrade-how-tokenization" target="_blank" rel="noopener noreferrer nofollow">https://aipmguru.substack.com/p/the-invisible-upgrade-how-tokenization</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization Quietly Got Better (And Why Your AI Costs...What this means for you as a PM: multilingual products are suddenly much cheape...</p></details>
+   Link:<a href="https://aipmguru.substack.com/p/the-invisible-upgrade-how-tokenization" target="_blank" rel="noopener noreferrer nofollow">https://aipmguru.substack.com/p/the-invisible-upgrade-how-tokenization</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization Quietly Got Better (And Why Your AI Costs...What this means for you as a PM: multilingual products are suddenly much cheape...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: emergentmind.com  
    Title: tokenisation bias in language models  
-   Link: <a href="https://www.emergentmind.com/topics/tokenisation-bias-in-language-models" target="_blank" rel="noopener noreferrer nofollow">https://www.emergentmind.com/topics/tokenisation-bias-in-language-models</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>10 Feb 2026 — Tokenisation bias is a systematic distortion in LLMs arising from tokenization choices that fragment and misrepresent langu...</p></details>
+   Link:<a href="https://www.emergentmind.com/topics/tokenisation-bias-in-language-models" target="_blank" rel="noopener noreferrer nofollow">https://www.emergentmind.com/topics/tokenisation-bias-in-language-models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>10 Feb 2026 — Tokenisation bias is a systematic distortion in LLMs arising from tokenization choices that fragment and misrepresent langu...</p></details>

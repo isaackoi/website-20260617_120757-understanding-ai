@@ -269,13 +269,13 @@ image: /assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f0
 
 ## Introduction
 
-A central challenge for the European Union's AI Act is deciding where artificial intelligence ends and ordinary software begins. If the definition is too broad, routine tools such as spreadsheets, database systems and [business-rule]({{ 'rule-tools/' | relative_url }}) engines could fall under AI regulation. If it is too narrow, genuinely autonomous and inference-based systems might escape oversight. The European Commission's guidance on the AI Act attempts to solve this problem by focusing on *how* outputs are generated rather than on the task being performed. The key question is not whether software makes a recommendation, [prediction]({{ 'error-harms/' | relative_url }}) or decision, but whether it reaches that output through inferential techniques rather than solely through rules explicitly defined by humans. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu+2Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">A I Act Service Desk</span><span class="citation-popover-snippet">AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</span></span></span>
+A central challenge for the European Union's AI Act is deciding where artificial intelligence ends and ordinary software begins. If the definition is too broad, routine tools such as spreadsheets, database systems and [business-rule]({{ 'rule-tools/' | relative_url }}) engines could fall under AI regulation. If it is too narrow, genuinely autonomous and inference-based systems might escape oversight. The European Commission's guidance on the AI Act attempts to solve this problem by focusing on *how* outputs are generated rather than on the task being performed. The key question is not whether software makes a recommendation, [prediction]({{ 'error-harms/' | relative_url }}) or decision, but whether it reaches that output through inferential techniques rather than solely through rules explicitly defined by humans.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu+2Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">A I Act Service Desk</span><span class="citation-popover-snippet">AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f02b58_eu_ai_act_sof_1e826d-Illustration-1-dark.svg" | relative_url }}" alt="EU guidance illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f02b58_eu_ai_act_sof_1e826d-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f02b58_eu_ai_act_sof_1e826d-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## Why the AI Act avoids covering every software tool
 
-The AI Act's definition was deliberately designed to distinguish AI systems from what the legislation calls simpler traditional software systems and conventional programming approaches. Recital 12 of the Act states that the rules should not cover systems that merely execute operations based on rules defined solely by human beings. Instead, a defining characteristic of AI systems is the capability to infer how outputs should be generated from inputs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">A I Act Service Desk</span><span class="citation-popover-snippet">AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</span></span></span>
+The AI Act's definition was deliberately designed to distinguish AI systems from what the legislation calls simpler traditional software systems and conventional programming approaches. Recital 12 of the Act states that the rules should not cover systems that merely execute operations based on rules defined solely by human beings. Instead, a defining characteristic of AI systems is the capability to infer how outputs should be generated from inputs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">A I Act Service Desk</span><span class="citation-popover-snippet">AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</span></span></span>
 
 This distinction addresses a practical regulatory problem. Modern organisations rely on countless [automated]({{ 'decisions/' | relative_url }}) systems that process information without exhibiting what policymakers consider AI behaviour. Examples include:
 
@@ -284,18 +284,18 @@ This distinction addresses a practical regulatory problem. Modern organisations 
 * Workflow tools that route documents according to fixed [business]({{ 'business-adoption/' | relative_url }}) rules.
 * Software scripts that execute predefined instructions in a known sequence.
 
-Such systems may be complex, expensive or highly useful, but complexity alone does not make them AI. The Commission's guidance repeatedly emphasises that the relevant question is whether the software can derive or infer how to produce outputs rather than simply carrying out human-authored instructions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu+2Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">Commission Guidelines on the definition of an artificial...29 Jul 2025 — This approach to define an AI system reflects the complexity an...</span></span></span>
+Such systems may be complex, expensive or highly useful, but complexity alone does not make them AI. The Commission's guidance repeatedly emphasises that the relevant question is whether the software can derive or infer how to produce outputs rather than simply carrying out human-authored instructions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu+2Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">Commission Guidelines on the definition of an artificial...29 Jul 2025 — This approach to define an AI system reflects the complexity an...</span></span></span>
 
-The result is a boundary that aims to be technology-neutral. A system is not regulated as AI because it operates in finance, healthcare or human resources. It is regulated as AI because of the computational method used to generate outcomes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.globalpolicywatch.com/2025/06/european-commission-guidelines-on-the-definition-of-an-ai-system/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: globalpolicywatch.com">[Global Policy Watch]</a><span class="citation-popover" role="note"><span class="citation-popover-source">globalpolicywatch.com</span><span class="citation-popover-title">european commission guidelines on the definition of an ai system</span><span class="citation-popover-snippet">Global Policy WatchEuropean Commission Guidelines on the Definition of an “...5 Jun 2025 — The AI Act (Article 3(1)) defines an “AI syst...</span></span></span>
+The result is a boundary that aims to be technology-neutral. A system is not regulated as AI because it operates in finance, healthcare or human resources. It is regulated as AI because of the computational method used to generate outcomes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.globalpolicywatch.com/2025/06/european-commission-guidelines-on-the-definition-of-an-ai-system/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: globalpolicywatch.com">[Global Policy Watch]</a><span class="citation-popover" role="note"><span class="citation-popover-source">globalpolicywatch.com</span><span class="citation-popover-title">european commission guidelines on the definition of an ai system</span><span class="citation-popover-snippet">Global Policy WatchEuropean Commission Guidelines on the Definition of an “...5 Jun 2025 — The AI Act (Article 3(1)) defines an “AI syst...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/zg5rDSJzX_0" title="Is Europe the Same as the EU? Most People Don&#x27;t Know" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=zg5rDSJzX_0" target="_blank" rel="noopener noreferrer">Is Europe the Same as the EU? Most People Don&#x27;t Know</a></p><p class="youtube-embed-meta">Channel: European Commission &middot; Views: 294.1K &middot; Uploaded: April 2026 &middot; Length: 1 minute 54 seconds</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=zg5rDSJzX_0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=zg5rDSJzX_0">Open on YouTube</a></p></div></div></div>
 
 ## How workflow context affects classification
 
-One of the most important points in the Commission's guidance is that classification depends on examining the system's actual operation within a workflow rather than judging it only by its visible result. Two systems can produce similar outputs while falling on opposite sides of the regulatory boundary. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reedsmith.com/our-insights/blogs/technology-law-dispatch/102lu10/european-commission-publishes-guidelines-on-the-definition-of-an-ai-system/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reedsmith.com">[Reed Smith]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reedsmith.com</span><span class="citation-popover-title">european commission publishes guidelines on the definition of an ai system</span><span class="citation-popover-snippet">3 (1) of the AI-Act seven key elements that collectively define an AI system. The AI system&#x27;s definition is...Read more...</span></span></span>
+One of the most important points in the Commission's guidance is that classification depends on examining the system's actual operation within a workflow rather than judging it only by its visible result. Two systems can produce similar outputs while falling on opposite sides of the regulatory boundary.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reedsmith.com/our-insights/blogs/technology-law-dispatch/102lu10/european-commission-publishes-guidelines-on-the-definition-of-an-ai-system/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reedsmith.com">[Reed Smith]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reedsmith.com</span><span class="citation-popover-title">european commission publishes guidelines on the definition of an ai system</span><span class="citation-popover-snippet">3 (1) of the AI-Act seven key elements that collectively define an AI system. The AI system&#x27;s definition is...Read more...</span></span></span>
 
-The guidance centres on the concept of inference. Under the AI Act, an AI system is a machine-based system that, for explicit or implicit objectives, infers from received inputs how to generate outputs such as [predictions]({{ 'predictions/' | relative_url }}), recommendations, content or decisions. The Commission identifies inference as the key feature separating AI from traditional software. Artificial Intelligence Act+2ai-act-service-desk.ec.europa.eu <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[artificialintelligenceact.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 3: Definitions &#124; EU Artificial Intelligence Act(1) &#x27;AI system&#x27; means a machine-based system that is de...</span></span></span>
+The guidance centres on the concept of inference. Under the AI Act, an AI system is a machine-based system that, for explicit or implicit objectives, infers from received inputs how to generate outputs such as [predictions]({{ 'predictions/' | relative_url }}), recommendations, content or decisions. The Commission identifies inference as the key feature separating AI from traditional software. Artificial Intelligence Act+2ai-act-service-desk.ec.europa.eu<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[artificialintelligenceact.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 3: Definitions &#124; EU Artificial Intelligence Act(1) &#x27;AI system&#x27; means a machine-based system that is de...</span></span></span>
 
 In practice, regulators are encouraged to look beneath the interface and ask questions such as:
 
@@ -309,9 +309,9 @@ In practice, regulators are encouraged to look beneath the interface and ask que
 
 </div>
 
-A user may see only a recommendation or score. The regulatory assessment focuses on the mechanism that produced it. A recommendation generated by a machine-learning model and a recommendation generated by a hand-written decision tree can look similar from the outside, yet the guidance may classify them differently. ai-act-service-desk.ec.europa.eu+2Data Protection Report <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">Commission Guidelines on the definition of an artificial...29 Jul 2025 — This approach to define an AI system reflects the complexity an...</span></span></span>
+A user may see only a recommendation or score. The regulatory assessment focuses on the mechanism that produced it. A recommendation generated by a machine-learning model and a recommendation generated by a hand-written decision tree can look similar from the outside, yet the guidance may classify them differently. ai-act-service-desk.ec.europa.eu+2Data Protection Report<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">Commission Guidelines on the definition of an artificial...29 Jul 2025 — This approach to define an AI system reflects the complexity an...</span></span></span>
 
-The Commission's approach therefore avoids a purely outcome-based test. Otherwise, many conventional software products could become AI systems simply because they influence decisions or automate tasks. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-snippet">Open source on europa.eu.</span></span></span>
+The Commission's approach therefore avoids a purely outcome-based test. Otherwise, many conventional software products could become AI systems simply because they influence decisions or automate tasks.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-snippet">Open source on europa.eu.</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f02b58_eu_ai_act_sof_1e826d-Illustration-2-dark.svg" | relative_url }}" alt="EU guidance illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f02b58_eu_ai_act_sof_1e826d-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f02b58_eu_ai_act_sof_1e826d-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -321,226 +321,226 @@ The guidance becomes clearer when applied to concrete examples.
 
 ### Fraud detection
 
-A bank might flag suspicious transactions using a fixed threshold such as "flag every transfer above €10,000". That approach is based on a predefined rule and would generally resemble traditional software. By contrast, a model trained on historical transaction data that estimates the likelihood of fraud for previously unseen transactions uses inferential techniques and is much more likely to fall within the AI definition. ai-act-service-desk.ec.europa.eu+2Global Policy Watch <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">A I Act Service Desk</span><span class="citation-popover-snippet">AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</span></span></span>
+A bank might flag suspicious transactions using a fixed threshold such as "flag every transfer above €10,000". That approach is based on a predefined rule and would generally resemble traditional software. By contrast, a model trained on historical transaction data that estimates the likelihood of fraud for previously unseen transactions uses inferential techniques and is much more likely to fall within the AI definition. ai-act-service-desk.ec.europa.eu+2Global Policy Watch<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">A I Act Service Desk</span><span class="citation-popover-snippet">AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</span></span></span>
 
 ### Recruitment screening
 
 Two hiring systems may both rank job applicants.
 
-One system could use a rigid scoring matrix manually designed by recruiters: add points for specific qualifications, subtract points for missing credentials and sort candidates accordingly. Another could analyse large datasets of previous applications and infer patterns associated with successful hires. Although both generate rankings, the second is closer to the AI Act's concept of an AI system because the ranking emerges from inference rather than exclusively from human-defined rules. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">Commission Guidelines on the definition of an artificial...29 Jul 2025 — This approach to define an AI system reflects the complexity an...</span></span></span>
+One system could use a rigid scoring matrix manually designed by recruiters: add points for specific qualifications, subtract points for missing credentials and sort candidates accordingly. Another could analyse large datasets of previous applications and infer patterns associated with successful hires. Although both generate rankings, the second is closer to the AI Act's concept of an AI system because the ranking emerges from inference rather than exclusively from human-defined rules.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">Commission Guidelines on the definition of an artificial...29 Jul 2025 — This approach to define an AI system reflects the complexity an...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/S8dNw2fuZts" title="Episode 2 | EU AI Act in Plain English — How AI Is Defined and Who Plays What Role" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=S8dNw2fuZts" target="_blank" rel="noopener noreferrer">Episode 2 | EU AI Act in Plain English — How AI Is Defined and Who Plays What Role</a></p><p class="youtube-embed-meta">Channel: Fortivance Academy</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=S8dNw2fuZts" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=S8dNw2fuZts">Open on YouTube</a></p></div></div></div>
 
 ### Customer support
 
-A support platform that [routes]({{ 'routes/' | relative_url }}) messages according to predetermined keywords operates through explicit rules. A support platform that classifies messages using a trained model capable of recognising intent, sentiment or topic in new messages relies on inferential processes. The visible outcome—directing a customer query to the correct department—may be identical, but the underlying mechanism differs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.hoganlovells.com/en/publications/what-is-an-ai-system-the-eu-commissions-guidance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hoganlovells.com">[www.hoganlovells.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hoganlovells.com</span><span class="citation-popover-title">www.hoganlovells.com What is an AI System?</span><span class="citation-popover-snippet">The EU Commission&#x27;s guidance10 Jul 2025 — A machine-based system that is designed to operate with varying levels of autonomy and that may...</span></span></span>
+A support platform that [routes]({{ 'routes/' | relative_url }}) messages according to predetermined keywords operates through explicit rules. A support platform that classifies messages using a trained model capable of recognising intent, sentiment or topic in new messages relies on inferential processes. The visible outcome—directing a customer query to the correct department—may be identical, but the underlying mechanism differs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.hoganlovells.com/en/publications/what-is-an-ai-system-the-eu-commissions-guidance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hoganlovells.com">[www.hoganlovells.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hoganlovells.com</span><span class="citation-popover-title">www.hoganlovells.com What is an AI System?</span><span class="citation-popover-snippet">The EU Commission&#x27;s guidance10 Jul 2025 — A machine-based system that is designed to operate with varying levels of autonomy and that may...</span></span></span>
 
-These examples illustrate why the Commission focuses on generation methods rather than business purpose. The same practical objective can be achieved through either conventional software engineering or AI techniques. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiactblog.nl/en/posts/ai-system-definition-commission-guidelines" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiactblog.nl">[Responsible AI Platform]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiactblog.nl</span><span class="citation-popover-title">ai system definition commission guidelines</span><span class="citation-popover-snippet">Responsible AI PlatformWhen is software an &#x27;AI system&#x27; under the AI Act?30 Jul 2025 — Recital 12 explains that the AI system definition m...</span></span></span>
+These examples illustrate why the Commission focuses on generation methods rather than business purpose. The same practical objective can be achieved through either conventional software engineering or AI techniques.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiactblog.nl/en/posts/ai-system-definition-commission-guidelines" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiactblog.nl">[Responsible AI Platform]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiactblog.nl</span><span class="citation-popover-title">ai system definition commission guidelines</span><span class="citation-popover-snippet">Responsible AI PlatformWhen is software an &#x27;AI system&#x27; under the AI Act?30 Jul 2025 — Recital 12 explains that the AI system definition m...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/UblJaeT18o0" title="Draft guidelines on the classification of high-risk AI systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=UblJaeT18o0" target="_blank" rel="noopener noreferrer">Draft guidelines on the classification of high-risk AI systems</a></p><p class="youtube-embed-meta">Channel: Management Solutions</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=UblJaeT18o0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=UblJaeT18o0">Open on YouTube</a></p></div></div></div>
 
 ## Why the boundary is useful but not always simple
 
-The Commission's guidance does not claim that every case can be resolved instantly. Many modern systems combine conventional software components with AI components. A larger business application may contain rule-based workflows, database functions and machine-learning models operating together. In such cases, regulators and organisations must examine the specific component under assessment rather than relying on marketing labels or product descriptions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.gide.com/en/news-insights/publication-of-two-sets-of-guidelines-in-connection-with-the-ai-act/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: gide.com">[Gide]</a><span class="citation-popover" role="note"><span class="citation-popover-source">gide.com</span><span class="citation-popover-title">publication of two sets of guidelines in connection with the ai act</span><span class="citation-popover-snippet">Publication of two sets of guidelines in connection with the...16 Apr 2025 — The AI System Guidelines are intended to help providers...</span></span></span>
+The Commission's guidance does not claim that every case can be resolved instantly. Many modern systems combine conventional software components with AI components. A larger business application may contain rule-based workflows, database functions and machine-learning models operating together. In such cases, regulators and organisations must examine the specific component under assessment rather than relying on marketing labels or product descriptions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.gide.com/en/news-insights/publication-of-two-sets-of-guidelines-in-connection-with-the-ai-act/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: gide.com">[Gide]</a><span class="citation-popover" role="note"><span class="citation-popover-source">gide.com</span><span class="citation-popover-title">publication of two sets of guidelines in connection with the ai act</span><span class="citation-popover-snippet">Publication of two sets of guidelines in connection with the...16 Apr 2025 — The AI System Guidelines are intended to help providers...</span></span></span>
 
-The guidance also recognises that some software may display limited inferential capabilities without necessarily fitting comfortably into popular understandings of AI. This is why the Commission supplements the statutory definition with practical explanations of autonomy, inference and output generation rather than relying on broad cultural ideas about intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiactblog.nl/en/posts/ai-system-definition-commission-guidelines" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiactblog.nl">[Responsible AI Platform]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiactblog.nl</span><span class="citation-popover-title">ai system definition commission guidelines</span><span class="citation-popover-snippet">Responsible AI PlatformWhen is software an &#x27;AI system&#x27; under the AI Act?30 Jul 2025 — Recital 12 explains that the AI system definition m...</span></span></span>
+The guidance also recognises that some software may display limited inferential capabilities without necessarily fitting comfortably into popular understandings of AI. This is why the Commission supplements the statutory definition with practical explanations of autonomy, inference and output generation rather than relying on broad cultural ideas about intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiactblog.nl/en/posts/ai-system-definition-commission-guidelines" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiactblog.nl">[Responsible AI Platform]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiactblog.nl</span><span class="citation-popover-title">ai system definition commission guidelines</span><span class="citation-popover-snippet">Responsible AI PlatformWhen is software an &#x27;AI system&#x27; under the AI Act?30 Jul 2025 — Recital 12 explains that the AI system definition m...</span></span></span>
 
-From a governance perspective, this approach serves an important purpose. It narrows the scope of the AI Act to systems whose behaviour is shaped by inferential processes while avoiding regulation of ordinary automation tools. That boundary helps regulators apply AI-specific obligations where they are most relevant without turning every software application into a regulated AI system. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu+2Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">A I Act Service Desk</span><span class="citation-popover-snippet">AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</span></span></span>
+From a governance perspective, this approach serves an important purpose. It narrows the scope of the AI Act to systems whose behaviour is shaped by inferential processes while avoiding regulation of ordinary automation tools. That boundary helps regulators apply AI-specific obligations where they are most relevant without turning every software application into a regulated AI system.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu+2Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-title">A I Act Service Desk</span><span class="citation-popover-snippet">AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f02b58_eu_ai_act_sof_1e826d-Illustration-3-dark.svg" | relative_url }}" alt="EU guidance illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f02b58_eu_ai_act_sof_1e826d-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_ordinary_s_f02b58_eu_ai_act_sof_1e826d-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How regulators draw the AI line. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How regulators draw the AI line. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Provides context for regulatory concerns around AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for regulatory concerns around AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Black Box Society on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=TumaBQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Black Box Society" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Black Box Society">The Black Box Society</a>
-        </h4>
-        <p class="fr-book-author">By Frank Pasquale</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Black Box Society on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=TumaBQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Black Box Society" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Black Box Society">The Black Box Society</a>
+</h4>
+<p class="fr-book-author">By Frank Pasquale</p>
         
-        <p class="fr-book-desc">Directly relevant to how regulators approach algorithmic systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly relevant to how regulators approach algorithmic systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open A Human Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ep2QEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for A Human Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="A Human Algorithm">A Human Algorithm</a>
-        </h4>
-        <p class="fr-book-author">By Flynn Coleman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open A Human Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ep2QEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for A Human Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="A Human Algorithm">A Human Algorithm</a>
+</h4>
+<p class="fr-book-author">By Flynn Coleman</p>
         
-        <p class="fr-book-desc">Explores human-centred oversight and AI governance.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores human-centred oversight and AI governance.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=A+Human+Algorithm+by+Flynn+Coleman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Illustrates harms that motivate AI regulation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Illustrates harms that motivate AI regulation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Black+Box+Society&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Black Box Society</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=A+Human+Algorithm&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">A Human Algorithm</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Black+Box+Society&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Black Box Society</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=A+Human+Algorithm&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">A Human Algorithm</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="eu-guidance-how-regulators-draw-the-ai-line-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -556,7 +556,7 @@ From a governance perspective, this approach serves an important purpose. It nar
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -576,7 +576,7 @@ From a governance perspective, this approach serves an important purpose. It nar
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -608,7 +608,7 @@ From a governance perspective, this approach serves an important purpose. It nar
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -660,7 +660,7 @@ From a governance perspective, this approach serves an important purpose. It nar
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -705,7 +705,7 @@ From a governance perspective, this approach serves an important purpose. It nar
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -746,165 +746,165 @@ From a governance perspective, this approach serves an important purpose. It nar
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ai-act-service-desk.ec.europa.eu  
    Title: A I Act Service Desk  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/recital-12</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service Desk - Recital 12 - European UnionMoreover, the definition should be based on key characteristics of AI systems that disti...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: digital-strategy.ec.europa.eu  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application</a>  
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-ai-system-definition-facilitate-first-ai-acts-rules-application</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Commission Guidelines on the definition of an artificial...29 Jul 2025 — This approach to define an AI system reflects the complexity an...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Commission Guidelines on the definition of an artificial...29 Jul 2025 — This approach to define an AI system reflects the complexity an...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: hoganlovells.com  
    Title: www.hoganlovells.com What is an AI System?  
-   Link: <a href="https://www.hoganlovells.com/en/publications/what-is-an-ai-system-the-eu-commissions-guidance" target="_blank" rel="noopener noreferrer nofollow">https://www.hoganlovells.com/en/publications/what-is-an-ai-system-the-eu-commissions-guidance</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The EU Commission&#x27;s guidance10 Jul 2025 — A machine-based system that is designed to operate with varying levels of autonomy and that may...</p></details>
+   Link:<a href="https://www.hoganlovells.com/en/publications/what-is-an-ai-system-the-eu-commissions-guidance" target="_blank" rel="noopener noreferrer nofollow">https://www.hoganlovells.com/en/publications/what-is-an-ai-system-the-eu-commissions-guidance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The EU Commission&#x27;s guidance10 Jul 2025 — A machine-based system that is designed to operate with varying levels of autonomy and that may...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: gide.com  
    Title: publication of two sets of guidelines in connection with the ai act  
-   Link: <a href="https://www.gide.com/en/news-insights/publication-of-two-sets-of-guidelines-in-connection-with-the-ai-act/" target="_blank" rel="noopener noreferrer nofollow">https://www.gide.com/en/news-insights/publication-of-two-sets-of-guidelines-in-connection-with-the-ai-act/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Publication of two sets of guidelines in connection with the...16 Apr 2025 — The AI System Guidelines are intended to help providers...</p></details>
+   Link:<a href="https://www.gide.com/en/news-insights/publication-of-two-sets-of-guidelines-in-connection-with-the-ai-act/" target="_blank" rel="noopener noreferrer nofollow">https://www.gide.com/en/news-insights/publication-of-two-sets-of-guidelines-in-connection-with-the-ai-act/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Publication of two sets of guidelines in connection with the...16 Apr 2025 — The AI System Guidelines are intended to help providers...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: digital-strategy.ec.europa.eu  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>publishes the Guidelines on prohibited artificial...4 Feb 2025 — These guidelines provide an overview of AI practices that are deemed un...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/library/commission-publishes-guidelines-prohibited-artificial-intelligence-ai-practices-defined-ai-act</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>publishes the Guidelines on prohibited artificial...4 Feb 2025 — These guidelines provide an overview of AI practices that are deemed un...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: european-union.europa.eu  
-   Link: <a href="https://european-union.europa.eu/index_en" target="_blank" rel="noopener noreferrer nofollow">https://european-union.europa.eu/index_en</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Union: Your gateway to the EU, News, HighlightsDiscover how the EU functions, its principles, priorities; find out about its history and...</p></details>
+   Link:<a href="https://european-union.europa.eu/index_en" target="_blank" rel="noopener noreferrer nofollow">https://european-union.europa.eu/index_en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Union: Your gateway to the EU, News, HighlightsDiscover how the EU functions, its principles, priorities; find out about its history and...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: digital-strategy.ec.europa.eu  
    Title: eu A I Act | Shaping Europe's digital future  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Act | Shaping Europe&#x27;s digital future - European UnionThe AI Act (Regulation (EU) 2024/1689 laying down harmonised rules on artificial in...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Act | Shaping Europe&#x27;s digital future - European UnionThe AI Act (Regulation (EU) 2024/1689 laying down harmonised rules on artificial in...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: digital-strategy.ec.europa.eu  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Guidelines on AI system definition. 4 February 2025. Guidelines on...Read more...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/european-approach-artificial-intelligence</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Guidelines on AI system definition. 4 February 2025. Guidelines on...Read more...</p></details>
    Published: February 2025  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: digital-strategy.ec.europa.eu  
    Title: guidelines gpai providers  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>for providers of general-purpose AI models28 Apr 2026 — The Commission has issued guidelines to clarify the scope of the obligations for...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>for providers of general-purpose AI models28 Apr 2026 — The Commission has issued guidelines to clarify the scope of the obligations for...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: artificial-intelligence-act.com  
-   Link: <a href="https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Links.html" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Links.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Act, Regulation (EU) 2024/1689 - Links6 February 2025 – Commission Guidelines on the definition of an artificial...</p></details>
+   Link:<a href="https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Links.html" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Links.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Act, Regulation (EU) 2024/1689 - Links6 February 2025 – Commission Guidelines on the definition of an artificial...</p></details>
    Published: February 2025  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: artificial-intelligence-act.com  
    Title: E U AI Act  
-   Link: <a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[EU AI Act](&amp;#123;&amp;#123; &#x27;eu-ai-act/&#x27; | relative_url &amp;#125;&amp;#125;) - Updates, Compliance, TrainingThe EU AI Act sets harmonised rules for the development, placement on the market and use of AI s...</p></details>
+   Link:<a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[EU AI Act](&amp;#123;&amp;#123; &#x27;eu-ai-act/&#x27; | relative_url &amp;#125;&amp;#125;) - Updates, Compliance, TrainingThe EU AI Act sets harmonised rules for the development, placement on the market and use of AI s...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: globalpolicywatch.com  
    Title: european commission guidelines on the definition of an ai system  
-   Link: <a href="https://www.globalpolicywatch.com/2025/06/european-commission-guidelines-on-the-definition-of-an-ai-system/" target="_blank" rel="noopener noreferrer nofollow">https://www.globalpolicywatch.com/2025/06/european-commission-guidelines-on-the-definition-of-an-ai-system/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Global Policy WatchEuropean Commission Guidelines on the Definition of an “...5 Jun 2025 — The AI Act (Article 3(1)) defines an “AI syst...</p></details>
+   Link:<a href="https://www.globalpolicywatch.com/2025/06/european-commission-guidelines-on-the-definition-of-an-ai-system/" target="_blank" rel="noopener noreferrer nofollow">https://www.globalpolicywatch.com/2025/06/european-commission-guidelines-on-the-definition-of-an-ai-system/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Global Policy WatchEuropean Commission Guidelines on the Definition of an “...5 Jun 2025 — The AI Act (Article 3(1)) defines an “AI syst...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/3/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 3: Definitions | EU Artificial Intelligence Act(1) &#x27;AI system&#x27; means a machine-based system that is de...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/3/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 3: Definitions | EU Artificial Intelligence Act(1) &#x27;AI system&#x27; means a machine-based system that is de...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: aiactblog.nl  
    Title: ai system definition commission guidelines  
-   Link: <a href="https://www.aiactblog.nl/en/posts/ai-system-definition-commission-guidelines" target="_blank" rel="noopener noreferrer nofollow">https://www.aiactblog.nl/en/posts/ai-system-definition-commission-guidelines</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Responsible AI PlatformWhen is software an &#x27;AI system&#x27; under the AI Act?30 Jul 2025 — Recital 12 explains that the AI system definition m...</p></details>
+   Link:<a href="https://www.aiactblog.nl/en/posts/ai-system-definition-commission-guidelines" target="_blank" rel="noopener noreferrer nofollow">https://www.aiactblog.nl/en/posts/ai-system-definition-commission-guidelines</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Responsible AI PlatformWhen is software an &#x27;AI system&#x27; under the AI Act?30 Jul 2025 — Recital 12 explains that the AI system definition m...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: reedsmith.com  
    Title: european commission publishes guidelines on the definition of an ai system  
-   Link: <a href="https://www.reedsmith.com/our-insights/blogs/technology-law-dispatch/102lu10/european-commission-publishes-guidelines-on-the-definition-of-an-ai-system/" target="_blank" rel="noopener noreferrer nofollow">https://www.reedsmith.com/our-insights/blogs/technology-law-dispatch/102lu10/european-commission-publishes-guidelines-on-the-definition-of-an-ai-system/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>3 (1) of the AI-Act seven key elements that collectively define an AI system. The AI system&#x27;s definition is...Read more...</p></details>
+   Link:<a href="https://www.reedsmith.com/our-insights/blogs/technology-law-dispatch/102lu10/european-commission-publishes-guidelines-on-the-definition-of-an-ai-system/" target="_blank" rel="noopener noreferrer nofollow">https://www.reedsmith.com/our-insights/blogs/technology-law-dispatch/102lu10/european-commission-publishes-guidelines-on-the-definition-of-an-ai-system/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>3 (1) of the AI-Act seven key elements that collectively define an AI system. The AI system&#x27;s definition is...Read more...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: dataprotectionreport.com  
-   Link: <a href="https://www.dataprotectionreport.com/2025/02/the-commissions-guidelines-on-ai-systems-what-can-we-infer/" target="_blank" rel="noopener noreferrer nofollow">https://www.dataprotectionreport.com/2025/02/the-commissions-guidelines-on-ai-systems-what-can-we-infer/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Data Protection ReportThe Commission&#x27;s guidelines on AI systems – what can we...Feb 13, 2025 — The EU&#x27;s AI Act imposes extensive obligat...</p></details>
+   Link:<a href="https://www.dataprotectionreport.com/2025/02/the-commissions-guidelines-on-ai-systems-what-can-we-infer/" target="_blank" rel="noopener noreferrer nofollow">https://www.dataprotectionreport.com/2025/02/the-commissions-guidelines-on-ai-systems-what-can-we-infer/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Data Protection ReportThe Commission&#x27;s guidelines on AI systems – what can we...Feb 13, 2025 — The EU&#x27;s AI Act imposes extensive obligat...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI ActOn 18 July 2025, the European Commission published draft Guidelines clarifying key provisions of the EU AI Act applicable to Gen...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI ActOn 18 July 2025, the European Commission published draft Guidelines clarifying key provisions of the EU AI Act applicable to Gen...</p></details>
    Published: July 2025  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: Wikipedia  
    Title: European Union  
-   Link: <a href="https://en.wikipedia.org/wiki/European_Union" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/European_Union</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>European UnionThe European Union (EU) is a [political](&amp;#123;&amp;#123; &#x27;political-video/&#x27; | relative_url &amp;#125;&amp;#125;) and economic union of 27 member states that are located primarily in Europe...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/European_Union" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/European_Union</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>European UnionThe European Union (EU) is a [political](&amp;#123;&amp;#123; &#x27;political-video/&#x27; | relative_url &amp;#125;&amp;#125;) and economic union of 27 member states that are located primarily in Europe...</p></details>
 
 ### Additional References
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: cedpo.eu  
-   Link: <a href="https://cedpo.eu/wp-content/uploads/CEDPO-MicroInsightPaper-How-to-define-an-AI-System-under-the-AI-Act-EN.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cedpo.eu/wp-content/uploads/CEDPO-MicroInsightPaper-How-to-define-an-AI-System-under-the-AI-Act-EN.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Define an AI System under the AI ActThe key takeaway from the exercise of defining AI systems according to the EU AI Act is that t...</p></details>
+   Link:<a href="https://cedpo.eu/wp-content/uploads/CEDPO-MicroInsightPaper-How-to-define-an-AI-System-under-the-AI-Act-EN.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cedpo.eu/wp-content/uploads/CEDPO-MicroInsightPaper-How-to-define-an-AI-System-under-the-AI-Act-EN.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Define an AI System under the AI ActThe key takeaway from the exercise of defining AI systems according to the EU AI Act is that t...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: bundesnetzagentur.de  
-   Link: <a href="https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/08_ProhibitedPractices/start.html" target="_blank" rel="noopener noreferrer nofollow">https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/08_ProhibitedPractices/start.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Prohibited practicesArticle 5 of the AI Act prohibits the placing on the market, putting into service or use of certain AI systems for ma...</p></details>
+   Link:<a href="https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/08_ProhibitedPractices/start.html" target="_blank" rel="noopener noreferrer nofollow">https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/08_ProhibitedPractices/start.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prohibited practicesArticle 5 of the AI Act prohibits the placing on the market, putting into service or use of certain AI systems for ma...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: privacyworld.blog  
-   Link: <a href="https://www.privacyworld.blog/2025/05/understanding-the-scope-of-artificial-intelligence-ai-system-definition-key-insights-from-the-european-commissions-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://www.privacyworld.blog/2025/05/understanding-the-scope-of-artificial-intelligence-ai-system-definition-key-insights-from-the-european-commissions-guidelines/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the Scope of “Artificial Intelligence (AI)...13 May 2025 — According to the guidelines, “inferencing” encompasses both the...</p></details>
+   Link:<a href="https://www.privacyworld.blog/2025/05/understanding-the-scope-of-artificial-intelligence-ai-system-definition-key-insights-from-the-european-commissions-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://www.privacyworld.blog/2025/05/understanding-the-scope-of-artificial-intelligence-ai-system-definition-key-insights-from-the-european-commissions-guidelines/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the Scope of “Artificial Intelligence (AI)...13 May 2025 — According to the guidelines, “inferencing” encompasses both the...</p></details>
    Published: May 2025  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: biodiritto.org  
-   Link: <a href="https://www.biodiritto.org/AI-Legal-Atlas/AHEAD-OBSERVATORY/AHEAD-Legislative-and-regulatory-framework/EU-European-Commission-Guidelines-on-AI-system-definition-to-facilitate-the-first-AI-Act-s-rules-application" target="_blank" rel="noopener noreferrer nofollow">https://www.biodiritto.org/AI-Legal-Atlas/AHEAD-OBSERVATORY/AHEAD-Legislative-and-regulatory-framework/EU-European-Commission-Guidelines-on-AI-system-definition-to-facilitate-the-first-AI-Act-s-rules-application</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU - European Commission - Guidelines on AI system...The guidelines emphasize the need for a definition of artificial intelligence that...</p></details>
+   Link:<a href="https://www.biodiritto.org/AI-Legal-Atlas/AHEAD-OBSERVATORY/AHEAD-Legislative-and-regulatory-framework/EU-European-Commission-Guidelines-on-AI-system-definition-to-facilitate-the-first-AI-Act-s-rules-application" target="_blank" rel="noopener noreferrer nofollow">https://www.biodiritto.org/AI-Legal-Atlas/AHEAD-OBSERVATORY/AHEAD-Legislative-and-regulatory-framework/EU-European-Commission-Guidelines-on-AI-system-definition-to-facilitate-the-first-AI-Act-s-rules-application</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU - European Commission - Guidelines on AI system...The guidelines emphasize the need for a definition of artificial intelligence that...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/european-commission-publishes-guidelines-ai-system-definition-facilitate-ifu6f" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/european-commission-publishes-guidelines-ai-system-definition-facilitate-ifu6f</a>  
+   Link:<a href="https://www.linkedin.com/pulse/european-commission-publishes-guidelines-ai-system-definition-facilitate-ifu6f" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/european-commission-publishes-guidelines-ai-system-definition-facilitate-ifu6f</a>  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: regulationtomorrow.com  
    Title: european commission issues guidelines on ai system definition in eu ai act  
-   Link: <a href="https://www.regulationtomorrow.com/2025/02/european-commission-issues-guidelines-on-ai-system-definition-in-eu-ai-act/" target="_blank" rel="noopener noreferrer nofollow">https://www.regulationtomorrow.com/2025/02/european-commission-issues-guidelines-on-ai-system-definition-in-eu-ai-act/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Global Regulation TomorrowEuropean Commission issues guidelines on AI system...12 Feb 2025 — On 6 February 2025, the European Commission...</p></details>
+   Link:<a href="https://www.regulationtomorrow.com/2025/02/european-commission-issues-guidelines-on-ai-system-definition-in-eu-ai-act/" target="_blank" rel="noopener noreferrer nofollow">https://www.regulationtomorrow.com/2025/02/european-commission-issues-guidelines-on-ai-system-definition-in-eu-ai-act/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Global Regulation TomorrowEuropean Commission issues guidelines on AI system...12 Feb 2025 — On 6 February 2025, the European Commission...</p></details>
    Published: February 2025  
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=zg5rDSJzX_0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zg5rDSJzX_0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Is Europe the Same as the EU? Most People Don&#x27;t KnowThink Europe and the EU are the same thing? Most people do — and the difference matte...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=zg5rDSJzX_0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zg5rDSJzX_0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Is Europe the Same as the EU? Most People Don&#x27;t KnowThink Europe and the EU are the same thing? Most people do — and the difference matte...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: ai-act-law.eu  
-   Link: <a href="https://ai-act-law.eu/" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-law.eu/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The purpose of the AI Act is to promote the uptake of human-centric AI in Europe while...Read more...</p></details>
+   Link:<a href="https://ai-act-law.eu/" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-law.eu/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The purpose of the AI Act is to promote the uptake of human-centric AI in Europe while...Read more...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: cms.law  
-   Link: <a href="https://cms.law/en/deu/legal-updates/ai-systems-within-the-meaning-of-the-ai-act-term-and-definition" target="_blank" rel="noopener noreferrer nofollow">https://cms.law/en/deu/legal-updates/ai-systems-within-the-meaning-of-the-ai-act-term-and-definition</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;AI systems&quot; within the meaning of the AI Act: Term and...18 Jun 2025 — An AI system does not necessarily have to be purely software...</p></details>
+   Link:<a href="https://cms.law/en/deu/legal-updates/ai-systems-within-the-meaning-of-the-ai-act-term-and-definition" target="_blank" rel="noopener noreferrer nofollow">https://cms.law/en/deu/legal-updates/ai-systems-within-the-meaning-of-the-ai-act-term-and-definition</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;AI systems&quot; within the meaning of the AI Act: Term and...18 Jun 2025 — An AI system does not necessarily have to be purely software...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: lexology.com  
    Title: Understanding the Scope of “Artificial Intelligence (AI)  
-   Link: <a href="https://www.lexology.com/library/detail.aspx?g=05293c6a-feb4-46f5-8a44-7d121363ff33" target="_blank" rel="noopener noreferrer nofollow">https://www.lexology.com/library/detail.aspx?g=05293c6a-feb4-46f5-8a44-7d121363ff33</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>May 13, 2025 — On February 2, 2025, the first provisions of the AI Act became applicable, including the AI system definition, AI literacy...</p></details>
+   Link:<a href="https://www.lexology.com/library/detail.aspx?g=05293c6a-feb4-46f5-8a44-7d121363ff33" target="_blank" rel="noopener noreferrer nofollow">https://www.lexology.com/library/detail.aspx?g=05293c6a-feb4-46f5-8a44-7d121363ff33</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>May 13, 2025 — On February 2, 2025, the first provisions of the AI Act became applicable, including the AI system definition, AI literacy...</p></details>
    Published: May 13, 2025  

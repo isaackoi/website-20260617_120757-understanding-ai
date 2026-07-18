@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6
 
 ## Introduction
 
-The central question in AI-assisted programming is not how quickly a model can generate code. It is how quickly a human can determine whether that code is correct. As coding assistants become faster and more capable, many software teams are discovering that the true constraint has shifted from production to verification. Writing code is increasingly cheap; [understanding]({{ 'understanding/' | relative_url }}), testing, reviewing and trusting it remains expensive. Research on professional developers, [code review]({{ 'code-review/' | relative_url }}) practices and AI-assisted workflows increasingly points to the same mechanism: productivity gains appear only when the cost of checking AI output stays lower than the cost of creating the solution manually. Once verification becomes difficult, the promised speed advantage can disappear or even reverse. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study-2025-7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">Conducted with 16 seasoned developers familiar with open-source projects they had worked on for years, the study randomly assigned partic...</span></span></span>
+The central question in AI-assisted programming is not how quickly a model can generate code. It is how quickly a human can determine whether that code is correct. As coding assistants become faster and more capable, many software teams are discovering that the true constraint has shifted from production to verification. Writing code is increasingly cheap; [understanding]({{ 'understanding/' | relative_url }}), testing, reviewing and trusting it remains expensive. Research on professional developers, [code review]({{ 'code-review/' | relative_url }}) practices and AI-assisted workflows increasingly points to the same mechanism: productivity gains appear only when the cost of checking AI output stays lower than the cost of creating the solution manually. Once verification becomes difficult, the promised speed advantage can disappear or even reverse.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">Conducted with 16 seasoned developers familiar with open-source projects they had worked on for years, the study randomly assigned partic...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6348a_verification_497465-Illustration-1-dark.svg" | relative_url }}" alt="Verification Cost illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6348a_verification_497465-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6348a_verification_497465-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,13 +277,13 @@ The central question in AI-assisted programming is not how quickly a model can g
 
 In traditional software development, programmers usually understand the reasoning behind code they write. They know which alternatives they considered, which constraints shaped the design and where potential weaknesses may exist. That knowledge reduces the effort required to evaluate the result.
 
-AI-generated code changes this relationship. The developer receives a completed solution without having participated in most of the intermediate reasoning. Before trusting the output, they must reconstruct intent, check assumptions, examine edge cases and verify compatibility with the surrounding system. What looks like a finished answer can therefore create a substantial comprehension task. Researchers studying AI-assisted development describe a shift from code creation toward supervision, evaluation and correction of machine-generated work. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.23135" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">The Impact of AI Coding Assistants on Software Engineering: A Longitudinal StudyMay 22, 2026...</span><span class="citation-popover-meta">Published: May 22, 2026</span></span></span>
+AI-generated code changes this relationship. The developer receives a completed solution without having participated in most of the intermediate reasoning. Before trusting the output, they must reconstruct intent, check assumptions, examine edge cases and verify compatibility with the surrounding system. What looks like a finished answer can therefore create a substantial comprehension task. Researchers studying AI-assisted development describe a shift from code creation toward supervision, evaluation and correction of machine-generated work.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.23135" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">The Impact of AI Coding Assistants on Software Engineering: A Longitudinal StudyMay 22, 2026...</span><span class="citation-popover-meta">Published: May 22, 2026</span></span></span>
 
-This distinction helps explain a recurring observation in industry reports and developer studies: coding becomes faster, but delivery does not necessarily accelerate. The bottleneck simply moves downstream into review and [validation]({{ 'stop-training/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://shiftmag.dev/state-of-code-2025-7978/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: shiftmag.dev">[ShiftMag]</a><span class="citation-popover" role="note"><span class="citation-popover-source">shiftmag.dev</span><span class="citation-popover-snippet">42% of Code Is Now AI-Assisted!February 12, 2026 — 12 Feb 2026 — Reviewing AI-generated code frequently demands more effort than...</span><span class="citation-popover-meta">Published: February 12, 2026</span></span></span>
+This distinction helps explain a recurring observation in industry reports and developer studies: coding becomes faster, but delivery does not necessarily accelerate. The bottleneck simply moves downstream into review and [validation]({{ 'stop-training/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://shiftmag.dev/state-of-code-2025-7978/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: shiftmag.dev">[ShiftMag]</a><span class="citation-popover" role="note"><span class="citation-popover-source">shiftmag.dev</span><span class="citation-popover-snippet">42% of Code Is Now AI-Assisted!February 12, 2026 — 12 Feb 2026 — Reviewing AI-generated code frequently demands more effort than...</span><span class="citation-popover-meta">Published: February 12, 2026</span></span></span>
 
 ## The Hidden Workload of Verification
 
-Verification involves much more than checking whether code compiles. <span class="citation-chip-wrap"><a class="citation-chip" href="https://smarterarticles.co.uk/the-verification-crisis-why-checking-generated-code-is-harder-than-writing-it" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: smarterarticles.co.uk">[smarterarticles.co.uk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">smarterarticles.co.uk</span><span class="citation-popover-title">the verification crisis why checking generated code is harder than writing it</span><span class="citation-popover-snippet">The Verification Crisis: Why Checking Generated Code Is...4 Mar 2026 — “CodeRabbit&#x27;s &#x27;State of AI vs Human Code Generation&#x27; Report Finds...</span></span></span>
+Verification involves much more than checking whether code compiles.<span class="citation-chip-wrap"><a class="citation-chip" href="https://smarterarticles.co.uk/the-verification-crisis-why-checking-generated-code-is-harder-than-writing-it" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: smarterarticles.co.uk">[smarterarticles.co.uk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">smarterarticles.co.uk</span><span class="citation-popover-title">the verification crisis why checking generated code is harder than writing it</span><span class="citation-popover-snippet">The Verification Crisis: Why Checking Generated Code Is...4 Mar 2026 — “CodeRabbit&#x27;s &#x27;State of AI vs Human Code Generation&#x27; Report Finds...</span></span></span>
 
 A developer reviewing AI-generated code may need to:
 
@@ -296,7 +296,7 @@ A developer reviewing AI-generated code may need to:
 * Run tests and investigate failures.
 * Correct subtle mistakes that [automated]({{ 'decisions/' | relative_url }}) checks may miss.
 
-Each of these activities consumes time, and many scale poorly as AI increases code volume. A model can produce hundreds of lines in seconds, but human attention remains limited. Researchers examining modern review workflows argue that AI has increased the amount of code requiring inspection faster than it has reduced the effort required to inspect it. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.17548" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Rethinking Code Review in the Age of AI: A Vision for Agentic Code Review</span><span class="citation-popover-snippet">arXiv Rethinking Code Review in the Age of AI: A Vision for Agentic Code Review</span></span></span>
+Each of these activities consumes time, and many scale poorly as AI increases code volume. A model can produce hundreds of lines in seconds, but human attention remains limited. Researchers examining modern review workflows argue that AI has increased the amount of code requiring inspection faster than it has reduced the effort required to inspect it.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.17548" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Rethinking Code Review in the Age of AI: A Vision for Agentic Code Review</span><span class="citation-popover-snippet">arXiv Rethinking Code Review in the Age of AI: A Vision for Agentic Code Review</span></span></span>
 
 This creates a practical asymmetry: generation scales with computing power, while verification remains constrained by human cognition.
 
@@ -307,11 +307,11 @@ This creates a practical asymmetry: generation scales with computing power, whil
 
 One reason verification becomes a bottleneck is that reading unfamiliar code is often harder than writing familiar code.
 
-Software engineering has long involved substantial reading and comprehension work. Developers routinely spend significant portions of their time understanding existing systems before making changes. AI-generated code intensifies this challenge because the reviewer must evaluate a solution whose design process is largely invisible. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/ExperiencedDevs/comments/1lip50g/ai_vs_you_read_core_more_than_you_write_it/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">AI vs &quot;You read core more than you write it&quot;June 23, 2025 — Even if we take that claim at face value, the majority of software engi...</span><span class="citation-popover-meta">Published: June 23, 2025</span></span></span>
+Software engineering has long involved substantial reading and comprehension work. Developers routinely spend significant portions of their time understanding existing systems before making changes. AI-generated code intensifies this challenge because the reviewer must evaluate a solution whose design process is largely invisible.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/ExperiencedDevs/comments/1lip50g/ai_vs_you_read_core_more_than_you_write_it/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">AI vs &quot;You read core more than you write it&quot;June 23, 2025 — Even if we take that claim at face value, the majority of software engi...</span><span class="citation-popover-meta">Published: June 23, 2025</span></span></span>
 
-Several studies and industry analyses highlight a common pattern: developers must reconstruct the logic behind AI output before they can judge its correctness. Unlike their own code, AI-generated solutions arrive without the mental context created during development. The result is a form of cognitive overhead that can outweigh the time saved during generation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://shiftmag.dev/state-of-code-2025-7978/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: shiftmag.dev">[ShiftMag]</a><span class="citation-popover" role="note"><span class="citation-popover-source">shiftmag.dev</span><span class="citation-popover-snippet">42% of Code Is Now AI-Assisted!February 12, 2026 — 12 Feb 2026 — Reviewing AI-generated code frequently demands more effort than...</span><span class="citation-popover-meta">Published: February 12, 2026</span></span></span>
+Several studies and industry analyses highlight a common pattern: developers must reconstruct the logic behind AI output before they can judge its correctness. Unlike their own code, AI-generated solutions arrive without the mental context created during development. The result is a form of cognitive overhead that can outweigh the time saved during generation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://shiftmag.dev/state-of-code-2025-7978/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: shiftmag.dev">[ShiftMag]</a><span class="citation-popover" role="note"><span class="citation-popover-source">shiftmag.dev</span><span class="citation-popover-snippet">42% of Code Is Now AI-Assisted!February 12, 2026 — 12 Feb 2026 — Reviewing AI-generated code frequently demands more effort than...</span><span class="citation-popover-meta">Published: February 12, 2026</span></span></span>
 
-This is particularly important in mature software systems. In a large codebase, correctness depends not only on whether a function works in isolation but also on whether it respects architectural decisions, historical constraints and undocumented assumptions. Understanding those relationships can require more effort than implementing the change directly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study-2025-7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">Conducted with 16 seasoned developers familiar with open-source projects they had worked on for years, the study randomly assigned partic...</span></span></span>
+This is particularly important in mature software systems. In a large codebase, correctness depends not only on whether a function works in isolation but also on whether it respects architectural decisions, historical constraints and undocumented assumptions. Understanding those relationships can require more effort than implementing the change directly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">Conducted with 16 seasoned developers familiar with open-source projects they had worked on for years, the study randomly assigned partic...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/mXG4Z7w2x6s" title="Verification, Cost, and Speed: What&#x27;s Next for AI Coding at Scale" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=mXG4Z7w2x6s" target="_blank" rel="noopener noreferrer">Verification, Cost, and Speed: What&#x27;s Next for AI Coding at Scale</a></p><p class="youtube-embed-meta">Channel: Moderne and OpenRewrite</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=mXG4Z7w2x6s" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=mXG4Z7w2x6s">Open on YouTube</a></p></div></div></div>
@@ -320,11 +320,11 @@ This is particularly important in mature software systems. In a large codebase, 
 
 The strongest illustration comes from studies comparing perceived productivity with measured productivity.
 
-In a widely discussed METR study, experienced developers working in codebases they already knew expected AI assistance to speed them up substantially. Instead, tasks took about 19% longer on average. Participants spent significant time prompting, reviewing outputs, [checking]({{ 'checklists/' | relative_url }}) correctness and fixing AI-generated mistakes. Despite the slowdown, many still believed they had worked faster. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study-2025-7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider+2Time]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">Conducted with 16 seasoned developers familiar with open-source projects they had worked on for years, the study randomly assigned partic...</span></span></span>
+In a widely discussed METR study, experienced developers working in codebases they already knew expected AI assistance to speed them up substantially. Instead, tasks took about 19% longer on average. Participants spent significant time prompting, reviewing outputs, [checking]({{ 'checklists/' | relative_url }}) correctness and fixing AI-generated mistakes. Despite the slowdown, many still believed they had worked faster.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider+2Time]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">Conducted with 16 seasoned developers familiar with open-source projects they had worked on for years, the study randomly assigned partic...</span></span></span>
 
-This gap between perception and outcome reveals an important mechanism. Developers directly experience the reduction in typing effort, making progress feel faster. The verification burden arrives later, distributed across review, debugging, integration and testing activities. Because these costs are less visible, they are easy to underestimate. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://dev.to/matthewhou/the-metr-study-changed-how-i-think-about-ai-coding-4i84" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dev.to">[DEV Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dev.to</span><span class="citation-popover-title">Community Developers Think AI Makes Them 24% Faster</span><span class="citation-popover-snippet">The Data...February 24, 2026 — 24 Feb 2026 — The METR study found developers were 19% slower with AI coding tools despite feeling 24% fa...</span><span class="citation-popover-meta">Published: February 24, 2026</span></span></span>
+This gap between perception and outcome reveals an important mechanism. Developers directly experience the reduction in typing effort, making progress feel faster. The verification burden arrives later, distributed across review, debugging, integration and testing activities. Because these costs are less visible, they are easy to underestimate.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://dev.to/matthewhou/the-metr-study-changed-how-i-think-about-ai-coding-4i84" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dev.to">[DEV Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dev.to</span><span class="citation-popover-title">Community Developers Think AI Makes Them 24% Faster</span><span class="citation-popover-snippet">The Data...February 24, 2026 — 24 Feb 2026 — The METR study found developers were 19% slower with AI coding tools despite feeling 24% fa...</span><span class="citation-popover-meta">Published: February 24, 2026</span></span></span>
 
-The result is a productivity paradox: local efficiency improves while overall task completion time remains unchanged or worsens. Researchers have increasingly framed this as a transition from a code-generation problem to a code-verification problem. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/404065213_From_Code_Generation_to_Code_Verification_Explaining_and_Mitigating_the_AI_Productivity_Paradox_in_Software_Engineering" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Explaining and Mitigating the AI Productivity Paradox in...22 Apr 2026 — Conclusion: AI-assisted development delivers net pr...</span></span></span>
+The result is a productivity paradox: local efficiency improves while overall task completion time remains unchanged or worsens. Researchers have increasingly framed this as a transition from a code-generation problem to a code-verification problem.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/404065213_From_Code_Generation_to_Code_Verification_Explaining_and_Mitigating_the_AI_Productivity_Paradox_in_Software_Engineering" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Explaining and Mitigating the AI Productivity Paradox in...22 Apr 2026 — Conclusion: AI-assisted development delivers net pr...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6348a_verification_497465-Illustration-2-dark.svg" | relative_url }}" alt="Verification Cost illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6348a_verification_497465-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_coding_rev_b6348a_verification_497465-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -332,9 +332,9 @@ The result is a productivity paradox: local efficiency improves while overall ta
 
 As AI-generated code becomes more common, some observers warn of a growing phenomenon sometimes called verification debt.
 
-Verification debt emerges when organisations generate code faster than they can properly inspect it. Surveys indicate that many developers do not fully trust AI-generated code, yet a substantial proportion still deploy or merge it without comprehensive review. Some report that reviewing AI output takes longer than reviewing human-written code, creating pressure to reduce scrutiny in order to maintain delivery speed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">Despite 96% of developers admitting they don&#x27;t fully trust the functional correctness of AI-written code, many skip verification—primaril...</span></span></span>
+Verification debt emerges when organisations generate code faster than they can properly inspect it. Surveys indicate that many developers do not fully trust AI-generated code, yet a substantial proportion still deploy or merge it without comprehensive review. Some report that reviewing AI output takes longer than reviewing human-written code, creating pressure to reduce scrutiny in order to maintain delivery speed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">Despite 96% of developers admitting they don&#x27;t fully trust the functional correctness of AI-written code, many skip verification—primaril...</span></span></span>
 
-The danger is not necessarily dramatic failure. More often, verification debt accumulates through subtle defects, architectural inconsistencies, security weaknesses and maintenance burdens that remain hidden until later. Research comparing AI-generated and human-written code has identified distinct defect and vulnerability patterns, reinforcing the need for careful quality assurance rather than assuming generated code is self-validating. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2508.21634" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and ComplexityAugust 29, 2025...</span><span class="citation-popover-meta">Published: August 29, 2025</span></span></span>
+The danger is not necessarily dramatic failure. More often, verification debt accumulates through subtle defects, architectural inconsistencies, security weaknesses and maintenance burdens that remain hidden until later. Research comparing AI-generated and human-written code has identified distinct defect and vulnerability patterns, reinforcing the need for careful quality assurance rather than assuming generated code is self-validating.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2508.21634" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and ComplexityAugust 29, 2025...</span><span class="citation-popover-meta">Published: August 29, 2025</span></span></span>
 
 In this sense, trust becomes an engineering resource. If confidence in the output is low, verification costs rise. If verification costs rise enough, the productivity advantage disappears.
 
@@ -350,7 +350,7 @@ Several emerging approaches focus on this problem:
 <div class="content-enhancement content-enhancement--insight-grid" markdown="1">
 
 * Stronger automated testing.
-* AI-assisted code review systems. <span class="citation-chip-wrap"><a class="citation-chip" href="https://arxiv.org/html/2210.14306v5" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arxiv.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Modeling User Behavior and Costs in AI-Assisted...22 Apr 2024 — Code-recommendation systems, such as Copilot and CodeWhisperer, have the...</span></span></span>
+* AI-assisted code review systems.<span class="citation-chip-wrap"><a class="citation-chip" href="https://arxiv.org/html/2210.14306v5" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arxiv.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Modeling User Behavior and Costs in AI-Assisted...22 Apr 2024 — Code-recommendation systems, such as Copilot and CodeWhisperer, have the...</span></span></span>
 * Smaller and more reviewable changes.
 * Automated security and quality checks.
 * Better traceability showing why code was generated.
@@ -358,203 +358,203 @@ Several emerging approaches focus on this problem:
 
 </div>
 
-Research increasingly suggests that teams benefit when they optimise for end-to-end confidence rather than raw coding speed. Faster generation alone cannot create productivity if human reviewers remain [responsible]({{ 'responsible-ai/' | relative_url }}) for understanding every consequence of the output. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/404065213_From_Code_Generation_to_Code_Verification_Explaining_and_Mitigating_the_AI_Productivity_Paradox_in_Software_Engineering" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Explaining and Mitigating the AI Productivity Paradox in...22 Apr 2026 — Conclusion: AI-assisted development delivers net pr...</span></span></span>
+Research increasingly suggests that teams benefit when they optimise for end-to-end confidence rather than raw coding speed. Faster generation alone cannot create productivity if human reviewers remain [responsible]({{ 'responsible-ai/' | relative_url }}) for understanding every consequence of the output.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/404065213_From_Code_Generation_to_Code_Verification_Explaining_and_Mitigating_the_AI_Productivity_Paradox_in_Software_Engineering" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Explaining and Mitigating the AI Productivity Paradox in...22 Apr 2026 — Conclusion: AI-assisted development delivers net pr...</span></span></span>
 
-The key insight is simple but often overlooked: software development is not limited by the ability to produce code. It is limited by the ability to know that the code is correct. AI dramatically reduces the cost of creation, but unless verification becomes equally efficient, review remains the real bottleneck. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://x.com/elmd_/status/2033454836822286393" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: x.com">[x.com+2virtuslab.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">x.com</span><span class="citation-popover-snippet">ng it. The bottleneck moved from generation to review, and...Read more...</span></span></span>
+The key insight is simple but often overlooked: software development is not limited by the ability to produce code. It is limited by the ability to know that the code is correct. AI dramatically reduces the cost of creation, but unless verification becomes equally efficient, review remains the real bottleneck.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://x.com/elmd_/status/2033454836822286393" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: x.com">[x.com+2virtuslab.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">x.com</span><span class="citation-popover-snippet">ng it. The bottleneck moved from generation to review, and...Read more...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/facrcni-F4I" title="Stop Reviewing AI Garbage: How to Fix the AI Pull Request Bottleneck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=facrcni-F4I" target="_blank" rel="noopener noreferrer">Stop Reviewing AI Garbage: How to Fix the AI Pull Request Bottleneck</a></p><p class="youtube-embed-meta">Channel: The Savvy Scholar</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=facrcni-F4I" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=facrcni-F4I">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When Reviewing Code Costs More Than Writing It. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When Reviewing Code Costs More Than Writing It. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Clean Code on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_i6bDeoCQzsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Clean Code" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Clean Code">Clean Code</a>
-        </h4>
-        <p class="fr-book-author">By Robert C. Martin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Clean Code on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_i6bDeoCQzsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Clean Code" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Clean Code">Clean Code</a>
+</h4>
+<p class="fr-book-author">By Robert C. Martin</p>
         
-        <p class="fr-book-desc">Highlights the cost of understanding and reviewing code.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Highlights the cost of understanding and reviewing code.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Pragmatic Programmer on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5wBQEp6ruIAC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Pragmatic Programmer" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Pragmatic Programmer">The Pragmatic Programmer</a>
-        </h4>
-        <p class="fr-book-author">By Andrew Hunt, David Thomas</p>
-        <p class="fr-book-popularity">Rating: 4.5/5 from 7 Google Books ratings</p>
-        <p class="fr-book-desc">Focuses on developer judgment and validation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Pragmatic Programmer on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5wBQEp6ruIAC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Pragmatic Programmer" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Pragmatic Programmer">The Pragmatic Programmer</a>
+</h4>
+<p class="fr-book-author">By Andrew Hunt, David Thomas</p>
+<p class="fr-book-popularity">Rating: 4.5/5 from 7 Google Books ratings</p>
+<p class="fr-book-desc">Focuses on developer judgment and validation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+Andrew+Hunt&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Refactoring on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=HmrDHwgkbPsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Refactoring" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Refactoring">Refactoring</a>
-        </h4>
-        <p class="fr-book-author">By Martin Fowler, Kent Beck et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Refactoring on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=HmrDHwgkbPsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Refactoring" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Refactoring">Refactoring</a>
+</h4>
+<p class="fr-book-author">By Martin Fowler, Kent Beck et al.</p>
         
-        <p class="fr-book-desc">Shows why understanding existing code is expensive.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows why understanding existing code is expensive.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Refactoring+by+Martin+Fowler&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Accelerate+by+Nicole+Forsgren%2C+PhD&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Accelerate on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Kax-DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Accelerate" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Accelerate+by+Nicole+Forsgren%2C+PhD&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Accelerate">Accelerate</a>
-        </h4>
-        <p class="fr-book-author">By Nicole Forsgren, PhD, Jez Humble et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Accelerate+by+Nicole+Forsgren%2C+PhD&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Accelerate on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Kax-DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Accelerate" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Accelerate+by+Nicole+Forsgren%2C+PhD&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Accelerate">Accelerate</a>
+</h4>
+<p class="fr-book-author">By Nicole Forsgren, PhD, Jez Humble et al.</p>
         
-        <p class="fr-book-desc">Measures productivity beyond raw output volume.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Accelerate+by+Nicole+Forsgren%2C+PhD&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Measures productivity beyond raw output volume.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Accelerate+by+Nicole+Forsgren%2C+PhD&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Clean+Code&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Clean Code</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Pragmatic Programmer</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Refactoring&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Refactoring</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Clean+Code&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Clean Code</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Pragmatic Programmer</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Refactoring&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Refactoring</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3"><img src="{{ '/assets/images/marketplace-covers/48f8430f427e44043fc1.jpg' | relative_url }}" alt="Listing image for Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3"><img src="{{ '/assets/images/marketplace-covers/48f8430f427e44043fc1.jpg' | relative_url }}" alt="Listing image for Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Phonetic Alphabet Print International Code Informative Education Poster Referenc"><img src="{{ '/assets/images/marketplace-covers/9db01dc8cb60f65f5838.jpg' | relative_url }}" alt="Listing image for Phonetic Alphabet Print International Code Informative Education Poster Referenc" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Phonetic Alphabet Print International Code Informative Education Poster Referenc</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Phonetic Alphabet Print International Code Informative Education Poster Referenc"><img src="{{ '/assets/images/marketplace-covers/9db01dc8cb60f65f5838.jpg' | relative_url }}" alt="Listing image for Phonetic Alphabet Print International Code Informative Education Poster Referenc" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Phonetic Alphabet Print International Code Informative Education Poster Referenc</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Resistors Wall Chart Poster - Resistors Codes - SAME DAY DISPATCH - FREE POSTAGE"><img src="{{ '/assets/images/marketplace-covers/d08a2043d5b53b976d70.jpg' | relative_url }}" alt="Listing image for Resistors Wall Chart Poster - Resistors Codes - SAME DAY DISPATCH - FREE POSTAGE" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Resistors Wall Chart Poster - Resistors Codes - SAME DAY DISPATCH - FREE POSTAGE</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Resistors Wall Chart Poster - Resistors Codes - SAME DAY DISPATCH - FREE POSTAGE"><img src="{{ '/assets/images/marketplace-covers/d08a2043d5b53b976d70.jpg' | relative_url }}" alt="Listing image for Resistors Wall Chart Poster - Resistors Codes - SAME DAY DISPATCH - FREE POSTAGE" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Resistors Wall Chart Poster - Resistors Codes - SAME DAY DISPATCH - FREE POSTAGE</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Coder Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b93df232d4f49ade265c.jpg' | relative_url }}" alt="Listing image for Coding Coder Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Coding Coder Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Coder Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b93df232d4f49ade265c.jpg' | relative_url }}" alt="Listing image for Coding Coder Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Coding Coder Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="verification-cost-when-reviewing-code-costs-more-than-writing-it-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -570,7 +570,7 @@ The key insight is simple but often overlooked: software development is not limi
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -590,7 +590,7 @@ The key insight is simple but often overlooked: software development is not limi
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -622,7 +622,7 @@ The key insight is simple but often overlooked: software development is not limi
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -674,7 +674,7 @@ The key insight is simple but often overlooked: software development is not limi
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -719,7 +719,7 @@ The key insight is simple but often overlooked: software development is not limi
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -760,153 +760,153 @@ The key insight is simple but often overlooked: software development is not limi
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/404065213_From_Code_Generation_to_Code_Verification_Explaining_and_Mitigating_the_AI_Productivity_Paradox_in_Software_Engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/404065213_From_Code_Generation_to_Code_Verification_Explaining_and_Mitigating_the_AI_Productivity_Paradox_in_Software_Engineering</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Explaining and Mitigating the AI Productivity Paradox in...22 Apr 2026 — Conclusion: AI-assisted development delivers net pr...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/404065213_From_Code_Generation_to_Code_Verification_Explaining_and_Mitigating_the_AI_Productivity_Paradox_in_Software_Engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/404065213_From_Code_Generation_to_Code_Verification_Explaining_and_Mitigating_the_AI_Productivity_Paradox_in_Software_Engineering</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Explaining and Mitigating the AI Productivity Paradox in...22 Apr 2026 — Conclusion: AI-assisted development delivers net pr...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2605.23135" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.23135</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of AI Coding Assistants on Software Engineering: A Longitudinal StudyMay 22, 2026...</p></details>
+   Link:<a href="https://arxiv.org/abs/2605.23135" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.23135</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of AI Coding Assistants on Software Engineering: A Longitudinal StudyMay 22, 2026...</p></details>
    Published: May 22, 2026  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: virtuslab.com  
    Title: cognitive debt the code nobody understands  
-   Link: <a href="https://virtuslab.com/blog/ai/cognitive-debt-the-code-nobody-understands/" target="_blank" rel="noopener noreferrer nofollow">https://virtuslab.com/blog/ai/cognitive-debt-the-code-nobody-understands/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating someone else&#x27;s code requires at least the same competencies as writing it, maybe higher...Read more...</p></details>
+   Link:<a href="https://virtuslab.com/blog/ai/cognitive-debt-the-code-nobody-understands/" target="_blank" rel="noopener noreferrer nofollow">https://virtuslab.com/blog/ai/cognitive-debt-the-code-nobody-understands/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating someone else&#x27;s code requires at least the same competencies as writing it, maybe higher...Read more...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: shiftmag.dev  
-   Link: <a href="https://shiftmag.dev/state-of-code-2025-7978/" target="_blank" rel="noopener noreferrer nofollow">https://shiftmag.dev/state-of-code-2025-7978/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>42% of Code Is Now AI-Assisted!February 12, 2026 — 12 Feb 2026 — Reviewing AI-generated code frequently demands more effort than...</p></details>
+   Link:<a href="https://shiftmag.dev/state-of-code-2025-7978/" target="_blank" rel="noopener noreferrer nofollow">https://shiftmag.dev/state-of-code-2025-7978/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>42% of Code Is Now AI-Assisted!February 12, 2026 — 12 Feb 2026 — Reviewing AI-generated code frequently demands more effort than...</p></details>
    Published: February 12, 2026  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
    Title: arXiv Rethinking Code Review in the Age of AI: A Vision for Agentic Code Review  
-   Link: <a href="https://arxiv.org/abs/2605.17548" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.17548</a>  
+   Link:<a href="https://arxiv.org/abs/2605.17548" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.17548</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/ExperiencedDevs/comments/1lip50g/ai_vs_you_read_core_more_than_you_write_it/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ExperiencedDevs/comments/1lip50g/ai_vs_you_read_core_more_than_you_write_it/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI vs &quot;You read core more than you write it&quot;June 23, 2025 — Even if we take that claim at face value, the majority of software engi...</p></details>
+   Link:<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1lip50g/ai_vs_you_read_core_more_than_you_write_it/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ExperiencedDevs/comments/1lip50g/ai_vs_you_read_core_more_than_you_write_it/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI vs &quot;You read core more than you write it&quot;June 23, 2025 — Even if we take that claim at face value, the majority of software engi...</p></details>
    Published: June 23, 2025  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2604.00299" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2604.00299</a>  
+   Link:<a href="https://arxiv.org/abs/2604.00299" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2604.00299</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: time.com  
    Title: In the Loop: AI Promised Faster Coding  
-   Link: <a href="https://time.com/7302351/ai-software-coding-study/" target="_blank" rel="noopener noreferrer nofollow">https://time.com/7302351/ai-software-coding-study/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>This Study DisagreesA recent METR study challenges the assumption that AI accelerates software development. In tests with 16 experienced...</p></details>
+   Link:<a href="https://time.com/7302351/ai-software-coding-study/" target="_blank" rel="noopener noreferrer nofollow">https://time.com/7302351/ai-software-coding-study/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This Study DisagreesA recent METR study challenges the assumption that AI accelerates software development. In tests with 16 experienced...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: dev.to  
    Title: Community Developers Think AI Makes Them 24% Faster  
-   Link: <a href="https://dev.to/matthewhou/the-metr-study-changed-how-i-think-about-ai-coding-4i84" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/matthewhou/the-metr-study-changed-how-i-think-about-ai-coding-4i84</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Data...February 24, 2026 — 24 Feb 2026 — The METR study found developers were 19% slower with AI coding tools despite feeling 24% fa...</p></details>
+   Link:<a href="https://dev.to/matthewhou/the-metr-study-changed-how-i-think-about-ai-coding-4i84" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/matthewhou/the-metr-study-changed-how-i-think-about-ai-coding-4i84</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Data...February 24, 2026 — 24 Feb 2026 — The METR study found developers were 19% slower with AI coding tools despite feeling 24% fa...</p></details>
    Published: February 24, 2026  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2508.21634" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2508.21634</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and ComplexityAugust 29, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2508.21634" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2508.21634</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Human-Written vs. AI-Generated Code: A Large-Scale Study of Defects, Vulnerabilities, and ComplexityAugust 29, 2025...</p></details>
    Published: August 29, 2025  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: x.com  
-   Link: <a href="https://x.com/elmd_/status/2033454836822286393" target="_blank" rel="noopener noreferrer nofollow">https://x.com/elmd_/status/2033454836822286393</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ng it. The bottleneck moved from generation to review, and...Read more...</p></details>
+   Link:<a href="https://x.com/elmd_/status/2033454836822286393" target="_blank" rel="noopener noreferrer nofollow">https://x.com/elmd_/status/2033454836822286393</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ng it. The bottleneck moved from generation to review, and...Read more...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/ExperiencedDevs/comments/1qqy2ro/anthropic_ai_assisted_coding_doesnt_show/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ExperiencedDevs/comments/1qqy2ro/anthropic_ai_assisted_coding_doesnt_show/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It increased the rate at which teams build MVPs and dramatically slowed down real [production](&amp;#123;&amp;#123; &#x27;retrieval-failures/&#x27; | relative_url &amp;#125;&amp;#125;) grade development...Read more...</p></details>
+   Link:<a href="https://www.reddit.com/r/ExperiencedDevs/comments/1qqy2ro/anthropic_ai_assisted_coding_doesnt_show/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ExperiencedDevs/comments/1qqy2ro/anthropic_ai_assisted_coding_doesnt_show/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It increased the rate at which teams build MVPs and dramatically slowed down real [production](&amp;#123;&amp;#123; &#x27;retrieval-failures/&#x27; | relative_url &amp;#125;&amp;#125;) grade development...Read more...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2501.02092v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2501.02092v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Software Engineers Perceive and Engage with AI...3 Jan 2025 — We used code review as a lens through which we evaluated a broader and...</p></details>
+   Link:<a href="https://arxiv.org/html/2501.02092v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2501.02092v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Software Engineers Perceive and Engage with AI...3 Jan 2025 — We used code review as a lens through which we evaluated a broader and...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2210.14306v5" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2210.14306v5</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Modeling User Behavior and Costs in AI-Assisted...22 Apr 2024 — Code-recommendation systems, such as Copilot and CodeWhisperer, have the...</p></details>
+   Link:<a href="https://arxiv.org/html/2210.14306v5" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2210.14306v5</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Modeling User Behavior and Costs in AI-Assisted...22 Apr 2024 — Code-recommendation systems, such as Copilot and CodeWhisperer, have the...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2605.23135v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2605.23135v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI coding assistants affected code review effort, shared understanding, and reputational risk. At Q2, verification concerns extended to...</p></details>
+   Link:<a href="https://arxiv.org/html/2605.23135v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2605.23135v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI coding assistants affected code review effort, shared understanding, and reputational risk. At Q2, verification concerns extended to...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: businessinsider.com  
-   Link: <a href="https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study-2025-7" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study-2025-7</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Conducted with 16 seasoned developers familiar with open-source projects they had worked on for years, the study randomly assigned partic...</p></details>
+   Link:<a href="https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/ai-coding-tools-may-decrease-productivity-experienced-software-engineers-study</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Conducted with 16 seasoned developers familiar with open-source projects they had worked on for years, the study randomly assigned partic...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: itpro.com  
-   Link: <a href="https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Despite 96% of developers admitting they don&#x27;t fully trust the functional correctness of AI-written code, many skip verification—primaril...</p></details>
+   Link:<a href="https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Despite 96% of developers admitting they don&#x27;t fully trust the functional correctness of AI-written code, many skip verification—primaril...</p></details>
 
 ### Additional References
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Writes 42% of Code. Shipping? Not Faster.AI writes 42% of the code that&#x27;s committed. Teams are not shipping 42% faster. The data expla...</p></details>
+   Link:<a href="https://medium.com/%40gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40gvelosa/ai-writes-42-of-your-code-why-havent-you-shipped-42-faster-82dda91eed7f</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Writes 42% of Code. Shipping? Not Faster.AI writes 42% of the code that&#x27;s committed. Teams are not shipping 42% faster. The data expla...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/planetoftheweb_the-real-cost-of-ai-generated-code-a-recent-activity-7416517917829263360-0gtm" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/planetoftheweb_the-real-cost-of-ai-generated-code-a-recent-activity-7416517917829263360-0gtm</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Generated Code: The Hidden Costs and Best PracticesThe Real Cost of AI-Generated Code A recent study by [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) Insider found develop...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/planetoftheweb_the-real-cost-of-ai-generated-code-a-recent-activity-7416517917829263360-0gtm" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/planetoftheweb_the-real-cost-of-ai-generated-code-a-recent-activity-7416517917829263360-0gtm</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Generated Code: The Hidden Costs and Best PracticesThe Real Cost of AI-Generated Code A recent study by [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) Insider found develop...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: smarterarticles.co.uk  
    Title: the verification crisis why checking generated code is harder than writing it  
-   Link: <a href="https://smarterarticles.co.uk/the-verification-crisis-why-checking-generated-code-is-harder-than-writing-it" target="_blank" rel="noopener noreferrer nofollow">https://smarterarticles.co.uk/the-verification-crisis-why-checking-generated-code-is-harder-than-writing-it</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Verification Crisis: Why Checking Generated Code Is...4 Mar 2026 — “CodeRabbit&#x27;s &#x27;State of AI vs Human Code Generation&#x27; Report Finds...</p></details>
+   Link:<a href="https://smarterarticles.co.uk/the-verification-crisis-why-checking-generated-code-is-harder-than-writing-it" target="_blank" rel="noopener noreferrer nofollow">https://smarterarticles.co.uk/the-verification-crisis-why-checking-generated-code-is-harder-than-writing-it</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Verification Crisis: Why Checking Generated Code Is...4 Mar 2026 — “CodeRabbit&#x27;s &#x27;State of AI vs Human Code Generation&#x27; Report Finds...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: linkedin.com  
    Title: ai coding assistants may slow developers 19 familiar codebases jha vfqvc  
-   Link: <a href="https://www.linkedin.com/pulse/ai-coding-assistants-may-slow-developers-19-familiar-codebases-jha-vfqvc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ai-coding-assistants-may-slow-developers-19-familiar-codebases-jha-vfqvc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Coding Assistants May Slow Developers by 19% in...A July 2025 study by METR found that developers using Cursor in familiar codebases...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/ai-coding-assistants-may-slow-developers-19-familiar-codebases-jha-vfqvc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ai-coding-assistants-may-slow-developers-19-familiar-codebases-jha-vfqvc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Coding Assistants May Slow Developers by 19% in...A July 2025 study by METR found that developers using Cursor in familiar codebases...</p></details>
    Published: July 2025  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: youtube.com  
-   Link: <a href="http://www.youtube.com/watch?v=P2mKSZ9cmG4" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=P2mKSZ9cmG4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Cost of code verification ai software engineering bottleneck What Actually Changed in Software Engineering (Because of AI) Software Syste...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=P2mKSZ9cmG4" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=P2mKSZ9cmG4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Cost of code verification ai software engineering bottleneck What Actually Changed in Software Engineering (Because of AI) Software Syste...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: techradar.com  
    Title: Tech Radar Nearly all security bosses are worried about AI safety  
-   Link: <a href="https://www.techradar.com/pro/security/nearly-all-security-bosses-are-worried-about-ai-safety-with-a-third-saying-they-still-rely-on-manually-reviewing-code-before-launch" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/security/nearly-all-security-bosses-are-worried-about-ai-safety-with-a-third-saying-they-still-rely-on-manually-reviewing-code-before-launch</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>An overwhelming 90% of security leaders report active concerns about AI safety, particularly as AI coding tools become more widespread in...</p></details>
+   Link:<a href="https://www.techradar.com/pro/security/nearly-all-security-bosses-are-worried-about-ai-safety-with-a-third-saying-they-still-rely-on-manually-reviewing-code-before-launch" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/security/nearly-all-security-bosses-are-worried-about-ai-safety-with-a-third-saying-they-still-rely-on-manually-reviewing-code-before-launch</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An overwhelming 90% of security leaders report active concerns about AI safety, particularly as AI coding tools become more widespread in...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: shiftasia.com  
    Title: does ai generated code reduce the need for testing or demand more  
-   Link: <a href="https://shiftasia.com/column/does-ai-generated-code-reduce-the-need-for-testing-or-demand-more/" target="_blank" rel="noopener noreferrer nofollow">https://shiftasia.com/column/does-ai-generated-code-reduce-the-need-for-testing-or-demand-more/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Does AI-Generated Code Reduce the Need for Testing, or...25 May 2026 — AI writes code faster than ever but does it reduce QA workload, o...</p></details>
+   Link:<a href="https://shiftasia.com/column/does-ai-generated-code-reduce-the-need-for-testing-or-demand-more/" target="_blank" rel="noopener noreferrer nofollow">https://shiftasia.com/column/does-ai-generated-code-reduce-the-need-for-testing-or-demand-more/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Does AI-Generated Code Reduce the Need for Testing, or...25 May 2026 — AI writes code faster than ever but does it reduce QA workload, o...</p></details>
    Published: May 2026  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: gitclear.com  
-   Link: <a href="https://www.gitclear.com/ai_assistant_code_quality_2025_research" target="_blank" rel="noopener noreferrer nofollow">https://www.gitclear.com/ai_assistant_code_quality_2025_research</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Copilot Code Quality: 2025 Data Suggests 4x Growth in...The focus was to understand how AI Assistants influence the type of code bein...</p></details>
+   Link:<a href="https://www.gitclear.com/ai_assistant_code_quality_2025_research" target="_blank" rel="noopener noreferrer nofollow">https://www.gitclear.com/ai_assistant_code_quality_2025_research</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Copilot Code Quality: 2025 Data Suggests 4x Growth in...The focus was to understand how AI Assistants influence the type of code bein...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: syn-cause.com  
-   Link: <a href="https://syn-cause.com/blog/debug-time-increased" target="_blank" rel="noopener noreferrer nofollow">https://syn-cause.com/blog/debug-time-increased</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Industry Survey: Faster Coding, Slower Debugging | Blog20 Jan 2026 — Simple JS task with Copilot was 55.8% faster than without AI [3]...</p></details>
+   Link:<a href="https://syn-cause.com/blog/debug-time-increased" target="_blank" rel="noopener noreferrer nofollow">https://syn-cause.com/blog/debug-time-increased</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Industry Survey: Faster Coding, Slower Debugging | Blog20 Jan 2026 — Simple JS task with Copilot was 55.8% faster than without AI [3]...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: cerbos.dev  
    Title: productivity paradox of ai coding assistants  
-   Link: <a href="https://www.cerbos.dev/blog/productivity-paradox-of-ai-coding-assistants" target="_blank" rel="noopener noreferrer nofollow">https://www.cerbos.dev/blog/productivity-paradox-of-ai-coding-assistants</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Productivity Paradox of AI Coding Assistants12 Sept 2025 — AI-assisted commits were merged into production 4x faster than regular com...</p></details>
+   Link:<a href="https://www.cerbos.dev/blog/productivity-paradox-of-ai-coding-assistants" target="_blank" rel="noopener noreferrer nofollow">https://www.cerbos.dev/blog/productivity-paradox-of-ai-coding-assistants</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Productivity Paradox of AI Coding Assistants12 Sept 2025 — AI-assisted commits were merged into production 4x faster than regular com...</p></details>

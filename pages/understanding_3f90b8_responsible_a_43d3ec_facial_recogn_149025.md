@@ -292,17 +292,17 @@ A facial recognition match can be a useful investigative lead, but it is not pro
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_facial_recogn_149025-Illustration-1-dark.svg" | relative_url }}" alt="Face Matches illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_facial_recogn_149025-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_facial_recogn_149025-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This distinction sits at the heart of [responsible AI]({{ 'responsible-ai/' | relative_url }}). A facial recognition result should start an investigation, not end one. Independent evidence—such as witness testimony, location data, physical evidence, admissions, or verified video analysis—is needed to test whether the algorithm's suggestion is correct. Real-world cases show that when that [verification]({{ 'verification-cost/' | relative_url }}) step fails, an AI-generated lead can become a life-changing accusation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: abcnews.go.com">[ABC News]</a><span class="citation-popover" role="note"><span class="citation-popover-source">abcnews.go.com</span><span class="citation-popover-title">ABC News Black man wrongfully arrested because of incorrect facial recognition</span><span class="citation-popover-snippet">ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</span><span class="citation-popover-meta">Published: June 25, 2020</span></span></span>
+This distinction sits at the heart of [responsible AI]({{ 'responsible-ai/' | relative_url }}). A facial recognition result should start an investigation, not end one. Independent evidence—such as witness testimony, location data, physical evidence, admissions, or verified video analysis—is needed to test whether the algorithm's suggestion is correct. Real-world cases show that when that [verification]({{ 'verification-cost/' | relative_url }}) step fails, an AI-generated lead can become a life-changing accusation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: abcnews.go.com">[ABC News]</a><span class="citation-popover" role="note"><span class="citation-popover-source">abcnews.go.com</span><span class="citation-popover-title">ABC News Black man wrongfully arrested because of incorrect facial recognition</span><span class="citation-popover-snippet">ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</span><span class="citation-popover-meta">Published: June 25, 2020</span></span></span>
 
 ## How possible matches become wrongful accusations
 
-Facial recognition systems typically perform a search by comparing an image against a database and returning candidates ranked by similarity. Even highly accurate systems can produce [false positives]({{ 'false-positives/' | relative_url }}), meaning that different people are incorrectly treated as the same person. The risk becomes especially serious in police investigations because a false positive may place an innocent person under scrutiny. NIST, the US National Institute of Standards and Technology, has repeatedly emphasised that false positives in one-to-many identification searches can place the wrong person on a candidate list for further investigation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">study evaluates effects race age sex face recognition software</span><span class="citation-popover-snippet">NIST Study Evaluates Effects of Race, Age, Sex on Face Recognition Software &#124; NISTDecember 19, 2019...</span><span class="citation-popover-meta">Published: December 19, 2019</span></span></span>
+Facial recognition systems typically perform a search by comparing an image against a database and returning candidates ranked by similarity. Even highly accurate systems can produce [false positives]({{ 'false-positives/' | relative_url }}), meaning that different people are incorrectly treated as the same person. The risk becomes especially serious in police investigations because a false positive may place an innocent person under scrutiny. NIST, the US National Institute of Standards and Technology, has repeatedly emphasised that false positives in one-to-many identification searches can place the wrong person on a candidate list for further investigation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">study evaluates effects race age sex face recognition software</span><span class="citation-popover-snippet">NIST Study Evaluates Effects of Race, Age, Sex on Face Recognition Software &#124; NISTDecember 19, 2019...</span><span class="citation-popover-meta">Published: December 19, 2019</span></span></span>
 
 The danger is not only technical error. Human behaviour can amplify mistakes. Once investigators receive a computer-generated match, they may unconsciously focus on evidence that supports it and overlook information that points elsewhere. A face match can therefore become the starting point for a chain of assumptions rather than an objective check.
 
-The case of Robert Williams in Detroit illustrates this problem. Police used facial recognition software that incorrectly linked surveillance footage to Williams. He was arrested and detained despite the obvious differences between him and the person shown in the images. The algorithm's suggestion became the basis for investigative [decisions]({{ 'decisions/' | relative_url }}) that should have been challenged much earlier. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: abcnews.go.com">[ABC News]</a><span class="citation-popover" role="note"><span class="citation-popover-source">abcnews.go.com</span><span class="citation-popover-title">ABC News Black man wrongfully arrested because of incorrect facial recognition</span><span class="citation-popover-snippet">ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</span><span class="citation-popover-meta">Published: June 25, 2020</span></span></span>
+The case of Robert Williams in Detroit illustrates this problem. Police used facial recognition software that incorrectly linked surveillance footage to Williams. He was arrested and detained despite the obvious differences between him and the person shown in the images. The algorithm's suggestion became the basis for investigative [decisions]({{ 'decisions/' | relative_url }}) that should have been challenged much earlier.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: abcnews.go.com">[ABC News]</a><span class="citation-popover" role="note"><span class="citation-popover-source">abcnews.go.com</span><span class="citation-popover-title">ABC News Black man wrongfully arrested because of incorrect facial recognition</span><span class="citation-popover-snippet">ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</span><span class="citation-popover-meta">Published: June 25, 2020</span></span></span>
 
-Other reported cases have followed a similar pattern. In 2023, Porcha Woodruff, a Black woman in Detroit, alleged that police relied on a facial recognition match connecting a suspect image to an outdated photograph of her. The resulting arrest occurred despite significant reasons to question the identification. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.biometricupdate.com/202308/black-woman-matched-by-facial-recognition-alleges-police-misconduct-in-lawsuit" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: biometricupdate.com">[Biometric Update]</a><span class="citation-popover" role="note"><span class="citation-popover-source">biometricupdate.com</span><span class="citation-popover-snippet">Biometric UpdateBlack woman matched by facial recognition alleges police misconduct in lawsuit &#124; Biometric UpdateAugust 7, 2023...</span><span class="citation-popover-meta">Published: August 7, 2023</span></span></span>
+Other reported cases have followed a similar pattern. In 2023, Porcha Woodruff, a Black woman in Detroit, alleged that police relied on a facial recognition match connecting a suspect image to an outdated photograph of her. The resulting arrest occurred despite significant reasons to question the identification.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.biometricupdate.com/202308/black-woman-matched-by-facial-recognition-alleges-police-misconduct-in-lawsuit" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: biometricupdate.com">[Biometric Update]</a><span class="citation-popover" role="note"><span class="citation-popover-source">biometricupdate.com</span><span class="citation-popover-snippet">Biometric UpdateBlack woman matched by facial recognition alleges police misconduct in lawsuit &#124; Biometric UpdateAugust 7, 2023...</span><span class="citation-popover-meta">Published: August 7, 2023</span></span></span>
 
 These incidents reveal an important principle: a facial recognition result is evidence that a comparison occurred, not evidence that the comparison is correct.
 
@@ -319,7 +319,7 @@ Independent evidence serves three functions that facial recognition alone cannot
 
 **It creates accountability.** When decisions are based on multiple sources of evidence, courts, defence lawyers and [oversight]({{ 'oversight/' | relative_url }}) bodies can examine how a conclusion was reached. A single opaque algorithmic match is much harder to challenge.
 
-For these reasons, many police policies describe facial recognition as an investigative lead rather than a positive identification. The distinction is crucial because an investigative lead should trigger further checking, whereas a positive identification implies a much stronger evidential claim. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/autotldr/comments/n13u1z" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-title">A false facial recognition match sent this innocent Black man to jail</span><span class="citation-popover-snippet">A false facial recognition match sent this innocent Black man to jailApril 29, 2021...</span><span class="citation-popover-meta">Published: April 29, 2021</span></span></span>
+For these reasons, many police policies describe facial recognition as an investigative lead rather than a positive identification. The distinction is crucial because an investigative lead should trigger further checking, whereas a positive identification implies a much stronger evidential claim.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/autotldr/comments/n13u1z" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-title">A false facial recognition match sent this innocent Black man to jail</span><span class="citation-popover-snippet">A false facial recognition match sent this innocent Black man to jailApril 29, 2021...</span><span class="citation-popover-meta">Published: April 29, 2021</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_facial_recogn_149025-Illustration-2-dark.svg" | relative_url }}" alt="Face Matches illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_facial_recogn_149025-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_facial_recogn_149025-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -327,11 +327,11 @@ For these reasons, many police policies describe facial recognition as an invest
 
 The demand for independent evidence becomes even more important when performance differences exist across demographic groups.
 
-A major NIST study examining nearly 200 face recognition algorithms found that demographic differentials were common. False positive rates often varied dramatically across groups, and many systems showed higher false positive rates for African American, Asian, Native American and other minority populations than for White populations. In some cases, false positive rates differed by factors of ten or even more than one hundred. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">study evaluates effects race age sex face recognition software</span><span class="citation-popover-snippet">NIST Study Evaluates Effects of Race, Age, Sex on Face Recognition Software &#124; NISTDecember 19, 2019...</span><span class="citation-popover-meta">Published: December 19, 2019</span></span></span>
+A major NIST study examining nearly 200 face recognition algorithms found that demographic differentials were common. False positive rates often varied dramatically across groups, and many systems showed higher false positive rates for African American, Asian, Native American and other minority populations than for White populations. In some cases, false positive rates differed by factors of ten or even more than one hundred.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">study evaluates effects race age sex face recognition software</span><span class="citation-popover-snippet">NIST Study Evaluates Effects of Race, Age, Sex on Face Recognition Software &#124; NISTDecember 19, 2019...</span><span class="citation-popover-meta">Published: December 19, 2019</span></span></span>
 
-Because policing systems often rely on large databases of mugshots, licence photographs or watchlists, these errors can have unequal consequences. A false positive in a law-enforcement search does not merely produce an incorrect computer output. It can lead to questioning, surveillance, arrest, detention or prosecution. NIST specifically noted that false positives raise civil-liberties concerns because they can trigger additional scrutiny or loss of liberty. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/node/1605531" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">Facial Recognition Technology (Part III): Ensuring Commercial Transparency &amp; Accuracy &#124; NIST...</span></span></span>
+Because policing systems often rely on large databases of mugshots, licence photographs or watchlists, these errors can have unequal consequences. A false positive in a law-enforcement search does not merely produce an incorrect computer output. It can lead to questioning, surveillance, arrest, detention or prosecution. NIST specifically noted that false positives raise civil-liberties concerns because they can trigger additional scrutiny or loss of liberty.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/node/1605531" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">Facial Recognition Technology (Part III): Ensuring Commercial Transparency &amp; Accuracy &#124; NIST...</span></span></span>
 
-Several widely reported wrongful-arrest cases linked to facial recognition have involved Black individuals. While individual cases do not prove that every arrest resulted from algorithmic bias alone, they have intensified concern about the interaction between technical error, historical inequalities and investigative practices. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: abcnews.go.com">[ABC News+2Biometric Update]</a><span class="citation-popover" role="note"><span class="citation-popover-source">abcnews.go.com</span><span class="citation-popover-title">ABC News Black man wrongfully arrested because of incorrect facial recognition</span><span class="citation-popover-snippet">ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</span><span class="citation-popover-meta">Published: June 25, 2020</span></span></span>
+Several widely reported wrongful-arrest cases linked to facial recognition have involved Black individuals. While individual cases do not prove that every arrest resulted from algorithmic bias alone, they have intensified concern about the interaction between technical error, historical inequalities and investigative practices.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: abcnews.go.com">[ABC News+2Biometric Update]</a><span class="citation-popover" role="note"><span class="citation-popover-source">abcnews.go.com</span><span class="citation-popover-title">ABC News Black man wrongfully arrested because of incorrect facial recognition</span><span class="citation-popover-snippet">ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</span><span class="citation-popover-meta">Published: June 25, 2020</span></span></span>
 
 The harm extends beyond the immediate legal consequences. Wrongful arrests can affect employment, family life, mental health and public trust in institutions. When affected communities already experience disproportionate surveillance or policing, facial recognition errors can deepen existing inequalities.
 
@@ -342,7 +342,7 @@ The harm extends beyond the immediate legal consequences. Wrongful arrests can a
 
 Independent evidence cannot be evaluated if defendants and courts do not know that facial recognition was used.
 
-Investigations by journalists and civil-liberties groups have raised concerns that facial recognition is not always disclosed during criminal proceedings. When defence lawyers are unaware that an algorithm contributed to identifying a suspect, they may be unable to challenge the reliability of the search, the quality of the image, the database used, or the possibility of a false match. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www-staging.washingtonpost.com/business/2024/10/06/police-facial-recognition-secret-false-arrest/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: washingtonpost.com">[The Washington Post]</a><span class="citation-popover" role="note"><span class="citation-popover-source">washingtonpost.com</span><span class="citation-popover-title">The Washington Post Police seldom disclose use of facial recognition despite false arrests</span><span class="citation-popover-snippet">The Washington PostPolice seldom disclose use of facial recognition despite false arrests - The Washington PostOctober 6, 2024</span></span></span>
+Investigations by journalists and civil-liberties groups have raised concerns that facial recognition is not always disclosed during criminal proceedings. When defence lawyers are unaware that an algorithm contributed to identifying a suspect, they may be unable to challenge the reliability of the search, the quality of the image, the database used, or the possibility of a false match.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www-staging.washingtonpost.com/business/2024/10/06/police-facial-recognition-secret-false-arrest/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: washingtonpost.com">[The Washington Post]</a><span class="citation-popover" role="note"><span class="citation-popover-source">washingtonpost.com</span><span class="citation-popover-title">The Washington Post Police seldom disclose use of facial recognition despite false arrests</span><span class="citation-popover-snippet">The Washington PostPolice seldom disclose use of facial recognition despite false arrests - The Washington PostOctober 6, 2024</span></span></span>
 
 Transparency therefore serves a practical purpose. It allows courts to assess whether investigators relied too heavily on an AI-generated result and whether sufficient corroborating evidence existed. Without [disclosure]({{ 'disclosure/' | relative_url }}), errors can remain hidden behind apparently ordinary investigative decisions.
 
@@ -361,7 +361,7 @@ Common safeguards include:
 * **Using trained human examiners to assess candidate results rather than accepting automated rankings blindly.**
 * **Disclosing facial recognition use to courts and defence teams.**
 * **Conducting regular audits for demographic performance differences and error rates.**
-* **Establishing oversight mechanisms that can investigate mistakes and impose corrective action.** <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.washingtonpost.com/opinions/2025/02/24/ai-crime-facial-recognition-technology/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: washingtonpost.com">[The Washington Post+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">washingtonpost.com</span><span class="citation-popover-title">The Washington Post Your face could be in this database</span><span class="citation-popover-snippet">How will it be used?Facial recognition technology (FRT), used by an increasing number of understaffed police departments, has shown promi...</span></span></span>
+* **Establishing oversight mechanisms that can investigate mistakes and impose corrective action.**<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.washingtonpost.com/opinions/2025/02/24/ai-crime-facial-recognition-technology/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: washingtonpost.com">[The Washington Post+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">washingtonpost.com</span><span class="citation-popover-title">The Washington Post Your face could be in this database</span><span class="citation-popover-snippet">How will it be used?Facial recognition technology (FRT), used by an increasing number of understaffed police departments, has shown promi...</span></span></span>
 
 These safeguards do not eliminate risk, but they help prevent a software-generated suggestion from becoming the sole basis for decisions that affect a person's freedom.
 
@@ -371,197 +371,197 @@ These safeguards do not eliminate risk, but they help prevent a software-generat
 
 Facial recognition systems answer a narrow question: which images in a database appear most similar to the image being searched? They do not answer the broader questions that criminal investigations must resolve: who committed the act, whether the evidence is reliable, and whether alternative explanations exist.
 
-A face match can be useful because it narrows a search. It becomes dangerous when it is treated as conclusive. Wrongful-arrest cases, documented demographic disparities and concerns about undisclosed use all point to the same lesson: responsible AI requires independent verification. The algorithm may identify a candidate, but evidence—not similarity scores—must establish the facts. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: abcnews.go.com">[ABC News+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">abcnews.go.com</span><span class="citation-popover-title">ABC News Black man wrongfully arrested because of incorrect facial recognition</span><span class="citation-popover-snippet">ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</span><span class="citation-popover-meta">Published: June 25, 2020</span></span></span>
+A face match can be useful because it narrows a search. It becomes dangerous when it is treated as conclusive. Wrongful-arrest cases, documented demographic disparities and concerns about undisclosed use all point to the same lesson: responsible AI requires independent verification. The algorithm may identify a candidate, but evidence—not similarity scores—must establish the facts.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: abcnews.go.com">[ABC News+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">abcnews.go.com</span><span class="citation-popover-title">ABC News Black man wrongfully arrested because of incorrect facial recognition</span><span class="citation-popover-snippet">ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</span><span class="citation-popover-meta">Published: June 25, 2020</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why a face match is not proof. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why a face match is not proof. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Includes real-world consequences of flawed automated decision systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Includes real-world consequences of flawed automated decision systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
-        </h4>
-        <p class="fr-book-author">By Kate Crawford</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
+</h4>
+<p class="fr-book-author">By Kate Crawford</p>
         
-        <p class="fr-book-desc">Examines surveillance, classification and facial recognition issues.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines surveillance, classification and facial recognition issues.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nPy9uwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
-        </h4>
-        <p class="fr-book-author">By Ruha Benjamin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nPy9uwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
+</h4>
+<p class="fr-book-author">By Ruha Benjamin</p>
         
-        <p class="fr-book-desc">Strong coverage of racial impacts from technological systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Strong coverage of racial impacts from technological systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Automating Inequality on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pn4pDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Automating Inequality" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Automating Inequality">Automating Inequality</a>
-        </h4>
-        <p class="fr-book-author">By Virginia Eubanks</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Automating Inequality on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pn4pDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Automating Inequality" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Automating Inequality">Automating Inequality</a>
+</h4>
+<p class="fr-book-author">By Virginia Eubanks</p>
         
-        <p class="fr-book-desc">Shows how administrative systems can create unjust outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how administrative systems can create unjust outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Race+After+Technology&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Race After Technology</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Race+After+Technology&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Race After Technology</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art"><img src="{{ '/assets/images/marketplace-covers/249fbf09ccb3b6116c54.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art"><img src="{{ '/assets/images/marketplace-covers/249fbf09ccb3b6116c54.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art"><img src="{{ '/assets/images/marketplace-covers/62e7a309bd3b32d41258.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art"><img src="{{ '/assets/images/marketplace-covers/62e7a309bd3b32d41258.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor"><img src="{{ '/assets/images/marketplace-covers/07347b86ace5b8ddc466.jpg' | relative_url }}" alt="Listing image for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor"><img src="{{ '/assets/images/marketplace-covers/07347b86ace5b8ddc466.jpg' | relative_url }}" alt="Listing image for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Abstract technology AI Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5778e66ff2a2bd54f370.jpg' | relative_url }}" alt="Listing image for Abstract technology AI Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Abstract technology AI Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Abstract technology AI Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5778e66ff2a2bd54f370.jpg' | relative_url }}" alt="Listing image for Abstract technology AI Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Abstract technology AI Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="face-matches-why-a-face-match-is-not-proof-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -577,7 +577,7 @@ A face match can be useful because it narrows a search. It becomes dangerous whe
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -597,7 +597,7 @@ A face match can be useful because it narrows a search. It becomes dangerous whe
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -629,7 +629,7 @@ A face match can be useful because it narrows a search. It becomes dangerous whe
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -681,7 +681,7 @@ A face match can be useful because it narrows a search. It becomes dangerous whe
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -726,7 +726,7 @@ A face match can be useful because it narrows a search. It becomes dangerous whe
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -767,124 +767,124 @@ A face match can be useful because it narrows a search. It becomes dangerous whe
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: nist.gov  
    Title: study evaluates effects race age sex face recognition software  
-   Link: <a href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Study Evaluates Effects of Race, Age, Sex on Face Recognition Software | NISTDecember 19, 2019...</p></details>
+   Link:<a href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Study Evaluates Effects of Race, Age, Sex on Face Recognition Software | NISTDecember 19, 2019...</p></details>
    Published: December 19, 2019  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/node/1605531" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/node/1605531</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Facial Recognition Technology (Part III): Ensuring Commercial Transparency &amp; Accuracy | NIST...</p></details>
+   Link:<a href="https://www.nist.gov/node/1605531" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/node/1605531</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Facial Recognition Technology (Part III): Ensuring Commercial Transparency &amp; Accuracy | NIST...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: reddit.com  
    Title: A false facial recognition match sent this innocent Black man to jail  
-   Link: <a href="https://www.reddit.com/r/autotldr/comments/n13u1z" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/autotldr/comments/n13u1z</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A false facial recognition match sent this innocent Black man to jailApril 29, 2021...</p></details>
+   Link:<a href="https://www.reddit.com/r/autotldr/comments/n13u1z" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/autotldr/comments/n13u1z</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A false facial recognition match sent this innocent Black man to jailApril 29, 2021...</p></details>
    Published: April 29, 2021  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: nist.gov  
    Title: Face recognition vendor test part 3::demographic effects | NIST  
-   Link: <a href="https://www.nist.gov/publications/face-recognition-vendor-test-part-3demographic-effects" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/face-recognition-vendor-test-part-3demographic-effects</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Face recognition vendor test part 3::demographic effects | NIST...</p></details>
+   Link:<a href="https://www.nist.gov/publications/face-recognition-vendor-test-part-3demographic-effects" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/face-recognition-vendor-test-part-3demographic-effects</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Face recognition vendor test part 3::demographic effects | NIST...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: nist.gov  
    Title: face recognition vendor test frvt  
-   Link: <a href="https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Recognition Vendor Test (FRVT) | NISTMarch 26, 2025...</p></details>
+   Link:<a href="https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/programs-projects/face-recognition-vendor-test-frvt</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Recognition Vendor Test (FRVT) | NISTMarch 26, 2025...</p></details>
    Published: March 26, 2025  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: pages.nist.gov  
    Title: Face Recognition Technology Evaluation: Demographic Effects in Face Recognition  
-   Link: <a href="https://pages.nist.gov/frvt/html/frvt_demographics.html" target="_blank" rel="noopener noreferrer nofollow">https://pages.nist.gov/frvt/html/frvt_demographics.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>March 5, 2025...</p></details>
+   Link:<a href="https://pages.nist.gov/frvt/html/frvt_demographics.html" target="_blank" rel="noopener noreferrer nofollow">https://pages.nist.gov/frvt/html/frvt_demographics.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>March 5, 2025...</p></details>
    Published: March 5, 2025  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/node/427816" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/node/427816</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Projects | NISTJanuary 21, 2011...</p></details>
+   Link:<a href="https://www.nist.gov/node/427816" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/node/427816</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Projects | NISTJanuary 21, 2011...</p></details>
    Published: January 21, 2011  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: abcnews.go.com  
    Title: ABC News Black man wrongfully arrested because of incorrect facial recognition  
-   Link: <a href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow">https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</p></details>
+   Link:<a href="https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751" target="_blank" rel="noopener noreferrer nofollow">https://abcnews.go.com/US/black-man-wrongfully-arrested-incorrect-facial-recognition/story?id=71425751</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ABC NewsBlack man wrongfully arrested because of incorrect facial recognition - ABC NewsJune 25, 2020...</p></details>
    Published: June 25, 2020  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: washingtonpost.com  
    Title: The Washington Post Your face could be in this database  
-   Link: <a href="https://www.washingtonpost.com/opinions/2025/02/24/ai-crime-facial-recognition-technology/" target="_blank" rel="noopener noreferrer nofollow">https://www.washingtonpost.com/opinions/2025/02/24/ai-crime-facial-recognition-technology/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How will it be used?Facial recognition technology (FRT), used by an increasing number of understaffed police departments, has shown promi...</p></details>
+   Link:<a href="https://www.washingtonpost.com/opinions/2025/02/24/ai-crime-facial-recognition-technology/" target="_blank" rel="noopener noreferrer nofollow">https://www.washingtonpost.com/opinions/2025/02/24/ai-crime-facial-recognition-technology/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How will it be used?Facial recognition technology (FRT), used by an increasing number of understaffed police departments, has shown promi...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: biometricupdate.com  
-   Link: <a href="https://www.biometricupdate.com/202308/black-woman-matched-by-facial-recognition-alleges-police-misconduct-in-lawsuit" target="_blank" rel="noopener noreferrer nofollow">https://www.biometricupdate.com/202308/black-woman-matched-by-facial-recognition-alleges-police-misconduct-in-lawsuit</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Biometric UpdateBlack woman matched by facial recognition alleges police misconduct in lawsuit | Biometric UpdateAugust 7, 2023...</p></details>
+   Link:<a href="https://www.biometricupdate.com/202308/black-woman-matched-by-facial-recognition-alleges-police-misconduct-in-lawsuit" target="_blank" rel="noopener noreferrer nofollow">https://www.biometricupdate.com/202308/black-woman-matched-by-facial-recognition-alleges-police-misconduct-in-lawsuit</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Biometric UpdateBlack woman matched by facial recognition alleges police misconduct in lawsuit | Biometric UpdateAugust 7, 2023...</p></details>
    Published: August 7, 2023  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: www-staging.washingtonpost.com  
-   Link: <a href="https://www-staging.washingtonpost.com/[business" target="_blank" rel="noopener noreferrer nofollow">https://www-staging.washingtonpost.com/[business</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Washington PostPolice seldom disclose use of facial recognition despite false arrests - The Washington PostOctober 6, 2024...</p></details>
+   Link:<a href="https://www-staging.washingtonpost.com/[business" target="_blank" rel="noopener noreferrer nofollow">https://www-staging.washingtonpost.com/[business</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Washington PostPolice seldom disclose use of facial recognition despite false arrests - The Washington PostOctober 6, 2024...</p></details>
    Published: October 6, 2024  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: washingtonpost.com  
-   Link: <a href="https://www.washingtonpost.com/business/2024/10/06/police-facial-recognition-secret-false-arrest/?itid=vlp_rel01&amp;tid=ptv_rellink" target="_blank" rel="noopener noreferrer nofollow">https://www.washingtonpost.com/business/2024/10/06/police-facial-recognition-secret-false-arrest/?itid=vlp_rel01&amp;tid=ptv_rellink</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Washington PostPolice seldom disclose use of facial recognition despite false arrests - The Washington Post...</p></details>
+   Link:<a href="https://www.washingtonpost.com/business/2024/10/06/police-facial-recognition-secret-false-arrest/?itid=vlp_rel01&amp;tid=ptv_rellink" target="_blank" rel="noopener noreferrer nofollow">https://www.washingtonpost.com/business/2024/10/06/police-facial-recognition-secret-false-arrest/?itid=vlp_rel01&amp;tid=ptv_rellink</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Washington PostPolice seldom disclose use of facial recognition despite false arrests - The Washington Post...</p></details>
 
 ### Additional References
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: independent.co.uk  
-   Link: <a href="https://www.independent.co.uk/news/world/americas/detroit-police-arrest-robert-williams-facial-recognition-robbery-a9583966.html" target="_blank" rel="noopener noreferrer nofollow">https://www.independent.co.uk/news/world/americas/detroit-police-arrest-robert-williams-facial-recognition-robbery-a9583966.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The IndependentPolice wrongfully arrest black man after facial recognition software mistook him for shoplifter | The Independent | The In...</p></details>
+   Link:<a href="https://www.independent.co.uk/news/world/americas/detroit-police-arrest-robert-williams-facial-recognition-robbery-a9583966.html" target="_blank" rel="noopener noreferrer nofollow">https://www.independent.co.uk/news/world/americas/detroit-police-arrest-robert-williams-facial-recognition-robbery-a9583966.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The IndependentPolice wrongfully arrest black man after facial recognition software mistook him for shoplifter | The Independent | The In...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/330915891_Demographic_Effects_in_Facial_Recognition_and_Their_Dependence_on_Image_Acquisition_An_Evaluation_of_Eleven_Commercial_Systems" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/330915891_Demographic_Effects_in_Facial_Recognition_and_Their_Dependence_on_Image_Acquisition_An_Evaluation_of_Eleven_Commercial_Systems</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Effects in Facial Recognition and Their Dependence on Image Acquisition: An Evaluation of Eleven Commercial SystemsFebruary 1, 2019...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/330915891_Demographic_Effects_in_Facial_Recognition_and_Their_Dependence_on_Image_Acquisition_An_Evaluation_of_Eleven_Commercial_Systems" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/330915891_Demographic_Effects_in_Facial_Recognition_and_Their_Dependence_on_Image_Acquisition_An_Evaluation_of_Eleven_Commercial_Systems</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Effects in Facial Recognition and Their Dependence on Image Acquisition: An Evaluation of Eleven Commercial SystemsFebruary 1, 2019...</p></details>
    Published: February 1, 2019  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
-   Link: <a href="http://www.youtube.com/watch?v=DmzPnNX80sc" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=DmzPnNX80sc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;Facial recognition&quot; &quot;wrongful arrest&quot; robert williams Wrongfully Arrested Because of Flawed Face Recognition Technology ACLU...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=DmzPnNX80sc" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=DmzPnNX80sc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;Facial recognition&quot; &quot;wrongful arrest&quot; robert williams Wrongfully Arrested Because of Flawed Face Recognition Technology ACLU...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
-   Link: <a href="http://www.youtube.com/watch?v=eCeeikmz4X4" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=eCeeikmz4X4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Orlando police wrongful arrest fits pattern of similar cases using facial recognition...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=eCeeikmz4X4" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=eCeeikmz4X4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Orlando police wrongful arrest fits pattern of similar cases using facial recognition...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
-   Link: <a href="http://www.youtube.com/watch?v=Bxpx8izG5nA" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=Bxpx8izG5nA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Police release Tennessee grandmother after AI facial recognition led to her arrest...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=Bxpx8izG5nA" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=Bxpx8izG5nA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Police release Tennessee grandmother after AI facial recognition led to her arrest...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
-   Link: <a href="http://www.youtube.com/watch?v=nwRB9NTx6IU" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=nwRB9NTx6IU</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Innocent Metro Detroit man arrested after facial recognition software identified wrong man...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=nwRB9NTx6IU" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=nwRB9NTx6IU</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Innocent Metro Detroit man arrested after facial recognition software identified wrong man...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: arxiv.org  
    Title: Demographic Fairness in Face Identification: The Watchlist Imbalance Effect  
-   Link: <a href="https://arxiv.org/abs/2106.08049" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2106.08049</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>June 15, 2021...</p></details>
+   Link:<a href="https://arxiv.org/abs/2106.08049" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2106.08049</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>June 15, 2021...</p></details>
    Published: June 15, 2021  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: arxiv.org  
    Title: The Gender Gap in Face Recognition Accuracy Is a Hairy Problem  
-   Link: <a href="https://arxiv.org/abs/2206.04867" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2206.04867</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>June 10, 2022...</p></details>
+   Link:<a href="https://arxiv.org/abs/2206.04867" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2206.04867</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>June 10, 2022...</p></details>
    Published: June 10, 2022  

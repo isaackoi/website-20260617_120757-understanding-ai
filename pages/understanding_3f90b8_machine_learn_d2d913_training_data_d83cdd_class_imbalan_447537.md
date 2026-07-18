@@ -275,7 +275,7 @@ image: /assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d8
 
 ## Introduction
 
-Artificial intelligence systems often learn best from patterns they see repeatedly. When a training dataset contains many examples of one category but very few of another, the result is known as **class imbalance**. In such datasets, a model may become highly accurate on common cases while consistently missing the rare cases that matter most. This is a widespread challenge in AI because many real-world problems are naturally imbalanced: fraudulent transactions are rarer than legitimate ones, serious diseases are rarer than healthy cases, and safety-critical failures are rarer than normal operation. As a result, a model can appear successful overall while performing poorly where mistakes carry the greatest consequences. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersClass-imbalanced datasets &#124; Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</span></span></span>
+Artificial intelligence systems often learn best from patterns they see repeatedly. When a training dataset contains many examples of one category but very few of another, the result is known as **class imbalance**. In such datasets, a model may become highly accurate on common cases while consistently missing the rare cases that matter most. This is a widespread challenge in AI because many real-world problems are naturally imbalanced: fraudulent transactions are rarer than legitimate ones, serious diseases are rarer than healthy cases, and safety-critical failures are rarer than normal operation. As a result, a model can appear successful overall while performing poorly where mistakes carry the greatest consequences.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersClass-imbalanced datasets &#124; Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd_class_imbalan_447537-Illustration-1-dark.svg" | relative_url }}" alt="Rare cases illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd_class_imbalan_447537-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd_class_imbalan_447537-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -283,11 +283,11 @@ Artificial intelligence systems often learn best from patterns they see repeated
 
 [Machine-learning]({{ 'machine-learning/' | relative_url }}) models learn from evidence. During training, every example contributes information about which patterns should be associated with which outcomes. When one class dominates the dataset, it contributes far more training signals than the minority class.
 
-Imagine a dataset containing 99,000 normal transactions and 1,000 fraudulent transactions. The model repeatedly encounters normal behaviour and receives strong feedback about how to recognise it. Fraudulent behaviour appears much less often, giving the model fewer opportunities to learn the distinctive characteristics of fraud. Over time, the model may become excellent at recognising the majority class while developing only a weak [understanding]({{ 'understanding/' | relative_url }}) of the minority class. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersClass-imbalanced datasets &#124; Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</span></span></span>
+Imagine a dataset containing 99,000 normal transactions and 1,000 fraudulent transactions. The model repeatedly encounters normal behaviour and receives strong feedback about how to recognise it. Fraudulent behaviour appears much less often, giving the model fewer opportunities to learn the distinctive characteristics of fraud. Over time, the model may become excellent at recognising the majority class while developing only a weak [understanding]({{ 'understanding/' | relative_url }}) of the minority class.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersClass-imbalanced datasets &#124; Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</span></span></span>
 
-This imbalance affects how the model allocates its limited learning capacity. Optimisation algorithms generally focus on reducing overall error. Since mistakes on the majority class occur more frequently, correcting those mistakes often produces the largest improvement in the training objective. The rare class can therefore receive less [attention]({{ 'attention/' | relative_url }}) during learning even when it is the most important category from a human perspective. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1710.05381" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+This imbalance affects how the model allocates its limited learning capacity. Optimisation algorithms generally focus on reducing overall error. Since mistakes on the majority class occur more frequently, correcting those mistakes often produces the largest improvement in the training objective. The rare class can therefore receive less [attention]({{ 'attention/' | relative_url }}) during learning even when it is the most important category from a human perspective.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1710.05381" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
-A second problem is variation within the rare class. Common categories often contain many examples showing different conditions, environments, and edge cases. Rare categories may contain only a small sample of possible situations. The model therefore learns a narrower picture of what the minority class looks like and may struggle when confronted with new variations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1901.07590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Striking the Right Balance with Uncertainty</span><span class="citation-popover-snippet">Striking the Right Balance with UncertaintyJanuary 22, 2019...</span><span class="citation-popover-meta">Published: January 22, 2019</span></span></span>
+A second problem is variation within the rare class. Common categories often contain many examples showing different conditions, environments, and edge cases. Rare categories may contain only a small sample of possible situations. The model therefore learns a narrower picture of what the minority class looks like and may struggle when confronted with new variations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1901.07590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Striking the Right Balance with Uncertainty</span><span class="citation-popover-snippet">Striking the Right Balance with UncertaintyJanuary 22, 2019...</span><span class="citation-popover-meta">Published: January 22, 2019</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/QM0sYbEQSkM" title="Machine Learning Crash Course: Classification" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=QM0sYbEQSkM" target="_blank" rel="noopener noreferrer">Machine Learning Crash Course: Classification</a></p><p class="youtube-embed-meta">Channel: Google for Developers &middot; Views: 81.9K &middot; Uploaded: August 2024 &middot; Length: 2 minutes 19 seconds</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=QM0sYbEQSkM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=QM0sYbEQSkM">Open on YouTube</a></p></div></div></div>
@@ -296,7 +296,7 @@ A second problem is variation within the rare class. Common categories often con
 
 One of the most misunderstood effects of class imbalance is that a model can achieve impressive accuracy while effectively failing at the task people care about.
 
-Consider a dataset where only 1% of cases belong to the rare class. A model that simply predicts the majority class every time would be correct 99% of the time. The reported accuracy would look excellent despite the model never identifying a single rare example. Researchers often describe this as the **accuracy paradox**. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2SAS Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
+Consider a dataset where only 1% of cases belong to the rare class. A model that simply predicts the majority class every time would be correct 99% of the time. The reported accuracy would look excellent despite the model never identifying a single rare example. Researchers often describe this as the **accuracy paradox**.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2SAS Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
 
 This problem appears in many practical applications:
 
@@ -309,9 +309,9 @@ This problem appears in many practical applications:
 
 </div>
 
-In each case, overall accuracy can remain high even though performance on the rare class is poor. For this reason, AI practitioners often rely on additional measures such as **recall** (how many true rare cases are found) and **precision** (how many detected rare cases are correct). For highly imbalanced datasets, these metrics provide a clearer picture than accuracy alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Encord]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
+In each case, overall accuracy can remain high even though performance on the rare class is poor. For this reason, AI practitioners often rely on additional measures such as **recall** (how many true rare cases are found) and **precision** (how many detected rare cases are correct). For highly imbalanced datasets, these metrics provide a clearer picture than accuracy alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Encord]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
 
-The distinction matters because the cost of mistakes is rarely distributed evenly. Missing a rare but dangerous event may be far more consequential than incorrectly flagging a common event. A model optimised only for overall accuracy can therefore appear successful while creating significant real-world risks. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
+The distinction matters because the cost of mistakes is rarely distributed evenly. Missing a rare but dangerous event may be far more consequential than incorrectly flagging a common event. A model optimised only for overall accuracy can therefore appear successful while creating significant real-world risks.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd_class_imbalan_447537-Illustration-2-dark.svg" | relative_url }}" alt="Rare cases illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd_class_imbalan_447537-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd_class_imbalan_447537-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -321,9 +321,9 @@ Class imbalance becomes especially significant because minority classes frequent
 
 In medical diagnosis, the rare cases are often the patients who need urgent treatment. In cybersecurity, the rare cases are the attacks. In aviation safety, the rare cases are the failures. In financial systems, the rare cases may be money laundering or fraud.
 
-From a purely statistical perspective, these events contribute little to overall accuracy because they occur infrequently. From a practical perspective, they may be the entire reason the AI system exists. This [mismatch]({{ 'mismatch/' | relative_url }}) between statistical frequency and human importance is one of the central challenges of dataset design. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
+From a purely statistical perspective, these events contribute little to overall accuracy because they occur infrequently. From a practical perspective, they may be the entire reason the AI system exists. This [mismatch]({{ 'mismatch/' | relative_url }}) between statistical frequency and human importance is one of the central challenges of dataset design.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
 
-Class imbalance can also create fairness concerns. If certain populations or situations are underrepresented in training data, the model may perform worse for those groups because it has seen fewer examples from them. Standards and research on AI bias repeatedly identify representation problems in training data as a major source of uneven model performance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2UNECE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
+Class imbalance can also create fairness concerns. If certain populations or situations are underrepresented in training data, the model may perform worse for those groups because it has seen fewer examples from them. Standards and research on AI bias repeatedly identify representation problems in training data as a major source of uneven model performance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2UNECE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/JnlM4yLFNuo" title="Handling imbalanced dataset in machine learning | Deep Learning Tutorial 21 (Tensorflow2.0 &amp; Python)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=JnlM4yLFNuo" target="_blank" rel="noopener noreferrer">Handling imbalanced dataset in machine learning | Deep Learning Tutorial 21 (Tensorflow2.0 &amp; Python)</a></p><p class="youtube-embed-meta">Channel: codebasics</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=JnlM4yLFNuo" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=JnlM4yLFNuo">Open on YouTube</a></p></div></div></div>
@@ -334,7 +334,7 @@ Because class imbalance is common, machine-learning practitioners have developed
 
 ### Collecting more minority-class examples
 
-The most direct solution is often to gather additional examples of the rare class. More examples expose the model to a wider range of situations and improve its ability to generalise beyond the limited cases originally available. When feasible, improving representation at the data-collection stage is often preferable to relying solely on algorithmic fixes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersClass-imbalanced datasets &#124; Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</span></span></span>
+The most direct solution is often to gather additional examples of the rare class. More examples expose the model to a wider range of situations and improve its ability to generalise beyond the limited cases originally available. When feasible, improving representation at the data-collection stage is often preferable to relying solely on algorithmic fixes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersClass-imbalanced datasets &#124; Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</span></span></span>
 
 ### Rebalancing the training dataset
 
@@ -343,215 +343,215 @@ A common technique is to change the composition of the training data.
 * **Oversampling** increases the representation of minority-class examples.
 * **Undersampling** reduces the number of majority-class examples.
 
-Both methods make rare examples more visible during training. Research on image-classification systems has shown that class imbalance can substantially harm performance and that rebalancing strategies often improve results, particularly oversampling approaches. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersClass-imbalanced datasets &#124; Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</span></span></span>
+Both methods make rare examples more visible during training. Research on image-classification systems has shown that class imbalance can substantially harm performance and that rebalancing strategies often improve results, particularly oversampling approaches.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersClass-imbalanced datasets &#124; Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd_class_imbalan_447537-Illustration-3-dark.svg" | relative_url }}" alt="Rare cases illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd_class_imbalan_447537-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd_class_imbalan_447537-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Creating additional minority examples
 
-In some domains, developers generate [synthetic]({{ 'synthetic-media/' | relative_url }}) examples based on existing rare cases. These methods attempt to provide more training signals without requiring large-scale data collection. Research has found that carefully designed augmentation techniques can improve minority-class performance, though their effectiveness depends on the quality and realism of the generated examples. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2111.03516" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Solving the Class Imbalance Problem Using a Counterfactual Method for Data AugmentationNovember 5, 2021...</span><span class="citation-popover-meta">Published: November 5, 2021</span></span></span>
+In some domains, developers generate [synthetic]({{ 'synthetic-media/' | relative_url }}) examples based on existing rare cases. These methods attempt to provide more training signals without requiring large-scale data collection. Research has found that carefully designed augmentation techniques can improve minority-class performance, though their effectiveness depends on the quality and realism of the generated examples.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2111.03516" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Solving the Class Imbalance Problem Using a Counterfactual Method for Data AugmentationNovember 5, 2021...</span><span class="citation-popover-meta">Published: November 5, 2021</span></span></span>
 
 ### Measuring the right outcomes
 
-Even a well-balanced training strategy can fail if evaluation focuses only on accuracy. Modern machine-learning practice therefore emphasises metrics that reveal performance on rare classes, including recall, precision, F1 score, and precision–recall analysis. These measures help developers detect situations where the model performs well overall but poorly on the cases that matter most. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Encord]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
+Even a well-balanced training strategy can fail if evaluation focuses only on accuracy. Modern machine-learning practice therefore emphasises metrics that reveal performance on rare classes, including recall, precision, F1 score, and precision–recall analysis. These measures help developers detect situations where the model performs well overall but poorly on the cases that matter most.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Encord]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
 
 ## The key lesson about rare cases
 
-Class imbalance shows that training data influences not only what a model learns, but also what it learns to ignore. When rare examples appear too infrequently, the model receives weaker evidence about them, develops less reliable decision boundaries around them, and may achieve impressive overall accuracy while failing on the very cases users care about most. Understanding this effect is essential for interpreting AI performance: a model that looks accurate on average is not necessarily good at detecting rare but important events. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
+Class imbalance shows that training data influences not only what a model learns, but also what it learns to ignore. When rare examples appear too infrequently, the model receives weaker evidence about them, develops less reliable decision boundaries around them, and may achieve impressive overall accuracy while failing on the very cases users care about most. Understanding this effect is essential for interpreting AI performance: a model that looks accurate on average is not necessarily good at detecting rare but important events.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">accuracy precision recall</span><span class="citation-popover-snippet">Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/wfnVfPGaMlk" title="Precision, Recall, F1 Score — And Why Accuracy Isn’t Enough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=wfnVfPGaMlk" target="_blank" rel="noopener noreferrer">Precision, Recall, F1 Score — And Why Accuracy Isn’t Enough</a></p><p class="youtube-embed-meta">Channel: Schovia</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=wfnVfPGaMlk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=wfnVfPGaMlk">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why AI misses rare but important cases. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why AI misses rare but important cases. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Covers model evaluation, imbalanced datasets, metrics, sampling, and real-world machine-learning pitfalls.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers model evaluation, imbalanced datasets, metrics, sampling, and real-world machine-learning pitfalls.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Introduction+to+Machine+Learning+with+Python+by+Andreas+C.+M%C3%BCller&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Introduction to Machine Learning with Python on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=qjUVogEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Introduction to Machine Learning with Python" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Introduction+to+Machine+Learning+with+Python+by+Andreas+C.+M%C3%BCller&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Introduction to Machine Learning with Python">Introduction to Machine Learning with Python</a>
-        </h4>
-        <p class="fr-book-author">By Andreas C. Müller, Sarah Guido</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Introduction+to+Machine+Learning+with+Python+by+Andreas+C.+M%C3%BCller&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Introduction to Machine Learning with Python on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=qjUVogEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Introduction to Machine Learning with Python" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Introduction+to+Machine+Learning+with+Python+by+Andreas+C.+M%C3%BCller&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Introduction to Machine Learning with Python">Introduction to Machine Learning with Python</a>
+</h4>
+<p class="fr-book-author">By Andreas C. Müller, Sarah Guido</p>
         
-        <p class="fr-book-desc">Explains classification problems, evaluation metrics, and challenges arising from skewed datasets.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Introduction+to+Machine+Learning+with+Python+by+Andreas+C.+M%C3%BCller&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains classification problems, evaluation metrics, and challenges arising from skewed datasets.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Introduction+to+Machine+Learning+with+Python+by+Andreas+C.+M%C3%BCller&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Learning+from+Imbalanced+Data+Sets+by+Alberto+Fern%C3%A1ndez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Learning from Imbalanced Data Sets on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8Fp0DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Learning from Imbalanced Data Sets" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Learning+from+Imbalanced+Data+Sets+by+Alberto+Fern%C3%A1ndez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Learning from Imbalanced Data Sets">Learning from Imbalanced Data Sets</a>
-        </h4>
-        <p class="fr-book-author">By Alberto Fernández, Salvador García et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Learning+from+Imbalanced+Data+Sets+by+Alberto+Fern%C3%A1ndez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Learning from Imbalanced Data Sets on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8Fp0DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Learning from Imbalanced Data Sets" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Learning+from+Imbalanced+Data+Sets+by+Alberto+Fern%C3%A1ndez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Learning from Imbalanced Data Sets">Learning from Imbalanced Data Sets</a>
+</h4>
+<p class="fr-book-author">By Alberto Fernández, Salvador García et al.</p>
         
-        <p class="fr-book-desc">Focused specifically on class imbalance, sampling methods, and minority-class performance.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Learning+from+Imbalanced+Data+Sets+by+Alberto+Fern%C3%A1ndez&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focused specifically on class imbalance, sampling methods, and minority-class performance.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Learning+from+Imbalanced+Data+Sets+by+Alberto+Fern%C3%A1ndez&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
-        </h4>
-        <p class="fr-book-author">By Andriy Burkov</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
+</h4>
+<p class="fr-book-author">By Andriy Burkov</p>
         
-        <p class="fr-book-desc">Provides a strong conceptual foundation for understanding why models struggle with rare classes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides a strong conceptual foundation for understanding why models struggle with rare classes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=to+Machine+Learning+with+Python+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">to Machine Learning with Python books</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Learning+from+Imbalanced+Data+Sets&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Learning from Imbalanced Data Sets</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=to+Machine+Learning+with+Python+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">to Machine Learning with Python books</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Learning+from+Imbalanced+Data+Sets&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Learning from Imbalanced Data Sets</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT"><img src="{{ '/assets/images/marketplace-covers/62605ae3a4527e1b3416.jpg' | relative_url }}" alt="Listing image for WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT"><img src="{{ '/assets/images/marketplace-covers/62605ae3a4527e1b3416.jpg' | relative_url }}" alt="Listing image for WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee"><img src="{{ '/assets/images/marketplace-covers/f21c0673c92a0935dcd5.jpg' | relative_url }}" alt="Listing image for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee"><img src="{{ '/assets/images/marketplace-covers/f21c0673c92a0935dcd5.jpg' | relative_url }}" alt="Listing image for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="rare-cases-why-ai-misses-rare-but-important-cases-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -567,7 +567,7 @@ Class imbalance shows that training data influences not only what a model learns
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -587,7 +587,7 @@ Class imbalance shows that training data influences not only what a model learns
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -619,7 +619,7 @@ Class imbalance shows that training data influences not only what a model learns
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -671,7 +671,7 @@ Class imbalance shows that training data influences not only what a model learns
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -716,7 +716,7 @@ Class imbalance shows that training data influences not only what a model learns
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -757,140 +757,140 @@ Class imbalance shows that training data influences not only what a model learns
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersClass-imbalanced datasets | Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/imbalanced-datasets</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersClass-imbalanced datasets | Machine LearningAug 28, 2025 — For example, the class-imbalanced dataset shown in Figure...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: developers.google.com  
    Title: accuracy precision recall  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersClassification: Accuracy, recall, precision, and related metrics12 Jan 2026 — In an imbalanced dataset where the num...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1710.05381" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1710.05381</a>  
+   Link:<a href="https://arxiv.org/abs/1710.05381" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1710.05381</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
    Title: arXiv Striking the Right Balance with Uncertainty  
-   Link: <a href="https://arxiv.org/abs/1901.07590" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1901.07590</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Striking the Right Balance with UncertaintyJanuary 22, 2019...</p></details>
+   Link:<a href="https://arxiv.org/abs/1901.07590" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1901.07590</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Striking the Right Balance with UncertaintyJanuary 22, 2019...</p></details>
    Published: January 22, 2019  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
    Title: arXiv Heteroskedastic and Imbalanced [Deep Learning](&#123;&#123; 'deep-learning/' | relative_url &#125;&#125;) with Adaptive Regularization  
-   Link: <a href="https://arxiv.org/abs/2006.15766" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2006.15766</a>  
+   Link:<a href="https://arxiv.org/abs/2006.15766" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2006.15766</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: support.sas.com  
-   Link: <a href="https://support.sas.com/resources/papers/proceedings17/0942-2017.pdf" target="_blank" rel="noopener noreferrer nofollow">https://support.sas.com/resources/papers/proceedings17/0942-2017.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>SAS SupportPredictive Accuracy: A Misleading Performance Measure...ABSTRACT. The most commonly reported model evaluation metric is the a...</p></details>
+   Link:<a href="https://support.sas.com/resources/papers/proceedings17/0942-2017.pdf" target="_blank" rel="noopener noreferrer nofollow">https://support.sas.com/resources/papers/proceedings17/0942-2017.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SAS SupportPredictive Accuracy: A Misleading Performance Measure...ABSTRACT. The most commonly reported model evaluation metric is the a...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: encord.com  
    Title: Accuracy vs  
-   Link: <a href="https://encord.com/blog/classification-metrics-accuracy-precision-recall/" target="_blank" rel="noopener noreferrer nofollow">https://encord.com/blog/classification-metrics-accuracy-precision-recall/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Precision vs. Recall in Machine Learning23 Nov 2023 — Precision measures how often predictions for the positive class are correct. Recall...</p></details>
+   Link:<a href="https://encord.com/blog/classification-metrics-accuracy-precision-recall/" target="_blank" rel="noopener noreferrer nofollow">https://encord.com/blog/classification-metrics-accuracy-precision-recall/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Precision vs. Recall in Machine Learning23 Nov 2023 — Precision measures how often predictions for the positive class are correct. Recall...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: nvlpubs.nist.gov  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: unece.org  
-   Link: <a href="https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_[Responsible" target="_blank" rel="noopener noreferrer nofollow">https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_[Responsible</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Fairness in Machine LearningRepresentation bias occurs when the training data used is not representative of the population the model will...</p></details>
+   Link:<a href="https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_[Responsible" target="_blank" rel="noopener noreferrer nofollow">https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_[Responsible</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fairness in Machine LearningRepresentation bias occurs when the training data used is not representative of the population the model will...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2111.03516" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2111.03516</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Solving the Class Imbalance Problem Using a Counterfactual Method for Data AugmentationNovember 5, 2021...</p></details>
+   Link:<a href="https://arxiv.org/abs/2111.03516" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2111.03516</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Solving the Class Imbalance Problem Using a Counterfactual Method for Data AugmentationNovember 5, 2021...</p></details>
    Published: November 5, 2021  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: google.com  
-   Link: <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
+   Link:<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: developers.google.com  
    Title: crash course  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>google.comGoogle&#x27;s Machine Learning Crash CourseAn introduction to binary classification models, covering thresholding, confusion matrice...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>google.comGoogle&#x27;s Machine Learning Crash CourseAn introduction to binary classification models, covering thresholding, confusion matrice...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: nist.gov  
    Title: theres more ai bias [biased data](&#123;&#123; 'biased-data/' | relative_url &#125;&#125;) nist report highlights  
-   Link: <a href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>There&#x27;s More to AI Bias Than Biased Data, NIST Report...16 Mar 2022 — The NIST report acknowledges that a great deal of AI bias stems fr...</p></details>
+   Link:<a href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>There&#x27;s More to AI Bias Than Biased Data, NIST Report...16 Mar 2022 — The NIST report acknowledges that a great deal of AI bias stems fr...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: encord.com  
-   Link: <a href="https://encord.com/blog/an-introduction-to-balanced-and-imbalanced-datasets-in-machine-learning/" target="_blank" rel="noopener noreferrer nofollow">https://encord.com/blog/an-introduction-to-balanced-and-imbalanced-datasets-in-machine-learning/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Balanced and Imbalanced Datasets in Machine Learning...Nov 11, 2022 — Balancing a dataset makes training a model easier because it helps...</p></details>
+   Link:<a href="https://encord.com/blog/an-introduction-to-balanced-and-imbalanced-datasets-in-machine-learning/" target="_blank" rel="noopener noreferrer nofollow">https://encord.com/blog/an-introduction-to-balanced-and-imbalanced-datasets-in-machine-learning/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Balanced and Imbalanced Datasets in Machine Learning...Nov 11, 2022 — Balancing a dataset makes training a model easier because it helps...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: dictionary.cambridge.org  
-   Link: <a href="https://dictionary.cambridge.org/dictionary/english-chinese-traditional/classification" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english-chinese-traditional/classification</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>in Traditional Chinese - Cambridge Dictionarythe act or process of dividing things into groups according to their type 將...分類,將...歸類;把...</p></details>
+   Link:<a href="https://dictionary.cambridge.org/dictionary/english-chinese-traditional/classification" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english-chinese-traditional/classification</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>in Traditional Chinese - Cambridge Dictionarythe act or process of dividing things into groups according to their type 將...分類,將...歸類;把...</p></details>
 
 ### Additional References
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/340894484_Addressing_Accuracy_Paradox_Using_Enhanched_Weighted_Performance_Metric_in_Machine_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/340894484_Addressing_Accuracy_Paradox_Using_Enhanched_Weighted_Performance_Metric_in_Machine_Learning</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Addressing Accuracy Paradox Using Enhanched Weighted...Jan 26, 2026 — This accuracy paradox [105] occurred for highly imbalanced dataset...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/340894484_Addressing_Accuracy_Paradox_Using_Enhanched_Weighted_Performance_Metric_in_Machine_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/340894484_Addressing_Accuracy_Paradox_Using_Enhanched_Weighted_Performance_Metric_in_Machine_Learning</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Addressing Accuracy Paradox Using Enhanched Weighted...Jan 26, 2026 — This accuracy paradox [105] occurred for highly imbalanced dataset...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/cornellius-yudha-wijaya_python-datascience-machinelearning-activity-7132185791467847680-bmlw" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/cornellius-yudha-wijaya_python-datascience-machinelearning-activity-7132185791467847680-bmlw</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Cornellius Y.&#x27;s PostBalance Metrics: Balanced Accuracy: Fairness in imbalanced datasets. F1 Score: Harmonizes precision and recall. F-bet...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/cornellius-yudha-wijaya_python-datascience-machinelearning-activity-7132185791467847680-bmlw" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/cornellius-yudha-wijaya_python-datascience-machinelearning-activity-7132185791467847680-bmlw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Cornellius Y.&#x27;s PostBalance Metrics: Balanced Accuracy: Fairness in imbalanced datasets. F1 Score: Harmonizes precision and recall. F-bet...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40shreya_g/why-accuracy-fails-on-imbalanced-datasets-8cd21594137b" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40shreya_g/why-accuracy-fails-on-imbalanced-datasets-8cd21594137b</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Accuracy Fails on Imbalanced DatasetsImbalanced datasets require careful evaluation. Accuracy as a metric alone can be dangerously mi...</p></details>
+   Link:<a href="https://medium.com/%40shreya_g/why-accuracy-fails-on-imbalanced-datasets-8cd21594137b" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40shreya_g/why-accuracy-fails-on-imbalanced-datasets-8cd21594137b</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Accuracy Fails on Imbalanced DatasetsImbalanced datasets require careful evaluation. Accuracy as a metric alone can be dangerously mi...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: github.com  
-   Link: <a href="https://github.com/litaotao/machine-learning-crash-course" target="_blank" rel="noopener noreferrer nofollow">https://github.com/litaotao/machine-learning-crash-course</a>  
+   Link:<a href="https://github.com/litaotao/machine-learning-crash-course" target="_blank" rel="noopener noreferrer nofollow">https://github.com/litaotao/machine-learning-crash-course</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40boutnaru/the-artificial-intelligence-journey-accuracy-a8a3f292ae6f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40boutnaru/the-artificial-intelligence-journey-accuracy-a8a3f292ae6f</a>  
+   Link:<a href="https://medium.com/%40boutnaru/the-artificial-intelligence-journey-accuracy-a8a3f292ae6f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40boutnaru/the-artificial-intelligence-journey-accuracy-a8a3f292ae6f</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10741524/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10741524/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>by M Ghanem · 2023 · Cited by 63 — AUPRC is a valuable metric when working with imbalanced datasets as it considers precision and reca...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10741524/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10741524/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by M Ghanem · 2023 · Cited by 63 — AUPRC is a valuable metric when working with imbalanced datasets as it considers precision and reca...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=JnlM4yLFNuo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JnlM4yLFNuo</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Class Imbalance Explained | Why Your Model Looks Great and Still Fails - YouTube Class Imbalance Explained | Why Your Model Looks Great a...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=JnlM4yLFNuo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JnlM4yLFNuo</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Class Imbalance Explained | Why Your Model Looks Great and Still Fails - YouTube Class Imbalance Explained | Why Your Model Looks Great a...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=QM0sYbEQSkM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=QM0sYbEQSkM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning Crash Course: ClassificationClassification is a machine learning technique for predicting a class (or category)—for exam...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=QM0sYbEQSkM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=QM0sYbEQSkM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning Crash Course: ClassificationClassification is a machine learning technique for predicting a class (or category)—for exam...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: studocu.com  
    Title: machine learning 125 pm classification accuracy recall precision metrics  
-   Link: <a href="https://www.studocu.com/in/document/rajiv-gandhi-university-of-health-sciences/hospital-related-law/machine-learning-125-pm-classification-accuracy-recall-precision-metrics/145476246" target="_blank" rel="noopener noreferrer nofollow">https://www.studocu.com/in/document/rajiv-gandhi-university-of-health-sciences/hospital-related-law/machine-learning-125-pm-classification-accuracy-recall-precision-metrics/145476246</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning 1:25 PM Classification: Accuracy, Recall...9 Oct 2024 — Explore essential metrics for evaluating machine learning model...</p></details>
+   Link:<a href="https://www.studocu.com/in/document/rajiv-gandhi-university-of-health-sciences/hospital-related-law/machine-learning-125-pm-classification-accuracy-recall-precision-metrics/145476246" target="_blank" rel="noopener noreferrer nofollow">https://www.studocu.com/in/document/rajiv-gandhi-university-of-health-sciences/hospital-related-law/machine-learning-125-pm-classification-accuracy-recall-precision-metrics/145476246</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning 1:25 PM Classification: Accuracy, Recall...9 Oct 2024 — Explore essential metrics for evaluating machine learning model...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMC100% Classification Accuracy Considered Harmful  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3888391/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC3888391/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>nih.gov100% Classification Accuracy Considered Harmful - PMC - NIHby FJ Valverde-Albacete · 2014 · Cited by 322 — Despite optimizing clas...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3888391/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC3888391/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>nih.gov100% Classification Accuracy Considered Harmful - PMC - NIHby FJ Valverde-Albacete · 2014 · Cited by 322 — Despite optimizing clas...</p></details>

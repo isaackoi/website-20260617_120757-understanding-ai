@@ -273,7 +273,7 @@ Many AI pilots appear inexpensive because they are designed to prove that a mode
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665a2d_hidden_integr_4e3bcf-Illustration-1-dark.svg" | relative_url }}" alt="Integration Costs illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665a2d_hidden_integr_4e3bcf-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665a2d_hidden_integr_4e3bcf-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This gap helps explain why so many AI initiatives struggle to produce measurable business returns. Research highlighted by MIT-affiliated analysis of hundreds of enterprise deployments found that most [generative AI]({{ 'generative-ai/' | relative_url }}) projects fail to create clear profit-and-loss impact, with integration into existing workflows repeatedly identified as a major obstacle rather than model performance itself. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tomshardware.com">[Tom&#x27;s Hardware]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tomshardware.com</span><span class="citation-popover-snippet">The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</span></span></span>
+This gap helps explain why so many AI initiatives struggle to produce measurable business returns. Research highlighted by MIT-affiliated analysis of hundreds of enterprise deployments found that most [generative AI]({{ 'generative-ai/' | relative_url }}) projects fail to create clear profit-and-loss impact, with integration into existing workflows repeatedly identified as a major obstacle rather than model performance itself.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tomshardware.com">[Tom&#x27;s Hardware]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tomshardware.com</span><span class="citation-popover-snippet">The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</span></span></span>
 
 ## The hidden costs after the AI demo
 
@@ -294,9 +294,9 @@ Production environments are different. Once an organisation wants AI to support 
 
 </div>
 
-As a result, the cost structure shifts from model experimentation to enterprise engineering. Several analyses of enterprise AI deployments argue that workflow integration, governance, data engineering and operational infrastructure consume a large share of the effort required to move from pilot to production. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.linkedin.com/posts/geoff-woods-8534774_mit-studied-300-enterprise-ai-deployments-activity-7460675534973464576-1gt2" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: linkedin.com">[LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">linkedin.com</span><span class="citation-popover-snippet">Why 95% of AI Deployments Fail to Deliver ROIMay 14, 2026 — MIT studied 300 enterprise AI deployments. 95% returned zero ROI. Mos...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
+As a result, the cost structure shifts from model experimentation to enterprise engineering. Several analyses of enterprise AI deployments argue that workflow integration, governance, data engineering and operational infrastructure consume a large share of the effort required to move from pilot to production.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.linkedin.com/posts/geoff-woods-8534774_mit-studied-300-enterprise-ai-deployments-activity-7460675534973464576-1gt2" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: linkedin.com">[LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">linkedin.com</span><span class="citation-popover-snippet">Why 95% of AI Deployments Fail to Deliver ROIMay 14, 2026 — MIT studied 300 enterprise AI deployments. 95% returned zero ROI. Mos...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
 
-A common mistake is to compare AI licence fees with expected labour savings while ignoring the integration programme required to make those savings real. When those implementation costs are included, projected returns often fall dramatically. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://opag.io/insights/ai-integration-costs-hidden-expenses" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: opag.io">[Opagio]</a><span class="citation-popover" role="note"><span class="citation-popover-source">opag.io</span><span class="citation-popover-title">io AI Integration Costs: The Hidden Expenses of AI Adoption</span><span class="citation-popover-snippet">An AI system that shows 200% ROI based on licensing costs alone may show 40% ROI when total...Read more...</span></span></span>
+A common mistake is to compare AI licence fees with expected labour savings while ignoring the integration programme required to make those savings real. When those implementation costs are included, projected returns often fall dramatically.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://opag.io/insights/ai-integration-costs-hidden-expenses" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: opag.io">[Opagio]</a><span class="citation-popover" role="note"><span class="citation-popover-source">opag.io</span><span class="citation-popover-title">io AI Integration Costs: The Hidden Expenses of AI Adoption</span><span class="citation-popover-snippet">An AI system that shows 200% ROI based on licensing costs alone may show 40% ROI when total...Read more...</span></span></span>
 
 ## Why pilots avoid the hardest system connections
 
@@ -340,7 +340,7 @@ Organisations must determine:
 
 </div>
 
-Recent enterprise guidance on production AI repeatedly highlights governance, access control and security architecture as major barriers to scaling beyond experimentation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/technology/artificial-intelligence/most-enterprises-are-still-unprepared-to-operationalize-it-it-leaders-are-bullish-on-agents-but-keeping-falling-at-the-final-hurdle-heres-why" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">About 75% of enterprise leaders report adopting the technology, but true implementation has been rare, with many mistaking AI agents for...</span></span></span>
+Recent enterprise guidance on production AI repeatedly highlights governance, access control and security architecture as major barriers to scaling beyond experimentation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/technology/artificial-intelligence/most-enterprises-are-still-unprepared-to-operationalize-it-it-leaders-are-bullish-on-agents-but-keeping-falling-at-the-final-hurdle-heres-why" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">About 75% of enterprise leaders report adopting the technology, but true implementation has been rare, with many mistaking AI agents for...</span></span></span>
 
 These controls are necessary, but they add implementation time, specialist staffing requirements and ongoing operational costs.
 
@@ -350,7 +350,7 @@ These controls are necessary, but they add implementation time, specialist staff
 
 Many large organisations operate technology estates built over decades. Critical business processes may depend on applications that predate modern cloud architectures and lack straightforward interfaces.
 
-When AI systems need information from these platforms, teams often must create custom connectors, middleware layers or data-transformation processes. Some enterprise practitioners argue that integration with legacy systems can cost several times more than deployments built on modern platforms because every connection requires bespoke engineering work. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://dancumberlandlabs.com/blog/hidden-costs-ai-projects/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dancumberlandlabs.com">[Dan Cumberland Labs]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dancumberlandlabs.com</span><span class="citation-popover-snippet">Dan Cumberland LabsHidden Costs of AI Projects: 7 Things Nobody Tells YouMay 8, 2026 — Integrating AI with legacy systems costs 2-3x more...</span><span class="citation-popover-meta">Published: May 8, 2026</span></span></span>
+When AI systems need information from these platforms, teams often must create custom connectors, middleware layers or data-transformation processes. Some enterprise practitioners argue that integration with legacy systems can cost several times more than deployments built on modern platforms because every connection requires bespoke engineering work.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://dancumberlandlabs.com/blog/hidden-costs-ai-projects/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dancumberlandlabs.com">[Dan Cumberland Labs]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dancumberlandlabs.com</span><span class="citation-popover-snippet">Dan Cumberland LabsHidden Costs of AI Projects: 7 Things Nobody Tells YouMay 8, 2026 — Integrating AI with legacy systems costs 2-3x more...</span><span class="citation-popover-meta">Published: May 8, 2026</span></span></span>
 
 The challenge is not that legacy systems are unusable. The challenge is that they were designed for human users and traditional software workflows rather than AI-driven [automation]({{ 'automation-bias/' | relative_url }}).
 
@@ -360,7 +360,7 @@ AI systems depend on access to reliable information. Unfortunately, enterprise d
 
 Customer information may exist in one system, transaction history in another and operational records in a third. Names, identifiers and definitions may not match across databases.
 
-IBM identifies common integration obstacles including poor data quality, incompatible formats, inconsistent structures and hybrid environments that combine cloud and on-premises systems. These issues directly affect AI deployments because inaccurate or fragmented data reduces the quality of outputs and increases engineering complexity. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/data-integration-challenges" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">data integration challenges</span><span class="citation-popover-snippet">Top Data Integration Challenges and Solutions19 Dec 2025 — Data integration challenges such as poor data quality, incompatible formats...</span></span></span>
+IBM identifies common integration obstacles including poor data quality, incompatible formats, inconsistent structures and hybrid environments that combine cloud and on-premises systems. These issues directly affect AI deployments because inaccurate or fragmented data reduces the quality of outputs and increases engineering complexity.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/data-integration-challenges" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">data integration challenges</span><span class="citation-popover-snippet">Top Data Integration Challenges and Solutions19 Dec 2025 — Data integration challenges such as poor data quality, incompatible formats...</span></span></span>
 
 As a result, organisations often spend substantial resources on data preparation before AI can deliver meaningful operational value.
 
@@ -379,12 +379,12 @@ A pilot serving a small group may run comfortably with limited infrastructure. A
 * Monitoring systems.
 * Backup processes.
 * Network capacity.
-* Scalable data pipelines. <span class="citation-chip-wrap"><a class="citation-chip" href="https://levelact.com/enterprise-ai-projects-infrastructure-bottlenecks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: levelact.com">[levelact.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">levelact.com</span><span class="citation-popover-title">enterprise ai projects infrastructure bottlenecks</span><span class="citation-popover-snippet">Why Enterprise AI Projects Fail in 2026May 7, 2026 — 7 May 2026 — Enterprise AI projects are failing due to infrastructure bottle...</span><span class="citation-popover-meta">Published: May 7, 2026</span></span></span>
+* Scalable data pipelines.<span class="citation-chip-wrap"><a class="citation-chip" href="https://levelact.com/enterprise-ai-projects-infrastructure-bottlenecks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: levelact.com">[levelact.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">levelact.com</span><span class="citation-popover-title">enterprise ai projects infrastructure bottlenecks</span><span class="citation-popover-snippet">Why Enterprise AI Projects Fail in 2026May 7, 2026 — 7 May 2026 — Enterprise AI projects are failing due to infrastructure bottle...</span><span class="citation-popover-meta">Published: May 7, 2026</span></span></span>
 * Incident response procedures.
 
 </div>
 
-Many organisations discover that AI is not merely a software project but also an infrastructure project involving operational complexity that was not visible during the proof-of-concept phase. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://levelact.com/enterprise-ai-projects-infrastructure-bottlenecks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: levelact.com">[LevelAct]</a><span class="citation-popover" role="note"><span class="citation-popover-source">levelact.com</span><span class="citation-popover-title">enterprise ai projects infrastructure bottlenecks</span><span class="citation-popover-snippet">Why Enterprise AI Projects Fail in 2026May 7, 2026 — 7 May 2026 — Enterprise AI projects are failing due to infrastructure bottle...</span><span class="citation-popover-meta">Published: May 7, 2026</span></span></span>
+Many organisations discover that AI is not merely a software project but also an infrastructure project involving operational complexity that was not visible during the proof-of-concept phase.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://levelact.com/enterprise-ai-projects-infrastructure-bottlenecks/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: levelact.com">[LevelAct]</a><span class="citation-popover" role="note"><span class="citation-popover-source">levelact.com</span><span class="citation-popover-title">enterprise ai projects infrastructure bottlenecks</span><span class="citation-popover-snippet">Why Enterprise AI Projects Fail in 2026May 7, 2026 — 7 May 2026 — Enterprise AI projects are failing due to infrastructure bottle...</span><span class="citation-popover-meta">Published: May 7, 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/-gD0Ad18dCw" title="Trustworthy MLOps &amp; LLMOps - Part1 | Introduction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=-gD0Ad18dCw" target="_blank" rel="noopener noreferrer">Trustworthy MLOps &amp; LLMOps - Part1 | Introduction</a></p><p class="youtube-embed-meta">Channel: BrainOmega</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=-gD0Ad18dCw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=-gD0Ad18dCw">Open on YouTube</a></p></div></div></div>
@@ -400,7 +400,7 @@ A company might expect productivity gains within months. Instead, teams spend a 
 * Executive [confidence]({{ 'confidence/' | relative_url }}) declines.
 * Organisational priorities change.
 
-This timing problem is particularly damaging because ROI calculations often assume rapid adoption. MIT-related research on enterprise AI deployments found a sharp divide between organisations achieving measurable outcomes and those trapped in prolonged implementation efforts that never materially affect financial performance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tomshardware.com">[Tom&#x27;s Hardware]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tomshardware.com</span><span class="citation-popover-snippet">The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</span></span></span>
+This timing problem is particularly damaging because ROI calculations often assume rapid adoption. MIT-related research on enterprise AI deployments found a sharp divide between organisations achieving measurable outcomes and those trapped in prolonged implementation efforts that never materially affect financial performance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tomshardware.com">[Tom&#x27;s Hardware]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tomshardware.com</span><span class="citation-popover-snippet">The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</span></span></span>
 
 The result is a familiar pattern: an impressive pilot, a difficult integration phase and a disappointing business outcome.
 
@@ -443,7 +443,7 @@ Pilot evaluations frequently focus on accuracy, response quality or user satisfa
 
 </div>
 
-Poor [data readiness]({{ 'data-readiness/' | relative_url }}) is often a stronger predictor of deployment difficulty than model capability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/data-integration-challenges" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">data integration challenges</span><span class="citation-popover-snippet">Top Data Integration Challenges and Solutions19 Dec 2025 — Data integration challenges such as poor data quality, incompatible formats...</span></span></span>
+Poor [data readiness]({{ 'data-readiness/' | relative_url }}) is often a stronger predictor of deployment difficulty than model capability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/data-integration-challenges" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">data integration challenges</span><span class="citation-popover-snippet">Top Data Integration Challenges and Solutions19 Dec 2025 — Data integration challenges such as poor data quality, incompatible formats...</span></span></span>
 
 ### Budget for operational ownership
 
@@ -456,203 +456,203 @@ Successful AI deployments require ongoing support. Organisations should estimate
 * Performance monitoring.
 * Model updates.
 
-These recurring costs can exceed initial pilot expenses and should be included in business cases from the beginning. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/technology/artificial-intelligence/most-enterprises-are-still-unprepared-to-operationalize-it-it-leaders-are-bullish-on-agents-but-keeping-falling-at-the-final-hurdle-heres-why" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">About 75% of enterprise leaders report adopting the technology, but true implementation has been rare, with many mistaking AI agents for...</span></span></span>
+These recurring costs can exceed initial pilot expenses and should be included in business cases from the beginning.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/technology/artificial-intelligence/most-enterprises-are-still-unprepared-to-operationalize-it-it-leaders-are-bullish-on-agents-but-keeping-falling-at-the-final-hurdle-heres-why" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">About 75% of enterprise leaders report adopting the technology, but true implementation has been rare, with many mistaking AI agents for...</span></span></span>
 
 ## The lesson from failed deployments
 
 The most expensive part of enterprise AI is often not the model. It is the work required to connect that model to the messy reality of business operations.
 
-When organisations underestimate legacy-system integration, fragmented data, security requirements and production support needs, promising pilots can become costly programmes that never achieve meaningful returns. Conversely, companies that treat integration as a core part of the investment—rather than an afterthought—are more likely to move from demonstration to measurable business value. Research from MIT CISR and other enterprise studies suggests that the greatest financial gains emerge not during experimentation, but when organisations successfully build scalable ways of working around AI and embed it into operational systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cisr.mit.edu/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cisr.mit.edu">[cisr.mit.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cisr.mit.edu</span><span class="citation-popover-title">2025 0801 EnterpriseAIMaturityUpdate WoernerSebastianWeillKaganer</span><span class="citation-popover-snippet">Grow Enterprise AI Maturity for Bottom-Line Impact21 Aug 2025 — A new MIT CISR survey has found that enterprises today are making signifi...</span></span></span>
+When organisations underestimate legacy-system integration, fragmented data, security requirements and production support needs, promising pilots can become costly programmes that never achieve meaningful returns. Conversely, companies that treat integration as a core part of the investment—rather than an afterthought—are more likely to move from demonstration to measurable business value. Research from MIT CISR and other enterprise studies suggests that the greatest financial gains emerge not during experimentation, but when organisations successfully build scalable ways of working around AI and embed it into operational systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cisr.mit.edu/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cisr.mit.edu">[cisr.mit.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cisr.mit.edu</span><span class="citation-popover-title">2025 0801 EnterpriseAIMaturityUpdate WoernerSebastianWeillKaganer</span><span class="citation-popover-snippet">Grow Enterprise AI Maturity for Bottom-Line Impact21 Aug 2025 — A new MIT CISR survey has found that enterprises today are making signifi...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to The hidden costs after the AI demo. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to The hidden costs after the AI demo. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Power and Prediction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=86lYEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Power and Prediction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Power and Prediction">Power and Prediction</a>
-        </h4>
-        <p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Power and Prediction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=86lYEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Power and Prediction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Power and Prediction">Power and Prediction</a>
+</h4>
+<p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
         
-        <p class="fr-book-desc">Addresses hidden organisational costs of AI deployment.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses hidden organisational costs of AI deployment.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Explains why integration and operating-model change drive value.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why integration and operating-model change drive value.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Digital+Transformation+by+Thomas+M.+Siebel&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Digital Transformation on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Ip-RDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Digital Transformation" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Digital+Transformation+by+Thomas+M.+Siebel&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Digital Transformation">Digital Transformation</a>
-        </h4>
-        <p class="fr-book-author">By Thomas M. Siebel</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Digital+Transformation+by+Thomas+M.+Siebel&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Digital Transformation on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Ip-RDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Digital Transformation" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Digital+Transformation+by+Thomas+M.+Siebel&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Digital Transformation">Digital Transformation</a>
+</h4>
+<p class="fr-book-author">By Thomas M. Siebel</p>
         
-        <p class="fr-book-desc">Covers integrating AI with legacy systems and business processes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Digital+Transformation+by+Thomas+M.+Siebel&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers integrating AI with legacy systems and business processes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Digital+Transformation+by+Thomas+M.+Siebel&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
-        </h4>
-        <p class="fr-book-author">By Chip Huyen</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
+</h4>
+<p class="fr-book-author">By Chip Huyen</p>
         
-        <p class="fr-book-desc">Discusses production deployment challenges and infrastructure realities.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses production deployment challenges and infrastructure realities.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Power+and+Prediction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Power and Prediction</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Digital+Transformation&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Digital Transformation</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Power+and+Prediction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Power and Prediction</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Digital+Transformation&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Digital Transformation</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Don&#x27;t Work Here T-Shirt Computer Science Scientist Fun Geek Nerd Programmer"><img src="{{ '/assets/images/marketplace-covers/6de57c148d0fc1bb44ef.jpg' | relative_url }}" alt="Listing image for I Don&#x27;t Work Here T-Shirt Computer Science Scientist Fun Geek Nerd Programmer" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Don&#x27;t Work Here T-Shirt Computer Science Scientist Fun Geek Nerd Programmer</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Don&#x27;t Work Here T-Shirt Computer Science Scientist Fun Geek Nerd Programmer"><img src="{{ '/assets/images/marketplace-covers/6de57c148d0fc1bb44ef.jpg' | relative_url }}" alt="Listing image for I Don&#x27;t Work Here T-Shirt Computer Science Scientist Fun Geek Nerd Programmer" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Don&#x27;t Work Here T-Shirt Computer Science Scientist Fun Geek Nerd Programmer</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee"><img src="{{ '/assets/images/marketplace-covers/b9988d05c78fcd56c908.jpg' | relative_url }}" alt="Listing image for Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee"><img src="{{ '/assets/images/marketplace-covers/b9988d05c78fcd56c908.jpg' | relative_url }}" alt="Listing image for Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift"><img src="{{ '/assets/images/marketplace-covers/ad0dfd27ba88ed2c11d3.jpg' | relative_url }}" alt="Listing image for Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift"><img src="{{ '/assets/images/marketplace-covers/ad0dfd27ba88ed2c11d3.jpg' | relative_url }}" alt="Listing image for Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Manchester Science Tshirt. Nuclear Physics, Computer Science, Achievements, 1sts"><img src="{{ '/assets/images/marketplace-covers/54f6f807ecff18fb5cc6.jpg' | relative_url }}" alt="Listing image for Manchester Science Tshirt. Nuclear Physics, Computer Science, Achievements, 1sts" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Manchester Science Tshirt. Nuclear Physics, Computer Science, Achievements, 1sts</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Manchester Science Tshirt. Nuclear Physics, Computer Science, Achievements, 1sts"><img src="{{ '/assets/images/marketplace-covers/54f6f807ecff18fb5cc6.jpg' | relative_url }}" alt="Listing image for Manchester Science Tshirt. Nuclear Physics, Computer Science, Achievements, 1sts" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Manchester Science Tshirt. Nuclear Physics, Computer Science, Achievements, 1sts</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="integration-costs-the-hidden-costs-after-the-ai-demo-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -668,7 +668,7 @@ When organisations underestimate legacy-system integration, fragmented data, sec
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -688,7 +688,7 @@ When organisations underestimate legacy-system integration, fragmented data, sec
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -720,7 +720,7 @@ When organisations underestimate legacy-system integration, fragmented data, sec
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -772,7 +772,7 @@ When organisations underestimate legacy-system integration, fragmented data, sec
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -817,7 +817,7 @@ When organisations underestimate legacy-system integration, fragmented data, sec
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -858,130 +858,130 @@ When organisations underestimate legacy-system integration, fragmented data, sec
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/geoff-woods-8534774_mit-studied-300-enterprise-ai-deployments-activity-7460675534973464576-1gt2" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/geoff-woods-8534774_mit-studied-300-enterprise-ai-deployments-activity-7460675534973464576-1gt2</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Why 95% of AI Deployments Fail to Deliver ROIMay 14, 2026 — MIT studied 300 enterprise AI deployments. 95% returned zero ROI. Mos...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/geoff-woods-8534774_mit-studied-300-enterprise-ai-deployments-activity-7460675534973464576-1gt2" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/geoff-woods-8534774_mit-studied-300-enterprise-ai-deployments-activity-7460675534973464576-1gt2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why 95% of AI Deployments Fail to Deliver ROIMay 14, 2026 — MIT studied 300 enterprise AI deployments. 95% returned zero ROI. Mos...</p></details>
    Published: May 14, 2026  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/governing-the-hidden-risks-of-generative-ai-in-the-enterprise" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/governing-the-hidden-risks-of-generative-ai-in-the-enterprise</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>While organizations deploy large [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) to increase productivity and innovation, many overlook critical concerns like security...</p></details>
+   Link:<a href="https://www.techradar.com/pro/governing-the-hidden-risks-of-generative-ai-in-the-enterprise" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/governing-the-hidden-risks-of-generative-ai-in-the-enterprise</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>While organizations deploy large [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) to increase productivity and innovation, many overlook critical concerns like security...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/ilia-tzortzopoulou-8302b191_the-biggest-challenge-in-enterprise-ai-isnt-activity-7467522008461938689-48gI" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/ilia-tzortzopoulou-8302b191_the-biggest-challenge-in-enterprise-ai-isnt-activity-7467522008461938689-48gI</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Most businesses still rely on legacy systems with no APIs or integration...Read more...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/ilia-tzortzopoulou-8302b191_the-biggest-challenge-in-enterprise-ai-isnt-activity-7467522008461938689-48gI" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/ilia-tzortzopoulou-8302b191_the-biggest-challenge-in-enterprise-ai-isnt-activity-7467522008461938689-48gI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Most businesses still rely on legacy systems with no APIs or integration...Read more...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: ibm.com  
    Title: data integration challenges  
-   Link: <a href="https://www.ibm.com/think/insights/data-integration-challenges" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/insights/data-integration-challenges</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Top Data Integration Challenges and Solutions19 Dec 2025 — Data integration challenges such as poor data quality, incompatible formats...</p></details>
+   Link:<a href="https://www.ibm.com/think/insights/data-integration-challenges" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/insights/data-integration-challenges</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Top Data Integration Challenges and Solutions19 Dec 2025 — Data integration challenges such as poor data quality, incompatible formats...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: levelact.com  
    Title: enterprise ai projects infrastructure bottlenecks  
-   Link: <a href="https://levelact.com/enterprise-ai-projects-infrastructure-bottlenecks/" target="_blank" rel="noopener noreferrer nofollow">https://levelact.com/enterprise-ai-projects-infrastructure-bottlenecks/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Enterprise AI Projects Fail in 2026May 7, 2026 — 7 May 2026 — Enterprise AI projects are failing due to infrastructure bottle...</p></details>
+   Link:<a href="https://levelact.com/enterprise-ai-projects-infrastructure-bottlenecks/" target="_blank" rel="noopener noreferrer nofollow">https://levelact.com/enterprise-ai-projects-infrastructure-bottlenecks/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Enterprise AI Projects Fail in 2026May 7, 2026 — 7 May 2026 — Enterprise AI projects are failing due to infrastructure bottle...</p></details>
    Published: May 7, 2026  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/ai-is-reaching-finances-core-systems-heres-what-it-takes-to-run-it-there" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/ai-is-reaching-finances-core-systems-heres-what-it-takes-to-run-it-there</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>This limited adoption stems from the challenges of embedding AI into legacy infrastructure that underpins trade capture, risk management...</p></details>
+   Link:<a href="https://www.techradar.com/pro/ai-is-reaching-finances-core-systems-heres-what-it-takes-to-run-it-there" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/ai-is-reaching-finances-core-systems-heres-what-it-takes-to-run-it-there</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This limited adoption stems from the challenges of embedding AI into legacy infrastructure that underpins trade capture, risk management...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: cisr.mit.edu  
    Title: 2025 0801 EnterpriseAIMaturityUpdate WoernerSebastianWeillKaganer  
-   Link: <a href="https://cisr.mit.edu/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer" target="_blank" rel="noopener noreferrer nofollow">https://cisr.mit.edu/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Grow Enterprise AI Maturity for Bottom-Line Impact21 Aug 2025 — A new MIT CISR survey has found that enterprises today are making signifi...</p></details>
+   Link:<a href="https://cisr.mit.edu/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer" target="_blank" rel="noopener noreferrer nofollow">https://cisr.mit.edu/publication/2025_0801_EnterpriseAIMaturityUpdate_WoernerSebastianWeillKaganer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Grow Enterprise AI Maturity for Bottom-Line Impact21 Aug 2025 — A new MIT CISR survey has found that enterprises today are making signifi...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/richardsocher_most-enterprise-ai-projects-fail-to-deliver-activity-7364669386428780544-77jl" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/richardsocher_most-enterprise-ai-projects-fail-to-deliver-activity-7364669386428780544-77jl</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Richard Socher&#x27;s PostMost enterprise AI projects fail to deliver business value. New MIT research found 95% of GenAI initiatives show zer...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/richardsocher_most-enterprise-ai-projects-fail-to-deliver-activity-7364669386428780544-77jl" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/richardsocher_most-enterprise-ai-projects-fail-to-deliver-activity-7364669386428780544-77jl</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Richard Socher&#x27;s PostMost enterprise AI projects fail to deliver business value. New MIT research found 95% of GenAI initiatives show zer...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: tomshardware.com  
-   Link: <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow">https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</p></details>
+   Link:<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow">https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: opag.io  
    Title: io AI Integration Costs: The Hidden Expenses of AI Adoption  
-   Link: <a href="https://opag.io/insights/ai-integration-costs-hidden-expenses" target="_blank" rel="noopener noreferrer nofollow">https://opag.io/insights/ai-integration-costs-hidden-expenses</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>An AI system that shows 200% ROI based on licensing costs alone may show 40% ROI when total...Read more...</p></details>
+   Link:<a href="https://opag.io/insights/ai-integration-costs-hidden-expenses" target="_blank" rel="noopener noreferrer nofollow">https://opag.io/insights/ai-integration-costs-hidden-expenses</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An AI system that shows 200% ROI based on licensing costs alone may show 40% ROI when total...Read more...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: itpro.com  
-   Link: <a href="https://www.itpro.com/technology/artificial-intelligence/most-enterprises-are-still-unprepared-to-operationalize-it-it-leaders-are-bullish-on-agents-but-keeping-falling-at-the-final-hurdle-heres-why" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/technology/artificial-intelligence/most-enterprises-are-still-unprepared-to-operationalize-it-it-leaders-are-bullish-on-agents-but-keeping-falling-at-the-final-hurdle-heres-why</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>About 75% of enterprise leaders report adopting the technology, but true implementation has been rare, with many mistaking AI agents for...</p></details>
+   Link:<a href="https://www.itpro.com/technology/artificial-intelligence/most-enterprises-are-still-unprepared-to-operationalize-it-it-leaders-are-bullish-on-agents-but-keeping-falling-at-the-final-hurdle-heres-why" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/technology/artificial-intelligence/most-enterprises-are-still-unprepared-to-operationalize-it-it-leaders-are-bullish-on-agents-but-keeping-falling-at-the-final-hurdle-heres-why</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>About 75% of enterprise leaders report adopting the technology, but true implementation has been rare, with many mistaking AI agents for...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: dancumberlandlabs.com  
-   Link: <a href="https://dancumberlandlabs.com/blog/hidden-costs-ai-projects/" target="_blank" rel="noopener noreferrer nofollow">https://dancumberlandlabs.com/blog/hidden-costs-ai-projects/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Dan Cumberland LabsHidden Costs of AI Projects: 7 Things Nobody Tells YouMay 8, 2026 — Integrating AI with legacy systems costs 2-3x more...</p></details>
+   Link:<a href="https://dancumberlandlabs.com/blog/hidden-costs-ai-projects/" target="_blank" rel="noopener noreferrer nofollow">https://dancumberlandlabs.com/blog/hidden-costs-ai-projects/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Dan Cumberland LabsHidden Costs of AI Projects: 7 Things Nobody Tells YouMay 8, 2026 — Integrating AI with legacy systems costs 2-3x more...</p></details>
    Published: May 8, 2026  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: digitaleconomy.stanford.edu  
    Title: Enterprise AIPlaybook Pereira Graylin Brynjolfsson  
-   Link: <a href="https://digitaleconomy.stanford.edu/app/uploads/2026/03/EnterpriseAIPlaybook_PereiraGraylinBrynjolfsson.pdf" target="_blank" rel="noopener noreferrer nofollow">https://digitaleconomy.stanford.edu/app/uploads/2026/03/EnterpriseAIPlaybook_PereiraGraylinBrynjolfsson.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A project originally quoted at 5,000 hours with a...Read more...</p></details>
+   Link:<a href="https://digitaleconomy.stanford.edu/app/uploads/2026/03/EnterpriseAIPlaybook_PereiraGraylinBrynjolfsson.pdf" target="_blank" rel="noopener noreferrer nofollow">https://digitaleconomy.stanford.edu/app/uploads/2026/03/EnterpriseAIPlaybook_PereiraGraylinBrynjolfsson.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A project originally quoted at 5,000 hours with a...Read more...</p></details>
 
 ### Additional References
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: intuitionlabs.ai  
-   Link: <a href="https://intuitionlabs.ai/articles/enterprise-ai-rollout-failures" target="_blank" rel="noopener noreferrer nofollow">https://intuitionlabs.ai/articles/enterprise-ai-rollout-failures</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise AI Rollout Failures: Causes and Case Studies6 days ago — Examine the systemic causes of enterprise AI rollout failures. This r...</p></details>
+   Link:<a href="https://intuitionlabs.ai/articles/enterprise-ai-rollout-failures" target="_blank" rel="noopener noreferrer nofollow">https://intuitionlabs.ai/articles/enterprise-ai-rollout-failures</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise AI Rollout Failures: Causes and Case Studies6 days ago — Examine the systemic causes of enterprise AI rollout failures. This r...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/ITManagers/comments/1o8cbwe/mit_study_finds_that_95_of_ai_initiatives_at/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ITManagers/comments/1o8cbwe/mit_study_finds_that_95_of_ai_initiatives_at/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Study finds that 95% of AI initiatives at companies fail...Note: The research is based on 150 interviews with leaders, a survey of 3...</p></details>
+   Link:<a href="https://www.reddit.com/r/ITManagers/comments/1o8cbwe/mit_study_finds_that_95_of_ai_initiatives_at/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ITManagers/comments/1o8cbwe/mit_study_finds_that_95_of_ai_initiatives_at/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Study finds that 95% of AI initiatives at companies fail...Note: The research is based on 150 interviews with leaders, a survey of 3...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: ultramainds.de  
-   Link: <a href="https://ultramainds.de/blog/hidden-costs-of-ai-projects" target="_blank" rel="noopener noreferrer nofollow">https://ultramainds.de/blog/hidden-costs-of-ai-projects</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Hidden Costs of AI Projects: What Nobody Tells YouBased on our experience across dozens of enterprise AI projects, here&#x27;s a more real...</p></details>
+   Link:<a href="https://ultramainds.de/blog/hidden-costs-of-ai-projects" target="_blank" rel="noopener noreferrer nofollow">https://ultramainds.de/blog/hidden-costs-of-ai-projects</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Hidden Costs of AI Projects: What Nobody Tells YouBased on our experience across dozens of enterprise AI projects, here&#x27;s a more real...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: virtualizationreview.com  
    Title: mit report finds most ai business investments fail reveals genai divide.aspx  
-   Link: <a href="https://virtualizationreview.com/articles/2025/08/19/mit-report-finds-most-ai-business-investments-fail-reveals-genai-divide.aspx" target="_blank" rel="noopener noreferrer nofollow">https://virtualizationreview.com/articles/2025/08/19/mit-report-finds-most-ai-business-investments-fail-reveals-genai-divide.aspx</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Report Finds Most AI Business Investments Fail...19 Aug 2025 — A new report from the MIT Media Lab&#x27;s Project NANDA concludes that de...</p></details>
+   Link:<a href="https://virtualizationreview.com/articles/2025/08/19/mit-report-finds-most-ai-business-investments-fail-reveals-genai-divide.aspx" target="_blank" rel="noopener noreferrer nofollow">https://virtualizationreview.com/articles/2025/08/19/mit-report-finds-most-ai-business-investments-fail-reveals-genai-divide.aspx</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Report Finds Most AI Business Investments Fail...19 Aug 2025 — A new report from the MIT Media Lab&#x27;s Project NANDA concludes that de...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=R0G1fbWimlI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=R0G1fbWimlI</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Shows 95% of AI Projects Fail -- Artificial Intelligence...MIT Shows 95% of AI Projects Fail -- Artificial Intelligence Might Be Stu...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=R0G1fbWimlI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=R0G1fbWimlI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Shows 95% of AI Projects Fail -- Artificial Intelligence...MIT Shows 95% of AI Projects Fail -- Artificial Intelligence Might Be Stu...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: fortune.com  
    Title: mit report 95 percent generative ai pilots at companies failing cfo  
-   Link: <a href="https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/" target="_blank" rel="noopener noreferrer nofollow">https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MIT report: 95% of generative AI pilots at companies are...18 Aug 2025 — Despite the rush to integrate powerful new models, about 5% of...</p></details>
+   Link:<a href="https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/" target="_blank" rel="noopener noreferrer nofollow">https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT report: 95% of generative AI pilots at companies are...18 Aug 2025 — Despite the rush to integrate powerful new models, about 5% of...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: mindtheproduct.com  
    Title: why most ai products fail key findings from mits 2025 ai report  
-   Link: <a href="https://www.mindtheproduct.com/why-most-ai-products-fail-key-findings-from-mits-2025-ai-report/" target="_blank" rel="noopener noreferrer nofollow">https://www.mindtheproduct.com/why-most-ai-products-fail-key-findings-from-mits-2025-ai-report/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why most AI products fail: Key findings from MIT&#x27;s 2025 AI...22 Aug 2025 — MIT published a report on the current state of AI in business...</p></details>
+   Link:<a href="https://www.mindtheproduct.com/why-most-ai-products-fail-key-findings-from-mits-2025-ai-report/" target="_blank" rel="noopener noreferrer nofollow">https://www.mindtheproduct.com/why-most-ai-products-fail-key-findings-from-mits-2025-ai-report/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why most AI products fail: Key findings from MIT&#x27;s 2025 AI...22 Aug 2025 — MIT published a report on the current state of AI in business...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: complexdiscovery.com  
-   Link: <a href="https://complexdiscovery.com/why-95-of-corporate-ai-projects-fail-lessons-from-mits-2025-study/" target="_blank" rel="noopener noreferrer nofollow">https://complexdiscovery.com/why-95-of-corporate-ai-projects-fail-lessons-from-mits-2025-study/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>minimal adaptation, resulting in 95% of projects failing to demonstrate profit-and-...Read more...</p></details>
+   Link:<a href="https://complexdiscovery.com/why-95-of-corporate-ai-projects-fail-lessons-from-mits-2025-study/" target="_blank" rel="noopener noreferrer nofollow">https://complexdiscovery.com/why-95-of-corporate-ai-projects-fail-lessons-from-mits-2025-study/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>minimal adaptation, resulting in 95% of projects failing to demonstrate profit-and-...Read more...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40Fransantolo/95-of-corporate-generative-ai-projects-fail-mit-study-finds-47ad5d50db32" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40Fransantolo/95-of-corporate-generative-ai-projects-fail-mit-study-finds-47ad5d50db32</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>do not produce measurable benefits. The main cause is not...Read more...</p></details>
+   Link:<a href="https://medium.com/%40Fransantolo/95-of-corporate-generative-ai-projects-fail-mit-study-finds-47ad5d50db32" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40Fransantolo/95-of-corporate-generative-ai-projects-fail-mit-study-finds-47ad5d50db32</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>do not produce measurable benefits. The main cause is not...Read more...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/cscareerquestions/comments/1muu5uv/mit_study_finds_that_95_of_ai_initiatives_at/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/cscareerquestions/comments/1muu5uv/mit_study_finds_that_95_of_ai_initiatives_at/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;MIT Study finds that 95% of AI initiatives at companies fail...[https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots...&quot;](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots...&quot;)...</p></details>
+   Link:<a href="https://www.reddit.com/r/cscareerquestions/comments/1muu5uv/mit_study_finds_that_95_of_ai_initiatives_at/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/cscareerquestions/comments/1muu5uv/mit_study_finds_that_95_of_ai_initiatives_at/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;MIT Study finds that 95% of AI initiatives at companies fail...[https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots...&quot;](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots...&quot;)...</p></details>

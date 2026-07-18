@@ -275,7 +275,7 @@ image: /assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9
 
 ## Introduction
 
-In [healthcare]({{ 'health-proxy/' | relative_url }}) AI, a common mistake is to treat healthcare spending as if it were a direct measure of how sick a patient is. At first glance, the assumption seems reasonable: people with greater medical needs often generate higher costs. However, healthcare spending reflects far more than illness. It is shaped by insurance coverage, access to doctors, local prices, treatment patterns, administrative systems, and historical inequalities. As a result, an AI model that predicts future costs may become highly accurate at [forecasting]({{ 'forecasting-gap/' | relative_url }}) spending while remaining poor at identifying who actually needs care. This distinction matters because risk-scoring systems often determine which patients receive additional support, preventive interventions, or care-management resources. When cost is used as a proxy for need, the model can systematically overlook patients whose illnesses are serious but whose healthcare spending has historically been lower. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
+In [healthcare]({{ 'health-proxy/' | relative_url }}) AI, a common mistake is to treat healthcare spending as if it were a direct measure of how sick a patient is. At first glance, the assumption seems reasonable: people with greater medical needs often generate higher costs. However, healthcare spending reflects far more than illness. It is shaped by insurance coverage, access to doctors, local prices, treatment patterns, administrative systems, and historical inequalities. As a result, an AI model that predicts future costs may become highly accurate at [forecasting]({{ 'forecasting-gap/' | relative_url }}) spending while remaining poor at identifying who actually needs care. This distinction matters because risk-scoring systems often determine which patients receive additional support, preventive interventions, or care-management resources. When cost is used as a proxy for need, the model can systematically overlook patients whose illnesses are serious but whose healthcare spending has historically been lower.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_costs_misread_f50405-Illustration-1-dark.svg" | relative_url }}" alt="Cost Proxy illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_costs_misread_f50405-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_costs_misread_f50405-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -283,24 +283,24 @@ In [healthcare]({{ 'health-proxy/' | relative_url }}) AI, a common mistake is to
 
 Healthcare spending is not a pure measure of disease burden. Instead, it combines multiple factors that influence how much money is spent on a patient.
 
-A patient's total cost can rise because they are severely ill, but it can also rise because they live in a high-price region, receive more intensive treatment, have better insurance coverage, or encounter providers who order more services. Researchers studying spending variation have found that prices, utilisation patterns, and local healthcare systems all contribute substantially to differences in expenditure. Two patients with similar health conditions can therefore generate very different costs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8414822/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Open source on nih.gov.</span></span></span>
+A patient's total cost can rise because they are severely ill, but it can also rise because they live in a high-price region, receive more intensive treatment, have better insurance coverage, or encounter providers who order more services. Researchers studying spending variation have found that prices, utilisation patterns, and local healthcare systems all contribute substantially to differences in expenditure. Two patients with similar health conditions can therefore generate very different costs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8414822/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Open source on nih.gov.</span></span></span>
 
-This creates a measurement problem for AI systems. If a model is trained to predict future spending, it learns relationships between these spending drivers and future costs. The model does not automatically distinguish between money spent because of genuine medical need and money spent because of pricing, insurance arrangements, coding practices, or treatment intensity. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.healthjusticemonitor.org/its-the-prices-and-more/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: healthjusticemonitor.org">[Health Justice Monitor]</a><span class="citation-popover" role="note"><span class="citation-popover-source">healthjusticemonitor.org</span><span class="citation-popover-snippet">Health Justice MonitorHealth Justice MonitorIt’s the Prices and More - Health Justice Monitor...</span></span></span>
+This creates a measurement problem for AI systems. If a model is trained to predict future spending, it learns relationships between these spending drivers and future costs. The model does not automatically distinguish between money spent because of genuine medical need and money spent because of pricing, insurance arrangements, coding practices, or treatment intensity.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.healthjusticemonitor.org/its-the-prices-and-more/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: healthjusticemonitor.org">[Health Justice Monitor]</a><span class="citation-popover" role="note"><span class="citation-popover-source">healthjusticemonitor.org</span><span class="citation-popover-snippet">Health Justice MonitorHealth Justice MonitorIt’s the Prices and More - Health Justice Monitor...</span></span></span>
 
-An important implication follows: healthcare spending is partly a measure of access to healthcare. People who receive more services generally generate more claims and more expenditure. Those who face barriers to care may generate lower spending even when they have substantial unmet medical needs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubmed.ncbi.nlm.nih.gov/19276017/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubmed.ncbi.nlm.nih.gov">[PubMed]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubmed.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Usual source of care: an important source of variation in health care spending - PubMed...</span></span></span>
+An important implication follows: healthcare spending is partly a measure of access to healthcare. People who receive more services generally generate more claims and more expenditure. Those who face barriers to care may generate lower spending even when they have substantial unmet medical needs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubmed.ncbi.nlm.nih.gov/19276017/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubmed.ncbi.nlm.nih.gov">[PubMed]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubmed.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Usual source of care: an important source of variation in health care spending - PubMed...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/dfYwjBpxg3c" title="AI for the Fair-Minded: Bias in AI in Under 9 Minutes." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=dfYwjBpxg3c" target="_blank" rel="noopener noreferrer">AI for the Fair-Minded: Bias in AI in Under 9 Minutes.</a></p><p class="youtube-embed-meta">Channel: Sonali Tamhankar (PhD) || Health * AI * Humanity</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=dfYwjBpxg3c" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=dfYwjBpxg3c">Open on YouTube</a></p></div></div></div>
 
 ## How unequal access distorts risk scores
 
-The most widely discussed example comes from healthcare risk algorithms used to identify patients for care-management programmes. Researchers found that a commonly used commercial system predicted future healthcare costs rather than future illness burden. Because spending differed across racial groups for reasons beyond health status, the resulting [risk scores]({{ 'thresholds/' | relative_url }}) inherited those disparities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
+The most widely discussed example comes from healthcare risk algorithms used to identify patients for care-management programmes. Researchers found that a commonly used commercial system predicted future healthcare costs rather than future illness burden. Because spending differed across racial groups for reasons beyond health status, the resulting [risk scores]({{ 'thresholds/' | relative_url }}) inherited those disparities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
 
-The mechanism was straightforward. Historical healthcare data showed that Black patients often incurred lower healthcare spending than White patients with comparable levels of illness. Lower spending did not necessarily indicate better health. It frequently reflected differences in access, treatment patterns, and healthcare utilisation. When the algorithm learned from those spending records, it interpreted lower expenditure as lower future risk. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ellagreenslade.com/2023/04/09/algorithm-bias-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ellagreenslade.com">[ellagreenslade.com+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ellagreenslade.com</span><span class="citation-popover-title">Algorithm Bias in Healthcare &#124; Ella Greenslade</span><span class="citation-popover-snippet">Algorithm Bias in Healthcare &#124; Ella Greenslade</span></span></span>
+The mechanism was straightforward. Historical healthcare data showed that Black patients often incurred lower healthcare spending than White patients with comparable levels of illness. Lower spending did not necessarily indicate better health. It frequently reflected differences in access, treatment patterns, and healthcare utilisation. When the algorithm learned from those spending records, it interpreted lower expenditure as lower future risk.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ellagreenslade.com/2023/04/09/algorithm-bias-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ellagreenslade.com">[ellagreenslade.com+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ellagreenslade.com</span><span class="citation-popover-title">Algorithm Bias in Healthcare &#124; Ella Greenslade</span><span class="citation-popover-snippet">Algorithm Bias in Healthcare &#124; Ella Greenslade</span></span></span>
 
-As a result, many Black patients had to be substantially sicker before receiving the same risk score assigned to White patients. The system was not explicitly programmed to discriminate. Instead, the bias emerged because the target variable—future cost—already contained the effects of unequal healthcare access. The model faithfully reproduced those patterns. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
+As a result, many Black patients had to be substantially sicker before receiving the same risk score assigned to White patients. The system was not explicitly programmed to discriminate. Instead, the bias emerged because the target variable—future cost—already contained the effects of unequal healthcare access. The model faithfully reproduced those patterns.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
 
-This illustrates a broader AI lesson. Removing sensitive variables such as race does not necessarily eliminate bias if the outcome being predicted is itself distorted by historical inequalities. A flawed target can transmit inequities even when protected characteristics are absent from the model inputs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/neoliberal/comments/dmpgbq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">Racial bias in a medical algorithm favors white patients over sicker black patients...</span></span></span>
+This illustrates a broader AI lesson. Removing sensitive variables such as race does not necessarily eliminate bias if the outcome being predicted is itself distorted by historical inequalities. A flawed target can transmit inequities even when protected characteristics are absent from the model inputs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/neoliberal/comments/dmpgbq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">Racial bias in a medical algorithm favors white patients over sicker black patients...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_costs_misread_f50405-Illustration-2-dark.svg" | relative_url }}" alt="Cost Proxy illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_costs_misread_f50405-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_costs_misread_f50405-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -310,11 +310,11 @@ One of the most important insights from this case is that a model can be accurat
 
 Suppose a healthcare organisation asks an AI system to predict which patients will generate the highest costs next year. The model may achieve excellent statistical performance. It may correctly forecast expenditures, identify future high-cost patients, and pass standard [validation]({{ 'stop-training/' | relative_url }}) tests. From a [machine-learning]({{ 'machine-learning/' | relative_url }}) perspective, it appears successful.
 
-The problem is that healthcare organisations often care about something different. Their real objective may be to identify patients with severe illness, unmet needs, or elevated risk of deterioration. Cost [prediction]({{ 'error-harms/' | relative_url }}) and need prediction overlap, but they are not the same task. When the chosen target differs from the real-world goal, optimisation can produce misleading results. The model becomes better at predicting spending than at finding the patients who most need help. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
+The problem is that healthcare organisations often care about something different. Their real objective may be to identify patients with severe illness, unmet needs, or elevated risk of deterioration. Cost [prediction]({{ 'error-harms/' | relative_url }}) and need prediction overlap, but they are not the same task. When the chosen target differs from the real-world goal, optimisation can produce misleading results. The model becomes better at predicting spending than at finding the patients who most need help.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
 
-This is a classic example of a proxy-target failure. The algorithm optimises exactly what developers asked it to optimise. The failure arises not from poor modelling but from selecting a target variable that captures the wrong phenomenon. In AI system design, this is often described as a problem-formulation error: the mathematical objective does not fully represent the human objective. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
+This is a classic example of a proxy-target failure. The algorithm optimises exactly what developers asked it to optimise. The failure arises not from poor modelling but from selecting a target variable that captures the wrong phenomenon. In AI system design, this is often described as a problem-formulation error: the mathematical objective does not fully represent the human objective.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
 
-The distinction is especially important in high-stakes settings such as healthcare. A model that accurately predicts spending may allocate resources towards patients who are expensive to treat while overlooking patients whose needs are substantial but historically under-served. In that situation, improving predictive accuracy on costs does not improve fairness or clinical effectiveness. It merely improves the prediction of a flawed proxy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ellagreenslade.com/2023/04/09/algorithm-bias-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ellagreenslade.com">[ellagreenslade.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ellagreenslade.com</span><span class="citation-popover-title">Algorithm Bias in Healthcare &#124; Ella Greenslade</span><span class="citation-popover-snippet">Algorithm Bias in Healthcare &#124; Ella Greenslade</span></span></span>
+The distinction is especially important in high-stakes settings such as healthcare. A model that accurately predicts spending may allocate resources towards patients who are expensive to treat while overlooking patients whose needs are substantial but historically under-served. In that situation, improving predictive accuracy on costs does not improve fairness or clinical effectiveness. It merely improves the prediction of a flawed proxy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ellagreenslade.com/2023/04/09/algorithm-bias-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ellagreenslade.com">[ellagreenslade.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ellagreenslade.com</span><span class="citation-popover-title">Algorithm Bias in Healthcare &#124; Ella Greenslade</span><span class="citation-popover-snippet">Algorithm Bias in Healthcare &#124; Ella Greenslade</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/y6eo0FZIqjk" title="Dissecting Racial Bias in an Algorithm that Guides Health Decisions for Millions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer">Dissecting Racial Bias in an Algorithm that Guides Health Decisions for Millions</a></p><p class="youtube-embed-meta">Channel: Microsoft Research</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=y6eo0FZIqjk">Open on YouTube</a></p></div></div></div>
@@ -328,184 +328,184 @@ The healthcare-cost example demonstrates that the quality of an AI system depend
 
 Before training a model, developers must ask whether the target truly measures the outcome they care about. If the target reflects access, prices, administrative processes, or social inequalities in addition to the intended outcome, the model may reproduce those distortions at scale.
 
-For healthcare risk scoring, illness burden, chronic disease indicators, clinical outcomes, and unmet health needs are often closer to the underlying objective than raw spending. The broader lesson extends beyond healthcare: whenever an AI system relies on an easily measured proxy instead of the real goal, strong predictive performance can conceal systematic mistakes. The healthcare-cost case remains one of the clearest demonstrations that choosing the wrong target can matter as much as choosing the wrong algorithm. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Health Justice Monitor]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
+For healthcare risk scoring, illness burden, chronic disease indicators, clinical outcomes, and unmet health needs are often closer to the underlying objective than raw spending. The broader lesson extends beyond healthcare: whenever an AI system relies on an easily measured proxy instead of the real goal, strong predictive performance can conceal systematic mistakes. The healthcare-cost case remains one of the clearest demonstrations that choosing the wrong target can matter as much as choosing the wrong algorithm.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Health Justice Monitor]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</span><span class="citation-popover-meta">Published: November 4, 2019</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_costs_misread_f50405-Illustration-3-dark.svg" | relative_url }}" alt="Cost Proxy illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_costs_misread_f50405-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_costs_misread_f50405-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why costs can misread medical need. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why costs can misread medical need. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=maTGwgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Medicine">Deep Medicine</a>
-        </h4>
-        <p class="fr-book-author">By Eric J. Topol</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=maTGwgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Medicine">Deep Medicine</a>
+</h4>
+<p class="fr-book-author">By Eric J. Topol</p>
         
-        <p class="fr-book-desc">Examines how AI should support genuine patient needs rather than crude proxies.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines how AI should support genuine patient needs rather than crude proxies.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Explains dangers of using poor proxy measures in decision systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains dangers of using poor proxy measures in decision systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Invisible Women on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MKZYDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Invisible Women" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Invisible Women">Invisible Women</a>
-        </h4>
-        <p class="fr-book-author">By Caroline Criado Perez</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Invisible Women on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MKZYDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Invisible Women" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Invisible Women">Invisible Women</a>
+</h4>
+<p class="fr-book-author">By Caroline Criado Perez</p>
         
-        <p class="fr-book-desc">Shows how flawed data and measurement choices create unequal outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how flawed data and measurement choices create unequal outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=The+Patient+Will+See+You+Now+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Patient Will See You Now on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Patient+Will+See+You+Now+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Patient Will See You Now">The Patient Will See You Now</a>
-        </h4>
-        <p class="fr-book-author">By Eric J. Topol</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=The+Patient+Will+See+You+Now+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Patient Will See You Now on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Patient+Will+See+You+Now+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Patient Will See You Now">The Patient Will See You Now</a>
+</h4>
+<p class="fr-book-author">By Eric J. Topol</p>
         
-        <p class="fr-book-desc">Provides healthcare context for data-driven decision making.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Patient+Will+See+You+Now+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides healthcare context for data-driven decision making.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Patient+Will+See+You+Now+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Medicine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Medicine</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Invisible+Women&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Invisible Women</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Medicine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Medicine</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Invisible+Women&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Invisible Women</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit"><img src="{{ '/assets/images/marketplace-covers/9be77cb3cd417fc69711.jpg' | relative_url }}" alt="Listing image for 5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit"><img src="{{ '/assets/images/marketplace-covers/9be77cb3cd417fc69711.jpg' | relative_url }}" alt="Listing image for 5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Kits - Rotating Mechanical Robotics Set for , ,"><img src="{{ '/assets/images/marketplace-covers/87b0c9d1cfcdb6e7a752.jpg' | relative_url }}" alt="Listing image for Kits - Rotating Mechanical Robotics Set for , ," loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">Kits - Rotating Mechanical Robotics Set for , ,</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Kits - Rotating Mechanical Robotics Set for , ,"><img src="{{ '/assets/images/marketplace-covers/87b0c9d1cfcdb6e7a752.jpg' | relative_url }}" alt="Listing image for Kits - Rotating Mechanical Robotics Set for , ," loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">Kits - Rotating Mechanical Robotics Set for , ,</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit"><img src="{{ '/assets/images/marketplace-covers/6316323198d3d3131842.jpg' | relative_url }}" alt="Listing image for EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit"><img src="{{ '/assets/images/marketplace-covers/6316323198d3d3131842.jpg' | relative_url }}" alt="Listing image for EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="cost-proxy-why-costs-can-misread-medical-need-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -521,7 +521,7 @@ For healthcare risk scoring, illness burden, chronic disease indicators, clinica
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -541,7 +541,7 @@ For healthcare risk scoring, illness burden, chronic disease indicators, clinica
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -573,7 +573,7 @@ For healthcare risk scoring, illness burden, chronic disease indicators, clinica
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -625,7 +625,7 @@ For healthcare risk scoring, illness burden, chronic disease indicators, clinica
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -670,7 +670,7 @@ For healthcare risk scoring, illness burden, chronic disease indicators, clinica
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -711,62 +711,62 @@ For healthcare risk scoring, illness burden, chronic disease indicators, clinica
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1911.01509</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</p></details>
+   Link:<a href="https://arxiv.org/abs/1911.01509" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1911.01509</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding racial bias in health using the Medical Expenditure Panel Survey dataNovember 4, 2019...</p></details>
    Published: November 4, 2019  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8414822/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8414822/</a>  
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8414822/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8414822/</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: ellagreenslade.com  
    Title: Algorithm Bias in Healthcare | Ella Greenslade  
-   Link: <a href="https://www.ellagreenslade.com/2023/04/09/algorithm-bias-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow">https://www.ellagreenslade.com/2023/04/09/algorithm-bias-in-healthcare/</a>  
+   Link:<a href="https://www.ellagreenslade.com/2023/04/09/algorithm-bias-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow">https://www.ellagreenslade.com/2023/04/09/algorithm-bias-in-healthcare/</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/neoliberal/comments/dmpgbq" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/neoliberal/comments/dmpgbq</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Racial bias in a medical algorithm favors white patients over sicker black patients...</p></details>
+   Link:<a href="https://www.reddit.com/r/neoliberal/comments/dmpgbq" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/neoliberal/comments/dmpgbq</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Racial bias in a medical algorithm favors white patients over sicker black patients...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: healthjusticemonitor.org  
-   Link: <a href="https://www.healthjusticemonitor.org/its-the-prices-and-more/" target="_blank" rel="noopener noreferrer nofollow">https://www.healthjusticemonitor.org/its-the-prices-and-more/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Health Justice MonitorHealth Justice MonitorIt’s the Prices and More - Health Justice Monitor...</p></details>
+   Link:<a href="https://www.healthjusticemonitor.org/its-the-prices-and-more/" target="_blank" rel="noopener noreferrer nofollow">https://www.healthjusticemonitor.org/its-the-prices-and-more/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Health Justice MonitorHealth Justice MonitorIt’s the Prices and More - Health Justice Monitor...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: pubmed.ncbi.nlm.nih.gov  
-   Link: <a href="https://pubmed.ncbi.nlm.nih.gov/19276017/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/19276017/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Usual source of care: an important source of variation in health care spending - PubMed...</p></details>
+   Link:<a href="https://pubmed.ncbi.nlm.nih.gov/19276017/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/19276017/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Usual source of care: an important source of variation in health care spending - PubMed...</p></details>
 
 ### Additional References
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: youtube.com  
    Title: AI for the Fair-Minded: Bias in AI in Under 9 Minutes  
-   Link: <a href="https://www.youtube.com/watch?v=dfYwjBpxg3c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=dfYwjBpxg3c</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>DEI Special Seminar: Algorithmic bias and data platforms (Ziad Obermeyer)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=dfYwjBpxg3c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=dfYwjBpxg3c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>DEI Special Seminar: Algorithmic bias and data platforms (Ziad Obermeyer)...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: youtube.com  
    Title: Dissecting Racial Bias in an Algorithm that Guides Health [Decisions](&#123;&#123; 'decisions/' | relative_url &#125;&#125;) for Millions  
-   Link: <a href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=y6eo0FZIqjk</a>  
+   Link:<a href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=y6eo0FZIqjk</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: youtube.com  
    Title: Dissecting Algorithmic Bias | Ziad Obermeyer | AI FOR GOOD DISCOVERY  
-   Link: <a href="https://www.youtube.com/watch?v=U5MlyFsMi-E" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=U5MlyFsMi-E</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>London Speaker Bureau...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=U5MlyFsMi-E" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=U5MlyFsMi-E</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>London Speaker Bureau...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: youtube.com  
    Title: DEI Special Seminar: Algorithmic bias and data platforms (Ziad Obermeyer)  
-   Link: <a href="https://www.youtube.com/watch?v=6xo2tzuOyY4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=6xo2tzuOyY4</a>  
+   Link:<a href="https://www.youtube.com/watch?v=6xo2tzuOyY4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=6xo2tzuOyY4</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
    Title: Keynote Presentation: Dissecting Algorithmic Bias  
-   Link: <a href="https://www.youtube.com/watch?v=JfKYO1W4uuA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JfKYO1W4uuA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>London Speaker Bureau...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=JfKYO1W4uuA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JfKYO1W4uuA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>London Speaker Bureau...</p></details>

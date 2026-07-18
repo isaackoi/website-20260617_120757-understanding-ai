@@ -275,232 +275,232 @@ image: /assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d42
 
 ## Introduction
 
-GPT-3 marked a turning point in how people thought about artificial intelligence because it suggested that a single large language model could perform many different tasks simply by changing the prompt. Before GPT-3, the dominant pattern in natural language processing was to build or fine-tune separate systems for translation, question answering, summarisation, sentiment analysis, and other tasks. GPT-3 challenged that assumption by showing that one model trained only to predict the next token could often adapt to new tasks from instructions and examples provided directly in the input. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+GPT-3 marked a turning point in how people thought about artificial intelligence because it suggested that a single large language model could perform many different tasks simply by changing the prompt. Before GPT-3, the dominant pattern in natural language processing was to build or fine-tune separate systems for translation, question answering, summarisation, sentiment analysis, and other tasks. GPT-3 challenged that assumption by showing that one model trained only to predict the next token could often adapt to new tasks from instructions and examples provided directly in the input.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_gpt3_prompt_b_bf041f-Illustration-1-dark.svg" | relative_url }}" alt="GPT 3 Shift illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_gpt3_prompt_b_bf041f-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_gpt3_prompt_b_bf041f-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-The significance was not merely that GPT-3 was larger than previous models. Its real historical importance was that it made prompting itself a practical interface to AI. Instead of retraining a model for every application, users could often describe the task in natural language and obtain useful results immediately. That shift helped establish the prompt-based workflow that later became central to modern AI systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Lambda]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+The significance was not merely that GPT-3 was larger than previous models. Its real historical importance was that it made prompting itself a practical interface to AI. Instead of retraining a model for every application, users could often describe the task in natural language and obtain useful results immediately. That shift helped establish the prompt-based workflow that later became central to modern AI systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Lambda]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
 ## What GPT-3 Demonstrated
 
-When OpenAI introduced GPT-3 in 2020, the model contained 175 billion parameters, making it dramatically larger than previous [language models]({{ 'language-models/' | relative_url }}). More importantly, researchers evaluated it in a "few-shot" setting: tasks were specified through text prompts rather than through additional training. GPT-3 received examples within the prompt and then continued the pattern. No gradient updates or task-specific fine-tuning were performed during evaluation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+When OpenAI introduced GPT-3 in 2020, the model contained 175 billion parameters, making it dramatically larger than previous [language models]({{ 'language-models/' | relative_url }}). More importantly, researchers evaluated it in a "few-shot" setting: tasks were specified through text prompts rather than through additional training. GPT-3 received examples within the prompt and then continued the pattern. No gradient updates or task-specific fine-tuning were performed during evaluation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
-This revealed a capability that became known as [in-context learning]({{ 'in-context-learning/' | relative_url }}). The model could infer what was being asked from the examples placed in front of it and then apply that pattern to new inputs. Researchers tested this approach across more than two dozen language tasks and found that performance improved substantially as model size increased. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">GPT-3, and measuring</span><span class="citation-popover-snippet">Language Models are Few-Shot Learnersby TB Brown · 2020 · Cited by 73826 — In this paper, we test this hypothesis by training a 175...</span></span></span>
+This revealed a capability that became known as [in-context learning]({{ 'in-context-learning/' | relative_url }}). The model could infer what was being asked from the examples placed in front of it and then apply that pattern to new inputs. Researchers tested this approach across more than two dozen language tasks and found that performance improved substantially as model size increased.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">GPT-3, and measuring</span><span class="citation-popover-snippet">Language Models are Few-Shot Learnersby TB Brown · 2020 · Cited by 73826 — In this paper, we test this hypothesis by training a 175...</span></span></span>
 
 The practical message was striking:
 
 * The same model could be used for many tasks.
 * The task description could often be written in ordinary language.
 * Adaptation could happen at [inference]({{ 'inference-test/' | relative_url }}) time rather than through retraining.
-* Human effort shifted from creating labelled datasets to designing prompts and examples. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+* Human effort shifted from creating labelled datasets to designing prompts and examples.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
-Earlier systems had hinted at these possibilities, but GPT-3 demonstrated them at a scale and breadth that attracted widespread [attention]({{ 'attention/' | relative_url }}) from researchers, developers, and businesses. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+Earlier systems had hinted at these possibilities, but GPT-3 demonstrated them at a scale and breadth that attracted widespread [attention]({{ 'attention/' | relative_url }}) from researchers, developers, and businesses.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/0juvbDj4Xns" title="ChatGPT vs GPT-3 Fine-Tuning: Sci-Fi Midjourney Prompt Generator 🔥" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=0juvbDj4Xns" target="_blank" rel="noopener noreferrer">ChatGPT vs GPT-3 Fine-Tuning: Sci-Fi Midjourney Prompt Generator 🔥</a></p><p class="youtube-embed-meta">Channel: All About AI &middot; Views: 20.8K &middot; Uploaded: January 2023 &middot; Length: 13 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=0juvbDj4Xns" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=0juvbDj4Xns">Open on YouTube</a></p></div></div></div>
 
 ## Translation, Coding, and Question Answering from One Model
 
-One reason GPT-3 became so influential was the variety of tasks it could perform using the same underlying mechanism. Researchers showed that translation could be framed as text completion by providing a few examples of source and target language pairs. The model then continued the pattern with a new sentence. Similar prompting strategies worked for question answering and other language [benchmarks]({{ 'benchmarks/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+One reason GPT-3 became so influential was the variety of tasks it could perform using the same underlying mechanism. Researchers showed that translation could be framed as text completion by providing a few examples of source and target language pairs. The model then continued the pattern with a new sentence. Similar prompting strategies worked for question answering and other language [benchmarks]({{ 'benchmarks/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
-Question answering was particularly important because it illustrated that the model could draw on knowledge acquired during pre-training while also responding to instructions in the prompt. GPT-3 achieved strong results on several question-answering datasets without the specialised training pipelines that had previously been considered necessary. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+Question answering was particularly important because it illustrated that the model could draw on knowledge acquired during pre-training while also responding to instructions in the prompt. GPT-3 achieved strong results on several question-answering datasets without the specialised training pipelines that had previously been considered necessary.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
-Programming tasks provided another memorable example. Although GPT-3 was not primarily trained as a coding model, users discovered that prompts containing code, comments, or programming problems often produced plausible completions. This reinforced the idea that diverse behaviours could emerge from a single next-token predictor rather than from separate task-specific architectures. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+Programming tasks provided another memorable example. Although GPT-3 was not primarily trained as a coding model, users discovered that prompts containing code, comments, or programming problems often produced plausible completions. This reinforced the idea that diverse behaviours could emerge from a single next-token predictor rather than from separate task-specific architectures.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
-What made these demonstrations historically important was not that GPT-3 became the best system in every category. Instead, it showed that a general-purpose model could be competitive across many categories at once. The distinction changed research priorities throughout the industry. Rather than asking how to build a separate model for each task, many researchers began asking how to make one model follow prompts more effectively. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Hacker News]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+What made these demonstrations historically important was not that GPT-3 became the best system in every category. Instead, it showed that a general-purpose model could be competitive across many categories at once. The distinction changed research priorities throughout the industry. Rather than asking how to build a separate model for each task, many researchers began asking how to make one model follow prompts more effectively.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Hacker News]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_gpt3_prompt_b_bf041f-Illustration-2-dark.svg" | relative_url }}" alt="GPT 3 Shift illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_gpt3_prompt_b_bf041f-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_gpt3_prompt_b_bf041f-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Why the Prompt Became the New Interface
 
-GPT-3 helped transform prompts from simple inputs into a form of programming language for AI systems. Users learned that wording, examples, formatting, and context could significantly affect outputs. A translation request, a classification task, and a dialogue interaction could all be expressed as carefully structured text. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+GPT-3 helped transform prompts from simple inputs into a form of programming language for AI systems. Users learned that wording, examples, formatting, and context could significantly affect outputs. A translation request, a classification task, and a dialogue interaction could all be expressed as carefully structured text.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
-This changed where expertise was required. In earlier [machine-learning]({{ 'machine-learning/' | relative_url }}) workflows, success often depended on collecting labelled data and retraining models. With GPT-3, useful adaptation could happen through prompt design. The human role shifted toward providing instructions, demonstrations, and context directly in the conversation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+This changed where expertise was required. In earlier [machine-learning]({{ 'machine-learning/' | relative_url }}) workflows, success often depended on collecting labelled data and retraining models. With GPT-3, useful adaptation could happen through prompt design. The human role shifted toward providing instructions, demonstrations, and context directly in the conversation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
-The impact extended beyond research papers. Developers began experimenting with prompt-based applications, while companies explored whether a single language model could replace collections of specialised NLP tools. The modern idea of interacting with AI through conversational instructions traces much of its practical momentum to this period. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://lambda.ai/blog/demystifying-gpt-3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lambda.ai">[Lambda]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lambda.ai</span><span class="citation-popover-title">demystifying gpt 3</span><span class="citation-popover-snippet">OpenAI&#x27;s GPT-3 Language Model: A Technical Overview3 Jun 2020 — GPT-3 studies the model as a general solution for many downstream j...</span></span></span>
+The impact extended beyond research papers. Developers began experimenting with prompt-based applications, while companies explored whether a single language model could replace collections of specialised NLP tools. The modern idea of interacting with AI through conversational instructions traces much of its practical momentum to this period.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://lambda.ai/blog/demystifying-gpt-3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lambda.ai">[Lambda]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lambda.ai</span><span class="citation-popover-title">demystifying gpt 3</span><span class="citation-popover-snippet">OpenAI&#x27;s GPT-3 Language Model: A Technical Overview3 Jun 2020 — GPT-3 studies the model as a general solution for many downstream j...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/fVt387VZJe8" title="GPT-3 - Language Models are Few-Shot Learners | Paper Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=fVt387VZJe8" target="_blank" rel="noopener noreferrer">GPT-3 - Language Models are Few-Shot Learners | Paper Explained</a></p><p class="youtube-embed-meta">Channel: Aleksa Gordić - The AI Epiphany &middot; Views: 5.3K &middot; Uploaded: November 2020 &middot; Length: 46 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=fVt387VZJe8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=fVt387VZJe8">Open on YouTube</a></p></div></div></div>
 
 ## Limits and Debates Around Early Capabilities
 
-Despite the excitement, GPT-3's achievements immediately sparked debate. Critics argued that strong benchmark performance did not necessarily imply deep understanding or robust reasoning. Some researchers pointed out that benchmark datasets could contain biases, shortcuts, or examples similar to material seen during training. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://garymarcus.substack.com/p/how-not-to-test-gpt-3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: garymarcus.substack.com">[garymarcus.substack.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">garymarcus.substack.com</span><span class="citation-popover-title">How Not to Test GPT-3</span><span class="citation-popover-snippet">by Gary Marcus and Ernest DavisFebruary 17, 2023 — Important aspects of commonsense reasoning, including most forms of spatial and physic...</span><span class="citation-popover-meta">Published: February 17, 2023</span></span></span>
+Despite the excitement, GPT-3's achievements immediately sparked debate. Critics argued that strong benchmark performance did not necessarily imply deep understanding or robust reasoning. Some researchers pointed out that benchmark datasets could contain biases, shortcuts, or examples similar to material seen during training.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://garymarcus.substack.com/p/how-not-to-test-gpt-3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: garymarcus.substack.com">[garymarcus.substack.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">garymarcus.substack.com</span><span class="citation-popover-title">How Not to Test GPT-3</span><span class="citation-popover-snippet">by Gary Marcus and Ernest DavisFebruary 17, 2023 — Important aspects of commonsense reasoning, including most forms of spatial and physic...</span><span class="citation-popover-meta">Published: February 17, 2023</span></span></span>
 
-Questions also arose about reasoning ability. GPT-3 could solve some arithmetic and pattern-completion tasks, yet it remained inconsistent on many forms of commonsense, spatial, and causal reasoning. Performance could vary dramatically depending on prompt wording, revealing that the model's capabilities were often fragile. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2garymarcus.substack.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+Questions also arose about reasoning ability. GPT-3 could solve some arithmetic and pattern-completion tasks, yet it remained inconsistent on many forms of commonsense, spatial, and causal reasoning. Performance could vary dramatically depending on prompt wording, revealing that the model's capabilities were often fragile.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2garymarcus.substack.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
-Another criticism concerned reliability. GPT-3 frequently produced confident but incorrect statements, a phenomenon later popularised as "hallucination". It could generate convincing language without guaranteeing factual accuracy. Researchers therefore cautioned against interpreting fluent outputs as evidence of genuine understanding. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://milvus.io/ai-quick-reference/what-are-the-limitations-of-gpt3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: milvus.io">[Milvus]</a><span class="citation-popover" role="note"><span class="citation-popover-source">milvus.io</span><span class="citation-popover-snippet">What are the limitations of GPT-3?First, it often generates plausible-sounding but incorrect or nonsensical information. Second, it...</span></span></span>
+Another criticism concerned reliability. GPT-3 frequently produced confident but incorrect statements, a phenomenon later popularised as "hallucination". It could generate convincing language without guaranteeing factual accuracy. Researchers therefore cautioned against interpreting fluent outputs as evidence of genuine understanding.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://milvus.io/ai-quick-reference/what-are-the-limitations-of-gpt3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: milvus.io">[Milvus]</a><span class="citation-popover" role="note"><span class="citation-popover-source">milvus.io</span><span class="citation-popover-snippet">What are the limitations of GPT-3?First, it often generates plausible-sounding but incorrect or nonsensical information. Second, it...</span></span></span>
 
-There were also practical concerns. Training and deploying a model of GPT-3's scale required enormous computational resources, leading some researchers to investigate whether smaller models could achieve similar prompt-based behaviour more efficiently. Subsequent work showed that prompting techniques and instruction tuning could sometimes narrow the gap between massive and smaller models. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://lambda.ai/blog/demystifying-gpt-3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lambda.ai">[Lambda+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lambda.ai</span><span class="citation-popover-title">demystifying gpt 3</span><span class="citation-popover-snippet">OpenAI&#x27;s GPT-3 Language Model: A Technical Overview3 Jun 2020 — GPT-3 studies the model as a general solution for many downstream j...</span></span></span>
+There were also practical concerns. Training and deploying a model of GPT-3's scale required enormous computational resources, leading some researchers to investigate whether smaller models could achieve similar prompt-based behaviour more efficiently. Subsequent work showed that prompting techniques and instruction tuning could sometimes narrow the gap between massive and smaller models.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://lambda.ai/blog/demystifying-gpt-3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lambda.ai">[Lambda+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lambda.ai</span><span class="citation-popover-title">demystifying gpt 3</span><span class="citation-popover-snippet">OpenAI&#x27;s GPT-3 Language Model: A Technical Overview3 Jun 2020 — GPT-3 studies the model as a general solution for many downstream j...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_gpt3_prompt_b_bf041f-Illustration-3-dark.svg" | relative_url }}" alt="GPT 3 Shift illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_gpt3_prompt_b_bf041f-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_gpt3_prompt_b_bf041f-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## The Lasting Significance of the GPT-3 Shift
 
-The lasting importance of GPT-3 lies less in its exact benchmark scores and more in the change of perspective it introduced. It provided a widely visible demonstration that one large language model could perform many tasks through prompting alone. That idea reshaped expectations about how AI systems could be built and used. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2freecodecamp.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+The lasting importance of GPT-3 lies less in its exact benchmark scores and more in the change of perspective it introduced. It provided a widely visible demonstration that one large language model could perform many tasks through prompting alone. That idea reshaped expectations about how AI systems could be built and used.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2freecodecamp.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
-Later advances improved reliability, instruction following, reasoning, and safety. Yet many of those developments built upon the central insight highlighted by GPT-3: task specification could often be moved from model training into the prompt itself. Within the history of GPT-style Transformers, GPT-3 therefore stands as the moment when prompting evolved from an interesting research technique into a practical paradigm for interacting with general-purpose AI systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
+Later advances improved reliability, instruction following, reasoning, and safety. Yet many of those developments built upon the central insight highlighted by GPT-3: task specification could often be moved from model training into the prompt itself. Within the history of GPT-style Transformers, GPT-3 therefore stands as the moment when prompting evolved from an interesting research technique into a practical paradigm for interacting with general-purpose AI systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">Language Models are Few-Shot LearnersMay 28, 2020...</span><span class="citation-popover-meta">Published: May 28, 2020</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/5i-SC-roENM" title="GPT-3: Language Models are Few-shot Learners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=5i-SC-roENM" target="_blank" rel="noopener noreferrer">GPT-3: Language Models are Few-shot Learners</a></p><p class="youtube-embed-meta">Channel: Samuel Albanie &middot; Views: 4.0K &middot; Uploaded: July 2022 &middot; Length: 2 hours 54 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=5i-SC-roENM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=5i-SC-roENM">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why GPT 3 Changed How People Used AI. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why GPT 3 Changed How People Used AI. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Covers GPT-style models, prompting, and in-context learning.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers GPT-style models, prompting, and in-context learning.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Provides context for GPT-3 and transformer-based NLP.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for GPT-3 and transformer-based NLP.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
-        </h4>
-        <p class="fr-book-author">By Sebastian Raschka</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
+</h4>
+<p class="fr-book-author">By Sebastian Raschka</p>
         
-        <p class="fr-book-desc">Explains the mechanisms behind GPT-era breakthroughs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains the mechanisms behind GPT-era breakthroughs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Provides theoretical foundations behind representation learning and generative models.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Provides theoretical foundations behind representation learning and generative models.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI ARTIFICIAL INTELLIGENCE . 2001 ORIGINAL MOVIE POSTER vintage 24 YEARS OLD"><img src="{{ '/assets/images/marketplace-covers/5af1ce80d93e60e8d871.jpg' | relative_url }}" alt="Listing image for AI ARTIFICIAL INTELLIGENCE . 2001 ORIGINAL MOVIE POSTER vintage 24 YEARS OLD" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI ARTIFICIAL INTELLIGENCE . 2001 ORIGINAL MOVIE POSTER vintage 24 YEARS OLD</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI ARTIFICIAL INTELLIGENCE . 2001 ORIGINAL MOVIE POSTER vintage 24 YEARS OLD"><img src="{{ '/assets/images/marketplace-covers/5af1ce80d93e60e8d871.jpg' | relative_url }}" alt="Listing image for AI ARTIFICIAL INTELLIGENCE . 2001 ORIGINAL MOVIE POSTER vintage 24 YEARS OLD" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI ARTIFICIAL INTELLIGENCE . 2001 ORIGINAL MOVIE POSTER vintage 24 YEARS OLD</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster -book -books" data-ebay-reference="gpt-3-shift-why-gpt-3-changed-how-people-used-ai-understanding-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -516,7 +516,7 @@ Later advances improved reliability, instruction following, reasoning, and safet
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -536,7 +536,7 @@ Later advances improved reliability, instruction following, reasoning, and safet
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -568,7 +568,7 @@ Later advances improved reliability, instruction following, reasoning, and safet
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -620,7 +620,7 @@ Later advances improved reliability, instruction following, reasoning, and safet
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -665,7 +665,7 @@ Later advances improved reliability, instruction following, reasoning, and safet
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -706,162 +706,162 @@ Later advances improved reliability, instruction following, reasoning, and safet
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv Language Models are Few-Shot Learners  
-   Link: <a href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.14165</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Few-Shot LearnersMay 28, 2020...</p></details>
+   Link:<a href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.14165</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Few-Shot LearnersMay 28, 2020...</p></details>
    Published: May 28, 2020  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Title: GPT-3, and measuring  
-   Link: <a href="https://arxiv.org/pdf/2005.14165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2005.14165</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Few-Shot Learnersby TB Brown · 2020 · Cited by 73826 — In this paper, we test this hypothesis by training a 175...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2005.14165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2005.14165</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Few-Shot Learnersby TB Brown · 2020 · Cited by 73826 — In this paper, we test this hypothesis by training a 175...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: lambda.ai  
    Title: demystifying gpt 3  
-   Link: <a href="https://lambda.ai/blog/demystifying-gpt-3" target="_blank" rel="noopener noreferrer nofollow">https://lambda.ai/blog/demystifying-gpt-3</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI&#x27;s GPT-3 Language Model: A Technical Overview3 Jun 2020 — GPT-3 studies the model as a general solution for many downstream j...</p></details>
+   Link:<a href="https://lambda.ai/blog/demystifying-gpt-3" target="_blank" rel="noopener noreferrer nofollow">https://lambda.ai/blog/demystifying-gpt-3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI&#x27;s GPT-3 Language Model: A Technical Overview3 Jun 2020 — GPT-3 studies the model as a general solution for many downstream j...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/andriyburkov_the-language-models-are-few-shot-learners-activity-7442732927060324352-Faih" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/andriyburkov_the-language-models-are-few-shot-learners-activity-7442732927060324352-Faih</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>LLMs as Few-Shot Learners: OpenAI&#x27;s Breakthrough PaperIt&#x27;s one of the most advanced AI models available for writing, summarizing, transla...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/andriyburkov_the-language-models-are-few-shot-learners-activity-7442732927060324352-Faih" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/andriyburkov_the-language-models-are-few-shot-learners-activity-7442732927060324352-Faih</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLMs as Few-Shot Learners: OpenAI&#x27;s Breakthrough PaperIt&#x27;s one of the most advanced AI models available for writing, summarizing, transla...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
    Title: arXiv Bidirectional Language Models Are Also Few-shot Learners  
-   Link: <a href="https://arxiv.org/abs/2209.14500" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2209.14500</a>  
+   Link:<a href="https://arxiv.org/abs/2209.14500" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2209.14500</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: proceedings.neurips.cc  
    Title: We also identify some datasets where GPT  
-   Link: <a href="https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS ProceedingsLanguage Models are Few-Shot Learnersby T Brown · 2020 · Cited by 72380 — GPT-3 achieves strong performance on many NL...</p></details>
+   Link:<a href="https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS ProceedingsLanguage Models are Few-Shot Learnersby T Brown · 2020 · Cited by 72380 — GPT-3 achieves strong performance on many NL...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: linkedin.com  
    Title: Linked In You might not want to fine-tune GPT-3  
-   Link: <a href="https://www.linkedin.com/pulse/you-might-want-fine-tune-gpt-3-henri-schulte" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/you-might-want-fine-tune-gpt-3-henri-schulte</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>You might not want to fine-tune GPT-3 - Henri SchulteUsing this prompt, the base model of GPT-3 generates a factually-correct response: “...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/you-might-want-fine-tune-gpt-3-henri-schulte" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/you-might-want-fine-tune-gpt-3-henri-schulte</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>You might not want to fine-tune GPT-3 - Henri SchulteUsing this prompt, the base model of GPT-3 generates a factually-correct response: “...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: garymarcus.substack.com  
    Title: How Not to Test GPT-3  
-   Link: <a href="https://garymarcus.substack.com/p/how-not-to-test-gpt-3" target="_blank" rel="noopener noreferrer nofollow">https://garymarcus.substack.com/p/how-not-to-test-gpt-3</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>by Gary Marcus and Ernest DavisFebruary 17, 2023 — Important aspects of commonsense reasoning, including most forms of spatial and physic...</p></details>
+   Link:<a href="https://garymarcus.substack.com/p/how-not-to-test-gpt-3" target="_blank" rel="noopener noreferrer nofollow">https://garymarcus.substack.com/p/how-not-to-test-gpt-3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by Gary Marcus and Ernest DavisFebruary 17, 2023 — Important aspects of commonsense reasoning, including most forms of spatial and physic...</p></details>
    Published: February 17, 2023  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
    Title: arXiv Line Goes Up?  
-   Link: <a href="https://arxiv.org/html/2502.14318v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2502.14318v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Inherent Limitations of Benchmarks for...20 Feb 2025 — This so-called task [contamination](&amp;#123;&amp;#123; &#x27;contamination/&#x27; | relative_url &amp;#125;&amp;#125;) has been found to be responsible for about a 20...</p></details>
+   Link:<a href="https://arxiv.org/html/2502.14318v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2502.14318v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Inherent Limitations of Benchmarks for...20 Feb 2025 — This so-called task [contamination](&amp;#123;&amp;#123; &#x27;contamination/&#x27; | relative_url &amp;#125;&amp;#125;) has been found to be responsible for about a 20...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: milvus.io  
-   Link: <a href="https://milvus.io/ai-quick-reference/what-are-the-limitations-of-gpt3" target="_blank" rel="noopener noreferrer nofollow">https://milvus.io/ai-quick-reference/what-are-the-limitations-of-gpt3</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What are the limitations of GPT-3?First, it often generates plausible-sounding but incorrect or nonsensical information. Second, it...</p></details>
+   Link:<a href="https://milvus.io/ai-quick-reference/what-are-the-limitations-of-gpt3" target="_blank" rel="noopener noreferrer nofollow">https://milvus.io/ai-quick-reference/what-are-the-limitations-of-gpt3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What are the limitations of GPT-3?First, it often generates plausible-sounding but incorrect or nonsensical information. Second, it...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2009.07118" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2009.07118</a>  
+   Link:<a href="https://arxiv.org/abs/2009.07118" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2009.07118</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: arxiv.org  
    Title: arXiv Finetuned Language Models Are Zero-Shot Learners  
-   Link: <a href="https://arxiv.org/abs/2109.01652" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2109.01652</a>  
+   Link:<a href="https://arxiv.org/abs/2109.01652" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2109.01652</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: freecodecamp.org  
-   Link: <a href="https://www.freecodecamp.org/news/ai-paper-review-language-models-are-few-shot-learners-gpt-3/" target="_blank" rel="noopener noreferrer nofollow">https://www.freecodecamp.org/news/ai-paper-review-language-models-are-few-shot-learners-gpt-3/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Paper Review: Language Models are Few-Shot...1 day ago — This paper introduced GPT-3 and demonstrated something that changed the dire...</p></details>
+   Link:<a href="https://www.freecodecamp.org/news/ai-paper-review-language-models-are-few-shot-learners-gpt-3/" target="_blank" rel="noopener noreferrer nofollow">https://www.freecodecamp.org/news/ai-paper-review-language-models-are-few-shot-learners-gpt-3/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Paper Review: Language Models are Few-Shot...1 day ago — This paper introduced GPT-3 and demonstrated something that changed the dire...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: community.openai.com  
    Title: fine tuning gpt 3 with no prompt  
-   Link: <a href="https://community.openai.com/t/fine-tuning-gpt-3-with-no-prompt/24327" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/fine-tuning-gpt-3-with-no-prompt/24327</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Tuning GPT-3 with no prompt?13 Dec 2022 — Is it possible to use GPT-3 for text generation with no input prompt, for example fine tuning i...</p></details>
+   Link:<a href="https://community.openai.com/t/fine-tuning-gpt-3-with-no-prompt/24327" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/fine-tuning-gpt-3-with-no-prompt/24327</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Tuning GPT-3 with no prompt?13 Dec 2022 — Is it possible to use GPT-3 for text generation with no input prompt, for example fine tuning i...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=fVt387VZJe8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=fVt387VZJe8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Few-Shot Learners...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=fVt387VZJe8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=fVt387VZJe8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Few-Shot Learners...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: papers.nips.cc  
    Title: We also identify some datasets where GPT-3's  
-   Link: <a href="https://papers.nips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html" target="_blank" rel="noopener noreferrer nofollow">https://papers.nips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS PapersLanguage Models are Few-Shot Learnersby T Brown · 2020 · Cited by 72725 — GPT-3 achieves strong performance on many NLP dat...</p></details>
+   Link:<a href="https://papers.nips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html" target="_blank" rel="noopener noreferrer nofollow">https://papers.nips.cc/paper_files/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS PapersLanguage Models are Few-Shot Learnersby T Brown · 2020 · Cited by 72725 — GPT-3 achieves strong performance on many NLP dat...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: news.ycombinator.com  
-   Link: <a href="https://news.ycombinator.com/item?id=23360237" target="_blank" rel="noopener noreferrer nofollow">https://news.ycombinator.com/item?id=23360237</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ycombinator.comGPT-3: A Disappointing Paper?30 May 2020 — * Second, the model achieves competitive results on many NLP tasks and benchmar...</p></details>
+   Link:<a href="https://news.ycombinator.com/item?id=23360237" target="_blank" rel="noopener noreferrer nofollow">https://news.ycombinator.com/item?id=23360237</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ycombinator.comGPT-3: A Disappointing Paper?30 May 2020 — * Second, the model achieves competitive results on many NLP tasks and benchmar...</p></details>
    Published: May 2020  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: news.ycombinator.com  
-   Link: <a href="https://news.ycombinator.com/item?id=23345379" target="_blank" rel="noopener noreferrer nofollow">https://news.ycombinator.com/item?id=23345379</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ycombinator.comGPT-3: Language Models Are Few-Shot Learners29 May 2020 — In other words, the paper considers hand-crafted prompts like in...</p></details>
+   Link:<a href="https://news.ycombinator.com/item?id=23345379" target="_blank" rel="noopener noreferrer nofollow">https://news.ycombinator.com/item?id=23345379</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ycombinator.comGPT-3: Language Models Are Few-Shot Learners29 May 2020 — In other words, the paper considers hand-crafted prompts like in...</p></details>
    Published: May 2020  
 
 ### Additional References
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/341724146_Language_Models_are_Few-Shot_Learners" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/341724146_Language_Models_are_Few-Shot_Learners</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Language Models are Few-Shot LearnersGPT-3 achieves strong performance on many NLP datasets, including translation, question-answer...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/341724146_Language_Models_are_Few-Shot_Learners" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/341724146_Language_Models_are_Few-Shot_Learners</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Language Models are Few-Shot LearnersGPT-3 achieves strong performance on many NLP datasets, including translation, question-answer...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40willystumblr/gpt-3-language-models-are-few-shot-learners-brown-et-al-2020-c837713fafb7" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40willystumblr/gpt-3-language-models-are-few-shot-learners-brown-et-al-2020-c837713fafb7</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GPT-3: “Language Models are Few Shot Learners” (Brown...*Everything in this post except images and sentences with quotation marks is wha...</p></details>
+   Link:<a href="https://medium.com/%40willystumblr/gpt-3-language-models-are-few-shot-learners-brown-et-al-2020-c837713fafb7" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40willystumblr/gpt-3-language-models-are-few-shot-learners-brown-et-al-2020-c837713fafb7</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GPT-3: “Language Models are Few Shot Learners” (Brown...*Everything in this post except images and sentences with quotation marks is wha...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=0juvbDj4Xns" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0juvbDj4Xns</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT vs GPT-3 Fine-Tuning: Sci-Fi Midjourney Prompt...In this video, we&#x27;ll be exploring the intersection of Sci-Fi and [Generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=0juvbDj4Xns" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0juvbDj4Xns</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT vs GPT-3 Fine-Tuning: Sci-Fi Midjourney Prompt...In this video, we&#x27;ll be exploring the intersection of Sci-Fi and [Generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=5i-SC-roENM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=5i-SC-roENM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GPT-3: Language Models are Few-shot LearnersA slow description of &quot;Language Models are Few-shot Learners&quot;, the paper that introduced GPT...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=5i-SC-roENM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=5i-SC-roENM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GPT-3: Language Models are Few-shot LearnersA slow description of &quot;Language Models are Few-shot Learners&quot;, the paper that introduced GPT...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: github.com  
    Title: For all tasks, GPT-3 is applied without any gradient updates or  
-   Link: <a href="https://github.com/GitYCC/machine-learning-papers-summary/blob/master/nlp/GPT3.md" target="_blank" rel="noopener noreferrer nofollow">https://github.com/GitYCC/machine-learning-papers-summary/blob/master/nlp/GPT3.md</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>machine-learning-papers-summary/nlp/GPT3.md at masterLanguage Models are Few-Shot Learners (2020), test its performance in the few-shot s...</p></details>
+   Link:<a href="https://github.com/GitYCC/machine-learning-papers-summary/blob/master/nlp/GPT3.md" target="_blank" rel="noopener noreferrer nofollow">https://github.com/GitYCC/machine-learning-papers-summary/blob/master/nlp/GPT3.md</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>machine-learning-papers-summary/nlp/GPT3.md at masterLanguage Models are Few-Shot Learners (2020), test its performance in the few-shot s...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: mbrenndoerfer.com  
    Title: gpt3 in context learning emergent capabilities from scale  
-   Link: <a href="https://mbrenndoerfer.com/writing/gpt3-in-context-learning-emergent-capabilities-from-scale" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/gpt3-in-context-learning-emergent-capabilities-from-scale</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferGPT-3 and In-Context Learning: Emergent Capabilities...27 Jun 2025 — GPT-3 could answer questions from datasets like...</p></details>
+   Link:<a href="https://mbrenndoerfer.com/writing/gpt3-in-context-learning-emergent-capabilities-from-scale" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/gpt3-in-context-learning-emergent-capabilities-from-scale</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferGPT-3 and In-Context Learning: Emergent Capabilities...27 Jun 2025 — GPT-3 could answer questions from datasets like...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: moocaholic.medium.com  
    Title: gpt 3 language models are few shot learners a13d1ae8b1f9  
-   Link: <a href="https://moocaholic.medium.com/gpt-3-language-models-are-few-shot-learners-a13d1ae8b1f9" target="_blank" rel="noopener noreferrer nofollow">https://moocaholic.medium.com/gpt-3-language-models-are-few-shot-learners-a13d1ae8b1f9</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>medium.comGPT-3: Language Models are Few-Shot LearnersGPT-3 achieves 81.0% accuracy zero-shot, 80.5% accuracy one-shot, and 82.8% accurac...</p></details>
+   Link:<a href="https://moocaholic.medium.com/gpt-3-language-models-are-few-shot-learners-a13d1ae8b1f9" target="_blank" rel="noopener noreferrer nofollow">https://moocaholic.medium.com/gpt-3-language-models-are-few-shot-learners-a13d1ae8b1f9</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>medium.comGPT-3: Language Models are Few-Shot LearnersGPT-3 achieves 81.0% accuracy zero-shot, 80.5% accuracy one-shot, and 82.8% accurac...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: reddit.com  
    Title: gpt3 language models are fewshot learners brown  
-   Link: <a href="https://www.reddit.com/r/ControlProblem/comments/gsjml4/gpt3_language_models_are_fewshot_learners_brown/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ControlProblem/comments/gsjml4/gpt3_language_models_are_fewshot_learners_brown/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;GPT-3: Language Models are Few-Shot Learners&quot;, Brown...&quot;GPT-3: Language Models are Few-Shot Learners&quot;, Brown et al 2020 {OA} (175b-para...</p></details>
+   Link:<a href="https://www.reddit.com/r/ControlProblem/comments/gsjml4/gpt3_language_models_are_fewshot_learners_brown/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ControlProblem/comments/gsjml4/gpt3_language_models_are_fewshot_learners_brown/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;GPT-3: Language Models are Few-Shot Learners&quot;, Brown...&quot;GPT-3: Language Models are Few-Shot Learners&quot;, Brown et al 2020 {OA} (175b-para...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: dl.acm.org  
    Title: We also identify some datasets where GPT-3's  
-   Link: <a href="https://dl.acm.org/doi/abs/10.5555/3495724.3495883" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/abs/10.5555/3495724.3495883</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryLanguage models are few-shot learnersby TB Brown · 2020 · Cited by 72725 — GPT-3 achieves strong performance on many N...</p></details>
+   Link:<a href="https://dl.acm.org/doi/abs/10.5555/3495724.3495883" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/abs/10.5555/3495724.3495883</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryLanguage models are few-shot learnersby TB Brown · 2020 · Cited by 72725 — GPT-3 achieves strong performance on many N...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: github.com  
    Title: 2020 (OpenAI) (Arxiv) [GPT 3] Language Models are Few Shot Learners  
-   Link: <a href="https://github.com/guyulongcs/Awesome-LLM-papers/blob/master/00_Organizations/0_OpenAI/2020%20%28OpenAI%29%20%28Arxiv%29%20%5BGPT-3%5D%20Language%20Models%20are%20Few-Shot%20Learners.pdf" target="_blank" rel="noopener noreferrer nofollow">https://github.com/guyulongcs/Awesome-LLM-papers/blob/master/00_Organizations/0_OpenAI/2020%20%28OpenAI%29%20%28Arxiv%29%20%5BGPT-3%5D%20Language%20Models%20are%20Few-Shot%20Learners.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>They focus on state-of-the-art LLM methods, such as algorithms, system, SFT, RL, Multi-modal LLMs, MOE...</p></details>
+   Link:<a href="https://github.com/guyulongcs/Awesome-LLM-papers/blob/master/00_Organizations/0_OpenAI/2020%20%28OpenAI%29%20%28Arxiv%29%20%5BGPT-3%5D%20Language%20Models%20are%20Few-Shot%20Learners.pdf" target="_blank" rel="noopener noreferrer nofollow">https://github.com/guyulongcs/Awesome-LLM-papers/blob/master/00_Organizations/0_OpenAI/2020%20%28OpenAI%29%20%28Arxiv%29%20%5BGPT-3%5D%20Language%20Models%20are%20Few-Shot%20Learners.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>They focus on state-of-the-art LLM methods, such as algorithms, system, SFT, RL, Multi-modal LLMs, MOE...</p></details>

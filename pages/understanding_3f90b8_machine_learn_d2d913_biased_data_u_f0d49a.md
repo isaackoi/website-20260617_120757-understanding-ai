@@ -288,7 +288,7 @@ image: /assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0
 
 ## Introduction
 
-Artificial intelligence systems learn from examples. That ability makes them useful, but it also creates a risk: if the examples reflect unequal treatment, incomplete measurement, or historical discrimination, the model may learn patterns that reproduce those problems. In [machine learning]({{ 'machine-learning/' | relative_url }}), a model is not given a moral [understanding]({{ 'understanding/' | relative_url }}) of fairness. It is rewarded for finding statistical relationships in data. As a result, unfair outcomes can emerge even when developers did not intend them. Research and policy bodies such as the National Institute of Standards and Technology (NIST) describe AI bias as a socio-technical problem that can arise from data, human decisions, institutional practices, and the way systems are deployed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
+Artificial intelligence systems learn from examples. That ability makes them useful, but it also creates a risk: if the examples reflect unequal treatment, incomplete measurement, or historical discrimination, the model may learn patterns that reproduce those problems. In [machine learning]({{ 'machine-learning/' | relative_url }}), a model is not given a moral [understanding]({{ 'understanding/' | relative_url }}) of fairness. It is rewarded for finding statistical relationships in data. As a result, unfair outcomes can emerge even when developers did not intend them. Research and policy bodies such as the National Institute of Standards and Technology (NIST) describe AI bias as a socio-technical problem that can arise from data, human decisions, institutional practices, and the way systems are deployed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0d49a-Illustration-1-dark.svg" | relative_url }}" alt="Biased data illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0d49a-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0d49a-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -298,9 +298,9 @@ Understanding biased data is important because AI systems increasingly influence
 
 Bias can enter a machine-learning system long before any model is trained. The most obvious route is through the examples used for learning.
 
-A dataset may fail to represent the population on which the model will be used. If certain groups appear less often in the training data, the model may learn weaker patterns for them and perform less accurately. This problem has been documented in facial analysis and recognition systems, where underrepresentation of women and people with darker skin tones contributed to uneven performance across demographic groups. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2MIT Sloan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">study evaluates effects race age sex face recognition software</span><span class="citation-popover-snippet">NIST Study Evaluates Effects of Race, Age, Sex on Face...Dec 19, 2019 — A new NIST study examines how accurately face recognition so...</span></span></span>
+A dataset may fail to represent the population on which the model will be used. If certain groups appear less often in the training data, the model may learn weaker patterns for them and perform less accurately. This problem has been documented in facial analysis and recognition systems, where underrepresentation of women and people with darker skin tones contributed to uneven performance across demographic groups.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2MIT Sloan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">study evaluates effects race age sex face recognition software</span><span class="citation-popover-snippet">NIST Study Evaluates Effects of Race, Age, Sex on Face...Dec 19, 2019 — A new NIST study examines how accurately face recognition so...</span></span></span>
 
-Labels can also introduce bias. In supervised learning, models learn from examples paired with a “correct” answer. However, labels are often created by people or derived from historical decisions. If past decisions were themselves influenced by prejudice, unequal access, or flawed assumptions, the labels may encode those patterns. The model then learns not only the intended task but also traces of the historical behaviour embedded in the data. NIST notes that harmful bias can emerge from systemic and institutional conditions reflected in training data, not merely from technical errors. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
+Labels can also introduce bias. In supervised learning, models learn from examples paired with a “correct” answer. However, labels are often created by people or derived from historical decisions. If past decisions were themselves influenced by prejudice, unequal access, or flawed assumptions, the labels may encode those patterns. The model then learns not only the intended task but also traces of the historical behaviour embedded in the data. NIST notes that harmful bias can emerge from systemic and institutional conditions reflected in training data, not merely from technical errors.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
 
 Another source of bias is incomplete measurement. Suppose a system is trained to predict “job success” using historical promotion records. Promotions may reflect workplace inequalities rather than pure job performance. The model cannot distinguish between genuine ability and distortions hidden within the data. It learns whatever statistical relationship best predicts the recorded outcomes.
 
@@ -313,7 +313,7 @@ Machine-learning models are designed to identify patterns that help them make ac
 
 If historical decisions contain unequal treatment, a model may discover that those patterns improve predictive accuracy on its training data. From the model's perspective, reproducing the pattern is a successful strategy because it reduces error according to the objective it was given.
 
-A widely discussed example comes from risk assessment tools used in criminal justice. Analyses of the COMPAS recidivism [prediction]({{ 'error-harms/' | relative_url }}) system found evidence of racial disparities in its predictions, raising concerns that historical data and statistical relationships could contribute to unequal outcomes for different groups. The debate around COMPAS became influential because it illustrated how an apparently objective algorithm can inherit controversial patterns from past records. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.10640" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Algorithmic Bias in Recidivism Prediction: A Causal Perspective</span><span class="citation-popover-snippet">Algorithmic Bias in Recidivism Prediction: A Causal PerspectiveNovember 24, 2019...</span><span class="citation-popover-meta">Published: November 24, 2019</span></span></span>
+A widely discussed example comes from risk assessment tools used in criminal justice. Analyses of the COMPAS recidivism [prediction]({{ 'error-harms/' | relative_url }}) system found evidence of racial disparities in its predictions, raising concerns that historical data and statistical relationships could contribute to unequal outcomes for different groups. The debate around COMPAS became influential because it illustrated how an apparently objective algorithm can inherit controversial patterns from past records.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1911.10640" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Algorithmic Bias in Recidivism Prediction: A Causal Perspective</span><span class="citation-popover-snippet">Algorithmic Bias in Recidivism Prediction: A Causal PerspectiveNovember 24, 2019...</span><span class="citation-popover-meta">Published: November 24, 2019</span></span></span>
 
 The same mechanism can occur in many settings:
 
@@ -327,7 +327,7 @@ The same mechanism can occur in many settings:
 
 </div>
 
-These outcomes do not necessarily require explicit information about race, gender, or other protected characteristics. Correlated variables can sometimes act as indirect signals, allowing patterns of unequal treatment to persist even when sensitive attributes are removed. This is one reason why fairness cannot be solved simply by deleting a single column from a dataset. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
+These outcomes do not necessarily require explicit information about race, gender, or other protected characteristics. Correlated variables can sometimes act as indirect signals, allowing patterns of unequal treatment to persist even when sensitive attributes are removed. This is one reason why fairness cannot be solved simply by deleting a single column from a dataset.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0d49a-Illustration-2-dark.svg" | relative_url }}" alt="Biased data illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0d49a-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0d49a-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -335,9 +335,9 @@ These outcomes do not necessarily require explicit information about race, gende
 
 The consequences of biased learning become most visible when systems are tested on different populations.
 
-One of the most influential studies came from NIST's evaluation of facial recognition technologies. Researchers found that the majority of tested algorithms exhibited demographic performance differences, with error rates varying across race, age, and sex. In several identification tasks, some algorithms were far more likely to produce false matches for certain demographic groups than for others. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">study evaluates effects race age sex face recognition software</span><span class="citation-popover-snippet">NIST Study Evaluates Effects of Race, Age, Sex on Face...Dec 19, 2019 — A new NIST study examines how accurately face recognition so...</span></span></span>
+One of the most influential studies came from NIST's evaluation of facial recognition technologies. Researchers found that the majority of tested algorithms exhibited demographic performance differences, with error rates varying across race, age, and sex. In several identification tasks, some algorithms were far more likely to produce false matches for certain demographic groups than for others.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">study evaluates effects race age sex face recognition software</span><span class="citation-popover-snippet">NIST Study Evaluates Effects of Race, Age, Sex on Face...Dec 19, 2019 — A new NIST study examines how accurately face recognition so...</span></span></span>
 
-Subsequent analyses and reviews highlighted similar concerns. Researchers and commentators noted that some facial recognition systems misidentified Black and East Asian faces at substantially higher rates than white faces, while women often experienced higher error rates than men. These findings helped transform AI fairness from a niche technical topic into a broader public policy issue. Scientific American+2Harvard Journal of Law &amp; Technology <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.scientificamerican.com/article/how-nist-tested-facial-recognition-algorithms-for-racial-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scientificamerican.com">[scientificamerican.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scientificamerican.com</span><span class="citation-popover-title">how nist tested facial recognition algorithms for racial bias</span><span class="citation-popover-snippet">Scientific AmericanHow NIST Tested Facial-Recognition Algorithms for Racial...Dec 27, 2019 — NIST&#x27;s tests revealed that many of these al...</span></span></span>
+Subsequent analyses and reviews highlighted similar concerns. Researchers and commentators noted that some facial recognition systems misidentified Black and East Asian faces at substantially higher rates than white faces, while women often experienced higher error rates than men. These findings helped transform AI fairness from a niche technical topic into a broader public policy issue. Scientific American+2Harvard Journal of Law &amp; Technology<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.scientificamerican.com/article/how-nist-tested-facial-recognition-algorithms-for-racial-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scientificamerican.com">[scientificamerican.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scientificamerican.com</span><span class="citation-popover-title">how nist tested facial recognition algorithms for racial bias</span><span class="citation-popover-snippet">Scientific AmericanHow NIST Tested Facial-Recognition Algorithms for Racial...Dec 27, 2019 — NIST&#x27;s tests revealed that many of these al...</span></span></span>
 
 The lesson extends beyond facial recognition. Bias can appear whenever training data, labels, or deployment conditions differ across groups. A model can achieve impressive average accuracy while still imposing disproportionate errors on specific populations.
 
@@ -348,9 +348,9 @@ The lesson extends beyond facial recognition. Bias can appear whenever training 
 
 Detecting unfair learned patterns requires more than measuring overall accuracy.
 
-A model that is 95% accurate on average may still perform poorly for particular groups. For that reason, fairness evaluation often examines outcomes separately across demographic categories and compares error rates, access to benefits, or exposure to harms. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/catalogue/metrics/equal-outcomes" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-snippet">Equal outcomesThis metric addresses Fairness and Human Agency... demographic parity or equalized odds and is used to detect and mitigate...</span></span></span>
+A model that is 95% accurate on average may still perform poorly for particular groups. For that reason, fairness evaluation often examines outcomes separately across demographic categories and compares error rates, access to benefits, or exposure to harms.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/catalogue/metrics/equal-outcomes" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-snippet">Equal outcomesThis metric addresses Fairness and Human Agency... demographic parity or equalized odds and is used to detect and mitigate...</span></span></span>
 
-Several fairness metrics have been proposed: <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.geeksforgeeks.org/artificial-intelligence/fairness-metrics-demographic-parity-equalized-odds/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: geeksforgeeks.org">[geeksforgeeks.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">geeksforgeeks.org</span><span class="citation-popover-title">Fairness Metrics</span><span class="citation-popover-snippet">Demographic Parity, Equalized OddsJul 23, 2025 — Fairness metrics like Demographic Parity and Equalized Odds help check if an AI system t...</span></span></span>
+Several fairness metrics have been proposed:<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.geeksforgeeks.org/artificial-intelligence/fairness-metrics-demographic-parity-equalized-odds/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: geeksforgeeks.org">[geeksforgeeks.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">geeksforgeeks.org</span><span class="citation-popover-title">Fairness Metrics</span><span class="citation-popover-snippet">Demographic Parity, Equalized OddsJul 23, 2025 — Fairness metrics like Demographic Parity and Equalized Odds help check if an AI system t...</span></span></span>
 
 
 <div class="content-enhancement content-enhancement--benefit" markdown="1">
@@ -358,217 +358,217 @@ Several fairness metrics have been proposed: <span class="citation-chip-wrap"><a
 * **Demographic parity** asks whether positive outcomes occur at similar rates across groups.
 * **Equal opportunity** examines whether qualified individuals receive favourable outcomes at similar rates.
 * **Equalized odds** compares error rates across groups to identify systematic disparities.
-* **Outcome-based measures** evaluate whether benefits and harms are distributed unevenly across populations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/catalogue/metrics/equal-outcomes" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI+2IEIE SPC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-snippet">Equal outcomesThis metric addresses Fairness and Human Agency... demographic parity or equalized odds and is used to detect and mitigate...</span></span></span>
+* **Outcome-based measures** evaluate whether benefits and harms are distributed unevenly across populations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/catalogue/metrics/equal-outcomes" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI+2IEIE SPC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-snippet">Equal outcomesThis metric addresses Fairness and Human Agency... demographic parity or equalized odds and is used to detect and mitigate...</span></span></span>
 
 </div>
 
-However, fairness assessment is not straightforward. Different [fairness metrics]({{ 'fairness-metrics/' | relative_url }}) can conflict with one another, meaning that improving one measure may worsen another. Researchers therefore emphasise that fairness is partly a governance question: organisations must decide which harms matter most in a particular application and justify the trade-offs they make. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12823528/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Bias in AI systems: integrating formal and socio-technical...by A Ahmad · 2026 — The technical fairness literature proposes various m...</span></span></span>
+However, fairness assessment is not straightforward. Different [fairness metrics]({{ 'fairness-metrics/' | relative_url }}) can conflict with one another, meaning that improving one measure may worsen another. Researchers therefore emphasise that fairness is partly a governance question: organisations must decide which harms matter most in a particular application and justify the trade-offs they make.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12823528/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Bias in AI systems: integrating formal and socio-technical...by A Ahmad · 2026 — The technical fairness literature proposes various m...</span></span></span>
 
-Evaluation also requires ongoing monitoring. A model that appears fair during development may produce different outcomes when deployed in a changing real-world environment. NIST and other governance frameworks therefore recommend continuous testing, documentation, and review rather than treating fairness as a one-time certification exercise. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2Scrut]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</span></span></span>
+Evaluation also requires ongoing monitoring. A model that appears fair during development may produce different outcomes when deployed in a changing real-world environment. NIST and other governance frameworks therefore recommend continuous testing, documentation, and review rather than treating fairness as a one-time certification exercise.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2Scrut]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0d49a-Illustration-3-dark.svg" | relative_url }}" alt="Biased data illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0d49a-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_biased_data_u_f0d49a-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Why biased data remains a governance challenge
 
-A common misconception is that biased AI is simply a technical bug that can be fixed by improving code. In practice, many fairness problems originate in social systems, organisational processes, and historical data. NIST's work on AI bias stresses that harmful outcomes can arise from systemic, human, and institutional sources as well as computational ones. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">theres more ai bias biased data nist report highlights</span><span class="citation-popover-snippet">There&#x27;s More to AI Bias Than Biased Data, NIST Report...Mar 16, 2022 — The NIST report acknowledges that a great deal of AI bias ste...</span></span></span>
+A common misconception is that biased AI is simply a technical bug that can be fixed by improving code. In practice, many fairness problems originate in social systems, organisational processes, and historical data. NIST's work on AI bias stresses that harmful outcomes can arise from systemic, human, and institutional sources as well as computational ones.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">theres more ai bias biased data nist report highlights</span><span class="citation-popover-snippet">There&#x27;s More to AI Bias Than Biased Data, NIST Report...Mar 16, 2022 — The NIST report acknowledges that a great deal of AI bias ste...</span></span></span>
 
-This makes governance essential. Organisations must ask where data came from, whose experiences are missing, how labels were created, and which groups bear the greatest risks if the system makes mistakes. International frameworks and AI governance initiatives increasingly emphasise fairness, accountability, and human rights because technical performance alone cannot guarantee equitable outcomes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD+2OECD Legal Instruments]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI principlesThe OECD AI Principles promote use of AI that is innovative and trustworthy and that respects human rights and democrati...</span></span></span>
+This makes governance essential. Organisations must ask where data came from, whose experiences are missing, how labels were created, and which groups bear the greatest risks if the system makes mistakes. International frameworks and AI governance initiatives increasingly emphasise fairness, accountability, and human rights because technical performance alone cannot guarantee equitable outcomes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD+2OECD Legal Instruments]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI principlesThe OECD AI Principles promote use of AI that is innovative and trustworthy and that respects human rights and democrati...</span></span></span>
 
-Biased data matters because machine-learning systems learn from the world as it is recorded, not necessarily as it ought to be. Without careful evaluation and oversight, AI can transform historical patterns of unequal treatment into automated decisions that appear objective while continuing to distribute benefits and harms unevenly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/algorithmic-bias" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com+2ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">tory outcomes...</span></span></span>
+Biased data matters because machine-learning systems learn from the world as it is recorded, not necessarily as it ought to be. Without careful evaluation and oversight, AI can transform historical patterns of unequal treatment into automated decisions that appear objective while continuing to distribute benefits and harms unevenly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/algorithmic-bias" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com+2ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">tory outcomes...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/gV0_raKR2UQ" title="Algorithmic Bias and Fairness: Crash Course AI #18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=gV0_raKR2UQ" target="_blank" rel="noopener noreferrer">Algorithmic Bias and Fairness: Crash Course AI #18</a></p><p class="youtube-embed-meta">Channel: CrashCourse</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=gV0_raKR2UQ" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=gV0_raKR2UQ">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When learned patterns become unfair. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When learned patterns become unfair. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Shows how biased data and models can create unfair outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how biased data and models can create unfair outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Algorithms of Oppression on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AzlDDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Algorithms of Oppression" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Algorithms of Oppression">Algorithms of Oppression</a>
-        </h4>
-        <p class="fr-book-author">By Safiya Umoja Noble</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Algorithms of Oppression on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AzlDDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Algorithms of Oppression" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Algorithms of Oppression">Algorithms of Oppression</a>
+</h4>
+<p class="fr-book-author">By Safiya Umoja Noble</p>
         
-        <p class="fr-book-desc">Examines how data and algorithms can reproduce social inequalities.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines how data and algorithms can reproduce social inequalities.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G6-hDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
-        </h4>
-        <p class="fr-book-author">By Ruha Benjamin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G6-hDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
+</h4>
+<p class="fr-book-author">By Ruha Benjamin</p>
         
-        <p class="fr-book-desc">Explores bias and discrimination embedded in technological systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores bias and discrimination embedded in technological systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
-        </h4>
-        <p class="fr-book-author">By Kate Crawford</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
+</h4>
+<p class="fr-book-author">By Kate Crawford</p>
         
-        <p class="fr-book-desc">Provides context on data collection, power, and AI harms.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context on data collection, power, and AI harms.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Algorithms+of+Oppression&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Algorithms of Oppression</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Race+After+Technology&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Race After Technology</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Algorithms+of+Oppression&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Algorithms of Oppression</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Race+After+Technology&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Race After Technology</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Not with a Bug, But with a Sticker – Attacks on Machine Learning Systems and Wh…"><span>eBay</span></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">Not with a Bug, But with a Sticker – Attacks on Machine Learning Systems and Wh…</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Not with a Bug, But with a Sticker – Attacks on Machine Learning Systems and Wh…"><span>eBay</span></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">Not with a Bug, But with a Sticker – Attacks on Machine Learning Systems and Wh…</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for MACHINE LEARNING MODEL SMALL STICKER DECAL SCHOOL COLLEGE TEACH TEACHING"><img src="{{ '/assets/images/marketplace-covers/4bd16a71f3884d72a61b.jpg' | relative_url }}" alt="Listing image for MACHINE LEARNING MODEL SMALL STICKER DECAL SCHOOL COLLEGE TEACH TEACHING" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">MACHINE LEARNING MODEL SMALL STICKER DECAL SCHOOL COLLEGE TEACH TEACHING</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for MACHINE LEARNING MODEL SMALL STICKER DECAL SCHOOL COLLEGE TEACH TEACHING"><img src="{{ '/assets/images/marketplace-covers/4bd16a71f3884d72a61b.jpg' | relative_url }}" alt="Listing image for MACHINE LEARNING MODEL SMALL STICKER DECAL SCHOOL COLLEGE TEACH TEACHING" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">MACHINE LEARNING MODEL SMALL STICKER DECAL SCHOOL COLLEGE TEACH TEACHING</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Not with a Bug, but with a Sticker: Attacks on Machine Learning Systems and What"><img src="{{ '/assets/images/marketplace-covers/65a6c9197491d38571c2.jpg' | relative_url }}" alt="Listing image for Not with a Bug, but with a Sticker: Attacks on Machine Learning Systems and What" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">Not with a Bug, but with a Sticker: Attacks on Machine Learning Systems and What</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Not with a Bug, but with a Sticker: Attacks on Machine Learning Systems and What"><img src="{{ '/assets/images/marketplace-covers/65a6c9197491d38571c2.jpg' | relative_url }}" alt="Listing image for Not with a Bug, but with a Sticker: Attacks on Machine Learning Systems and What" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">Not with a Bug, but with a Sticker: Attacks on Machine Learning Systems and What</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural Network AI Machine Learning Diagram Sticker for Tech Geeks #5050"><img src="{{ '/assets/images/marketplace-covers/4af131e0e7c161e2c247.jpg' | relative_url }}" alt="Listing image for Neural Network AI Machine Learning Diagram Sticker for Tech Geeks #5050" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">Neural Network AI Machine Learning Diagram Sticker for Tech Geeks #5050</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural Network AI Machine Learning Diagram Sticker for Tech Geeks #5050"><img src="{{ '/assets/images/marketplace-covers/4af131e0e7c161e2c247.jpg' | relative_url }}" alt="Listing image for Neural Network AI Machine Learning Diagram Sticker for Tech Geeks #5050" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">Neural Network AI Machine Learning Diagram Sticker for Tech Geeks #5050</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning sticker" data-ebay-reference="biased-data-when-learned-patterns-become-unfair-understanding-machine-learning-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -584,7 +584,7 @@ Biased data matters because machine-learning systems learn from the world as it 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -604,7 +604,7 @@ Biased data matters because machine-learning systems learn from the world as it 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -636,7 +636,7 @@ Biased data matters because machine-learning systems learn from the world as it 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -688,7 +688,7 @@ Biased data matters because machine-learning systems learn from the world as it 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -733,7 +733,7 @@ Biased data matters because machine-learning systems learn from the world as it 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -774,221 +774,221 @@ Biased data matters because machine-learning systems learn from the world as it 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: nvlpubs.nist.gov  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: nist.gov  
    Title: theres more ai bias biased data nist report highlights  
-   Link: <a href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>There&#x27;s More to AI Bias Than Biased Data, NIST Report...Mar 16, 2022 — The NIST report acknowledges that a great deal of AI bias ste...</p></details>
+   Link:<a href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>There&#x27;s More to AI Bias Than Biased Data, NIST Report...Mar 16, 2022 — The NIST report acknowledges that a great deal of AI bias ste...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: nist.gov  
    Title: study evaluates effects race age sex face recognition software  
-   Link: <a href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Study Evaluates Effects of Race, Age, Sex on Face...Dec 19, 2019 — A new NIST study examines how accurately face recognition so...</p></details>
+   Link:<a href="https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2019/12/nist-study-evaluates-effects-race-age-sex-face-recognition-software</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Study Evaluates Effects of Race, Age, Sex on Face...Dec 19, 2019 — A new NIST study examines how accurately face recognition so...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: mitsloan.mit.edu  
    Title: unmasking bias facial recognition algorithms  
-   Link: <a href="https://mitsloan.mit.edu/ideas-made-to-matter/unmasking-bias-facial-recognition-algorithms" target="_blank" rel="noopener noreferrer nofollow">https://mitsloan.mit.edu/ideas-made-to-matter/unmasking-bias-facial-recognition-algorithms</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>MIT SloanUnmasking the bias in facial recognition algorithmsDec 13, 2023 — In this excerpt, Buolamwini discusses how datasets used to tra...</p></details>
+   Link:<a href="https://mitsloan.mit.edu/ideas-made-to-matter/unmasking-bias-facial-recognition-algorithms" target="_blank" rel="noopener noreferrer nofollow">https://mitsloan.mit.edu/ideas-made-to-matter/unmasking-bias-facial-recognition-algorithms</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT SloanUnmasking the bias in facial recognition algorithmsDec 13, 2023 — In this excerpt, Buolamwini discusses how datasets used to tra...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMCBeating the bias in facial recognition technology  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7575263/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC7575263/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>the bias in facial recognition technology - PMC - NIHby J Lunter · 2020 · Cited by 38 — NIST figures highlight the continuing bias proble...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7575263/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC7575263/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>the bias in facial recognition technology - PMC - NIHby J Lunter · 2020 · Cited by 38 — NIST figures highlight the continuing bias proble...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
    Title: arXiv Algorithmic Bias in Recidivism Prediction: A Causal Perspective  
-   Link: <a href="https://arxiv.org/abs/1911.10640" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1911.10640</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Algorithmic Bias in Recidivism Prediction: A Causal PerspectiveNovember 24, 2019...</p></details>
+   Link:<a href="https://arxiv.org/abs/1911.10640" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1911.10640</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Algorithmic Bias in Recidivism Prediction: A Causal PerspectiveNovember 24, 2019...</p></details>
    Published: November 24, 2019  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: oecd.org  
    Title: algorithmic bias the state of the situation and policy recommendations a0b7cec1  
-   Link: <a href="https://www.oecd.org/en/publications/oecd-digital-education-outlook-2023_c74f03de-en/full-report/algorithmic-bias-the-state-of-the-situation-and-policy-recommendations_a0b7cec1.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/oecd-digital-education-outlook-2023_c74f03de-en/full-report/algorithmic-bias-the-state-of-the-situation-and-policy-recommendations_a0b7cec1.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Algorithmic bias: the state of the situation and policy...Dec 13, 2023 — The term algorithmic bias has been used to describe many proble...</p></details>
+   Link:<a href="https://www.oecd.org/en/publications/oecd-digital-education-outlook-2023_c74f03de-en/full-report/algorithmic-bias-the-state-of-the-situation-and-policy-recommendations_a0b7cec1.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/oecd-digital-education-outlook-2023_c74f03de-en/full-report/algorithmic-bias-the-state-of-the-situation-and-policy-recommendations_a0b7cec1.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Algorithmic bias: the state of the situation and policy...Dec 13, 2023 — The term algorithmic bias has been used to describe many proble...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: nvlpubs.nist.gov  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsFace Recognition Vendor Test (FRVT), Part 3: Demographic...by P Grother · 2019 · Cited by 93 — NIST has conducted tests...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8280.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsFace Recognition Vendor Test (FRVT), Part 3: Demographic...by P Grother · 2019 · Cited by 93 — NIST has conducted tests...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: jolt.law.harvard.edu  
    Title: why racial bias is prevalent in facial recognition technology  
-   Link: <a href="https://jolt.law.harvard.edu/digest/why-racial-bias-is-prevalent-in-facial-recognition-technology" target="_blank" rel="noopener noreferrer nofollow">https://jolt.law.harvard.edu/digest/why-racial-bias-is-prevalent-in-facial-recognition-technology</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard Journal of Law &amp; TechnologyWhy Racial Bias is Prevalent in Facial Recognition...Nov 3, 2020 — Many of these algorithms were foun...</p></details>
+   Link:<a href="https://jolt.law.harvard.edu/digest/why-racial-bias-is-prevalent-in-facial-recognition-technology" target="_blank" rel="noopener noreferrer nofollow">https://jolt.law.harvard.edu/digest/why-racial-bias-is-prevalent-in-facial-recognition-technology</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard Journal of Law &amp; TechnologyWhy Racial Bias is Prevalent in Facial Recognition...Nov 3, 2020 — Many of these algorithms were foun...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/catalogue/metrics/equal-outcomes" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/metrics/equal-outcomes</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Equal outcomesThis metric addresses Fairness and Human Agency... demographic parity or equalized odds and is used to detect and mitigate...</p></details>
+   Link:<a href="https://oecd.ai/en/catalogue/metrics/equal-outcomes" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/metrics/equal-outcomes</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Equal outcomesThis metric addresses Fairness and Human Agency... demographic parity or equalized odds and is used to detect and mitigate...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: scrut.io  
-   Link: <a href="https://www.scrut.io/glossary/fairness-and-bias-nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.scrut.io/glossary/fairness-and-bias-nist-ai-rmf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>lgorithmic checks...</p></details>
+   Link:<a href="https://www.scrut.io/glossary/fairness-and-bias-nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.scrut.io/glossary/fairness-and-bias-nist-ai-rmf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>lgorithmic checks...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: ieiespc.org  
-   Link: <a href="https://ieiespc.org/ieiespc/XmlViewer/f437628" target="_blank" rel="noopener noreferrer nofollow">https://ieiespc.org/ieiespc/XmlViewer/f437628</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>aphic parity and equalized odds. is a meta-algorithm that modifies the...Read more...</p></details>
+   Link:<a href="https://ieiespc.org/ieiespc/XmlViewer/f437628" target="_blank" rel="noopener noreferrer nofollow">https://ieiespc.org/ieiespc/XmlViewer/f437628</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>aphic parity and equalized odds. is a meta-algorithm that modifies the...Read more...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2403.16101v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2403.16101v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating Fairness Metrics Across Borders from Human...Mar 24, 2024 — We use four fairness metrics; quantitative parity demographi...</p></details>
+   Link:<a href="https://arxiv.org/html/2403.16101v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2403.16101v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating Fairness Metrics Across Borders from Human...Mar 24, 2024 — We use four fairness metrics; quantitative parity demographi...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12823528/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12823528/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Bias in AI systems: integrating formal and socio-technical...by A Ahmad · 2026 — The technical fairness literature proposes various m...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12823528/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12823528/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Bias in AI systems: integrating formal and socio-technical...by A Ahmad · 2026 — The technical fairness literature proposes various m...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-principles.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI principlesThe OECD AI Principles promote use of AI that is innovative and trustworthy and that respects human rights and democrati...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-principles.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI principlesThe OECD AI Principles promote use of AI that is innovative and trustworthy and that respects human rights and democrati...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: legalinstruments.oecd.org  
-   Link: <a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>OECD Legal InstrumentsRecommendation of the Council on Artificial IntelligenceOECD.AI is an inclusive hub for public policy on AI that ai...</p></details>
+   Link:<a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OECD Legal InstrumentsRecommendation of the Council on Artificial IntelligenceOECD.AI is an inclusive hub for public policy on AI that ai...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/catalogue/metrics/safe-sustainable%2C-accurate%2C-fair-and-explainable" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/metrics/safe-sustainable%2C-accurate%2C-fair-and-explainable</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>SAFE (Sustainable, Accurate, Fair and Explainable)These tools and metrics are designed to help AI actors develop and use trustworthy AI s...</p></details>
+   Link:<a href="https://oecd.ai/en/catalogue/metrics/safe-sustainable%2C-accurate%2C-fair-and-explainable" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/metrics/safe-sustainable%2C-accurate%2C-fair-and-explainable</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SAFE (Sustainable, Accurate, Fair and Explainable)These tools and metrics are designed to help AI actors develop and use trustworthy AI s...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/algorithmic-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/algorithmic-bias</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>tory outcomes...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/algorithmic-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/algorithmic-bias</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>tory outcomes...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/ai-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-bias</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>istorted and potentially harmful outputs...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/ai-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-bias</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>istorted and potentially harmful outputs...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/video/bias-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/video/bias-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>bias can be purposeful...</p></details>
+   Link:<a href="https://www.nist.gov/video/bias-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/video/bias-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>bias can be purposeful...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: nvlpubs.nist.gov  
    Title: AI.600 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 115 — Review, document, and measure sources of bias in GAI training and T...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 115 — Review, document, and measure sources of bias in GAI training and T...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: pages.nist.gov  
    Title: frvt demographics  
-   Link: <a href="https://pages.nist.gov/frvt/html/frvt_demographics.html" target="_blank" rel="noopener noreferrer nofollow">https://pages.nist.gov/frvt/html/frvt_demographics.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Effects in Face Recognition - NIST PagesThis page summarizes and links to all FRTE data and reports related to demographic effects in fac...</p></details>
+   Link:<a href="https://pages.nist.gov/frvt/html/frvt_demographics.html" target="_blank" rel="noopener noreferrer nofollow">https://pages.nist.gov/frvt/html/frvt_demographics.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Effects in Face Recognition - NIST PagesThis page summarizes and links to all FRTE data and reports related to demographic effects in fac...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/06/artificial-intelligence-in-society_c0054fa1/eedfee77-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/06/artificial-intelligence-in-society_c0054fa1/eedfee77-en.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>irness represents the notion of equality before the law.Read more...</p></details>
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/06/artificial-intelligence-in-society_c0054fa1/eedfee77-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/06/artificial-intelligence-in-society_c0054fa1/eedfee77-en.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>irness represents the notion of equality before the law.Read more...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/catalogue/tools?page=1&amp;terms=bias" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/tools?page=1&amp;terms=bias</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ctive(s). FairnessData Governance &amp;...Read more...</p></details>
+   Link:<a href="https://oecd.ai/en/catalogue/tools?page=1&amp;terms=bias" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/tools?page=1&amp;terms=bias</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ctive(s). FairnessData Governance &amp;...Read more...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/catalogue/metrics/equal-performance" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/metrics/equal-performance</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Equal performanceFairness: Equal performance directly measures parity in outcomes (or error rates/performance metrics) across defined gro...</p></details>
+   Link:<a href="https://oecd.ai/en/catalogue/metrics/equal-performance" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/metrics/equal-performance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Equal performanceFairness: Equal performance directly measures parity in outcomes (or error rates/performance metrics) across defined gro...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: scientificamerican.com  
    Title: how nist tested facial recognition algorithms for racial bias  
-   Link: <a href="https://www.scientificamerican.com/article/how-nist-tested-facial-recognition-algorithms-for-racial-bias/" target="_blank" rel="noopener noreferrer nofollow">https://www.scientificamerican.com/article/how-nist-tested-facial-recognition-algorithms-for-racial-bias/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Scientific AmericanHow NIST Tested Facial-Recognition Algorithms for Racial...Dec 27, 2019 — NIST&#x27;s tests revealed that many of these al...</p></details>
+   Link:<a href="https://www.scientificamerican.com/article/how-nist-tested-facial-recognition-algorithms-for-racial-bias/" target="_blank" rel="noopener noreferrer nofollow">https://www.scientificamerican.com/article/how-nist-tested-facial-recognition-algorithms-for-racial-bias/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Scientific AmericanHow NIST Tested Facial-Recognition Algorithms for Racial...Dec 27, 2019 — NIST&#x27;s tests revealed that many of these al...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8475322/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8475322/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Face Recognition Technology Used by Governmentby M Gentzel · 2021 · Cited by 61 — This paper presents a novel philosophical analysis of t...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8475322/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8475322/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Face Recognition Technology Used by Governmentby M Gentzel · 2021 · Cited by 61 — This paper presents a novel philosophical analysis of t...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7879975/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC7879975/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>comparison across face recognition algorithms - PMCby JG Cavazos · 2020 · Cited by 304 — We conclude that race bias needs to be measured...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7879975/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC7879975/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>comparison across face recognition algorithms - PMCby JG Cavazos · 2020 · Cited by 304 — We conclude that race bias needs to be measured...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: geeksforgeeks.org  
    Title: Fairness Metrics  
-   Link: <a href="https://www.geeksforgeeks.org/artificial-intelligence/fairness-metrics-demographic-parity-equalized-odds/" target="_blank" rel="noopener noreferrer nofollow">https://www.geeksforgeeks.org/artificial-intelligence/fairness-metrics-demographic-parity-equalized-odds/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Demographic Parity, Equalized OddsJul 23, 2025 — Fairness metrics like Demographic Parity and Equalized Odds help check if an AI system t...</p></details>
+   Link:<a href="https://www.geeksforgeeks.org/artificial-intelligence/fairness-metrics-demographic-parity-equalized-odds/" target="_blank" rel="noopener noreferrer nofollow">https://www.geeksforgeeks.org/artificial-intelligence/fairness-metrics-demographic-parity-equalized-odds/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Demographic Parity, Equalized OddsJul 23, 2025 — Fairness metrics like Demographic Parity and Equalized Odds help check if an AI system t...</p></details>
 
 ### Additional References
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/fairness-ai-intent-impact-perspective-igor-perisic" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/fairness-ai-intent-impact-perspective-igor-perisic</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Fairness in AI: An Intent and Impact PerspectiveFor example, you can&#x27;t always be “fair” according to both Equalized Odds and Predictive R...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/fairness-ai-intent-impact-perspective-igor-perisic" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/fairness-ai-intent-impact-perspective-igor-perisic</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fairness in AI: An Intent and Impact PerspectiveFor example, you can&#x27;t always be “fair” according to both Equalized Odds and Predictive R...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: cogentinfo.com  
-   Link: <a href="https://cogentinfo.com/resources/addressing-gender-bias-in-facial-recognition-technology-an-urgent-need-for-fairness-and-inclusion" target="_blank" rel="noopener noreferrer nofollow">https://cogentinfo.com/resources/addressing-gender-bias-in-facial-recognition-technology-an-urgent-need-for-fairness-and-inclusion</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Addressing Gender Bias in Facial Recognition TechnologyApr 14, 2025 — The NIST report (2019) noted that most commercial facial recognitio...</p></details>
+   Link:<a href="https://cogentinfo.com/resources/addressing-gender-bias-in-facial-recognition-technology-an-urgent-need-for-fairness-and-inclusion" target="_blank" rel="noopener noreferrer nofollow">https://cogentinfo.com/resources/addressing-gender-bias-in-facial-recognition-technology-an-urgent-need-for-fairness-and-inclusion</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Addressing Gender Bias in Facial Recognition TechnologyApr 14, 2025 — The NIST report (2019) noted that most commercial facial recognitio...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: eng.kwdi.re.kr  
-   Link: <a href="https://eng.kwdi.re.kr/publications/researchReportDetail.do?idx=104361&amp;p=2" target="_blank" rel="noopener noreferrer nofollow">https://eng.kwdi.re.kr/publications/researchReportDetail.do?idx=104361&amp;p=2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Bias in the Use of Artificial Intelligence Deep...In these cases, artificial intelligence working through algorithms brought consequence...</p></details>
+   Link:<a href="https://eng.kwdi.re.kr/publications/researchReportDetail.do?idx=104361&amp;p=2" target="_blank" rel="noopener noreferrer nofollow">https://eng.kwdi.re.kr/publications/researchReportDetail.do?idx=104361&amp;p=2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Bias in the Use of Artificial Intelligence Deep...In these cases, artificial intelligence working through algorithms brought consequence...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: advancingjustice-aajc.org  
-   Link: <a href="https://www.advancingjustice-aajc.org/sites/default/files/2020-02/Algorithmic%20Bias%20Backgrounder_0.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.advancingjustice-aajc.org/sites/default/files/2020-02/Algorithmic%20Bias%20Backgrounder_0.pdf</a>  
+   Link:<a href="https://www.advancingjustice-aajc.org/sites/default/files/2020-02/Algorithmic%20Bias%20Backgrounder_0.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.advancingjustice-aajc.org/sites/default/files/2020-02/Algorithmic%20Bias%20Backgrounder_0.pdf</a>  
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: ansi.org  
-   Link: <a href="https://www.ansi.org/standards-news/all-news/3-21-22-theres-more-to-ai-bias-than-biased-data-nist-report-finds" target="_blank" rel="noopener noreferrer nofollow">https://www.ansi.org/standards-news/all-news/3-21-22-theres-more-to-ai-bias-than-biased-data-nist-report-finds</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>3/21/2022. Join NIST&#x27;s March Workshop on AI Bias. As part of an ongoing effort to support the...Read more...</p></details>
+   Link:<a href="https://www.ansi.org/standards-news/all-news/3-21-22-theres-more-to-ai-bias-than-biased-data-nist-report-finds" target="_blank" rel="noopener noreferrer nofollow">https://www.ansi.org/standards-news/all-news/3-21-22-theres-more-to-ai-bias-than-biased-data-nist-report-finds</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>3/21/2022. Join NIST&#x27;s March Workshop on AI Bias. As part of an ongoing effort to support the...Read more...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: facialsuite.com  
-   Link: <a href="https://facialsuite.com/" target="_blank" rel="noopener noreferrer nofollow">https://facialsuite.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Explore personalized facials, skin rejuvenation, aesthetic treatments, wellness services, and advanced...</p></details>
+   Link:<a href="https://facialsuite.com/" target="_blank" rel="noopener noreferrer nofollow">https://facialsuite.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Explore personalized facials, skin rejuvenation, aesthetic treatments, wellness services, and advanced...</p></details>
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: hyperproof.io  
-   Link: <a href="https://hyperproof.io/navigating-the-nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://hyperproof.io/navigating-the-nist-ai-risk-management-framework/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Navigating the NIST AI Risk Management FrameworkIn this guide, we will provide a comprehensive overview of AI risk, the challenges you mi...</p></details>
+   Link:<a href="https://hyperproof.io/navigating-the-nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://hyperproof.io/navigating-the-nist-ai-risk-management-framework/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Navigating the NIST AI Risk Management FrameworkIn this guide, we will provide a comprehensive overview of AI risk, the challenges you mi...</p></details>
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: ama.drwhy.ai  
-   Link: <a href="https://ama.drwhy.ai/nist-ai-risk-management-framework-ai-rmf.html" target="_blank" rel="noopener noreferrer nofollow">https://ama.drwhy.ai/nist-ai-risk-management-framework-ai-rmf.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST has identified three major categories of AI bias to be considered and managed...Read more...</p></details>
+   Link:<a href="https://ama.drwhy.ai/nist-ai-risk-management-framework-ai-rmf.html" target="_blank" rel="noopener noreferrer nofollow">https://ama.drwhy.ai/nist-ai-risk-management-framework-ai-rmf.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST has identified three major categories of AI bias to be considered and managed...Read more...</p></details>
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: wired.com  
    Title: best algorithms struggle recognize black faces equally  
-   Link: <a href="https://www.wired.com/story/best-algorithms-struggle-recognize-black-faces-equally/" target="_blank" rel="noopener noreferrer nofollow">https://www.wired.com/story/best-algorithms-struggle-recognize-black-faces-equally/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Best Algorithms Still Struggle to Recognize Black FacesJul 22, 2019 — US government tests find even top-performing facial recognition...</p></details>
+   Link:<a href="https://www.wired.com/story/best-algorithms-struggle-recognize-black-faces-equally/" target="_blank" rel="noopener noreferrer nofollow">https://www.wired.com/story/best-algorithms-struggle-recognize-black-faces-equally/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Best Algorithms Still Struggle to Recognize Black FacesJul 22, 2019 — US government tests find even top-performing facial recognition...</p></details>
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/384496830_UNESCO%27s_AI_Ethics_Principles_Challenges_and_Opportunities" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/384496830_UNESCO%27s_AI_Ethics_Principles_Challenges_and_Opportunities</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ce, which outlines key principles for ensuring [responsible AI](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) development.Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/384496830_UNESCO%27s_AI_Ethics_Principles_Challenges_and_Opportunities" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/384496830_UNESCO%27s_AI_Ethics_Principles_Challenges_and_Opportunities</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ce, which outlines key principles for ensuring [responsible AI](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) development.Read more...</p></details>

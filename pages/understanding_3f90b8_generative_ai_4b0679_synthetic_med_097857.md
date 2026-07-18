@@ -290,11 +290,11 @@ Modern image-generation systems are trained on vast collections of images and as
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_synthetic_med_097857-Illustration-1-dark.svg" | relative_url }}" alt="Synthetic Media illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_synthetic_med_097857-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_synthetic_med_097857-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-The realism of these systems has improved rapidly. Earlier generations often produced distorted faces, unnatural hands, or obvious visual artefacts. Newer systems generate lighting, textures, reflections, camera angles, and facial details that can appear convincing at a glance. For many everyday viewers, identifying synthetic content through visual inspection alone has become increasingly unreliable. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.100 4</span><span class="citation-popover-snippet">NIST PublicationsReducing Risks Posed by Synthetic Contentby N AI · 2024 · Cited by 4 — Synthetic content detection may detect the existe...</span></span></span>
+The realism of these systems has improved rapidly. Earlier generations often produced distorted faces, unnatural hands, or obvious visual artefacts. Newer systems generate lighting, textures, reflections, camera angles, and facial details that can appear convincing at a glance. For many everyday viewers, identifying synthetic content through visual inspection alone has become increasingly unreliable.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.100 4</span><span class="citation-popover-snippet">NIST PublicationsReducing Risks Posed by Synthetic Contentby N AI · 2024 · Cited by 4 — Synthetic content detection may detect the existe...</span></span></span>
 
 This matters because photographs have long occupied a special place in public [understanding]({{ 'understanding/' | relative_url }}). Images are often treated as direct records of reality rather than interpretations of it. When synthetic systems can produce a seemingly authentic image of an event that never happened, the evidential value of visual media becomes less certain. The result is not only a risk of false information spreading, but also a broader erosion of trust in genuine evidence.
 
-A related concern is the so-called “liar’s dividend”. As synthetic media become more common, individuals confronted with authentic photographs or videos may claim that genuine evidence is AI-generated. In this way, the existence of deepfakes can undermine [confidence]({{ 'confidence/' | relative_url }}) in both fake and real material. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.unesco.org/en/articles/deepfakes-and-crisis-knowing" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: unesco.org">[UNESCO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">unesco.org</span><span class="citation-popover-title">deepfakes and crisis knowing</span><span class="citation-popover-snippet">Deepfakes and the crisis of knowing27 Oct 2025 — As deepfakes blur reality, education must go beyond detection, teaching students t...</span></span></span>
+A related concern is the so-called “liar’s dividend”. As synthetic media become more common, individuals confronted with authentic photographs or videos may claim that genuine evidence is AI-generated. In this way, the existence of deepfakes can undermine [confidence]({{ 'confidence/' | relative_url }}) in both fake and real material.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.unesco.org/en/articles/deepfakes-and-crisis-knowing" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: unesco.org">[UNESCO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">unesco.org</span><span class="citation-popover-title">deepfakes and crisis knowing</span><span class="citation-popover-snippet">Deepfakes and the crisis of knowing27 Oct 2025 — As deepfakes blur reality, education must go beyond detection, teaching students t...</span></span></span>
 
 ## How Video Generation Raises the Stakes
 
@@ -302,9 +302,9 @@ Still images can mislead, but realistic video often carries greater persuasive p
 
 The resulting “deepfakes” are not always malicious. Film [production]({{ 'retrieval-failures/' | relative_url }}), accessibility tools, education, and creative media all benefit from synthetic video techniques. Yet the same capabilities can be used to create fabricated interviews, false confessions, misleading campaign content, or impersonations of public figures.
 
-Researchers and policymakers have become particularly concerned about elections and [political]({{ 'political-video/' | relative_url }}) communication because visual misinformation can spread quickly through social platforms. Studies and incident databases tracking political deepfakes show that synthetic media has become a recurring feature of online political discourse, even if its measurable influence remains difficult to quantify. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.15319" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Merging AI Incidents Research with Political Misinformation Research: Introducing the Political Deepfakes Incidents DatabaseSeptembe...</span></span></span>
+Researchers and policymakers have become particularly concerned about elections and [political]({{ 'political-video/' | relative_url }}) communication because visual misinformation can spread quickly through social platforms. Studies and incident databases tracking political deepfakes show that synthetic media has become a recurring feature of online political discourse, even if its measurable influence remains difficult to quantify.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.15319" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Merging AI Incidents Research with Political Misinformation Research: Introducing the Political Deepfakes Incidents DatabaseSeptembe...</span></span></span>
 
-Recent reporting has also documented how increasingly capable AI tools have lowered the barrier to producing convincing political deepfakes and other synthetic campaign material. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.wsj.com/politics/elections/ai-deepfakes-are-getting-weirder-and-harder-to-spot-in-the-midterms-88b4f7ad" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: wsj.com">[The Wall Street Journal]</a><span class="citation-popover" role="note"><span class="citation-popover-source">wsj.com</span><span class="citation-popover-title">ai deepfakes are getting weirder and harder to spot in the midterms 88b4f7ad</span><span class="citation-popover-snippet">midterm elections approach, the use of artificial intelligence (AI) in political campaigns has surged, leading to a proliferation of AI-g...</span></span></span>
+Recent reporting has also documented how increasingly capable AI tools have lowered the barrier to producing convincing political deepfakes and other synthetic campaign material.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.wsj.com/politics/elections/ai-deepfakes-are-getting-weirder-and-harder-to-spot-in-the-midterms-88b4f7ad" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: wsj.com">[The Wall Street Journal]</a><span class="citation-popover" role="note"><span class="citation-popover-source">wsj.com</span><span class="citation-popover-title">ai deepfakes are getting weirder and harder to spot in the midterms 88b4f7ad</span><span class="citation-popover-snippet">midterm elections approach, the use of artificial intelligence (AI) in political campaigns has surged, leading to a proliferation of AI-g...</span></span></span>
 
 ## Inpainting, Variations, and Video Generation Workflows
 
@@ -335,11 +335,11 @@ The information-integrity issue is therefore not limited to completely fabricate
 
 A common assumption is that deepfake detectors will solve the problem. In practice, detection is far more complicated.
 
-Detection systems typically look for statistical patterns, inconsistencies, artefacts, or traces left by generation models. However, generation methods improve continuously, creating an ongoing competition between creators and detectors. A detector that performs well today may become less effective against future models. NIST has highlighted both the potential and the limitations of synthetic-content detection technologies, noting that detection is only one part of a broader risk-management approach. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.100 4</span><span class="citation-popover-snippet">NIST PublicationsReducing Risks Posed by Synthetic Contentby N AI · 2024 · Cited by 4 — Synthetic content detection may detect the existe...</span></span></span>
+Detection systems typically look for statistical patterns, inconsistencies, artefacts, or traces left by generation models. However, generation methods improve continuously, creating an ongoing competition between creators and detectors. A detector that performs well today may become less effective against future models. NIST has highlighted both the potential and the limitations of synthetic-content detection technologies, noting that detection is only one part of a broader risk-management approach.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.100 4</span><span class="citation-popover-snippet">NIST PublicationsReducing Risks Posed by Synthetic Contentby N AI · 2024 · Cited by 4 — Synthetic content detection may detect the existe...</span></span></span>
 
 Another challenge is scale. Billions of images and videos circulate online, making comprehensive [verification]({{ 'verification-cost/' | relative_url }}) difficult. Even highly accurate systems can generate [false positives]({{ 'false-positives/' | relative_url }}) or false negatives when applied at internet scale.
 
-Human judgement also has limits. Research on deepfake recognition consistently shows that people often struggle to distinguish synthetic from authentic content. At the same time, educational interventions and digital-literacy training can improve performance, suggesting that public awareness remains an important part of the response. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.23492" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Digital literacy interventions can boost humans in discerning deepfakes</span><span class="citation-popover-snippet">Digital literacy interventions can boost humans in discerning deepfakesJuly 31, 2025...</span><span class="citation-popover-meta">Published: July 31, 2025</span></span></span>
+Human judgement also has limits. Research on deepfake recognition consistently shows that people often struggle to distinguish synthetic from authentic content. At the same time, educational interventions and digital-literacy training can improve performance, suggesting that public awareness remains an important part of the response.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2507.23492" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Digital literacy interventions can boost humans in discerning deepfakes</span><span class="citation-popover-snippet">Digital literacy interventions can boost humans in discerning deepfakesJuly 31, 2025...</span><span class="citation-popover-meta">Published: July 31, 2025</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_synthetic_med_097857-Illustration-3-dark.svg" | relative_url }}" alt="Synthetic Media illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_synthetic_med_097857-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_synthetic_med_097857-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -347,9 +347,9 @@ Human judgement also has limits. Research on deepfake recognition consistently s
 
 Because perfect detection is unlikely, many organisations are increasingly focusing on [provenance]({{ 'provenance/' | relative_url }}): documenting where content came from and how it was created.
 
-The Coalition for Content Provenance and Authenticity (C2PA) has developed technical standards designed to record information about a piece of media's origin and editing history. These systems, often presented to users as “Content Credentials”, aim to provide a verifiable record showing whether AI tools were involved in creation or modification. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://c2pa.org/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: c2pa.org">[C2PA+2Content Credentials]</a><span class="citation-popover" role="note"><span class="citation-popover-source">c2pa.org</span><span class="citation-popover-snippet">C2PA &#124; Verifying Media Content SourcesC2PA provides an open technical standard for publishers, creators and consumers to establish th...</span></span></span>
+The Coalition for Content Provenance and Authenticity (C2PA) has developed technical standards designed to record information about a piece of media's origin and editing history. These systems, often presented to users as “Content Credentials”, aim to provide a verifiable record showing whether AI tools were involved in creation or modification.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://c2pa.org/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: c2pa.org">[C2PA+2Content Credentials]</a><span class="citation-popover" role="note"><span class="citation-popover-source">c2pa.org</span><span class="citation-popover-snippet">C2PA &#124; Verifying Media Content SourcesC2PA provides an open technical standard for publishers, creators and consumers to establish th...</span></span></span>
 
-In principle, provenance offers a different approach from detection. Instead of asking whether an image looks fake, it asks whether there is trustworthy information about how the image was produced. Cameras, editing software, and publishing platforms can attach cryptographically signed records that help establish a chain of custody for digital media. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: spec.c2pa.org">[C2PA Specification]</a><span class="citation-popover" role="note"><span class="citation-popover-source">spec.c2pa.org</span><span class="citation-popover-snippet">C2PA SpecificationContent Credentials: C2PA Technical SpecificationThis specification describes the technical aspects of the C2PA archit...</span></span></span>
+In principle, provenance offers a different approach from detection. Instead of asking whether an image looks fake, it asks whether there is trustworthy information about how the image was produced. Cameras, editing software, and publishing platforms can attach cryptographically signed records that help establish a chain of custody for digital media.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: spec.c2pa.org">[C2PA Specification]</a><span class="citation-popover" role="note"><span class="citation-popover-source">spec.c2pa.org</span><span class="citation-popover-snippet">C2PA SpecificationContent Credentials: C2PA Technical SpecificationThis specification describes the technical aspects of the C2PA archit...</span></span></span>
 
 However, provenance systems face practical challenges:
 
@@ -357,7 +357,7 @@ However, provenance systems face practical challenges:
 * Metadata can be removed during uploading or reposting.
 * Not all authentic content will carry provenance records.
 * Attackers may seek ways to bypass or undermine the system.
-* Researchers continue to debate the security and limitations of current standards. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.washingtonpost.com/technology/2025/10/22/ai-deepfake-sora-platforms-c2pa/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: washingtonpost.com">[The Washington Post+2The Verge]</a><span class="citation-popover" role="note"><span class="citation-popover-source">washingtonpost.com</span><span class="citation-popover-title">The Washington Post We uploaded a fake video to 8 social apps</span><span class="citation-popover-snippet">Only one told users it wasn&#x27;t real.October 22, 2025 — A Washington Post investigation revealed that among eight major social media platfo...</span><span class="citation-popover-meta">Published: October 22, 2025</span></span></span>
+* Researchers continue to debate the security and limitations of current standards.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.washingtonpost.com/technology/2025/10/22/ai-deepfake-sora-platforms-c2pa/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: washingtonpost.com">[The Washington Post+2The Verge]</a><span class="citation-popover" role="note"><span class="citation-popover-source">washingtonpost.com</span><span class="citation-popover-title">The Washington Post We uploaded a fake video to 8 social apps</span><span class="citation-popover-snippet">Only one told users it wasn&#x27;t real.October 22, 2025 — A Washington Post investigation revealed that among eight major social media platfo...</span><span class="citation-popover-meta">Published: October 22, 2025</span></span></span>
 
 For readers evaluating visual evidence, a more realistic approach combines several checks:
 
@@ -381,9 +381,9 @@ No single signal guarantees authenticity, but multiple independent signals can i
 
 The most significant consequence of synthetic media may not be individual fake images or videos. It may be the gradual weakening of shared assumptions about evidence itself.
 
-When realistic fabrications become common, people can become uncertain about what to trust. UNESCO has described this as part of a broader “crisis of knowing”, in which increasingly convincing synthetic media complicates how people establish what is true. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.unesco.org/en/articles/deepfakes-and-crisis-knowing" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: unesco.org">[UNESCO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">unesco.org</span><span class="citation-popover-title">deepfakes and crisis knowing</span><span class="citation-popover-snippet">Deepfakes and the crisis of knowing27 Oct 2025 — As deepfakes blur reality, education must go beyond detection, teaching students t...</span></span></span>
+When realistic fabrications become common, people can become uncertain about what to trust. UNESCO has described this as part of a broader “crisis of knowing”, in which increasingly convincing synthetic media complicates how people establish what is true.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.unesco.org/en/articles/deepfakes-and-crisis-knowing" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: unesco.org">[UNESCO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">unesco.org</span><span class="citation-popover-title">deepfakes and crisis knowing</span><span class="citation-popover-snippet">Deepfakes and the crisis of knowing27 Oct 2025 — As deepfakes blur reality, education must go beyond detection, teaching students t...</span></span></span>
 
-This does not mean photographs and videos have lost all value as evidence. Instead, visual media increasingly require supporting context, provenance, verification, and corroboration. The transition resembles earlier shifts in information systems, but with a crucial difference: AI dramatically lowers the cost of producing realistic visual content at scale. As NIST's [generative AI]({{ 'generative-ai/' | relative_url }}) guidance notes, this capability creates new risks for information integrity by making misleading content easier to generate and distribute. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2nist.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.600 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 128 — Organizational risk management efforts...</span></span></span>
+This does not mean photographs and videos have lost all value as evidence. Instead, visual media increasingly require supporting context, provenance, verification, and corroboration. The transition resembles earlier shifts in information systems, but with a crucial difference: AI dramatically lowers the cost of producing realistic visual content at scale. As NIST's [generative AI]({{ 'generative-ai/' | relative_url }}) guidance notes, this capability creates new risks for information integrity by making misleading content easier to generate and distribute.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2nist.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.600 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 128 — Organizational risk management efforts...</span></span></span>
 
 Understanding artificial intelligence therefore requires understanding not only how synthetic images and videos are created, but also how societies establish trust when seeing is no longer sufficient proof.
 
@@ -392,194 +392,194 @@ Understanding artificial intelligence therefore requires understanding not only 
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can AI Images Be Trusted?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can AI Images Be Trusted?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Helps readers understand strengths and limitations of generative AI.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps readers understand strengths and limitations of generative AI.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=A+History+of+Fake+Things+on+the+Internet+by+Walter+Scheirer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open A History of Fake Things on the Internet on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=s1kd0QEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for A History of Fake Things on the Internet" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=A+History+of+Fake+Things+on+the+Internet+by+Walter+Scheirer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="A History of Fake Things on the Internet">A History of Fake Things on the Internet</a>
-        </h4>
-        <p class="fr-book-author">By Walter Scheirer</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=A+History+of+Fake+Things+on+the+Internet+by+Walter+Scheirer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open A History of Fake Things on the Internet on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=s1kd0QEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for A History of Fake Things on the Internet" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=A+History+of+Fake+Things+on+the+Internet+by+Walter+Scheirer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="A History of Fake Things on the Internet">A History of Fake Things on the Internet</a>
+</h4>
+<p class="fr-book-author">By Walter Scheirer</p>
         
-        <p class="fr-book-desc">Covers manipulated media from early hoaxes to AI-generated content.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=A+History+of+Fake+Things+on+the+Internet+by+Walter+Scheirer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers manipulated media from early hoaxes to AI-generated content.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=A+History+of+Fake+Things+on+the+Internet+by+Walter+Scheirer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
-        </h4>
-        <p class="fr-book-author">By Mustafa Suleyman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
+</h4>
+<p class="fr-book-author">By Mustafa Suleyman</p>
         
-        <p class="fr-book-desc">Explains societal impacts of powerful generative technologies.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains societal impacts of powerful generative technologies.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deepfakes+by+Nina+Schick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deepfakes on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=QjndDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deepfakes" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deepfakes+by+Nina+Schick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deepfakes">Deepfakes</a>
-        </h4>
-        <p class="fr-book-author">By Nina Schick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deepfakes+by+Nina+Schick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deepfakes on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=QjndDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deepfakes" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deepfakes+by+Nina+Schick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deepfakes">Deepfakes</a>
+</h4>
+<p class="fr-book-author">By Nina Schick</p>
         
-        <p class="fr-book-desc">Directly addresses synthetic images, video generation, and trust.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deepfakes+by+Nina+Schick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses synthetic images, video generation, and trust.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deepfakes+by+Nina+Schick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=A+History+of+Fake+Things+on+the+Internet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">A History of Fake Things on the Internet</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Coming+Wave&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Coming Wave</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=A+History+of+Fake+Things+on+the+Internet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">A History of Fake Things on the Internet</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Coming+Wave&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Coming Wave</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio"><img src="{{ '/assets/images/marketplace-covers/263538a280c559d0187f.jpg' | relative_url }}" alt="Listing image for GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio"><img src="{{ '/assets/images/marketplace-covers/263538a280c559d0187f.jpg' | relative_url }}" alt="Listing image for GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a8b78855b29bc86d913d.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a8b78855b29bc86d913d.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4960074c91e5c071f040.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4960074c91e5c071f040.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="synthetic-media-can-ai-images-be-trusted-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -595,7 +595,7 @@ Understanding artificial intelligence therefore requires understanding not only 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -615,7 +615,7 @@ Understanding artificial intelligence therefore requires understanding not only 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -647,7 +647,7 @@ Understanding artificial intelligence therefore requires understanding not only 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -699,7 +699,7 @@ Understanding artificial intelligence therefore requires understanding not only 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -744,7 +744,7 @@ Understanding artificial intelligence therefore requires understanding not only 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -785,196 +785,196 @@ Understanding artificial intelligence therefore requires understanding not only 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: nvlpubs.nist.gov  
    Title: AI.600 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 128 — Organizational risk management efforts...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 128 — Organizational risk management efforts...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: unesco.org  
    Title: deepfakes and crisis knowing  
-   Link: <a href="https://www.unesco.org/en/articles/deepfakes-and-crisis-knowing" target="_blank" rel="noopener noreferrer nofollow">https://www.unesco.org/en/articles/deepfakes-and-crisis-knowing</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Deepfakes and the crisis of knowing27 Oct 2025 — As deepfakes blur reality, education must go beyond detection, teaching students t...</p></details>
+   Link:<a href="https://www.unesco.org/en/articles/deepfakes-and-crisis-knowing" target="_blank" rel="noopener noreferrer nofollow">https://www.unesco.org/en/articles/deepfakes-and-crisis-knowing</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deepfakes and the crisis of knowing27 Oct 2025 — As deepfakes blur reality, education must go beyond detection, teaching students t...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: nvlpubs.nist.gov  
    Title: AI.100 4  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsReducing Risks Posed by Synthetic Contentby N AI · 2024 · Cited by 4 — Synthetic content detection may detect the existe...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-4.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsReducing Risks Posed by Synthetic Contentby N AI · 2024 · Cited by 4 — Synthetic content detection may detect the existe...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2409.15319" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2409.15319</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Merging AI Incidents Research with Political Misinformation Research: Introducing the Political Deepfakes Incidents DatabaseSeptembe...</p></details>
+   Link:<a href="https://arxiv.org/abs/2409.15319" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2409.15319</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Merging AI Incidents Research with Political Misinformation Research: Introducing the Political Deepfakes Incidents DatabaseSeptembe...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2512.13915" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2512.13915</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Deepfakes in the 2025 Canadian Election: Prevalence, Partisanship, and Platform Dynamics...</p></details>
+   Link:<a href="https://arxiv.org/abs/2512.13915" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2512.13915</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deepfakes in the 2025 Canadian Election: Prevalence, Partisanship, and Platform Dynamics...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv Digital literacy interventions can boost humans in discerning deepfakes  
-   Link: <a href="https://arxiv.org/abs/2507.23492" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2507.23492</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Digital literacy interventions can boost humans in discerning deepfakesJuly 31, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2507.23492" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2507.23492</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Digital literacy interventions can boost humans in discerning deepfakesJuly 31, 2025...</p></details>
    Published: July 31, 2025  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: c2pa.org  
-   Link: <a href="https://c2pa.org/" target="_blank" rel="noopener noreferrer nofollow">https://c2pa.org/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>C2PA | Verifying Media Content SourcesC2PA provides an open technical standard for publishers, creators and consumers to establish th...</p></details>
+   Link:<a href="https://c2pa.org/" target="_blank" rel="noopener noreferrer nofollow">https://c2pa.org/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>C2PA | Verifying Media Content SourcesC2PA provides an open technical standard for publishers, creators and consumers to establish th...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: spec.c2pa.org  
-   Link: <a href="https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html" target="_blank" rel="noopener noreferrer nofollow">https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>C2PA SpecificationContent Credentials: C2PA Technical SpecificationThis specification describes the technical aspects of the C2PA archit...</p></details>
+   Link:<a href="https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html" target="_blank" rel="noopener noreferrer nofollow">https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>C2PA SpecificationContent Credentials: C2PA Technical SpecificationThis specification describes the technical aspects of the C2PA archit...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2604.24890" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2604.24890</a>  
+   Link:<a href="https://arxiv.org/abs/2604.24890" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2604.24890</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: nist.gov  
    Title: A I Risk Management Framework | NISTOn  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTOn July 26, 2024, NIST released NIST-AI-600-1, Artificial Intelligence Risk Management Framework: Gene...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTOn July 26, 2024, NIST released NIST-AI-600-1, Artificial Intelligence Risk Management Framework: Gene...</p></details>
    Published: July 26, 2024  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Frameworkby C Autio · 2024 · Cited by 128 — This document is a cross-sectoral profile of and comp...</p></details>
+   Link:<a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Frameworkby C Autio · 2024 · Cited by 128 — This document is a cross-sectoral profile of and comp...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: airc.nist.gov  
    Title: technical reports  
-   Link: <a href="https://airc.nist.gov/technical-reports/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/technical-reports/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Reports - AIRC - NIST AI Resource CenterNIST AI 100-4 lays out methods for detecting, authenticating and labeling synthetic content, incl...</p></details>
+   Link:<a href="https://airc.nist.gov/technical-reports/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/technical-reports/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Reports - AIRC - NIST AI Resource CenterNIST AI 100-4 lays out methods for detecting, authenticating and labeling synthetic content, incl...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: unesco.de  
-   Link: <a href="https://www.unesco.de/" target="_blank" rel="noopener noreferrer nofollow">https://www.unesco.de/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Deutsche UNESCO-KommissionDie Deutsche UNESCO-Kommission ist Deutschlands multilaterale Mittlerorganisation für Bildung, Wissenschaft, Ku...</p></details>
+   Link:<a href="https://www.unesco.de/" target="_blank" rel="noopener noreferrer nofollow">https://www.unesco.de/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deutsche UNESCO-KommissionDie Deutsche UNESCO-Kommission ist Deutschlands multilaterale Mittlerorganisation für Bildung, Wissenschaft, Ku...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: unesco.org  
-   Link: <a href="https://www.unesco.org/en/internet-trust/guidelines" target="_blank" rel="noopener noreferrer nofollow">https://www.unesco.org/en/internet-trust/guidelines</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Guidelines for the Governance of Digital PlatformsInternet Trust Guidelines provide... misinformation, disinformation, ideological polar...</p></details>
+   Link:<a href="https://www.unesco.org/en/internet-trust/guidelines" target="_blank" rel="noopener noreferrer nofollow">https://www.unesco.org/en/internet-trust/guidelines</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Guidelines for the Governance of Digital PlatformsInternet Trust Guidelines provide... misinformation, disinformation, ideological polar...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: spec.c2pa.org  
-   Link: <a href="https://spec.c2pa.org/specifications/specifications/2.4/index.html" target="_blank" rel="noopener noreferrer nofollow">https://spec.c2pa.org/specifications/specifications/2.4/index.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>c2pa.orgC2PA Specifications:: C2PA SpecificationsThis site contains the various specifications and informative documents produced by the...</p></details>
+   Link:<a href="https://spec.c2pa.org/specifications/specifications/2.4/index.html" target="_blank" rel="noopener noreferrer nofollow">https://spec.c2pa.org/specifications/specifications/2.4/index.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>c2pa.orgC2PA Specifications:: C2PA SpecificationsThis site contains the various specifications and informative documents produced by the...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: spec.c2pa.org  
-   Link: <a href="https://spec.c2pa.org/specifications/specifications/1.4/explainer/Explainer.html" target="_blank" rel="noopener noreferrer nofollow">https://spec.c2pa.org/specifications/specifications/1.4/explainer/Explainer.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>c2pa.orgC2PA ExplainerContent Credentials becomes useful to consumers of assets when they can use the information contained in the C2PA M...</p></details>
+   Link:<a href="https://spec.c2pa.org/specifications/specifications/1.4/explainer/Explainer.html" target="_blank" rel="noopener noreferrer nofollow">https://spec.c2pa.org/specifications/specifications/1.4/explainer/Explainer.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>c2pa.orgC2PA ExplainerContent Credentials becomes useful to consumers of assets when they can use the information contained in the C2PA M...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: gov.br  
-   Link: <a href="https://www.gov.br/g20/en/news/unesco-offers-recommendations-for-regulation-and-national-policies-on-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.br/g20/en/news/unesco-offers-recommendations-for-regulation-and-national-policies-on-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>offers recommendations for regulation and national...This initiative addresses problems such as the spread of disinformation and so-call...</p></details>
+   Link:<a href="https://www.gov.br/g20/en/news/unesco-offers-recommendations-for-regulation-and-national-policies-on-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.br/g20/en/news/unesco-offers-recommendations-for-regulation-and-national-policies-on-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>offers recommendations for regulation and national...This initiative addresses problems such as the spread of disinformation and so-call...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2604.24890v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2604.24890v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These credentials can describe: who or what created the content (e.g., a camera or...Read more...</p></details>
+   Link:<a href="https://arxiv.org/html/2604.24890v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2604.24890v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These credentials can describe: who or what created the content (e.g., a camera or...Read more...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2506.23949" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2506.23949</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk-Management Standards Profile for General-...by AM Barrett · 2025 · Cited by 10 — Develop and implement testing techniques to ide...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2506.23949" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2506.23949</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk-Management Standards Profile for General-...by AM Barrett · 2025 · Cited by 10 — Develop and implement testing techniques to ide...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: wsj.com  
    Title: ai deepfakes are getting weirder and harder to spot in the midterms 88b4f7ad  
-   Link: <a href="https://www.wsj.com/politics/elections/ai-deepfakes-are-getting-weirder-and-harder-to-spot-in-the-midterms-88b4f7ad" target="_blank" rel="noopener noreferrer nofollow">https://www.wsj.com/politics/elections/ai-deepfakes-are-getting-weirder-and-harder-to-spot-in-the-midterms-88b4f7ad</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>midterm elections approach, the use of artificial intelligence (AI) in political campaigns has surged, leading to a proliferation of AI-g...</p></details>
+   Link:<a href="https://www.wsj.com/politics/elections/ai-deepfakes-are-getting-weirder-and-harder-to-spot-in-the-midterms-88b4f7ad" target="_blank" rel="noopener noreferrer nofollow">https://www.wsj.com/politics/elections/ai-deepfakes-are-getting-weirder-and-harder-to-spot-in-the-midterms-88b4f7ad</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>midterm elections approach, the use of artificial intelligence (AI) in political campaigns has surged, leading to a proliferation of AI-g...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: contentcredentials.org  
-   Link: <a href="https://contentcredentials.org/" target="_blank" rel="noopener noreferrer nofollow">https://contentcredentials.org/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Content Provenance and Authenticity​ (​C2PA​)​. 500+ Companies.Read more...</p></details>
+   Link:<a href="https://contentcredentials.org/" target="_blank" rel="noopener noreferrer nofollow">https://contentcredentials.org/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Content Provenance and Authenticity​ (​C2PA​)​. 500+ Companies.Read more...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: washingtonpost.com  
    Title: The Washington Post We uploaded a fake video to 8 social apps  
-   Link: <a href="https://www.washingtonpost.com/technology/2025/10/22/ai-deepfake-sora-platforms-c2pa/" target="_blank" rel="noopener noreferrer nofollow">https://www.washingtonpost.com/technology/2025/10/22/ai-deepfake-sora-platforms-c2pa/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Only one told users it wasn&#x27;t real.October 22, 2025 — A Washington Post investigation revealed that among eight major social media platfo...</p></details>
+   Link:<a href="https://www.washingtonpost.com/technology/2025/10/22/ai-deepfake-sora-platforms-c2pa/" target="_blank" rel="noopener noreferrer nofollow">https://www.washingtonpost.com/technology/2025/10/22/ai-deepfake-sora-platforms-c2pa/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Only one told users it wasn&#x27;t real.October 22, 2025 — A Washington Post investigation revealed that among eight major social media platfo...</p></details>
    Published: October 22, 2025  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: theverge.com  
-   Link: <a href="https://www.theverge.com/report/806359/openai-sora-deepfake-detection-c2pa-content-credentials" target="_blank" rel="noopener noreferrer nofollow">https://www.theverge.com/report/806359/openai-sora-deepfake-detection-c2pa-content-credentials</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Although these videos are embedded with metadata from the C2PA (Coalition for Content Provenance and Authenticity), the system is failing...</p></details>
+   Link:<a href="https://www.theverge.com/report/806359/openai-sora-deepfake-detection-c2pa-content-credentials" target="_blank" rel="noopener noreferrer nofollow">https://www.theverge.com/report/806359/openai-sora-deepfake-detection-c2pa-content-credentials</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Although these videos are embedded with metadata from the C2PA (Coalition for Content Provenance and Authenticity), the system is failing...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: contentcredentials.org  
-   Link: <a href="https://contentcredentials.org/news/" target="_blank" rel="noopener noreferrer nofollow">https://contentcredentials.org/news/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>News – Content CredentialsNews and updates on Content Credentials. Explore the latest on Content Credentials and how they&#x27;re quickly beco...</p></details>
+   Link:<a href="https://contentcredentials.org/news/" target="_blank" rel="noopener noreferrer nofollow">https://contentcredentials.org/news/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>News – Content CredentialsNews and updates on Content Credentials. Explore the latest on Content Credentials and how they&#x27;re quickly beco...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/help/linkedin/answer/a6282984" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/help/linkedin/answer/a6282984</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Content credentials | LinkedIn HelpContent Provenance and Authenticity (C2PA) is a standards body that aims to develop technical standard...</p></details>
+   Link:<a href="https://www.linkedin.com/help/linkedin/answer/a6282984" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/help/linkedin/answer/a6282984</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Content credentials | LinkedIn HelpContent Provenance and Authenticity (C2PA) is a standards body that aims to develop technical standard...</p></details>
 
 ### Additional References
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/nasifay-girma-65632b1b9_mediaandinformationliteracy-unesco-mil-activity-7419589603835179008-C5gJ" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/nasifay-girma-65632b1b9_mediaandinformationliteracy-unesco-mil-activity-7419589603835179008-C5gJ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-generated content threatens trust in online informationCan you still trust what you see online AI-generated images and videos are chan...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/nasifay-girma-65632b1b9_mediaandinformationliteracy-unesco-mil-activity-7419589603835179008-C5gJ" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/nasifay-girma-65632b1b9_mediaandinformationliteracy-unesco-mil-activity-7419589603835179008-C5gJ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-generated content threatens trust in online informationCan you still trust what you see online AI-generated images and videos are chan...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: contentauthenticity.org  
-   Link: <a href="https://contentauthenticity.org/" target="_blank" rel="noopener noreferrer nofollow">https://contentauthenticity.org/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Content Authenticity InitiativeJoin the movement for content authenticity and provenance. The CAI is a global community promoting adoptio...</p></details>
+   Link:<a href="https://contentauthenticity.org/" target="_blank" rel="noopener noreferrer nofollow">https://contentauthenticity.org/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Content Authenticity InitiativeJoin the movement for content authenticity and provenance. The CAI is a global community promoting adoptio...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/ma-aly-hazzaz-91033ba_fake-ai-deepfakes-activity-7446041841197592576-EwPf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/ma-aly-hazzaz-91033ba_fake-ai-deepfakes-activity-7446041841197592576-EwPf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Ma&#x27;aly Hazzaz&#x27;s PostFake news doesn&#x27;t look fake. It looks real. It feels real. That&#x27;s why it works. In a world shaped by AI-generated con...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/ma-aly-hazzaz-91033ba_fake-ai-deepfakes-activity-7446041841197592576-EwPf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/ma-aly-hazzaz-91033ba_fake-ai-deepfakes-activity-7446041841197592576-EwPf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Ma&#x27;aly Hazzaz&#x27;s PostFake news doesn&#x27;t look fake. It looks real. It feels real. That&#x27;s why it works. In a world shaped by AI-generated con...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: algosoc.org  
-   Link: <a href="https://algosoc.org/results/not-just-fake-news-deepfakes-and-the-crisis-of-trust" target="_blank" rel="noopener noreferrer nofollow">https://algosoc.org/results/not-just-fake-news-deepfakes-and-the-crisis-of-trust</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Not Just Fake News: Deepfakes and the Crisis of TrustLastly, in conflict zones, AI-generated synthetic media can be used to spread narrat...</p></details>
+   Link:<a href="https://algosoc.org/results/not-just-fake-news-deepfakes-and-the-crisis-of-trust" target="_blank" rel="noopener noreferrer nofollow">https://algosoc.org/results/not-just-fake-news-deepfakes-and-the-crisis-of-trust</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Not Just Fake News: Deepfakes and the Crisis of TrustLastly, in conflict zones, AI-generated synthetic media can be used to spread narrat...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/world/us/openai-microsoft-ai-tools-generate-misleading-election-images-researchers-say-2024-03-06/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/world/us/openai-microsoft-ai-tools-generate-misleading-election-images-researchers-say-2024-03-06/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>presidential election. Despite these companies&#x27; policies against creating deceptive content, CCDH successfully generated images such as J...</p></details>
+   Link:<a href="https://www.reuters.com/world/us/openai-microsoft-ai-tools-generate-misleading-election-images-researchers-say-2024-03-06/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/world/us/openai-microsoft-ai-tools-generate-misleading-election-images-researchers-say-2024-03-06/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>presidential election. Despite these companies&#x27; policies against creating deceptive content, CCDH successfully generated images such as J...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: docs.modulos.ai  
-   Link: <a href="https://docs.modulos.ai/frameworks/nist-ai-rmf/generative-ai-profile" target="_blank" rel="noopener noreferrer nofollow">https://docs.modulos.ai/frameworks/nist-ai-rmf/generative-ai-profile</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI RMF Generative AI Profile (NIST AI 600-1)It defines 12 risk categories unique to or exacerbated by generative AI and provides suggeste...</p></details>
+   Link:<a href="https://docs.modulos.ai/frameworks/nist-ai-rmf/generative-ai-profile" target="_blank" rel="noopener noreferrer nofollow">https://docs.modulos.ai/frameworks/nist-ai-rmf/generative-ai-profile</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI RMF Generative AI Profile (NIST AI 600-1)It defines 12 risk categories unique to or exacerbated by generative AI and provides suggeste...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: connectontech.bakermckenzie.com  
-   Link: <a href="https://connectontech.bakermckenzie.com/united-states-ai-safety-institute-releases-its-first-synthetic-content-guidance-report-nist-ai-100-4/" target="_blank" rel="noopener noreferrer nofollow">https://connectontech.bakermckenzie.com/united-states-ai-safety-institute-releases-its-first-synthetic-content-guidance-report-nist-ai-100-4/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>States: AI Safety Institute releases its first synthetic...Dec 19, 2024 — NIST AI 100-4&#x27;s main goal is to identify a series of voluntary...</p></details>
+   Link:<a href="https://connectontech.bakermckenzie.com/united-states-ai-safety-institute-releases-its-first-synthetic-content-guidance-report-nist-ai-100-4/" target="_blank" rel="noopener noreferrer nofollow">https://connectontech.bakermckenzie.com/united-states-ai-safety-institute-releases-its-first-synthetic-content-guidance-report-nist-ai-100-4/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>States: AI Safety Institute releases its first synthetic...Dec 19, 2024 — NIST AI 100-4&#x27;s main goal is to identify a series of voluntary...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: digitalgovernmenthub.org  
-   Link: <a href="https://digitalgovernmenthub.org/examples/nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile/" target="_blank" rel="noopener noreferrer nofollow">https://digitalgovernmenthub.org/examples/nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Artificial Intelligence Risk Management FrameworkThis profile provides a cross-sectoral profile of the AI Risk Management Framework...</p></details>
+   Link:<a href="https://digitalgovernmenthub.org/examples/nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile/" target="_blank" rel="noopener noreferrer nofollow">https://digitalgovernmenthub.org/examples/nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Artificial Intelligence Risk Management FrameworkThis profile provides a cross-sectoral profile of the AI Risk Management Framework...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: itu.int  
    Title: detecting deepfakes generative ai uptake casts doubt on multimedia content  
-   Link: <a href="https://www.itu.int/hub/2024/05/detecting-deepfakes-generative-ai-uptake-casts-doubt-on-multimedia-content/" target="_blank" rel="noopener noreferrer nofollow">https://www.itu.int/hub/2024/05/detecting-deepfakes-generative-ai-uptake-casts-doubt-on-multimedia-content/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Detecting deepfakes: Generative AI uptake casts doubt on...24 May 2024 — Synthetic AI-generated media – known for short as “deepfakes” –...</p></details>
+   Link:<a href="https://www.itu.int/hub/2024/05/detecting-deepfakes-generative-ai-uptake-casts-doubt-on-multimedia-content/" target="_blank" rel="noopener noreferrer nofollow">https://www.itu.int/hub/2024/05/detecting-deepfakes-generative-ai-uptake-casts-doubt-on-multimedia-content/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Detecting deepfakes: Generative AI uptake casts doubt on...24 May 2024 — Synthetic AI-generated media – known for short as “deepfakes” –...</p></details>
    Published: May 2024  
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=wMnVHeXPb6c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wMnVHeXPb6c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What is C2PA? C2PA and Digital AuthenticityC2PA, or The Coalition for Content Provenance and Authenticity, intends to address misinformat...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=wMnVHeXPb6c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wMnVHeXPb6c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is C2PA? C2PA and Digital AuthenticityC2PA, or The Coalition for Content Provenance and Authenticity, intends to address misinformat...</p></details>

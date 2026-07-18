@@ -279,7 +279,7 @@ When AI compresses financial information into a tidy narrative, it tends to pres
 
 Most financial analysis is built around a central narrative. Revenue is growing. Margins are improving. Debt appears manageable. The market opportunity is expanding.
 
-However, investment losses are often driven by scenarios outside that narrative. Financial institutions therefore devote significant resources to stress testing, scenario analysis and risk-factor [disclosure]({{ 'disclosure/' | relative_url }}). The goal is not merely to understand what is likely to happen, but what could happen if conditions deteriorate sharply. Financial regulators and disclosure frameworks explicitly require discussion of material risks because investors need information about potential downside outcomes, not just baseline expectations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corpgov.law.harvard.edu/2021/12/22/sec-risk-factor-disclosure-rules/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corpgov.law.harvard.edu">[Harvard Law Forum on Governance]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corpgov.law.harvard.edu</span><span class="citation-popover-title">Law Forum on Governance SEC Risk Factor Disclosure Rules</span><span class="citation-popover-snippet">Harvard Law Forum on GovernanceSEC Risk Factor Disclosure RulesDecember 22, 2021...</span><span class="citation-popover-meta">Published: December 22, 2021</span></span></span>
+However, investment losses are often driven by scenarios outside that narrative. Financial institutions therefore devote significant resources to stress testing, scenario analysis and risk-factor [disclosure]({{ 'disclosure/' | relative_url }}). The goal is not merely to understand what is likely to happen, but what could happen if conditions deteriorate sharply. Financial regulators and disclosure frameworks explicitly require discussion of material risks because investors need information about potential downside outcomes, not just baseline expectations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corpgov.law.harvard.edu/2021/12/22/sec-risk-factor-disclosure-rules/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corpgov.law.harvard.edu">[Harvard Law Forum on Governance]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corpgov.law.harvard.edu</span><span class="citation-popover-title">Law Forum on Governance SEC Risk Factor Disclosure Rules</span><span class="citation-popover-snippet">Harvard Law Forum on GovernanceSEC Risk Factor Disclosure RulesDecember 22, 2021...</span><span class="citation-popover-meta">Published: December 22, 2021</span></span></span>
 
 This creates a tension with AI summarisation. Summaries are rewarded for brevity, coherence and readability. Stress scenarios are often conditional, technical and awkwardly phrased. They rely on chains of events:
 
@@ -311,11 +311,11 @@ Several mechanisms contribute to the flattening of tail risk:
 
 **Dominant-story bias.** If a filing contains 100 pages describing operations and three pages discussing a severe but unlikely risk, the summary may devote most of its [attention]({{ 'attention/' | relative_url }}) to the dominant operational story.
 
-**Conditional-language loss.** Tail risks are commonly expressed through conditional statements. When AI rewrites these into simpler prose, [thresholds]({{ 'thresholds/' | relative_url }}) and triggers can disappear. A statement such as “significant liquidity pressure could emerge if refinancing conditions deteriorate” can become a softer observation about financing challenges. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: alibaba.com">[Alibaba]</a><span class="citation-popover" role="note"><span class="citation-popover-source">alibaba.com</span><span class="citation-popover-snippet">Why Do Ai-generated Financial Summaries Oversimplify Risk And How To Add Contextual GuardrailsJanuary 5, 2026...</span><span class="citation-popover-meta">Published: January 5, 2026</span></span></span>
+**Conditional-language loss.** Tail risks are commonly expressed through conditional statements. When AI rewrites these into simpler prose, [thresholds]({{ 'thresholds/' | relative_url }}) and triggers can disappear. A statement such as “significant liquidity pressure could emerge if refinancing conditions deteriorate” can become a softer observation about financing challenges.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: alibaba.com">[Alibaba]</a><span class="citation-popover" role="note"><span class="citation-popover-source">alibaba.com</span><span class="citation-popover-snippet">Why Do Ai-generated Financial Summaries Oversimplify Risk And How To Add Contextual GuardrailsJanuary 5, 2026...</span><span class="citation-popover-meta">Published: January 5, 2026</span></span></span>
 
 **Probability compression.** Financial documents often distinguish between likely, possible and remote outcomes. Summaries frequently reduce these distinctions into broad descriptions of risk without preserving the underlying probability structure.
 
-**Narrative smoothing.** Research and industry commentary on AI-assisted financial analysis have identified a tendency for generated summaries to hide volatility, sensitivity and scenario dependence behind clean narratives that appear more certain than the source material warrants. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://quantintegrity.com/insights/ai-financial-analysis-errors/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: quantintegrity.com">[My WordPress]</a><span class="citation-popover" role="note"><span class="citation-popover-source">quantintegrity.com</span><span class="citation-popover-title">My Word Press AI Financial Analysis Errors &#124; Quant Integrity</span><span class="citation-popover-snippet">My WordPressAI Financial Analysis Errors &#124; QuantIntegrityFebruary 14, 2026...</span><span class="citation-popover-meta">Published: February 14, 2026</span></span></span>
+**Narrative smoothing.** Research and industry commentary on AI-assisted financial analysis have identified a tendency for generated summaries to hide volatility, sensitivity and scenario dependence behind clean narratives that appear more certain than the source material warrants.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://quantintegrity.com/insights/ai-financial-analysis-errors/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: quantintegrity.com">[My WordPress]</a><span class="citation-popover" role="note"><span class="citation-popover-source">quantintegrity.com</span><span class="citation-popover-title">My Word Press AI Financial Analysis Errors &#124; Quant Integrity</span><span class="citation-popover-snippet">My WordPressAI Financial Analysis Errors &#124; QuantIntegrityFebruary 14, 2026...</span><span class="citation-popover-meta">Published: February 14, 2026</span></span></span>
 
 The resulting output may accurately describe the company's current position while failing to communicate how fragile that position could become under stress.
 
@@ -331,9 +331,9 @@ The most consequential warnings in financial reporting are often not found in he
 
 <div class="content-enhancement content-enhancement--caution" markdown="1">
 
-* Risk-factor sections. <span class="citation-chip-wrap"><a class="citation-chip" href="https://corpgov.law.harvard.edu/2021/12/22/sec-risk-factor-disclosure-rules/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corpgov.law.harvard.edu">[corpgov.law.harvard.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corpgov.law.harvard.edu</span><span class="citation-popover-title">Law Forum on Governance SEC Risk Factor Disclosure Rules</span><span class="citation-popover-snippet">Harvard Law Forum on GovernanceSEC Risk Factor Disclosure RulesDecember 22, 2021...</span><span class="citation-popover-meta">Published: December 22, 2021</span></span></span>
+* Risk-factor sections.<span class="citation-chip-wrap"><a class="citation-chip" href="https://corpgov.law.harvard.edu/2021/12/22/sec-risk-factor-disclosure-rules/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corpgov.law.harvard.edu">[corpgov.law.harvard.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corpgov.law.harvard.edu</span><span class="citation-popover-title">Law Forum on Governance SEC Risk Factor Disclosure Rules</span><span class="citation-popover-snippet">Harvard Law Forum on GovernanceSEC Risk Factor Disclosure RulesDecember 22, 2021...</span><span class="citation-popover-meta">Published: December 22, 2021</span></span></span>
 * Management discussion and analysis (MD&A).
-* Notes to financial statements. <span class="citation-chip-wrap"><a class="citation-chip" href="https://econpapers.repec.org/bookchap/bisbisifc/65-09.htm" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: econpapers.repec.org">[econpapers.repec.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">econpapers.repec.org</span><span class="citation-popover-snippet">Quantifying material risks from textual disclosures in financial statements using LLMs and LLM agents - a case study on physi...</span></span></span>
+* Notes to financial statements.<span class="citation-chip-wrap"><a class="citation-chip" href="https://econpapers.repec.org/bookchap/bisbisifc/65-09.htm" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: econpapers.repec.org">[econpapers.repec.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">econpapers.repec.org</span><span class="citation-popover-snippet">Quantifying material risks from textual disclosures in financial statements using LLMs and LLM agents - a case study on physi...</span></span></span>
 * Debt covenant disclosures.
 * Litigation disclosures.
 * Customer concentration disclosures.
@@ -341,7 +341,7 @@ The most consequential warnings in financial reporting are often not found in he
 
 </div>
 
-Regulators require many of these disclosures because they provide investors with information about potential adverse outcomes. New or substantially revised risk disclosures can be early indicators of emerging problems before those problems become visible in reported results. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://legalclarity.org/how-to-read-sec-filings-key-sections-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: legalclarity.org">[LegalClarity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">legalclarity.org</span><span class="citation-popover-title">Legal Clarity How to Read SEC Filings: Key Sections Explained</span><span class="citation-popover-snippet">How to Read SEC Filings: Key Sections Explained - LegalClarityMarch 12, 2026...</span><span class="citation-popover-meta">Published: March 12, 2026</span></span></span>
+Regulators require many of these disclosures because they provide investors with information about potential adverse outcomes. New or substantially revised risk disclosures can be early indicators of emerging problems before those problems become visible in reported results.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://legalclarity.org/how-to-read-sec-filings-key-sections-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: legalclarity.org">[LegalClarity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">legalclarity.org</span><span class="citation-popover-title">Legal Clarity How to Read SEC Filings: Key Sections Explained</span><span class="citation-popover-snippet">How to Read SEC Filings: Key Sections Explained - LegalClarityMarch 12, 2026...</span><span class="citation-popover-meta">Published: March 12, 2026</span></span></span>
 
 Yet these sections are precisely the material most vulnerable to summarisation loss.
 
@@ -404,7 +404,7 @@ People tend to trust information that is coherent and easy to understand. A conc
 
 This creates a subtle danger. Investors may believe they have absorbed the essential information when they have actually consumed a filtered version of it.
 
-Industry analyses of AI-assisted financial workflows repeatedly highlight this issue. The risk is not merely incorrect numbers or fabricated facts. It is the creation of outputs that appear comprehensive while concealing sensitivity to assumptions, volatility exposure or adverse scenarios. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://quantintegrity.com/insights/ai-financial-analysis-errors/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: quantintegrity.com">[My WordPress]</a><span class="citation-popover" role="note"><span class="citation-popover-source">quantintegrity.com</span><span class="citation-popover-title">My Word Press AI Financial Analysis Errors &#124; Quant Integrity</span><span class="citation-popover-snippet">My WordPressAI Financial Analysis Errors &#124; QuantIntegrityFebruary 14, 2026...</span><span class="citation-popover-meta">Published: February 14, 2026</span></span></span>
+Industry analyses of AI-assisted financial workflows repeatedly highlight this issue. The risk is not merely incorrect numbers or fabricated facts. It is the creation of outputs that appear comprehensive while concealing sensitivity to assumptions, volatility exposure or adverse scenarios.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://quantintegrity.com/insights/ai-financial-analysis-errors/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: quantintegrity.com">[My WordPress]</a><span class="citation-popover" role="note"><span class="citation-popover-source">quantintegrity.com</span><span class="citation-popover-title">My Word Press AI Financial Analysis Errors &#124; Quant Integrity</span><span class="citation-popover-snippet">My WordPressAI Financial Analysis Errors &#124; QuantIntegrityFebruary 14, 2026...</span><span class="citation-popover-meta">Published: February 14, 2026</span></span></span>
 
 In effect, readability can become a source of risk.
 
@@ -414,9 +414,9 @@ AI summaries can still be useful. The challenge is preventing them from becoming
 
 When using AI-generated financial summaries, several checks help preserve tail-risk awareness:
 
-**Read the risk-factor section separately.** Do not assume a summary has captured all material risks. Risk disclosures exist precisely because adverse scenarios matter. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://legalclarity.org/what-does-risk-factors-mean-in-securities-law/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: legalclarity.org">[LegalClarity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">legalclarity.org</span><span class="citation-popover-title">Legal Clarity What Does Risk Factors Mean in Securities Law?</span><span class="citation-popover-snippet">What Does Risk Factors Mean in Securities Law? - LegalClarity...</span></span></span>
+**Read the risk-factor section separately.** Do not assume a summary has captured all material risks. Risk disclosures exist precisely because adverse scenarios matter.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://legalclarity.org/what-does-risk-factors-mean-in-securities-law/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: legalclarity.org">[LegalClarity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">legalclarity.org</span><span class="citation-popover-title">Legal Clarity What Does Risk Factors Mean in Securities Law?</span><span class="citation-popover-snippet">What Does Risk Factors Mean in Securities Law? - LegalClarity...</span></span></span>
 
-**Look for what changed.** New risk factors or substantial revisions often contain more information than long-standing boilerplate disclosures. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://legalclarity.org/how-to-read-sec-filings-key-sections-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: legalclarity.org">[LegalClarity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">legalclarity.org</span><span class="citation-popover-title">Legal Clarity How to Read SEC Filings: Key Sections Explained</span><span class="citation-popover-snippet">How to Read SEC Filings: Key Sections Explained - LegalClarityMarch 12, 2026...</span><span class="citation-popover-meta">Published: March 12, 2026</span></span></span>
+**Look for what changed.** New risk factors or substantial revisions often contain more information than long-standing boilerplate disclosures.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://legalclarity.org/how-to-read-sec-filings-key-sections-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: legalclarity.org">[LegalClarity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">legalclarity.org</span><span class="citation-popover-title">Legal Clarity How to Read SEC Filings: Key Sections Explained</span><span class="citation-popover-snippet">How to Read SEC Filings: Key Sections Explained - LegalClarityMarch 12, 2026...</span><span class="citation-popover-meta">Published: March 12, 2026</span></span></span>
 
 **Ask for downside scenarios explicitly.** Instead of requesting a general summary, ask for the three most severe low-probability risks, the assumptions behind them, and the potential financial consequences.
 
@@ -435,194 +435,194 @@ The flattening of tail risk occurs because AI summarisation rewards central narr
 In finance, that distinction is critical. The average outcome is not always what matters most. Investors, regulators and risk managers often focus on the situations where the normal story breaks down. Those situations are exactly where an over-compressed AI summary is most likely to leave out information that changes the decision.
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to The Financial Risks AI Summaries Smooth Over. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to The Financial Risks AI Summaries Smooth Over. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Black+Swan+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Black Swan on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=mcgtAAAAYAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Black Swan" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Black+Swan+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Black Swan">The Black Swan</a>
-        </h4>
-        <p class="fr-book-author">By Nassim Nicholas Taleb</p>
-        <p class="fr-book-popularity">Rating: 4.0/5 from 25 Google Books ratings</p>
-        <p class="fr-book-desc">Focuses on rare, high-impact risks that simplified narratives routinely overlook.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Black+Swan+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Black+Swan+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Black Swan on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=mcgtAAAAYAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Black Swan" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Black+Swan+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Black Swan">The Black Swan</a>
+</h4>
+<p class="fr-book-author">By Nassim Nicholas Taleb</p>
+<p class="fr-book-popularity">Rating: 4.0/5 from 25 Google Books ratings</p>
+<p class="fr-book-desc">Focuses on rare, high-impact risks that simplified narratives routinely overlook.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Black+Swan+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Fooled+by+Randomness+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Fooled by Randomness on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4eLKm33WneEC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Fooled by Randomness" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Fooled+by+Randomness+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Fooled by Randomness">Fooled by Randomness</a>
-        </h4>
-        <p class="fr-book-author">By Nassim Nicholas Taleb</p>
-        <p class="fr-book-popularity">Rating: 4.0/5 from 15 Google Books ratings</p>
-        <p class="fr-book-desc">Explains how people underestimate uncertainty and overstate confidence in financial outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Fooled+by+Randomness+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Fooled+by+Randomness+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Fooled by Randomness on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4eLKm33WneEC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Fooled by Randomness" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Fooled+by+Randomness+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Fooled by Randomness">Fooled by Randomness</a>
+</h4>
+<p class="fr-book-author">By Nassim Nicholas Taleb</p>
+<p class="fr-book-popularity">Rating: 4.0/5 from 15 Google Books ratings</p>
+<p class="fr-book-desc">Explains how people underestimate uncertainty and overstate confidence in financial outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Fooled+by+Randomness+by+Nassim+Nicholas+Taleb&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Against+the+Gods+by+Peter+L.+Bernstein&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Against the Gods on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4vrIAgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Against the Gods" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Against+the+Gods+by+Peter+L.+Bernstein&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Against the Gods">Against the Gods</a>
-        </h4>
-        <p class="fr-book-author">By Peter L. Bernstein</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Against+the+Gods+by+Peter+L.+Bernstein&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Against the Gods on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4vrIAgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Against the Gods" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Against+the+Gods+by+Peter+L.+Bernstein&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Against the Gods">Against the Gods</a>
+</h4>
+<p class="fr-book-author">By Peter L. Bernstein</p>
         
-        <p class="fr-book-desc">Provides foundational understanding of probability, uncertainty and risk assessment.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Against+the+Gods+by+Peter+L.+Bernstein&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides foundational understanding of probability, uncertainty and risk assessment.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Against+the+Gods+by+Peter+L.+Bernstein&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Kahneman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
+</h4>
+<p class="fr-book-author">By Daniel Kahneman</p>
         
-        <p class="fr-book-desc">Helps readers understand cognitive shortcuts that can make summaries seem more convincing than warranted.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps readers understand cognitive shortcuts that can make summaries seem more convincing than warranted.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Black+Swan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Black Swan</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Fooled+by+Randomness&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Fooled by Randomness</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Against+the+Gods&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Against the Gods</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Black+Swan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Black Swan</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Fooled+by+Randomness&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Fooled by Randomness</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Against+the+Gods&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Against the Gods</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="tail-risk-the-financial-risks-ai-summaries-smooth-over-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -638,7 +638,7 @@ In finance, that distinction is critical. The average outcome is not always what
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -658,7 +658,7 @@ In finance, that distinction is critical. The average outcome is not always what
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -690,7 +690,7 @@ In finance, that distinction is critical. The average outcome is not always what
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -742,7 +742,7 @@ In finance, that distinction is critical. The average outcome is not always what
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -787,7 +787,7 @@ In finance, that distinction is critical. The average outcome is not always what
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -828,103 +828,103 @@ In finance, that distinction is critical. The average outcome is not always what
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: corpgov.law.harvard.edu  
    Title: Law Forum on Governance SEC Risk Factor Disclosure Rules  
-   Link: <a href="https://corpgov.law.harvard.edu/2021/12/22/sec-risk-factor-disclosure-rules/" target="_blank" rel="noopener noreferrer nofollow">https://corpgov.law.harvard.edu/2021/12/22/sec-risk-factor-disclosure-rules/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard Law Forum on GovernanceSEC Risk Factor Disclosure RulesDecember 22, 2021...</p></details>
+   Link:<a href="https://corpgov.law.harvard.edu/2021/12/22/sec-risk-factor-disclosure-rules/" target="_blank" rel="noopener noreferrer nofollow">https://corpgov.law.harvard.edu/2021/12/22/sec-risk-factor-disclosure-rules/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard Law Forum on GovernanceSEC Risk Factor Disclosure RulesDecember 22, 2021...</p></details>
    Published: December 22, 2021  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: legalclarity.org  
    Title: Legal Clarity What Does Risk Factors Mean in Securities Law?  
-   Link: <a href="https://legalclarity.org/what-does-risk-factors-mean-in-securities-law/" target="_blank" rel="noopener noreferrer nofollow">https://legalclarity.org/what-does-risk-factors-mean-in-securities-law/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What Does Risk Factors Mean in Securities Law? - LegalClarity...</p></details>
+   Link:<a href="https://legalclarity.org/what-does-risk-factors-mean-in-securities-law/" target="_blank" rel="noopener noreferrer nofollow">https://legalclarity.org/what-does-risk-factors-mean-in-securities-law/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What Does Risk Factors Mean in Securities Law? - LegalClarity...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: alibaba.com  
-   Link: <a href="https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html" target="_blank" rel="noopener noreferrer nofollow">https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Do Ai-generated Financial Summaries Oversimplify Risk And How To Add Contextual GuardrailsJanuary 5, 2026...</p></details>
+   Link:<a href="https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html" target="_blank" rel="noopener noreferrer nofollow">https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Do Ai-generated Financial Summaries Oversimplify Risk And How To Add Contextual GuardrailsJanuary 5, 2026...</p></details>
    Published: January 5, 2026  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: legalclarity.org  
    Title: Legal Clarity How to Read SEC Filings: Key Sections Explained  
-   Link: <a href="https://legalclarity.org/how-to-read-sec-filings-key-sections-explained/" target="_blank" rel="noopener noreferrer nofollow">https://legalclarity.org/how-to-read-sec-filings-key-sections-explained/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Read SEC Filings: Key Sections Explained - LegalClarityMarch 12, 2026...</p></details>
+   Link:<a href="https://legalclarity.org/how-to-read-sec-filings-key-sections-explained/" target="_blank" rel="noopener noreferrer nofollow">https://legalclarity.org/how-to-read-sec-filings-key-sections-explained/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Read SEC Filings: Key Sections Explained - LegalClarityMarch 12, 2026...</p></details>
    Published: March 12, 2026  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: quantintegrity.com  
    Title: My Word Press AI Financial Analysis Errors | Quant Integrity  
-   Link: <a href="https://quantintegrity.com/insights/ai-financial-analysis-errors/" target="_blank" rel="noopener noreferrer nofollow">https://quantintegrity.com/insights/ai-financial-analysis-errors/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>My WordPressAI Financial Analysis Errors | QuantIntegrityFebruary 14, 2026...</p></details>
+   Link:<a href="https://quantintegrity.com/insights/ai-financial-analysis-errors/" target="_blank" rel="noopener noreferrer nofollow">https://quantintegrity.com/insights/ai-financial-analysis-errors/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>My WordPressAI Financial Analysis Errors | QuantIntegrityFebruary 14, 2026...</p></details>
    Published: February 14, 2026  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: lexology.com  
    Title: www.lexology.com Lengthy Risk Factors  
-   Link: <a href="https://www.lexology.com/library/detail.aspx?g=831fea1c-e270-4dde-8840-0ba5bfa34ca8" target="_blank" rel="noopener noreferrer nofollow">https://www.lexology.com/library/detail.aspx?g=831fea1c-e270-4dde-8840-0ba5bfa34ca8</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Risk Factors - LexologyJuly 6, 2018...</p></details>
+   Link:<a href="https://www.lexology.com/library/detail.aspx?g=831fea1c-e270-4dde-8840-0ba5bfa34ca8" target="_blank" rel="noopener noreferrer nofollow">https://www.lexology.com/library/detail.aspx?g=831fea1c-e270-4dde-8840-0ba5bfa34ca8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Risk Factors - LexologyJuly 6, 2018...</p></details>
    Published: July 6, 2018  
 
 ### Additional References
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: econpapers.repec.org  
-   Link: <a href="https://econpapers.repec.org/bookchap/bisbisifc/65-09.htm" target="_blank" rel="noopener noreferrer nofollow">https://econpapers.repec.org/bookchap/bisbisifc/65-09.htm</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying material risks from textual disclosures in financial statements using LLMs and LLM agents - a case study on physi...</p></details>
+   Link:<a href="https://econpapers.repec.org/bookchap/bisbisifc/65-09.htm" target="_blank" rel="noopener noreferrer nofollow">https://econpapers.repec.org/bookchap/bisbisifc/65-09.htm</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying material risks from textual disclosures in financial statements using LLMs and LLM agents - a case study on physi...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: ijisae.org  
-   Link: <a href="https://www.ijisae.org/index.php/IJISAE/article/view/7974" target="_blank" rel="noopener noreferrer nofollow">https://www.ijisae.org/index.php/IJISAE/article/view/7974</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>www.ijisae.orgGenai-Driven Scenario Generation For Intraday Market Risk, Liquidity Stress Testing, And Portfolio Optimization | Internati...</p></details>
+   Link:<a href="https://www.ijisae.org/index.php/IJISAE/article/view/7974" target="_blank" rel="noopener noreferrer nofollow">https://www.ijisae.org/index.php/IJISAE/article/view/7974</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>www.ijisae.orgGenai-Driven Scenario Generation For Intraday Market Risk, Liquidity Stress Testing, And Portfolio Optimization | Internati...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/BusinessIntelligence/comments/1q4f745/what_i_learned_trying_to_get_ai_to_actually/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/BusinessIntelligence/comments/1q4f745/what_i_learned_trying_to_get_ai_to_actually/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>I learned trying to get AI to actually analyze financial scenarios (not just describe charts - Technical Deep Dive)January 5, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/BusinessIntelligence/comments/1q4f745/what_i_learned_trying_to_get_ai_to_actually/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/BusinessIntelligence/comments/1q4f745/what_i_learned_trying_to_get_ai_to_actually/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>I learned trying to get AI to actually analyze financial scenarios (not just describe charts - Technical Deep Dive)January 5, 2026...</p></details>
    Published: January 5, 2026  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: aimodels.fyi  
-   Link: <a href="https://www.aimodels.fyi/papers/arxiv/evaluating-large-language-models-financial-report-summarization" target="_blank" rel="noopener noreferrer nofollow">https://www.aimodels.fyi/papers/arxiv/evaluating-large-language-models-financial-report-summarization</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Models on Financial Report Summarization: An Empirical Study | AI Research Paper DetailsNovember 12, 2024...</p></details>
+   Link:<a href="https://www.aimodels.fyi/papers/arxiv/evaluating-large-language-models-financial-report-summarization" target="_blank" rel="noopener noreferrer nofollow">https://www.aimodels.fyi/papers/arxiv/evaluating-large-language-models-financial-report-summarization</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Models on Financial Report Summarization: An Empirical Study | AI Research Paper DetailsNovember 12, 2024...</p></details>
    Published: November 12, 2024  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: mdpi.com  
-   Link: <a href="https://www.mdpi.com/1911-8074/19/4/271" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/1911-8074/19/4/271</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Disclosure Intensifies: Nonlinear Effects on Governance-Risk Disclosures in Selected U.S. Public FirmsApril 8, 2026...</p></details>
+   Link:<a href="https://www.mdpi.com/1911-8074/19/4/271" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/1911-8074/19/4/271</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Disclosure Intensifies: Nonlinear Effects on Governance-Risk Disclosures in Selected U.S. Public FirmsApril 8, 2026...</p></details>
    Published: April 8, 2026  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: imfalpha.com  
-   Link: <a href="https://imfalpha.com/article/ais-new-frontier-in-finance-how-[generative" target="_blank" rel="noopener noreferrer nofollow">https://imfalpha.com/article/ais-new-frontier-in-finance-how-[generative</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI’s New Frontier in Finance: How Generative Models Are Redefining Risk Analysis — IMF AlphaMay 20, 2026...</p></details>
+   Link:<a href="https://imfalpha.com/article/ais-new-frontier-in-finance-how-[generative" target="_blank" rel="noopener noreferrer nofollow">https://imfalpha.com/article/ais-new-frontier-in-finance-how-[generative</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI’s New Frontier in Finance: How Generative Models Are Redefining Risk Analysis — IMF AlphaMay 20, 2026...</p></details>
    Published: May 20, 2026  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: onlinelibrary.wiley.com  
-   Link: <a href="https://onlinelibrary.wiley.com/doi/abs/10.1155/int/9295056" target="_blank" rel="noopener noreferrer nofollow">https://onlinelibrary.wiley.com/doi/abs/10.1155/int/9295056</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Liu - 2026 - International Journal of Intelligent Systems - Wiley Online LibraryFebruary 16, 2026...</p></details>
+   Link:<a href="https://onlinelibrary.wiley.com/doi/abs/10.1155/int/9295056" target="_blank" rel="noopener noreferrer nofollow">https://onlinelibrary.wiley.com/doi/abs/10.1155/int/9295056</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Liu - 2026 - International Journal of Intelligent Systems - Wiley Online LibraryFebruary 16, 2026...</p></details>
    Published: February 16, 2026  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=7eqFDlggqNg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7eqFDlggqNg</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LLMs in Financial Analysis: From Promise to Practice...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=7eqFDlggqNg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7eqFDlggqNg</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLMs in Financial Analysis: From Promise to Practice...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: elibrary.imf.org  
    Title: article A001 en.xml  
-   Link: <a href="https://www.elibrary.imf.org/view/journals/063/2023/006/article-A001-en.xml" target="_blank" rel="noopener noreferrer nofollow">https://www.elibrary.imf.org/view/journals/063/2023/006/article-A001-en.xml</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence in Finance in: FinTech Notes Volume 2023 Issue 006 (2023)August 22, 2023...</p></details>
+   Link:<a href="https://www.elibrary.imf.org/view/journals/063/2023/006/article-A001-en.xml" target="_blank" rel="noopener noreferrer nofollow">https://www.elibrary.imf.org/view/journals/063/2023/006/article-A001-en.xml</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence in Finance in: FinTech Notes Volume 2023 Issue 006 (2023)August 22, 2023...</p></details>
    Published: August 22, 2023  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: researchgate.net  
    Title: www.researchgate.net Risk Factor Disclosure Summaries  
-   Link: <a href="https://www.researchgate.net/publication/405698253_Risk_Factor_Disclosure_Summaries" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/405698253_Risk_Factor_Disclosure_Summaries</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Factor Disclosure SummariesJanuary 1, 2026...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/405698253_Risk_Factor_Disclosure_Summaries" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/405698253_Risk_Factor_Disclosure_Summaries</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Factor Disclosure SummariesJanuary 1, 2026...</p></details>
    Published: January 1, 2026  

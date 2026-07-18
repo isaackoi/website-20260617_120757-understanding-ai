@@ -269,11 +269,11 @@ image: /assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45
 
 ## Introduction
 
-Few-shot prompting works because examples do more than illustrate a task: they show the model exactly how to behave. When a language model is given a handful of demonstrations, it infers temporary rules about what inputs look like, what outputs should contain, which labels are allowed, and how edge cases should be handled. The quality of those demonstrations often matters more than the length of the written instructions. Research and guidance from OpenAI, Anthropic, Google, and other practitioners consistently show that carefully chosen examples can significantly improve consistency, formatting, and task accuracy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: help.openai.com">[OpenAI Help Center+2Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">help.openai.com</span><span class="citation-popover-snippet">Below we present a number of prompt formats we find work...</span></span></span>
+Few-shot prompting works because examples do more than illustrate a task: they show the model exactly how to behave. When a language model is given a handful of demonstrations, it infers temporary rules about what inputs look like, what outputs should contain, which labels are allowed, and how edge cases should be handled. The quality of those demonstrations often matters more than the length of the written instructions. Research and guidance from OpenAI, Anthropic, Google, and other practitioners consistently show that carefully chosen examples can significantly improve consistency, formatting, and task accuracy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: help.openai.com">[OpenAI Help Center+2Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">help.openai.com</span><span class="citation-popover-snippet">Below we present a number of prompt formats we find work...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_choosing_few_5f591a-Illustration-1-dark.svg" | relative_url }}" alt="Better Examples illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_choosing_few_5f591a-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_choosing_few_5f591a-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-The challenge is that not all examples are equally useful. A prompt packed with repetitive or poorly chosen demonstrations can confuse the model or even reduce performance. The goal is not to provide many examples, but to provide examples that teach the right temporary rules. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.13196" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Few-shot Dilemma: Over-prompting Large Language Models</span><span class="citation-popover-snippet">The Few-shot Dilemma: Over-prompting Large Language ModelsSeptember 16, 2025...</span><span class="citation-popover-meta">Published: September 16, 2025</span></span></span>
+The challenge is that not all examples are equally useful. A prompt packed with repetitive or poorly chosen demonstrations can confuse the model or even reduce performance. The goal is not to provide many examples, but to provide examples that teach the right temporary rules.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.13196" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Few-shot Dilemma: Over-prompting Large Language Models</span><span class="citation-popover-snippet">The Few-shot Dilemma: Over-prompting Large Language ModelsSeptember 16, 2025...</span><span class="citation-popover-meta">Published: September 16, 2025</span></span></span>
 
 ## What each example should teach the model
 
@@ -291,11 +291,11 @@ For instance, in a sentiment-classification prompt:
 
 </div>
 
-Together, these examples create a compact rulebook that the model can follow throughout the conversation. Anthropic recommends providing realistic examples of both inputs and ideal outputs, including challenging cases that clarify expectations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">prompt engineering for business performance</span><span class="citation-popover-snippet">Prompt engineering for business performanceFeb 29, 2024 — 2. Few-shot prompting. It&#x27;s helpful to give Claude realistic and speci...</span></span></span>
+Together, these examples create a compact rulebook that the model can follow throughout the conversation. Anthropic recommends providing realistic examples of both inputs and ideal outputs, including challenging cases that clarify expectations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">prompt engineering for business performance</span><span class="citation-popover-snippet">Prompt engineering for business performanceFeb 29, 2024 — 2. Few-shot prompting. It&#x27;s helpful to give Claude realistic and speci...</span></span></span>
 
 Consider two versions of a prompt:
 
-**Less useful examples** <span class="citation-chip-wrap"><a class="citation-chip" href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.google.dev">[ai.google.dev]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.google.dev</span><span class="citation-popover-snippet">Google AI for DevelopersPrompt design strategies &#124; Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</span></span></span>
+**Less useful examples**<span class="citation-chip-wrap"><a class="citation-chip" href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.google.dev">[ai.google.dev]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.google.dev</span><span class="citation-popover-snippet">Google AI for DevelopersPrompt design strategies &#124; Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</span></span></span>
 
 
 <div class="content-enhancement content-enhancement--insight-grid" markdown="1">
@@ -308,7 +308,7 @@ Consider two versions of a prompt:
 
 These examples repeat the same lesson.
 
-**More useful examples** <span class="citation-chip-wrap"><a class="citation-chip" href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.google.dev">[ai.google.dev]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.google.dev</span><span class="citation-popover-snippet">Google AI for DevelopersPrompt design strategies &#124; Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</span></span></span>
+**More useful examples**<span class="citation-chip-wrap"><a class="citation-chip" href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.google.dev">[ai.google.dev]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.google.dev</span><span class="citation-popover-snippet">Google AI for DevelopersPrompt design strategies &#124; Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</span></span></span>
 
 
 <div class="content-enhancement content-enhancement--insight-grid" markdown="1">
@@ -326,11 +326,11 @@ The second set teaches label boundaries, variation in wording, and how mixed opi
 
 A common mistake is assuming that more examples automatically produce better results. In practice, relevance is usually more important than volume.
 
-If the task is classifying customer-service messages, examples should resemble customer-service messages. If the task is extracting information from invoices, examples should look like invoices. Models learn patterns from the context they see, so demonstrations that closely match the real task are more informative than a larger collection of unrelated examples. Google's prompting guidance notes that clear examples can sometimes communicate the task so effectively that lengthy instructions become unnecessary. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.google.dev">[Google AI for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.google.dev</span><span class="citation-popover-snippet">Google AI for DevelopersPrompt design strategies &#124; Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</span></span></span>
+If the task is classifying customer-service messages, examples should resemble customer-service messages. If the task is extracting information from invoices, examples should look like invoices. Models learn patterns from the context they see, so demonstrations that closely match the real task are more informative than a larger collection of unrelated examples. Google's prompting guidance notes that clear examples can sometimes communicate the task so effectively that lengthy instructions become unnecessary.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.google.dev">[Google AI for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.google.dev</span><span class="citation-popover-snippet">Google AI for DevelopersPrompt design strategies &#124; Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</span></span></span>
 
-This principle also applies to style and formatting. If the desired output is a JSON object, the examples should use valid JSON. If the desired output is a concise [business]({{ 'business-adoption/' | relative_url }}) summary, the examples should be concise business summaries. Models often imitate demonstrated structure more reliably than they follow abstract descriptions of structure. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">effective context engineering for ai agents</span><span class="citation-popover-snippet">Effective context engineering for AI agents29 Sept 2025 — Providing examples, otherwise known as few-shot prompting, is a well k...</span></span></span>
+This principle also applies to style and formatting. If the desired output is a JSON object, the examples should use valid JSON. If the desired output is a concise [business]({{ 'business-adoption/' | relative_url }}) summary, the examples should be concise business summaries. Models often imitate demonstrated structure more reliably than they follow abstract descriptions of structure.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">effective context engineering for ai agents</span><span class="citation-popover-snippet">Effective context engineering for AI agents29 Sept 2025 — Providing examples, otherwise known as few-shot prompting, is a well k...</span></span></span>
 
-Evidence from prompt-engineering practice repeatedly shows that a small number of highly relevant examples can outperform a much larger collection of loosely related ones. Anthropic's guidance emphasises relevant examples that match the actual use case, while Google recommends using examples to directly demonstrate the desired behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiwithgrant.com/guides/anthropic-prompt-engineering-overview" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiwithgrant.com">[AI with Grant]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiwithgrant.com</span><span class="citation-popover-snippet">Use Examples (Multishot Prompting). How to use few-shot examples to dramatically improve Claude&#x27;s accuracy, consistency, and output quali...</span></span></span>
+Evidence from prompt-engineering practice repeatedly shows that a small number of highly relevant examples can outperform a much larger collection of loosely related ones. Anthropic's guidance emphasises relevant examples that match the actual use case, while Google recommends using examples to directly demonstrate the desired behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiwithgrant.com/guides/anthropic-prompt-engineering-overview" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiwithgrant.com">[AI with Grant]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiwithgrant.com</span><span class="citation-popover-snippet">Use Examples (Multishot Prompting). How to use few-shot examples to dramatically improve Claude&#x27;s accuracy, consistency, and output quali...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/ggXckjI_w-w" title="Few-Shot Prompting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=ggXckjI_w-w" target="_blank" rel="noopener noreferrer">Few-Shot Prompting</a></p><p class="youtube-embed-meta">Channel: Arize AI</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=ggXckjI_w-w" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=ggXckjI_w-w">Open on YouTube</a></p></div></div></div>
@@ -341,7 +341,7 @@ The easiest examples are often the least valuable.
 
 Most [language models]({{ 'language-models/' | relative_url }}) can already classify obviously positive reviews, recognise straightforward dates, or summarise simple text. What frequently causes errors are the borderline cases.
 
-Useful few-shot examples often include: <span class="citation-chip-wrap"><a class="citation-chip" href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.google.dev">[ai.google.dev]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.google.dev</span><span class="citation-popover-snippet">Google AI for DevelopersPrompt design strategies &#124; Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</span></span></span>
+Useful few-shot examples often include:<span class="citation-chip-wrap"><a class="citation-chip" href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.google.dev">[ai.google.dev]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.google.dev</span><span class="citation-popover-snippet">Google AI for DevelopersPrompt design strategies &#124; Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</span></span></span>
 
 
 <div class="content-enhancement content-enhancement--phrase-pills" markdown="1">
@@ -356,7 +356,7 @@ Useful few-shot examples often include: <span class="citation-chip-wrap"><a clas
 
 For example, suppose a task is labelling support tickets as "billing", "technical", or "account".
 
-Easy examples might show: <span class="citation-chip-wrap"><a class="citation-chip" href="https://dev.to/klement_gunndu/5-prompt-engineering-patterns-that-actually-work-in-production-4mcj" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dev.to">[dev.to]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dev.to</span><span class="citation-popover-title">5 prompt engineering patterns that actually work in production 4mcj</span><span class="citation-popover-snippet">DEV Community5 Prompt Engineering Patterns That Actually Work in...9 Mar 2026 — Use Few-Shot Examples to Lock In Format. System prompts...</span></span></span>
+Easy examples might show:<span class="citation-chip-wrap"><a class="citation-chip" href="https://dev.to/klement_gunndu/5-prompt-engineering-patterns-that-actually-work-in-production-4mcj" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dev.to">[dev.to]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dev.to</span><span class="citation-popover-title">5 prompt engineering patterns that actually work in production 4mcj</span><span class="citation-popover-snippet">DEV Community5 Prompt Engineering Patterns That Actually Work in...9 Mar 2026 — Use Few-Shot Examples to Lock In Format. System prompts...</span></span></span>
 
 * Password reset → Account
 * Cannot log in → Account
@@ -368,7 +368,7 @@ More useful examples might include:
 
 These cases force the prompt to reveal how overlapping categories should be resolved.
 
-Anthropic specifically recommends including challenging examples and edge cases because they help the model understand the exact boundaries of the task. Similar recommendations appear in prompt-engineering guides and practitioner resources that emphasise diversity over repetition. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic+2AI with Grant]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">prompt engineering for business performance</span><span class="citation-popover-snippet">Prompt engineering for business performanceFeb 29, 2024 — 2. Few-shot prompting. It&#x27;s helpful to give Claude realistic and speci...</span></span></span>
+Anthropic specifically recommends including challenging examples and edge cases because they help the model understand the exact boundaries of the task. Similar recommendations appear in prompt-engineering guides and practitioner resources that emphasise diversity over repetition.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic+2AI with Grant]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">prompt engineering for business performance</span><span class="citation-popover-snippet">Prompt engineering for business performanceFeb 29, 2024 — 2. Few-shot prompting. It&#x27;s helpful to give Claude realistic and speci...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_choosing_few_5f591a-Illustration-2-dark.svg" | relative_url }}" alt="Better Examples illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_choosing_few_5f591a-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_choosing_few_5f591a-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -402,13 +402,13 @@ The objective is to teach the genuine task rule, not an accidental shortcut.
 
 ## Show the format, don't just describe it
 
-One of the strongest uses of few-shot prompting is format control. <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.datacamp.com/tutorial/few-shot-prompting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: datacamp.com">[datacamp.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">datacamp.com</span><span class="citation-popover-title">few shot prompting</span><span class="citation-popover-snippet">Few-Shot Prompting: Examples, Theory, Use Cases21 Jul 2024 — Few-shot prompting is a technique that involves providing a language model w...</span></span></span>
+One of the strongest uses of few-shot prompting is format control.<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.datacamp.com/tutorial/few-shot-prompting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: datacamp.com">[datacamp.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">datacamp.com</span><span class="citation-popover-title">few shot prompting</span><span class="citation-popover-snippet">Few-Shot Prompting: Examples, Theory, Use Cases21 Jul 2024 — Few-shot prompting is a technique that involves providing a language model w...</span></span></span>
 
 A model may misunderstand a written instruction such as:
 
 > Return the answer as a JSON object with three fields.
 
-But after seeing several correctly formatted examples, it often reproduces the structure with much greater consistency. OpenAI, Anthropic, and Google all highlight examples as a powerful way to enforce output structure and style. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: help.openai.com">[OpenAI Help Center+2Claude]</a><span class="citation-popover" role="note"><span class="citation-popover-source">help.openai.com</span><span class="citation-popover-snippet">Below we present a number of prompt formats we find work...</span></span></span>
+But after seeing several correctly formatted examples, it often reproduces the structure with much greater consistency. OpenAI, Anthropic, and Google all highlight examples as a powerful way to enforce output structure and style.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: help.openai.com">[OpenAI Help Center+2Claude]</a><span class="citation-popover" role="note"><span class="citation-popover-source">help.openai.com</span><span class="citation-popover-snippet">Below we present a number of prompt formats we find work...</span></span></span>
 
 For example:
 
@@ -447,7 +447,7 @@ In many practical applications, examples are used primarily to define format rat
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_choosing_few_5f591a-Illustration-3-dark.svg" | relative_url }}" alt="Better Examples illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_choosing_few_5f591a-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_choosing_few_5f591a-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## A practical checklist for prompt examples
 
-Before adding an example to a few-shot prompt, ask what it contributes. <span class="citation-chip-wrap"><a class="citation-chip" href="https://cloud.google.com/discover/what-is-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cloud.google.com">[cloud.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cloud.google.com</span><span class="citation-popover-title">what is prompt engineering</span><span class="citation-popover-snippet">Google CloudPrompt Engineering for AI GuideApr 5, 2026 — Use Few-Shot Prompting: Tactic. Prompt Example. Provide a few examples of desire...</span></span></span>
+Before adding an example to a few-shot prompt, ask what it contributes.<span class="citation-chip-wrap"><a class="citation-chip" href="https://cloud.google.com/discover/what-is-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cloud.google.com">[cloud.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cloud.google.com</span><span class="citation-popover-title">what is prompt engineering</span><span class="citation-popover-snippet">Google CloudPrompt Engineering for AI GuideApr 5, 2026 — Use Few-Shot Prompting: Tactic. Prompt Example. Provide a few examples of desire...</span></span></span>
 
 A strong set of examples usually satisfies most of the following criteria:
 
@@ -459,208 +459,208 @@ A strong set of examples usually satisfies most of the following criteria:
 * **Edge-case aware:** includes at least some difficult or borderline situations.
 * **Compact:** contains enough information to teach the pattern without unnecessary noise.
 
-Practitioners often find that two to five carefully selected examples are sufficient for many tasks, especially when each example teaches a distinct lesson. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiwithgrant.com/guides/anthropic-prompt-engineering-overview" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiwithgrant.com">[AI with Grant+2Udemy Blog]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiwithgrant.com</span><span class="citation-popover-snippet">Use Examples (Multishot Prompting). How to use few-shot examples to dramatically improve Claude&#x27;s accuracy, consistency, and output quali...</span></span></span>
+Practitioners often find that two to five carefully selected examples are sufficient for many tasks, especially when each example teaches a distinct lesson.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiwithgrant.com/guides/anthropic-prompt-engineering-overview" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiwithgrant.com">[AI with Grant+2Udemy Blog]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiwithgrant.com</span><span class="citation-popover-snippet">Use Examples (Multishot Prompting). How to use few-shot examples to dramatically improve Claude&#x27;s accuracy, consistency, and output quali...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/T9aRN5JkmL8" title="AI prompt engineering: A deep dive" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=T9aRN5JkmL8" target="_blank" rel="noopener noreferrer">AI prompt engineering: A deep dive</a></p><p class="youtube-embed-meta">Channel: Anthropic</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=T9aRN5JkmL8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=T9aRN5JkmL8">Open on YouTube</a></p></div></div></div>
 
 ## Why more examples can sometimes hurt
 
-It is tempting to keep adding examples whenever performance is imperfect. However, recent research suggests that excessive demonstrations can sometimes reduce effectiveness rather than improve it. Researchers studying what they call the "few-shot dilemma" found cases where adding more examples eventually degraded performance, especially when examples became repetitive or overloaded the context with unnecessary information. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.13196" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Few-shot Dilemma: Over-prompting Large Language Models</span><span class="citation-popover-snippet">The Few-shot Dilemma: Over-prompting Large Language ModelsSeptember 16, 2025...</span><span class="citation-popover-meta">Published: September 16, 2025</span></span></span>
+It is tempting to keep adding examples whenever performance is imperfect. However, recent research suggests that excessive demonstrations can sometimes reduce effectiveness rather than improve it. Researchers studying what they call the "few-shot dilemma" found cases where adding more examples eventually degraded performance, especially when examples became repetitive or overloaded the context with unnecessary information.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.13196" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Few-shot Dilemma: Over-prompting Large Language Models</span><span class="citation-popover-snippet">The Few-shot Dilemma: Over-prompting Large Language ModelsSeptember 16, 2025...</span><span class="citation-popover-meta">Published: September 16, 2025</span></span></span>
 
 This finding reinforces a practical rule: optimise example quality before increasing example quantity.
 
-A concise prompt containing four carefully chosen demonstrations often works better than a prompt containing twenty examples that repeat the same pattern. The purpose of few-shot prompting is not to overwhelm the model with data but to provide the clearest possible demonstrations of the temporary rules you want it to follow. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.13196" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Claude]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Few-shot Dilemma: Over-prompting Large Language Models</span><span class="citation-popover-snippet">The Few-shot Dilemma: Over-prompting Large Language ModelsSeptember 16, 2025...</span><span class="citation-popover-meta">Published: September 16, 2025</span></span></span>
+A concise prompt containing four carefully chosen demonstrations often works better than a prompt containing twenty examples that repeat the same pattern. The purpose of few-shot prompting is not to overwhelm the model with data but to provide the clearest possible demonstrations of the temporary rules you want it to follow.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.13196" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Claude]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Few-shot Dilemma: Over-prompting Large Language Models</span><span class="citation-popover-snippet">The Few-shot Dilemma: Over-prompting Large Language ModelsSeptember 16, 2025...</span><span class="citation-popover-meta">Published: September 16, 2025</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How to pick examples that actually help. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How to pick examples that actually help. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
-        </h4>
-        <p class="fr-book-author">By Chip Huyen</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
+</h4>
+<p class="fr-book-author">By Chip Huyen</p>
         
-        <p class="fr-book-desc">Includes practical advice on selecting examples and prompts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Includes practical advice on selecting examples and prompts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Covers prompt examples and model guidance.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers prompt examples and model guidance.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prompt Engineering for Generative AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=fmZi0AEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Prompt Engineering for Generative AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prompt Engineering for Generative AI">Prompt Engineering for Generative AI</a>
-        </h4>
-        <p class="fr-book-author">By James Phoenix, Mike Taylor</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prompt Engineering for Generative AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=fmZi0AEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Prompt Engineering for Generative AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prompt Engineering for Generative AI">Prompt Engineering for Generative AI</a>
+</h4>
+<p class="fr-book-author">By James Phoenix, Mike Taylor</p>
         
-        <p class="fr-book-desc">Focused on crafting effective prompts and demonstrations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focused on crafting effective prompts and demonstrations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Shows how prompt design shapes outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how prompt design shapes outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prompt Engineering for Generative AI</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prompt Engineering for Generative AI</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/fe4caa4fdcd791b2fb74.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/fe4caa4fdcd791b2fb74.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/aa61fc90ec322633ed9b.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/aa61fc90ec322633ed9b.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt"><img src="{{ '/assets/images/marketplace-covers/5b6f0d8afbdc2e9cb4b7.jpg' | relative_url }}" alt="Listing image for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt"><img src="{{ '/assets/images/marketplace-covers/5b6f0d8afbdc2e9cb4b7.jpg' | relative_url }}" alt="Listing image for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY"><img src="{{ '/assets/images/marketplace-covers/95f715df35fa193ddaab.jpg' | relative_url }}" alt="Listing image for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY"><img src="{{ '/assets/images/marketplace-covers/95f715df35fa193ddaab.jpg' | relative_url }}" alt="Listing image for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="better-examples-how-to-pick-examples-that-actually-help-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -676,7 +676,7 @@ A concise prompt containing four carefully chosen demonstrations often works bet
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -696,7 +696,7 @@ A concise prompt containing four carefully chosen demonstrations often works bet
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -728,7 +728,7 @@ A concise prompt containing four carefully chosen demonstrations often works bet
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -780,7 +780,7 @@ A concise prompt containing four carefully chosen demonstrations often works bet
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -825,7 +825,7 @@ A concise prompt containing four carefully chosen demonstrations often works bet
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -866,176 +866,176 @@ A concise prompt containing four carefully chosen demonstrations often works bet
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: help.openai.com  
-   Link: <a href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api" target="_blank" rel="noopener noreferrer nofollow">https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Below we present a number of prompt formats we find work...</p></details>
+   Link:<a href="https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api" target="_blank" rel="noopener noreferrer nofollow">https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Below we present a number of prompt formats we find work...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: anthropic.com  
    Title: prompt engineering for business performance  
-   Link: <a href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompt-engineering-for-business-performance</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for business performanceFeb 29, 2024 — 2. Few-shot prompting. It&#x27;s helpful to give Claude realistic and speci...</p></details>
+   Link:<a href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompt-engineering-for-business-performance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for business performanceFeb 29, 2024 — 2. Few-shot prompting. It&#x27;s helpful to give Claude realistic and speci...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: ai.google.dev  
-   Link: <a href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow">https://ai.google.dev/gemini-api/docs/prompting-strategies</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI for DevelopersPrompt design strategies | Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</p></details>
+   Link:<a href="https://ai.google.dev/gemini-api/docs/prompting-strategies" target="_blank" rel="noopener noreferrer nofollow">https://ai.google.dev/gemini-api/docs/prompting-strategies</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI for DevelopersPrompt design strategies | Gemini APIApr 28, 2026 — We recommend to always include few-shot examples in your prompts...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
    Title: arXiv The Few-shot Dilemma: Over-prompting Large Language Models  
-   Link: <a href="https://arxiv.org/abs/2509.13196" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.13196</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Few-shot Dilemma: Over-prompting Large Language ModelsSeptember 16, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2509.13196" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.13196</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Few-shot Dilemma: Over-prompting Large Language ModelsSeptember 16, 2025...</p></details>
    Published: September 16, 2025  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: claude.com  
    Title: Best practices for prompt engineering  
-   Link: <a href="https://claude.com/blog/best-practices-for-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://claude.com/blog/best-practices-for-prompt-engineering</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Best practices for prompt engineering - ClaudeNov 10, 2025 — Pro tip: Start with one example (one-shot). Only add more examples (fe...</p></details>
+   Link:<a href="https://claude.com/blog/best-practices-for-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://claude.com/blog/best-practices-for-prompt-engineering</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Best practices for prompt engineering - ClaudeNov 10, 2025 — Pro tip: Start with one example (one-shot). Only add more examples (fe...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: platform.claude.com  
    Title: Prompting best practices  
-   Link: <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices" target="_blank" rel="noopener noreferrer nofollow">https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>best practices - Claude API DocsComprehensive guide to prompt engineering techniques for Claude&#x27;s latest models, covering clarity, exampl...</p></details>
+   Link:<a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices" target="_blank" rel="noopener noreferrer nofollow">https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>best practices - Claude API DocsComprehensive guide to prompt engineering techniques for Claude&#x27;s latest models, covering clarity, exampl...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: cloud.google.com  
    Title: what is prompt engineering  
-   Link: <a href="https://cloud.google.com/discover/what-is-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/discover/what-is-prompt-engineering</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google CloudPrompt Engineering for AI GuideApr 5, 2026 — Use Few-Shot Prompting: Tactic. Prompt Example. Provide a few examples of desire...</p></details>
+   Link:<a href="https://cloud.google.com/discover/what-is-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/discover/what-is-prompt-engineering</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google CloudPrompt Engineering for AI GuideApr 5, 2026 — Use Few-Shot Prompting: Tactic. Prompt Example. Provide a few examples of desire...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: anthropic.com  
    Title: effective context engineering for ai agents  
-   Link: <a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Effective context engineering for AI agents29 Sept 2025 — Providing examples, otherwise known as few-shot prompting, is a well k...</p></details>
+   Link:<a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Effective context engineering for AI agents29 Sept 2025 — Providing examples, otherwise known as few-shot prompting, is a well k...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: blog.udemy.com  
    Title: few shot learning  
-   Link: <a href="https://blog.udemy.com/few-shot-learning/" target="_blank" rel="noopener noreferrer nofollow">https://blog.udemy.com/few-shot-learning/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Udemy BlogFew-Shot Learning: Explained with Code Examples12 Dec 2025 — Few-shot prompting means seeding your prompt with 2–5 crisp, worke...</p></details>
+   Link:<a href="https://blog.udemy.com/few-shot-learning/" target="_blank" rel="noopener noreferrer nofollow">https://blog.udemy.com/few-shot-learning/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Udemy BlogFew-Shot Learning: Explained with Code Examples12 Dec 2025 — Few-shot prompting means seeding your prompt with 2–5 crisp, worke...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: google.com  
-   Link: <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
+   Link:<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: docs.cloud.google.com  
-   Link: <a href="https://docs.cloud.google.com/vertex-ai/[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://docs.cloud.google.com/vertex-ai/[generative-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>few-shot examples | Generative AI on Vertex AIFew-shot prompts are often used to regulate the output formatting, phrasing, scoping, or ge...</p></details>
+   Link:<a href="https://docs.cloud.google.com/vertex-ai/[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://docs.cloud.google.com/vertex-ai/[generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>few-shot examples | Generative AI on Vertex AIFew-shot prompts are often used to regulate the output formatting, phrasing, scoping, or ge...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: about.google  
-   Link: <a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Our products, technology and company...Learn more about Google. Explore our innovative AI products and services, and how we&#x27;re using tec...</p></details>
+   Link:<a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Our products, technology and company...Learn more about Google. Explore our innovative AI products and services, and how we&#x27;re using tec...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: blog.google  
-   Link: <a href="https://blog.google/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>on the Keyword, Google&#x27;s official blog...</p></details>
+   Link:<a href="https://blog.google/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>on the Keyword, Google&#x27;s official blog...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: anthropic.com  
    Title: prompting [long context](&#123;&#123; 'long-context-cost/' | relative_url &#125;&#125;)  
-   Link: <a href="https://www.anthropic.com/news/prompting-long-context" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompting-long-context</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for Claude&#x27;s long context window23 Sept 2023 — Our goal with this experiment is to evaluate techniques to maximize Cla...</p></details>
+   Link:<a href="https://www.anthropic.com/news/prompting-long-context" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompting-long-context</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for Claude&#x27;s long context window23 Sept 2023 — Our goal with this experiment is to evaluate techniques to maximize Cla...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: dev.to  
    Title: 5 prompt engineering patterns that actually work in [production](&#123;&#123; 'retrieval-failures/' | relative_url &#125;&#125;) 4mcj  
-   Link: <a href="https://dev.to/klement_gunndu/5-prompt-engineering-patterns-that-actually-work-in-production-4mcj" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/klement_gunndu/5-prompt-engineering-patterns-that-actually-work-in-production-4mcj</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>DEV Community5 Prompt Engineering Patterns That Actually Work in...9 Mar 2026 — Use Few-Shot Examples to Lock In Format. System prompts...</p></details>
+   Link:<a href="https://dev.to/klement_gunndu/5-prompt-engineering-patterns-that-actually-work-in-production-4mcj" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/klement_gunndu/5-prompt-engineering-patterns-that-actually-work-in-production-4mcj</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>DEV Community5 Prompt Engineering Patterns That Actually Work in...9 Mar 2026 — Use Few-Shot Examples to Lock In Format. System prompts...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: aiwithgrant.com  
-   Link: <a href="https://www.aiwithgrant.com/guides/anthropic-prompt-engineering-overview" target="_blank" rel="noopener noreferrer nofollow">https://www.aiwithgrant.com/guides/anthropic-prompt-engineering-overview</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Use Examples (Multishot Prompting). How to use few-shot examples to dramatically improve Claude&#x27;s accuracy, consistency, and output quali...</p></details>
+   Link:<a href="https://www.aiwithgrant.com/guides/anthropic-prompt-engineering-overview" target="_blank" rel="noopener noreferrer nofollow">https://www.aiwithgrant.com/guides/anthropic-prompt-engineering-overview</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Use Examples (Multishot Prompting). How to use few-shot examples to dramatically improve Claude&#x27;s accuracy, consistency, and output quali...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: smithery.ai  
-   Link: <a href="https://smithery.ai/skills/jamesrochabrun/anthropic-prompt-engineer" target="_blank" rel="noopener noreferrer nofollow">https://smithery.ai/skills/jamesrochabrun/anthropic-prompt-engineer</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>SkillFew-Shot Examples. Provide 2-5 diverse examples showing the pattern you want. 6. Role Assignment. Give Claude a specific role or per...</p></details>
+   Link:<a href="https://smithery.ai/skills/jamesrochabrun/anthropic-prompt-engineer" target="_blank" rel="noopener noreferrer nofollow">https://smithery.ai/skills/jamesrochabrun/anthropic-prompt-engineer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SkillFew-Shot Examples. Provide 2-5 diverse examples showing the pattern you want. 6. Role Assignment. Give Claude a specific role or per...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: datacamp.com  
    Title: few shot prompting  
-   Link: <a href="https://www.datacamp.com/tutorial/few-shot-prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.datacamp.com/tutorial/few-shot-prompting</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Prompting: Examples, Theory, Use Cases21 Jul 2024 — Few-shot prompting is a technique that involves providing a language model w...</p></details>
+   Link:<a href="https://www.datacamp.com/tutorial/few-shot-prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.datacamp.com/tutorial/few-shot-prompting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Prompting: Examples, Theory, Use Cases21 Jul 2024 — Few-shot prompting is a technique that involves providing a language model w...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: zenn.dev  
-   Link: <a href="https://zenn.dev/tsuboi/articles/da19549dbdc6de?locale=en" target="_blank" rel="noopener noreferrer nofollow">https://zenn.dev/tsuboi/articles/da19549dbdc6de?locale=en</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[Anthropic Recommended] Prompt Engineering for Stable...4 Nov 2025 — 1. Control Output Format, Eliminate unnecessary preambles and expla...</p></details>
+   Link:<a href="https://zenn.dev/tsuboi/articles/da19549dbdc6de?locale=en" target="_blank" rel="noopener noreferrer nofollow">https://zenn.dev/tsuboi/articles/da19549dbdc6de?locale=en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Anthropic Recommended] Prompt Engineering for Stable...4 Nov 2025 — 1. Control Output Format, Eliminate unnecessary preambles and expla...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Google</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation](&amp;#123;&amp;#123; &#x27;routes/&#x27; | relative_url &amp;#125;&amp;#125;) applications, email services, office suites, online vid...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Google</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation](&amp;#123;&amp;#123; &#x27;routes/&#x27; | relative_url &amp;#125;&amp;#125;) applications, email services, office suites, online vid...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/Google/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/Google/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>35926522 likes · 157381 talking about this. Organizing the world&#x27;s information and making it universally accessible and useful...</p></details>
+   Link:<a href="https://www.facebook.com/Google/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/Google/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>35926522 likes · 157381 talking about this. Organizing the world&#x27;s information and making it universally accessible and useful...</p></details>
 
 ### Additional References
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40kiranvutukuri/85-few-shot-prompting-learning-from-examples-8fe9301054eb" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kiranvutukuri/85-few-shot-prompting-learning-from-examples-8fe9301054eb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>85. Few-Shot Prompting: Learning from ExamplesFew-shot prompting is one of the most powerful techniques in modern LLM usage. Instead of e...</p></details>
+   Link:<a href="https://medium.com/%40kiranvutukuri/85-few-shot-prompting-learning-from-examples-8fe9301054eb" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kiranvutukuri/85-few-shot-prompting-learning-from-examples-8fe9301054eb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>85. Few-Shot Prompting: Learning from ExamplesFew-shot prompting is one of the most powerful techniques in modern LLM usage. Instead of e...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: github.com  
-   Link: <a href="https://github.com/NirDiamant/Prompt_Engineering/blob/main/all_prompt_engineering_techniques/few-shot-learning.ipynb" target="_blank" rel="noopener noreferrer nofollow">https://github.com/NirDiamant/Prompt_Engineering/blob/main/all_prompt_engineering_techniques/few-shot-learning.ipynb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Learning and [In-Context Learning](&amp;#123;&amp;#123; &#x27;in-context-learning/&#x27; | relative_url &amp;#125;&amp;#125;) TutorialEdge cases: Include examples of unusual or difficult cases. Prompt Engineering: Clear i...</p></details>
+   Link:<a href="https://github.com/NirDiamant/Prompt_Engineering/blob/main/all_prompt_engineering_techniques/few-shot-learning.ipynb" target="_blank" rel="noopener noreferrer nofollow">https://github.com/NirDiamant/Prompt_Engineering/blob/main/all_prompt_engineering_techniques/few-shot-learning.ipynb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Learning and [In-Context Learning](&amp;#123;&amp;#123; &#x27;in-context-learning/&#x27; | relative_url &amp;#125;&amp;#125;) TutorialEdge cases: Include examples of unusual or difficult cases. Prompt Engineering: Clear i...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: matillion.com  
-   Link: <a href="https://www.matillion.com/blog/gen-[ai-prompt" target="_blank" rel="noopener noreferrer nofollow">https://www.matillion.com/blog/gen-[ai-prompt</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Choose Your GenAI Prompting Strategy: Zero Shot...Zero-Shot: no need for additional examples; relies solely on the model&#x27;s pre-tr...</p></details>
+   Link:<a href="https://www.matillion.com/blog/gen-[ai-prompt" target="_blank" rel="noopener noreferrer nofollow">https://www.matillion.com/blog/gen-[ai-prompt</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Choose Your GenAI Prompting Strategy: Zero Shot...Zero-Shot: no need for additional examples; relies solely on the model&#x27;s pre-tr...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/top-prompting-strategies-unveiled-anthropic-experts-martin-treiber-qge0f" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/top-prompting-strategies-unveiled-anthropic-experts-martin-treiber-qge0f</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Top Prompting Strategies Unveiled by Anthropic ExpertsIn multi-shot prompting, the model is provided with multiple examples of the task i...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/top-prompting-strategies-unveiled-anthropic-experts-martin-treiber-qge0f" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/top-prompting-strategies-unveiled-anthropic-experts-martin-treiber-qge0f</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Top Prompting Strategies Unveiled by Anthropic ExpertsIn multi-shot prompting, the model is provided with multiple examples of the task i...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=ggXckjI_w-w" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ggXckjI_w-w</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot PromptingFew-Shot prompting enables a language model to perform tasks more effectively by providing a few examples within the pr...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=ggXckjI_w-w" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ggXckjI_w-w</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot PromptingFew-Shot prompting enables a language model to perform tasks more effectively by providing a few examples within the pr...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: techwithibrahim.medium.com  
    Title: the art of agent prompting lessons from anthropics ai team e8c9ac4db3f3  
-   Link: <a href="https://techwithibrahim.medium.com/the-art-of-agent-prompting-lessons-from-anthropics-ai-team-e8c9ac4db3f3" target="_blank" rel="noopener noreferrer nofollow">https://techwithibrahim.medium.com/the-art-of-agent-prompting-lessons-from-anthropics-ai-team-e8c9ac4db3f3</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Art of Agent Prompting: Anthropic&#x27;s Playbook for Reliable...If you&#x27;re familiar with traditional prompt engineering, you might expect to...</p></details>
+   Link:<a href="https://techwithibrahim.medium.com/the-art-of-agent-prompting-lessons-from-anthropics-ai-team-e8c9ac4db3f3" target="_blank" rel="noopener noreferrer nofollow">https://techwithibrahim.medium.com/the-art-of-agent-prompting-lessons-from-anthropics-ai-team-e8c9ac4db3f3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Art of Agent Prompting: Anthropic&#x27;s Playbook for Reliable...If you&#x27;re familiar with traditional prompt engineering, you might expect to...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: mskadu.medium.com  
    Title: ai prompt engineering insights from anthropics deep dive 780c7fee7079  
-   Link: <a href="https://mskadu.medium.com/ai-prompt-engineering-insights-from-anthropics-deep-dive-780c7fee7079" target="_blank" rel="noopener noreferrer nofollow">https://mskadu.medium.com/ai-prompt-engineering-insights-from-anthropics-deep-dive-780c7fee7079</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering: Insights from Anthropic&#x27;s Deep DiveFew-shot learning: Providing examples within the prompt to guide model behaviour...</p></details>
+   Link:<a href="https://mskadu.medium.com/ai-prompt-engineering-insights-from-anthropics-deep-dive-780c7fee7079" target="_blank" rel="noopener noreferrer nofollow">https://mskadu.medium.com/ai-prompt-engineering-insights-from-anthropics-deep-dive-780c7fee7079</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering: Insights from Anthropic&#x27;s Deep DiveFew-shot learning: Providing examples within the prompt to guide model behaviour...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: meta-intelligence.tech  
    Title: Learn Chain-of-Thought reasoning, Re Act prompting, few-shot strategies,  
-   Link: <a href="https://www.meta-intelligence.tech/en/insight-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.meta-intelligence.tech/en/insight-prompt-engineering</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering Guide: Chain-of-Thought, ReAct &amp; Few...11 Aug 2025 — Master prompt engineering from basics to advanced techniques...</p></details>
+   Link:<a href="https://www.meta-intelligence.tech/en/insight-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.meta-intelligence.tech/en/insight-prompt-engineering</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering Guide: Chain-of-Thought, ReAct &amp; Few...11 Aug 2025 — Master prompt engineering from basics to advanced techniques...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/PromptEngineering/comments/1cgzkdi/everything_you_need_to_know_about_few_shot/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/PromptEngineering/comments/1cgzkdi/everything_you_need_to_know_about_few_shot/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Everything you need to know about few shot prompting - RedditApril 30, 2024 — We put together a 3,000 word guide on everything related to...</p></details>
+   Link:<a href="https://www.reddit.com/r/PromptEngineering/comments/1cgzkdi/everything_you_need_to_know_about_few_shot/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/PromptEngineering/comments/1cgzkdi/everything_you_need_to_know_about_few_shot/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Everything you need to know about few shot prompting - RedditApril 30, 2024 — We put together a 3,000 word guide on everything related to...</p></details>
    Published: April 30, 2024  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: medium.com  
    Title: Prompt Engineering via Prompt Patterns— Few Shots Prompting  
-   Link: <a href="https://medium.com/%40a1guy/prompt-engineering-via-prompt-patterns-few-shots-prompting-4a9182d589e8" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40a1guy/prompt-engineering-via-prompt-patterns-few-shots-prompting-4a9182d589e8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>June 5, 2024 — Few shot examples are kind of a script to generate further content with and ChatGPT follows the script brilliantly filling...</p></details>
+   Link:<a href="https://medium.com/%40a1guy/prompt-engineering-via-prompt-patterns-few-shots-prompting-4a9182d589e8" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40a1guy/prompt-engineering-via-prompt-patterns-few-shots-prompting-4a9182d589e8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>June 5, 2024 — Few shot examples are kind of a script to generate further content with and ChatGPT follows the script brilliantly filling...</p></details>
    Published: June 5, 2024  

@@ -273,7 +273,7 @@ Many AI pilots fail to show [business]({{ 'business-adoption/' | relative_url }}
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665a2d_workflow_rede_165690-Illustration-1-dark.svg" | relative_url }}" alt="Workflow ROI illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665a2d_workflow_rede_165690-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665a2d_workflow_rede_165690-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Research across enterprise AI programmes increasingly points to workflow redesign as the dividing line between pilots that remain demonstrations and deployments that change costs, [speed]({{ 'speed/' | relative_url }}), quality or revenue. High-performing organisations are more likely to redesign workflows around AI capabilities, while companies that merely add AI tools to existing processes often struggle to measure [meaningful]({{ 'human-review/' | relative_url }}) gains. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company+2BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">McKinsey &amp; CompanyThe State of AI: Global Survey 2025November 5, 2025 — 5 Nov 2025 — Redesigning workflows is a key success factor: Half...</span><span class="citation-popover-meta">Published: November 5, 2025</span></span></span>
+Research across enterprise AI programmes increasingly points to workflow redesign as the dividing line between pilots that remain demonstrations and deployments that change costs, [speed]({{ 'speed/' | relative_url }}), quality or revenue. High-performing organisations are more likely to redesign workflows around AI capabilities, while companies that merely add AI tools to existing processes often struggle to measure [meaningful]({{ 'human-review/' | relative_url }}) gains.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company+2BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">McKinsey &amp; CompanyThe State of AI: Global Survey 2025November 5, 2025 — 5 Nov 2025 — Redesigning workflows is a key success factor: Half...</span><span class="citation-popover-meta">Published: November 5, 2025</span></span></span>
 
 ## Where technical success stops and process value begins
 
@@ -283,7 +283,7 @@ For example, a customer-service team may demonstrate that AI can draft replies t
 
 Business value emerges only when the organisation changes how work flows through the system. If employees still review every draft manually, route documents through the same approval chain and maintain the same staffing structure, the organisation may complete one step faster while achieving little improvement in overall performance.
 
-This distinction explains why productivity gains observed in controlled studies do not always translate into visible profit improvements. Research on more than 5,000 customer-support agents found that [generative AI]({{ 'generative-ai/' | relative_url }}) increased productivity by roughly 14–15%, particularly among less experienced workers. However, those gains occurred within a specific work system that could absorb and use the improvement. The technology improved task performance, but organisational value depended on how the workflow incorporated that capability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nber.org/papers/w31161" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nber.org">[NBER+2OUP Academic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nber.org</span><span class="citation-popover-snippet">Generative AI at Workby E Brynjolfsson · 2023 · Cited by 3723 — In this paper, we study the staggered introduction of a generative AI...</span></span></span>
+This distinction explains why productivity gains observed in controlled studies do not always translate into visible profit improvements. Research on more than 5,000 customer-support agents found that [generative AI]({{ 'generative-ai/' | relative_url }}) increased productivity by roughly 14–15%, particularly among less experienced workers. However, those gains occurred within a specific work system that could absorb and use the improvement. The technology improved task performance, but organisational value depended on how the workflow incorporated that capability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nber.org/papers/w31161" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nber.org">[NBER+2OUP Academic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nber.org</span><span class="citation-popover-snippet">Generative AI at Workby E Brynjolfsson · 2023 · Cited by 3723 — In this paper, we study the staggered introduction of a generative AI...</span></span></span>
 
 A useful way to think about the issue is that AI changes the economics of tasks, while workflow redesign changes the economics of the business process. Executives ultimately care about the second outcome.
 
@@ -309,7 +309,7 @@ If AI reduces document creation from thirty minutes to five, the total process t
 
 This phenomenon is one reason organisations frequently overestimate AI ROI. They calculate savings at the task level rather than the process level. The pilot demonstrates a dramatic improvement in one activity, yet the overall customer experience, operational cost or cycle time changes only marginally.
 
-Studies of enterprise AI adoption repeatedly identify poor workflow integration as a major cause of disappointing results. Investigations into stalled AI programmes have found that most failures are linked not to model performance but to the inability to adapt existing operational processes around the technology. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tomshardware.com">[Tom&#x27;s Hardware+2Boomi]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tomshardware.com</span><span class="citation-popover-snippet">The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</span></span></span>
+Studies of enterprise AI adoption repeatedly identify poor workflow integration as a major cause of disappointing results. Investigations into stalled AI programmes have found that most failures are linked not to model performance but to the inability to adapt existing operational processes around the technology.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tomshardware.com">[Tom&#x27;s Hardware+2Boomi]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tomshardware.com</span><span class="citation-popover-snippet">The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</span></span></span>
 
 Several common workflow problems erase gains:
 
@@ -368,7 +368,7 @@ A redesigned workflow may instead:
 
 In this version, AI changes how decisions move through the organisation rather than merely producing documents faster.
 
-Research from MIT Sloan highlights this distinction. Emerging work suggests that AI's greatest impact comes from reshaping how tasks are sequenced, grouped and handed between people and machines, rather than improving isolated activities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mitsloan.mit.edu">[MIT Sloan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mitsloan.mit.edu</span><span class="citation-popover-title">how ai reshaping workflows and redefining jobs</span><span class="citation-popover-snippet">MIT SloanHow AI is reshaping workflows and redefining jobs22 Apr 2026 — New research shows that AI delivers the most value when organizat...</span></span></span>
+Research from MIT Sloan highlights this distinction. Emerging work suggests that AI's greatest impact comes from reshaping how tasks are sequenced, grouped and handed between people and machines, rather than improving isolated activities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mitsloan.mit.edu">[MIT Sloan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mitsloan.mit.edu</span><span class="citation-popover-title">how ai reshaping workflows and redefining jobs</span><span class="citation-popover-snippet">MIT SloanHow AI is reshaping workflows and redefining jobs22 Apr 2026 — New research shows that AI delivers the most value when organizat...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/WgLLZL2KO1E" title="Claude Code Workflows Won&#x27;t Run Your Enterprise Yet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=WgLLZL2KO1E" target="_blank" rel="noopener noreferrer">Claude Code Workflows Won&#x27;t Run Your Enterprise Yet</a></p><p class="youtube-embed-meta">Channel: Orzen AI</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=WgLLZL2KO1E" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=WgLLZL2KO1E">Open on YouTube</a></p></div></div></div>
@@ -379,7 +379,7 @@ Many organisations assume that better AI models will solve ROI problems. In prac
 
 A process that removes unnecessary approvals, reduces waiting time and reallocates work can create substantial gains even with a moderately capable AI system. Conversely, a highly advanced model may generate little value if it remains trapped inside an inefficient workflow.
 
-This finding appears repeatedly in enterprise research. McKinsey's surveys of AI leaders identify workflow redesign as a distinguishing characteristic of organisations achieving stronger results from AI investments. BCG similarly argues that the largest challenge is not the technology itself but redesigning how work is performed and how people interact with AI-enabled processes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">McKinsey &amp; CompanyThe State of AI: Global Survey 2025November 5, 2025 — 5 Nov 2025 — Redesigning workflows is a key success factor: Half...</span><span class="citation-popover-meta">Published: November 5, 2025</span></span></span>
+This finding appears repeatedly in enterprise research. McKinsey's surveys of AI leaders identify workflow redesign as a distinguishing characteristic of organisations achieving stronger results from AI investments. BCG similarly argues that the largest challenge is not the technology itself but redesigning how work is performed and how people interact with AI-enabled processes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">McKinsey &amp; CompanyThe State of AI: Global Survey 2025November 5, 2025 — 5 Nov 2025 — Redesigning workflows is a key success factor: Half...</span><span class="citation-popover-meta">Published: November 5, 2025</span></span></span>
 
 The implication is important: organisations often reach diminishing returns from model improvements before they reach diminishing returns from process redesign.
 
@@ -395,7 +395,7 @@ Successful AI-enabled workflows commonly involve:
 * Combining previously separate tasks.
 * Creating new [oversight]({{ 'oversight/' | relative_url }}) roles focused on quality and governance.
 
-Recent research on AI and labour demand suggests that organisations adapt not only by automating tasks but also by redesigning jobs and reallocating responsibilities. Economic value increasingly comes from organisational reconfiguration rather than simple substitution of labour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.23159" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Generative AI and the Reorganization of Labor Demand</span><span class="citation-popover-snippet">Generative AI and the Reorganization of Labor DemandMay 22, 2026...</span><span class="citation-popover-meta">Published: May 22, 2026</span></span></span>
+Recent research on AI and labour demand suggests that organisations adapt not only by automating tasks but also by redesigning jobs and reallocating responsibilities. Economic value increasingly comes from organisational reconfiguration rather than simple substitution of labour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.23159" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Generative AI and the Reorganization of Labor Demand</span><span class="citation-popover-snippet">Generative AI and the Reorganization of Labor DemandMay 22, 2026...</span><span class="citation-popover-meta">Published: May 22, 2026</span></span></span>
 
 This helps explain why some firms see substantial gains while others report little measurable impact despite similar technology investments. The difference often lies in whether leaders redesign work itself.
 
@@ -420,7 +420,7 @@ The pilot proves that AI can perform a task. However, management cannot answer c
 
 Without answers, the pilot remains an isolated capability rather than becoming part of the operating model.
 
-This pattern is visible across enterprise AI adoption. Organisations frequently move from experimentation to a stage where technical feasibility is established but operational transformation has not occurred. As a result, projects linger without producing measurable business outcomes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.linkedin.com/pulse/building-generative-ai-from-pilot-purgatory-strategic-yasmine-durand-au2te" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: linkedin.com">[LinkedIn+2Astrafy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">linkedin.com</span><span class="citation-popover-title">Pilot programs and proof-of-concept initiatives dominate the landscape.Read more</span><span class="citation-popover-snippet">Building with generative AI: From pilot purgatory to...March 21, 2026 — Most organizations remain in early stages of their AI jo...</span><span class="citation-popover-meta">Published: March 21, 2026</span></span></span>
+This pattern is visible across enterprise AI adoption. Organisations frequently move from experimentation to a stage where technical feasibility is established but operational transformation has not occurred. As a result, projects linger without producing measurable business outcomes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.linkedin.com/pulse/building-generative-ai-from-pilot-purgatory-strategic-yasmine-durand-au2te" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: linkedin.com">[LinkedIn+2Astrafy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">linkedin.com</span><span class="citation-popover-title">Pilot programs and proof-of-concept initiatives dominate the landscape.Read more</span><span class="citation-popover-snippet">Building with generative AI: From pilot purgatory to...March 21, 2026 — Most organizations remain in early stages of their AI jo...</span><span class="citation-popover-meta">Published: March 21, 2026</span></span></span>
 
 The lesson is straightforward. AI ROI is rarely determined by whether a model can perform a task. It is determined by whether the organisation redesigns the workflow around that capability. When approvals, handoffs, decision rights and daily routines remain unchanged, most of the potential value remains trapped inside the pilot. When the workflow itself is redesigned, the same technology can alter cycle times, cost structures, service quality and business performance in ways that become visible on the bottom line.
 
@@ -429,194 +429,194 @@ The lesson is straightforward. AI ROI is rarely determined by whether a model ca
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why AI ROI needs workflow redesign. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why AI ROI needs workflow redesign. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Power and Prediction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=86lYEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Power and Prediction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Power and Prediction">Power and Prediction</a>
-        </h4>
-        <p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Power and Prediction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=86lYEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Power and Prediction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Power and Prediction">Power and Prediction</a>
+</h4>
+<p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
         
-        <p class="fr-book-desc">Explains why process redesign is required to capture AI value.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why process redesign is required to capture AI value.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Directly relevant to AI-enabled workflow redesign.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly relevant to AI-enabled workflow redesign.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Shows practical ways humans and AI collaborate in workflows.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows practical ways humans and AI collaborate in workflows.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Work+Rules%21+by+Laszlo+Bock&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Work Rules! on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=mkmICgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Work Rules!" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Work+Rules%21+by+Laszlo+Bock&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Work Rules!">Work Rules!</a>
-        </h4>
-        <p class="fr-book-author">By Laszlo Bock</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Work+Rules%21+by+Laszlo+Bock&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Work Rules! on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=mkmICgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Work Rules!" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Work+Rules%21+by+Laszlo+Bock&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Work Rules!">Work Rules!</a>
+</h4>
+<p class="fr-book-author">By Laszlo Bock</p>
         
-        <p class="fr-book-desc">Focuses on redesigning work systems rather than isolated tasks.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Work+Rules%21+by+Laszlo+Bock&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on redesigning work systems rather than isolated tasks.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Work+Rules%21+by+Laszlo+Bock&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Power+and+Prediction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Power and Prediction</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Power+and+Prediction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Power and Prediction</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game"><img src="{{ '/assets/images/marketplace-covers/4262455386b429ab533b.jpg' | relative_url }}" alt="Listing image for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">[Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game"><img src="{{ '/assets/images/marketplace-covers/4262455386b429ab533b.jpg' | relative_url }}" alt="Listing image for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">[Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for &#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)"><img src="{{ '/assets/images/marketplace-covers/fbf49f494b646faac637.jpg' | relative_url }}" alt="Listing image for &#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">&#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for &#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)"><img src="{{ '/assets/images/marketplace-covers/fbf49f494b646faac637.jpg' | relative_url }}" alt="Listing image for &#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">&#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Street Fighter 6 desk mat and accessories"><img src="{{ '/assets/images/marketplace-covers/981932c70bf6109b97ed.jpg' | relative_url }}" alt="Listing image for Street Fighter 6 desk mat and accessories" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">Street Fighter 6 desk mat and accessories</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Street Fighter 6 desk mat and accessories"><img src="{{ '/assets/images/marketplace-covers/981932c70bf6109b97ed.jpg' | relative_url }}" alt="Listing image for Street Fighter 6 desk mat and accessories" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">Street Fighter 6 desk mat and accessories</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game"><img src="{{ '/assets/images/marketplace-covers/916acd431b120e527ce9.jpg' | relative_url }}" alt="Listing image for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">[Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game"><img src="{{ '/assets/images/marketplace-covers/916acd431b120e527ce9.jpg' | relative_url }}" alt="Listing image for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">[Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="workflow-roi-why-ai-roi-needs-workflow-redesign-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -632,7 +632,7 @@ The lesson is straightforward. AI ROI is rarely determined by whether a model ca
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -652,7 +652,7 @@ The lesson is straightforward. AI ROI is rarely determined by whether a model ca
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -684,7 +684,7 @@ The lesson is straightforward. AI ROI is rarely determined by whether a model ca
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -736,7 +736,7 @@ The lesson is straightforward. AI ROI is rarely determined by whether a model ca
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -781,7 +781,7 @@ The lesson is straightforward. AI ROI is rarely determined by whether a model ca
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -822,189 +822,189 @@ The lesson is straightforward. AI ROI is rarely determined by whether a model ca
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: mckinsey.com  
    Title: the state of ai  
-   Link: <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>McKinsey &amp; CompanyThe State of AI: Global Survey 2025November 5, 2025 — 5 Nov 2025 — Redesigning workflows is a key success factor: Half...</p></details>
+   Link:<a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>McKinsey &amp; CompanyThe State of AI: Global Survey 2025November 5, 2025 — 5 Nov 2025 — Redesigning workflows is a key success factor: Half...</p></details>
    Published: November 5, 2025  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: bcg.com  
-   Link: <a href="https://www.bcg.com/capabilities/artificial-intelligence/generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/capabilities/artificial-intelligence/generative-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalHow Generative AI Is Transforming BusinessSuccessful GenAI adoption requires redesigning how work gets done, redefining roles...</p></details>
+   Link:<a href="https://www.bcg.com/capabilities/artificial-intelligence/generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/capabilities/artificial-intelligence/generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalHow Generative AI Is Transforming BusinessSuccessful GenAI adoption requires redesigning how work gets done, redefining roles...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: nber.org  
-   Link: <a href="https://www.nber.org/papers/w31161" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/papers/w31161</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI at Workby E Brynjolfsson · 2023 · Cited by 3723 — In this paper, we study the staggered introduction of a generative AI...</p></details>
+   Link:<a href="https://www.nber.org/papers/w31161" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/papers/w31161</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI at Workby E Brynjolfsson · 2023 · Cited by 3723 — In this paper, we study the staggered introduction of a generative AI...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: academic.oup.com  
-   Link: <a href="https://academic.oup.com/qje/article/140/2/889/7990658" target="_blank" rel="noopener noreferrer nofollow">https://academic.oup.com/qje/article/140/2/889/7990658</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>We find that access to AI assistance increases...Read more...</p></details>
+   Link:<a href="https://academic.oup.com/qje/article/140/2/889/7990658" target="_blank" rel="noopener noreferrer nofollow">https://academic.oup.com/qje/article/140/2/889/7990658</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We find that access to AI assistance increases...Read more...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: nber.org  
    Title: measuring productivity impact generative ai  
-   Link: <a href="https://www.nber.org/digest/20236/measuring-productivity-impact-generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/digest/20236/measuring-productivity-impact-generative-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring the Productivity Impact of Generative AIJun 1, 2023 — Customer support agents using an AI tool to guide their conversations saw...</p></details>
+   Link:<a href="https://www.nber.org/digest/20236/measuring-productivity-impact-generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/digest/20236/measuring-productivity-impact-generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring the Productivity Impact of Generative AIJun 1, 2023 — Customer support agents using an AI tool to guide their conversations saw...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: boomi.com  
    Title: Why Most AI Projects Fail To Deliver ROI  
-   Link: <a href="https://boomi.com/blog/why-ai-projects-fail-to-deliver-roi/" target="_blank" rel="noopener noreferrer nofollow">https://boomi.com/blog/why-ai-projects-fail-to-deliver-roi/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>11 Sept 2025 — Platforms focused on integration that links AI with real-time, quality data. Workflow automation to embed AI into bus...</p></details>
+   Link:<a href="https://boomi.com/blog/why-ai-projects-fail-to-deliver-roi/" target="_blank" rel="noopener noreferrer nofollow">https://boomi.com/blog/why-ai-projects-fail-to-deliver-roi/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>11 Sept 2025 — Platforms focused on integration that links AI with real-time, quality data. Workflow automation to embed AI into bus...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: mitsloan.mit.edu  
    Title: how ai reshaping workflows and redefining jobs  
-   Link: <a href="https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs" target="_blank" rel="noopener noreferrer nofollow">https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>MIT SloanHow AI is reshaping workflows and redefining jobs22 Apr 2026 — New research shows that AI delivers the most value when organizat...</p></details>
+   Link:<a href="https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs" target="_blank" rel="noopener noreferrer nofollow">https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT SloanHow AI is reshaping workflows and redefining jobs22 Apr 2026 — New research shows that AI delivers the most value when organizat...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
    Title: arXiv Generative AI and the Reorganization of Labor Demand  
-   Link: <a href="https://arxiv.org/abs/2605.23159" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.23159</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI and the Reorganization of Labor DemandMay 22, 2026...</p></details>
+   Link:<a href="https://arxiv.org/abs/2605.23159" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.23159</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI and the Reorganization of Labor DemandMay 22, 2026...</p></details>
    Published: May 22, 2026  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
    Title: arXiv Beyond Automation: Redesigning Jobs with LLMs to Enhance Productivity  
-   Link: <a href="https://arxiv.org/abs/2512.05659" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2512.05659</a>  
+   Link:<a href="https://arxiv.org/abs/2512.05659" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2512.05659</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: linkedin.com  
    Title: Pilot programs and proof-of-concept initiatives dominate the landscape.Read more  
-   Link: <a href="https://www.linkedin.com/pulse/building-generative-ai-from-pilot-purgatory-strategic-yasmine-durand-au2te" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/building-generative-ai-from-pilot-purgatory-strategic-yasmine-durand-au2te</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Building with generative AI: From pilot purgatory to...March 21, 2026 — Most organizations remain in early stages of their AI jo...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/building-generative-ai-from-pilot-purgatory-strategic-yasmine-durand-au2te" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/building-generative-ai-from-pilot-purgatory-strategic-yasmine-durand-au2te</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Building with generative AI: From pilot purgatory to...March 21, 2026 — Most organizations remain in early stages of their AI jo...</p></details>
    Published: March 21, 2026  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: astrafy.io  
-   Link: <a href="https://astrafy.io/the-hub/blog/technical/scaling-ai-from-pilot-purgatory-why-only-33-reach-[production" target="_blank" rel="noopener noreferrer nofollow">https://astrafy.io/the-hub/blog/technical/scaling-ai-from-pilot-purgatory-why-only-33-reach-[production</a>  
+   Link:<a href="https://astrafy.io/the-hub/blog/technical/scaling-ai-from-pilot-purgatory-why-only-33-reach-[production" target="_blank" rel="noopener noreferrer nofollow">https://astrafy.io/the-hub/blog/technical/scaling-ai-from-pilot-purgatory-why-only-33-reach-[production</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/svengerjets_the-state-of-ai-in-2025-agents-innovation-activity-7406460367830212608-6EmG" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/svengerjets_the-state-of-ai-in-2025-agents-innovation-activity-7406460367830212608-6EmG</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>McKinsey: AI Adoption Drives ROI with Workflow RedesignReal value shows up when AI becomes part of everyday decisions and workflows. It h...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/svengerjets_the-state-of-ai-in-2025-agents-innovation-activity-7406460367830212608-6EmG" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/svengerjets_the-state-of-ai-in-2025-agents-innovation-activity-7406460367830212608-6EmG</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>McKinsey: AI Adoption Drives ROI with Workflow RedesignReal value shows up when AI becomes part of everyday decisions and workflows. It h...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/dejan-kovacevic1_w31161pdf-activity-7362723477138677760-MypQ" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/dejan-kovacevic1_w31161pdf-activity-7362723477138677760-MypQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NBER paper on generative AI boosts productivity by 14%Excited to share recent article highlighting key statistics on how small and medium...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/dejan-kovacevic1_w31161pdf-activity-7362723477138677760-MypQ" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/dejan-kovacevic1_w31161pdf-activity-7362723477138677760-MypQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NBER paper on generative AI boosts productivity by 14%Excited to share recent article highlighting key statistics on how small and medium...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/turrin_80-of-companies-report-no-productivity-gain-activity-7431701551565651968-Lwd4" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/turrin_80-of-companies-report-no-productivity-gain-activity-7431701551565651968-Lwd4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>roductivity gains may be delayed, they are likely coming.Read more...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/turrin_80-of-companies-report-no-productivity-gain-activity-7431701551565651968-Lwd4" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/turrin_80-of-companies-report-no-productivity-gain-activity-7431701551565651968-Lwd4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>roductivity gains may be delayed, they are likely coming.Read more...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/maximevermeir_mit-study-why-95-of-ai-pilots-fail-how-activity-7365291815626760192-45Br" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/maximevermeir_mit-study-why-95-of-ai-pilots-fail-how-activity-7365291815626760192-45Br</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>study [https://lnkd.in/ey2qbYA9](https://lnkd.in/ey2qbYA9) found that 95% of generative...Read more...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/maximevermeir_mit-study-why-95-of-ai-pilots-fail-how-activity-7365291815626760192-45Br" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/maximevermeir_mit-study-why-95-of-ai-pilots-fail-how-activity-7365291815626760192-45Br</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>study [https://lnkd.in/ey2qbYA9](https://lnkd.in/ey2qbYA9) found that 95% of generative...Read more...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: nber.org  
-   Link: <a href="https://www.nber.org/system/files/working_papers/w31161/w31161.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/system/files/working_papers/w31161/w31161.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-based conversational assistant using data from 5,179 customer support agents. Access t...</p></details>
+   Link:<a href="https://www.nber.org/system/files/working_papers/w31161/w31161.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/system/files/working_papers/w31161/w31161.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-based conversational assistant using data from 5,179 customer support agents. Access t...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: nber.org  
    Title: economics generative ai  
-   Link: <a href="https://www.nber.org/reporter/2024number1/economics-generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/reporter/2024number1/economics-generative-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Economics of Generative AI24 Apr 2024 — In research with Lindsey Raymond, we analyze the effects of generative AI on worker productiv...</p></details>
+   Link:<a href="https://www.nber.org/reporter/2024number1/economics-generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/reporter/2024number1/economics-generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Economics of Generative AI24 Apr 2024 — In research with Lindsey Raymond, we analyze the effects of generative AI on worker productiv...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: nber.org  
-   Link: <a href="https://www.nber.org/system/files/working_papers/w33641/w33641.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/system/files/working_papers/w33641/w33641.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A FIELD EXPERIMENT ON GENERATIVE AI RESHAPING...by F Dell&#x27;Acqua · 2025 · Cited by 124 — Despite significant research on how teamwork and...</p></details>
+   Link:<a href="https://www.nber.org/system/files/working_papers/w33641/w33641.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/system/files/working_papers/w33641/w33641.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A FIELD EXPERIMENT ON GENERATIVE AI RESHAPING...by F Dell&#x27;Acqua · 2025 · Cited by 124 — Despite significant research on how teamwork and...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: nber.org  
-   Link: <a href="https://www.nber.org/system/files/working_papers/w34984/w34984.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/system/files/working_papers/w34984/w34984.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(2025), the authors use data on customer support agents and find that access to AI assistance significantly increased worker...R...</p></details>
+   Link:<a href="https://www.nber.org/system/files/working_papers/w34984/w34984.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.nber.org/system/files/working_papers/w34984/w34984.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(2025), the authors use data on customer support agents and find that access to AI assistance significantly increased worker...R...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: mckinsey.com  
-   Link: <a href="https://www.mckinsey.com/cn/our-insights/our-insights/beyond-the-hype-unlocking-value-from-the-ai-revolution" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/cn/our-insights/our-insights/beyond-the-hype-unlocking-value-from-the-ai-revolution</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Beyond the Hype: Unlocking Value from the AI Revolution8 Sept 2025 — Unlocking the full value of generative artificial intelligence requi...</p></details>
+   Link:<a href="https://www.mckinsey.com/cn/our-insights/our-insights/beyond-the-hype-unlocking-value-from-the-ai-revolution" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/cn/our-insights/our-insights/beyond-the-hype-unlocking-value-from-the-ai-revolution</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Beyond the Hype: Unlocking Value from the AI Revolution8 Sept 2025 — Unlocking the full value of generative artificial intelligence requi...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2304.11771" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2304.11771</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI at Workby E Brynjolfsson · 2023 · Cited by 3043 — We study the impact of generative AI on productivity and worker experienc...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2304.11771" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2304.11771</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI at Workby E Brynjolfsson · 2023 · Cited by 3043 — We study the impact of generative AI on productivity and worker experienc...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2304.11771" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2304.11771</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[2304.11771] Generative AI at Workby E Brynjolfsson · 2023 · Cited by 2777 — We study the staggered introduction of a generative AI-based...</p></details>
+   Link:<a href="https://arxiv.org/abs/2304.11771" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2304.11771</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[2304.11771] Generative AI at Workby E Brynjolfsson · 2023 · Cited by 2777 — We study the staggered introduction of a generative AI-based...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: tomshardware.com  
-   Link: <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow">https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</p></details>
+   Link:<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform" target="_blank" rel="noopener noreferrer nofollow">https://www.tomshardware.com/tech-industry/artificial-intelligence/95-percent-of-generative-ai-implementations-in-enterprise-have-no-measurable-impact-on-p-and-l-says-mit-flawed-integration-key-reason-why-ai-projects-underperform</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The study, based on 150 interviews, a survey of 350 employees, and 300 public AI deployments, showed that only 5% of AI pilot programs le...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: instagram.com  
-   Link: <a href="https://www.instagram.com/reel/DTxZVxNgH6L/?hl=en-gb" target="_blank" rel="noopener noreferrer nofollow">https://www.instagram.com/reel/DTxZVxNgH6L/?hl=en-gb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>McKinsey &amp; Company on Instagram: &quot;Most companies are...McKinsey tested 25 organisational attributes against AI profitability. The #1 pre...</p></details>
+   Link:<a href="https://www.instagram.com/reel/DTxZVxNgH6L/?hl=en-gb" target="_blank" rel="noopener noreferrer nofollow">https://www.instagram.com/reel/DTxZVxNgH6L/?hl=en-gb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>McKinsey &amp; Company on Instagram: &quot;Most companies are...McKinsey tested 25 organisational attributes against AI profitability. The #1 pre...</p></details>
 
 ### Additional References
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/ai-fatigue-is-real-and-its-time-for-leaders-to-close-the-organizational-gap" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/ai-fatigue-is-real-and-its-time-for-leaders-to-close-the-organizational-gap</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Many organizations now face a gap between AI investments and actual value realization due to structural and operational shortcomings. Com...</p></details>
+   Link:<a href="https://www.techradar.com/pro/ai-fatigue-is-real-and-its-time-for-leaders-to-close-the-organizational-gap" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/ai-fatigue-is-real-and-its-time-for-leaders-to-close-the-organizational-gap</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Many organizations now face a gap between AI investments and actual value realization due to structural and operational shortcomings. Com...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: augmentic.nl  
-   Link: <a href="https://augmentic.nl/en/ai-levert-niets-op-als-je-het-bovenop-bestaand-werk-plakt-dat-is-het-eigenlijke-nieuws-achter-de-productiviteitsonderzoeken/" target="_blank" rel="noopener noreferrer nofollow">https://augmentic.nl/en/ai-levert-niets-op-als-je-het-bovenop-bestaand-werk-plakt-dat-is-het-eigenlijke-nieuws-achter-de-productiviteitsonderzoeken/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI delivers nothing if you stick it on top of existing work....17 Mar 2026 — A position paper on why productivity research on AI systema...</p></details>
+   Link:<a href="https://augmentic.nl/en/ai-levert-niets-op-als-je-het-bovenop-bestaand-werk-plakt-dat-is-het-eigenlijke-nieuws-achter-de-productiviteitsonderzoeken/" target="_blank" rel="noopener noreferrer nofollow">https://augmentic.nl/en/ai-levert-niets-op-als-je-het-bovenop-bestaand-werk-plakt-dat-is-het-eigenlijke-nieuws-achter-de-productiviteitsonderzoeken/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI delivers nothing if you stick it on top of existing work....17 Mar 2026 — A position paper on why productivity research on AI systema...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: facebook.com  
    Title: most ai initiatives start with a simple question where can we add ai to an exist  
-   Link: <a href="https://www.facebook.com/SIGMASOFTWAREGROUP/posts/most-ai-initiatives-start-with-a-simple-question-where-can-we-add-ai-to-an-exist/1603230061804444/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/SIGMASOFTWAREGROUP/posts/most-ai-initiatives-start-with-a-simple-question-where-can-we-add-ai-to-an-exist/1603230061804444/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Most AI initiatives start with a simple question: where...McKinsey&#x27;s 2025 State of AI report found that companies redesigning workflows...</p></details>
+   Link:<a href="https://www.facebook.com/SIGMASOFTWAREGROUP/posts/most-ai-initiatives-start-with-a-simple-question-where-can-we-add-ai-to-an-exist/1603230061804444/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/SIGMASOFTWAREGROUP/posts/most-ai-initiatives-start-with-a-simple-question-where-can-we-add-ai-to-an-exist/1603230061804444/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Most AI initiatives start with a simple question: where...McKinsey&#x27;s 2025 State of AI report found that companies redesigning workflows...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: mlq.ai  
-   Link: <a href="https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf" target="_blank" rel="noopener noreferrer nofollow">https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The GenAI Divide: State of AI in Business 2025by MIT NANDA · 2025 · Cited by 10 — Generative AI is Transforming Business → Adoption is hi...</p></details>
+   Link:<a href="https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf" target="_blank" rel="noopener noreferrer nofollow">https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The GenAI Divide: State of AI in Business 2025by MIT NANDA · 2025 · Cited by 10 — Generative AI is Transforming Business → Adoption is hi...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: laweconcenter.org  
    Title: ai productivity and labor markets a review of the empirical evidence  
-   Link: <a href="https://laweconcenter.org/resources/ai-productivity-and-labor-markets-a-review-of-the-empirical-evidence/" target="_blank" rel="noopener noreferrer nofollow">https://laweconcenter.org/resources/ai-productivity-and-labor-markets-a-review-of-the-empirical-evidence/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI, Productivity, and Labor Markets: A Review of the...5 Feb 2026 — First, controlled workplace studies consistently show large producti...</p></details>
+   Link:<a href="https://laweconcenter.org/resources/ai-productivity-and-labor-markets-a-review-of-the-empirical-evidence/" target="_blank" rel="noopener noreferrer nofollow">https://laweconcenter.org/resources/ai-productivity-and-labor-markets-a-review-of-the-empirical-evidence/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI, Productivity, and Labor Markets: A Review of the...5 Feb 2026 — First, controlled workplace studies consistently show large producti...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40armankamran/the-gen-ai-adoption-playbook-why-95-of-ai-pilots-stall-how-to-join-the-5-and-build-workflows-55e5d14d64d9" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40armankamran/the-gen-ai-adoption-playbook-why-95-of-ai-pilots-stall-how-to-join-the-5-and-build-workflows-55e5d14d64d9</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Move from “people + tool” to “process + system.” Integrate with line-of-business platforms...Read more...</p></details>
+   Link:<a href="https://medium.com/%40armankamran/the-gen-ai-adoption-playbook-why-95-of-ai-pilots-stall-how-to-join-the-5-and-build-workflows-55e5d14d64d9" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40armankamran/the-gen-ai-adoption-playbook-why-95-of-ai-pilots-stall-how-to-join-the-5-and-build-workflows-55e5d14d64d9</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Move from “people + tool” to “process + system.” Integrate with line-of-business platforms...Read more...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: cfodive.com  
    Title: ai boosts productivity nber case study generative workforce  
-   Link: <a href="https://www.cfodive.com/news/ai-boosts-productivity-nber-case-study-generative-workforce/649110/" target="_blank" rel="noopener noreferrer nofollow">https://www.cfodive.com/news/ai-boosts-productivity-nber-case-study-generative-workforce/649110/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI boosts productivity 14%: NBER case study1 May 2023 — Generative AI improved customer service at a Fortune 500 company by prompting les...</p></details>
+   Link:<a href="https://www.cfodive.com/news/ai-boosts-productivity-nber-case-study-generative-workforce/649110/" target="_blank" rel="noopener noreferrer nofollow">https://www.cfodive.com/news/ai-boosts-productivity-nber-case-study-generative-workforce/649110/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI boosts productivity 14%: NBER case study1 May 2023 — Generative AI improved customer service at a Fortune 500 company by prompting les...</p></details>
    Published: May 2023  
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: instagram.com  
-   Link: <a href="https://www.instagram.com/p/DTQCZ1qDmk6/" target="_blank" rel="noopener noreferrer nofollow">https://www.instagram.com/p/DTQCZ1qDmk6/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It comes when companies redesign workflows, train teams, clean...Read more...</p></details>
+   Link:<a href="https://www.instagram.com/p/DTQCZ1qDmk6/" target="_blank" rel="noopener noreferrer nofollow">https://www.instagram.com/p/DTQCZ1qDmk6/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It comes when companies redesign workflows, train teams, clean...Read more...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: novoslo.com  
    Title: why ai transformations fail and how to avoid it  
-   Link: <a href="https://www.novoslo.com/blog/why-ai-transformations-fail-and-how-to-avoid-it" target="_blank" rel="noopener noreferrer nofollow">https://www.novoslo.com/blog/why-ai-transformations-fail-and-how-to-avoid-it</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why 70% of AI Transformations Fail (And How to Avoid It)2 Mar 2026 — AI transformations fail strategically, not technically. Learn the 5...</p></details>
+   Link:<a href="https://www.novoslo.com/blog/why-ai-transformations-fail-and-how-to-avoid-it" target="_blank" rel="noopener noreferrer nofollow">https://www.novoslo.com/blog/why-ai-transformations-fail-and-how-to-avoid-it</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why 70% of AI Transformations Fail (And How to Avoid It)2 Mar 2026 — AI transformations fail strategically, not technically. Learn the 5...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: hrbrain.ai  
    Title: 5 Steps to Redesign Workflows for AI ROI  
-   Link: <a href="https://hrbrain.ai/blog/redesign-workflows-ai-roi-steps/" target="_blank" rel="noopener noreferrer nofollow">https://hrbrain.ai/blog/redesign-workflows-ai-roi-steps/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>24 Jan 2026 — A practical five-step framework to audit AI spend, map tasks, reassign work, rebuild processes, and measure KPIs...</p></details>
+   Link:<a href="https://hrbrain.ai/blog/redesign-workflows-ai-roi-steps/" target="_blank" rel="noopener noreferrer nofollow">https://hrbrain.ai/blog/redesign-workflows-ai-roi-steps/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>24 Jan 2026 — A practical five-step framework to audit AI spend, map tasks, reassign work, rebuild processes, and measure KPIs...</p></details>

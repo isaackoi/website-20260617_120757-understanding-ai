@@ -298,7 +298,7 @@ AI hiring systems are often presented as objective tools that identify the best 
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5-Illustration-1-dark.svg" | relative_url }}" alt="Hiring Bias illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This challenge sits at the heart of [responsible AI]({{ 'responsible-ai/' | relative_url }}). Hiring algorithms do not independently decide what success looks like; they infer it from data. When historical data reflects an unequal labour market, automated screening can reproduce those inequalities at scale, often with an appearance of neutrality. [Understanding]({{ 'understanding/' | relative_url }}) how this happens is essential for evaluating whether AI is helping organisations find talent or merely automating old assumptions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[EEOC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
+This challenge sits at the heart of [responsible AI]({{ 'responsible-ai/' | relative_url }}). Hiring algorithms do not independently decide what success looks like; they infer it from data. When historical data reflects an unequal labour market, automated screening can reproduce those inequalities at scale, often with an appearance of neutrality. [Understanding]({{ 'understanding/' | relative_url }}) how this happens is essential for evaluating whether AI is helping organisations find talent or merely automating old assumptions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[EEOC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
 
 ## Can hiring AI learn the wrong lesson?
 
@@ -306,7 +306,7 @@ This challenge sits at the heart of [responsible AI]({{ 'responsible-ai/' | rela
 
 The difficulty is that these outcomes are not purely measures of ability. They are the result of human decisions made within specific social and organisational contexts. If a company historically hired more men into technical roles, for example, a model trained on those hiring records may learn that characteristics associated with male applicants correlate with success. The algorithm is not consciously discriminating; it is identifying statistical patterns in the data it was given.
 
-This creates a feedback loop. Past decisions become training data. Training data becomes a prediction model. The model then influences future decisions, reinforcing the original pattern. What began as a historical imbalance can become an automated recommendation system that treats inequality as evidence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">ai rmf rfi 0017</span><span class="citation-popover-snippet">ai rmf rfi 0017</span></span></span>
+This creates a feedback loop. Past decisions become training data. Training data becomes a prediction model. The model then influences future decisions, reinforcing the original pattern. What began as a historical imbalance can become an automated recommendation system that treats inequality as evidence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">ai rmf rfi 0017</span><span class="citation-popover-snippet">ai rmf rfi 0017</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/TvCJMRvw-T0" title="Ethics of AI in HR | Bias, Privacy and Legal Risks Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=TvCJMRvw-T0" target="_blank" rel="noopener noreferrer">Ethics of AI in HR | Bias, Privacy and Legal Risks Explained</a></p><p class="youtube-embed-meta">Channel: The Learning Studio</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=TvCJMRvw-T0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=TvCJMRvw-T0">Open on YouTube</a></p></div></div></div>
@@ -315,11 +315,11 @@ This creates a feedback loop. Past decisions become training data. Training data
 
 The most widely discussed example is Amazon's experimental recruiting system, which was developed to help identify promising job applicants for technical positions.
 
-According to reporting by Reuters, the system was trained using a decade of historical résumés submitted to Amazon. Because the technology sector had been heavily male-dominated during that period, many of the examples associated with successful applicants came from men. The model therefore learned patterns that favoured male candidates. Amazon eventually discovered that the tool penalised résumés containing terms such as "women's", including references like "women's chess club captain", and downgraded applicants from certain women's colleges. The company ultimately abandoned the project. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://jobcannon.io/research/stats/amazon-recruiter-2018" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: jobcannon.io">[JobCannon]</a><span class="citation-popover" role="note"><span class="citation-popover-source">jobcannon.io</span><span class="citation-popover-title">amazon recruiter 2018</span><span class="citation-popover-snippet">Amazon scrapped AI recruiter that penalised &#x27;women&#x27;s&#x27; (2018) — JobCannon Research · JobCannon...</span></span></span>
+According to reporting by Reuters, the system was trained using a decade of historical résumés submitted to Amazon. Because the technology sector had been heavily male-dominated during that period, many of the examples associated with successful applicants came from men. The model therefore learned patterns that favoured male candidates. Amazon eventually discovered that the tool penalised résumés containing terms such as "women's", including references like "women's chess club captain", and downgraded applicants from certain women's colleges. The company ultimately abandoned the project.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://jobcannon.io/research/stats/amazon-recruiter-2018" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: jobcannon.io">[JobCannon]</a><span class="citation-popover" role="note"><span class="citation-popover-source">jobcannon.io</span><span class="citation-popover-title">amazon recruiter 2018</span><span class="citation-popover-snippet">Amazon scrapped AI recruiter that penalised &#x27;women&#x27;s&#x27; (2018) — JobCannon Research · JobCannon...</span></span></span>
 
-What makes the case significant is not simply that the system showed bias. Rather, it demonstrated how a model can learn the wrong lesson from apparently relevant data. The algorithm was not instructed to discriminate against women. It inferred that characteristics associated with male applicants were linked to previous hiring success because that was what the historical records appeared to show. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Open source on theguardian.com.</span></span></span>
+What makes the case significant is not simply that the system showed bias. Rather, it demonstrated how a model can learn the wrong lesson from apparently relevant data. The algorithm was not instructed to discriminate against women. It inferred that characteristics associated with male applicants were linked to previous hiring success because that was what the historical records appeared to show.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Open source on theguardian.com.</span></span></span>
 
-The [Amazon case]({{ 'amazon-case/' | relative_url }}) has become a reference point in discussions about AI accountability because it exposed a broader principle: if historical success reflects unequal access to opportunities, then training on historical success can reproduce exclusion rather than identify talent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.axios.com/2018/10/10/amazon-ai-recruiter-favored-men" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: axios.com">[Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">axios.com</span><span class="citation-popover-title">amazon ai recruiter favored men</span><span class="citation-popover-snippet">The algorithm, implemented in 2014 and trained on a decade&#x27;s worth of job applications primarily from men, inadvertently favored male can...</span></span></span>
+The [Amazon case]({{ 'amazon-case/' | relative_url }}) has become a reference point in discussions about AI accountability because it exposed a broader principle: if historical success reflects unequal access to opportunities, then training on historical success can reproduce exclusion rather than identify talent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.axios.com/2018/10/10/amazon-ai-recruiter-favored-men" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: axios.com">[Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">axios.com</span><span class="citation-popover-title">amazon ai recruiter favored men</span><span class="citation-popover-snippet">The algorithm, implemented in 2014 and trained on a decade&#x27;s worth of job applications primarily from men, inadvertently favored male can...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/nL8-CPLTNTM" title="NYC Open Data Week “Understanding and Addressing Algorithmic Bias in Hiring”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=nL8-CPLTNTM" target="_blank" rel="noopener noreferrer">NYC Open Data Week “Understanding and Addressing Algorithmic Bias in Hiring”</a></p><p class="youtube-embed-meta">Channel: Center for Responsible AI</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=nL8-CPLTNTM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=nL8-CPLTNTM">Open on YouTube</a></p></div></div></div>
@@ -328,13 +328,13 @@ The [Amazon case]({{ 'amazon-case/' | relative_url }}) has become a reference po
 
 The Amazon example illustrates several mechanisms through which hiring AI can inherit inequality.
 
-**Success labels may already contain bias.** If a model is trained on previous hiring decisions, it learns from human judgement rather than from an objective measure of competence. Any systematic preferences in those decisions become part of the training signal. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[EEOC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
+**Success labels may already contain bias.** If a model is trained on previous hiring decisions, it learns from human judgement rather than from an objective measure of competence. Any systematic preferences in those decisions become part of the training signal.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[EEOC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
 
-**Indirect signals can act as proxies.** Even when protected characteristics such as sex or ethnicity are removed, other variables may correlate with them. Educational institutions, employment histories, extracurricular activities, geographical locations, or patterns of language use can unintentionally reveal demographic information. A model may therefore recreate unequal treatment without explicitly using protected attributes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Open source on theguardian.com.</span></span></span>
+**Indirect signals can act as proxies.** Even when protected characteristics such as sex or ethnicity are removed, other variables may correlate with them. Educational institutions, employment histories, extracurricular activities, geographical locations, or patterns of language use can unintentionally reveal demographic information. A model may therefore recreate unequal treatment without explicitly using protected attributes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Open source on theguardian.com.</span></span></span>
 
-**The majority group dominates the examples.** Machine-learning systems often perform best on groups that are strongly represented in training data. When historical records contain far more examples from one demographic group, the model may learn its characteristics in greater detail while treating others as statistical exceptions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">ai rmf rfi 0017</span><span class="citation-popover-snippet">ai rmf rfi 0017</span></span></span>
+**The majority group dominates the examples.** Machine-learning systems often perform best on groups that are strongly represented in training data. When historical records contain far more examples from one demographic group, the model may learn its characteristics in greater detail while treating others as statistical exceptions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">ai rmf rfi 0017</span><span class="citation-popover-snippet">ai rmf rfi 0017</span></span></span>
 
-**Past inequalities appear as predictive correlations.** A model does not distinguish between a pattern caused by genuine job performance and a pattern caused by unequal opportunity. If historically underrepresented groups were less likely to be hired, promoted, or retained because of structural barriers, the system may treat those outcomes as useful predictors rather than as evidence of a flawed process. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">ai rmf rfi 0017</span><span class="citation-popover-snippet">ai rmf rfi 0017</span></span></span>
+**Past inequalities appear as predictive correlations.** A model does not distinguish between a pattern caused by genuine job performance and a pattern caused by unequal opportunity. If historically underrepresented groups were less likely to be hired, promoted, or retained because of structural barriers, the system may treat those outcomes as useful predictors rather than as evidence of a flawed process.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">ai rmf rfi 0017</span><span class="citation-popover-snippet">ai rmf rfi 0017</span></span></span>
 
 The result is that an algorithm can faithfully reproduce the past while failing to improve the future.
 
@@ -344,9 +344,9 @@ The result is that an algorithm can faithfully reproduce the past while failing 
 
 A common response to concerns about hiring bias is to remove information about sex, race, age, or other protected characteristics. While this can reduce some risks, it does not necessarily solve the problem.
 
-Machine-learning systems are capable of discovering relationships among many variables. If particular schools, career paths, activities, or language patterns correlate with demographic groups, the model may reconstruct much of the same information indirectly. Researchers and regulators have repeatedly warned that discrimination can emerge through these proxy variables even when sensitive attributes are absent from the dataset. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[EEOC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
+Machine-learning systems are capable of discovering relationships among many variables. If particular schools, career paths, activities, or language patterns correlate with demographic groups, the model may reconstruct much of the same information indirectly. Researchers and regulators have repeatedly warned that discrimination can emerge through these proxy variables even when sensitive attributes are absent from the dataset.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[EEOC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
 
-The Amazon case illustrated this challenge. Engineers reportedly attempted to neutralise specific indicators associated with women, yet concerns remained that the system could discover alternative pathways leading to similar outcomes. Eliminating one problematic feature did not guarantee that the underlying pattern had disappeared. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Open source on theguardian.com.</span></span></span>
+The Amazon case illustrated this challenge. Engineers reportedly attempted to neutralise specific indicators associated with women, yet concerns remained that the system could discover alternative pathways leading to similar outcomes. Eliminating one problematic feature did not guarantee that the underlying pattern had disappeared.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Open source on theguardian.com.</span></span></span>
 
 This is why responsible AI efforts increasingly focus on outcomes and impacts rather than assuming that removing a few variables will automatically create fairness.
 
@@ -364,9 +364,9 @@ Several checks are particularly important:
 * **Audit proxy variables.** Features that appear neutral should be examined to determine whether they are indirectly encoding protected characteristics.
 * **Maintain human review.** Recruiters should understand how recommendations are generated and retain the authority to challenge them.
 * **Monitor outcomes after deployment.** Fairness assessments should continue once the system is operating, since new patterns can emerge over time.
-* **Document data sources and design choices.** Clear documentation makes it easier to identify where biased outcomes originate and who is responsible for correcting them. EEOC+2Littler Mendelson P.C. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[eeoc.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
+* **Document data sources and design choices.** Clear documentation makes it easier to identify where biased outcomes originate and who is responsible for correcting them. EEOC+2Littler Mendelson P.C.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[eeoc.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
 
-Regulators have increasingly emphasised these principles. The U.S. Equal Employment Opportunity Commission (EEOC), for example, has warned that AI and algorithmic hiring tools can create or perpetuate discriminatory barriers and that existing anti-discrimination laws still apply when employment decisions are automated. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[EEOC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
+Regulators have increasingly emphasised these principles. The U.S. Equal Employment Opportunity Commission (EEOC), for example, has warned that AI and algorithmic hiring tools can create or perpetuate discriminatory barriers and that existing anti-discrimination laws still apply when employment decisions are automated.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eeoc.gov">[EEOC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eeoc.gov</span><span class="citation-popover-snippet">EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness &#124; U.S. Equal Employment Opportunity CommissionOctober 28...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5-Illustration-3-dark.svg" | relative_url }}" alt="Hiring Bias illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -374,165 +374,165 @@ Regulators have increasingly emphasised these principles. The U.S. Equal Employm
 
 The hiring-bias problem reveals an important truth about artificial intelligence more generally: AI systems do not automatically discover what is fair, valuable, or deserving. They learn from examples.
 
-When the examples come from a history shaped by unequal opportunities, the model may mistake inherited advantage for evidence of talent. The Amazon recruiting project became influential not because it represented every hiring system, but because it exposed a fundamental risk of machine learning itself. A model trained on yesterday's definition of success can end up preserving yesterday's inequalities unless organisations actively test, question, and govern the assumptions hidden in the data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://jobcannon.io/research/stats/amazon-recruiter-2018" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: jobcannon.io">[JobCannon+2The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">jobcannon.io</span><span class="citation-popover-title">amazon recruiter 2018</span><span class="citation-popover-snippet">Amazon scrapped AI recruiter that penalised &#x27;women&#x27;s&#x27; (2018) — JobCannon Research · JobCannon...</span></span></span>
+When the examples come from a history shaped by unequal opportunities, the model may mistake inherited advantage for evidence of talent. The Amazon recruiting project became influential not because it represented every hiring system, but because it exposed a fundamental risk of machine learning itself. A model trained on yesterday's definition of success can end up preserving yesterday's inequalities unless organisations actively test, question, and govern the assumptions hidden in the data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://jobcannon.io/research/stats/amazon-recruiter-2018" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: jobcannon.io">[JobCannon+2The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">jobcannon.io</span><span class="citation-popover-title">amazon recruiter 2018</span><span class="citation-popover-snippet">Amazon scrapped AI recruiter that penalised &#x27;women&#x27;s&#x27; (2018) — JobCannon Research · JobCannon...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can hiring AI learn the wrong lesson?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can hiring AI learn the wrong lesson?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explains how training data can encode problematic lessons.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how training data can encode problematic lessons.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Directly discusses hiring and employment algorithms.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly discusses hiring and employment algorithms.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nPy9uwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
-        </h4>
-        <p class="fr-book-author">By Ruha Benjamin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nPy9uwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
+</h4>
+<p class="fr-book-author">By Ruha Benjamin</p>
         
-        <p class="fr-book-desc">Examines bias reproduction through technology.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines bias reproduction through technology.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Automating Inequality on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pn4pDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Automating Inequality" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Automating Inequality">Automating Inequality</a>
-        </h4>
-        <p class="fr-book-author">By Virginia Eubanks</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Automating Inequality on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pn4pDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Automating Inequality" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Automating Inequality">Automating Inequality</a>
+</h4>
+<p class="fr-book-author">By Virginia Eubanks</p>
         
-        <p class="fr-book-desc">Shows how historical patterns become automated outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how historical patterns become automated outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Race+After+Technology&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Race After Technology</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Race+After+Technology&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Race After Technology</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the"><img src="{{ '/assets/images/marketplace-covers/1515dedd74439640eac3.jpg' | relative_url }}" alt="Listing image for I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the"><img src="{{ '/assets/images/marketplace-covers/1515dedd74439640eac3.jpg' | relative_url }}" alt="Listing image for I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;M A PROFESSIONAL ANAESTHETIST Mug - AI BOTS CAN&#x27;T DO THAT - Top Shelf Mug Gift"><img src="{{ '/assets/images/marketplace-covers/b487d2da6b617f2dae35.jpg' | relative_url }}" alt="Listing image for I&#x27;M A PROFESSIONAL ANAESTHETIST Mug - AI BOTS CAN&#x27;T DO THAT - Top Shelf Mug Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">I&#x27;M A PROFESSIONAL ANAESTHETIST Mug - AI BOTS CAN&#x27;T DO THAT - Top Shelf Mug Gift</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;M A PROFESSIONAL ANAESTHETIST Mug - AI BOTS CAN&#x27;T DO THAT - Top Shelf Mug Gift"><img src="{{ '/assets/images/marketplace-covers/b487d2da6b617f2dae35.jpg' | relative_url }}" alt="Listing image for I&#x27;M A PROFESSIONAL ANAESTHETIST Mug - AI BOTS CAN&#x27;T DO THAT - Top Shelf Mug Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">I&#x27;M A PROFESSIONAL ANAESTHETIST Mug - AI BOTS CAN&#x27;T DO THAT - Top Shelf Mug Gift</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="hiring-bias-can-hiring-ai-learn-the-wrong-lesson-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -548,7 +548,7 @@ When the examples come from a history shaped by unequal opportunities, the model
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -568,7 +568,7 @@ When the examples come from a history shaped by unequal opportunities, the model
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -600,7 +600,7 @@ When the examples come from a history shaped by unequal opportunities, the model
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -652,7 +652,7 @@ When the examples come from a history shaped by unequal opportunities, the model
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -697,7 +697,7 @@ When the examples come from a history shaped by unequal opportunities, the model
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -738,79 +738,79 @@ When the examples come from a history shaped by unequal opportunities, the model
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: eeoc.gov  
-   Link: <a href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow">https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness | U.S. Equal Employment Opportunity CommissionOctober 28...</p></details>
+   Link:<a href="https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness" target="_blank" rel="noopener noreferrer nofollow">https://www.eeoc.gov/newsroom/eeoc-launches-initiative-artificial-intelligence-and-algorithmic-fairness</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EEOC Launches Initiative on Artificial Intelligence and Algorithmic Fairness | U.S. Equal Employment Opportunity CommissionOctober 28...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: nist.gov  
    Title: ai rmf rfi 0017  
-   Link: <a href="https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html</a>  
+   Link:<a href="https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/system/files/documents/2021/08/19/ai-rmf-rfi-0017.html</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: jobcannon.io  
    Title: amazon recruiter 2018  
-   Link: <a href="https://jobcannon.io/research/stats/amazon-recruiter-2018" target="_blank" rel="noopener noreferrer nofollow">https://jobcannon.io/research/stats/amazon-recruiter-2018</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon scrapped AI recruiter that penalised &#x27;women&#x27;s&#x27; (2018) — JobCannon Research · JobCannon...</p></details>
+   Link:<a href="https://jobcannon.io/research/stats/amazon-recruiter-2018" target="_blank" rel="noopener noreferrer nofollow">https://jobcannon.io/research/stats/amazon-recruiter-2018</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon scrapped AI recruiter that penalised &#x27;women&#x27;s&#x27; (2018) — JobCannon Research · JobCannon...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: axios.com  
    Title: amazon ai recruiter favored men  
-   Link: <a href="https://www.axios.com/2018/10/10/amazon-ai-recruiter-favored-men" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2018/10/10/amazon-ai-recruiter-favored-men</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The algorithm, implemented in 2014 and trained on a decade&#x27;s worth of job applications primarily from men, inadvertently favored male can...</p></details>
+   Link:<a href="https://www.axios.com/2018/10/10/amazon-ai-recruiter-favored-men" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2018/10/10/amazon-ai-recruiter-favored-men</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The algorithm, implemented in 2014 and trained on a decade&#x27;s worth of job applications primarily from men, inadvertently favored male can...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/sustainability/society-equity/comment-[business" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/sustainability/society-equity/comment-[business</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Highlighting a past incident where Amazon&#x27;s AI recruitment tool favored male candidates due to biased training data, the piece draws atte...</p></details>
+   Link:<a href="https://www.reuters.com/sustainability/society-equity/comment-[business" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/sustainability/society-equity/comment-[business</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Highlighting a past incident where Amazon&#x27;s AI recruitment tool favored male candidates due to biased training data, the piece draws atte...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: littler.com  
-   Link: <a href="https://www.littler.com/publication-press/publication/eeoc-issues-guidance-use-artificial-intelligence-tools-employment" target="_blank" rel="noopener noreferrer nofollow">https://www.littler.com/publication-press/publication/eeoc-issues-guidance-use-artificial-intelligence-tools-employment</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Littler Mendelson P.C.EEOC Issues Guidance on Use of Artificial Intelligence Tools in Employment Selection Procedures Under Title VII | L...</p></details>
+   Link:<a href="https://www.littler.com/publication-press/publication/eeoc-issues-guidance-use-artificial-intelligence-tools-employment" target="_blank" rel="noopener noreferrer nofollow">https://www.littler.com/publication-press/publication/eeoc-issues-guidance-use-artificial-intelligence-tools-employment</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Littler Mendelson P.C.EEOC Issues Guidance on Use of Artificial Intelligence Tools in Employment Selection Procedures Under Title VII | L...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine</a>  
+   Link:<a href="https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2018/oct/10/amazon-hiring-ai-gender-bias-recruiting-engine</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/technology/2024/mar/06/ai-interviews-job-applications" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2024/mar/06/ai-interviews-job-applications</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Ty, a 29-year-old from the DC metro area, was surprised when their interviewer turned out to be an AI program, showing the impersonal nat...</p></details>
+   Link:<a href="https://www.theguardian.com/technology/2024/mar/06/ai-interviews-job-applications" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2024/mar/06/ai-interviews-job-applications</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Ty, a 29-year-old from the DC metro area, was surprised when their interviewer turned out to be an AI program, showing the impersonal nat...</p></details>
 
 ### Additional References
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/AttorneysHelp/comments/1rvdlgi/when_ai_hiring_tools_pull_the_wrong_background/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/AttorneysHelp/comments/1rvdlgi/when_ai_hiring_tools_pull_the_wrong_background/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI hiring tools pull the wrong background report: how to fix screening errorsMarch 16, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/AttorneysHelp/comments/1rvdlgi/when_ai_hiring_tools_pull_the_wrong_background/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/AttorneysHelp/comments/1rvdlgi/when_ai_hiring_tools_pull_the_wrong_background/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI hiring tools pull the wrong background report: how to fix screening errorsMarch 16, 2026...</p></details>
    Published: March 16, 2026  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=OBT-rzZQAws" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=OBT-rzZQAws</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Rejected Women | $10M AI Mistake | How Statistics Could&#x27;ve Prevented It...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=OBT-rzZQAws" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=OBT-rzZQAws</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Rejected Women | $10M AI Mistake | How Statistics Could&#x27;ve Prevented It...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
    Title: Amazon Rejected Women | $10M AI Mistake | How Statistics Could've Prevented It  
-   Link: <a href="https://www.youtube.com/watch?v=A5qiIILKSE0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=A5qiIILKSE0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Ethics of AI in HR | Bias, Privacy and [Legal Risks](&amp;#123;&amp;#123; &#x27;legal-risks/&#x27; | relative_url &amp;#125;&amp;#125;) Explained...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=A5qiIILKSE0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=A5qiIILKSE0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Ethics of AI in HR | Bias, Privacy and [Legal Risks](&amp;#123;&amp;#123; &#x27;legal-risks/&#x27; | relative_url &amp;#125;&amp;#125;) Explained...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
    Title: Ethics of AI in HR | Bias, Privacy and Legal Risks Explained  
-   Link: <a href="https://www.youtube.com/watch?v=TvCJMRvw-T0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TvCJMRvw-T0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NYC Open Data Week “Understanding and Addressing Algorithmic Bias in Hiring”...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=TvCJMRvw-T0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TvCJMRvw-T0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NYC Open Data Week “Understanding and Addressing Algorithmic Bias in Hiring”...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
    Title: Why Amazon Abandoned Its AI Hiring System  
-   Link: <a href="https://www.youtube.com/watch?v=RWNpLjTT0hk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=RWNpLjTT0hk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Fairness 101: Real-World Incidents #7 Amazon AI Hiring Bias: How an Algorithm Rejected Women...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=RWNpLjTT0hk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=RWNpLjTT0hk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Fairness 101: Real-World Incidents #7 Amazon AI Hiring Bias: How an Algorithm Rejected Women...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: NYC Open Data Week “Understanding and Addressing Algorithmic Bias in Hiring”  
-   Link: <a href="https://www.youtube.com/watch?v=nL8-CPLTNTM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nL8-CPLTNTM</a>  
+   Link:<a href="https://www.youtube.com/watch?v=nL8-CPLTNTM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nL8-CPLTNTM</a>  

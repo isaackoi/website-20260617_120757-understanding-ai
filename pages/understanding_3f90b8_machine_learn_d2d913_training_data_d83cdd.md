@@ -288,19 +288,19 @@ image: /assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d8
 
 ## Introduction
 
-Training data is not just background material for an artificial intelligence system. It is the model’s experience of the world. A [machine-learning]({{ 'machine-learning/' | relative_url }}) model learns by examining examples and adjusting itself to reduce mistakes, so the patterns present in those examples strongly influence what the model comes to treat as important, normal, unusual, relevant, or predictive. If the data is rich and representative, the model is more likely to perform well on new cases. If the data is incomplete, biased, or misleading, the model can learn the wrong lessons. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
+Training data is not just background material for an artificial intelligence system. It is the model’s experience of the world. A [machine-learning]({{ 'machine-learning/' | relative_url }}) model learns by examining examples and adjusting itself to reduce mistakes, so the patterns present in those examples strongly influence what the model comes to treat as important, normal, unusual, relevant, or predictive. If the data is rich and representative, the model is more likely to perform well on new cases. If the data is incomplete, biased, or misleading, the model can learn the wrong lessons.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd-Illustration-1-dark.svg" | relative_url }}" alt="Training data illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-[Understanding]({{ 'understanding/' | relative_url }}) training data is therefore essential to understanding artificial intelligence. The behaviour of a model is shaped not only by its algorithms and computing power, but also by the evidence it receives during training. In many practical situations, the data has as much influence on outcomes as the model design itself. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">data characteristics</span><span class="citation-popover-snippet">Google for DevelopersDatasets: Data characteristics &#124; Machine Learning3 Dec 2025 — A machine learning model&#x27;s performance is heavily reli...</span></span></span>
+[Understanding]({{ 'understanding/' | relative_url }}) training data is therefore essential to understanding artificial intelligence. The behaviour of a model is shaped not only by its algorithms and computing power, but also by the evidence it receives during training. In many practical situations, the data has as much influence on outcomes as the model design itself.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">data characteristics</span><span class="citation-popover-snippet">Google for DevelopersDatasets: Data characteristics &#124; Machine Learning3 Dec 2025 — A machine learning model&#x27;s performance is heavily reli...</span></span></span>
 
 ## What counts as training data?
 
 Training data is the collection of examples used to teach a machine-learning system. The exact form depends on the task.
 
-A spam filter may be trained on emails labelled as “spam” or “not spam”. An image-recognition system may learn from millions of pictures paired with object labels. A language model may learn from large collections of books, articles, websites, and other text. Regardless of the format, the examples provide evidence about what relationships exist between inputs and outputs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
+A spam filter may be trained on emails labelled as “spam” or “not spam”. An image-recognition system may learn from millions of pictures paired with object labels. A language model may learn from large collections of books, articles, websites, and other text. Regardless of the format, the examples provide evidence about what relationships exist between inputs and outputs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
 
-Training datasets can contain: <span class="citation-chip-wrap"><a class="citation-chip" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[developers.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
+Training datasets can contain:<span class="citation-chip-wrap"><a class="citation-chip" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[developers.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
 
 
 <div class="content-enhancement content-enhancement--metric" markdown="1">
@@ -310,22 +310,22 @@ Training datasets can contain: <span class="citation-chip-wrap"><a class="citati
 * Audio recordings.
 * Numerical measurements.
 * Categories or labels attached by humans.
-* Behavioural records, such as clicks, purchases, or ratings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">data characteristics</span><span class="citation-popover-snippet">Google for DevelopersDatasets: Data characteristics &#124; Machine Learning3 Dec 2025 — A machine learning model&#x27;s performance is heavily reli...</span></span></span>
+* Behavioural records, such as clicks, purchases, or ratings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">data characteristics</span><span class="citation-popover-snippet">Google for DevelopersDatasets: Data characteristics &#124; Machine Learning3 Dec 2025 — A machine learning model&#x27;s performance is heavily reli...</span></span></span>
 
 </div>
 
-The crucial point is that the model does not directly observe reality. It observes the dataset. If the dataset provides a narrow or distorted view of reality, that view can become embedded in the model’s behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
+The crucial point is that the model does not directly observe reality. It observes the dataset. If the dataset provides a narrow or distorted view of reality, that view can become embedded in the model’s behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/iBQlukGBZ78" title="FREE Machine Learning Crash Course from Google" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=iBQlukGBZ78" target="_blank" rel="noopener noreferrer">FREE Machine Learning Crash Course from Google</a></p><p class="youtube-embed-meta">Channel: Data Professor</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=iBQlukGBZ78" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=iBQlukGBZ78">Open on YouTube</a></p></div></div></div>
 
 ## How examples become model behaviour
 
-During training, a model repeatedly compares its [predictions]({{ 'predictions/' | relative_url }}) with known examples and adjusts internal parameters to improve performance. Over time, it becomes better at recognising statistical relationships that help it succeed on the training task. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
+During training, a model repeatedly compares its [predictions]({{ 'predictions/' | relative_url }}) with known examples and adjusts internal parameters to improve performance. Over time, it becomes better at recognising statistical relationships that help it succeed on the training task.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
 
-This process means the model learns whatever patterns help reduce errors. Sometimes those patterns are [meaningful]({{ 'human-review/' | relative_url }}). For example, a medical image model may learn visual signs associated with a disease. Other times, the model may discover [shortcuts]({{ 'shortcuts/' | relative_url }}) that happen to work in the dataset but do not reflect genuine cause-and-effect relationships. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.03856" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Learning to Model and Ignore Dataset Bias with Mixed Capacity Ensembles</span><span class="citation-popover-snippet">Learning to Model and Ignore Dataset Bias with Mixed Capacity EnsemblesNovember 7, 2020...</span><span class="citation-popover-meta">Published: November 7, 2020</span></span></span>
+This process means the model learns whatever patterns help reduce errors. Sometimes those patterns are [meaningful]({{ 'human-review/' | relative_url }}). For example, a medical image model may learn visual signs associated with a disease. Other times, the model may discover [shortcuts]({{ 'shortcuts/' | relative_url }}) that happen to work in the dataset but do not reflect genuine cause-and-effect relationships.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.03856" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Learning to Model and Ignore Dataset Bias with Mixed Capacity Ensembles</span><span class="citation-popover-snippet">Learning to Model and Ignore Dataset Bias with Mixed Capacity EnsemblesNovember 7, 2020...</span><span class="citation-popover-meta">Published: November 7, 2020</span></span></span>
 
-Imagine a dataset where nearly every photograph of a dog happens to be taken indoors. A model could learn that indoor backgrounds are a useful clue for identifying dogs. The model may appear accurate during testing on similar data, yet struggle when shown dogs outdoors. Researchers describe these misleading relationships as dataset biases or spurious correlations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.03856" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Learning to Model and Ignore Dataset Bias with Mixed Capacity Ensembles</span><span class="citation-popover-snippet">Learning to Model and Ignore Dataset Bias with Mixed Capacity EnsemblesNovember 7, 2020...</span><span class="citation-popover-meta">Published: November 7, 2020</span></span></span>
+Imagine a dataset where nearly every photograph of a dog happens to be taken indoors. A model could learn that indoor backgrounds are a useful clue for identifying dogs. The model may appear accurate during testing on similar data, yet struggle when shown dogs outdoors. Researchers describe these misleading relationships as dataset biases or spurious correlations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.03856" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Learning to Model and Ignore Dataset Bias with Mixed Capacity Ensembles</span><span class="citation-popover-snippet">Learning to Model and Ignore Dataset Bias with Mixed Capacity EnsemblesNovember 7, 2020...</span><span class="citation-popover-meta">Published: November 7, 2020</span></span></span>
 
 The model therefore learns two things simultaneously:
 
@@ -337,7 +337,7 @@ The model therefore learns two things simultaneously:
 
 </div>
 
-Because machine learning is fundamentally pattern matching, the model has no built-in understanding of which correlations humans consider meaningful unless the training process and data encourage it to learn the right ones. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.03856" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Learning to Model and Ignore Dataset Bias with Mixed Capacity Ensembles</span><span class="citation-popover-snippet">Learning to Model and Ignore Dataset Bias with Mixed Capacity EnsemblesNovember 7, 2020...</span><span class="citation-popover-meta">Published: November 7, 2020</span></span></span>
+Because machine learning is fundamentally pattern matching, the model has no built-in understanding of which correlations humans consider meaningful unless the training process and data encourage it to learn the right ones.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2011.03856" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Learning to Model and Ignore Dataset Bias with Mixed Capacity Ensembles</span><span class="citation-popover-snippet">Learning to Model and Ignore Dataset Bias with Mixed Capacity EnsemblesNovember 7, 2020...</span><span class="citation-popover-meta">Published: November 7, 2020</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd-Illustration-2-dark.svg" | relative_url }}" alt="Training data illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_training_data_d83cdd-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -345,7 +345,7 @@ Because machine learning is fundamentally pattern matching, the model has no bui
 
 Models generally pay more [attention]({{ 'attention/' | relative_url }}) to patterns that appear repeatedly. Common examples have a stronger influence on what is learned than rare examples.
 
-If a dataset contains thousands of examples of one category but only a handful of another, the model may become very good at recognising the common category while struggling with the rare one. Researchers studying class imbalance have shown that training-set composition can significantly affect how often a model recognises rare cases correctly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2207.03207" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">An Exploration of How Training Set Composition Bias in Machine Learning Affects Identifying Rare ObjectsJuly 7, 2022...</span><span class="citation-popover-meta">Published: July 7, 2022</span></span></span>
+If a dataset contains thousands of examples of one category but only a handful of another, the model may become very good at recognising the common category while struggling with the rare one. Researchers studying class imbalance have shown that training-set composition can significantly affect how often a model recognises rare cases correctly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2207.03207" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">An Exploration of How Training Set Composition Bias in Machine Learning Affects Identifying Rare ObjectsJuly 7, 2022...</span><span class="citation-popover-meta">Published: July 7, 2022</span></span></span>
 
 This is one reason why collecting diverse examples is often as important as collecting large numbers of examples.
 
@@ -353,11 +353,11 @@ This is one reason why collecting diverse examples is often as important as coll
 
 A model cannot learn patterns that are absent from its training experience. Missing data creates blind spots.
 
-Suppose a speech-recognition system is trained mostly on recordings from a limited range of [accents]({{ 'accents/' | relative_url }}). The system may perform well for speakers represented in the data while making more mistakes for others. The issue is not necessarily that the algorithm dislikes certain accents; rather, it has had fewer opportunities to learn their characteristics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_Responsible%20AI%20Framework_ADSaMM%20group.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: unece.org">[UNECE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">unece.org</span><span class="citation-popover-title">Fairness in Machine Learning Representation bias occurs when the training data used is not representative of the population the model wil</span><span class="citation-popover-snippet">UNECEFairness in Machine LearningRepresentation bias occurs when the training data used is not representative of the population the model...</span></span></span>
+Suppose a speech-recognition system is trained mostly on recordings from a limited range of [accents]({{ 'accents/' | relative_url }}). The system may perform well for speakers represented in the data while making more mistakes for others. The issue is not necessarily that the algorithm dislikes certain accents; rather, it has had fewer opportunities to learn their characteristics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_Responsible%20AI%20Framework_ADSaMM%20group.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: unece.org">[UNECE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">unece.org</span><span class="citation-popover-title">Fairness in Machine Learning Representation bias occurs when the training data used is not representative of the population the model wil</span><span class="citation-popover-snippet">UNECEFairness in Machine LearningRepresentation bias occurs when the training data used is not representative of the population the model...</span></span></span>
 
-Researchers and standards organisations frequently identify representation problems as a major source of AI bias. When important groups, situations, or environments are underrepresented, the resulting model can systematically perform worse for them. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
+Researchers and standards organisations frequently identify representation problems as a major source of AI bias. When important groups, situations, or environments are underrepresented, the resulting model can systematically perform worse for them.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
 
-Poor-quality examples can also cause problems. Incorrect labels, measurement errors, duplicated records, outdated information, or inconsistent data can teach models inaccurate relationships. Since machine learning depends on finding patterns in past examples, flawed evidence often produces flawed behaviour. This principle is sometimes summarised as “garbage in, garbage out.” <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">data characteristics</span><span class="citation-popover-snippet">Google for DevelopersDatasets: Data characteristics &#124; Machine Learning3 Dec 2025 — A machine learning model&#x27;s performance is heavily reli...</span></span></span>
+Poor-quality examples can also cause problems. Incorrect labels, measurement errors, duplicated records, outdated information, or inconsistent data can teach models inaccurate relationships. Since machine learning depends on finding patterns in past examples, flawed evidence often produces flawed behaviour. This principle is sometimes summarised as “garbage in, garbage out.”<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">data characteristics</span><span class="citation-popover-snippet">Google for DevelopersDatasets: Data characteristics &#124; Machine Learning3 Dec 2025 — A machine learning model&#x27;s performance is heavily reli...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/hhFSzkneyAU" title="Training Data vs Test Data Explained | Machine Learning Fundamentals" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=hhFSzkneyAU" target="_blank" rel="noopener noreferrer">Training Data vs Test Data Explained | Machine Learning Fundamentals</a></p><p class="youtube-embed-meta">Channel: CloudWolf AWS</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=hhFSzkneyAU" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=hhFSzkneyAU">Open on YouTube</a></p></div></div></div>
@@ -366,9 +366,9 @@ Poor-quality examples can also cause problems. Incorrect labels, measurement err
 
 Representation is not merely a technical detail. It influences what a model considers typical.
 
-For example, if historical data reflects existing social inequalities, a model may learn those patterns and reproduce them in future predictions. NIST notes that human and institutional biases can enter AI systems through the data used for training, while IBM defines data bias as biases in training or fine-tuning datasets that affect model behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
+For example, if historical data reflects existing social inequalities, a model may learn those patterns and reproduce them in future predictions. NIST notes that human and institutional biases can enter AI systems through the data used for training, while IBM defines data bias as biases in training or fine-tuning datasets that affect model behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</span></span></span>
 
-Recent discussions of gender representation in AI similarly emphasise that models trained on incomplete or skewed datasets can generate outputs that underrepresent or disadvantage certain groups because the training data itself does not adequately reflect the population being modelled. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/the-gender-data-gap-and-the-need-for-representation-in-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-snippet">It explains that AI systems, while beneficial in streamlining tasks and decision-making, are only as unbiased as the data they are traine...</span></span></span>
+Recent discussions of gender representation in AI similarly emphasise that models trained on incomplete or skewed datasets can generate outputs that underrepresent or disadvantage certain groups because the training data itself does not adequately reflect the population being modelled.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/the-gender-data-gap-and-the-need-for-representation-in-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-snippet">It explains that AI systems, while beneficial in streamlining tasks and decision-making, are only as unbiased as the data they are traine...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/y0-QlgVZE8Q" title="Podcast : How to Detect Hidden Bias in Your ML Model — A Step-by-Step Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=y0-QlgVZE8Q" target="_blank" rel="noopener noreferrer">Podcast : How to Detect Hidden Bias in Your ML Model — A Step-by-Step Tutorial</a></p><p class="youtube-embed-meta">Channel: AI in Plain Text | Debabrata Pruseth</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=y0-QlgVZE8Q" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=y0-QlgVZE8Q">Open on YouTube</a></p></div></div></div>
@@ -377,7 +377,7 @@ Recent discussions of gender representation in AI similarly emphasise that model
 
 The ultimate goal of training is not to memorise examples but to learn patterns that apply to new situations.
 
-A model that simply remembers training cases may appear successful during training yet fail when confronted with unfamiliar data. Google’s machine-learning guidance emphasises the importance of datasets and evaluation methods that encourage generalisation rather than overfitting to the training set. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
+A model that simply remembers training cases may appear successful during training yet fail when confronted with unfamiliar data. Google’s machine-learning guidance emphasises the importance of datasets and evaluation methods that encourage generalisation rather than overfitting to the training set.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
 
 Good training data helps models discover patterns that remain useful beyond the specific examples they have seen. This requires:
 
@@ -387,7 +387,7 @@ Good training data helps models discover patterns that remain useful beyond the 
 * Sufficient variety.
 * Accurate labels and measurements.
 * Coverage of important real-world situations.
-* Representative sampling of the environment in which the model will operate. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/guides/data-traps/quality" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersData quality and interpretation &#124; ML Universal Guides25 Aug 2025 — The Fairness module in Machine Learning Crash Cou...</span></span></span>
+* Representative sampling of the environment in which the model will operate.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/guides/data-traps/quality" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersData quality and interpretation &#124; ML Universal Guides25 Aug 2025 — The Fairness module in Machine Learning Crash Cou...</span></span></span>
 
 </div>
 
@@ -399,197 +399,197 @@ When these conditions are met, the model is more likely to learn durable relatio
 
 People often focus on algorithms, neural networks, or model size when discussing artificial intelligence. Yet many AI researchers and practitioners regard data as one of the most influential factors in determining model behaviour.
 
-The model learns from evidence, not from direct experience of the world. The examples selected for training determine which patterns are visible, which are hidden, which groups are represented, and which mistakes are likely. As a result, training data acts as the curriculum from which the model learns. Better data does not guarantee perfect performance, but it strongly shapes what the system can and cannot know. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
+The model learns from evidence, not from direct experience of the world. The examples selected for training determine which patterns are visible, which are hidden, which groups are represented, and which mistakes are likely. As a result, training data acts as the curriculum from which the model learns. Better data does not guarantee perfect performance, but it strongly shapes what the system can and cannot know.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers+2Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why the data teaches the model. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why the data teaches the model. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Extensively discusses training data quality and model behaviour.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Extensively discusses training data quality and model behaviour.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
-        </h4>
-        <p class="fr-book-author">By Andriy Burkov</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
+</h4>
+<p class="fr-book-author">By Andriy Burkov</p>
         
-        <p class="fr-book-desc">Explains how data shapes machine-learning outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how data shapes machine-learning outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open An Introduction to Statistical Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=g5gezgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for An Introduction to Statistical Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="An Introduction to Statistical Learning">An Introduction to Statistical Learning</a>
-        </h4>
-        <p class="fr-book-author">By Gareth James, Daniela Witten et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open An Introduction to Statistical Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=g5gezgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for An Introduction to Statistical Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="An Introduction to Statistical Learning">An Introduction to Statistical Learning</a>
+</h4>
+<p class="fr-book-author">By Gareth James, Daniela Witten et al.</p>
         
-        <p class="fr-book-desc">Shows how datasets influence predictive performance.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how datasets influence predictive performance.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Pattern Recognition and Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kOXDtAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Pattern Recognition and Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Pattern Recognition and Machine Learning">Pattern Recognition and Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Christopher M. Bishop</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Pattern Recognition and Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kOXDtAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Pattern Recognition and Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Pattern Recognition and Machine Learning">Pattern Recognition and Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Christopher M. Bishop</p>
         
-        <p class="fr-book-desc">Provides theory behind learning from examples.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides theory behind learning from examples.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=An+to+Statistical+Learning+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">An to Statistical Learning books</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=An+to+Statistical+Learning+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">An to Statistical Learning books</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee"><img src="{{ '/assets/images/marketplace-covers/f21c0673c92a0935dcd5.jpg' | relative_url }}" alt="Listing image for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee"><img src="{{ '/assets/images/marketplace-covers/f21c0673c92a0935dcd5.jpg' | relative_url }}" alt="Listing image for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift"><img src="{{ '/assets/images/marketplace-covers/5898d351e2806da9dc74.jpg' | relative_url }}" alt="Listing image for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift"><img src="{{ '/assets/images/marketplace-covers/5898d351e2806da9dc74.jpg' | relative_url }}" alt="Listing image for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="training-data-why-the-data-teaches-the-model-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -605,7 +605,7 @@ The model learns from evidence, not from direct experience of the world. The exa
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -625,7 +625,7 @@ The model learns from evidence, not from direct experience of the world. The exa
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -657,7 +657,7 @@ The model learns from evidence, not from direct experience of the world. The exa
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -709,7 +709,7 @@ The model learns from evidence, not from direct experience of the world. The exa
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -754,7 +754,7 @@ The model learns from evidence, not from direct experience of the world. The exa
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -795,175 +795,175 @@ The model learns from evidence, not from direct experience of the world. The exa
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersGoogle&#x27;s Machine Learning Crash CourseAn introduction to the characteristics of machine learning datasets, and how t...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: developers.google.com  
    Title: data characteristics  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersDatasets: Data characteristics | Machine Learning3 Dec 2025 — A machine learning model&#x27;s performance is heavily reli...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/data-characteristics</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersDatasets: Data characteristics | Machine Learning3 Dec 2025 — A machine learning model&#x27;s performance is heavily reli...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: nvlpubs.nist.gov  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsTowards a Standard for Identifying and Managing Bias in...by R Schwartz · 2022 · Cited by 808 — Systemic and implicit b...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/data-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/data-bias</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>dversely affect model behavior...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/data-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/data-bias</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>dversely affect model behavior...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
    Title: arXiv Learning to Model and Ignore Dataset Bias with Mixed Capacity Ensembles  
-   Link: <a href="https://arxiv.org/abs/2011.03856" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2011.03856</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Learning to Model and Ignore Dataset Bias with Mixed Capacity EnsemblesNovember 7, 2020...</p></details>
+   Link:<a href="https://arxiv.org/abs/2011.03856" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2011.03856</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Learning to Model and Ignore Dataset Bias with Mixed Capacity EnsemblesNovember 7, 2020...</p></details>
    Published: November 7, 2020  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/guides/data-traps/quality" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/guides/data-traps/quality</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersData quality and interpretation | ML Universal Guides25 Aug 2025 — The Fairness module in Machine Learning Crash Cou...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/guides/data-traps/quality" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/guides/data-traps/quality</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersData quality and interpretation | ML Universal Guides25 Aug 2025 — The Fairness module in Machine Learning Crash Cou...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2207.03207" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2207.03207</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>An Exploration of How Training Set Composition Bias in Machine Learning Affects Identifying Rare ObjectsJuly 7, 2022...</p></details>
+   Link:<a href="https://arxiv.org/abs/2207.03207" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2207.03207</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An Exploration of How Training Set Composition Bias in Machine Learning Affects Identifying Rare ObjectsJuly 7, 2022...</p></details>
    Published: July 7, 2022  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
    Title: arXiv Algorithmic Factors Influencing Bias in Machine Learning  
-   Link: <a href="https://arxiv.org/abs/2104.14014" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2104.14014</a>  
+   Link:<a href="https://arxiv.org/abs/2104.14014" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2104.14014</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: unece.org  
-   Link: <a href="https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_[Responsible" target="_blank" rel="noopener noreferrer nofollow">https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_[Responsible</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Fairness in Machine LearningRepresentation bias occurs when the training data used is not representative of the population the model...</p></details>
+   Link:<a href="https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_[Responsible" target="_blank" rel="noopener noreferrer nofollow">https://unece.org/sites/default/files/2025-10/Companion%20Paper%20on%20Fairness%20in%20Machine%20Learning_[Responsible</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fairness in Machine LearningRepresentation bias occurs when the training data used is not representative of the population the model...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: nist.gov  
    Title: theres more ai bias biased data nist report highlights  
-   Link: <a href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>There&#x27;s More to AI Bias Than Biased Data, NIST Report...16 Mar 2022 — The NIST report acknowledges that a great deal of AI bias stems fr...</p></details>
+   Link:<a href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>There&#x27;s More to AI Bias Than Biased Data, NIST Report...16 Mar 2022 — The NIST report acknowledges that a great deal of AI bias stems fr...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: nist.gov  
    Title: AI Research  
-   Link: <a href="https://www.nist.gov/artificial-intelligence/ai-research-identifying-managing-harmful-bias-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/artificial-intelligence/ai-research-identifying-managing-harmful-bias-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Identifying &amp; Managing Harmful Bias in AIAI systems can potentially increase the speed and scale of harmful biases and perpetuate or ampl...</p></details>
+   Link:<a href="https://www.nist.gov/artificial-intelligence/ai-research-identifying-managing-harmful-bias-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/artificial-intelligence/ai-research-identifying-managing-harmful-bias-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Identifying &amp; Managing Harmful Bias in AIAI systems can potentially increase the speed and scale of harmful biases and perpetuate or ampl...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/the-gender-data-gap-and-the-need-for-representation-in-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/the-gender-data-gap-and-the-need-for-representation-in-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It explains that AI systems, while beneficial in streamlining tasks and decision-making, are only as unbiased as the data they are traine...</p></details>
+   Link:<a href="https://www.techradar.com/pro/the-gender-data-gap-and-the-need-for-representation-in-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/the-gender-data-gap-and-the-need-for-representation-in-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It explains that AI systems, while beneficial in streamlining tasks and decision-making, are only as unbiased as the data they are traine...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/overfitting/interpreting-loss-curves" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/interpreting-loss-curves</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersOverfitting: Interpreting loss curves | Machine Learning3 Dec 2025 — Unfortunately, loss curves are often challengin...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/overfitting/interpreting-loss-curves" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/interpreting-loss-curves</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersOverfitting: Interpreting loss curves | Machine Learning3 Dec 2025 — Unfortunately, loss curves are often challengin...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
    Title: arXiv Data Representativity for Machine Learning and AI Systems  
-   Link: <a href="https://arxiv.org/abs/2203.04706" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2203.04706</a>  
+   Link:<a href="https://arxiv.org/abs/2203.04706" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2203.04706</a>  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/trustworthy-and-responsible-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/trustworthy-and-responsible-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ity and Resiliency; Accountability and Transparency...Read more...</p></details>
+   Link:<a href="https://www.nist.gov/trustworthy-and-responsible-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/trustworthy-and-responsible-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ity and Resiliency; Accountability and Transparency...Read more...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: google.com  
-   Link: <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
+   Link:<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: cloud.google.com  
    Title: machinelearning ai  
-   Link: <a href="https://cloud.google.com/learn/training/machinelearning-ai" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/learn/training/machinelearning-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Learning &amp; AI Courses | Google Cloud TrainingLearn how to implement the latest machine learning and artificial intelligence technology wi...</p></details>
+   Link:<a href="https://cloud.google.com/learn/training/machinelearning-ai" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/learn/training/machinelearning-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Learning &amp; AI Courses | Google Cloud TrainingLearn how to implement the latest machine learning and artificial intelligence technology wi...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2303.01704v4" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2303.01704v4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Feature Importance Disparities for Data Bias Investigations3 Jun 2024 — One of the primary causes of model bias is bias inherent in the t...</p></details>
+   Link:<a href="https://arxiv.org/html/2303.01704v4" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2303.01704v4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Feature Importance Disparities for Data Bias Investigations3 Jun 2024 — One of the primary causes of model bias is bias inherent in the t...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/algorithmic-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/algorithmic-bias</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>tory outcomes...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/algorithmic-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/algorithmic-bias</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>tory outcomes...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: solytics-partners.com  
-   Link: <a href="https://www.solytics-partners.com/knowledge-and-training/training-datasets-explained-types-importance-challenges-and-impact-on-model-performance" target="_blank" rel="noopener noreferrer nofollow">https://www.solytics-partners.com/knowledge-and-training/training-datasets-explained-types-importance-challenges-and-impact-on-model-performance</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Training Datasets: Types, Importance &amp; Model Performance5 Jan 2026 — Learn what a training dataset is, its types, importance, challenges...</p></details>
+   Link:<a href="https://www.solytics-partners.com/knowledge-and-training/training-datasets-explained-types-importance-challenges-and-impact-on-model-performance" target="_blank" rel="noopener noreferrer nofollow">https://www.solytics-partners.com/knowledge-and-training/training-datasets-explained-types-importance-challenges-and-impact-on-model-performance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Training Datasets: Types, Importance &amp; Model Performance5 Jan 2026 — Learn what a training dataset is, its types, importance, challenges...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: scribd.com  
    Title: Machine Learning  
-   Link: <a href="https://www.scribd.com/document/904355409/Machine-Learning-Google-for-Developers" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/904355409/Machine-Learning-Google-for-Developers</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google ML Crash Course OverviewThe Machine Learning Crash Course outlines best practices for fairness, including auditing models for bias...</p></details>
+   Link:<a href="https://www.scribd.com/document/904355409/Machine-Learning-Google-for-Developers" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/904355409/Machine-Learning-Google-for-Developers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google ML Crash Course OverviewThe Machine Learning Crash Course outlines best practices for fairness, including auditing models for bias...</p></details>
 
 ### Additional References
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/google-machine-learning-crash-course-joseph-johnson-xl5de" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/google-machine-learning-crash-course-joseph-johnson-xl5de</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Machine Learning Crash CourseGoogle&#x27;s machine learning crash course is an online, self-study course with 15 hours&#x27; worth of (liste...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/google-machine-learning-crash-course-joseph-johnson-xl5de" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/google-machine-learning-crash-course-joseph-johnson-xl5de</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Machine Learning Crash CourseGoogle&#x27;s machine learning crash course is an online, self-study course with 15 hours&#x27; worth of (liste...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: openresearch.amsterdam  
-   Link: <a href="https://openresearch.amsterdam/nl/page/83795/part-1-concepts-analyzing-bias-in-machine-learning-a-step-by-step" target="_blank" rel="noopener noreferrer nofollow">https://openresearch.amsterdam/nl/page/83795/part-1-concepts-analyzing-bias-in-machine-learning-a-step-by-step</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Part 1: Concepts: Analyzing Bias in Machine LearningMachine learning makes use of data by learning through the generalization of examples...</p></details>
+   Link:<a href="https://openresearch.amsterdam/nl/page/83795/part-1-concepts-analyzing-bias-in-machine-learning-a-step-by-step" target="_blank" rel="noopener noreferrer nofollow">https://openresearch.amsterdam/nl/page/83795/part-1-concepts-analyzing-bias-in-machine-learning-a-step-by-step</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Part 1: Concepts: Analyzing Bias in Machine LearningMachine learning makes use of data by learning through the generalization of examples...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/learnmachinelearning/comments/wuiycm/saas_engineering_manager_want_to_pivot_to_leading/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/learnmachinelearning/comments/wuiycm/saas_engineering_manager_want_to_pivot_to_leading/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>SaaS Engineering manager want to pivot to leading ML...Before deploying you need to run different kinds of tests, including quality chec...</p></details>
+   Link:<a href="https://www.reddit.com/r/learnmachinelearning/comments/wuiycm/saas_engineering_manager_want_to_pivot_to_leading/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/learnmachinelearning/comments/wuiycm/saas_engineering_manager_want_to_pivot_to_leading/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SaaS Engineering manager want to pivot to leading ML...Before deploying you need to run different kinds of tests, including quality chec...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: github.com  
-   Link: <a href="https://github.com/litaotao/machine-learning-crash-course" target="_blank" rel="noopener noreferrer nofollow">https://github.com/litaotao/machine-learning-crash-course</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>machine-learning-crash-course from googleThis module investigates how to frame a task as a machine learning problem, and covers many of t...</p></details>
+   Link:<a href="https://github.com/litaotao/machine-learning-crash-course" target="_blank" rel="noopener noreferrer nofollow">https://github.com/litaotao/machine-learning-crash-course</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>machine-learning-crash-course from googleThis module investigates how to frame a task as a machine learning problem, and covers many of t...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: epic.org  
    Title: comments to nist on managing the risks of misuse with ai foundation models  
-   Link: <a href="https://epic.org/documents/epic-comments-to-nist-on-managing-the-risks-of-misuse-with-ai-foundation-models/" target="_blank" rel="noopener noreferrer nofollow">https://epic.org/documents/epic-comments-to-nist-on-managing-the-risks-of-misuse-with-ai-foundation-models/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EPIC Comments to NIST on Managing the Risks of Misuse...9 Sept 2024 — For example, malicious actors can and have exploited implicit bias...</p></details>
+   Link:<a href="https://epic.org/documents/epic-comments-to-nist-on-managing-the-risks-of-misuse-with-ai-foundation-models/" target="_blank" rel="noopener noreferrer nofollow">https://epic.org/documents/epic-comments-to-nist-on-managing-the-risks-of-misuse-with-ai-foundation-models/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EPIC Comments to NIST on Managing the Risks of Misuse...9 Sept 2024 — For example, malicious actors can and have exploited implicit bias...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: cltc.berkeley.edu  
    Title: a taxonomy of trustworthiness for artificial intelligence standalone taxonomy  
-   Link: <a href="https://cltc.berkeley.edu/publication/a-taxonomy-of-trustworthiness-for-artificial-intelligence-standalone-taxonomy/" target="_blank" rel="noopener noreferrer nofollow">https://cltc.berkeley.edu/publication/a-taxonomy-of-trustworthiness-for-artificial-intelligence-standalone-taxonomy/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Taxonomy of Trustworthiness for Artificial Intelligence - CLTCNIST&#x27;s characteristics of trustworthiness include: valid and reliable; safe...</p></details>
+   Link:<a href="https://cltc.berkeley.edu/publication/a-taxonomy-of-trustworthiness-for-artificial-intelligence-standalone-taxonomy/" target="_blank" rel="noopener noreferrer nofollow">https://cltc.berkeley.edu/publication/a-taxonomy-of-trustworthiness-for-artificial-intelligence-standalone-taxonomy/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Taxonomy of Trustworthiness for Artificial Intelligence - CLTCNIST&#x27;s characteristics of trustworthiness include: valid and reliable; safe...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=iBQlukGBZ78" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=iBQlukGBZ78</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FREE Machine Learning Crash Course from GoogleDo you want to learn about Machine Learning? If you answered yes, then this video is for yo...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=iBQlukGBZ78" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=iBQlukGBZ78</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FREE Machine Learning Crash Course from GoogleDo you want to learn about Machine Learning? If you answered yes, then this video is for yo...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/top-content/artificial-intelligence/ethical-ai-principles/ensuring-fair-representation-in-ai-training-data/" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/artificial-intelligence/ethical-ai-principles/ensuring-fair-representation-in-ai-training-data/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Training data bias: When AI learns from unrepresentative data, it produces skewed outcomes. For example...</p></details>
+   Link:<a href="https://www.linkedin.com/top-content/artificial-intelligence/ethical-ai-principles/ensuring-fair-representation-in-ai-training-data/" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/artificial-intelligence/ethical-ai-principles/ensuring-fair-representation-in-ai-training-data/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Training data bias: When AI learns from unrepresentative data, it produces skewed outcomes. For example...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: encord.com  
-   Link: <a href="https://encord.com/blog/an-introduction-to-data-labelling-and-training-data/" target="_blank" rel="noopener noreferrer nofollow">https://encord.com/blog/an-introduction-to-data-labelling-and-training-data/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Full Guide to Training Datasets for Machine Learning3 Dec 2024 — Training data is the initial training dataset used to teach a machin...</p></details>
+   Link:<a href="https://encord.com/blog/an-introduction-to-data-labelling-and-training-data/" target="_blank" rel="noopener noreferrer nofollow">https://encord.com/blog/an-introduction-to-data-labelling-and-training-data/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Full Guide to Training Datasets for Machine Learning3 Dec 2024 — Training data is the initial training dataset used to teach a machin...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: aws.amazon.com  
    Title: framework mitigate bias improve outcomes new age ai  
-   Link: <a href="https://aws.amazon.com/blogs/publicsector/framework-mitigate-bias-improve-outcomes-new-age-ai/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/publicsector/framework-mitigate-bias-improve-outcomes-new-age-ai/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>framework to mitigate bias and improve outcomes in the...26 Jun 2023 — This framework includes methods to mitigate bias, provide transpa...</p></details>
+   Link:<a href="https://aws.amazon.com/blogs/publicsector/framework-mitigate-bias-improve-outcomes-new-age-ai/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/publicsector/framework-mitigate-bias-improve-outcomes-new-age-ai/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>framework to mitigate bias and improve outcomes in the...26 Jun 2023 — This framework includes methods to mitigate bias, provide transpa...</p></details>

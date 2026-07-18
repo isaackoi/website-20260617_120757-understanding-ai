@@ -275,7 +275,7 @@ image: /assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd
 
 ## Introduction
 
-Banning artificial intelligence tools may seem like a straightforward way to reduce risk, but in practice it can make workplace AI use harder to detect. When employees believe AI helps them complete tasks faster, meet deadlines, or handle workloads that approved systems cannot support, a strict prohibition often changes where AI is used rather than whether it is used. Instead of working through visible, governed channels, employees may shift to personal accounts, personal devices, or unofficial services that leave fewer traces for security and compliance teams. Research and industry surveys repeatedly show that unauthorised AI use remains widespread, particularly when organisations do not provide approved alternatives that meet real work needs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: euronews.com">[euronews]</a><span class="citation-popover" role="note"><span class="citation-popover-source">euronews.com</span><span class="citation-popover-snippet">Most UK employees use AI at work without permission, Microsoft survey finds &#124; EuronewsOctober 14, 2025...</span><span class="citation-popover-meta">Published: October 14, 2025</span></span></span>
+Banning artificial intelligence tools may seem like a straightforward way to reduce risk, but in practice it can make workplace AI use harder to detect. When employees believe AI helps them complete tasks faster, meet deadlines, or handle workloads that approved systems cannot support, a strict prohibition often changes where AI is used rather than whether it is used. Instead of working through visible, governed channels, employees may shift to personal accounts, personal devices, or unofficial services that leave fewer traces for security and compliance teams. Research and industry surveys repeatedly show that unauthorised AI use remains widespread, particularly when organisations do not provide approved alternatives that meet real work needs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: euronews.com">[euronews]</a><span class="citation-popover" role="note"><span class="citation-popover-source">euronews.com</span><span class="citation-popover-snippet">Most UK employees use AI at work without permission, Microsoft survey finds &#124; EuronewsOctober 14, 2025...</span><span class="citation-popover-meta">Published: October 14, 2025</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc_ai_bans_backf_3fb687-Illustration-1-dark.svg" | relative_url }}" alt="Failed Bans illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc_ai_bans_backf_3fb687-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc_ai_bans_backf_3fb687-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -285,7 +285,7 @@ This creates a governance paradox: an organisation may appear compliant because 
 
 The main reason bans struggle is that many employees see AI as a productivity tool rather than a prohibited technology. If a worker can draft reports, summarise documents, analyse data, or generate code in minutes instead of hours, the practical incentive to use AI can outweigh the perceived risk of breaking policy.
 
-Microsoft-linked workplace research and subsequent reporting found that large numbers of employees use unapproved AI tools at work. Many users report doing so because they are already familiar with consumer AI products or because those tools help them manage heavy workloads more efficiently. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: euronews.com">[euronews]</a><span class="citation-popover" role="note"><span class="citation-popover-source">euronews.com</span><span class="citation-popover-snippet">Most UK employees use AI at work without permission, Microsoft survey finds &#124; EuronewsOctober 14, 2025...</span><span class="citation-popover-meta">Published: October 14, 2025</span></span></span>
+Microsoft-linked workplace research and subsequent reporting found that large numbers of employees use unapproved AI tools at work. Many users report doing so because they are already familiar with consumer AI products or because those tools help them manage heavy workloads more efficiently.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: euronews.com">[euronews]</a><span class="citation-popover" role="note"><span class="citation-popover-source">euronews.com</span><span class="citation-popover-snippet">Most UK employees use AI at work without permission, Microsoft survey finds &#124; EuronewsOctober 14, 2025...</span><span class="citation-popover-meta">Published: October 14, 2025</span></span></span>
 
 A ban is most likely to fail when:
 
@@ -311,7 +311,7 @@ The most important governance problem is not simply unauthorised use. It is the 
 
 When employees know that AI use is prohibited, they become less likely to disclose it. Tasks that might otherwise have been performed through monitored enterprise systems can migrate to personal accounts or external services. Governance teams then lose information about which tools are being used, what data is being shared, and which [business]({{ 'business-adoption/' | relative_url }}) processes depend on AI-generated outputs.
 
-Security researchers and governance specialists increasingly describe this as a visibility problem rather than merely a policy problem. Several analyses note that prohibition can drive AI activity underground, reducing organisational awareness while leaving the underlying exposure unchanged. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.strategen-ai.com/research/working-in-the-dark-shadow-ai-sociotechnical-governance-failure-and-the-ethics-of-invisible-automation-in-the-enterprise" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: strategen-ai.com">[STRATEGEN.AI+2Maxim AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">strategen-ai.com</span><span class="citation-popover-title">STRATEGEN.AI Working in the Dark: Shadow AI, Sociotechnical Governance Failure, and the Ethics of Invisible Automation in the Enterprise</span><span class="citation-popover-snippet">in the Dark: Shadow AI, Sociotechnical Governance Failure, and the Ethics of Invisible Automation in the Enterprise - Research &#124; STRATEGE...</span></span></span>
+Security researchers and governance specialists increasingly describe this as a visibility problem rather than merely a policy problem. Several analyses note that prohibition can drive AI activity underground, reducing organisational awareness while leaving the underlying exposure unchanged.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.strategen-ai.com/research/working-in-the-dark-shadow-ai-sociotechnical-governance-failure-and-the-ethics-of-invisible-automation-in-the-enterprise" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: strategen-ai.com">[STRATEGEN.AI+2Maxim AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">strategen-ai.com</span><span class="citation-popover-title">STRATEGEN.AI Working in the Dark: Shadow AI, Sociotechnical Governance Failure, and the Ethics of Invisible Automation in the Enterprise</span><span class="citation-popover-snippet">in the Dark: Shadow AI, Sociotechnical Governance Failure, and the Ethics of Invisible Automation in the Enterprise - Research &#124; STRATEGE...</span></span></span>
 
 This hidden use can take several forms:
 
@@ -359,7 +359,7 @@ The result is a governance system that appears stronger on paper while becoming 
 
 The dynamics behind [shadow AI]({{ 'shadow-ai/' | relative_url }}) resemble earlier experiences with "shadow IT"—the unauthorised use of software and cloud services outside official technology channels.
 
-Many organisations eventually learned that blanket prohibitions rarely eliminated demand. Instead, successful programmes often combined security controls with approved alternatives that addressed the underlying business need. Shadow AI appears to be following a similar pattern. Governance specialists increasingly argue that detection, transparency, and controlled adoption are more effective than attempting to eliminate AI use entirely. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cybersecurityessential.com/ai-security/ai-governance/shadow-ai-enterprise-detection-governance/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cybersecurityessential.com">[Cybersecurity Essential]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cybersecurityessential.com</span><span class="citation-popover-snippet">Open source on cybersecurityessential.com.</span></span></span>
+Many organisations eventually learned that blanket prohibitions rarely eliminated demand. Instead, successful programmes often combined security controls with approved alternatives that addressed the underlying business need. Shadow AI appears to be following a similar pattern. Governance specialists increasingly argue that detection, transparency, and controlled adoption are more effective than attempting to eliminate AI use entirely.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cybersecurityessential.com/ai-security/ai-governance/shadow-ai-enterprise-detection-governance/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cybersecurityessential.com">[Cybersecurity Essential]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cybersecurityessential.com</span><span class="citation-popover-snippet">Open source on cybersecurityessential.com.</span></span></span>
 
 The key insight is that employees usually adopt unofficial tools because they solve a problem. If the problem remains, banning the tool does not remove the incentive.
 
@@ -370,7 +370,7 @@ The key insight is that employees usually adopt unofficial tools because they so
 
 Organisations generally achieve greater visibility when they offer AI systems that employees are willing to use voluntarily.
 
-Surveys show that unauthorised AI use is especially common where workers lack access to enterprise-grade tools that meet their needs. Conversely, governance approaches that provide approved options, clear rules, and practical support reduce the motivation to seek workarounds. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/many-workers-are-using-unapproved-ai-tools-at-work-and-sharing-a-lot-of-private-data-they-really-shouldnt" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar+2euronews]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Many workers are using unapproved AI tools at work</span><span class="citation-popover-snippet">Approximately 59% of employees admit to using such tools without company authorization, with 75% of them sharing sensitive data including...</span></span></span>
+Surveys show that unauthorised AI use is especially common where workers lack access to enterprise-grade tools that meet their needs. Conversely, governance approaches that provide approved options, clear rules, and practical support reduce the motivation to seek workarounds.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/many-workers-are-using-unapproved-ai-tools-at-work-and-sharing-a-lot-of-private-data-they-really-shouldnt" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar+2euronews]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Many workers are using unapproved AI tools at work</span><span class="citation-popover-snippet">Approximately 59% of employees admit to using such tools without company authorization, with 75% of them sharing sensitive data including...</span></span></span>
 
 Several features make approved alternatives more attractive:
 
@@ -388,197 +388,197 @@ When employees believe that reporting a useful AI application will lead to evalu
 
 The central challenge is not deciding whether AI should be governed. It is deciding how governance can remain effective when AI tools are widely available and easy to access.
 
-A strict ban may reduce visible usage statistics, but it can also reduce organisational awareness. If employees continue using AI through unofficial channels, leaders may end up with less control, not more. Evidence from workplace surveys and governance research suggests that the most sustainable approach is often to reduce the gap between what workers need and what approved systems provide. When that gap narrows, the incentive for shadow AI decreases, and organisations regain the visibility required for [meaningful]({{ 'human-review/' | relative_url }}) [oversight]({{ 'oversight/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: euronews.com">[Maxim AI+3euronews+3TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">euronews.com</span><span class="citation-popover-snippet">Most UK employees use AI at work without permission, Microsoft survey finds &#124; EuronewsOctober 14, 2025...</span><span class="citation-popover-meta">Published: October 14, 2025</span></span></span>
+A strict ban may reduce visible usage statistics, but it can also reduce organisational awareness. If employees continue using AI through unofficial channels, leaders may end up with less control, not more. Evidence from workplace surveys and governance research suggests that the most sustainable approach is often to reduce the gap between what workers need and what approved systems provide. When that gap narrows, the incentive for shadow AI decreases, and organisations regain the visibility required for [meaningful]({{ 'human-review/' | relative_url }}) [oversight]({{ 'oversight/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: euronews.com">[Maxim AI+3euronews+3TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">euronews.com</span><span class="citation-popover-snippet">Most UK employees use AI at work without permission, Microsoft survey finds &#124; EuronewsOctober 14, 2025...</span><span class="citation-popover-meta">Published: October 14, 2025</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why Banning AI Can Backfire at Work. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why Banning AI Can Backfire at Work. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human + Machine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wpY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Human + Machine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human + Machine">Human + Machine</a>
-        </h4>
-        <p class="fr-book-author">By Paul R. Daugherty, H. James Wilson</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human + Machine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wpY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Human + Machine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human + Machine">Human + Machine</a>
+</h4>
+<p class="fr-book-author">By Paul R. Daugherty, H. James Wilson</p>
         
-        <p class="fr-book-desc">Explains how organizations can channel AI adoption productively instead of resisting it.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how organizations can channel AI adoption productively instead of resisting it.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Principles+of+AI+Governance+and+Model+Risk+Management+by+James+Sayles&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Principles of AI Governance and Model Risk Management on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4_U6EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Principles of AI Governance and Model Risk Management" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Principles+of+AI+Governance+and+Model+Risk+Management+by+James+Sayles&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Principles of AI Governance and Model Risk Management">Principles of AI Governance and Model Risk Management</a>
-        </h4>
-        <p class="fr-book-author">By James Sayles</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Principles+of+AI+Governance+and+Model+Risk+Management+by+James+Sayles&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Principles of AI Governance and Model Risk Management on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4_U6EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Principles of AI Governance and Model Risk Management" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Principles+of+AI+Governance+and+Model+Risk+Management+by+James+Sayles&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Principles of AI Governance and Model Risk Management">Principles of AI Governance and Model Risk Management</a>
+</h4>
+<p class="fr-book-author">By James Sayles</p>
         
-        <p class="fr-book-desc">Provides frameworks for balancing AI innovation with oversight.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Principles+of+AI+Governance+and+Model+Risk+Management+by+James+Sayles&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides frameworks for balancing AI innovation with oversight.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Principles+of+AI+Governance+and+Model+Risk+Management+by+James+Sayles&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Shows how AI changes operating models and why governance must evolve with adoption.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how AI changes operating models and why governance must evolve with adoption.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=All+Hands+on+Tech+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open All Hands on Tech on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=dvoiEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for All Hands on Tech" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=All+Hands+on+Tech+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="All Hands on Tech">All Hands on Tech</a>
-        </h4>
-        <p class="fr-book-author">By Thomas H. Davenport, Ian Barkin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=All+Hands+on+Tech+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open All Hands on Tech on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=dvoiEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for All Hands on Tech" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=All+Hands+on+Tech+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="All Hands on Tech">All Hands on Tech</a>
+</h4>
+<p class="fr-book-author">By Thomas H. Davenport, Ian Barkin</p>
         
-        <p class="fr-book-desc">Addresses workforce reactions to automation and technology change.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=All+Hands+on+Tech+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses workforce reactions to automation and technology change.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=All+Hands+on+Tech+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+%2B+Machine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human + Machine</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Principles+of+AI+Governance+and+Model+Risk+Management&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Principles of AI Governance and Model Risk Management</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+%2B+Machine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human + Machine</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Principles+of+AI+Governance+and+Model+Risk+Management&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Principles of AI Governance and Model Risk Management</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ef0b901774b30471e70e.jpg' | relative_url }}" alt="Listing image for Artificial intelligence Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ef0b901774b30471e70e.jpg' | relative_url }}" alt="Listing image for Artificial intelligence Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/584e6830c21c579d6b70.jpg' | relative_url }}" alt="Listing image for Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/584e6830c21c579d6b70.jpg' | relative_url }}" alt="Listing image for Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4005a7e4762a7f9a9c1b.jpg' | relative_url }}" alt="Listing image for Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4005a7e4762a7f9a9c1b.jpg' | relative_url }}" alt="Listing image for Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf63ca1519f106cc6880.jpg' | relative_url }}" alt="Listing image for An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf63ca1519f106cc6880.jpg' | relative_url }}" alt="Listing image for An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="failed-bans-why-banning-ai-can-backfire-at-work-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -594,7 +594,7 @@ A strict ban may reduce visible usage statistics, but it can also reduce organis
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -614,7 +614,7 @@ A strict ban may reduce visible usage statistics, but it can also reduce organis
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -646,7 +646,7 @@ A strict ban may reduce visible usage statistics, but it can also reduce organis
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -698,7 +698,7 @@ A strict ban may reduce visible usage statistics, but it can also reduce organis
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -743,7 +743,7 @@ A strict ban may reduce visible usage statistics, but it can also reduce organis
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -784,110 +784,110 @@ A strict ban may reduce visible usage statistics, but it can also reduce organis
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: euronews.com  
-   Link: <a href="https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds" target="_blank" rel="noopener noreferrer nofollow">https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Most UK employees use AI at work without permission, Microsoft survey finds | EuronewsOctober 14, 2025...</p></details>
+   Link:<a href="https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds" target="_blank" rel="noopener noreferrer nofollow">https://www.euronews.com/next/2025/10/14/most-uk-employees-use-ai-at-work-without-permission-microsoft-survey-finds</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Most UK employees use AI at work without permission, Microsoft survey finds | EuronewsOctober 14, 2025...</p></details>
    Published: October 14, 2025  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: techradar.com  
    Title: Tech Radar Many workers are using unapproved AI tools at work  
-   Link: <a href="https://www.techradar.com/pro/many-workers-are-using-unapproved-ai-tools-at-work-and-sharing-a-lot-of-private-data-they-really-shouldnt" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/many-workers-are-using-unapproved-ai-tools-at-work-and-sharing-a-lot-of-private-data-they-really-shouldnt</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Approximately 59% of employees admit to using such tools without company authorization, with 75% of them sharing sensitive data including...</p></details>
+   Link:<a href="https://www.techradar.com/pro/many-workers-are-using-unapproved-ai-tools-at-work-and-sharing-a-lot-of-private-data-they-really-shouldnt" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/many-workers-are-using-unapproved-ai-tools-at-work-and-sharing-a-lot-of-private-data-they-really-shouldnt</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Approximately 59% of employees admit to using such tools without company authorization, with 75% of them sharing sensitive data including...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: news.microsoft.com  
-   Link: <a href="https://news.microsoft.com/en-cee/2024/05/16/microsoft-and-linkedin-released-2024-work-trend-index-three-out-of-four-people-use-ai-at-work-2/" target="_blank" rel="noopener noreferrer nofollow">https://news.microsoft.com/en-cee/2024/05/16/microsoft-and-linkedin-released-2024-work-trend-index-three-out-of-four-people-use-ai-at-work-2/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>SourceMicrosoft and LinkedIn released 2024 Work Trend Index: three out of four people use AI at work - CEE Multi-Country News Center...</p></details>
+   Link:<a href="https://news.microsoft.com/en-cee/2024/05/16/microsoft-and-linkedin-released-2024-work-trend-index-three-out-of-four-people-use-ai-at-work-2/" target="_blank" rel="noopener noreferrer nofollow">https://news.microsoft.com/en-cee/2024/05/16/microsoft-and-linkedin-released-2024-work-trend-index-three-out-of-four-people-use-ai-at-work-2/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SourceMicrosoft and LinkedIn released 2024 Work Trend Index: three out of four people use AI at work - CEE Multi-Country News Center...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: strategen-ai.com  
-   Link: <a href="https://www.strategen-ai.com/research/working-in-the-dark-shadow-ai-sociotechnical-governance-failure-and-the-ethics-of-invisible-[automation" target="_blank" rel="noopener noreferrer nofollow">https://www.strategen-ai.com/research/working-in-the-dark-shadow-ai-sociotechnical-governance-failure-and-the-ethics-of-invisible-[automation</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>in the Dark: Shadow AI, Sociotechnical Governance Failure, and the Ethics of Invisible Automation in the Enterprise - Research | STRATEGE...</p></details>
+   Link:<a href="https://www.strategen-ai.com/research/working-in-the-dark-shadow-ai-sociotechnical-governance-failure-and-the-ethics-of-invisible-[automation" target="_blank" rel="noopener noreferrer nofollow">https://www.strategen-ai.com/research/working-in-the-dark-shadow-ai-sociotechnical-governance-failure-and-the-ethics-of-invisible-[automation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>in the Dark: Shadow AI, Sociotechnical Governance Failure, and the Ethics of Invisible Automation in the Enterprise - Research | STRATEGE...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: getmaxim.ai  
    Title: Maxim AIShadow AI in Enterprises: Risks, Governance, and Security  
-   Link: <a href="https://www.getmaxim.ai/articles/shadow-ai-in-enterprises-risks-governance-and-security/" target="_blank" rel="noopener noreferrer nofollow">https://www.getmaxim.ai/articles/shadow-ai-in-enterprises-risks-governance-and-security/</a>  
+   Link:<a href="https://www.getmaxim.ai/articles/shadow-ai-in-enterprises-risks-governance-and-security/" target="_blank" rel="noopener noreferrer nofollow">https://www.getmaxim.ai/articles/shadow-ai-in-enterprises-risks-governance-and-security/</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: microsoft.com  
    Title: www.microsoft.com [Generative AI](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) in Real-World Workplaces  
-   Link: <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/07/Generative-AI-in-Real-World-Workplaces.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2024/07/Generative-AI-in-Real-World-Workplaces.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Real-World WorkplacesApril 15, 2026...</p></details>
+   Link:<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/07/Generative-AI-in-Real-World-Workplaces.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2024/07/Generative-AI-in-Real-World-Workplaces.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Real-World WorkplacesApril 15, 2026...</p></details>
    Published: April 15, 2026  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: news.microsoft.com  
    Title: handelsblatt berichtet ueber work trend index 2024  
-   Link: <a href="https://news.microsoft.com/de-de/handelsblatt-berichtet-ueber-work-trend-index-2024/" target="_blank" rel="noopener noreferrer nofollow">https://news.microsoft.com/de-de/handelsblatt-berichtet-ueber-work-trend-index-2024/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Work Trend Index 2024June 13, 2024...</p></details>
+   Link:<a href="https://news.microsoft.com/de-de/handelsblatt-berichtet-ueber-work-trend-index-2024/" target="_blank" rel="noopener noreferrer nofollow">https://news.microsoft.com/de-de/handelsblatt-berichtet-ueber-work-trend-index-2024/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Work Trend Index 2024June 13, 2024...</p></details>
    Published: June 13, 2024  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: cybersecurityessential.com  
-   Link: <a href="https://www.cybersecurityessential.com/ai-security/ai-governance/shadow-ai-enterprise-detection-governance/" target="_blank" rel="noopener noreferrer nofollow">https://www.cybersecurityessential.com/ai-security/ai-governance/shadow-ai-enterprise-detection-governance/</a>  
+   Link:<a href="https://www.cybersecurityessential.com/ai-security/ai-governance/shadow-ai-enterprise-detection-governance/" target="_blank" rel="noopener noreferrer nofollow">https://www.cybersecurityessential.com/ai-security/ai-governance/shadow-ai-enterprise-detection-governance/</a>  
 
 ### Additional References
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: itpro.com  
-   Link: <a href="https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>says 71% of workers have used unapproved AI tools at work – and it’s a trend that enterprises need to crack down on | IT ProOctober 13, 2025...</p></details>
+   Link:<a href="https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>says 71% of workers have used unapproved AI tools at work – and it’s a trend that enterprises need to crack down on | IT ProOctober 13, 2025...</p></details>
    Published: October 13, 2025  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: pattrndata.io  
-   Link: <a href="https://www.pattrndata.io/questions/risks-of-employees-using-unapproved-ai-tools" target="_blank" rel="noopener noreferrer nofollow">https://www.pattrndata.io/questions/risks-of-employees-using-unapproved-ai-tools</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>are the risks of employees using unapproved AI tools? | AI Governance Questions | Pattrn DataFebruary 18, 2026...</p></details>
+   Link:<a href="https://www.pattrndata.io/questions/risks-of-employees-using-unapproved-ai-tools" target="_blank" rel="noopener noreferrer nofollow">https://www.pattrndata.io/questions/risks-of-employees-using-unapproved-ai-tools</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>are the risks of employees using unapproved AI tools? | AI Governance Questions | Pattrn DataFebruary 18, 2026...</p></details>
    Published: February 18, 2026  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
    Title: Shadow AI Explained: Why It's a Growing Compliance Risk for Global Teams  
-   Link: <a href="https://www.youtube.com/watch?v=JE2v79arm9w" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JE2v79arm9w</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Shadow AI at Work: How Leaders Can Channel It Instead of Fighting It - YouTube Shadow AI at Work: How Leaders Can Channel It Instead of F...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=JE2v79arm9w" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JE2v79arm9w</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Shadow AI at Work: How Leaders Can Channel It Instead of Fighting It - YouTube Shadow AI at Work: How Leaders Can Channel It Instead of F...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: aigovernance.com  
-   Link: <a href="https://aigovernance.com/entry/nist-ai-600-1-generative-ai-profile" target="_blank" rel="noopener noreferrer nofollow">https://aigovernance.com/entry/nist-ai-600-1-generative-ai-profile</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI 600-1 Generative AI Profile — Framework Overview &amp; Compliance Guide | AI Governance InstituteJuly 26, 2024...</p></details>
+   Link:<a href="https://aigovernance.com/entry/nist-ai-600-1-generative-ai-profile" target="_blank" rel="noopener noreferrer nofollow">https://aigovernance.com/entry/nist-ai-600-1-generative-ai-profile</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI 600-1 Generative AI Profile — Framework Overview &amp; Compliance Guide | AI Governance InstituteJuly 26, 2024...</p></details>
    Published: July 26, 2024  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: researchportal.helsinki.fi  
    Title: The shadow banning controversy: perceived governance and algorithmic folklore  
-   Link: <a href="https://researchportal.helsinki.fi/en/publications/the-shadow-banning-controversy-perceived-governance-and-algorithm/" target="_blank" rel="noopener noreferrer nofollow">https://researchportal.helsinki.fi/en/publications/the-shadow-banning-controversy-perceived-governance-and-algorithm/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>University of Helsinki Research PortalMarch 12, 2022...</p></details>
+   Link:<a href="https://researchportal.helsinki.fi/en/publications/the-shadow-banning-controversy-perceived-governance-and-algorithm/" target="_blank" rel="noopener noreferrer nofollow">https://researchportal.helsinki.fi/en/publications/the-shadow-banning-controversy-perceived-governance-and-algorithm/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>University of Helsinki Research PortalMarch 12, 2022...</p></details>
    Published: March 12, 2022  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: vectra.ai  
    Title: www.vectra.ai Shadow AI explained: risks, costs, and enterprise governance  
-   Link: <a href="https://www.vectra.ai/topics/shadow-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.vectra.ai/topics/shadow-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI explained: risks, costs, and enterprise governance...</p></details>
+   Link:<a href="https://www.vectra.ai/topics/shadow-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.vectra.ai/topics/shadow-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI explained: risks, costs, and enterprise governance...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=mcT-aHIua50" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=mcT-aHIua50</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Companies Should Manage Shadow AI (Without Banning AI)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=mcT-aHIua50" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=mcT-aHIua50</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Companies Should Manage Shadow AI (Without Banning AI)...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: enz.ai  
    Title: www.enz.ai Shadow AI: Discover & Govern Unsanctioned AI | Enzai  
-   Link: <a href="https://www.enz.ai/blog/shadow-ai-discovery-governance" target="_blank" rel="noopener noreferrer nofollow">https://www.enz.ai/blog/shadow-ai-discovery-governance</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI: Discover &amp; Govern Unsanctioned AI | EnzaiApril 3, 2026...</p></details>
+   Link:<a href="https://www.enz.ai/blog/shadow-ai-discovery-governance" target="_blank" rel="noopener noreferrer nofollow">https://www.enz.ai/blog/shadow-ai-discovery-governance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI: Discover &amp; Govern Unsanctioned AI | EnzaiApril 3, 2026...</p></details>
    Published: April 3, 2026  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
    Title: Your Employees Are Using AI. Just Not the Way You Think  
-   Link: <a href="https://www.youtube.com/watch?v=gDR_-1uX_HE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=gDR_-1uX_HE</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Microsoft Found 71% Of Workers Breaking AI Rules. Here&#x27;s What It Means For Your Career...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=gDR_-1uX_HE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=gDR_-1uX_HE</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Microsoft Found 71% Of Workers Breaking AI Rules. Here&#x27;s What It Means For Your Career...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
    Title: How Companies Should Manage Shadow AI (Without Banning AI)  
-   Link: <a href="https://www.youtube.com/watch?v=9OPlGsn7fNs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=9OPlGsn7fNs</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Shadow AI Explained: Why It&#x27;s a Growing Compliance Risk for Global Teams...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=9OPlGsn7fNs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=9OPlGsn7fNs</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Shadow AI Explained: Why It&#x27;s a Growing Compliance Risk for Global Teams...</p></details>

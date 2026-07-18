@@ -279,7 +279,7 @@ Scientific papers are designed to communicate not only what researchers found, b
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_science_uncer_5ad729-Illustration-1-dark.svg" | relative_url }}" alt="Science Claims illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_science_uncer_5ad729-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_science_uncer_5ad729-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-When AI systems summarise research, they often compress those qualifications into shorter, cleaner conclusions. The result is not always an outright error. More often, a tentative finding becomes a stronger claim, a limited observation sounds universal, or a correlation starts to resemble proof of causation. In high-stakes domains, this shift can matter as much as a factual mistake because readers may come away with more confidence than the evidence supports. Recent research suggests that large [language models]({{ 'language-models/' | relative_url }}) systematically tend to broaden scientific conclusions beyond the scope of the original papers they summarise. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: doi.org">[DOI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">doi.org</span><span class="citation-popover-snippet">Generalization bias in large language model summarization of scientific research &#124; Royal Society Open Science &#124; The Royal SocietyApril...</span></span></span>
+When AI systems summarise research, they often compress those qualifications into shorter, cleaner conclusions. The result is not always an outright error. More often, a tentative finding becomes a stronger claim, a limited observation sounds universal, or a correlation starts to resemble proof of causation. In high-stakes domains, this shift can matter as much as a factual mistake because readers may come away with more confidence than the evidence supports. Recent research suggests that large [language models]({{ 'language-models/' | relative_url }}) systematically tend to broaden scientific conclusions beyond the scope of the original papers they summarise.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: doi.org">[DOI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">doi.org</span><span class="citation-popover-snippet">Generalization bias in large language model summarization of scientific research &#124; Royal Society Open Science &#124; The Royal SocietyApril...</span></span></span>
 
 ## How Study Limits Disappear in Summary Form
 
@@ -287,7 +287,7 @@ Scientific writing is full of restrictions that help readers interpret results c
 
 A paper might report that a treatment improved outcomes among a specific group of patients during a controlled trial. An AI summary may present the same finding as evidence that the treatment works generally. The underlying facts have not necessarily changed, but the scope of the claim has expanded.
 
-Researchers at Utrecht University and the University of Cambridge examined thousands of AI-generated summaries of scientific papers and found that many leading models regularly produced broader generalisations than the original texts justified. In some models, overgeneralisation appeared in a substantial share of summaries even when the systems were explicitly instructed to be accurate. AI-generated summaries were also found to be nearly five times more likely than human-written summaries to contain overly broad claims. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: doi.org">[DOI+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">doi.org</span><span class="citation-popover-snippet">Generalization bias in large language model summarization of scientific research &#124; Royal Society Open Science &#124; The Royal SocietyApril...</span></span></span>
+Researchers at Utrecht University and the University of Cambridge examined thousands of AI-generated summaries of scientific papers and found that many leading models regularly produced broader generalisations than the original texts justified. In some models, overgeneralisation appeared in a substantial share of summaries even when the systems were explicitly instructed to be accurate. AI-generated summaries were also found to be nearly five times more likely than human-written summaries to contain overly broad claims.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: doi.org">[DOI+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">doi.org</span><span class="citation-popover-snippet">Generalization bias in large language model summarization of scientific research &#124; Royal Society Open Science &#124; The Royal SocietyApril...</span></span></span>
 
 Several kinds of information commonly disappear during summarisation:
 
@@ -318,7 +318,7 @@ The same pattern appears with scope creep. A result that applies to a narrow con
 
 Original findingStronger AI-style interpretationEvidence suggests an association under specific conditions.The factor influences outcomes.Results were observed in one population.The findings apply broadly.The study provides preliminary evidence.The study demonstrates the effect.Further research is needed.The issue is largely settled.
 
-Researchers studying AI summarisation have noted that models often preserve a cautious tone through words such as "may" or "suggests" while still extending the reach of a claim beyond what the paper supports. The summary sounds careful, but the underlying generalisation is broader than the original evidence allows. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: doi.org">[DOI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">doi.org</span><span class="citation-popover-snippet">Generalization bias in large language model summarization of scientific research &#124; Royal Society Open Science &#124; The Royal SocietyApril...</span></span></span>
+Researchers studying AI summarisation have noted that models often preserve a cautious tone through words such as "may" or "suggests" while still extending the reach of a claim beyond what the paper supports. The summary sounds careful, but the underlying generalisation is broader than the original evidence allows.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: doi.org">[DOI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">doi.org</span><span class="citation-popover-snippet">Generalization bias in large language model summarization of scientific research &#124; Royal Society Open Science &#124; The Royal SocietyApril...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_science_uncer_5ad729-Illustration-2-dark.svg" | relative_url }}" alt="Science Claims illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_science_uncer_5ad729-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_science_uncer_5ad729-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -328,7 +328,7 @@ Human readers are often drawn to clear explanations. Scientific papers are inten
 
 This creates a subtle tension. A summary that preserves every qualification can appear complicated and unsatisfying. A summary that removes uncertainty often feels more informative.
 
-Researchers have suggested that large language models may learn this tendency from the texts and feedback used during training. Human readers generally prefer answers that appear broadly applicable and easy to understand. As a result, systems can develop a tendency to favour [fluency]({{ 'fluency-vs-accuracy/' | relative_url }}) and generality over precision. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.europeanscientist.com/en/big-data/chatbots-are-not-very-good-at-summarising-scientific-studies/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: europeanscientist.com">[European Scientist]</a><span class="citation-popover" role="note"><span class="citation-popover-source">europeanscientist.com</span><span class="citation-popover-title">European Scientist Chatbots are not very good at summarising scientific studies</span><span class="citation-popover-snippet">European ScientistChatbots are not very good at summarising scientific studiesMay 13, 2025...</span><span class="citation-popover-meta">Published: May 13, 2025</span></span></span>
+Researchers have suggested that large language models may learn this tendency from the texts and feedback used during training. Human readers generally prefer answers that appear broadly applicable and easy to understand. As a result, systems can develop a tendency to favour [fluency]({{ 'fluency-vs-accuracy/' | relative_url }}) and generality over precision.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.europeanscientist.com/en/big-data/chatbots-are-not-very-good-at-summarising-scientific-studies/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: europeanscientist.com">[European Scientist]</a><span class="citation-popover" role="note"><span class="citation-popover-source">europeanscientist.com</span><span class="citation-popover-title">European Scientist Chatbots are not very good at summarising scientific studies</span><span class="citation-popover-snippet">European ScientistChatbots are not very good at summarising scientific studiesMay 13, 2025...</span><span class="citation-popover-meta">Published: May 13, 2025</span></span></span>
 
 The danger is that confidence and correctness become confused. Readers may not notice that important conditions have been removed because the resulting summary still sounds reasonable.
 
@@ -374,197 +374,197 @@ The most important problem is not that AI always gets science wrong. It is that 
 
 Scientific knowledge advances through measured claims, replication, criticism and revision. Uncertainty is not a flaw in that process; it is one of the signals that helps readers judge the strength of evidence. When AI summaries compress away those signals, the resulting explanation can appear stronger, simpler and more actionable than the research warrants.
 
-Recent evidence suggests that this tendency is not an occasional accident but a recurring pattern across major language models. In high-stakes settings, the consequence is not merely misunderstanding a paper. It is developing confidence in conclusions that the original researchers themselves were not prepared to make. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: doi.org">[DOI+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">doi.org</span><span class="citation-popover-snippet">Generalization bias in large language model summarization of scientific research &#124; Royal Society Open Science &#124; The Royal SocietyApril...</span></span></span>
+Recent evidence suggests that this tendency is not an occasional accident but a recurring pattern across major language models. In high-stakes settings, the consequence is not merely misunderstanding a paper. It is developing confidence in conclusions that the original researchers themselves were not prepared to make.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: doi.org">[DOI+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">doi.org</span><span class="citation-popover-snippet">Generalization bias in large language model summarization of scientific research &#124; Royal Society Open Science &#124; The Royal SocietyApril...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why AI Makes Studies Sound More Certain. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why AI Makes Studies Sound More Certain. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Art+of+Statistics+by+David+Spiegelhalter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Art of Statistics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4qWFDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Art of Statistics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Art+of+Statistics+by+David+Spiegelhalter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Art of Statistics">The Art of Statistics</a>
-        </h4>
-        <p class="fr-book-author">By David Spiegelhalter</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Art+of+Statistics+by+David+Spiegelhalter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Art of Statistics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4qWFDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Art of Statistics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Art+of+Statistics+by+David+Spiegelhalter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Art of Statistics">The Art of Statistics</a>
+</h4>
+<p class="fr-book-author">By David Spiegelhalter</p>
         
-        <p class="fr-book-desc">Explains uncertainty, evidence quality and how conclusions should be interpreted.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Art+of+Statistics+by+David+Spiegelhalter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains uncertainty, evidence quality and how conclusions should be interpreted.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Art+of+Statistics+by+David+Spiegelhalter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=How+to+Lie+with+Statistics+by+Darrell+Huff&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open How to Lie with Statistics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=2oZGEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for How to Lie with Statistics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=How+to+Lie+with+Statistics+by+Darrell+Huff&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="How to Lie with Statistics">How to Lie with Statistics</a>
-        </h4>
-        <p class="fr-book-author">By Darrell Huff</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=How+to+Lie+with+Statistics+by+Darrell+Huff&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open How to Lie with Statistics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=2oZGEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for How to Lie with Statistics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=How+to+Lie+with+Statistics+by+Darrell+Huff&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="How to Lie with Statistics">How to Lie with Statistics</a>
+</h4>
+<p class="fr-book-author">By Darrell Huff</p>
         
-        <p class="fr-book-desc">Shows how evidence can appear stronger than it really is.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=How+to+Lie+with+Statistics+by+Darrell+Huff&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how evidence can appear stronger than it really is.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=How+to+Lie+with+Statistics+by+Darrell+Huff&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Calling Bullshit on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=S2ZOzQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Calling Bullshit" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Calling Bullshit">Calling Bullshit</a>
-        </h4>
-        <p class="fr-book-author">By Carl T. Bergstrom, Jevin Darwin West</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Calling Bullshit on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=S2ZOzQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Calling Bullshit" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Calling Bullshit">Calling Bullshit</a>
+</h4>
+<p class="fr-book-author">By Carl T. Bergstrom, Jevin Darwin West</p>
         
-        <p class="fr-book-desc">Teaches readers to scrutinise claims, summaries and overstated conclusions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Teaches readers to scrutinise claims, summaries and overstated conclusions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Drunkard%27s+Walk+by+Leonard+Mlodinow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Drunkard&#x27;s Walk on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Vr9XzwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Drunkard&#x27;s Walk" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Drunkard%27s+Walk+by+Leonard+Mlodinow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Drunkard&#x27;s Walk">The Drunkard&#x27;s Walk</a>
-        </h4>
-        <p class="fr-book-author">By Leonard Mlodinow</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Drunkard%27s+Walk+by+Leonard+Mlodinow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Drunkard&#x27;s Walk on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Vr9XzwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Drunkard&#x27;s Walk" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Drunkard%27s+Walk+by+Leonard+Mlodinow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Drunkard&#x27;s Walk">The Drunkard&#x27;s Walk</a>
+</h4>
+<p class="fr-book-author">By Leonard Mlodinow</p>
         
-        <p class="fr-book-desc">Helps readers understand randomness, confidence and mistaken causal interpretations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Drunkard%27s+Walk+by+Leonard+Mlodinow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps readers understand randomness, confidence and mistaken causal interpretations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Drunkard%27s+Walk+by+Leonard+Mlodinow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Art+of+Statistics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Art of Statistics</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=How+to+Lie+with+Statistics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">How to Lie with Statistics</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Calling+Bullshit&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Calling Bullshit</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Art+of+Statistics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Art of Statistics</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=How+to+Lie+with+Statistics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">How to Lie with Statistics</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Calling+Bullshit&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Calling Bullshit</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners"><img src="{{ '/assets/images/marketplace-covers/c7f472d3e39dd5c20921.jpg' | relative_url }}" alt="Listing image for Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners"><img src="{{ '/assets/images/marketplace-covers/c7f472d3e39dd5c20921.jpg' | relative_url }}" alt="Listing image for Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed"><img src="{{ '/assets/images/marketplace-covers/a03f33b86263c5cdb482.jpg' | relative_url }}" alt="Listing image for Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed"><img src="{{ '/assets/images/marketplace-covers/a03f33b86263c5cdb482.jpg' | relative_url }}" alt="Listing image for Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)"><img src="{{ '/assets/images/marketplace-covers/dd6377a3b134b6e96420.jpg' | relative_url }}" alt="Listing image for Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)"><img src="{{ '/assets/images/marketplace-covers/dd6377a3b134b6e96420.jpg' | relative_url }}" alt="Listing image for Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486"><img src="{{ '/assets/images/marketplace-covers/e454bb0a0a526ab88157.jpg' | relative_url }}" alt="Listing image for Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486"><img src="{{ '/assets/images/marketplace-covers/e454bb0a0a526ab88157.jpg' | relative_url }}" alt="Listing image for Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="science-claims-why-ai-makes-studies-sound-more-certain-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -580,7 +580,7 @@ Recent evidence suggests that this tendency is not an occasional accident but a 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -600,7 +600,7 @@ Recent evidence suggests that this tendency is not an occasional accident but a 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -632,7 +632,7 @@ Recent evidence suggests that this tendency is not an occasional accident but a 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -684,7 +684,7 @@ Recent evidence suggests that this tendency is not an occasional accident but a 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -729,7 +729,7 @@ Recent evidence suggests that this tendency is not an occasional accident but a 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -770,66 +770,66 @@ Recent evidence suggests that this tendency is not an occasional accident but a 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: doi.org  
-   Link: <a href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow">https://doi.org/10.1098/rsos.241776</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Generalization bias in large language model summarization of scientific research | Royal Society Open Science | The Royal SocietyApril...</p></details>
+   Link:<a href="https://doi.org/10.1098/rsos.241776" target="_blank" rel="noopener noreferrer nofollow">https://doi.org/10.1098/rsos.241776</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generalization bias in large language model summarization of scientific research | Royal Society Open Science | The Royal SocietyApril...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12042776/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12042776/</a>  
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12042776/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12042776/</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: europeanscientist.com  
    Title: European Scientist Chatbots are not very good at summarising scientific studies  
-   Link: <a href="https://www.europeanscientist.com/en/big-data/chatbots-are-not-very-good-at-summarising-scientific-studies/" target="_blank" rel="noopener noreferrer nofollow">https://www.europeanscientist.com/en/big-data/chatbots-are-not-very-good-at-summarising-scientific-studies/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>European ScientistChatbots are not very good at summarising scientific studiesMay 13, 2025...</p></details>
+   Link:<a href="https://www.europeanscientist.com/en/big-data/chatbots-are-not-very-good-at-summarising-scientific-studies/" target="_blank" rel="noopener noreferrer nofollow">https://www.europeanscientist.com/en/big-data/chatbots-are-not-very-good-at-summarising-scientific-studies/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>European ScientistChatbots are not very good at summarising scientific studiesMay 13, 2025...</p></details>
    Published: May 13, 2025  
 
 ### Additional References
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: livescience.com  
-   Link: <a href="https://www.livescience.com/technology/artificial-intelligence/reading-ai-summaries-makes-people-more-likely-to-buy-something-despite-alarming-60-percent-hallucination-rate" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/technology/artificial-intelligence/reading-ai-summaries-makes-people-more-likely-to-buy-something-despite-alarming-60-percent-hallucination-rate</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Presented at major computational linguistics conferences in December 2025, the research demonstrated that large language models (LLMs) su...</p></details>
+   Link:<a href="https://www.livescience.com/technology/artificial-intelligence/reading-ai-summaries-makes-people-more-likely-to-buy-something-despite-alarming-60-percent-hallucination-rate" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/technology/artificial-intelligence/reading-ai-summaries-makes-people-more-likely-to-buy-something-despite-alarming-60-percent-hallucination-rate</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Presented at major computational linguistics conferences in December 2025, the research demonstrated that large language models (LLMs) su...</p></details>
    Published: December 2025  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: pubmed.ncbi.nlm.nih.gov  
-   Link: <a href="https://pubmed.ncbi.nlm.nih.gov/40309181/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/40309181/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Generalization bias in large language model summarization of scientific research - PubMed...</p></details>
+   Link:<a href="https://pubmed.ncbi.nlm.nih.gov/40309181/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/40309181/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generalization bias in large language model summarization of scientific research - PubMed...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: youtube.com  
    Title: Generalization Bias in LLM Summarization of Scientific Research  
-   Link: <a href="https://www.youtube.com/watch?v=tLvkH43QLGE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=tLvkH43QLGE</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>EP20 - Understanding Science Through LLMs? Beware of Generalisation Bias...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=tLvkH43QLGE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=tLvkH43QLGE</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EP20 - Understanding Science Through LLMs? Beware of Generalisation Bias...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
    Title: Large language models eroding science understanding: an experimental study  
-   Link: <a href="https://arxiv.org/abs/2604.25639" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2604.25639</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>April 28, 2026...</p></details>
+   Link:<a href="https://arxiv.org/abs/2604.25639" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2604.25639</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>April 28, 2026...</p></details>
    Published: April 28, 2026  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=Cb4Gms994b4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Cb4Gms994b4</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Advanced AI Hallucinates More—Trust at Risk...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Cb4Gms994b4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Cb4Gms994b4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Advanced AI Hallucinates More—Trust at Risk...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/ArtificialInteligence/comments/1lss57o" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ArtificialInteligence/comments/1lss57o</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>July 6, 2025...</p></details>
+   Link:<a href="https://www.reddit.com/r/ArtificialInteligence/comments/1lss57o" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ArtificialInteligence/comments/1lss57o</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>July 6, 2025...</p></details>
    Published: July 6, 2025  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: youtube.com  
    Title: Advanced AI Hallucinates More—Trust at Risk  
-   Link: <a href="https://www.youtube.com/watch?v=sY5OrjzaxiQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=sY5OrjzaxiQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Do your own research. But do it right...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=sY5OrjzaxiQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=sY5OrjzaxiQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Do your own research. But do it right...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
    Title: Do your own research. But do it right  
-   Link: <a href="https://www.youtube.com/watch?v=nD6hS8WV3ic" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nD6hS8WV3ic</a>  
+   Link:<a href="https://www.youtube.com/watch?v=nD6hS8WV3ic" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nD6hS8WV3ic</a>  

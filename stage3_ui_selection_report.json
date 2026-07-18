@@ -42,13 +42,16 @@
     ]
   },
   "selected": {
-    "visual_profile": "atlas",
+    "site_visual_identity": "signal-cobalt",
+    "site_visual_identity_source": "local_inference",
+    "site_visual_identity_confidence": "medium",
+    "visual_profile": "compact",
     "layout_archetype": "dossier",
     "home_layout_mode": "vertical",
     "auto_home_layout_mode": "catalog",
     "hierarchy_viz_mode": "cluster-diagram",
-    "palette": "verdant-field",
-    "motif": "horizon"
+    "palette": "signal-cobalt",
+    "motif": "constellation"
   },
   "candidates": [
     {

@@ -273,7 +273,7 @@ AlphaFold2 mattered because protein folding was not just another sequence proble
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_alphafold2_sp_876964-Illustration-1-dark.svg" | relative_url }}" alt="Alpha Fold 2 illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_alphafold2_sp_876964-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_alphafold2_sp_876964-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Its key lesson for artificial intelligence is that Transformer ideas travel well, but not unchanged. AlphaFold2 used attention inside a biology-specific architecture, especially its Evoformer module, to pass information between multiple sequence alignments and pairwise residue representations. That let the system build and refine a structural hypothesis rather than merely read a protein sequence like text. DeepMind’s AlphaFold2 paper described these Evoformer mechanisms as enabling direct reasoning about spatial and evolutionary relationships, and CASP14 results showed how powerful that shift became in practice. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">Highly accurate protein structure prediction with AlphaFoldby J Jumper · 2021 · Cited by 51085 — The key innovations in the Evoform...</span></span></span>
+Its key lesson for artificial intelligence is that Transformer ideas travel well, but not unchanged. AlphaFold2 used attention inside a biology-specific architecture, especially its Evoformer module, to pass information between multiple sequence alignments and pairwise residue representations. That let the system build and refine a structural hypothesis rather than merely read a protein sequence like text. DeepMind’s AlphaFold2 paper described these Evoformer mechanisms as enabling direct reasoning about spatial and evolutionary relationships, and CASP14 results showed how powerful that shift became in practice.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">Highly accurate protein structure prediction with AlphaFoldby J Jumper · 2021 · Cited by 51085 — The key innovations in the Evoform...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/0_0o4siMMFs" title="Alphafold 2 and Protein Folding Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=0_0o4siMMFs" target="_blank" rel="noopener noreferrer">Alphafold 2 and Protein Folding Explained</a></p><p class="youtube-embed-meta">Channel: LiquidBrain Bioinformatics &middot; Views: 5.3K &middot; Uploaded: December 2020 &middot; Length: 18 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=0_0o4siMMFs" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=0_0o4siMMFs">Open on YouTube</a></p></div></div></div>
@@ -282,9 +282,9 @@ Its key lesson for artificial intelligence is that Transformer ideas travel well
 
 A protein begins as a chain of amino acids, but its biological function depends heavily on how that chain folds. The hard part is that sequence distance and physical distance are not the same thing. Two residues may be hundreds of positions apart in the amino-acid string yet become neighbours when the molecule folds. A model that only treats the protein as a left-to-right sequence risks missing exactly the relationships that determine the final shape.
 
-This is where folding differs from ordinary language modelling. In text, long-range dependencies matter, but the output is still usually interpreted as a sequence. In protein folding, the model has to infer a spatial arrangement: which residues are near each other, which orientations are plausible, and which contacts fit together across the whole molecule. AlphaFold2 addressed this by predicting three-dimensional atomic coordinates from the amino-acid sequence, aligned homologous sequences, and, where useful, structural templates. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">Highly accurate protein structure prediction with AlphaFoldby J Jumper · 2021 · Cited by 51085 — The key innovations in the Evoform...</span></span></span>
+This is where folding differs from ordinary language modelling. In text, long-range dependencies matter, but the output is still usually interpreted as a sequence. In protein folding, the model has to infer a spatial arrangement: which residues are near each other, which orientations are plausible, and which contacts fit together across the whole molecule. AlphaFold2 addressed this by predicting three-dimensional atomic coordinates from the amino-acid sequence, aligned homologous sequences, and, where useful, structural templates.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">Highly accurate protein structure prediction with AlphaFoldby J Jumper · 2021 · Cited by 51085 — The key innovations in the Evoform...</span></span></span>
 
-The CASP14 benchmark made the difference visible. AlphaFold2 achieved a median overall GDT score of 92.4, a level DeepMind described as comparable to experimental accuracy for many targets, with an approximate average RMSD error of 1.6 Å. Independent CASP-linked reviews similarly described the result as a qualitative leap in the history of protein-structure [prediction]({{ 'error-harms/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: deepmind.google">[Google DeepMind]</a><span class="citation-popover" role="note"><span class="citation-popover-source">deepmind.google</span><span class="citation-popover-title">alphafold a solution to a 50 year old grand challenge in biology</span><span class="citation-popover-snippet">Google DeepMindAlphaFold: a solution to a 50-year-old grand challenge in...30 Nov 2020 — In the results from the 14th CASP assessment, r...</span></span></span>
+The CASP14 benchmark made the difference visible. AlphaFold2 achieved a median overall GDT score of 92.4, a level DeepMind described as comparable to experimental accuracy for many targets, with an approximate average RMSD error of 1.6 Å. Independent CASP-linked reviews similarly described the result as a qualitative leap in the history of protein-structure [prediction]({{ 'error-harms/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: deepmind.google">[Google DeepMind]</a><span class="citation-popover" role="note"><span class="citation-popover-source">deepmind.google</span><span class="citation-popover-title">alphafold a solution to a 50 year old grand challenge in biology</span><span class="citation-popover-snippet">Google DeepMindAlphaFold: a solution to a 50-year-old grand challenge in...30 Nov 2020 — In the results from the 14th CASP assessment, r...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/LQAaQD2n3u0" title="Large Scale Graph Mining with Spark: What I learned from mapping 15 million websites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=LQAaQD2n3u0" target="_blank" rel="noopener noreferrer">Large Scale Graph Mining with Spark: What I learned from mapping 15 million websites</a></p><p class="youtube-embed-meta">Channel: PyGotham 2018 &middot; Views: 2.5K &middot; Uploaded: November 2018 &middot; Length: 27 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=LQAaQD2n3u0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=LQAaQD2n3u0">Open on YouTube</a></p></div></div></div>
@@ -293,9 +293,9 @@ The CASP14 benchmark made the difference visible. AlphaFold2 achieved a median o
 
 AlphaFold2’s crucial move was to represent not only residues, but residue pairs. Instead of asking only “what does this amino acid mean in this sequence?”, the model also asked “what is the relationship between residue i and residue j?” That pair representation is naturally suited to folding because distances, contacts, orientations and relative positions are all pairwise or geometry-sensitive facts.
 
-The Evoformer module updated two streams of information together: a multiple sequence alignment representation, which carries evolutionary patterns from related proteins, and a pair representation, which carries information about relationships between positions in the target protein. The European Bioinformatics Institute’s AlphaFold training material describes this as a continuous flow of information between MSA and pair representations, allowing the model to refine a structural hypothesis. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ebi.ac.uk">[EMBL-EBI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ebi.ac.uk</span><span class="citation-popover-snippet">This interprets and updates both the MSA and the pair representations. The important aspect of this network...Read more...</span></span></span>
+The Evoformer module updated two streams of information together: a multiple sequence alignment representation, which carries evolutionary patterns from related proteins, and a pair representation, which carries information about relationships between positions in the target protein. The European Bioinformatics Institute’s AlphaFold training material describes this as a continuous flow of information between MSA and pair representations, allowing the model to refine a structural hypothesis.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ebi.ac.uk">[EMBL-EBI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ebi.ac.uk</span><span class="citation-popover-snippet">This interprets and updates both the MSA and the pair representations. The important aspect of this network...Read more...</span></span></span>
 
-That design matters because evolution leaves clues. If two residues interact physically, mutations at one position may be compensated by mutations at another across related proteins. Earlier methods often used such correlations to infer contacts, but AlphaFold2 made the inferred pair relationships part of the model’s internal reasoning loop rather than just a final prediction target. Oxford’s BLopig explanation captures this shift well: in Evoformer, the pair representation is both an intermediate layer and a developing structural hypothesis that feeds back into sequence interpretation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: blopig.com">[Blopig]</a><span class="citation-popover" role="note"><span class="citation-popover-source">blopig.com</span><span class="citation-popover-snippet">AlphaFold 2 is here: what&#x27;s behind the structure prediction...19 Jul 2021 — In the Evoformer, instead, the pair representation is...</span></span></span>
+That design matters because evolution leaves clues. If two residues interact physically, mutations at one position may be compensated by mutations at another across related proteins. Earlier methods often used such correlations to infer contacts, but AlphaFold2 made the inferred pair relationships part of the model’s internal reasoning loop rather than just a final prediction target. Oxford’s BLopig explanation captures this shift well: in Evoformer, the pair representation is both an intermediate layer and a developing structural hypothesis that feeds back into sequence interpretation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: blopig.com">[Blopig]</a><span class="citation-popover" role="note"><span class="citation-popover-source">blopig.com</span><span class="citation-popover-snippet">AlphaFold 2 is here: what&#x27;s behind the structure prediction...19 Jul 2021 — In the Evoformer, instead, the pair representation is...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_alphafold2_sp_876964-Illustration-2-dark.svg" | relative_url }}" alt="Alpha Fold 2 illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_alphafold2_sp_876964-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_alphafold2_sp_876964-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -303,7 +303,7 @@ That design matters because evolution leaves clues. If two residues interact phy
 
 Pairwise information alone is still not enough. A predicted relationship between residue A and residue B must be consistent with relationships involving other residues. If A is close to B, and B is close to C, the model has to learn whether the implied geometry makes sense for A, B and C together. This is why AlphaFold2 used specialised triangular operations in the pair representation.
 
-Triangle attention and triangle multiplicative updates let the model reason over triplets of residues rather than isolated pairs. In plain terms, they help the network ask whether one proposed residue relationship fits with the surrounding web of other relationships. This is closer to reasoning over a folded spatial graph than reading a sentence from left to right. Technical summaries of the AlphaFold architecture describe these triangle operations as the way the pair representation is updated to maintain geometric consistency between residue relationships. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.uvio.bio/alphafold-architecture/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: uvio.bio">[uvio.bio]</a><span class="citation-popover" role="note"><span class="citation-popover-source">uvio.bio</span><span class="citation-popover-title">Alpha Fold Architecture</span><span class="citation-popover-snippet">Alpha Fold Architecture</span></span></span>
+Triangle attention and triangle multiplicative updates let the model reason over triplets of residues rather than isolated pairs. In plain terms, they help the network ask whether one proposed residue relationship fits with the surrounding web of other relationships. This is closer to reasoning over a folded spatial graph than reading a sentence from left to right. Technical summaries of the AlphaFold architecture describe these triangle operations as the way the pair representation is updated to maintain geometric consistency between residue relationships.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.uvio.bio/alphafold-architecture/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: uvio.bio">[uvio.bio]</a><span class="citation-popover" role="note"><span class="citation-popover-source">uvio.bio</span><span class="citation-popover-title">Alpha Fold Architecture</span><span class="citation-popover-snippet">Alpha Fold Architecture</span></span></span>
 
 This is a major reason AlphaFold2 is not simply “a Transformer for proteins”. It borrowed attention’s core idea — dynamically deciding which elements should influence one another — but rebuilt it around the structure of the folding problem. The attention did not just compare amino-acid tokens. It helped maintain a map of possible residue-residue relationships as that map became more like a three-dimensional fold.
 
@@ -314,7 +314,7 @@ This is a major reason AlphaFold2 is not simply “a Transformer for proteins”
 
 AlphaFold2 is one of the clearest examples of both the power and the limit of Transformer portability. The power is that attention can be adapted to radically different domains: words, [image patches]({{ 'image-patches/' | relative_url }}), amino acids and residue pairs can all become objects of learned relationship modelling. The limit is that successful transfer often requires domain-specific structure.
 
-For protein folding, the right inductive bias was not grammar-like sequence modelling alone. It was an architecture that combined evolutionary signals, pairwise residue geometry, triangular consistency checks, recycling of [predictions]({{ 'predictions/' | relative_url }}), and a final structure module that explicitly generated three-dimensional coordinates. EBI’s AlphaFold overview notes that AlphaFold2 recycles its MSA, pair representations and predicted structure back through the network to improve the final model. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ebi.ac.uk">[EMBL-EBI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ebi.ac.uk</span><span class="citation-popover-snippet">This interprets and updates both the MSA and the pair representations. The important aspect of this network...Read more...</span></span></span>
+For protein folding, the right inductive bias was not grammar-like sequence modelling alone. It was an architecture that combined evolutionary signals, pairwise residue geometry, triangular consistency checks, recycling of [predictions]({{ 'predictions/' | relative_url }}), and a final structure module that explicitly generated three-dimensional coordinates. EBI’s AlphaFold overview notes that AlphaFold2 recycles its MSA, pair representations and predicted structure back through the network to improve the final model.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ebi.ac.uk">[EMBL-EBI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ebi.ac.uk</span><span class="citation-popover-snippet">This interprets and updates both the MSA and the pair representations. The important aspect of this network...Read more...</span></span></span>
 
 That is the broader AI lesson. Transformers did not move from text to proteins by pretending proteins were sentences in every respect. They moved by preserving the useful general mechanism — attention over relationships — while changing the representation to match the scientific problem. In AlphaFold2, smarter attention meant attention that could think in pairs, triangles and spatial constraints, because that is what folding demands.
 
@@ -322,194 +322,194 @@ That is the broader AI lesson. Transformers did not move from text to proteins b
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_alphafold2_sp_876964-Illustration-3-dark.svg" | relative_url }}" alt="Alpha Fold 2 illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_alphafold2_sp_876964-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_alphafold2_sp_876964-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why protein folding needed smarter attention. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why protein folding needed smarter attention. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning for the Life Sciences on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=tYFKuwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Learning for the Life Sciences" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning for the Life Sciences">Deep Learning for the Life Sciences</a>
-        </h4>
-        <p class="fr-book-author">By Bharath Ramsundar, Peter Eastman et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning for the Life Sciences on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=tYFKuwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Learning for the Life Sciences" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning for the Life Sciences">Deep Learning for the Life Sciences</a>
+</h4>
+<p class="fr-book-author">By Bharath Ramsundar, Peter Eastman et al.</p>
         
-        <p class="fr-book-desc">Directly connects deep learning methods with biological structure, genomics, and protein-related applications.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly connects deep learning methods with biological structure, genomics, and protein-related applications.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Introduction+to+Protein+Structure+by+Carl+Branden&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Introduction to Protein Structure on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MXZFAQAAIAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Introduction to Protein Structure" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Introduction+to+Protein+Structure+by+Carl+Branden&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Introduction to Protein Structure">Introduction to Protein Structure</a>
-        </h4>
-        <p class="fr-book-author">By Carl Branden, John Tooze</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Introduction+to+Protein+Structure+by+Carl+Branden&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Introduction to Protein Structure on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MXZFAQAAIAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Introduction to Protein Structure" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Introduction+to+Protein+Structure+by+Carl+Branden&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Introduction to Protein Structure">Introduction to Protein Structure</a>
+</h4>
+<p class="fr-book-author">By Carl Branden, John Tooze</p>
         
-        <p class="fr-book-desc">Explains the protein-folding and structural concepts that AlphaFold2 predicts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Introduction+to+Protein+Structure+by+Carl+Branden&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains the protein-folding and structural concepts that AlphaFold2 predicts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Introduction+to+Protein+Structure+by+Carl+Branden&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Provides the neural-network foundations behind attention mechanisms and modern AI architectures.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Provides the neural-network foundations behind attention mechanisms and modern AI architectures.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Natural Language Processing on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Ua03zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Natural Language Processing" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Natural Language Processing">Transformers for Natural Language Processing</a>
-        </h4>
-        <p class="fr-book-author">By Denis Rothman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Natural Language Processing on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Ua03zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Natural Language Processing" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Natural Language Processing">Transformers for Natural Language Processing</a>
+</h4>
+<p class="fr-book-author">By Denis Rothman</p>
         
-        <p class="fr-book-desc">Helps explain how Transformer concepts were adapted into systems such as AlphaFold2.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps explain how Transformer concepts were adapted into systems such as AlphaFold2.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning for the Life Sciences</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=to+Protein+Structure+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">to Protein Structure books</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning for the Life Sciences</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=to+Protein+Structure+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">to Protein Structure books</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/f2a77d37152dec3ecaa4.jpg' | relative_url }}" alt="Listing image for Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/f2a77d37152dec3ecaa4.jpg' | relative_url }}" alt="Listing image for Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Destiny 2 Lightfall Development Team Crew Shirt Large from Bungie"><img src="{{ '/assets/images/marketplace-covers/e7534e91176b7af4efeb.jpg' | relative_url }}" alt="Listing image for Destiny 2 Lightfall Development Team Crew Shirt Large from Bungie" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Destiny 2 Lightfall Development Team Crew Shirt Large from Bungie</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Destiny 2 Lightfall Development Team Crew Shirt Large from Bungie"><img src="{{ '/assets/images/marketplace-covers/e7534e91176b7af4efeb.jpg' | relative_url }}" alt="Listing image for Destiny 2 Lightfall Development Team Crew Shirt Large from Bungie" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Destiny 2 Lightfall Development Team Crew Shirt Large from Bungie</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Nike FA Coach Developer T Shirt"><img src="{{ '/assets/images/marketplace-covers/912a9298fd1a40b97ab4.jpg' | relative_url }}" alt="Listing image for Nike FA Coach Developer T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Nike FA Coach Developer T Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Nike FA Coach Developer T Shirt"><img src="{{ '/assets/images/marketplace-covers/912a9298fd1a40b97ab4.jpg' | relative_url }}" alt="Listing image for Nike FA Coach Developer T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Nike FA Coach Developer T Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/74c4bcfb6becc37024d7.jpg' | relative_url }}" alt="Listing image for Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/74c4bcfb6becc37024d7.jpg' | relative_url }}" alt="Listing image for Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="alpha-fold-2-why-protein-folding-needed-smarter-attention-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -525,7 +525,7 @@ That is the broader AI lesson. Transformers did not move from text to proteins b
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -545,7 +545,7 @@ That is the broader AI lesson. Transformers did not move from text to proteins b
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -577,7 +577,7 @@ That is the broader AI lesson. Transformers did not move from text to proteins b
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -629,7 +629,7 @@ That is the broader AI lesson. Transformers did not move from text to proteins b
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -674,7 +674,7 @@ That is the broader AI lesson. Transformers did not move from text to proteins b
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -715,76 +715,76 @@ That is the broader AI lesson. Transformers did not move from text to proteins b
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-021-03819-2</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Highly accurate protein structure prediction with AlphaFoldby J Jumper · 2021 · Cited by 51085 — The key innovations in the Evoform...</p></details>
+   Link:<a href="https://www.nature.com/articles/s41586-021-03819-2" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-021-03819-2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Highly accurate protein structure prediction with AlphaFoldby J Jumper · 2021 · Cited by 51085 — The key innovations in the Evoform...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: deepmind.google  
    Title: alphafold a solution to a 50 year old grand challenge in biology  
-   Link: <a href="https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/" target="_blank" rel="noopener noreferrer nofollow">https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google DeepMindAlphaFold: a solution to a 50-year-old grand challenge in...30 Nov 2020 — In the results from the 14th CASP assessment, r...</p></details>
+   Link:<a href="https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/" target="_blank" rel="noopener noreferrer nofollow">https://deepmind.google/blog/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google DeepMindAlphaFold: a solution to a 50-year-old grand challenge in...30 Nov 2020 — In the results from the 14th CASP assessment, r...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: ebi.ac.uk  
-   Link: <a href="https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/" target="_blank" rel="noopener noreferrer nofollow">https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>This interprets and updates both the MSA and the pair representations. The important aspect of this network...Read more...</p></details>
+   Link:<a href="https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/" target="_blank" rel="noopener noreferrer nofollow">https://www.ebi.ac.uk/training/online/courses/alphafold/inputs-and-outputs/a-high-level-overview/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This interprets and updates both the MSA and the pair representations. The important aspect of this network...Read more...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: blopig.com  
-   Link: <a href="https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/" target="_blank" rel="noopener noreferrer nofollow">https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AlphaFold 2 is here: what&#x27;s behind the structure prediction...19 Jul 2021 — In the Evoformer, instead, the pair representation is...</p></details>
+   Link:<a href="https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/" target="_blank" rel="noopener noreferrer nofollow">https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AlphaFold 2 is here: what&#x27;s behind the structure prediction...19 Jul 2021 — In the Evoformer, instead, the pair representation is...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: uvio.bio  
    Title: Alpha Fold Architecture  
-   Link: <a href="https://www.uvio.bio/alphafold-architecture/" target="_blank" rel="noopener noreferrer nofollow">https://www.uvio.bio/alphafold-architecture/</a>  
+   Link:<a href="https://www.uvio.bio/alphafold-architecture/" target="_blank" rel="noopener noreferrer nofollow">https://www.uvio.bio/alphafold-architecture/</a>  
 
 ### Additional References
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: youtube.com  
    Title: Alphafold 2 and Protein Folding Explained  
-   Link: <a href="https://www.youtube.com/watch?v=0_0o4siMMFs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0_0o4siMMFs</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Structure Prediction with AlphaFold2 and OpenFold - YouTube Structure Prediction with AlphaFold2 and OpenFold - YouTube...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=0_0o4siMMFs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0_0o4siMMFs</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Structure Prediction with AlphaFold2 and OpenFold - YouTube Structure Prediction with AlphaFold2 and OpenFold - YouTube...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: youtu.be  
    Title: ⭕ Watch this video next  
-   Link: <a href="https://youtu.be/AeUnO1oNv08" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/AeUnO1oNv08</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;⭕ Support my work 🌟 Subscribe to the Coding Professor channel [https://www.youtube.com/channel/UCJzlfIoF8nmWqJIv_iWQVRw?sub_confirmation=1...&quot;](https://www.youtube.com/channel/UCJzlfIoF8nmWqJIv_iWQVRw?sub_confirmation=1...&quot;)...</p></details>
+   Link:<a href="https://youtu.be/AeUnO1oNv08" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/AeUnO1oNv08</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;⭕ Support my work 🌟 Subscribe to the Coding Professor channel [https://www.youtube.com/channel/UCJzlfIoF8nmWqJIv_iWQVRw?sub_confirmation=1...&quot;](https://www.youtube.com/channel/UCJzlfIoF8nmWqJIv_iWQVRw?sub_confirmation=1...&quot;)...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8329862/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8329862/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Protein structure prediction by AlphaFold2: are attention and...by N Bouatta · 2021 · Cited by 98 — In the most recent CASP14 experim...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8329862/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8329862/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Protein structure prediction by AlphaFold2: are attention and...by N Bouatta · 2021 · Cited by 98 — In the most recent CASP14 experim...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMCToward the appropriate interpretation of Alphafold2  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10469483/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10469483/</a>  
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10469483/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10469483/</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: youtube.com  
    Title: Alpha Fold 2 Paper with Code  
-   Link: <a href="https://www.youtube.com/watch?v=0WUHmRKpwVY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0WUHmRKpwVY</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Alphafold 2 and Protein Folding Explained...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=0WUHmRKpwVY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0WUHmRKpwVY</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Alphafold 2 and Protein Folding Explained...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
    Title: Alpha Fold Decoded: Evoformer (Lesson 5)  
-   Link: <a href="https://www.youtube.com/watch?v=gY4-vVRTkpk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=gY4-vVRTkpk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AlphaFold Decoded: Attention (Lesson 3)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=gY4-vVRTkpk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=gY4-vVRTkpk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AlphaFold Decoded: Attention (Lesson 3)...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
    Title: Alpha Fold Decoded: Attention (Lesson 3)  
-   Link: <a href="https://www.youtube.com/watch?v=7dS3nyEcOyE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7dS3nyEcOyE</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AlphaFold 2 Paper with Code...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=7dS3nyEcOyE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7dS3nyEcOyE</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AlphaFold 2 Paper with Code...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
    Title: Graph Mining  
-   Link: <a href="https://www.youtube.com/watch?v=LQAaQD2n3u0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=LQAaQD2n3u0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer illustration...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=LQAaQD2n3u0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=LQAaQD2n3u0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer illustration...</p></details>

@@ -269,17 +269,17 @@ image: /assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d
 
 ## Introduction
 
-[Attention]({{ 'attention/' | relative_url }}) did more than improve machine translation. It created the technical conditions that made foundation models possible. A foundation model is a large pre-trained system that learns broad patterns from vast amounts of data and can then be adapted or prompted to perform many different tasks. Before attention-based transformers, language systems were usually built for specific purposes and often required separate architectures or training pipelines for each task. The transformer changed that pattern. By allowing efficient parallel training, scaling to much larger datasets, and learning reusable representations of language, attention-based models became practical to pre-train once and reuse many times. The result was the emergence of models such as BERT, GPT, and later multimodal systems that now form the foundation of modern artificial intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+[Attention]({{ 'attention/' | relative_url }}) did more than improve machine translation. It created the technical conditions that made foundation models possible. A foundation model is a large pre-trained system that learns broad patterns from vast amounts of data and can then be adapted or prompted to perform many different tasks. Before attention-based transformers, language systems were usually built for specific purposes and often required separate architectures or training pipelines for each task. The transformer changed that pattern. By allowing efficient parallel training, scaling to much larger datasets, and learning reusable representations of language, attention-based models became practical to pre-train once and reuse many times. The result was the emergence of models such as BERT, GPT, and later multimodal systems that now form the foundation of modern artificial intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34_attention_fou_16aad4-Illustration-1-dark.svg" | relative_url }}" alt="Foundation scale illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34_attention_fou_16aad4-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34_attention_fou_16aad4-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## From translation systems to reusable language models
 
-The original transformer paper in 2017 was presented as a solution to sequence-to-sequence tasks such as machine translation. However, its deeper significance was architectural. The authors demonstrated that a model built entirely around attention could outperform leading recurrent approaches while training more efficiently and with greater parallelism. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The original transformer paper in 2017 was presented as a solution to sequence-to-sequence tasks such as machine translation. However, its deeper significance was architectural. The authors demonstrated that a model built entirely around attention could outperform leading recurrent approaches while training more efficiently and with greater parallelism.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 This mattered because attention made it possible to treat language modelling as a general-purpose learning problem rather than a collection of specialised tasks. Instead of designing different systems for translation, summarisation, question answering, and classification, researchers could train a single transformer on enormous amounts of text and then adapt it to many downstream uses.
 
-Earlier neural [language models]({{ 'language-models/' | relative_url }}) certainly learned useful representations, but they struggled to scale efficiently. Attention-based transformers offered a more flexible path: one architecture could process text, learn relationships across [long contexts]({{ 'long-context-cost/' | relative_url }}), and be reused repeatedly. This shift from task-specific models to reusable language representations became a defining feature of foundation models. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+Earlier neural [language models]({{ 'language-models/' | relative_url }}) certainly learned useful representations, but they struggled to scale efficiently. Attention-based transformers offered a more flexible path: one architecture could process text, learn relationships across [long contexts]({{ 'long-context-cost/' | relative_url }}), and be reused repeatedly. This shift from task-specific models to reusable language representations became a defining feature of foundation models.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/fKMB5UlVY1E" title="Stanford CS25: V4 I Overview of Transformers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=fKMB5UlVY1E" target="_blank" rel="noopener noreferrer">Stanford CS25: V4 I Overview of Transformers</a></p><p class="youtube-embed-meta">Channel: Stanford Online</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=fKMB5UlVY1E" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=fKMB5UlVY1E">Open on YouTube</a></p></div></div></div>
@@ -290,9 +290,9 @@ A foundation model is only possible if training can be expanded to enormous data
 
 Recurrent neural networks process text sequentially. Every new token depends on computations from previous tokens. This creates a bottleneck because modern hardware such as graphics processing units (GPUs) works best when many operations can be performed simultaneously.
 
-The transformer removed this limitation. Self-attention allows tokens within a sequence to interact in parallel rather than waiting for a chain of recurrent updates. The original transformer paper highlighted substantially greater parallelisation and significantly reduced training time compared with leading recurrent systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.neurips.cc">[NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.neurips.cc</span><span class="citation-popover-title">7181 attention is all you need</span><span class="citation-popover-snippet">NeurIPS PapersAttention is All you Needby A Vaswani · Cited by 247454 — The Transformer allows for significantly more parallelization and...</span></span></span>
+The transformer removed this limitation. Self-attention allows tokens within a sequence to interact in parallel rather than waiting for a chain of recurrent updates. The original transformer paper highlighted substantially greater parallelisation and significantly reduced training time compared with leading recurrent systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.neurips.cc">[NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.neurips.cc</span><span class="citation-popover-title">7181 attention is all you need</span><span class="citation-popover-snippet">NeurIPS PapersAttention is All you Needby A Vaswani · Cited by 247454 — The Transformer allows for significantly more parallelization and...</span></span></span>
 
-The importance of this change is difficult to overstate. Once researchers could train much larger models efficiently, they discovered a powerful pattern: increasing model size, data volume, and computation often produced predictable improvements in performance. Large-scale pre-training became economically and technically feasible because attention-based architectures could make effective use of modern computing infrastructure. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.neurips.cc">[NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.neurips.cc</span><span class="citation-popover-title">7181 attention is all you need</span><span class="citation-popover-snippet">NeurIPS PapersAttention is All you Needby A Vaswani · Cited by 247454 — The Transformer allows for significantly more parallelization and...</span></span></span>
+The importance of this change is difficult to overstate. Once researchers could train much larger models efficiently, they discovered a powerful pattern: increasing model size, data volume, and computation often produced predictable improvements in performance. Large-scale pre-training became economically and technically feasible because attention-based architectures could make effective use of modern computing infrastructure.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.neurips.cc">[NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.neurips.cc</span><span class="citation-popover-title">7181 attention is all you need</span><span class="citation-popover-snippet">NeurIPS PapersAttention is All you Needby A Vaswani · Cited by 247454 — The Transformer allows for significantly more parallelization and...</span></span></span>
 
 In practical terms, attention transformed language modelling from a research exercise constrained by sequential computation into a scalable engineering process. Foundation models emerged because the architecture could absorb more data and more compute than earlier approaches.
 
@@ -303,16 +303,16 @@ In practical terms, attention transformed language modelling from a research exe
 
 The next crucial step was proving that a single pre-trained transformer could transfer its knowledge to many applications.
 
-BERT, introduced in 2018, showed that a transformer could be pre-trained on large amounts of unlabeled text and then fine-tuned for a wide variety of language tasks with only modest modifications. The same underlying model could support question answering, natural language [inference]({{ 'inference-test/' | relative_url }}), classification, and other applications. This demonstrated that a general language representation could be reused across domains instead of retraining separate systems from scratch. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.04805" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+BERT, introduced in 2018, showed that a transformer could be pre-trained on large amounts of unlabeled text and then fine-tuned for a wide variety of language tasks with only modest modifications. The same underlying model could support question answering, natural language [inference]({{ 'inference-test/' | relative_url }}), classification, and other applications. This demonstrated that a general language representation could be reused across domains instead of retraining separate systems from scratch.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.04805" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
-At roughly the same time, the GPT family explored another path. Rather than focusing primarily on task-specific fine-tuning, GPT-style models showed that sufficiently large transformer language models could perform multiple tasks through prompting and context alone. The GPT-2 paper described language models as “unsupervised multitask learners”, highlighting how broad capabilities could emerge from large-scale pre-training. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cdn.openai.com">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cdn.openai.com</span><span class="citation-popover-title">language models are unsupervised multitask learners</span><span class="citation-popover-snippet">Language Models are Unsupervised Multitask Learnersby A Radford · Cited by 25478 — The capacity of the language model is essential...</span></span></span>
+At roughly the same time, the GPT family explored another path. Rather than focusing primarily on task-specific fine-tuning, GPT-style models showed that sufficiently large transformer language models could perform multiple tasks through prompting and context alone. The GPT-2 paper described language models as “unsupervised multitask learners”, highlighting how broad capabilities could emerge from large-scale pre-training.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cdn.openai.com">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cdn.openai.com</span><span class="citation-popover-title">language models are unsupervised multitask learners</span><span class="citation-popover-snippet">Language Models are Unsupervised Multitask Learnersby A Radford · Cited by 25478 — The capacity of the language model is essential...</span></span></span>
 
 These developments revealed two related ideas:
 
 * A transformer could learn broadly useful representations from raw text.
 * The same pre-trained model could be reused across many downstream tasks.
 
-Those are core characteristics of a foundation model. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.04805" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Those are core characteristics of a foundation model.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.04805" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34_attention_fou_16aad4-Illustration-2-dark.svg" | relative_url }}" alt="Foundation scale illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34_attention_fou_16aad4-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34_attention_fou_16aad4-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -320,11 +320,11 @@ Those are core characteristics of a foundation model. <span class="citation-link
 
 Attention did not merely create one successful model family. It provided a general mechanism that could be applied across different forms of data.
 
-Because attention operates on relationships between tokens rather than on language-specific rules, the transformer framework proved adaptable beyond text. Researchers later applied transformer architectures to images, audio, code, and multimodal data. Models such as image transformers and multimodal systems borrowed the same basic attention-centred design that originated in language research. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2106.08254" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv BEi T: BERT Pre-Training of Image Transformers</span><span class="citation-popover-snippet">BEiT: BERT Pre-Training of Image TransformersJune 15, 2021...</span><span class="citation-popover-meta">Published: June 15, 2021</span></span></span>
+Because attention operates on relationships between tokens rather than on language-specific rules, the transformer framework proved adaptable beyond text. Researchers later applied transformer architectures to images, audio, code, and multimodal data. Models such as image transformers and multimodal systems borrowed the same basic attention-centred design that originated in language research.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2106.08254" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv BEi T: BERT Pre-Training of Image Transformers</span><span class="citation-popover-snippet">BEiT: BERT Pre-Training of Image TransformersJune 15, 2021...</span><span class="citation-popover-meta">Published: June 15, 2021</span></span></span>
 
 This adaptability helped establish a new pattern in artificial intelligence development. Instead of building entirely different architectures for each domain, researchers increasingly started with a transformer-based foundation model and adapted it to new data types and tasks.
 
-The result was a shared technological base spanning search, content generation, programming assistance, image [understanding]({{ 'understanding/' | relative_url }}), and multimodal reasoning. Attention became the mechanism that connected these systems because it provided a scalable way to model relationships within complex data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Attention Is All You NeedThe paper introduced a new deep learning architecture known as the transformer, based on the attention mechanism...</span></span></span>
+The result was a shared technological base spanning search, content generation, programming assistance, image [understanding]({{ 'understanding/' | relative_url }}), and multimodal reasoning. Attention became the mechanism that connected these systems because it provided a scalable way to model relationships within complex data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Attention Is All You NeedThe paper introduced a new deep learning architecture known as the transformer, based on the attention mechanism...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/u1_qMdb0kYU" title="GPT-2: Language Models are Unsupervised Multitask Learners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=u1_qMdb0kYU" target="_blank" rel="noopener noreferrer">GPT-2: Language Models are Unsupervised Multitask Learners</a></p><p class="youtube-embed-meta">Channel: Yannic Kilcher</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=u1_qMdb0kYU" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=u1_qMdb0kYU">Open on YouTube</a></p></div></div></div>
@@ -346,202 +346,202 @@ The crucial contribution was organisational rather than merely incremental. Atte
 
 </div>
 
-Taken together, these properties transformed language models from specialised tools into broadly applicable platforms. BERT, GPT, and later multimodal systems were built on different objectives and training strategies, but all depended on the transformer architecture that attention made possible. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[Wikipedia+3arXiv+3arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+Taken together, these properties transformed language models from specialised tools into broadly applicable platforms. BERT, GPT, and later multimodal systems were built on different objectives and training strategies, but all depended on the transformer architecture that attention made possible.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[Wikipedia+3arXiv+3arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-In the history of artificial intelligence, attention's most important legacy may therefore be that it turned language modelling into a foundation on which many other capabilities could be built. Rather than creating better translation systems alone, it enabled the rise of foundation models themselves. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+In the history of artificial intelligence, attention's most important legacy may therefore be that it turned language modelling into a foundation on which many other capabilities could be built. Rather than creating better translation systems alone, it enabled the rise of foundation models themselves.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34_attention_fou_16aad4-Illustration-3-dark.svg" | relative_url }}" alt="Foundation scale illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34_attention_fou_16aad4-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34_attention_fou_16aad4-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How did attention lead to foundation models?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How did attention lead to foundation models?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
-        </h4>
-        <p class="fr-book-author">By Sebastian Raschka</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
+</h4>
+<p class="fr-book-author">By Sebastian Raschka</p>
         
-        <p class="fr-book-desc">Directly connects transformers, attention, and modern foundation models.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly connects transformers, attention, and modern foundation models.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Explains how attention-based transformers became reusable foundation models.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how attention-based transformers became reusable foundation models.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Focuses on pretraining, transfer, and modern foundation-model workflows.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on pretraining, transfer, and modern foundation-model workflows.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Provides the deep-learning foundations underlying transformer scaling.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Provides the deep-learning foundations underlying transformer scaling.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology"><img src="{{ '/assets/images/marketplace-covers/790ba4c9bcb27ee47b94.jpg' | relative_url }}" alt="Listing image for I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology"><img src="{{ '/assets/images/marketplace-covers/790ba4c9bcb27ee47b94.jpg' | relative_url }}" alt="Listing image for I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Got Machine Learning? T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c488c01aeb763732238d.jpg' | relative_url }}" alt="Listing image for Got Machine Learning? T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Got Machine Learning? T shirt Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Got Machine Learning? T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c488c01aeb763732238d.jpg' | relative_url }}" alt="Listing image for Got Machine Learning? T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Got Machine Learning? T shirt Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm and Study Machine Learning T shirt Funny Tee"><img src="{{ '/assets/images/marketplace-covers/5cf6b015d0c00883f639.jpg' | relative_url }}" alt="Listing image for Keep Calm and Study Machine Learning T shirt Funny Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Keep Calm and Study Machine Learning T shirt Funny Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm and Study Machine Learning T shirt Funny Tee"><img src="{{ '/assets/images/marketplace-covers/5cf6b015d0c00883f639.jpg' | relative_url }}" alt="Listing image for Keep Calm and Study Machine Learning T shirt Funny Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Keep Calm and Study Machine Learning T shirt Funny Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee"><img src="{{ '/assets/images/marketplace-covers/cc76046aa1cf333f1a8e.jpg' | relative_url }}" alt="Listing image for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee"><img src="{{ '/assets/images/marketplace-covers/cc76046aa1cf333f1a8e.jpg' | relative_url }}" alt="Listing image for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="foundation-scale-how-did-attention-lead-to-foundation-models-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -557,7 +557,7 @@ In the history of artificial intelligence, attention's most important legacy may
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -577,7 +577,7 @@ In the history of artificial intelligence, attention's most important legacy may
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -609,7 +609,7 @@ In the history of artificial intelligence, attention's most important legacy may
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -661,7 +661,7 @@ In the history of artificial intelligence, attention's most important legacy may
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -706,7 +706,7 @@ In the history of artificial intelligence, attention's most important legacy may
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -747,153 +747,153 @@ In the history of artificial intelligence, attention's most important legacy may
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</p></details>
+   Link:<a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</p></details>
    Published: June 12, 2017  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: papers.neurips.cc  
    Title: 7181 attention is all you need  
-   Link: <a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow">https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS PapersAttention is All you Needby A Vaswani · Cited by 247454 — The Transformer allows for significantly more parallelization and...</p></details>
+   Link:<a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow">https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS PapersAttention is All you Needby A Vaswani · Cited by 247454 — The Transformer allows for significantly more parallelization and...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedThe paper introduced a new [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) architecture known as the transformer, based on the attention mechanism...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedThe paper introduced a new [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;) architecture known as the transformer, based on the attention mechanism...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1810.04805" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1810.04805</a>  
+   Link:<a href="https://arxiv.org/abs/1810.04805" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1810.04805</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: cdn.openai.com  
    Title: language models are unsupervised multitask learners  
-   Link: <a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Unsupervised Multitask Learnersby A Radford · Cited by 25478 — The capacity of the language model is essential...</p></details>
+   Link:<a href="https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Unsupervised Multitask Learnersby A Radford · Cited by 25478 — The capacity of the language model is essential...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv BEi T: BERT Pre-Training of Image Transformers  
-   Link: <a href="https://arxiv.org/abs/2106.08254" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2106.08254</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>BEiT: BERT Pre-Training of Image TransformersJune 15, 2021...</p></details>
+   Link:<a href="https://arxiv.org/abs/2106.08254" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2106.08254</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BEiT: BERT Pre-Training of Image TransformersJune 15, 2021...</p></details>
    Published: June 15, 2021  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/gpt" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/gpt</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>sed on a transformer deep learning architecture.Read more...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/gpt" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/gpt</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>sed on a transformer deep learning architecture.Read more...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: Wikipedia  
    Title: Attention ([machine learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;))  
-   Link: <a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_%28machine_learning%29</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention (machine learning)In machine learning, attention is a method that determines the importance of each component in a sequence...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Attention_%28machine_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_%28machine_learning%29</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention (machine learning)In machine learning, attention is a method that determines the importance of each component in a sequence...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: Wikipedia  
    Title: BERT (language model)  
-   Link: <a href="https://en.wikipedia.org/wiki/BERT_%28language_model%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/BERT_%28language_model%29</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>BERT (language model)Bidirectional encoder representations from transformers (BERT) is a language model introduced in October 2018 by...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/BERT_%28language_model%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/BERT_%28language_model%29</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BERT (language model)Bidirectional encoder representations from transformers (BERT) is a language model introduced in October 2018 by...</p></details>
    Published: October 2018  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Attention" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AttentionAttention is the concentration of awareness directed at some task or phenomenon while mostly excluding others. Focused attent...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Attention" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AttentionAttention is the concentration of awareness directed at some task or phenomenon while mostly excluding others. Focused attent...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: Wikipedia  
    Title: [Generative](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) pre trained transformer  
-   Link: <a href="https://en.wikipedia.org/wiki/Generative_pre-trained_transformer" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Generative_pre-trained_transformer</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative pre-trained transformerGPTs are primarily used to generate text, but can be trained to generate other kinds of data. For ex...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Generative_pre-trained_transformer" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Generative_pre-trained_transformer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative pre-trained transformerGPTs are primarily used to generate text, but can be trained to generate other kinds of data. For ex...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: OpenAI  
-   Link: <a href="https://openai.com/gpt-5/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/gpt-5/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>comGPT-5 is hereGPT‑5 is smarter across the board, providing more useful responses across math, science, finance, law, and more. It&#x27;s lik...</p></details>
+   Link:<a href="https://openai.com/gpt-5/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/gpt-5/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>comGPT-5 is hereGPT‑5 is smarter across the board, providing more useful responses across math, science, finance, law, and more. It&#x27;s lik...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/1810.04805" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1810.04805</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>1810.04805v2 [cs.CL] 24 May 2019May 24, 2019 — We introduce a new language representa- tion model called BERT, which stands for. Bi...</p></details>
+   Link:<a href="https://arxiv.org/pdf/1810.04805" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1810.04805</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>1810.04805v2 [cs.CL] 24 May 2019May 24, 2019 — We introduce a new language representa- tion model called BERT, which stands for. Bi...</p></details>
    Published: May 24, 2019  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2406.14491v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2406.14491v2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>However, supervised multitask learning...Read more...</p></details>
+   Link:<a href="https://arxiv.org/html/2406.14491v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2406.14491v2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>However, supervised multitask learning...Read more...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/attention-mechanism" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/attention-mechanism</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>attend to) the most relevant parts of input data...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/attention-mechanism" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/attention-mechanism</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>attend to) the most relevant parts of input data...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: github.com  
-   Link: <a href="https://github.com/openai/gpt-2" target="_blank" rel="noopener noreferrer nofollow">https://github.com/openai/gpt-2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>openai/gpt-2: Code for the paper &quot;Language Models...8 Apr 2026 — Code and models from the paper &quot;Language Models are Unsupervised Multit...</p></details>
+   Link:<a href="https://github.com/openai/gpt-2" target="_blank" rel="noopener noreferrer nofollow">https://github.com/openai/gpt-2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>openai/gpt-2: Code for the paper &quot;Language Models...8 Apr 2026 — Code and models from the paper &quot;Language Models are Unsupervised Multit...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: dl.acm.org  
-   Link: <a href="https://dl.acm.org/doi/10.1145/3416063" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.1145/3416063</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI Blog... XLNet: Generalized autoregressive pretraining for language understanding.Read more...</p></details>
+   Link:<a href="https://dl.acm.org/doi/10.1145/3416063" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.1145/3416063</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI Blog... XLNet: Generalized autoregressive pretraining for language understanding.Read more...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: aws.amazon.com  
-   Link: <a href="https://aws.amazon.com/what-is/gpt/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/what-is/gpt/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative Pre-Trained Transformers...GPT models give applications the ability to create human-like text and content (images, music, and...</p></details>
+   Link:<a href="https://aws.amazon.com/what-is/gpt/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/what-is/gpt/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative Pre-Trained Transformers...GPT models give applications the ability to create human-like text and content (images, music, and...</p></details>
 
 ### Additional References
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/attention" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ATTENTION Definition &amp; Meaning3 days ago — 1. a: the act or state of applying the mind to something Our attention was on the game. You s...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/attention" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ATTENTION Definition &amp; Meaning3 days ago — 1. a: the act or state of applying the mind to something Our attention was on the game. You s...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: semanticscholar.org  
-   Link: <a href="https://www.semanticscholar.org/paper/BERT%3A-Pre-training-of-Deep-Bidirectional-for-Devlin-Chang/df2b0e26d0599ce3e70df8a9da02e51594e0e992" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/BERT%3A-Pre-training-of-Deep-Bidirectional-for-Devlin-Chang/df2b0e26d0599ce3e70df8a9da02e51594e0e992</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...A new language representation model, BERT, designed to pre-train deep bidire...</p></details>
+   Link:<a href="https://www.semanticscholar.org/paper/BERT%3A-Pre-training-of-Deep-Bidirectional-for-Devlin-Chang/df2b0e26d0599ce3e70df8a9da02e51594e0e992" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/BERT%3A-Pre-training-of-Deep-Bidirectional-for-Devlin-Chang/df2b0e26d0599ce3e70df8a9da02e51594e0e992</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...A new language representation model, BERT, designed to pre-train deep bidire...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: scispace.com  
-   Link: <a href="https://scispace.com/papers/bert-pre-training-of-deep-bidirectional-transformers-for-3mez6kncl2" target="_blank" rel="noopener noreferrer nofollow">https://scispace.com/papers/bert-pre-training-of-deep-bidirectional-transformers-for-3mez6kncl2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...BERT is designed to pre-train deep bidirectional representations from unlabe...</p></details>
+   Link:<a href="https://scispace.com/papers/bert-pre-training-of-deep-bidirectional-transformers-for-3mez6kncl2" target="_blank" rel="noopener noreferrer nofollow">https://scispace.com/papers/bert-pre-training-of-deep-bidirectional-transformers-for-3mez6kncl2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...BERT is designed to pre-train deep bidirectional representations from unlabe...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: nanonets.com  
-   Link: <a href="https://nanonets.com/chat-pdf/bert-pre-training-of-deep-bidirectional-transformers" target="_blank" rel="noopener noreferrer nofollow">https://nanonets.com/chat-pdf/bert-pre-training-of-deep-bidirectional-transformers</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...BERT pre-trains deep bidirectional representations from unlabeled text for n...</p></details>
+   Link:<a href="https://nanonets.com/chat-pdf/bert-pre-training-of-deep-bidirectional-transformers" target="_blank" rel="noopener noreferrer nofollow">https://nanonets.com/chat-pdf/bert-pre-training-of-deep-bidirectional-transformers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...BERT pre-trains deep bidirectional representations from unlabeled text for n...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: academia.edu  
-   Link: <a href="https://www.academia.edu/41552448/BERT_Pre_training_of_Deep_Bidirectional_Transformers_for_Language_Understanding" target="_blank" rel="noopener noreferrer nofollow">https://www.academia.edu/41552448/BERT_Pre_training_of_Deep_Bidirectional_Transformers_for_Language_Understanding</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...We introduce a new language representation model called BERT, which stands f...</p></details>
+   Link:<a href="https://www.academia.edu/41552448/BERT_Pre_training_of_Deep_Bidirectional_Transformers_for_Language_Understanding" target="_blank" rel="noopener noreferrer nofollow">https://www.academia.edu/41552448/BERT_Pre_training_of_Deep_Bidirectional_Transformers_for_Language_Understanding</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...We introduce a new language representation model called BERT, which stands f...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/328230984_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Language_Understanding" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/328230984_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Language_Understanding</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...We introduce a new language representation model called BERT, which stands f...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/328230984_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Language_Understanding" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/328230984_BERT_Pre-training_of_Deep_Bidirectional_Transformers_for_Language_Understanding</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BERT: Pre-training of Deep Bidirectional Transformers for...We introduce a new language representation model called BERT, which stands f...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: bibbase.org  
-   Link: <a href="https://bibbase.org/network/publication/radford-wu-child-luan-amodei-sutskever-languagemodelsareunsupervisedmultitasklearners-2019" target="_blank" rel="noopener noreferrer nofollow">https://bibbase.org/network/publication/radford-wu-child-luan-amodei-sutskever-languagemodelsareunsupervisedmultitasklearners-2019</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Unsupervised Multitask LearnersWe demonstrate that language models begin to learn these tasks without any explicit su...</p></details>
+   Link:<a href="https://bibbase.org/network/publication/radford-wu-child-luan-amodei-sutskever-languagemodelsareunsupervisedmultitasklearners-2019" target="_blank" rel="noopener noreferrer nofollow">https://bibbase.org/network/publication/radford-wu-child-luan-amodei-sutskever-languagemodelsareunsupervisedmultitasklearners-2019</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models are Unsupervised Multitask LearnersWe demonstrate that language models begin to learn these tasks without any explicit su...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: deepai.org  
-   Link: <a href="https://deepai.org/chat/gpt-chat" target="_blank" rel="noopener noreferrer nofollow">https://deepai.org/chat/gpt-chat</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GPT ChatLooking for a ChatGPT-like experience? Give GPT-Chat a try! Please note that GPT Chat is not affiliated with OpenAI. ChatGPT is a...</p></details>
+   Link:<a href="https://deepai.org/chat/gpt-chat" target="_blank" rel="noopener noreferrer nofollow">https://deepai.org/chat/gpt-chat</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GPT ChatLooking for a ChatGPT-like experience? Give GPT-Chat a try! Please note that GPT Chat is not affiliated with OpenAI. ChatGPT is a...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: slideshare.net  
-   Link: <a href="https://www.slideshare.net/slideshow/gpt2-language-models-are-unsupervised-multitask-learners/176914651" target="_blank" rel="noopener noreferrer nofollow">https://www.slideshare.net/slideshow/gpt2-language-models-are-unsupervised-multitask-learners/176914651</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GPT-2: Language Models are Unsupervised Multitask...This document summarizes a technical paper about GPT-2, an unsupervised language mod...</p></details>
+   Link:<a href="https://www.slideshare.net/slideshow/gpt2-language-models-are-unsupervised-multitask-learners/176914651" target="_blank" rel="noopener noreferrer nofollow">https://www.slideshare.net/slideshow/gpt2-language-models-are-unsupervised-multitask-learners/176914651</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GPT-2: Language Models are Unsupervised Multitask...This document summarizes a technical paper about GPT-2, an unsupervised language mod...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/data-science/large-language-models-gpt-2-language-models-are-unsupervised-multitask-learners-33440081f808" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science/large-language-models-gpt-2-language-models-are-unsupervised-multitask-learners-33440081f808</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models Are Unsupervised Multitask LearnersThe GPT-2 authors proposed a novel approach for replacing the common pre-training + fi...</p></details>
+   Link:<a href="https://medium.com/data-science/large-language-models-gpt-2-language-models-are-unsupervised-multitask-learners-33440081f808" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science/large-language-models-gpt-2-language-models-are-unsupervised-multitask-learners-33440081f808</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models Are Unsupervised Multitask LearnersThe GPT-2 authors proposed a novel approach for replacing the common pre-training + fi...</p></details>

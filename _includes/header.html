@@ -1,7 +1,11 @@
 <header class="site-header">
   {% assign ui = page.ui_strings | default: site.ui_strings %}
   {% assign current_url = page.url | default: '' %}
-  {% assign is_home_page = current_url == '/' %}
+  {% assign is_home_page = false %}
+  {% if current_url == '/' %}
+  {% assign is_home_page = true %}
+  {% endif %}
+  {% assign is_search_page = page.search_page | default: false %}
   {% assign page_parent_label = page.parent_nav_short_title | default: page.parent_title %}
   <div class="container header-inner">
     <div class="brand-block">
@@ -45,6 +49,7 @@
       {% endunless %}
       {% assign top_topics = site.data.navigation.sidebar_generated %}
       {% if top_topics and top_topics.size > 0 %}
+      {% if is_home_page or is_search_page %}
       <details class="topics-menu">
         <summary class="nav-pill nav-pill-button">{{ ui.topics | default: 'Topics' }}</summary>
         <div class="topics-menu-panel">
@@ -58,6 +63,9 @@
           </div>
         </div>
       </details>
+      {% else %}
+      <a class="nav-pill" href="{{ '/#browse-reports' | relative_url }}">{{ ui.topics | default: 'Topics' }}</a>
+      {% endif %}
       {% endif %}
       {% unless is_home_page %}
       <button class="nav-pill nav-pill-button article-header-pill article-header-contents" type="button" data-mobile-sidebar-open aria-expanded="false" aria-controls="page-sidebar">{{ ui.contents | default: 'Contents' }}</button>

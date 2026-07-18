@@ -269,17 +269,17 @@ image: /assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a
 
 ## Introduction
 
-The ELIZA effect is the tendency for people to attribute [understanding]({{ 'understanding/' | relative_url }}), empathy, or even human-like awareness to a computer program when its responses resemble [meaningful]({{ 'human-review/' | relative_url }}) conversation. Named after the 1960s chatbot ELIZA, the effect helps explain why chatbots can feel caring, supportive, and emotionally intelligent even when there is no evidence that they genuinely understand a user's experiences. In the broader effort to understand artificial intelligence, the ELIZA effect reveals something important about both machines and humans: conversational fluency often triggers social instincts that lead people to infer a mind behind the words. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
+The ELIZA effect is the tendency for people to attribute [understanding]({{ 'understanding/' | relative_url }}), empathy, or even human-like awareness to a computer program when its responses resemble [meaningful]({{ 'human-review/' | relative_url }}) conversation. Named after the 1960s chatbot ELIZA, the effect helps explain why chatbots can feel caring, supportive, and emotionally intelligent even when there is no evidence that they genuinely understand a user's experiences. In the broader effort to understand artificial intelligence, the ELIZA effect reveals something important about both machines and humans: conversational fluency often triggers social instincts that lead people to infer a mind behind the words.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7_eliza_effect_68f1e6-Illustration-1-dark.svg" | relative_url }}" alt="ELIZA effect illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7_eliza_effect_68f1e6-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7_eliza_effect_68f1e6-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Modern AI systems are vastly more sophisticated than ELIZA, but the underlying psychological mechanism remains remarkably similar. When a chatbot responds in a way that appears attentive, reflective, and emotionally appropriate, users may experience the interaction as empathy regardless of how the system actually generates its replies. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nngroup.com/articles/eliza-effect-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nngroup.com">[Nielsen Norman Group]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nngroup.com</span><span class="citation-popover-title">Nielsen Norman Group The ELIZA Effect</span><span class="citation-popover-snippet">Nielsen Norman GroupThe ELIZA Effect - Why We Love AIOct 6, 2023 — Based on the context of a human-like conversation, users were predispo...</span></span></span>
+Modern AI systems are vastly more sophisticated than ELIZA, but the underlying psychological mechanism remains remarkably similar. When a chatbot responds in a way that appears attentive, reflective, and emotionally appropriate, users may experience the interaction as empathy regardless of how the system actually generates its replies.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nngroup.com/articles/eliza-effect-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nngroup.com">[Nielsen Norman Group]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nngroup.com</span><span class="citation-popover-title">Nielsen Norman Group The ELIZA Effect</span><span class="citation-popover-snippet">Nielsen Norman GroupThe ELIZA Effect - Why We Love AIOct 6, 2023 — Based on the context of a human-like conversation, users were predispo...</span></span></span>
 
 ## How ELIZA created an illusion of empathy
 
-ELIZA was created by computer scientist Joseph Weizenbaum at MIT between 1964 and 1967. Its most famous script, called DOCTOR, imitated a Rogerian psychotherapist. Rather than analysing emotions or understanding personal problems, the program mainly identified keywords and transformed user statements into questions or reflections. If someone said they felt unhappy, ELIZA might ask why they felt unhappy or encourage them to elaborate. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
+ELIZA was created by computer scientist Joseph Weizenbaum at MIT between 1964 and 1967. Its most famous script, called DOCTOR, imitated a Rogerian psychotherapist. Rather than analysing emotions or understanding personal problems, the program mainly identified keywords and transformed user statements into questions or reflections. If someone said they felt unhappy, ELIZA might ask why they felt unhappy or encourage them to elaborate.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
 
-Technically, this was a simple pattern-matching system. Psychologically, however, it was powerful. Many users felt that ELIZA understood them. Some disclosed personal information and reacted emotionally to the conversation despite knowing that the program was software. Weizenbaum later wrote that even brief exposure to the program could induce surprisingly strong beliefs about its understanding and intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
+Technically, this was a simple pattern-matching system. Psychologically, however, it was powerful. Many users felt that ELIZA understood them. Some disclosed personal information and reacted emotionally to the conversation despite knowing that the program was software. Weizenbaum later wrote that even brief exposure to the program could induce surprisingly strong beliefs about its understanding and intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
 
 The apparent empathy came from several conversational techniques:
 
@@ -288,7 +288,7 @@ The apparent empathy came from several conversational techniques:
 * **Open-ended questions:** encouraging further self-[disclosure]({{ 'disclosure/' | relative_url }}).
 * **Non-judgemental language:** avoiding contradiction and appearing accepting.
 
-These are techniques that human counsellors sometimes use, but ELIZA employed them without any genuine comprehension. Users often supplied the meaning themselves. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
+These are techniques that human counsellors sometimes use, but ELIZA employed them without any genuine comprehension. Users often supplied the meaning themselves.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/mJrZe80G6G4" title="The ELIZA Effect" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=mJrZe80G6G4" target="_blank" rel="noopener noreferrer">The ELIZA Effect</a></p><p class="youtube-embed-meta">Channel: 99% Invisible</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=mJrZe80G6G4" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=mJrZe80G6G4">Open on YouTube</a></p></div></div></div>
@@ -297,29 +297,29 @@ These are techniques that human counsellors sometimes use, but ELIZA employed th
 
 The ELIZA effect is not primarily a property of chatbots. It is a property of human psychology.
 
-Humans evolved to interpret language as evidence of thoughts, intentions, and emotions. In everyday life, coherent conversation almost always comes from another mind. As a result, when software produces convincing social responses, people naturally apply the same assumptions they would use when speaking to another person. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2SHS Cairn.info]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
+Humans evolved to interpret language as evidence of thoughts, intentions, and emotions. In everyday life, coherent conversation almost always comes from another mind. As a result, when software produces convincing social responses, people naturally apply the same assumptions they would use when speaking to another person.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2SHS Cairn.info]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
 
 Several psychological processes contribute to this tendency.
 
 ### Language feels like evidence of a mind
 
-People rarely observe another person's thoughts directly. Instead, they infer mental states from speech, behaviour, and social cues. When a chatbot produces fluent language, users may unconsciously interpret that [fluency]({{ 'fluency-vs-accuracy/' | relative_url }}) as evidence of understanding. The conversation feels meaningful, so the speaker behind it is assumed to be meaningful as well. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nngroup.com/articles/eliza-effect-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nngroup.com">[Nielsen Norman Group]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nngroup.com</span><span class="citation-popover-title">Nielsen Norman Group The ELIZA Effect</span><span class="citation-popover-snippet">Nielsen Norman GroupThe ELIZA Effect - Why We Love AIOct 6, 2023 — Based on the context of a human-like conversation, users were predispo...</span></span></span>
+People rarely observe another person's thoughts directly. Instead, they infer mental states from speech, behaviour, and social cues. When a chatbot produces fluent language, users may unconsciously interpret that [fluency]({{ 'fluency-vs-accuracy/' | relative_url }}) as evidence of understanding. The conversation feels meaningful, so the speaker behind it is assumed to be meaningful as well.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nngroup.com/articles/eliza-effect-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nngroup.com">[Nielsen Norman Group]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nngroup.com</span><span class="citation-popover-title">Nielsen Norman Group The ELIZA Effect</span><span class="citation-popover-snippet">Nielsen Norman GroupThe ELIZA Effect - Why We Love AIOct 6, 2023 — Based on the context of a human-like conversation, users were predispo...</span></span></span>
 
 ### Humans naturally anthropomorphise
 
-Anthropomorphism is the tendency to attribute human characteristics to non-human entities. People do this with pets, vehicles, virtual assistants, and even simple machines. Chatbots are especially powerful triggers because they communicate using one of the most recognisably human behaviours: conversation. Research on chatbot anthropomorphism consistently finds that human-like presentation can increase perceptions of trust, empathy, and social presence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/402289951_Effect_of_anthropomorphism_and_perceived_intelligence_in_chatbot_avatars_of_visual_design_on_user_experience_accounting_for_perceived_empathy_and_trust" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Effect of anthropomorphism and perceived intelligence in...Mar 19, 2026 — Effect of anthropomorphism and perceived intellige...</span></span></span>
+Anthropomorphism is the tendency to attribute human characteristics to non-human entities. People do this with pets, vehicles, virtual assistants, and even simple machines. Chatbots are especially powerful triggers because they communicate using one of the most recognisably human behaviours: conversation. Research on chatbot anthropomorphism consistently finds that human-like presentation can increase perceptions of trust, empathy, and social presence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/402289951_Effect_of_anthropomorphism_and_perceived_intelligence_in_chatbot_avatars_of_visual_design_on_user_experience_accounting_for_perceived_empathy_and_trust" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Effect of anthropomorphism and perceived intelligence in...Mar 19, 2026 — Effect of anthropomorphism and perceived intellige...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7_eliza_effect_68f1e6-Illustration-2-dark.svg" | relative_url }}" alt="ELIZA effect illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7_eliza_effect_68f1e6-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7_eliza_effect_68f1e6-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Users do much of the work themselves
 
-A striking feature of the ELIZA effect is that users often fill in gaps that the software never addressed. When a chatbot offers a vague but relevant response, people may interpret it through the lens of their own concerns and emotions. The perceived depth often comes partly from the user's interpretation rather than the system's actual capabilities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Nielsen Norman Group]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
+A striking feature of the ELIZA effect is that users often fill in gaps that the software never addressed. When a chatbot offers a vague but relevant response, people may interpret it through the lens of their own concerns and emotions. The perceived depth often comes partly from the user's interpretation rather than the system's actual capabilities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Nielsen Norman Group]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
 
 ## Why modern chatbots feel even more empathetic
 
 The original ELIZA relied on simple scripts. Modern large language models can generate context-sensitive responses across long conversations, remember details within a session, adapt their tone, and produce language that closely resembles human dialogue.
 
-These improvements strengthen the same psychological effect that ELIZA revealed decades ago. Users encounter responses that appear sympathetic, encouraging, and tailored to their situation. As a result, many people experience a stronger sense of being understood than ELIZA could ever create. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12575814/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-title">PMCCan Generative AI Chatbots Emulate Human Connection?</span><span class="citation-popover-snippet">MG Smith · 2025 · Cited by 59 — This analysis applies theoretical tools from more than 50 years of research on close relationship...</span></span></span>
+These improvements strengthen the same psychological effect that ELIZA revealed decades ago. Users encounter responses that appear sympathetic, encouraging, and tailored to their situation. As a result, many people experience a stronger sense of being understood than ELIZA could ever create.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12575814/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-title">PMCCan Generative AI Chatbots Emulate Human Connection?</span><span class="citation-popover-snippet">MG Smith · 2025 · Cited by 59 — This analysis applies theoretical tools from more than 50 years of research on close relationship...</span></span></span>
 
 Several design features amplify this perception:
 
@@ -334,9 +334,9 @@ Several design features amplify this perception:
 
 </div>
 
-Each feature increases the sense of social presence even though the system may still lack human emotions, self-awareness, or personal experience. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">eliza effect avoiding emotional attachment to ai</span><span class="citation-popover-snippet">The ELIZA Effect: Avoiding emotional attachment to AI...A 2022 study published in the Journal of Marketing found that anthropomorphic...</span></span></span>
+Each feature increases the sense of social presence even though the system may still lack human emotions, self-awareness, or personal experience.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">eliza effect avoiding emotional attachment to ai</span><span class="citation-popover-snippet">The ELIZA Effect: Avoiding emotional attachment to AI...A 2022 study published in the Journal of Marketing found that anthropomorphic...</span></span></span>
 
-An important distinction is that a chatbot can successfully **simulate empathic language** without necessarily possessing empathy. Human empathy involves subjective emotional understanding and lived experience. A chatbot can reproduce the patterns associated with empathy while operating through statistical [prediction]({{ 'error-harms/' | relative_url }}) and pattern generation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2503.20518" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Exploring the Effect of Robotic Embodiment and Empathetic Tone of LLMs on Empathy ElicitationMarch 26, 2025...</span><span class="citation-popover-meta">Published: March 26, 2025</span></span></span>
+An important distinction is that a chatbot can successfully **simulate empathic language** without necessarily possessing empathy. Human empathy involves subjective emotional understanding and lived experience. A chatbot can reproduce the patterns associated with empathy while operating through statistical [prediction]({{ 'error-harms/' | relative_url }}) and pattern generation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2503.20518" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Exploring the Effect of Robotic Embodiment and Empathetic Tone of LLMs on Empathy ElicitationMarch 26, 2025...</span><span class="citation-popover-meta">Published: March 26, 2025</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/8jGpkdPO-1Y" title="The First Ever AI Chatbot: ELIZA (1966)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=8jGpkdPO-1Y" target="_blank" rel="noopener noreferrer">The First Ever AI Chatbot: ELIZA (1966)</a></p><p class="youtube-embed-meta">Channel: Heaven for Sale</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=8jGpkdPO-1Y" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=8jGpkdPO-1Y">Open on YouTube</a></p></div></div></div>
@@ -345,213 +345,213 @@ An important distinction is that a chatbot can successfully **simulate empathic 
 
 The ELIZA effect is neither wholly positive nor wholly negative. It creates opportunities and risks.
 
-On the positive side, people may find conversational systems approachable, supportive, and easy to engage with. Research has shown that users can respond positively to chatbots designed with empathic communication styles, particularly in settings involving guidance, education, or wellbeing support. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6989433/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Effectiveness of an Empathic Chatbot in Combating Adverse...by M de Gennaro · 2020 · Cited by 328 — In the present study, we examined...</span></span></span>
+On the positive side, people may find conversational systems approachable, supportive, and easy to engage with. Research has shown that users can respond positively to chatbots designed with empathic communication styles, particularly in settings involving guidance, education, or wellbeing support.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6989433/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Effectiveness of an Empathic Chatbot in Combating Adverse...by M de Gennaro · 2020 · Cited by 328 — In the present study, we examined...</span></span></span>
 
-However, the same mechanism can encourage overestimation of a system's abilities. Users may assume a chatbot understands their circumstances, intentions, or emotional state more deeply than it actually does. This can lead to misplaced trust, excessive reliance, or emotional attachment. Researchers, ethicists, and designers have increasingly highlighted these concerns as AI systems become more socially convincing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">eliza effect avoiding emotional attachment to ai</span><span class="citation-popover-snippet">The ELIZA Effect: Avoiding emotional attachment to AI...A 2022 study published in the Journal of Marketing found that anthropomorphic...</span></span></span>
+However, the same mechanism can encourage overestimation of a system's abilities. Users may assume a chatbot understands their circumstances, intentions, or emotional state more deeply than it actually does. This can lead to misplaced trust, excessive reliance, or emotional attachment. Researchers, ethicists, and designers have increasingly highlighted these concerns as AI systems become more socially convincing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">eliza effect avoiding emotional attachment to ai</span><span class="citation-popover-snippet">The ELIZA Effect: Avoiding emotional attachment to AI...A 2022 study published in the Journal of Marketing found that anthropomorphic...</span></span></span>
 
-The challenge is not simply that chatbots sound human. The challenge is that human beings are predisposed to interpret conversational competence as evidence of a caring mind. The ELIZA effect reminds us that a persuasive conversation and genuine understanding are not the same thing. A chatbot may provide useful assistance, emotional comfort, or practical information, yet the feeling of being understood can exceed what the underlying system has actually demonstrated. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Nielsen Norman Group]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
+The challenge is not simply that chatbots sound human. The challenge is that human beings are predisposed to interpret conversational competence as evidence of a caring mind. The ELIZA effect reminds us that a persuasive conversation and genuine understanding are not the same thing. A chatbot may provide useful assistance, emotional comfort, or practical information, yet the feeling of being understood can exceed what the underlying system has actually demonstrated.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Nielsen Norman Group]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7_eliza_effect_68f1e6-Illustration-3-dark.svg" | relative_url }}" alt="ELIZA effect illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7_eliza_effect_68f1e6-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7_eliza_effect_68f1e6-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## The lasting lesson of the ELIZA effect
 
-More than half a century after ELIZA was created, its central lesson remains relevant. The original program showed that people can experience a sense of empathy from software that merely reflects their words back to them. Modern AI has made the illusion more convincing, but it has not eliminated the underlying psychological tendency. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
+More than half a century after ELIZA was created, its central lesson remains relevant. The original program showed that people can experience a sense of empathy from software that merely reflects their words back to them. Modern AI has made the illusion more convincing, but it has not eliminated the underlying psychological tendency.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
 
-For anyone trying to understand artificial intelligence, the ELIZA effect is a reminder that the appearance of empathy and the reality of empathy are different questions. Chatbots may communicate in ways that feel compassionate, attentive, and understanding. Whether they truly possess those qualities is a separate issue—one that conversational skill alone cannot answer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nngroup.com/articles/eliza-effect-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nngroup.com">[Nielsen Norman Group+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nngroup.com</span><span class="citation-popover-title">Nielsen Norman Group The ELIZA Effect</span><span class="citation-popover-snippet">Nielsen Norman GroupThe ELIZA Effect - Why We Love AIOct 6, 2023 — Based on the context of a human-like conversation, users were predispo...</span></span></span>
+For anyone trying to understand artificial intelligence, the ELIZA effect is a reminder that the appearance of empathy and the reality of empathy are different questions. Chatbots may communicate in ways that feel compassionate, attentive, and understanding. Whether they truly possess those qualities is a separate issue—one that conversational skill alone cannot answer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nngroup.com/articles/eliza-effect-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nngroup.com">[Nielsen Norman Group+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nngroup.com</span><span class="citation-popover-title">Nielsen Norman Group The ELIZA Effect</span><span class="citation-popover-snippet">Nielsen Norman GroupThe ELIZA Effect - Why We Love AIOct 6, 2023 — Based on the context of a human-like conversation, users were predispo...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/GxSJQnWzJOs" title="The Chatbot Inventor’s Cautionary Alert (1978)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=GxSJQnWzJOs" target="_blank" rel="noopener noreferrer">The Chatbot Inventor’s Cautionary Alert (1978)</a></p><p class="youtube-embed-meta">Channel: GBH Archives</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=GxSJQnWzJOs" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=GxSJQnWzJOs">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why chatbots can feel more caring than they are. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why chatbots can feel more caring than they are. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Most Human Human on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nuxm2eDaHwcC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Most Human Human" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Most Human Human">The Most Human Human</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Most Human Human on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nuxm2eDaHwcC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Most Human Human" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Most Human Human">The Most Human Human</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explores why conversational performance is often mistaken for understanding.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores why conversational performance is often mistaken for understanding.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Computer Power and Human Reason on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1jB8QgAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Computer Power and Human Reason" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Computer Power and Human Reason">Computer Power and Human Reason</a>
-        </h4>
-        <p class="fr-book-author">By Joseph Weizenbaum</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Computer Power and Human Reason on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1jB8QgAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Computer Power and Human Reason" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Computer Power and Human Reason">Computer Power and Human Reason</a>
+</h4>
+<p class="fr-book-author">By Joseph Weizenbaum</p>
         
-        <p class="fr-book-desc">The strongest book for understanding the ELIZA effect and its implications.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">The strongest book for understanding the ELIZA effect and its implications.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open You Look Like a Thing and I Love You on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sFvYwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for You Look Like a Thing and I Love You" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="You Look Like a Thing and I Love You">You Look Like a Thing and I Love You</a>
-        </h4>
-        <p class="fr-book-author">By Janelle Shane</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open You Look Like a Thing and I Love You on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sFvYwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for You Look Like a Thing and I Love You" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="You Look Like a Thing and I Love You">You Look Like a Thing and I Love You</a>
+</h4>
+<p class="fr-book-author">By Janelle Shane</p>
         
-        <p class="fr-book-desc">Demonstrates how people overestimate AI understanding.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Demonstrates how people overestimate AI understanding.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Kahneman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
+</h4>
+<p class="fr-book-author">By Daniel Kahneman</p>
         
-        <p class="fr-book-desc">Explains the cognitive shortcuts behind anthropomorphism and projection.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains the cognitive shortcuts behind anthropomorphism and projection.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Most+Human+Human&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Most Human Human</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Computer Power and Human Reason</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">You Look Like a Thing and I Love You</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Most+Human+Human&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Most Human Human</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Computer Power and Human Reason</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">You Look Like a Thing and I Love You</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug"><img src="{{ '/assets/images/marketplace-covers/3cd6c43c4b62ca2ad106.jpg' | relative_url }}" alt="Listing image for Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug"><img src="{{ '/assets/images/marketplace-covers/3cd6c43c4b62ca2ad106.jpg' | relative_url }}" alt="Listing image for Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Computer Science Humor Mug - Software, Programmer, Web Developer, Coding"><img src="{{ '/assets/images/marketplace-covers/78e97f04a07ce07b686c.jpg' | relative_url }}" alt="Listing image for Funny Computer Science Humor Mug - Software, Programmer, Web Developer, Coding" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Funny Computer Science Humor Mug - Software, Programmer, Web Developer, Coding</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Computer Science Humor Mug - Software, Programmer, Web Developer, Coding"><img src="{{ '/assets/images/marketplace-covers/78e97f04a07ce07b686c.jpg' | relative_url }}" alt="Listing image for Funny Computer Science Humor Mug - Software, Programmer, Web Developer, Coding" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Funny Computer Science Humor Mug - Software, Programmer, Web Developer, Coding</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea"><img src="{{ '/assets/images/marketplace-covers/b7b7c3653101c15914ab.jpg' | relative_url }}" alt="Listing image for Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea"><img src="{{ '/assets/images/marketplace-covers/b7b7c3653101c15914ab.jpg' | relative_url }}" alt="Listing image for Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm I&#x27;m Studying Computer Science - Mug"><img src="{{ '/assets/images/marketplace-covers/c988117aa3e90d7348ec.jpg' | relative_url }}" alt="Listing image for Keep Calm I&#x27;m Studying Computer Science - Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Keep Calm I&#x27;m Studying Computer Science - Mug</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm I&#x27;m Studying Computer Science - Mug"><img src="{{ '/assets/images/marketplace-covers/c988117aa3e90d7348ec.jpg' | relative_url }}" alt="Listing image for Keep Calm I&#x27;m Studying Computer Science - Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Keep Calm I&#x27;m Studying Computer Science - Mug</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="eliza-effect-f3a94b-why-chatbots-can-feel-more-caring-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -567,7 +567,7 @@ For anyone trying to understand artificial intelligence, the ELIZA effect is a r
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -587,7 +587,7 @@ For anyone trying to understand artificial intelligence, the ELIZA effect is a r
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -619,7 +619,7 @@ For anyone trying to understand artificial intelligence, the ELIZA effect is a r
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -671,7 +671,7 @@ For anyone trying to understand artificial intelligence, the ELIZA effect is a r
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -716,7 +716,7 @@ For anyone trying to understand artificial intelligence, the ELIZA effect is a r
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -757,168 +757,168 @@ For anyone trying to understand artificial intelligence, the ELIZA effect is a r
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: Wikipedia  
    Title: ELIZA effect  
-   Link: <a href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/ELIZA_effect</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/ELIZA_effect</a>  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/ELIZA</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/ELIZA</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: shs.cairn.info  
    Title: SHS Cairn.info The impact of anthropomorphism on chatbot performance  
-   Link: <a href="https://shs.cairn.info/article/E_RIPS1_072_0101/pdf?lang=en" target="_blank" rel="noopener noreferrer nofollow">https://shs.cairn.info/article/E_RIPS1_072_0101/pdf?lang=en</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>SHS Cairn.infoThe impact of anthropomorphism on chatbot performanceAbstract. In this article, we look at the projective, psychological fa...</p></details>
+   Link:<a href="https://shs.cairn.info/article/E_RIPS1_072_0101/pdf?lang=en" target="_blank" rel="noopener noreferrer nofollow">https://shs.cairn.info/article/E_RIPS1_072_0101/pdf?lang=en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SHS Cairn.infoThe impact of anthropomorphism on chatbot performanceAbstract. In this article, we look at the projective, psychological fa...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/397658877_The_Psychology_of_the_Eliza_Effect_Anthropomorphism_Social_Presence_and_Projection_in_Human-AI_Interaction" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/397658877_The_Psychology_of_the_Eliza_Effect_Anthropomorphism_Social_Presence_and_Projection_in_Human-AI_Interaction</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Psychology of the Eliza Effect: Anthropomorphism...These Chatbots and AI assistants now interact in such a way that sounds empatheti...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/397658877_The_Psychology_of_the_Eliza_Effect_Anthropomorphism_Social_Presence_and_Projection_in_Human-AI_Interaction" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/397658877_The_Psychology_of_the_Eliza_Effect_Anthropomorphism_Social_Presence_and_Projection_in_Human-AI_Interaction</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Psychology of the Eliza Effect: Anthropomorphism...These Chatbots and AI assistants now interact in such a way that sounds empatheti...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/402289951_Effect_of_anthropomorphism_and_perceived_intelligence_in_chatbot_avatars_of_visual_design_on_user_experience_accounting_for_perceived_empathy_and_trust" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/402289951_Effect_of_anthropomorphism_and_perceived_intelligence_in_chatbot_avatars_of_visual_design_on_user_experience_accounting_for_perceived_empathy_and_trust</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Effect of anthropomorphism and perceived intelligence in...Mar 19, 2026 — Effect of anthropomorphism and perceived intellige...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/402289951_Effect_of_anthropomorphism_and_perceived_intelligence_in_chatbot_avatars_of_visual_design_on_user_experience_accounting_for_perceived_empathy_and_trust" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/402289951_Effect_of_anthropomorphism_and_perceived_intelligence_in_chatbot_avatars_of_visual_design_on_user_experience_accounting_for_perceived_empathy_and_trust</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Effect of anthropomorphism and perceived intelligence in...Mar 19, 2026 — Effect of anthropomorphism and perceived intellige...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/396316870_Anthropomorphic_technology_in_everyday_life_focus_on_chatbots_and_impacts_on_mental_health" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/396316870_Anthropomorphic_technology_in_everyday_life_focus_on_chatbots_and_impacts_on_mental_health</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>focus on chatbots and impacts on mental healthFeb 18, 2026 — The purpose of this review is to increase physician awareness of...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/396316870_Anthropomorphic_technology_in_everyday_life_focus_on_chatbots_and_impacts_on_mental_health" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/396316870_Anthropomorphic_technology_in_everyday_life_focus_on_chatbots_and_impacts_on_mental_health</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>focus on chatbots and impacts on mental healthFeb 18, 2026 — The purpose of this review is to increase physician awareness of...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2506.20748" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2506.20748</a>  
+   Link:<a href="https://arxiv.org/abs/2506.20748" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2506.20748</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2406.17650" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2406.17650</a>  
+   Link:<a href="https://arxiv.org/abs/2406.17650" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2406.17650</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMCCan [Generative AI](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) Chatbots Emulate Human Connection?  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12575814/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12575814/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>MG Smith · 2025 · Cited by 59 — This analysis applies theoretical tools from more than 50 years of research on close relationship...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12575814/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12575814/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MG Smith · 2025 · Cited by 59 — This analysis applies theoretical tools from more than 50 years of research on close relationship...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: techradar.com  
    Title: Tech Radar I looked into how AI chatbots respond to emotions  
-   Link: <a href="https://www.techradar.com/ai-platforms-assistants/i-looked-into-how-ai-chatbots-respond-to-emotions-and-what-i-found-out-about-the-eliza-effect-completely-changed-how-i-think-about-using-them" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/ai-platforms-assistants/i-looked-into-how-ai-chatbots-respond-to-emotions-and-what-i-found-out-about-the-eliza-effect-completely-changed-how-i-think-about-using-them</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Formerly, tech sought user attention; now, AI systems exploit emotional bonds through personalized, empathetic interactions. This is refe...</p></details>
+   Link:<a href="https://www.techradar.com/ai-platforms-assistants/i-looked-into-how-ai-chatbots-respond-to-emotions-and-what-i-found-out-about-the-eliza-effect-completely-changed-how-i-think-about-using-them" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/ai-platforms-assistants/i-looked-into-how-ai-chatbots-respond-to-emotions-and-what-i-found-out-about-the-eliza-effect-completely-changed-how-i-think-about-using-them</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Formerly, tech sought user attention; now, AI systems exploit emotional bonds through personalized, empathetic interactions. This is refe...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: ibm.com  
    Title: eliza effect avoiding emotional attachment to ai  
-   Link: <a href="https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The ELIZA Effect: Avoiding emotional attachment to AI...A 2022 study published in the Journal of Marketing found that anthropomorphic...</p></details>
+   Link:<a href="https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/insights/eliza-effect-avoiding-emotional-attachment-to-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The ELIZA Effect: Avoiding emotional attachment to AI...A 2022 study published in the Journal of Marketing found that anthropomorphic...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2503.20518" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2503.20518</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring the Effect of Robotic Embodiment and Empathetic Tone of LLMs on Empathy ElicitationMarch 26, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2503.20518" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2503.20518</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring the Effect of Robotic Embodiment and Empathetic Tone of LLMs on Empathy ElicitationMarch 26, 2025...</p></details>
    Published: March 26, 2025  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6989433/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC6989433/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Effectiveness of an Empathic Chatbot in Combating Adverse...by M de Gennaro · 2020 · Cited by 328 — In the present study, we examined...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6989433/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC6989433/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Effectiveness of an Empathic Chatbot in Combating Adverse...by M de Gennaro · 2020 · Cited by 328 — In the present study, we examined...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: Wikipedia  
    Title: Joseph (Genesis)  
-   Link: <a href="https://en.wikipedia.org/wiki/Joseph_%28Genesis%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Joseph_%28Genesis%29</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Joseph (Genesis)Joseph was the first of the two sons of Jacob and Rachel, making him Jacob&#x27;s twelfth named child and eleventh son. He...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Joseph_%28Genesis%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Joseph_%28Genesis%29</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Joseph (Genesis)Joseph was the first of the two sons of Jacob and Rachel, making him Jacob&#x27;s twelfth named child and eleventh son. He...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Joseph" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Joseph</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>JosephIn the Book of Genesis Joseph is Jacob&#x27;s eleventh son and Rachel&#x27;s first son, and known in the Hebrew Bible as Yossef ben-Yaakov...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Joseph" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Joseph</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>JosephIn the Book of Genesis Joseph is Jacob&#x27;s eleventh son and Rachel&#x27;s first son, and known in the Hebrew Bible as Yossef ben-Yaakov...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=8jGpkdPO-1Y" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8jGpkdPO-1Y</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Wikipedia...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=8jGpkdPO-1Y" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8jGpkdPO-1Y</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Wikipedia...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
    Title: The ELIZA Effect  
-   Link: <a href="https://www.youtube.com/watch?v=mJrZe80G6G4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=mJrZe80G6G4</a>  
+   Link:<a href="https://www.youtube.com/watch?v=mJrZe80G6G4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=mJrZe80G6G4</a>  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: nngroup.com  
    Title: Nielsen Norman Group The ELIZA Effect  
-   Link: <a href="https://www.nngroup.com/articles/eliza-effect-ai/" target="_blank" rel="noopener noreferrer nofollow">https://www.nngroup.com/articles/eliza-effect-ai/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Nielsen Norman GroupThe ELIZA Effect - Why We Love AIOct 6, 2023 — Based on the context of a human-like conversation, users were predispo...</p></details>
+   Link:<a href="https://www.nngroup.com/articles/eliza-effect-ai/" target="_blank" rel="noopener noreferrer nofollow">https://www.nngroup.com/articles/eliza-effect-ai/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Nielsen Norman GroupThe ELIZA Effect - Why We Love AIOct 6, 2023 — Based on the context of a human-like conversation, users were predispo...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: 99percentinvisible.org  
    Title: the eliza effect  
-   Link: <a href="https://99percentinvisible.org/episode/the-eliza-effect/" target="_blank" rel="noopener noreferrer nofollow">https://99percentinvisible.org/episode/the-eliza-effect/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>12 Oct 2019 — ELIZA was a simple computer program. It would look for the keyword in a user&#x27;s statement and then reflect it back in the fo...</p></details>
+   Link:<a href="https://99percentinvisible.org/episode/the-eliza-effect/" target="_blank" rel="noopener noreferrer nofollow">https://99percentinvisible.org/episode/the-eliza-effect/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>12 Oct 2019 — ELIZA was a simple computer program. It would look for the keyword in a user&#x27;s statement and then reflect it back in the fo...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: 99percentinvisible.org  
    Title: The ELIZA Effect  
-   Link: <a href="https://99percentinvisible.org/episode/the-eliza-effect/transcript/" target="_blank" rel="noopener noreferrer nofollow">https://99percentinvisible.org/episode/the-eliza-effect/transcript/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Episode Text TranscriptOct 12, 2019 — Joseph Weizenbaum: After two or three interchanges with the machine, she turned to me and she said...</p></details>
+   Link:<a href="https://99percentinvisible.org/episode/the-eliza-effect/transcript/" target="_blank" rel="noopener noreferrer nofollow">https://99percentinvisible.org/episode/the-eliza-effect/transcript/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Episode Text TranscriptOct 12, 2019 — Joseph Weizenbaum: After two or three interchanges with the machine, she turned to me and she said...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: britannica.com  
-   Link: <a href="https://www.britannica.com/biography/Joseph-biblical-figure" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/biography/Joseph-biblical-figure</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>In the story, he is sold into slavery by his brothers but rises to prominence in...Read more...</p></details>
+   Link:<a href="https://www.britannica.com/biography/Joseph-biblical-figure" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/biography/Joseph-biblical-figure</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>In the story, he is sold into slavery by his brothers but rises to prominence in...Read more...</p></details>
 
 ### Additional References
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40christine.lynn.chilton/elizas-legacy-the-illusion-of-ai-understanding-and-the-human-cost-of-digital-intimacy-ca2843f8d84c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40christine.lynn.chilton/elizas-legacy-the-illusion-of-ai-understanding-and-the-human-cost-of-digital-intimacy-ca2843f8d84c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ELIZA&#x27;s Legacy: The Illusion of AI Understanding and...And yet, when ELIZA asks how she feels, something inside her breaks open. “Please...</p></details>
+   Link:<a href="https://medium.com/%40christine.lynn.chilton/elizas-legacy-the-illusion-of-ai-understanding-and-the-human-cost-of-digital-intimacy-ca2843f8d84c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40christine.lynn.chilton/elizas-legacy-the-illusion-of-ai-understanding-and-the-human-cost-of-digital-intimacy-ca2843f8d84c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ELIZA&#x27;s Legacy: The Illusion of AI Understanding and...And yet, when ELIZA asks how she feels, something inside her breaks open. “Please...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/top-content/user-experience/user-experience-and-emotional-[engagement" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/user-experience/user-experience-and-emotional-[engagement</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Eliza Effect and User Trust in TechnologyThe &quot;Eliza Effect&quot; — our human tendency to attribute understanding and empathy... Weizenbaum cr...</p></details>
+   Link:<a href="https://www.linkedin.com/top-content/user-experience/user-experience-and-emotional-[engagement" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/user-experience/user-experience-and-emotional-[engagement</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Eliza Effect and User Trust in TechnologyThe &quot;Eliza Effect&quot; — our human tendency to attribute understanding and empathy... Weizenbaum cr...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: joseph-fashion.com  
-   Link: <a href="https://joseph-fashion.com/?srsltid=AfmBOooj_E3CIOkeAmq9OEytrDv_nVg_gYzdIRSbba0Ot2E5gXWsY1xz" target="_blank" rel="noopener noreferrer nofollow">https://joseph-fashion.com/?srsltid=AfmBOooj_E3CIOkeAmq9OEytrDv_nVg_gYzdIRSbba0Ot2E5gXWsY1xz</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>JOSEPH Official | Luxury Designer Fashion for Women...JOSEPH is a British contemporary designer brand known for its luxury essentials, p...</p></details>
+   Link:<a href="https://joseph-fashion.com/?srsltid=AfmBOooj_E3CIOkeAmq9OEytrDv_nVg_gYzdIRSbba0Ot2E5gXWsY1xz" target="_blank" rel="noopener noreferrer nofollow">https://joseph-fashion.com/?srsltid=AfmBOooj_E3CIOkeAmq9OEytrDv_nVg_gYzdIRSbba0Ot2E5gXWsY1xz</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>JOSEPH Official | Luxury Designer Fashion for Women...JOSEPH is a British contemporary designer brand known for its luxury essentials, p...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: josephjoseph.com  
-   Link: <a href="https://www.josephjoseph.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.josephjoseph.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Joseph Joseph UK | Innovative And Functional HousewareBeautifully innovative homeware designed to make life easy. Shop Kitchenware, Cookw...</p></details>
+   Link:<a href="https://www.josephjoseph.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.josephjoseph.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Joseph Joseph UK | Innovative And Functional HousewareBeautifully innovative homeware designed to make life easy. Shop Kitchenware, Cookw...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: selfridges.com  
-   Link: <a href="https://www.selfridges.com/GB/en/cat/joseph/" target="_blank" rel="noopener noreferrer nofollow">https://www.selfridges.com/GB/en/cat/joseph/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>JosephShop JOSEPH clothing at Selfridges and discover the minimalist aesthetic of this top British fashion brand. Find luxury blazers, dr...</p></details>
+   Link:<a href="https://www.selfridges.com/GB/en/cat/joseph/" target="_blank" rel="noopener noreferrer nofollow">https://www.selfridges.com/GB/en/cat/joseph/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>JosephShop JOSEPH clothing at Selfridges and discover the minimalist aesthetic of this top British fashion brand. Find luxury blazers, dr...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: newyorker.com  
-   Link: <a href="https://www.newyorker.com/magazine/2024/10/07/is-a-chat-with-a-bot-a-conversation" target="_blank" rel="noopener noreferrer nofollow">https://www.newyorker.com/magazine/2024/10/07/is-a-chat-with-a-bot-a-conversation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It traces the development of AI from the discussions at the 1958 Teddington conference through various technological milestones, like the...</p></details>
+   Link:<a href="https://www.newyorker.com/magazine/2024/10/07/is-a-chat-with-a-bot-a-conversation" target="_blank" rel="noopener noreferrer nofollow">https://www.newyorker.com/magazine/2024/10/07/is-a-chat-with-a-bot-a-conversation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It traces the development of AI from the discussions at the 1958 Teddington conference through various technological milestones, like the...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/renwen-zhang_exploring-the-effects-of-chatbot-anthropomorphism-activity-7381868988621959168-Rt82" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/renwen-zhang_exploring-the-effects-of-chatbot-anthropomorphism-activity-7381868988621959168-Rt82</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How AI can benefit from human help and empathyA 2024 study published in Frontiers in Psychology found that conversational AI actually red...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/renwen-zhang_exploring-the-effects-of-chatbot-anthropomorphism-activity-7381868988621959168-Rt82" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/renwen-zhang_exploring-the-effects-of-chatbot-anthropomorphism-activity-7381868988621959168-Rt82</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How AI can benefit from human help and empathyA 2024 study published in Frontiers in Psychology found that conversational AI actually red...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: linkedin.com  
    Title: ELIZ A Effect: Navigating Emotional Attachment to AIWe've all been there  
-   Link: <a href="https://www.linkedin.com/posts/raj-mitra-6a230ab_the-eliza-effect-avoiding-emotional-attachment-activity-7434844731638992896-AuxZ" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/raj-mitra-6a230ab_the-eliza-effect-avoiding-emotional-attachment-activity-7434844731638992896-AuxZ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ELIZA Effect: Navigating Emotional Attachment to AIWe&#x27;ve all been there - subconsciously saying &quot;please&quot; or &quot;thank you&quot; to a chatbot simp...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/raj-mitra-6a230ab_the-eliza-effect-avoiding-emotional-attachment-activity-7434844731638992896-AuxZ" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/raj-mitra-6a230ab_the-eliza-effect-avoiding-emotional-attachment-activity-7434844731638992896-AuxZ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ELIZA Effect: Navigating Emotional Attachment to AIWe&#x27;ve all been there - subconsciously saying &quot;please&quot; or &quot;thank you&quot; to a chatbot simp...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: spectrum.ieee.org  
    Title: why people demanded privacy to confide in the worlds first chatbot  
-   Link: <a href="https://spectrum.ieee.org/why-people-demanded-privacy-to-confide-in-the-worlds-first-chatbot" target="_blank" rel="noopener noreferrer nofollow">https://spectrum.ieee.org/why-people-demanded-privacy-to-confide-in-the-worlds-first-chatbot</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>People Demanded Privacy to Confide in the World&#x27;s...Between 1964 and 1966, Joseph Weizenbaum, a German American computer scientist at MI...</p></details>
+   Link:<a href="https://spectrum.ieee.org/why-people-demanded-privacy-to-confide-in-the-worlds-first-chatbot" target="_blank" rel="noopener noreferrer nofollow">https://spectrum.ieee.org/why-people-demanded-privacy-to-confide-in-the-worlds-first-chatbot</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>People Demanded Privacy to Confide in the World&#x27;s...Between 1964 and 1966, Joseph Weizenbaum, a German American computer scientist at MI...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: hal.science  
    Title: The roles of warmth, competence, and failure severity in shaping  
-   Link: <a href="https://hal.science/hal-05563836v2/document" target="_blank" rel="noopener noreferrer nofollow">https://hal.science/hal-05563836v2/document</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>As service robots become more prevalent in frontline service delivery, understanding their role in handling customer complaints is critical...</p></details>
+   Link:<a href="https://hal.science/hal-05563836v2/document" target="_blank" rel="noopener noreferrer nofollow">https://hal.science/hal-05563836v2/document</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>As service robots become more prevalent in frontline service delivery, understanding their role in handling customer complaints is critical...</p></details>

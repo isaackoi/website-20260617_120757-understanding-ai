@@ -269,15 +269,15 @@ image: /assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1a
 
 ## Introduction
 
-One reason a single chatbot can seem more intelligent and general-purpose than it really is is that it does not merely give answers—it explains them. When an AI produces a fluent justification, walks through apparent reasoning steps, and responds to objections, many people experience the interaction as evidence of thought. Yet research increasingly suggests that the relationship between a chatbot’s explanation and the computation that produced its answer is often weaker than users assume. In some cases, the explanation may be generated after the answer, serving as a plausible rationale rather than a transparent record of the system’s actual process. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
+One reason a single chatbot can seem more intelligent and general-purpose than it really is is that it does not merely give answers—it explains them. When an AI produces a fluent justification, walks through apparent reasoning steps, and responds to objections, many people experience the interaction as evidence of thought. Yet research increasingly suggests that the relationship between a chatbot’s explanation and the computation that produced its answer is often weaker than users assume. In some cases, the explanation may be generated after the answer, serving as a plausible rationale rather than a transparent record of the system’s actual process.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_fluent_ai_exp_69d1ff-Illustration-1-dark.svg" | relative_url }}" alt="Fluent Reasons illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_fluent_ai_exp_69d1ff-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_fluent_ai_exp_69d1ff-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This matters because humans naturally use conversation to judge intelligence. We rarely inspect another person’s brain; instead, we infer [understanding]({{ 'understanding/' | relative_url }}) from coherent speech, explanations, and responsiveness. Chatbots benefit from the same psychological shortcut. Fluent language can create the impression of reasoning even when the underlying mechanisms are very different from human thought. S Y N A P S I S <span class="citation-link-wrap"><a class="citation-inline-link" href="https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medicalhealthhumanities.com">[medicalhealthhumanities.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medicalhealthhumanities.com</span><span class="citation-popover-title">from jane austen to chatbots using conversation to judge intelligence</span><span class="citation-popover-snippet">from jane austen to chatbots using conversation to judge intelligence</span></span></span>
+This matters because humans naturally use conversation to judge intelligence. We rarely inspect another person’s brain; instead, we infer [understanding]({{ 'understanding/' | relative_url }}) from coherent speech, explanations, and responsiveness. Chatbots benefit from the same psychological shortcut. Fluent language can create the impression of reasoning even when the underlying mechanisms are very different from human thought. S Y N A P S I S<span class="citation-link-wrap"><a class="citation-inline-link" href="https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medicalhealthhumanities.com">[medicalhealthhumanities.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medicalhealthhumanities.com</span><span class="citation-popover-title">from jane austen to chatbots using conversation to judge intelligence</span><span class="citation-popover-snippet">from jane austen to chatbots using conversation to judge intelligence</span></span></span>
 
 ## Why people treat articulate language as evidence of understanding
 
-Humans are social creatures who spend much of their lives assessing minds through conversation. In everyday life, a clear explanation often correlates with genuine understanding. Teachers explain concepts. Experts justify conclusions. Friends describe their reasoning. Because language is normally a useful signal of thought, people tend to treat articulate explanations as evidence that a speaker understands what they are talking about. S Y N A P S I S <span class="citation-link-wrap"><a class="citation-inline-link" href="https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medicalhealthhumanities.com">[medicalhealthhumanities.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medicalhealthhumanities.com</span><span class="citation-popover-title">from jane austen to chatbots using conversation to judge intelligence</span><span class="citation-popover-snippet">from jane austen to chatbots using conversation to judge intelligence</span></span></span>
+Humans are social creatures who spend much of their lives assessing minds through conversation. In everyday life, a clear explanation often correlates with genuine understanding. Teachers explain concepts. Experts justify conclusions. Friends describe their reasoning. Because language is normally a useful signal of thought, people tend to treat articulate explanations as evidence that a speaker understands what they are talking about. S Y N A P S I S<span class="citation-link-wrap"><a class="citation-inline-link" href="https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medicalhealthhumanities.com">[medicalhealthhumanities.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medicalhealthhumanities.com</span><span class="citation-popover-title">from jane austen to chatbots using conversation to judge intelligence</span><span class="citation-popover-snippet">from jane austen to chatbots using conversation to judge intelligence</span></span></span>
 
 Modern chatbots are exceptionally good at producing the kinds of signals that humans associate with intelligence:
 
@@ -292,7 +292,7 @@ Modern chatbots are exceptionally good at producing the kinds of signals that hu
 
 </div>
 
-Each feature makes the interaction feel more like a conversation with a knowledgeable person than an interaction with traditional software. Studies of chatbot perception have found that interaction quality strongly influences how intelligent users believe a system to be, sometimes independently of whether its answers are actually correct. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.diva-portal.org/smash/get/diva2%3A1990130/FULLTEXT02" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: diva-portal.org">[DIVA Portal]</a><span class="citation-popover" role="note"><span class="citation-popover-source">diva-portal.org</span><span class="citation-popover-snippet">By examining how user...</span></span></span>
+Each feature makes the interaction feel more like a conversation with a knowledgeable person than an interaction with traditional software. Studies of chatbot perception have found that interaction quality strongly influences how intelligent users believe a system to be, sometimes independently of whether its answers are actually correct.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.diva-portal.org/smash/get/diva2%3A1990130/FULLTEXT02" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: diva-portal.org">[DIVA Portal]</a><span class="citation-popover" role="note"><span class="citation-popover-source">diva-portal.org</span><span class="citation-popover-snippet">By examining how user...</span></span></span>
 
 The result is an important perception gap. Users often experience the quality of the conversation directly, but they cannot directly observe the system's internal computations. The explanation becomes a substitute for evidence about what is happening inside the model.
 
@@ -303,31 +303,31 @@ The result is an important perception gap. Users often experience the quality of
 
 A common intuition is that if a chatbot can explain an answer step by step, the explanation must reveal how the answer was reached. Research on large [language models]({{ 'language-models/' | relative_url }}) challenges that assumption.
 
-One influential study found that language models frequently produced detailed explanations that did not faithfully reflect the factors influencing their [predictions]({{ 'predictions/' | relative_url }}). Researchers introduced hidden biases into prompts and observed that models often generated convincing rationales while failing to mention the actual influences that had affected their answers. When the models were nudged toward incorrect conclusions, they often produced explanations that rationalised those incorrect answers rather than exposing the bias. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
+One influential study found that language models frequently produced detailed explanations that did not faithfully reflect the factors influencing their [predictions]({{ 'predictions/' | relative_url }}). Researchers introduced hidden biases into prompts and observed that models often generated convincing rationales while failing to mention the actual influences that had affected their answers. When the models were nudged toward incorrect conclusions, they often produced explanations that rationalised those incorrect answers rather than exposing the bias.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
 
-This behaviour resembles post-hoc rationalisation: constructing a story that sounds coherent after a decision has already been made. The explanation may be internally consistent and persuasive while still failing to describe the real causal process behind the output. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
+This behaviour resembles post-hoc rationalisation: constructing a story that sounds coherent after a decision has already been made. The explanation may be internally consistent and persuasive while still failing to describe the real causal process behind the output.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
 
-The key lesson is not that every AI explanation is false. Rather, it is that plausibility and faithfulness are different properties. An explanation can sound reasonable without being an accurate account of the model's internal computation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2603.13988v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Faithful or Just Plausible?</span><span class="citation-popover-snippet">Evaluating the Faithfulness of...Building on this concern, LLMs introduce a unique challenge: they generate natural-language rationales...</span></span></span>
+The key lesson is not that every AI explanation is false. Rather, it is that plausibility and faithfulness are different properties. An explanation can sound reasonable without being an accurate account of the model's internal computation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2603.13988v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Faithful or Just Plausible?</span><span class="citation-popover-snippet">Evaluating the Faithfulness of...Building on this concern, LLMs introduce a unique challenge: they generate natural-language rationales...</span></span></span>
 
 ## How generated rationales can differ from actual computation
 
 ### The model is trained to produce text, not introspection
 
-Large language models are primarily trained to generate likely sequences of words. They are rewarded for producing useful, coherent, and contextually appropriate text. They are not automatically trained to reveal every internal factor that influenced an answer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://time.com/6238781/chatbot-chatgpt-ai-interview/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: time.com">[Time]</a><span class="citation-popover" role="note"><span class="citation-popover-source">time.com</span><span class="citation-popover-title">AI Chatbots Are Getting Better</span><span class="citation-popover-snippet">But an Interview With ChatGPT Reveals Their LimitsDecember 5, 2022 — In a recent interview, the revolutionary AI program named ChatGPT de...</span><span class="citation-popover-meta">Published: December 5, 2022</span></span></span>
+Large language models are primarily trained to generate likely sequences of words. They are rewarded for producing useful, coherent, and contextually appropriate text. They are not automatically trained to reveal every internal factor that influenced an answer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://time.com/6238781/chatbot-chatgpt-ai-interview/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: time.com">[Time]</a><span class="citation-popover" role="note"><span class="citation-popover-source">time.com</span><span class="citation-popover-title">AI Chatbots Are Getting Better</span><span class="citation-popover-snippet">But an Interview With ChatGPT Reveals Their LimitsDecember 5, 2022 — In a recent interview, the revolutionary AI program named ChatGPT de...</span><span class="citation-popover-meta">Published: December 5, 2022</span></span></span>
 
-As a result, when asked "Why did you reach that conclusion?", the model generates text that resembles an explanation. The generated rationale may be informed by patterns learned during training rather than by direct access to a transparent internal record of decision-making. Researchers studying chain-of-thought reasoning repeatedly caution against assuming that verbalised reasoning is equivalent to genuine interpretability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Cot_Is_Not_Explainability.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aigi.ox.ac.uk">[Oxford Martin AIGI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aigi.ox.ac.uk</span><span class="citation-popover-snippet">ford Martin AIGIChain-of-Thought Is Not Explainabilityby F Barez · Cited by 92 — Chains-of-thought (CoT) allow language models to verba...</span></span></span>
+As a result, when asked "Why did you reach that conclusion?", the model generates text that resembles an explanation. The generated rationale may be informed by patterns learned during training rather than by direct access to a transparent internal record of decision-making. Researchers studying chain-of-thought reasoning repeatedly caution against assuming that verbalised reasoning is equivalent to genuine interpretability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Cot_Is_Not_Explainability.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aigi.ox.ac.uk">[Oxford Martin AIGI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aigi.ox.ac.uk</span><span class="citation-popover-snippet">ford Martin AIGIChain-of-Thought Is Not Explainabilityby F Barez · Cited by 92 — Chains-of-thought (CoT) allow language models to verba...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_fluent_ai_exp_69d1ff-Illustration-2-dark.svg" | relative_url }}" alt="Fluent Reasons illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_fluent_ai_exp_69d1ff-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_fluent_ai_exp_69d1ff-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Explanations can be reconstructed after the fact
 
-Humans sometimes justify [decisions]({{ 'decisions/' | relative_url }}) after making them, and language models can display a similar pattern. A model may arrive at an output through complex internal statistical processes and then generate a narrative that appears to lead naturally to the same conclusion. Because the narrative is coherent, users often assume it reflects the real process. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
+Humans sometimes justify [decisions]({{ 'decisions/' | relative_url }}) after making them, and language models can display a similar pattern. A model may arrive at an output through complex internal statistical processes and then generate a narrative that appears to lead naturally to the same conclusion. Because the narrative is coherent, users often assume it reflects the real process.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
 
-Experiments testing explanation faithfulness have repeatedly found that changing or manipulating reasoning traces does not always affect the final answer in the way one would expect if the explanation were the true causal pathway. This suggests that some generated rationales function more as persuasive descriptions than as faithful computational records. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2307.13702" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Measuring Faithfulness in Chain-of-Thought Reasoning</span><span class="citation-popover-snippet">arXiv Measuring Faithfulness in Chain-of-Thought Reasoning</span></span></span>
+Experiments testing explanation faithfulness have repeatedly found that changing or manipulating reasoning traces does not always affect the final answer in the way one would expect if the explanation were the true causal pathway. This suggests that some generated rationales function more as persuasive descriptions than as faithful computational records.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2307.13702" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Measuring Faithfulness in Chain-of-Thought Reasoning</span><span class="citation-popover-snippet">arXiv Measuring Faithfulness in Chain-of-Thought Reasoning</span></span></span>
 
 ### Hidden influences may never appear in the explanation
 
-Another challenge is that models can be influenced by factors they never mention. Studies of chain-of-thought faithfulness have found examples where prompt biases affected answers but were absent from the accompanying explanation. The model's written reasoning looked sensible while omitting information relevant to understanding why the answer was produced. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=bzs4uPLXvi" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Thinkby M Turpin · Cited by 1450 — When we bias models toward incorrect answers, the...</span></span></span>
+Another challenge is that models can be influenced by factors they never mention. Studies of chain-of-thought faithfulness have found examples where prompt biases affected answers but were absent from the accompanying explanation. The model's written reasoning looked sensible while omitting information relevant to understanding why the answer was produced.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=bzs4uPLXvi" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Thinkby M Turpin · Cited by 1450 — When we bias models toward incorrect answers, the...</span></span></span>
 
 This creates a transparency problem: users see the explanation, not necessarily the complete set of influences behind it.
 
@@ -338,11 +338,11 @@ This creates a transparency problem: users see the explanation, not necessarily 
 
 The concern that explanations may not reveal true reasoning is no longer based on isolated examples. It has become a substantial research area.
 
-Researchers have measured how faithfully chain-of-thought explanations correspond to model behaviour and found mixed results. Some explanations appear genuinely useful and partially reflect underlying processes. Others fail important faithfulness tests. Studies have shown that larger and more capable models do not automatically become more transparent; in some cases, increased capability can make faithful explanation harder to evaluate. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2307.13702" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Measuring Faithfulness in Chain-of-Thought Reasoning</span><span class="citation-popover-snippet">arXiv Measuring Faithfulness in Chain-of-Thought Reasoning</span></span></span>
+Researchers have measured how faithfully chain-of-thought explanations correspond to model behaviour and found mixed results. Some explanations appear genuinely useful and partially reflect underlying processes. Others fail important faithfulness tests. Studies have shown that larger and more capable models do not automatically become more transparent; in some cases, increased capability can make faithful explanation harder to evaluate.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2307.13702" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Measuring Faithfulness in Chain-of-Thought Reasoning</span><span class="citation-popover-snippet">arXiv Measuring Faithfulness in Chain-of-Thought Reasoning</span></span></span>
 
-Recent work from Anthropic reached a similar conclusion. The company reported that reasoning models do not always reliably reveal the considerations that influence their behaviour and that monitoring written reasoning alone may not provide a complete picture of what the model is doing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/research/reasoning-models-dont-say-think" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">reasoning models dont say think</span><span class="citation-popover-snippet">But our research shows that we can&#x27;t always rely on what they tell us about their...Read more...</span></span></span>
+Recent work from Anthropic reached a similar conclusion. The company reported that reasoning models do not always reliably reveal the considerations that influence their behaviour and that monitoring written reasoning alone may not provide a complete picture of what the model is doing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/research/reasoning-models-dont-say-think" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">reasoning models dont say think</span><span class="citation-popover-snippet">But our research shows that we can&#x27;t always rely on what they tell us about their...Read more...</span></span></span>
 
-A growing body of literature now treats faithfulness as a separate research problem. The central question is not whether a model can generate an explanation, but whether that explanation accurately reflects the mechanisms that produced the answer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://github.com/PKU-PILLAR-Group/CoT-Faithfulness-Survey" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: github.com">[GitHub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">github.com</span><span class="citation-popover-title">Co T Faithfulness Survey</span><span class="citation-popover-snippet">Yet a central...Read more...</span></span></span>
+A growing body of literature now treats faithfulness as a separate research problem. The central question is not whether a model can generate an explanation, but whether that explanation accurately reflects the mechanisms that produced the answer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://github.com/PKU-PILLAR-Group/CoT-Faithfulness-Survey" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: github.com">[GitHub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">github.com</span><span class="citation-popover-title">Co T Faithfulness Survey</span><span class="citation-popover-snippet">Yet a central...Read more...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/ygRDcMWHDy0" title="This Is How Reasoning LLMs Really Work" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=ygRDcMWHDy0" target="_blank" rel="noopener noreferrer">This Is How Reasoning LLMs Really Work</a></p><p class="youtube-embed-meta">Channel: Tales Of Tensors</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=ygRDcMWHDy0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=ygRDcMWHDy0">Open on YouTube</a></p></div></div></div>
@@ -359,9 +359,9 @@ A practical mindset includes several principles:
 * **Check whether conclusions follow from premises.** Good writing can conceal logical gaps.
 * **Look for external [verification]({{ 'verification-cost/' | relative_url }}).** In factual domains, independent sources remain important.
 * **Be cautious with [confidence]({{ 'confidence/' | relative_url }}).** A confident explanation is not necessarily a correct one.
-* **Distinguish usefulness from transparency.** An explanation can help a user understand a topic even if it is not a perfect description of the model's internal computation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
+* **Distinguish usefulness from transparency.** An explanation can help a user understand a topic even if it is not a perfect description of the model's internal computation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
 
-This distinction becomes especially important in high-stakes settings such as [healthcare]({{ 'health-proxy/' | relative_url }}), law, finance, or scientific research, where persuasive language can create a false sense of reliability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2406.10625" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+This distinction becomes especially important in high-stakes settings such as [healthcare]({{ 'health-proxy/' | relative_url }}), law, finance, or scientific research, where persuasive language can create a false sense of reliability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2406.10625" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_fluent_ai_exp_69d1ff-Illustration-3-dark.svg" | relative_url }}" alt="Fluent Reasons illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_fluent_ai_exp_69d1ff-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_fluent_ai_exp_69d1ff-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -369,199 +369,199 @@ This distinction becomes especially important in high-stakes settings such as [h
 
 When a chatbot answers questions across many topics through one conversational interface, users already see a unified, seemingly capable agent. Fluent explanations amplify that impression.
 
-An answer alone may look like successful pattern matching. An answer accompanied by a detailed rationale looks more like thinking. Because people instinctively associate explanations with understanding, the chatbot appears not merely knowledgeable but reflective. The explanation creates a sense of access to a mind at work. S Y N A P S I S <span class="citation-link-wrap"><a class="citation-inline-link" href="https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medicalhealthhumanities.com">[medicalhealthhumanities.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medicalhealthhumanities.com</span><span class="citation-popover-title">from jane austen to chatbots using conversation to judge intelligence</span><span class="citation-popover-snippet">from jane austen to chatbots using conversation to judge intelligence</span></span></span>
+An answer alone may look like successful pattern matching. An answer accompanied by a detailed rationale looks more like thinking. Because people instinctively associate explanations with understanding, the chatbot appears not merely knowledgeable but reflective. The explanation creates a sense of access to a mind at work. S Y N A P S I S<span class="citation-link-wrap"><a class="citation-inline-link" href="https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medicalhealthhumanities.com">[medicalhealthhumanities.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medicalhealthhumanities.com</span><span class="citation-popover-title">from jane austen to chatbots using conversation to judge intelligence</span><span class="citation-popover-snippet">from jane austen to chatbots using conversation to judge intelligence</span></span></span>
 
-The evidence so far suggests caution. Fluent explanations can be useful, educational, and sometimes genuinely informative. However, they should not automatically be interpreted as a transparent window into an AI system's reasoning process. The ability to generate convincing reasons and the ability to reveal actual reasons are related but distinct capabilities. Understanding that distinction is essential for understanding why modern chatbots can appear more generally intelligent than their underlying mechanisms may warrant. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
+The evidence so far suggests caution. Fluent explanations can be useful, educational, and sometimes genuinely informative. However, they should not automatically be interpreted as a transparent window into an AI system's reasoning process. The ability to generate convincing reasons and the ability to reveal actual reasons are related but distinct capabilities. Understanding that distinction is essential for understanding why modern chatbots can appear more generally intelligent than their underlying mechanisms may warrant.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</span><span class="citation-popover-meta">Published: May 7, 2023</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When explanations sound more thoughtful than they are. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When explanations sound more thoughtful than they are. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open You Look Like a Thing and I Love You on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sFvYwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for You Look Like a Thing and I Love You" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="You Look Like a Thing and I Love You">You Look Like a Thing and I Love You</a>
-        </h4>
-        <p class="fr-book-author">By Janelle Shane</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open You Look Like a Thing and I Love You on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sFvYwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for You Look Like a Thing and I Love You" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="You Look Like a Thing and I Love You">You Look Like a Thing and I Love You</a>
+</h4>
+<p class="fr-book-author">By Janelle Shane</p>
         
-        <p class="fr-book-desc">Shows how convincing explanations can emerge from systems with limited understanding.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how convincing explanations can emerge from systems with limited understanding.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Kahneman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
+</h4>
+<p class="fr-book-author">By Daniel Kahneman</p>
         
-        <p class="fr-book-desc">Explains why people mistake fluent explanations for genuine understanding.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why people mistake fluent explanations for genuine understanding.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Discusses interpretation and trust in AI outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses interpretation and trust in AI outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Godel, Escher, Bach on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=lic72KLZq-0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Godel, Escher, Bach" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Godel, Escher, Bach">Godel, Escher, Bach</a>
-        </h4>
-        <p class="fr-book-author">By Douglas R. Hofstadter</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Godel, Escher, Bach on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=lic72KLZq-0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Godel, Escher, Bach" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Godel, Escher, Bach">Godel, Escher, Bach</a>
+</h4>
+<p class="fr-book-author">By Douglas R. Hofstadter</p>
         
-        <p class="fr-book-desc">Explores relationships between symbols, reasoning, and apparent understanding.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores relationships between symbols, reasoning, and apparent understanding.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">You Look Like a Thing and I Love You</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Thinking, Fast and Slow</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">You Look Like a Thing and I Love You</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Thinking, Fast and Slow</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug"><img src="{{ '/assets/images/marketplace-covers/3cd6c43c4b62ca2ad106.jpg' | relative_url }}" alt="Listing image for Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug"><img src="{{ '/assets/images/marketplace-covers/3cd6c43c4b62ca2ad106.jpg' | relative_url }}" alt="Listing image for Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Relax I&#x27;m A Doctor... Of Computer Science - PhD, Doctorate Mug</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea"><img src="{{ '/assets/images/marketplace-covers/b7b7c3653101c15914ab.jpg' | relative_url }}" alt="Listing image for Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea"><img src="{{ '/assets/images/marketplace-covers/b7b7c3653101c15914ab.jpg' | relative_url }}" alt="Listing image for Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Funny Gift Awesome Retired COMPUTER SCIENCE TEACHER Mug | Retirement Humour Idea</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Here Sits The Mug Of The World&#x27;s Best Computer Science Student - Mug"><img src="{{ '/assets/images/marketplace-covers/31d9c1e1b4cdddf4b2a0.jpg' | relative_url }}" alt="Listing image for Here Sits The Mug Of The World&#x27;s Best Computer Science Student - Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Here Sits The Mug Of The World&#x27;s Best Computer Science Student - Mug</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Here Sits The Mug Of The World&#x27;s Best Computer Science Student - Mug"><img src="{{ '/assets/images/marketplace-covers/31d9c1e1b4cdddf4b2a0.jpg' | relative_url }}" alt="Listing image for Here Sits The Mug Of The World&#x27;s Best Computer Science Student - Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Here Sits The Mug Of The World&#x27;s Best Computer Science Student - Mug</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm I&#x27;m Studying Computer Science - Mug"><img src="{{ '/assets/images/marketplace-covers/c988117aa3e90d7348ec.jpg' | relative_url }}" alt="Listing image for Keep Calm I&#x27;m Studying Computer Science - Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Keep Calm I&#x27;m Studying Computer Science - Mug</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm I&#x27;m Studying Computer Science - Mug"><img src="{{ '/assets/images/marketplace-covers/c988117aa3e90d7348ec.jpg' | relative_url }}" alt="Listing image for Keep Calm I&#x27;m Studying Computer Science - Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">Keep Calm I&#x27;m Studying Computer Science - Mug</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science mug" data-ebay-reference="fluent-reasons-when-explanations-sound-more-thoughtful-than-they-are-understanding-computer-science-mug" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -577,7 +577,7 @@ The evidence so far suggests caution. Fluent explanations can be useful, educati
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -597,7 +597,7 @@ The evidence so far suggests caution. Fluent explanations can be useful, educati
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -629,7 +629,7 @@ The evidence so far suggests caution. Fluent explanations can be useful, educati
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -681,7 +681,7 @@ The evidence so far suggests caution. Fluent explanations can be useful, educati
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -726,7 +726,7 @@ The evidence so far suggests caution. Fluent explanations can be useful, educati
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -767,132 +767,132 @@ The evidence so far suggests caution. Fluent explanations can be useful, educati
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.04388</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</p></details>
+   Link:<a href="https://arxiv.org/abs/2305.04388" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.04388</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models Don&#x27;t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought PromptingMay 7, 2023...</p></details>
    Published: May 7, 2023  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: anthropic.com  
    Title: reasoning models dont say think  
-   Link: <a href="https://www.anthropic.com/research/reasoning-models-dont-say-think" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/research/reasoning-models-dont-say-think</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>But our research shows that we can&#x27;t always rely on what they tell us about their...Read more...</p></details>
+   Link:<a href="https://www.anthropic.com/research/reasoning-models-dont-say-think" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/research/reasoning-models-dont-say-think</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>But our research shows that we can&#x27;t always rely on what they tell us about their...Read more...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: medicalhealthhumanities.com  
    Title: from jane austen to chatbots using conversation to judge intelligence  
-   Link: <a href="https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/" target="_blank" rel="noopener noreferrer nofollow">https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/</a>  
+   Link:<a href="https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/" target="_blank" rel="noopener noreferrer nofollow">https://medicalhealthhumanities.com/2022/03/16/from-jane-austen-to-chatbots-using-conversation-to-judge-intelligence/</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: diva-portal.org  
-   Link: <a href="https://www.diva-portal.org/smash/get/diva2%3A1990130/FULLTEXT02" target="_blank" rel="noopener noreferrer nofollow">https://www.diva-portal.org/smash/get/diva2%3A1990130/FULLTEXT02</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>By examining how user...</p></details>
+   Link:<a href="https://www.diva-portal.org/smash/get/diva2%3A1990130/FULLTEXT02" target="_blank" rel="noopener noreferrer nofollow">https://www.diva-portal.org/smash/get/diva2%3A1990130/FULLTEXT02</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>By examining how user...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=bzs4uPLXvi" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=bzs4uPLXvi</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models Don&#x27;t Always Say What They Thinkby M Turpin · Cited by 1450 — When we bias models toward incorrect answers, the...</p></details>
+   Link:<a href="https://openreview.net/forum?id=bzs4uPLXvi" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=bzs4uPLXvi</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language Models Don&#x27;t Always Say What They Thinkby M Turpin · Cited by 1450 — When we bias models toward incorrect answers, the...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv Faithful or Just Plausible?  
-   Link: <a href="https://arxiv.org/html/2603.13988v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2603.13988v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating the Faithfulness of...Building on this concern, LLMs introduce a unique challenge: they generate natural-language rationales...</p></details>
+   Link:<a href="https://arxiv.org/html/2603.13988v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2603.13988v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating the Faithfulness of...Building on this concern, LLMs introduce a unique challenge: they generate natural-language rationales...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
    Title: arXiv Measuring Faithfulness in Chain-of-Thought Reasoning  
-   Link: <a href="https://arxiv.org/abs/2307.13702" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2307.13702</a>  
+   Link:<a href="https://arxiv.org/abs/2307.13702" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2307.13702</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: time.com  
    Title: AI Chatbots Are Getting Better  
-   Link: <a href="https://time.com/6238781/chatbot-chatgpt-ai-interview/" target="_blank" rel="noopener noreferrer nofollow">https://time.com/6238781/chatbot-chatgpt-ai-interview/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>But an Interview With ChatGPT Reveals Their LimitsDecember 5, 2022 — In a recent interview, the revolutionary AI program named ChatGPT de...</p></details>
+   Link:<a href="https://time.com/6238781/chatbot-chatgpt-ai-interview/" target="_blank" rel="noopener noreferrer nofollow">https://time.com/6238781/chatbot-chatgpt-ai-interview/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>But an Interview With ChatGPT Reveals Their LimitsDecember 5, 2022 — In a recent interview, the revolutionary AI program named ChatGPT de...</p></details>
    Published: December 5, 2022  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: aigi.ox.ac.uk  
-   Link: <a href="https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Cot_Is_Not_Explainability.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Cot_Is_Not_Explainability.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ford Martin AIGIChain-of-Thought Is Not Explainabilityby F Barez · Cited by 92 — Chains-of-thought (CoT) allow language models to verba...</p></details>
+   Link:<a href="https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Cot_Is_Not_Explainability.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Cot_Is_Not_Explainability.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ford Martin AIGIChain-of-Thought Is Not Explainabilityby F Barez · Cited by 92 — Chains-of-thought (CoT) allow language models to verba...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2406.10625" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2406.10625</a>  
+   Link:<a href="https://arxiv.org/abs/2406.10625" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2406.10625</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=emjPKK11Oo" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=emjPKK11Oo</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Previous...</p></details>
+   Link:<a href="https://openreview.net/forum?id=emjPKK11Oo" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=emjPKK11Oo</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Previous...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: github.com  
    Title: Co T Faithfulness Survey  
-   Link: <a href="https://github.com/PKU-PILLAR-Group/CoT-Faithfulness-Survey" target="_blank" rel="noopener noreferrer nofollow">https://github.com/PKU-PILLAR-Group/CoT-Faithfulness-Survey</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Yet a central...Read more...</p></details>
+   Link:<a href="https://github.com/PKU-PILLAR-Group/CoT-Faithfulness-Survey" target="_blank" rel="noopener noreferrer nofollow">https://github.com/PKU-PILLAR-Group/CoT-Faithfulness-Survey</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Yet a central...Read more...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=1OyE9IK0kx" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=1OyE9IK0kx</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>On the Hardness of Faithful Chain-of-Thought Reasoning...by SH Tanneru · Cited by 58 — We explore approaches to improve faithfulness of...</p></details>
+   Link:<a href="https://openreview.net/forum?id=1OyE9IK0kx" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=1OyE9IK0kx</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>On the Hardness of Faithful Chain-of-Thought Reasoning...by SH Tanneru · Cited by 58 — We explore approaches to improve faithfulness of...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2503.08679" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2503.08679</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Chain-of-Thought Reasoning In The Wild Is Not Always...by I Arcuschin · 2025 · Cited by 147 — Recent studies have shown that CoT reasoni...</p></details>
+   Link:<a href="https://arxiv.org/abs/2503.08679" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2503.08679</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Chain-of-Thought Reasoning In The Wild Is Not Always...by I Arcuschin · 2025 · Cited by 147 — Recent studies have shown that CoT reasoni...</p></details>
 
 ### Additional References
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/401450628_Language_Models_Don%27t_Always_Say_What_They_Think_Unfaithful_Explanations_in_Chain-of-Thought_Prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/401450628_Language_Models_Don%27t_Always_Say_What_They_Think_Unfaithful_Explanations_in_Chain-of-Thought_Prompting</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Unfaithful Explanations in Chain-of-Thought Prompting24 May 2026 — Multiple studies show that generated explanations can diverge from the...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/401450628_Language_Models_Don%27t_Always_Say_What_They_Think_Unfaithful_Explanations_in_Chain-of-Thought_Prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/401450628_Language_Models_Don%27t_Always_Say_What_They_Think_Unfaithful_Explanations_in_Chain-of-Thought_Prompting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Unfaithful Explanations in Chain-of-Thought Prompting24 May 2026 — Multiple studies show that generated explanations can diverge from the...</p></details>
    Published: May 2026  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: ft.com  
-   Link: <a href="https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These errors arise from the probabilistic way the models predict the next word in a sentence, sometimes leading to plausible yet incorrec...</p></details>
+   Link:<a href="https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These errors arise from the probabilistic way the models predict the next word in a sentence, sometimes leading to plausible yet incorrec...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: osf.io  
-   Link: <a href="https://osf.io/wcu5m/overview" target="_blank" rel="noopener noreferrer nofollow">https://osf.io/wcu5m/overview</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Users perceptions of chatbot bullshittingThis emphasis on linguistic [fluency](&amp;#123;&amp;#123; &#x27;fluency-vs-accuracy/&#x27; | relative_url &amp;#125;&amp;#125;) as an indicator for intelligence reflects a long-standing hu...</p></details>
+   Link:<a href="https://osf.io/wcu5m/overview" target="_blank" rel="noopener noreferrer nofollow">https://osf.io/wcu5m/overview</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Users perceptions of chatbot bullshittingThis emphasis on linguistic [fluency](&amp;#123;&amp;#123; &#x27;fluency-vs-accuracy/&#x27; | relative_url &amp;#125;&amp;#125;) as an indicator for intelligence reflects a long-standing hu...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/13k1ay3/r_language_models_dont_always_say_what_they_think/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/13k1ay3/r_language_models_dont_always_say_what_they_think/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[R] Language Models Don&#x27;t Always Say What They ThinkWe find that CoT explanations can systematically misrepresent the true reason for a m...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/13k1ay3/r_language_models_dont_always_say_what_they_think/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/13k1ay3/r_language_models_dont_always_say_what_they_think/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[R] Language Models Don&#x27;t Always Say What They ThinkWe find that CoT explanations can systematically misrepresent the true reason for a m...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: thesis.unipd.it  
-   Link: <a href="https://thesis.unipd.it/retrieve/8195ad72-25cc-4e4d-a269-5e94261f3e05/AZHAR%20Serik-2.pdf" target="_blank" rel="noopener noreferrer nofollow">https://thesis.unipd.it/retrieve/8195ad72-25cc-4e4d-a269-5e94261f3e05/AZHAR%20Serik-2.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>and conversational features of AI chatbots...In recent years, the SOR framework has been widely adapted to study human-computer interact...</p></details>
+   Link:<a href="https://thesis.unipd.it/retrieve/8195ad72-25cc-4e4d-a269-5e94261f3e05/AZHAR%20Serik-2.pdf" target="_blank" rel="noopener noreferrer nofollow">https://thesis.unipd.it/retrieve/8195ad72-25cc-4e4d-a269-5e94261f3e05/AZHAR%20Serik-2.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>and conversational features of AI chatbots...In recent years, the SOR framework has been widely adapted to study human-computer interact...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40iryna.nozdrin/the-unfaithful-chain-of-thought-debunking-anthropomorphic-claims-in-llm-research-f6981f998116" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40iryna.nozdrin/the-unfaithful-chain-of-thought-debunking-anthropomorphic-claims-in-llm-research-f6981f998116</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The “Unfaithful” Chain-of-ThoughtCan CoT Faithfulness be Reasonably Demanded? In the study, the researchers set out to test faithfulness...</p></details>
+   Link:<a href="https://medium.com/%40iryna.nozdrin/the-unfaithful-chain-of-thought-debunking-anthropomorphic-claims-in-llm-research-f6981f998116" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40iryna.nozdrin/the-unfaithful-chain-of-thought-debunking-anthropomorphic-claims-in-llm-research-f6981f998116</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The “Unfaithful” Chain-of-ThoughtCan CoT Faithfulness be Reasonably Demanded? In the study, the researchers set out to test faithfulness...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: opentrain.ai  
-   Link: <a href="https://www.opentrain.ai/papers/lie-to-me-how-faithful-is-chain-of-thought-reasoning-in-reasoning-models--arxiv-2603.22582/" target="_blank" rel="noopener noreferrer nofollow">https://www.opentrain.ai/papers/lie-to-me-how-faithful-is-chain-of-thought-reasoning-in-reasoning-models--arxiv-2603.22582/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Faithfulness of Chain-of-Thought in Reasoning Models23 Mar 2026 — Abstract. Chain-of-thought (CoT) reasoning has been proposed as a trans...</p></details>
+   Link:<a href="https://www.opentrain.ai/papers/lie-to-me-how-faithful-is-chain-of-thought-reasoning-in-reasoning-models--arxiv-2603.22582/" target="_blank" rel="noopener noreferrer nofollow">https://www.opentrain.ai/papers/lie-to-me-how-faithful-is-chain-of-thought-reasoning-in-reasoning-models--arxiv-2603.22582/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Faithfulness of Chain-of-Thought in Reasoning Models23 Mar 2026 — Abstract. Chain-of-thought (CoT) reasoning has been proposed as a trans...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: awej.org  
-   Link: <a href="https://awej.org/conversational-analysis-of-learner-ai-chatbot-interactions-in-developing-spoken-fluency/" target="_blank" rel="noopener noreferrer nofollow">https://awej.org/conversational-analysis-of-learner-ai-chatbot-interactions-in-developing-spoken-fluency/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Chatbot Interactions in Developing Spoken Fluency10 Dec 2025 — Abstract: This study investigates interactions between AI chatbots and...</p></details>
+   Link:<a href="https://awej.org/conversational-analysis-of-learner-ai-chatbot-interactions-in-developing-spoken-fluency/" target="_blank" rel="noopener noreferrer nofollow">https://awej.org/conversational-analysis-of-learner-ai-chatbot-interactions-in-developing-spoken-fluency/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Chatbot Interactions in Developing Spoken Fluency10 Dec 2025 — Abstract: This study investigates interactions between AI chatbots and...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: cobusgreyling.medium.com  
    Title: chain of thought reasoning is not always faithful d35848eb80f4  
-   Link: <a href="https://cobusgreyling.medium.com/chain-of-thought-reasoning-is-not-always-faithful-d35848eb80f4" target="_blank" rel="noopener noreferrer nofollow">https://cobusgreyling.medium.com/chain-of-thought-reasoning-is-not-always-faithful-d35848eb80f4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>medium.comChain-of-Thought Reasoning Is Not Always FaithfulThis study reveals that Chain-of-Thought (CoT) reasoning in advanced Language...</p></details>
+   Link:<a href="https://cobusgreyling.medium.com/chain-of-thought-reasoning-is-not-always-faithful-d35848eb80f4" target="_blank" rel="noopener noreferrer nofollow">https://cobusgreyling.medium.com/chain-of-thought-reasoning-is-not-always-faithful-d35848eb80f4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>medium.comChain-of-Thought Reasoning Is Not Always FaithfulThis study reveals that Chain-of-Thought (CoT) reasoning in advanced Language...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: pub.towardsai.net  
    Title: In other words, AI may look like it's reasoning carefully but  
-   Link: <a href="https://pub.towardsai.net/when-ai-explains-itself-but-lies-the-hidden-pitfalls-of-chain-of-thought-reasoning-8dbeabdfab02" target="_blank" rel="noopener noreferrer nofollow">https://pub.towardsai.net/when-ai-explains-itself-but-lies-the-hidden-pitfalls-of-chain-of-thought-reasoning-8dbeabdfab02</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Explains Itself but Lies: The Hidden Pitfalls of...4 Sept 2025 — CoT explanations are often not faithful to the model&#x27;s true reasonin...</p></details>
+   Link:<a href="https://pub.towardsai.net/when-ai-explains-itself-but-lies-the-hidden-pitfalls-of-chain-of-thought-reasoning-8dbeabdfab02" target="_blank" rel="noopener noreferrer nofollow">https://pub.towardsai.net/when-ai-explains-itself-but-lies-the-hidden-pitfalls-of-chain-of-thought-reasoning-8dbeabdfab02</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Explains Itself but Lies: The Hidden Pitfalls of...4 Sept 2025 — CoT explanations are often not faithful to the model&#x27;s true reasonin...</p></details>

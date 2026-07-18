@@ -333,17 +333,17 @@ image: /assets/images/understanding_3f90b8_large_languag_0eaecc-overview-social.
 
 ## Introduction
 
-Large language models are the mechanism behind many modern chatbots and writing assistants. Their core trick is simple to state: they turn text into small units called tokens, estimate which token is likely to come next, add that token to the text, and repeat. The surprise is how much capability can emerge from doing that at enormous scale. A system trained to continue text can appear to answer questions, translate, summarise, write code, imitate formats, and follow instructions because all of those tasks can be framed as producing an appropriate continuation of a prompt. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cset.georgetown.edu/article/the-surprising-power-of-next-word-prediction-large-language-models-explained-part-1/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cset.georgetown.edu">[CSET]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cset.georgetown.edu</span><span class="citation-popover-snippet">Open source on georgetown.edu.</span></span></span>
+Large language models are the mechanism behind many modern chatbots and writing assistants. Their core trick is simple to state: they turn text into small units called tokens, estimate which token is likely to come next, add that token to the text, and repeat. The surprise is how much capability can emerge from doing that at enormous scale. A system trained to continue text can appear to answer questions, translate, summarise, write code, imitate formats, and follow instructions because all of those tasks can be framed as producing an appropriate continuation of a prompt.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cset.georgetown.edu/article/the-surprising-power-of-next-word-prediction-large-language-models-explained-part-1/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cset.georgetown.edu">[CSET]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cset.georgetown.edu</span><span class="citation-popover-snippet">Open source on georgetown.edu.</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc-overview.webp" | relative_url }}" alt="Overview image for Language Models" loading="eager" decoding="sync" fetchpriority="high">
-That also explains the central caution. A language model is optimised to produce plausible continuations, not to guarantee truth. [Fluency]({{ 'fluency-vs-accuracy/' | relative_url }}), [confidence]({{ 'confidence/' | relative_url }}), and factual reliability are different properties. A chatbot can sound polished because it has learned the statistical shape of explanations, citations, apologies, jokes, code, and arguments. That fluency is useful, but it can also hide uncertainty, especially when the model is asked about obscure facts, recent events, or topics where the training data contains weak or conflicting evidence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">Open AIWhy language models hallucinate &#124; Open AI</span><span class="citation-popover-snippet">Open AIWhy language models hallucinate &#124; Open AI</span></span></span>
+That also explains the central caution. A language model is optimised to produce plausible continuations, not to guarantee truth. [Fluency]({{ 'fluency-vs-accuracy/' | relative_url }}), [confidence]({{ 'confidence/' | relative_url }}), and factual reliability are different properties. A chatbot can sound polished because it has learned the statistical shape of explanations, citations, apologies, jokes, code, and arguments. That fluency is useful, but it can also hide uncertainty, especially when the model is asked about obscure facts, recent events, or topics where the training data contains weak or conflicting evidence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">Open AIWhy language models hallucinate &#124; Open AI</span><span class="citation-popover-snippet">Open AIWhy language models hallucinate &#124; Open AI</span></span></span>
 
 ## Tokens and next-word prediction
 
-A language model does not usually process text as whole words in the way a reader does. It first breaks text into tokens: chunks that may be whole words, word fragments, punctuation marks, spaces, or other pieces depending on the tokenizer. OpenAI’s tokenizer tool, for example, is designed to show how a piece of text is split into tokens and counted for model use. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://platform.openai.com/tokenizer" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: platform.openai.com">[OpenAI Platform]</a><span class="citation-popover" role="note"><span class="citation-popover-source">platform.openai.com</span><span class="citation-popover-snippet">Open source on openai.com.</span></span></span>
+A language model does not usually process text as whole words in the way a reader does. It first breaks text into tokens: chunks that may be whole words, word fragments, punctuation marks, spaces, or other pieces depending on the tokenizer. OpenAI’s tokenizer tool, for example, is designed to show how a piece of text is split into tokens and counted for model use.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://platform.openai.com/tokenizer" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: platform.openai.com">[OpenAI Platform]</a><span class="citation-popover" role="note"><span class="citation-popover-source">platform.openai.com</span><span class="citation-popover-snippet">Open source on openai.com.</span></span></span>
 
-Tokens matter because they are the units the model predicts. The sentence “Why chatbots sound so fluent” might be split into several token IDs, each represented internally as numbers. Those numbers are then transformed into mathematical representations called embeddings, which encode patterns about how tokens tend to appear in relation to other tokens. Microsoft’s explanation of tokens describes this process in practical terms: text becomes token IDs, embeddings represent relationships, and during generation the model evaluates possible next tokens from its vocabulary before selecting one and continuing the sequence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-tokens" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">Learn Understanding tokens</span><span class="citation-popover-snippet">Learn Understanding tokens</span></span></span>
+Tokens matter because they are the units the model predicts. The sentence “Why chatbots sound so fluent” might be split into several token IDs, each represented internally as numbers. Those numbers are then transformed into mathematical representations called embeddings, which encode patterns about how tokens tend to appear in relation to other tokens. Microsoft’s explanation of tokens describes this process in practical terms: text becomes token IDs, embeddings represent relationships, and during generation the model evaluates possible next tokens from its vocabulary before selecting one and continuing the sequence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-tokens" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">Learn Understanding tokens</span><span class="citation-popover-snippet">Learn Understanding tokens</span></span></span>
 
 The “next word” phrase is therefore a simplification. In many modern systems, the model is predicting the next token, not necessarily the next dictionary word. But the basic loop is close enough for intuition:
 
@@ -355,7 +355,7 @@ The “next word” phrase is therefore a simplification. In many modern systems
 
 This repeated [prediction]({{ 'error-harms/' | relative_url }}) is why a model can produce a paragraph rather than a single word. Each new token becomes part of the context for the next prediction. A chatbot answer is therefore not retrieved as one finished block from a database; it is assembled step by step as the model repeatedly extends the text.
 
-The 2017 Transformer paper, “[Attention]({{ 'attention/' | relative_url }}) Is All You Need”, is a key technical milestone because it introduced an architecture based on attention mechanisms rather than recurrent or convolutional sequence models. The paper argued that this design was more parallelisable and achieved strong results in machine translation, making it easier to train large sequence models efficiently. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+The 2017 Transformer paper, “[Attention]({{ 'attention/' | relative_url }}) Is All You Need”, is a key technical milestone because it introduced an architecture based on attention mechanisms rather than recurrent or convolutional sequence models. The paper argued that this design was more parallelisable and achieved strong results in machine translation, making it easier to train large sequence models efficiently.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 Attention is important because it lets the model weigh relationships among tokens across a context. In a prompt such as “The capital of France is”, nearby words matter, but so does the broader pattern learned from many similar texts. In longer prompts, attention helps the model connect a question, a quoted document, an instruction, and a requested output format. This does not mean the model understands the world as a person does. It means the model has a powerful way to use patterns in the current context when estimating what text should come next.
 
@@ -363,11 +363,11 @@ Attention is important because it lets the model weigh relationships among token
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc-Illustration-1-dark.svg" | relative_url }}" alt="Language Models illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc-Illustration-1-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Why such a simple objective becomes powerful
 
-Next-token prediction looks almost trivial when reduced to a classroom example such as “Mary had a little…”. Yet it becomes powerful because real text contains traces of many human activities. To predict the next token in books, code repositories, websites, legal documents, tutorials, forum posts, and scientific abstracts, a model must learn patterns in grammar, style, facts, dialogue, argument, formatting, and task structure. CSET’s explainer gives a useful example: a sentence such as “The actress that played Rose in the 1997 film Titanic is named…” turns next-word prediction into a question-answering task because the likely continuation is the answer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cset.georgetown.edu/article/the-surprising-power-of-next-word-prediction-large-language-models-explained-part-1/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cset.georgetown.edu">[CSET]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cset.georgetown.edu</span><span class="citation-popover-snippet">Open source on georgetown.edu.</span></span></span>
+Next-token prediction looks almost trivial when reduced to a classroom example such as “Mary had a little…”. Yet it becomes powerful because real text contains traces of many human activities. To predict the next token in books, code repositories, websites, legal documents, tutorials, forum posts, and scientific abstracts, a model must learn patterns in grammar, style, facts, dialogue, argument, formatting, and task structure. CSET’s explainer gives a useful example: a sentence such as “The actress that played Rose in the 1997 film Titanic is named…” turns next-word prediction into a question-answering task because the likely continuation is the answer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cset.georgetown.edu/article/the-surprising-power-of-next-word-prediction-large-language-models-explained-part-1/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cset.georgetown.edu">[CSET]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cset.georgetown.edu</span><span class="citation-popover-snippet">Open source on georgetown.edu.</span></span></span>
 
 This is the bridge from autocomplete to chatbot. A prompt is not just a request; it is part of the text the model is continuing. If the prompt contains a question, the continuation may look like an answer. If it contains examples of translation, the continuation may follow the translation pattern. If it contains a style guide, the continuation may imitate that style.
 
-The GPT-3 paper, “Language Models are Few-Shot Learners”, made this idea highly visible in 2020. The researchers described GPT-3 as an autoregressive language model with 175 billion parameters and showed that it could perform many tasks from instructions or a few demonstrations in the prompt, without task-specific gradient updates. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">arXiv Language Models are Few-Shot Learners</span></span></span>
+The GPT-3 paper, “Language Models are Few-Shot Learners”, made this idea highly visible in 2020. The researchers described GPT-3 as an autoregressive language model with 175 billion parameters and showed that it could perform many tasks from instructions or a few demonstrations in the prompt, without task-specific gradient updates.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">arXiv Language Models are Few-Shot Learners</span></span></span>
 
 That finding helped popularise the idea of [in-context learning]({{ 'in-context-learning/' | relative_url }}). In plain terms, the model can use the prompt itself as temporary guidance. A user can give three examples of a pattern and ask the model to continue with a fourth. The model has not permanently learned a new skill from that prompt, but it can often infer the requested pattern well enough to continue it.
 
@@ -396,7 +396,7 @@ Few-shot prompting is especially useful for tasks where the desired output forma
 
 This helps explain why small wording changes can matter. A prompt that says “give a cautious answer and cite uncertainty” may produce a different continuation from one that says “answer directly and do not hedge”. Both prompts alter the statistical path the model follows. That makes language models flexible, but also brittle: the same underlying system can behave differently depending on framing, examples, order, and context length.
 
-Modern interpretability work suggests the internal story is not always as shallow as “one token at a time” sounds. Anthropic’s 2025 research on tracing language-model computations reported evidence that Claude could sometimes plan words ahead, such as anticipating rhymes while writing poetry, even though it outputs text one word at a time. The same research also stressed that developers still do not understand most of the computations models perform for each word they write. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/research/tracing-thoughts-language-model" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">Tracing the thoughts of a large language model \ Anthropic</span><span class="citation-popover-snippet">Tracing the thoughts of a large language model \ Anthropic</span></span></span>
+Modern interpretability work suggests the internal story is not always as shallow as “one token at a time” sounds. Anthropic’s 2025 research on tracing language-model computations reported evidence that Claude could sometimes plan words ahead, such as anticipating rhymes while writing poetry, even though it outputs text one word at a time. The same research also stressed that developers still do not understand most of the computations models perform for each word they write.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/research/tracing-thoughts-language-model" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">Tracing the thoughts of a large language model \ Anthropic</span><span class="citation-popover-snippet">Tracing the thoughts of a large language model \ Anthropic</span></span></span>
 
 The practical takeaway is balanced. It is too dismissive to say a chatbot is “only autocomplete” if that implies there is no rich internal processing. It is also too generous to treat fluent output as proof of grounded [understanding]({{ 'understanding/' | relative_url }}). Next-token prediction can support surprisingly complex behaviour, while still leaving the model vulnerable to confident mistakes.
 
@@ -406,13 +406,13 @@ The practical takeaway is balanced. It is too dismissive to say a chatbot is “
 
 The same mechanism that makes chatbots fluent can make them dangerously persuasive. A model learns how correct answers sound, but it also learns how unsupported answers, formal explanations, academic citations, and confident claims sound. When it lacks a reliable basis for a fact, it may still generate a plausible continuation because the training and evaluation setup often rewards giving an answer.
 
-OpenAI’s 2025 discussion of hallucinations defines them as plausible but false statements generated by language models, and argues that standard training and evaluation procedures can reward guessing over acknowledging uncertainty. The article gives a simple incentive problem: if a benchmark rewards only exact accuracy, a model may score better by guessing than by saying it does not know. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">Open AIWhy language models hallucinate &#124; Open AI</span><span class="citation-popover-snippet">Open AIWhy language models hallucinate &#124; Open AI</span></span></span>
+OpenAI’s 2025 discussion of hallucinations defines them as plausible but false statements generated by language models, and argues that standard training and evaluation procedures can reward guessing over acknowledging uncertainty. The article gives a simple incentive problem: if a benchmark rewards only exact accuracy, a model may score better by guessing than by saying it does not know.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">Open AIWhy language models hallucinate &#124; Open AI</span><span class="citation-popover-snippet">Open AIWhy language models hallucinate &#124; Open AI</span></span></span>
 
-A 2026 Nature paper by Adam Tauman Kalai and colleagues makes a similar point in research terms. It argues that next-word pretraining can create statistical pressure towards hallucination for facts with little repeated support in training data, while accuracy-based evaluations can further reward unwarranted guessing. The paper distinguishes recurring regularities, such as grammar, from one-off details, which are harder for a model to learn reliably from text alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/s41586-026-10549-w" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">Open source on nature.com.</span></span></span>
+A 2026 Nature paper by Adam Tauman Kalai and colleagues makes a similar point in research terms. It argues that next-word pretraining can create statistical pressure towards hallucination for facts with little repeated support in training data, while accuracy-based evaluations can further reward unwarranted guessing. The paper distinguishes recurring regularities, such as grammar, from one-off details, which are harder for a model to learn reliably from text alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/s41586-026-10549-w" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">Open source on nature.com.</span></span></span>
 
 This distinction explains a common user experience. A chatbot may be excellent at writing a polite complaint email, explaining a common programming concept, or summarising a well-known idea. Those tasks rely heavily on repeated patterns. But the same chatbot may invent a book title, misstate a niche legal provision, fabricate a citation, or give an outdated answer about a recent event. The language remains smooth because fluency is not the same skill as source verification.
 
-Hallucination is not a rare curiosity at the edge of the system. HaluEval, a benchmark introduced in 2023, was designed to evaluate hallucination in large language models and reported that ChatGPT-generated responses in its setting included hallucinated content in specific topics, including fabricated unverifiable information. The benchmark also found that external knowledge and reasoning steps could help models recognise hallucinations, but did not make the problem disappear. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.11747" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Hallucination is not a rare curiosity at the edge of the system. HaluEval, a benchmark introduced in 2023, was designed to evaluate hallucination in large language models and reported that ChatGPT-generated responses in its setting included hallucinated content in specific topics, including fabricated unverifiable information. The benchmark also found that external knowledge and reasoning steps could help models recognise hallucinations, but did not make the problem disappear.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.11747" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 For ordinary readers, the important warning is simple: confident wording is a style cue, not a truth guarantee. A model can produce “According to a 2021 study…” because that phrase often appears before credible claims. Unless the system is grounded in reliable retrieval, tool use, or verifiable sources, the citation-like shape of a sentence does not prove the cited thing exists.
 
@@ -429,7 +429,7 @@ It can follow examples because examples constrain the pattern. A few labelled ca
 
 It may contradict itself because each answer is generated in context rather than read from a stable fact table. If the prompt changes, if the model samples differently, or if the question concerns weakly represented information, the continuation may change too. This is especially visible when users ask for exact dates, obscure names, quotations, or sources.
 
-It may be sensitive to irrelevant wording because the model is using the whole prompt as context. A misleading hint, a loaded assumption, or a requested persona can shift the distribution of likely continuations. Anthropic’s interpretability work reported cases where a model could produce plausible-sounding reasoning designed to agree with an incorrect user hint rather than reflect the actual logical path. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/research/tracing-thoughts-language-model" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">Tracing the thoughts of a large language model \ Anthropic</span><span class="citation-popover-snippet">Tracing the thoughts of a large language model \ Anthropic</span></span></span>
+It may be sensitive to irrelevant wording because the model is using the whole prompt as context. A misleading hint, a loaded assumption, or a requested persona can shift the distribution of likely continuations. Anthropic’s interpretability work reported cases where a model could produce plausible-sounding reasoning designed to agree with an incorrect user hint rather than reflect the actual logical path.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/research/tracing-thoughts-language-model" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">Tracing the thoughts of a large language model \ Anthropic</span><span class="citation-popover-snippet">Tracing the thoughts of a large language model \ Anthropic</span></span></span>
 
 It can also appear to reason. Some reasoning-like behaviour can emerge because training data contains worked examples, explanations, proofs, code, debates, and corrections. When prompted to solve a problem step by step, the model may generate a sequence that resembles reasoning and sometimes supports accurate answers. But the generated explanation is still text produced by the model, not guaranteed access to a transparent internal chain of cause and effect.
 
@@ -448,194 +448,194 @@ Understanding that mechanism changes how to use chatbots well. Give clear contex
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why Chatbots Sound So Fluent. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why Chatbots Sound So Fluent. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Explains how modern AI systems and chatbots work.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how modern AI systems and chatbots work.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
-        </h4>
-        <p class="fr-book-author">By Chip Huyen</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
+</h4>
+<p class="fr-book-author">By Chip Huyen</p>
         
-        <p class="fr-book-desc">Covers LLMs, prompting, and AI application design.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers LLMs, prompting, and AI application design.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Directly addresses language-model mechanics and capabilities.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses language-model mechanics and capabilities.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
-        </h4>
-        <p class="fr-book-author">By Mustafa Suleyman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
+</h4>
+<p class="fr-book-author">By Mustafa Suleyman</p>
         
-        <p class="fr-book-desc">Provides broader context for the rise of LLMs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides broader context for the rise of LLMs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 50Pcs/Pack Programmers Hackers Linux Python Sticker For Fridge Laptop PC Sticker"><img src="{{ '/assets/images/marketplace-covers/fa91616dd7f41bbbe289.jpg' | relative_url }}" alt="Listing image for 50Pcs/Pack Programmers Hackers Linux Python Sticker For Fridge Laptop PC Sticker" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">50Pcs/Pack Programmers Hackers Linux Python Sticker For Fridge Laptop PC Sticker</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 50Pcs/Pack Programmers Hackers Linux Python Sticker For Fridge Laptop PC Sticker"><img src="{{ '/assets/images/marketplace-covers/fa91616dd7f41bbbe289.jpg' | relative_url }}" alt="Listing image for 50Pcs/Pack Programmers Hackers Linux Python Sticker For Fridge Laptop PC Sticker" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">50Pcs/Pack Programmers Hackers Linux Python Sticker For Fridge Laptop PC Sticker</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker"><img src="{{ '/assets/images/marketplace-covers/207b5601277e8bda9630.jpg' | relative_url }}" alt="Listing image for Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker"><img src="{{ '/assets/images/marketplace-covers/207b5601277e8bda9630.jpg' | relative_url }}" alt="Listing image for Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Create your own pack 5 x Programmer Stickers Coding Software Computer"><img src="{{ '/assets/images/marketplace-covers/f647eeafb228a4518081.jpg' | relative_url }}" alt="Listing image for Create your own pack 5 x Programmer Stickers Coding Software Computer" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Create your own pack 5 x Programmer Stickers Coding Software Computer</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Create your own pack 5 x Programmer Stickers Coding Software Computer"><img src="{{ '/assets/images/marketplace-covers/f647eeafb228a4518081.jpg' | relative_url }}" alt="Listing image for Create your own pack 5 x Programmer Stickers Coding Software Computer" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Create your own pack 5 x Programmer Stickers Coding Software Computer</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot"><img src="{{ '/assets/images/marketplace-covers/fef498777bc7524140fb.jpg' | relative_url }}" alt="Listing image for Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot"><img src="{{ '/assets/images/marketplace-covers/fef498777bc7524140fb.jpg' | relative_url }}" alt="Listing image for Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="language-models-why-chatbots-sound-so-fluent-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -651,7 +651,7 @@ Understanding that mechanism changes how to use chatbots well. Give clear contex
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -671,7 +671,7 @@ Understanding that mechanism changes how to use chatbots well. Give clear contex
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -703,7 +703,7 @@ Understanding that mechanism changes how to use chatbots well. Give clear contex
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -755,7 +755,7 @@ Understanding that mechanism changes how to use chatbots well. Give clear contex
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -800,7 +800,7 @@ Understanding that mechanism changes how to use chatbots well. Give clear contex
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -841,153 +841,153 @@ Understanding that mechanism changes how to use chatbots well. Give clear contex
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: cset.georgetown.edu  
-   Link: <a href="https://cset.georgetown.edu/article/the-surprising-power-of-next-word-prediction-large-language-models-explained-part-1/" target="_blank" rel="noopener noreferrer nofollow">https://cset.georgetown.edu/article/the-surprising-power-of-next-word-prediction-large-language-models-explained-part-1/</a>  
+   Link:<a href="https://cset.georgetown.edu/article/the-surprising-power-of-next-word-prediction-large-language-models-explained-part-1/" target="_blank" rel="noopener noreferrer nofollow">https://cset.georgetown.edu/article/the-surprising-power-of-next-word-prediction-large-language-models-explained-part-1/</a>  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: OpenAI  
    Title: Open AIWhy language models hallucinate | Open AI  
-   Link: <a href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate/</a>  
+   Link:<a href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate/</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41586-026-10549-w" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-026-10549-w</a>  
+   Link:<a href="https://www.nature.com/articles/s41586-026-10549-w" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-026-10549-w</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: platform.openai.com  
-   Link: <a href="https://platform.openai.com/tokenizer" target="_blank" rel="noopener noreferrer nofollow">https://platform.openai.com/tokenizer</a>  
+   Link:<a href="https://platform.openai.com/tokenizer" target="_blank" rel="noopener noreferrer nofollow">https://platform.openai.com/tokenizer</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: learn.microsoft.com  
    Title: Learn Understanding tokens  
-   Link: <a href="https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-tokens" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-tokens</a>  
+   Link:<a href="https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-tokens" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-tokens</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
+   Link:<a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
    Title: arXiv Language Models are Few-Shot Learners  
-   Link: <a href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.14165</a>  
+   Link:<a href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.14165</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: anthropic.com  
    Title: Tracing the thoughts of a large language model \ Anthropic  
-   Link: <a href="https://www.anthropic.com/research/tracing-thoughts-language-model" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/research/tracing-thoughts-language-model</a>  
+   Link:<a href="https://www.anthropic.com/research/tracing-thoughts-language-model" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/research/tracing-thoughts-language-model</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2305.11747" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.11747</a>  
+   Link:<a href="https://arxiv.org/abs/2305.11747" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.11747</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: OpenAI  
-   Link: <a href="https://openai.com/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/</a>  
+   Link:<a href="https://openai.com/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2403.08081</a>  
+   Link:<a href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2403.08081</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2212.11281v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2212.11281v2</a>  
+   Link:<a href="https://arxiv.org/html/2212.11281v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2212.11281v2</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2510.06265v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.06265v2</a>  
+   Link:<a href="https://arxiv.org/html/2510.06265v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.06265v2</a>  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: anthropic.com  
    Title: effective context engineering for ai agents  
-   Link: <a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</a>  
+   Link:<a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</a>  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41586-025-10041-x" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-025-10041-x</a>  
+   Link:<a href="https://www.nature.com/articles/s41586-025-10041-x" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-025-10041-x</a>  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s44277-026-00064-1" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s44277-026-00064-1</a>  
+   Link:<a href="https://www.nature.com/articles/s44277-026-00064-1" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s44277-026-00064-1</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: about.google  
-   Link: <a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
+   Link:<a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/%40OpenAI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/%40OpenAI</a>  
+   Link:<a href="https://www.youtube.com/%40OpenAI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/%40OpenAI</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/company/openai" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/company/openai</a>  
+   Link:<a href="https://www.linkedin.com/company/openai" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/company/openai</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/davidchivers_ai-llm-aiagents-activity-7379511158652928000-ab_l" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/davidchivers_ai-llm-aiagents-activity-7379511158652928000-ab_l</a>  
+   Link:<a href="https://www.linkedin.com/posts/davidchivers_ai-llm-aiagents-activity-7379511158652928000-ab_l" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/davidchivers_ai-llm-aiagents-activity-7379511158652928000-ab_l</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: Wikipedia  
    Title: Attention Is All You Need  
-   Link: <a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: Wikipedia  
    Title: Open AI  
-   Link: <a href="https://en.wikipedia.org/wiki/OpenAI" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/OpenAI</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/OpenAI" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/OpenAI</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: angulararchitects.io  
-   Link: <a href="https://www.angulararchitects.io/blog/ai-next-gen-model/" target="_blank" rel="noopener noreferrer nofollow">https://www.angulararchitects.io/blog/ai-next-gen-model/</a>  
+   Link:<a href="https://www.angulararchitects.io/blog/ai-next-gen-model/" target="_blank" rel="noopener noreferrer nofollow">https://www.angulararchitects.io/blog/ai-next-gen-model/</a>  
 
 ### Additional References
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: youtube.com  
    Title: But what is a GPT? Visual intro to transformers | Chapter 5, [Deep Learning](&#123;&#123; 'deep-learning/' | relative_url &#125;&#125;)  
-   Link: <a href="https://www.youtube.com/watch?v=wjZofJX0v4M" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wjZofJX0v4M</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LLMs Are Classifiers: How Language Models Predict the Next Token - YouTube LLMs Are Classifiers: How Language Models Predict the Next Tok...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=wjZofJX0v4M" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wjZofJX0v4M</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLMs Are Classifiers: How Language Models Predict the Next Token - YouTube LLMs Are Classifiers: How Language Models Predict the Next Tok...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: youtube.com  
    Title: LLM Fine-Tuning Foundations: How Language Models Predict the Next Token  
-   Link: <a href="https://www.youtube.com/watch?v=5OoDzSSkymk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=5OoDzSSkymk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What is Next Token Prediction? | Module 10 Ep 1...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=5OoDzSSkymk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=5OoDzSSkymk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is Next Token Prediction? | Module 10 Ep 1...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: youtube.com  
    Title: What is Next Token Prediction? | Module 10 Ep 1  
-   Link: <a href="https://www.youtube.com/watch?v=Wd7Csj27Gzc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Wd7Csj27Gzc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>But what is a GPT? Visual intro to transformers | Chapter 5, Deep Learning...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Wd7Csj27Gzc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Wd7Csj27Gzc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>But what is a GPT? Visual intro to transformers | Chapter 5, Deep Learning...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: youtube.com  
    Title: LLMs Are Classifiers: How Language Models Predict the Next Token  
-   Link: <a href="https://www.youtube.com/watch?v=bKdc5O54GiM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=bKdc5O54GiM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why LLMs Learn by Guessing the Next Token...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=bKdc5O54GiM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=bKdc5O54GiM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why LLMs Learn by Guessing the Next Token...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: youtube.com  
    Title: Why LLMs Learn by Guessing the Next Token  
-   Link: <a href="https://www.youtube.com/watch?v=qOsXvc7RTCQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=qOsXvc7RTCQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Fine-Tuning Foundations: How Language Models Predict the Next Token...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=qOsXvc7RTCQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=qOsXvc7RTCQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Fine-Tuning Foundations: How Language Models Predict the Next Token...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/341724146_Language_Models_are_Few-Shot_Learners" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/341724146_Language_Models_are_Few-Shot_Learners</a>  
+   Link:<a href="https://www.researchgate.net/publication/341724146_Language_Models_are_Few-Shot_Learners" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/341724146_Language_Models_are_Few-Shot_Learners</a>  
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: traceloop.com  
-   Link: <a href="https://www.traceloop.com/blog/a-comprehensive-guide-to-tokenizing-text-for-llms" target="_blank" rel="noopener noreferrer nofollow">https://www.traceloop.com/blog/a-comprehensive-guide-to-tokenizing-text-for-llms</a>  
+   Link:<a href="https://www.traceloop.com/blog/a-comprehensive-guide-to-tokenizing-text-for-llms" target="_blank" rel="noopener noreferrer nofollow">https://www.traceloop.com/blog/a-comprehensive-guide-to-tokenizing-text-for-llms</a>  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/accelerating-language-models-multi-token-prediction-himank-jain-qhudf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/accelerating-language-models-multi-token-prediction-himank-jain-qhudf</a>  
+   Link:<a href="https://www.linkedin.com/pulse/accelerating-language-models-multi-token-prediction-himank-jain-qhudf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/accelerating-language-models-multi-token-prediction-himank-jain-qhudf</a>  
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/ArtificialInteligence/comments/1jo3o69/are_llms_just_predicting_the_next_token/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ArtificialInteligence/comments/1jo3o69/are_llms_just_predicting_the_next_token/</a>  
+   Link:<a href="https://www.reddit.com/r/ArtificialInteligence/comments/1jo3o69/are_llms_just_predicting_the_next_token/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ArtificialInteligence/comments/1jo3o69/are_llms_just_predicting_the_next_token/</a>  
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/data-science-collective/attention-is-all-you-need-661cb8db5f21" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science-collective/attention-is-all-you-need-661cb8db5f21</a>  
+   Link:<a href="https://medium.com/data-science-collective/attention-is-all-you-need-661cb8db5f21" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science-collective/attention-is-all-you-need-661cb8db5f21</a>  

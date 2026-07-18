@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f8
 
 ## Introduction
 
-A [machine-learning]({{ 'machine-learning/' | relative_url }}) model can achieve extremely high training accuracy and still be learning the wrong thing. This happens because training accuracy measures how well a model performs on examples it has already seen, not whether it has discovered patterns that will work on new data. A model may appear successful simply because it has memorised details of the training set, including mistakes, coincidences and irrelevant features. When that happens, the impressive score hides a deeper problem: the model has learned how to reproduce the training examples rather than how to generalise beyond them. This distinction lies at the heart of [overfitting]({{ 'overfitting/' | relative_url }}) and explains why developers rely on unseen test data rather than training results alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</span><span class="citation-popover-meta">Published: April 1, 2025</span></span></span>
+A [machine-learning]({{ 'machine-learning/' | relative_url }}) model can achieve extremely high training accuracy and still be learning the wrong thing. This happens because training accuracy measures how well a model performs on examples it has already seen, not whether it has discovered patterns that will work on new data. A model may appear successful simply because it has memorised details of the training set, including mistakes, coincidences and irrelevant features. When that happens, the impressive score hides a deeper problem: the model has learned how to reproduce the training examples rather than how to generalise beyond them. This distinction lies at the heart of [overfitting]({{ 'overfitting/' | relative_url }}) and explains why developers rely on unseen test data rather than training results alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</span><span class="citation-popover-meta">Published: April 1, 2025</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_hidden_memori_b435c3-Illustration-1-dark.svg" | relative_url }}" alt="Hidden memorisation illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_hidden_memori_b435c3-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_hidden_memori_b435c3-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,11 +277,11 @@ A [machine-learning]({{ 'machine-learning/' | relative_url }}) model can achieve
 
 Training accuracy answers a narrow question: “How many training examples did the model get right?” It does not answer the more important question: “Will the model get future examples right?”
 
-A sufficiently flexible model can often reduce training errors by storing increasingly specific information about individual examples. If the dataset contains accidental patterns, unusual cases or noisy labels, the model can absorb those as well. As training continues, the score on the training set rises, creating the impression that learning is improving. In reality, some of that improvement may come from remembering peculiarities that exist only in the training data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</span><span class="citation-popover-meta">Published: April 1, 2025</span></span></span>
+A sufficiently flexible model can often reduce training errors by storing increasingly specific information about individual examples. If the dataset contains accidental patterns, unusual cases or noisy labels, the model can absorb those as well. As training continues, the score on the training set rises, creating the impression that learning is improving. In reality, some of that improvement may come from remembering peculiarities that exist only in the training data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</span><span class="citation-popover-meta">Published: April 1, 2025</span></span></span>
 
-Researchers studying memorisation in [deep learning]({{ 'deep-learning/' | relative_url }}) have repeatedly found that modern neural networks can fit even random or noisy data. The ability to achieve near-perfect training performance therefore does not automatically prove that [meaningful]({{ 'human-review/' | relative_url }}) structure has been learned. Instead, it demonstrates that the model has enough capacity to reproduce the examples it was shown. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2406.03880v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Memorization in deep learning: A survey6 Jun 2024 — This survey offers the first-in-kind understanding of memorization in DNNs, prov...</span></span></span>
+Researchers studying memorisation in [deep learning]({{ 'deep-learning/' | relative_url }}) have repeatedly found that modern neural networks can fit even random or noisy data. The ability to achieve near-perfect training performance therefore does not automatically prove that [meaningful]({{ 'human-review/' | relative_url }}) structure has been learned. Instead, it demonstrates that the model has enough capacity to reproduce the examples it was shown.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2406.03880v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Memorization in deep learning: A survey6 Jun 2024 — This survey offers the first-in-kind understanding of memorization in DNNs, prov...</span></span></span>
 
-The warning sign appears when performance on new examples fails to match the impressive training score. A model may report 99% accuracy during training while performing substantially worse on previously unseen data. The gap reveals that some of the apparent success came from memorisation rather than transferable knowledge. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</span><span class="citation-popover-meta">Published: April 1, 2025</span></span></span>
+The warning sign appears when performance on new examples fails to match the impressive training score. A model may report 99% accuracy during training while performing substantially worse on previously unseen data. The gap reveals that some of the apparent success came from memorisation rather than transferable knowledge.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</span><span class="citation-popover-meta">Published: April 1, 2025</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/Ohl5AGUOLXk" title="Quantifying and Understanding Memorization in Deep Neural Networks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=Ohl5AGUOLXk" target="_blank" rel="noopener noreferrer">Quantifying and Understanding Memorization in Deep Neural Networks</a></p><p class="youtube-embed-meta">Channel: MITCBMM</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=Ohl5AGUOLXk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=Ohl5AGUOLXk">Open on YouTube</a></p></div></div></div>
@@ -292,7 +292,7 @@ The key difference is not whether a model remembers information. All useful mach
 
 A model that learns the underlying rule identifies relationships that remain valid when new examples arrive. For example, a system trained to recognise handwritten digits should focus on shapes and structures that distinguish one number from another.
 
-A model that memorises instead learns facts about particular training examples. It may effectively treat each example as a separate case rather than discovering a general principle. This strategy can produce excellent training performance because the training examples never change. However, when unfamiliar inputs appear, the memorised details provide little guidance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://infinitefaculty.substack.com/p/memorization-vs-generalization-in" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: infinitefaculty.substack.com">[Infinite Faculty]</a><span class="citation-popover" role="note"><span class="citation-popover-source">infinitefaculty.substack.com</span><span class="citation-popover-title">Infinite Faculty Memorization vs</span><span class="citation-popover-snippet">generalization in deep learning: implicit...February 18, 2026 — Overfitting matches all the training data points perfectly, but makes wo...</span><span class="citation-popover-meta">Published: February 18, 2026</span></span></span>
+A model that memorises instead learns facts about particular training examples. It may effectively treat each example as a separate case rather than discovering a general principle. This strategy can produce excellent training performance because the training examples never change. However, when unfamiliar inputs appear, the memorised details provide little guidance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://infinitefaculty.substack.com/p/memorization-vs-generalization-in" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: infinitefaculty.substack.com">[Infinite Faculty]</a><span class="citation-popover" role="note"><span class="citation-popover-source">infinitefaculty.substack.com</span><span class="citation-popover-title">Infinite Faculty Memorization vs</span><span class="citation-popover-snippet">generalization in deep learning: implicit...February 18, 2026 — Overfitting matches all the training data points perfectly, but makes wo...</span><span class="citation-popover-meta">Published: February 18, 2026</span></span></span>
 
 An everyday analogy is a student preparing for an examination. One student memorises the answers to every practice question. Another learns the method behind the questions. Both may score perfectly on the practice set, but only the second student is likely to succeed when presented with new problems. Training accuracy alone cannot distinguish between these two forms of success.
 
@@ -300,17 +300,17 @@ An everyday analogy is a student preparing for an examination. One student memor
 
 The difficulty is that both behaviours often produce the same result on the training set. A model that has genuinely learned a rule and a model that has merely memorised examples may each achieve 100% training accuracy.
 
-From the perspective of the training data, there is no obvious difference. The distinction becomes visible only when the model encounters examples that were not available during training. This is why machine-learning evaluation depends so heavily on [validation]({{ 'stop-training/' | relative_url }}) and [test sets]({{ 'test-sets/' | relative_url }}). They expose whether the model has captured a reusable pattern or simply remembered the training material. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://stats.stackexchange.com/questions/365778/what-should-i-do-when-my-neural-network-doesnt-generalize-well" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: stats.stackexchange.com">[Cross Validated]</a><span class="citation-popover" role="note"><span class="citation-popover-source">stats.stackexchange.com</span><span class="citation-popover-title">what should i do when my neural network doesnt generalize well</span><span class="citation-popover-snippet">Cross ValidatedWhat should I do when my neural network doesn&#x27;t generalize...7 Sept 2018 — I&#x27;m training a neural network and the training...</span></span></span>
+From the perspective of the training data, there is no obvious difference. The distinction becomes visible only when the model encounters examples that were not available during training. This is why machine-learning evaluation depends so heavily on [validation]({{ 'stop-training/' | relative_url }}) and [test sets]({{ 'test-sets/' | relative_url }}). They expose whether the model has captured a reusable pattern or simply remembered the training material.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://stats.stackexchange.com/questions/365778/what-should-i-do-when-my-neural-network-doesnt-generalize-well" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: stats.stackexchange.com">[Cross Validated]</a><span class="citation-popover" role="note"><span class="citation-popover-source">stats.stackexchange.com</span><span class="citation-popover-title">what should i do when my neural network doesnt generalize well</span><span class="citation-popover-snippet">Cross ValidatedWhat should I do when my neural network doesn&#x27;t generalize...7 Sept 2018 — I&#x27;m training a neural network and the training...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_hidden_memori_b435c3-Illustration-2-dark.svg" | relative_url }}" alt="Hidden memorisation illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_hidden_memori_b435c3-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_hidden_memori_b435c3-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## How noisy details become shortcuts
 
-One of the most common paths to hidden memorisation is shortcut learning. Instead of learning the feature that truly matters, a model discovers an easier signal that happens to correlate with the correct answer in the training data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cacm.acm.org/research/shortcut-learning-of-large-language-models-in-natural-language-understanding/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cacm.acm.org">[Communications of the ACM+2Frontiers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cacm.acm.org</span><span class="citation-popover-title">shortcut learning of large language models in natural language understanding</span><span class="citation-popover-snippet">The method synthesizes a pair...Read more...</span></span></span>
+One of the most common paths to hidden memorisation is shortcut learning. Instead of learning the feature that truly matters, a model discovers an easier signal that happens to correlate with the correct answer in the training data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cacm.acm.org/research/shortcut-learning-of-large-language-models-in-natural-language-understanding/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cacm.acm.org">[Communications of the ACM+2Frontiers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cacm.acm.org</span><span class="citation-popover-title">shortcut learning of large language models in natural language understanding</span><span class="citation-popover-snippet">The method synthesizes a pair...Read more...</span></span></span>
 
 Imagine a dataset designed to identify animals. Suppose most photographs of wolves were taken in snowy environments while most photographs of dogs were not. A model might learn to associate snow with wolves. Training accuracy could become very high because the shortcut works on the training images. Yet the model would fail when shown a wolf standing on grass.
 
-Researchers describe these misleading signals as spurious correlations: relationships that appear useful in the training data but do not represent the true cause of the outcome. Such correlations often disappear when conditions change, leading to poor generalisation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2402.12715v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Frontiers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Spurious Correlations in Machine Learning: A Survey20 Feb 2024 — Spurious correlation, namely “correlations that do not imply causat...</span></span></span>
+Researchers describe these misleading signals as spurious correlations: relationships that appear useful in the training data but do not represent the true cause of the outcome. Such correlations often disappear when conditions change, leading to poor generalisation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2402.12715v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Frontiers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Spurious Correlations in Machine Learning: A Survey20 Feb 2024 — Spurious correlation, namely “correlations that do not imply causat...</span></span></span>
 
 The problem is especially deceptive because exploiting shortcuts frequently improves training accuracy faster than learning the deeper pattern. The model is rewarded for taking the easy route, even if that route will later fail.
 
@@ -331,7 +331,7 @@ Training datasets often contain imperfections:
 
 </div>
 
-A powerful model can eventually fit these irregularities as well as the genuine signal. Research on memorisation shows that neural networks are capable of learning noisy examples that contain little useful information for future [predictions]({{ 'predictions/' | relative_url }}). When this happens, the model's training accuracy continues to climb even though its ability to generalise may stagnate or worsen. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2406.03880v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Memorization in deep learning: A survey6 Jun 2024 — This survey offers the first-in-kind understanding of memorization in DNNs, prov...</span></span></span>
+A powerful model can eventually fit these irregularities as well as the genuine signal. Research on memorisation shows that neural networks are capable of learning noisy examples that contain little useful information for future [predictions]({{ 'predictions/' | relative_url }}). When this happens, the model's training accuracy continues to climb even though its ability to generalise may stagnate or worsen.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2406.03880v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Memorization in deep learning: A survey6 Jun 2024 — This survey offers the first-in-kind understanding of memorization in DNNs, prov...</span></span></span>
 
 This explains why a steadily improving training score is not always good news. Sometimes it indicates that the model has moved beyond learning the main pattern and has started encoding noise.
 
@@ -339,205 +339,205 @@ This explains why a steadily improving training score is not always good news. S
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_hidden_memori_b435c3-Illustration-3-dark.svg" | relative_url }}" alt="Hidden memorisation illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_hidden_memori_b435c3-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_hidden_memori_b435c3-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## When perfect training accuracy should raise suspicion
 
-Perfect training accuracy is not automatically a problem. Some well-designed models achieve it and still generalise successfully. However, perfection deserves scrutiny because it can signal that memorisation has become a major part of the learning process. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Double_descent" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Double descent</span><span class="citation-popover-snippet">Double descent</span></span></span>
+Perfect training accuracy is not automatically a problem. Some well-designed models achieve it and still generalise successfully. However, perfection deserves scrutiny because it can signal that memorisation has become a major part of the learning process.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Double_descent" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Double descent</span><span class="citation-popover-snippet">Double descent</span></span></span>
 
-Modern research has revealed surprising behaviour in large neural networks. In some situations, models first overfit and memorise before later developing more general solutions. Studies of phenomena such as grokking and double descent show that the relationship between memorisation and generalisation is more complex than older textbook explanations suggested. Even so, these findings do not eliminate the need for testing on unseen data. They reinforce it. A training score alone still cannot reveal whether the model's apparent success comes from genuine understanding or from fitting the peculiarities of the training set. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pair.withgoogle.com/explorables/grokking/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pair.withgoogle.com">[Pair with Google+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pair.withgoogle.com</span><span class="citation-popover-snippet">Pair with GoogleDo Machine Learning Models Memorize or Generalize?by A Pearce · Cited by 17 — With too little weight decay, the model can...</span></span></span>
+Modern research has revealed surprising behaviour in large neural networks. In some situations, models first overfit and memorise before later developing more general solutions. Studies of phenomena such as grokking and double descent show that the relationship between memorisation and generalisation is more complex than older textbook explanations suggested. Even so, these findings do not eliminate the need for testing on unseen data. They reinforce it. A training score alone still cannot reveal whether the model's apparent success comes from genuine understanding or from fitting the peculiarities of the training set.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pair.withgoogle.com/explorables/grokking/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pair.withgoogle.com">[Pair with Google+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pair.withgoogle.com</span><span class="citation-popover-snippet">Pair with GoogleDo Machine Learning Models Memorize or Generalize?by A Pearce · Cited by 17 — With too little weight decay, the model can...</span></span></span>
 
-The practical lesson is simple: high training accuracy measures success on familiar examples, not usefulness in the real world. Without evaluating new examples, there is no reliable way to tell whether a model has learned a durable rule or merely become an expert at remembering its training data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</span><span class="citation-popover-meta">Published: April 1, 2025</span></span></span>
+The practical lesson is simple: high training accuracy measures success on familiar examples, not usefulness in the real world. Without evaluating new examples, there is no reliable way to tell whether a model has learned a durable rule or merely become an expert at remembering its training data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</span><span class="citation-popover-meta">Published: April 1, 2025</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/ubUMOTcgVPA" title="Overfitting in Machine Learning: The Real Reason Your Model Fails" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=ubUMOTcgVPA" target="_blank" rel="noopener noreferrer">Overfitting in Machine Learning: The Real Reason Your Model Fails</a></p><p class="youtube-embed-meta">Channel: CodeCraft Academy</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=ubUMOTcgVPA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=ubUMOTcgVPA">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When high accuracy is the warning sign. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When high accuracy is the warning sign. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Explains how models can memorise training data instead of learning patterns.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how models can memorise training data instead of learning patterns.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
-        </h4>
-        <p class="fr-book-author">By Andriy Burkov</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
+</h4>
+<p class="fr-book-author">By Andriy Burkov</p>
         
-        <p class="fr-book-desc">Covers memorisation, generalisation, and evaluation fundamentals.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers memorisation, generalisation, and evaluation fundamentals.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Pattern Recognition and Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kOXDtAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Pattern Recognition and Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Pattern Recognition and Machine Learning">Pattern Recognition and Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Christopher M. Bishop</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Pattern Recognition and Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kOXDtAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Pattern Recognition and Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Pattern Recognition and Machine Learning">Pattern Recognition and Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Christopher M. Bishop</p>
         
-        <p class="fr-book-desc">Provides theoretical explanations for overfitting and high training accuracy.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides theoretical explanations for overfitting and high training accuracy.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open An Introduction to Statistical Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=g5gezgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for An Introduction to Statistical Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="An Introduction to Statistical Learning">An Introduction to Statistical Learning</a>
-        </h4>
-        <p class="fr-book-author">By Gareth James, Daniela Witten et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open An Introduction to Statistical Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=g5gezgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for An Introduction to Statistical Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="An Introduction to Statistical Learning">An Introduction to Statistical Learning</a>
+</h4>
+<p class="fr-book-author">By Gareth James, Daniela Witten et al.</p>
         
-        <p class="fr-book-desc">Shows why excellent training scores can hide weak real-world performance.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows why excellent training scores can hide weak real-world performance.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Pattern Recognition and Machine Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Pattern Recognition and Machine Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Got Machine Learning? T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c488c01aeb763732238d.jpg' | relative_url }}" alt="Listing image for Got Machine Learning? T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Got Machine Learning? T shirt Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Got Machine Learning? T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c488c01aeb763732238d.jpg' | relative_url }}" alt="Listing image for Got Machine Learning? T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Got Machine Learning? T shirt Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm and Study Machine Learning T shirt Funny Tee"><img src="{{ '/assets/images/marketplace-covers/5cf6b015d0c00883f639.jpg' | relative_url }}" alt="Listing image for Keep Calm and Study Machine Learning T shirt Funny Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Keep Calm and Study Machine Learning T shirt Funny Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm and Study Machine Learning T shirt Funny Tee"><img src="{{ '/assets/images/marketplace-covers/5cf6b015d0c00883f639.jpg' | relative_url }}" alt="Listing image for Keep Calm and Study Machine Learning T shirt Funny Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Keep Calm and Study Machine Learning T shirt Funny Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology"><img src="{{ '/assets/images/marketplace-covers/790ba4c9bcb27ee47b94.jpg' | relative_url }}" alt="Listing image for I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology"><img src="{{ '/assets/images/marketplace-covers/790ba4c9bcb27ee47b94.jpg' | relative_url }}" alt="Listing image for I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I LOVE MACHINE LEARNING T-SHIRT heart ai data science algorithms technology</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Eat Sleep Machine Learning T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c46ff514e0e31cc8f4f0.jpg' | relative_url }}" alt="Listing image for Eat Sleep Machine Learning T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Eat Sleep Machine Learning T shirt Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Eat Sleep Machine Learning T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c46ff514e0e31cc8f4f0.jpg' | relative_url }}" alt="Listing image for Eat Sleep Machine Learning T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Eat Sleep Machine Learning T shirt Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="hidden-memorisation-when-high-accuracy-is-the-warning-sign-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -553,7 +553,7 @@ The practical lesson is simple: high training accuracy measures success on famil
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -573,7 +573,7 @@ The practical lesson is simple: high training accuracy measures success on famil
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -605,7 +605,7 @@ The practical lesson is simple: high training accuracy measures success on famil
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -657,7 +657,7 @@ The practical lesson is simple: high training accuracy measures success on famil
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -702,7 +702,7 @@ The practical lesson is simple: high training accuracy measures success on famil
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -743,134 +743,134 @@ The practical lesson is simple: high training accuracy measures success on famil
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=vVhZh9ZpIM</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</p></details>
+   Link:<a href="https://openreview.net/pdf?id=vVhZh9ZpIM" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=vVhZh9ZpIM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>WHEN MEMORIZATION HURTS GENERALIZATIONApril 1, 2025 — by R Bayat · Cited by 19 — In this situation, memorization is ugly: The m...</p></details>
    Published: April 1, 2025  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2406.03880v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2406.03880v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Memorization in deep learning: A survey6 Jun 2024 — This survey offers the first-in-kind understanding of memorization in DNNs, prov...</p></details>
+   Link:<a href="https://arxiv.org/html/2406.03880v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2406.03880v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Memorization in deep learning: A survey6 Jun 2024 — This survey offers the first-in-kind understanding of memorization in DNNs, prov...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: cacm.acm.org  
    Title: shortcut learning of large [language models](&#123;&#123; 'language-models/' | relative_url &#125;&#125;) in natural language understanding  
-   Link: <a href="https://cacm.acm.org/research/shortcut-learning-of-large-language-models-in-natural-language-understanding/" target="_blank" rel="noopener noreferrer nofollow">https://cacm.acm.org/research/shortcut-learning-of-large-language-models-in-natural-language-understanding/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The method synthesizes a pair...Read more...</p></details>
+   Link:<a href="https://cacm.acm.org/research/shortcut-learning-of-large-language-models-in-natural-language-understanding/" target="_blank" rel="noopener noreferrer nofollow">https://cacm.acm.org/research/shortcut-learning-of-large-language-models-in-natural-language-understanding/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The method synthesizes a pair...Read more...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2402.12715v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2402.12715v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Spurious Correlations in Machine Learning: A Survey20 Feb 2024 — Spurious correlation, namely “correlations that do not imply causat...</p></details>
+   Link:<a href="https://arxiv.org/html/2402.12715v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2402.12715v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Spurious Correlations in Machine Learning: A Survey20 Feb 2024 — Spurious correlation, namely “correlations that do not imply causat...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2310.13572v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2310.13572v3</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Unraveling the Enigma of Double Descent: An In-depth...30 Apr 2024 — In this study, we revisit the phenomenon of double descent and demo...</p></details>
+   Link:<a href="https://arxiv.org/html/2310.13572v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2310.13572v3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Unraveling the Enigma of Double Descent: An In-depth...30 Apr 2024 — In this study, we revisit the phenomenon of double descent and demo...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: Wikipedia  
    Title: Double descent  
-   Link: <a href="https://en.wikipedia.org/wiki/Double_descent" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Double_descent</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Double_descent" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Double_descent</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: Wikipedia  
    Title: Grokking (machine learning)  
-   Link: <a href="https://en.wikipedia.org/wiki/Grokking_%28machine_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Grokking_%28machine_learning%29</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Grokking_%28machine_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Grokking_%28machine_learning%29</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2412.05152v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2412.05152v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Navigating Shortcuts, Spurious Correlations, and...6 Dec 2024 — One of the most general definitions of a spurious correlation is &quot;a corr...</p></details>
+   Link:<a href="https://arxiv.org/html/2412.05152v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2412.05152v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Navigating Shortcuts, Spurious Correlations, and...6 Dec 2024 — One of the most general definitions of a spurious correlation is &quot;a corr...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/pdf?id=12RoR2o32T" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=12RoR2o32T</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Shortcut learning in deep neural...Read more...</p></details>
+   Link:<a href="https://openreview.net/pdf?id=12RoR2o32T" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=12RoR2o32T</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Shortcut learning in deep neural...Read more...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: dl.acm.org  
-   Link: <a href="https://dl.acm.org/doi/10.1145/3769076" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.1145/3769076</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>in Deep Learning: A SurveyFinally, they validate the memorization effect (i.e., accuracy of noisy examples in the training dataset) on mo...</p></details>
+   Link:<a href="https://dl.acm.org/doi/10.1145/3769076" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.1145/3769076</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>in Deep Learning: A SurveyFinally, they validate the memorization effect (i.e., accuracy of noisy examples in the training dataset) on mo...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: stats.stackexchange.com  
    Title: what should i do when my neural network doesnt generalize well  
-   Link: <a href="https://stats.stackexchange.com/questions/365778/what-should-i-do-when-my-neural-network-doesnt-generalize-well" target="_blank" rel="noopener noreferrer nofollow">https://stats.stackexchange.com/questions/365778/what-should-i-do-when-my-neural-network-doesnt-generalize-well</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Cross ValidatedWhat should I do when my neural network doesn&#x27;t generalize...7 Sept 2018 — I&#x27;m training a neural network and the training...</p></details>
+   Link:<a href="https://stats.stackexchange.com/questions/365778/what-should-i-do-when-my-neural-network-doesnt-generalize-well" target="_blank" rel="noopener noreferrer nofollow">https://stats.stackexchange.com/questions/365778/what-should-i-do-when-my-neural-network-doesnt-generalize-well</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Cross ValidatedWhat should I do when my neural network doesn&#x27;t generalize...7 Sept 2018 — I&#x27;m training a neural network and the training...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: infinitefaculty.substack.com  
    Title: Infinite Faculty Memorization vs  
-   Link: <a href="https://infinitefaculty.substack.com/p/memorization-vs-generalization-in" target="_blank" rel="noopener noreferrer nofollow">https://infinitefaculty.substack.com/p/memorization-vs-generalization-in</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>generalization in deep learning: implicit...February 18, 2026 — Overfitting matches all the training data points perfectly, but makes wo...</p></details>
+   Link:<a href="https://infinitefaculty.substack.com/p/memorization-vs-generalization-in" target="_blank" rel="noopener noreferrer nofollow">https://infinitefaculty.substack.com/p/memorization-vs-generalization-in</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>generalization in deep learning: implicit...February 18, 2026 — Overfitting matches all the training data points perfectly, but makes wo...</p></details>
    Published: February 18, 2026  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: frontiersin.org  
-   Link: <a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1692454/full" target="_blank" rel="noopener noreferrer nofollow">https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1692454/full</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Unmasking the Clever Hans effect in AI modelsby AK Pathak · 2025 · Cited by 2 — The Clever Hans effect in AI can be formalized using the...</p></details>
+   Link:<a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1692454/full" target="_blank" rel="noopener noreferrer nofollow">https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2025.1692454/full</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Unmasking the Clever Hans effect in AI modelsby AK Pathak · 2025 · Cited by 2 — The Clever Hans effect in AI can be formalized using the...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: pair.withgoogle.com  
-   Link: <a href="https://pair.withgoogle.com/explorables/grokking/" target="_blank" rel="noopener noreferrer nofollow">https://pair.withgoogle.com/explorables/grokking/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Pair with GoogleDo Machine Learning Models Memorize or Generalize?by A Pearce · Cited by 17 — With too little weight decay, the model can...</p></details>
+   Link:<a href="https://pair.withgoogle.com/explorables/grokking/" target="_blank" rel="noopener noreferrer nofollow">https://pair.withgoogle.com/explorables/grokking/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Pair with GoogleDo Machine Learning Models Memorize or Generalize?by A Pearce · Cited by 17 — With too little weight decay, the model can...</p></details>
 
 ### Additional References
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/357412481_Deep_double_descent_where_bigger_models_and_more_data_hurt" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/357412481_Deep_double_descent_where_bigger_models_and_more_data_hurt</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Deep double descent: where bigger models and more data...We show that a variety of modern deep learning tasks exhibit a &#x27;double-descent&#x27;...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/357412481_Deep_double_descent_where_bigger_models_and_more_data_hurt" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/357412481_Deep_double_descent_where_bigger_models_and_more_data_hurt</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep double descent: where bigger models and more data...We show that a variety of modern deep learning tasks exhibit a &#x27;double-descent&#x27;...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/aimonks/striking-a-balance-navigating-memorization-and-generalization-in-deep-learning-30f5da3f07cb" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/aimonks/striking-a-balance-navigating-memorization-and-generalization-in-deep-learning-30f5da3f07cb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>igher than test accuracy, the model may be overfitting.Read more...</p></details>
+   Link:<a href="https://medium.com/aimonks/striking-a-balance-navigating-memorization-and-generalization-in-deep-learning-30f5da3f07cb" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/aimonks/striking-a-balance-navigating-memorization-and-generalization-in-deep-learning-30f5da3f07cb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>igher than test accuracy, the model may be overfitting.Read more...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
    Title: Quantifying and Understanding Memorization in Deep Neural  
-   Link: <a href="https://www.youtube.com/watch?v=Ohl5AGUOLXk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Ohl5AGUOLXk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Abstract: Deep learning algorithms are well-known to have a propensity for fitting the training data very well and memorize... ge...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Ohl5AGUOLXk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Ohl5AGUOLXk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Abstract: Deep learning algorithms are well-known to have a propensity for fitting the training data very well and memorize... ge...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/groups/3670562573177653/posts/3936796146554293/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/3670562573177653/posts/3936796146554293/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ning and test losses ・ successful deep artificial neural...</p></details>
+   Link:<a href="https://www.facebook.com/groups/3670562573177653/posts/3936796146554293/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/3670562573177653/posts/3936796146554293/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ning and test losses ・ successful deep artificial neural...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: alignmentforum.org  
    Title: understanding deep double descent  
-   Link: <a href="https://www.alignmentforum.org/posts/FRv7ryoqtvSuqBxuT/understanding-deep-double-descent" target="_blank" rel="noopener noreferrer nofollow">https://www.alignmentforum.org/posts/FRv7ryoqtvSuqBxuT/understanding-deep-double-descent</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding “Deep Double Descent”5 Dec 2019 — Double descent is a puzzling phenomenon in machine learning where increasing model size/t...</p></details>
+   Link:<a href="https://www.alignmentforum.org/posts/FRv7ryoqtvSuqBxuT/understanding-deep-double-descent" target="_blank" rel="noopener noreferrer nofollow">https://www.alignmentforum.org/posts/FRv7ryoqtvSuqBxuT/understanding-deep-double-descent</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding “Deep Double Descent”5 Dec 2019 — Double descent is a puzzling phenomenon in machine learning where increasing model size/t...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: stat.berkeley.edu  
    Title: 12369 Mitigating Memorization  
-   Link: <a href="https://www.stat.berkeley.edu/~mmahoney/pubs/12369_Mitigating_Memorization_.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.stat.berkeley.edu/~mmahoney/pubs/12369_Mitigating_Memorization_.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MEMORIZATION IN LANGUAGE MODELSby M Sakarvadia · Cited by 19 — Thus we propose a computationally efficient suite of GPT2- style models, T...</p></details>
+   Link:<a href="https://www.stat.berkeley.edu/~mmahoney/pubs/12369_Mitigating_Memorization_.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.stat.berkeley.edu/~mmahoney/pubs/12369_Mitigating_Memorization_.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MEMORIZATION IN LANGUAGE MODELSby M Sakarvadia · Cited by 19 — Thus we propose a computationally efficient suite of GPT2- style models, T...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: arjunahuja.medium.com  
    Title: double descent 8f92dfdc442f  
-   Link: <a href="https://arjunahuja.medium.com/double-descent-8f92dfdc442f" target="_blank" rel="noopener noreferrer nofollow">https://arjunahuja.medium.com/double-descent-8f92dfdc442f</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Descent. Breakthroughs in Machine Learning are…Yet practitioners routinely use larger and larger neural networks to improve test set accu...</p></details>
+   Link:<a href="https://arjunahuja.medium.com/double-descent-8f92dfdc442f" target="_blank" rel="noopener noreferrer nofollow">https://arjunahuja.medium.com/double-descent-8f92dfdc442f</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Descent. Breakthroughs in Machine Learning are…Yet practitioners routinely use larger and larger neural networks to improve test set accu...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: youtu.be  
-   Link: <a href="https://youtu.be/XL07WEc2TRI" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/XL07WEc2TRI</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;Amazing lecture by Ilya Sutkever at MIT: [https://youtu.be/9EN_HoEk3KY...&quot;](https://youtu.be/9EN_HoEk3KY...&quot;)...</p></details>
+   Link:<a href="https://youtu.be/XL07WEc2TRI" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/XL07WEc2TRI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;Amazing lecture by Ilya Sutkever at MIT: [https://youtu.be/9EN_HoEk3KY...&quot;](https://youtu.be/9EN_HoEk3KY...&quot;)...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: stpn.bearblog.dev  
    Title: reproducing double descent  
-   Link: <a href="https://stpn.bearblog.dev/reproducing-double-descent/" target="_blank" rel="noopener noreferrer nofollow">https://stpn.bearblog.dev/reproducing-double-descent/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>deep double descent3 Jun 2025 — The phrasing double descent refers to this behavior where error gets better at first, then peaks much wor...</p></details>
+   Link:<a href="https://stpn.bearblog.dev/reproducing-double-descent/" target="_blank" rel="noopener noreferrer nofollow">https://stpn.bearblog.dev/reproducing-double-descent/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>deep double descent3 Jun 2025 — The phrasing double descent refers to this behavior where error gets better at first, then peaks much wor...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: transformer-circuits.pub  
-   Link: <a href="https://transformer-circuits.pub/2023/toy-double-descent/index.html" target="_blank" rel="noopener noreferrer nofollow">https://transformer-circuits.pub/2023/toy-double-descent/index.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Superposition, Memorization, and Double Descent5 Jan 2023 — We observe double descent Reconciling modern machine-learning practice the Re...</p></details>
+   Link:<a href="https://transformer-circuits.pub/2023/toy-double-descent/index.html" target="_blank" rel="noopener noreferrer nofollow">https://transformer-circuits.pub/2023/toy-double-descent/index.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Superposition, Memorization, and Double Descent5 Jan 2023 — We observe double descent Reconciling modern machine-learning practice the Re...</p></details>

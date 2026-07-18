@@ -269,17 +269,17 @@ image: /assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1b
 
 ## Introduction
 
-The original Transformer paper did more than introduce a new neural-network design. It provided one of the clearest demonstrations that hardware-efficient training could become a competitive advantage in artificial intelligence. In 2017, machine translation was one of the most demanding and closely watched [benchmarks]({{ 'benchmarks/' | relative_url }}) in AI. Many leading systems achieved strong results, but they relied on architectures that processed sequences step by step. The Transformer showed that an architecture designed for parallel computation could not only match those systems but surpass them while training far more efficiently. That result helped convince researchers that future progress might come from scaling computation and data, not merely inventing increasingly complex recurrent networks. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The original Transformer paper did more than introduce a new neural-network design. It provided one of the clearest demonstrations that hardware-efficient training could become a competitive advantage in artificial intelligence. In 2017, machine translation was one of the most demanding and closely watched [benchmarks]({{ 'benchmarks/' | relative_url }}) in AI. Many leading systems achieved strong results, but they relied on architectures that processed sequences step by step. The Transformer showed that an architecture designed for parallel computation could not only match those systems but surpass them while training far more efficiently. That result helped convince researchers that future progress might come from scaling computation and data, not merely inventing increasingly complex recurrent networks.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_transformer_t_d06836-Illustration-1-dark.svg" | relative_url }}" alt="2017 Proof illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_transformer_t_d06836-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_transformer_t_d06836-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## Machine translation as the early test case
 
-Before large [language models]({{ 'language-models/' | relative_url }}) became the centre of AI research, machine translation served as a proving ground for new sequence-learning architectures. Success on major translation benchmarks such as WMT 2014 English–German and English–French carried significant weight because these tasks required models to handle long sequences, complex grammar and dependencies between distant words. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+Before large [language models]({{ 'language-models/' | relative_url }}) became the centre of AI research, machine translation served as a proving ground for new sequence-learning architectures. Success on major translation benchmarks such as WMT 2014 English–German and English–French carried significant weight because these tasks required models to handle long sequences, complex grammar and dependencies between distant words.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-At the time, the dominant approaches were recurrent neural networks (RNNs), long short-term memory networks (LSTMs), and related encoder–decoder systems. Although these models could be trained across batches of examples, each sentence still had to be processed token by token. This limited how effectively modern GPUs could be used. Adding more hardware did not eliminate the sequential dependency built into the architecture itself. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+At the time, the dominant approaches were recurrent neural networks (RNNs), long short-term memory networks (LSTMs), and related encoder–decoder systems. Although these models could be trained across batches of examples, each sentence still had to be processed token by token. This limited how effectively modern GPUs could be used. Adding more hardware did not eliminate the sequential dependency built into the architecture itself.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-The Transformer was therefore tested in an environment where efficiency mattered. Translation researchers were already spending substantial computational resources to achieve incremental improvements. If a new architecture could deliver both better accuracy and better hardware utilisation, it would challenge prevailing assumptions about how sequence models should be built. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The Transformer was therefore tested in an environment where efficiency mattered. Translation researchers were already spending substantial computational resources to achieve incremental improvements. If a new architecture could deliver both better accuracy and better hardware utilisation, it would challenge prevailing assumptions about how sequence models should be built.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/54uLU7Nxyv8" title="Kaggle Reading Group: Attention is All You Need | Kaggle" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=54uLU7Nxyv8" target="_blank" rel="noopener noreferrer">Kaggle Reading Group: Attention is All You Need | Kaggle</a></p><p class="youtube-embed-meta">Channel: Kaggle &middot; Views: 15.0K &middot; Uploaded: November 2018 &middot; Length: 1 hour 10 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=54uLU7Nxyv8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=54uLU7Nxyv8">Open on YouTube</a></p></div></div></div>
@@ -288,11 +288,11 @@ The Transformer was therefore tested in an environment where efficiency mattered
 
 The strongest evidence in the paper was not simply the final benchmark score. It was the combination of performance and training cost.
 
-The authors reported that their Transformer achieved a BLEU score of 28.4 on the WMT 2014 English–German translation benchmark, exceeding previous published results, including ensemble systems. On the larger English–French task, the model achieved a new single-model state-of-the-art score of 41.8 BLEU after training for 3.5 days on eight NVIDIA P100 GPUs. The paper explicitly highlighted that this represented only a small fraction of the training cost associated with the best competing systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The authors reported that their Transformer achieved a BLEU score of 28.4 on the WMT 2014 English–German translation benchmark, exceeding previous published results, including ensemble systems. On the larger English–French task, the model achieved a new single-model state-of-the-art score of 41.8 BLEU after training for 3.5 days on eight NVIDIA P100 GPUs. The paper explicitly highlighted that this represented only a small fraction of the training cost associated with the best competing systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-The hardware details mattered because they demonstrated practical scalability. The Transformer's [self-attention]({{ 'self-attention/' | relative_url }}) operations could be expressed as large matrix calculations, allowing GPUs to process many positions in a sequence simultaneously. Instead of waiting for one word's computation to finish before beginning the next, the model could evaluate relationships across an entire sequence within a layer at the same time. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The hardware details mattered because they demonstrated practical scalability. The Transformer's [self-attention]({{ 'self-attention/' | relative_url }}) operations could be expressed as large matrix calculations, allowing GPUs to process many positions in a sequence simultaneously. Instead of waiting for one word's computation to finish before beginning the next, the model could evaluate relationships across an entire sequence within a layer at the same time.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-The paper also revealed an important contrast between model variants. The base Transformer could be trained in roughly 12 hours on eight P100 GPUs, while the larger version required about 3.5 days. Even so, these training schedules produced state-of-the-art translation quality, showing that larger models could be trained within realistic research timelines rather than requiring prohibitively long runs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.linkedin.com/pulse/understanding-groundbreaking-attention-all-you-need-research-disansa-becnc" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: linkedin.com">[LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">linkedin.com</span><span class="citation-popover-title">Linked In Understanding the Groundbreaking &#x27;Attention Is All You ...Our models on one machine with 8 NVIDIA P100 GPUs · Base models using</span><span class="citation-popover-snippet">LinkedInUnderstanding the Groundbreaking &#x27;Attention Is All You ...Our models on one machine with 8 NVIDIA P100 GPUs · Base models using t...</span></span></span>
+The paper also revealed an important contrast between model variants. The base Transformer could be trained in roughly 12 hours on eight P100 GPUs, while the larger version required about 3.5 days. Even so, these training schedules produced state-of-the-art translation quality, showing that larger models could be trained within realistic research timelines rather than requiring prohibitively long runs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.linkedin.com/pulse/understanding-groundbreaking-attention-all-you-need-research-disansa-becnc" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: linkedin.com">[LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">linkedin.com</span><span class="citation-popover-title">Linked In Understanding the Groundbreaking &#x27;Attention Is All You ...Our models on one machine with 8 NVIDIA P100 GPUs · Base models using</span><span class="citation-popover-snippet">LinkedInUnderstanding the Groundbreaking &#x27;Attention Is All You ...Our models on one machine with 8 NVIDIA P100 GPUs · Base models using t...</span></span></span>
 
 This was not merely a laboratory curiosity. Researchers could now see a direct path from architectural design to better utilisation of available hardware.
 
@@ -305,207 +305,207 @@ This was not merely a laboratory curiosity. Researchers could now see a direct p
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_transformer_t_d06836-Illustration-2-dark.svg" | relative_url }}" alt="2017 Proof illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_transformer_t_d06836-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_transformer_t_d06836-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Why the result changed architectural expectations
 
-The most important consequence of the paper was psychological as much as technical. For years, many researchers assumed that sequence modelling required recurrence. Language unfolds over time, so it seemed natural that neural networks should process it sequentially. The Transformer challenged that assumption by removing recurrence entirely while still producing better translation results. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The most important consequence of the paper was psychological as much as technical. For years, many researchers assumed that sequence modelling required recurrence. Language unfolds over time, so it seemed natural that neural networks should process it sequentially. The Transformer challenged that assumption by removing recurrence entirely while still producing better translation results.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-The paper's abstract made the claim directly: the new models were both "more parallelizable" and required significantly less time to train. That wording signalled a shift in what counted as progress. Instead of judging architectures solely by accuracy, researchers increasingly evaluated whether they could exploit modern computing hardware efficiently. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The paper's abstract made the claim directly: the new models were both "more parallelizable" and required significantly less time to train. That wording signalled a shift in what counted as progress. Instead of judging architectures solely by accuracy, researchers increasingly evaluated whether they could exploit modern computing hardware efficiently.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-The reaction was amplified by what happened next. Subsequent work rapidly pushed Transformer training times even lower. Within roughly a year, researchers demonstrated that comparable translation performance could be reached in under five hours on eight GPUs through improved large-batch training techniques. That [speed]({{ 'speed/' | relative_url }})-up was possible because the underlying architecture was already designed for parallel execution. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.statmt.org/wmt18/pdf/WMT001.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: statmt.org">[statmt.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">statmt.org</span><span class="citation-popover-snippet">Scaling Neural Machine TranslationNovember 21, 2018 — by M Ott · Cited by 770 — 1 On WMT&#x27;14 English-German translation, we match the accu...</span><span class="citation-popover-meta">Published: November 21, 2018</span></span></span>
+The reaction was amplified by what happened next. Subsequent work rapidly pushed Transformer training times even lower. Within roughly a year, researchers demonstrated that comparable translation performance could be reached in under five hours on eight GPUs through improved large-batch training techniques. That [speed]({{ 'speed/' | relative_url }})-up was possible because the underlying architecture was already designed for parallel execution.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.statmt.org/wmt18/pdf/WMT001.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: statmt.org">[statmt.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">statmt.org</span><span class="citation-popover-snippet">Scaling Neural Machine TranslationNovember 21, 2018 — by M Ott · Cited by 770 — 1 On WMT&#x27;14 English-German translation, we match the accu...</span><span class="citation-popover-meta">Published: November 21, 2018</span></span></span>
 
-In retrospect, the eight-GPU result served as an early proof that scaling computation could become a reliable route to better AI systems. The Transformer did not merely outperform earlier translation models. It showed that an architecture aligned with GPU hardware could improve as more computing resources were applied. That lesson became one of the foundational ideas behind the later development of large language models and the broader scaling era of artificial intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+In retrospect, the eight-GPU result served as an early proof that scaling computation could become a reliable route to better AI systems. The Transformer did not merely outperform earlier translation models. It showed that an architecture aligned with GPU hardware could improve as more computing resources were applied. That lesson became one of the foundational ideas behind the later development of large language models and the broader scaling era of artificial intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/bCz4OMemCcA" title="Attention is all you need (Transformer) - Model explanation (including math), Inference and Training" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=bCz4OMemCcA" target="_blank" rel="noopener noreferrer">Attention is all you need (Transformer) - Model explanation (including math), Inference and Training</a></p><p class="youtube-embed-meta">Channel: Umar Jamil &middot; Views: 708.5K &middot; Uploaded: May 2023 &middot; Length: 58 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=bCz4OMemCcA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=bCz4OMemCcA">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to The paper that made scaling look practical. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to The paper that made scaling look practical. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Shows how scaling emerged from transformer foundations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how scaling emerged from transformer foundations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Connects the original paper to modern implementations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Connects the original paper to modern implementations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Deep+Learning+Revolution+by+Terrence+J.+Sejnowski&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Deep Learning Revolution on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=2i91EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Deep Learning Revolution" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Deep+Learning+Revolution+by+Terrence+J.+Sejnowski&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Deep Learning Revolution">The Deep Learning Revolution</a>
-        </h4>
-        <p class="fr-book-author">By Terrence J. Sejnowski</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Deep+Learning+Revolution+by+Terrence+J.+Sejnowski&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Deep Learning Revolution on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=2i91EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Deep Learning Revolution" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Deep+Learning+Revolution+by+Terrence+J.+Sejnowski&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Deep Learning Revolution">The Deep Learning Revolution</a>
+</h4>
+<p class="fr-book-author">By Terrence J. Sejnowski</p>
         
-        <p class="fr-book-desc">Places the Transformer paper in the broader AI timeline.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Deep+Learning+Revolution+by+Terrence+J.+Sejnowski&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Places the Transformer paper in the broader AI timeline.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Deep+Learning+Revolution+by+Terrence+J.+Sejnowski&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Dqe_zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Machine Learning">Transformers for Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Uday Kamath, Kenneth L. Graham et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Dqe_zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Machine Learning">Transformers for Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Uday Kamath, Kenneth L. Graham et al.</p>
         
-        <p class="fr-book-desc">Explains the original transformer and its impact.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains the original transformer and its impact.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Deep+Learning+Revolution&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Deep Learning Revolution</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Deep+Learning+Revolution&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Deep Learning Revolution</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Vintage Hog Head Mascot Sticker Decal A&amp;I 12x8in Metal Sign Poster Mascot"><img src="{{ '/assets/images/marketplace-covers/f71dabe6d42e2019078b.jpg' | relative_url }}" alt="Listing image for Vintage Hog Head Mascot Sticker Decal A&amp;I 12x8in Metal Sign Poster Mascot" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">Vintage Hog Head Mascot Sticker Decal A&amp;I 12x8in Metal Sign Poster Mascot</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Vintage Hog Head Mascot Sticker Decal A&amp;I 12x8in Metal Sign Poster Mascot"><img src="{{ '/assets/images/marketplace-covers/f71dabe6d42e2019078b.jpg' | relative_url }}" alt="Listing image for Vintage Hog Head Mascot Sticker Decal A&amp;I 12x8in Metal Sign Poster Mascot" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">Vintage Hog Head Mascot Sticker Decal A&amp;I 12x8in Metal Sign Poster Mascot</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Humour Je ai Pas Un Gros Bide Gift Unisex T-Shirt"><img src="{{ '/assets/images/marketplace-covers/5d981560621219023202.jpg' | relative_url }}" alt="Listing image for Humour Je ai Pas Un Gros Bide Gift Unisex T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">Humour Je ai Pas Un Gros Bide Gift Unisex T-Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Humour Je ai Pas Un Gros Bide Gift Unisex T-Shirt"><img src="{{ '/assets/images/marketplace-covers/5d981560621219023202.jpg' | relative_url }}" alt="Listing image for Humour Je ai Pas Un Gros Bide Gift Unisex T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">Humour Je ai Pas Un Gros Bide Gift Unisex T-Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A-B11736157YP-AI DECAL, Fits JD LOGO"><img src="{{ '/assets/images/marketplace-covers/2c5031a81b3d8301b0ae.jpg' | relative_url }}" alt="Listing image for A-B11736157YP-AI DECAL, Fits JD LOGO" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">A-B11736157YP-AI DECAL, Fits JD LOGO</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A-B11736157YP-AI DECAL, Fits JD LOGO"><img src="{{ '/assets/images/marketplace-covers/2c5031a81b3d8301b0ae.jpg' | relative_url }}" alt="Listing image for A-B11736157YP-AI DECAL, Fits JD LOGO" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">A-B11736157YP-AI DECAL, Fits JD LOGO</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 1:400 model airport GSE sticker logos MAJOR U.S. CARGO AIRLINES"><img src="{{ '/assets/images/marketplace-covers/88e187aec84869a7de0b.jpg' | relative_url }}" alt="Listing image for 1:400 model airport GSE sticker logos MAJOR U.S. CARGO AIRLINES" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">1:400 model airport GSE sticker logos MAJOR U.S. CARGO AIRLINES</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 1:400 model airport GSE sticker logos MAJOR U.S. CARGO AIRLINES"><img src="{{ '/assets/images/marketplace-covers/88e187aec84869a7de0b.jpg' | relative_url }}" alt="Listing image for 1:400 model airport GSE sticker logos MAJOR U.S. CARGO AIRLINES" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">1:400 model airport GSE sticker logos MAJOR U.S. CARGO AIRLINES</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="2017-proof-the-paper-that-made-scaling-look-practical-understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -521,7 +521,7 @@ In retrospect, the eight-GPU result served as an early proof that scaling comput
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -541,7 +541,7 @@ In retrospect, the eight-GPU result served as an early proof that scaling comput
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -573,7 +573,7 @@ In retrospect, the eight-GPU result served as an early proof that scaling comput
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -625,7 +625,7 @@ In retrospect, the eight-GPU result served as an early proof that scaling comput
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -670,7 +670,7 @@ In retrospect, the eight-GPU result served as an early proof that scaling comput
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -711,123 +711,123 @@ In retrospect, the eight-GPU result served as an early proof that scaling comput
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv [Attention](&#123;&#123; 'attention/' | relative_url &#125;&#125;) Is All You Need  
-   Link: <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedJune 12, 2017...</p></details>
+   Link:<a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedJune 12, 2017...</p></details>
    Published: June 12, 2017  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Title: arXiv Attention is All You Need in Speech Separation  
-   Link: <a href="https://arxiv.org/abs/2010.13154" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2010.13154</a>  
+   Link:<a href="https://arxiv.org/abs/2010.13154" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2010.13154</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: papers.neurips.cc  
    Title: 7181 attention is all you need  
-   Link: <a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow">https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Even our base model surpasses all previously published models and ensembles, at a fraction of the training cost of...Read more...</p></details>
+   Link:<a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow">https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Even our base model surpasses all previously published models and ensembles, at a fraction of the training cost of...Read more...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/[understanding" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/[understanding</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the Groundbreaking &#x27;Attention Is All You...Our models on one machine with 8 NVIDIA P100 GPUs · Base models using t...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/[understanding" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/[understanding</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the Groundbreaking &#x27;Attention Is All You...Our models on one machine with 8 NVIDIA P100 GPUs · Base models using t...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: statmt.org  
-   Link: <a href="https://www.statmt.org/wmt18/pdf/WMT001.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.statmt.org/wmt18/pdf/WMT001.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Scaling Neural Machine TranslationNovember 21, 2018 — by M Ott · Cited by 770 — 1 On WMT&#x27;14 English-German translation, we match the accu...</p></details>
+   Link:<a href="https://www.statmt.org/wmt18/pdf/WMT001.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.statmt.org/wmt18/pdf/WMT001.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Scaling Neural Machine TranslationNovember 21, 2018 — by M Ott · Cited by 770 — 1 On WMT&#x27;14 English-German translation, we match the accu...</p></details>
    Published: November 21, 2018  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v7</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedTraining took 3.5 3.5 days on 8 8 P100 GPUs. Even our base model surpasses all previously published models and e...</p></details>
+   Link:<a href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v7</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedTraining took 3.5 3.5 days on 8 8 P100 GPUs. Even our base model surpasses all previously published models and e...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1706.03762</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>1706.03762v7 [cs.CL] 2 Aug 2023by A Vaswani · 2017 · Cited by 252349 — We propose a new simple network architecture, the Transforme...</p></details>
+   Link:<a href="https://arxiv.org/pdf/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1706.03762</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>1706.03762v7 [cs.CL] 2 Aug 2023by A Vaswani · 2017 · Cited by 252349 — We propose a new simple network architecture, the Transforme...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/1706.03762v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v3</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need20 Jun 2017 — On the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.17 4...</p></details>
+   Link:<a href="https://arxiv.org/html/1706.03762v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need20 Jun 2017 — On the WMT 2014 English-to-French translation task, our big model achieves a BLEU score of 41.17 4...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: papers.nips.cc  
    Title: 7181 attention is all you need  
-   Link: <a href="https://papers.nips.cc/paper/7181-attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://papers.nips.cc/paper/7181-attention-is-all-you-need</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS PapersAttention is All you Needby A Vaswani · 2017 · Cited by 240733 — Experiments on two machine translation tasks show these mo...</p></details>
+   Link:<a href="https://papers.nips.cc/paper/7181-attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://papers.nips.cc/paper/7181-attention-is-all-you-need</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS PapersAttention is All you Needby A Vaswani · 2017 · Cited by 240733 — Experiments on two machine translation tasks show these mo...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: research.google  
    Title: transformer a novel neural network architecture for language understanding  
-   Link: <a href="https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchTransformer: A Novel Neural Network Architecture for...Aug 31, 2017 — In “Attention Is All You Need”, we introduce the Tr...</p></details>
+   Link:<a href="https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchTransformer: A Novel Neural Network Architecture for...Aug 31, 2017 — In “Attention Is All You Need”, we introduce the Tr...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: research.google  
    Title: attention is all you need  
-   Link: <a href="https://research.google/pubs/attention-is-all-you-need/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/attention-is-all-you-need/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchAttention is All You NeedOur model achieves 28.4 BLEU on the WMT 2014 English-to-German translation... a small fraction o...</p></details>
+   Link:<a href="https://research.google/pubs/attention-is-all-you-need/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/attention-is-all-you-need/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchAttention is All You NeedOur model achieves 28.4 BLEU on the WMT 2014 English-to-German translation... a small fraction o...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Attention" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AttentionAttention is the concentration of awareness directed at some task or phenomenon while mostly excluding others. Focused attent...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Attention" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AttentionAttention is the concentration of awareness directed at some task or phenomenon while mostly excluding others. Focused attent...</p></details>
 
 ### Additional References
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: academia.edu  
-   Link: <a href="https://www.academia.edu/76518792/Attention_is_All_you_Need" target="_blank" rel="noopener noreferrer nofollow">https://www.academia.edu/76518792/Attention_is_All_you_Need</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Attention is All you NeedThe Transformer model achieves a state-of-the-art BLEU score of 28.4 on English-to-German translation. Tra...</p></details>
+   Link:<a href="https://www.academia.edu/76518792/Attention_is_All_you_Need" target="_blank" rel="noopener noreferrer nofollow">https://www.academia.edu/76518792/Attention_is_All_you_Need</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Attention is All you NeedThe Transformer model achieves a state-of-the-art BLEU score of 28.4 on English-to-German translation. Tra...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/394854371_Revolutionizing_Vision_A_Deep_Dive_into_Attention_Is_All_You_Need_and_Its_Impact_on_AI_and_Machine_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/394854371_Revolutionizing_Vision_A_Deep_Dive_into_Attention_Is_All_You_Need_and_Its_Impact_on_AI_and_Machine_Learning</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Deep Dive into &quot;Attention Is All You Need&quot; and Its Impact...Aug 23, 2025 — This research paper discusses in depth the transformer mode...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/394854371_Revolutionizing_Vision_A_Deep_Dive_into_Attention_Is_All_You_Need_and_Its_Impact_on_AI_and_Machine_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/394854371_Revolutionizing_Vision_A_Deep_Dive_into_Attention_Is_All_You_Need_and_Its_Impact_on_AI_and_Machine_Learning</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Deep Dive into &quot;Attention Is All You Need&quot; and Its Impact...Aug 23, 2025 — This research paper discusses in depth the transformer mode...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40Elongated_musk/attention-is-all-you-need-until-you-need-memory-0450aa84af3f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40Elongated_musk/attention-is-all-you-need-until-you-need-memory-0450aa84af3f</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need… Until You Need MemoryTransformers replaced the old step‑by‑step approach with fully [parallel self](&amp;#123;&amp;#123; &#x27;parallel-attention/&#x27; | relative_url &amp;#125;&amp;#125;)‑attention, l...</p></details>
+   Link:<a href="https://medium.com/%40Elongated_musk/attention-is-all-you-need-until-you-need-memory-0450aa84af3f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40Elongated_musk/attention-is-all-you-need-until-you-need-memory-0450aa84af3f</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need… Until You Need MemoryTransformers replaced the old step‑by‑step approach with fully [parallel self](&amp;#123;&amp;#123; &#x27;parallel-attention/&#x27; | relative_url &amp;#125;&amp;#125;)‑attention, l...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40aminasaeed223/attention-is-all-you-need-simply-explained-24b6ceffb945" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40aminasaeed223/attention-is-all-you-need-simply-explained-24b6ceffb945</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is all you need — simply explainedThe Transformer is a powerful model that relies purely on attention mechanisms instead of tra...</p></details>
+   Link:<a href="https://medium.com/%40aminasaeed223/attention-is-all-you-need-simply-explained-24b6ceffb945" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40aminasaeed223/attention-is-all-you-need-simply-explained-24b6ceffb945</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is all you need — simply explainedThe Transformer is a powerful model that relies purely on attention mechanisms instead of tra...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: dev.to  
-   Link: <a href="https://dev.to/anurag_deo_83cb605e78d252/the-ai-revolution-you-didnt-see-coming-how-attention-is-all-you-need-changed-everything-42jh" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/anurag_deo_83cb605e78d252/the-ai-revolution-you-didnt-see-coming-how-attention-is-all-you-need-changed-everything-42jh</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The AI Revolution You Didn&#x27;t See Coming: How &quot;Attention...Jun 4, 2025 — While CNNs can capture local patterns and are more parallelizabl...</p></details>
+   Link:<a href="https://dev.to/anurag_deo_83cb605e78d252/the-ai-revolution-you-didnt-see-coming-how-attention-is-all-you-need-changed-everything-42jh" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/anurag_deo_83cb605e78d252/the-ai-revolution-you-didnt-see-coming-how-attention-is-all-you-need-changed-everything-42jh</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The AI Revolution You Didn&#x27;t See Coming: How &quot;Attention...Jun 4, 2025 — While CNNs can capture local patterns and are more parallelizabl...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/codex/attention-is-all-you-need-explained-ebdb02c7f4d4" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/codex/attention-is-all-you-need-explained-ebdb02c7f4d4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>“Attention Is All You Need” Explained | by Zaynab AwofesoTransformer ran on just 8 NVIDIA P100 GPUs and completed training in only 3.5 da...</p></details>
+   Link:<a href="https://medium.com/codex/attention-is-all-you-need-explained-ebdb02c7f4d4" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/codex/attention-is-all-you-need-explained-ebdb02c7f4d4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>“Attention Is All You Need” Explained | by Zaynab AwofesoTransformer ran on just 8 NVIDIA P100 GPUs and completed training in only 3.5 da...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: proceedings.mlr.press  
-   Link: <a href="https://proceedings.mlr.press/v97/so19a/so19a.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v97/so19a/so19a.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Evolved Transformer establishes a new state-of- the-art BLEU score of 29.8 on WMT&#x27;14 English-. German; at smaller sizes, it achieves...R...</p></details>
+   Link:<a href="https://proceedings.mlr.press/v97/so19a/so19a.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v97/so19a/so19a.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evolved Transformer establishes a new state-of- the-art BLEU score of 29.8 on WMT&#x27;14 English-. German; at smaller sizes, it achieves...R...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=54uLU7Nxyv8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=54uLU7Nxyv8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Kaggle Reading Group: Attention is All You Need | KaggleJoin Kaggle Data Scientist Rachael as she reads through an NLP paper! Today&#x27;s pap...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=54uLU7Nxyv8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=54uLU7Nxyv8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Kaggle Reading Group: Attention is All You Need | KaggleJoin Kaggle Data Scientist Rachael as she reads through an NLP paper! Today&#x27;s pap...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: techwithram.medium.com  
    Title: attention is all you need ai paper that changed whole world 1425c326ca3c  
-   Link: <a href="https://techwithram.medium.com/attention-is-all-you-need-ai-paper-that-changed-whole-world-1425c326ca3c" target="_blank" rel="noopener noreferrer nofollow">https://techwithram.medium.com/attention-is-all-you-need-ai-paper-that-changed-whole-world-1425c326ca3c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Is All You Need: AI paper that changed the whole worldThe Transformer achieves new state-of-the-art performance on machine translation be...</p></details>
+   Link:<a href="https://techwithram.medium.com/attention-is-all-you-need-ai-paper-that-changed-whole-world-1425c326ca3c" target="_blank" rel="noopener noreferrer nofollow">https://techwithram.medium.com/attention-is-all-you-need-ai-paper-that-changed-whole-world-1425c326ca3c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Is All You Need: AI paper that changed the whole worldThe Transformer achieves new state-of-the-art performance on machine translation be...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: medium.com  
    Title: A Paper A Day: #24 Attention Is All You Need | by Amr Sharaf  
-   Link: <a href="https://medium.com/%40sharaf/a-paper-a-day-24-attention-is-all-you-need-26eb2da90a91" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40sharaf/a-paper-a-day-24-attention-is-all-you-need-26eb2da90a91</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BLEU. On the WMT 2014 English-to-French translation task, the model establishes a new single-model state-of-the-art BLEU score of 41.0 af...</p></details>
+   Link:<a href="https://medium.com/%40sharaf/a-paper-a-day-24-attention-is-all-you-need-26eb2da90a91" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40sharaf/a-paper-a-day-24-attention-is-all-you-need-26eb2da90a91</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BLEU. On the WMT 2014 English-to-French translation task, the model establishes a new single-model state-of-the-art BLEU score of 41.0 af...</p></details>

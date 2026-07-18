@@ -269,47 +269,47 @@ image: /assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86
 
 ## Introduction
 
-A chatbot does not reveal a pre-written answer. After calculating probabilities for possible next tokens, it must decide which token to output. That decision process is called **decoding**. Because there is often more than one plausible next token, different decoding settings can make the same model sound predictable, creative, cautious, repetitive, or surprising without changing the model itself. The underlying probabilities remain the same; decoding settings simply change how the system selects from those probabilities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
+A chatbot does not reveal a pre-written answer. After calculating probabilities for possible next tokens, it must decide which token to output. That decision process is called **decoding**. Because there is often more than one plausible next token, different decoding settings can make the same model sound predictable, creative, cautious, repetitive, or surprising without changing the model itself. The underlying probabilities remain the same; decoding settings simply change how the system selects from those probabilities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86b2c9_decoding_sett_4f4800-Illustration-1-dark.svg" | relative_url }}" alt="Decoding illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86b2c9_decoding_sett_4f4800-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86b2c9_decoding_sett_4f4800-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This is why the same prompt can produce different replies even when the model has not been retrained. The model generates a probability distribution over possible next tokens, and decoding determines how aggressively or conservatively it chooses from that distribution. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/en/main_classes/text_generation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceGenerationThe class exposes generate, which can be used for: greedy decoding if num_beams=1 and do_sample=False; multinomia...</span></span></span>
+This is why the same prompt can produce different replies even when the model has not been retrained. The model generates a probability distribution over possible next tokens, and decoding determines how aggressively or conservatively it chooses from that distribution.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/en/main_classes/text_generation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceGenerationThe class exposes generate, which can be used for: greedy decoding if num_beams=1 and do_sample=False; multinomia...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/-BBulGM6xF0" title="LLM Prompt Engineering with Random Sampling: Temperature, Top-k, Top-p" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=-BBulGM6xF0" target="_blank" rel="noopener noreferrer">LLM Prompt Engineering with Random Sampling: Temperature, Top-k, Top-p</a></p><p class="youtube-embed-meta">Channel: DataMListic</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=-BBulGM6xF0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=-BBulGM6xF0">Open on YouTube</a></p></div></div></div>
 
 ## Greedy decoding versus sampling
 
-The simplest decoding method is **greedy decoding**. At each step, the model chooses the token with the highest probability and moves on. If “Paris” has the highest probability after the phrase “The capital of France is”, greedy decoding selects “Paris” immediately. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/v4.44.0/en/generation_strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceText generation strategiesThe default decoding strategy is greedy search, which is the simplest decoding strategy that picks...</span></span></span>
+The simplest decoding method is **greedy decoding**. At each step, the model chooses the token with the highest probability and moves on. If “Paris” has the highest probability after the phrase “The capital of France is”, greedy decoding selects “Paris” immediately.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/v4.44.0/en/generation_strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceText generation strategiesThe default decoding strategy is greedy search, which is the simplest decoding strategy that picks...</span></span></span>
 
-Greedy decoding has an obvious advantage: it is deterministic. Given the same probabilities, it tends to produce the same output. This makes behaviour more predictable and easier to test. However, predictability comes with trade-offs. Researchers and practitioners have repeatedly observed that always selecting the most likely token can lead to repetitive, formulaic text, especially in longer generations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/v4.44.0/en/generation_strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceText generation strategiesThe default decoding strategy is greedy search, which is the simplest decoding strategy that picks...</span></span></span>
+Greedy decoding has an obvious advantage: it is deterministic. Given the same probabilities, it tends to produce the same output. This makes behaviour more predictable and easier to test. However, predictability comes with trade-offs. Researchers and practitioners have repeatedly observed that always selecting the most likely token can lead to repetitive, formulaic text, especially in longer generations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/v4.44.0/en/generation_strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceText generation strategiesThe default decoding strategy is greedy search, which is the simplest decoding strategy that picks...</span></span></span>
 
-Sampling takes a different approach. Instead of always choosing the highest-probability token, it treats the probability distribution as a pool of candidates and randomly selects among them according to their likelihoods. Highly probable tokens remain more likely to be chosen, but lower-probability alternatives can occasionally appear. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/en/main_classes/text_generation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceGenerationThe class exposes generate, which can be used for: greedy decoding if num_beams=1 and do_sample=False; multinomia...</span></span></span>
+Sampling takes a different approach. Instead of always choosing the highest-probability token, it treats the probability distribution as a pool of candidates and randomly selects among them according to their likelihoods. Highly probable tokens remain more likely to be chosen, but lower-probability alternatives can occasionally appear.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/en/main_classes/text_generation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceGenerationThe class exposes generate, which can be used for: greedy decoding if num_beams=1 and do_sample=False; multinomia...</span></span></span>
 
 A useful way to think about the difference is:
 
 
 <div class="content-enhancement content-enhancement--comparison" markdown="1">
 
-* **Greedy decoding:** “Always pick the favourite.” <span class="citation-chip-wrap"><a class="citation-chip" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
+* **Greedy decoding:** “Always pick the favourite.”<span class="citation-chip-wrap"><a class="citation-chip" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
 * **Sampling:** “Usually pick the favourite, but sometimes choose another plausible option.”
 
 </div>
 
 Because every chosen token becomes part of the context for future [predictions]({{ 'predictions/' | relative_url }}), even a small difference early in a response can send the generation down a completely different path. A single alternative word choice may lead to a different sentence, paragraph, or overall tone.
 
-Research on neural text generation has shown that decoding strategy alone can substantially change output quality and diversity even when the language model itself remains unchanged. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1904.09751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Curious Case of Neural Text Degeneration</span><span class="citation-popover-snippet">arXiv The Curious Case of Neural Text Degeneration</span></span></span>
+Research on neural text generation has shown that decoding strategy alone can substantially change output quality and diversity even when the language model itself remains unchanged.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1904.09751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Curious Case of Neural Text Degeneration</span><span class="citation-popover-snippet">arXiv The Curious Case of Neural Text Degeneration</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/dCORspO2yVY" title="Nucleus Sampling: The Curious Case of Neural Text Degeneration (Research Paper Walkthrough)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=dCORspO2yVY" target="_blank" rel="noopener noreferrer">Nucleus Sampling: The Curious Case of Neural Text Degeneration (Research Paper Walkthrough)</a></p><p class="youtube-embed-meta">Channel: TechViz - The Data Science Guy</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=dCORspO2yVY" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=dCORspO2yVY">Open on YouTube</a></p></div></div></div>
 
 ## How temperature changes token choice
 
-Temperature is one of the most common decoding controls. It adjusts how sharply the model prefers high-probability tokens over lower-probability ones. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://community.openai.com/t/clarifications-on-setting-temperature-0/886447" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Clarifications on setting temperature = 0</span><span class="citation-popover-snippet">· As T decreases, the probability differences between options are amplified. · At...Read more...</span></span></span>
+Temperature is one of the most common decoding controls. It adjusts how sharply the model prefers high-probability tokens over lower-probability ones.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://community.openai.com/t/clarifications-on-setting-temperature-0/886447" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Clarifications on setting temperature = 0</span><span class="citation-popover-snippet">· As T decreases, the probability differences between options are amplified. · At...Read more...</span></span></span>
 
-A **low temperature** exaggerates differences between probabilities. Tokens that are already likely become even more dominant, making the output more deterministic and conservative. At the extreme, temperature approaches behaviour similar to greedy decoding. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://community.openai.com/t/clarifications-on-setting-temperature-0/886447" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Clarifications on setting temperature = 0</span><span class="citation-popover-snippet">· As T decreases, the probability differences between options are amplified. · At...Read more...</span></span></span>
+A **low temperature** exaggerates differences between probabilities. Tokens that are already likely become even more dominant, making the output more deterministic and conservative. At the extreme, temperature approaches behaviour similar to greedy decoding.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://community.openai.com/t/clarifications-on-setting-temperature-0/886447" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Clarifications on setting temperature = 0</span><span class="citation-popover-snippet">· As T decreases, the probability differences between options are amplified. · At...Read more...</span></span></span>
 
-A **high temperature** flattens the probability distribution. Less likely tokens receive a greater chance of being selected, increasing variety and unpredictability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://community.openai.com/t/clarifications-on-setting-temperature-0/886447" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Clarifications on setting temperature = 0</span><span class="citation-popover-snippet">· As T decreases, the probability differences between options are amplified. · At...Read more...</span></span></span>
+A **high temperature** flattens the probability distribution. Less likely tokens receive a greater chance of being selected, increasing variety and unpredictability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://community.openai.com/t/clarifications-on-setting-temperature-0/886447" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Clarifications on setting temperature = 0</span><span class="citation-popover-snippet">· As T decreases, the probability differences between options are amplified. · At...Read more...</span></span></span>
 
 Imagine the model assigns the following probabilities for the next token:
 
@@ -340,25 +340,25 @@ Higher temperatures often produce:
 
 </div>
 
-Importantly, temperature does not teach the model new facts or alter its knowledge. It changes how confidently the model follows its existing probability estimates. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
+Importantly, temperature does not teach the model new facts or alter its knowledge. It changes how confidently the model follows its existing probability estimates.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86b2c9_decoding_sett_4f4800-Illustration-2-dark.svg" | relative_url }}" alt="Decoding illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86b2c9_decoding_sett_4f4800-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86b2c9_decoding_sett_4f4800-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Why top-p limits the candidate pool
 
-Temperature changes the shape of the probability distribution. **Top-p**, also called **nucleus sampling**, changes which tokens are eligible for selection in the first place. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Mastering Temperature and Top_p in Chat GPT API</span><span class="citation-popover-snippet">· For example, if top_p is set to 0.1, GPT-3 will consider only the tokens that make up...Read more...</span></span></span>
+Temperature changes the shape of the probability distribution. **Top-p**, also called **nucleus sampling**, changes which tokens are eligible for selection in the first place.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Mastering Temperature and Top_p in Chat GPT API</span><span class="citation-popover-snippet">· For example, if top_p is set to 0.1, GPT-3 will consider only the tokens that make up...Read more...</span></span></span>
 
-The model first sorts candidate tokens from most likely to least likely. It then keeps only the smallest set of tokens whose combined probability reaches a chosen threshold, such as 0.9 or 0.95. Everything outside that nucleus is discarded before sampling occurs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huyenchip.com/2024/01/16/sampling.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huyenchip.com">[Chip Huyen+2OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huyenchip.com</span><span class="citation-popover-snippet">Chip HuyenGeneration configurations: temperature, top-k, top-p, and...16 Jan 2024 — In top-p sampling, the model sums the probabilities...</span></span></span>
+The model first sorts candidate tokens from most likely to least likely. It then keeps only the smallest set of tokens whose combined probability reaches a chosen threshold, such as 0.9 or 0.95. Everything outside that nucleus is discarded before sampling occurs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huyenchip.com/2024/01/16/sampling.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huyenchip.com">[Chip Huyen+2OpenAI Developer Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huyenchip.com</span><span class="citation-popover-snippet">Chip HuyenGeneration configurations: temperature, top-k, top-p, and...16 Jan 2024 — In top-p sampling, the model sums the probabilities...</span></span></span>
 
-For example: <span class="citation-chip-wrap"><a class="citation-chip" href="https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[community.openai.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Mastering Temperature and Top_p in Chat GPT API</span><span class="citation-popover-snippet">· For example, if top_p is set to 0.1, GPT-3 will consider only the tokens that make up...Read more...</span></span></span>
+For example:<span class="citation-chip-wrap"><a class="citation-chip" href="https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: community.openai.com">[community.openai.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">community.openai.com</span><span class="citation-popover-title">Open AI Developer Community Mastering Temperature and Top_p in Chat GPT API</span><span class="citation-popover-snippet">· For example, if top_p is set to 0.1, GPT-3 will consider only the tokens that make up...Read more...</span></span></span>
 
 TokenProbabilityA50%B25%C15%D5%E5%
 
-If top-p is set to 0.9, tokens A, B and C already account for 90% of the probability mass. Tokens D and E are excluded from consideration. Sampling then occurs only among A, B and C. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huyenchip.com/2024/01/16/sampling.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huyenchip.com">[Chip Huyen]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huyenchip.com</span><span class="citation-popover-snippet">Chip HuyenGeneration configurations: temperature, top-k, top-p, and...16 Jan 2024 — In top-p sampling, the model sums the probabilities...</span></span></span>
+If top-p is set to 0.9, tokens A, B and C already account for 90% of the probability mass. Tokens D and E are excluded from consideration. Sampling then occurs only among A, B and C.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huyenchip.com/2024/01/16/sampling.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huyenchip.com">[Chip Huyen]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huyenchip.com</span><span class="citation-popover-snippet">Chip HuyenGeneration configurations: temperature, top-k, top-p, and...16 Jan 2024 — In top-p sampling, the model sums the probabilities...</span></span></span>
 
-Unlike fixed-size approaches such as top-k sampling, nucleus sampling adapts to the situation. When the model is highly confident, the candidate pool may be very small. When uncertainty is greater, the pool expands automatically. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/blog/mlabonne/decoding-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">decoding strategies</span><span class="citation-popover-snippet">Hugging FaceDecoding Strategies in Large Language ModelsOct 29, 2024 — Top-k sampling diversifies the text generation by randomly selecti...</span></span></span>
+Unlike fixed-size approaches such as top-k sampling, nucleus sampling adapts to the situation. When the model is highly confident, the candidate pool may be very small. When uncertainty is greater, the pool expands automatically.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/blog/mlabonne/decoding-strategies" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">decoding strategies</span><span class="citation-popover-snippet">Hugging FaceDecoding Strategies in Large Language ModelsOct 29, 2024 — Top-k sampling diversifies the text generation by randomly selecti...</span></span></span>
 
-This dynamic behaviour is one reason nucleus sampling became influential in language generation research. Studies found that restricting generation to the most plausible portion of the distribution could improve diversity while avoiding many low-quality choices from the long tail of unlikely tokens. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1904.09751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Curious Case of Neural Text Degeneration</span><span class="citation-popover-snippet">arXiv The Curious Case of Neural Text Degeneration</span></span></span>
+This dynamic behaviour is one reason nucleus sampling became influential in language generation research. Studies found that restricting generation to the most plausible portion of the distribution could improve diversity while avoiding many low-quality choices from the long tail of unlikely tokens.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1904.09751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Curious Case of Neural Text Degeneration</span><span class="citation-popover-snippet">arXiv The Curious Case of Neural Text Degeneration</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/aDmp2Uim0zQ" title="What are the LLM’s Top-P + Top-K ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=aDmp2Uim0zQ" target="_blank" rel="noopener noreferrer">What are the LLM’s Top-P + Top-K ?</a></p><p class="youtube-embed-meta">Channel: New Machina</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=aDmp2Uim0zQ" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=aDmp2Uim0zQ">Open on YouTube</a></p></div></div></div>
@@ -367,7 +367,7 @@ This dynamic behaviour is one reason nucleus sampling became influential in lang
 
 A common misconception is that different answers imply different knowledge inside the model. Often, the difference comes from decoding rather than from the model's underlying [understanding]({{ 'understanding/' | relative_url }}).
 
-Consider a prompt asking for a story opening. The model may assign [meaningful]({{ 'human-review/' | relative_url }}) probability to several valid continuations. One decoding configuration might consistently choose the safest continuation, while another allows exploration of less likely but still reasonable alternatives. Both outputs arise from the same probability distribution. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
+Consider a prompt asking for a story opening. The model may assign [meaningful]({{ 'human-review/' | relative_url }}) probability to several valid continuations. One decoding configuration might consistently choose the safest continuation, while another allows exploration of less likely but still reasonable alternatives. Both outputs arise from the same probability distribution.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
 
 This means decoding settings influence:
 
@@ -381,202 +381,202 @@ This means decoding settings influence:
 
 </div>
 
-Researchers studying text generation have shown that output quality can change dramatically depending on decoding choices. In some cases, poor decoding produces bland or repetitive text despite the model having learned rich language patterns during training. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1904.09751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Curious Case of Neural Text Degeneration</span><span class="citation-popover-snippet">arXiv The Curious Case of Neural Text Degeneration</span></span></span>
+Researchers studying text generation have shown that output quality can change dramatically depending on decoding choices. In some cases, poor decoding produces bland or repetitive text despite the model having learned rich language patterns during training.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1904.09751" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Curious Case of Neural Text Degeneration</span><span class="citation-popover-snippet">arXiv The Curious Case of Neural Text Degeneration</span></span></span>
 
-The key insight is that a language model does not produce a single inevitable answer. It produces a probability distribution over many possible next tokens. Decoding settings act as the rules for navigating that distribution. Change the rules, and the chatbot's personality and behaviour can appear to change—even though the underlying model remains exactly the same. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus+2Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
+The key insight is that a language model does not produce a single inevitable answer. It produces a probability distribution over many possible next tokens. Decoding settings act as the rules for navigating that distribution. Change the rules, and the chatbot's personality and behaviour can appear to change—even though the underlying model remains exactly the same.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: machinelearningplus.com">[machinelearningplus+2Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">machinelearningplus.com</span><span class="citation-popover-title">Decoding Strategies — Greedy, Beam</span><span class="citation-popover-snippet">LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86b2c9_decoding_sett_4f4800-Illustration-3-dark.svg" | relative_url }}" alt="Decoding illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86b2c9_decoding_sett_4f4800-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_token_generat_86b2c9_decoding_sett_4f4800-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why the same prompt gets different answers. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why the same prompt gets different answers. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Explains sampling, temperature, and decoding choices.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains sampling, temperature, and decoding choices.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
-        </h4>
-        <p class="fr-book-author">By Sebastian Raschka</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
+</h4>
+<p class="fr-book-author">By Sebastian Raschka</p>
         
-        <p class="fr-book-desc">Covers token prediction and generation settings.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers token prediction and generation settings.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Includes generation strategies and model behavior.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Includes generation strategies and model behavior.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Generative+Deep+Learning+by+David+Foster&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Generative Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=RKegDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Generative Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Generative+Deep+Learning+by+David+Foster&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Generative Deep Learning">Generative Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By David Foster</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Generative+Deep+Learning+by+David+Foster&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Generative Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=RKegDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Generative Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Generative+Deep+Learning+by+David+Foster&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Generative Deep Learning">Generative Deep Learning</a>
+</h4>
+<p class="fr-book-author">By David Foster</p>
         
-        <p class="fr-book-desc">Provides intuition for probabilistic generation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Generative+Deep+Learning+by+David+Foster&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides intuition for probabilistic generation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Generative+Deep+Learning+by+David+Foster&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ai Artificial Intelligence Icon Of Human Face Vinyl Sticker Decal Car Window 4&quot;"><img src="{{ '/assets/images/marketplace-covers/93b94de897ab78f60d5e.jpg' | relative_url }}" alt="Listing image for Ai Artificial Intelligence Icon Of Human Face Vinyl Sticker Decal Car Window 4&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">Ai Artificial Intelligence Icon Of Human Face Vinyl Sticker Decal Car Window 4&quot;</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ai Artificial Intelligence Icon Of Human Face Vinyl Sticker Decal Car Window 4&quot;"><img src="{{ '/assets/images/marketplace-covers/93b94de897ab78f60d5e.jpg' | relative_url }}" alt="Listing image for Ai Artificial Intelligence Icon Of Human Face Vinyl Sticker Decal Car Window 4&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">Ai Artificial Intelligence Icon Of Human Face Vinyl Sticker Decal Car Window 4&quot;</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 2x Vertical Vinyl Sticker Artificial Intelligence Technology Robot #50116"><img src="{{ '/assets/images/marketplace-covers/f541ed3ac3f90301b69c.jpg' | relative_url }}" alt="Listing image for 2x Vertical Vinyl Sticker Artificial Intelligence Technology Robot #50116" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">2x Vertical Vinyl Sticker Artificial Intelligence Technology Robot #50116</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 2x Vertical Vinyl Sticker Artificial Intelligence Technology Robot #50116"><img src="{{ '/assets/images/marketplace-covers/f541ed3ac3f90301b69c.jpg' | relative_url }}" alt="Listing image for 2x Vertical Vinyl Sticker Artificial Intelligence Technology Robot #50116" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">2x Vertical Vinyl Sticker Artificial Intelligence Technology Robot #50116</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 2x Vinyl Sticker Artificial Intelligence Technology Robot #50116"><img src="{{ '/assets/images/marketplace-covers/ef5dc0f879b36a17e04a.jpg' | relative_url }}" alt="Listing image for 2x Vinyl Sticker Artificial Intelligence Technology Robot #50116" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">2x Vinyl Sticker Artificial Intelligence Technology Robot #50116</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 2x Vinyl Sticker Artificial Intelligence Technology Robot #50116"><img src="{{ '/assets/images/marketplace-covers/ef5dc0f879b36a17e04a.jpg' | relative_url }}" alt="Listing image for 2x Vinyl Sticker Artificial Intelligence Technology Robot #50116" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">2x Vinyl Sticker Artificial Intelligence Technology Robot #50116</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ARTIFICIAL INTELLIGENCE ANDROID WALL STICKERS 3D ART POSTER MURAL DECAL VJ8"><img src="{{ '/assets/images/marketplace-covers/c714e09a2b44bee776f6.jpg' | relative_url }}" alt="Listing image for ARTIFICIAL INTELLIGENCE ANDROID WALL STICKERS 3D ART POSTER MURAL DECAL VJ8" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">ARTIFICIAL INTELLIGENCE ANDROID WALL STICKERS 3D ART POSTER MURAL DECAL VJ8</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ARTIFICIAL INTELLIGENCE ANDROID WALL STICKERS 3D ART POSTER MURAL DECAL VJ8"><img src="{{ '/assets/images/marketplace-covers/c714e09a2b44bee776f6.jpg' | relative_url }}" alt="Listing image for ARTIFICIAL INTELLIGENCE ANDROID WALL STICKERS 3D ART POSTER MURAL DECAL VJ8" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">ARTIFICIAL INTELLIGENCE ANDROID WALL STICKERS 3D ART POSTER MURAL DECAL VJ8</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence sticker" data-ebay-reference="decoding-why-the-same-prompt-gets-different-answers-understanding-artificial-intelligence-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -592,7 +592,7 @@ The key insight is that a language model does not produce a single inevitable an
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -612,7 +612,7 @@ The key insight is that a language model does not produce a single inevitable an
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -644,7 +644,7 @@ The key insight is that a language model does not produce a single inevitable an
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -696,7 +696,7 @@ The key insight is that a language model does not produce a single inevitable an
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -741,7 +741,7 @@ The key insight is that a language model does not produce a single inevitable an
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -782,195 +782,195 @@ The key insight is that a language model does not produce a single inevitable an
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: machinelearningplus.com  
    Title: Decoding Strategies — Greedy, Beam  
-   Link: <a href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow">https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</p></details>
+   Link:<a href="https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/" target="_blank" rel="noopener noreferrer nofollow">https://machinelearningplus.com/gen-ai/llm-temperature-top-p-top-k-explained/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Temperature, Top-P, and Top-K ExplainedTemperature, top-k, and top-p only reshape the probability distribution or...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Title: arXiv The Curious Case of Neural Text Degeneration  
-   Link: <a href="https://arxiv.org/abs/1904.09751" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1904.09751</a>  
+   Link:<a href="https://arxiv.org/abs/1904.09751" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1904.09751</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=rygGQyrFvH" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=rygGQyrFvH</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Curious Case of Neural Text Degenerationby A Holtzman · Cited by 4838 — Our approach avoids text degeneration by truncating the unrel...</p></details>
+   Link:<a href="https://openreview.net/forum?id=rygGQyrFvH" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=rygGQyrFvH</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Curious Case of Neural Text Degenerationby A Holtzman · Cited by 4838 — Our approach avoids text degeneration by truncating the unrel...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: community.openai.com  
    Title: Open AI Developer Community Clarifications on setting temperature = 0  
-   Link: <a href="https://community.openai.com/t/clarifications-on-setting-temperature-0/886447" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/clarifications-on-setting-temperature-0/886447</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>· As T decreases, the probability differences between options are amplified. · At...Read more...</p></details>
+   Link:<a href="https://community.openai.com/t/clarifications-on-setting-temperature-0/886447" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/clarifications-on-setting-temperature-0/886447</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>· As T decreases, the probability differences between options are amplified. · At...Read more...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: community.openai.com  
    Title: Open AI Developer Community Mastering Temperature and Top_p in Chat GPT API  
-   Link: <a href="https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>· For example, if top_p is set to 0.1, GPT-3 will consider only the tokens that make up...Read more...</p></details>
+   Link:<a href="https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/cheat-sheet-mastering-temperature-and-top-p-in-chatgpt-api/172683</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>· For example, if top_p is set to 0.1, GPT-3 will consider only the tokens that make up...Read more...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv Closing the Curious Case of Neural Text Degeneration  
-   Link: <a href="https://arxiv.org/abs/2310.01693" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.01693</a>  
+   Link:<a href="https://arxiv.org/abs/2310.01693" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.01693</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/pdf?id=rygGQyrFvH" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=rygGQyrFvH</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>“unlikelihood loss”, which decreases training loss on repeated tokens and thus...Read more...</p></details>
+   Link:<a href="https://openreview.net/pdf?id=rygGQyrFvH" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=rygGQyrFvH</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>“unlikelihood loss”, which decreases training loss on repeated tokens and thus...Read more...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: OpenAI  
-   Link: <a href="https://openai.com/[business" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/[business</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>comHugging FaceConnect to the Hugging Face Hub in ChatGPT to explore models, datasets, and metadata and inspect options without manual br...</p></details>
+   Link:<a href="https://openai.com/[business" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/[business</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>comHugging FaceConnect to the Hugging Face Hub in ChatGPT to explore models, datasets, and metadata and inspect options without manual br...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: ar5iv.labs.arxiv.org  
-   Link: <a href="https://ar5iv.labs.arxiv.org/html/1904.09751" target="_blank" rel="noopener noreferrer nofollow">https://ar5iv.labs.arxiv.org/html/1904.09751</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>arxiv.org[1904.09751] The Curious Case of Neural Text DegenerationOur approach avoids text degeneration by truncating the unreliable tail...</p></details>
+   Link:<a href="https://ar5iv.labs.arxiv.org/html/1904.09751" target="_blank" rel="noopener noreferrer nofollow">https://ar5iv.labs.arxiv.org/html/1904.09751</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>arxiv.org[1904.09751] The Curious Case of Neural Text DegenerationOur approach avoids text degeneration by truncating the unreliable tail...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/1904.09751" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1904.09751</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Curious Case of Neural Text Degenerationby A Holtzman · 2019 · Cited by 5127 — To address this we propose Nucleus Sampling, a simple...</p></details>
+   Link:<a href="https://arxiv.org/pdf/1904.09751" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1904.09751</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Curious Case of Neural Text Degenerationby A Holtzman · 2019 · Cited by 5127 — To address this we propose Nucleus Sampling, a simple...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/docs/transformers/en/main_classes/text_generation" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/docs/transformers/en/main_classes/text_generation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceGenerationThe class exposes generate, which can be used for: greedy decoding if num_beams=1 and do_sample=False; multinomia...</p></details>
+   Link:<a href="https://huggingface.co/docs/transformers/en/main_classes/text_generation" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/docs/transformers/en/main_classes/text_generation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceGenerationThe class exposes generate, which can be used for: greedy decoding if num_beams=1 and do_sample=False; multinomia...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/docs/transformers/v4.44.0/en/generation_strategies" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/docs/transformers/v4.44.0/en/generation_strategies</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceText generation strategiesThe default decoding strategy is greedy search, which is the simplest decoding strategy that picks...</p></details>
+   Link:<a href="https://huggingface.co/docs/transformers/v4.44.0/en/generation_strategies" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/docs/transformers/v4.44.0/en/generation_strategies</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceText generation strategiesThe default decoding strategy is greedy search, which is the simplest decoding strategy that picks...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: huggingface.co  
    Title: Hugging Face Paper page  
-   Link: <a href="https://huggingface.co/papers/1904.09751" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/1904.09751</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Paper page - The Curious Case of Neural Text DegenerationApr 22, 2019 — Despite considerable advancements with deep neural language model...</p></details>
+   Link:<a href="https://huggingface.co/papers/1904.09751" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/1904.09751</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Paper page - The Curious Case of Neural Text DegenerationApr 22, 2019 — Despite considerable advancements with deep neural language model...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/manueldeprada/sampling" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/manueldeprada/sampling</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>manueldeprada/samplingThe implementation supports both sampling and greedy decoding modes, with optional temperature scaling and top-k/to...</p></details>
+   Link:<a href="https://huggingface.co/manueldeprada/sampling" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/manueldeprada/sampling</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>manueldeprada/samplingThe implementation supports both sampling and greedy decoding modes, with optional temperature scaling and top-k/to...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: huyenchip.com  
-   Link: <a href="https://huyenchip.com/2024/01/16/sampling.html" target="_blank" rel="noopener noreferrer nofollow">https://huyenchip.com/2024/01/16/sampling.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Chip HuyenGeneration configurations: temperature, top-k, top-p, and...16 Jan 2024 — In top-p sampling, the model sums the probabilities...</p></details>
+   Link:<a href="https://huyenchip.com/2024/01/16/sampling.html" target="_blank" rel="noopener noreferrer nofollow">https://huyenchip.com/2024/01/16/sampling.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Chip HuyenGeneration configurations: temperature, top-k, top-p, and...16 Jan 2024 — In top-p sampling, the model sums the probabilities...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: huggingface.co  
    Title: decoding strategies  
-   Link: <a href="https://huggingface.co/blog/mlabonne/decoding-strategies" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/blog/mlabonne/decoding-strategies</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceDecoding Strategies in Large Language ModelsOct 29, 2024 — Top-k sampling diversifies the text generation by randomly selecti...</p></details>
+   Link:<a href="https://huggingface.co/blog/mlabonne/decoding-strategies" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/blog/mlabonne/decoding-strategies</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceDecoding Strategies in Large Language ModelsOct 29, 2024 — Top-k sampling diversifies the text generation by randomly selecti...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: huggingface.co  
    Title: how to generate  
-   Link: <a href="https://huggingface.co/blog/how-to-generate" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/blog/how-to-generate</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>text: using different decoding methods for...Mar 1, 2020 — As ad-hoc decoding methods, top-p and top-K sampling seem to produce more flu...</p></details>
+   Link:<a href="https://huggingface.co/blog/how-to-generate" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/blog/how-to-generate</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>text: using different decoding methods for...Mar 1, 2020 — As ad-hoc decoding methods, top-p and top-K sampling seem to produce more flu...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The platform where the [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) community collaborates on models, datasets, and applications. Explore AI Apps.Read more...</p></details>
+   Link:<a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The platform where the [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) community collaborates on models, datasets, and applications. Explore AI Apps.Read more...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: discuss.huggingface.co  
    Title: model produces chaotic repetitive output when top k is higher how to fix this  
-   Link: <a href="https://discuss.huggingface.co/t/model-produces-chaotic-repetitive-output-when-top-k-is-higher-how-to-fix-this/170966" target="_blank" rel="noopener noreferrer nofollow">https://discuss.huggingface.co/t/model-produces-chaotic-repetitive-output-when-top-k-is-higher-how-to-fix-this/170966</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Produces Chaotic / Repetitive Output When `top_k`...Nov 29, 2025 — Hugging Face blog, “How to generate text: using different decoding me...</p></details>
+   Link:<a href="https://discuss.huggingface.co/t/model-produces-chaotic-repetitive-output-when-top-k-is-higher-how-to-fix-this/170966" target="_blank" rel="noopener noreferrer nofollow">https://discuss.huggingface.co/t/model-produces-chaotic-repetitive-output-when-top-k-is-higher-how-to-fix-this/170966</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Produces Chaotic / Repetitive Output When `top_k`...Nov 29, 2025 — Hugging Face blog, “How to generate text: using different decoding me...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/spaces" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/spaces</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>SpacesSpaces · Reachy. new · Image Generation · Video Generation · Text Generation · Language Translation · Speech Synthesis · 3D Modelin...</p></details>
+   Link:<a href="https://huggingface.co/spaces" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/spaces</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SpacesSpaces · Reachy. new · Image Generation · Video Generation · Text Generation · Language Translation · Speech Synthesis · 3D Modelin...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/learn/llm-course/ko/chapter1/1" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/learn/llm-course/ko/chapter1/1</a>  
+   Link:<a href="https://huggingface.co/learn/llm-course/ko/chapter1/1" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/learn/llm-course/ko/chapter1/1</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: dictionary.cambridge.org  
-   Link: <a href="https://dictionary.cambridge.org/dictionary/english/hugging" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english/hugging</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>English meaning - Cambridge DictionaryHUGGING definition: 1. present participle of hug 2. present participle of hug. Learn more...</p></details>
+   Link:<a href="https://dictionary.cambridge.org/dictionary/english/hugging" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english/hugging</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>English meaning - Cambridge DictionaryHUGGING definition: 1. present participle of hug 2. present participle of hug. Learn more...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: promptingguide.ai  
-   Link: <a href="https://www.promptingguide.ai/introduction/settings" target="_blank" rel="noopener noreferrer nofollow">https://www.promptingguide.ai/introduction/settings</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Settings1 Feb 2026 — Top P - A sampling technique with temperature, called nucleus sampling, where you can control how deterministic...</p></details>
+   Link:<a href="https://www.promptingguide.ai/introduction/settings" target="_blank" rel="noopener noreferrer nofollow">https://www.promptingguide.ai/introduction/settings</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Settings1 Feb 2026 — Top P - A sampling technique with temperature, called nucleus sampling, where you can control how deterministic...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: azure.microsoft.com  
    Title: hugging face on azure  
-   Link: <a href="https://azure.microsoft.com/ko-kr/solutions/hugging-face-on-azure" target="_blank" rel="noopener noreferrer nofollow">https://azure.microsoft.com/ko-kr/solutions/hugging-face-on-azure</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>microsoft.comAzure의 Hugging Face - Huggingface TransformersHugging Face는 최신 기계 학습 모델을 빌드할 수 있는 최고의 오픈 소스 라이브러리인 Transformers를 만든 회사입니다. A...</p></details>
+   Link:<a href="https://azure.microsoft.com/ko-kr/solutions/hugging-face-on-azure" target="_blank" rel="noopener noreferrer nofollow">https://azure.microsoft.com/ko-kr/solutions/hugging-face-on-azure</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>microsoft.comAzure의 Hugging Face - Huggingface TransformersHugging Face는 최신 기계 학습 모델을 빌드할 수 있는 최고의 오픈 소스 라이브러리인 Transformers를 만든 회사입니다. A...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: Wikipedia  
    Title: Hugging Face  
-   Link: <a href="https://en.wikipedia.org/wiki/Hugging_Face" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Hugging_Face</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceHugging Face, Inc., is an American company based in New York City that develops computation tools for building application...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Hugging_Face" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Hugging_Face</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceHugging Face, Inc., is an American company based in New York City that develops computation tools for building application...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: incodom.kr  
    Title: Hugging Face  
-   Link: <a href="https://incodom.kr/Hugging_Face" target="_blank" rel="noopener noreferrer nofollow">https://incodom.kr/Hugging_Face</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>인코덤, 생물정보 전문위키Apr 12, 2026 — Hugging Face는 머신러닝 모델과 데이터셋을 공유·배포·운영할 수 있는 오픈소스 플랫폼이다. 학습이 끝난 AI 모델을 공유하는 GitHub에 해당한다고 이해...Read more...</p></details>
+   Link:<a href="https://incodom.kr/Hugging_Face" target="_blank" rel="noopener noreferrer nofollow">https://incodom.kr/Hugging_Face</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>인코덤, 생물정보 전문위키Apr 12, 2026 — Hugging Face는 머신러닝 모델과 데이터셋을 공유·배포·운영할 수 있는 오픈소스 플랫폼이다. 학습이 끝난 AI 모델을 공유하는 GitHub에 해당한다고 이해...Read more...</p></details>
 
 ### Additional References
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: apxml.com  
-   Link: <a href="https://apxml.com/courses/prompt-engineering-llm-application-development/chapter-1-foundations-prompt-engineering/llm-temperature-parameters" target="_blank" rel="noopener noreferrer nofollow">https://apxml.com/courses/prompt-engineering-llm-application-development/chapter-1-foundations-prompt-engineering/llm-temperature-parameters</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ApX Machine LearningUnderstanding LLM Temperature and Other ParametersLearn how parameters like temperature, top-p, and max tokens influe...</p></details>
+   Link:<a href="https://apxml.com/courses/prompt-engineering-llm-application-development/chapter-1-foundations-prompt-engineering/llm-temperature-parameters" target="_blank" rel="noopener noreferrer nofollow">https://apxml.com/courses/prompt-engineering-llm-application-development/chapter-1-foundations-prompt-engineering/llm-temperature-parameters</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ApX Machine LearningUnderstanding LLM Temperature and Other ParametersLearn how parameters like temperature, top-p, and max tokens influe...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: aussieai.com  
-   Link: <a href="https://www.aussieai.com/research/top-k-decoding" target="_blank" rel="noopener noreferrer nofollow">https://www.aussieai.com/research/top-k-decoding</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Top-k and Top-p DecodingTop-p sampling aims to exclude such very unlikely words from the output by reducing the 50 tokens from top-k if t...</p></details>
+   Link:<a href="https://www.aussieai.com/research/top-k-decoding" target="_blank" rel="noopener noreferrer nofollow">https://www.aussieai.com/research/top-k-decoding</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Top-k and Top-p DecodingTop-p sampling aims to exclude such very unlikely words from the output by reducing the 50 tokens from top-k if t...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: machinelearning-basics.com  
-   Link: <a href="https://machinelearning-basics.com/chatgpt-api-temperature-and-top_p/" target="_blank" rel="noopener noreferrer nofollow">https://machinelearning-basics.com/chatgpt-api-temperature-and-top_p/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Hanane D.ChatGPT API Temperature and Top_pOpenAI [documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) recommends modifying either temperature or top_p, but not both. Top_p samp...</p></details>
+   Link:<a href="https://machinelearning-basics.com/chatgpt-api-temperature-and-top_p/" target="_blank" rel="noopener noreferrer nofollow">https://machinelearning-basics.com/chatgpt-api-temperature-and-top_p/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hanane D.ChatGPT API Temperature and Top_pOpenAI [documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) recommends modifying either temperature or top_p, but not both. Top_p samp...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: kunalganglani.com  
-   Link: <a href="https://www.kunalganglani.com/learning-paths/ai-software-developer/aidev-llm-concepts-sampling/" target="_blank" rel="noopener noreferrer nofollow">https://www.kunalganglani.com/learning-paths/ai-software-developer/aidev-llm-concepts-sampling/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Temperature, top-p sampling &amp; output qualityThis code&#x27;s job is to demonstrate how to interact with a Large Language Model (LLM) and contr...</p></details>
+   Link:<a href="https://www.kunalganglani.com/learning-paths/ai-software-developer/aidev-llm-concepts-sampling/" target="_blank" rel="noopener noreferrer nofollow">https://www.kunalganglani.com/learning-paths/ai-software-developer/aidev-llm-concepts-sampling/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Temperature, top-p sampling &amp; output qualityThis code&#x27;s job is to demonstrate how to interact with a Large Language Model (LLM) and contr...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%401511425435311/understanding-openais-temperature-and-top-p-parameters-in-[language-models" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%401511425435311/understanding-openais-temperature-and-top-p-parameters-in-[language-models</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding OpenAI&#x27;s “Temperature” and “Top_p”...“Temperature” and “top_p” are crucial tools for shaping language generation in models...</p></details>
+   Link:<a href="https://medium.com/%401511425435311/understanding-openais-temperature-and-top-p-parameters-in-[language-models" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%401511425435311/understanding-openais-temperature-and-top-p-parameters-in-[language-models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding OpenAI&#x27;s “Temperature” and “Top_p”...“Temperature” and “top_p” are crucial tools for shaping language generation in models...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: iclr.cc  
-   Link: <a href="https://iclr.cc/virtual_2020/poster_rygGQyrFvH.html" target="_blank" rel="noopener noreferrer nofollow">https://iclr.cc/virtual_2020/poster_rygGQyrFvH.html</a>  
+   Link:<a href="https://iclr.cc/virtual_2020/poster_rygGQyrFvH.html" target="_blank" rel="noopener noreferrer nofollow">https://iclr.cc/virtual_2020/poster_rygGQyrFvH.html</a>  
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: reddit.com  
    Title: I understand that both are related to sampling, but why are there two parameters  
-   Link: <a href="https://www.reddit.com/r/GPT3/comments/qujerp/what_is_the_difference_between_temperature_and/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/GPT3/comments/qujerp/what_is_the_difference_between_temperature_and/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What is the difference between temperature and top p...Hi, I&#x27;m interested in hearing how you interpret these model parameters...</p></details>
+   Link:<a href="https://www.reddit.com/r/GPT3/comments/qujerp/what_is_the_difference_between_temperature_and/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/GPT3/comments/qujerp/what_is_the_difference_between_temperature_and/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is the difference between temperature and top p...Hi, I&#x27;m interested in hearing how you interpret these model parameters...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: mention.network  
    Title: demystifying ai model parameters a guide to temperature top p and more  
-   Link: <a href="https://mention.network/learn/demystifying-ai-model-parameters-a-guide-to-temperature-top-p-and-more/" target="_blank" rel="noopener noreferrer nofollow">https://mention.network/learn/demystifying-ai-model-parameters-a-guide-to-temperature-top-p-and-more/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Demystifying AI Model Parameters13 Aug 2025 — While temperature affects the entire probability distribution, &quot;top_p&quot; (also known as nucle...</p></details>
+   Link:<a href="https://mention.network/learn/demystifying-ai-model-parameters-a-guide-to-temperature-top-p-and-more/" target="_blank" rel="noopener noreferrer nofollow">https://mention.network/learn/demystifying-ai-model-parameters-a-guide-to-temperature-top-p-and-more/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Demystifying AI Model Parameters13 Aug 2025 — While temperature affects the entire probability distribution, &quot;top_p&quot; (also known as nucle...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: tomarcher.io  
    Title: Signal & Syntax Temperature and Top-P: The Creativity Knobs  
-   Link: <a href="https://tomarcher.io/posts/temperature-top-p-creativity-knobs/" target="_blank" rel="noopener noreferrer nofollow">https://tomarcher.io/posts/temperature-top-p-creativity-knobs/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Signal &amp; SyntaxTemperature and Top-P: The Creativity Knobs - Signal &amp; Syntax24 Dec 2025 — This post explores the mathematical foundations...</p></details>
+   Link:<a href="https://tomarcher.io/posts/temperature-top-p-creativity-knobs/" target="_blank" rel="noopener noreferrer nofollow">https://tomarcher.io/posts/temperature-top-p-creativity-knobs/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Signal &amp; SyntaxTemperature and Top-P: The Creativity Knobs - Signal &amp; Syntax24 Dec 2025 — This post explores the mathematical foundations...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: dsba.snu.ac.kr  
-   Link: <a href="https://dsba.snu.ac.kr/?kboard_content_redirect=1345" target="_blank" rel="noopener noreferrer nofollow">https://dsba.snu.ac.kr/?kboard_content_redirect=1345</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>snu.ac.kr[Paper Review] The Curious Case of Neural Text DegenerationOct 12, 2020 — [Paper Review] The Curious Case of Neural Text Degener...</p></details>
+   Link:<a href="https://dsba.snu.ac.kr/?kboard_content_redirect=1345" target="_blank" rel="noopener noreferrer nofollow">https://dsba.snu.ac.kr/?kboard_content_redirect=1345</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>snu.ac.kr[Paper Review] The Curious Case of Neural Text DegenerationOct 12, 2020 — [Paper Review] The Curious Case of Neural Text Degener...</p></details>

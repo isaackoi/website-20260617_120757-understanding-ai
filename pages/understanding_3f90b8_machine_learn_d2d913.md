@@ -333,7 +333,7 @@ image: /assets/images/understanding_3f90b8_machine_learn_d2d913-overview-social.
 
 ## Introduction
 
-Machine learning is the part of artificial intelligence that replaces many hand-written rules with systems that learn useful patterns from examples. Instead of programming every possible instruction for recognising spam, predicting demand, classifying an image, or recommending a film, developers provide data, define a task, choose a way to measure error, and let the model adjust until its [predictions]({{ 'predictions/' | relative_url }}) improve. This is why machine learning sits at the centre of many [everyday AI]({{ 'use-cases/' | relative_url }}) systems: it turns past examples into a model that can make a judgement about new cases. IBM describes machine learning as algorithms that learn patterns in training data and then make inferences without explicit hard-coded instructions, while Google’s teaching materials frame training around reducing measurable loss, or prediction error. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/machine-learning" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Machine Learning? &#124; IBMThis pattern recognition ability enables machine learning models to make decisions or predictions witho...</span></span></span>
+Machine learning is the part of artificial intelligence that replaces many hand-written rules with systems that learn useful patterns from examples. Instead of programming every possible instruction for recognising spam, predicting demand, classifying an image, or recommending a film, developers provide data, define a task, choose a way to measure error, and let the model adjust until its [predictions]({{ 'predictions/' | relative_url }}) improve. This is why machine learning sits at the centre of many [everyday AI]({{ 'use-cases/' | relative_url }}) systems: it turns past examples into a model that can make a judgement about new cases. IBM describes machine learning as algorithms that learn patterns in training data and then make inferences without explicit hard-coded instructions, while Google’s teaching materials frame training around reducing measurable loss, or prediction error.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/machine-learning" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Machine Learning? &#124; IBMThis pattern recognition ability enables machine learning models to make decisions or predictions witho...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913-overview.webp" | relative_url }}" alt="Overview image for Machine Learning" loading="eager" decoding="sync" fetchpriority="high">
@@ -343,11 +343,11 @@ The crucial idea is not that the machine “understands” in a human sense. It 
 
 Traditional software follows instructions written in advance. A tax calculator, for example, can be built from explicit rules: apply this rate, subtract that allowance, round the result in this way. Machine learning is more useful when the rules are hard to state but examples are plentiful. It is difficult to write a complete rulebook for every possible spam email, spoken accent, road sign, product preference, or medical image variation. In those cases, a model can be trained on examples and allowed to infer patterns that would be awkward, brittle, or impossible to list manually.
 
-IBM’s design guidance puts the contrast plainly: instead of spelling out specific rules, developers give AI systems examples of what they will encounter and let them find patterns. This matters because real-world data often contains many interacting variables, and the right decision boundary may not be obvious to a human rule-writer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/design/ai/basics/ml/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">Open source on ibm.com.</span></span></span>
+IBM’s design guidance puts the contrast plainly: instead of spelling out specific rules, developers give AI systems examples of what they will encounter and let them find patterns. This matters because real-world data often contains many interacting variables, and the right decision boundary may not be obvious to a human rule-writer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/design/ai/basics/ml/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">Open source on ibm.com.</span></span></span>
 
 A simple spam filter shows the mechanism. A hand-written filter might block messages containing words such as “winner” or “urgent”, but spammers can change wording. A machine-learning filter can examine many labelled examples of spam and legitimate mail, notice combinations of features, and update as new examples arrive. The model does not need a single perfect rule; it learns a pattern that is good enough to reduce error on the task.
 
-This pattern-learning approach also explains why machine learning is not one technique but a family of methods. Supervised learning uses examples with labels, such as images marked “cat” or “not cat”. Unsupervised learning looks for structure in unlabelled data, such as clusters of customers with similar behaviour. Reinforcement learning learns through rewards and penalties from interaction. The common thread is experience: the system improves its performance on a task by using data rather than relying only on fixed instructions. Tom Mitchell’s widely used definition captures this as improvement on a task, measured by a performance measure, through experience. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs.cmu.edu">[CMU School of Computer Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs.cmu.edu</span><span class="citation-popover-snippet">Open source on cmu.edu.</span></span></span>
+This pattern-learning approach also explains why machine learning is not one technique but a family of methods. Supervised learning uses examples with labels, such as images marked “cat” or “not cat”. Unsupervised learning looks for structure in unlabelled data, such as clusters of customers with similar behaviour. Reinforcement learning learns through rewards and penalties from interaction. The common thread is experience: the system improves its performance on a task by using data rather than relying only on fixed instructions. Tom Mitchell’s widely used definition captures this as improvement on a task, measured by a performance measure, through experience.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs.cmu.edu">[CMU School of Computer Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs.cmu.edu</span><span class="citation-popover-snippet">Open source on cmu.edu.</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913-Illustration-1-dark.svg" | relative_url }}" alt="Machine Learning illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913-Illustration-1-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -357,7 +357,7 @@ A machine-learning model is a compressed way of using past examples to make futu
 
 The “pattern” is encoded in model parameters: internal values adjusted during training. In a simple linear model, those parameters may be weights assigned to each input feature. In a neural network, they may be millions or billions of weights spread across layers. The principle is still the same: the model changes its internal settings so that its outputs better match the examples it has seen.
 
-This is why data quality matters so much. Training data is not just background material; it is the experience from which the model learns. IBM defines training data as information used to teach a model how to make predictions, recognise patterns, or generate content, and notes that without it even sophisticated algorithms are not useful. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/training-data" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">Open source on ibm.com.</span></span></span>
+This is why data quality matters so much. Training data is not just background material; it is the experience from which the model learns. IBM defines training data as information used to teach a model how to make predictions, recognise patterns, or generate content, and notes that without it even sophisticated algorithms are not useful.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/training-data" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">Open source on ibm.com.</span></span></span>
 
 A useful way to think about the process is:
 
@@ -379,7 +379,7 @@ The last step is essential. A model that only performs well on its training exam
 
 ## Training objectives and error correction
 
-Machine learning needs an objective: a way to say whether one model is better than another. In many supervised-learning tasks, this objective is a [loss function]({{ 'loss-functions/' | relative_url }}), a numerical measure of how wrong the model’s predictions are. Google’s Machine Learning Crash Course defines loss as a metric describing the distance between predictions and actual labels, with training aiming to minimise that loss. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/linear-regression/loss" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Open source on google.com.</span></span></span>
+Machine learning needs an objective: a way to say whether one model is better than another. In many supervised-learning tasks, this objective is a [loss function]({{ 'loss-functions/' | relative_url }}), a numerical measure of how wrong the model’s predictions are. Google’s Machine Learning Crash Course defines loss as a metric describing the distance between predictions and actual labels, with training aiming to minimise that loss.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/linear-regression/loss" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Open source on google.com.</span></span></span>
 
 Consider a model predicting delivery time. If it predicts 20 minutes and the actual delivery takes 35 minutes, the error is 15 minutes. Across thousands of examples, the training process searches for parameter settings that reduce such errors. This is not “learning” through reflection; it is repeated adjustment guided by feedback.
 
@@ -393,9 +393,9 @@ That creates a practical design problem. If the objective is too narrow, the mod
 
 The central promise of machine learning is generalisation: learning from past examples in a way that works on new ones. If a model sees many labelled photos of cats, the goal is not to remember those exact photos. The goal is to classify a new cat photo correctly. This is why machine-learning projects divide data into training, [validation]({{ 'stop-training/' | relative_url }}), and [test sets]({{ 'test-sets/' | relative_url }}). The training set teaches the model; separate data estimates whether the learned pattern transfers.
 
-Overfitting is the classic failure. It happens when a model matches the training data so closely that it performs badly on new data. Google describes overfitting as memorising the training set so tightly that the model fails to make correct predictions on new examples. A Stanford machine-learning lecture gives the extreme example of “rote learning”: simply storing the training data can achieve perfect training performance while being useless on unseen cases. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Open source on google.com.</span></span></span>
+Overfitting is the classic failure. It happens when a model matches the training data so closely that it performs badly on new data. Google describes overfitting as memorising the training set so tightly that the model fails to make correct predictions on new examples. A Stanford machine-learning lecture gives the extreme example of “rote learning”: simply storing the training data can achieve perfect training performance while being useless on unseen cases.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Open source on google.com.</span></span></span>
 
-Underfitting is the opposite problem. The model is too simple, or the training process too weak, to capture the real pattern. Scikit-learn’s teaching examples illustrate this with curves: a model can be too rigid to follow the underlying shape, or so flexible that it follows noise rather than the signal. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scikit-learn.org">[Scikit-learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scikit-learn.org</span><span class="citation-popover-snippet">Open source on scikit-learn.org.</span></span></span>
+Underfitting is the opposite problem. The model is too simple, or the training process too weak, to capture the real pattern. Scikit-learn’s teaching examples illustrate this with curves: a model can be too rigid to follow the underlying shape, or so flexible that it follows noise rather than the signal.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scikit-learn.org">[Scikit-learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scikit-learn.org</span><span class="citation-popover-snippet">Open source on scikit-learn.org.</span></span></span>
 
 Good machine learning sits between these extremes. It should learn enough structure to perform the task, but not so much accidental detail that it becomes fragile. Techniques such as cross-validation, regularisation, more representative data, and careful testing are all attempts to answer the same question: has the model learned a pattern that will survive contact with new cases?
 
@@ -406,11 +406,11 @@ Good machine learning sits between these extremes. It should learn enough struct
 
 Machine learning can fail precisely because it is powerful at finding patterns. A model does not know which patterns are socially meaningful, causally reliable, temporary, biased, or accidental unless the data, objective, and evaluation process are designed to reveal that.
 
-One failure mode is **biased data**. If the examples reflect historical discrimination, missing groups, or unequal measurement, the model can reproduce those patterns. NIST’s work on AI bias emphasises that bias can enter through training data, but also through wider human and institutional systems around the data. Its public summary warns against treating AI bias as only a technical problem. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">Open source on nist.gov.</span></span></span>
+One failure mode is **biased data**. If the examples reflect historical discrimination, missing groups, or unequal measurement, the model can reproduce those patterns. NIST’s work on AI bias emphasises that bias can enter through training data, but also through wider human and institutional systems around the data. Its public summary warns against treating AI bias as only a technical problem.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">Open source on nist.gov.</span></span></span>
 
 A second failure mode is **spurious correlation**. A model may find a pattern that works in the training data but has no stable connection to the real target. For example, an image classifier might appear to recognise an object but actually rely on background cues that were common in the training images. When the background changes, performance collapses.
 
-A third failure mode is **distribution shift**, where the real-world data changes after training. This is common because models are often trained on historical data and deployed into future conditions. The Dive into Deep Learning textbook warns that models can achieve strong test-set accuracy yet fail in deployment when the data distribution shifts, and the Vector Institute notes that shifts can range from small changes to large disruptions such as the COVID-19 pandemic. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: d2l.ai">[Dive into Deep Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">d2l.ai</span><span class="citation-popover-snippet">Open source on d2l.ai.</span></span></span>
+A third failure mode is **distribution shift**, where the real-world data changes after training. This is common because models are often trained on historical data and deployed into future conditions. The Dive into Deep Learning textbook warns that models can achieve strong test-set accuracy yet fail in deployment when the data distribution shifts, and the Vector Institute notes that shifts can range from small changes to large disruptions such as the COVID-19 pandemic.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: d2l.ai">[Dive into Deep Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">d2l.ai</span><span class="citation-popover-snippet">Open source on d2l.ai.</span></span></span>
 
 A fourth failure mode is **metric mismatch**. The model may optimise exactly what developers asked for, but the metric may be an incomplete proxy for the real goal. In this sense, machine learning does not remove the need for judgement. It moves part of the design problem from writing rules to choosing data, labels, objectives, and evaluation tests.
 
@@ -418,7 +418,7 @@ A fourth failure mode is **metric mismatch**. The model may optimise exactly wha
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913-Illustration-3-dark.svg" | relative_url }}" alt="Machine Learning illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## A concrete lesson from algorithmic risk scores
 
-Risk-scoring tools in criminal justice are often discussed because they make the stakes of pattern learning visible. ProPublica’s 2016 investigation of the COMPAS recidivism tool argued that the system’s predictions produced racially unequal error patterns, while later debate examined whether different fairness definitions were being applied and whether such tools should be proprietary or transparent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: propublica.org">[ProPublica+2ProPublica]</a><span class="citation-popover" role="note"><span class="citation-popover-source">propublica.org</span><span class="citation-popover-title">Pro Publica Machine Bias</span><span class="citation-popover-snippet">Pro Publica Machine Bias</span></span></span>
+Risk-scoring tools in criminal justice are often discussed because they make the stakes of pattern learning visible. ProPublica’s 2016 investigation of the COMPAS recidivism tool argued that the system’s predictions produced racially unequal error patterns, while later debate examined whether different fairness definitions were being applied and whether such tools should be proprietary or transparent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: propublica.org">[ProPublica+2ProPublica]</a><span class="citation-popover" role="note"><span class="citation-popover-source">propublica.org</span><span class="citation-popover-title">Pro Publica Machine Bias</span><span class="citation-popover-snippet">Pro Publica Machine Bias</span></span></span>
 
 The lesson for [understanding]({{ 'understanding/' | relative_url }}) machine learning is not that every model is automatically unfair, nor that all statistical prediction is useless. The lesson is that a model trained on historical patterns can make consequential predictions while hiding difficult questions: What outcome was used as the label? Arrest, conviction, reoffending, or something else? Are all groups measured equally? Which error is worse: a false positive or a false negative? Who gets to inspect the system? These are pattern-learning questions as much as ethical ones, because the model’s behaviour follows from the examples and objectives it was given.
 
@@ -437,194 +437,194 @@ Machine learning is therefore best understood as a practical trade: less manual 
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How Machines Learn From Examples. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How Machines Learn From Examples. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Direct introduction to how machines learn from examples and training data.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Direct introduction to how machines learn from examples and training data.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Master Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=WpTSDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Master Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Master Algorithm">The Master Algorithm</a>
-        </h4>
-        <p class="fr-book-author">By Pedro Domingos</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Master Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=WpTSDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Master Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Master Algorithm">The Master Algorithm</a>
+</h4>
+<p class="fr-book-author">By Pedro Domingos</p>
         
-        <p class="fr-book-desc">Explains the core idea of learning patterns from data rather than rules.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains the core idea of learning patterns from data rather than rules.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
-        </h4>
-        <p class="fr-book-author">By Andriy Burkov</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
+</h4>
+<p class="fr-book-author">By Andriy Burkov</p>
         
-        <p class="fr-book-desc">Covers training, prediction, generalization, and common failure modes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers training, prediction, generalization, and common failure modes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Grokking+Machine+Learning+by+Luis+Serrano&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Grokking Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=X-9MEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Grokking Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Grokking+Machine+Learning+by+Luis+Serrano&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Grokking Machine Learning">Grokking Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Luis Serrano</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Grokking+Machine+Learning+by+Luis+Serrano&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Grokking Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=X-9MEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Grokking Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Grokking+Machine+Learning+by+Luis+Serrano&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Grokking Machine Learning">Grokking Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Luis Serrano</p>
         
-        <p class="fr-book-desc">Focuses on intuitive explanations of learning from examples.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Grokking+Machine+Learning+by+Luis+Serrano&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on intuitive explanations of learning from examples.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Grokking+Machine+Learning+by+Luis+Serrano&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Master+Algorithm&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Master Algorithm</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Master+Algorithm&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Master Algorithm</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/856ff982ae7b5ba163da.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/856ff982ae7b5ba163da.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/aad0c823f49d84d6dac2.jpg' | relative_url }}" alt="Listing image for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/aad0c823f49d84d6dac2.jpg' | relative_url }}" alt="Listing image for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/59d6570844f9044c0aba.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/59d6570844f9044c0aba.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 4 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/bd3c89e1c7ade9a4dd64.jpg' | relative_url }}" alt="Listing image for Palace Learning 4 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 4 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 4 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/bd3c89e1c7ade9a4dd64.jpg' | relative_url }}" alt="Listing image for Palace Learning 4 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 4 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="machine-learning-how-machines-learn-from-examples-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -640,7 +640,7 @@ Machine learning is therefore best understood as a practical trade: less manual 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -660,7 +660,7 @@ Machine learning is therefore best understood as a practical trade: less manual 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -692,7 +692,7 @@ Machine learning is therefore best understood as a practical trade: less manual 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -744,7 +744,7 @@ Machine learning is therefore best understood as a practical trade: less manual 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -789,7 +789,7 @@ Machine learning is therefore best understood as a practical trade: less manual 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -830,209 +830,209 @@ Machine learning is therefore best understood as a practical trade: less manual 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/machine-learning</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What is Machine Learning? | IBMThis pattern recognition ability enables machine learning models to make decisions or predictions witho...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/machine-learning</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is Machine Learning? | IBMThis pattern recognition ability enables machine learning models to make decisions or predictions witho...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/linear-regression/loss" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/linear-regression/loss</a>  
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/linear-regression/loss" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/linear-regression/loss</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/design/ai/basics/ml/" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/design/ai/basics/ml/</a>  
+   Link:<a href="https://www.ibm.com/design/ai/basics/ml/" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/design/ai/basics/ml/</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: cs.cmu.edu  
-   Link: <a href="https://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf</a>  
+   Link:<a href="https://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/training-data" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/training-data</a>  
+   Link:<a href="https://www.ibm.com/think/topics/training-data" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/training-data</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/overfitting/overfitting" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/overfitting</a>  
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/overfitting/overfitting" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/overfitting</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: web.stanford.edu  
-   Link: <a href="https://web.stanford.edu/class/archive/cs/cs221/cs221.1186/lectures/learning3.pdf" target="_blank" rel="noopener noreferrer nofollow">https://web.stanford.edu/class/archive/cs/cs221/cs221.1186/lectures/learning3.pdf</a>  
+   Link:<a href="https://web.stanford.edu/class/archive/cs/cs221/cs221.1186/lectures/learning3.pdf" target="_blank" rel="noopener noreferrer nofollow">https://web.stanford.edu/class/archive/cs/cs221/cs221.1186/lectures/learning3.pdf</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: scikit-learn.org  
-   Link: <a href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html</a>  
+   Link:<a href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: nvlpubs.nist.gov  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf</a>  
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270.pdf</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: nist.gov  
    Title: theres more ai bias biased data nist report highlights  
-   Link: <a href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</a>  
+   Link:<a href="https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2022/03/theres-more-ai-bias-biased-data-nist-report-highlights</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: propublica.org  
    Title: Pro Publica Machine Bias  
-   Link: <a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" target="_blank" rel="noopener noreferrer nofollow">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a>  
+   Link:<a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" target="_blank" rel="noopener noreferrer nofollow">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: propublica.org  
    Title: how we analyzed the compas recidivism algorithm  
-   Link: <a href="https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm" target="_blank" rel="noopener noreferrer nofollow">https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm</a>  
+   Link:<a href="https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm" target="_blank" rel="noopener noreferrer nofollow">https://www.propublica.org/article/how-we-analyzed-the-compas-recidivism-algorithm</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: ibm.com  
    Title: machine learning  
-   Link: <a href="https://www.ibm.com/think/machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/machine-learning</a>  
+   Link:<a href="https://www.ibm.com/think/machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/machine-learning</a>  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: ibm.com  
    Title: ai vs machine learning vs deep learning vs neural networks  
-   Link: <a href="https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks</a>  
+   Link:<a href="https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-vs-machine-learning-vs-deep-learning-vs-neural-networks</a>  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/ai-data-management" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-data-management</a>  
+   Link:<a href="https://www.ibm.com/think/topics/ai-data-management" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-data-management</a>  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/machine-learning-types" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/machine-learning-types</a>  
+   Link:<a href="https://www.ibm.com/think/topics/machine-learning-types" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/machine-learning-types</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/machine-learning-algorithms" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/machine-learning-algorithms</a>  
+   Link:<a href="https://www.ibm.com/think/topics/machine-learning-algorithms" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/machine-learning-algorithms</a>  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/supervised-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/supervised-learning</a>  
+   Link:<a href="https://www.ibm.com/think/topics/supervised-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/supervised-learning</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/algorithmic-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/algorithmic-bias</a>  
+   Link:<a href="https://www.ibm.com/think/topics/algorithmic-bias" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/algorithmic-bias</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: web.stanford.edu  
-   Link: <a href="https://web.stanford.edu/class/bios221/book/12-chap.html" target="_blank" rel="noopener noreferrer nofollow">https://web.stanford.edu/class/bios221/book/12-chap.html</a>  
+   Link:<a href="https://web.stanford.edu/class/bios221/book/12-chap.html" target="_blank" rel="noopener noreferrer nofollow">https://web.stanford.edu/class/bios221/book/12-chap.html</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: developers.google.com  
    Title: crash course  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course</a>  
+   Link:<a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: google.com  
-   Link: <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
+   Link:<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: developers.google.com  
    Title: rules of ml  
-   Link: <a href="https://developers.google.com/machine-learning/guides/rules-of-ml" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/guides/rules-of-ml</a>  
+   Link:<a href="https://developers.google.com/machine-learning/guides/rules-of-ml" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/guides/rules-of-ml</a>  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: me.developers.google.com  
-   Link: <a href="https://me.developers.google.com/u/115234236287988150607" target="_blank" rel="noopener noreferrer nofollow">https://me.developers.google.com/u/115234236287988150607</a>  
+   Link:<a href="https://me.developers.google.com/u/115234236287988150607" target="_blank" rel="noopener noreferrer nofollow">https://me.developers.google.com/u/115234236287988150607</a>  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/glossary" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/glossary</a>  
+   Link:<a href="https://developers.google.com/machine-learning/glossary" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/glossary</a>  
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: cloud.google.com  
    Title: what is machine learning  
-   Link: <a href="https://cloud.google.com/learn/what-is-machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/learn/what-is-machine-learning</a>  
+   Link:<a href="https://cloud.google.com/learn/what-is-machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/learn/what-is-machine-learning</a>  
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: nvlpubs.nist.gov  
    Title: NIST.SP.1270 draft  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270-draft.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270-draft.pdf</a>  
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270-draft.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1270-draft.pdf</a>  
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: about.google  
-   Link: <a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
+   Link:<a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: scikit-learn.org  
-   Link: <a href="https://scikit-learn.org/0.19/auto_examples/model_selection/plot_underfitting_overfitting.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/0.19/auto_examples/model_selection/plot_underfitting_overfitting.html</a>  
+   Link:<a href="https://scikit-learn.org/0.19/auto_examples/model_selection/plot_underfitting_overfitting.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/0.19/auto_examples/model_selection/plot_underfitting_overfitting.html</a>  
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: d2l.ai  
-   Link: <a href="https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html" target="_blank" rel="noopener noreferrer nofollow">https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html</a>  
+   Link:<a href="https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html" target="_blank" rel="noopener noreferrer nofollow">https://d2l.ai/chapter_linear-classification/environment-and-distribution-shift.html</a>  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: blog.google  
    Title: machine learning crash course  
-   Link: <a href="https://blog.google/innovation-and-ai/technology/developers-tools/machine-learning-crash-course/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/innovation-and-ai/technology/developers-tools/machine-learning-crash-course/</a>  
+   Link:<a href="https://blog.google/innovation-and-ai/technology/developers-tools/machine-learning-crash-course/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/innovation-and-ai/technology/developers-tools/machine-learning-crash-course/</a>  
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: Wikipedia  
    Title: Machine learning  
-   Link: <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Machine_learning</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Machine_learning</a>  
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: Wikipedia  
    Title: Supervised learning  
-   Link: <a href="https://en.wikipedia.org/wiki/Supervised_learning" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Supervised_learning</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Supervised_learning" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Supervised_learning</a>  
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/groups/2059467967664033/posts/3393801757563974/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/2059467967664033/posts/3393801757563974/</a>  
+   Link:<a href="https://www.facebook.com/groups/2059467967664033/posts/3393801757563974/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/2059467967664033/posts/3393801757563974/</a>  
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: zhaohuabing.com  
    Title: Machine Learning  
-   Link: <a href="https://www.zhaohuabing.com/post/2018-12-24-machine-learningp-introduction/" target="_blank" rel="noopener noreferrer nofollow">https://www.zhaohuabing.com/post/2018-12-24-machine-learningp-introduction/</a>  
+   Link:<a href="https://www.zhaohuabing.com/post/2018-12-24-machine-learningp-introduction/" target="_blank" rel="noopener noreferrer nofollow">https://www.zhaohuabing.com/post/2018-12-24-machine-learningp-introduction/</a>  
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: learnai.im  
-   Link: <a href="https://learnai.im/courses/curated-external-training-for-experts/lessons/google-for-developers-machine-learning-crash-course-15-hours/" target="_blank" rel="noopener noreferrer nofollow">https://learnai.im/courses/curated-external-training-for-experts/lessons/google-for-developers-machine-learning-crash-course-15-hours/</a>  
+   Link:<a href="https://learnai.im/courses/curated-external-training-for-experts/lessons/google-for-developers-machine-learning-crash-course-15-hours/" target="_blank" rel="noopener noreferrer nofollow">https://learnai.im/courses/curated-external-training-for-experts/lessons/google-for-developers-machine-learning-crash-course-15-hours/</a>  
 
 ### Additional References
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: youtube.com  
    Title: Does learning require memorization? A short tale about a long tail  
-   Link: <a href="https://www.youtube.com/watch?v=Fp7cgHRl8Yc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Fp7cgHRl8Yc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning Explained in Plain English | AI Basics for Beginners - YouTube Machine Learning Explained in Plain English | AI Basics f...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Fp7cgHRl8Yc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Fp7cgHRl8Yc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning Explained in Plain English | AI Basics for Beginners - YouTube Machine Learning Explained in Plain English | AI Basics f...</p></details>
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: youtube.com  
    Title: Machine Learning Fundamentals | ML vs Traditional Programming  
-   Link: <a href="https://www.youtube.com/watch?v=W87pTn0d91o" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=W87pTn0d91o</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Does learning require memorization? A short tale about a long tail - Vitaly Feldman, Google Brain...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=W87pTn0d91o" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=W87pTn0d91o</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Does learning require memorization? A short tale about a long tail - Vitaly Feldman, Google Brain...</p></details>
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: youtube.com  
    Title: Machine Learning Explained in Plain English | AI Basics for Beginners  
-   Link: <a href="https://www.youtube.com/watch?v=8GtCvDF78cU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8GtCvDF78cU</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning and Pattern Recognition | | UPV...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=8GtCvDF78cU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8GtCvDF78cU</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning and Pattern Recognition | | UPV...</p></details>
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: uscourts.gov  
-   Link: <a href="https://www.uscourts.gov/sites/default/files/80_2_6_0.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.uscourts.gov/sites/default/files/80_2_6_0.pdf</a>  
+   Link:<a href="https://www.uscourts.gov/sites/default/files/80_2_6_0.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.uscourts.gov/sites/default/files/80_2_6_0.pdf</a>  
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=CUTnUpPohS4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=CUTnUpPohS4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning Fundamentals | ML vs Traditional Programming...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=CUTnUpPohS4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=CUTnUpPohS4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning Fundamentals | ML vs Traditional Programming...</p></details>
 
-42. <a id="endnote-42"></a>
+42.<a id="endnote-42"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/224103556_Arthur_Samuel_Pioneer_in_Machine_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/224103556_Arthur_Samuel_Pioneer_in_Machine_Learning</a>  
+   Link:<a href="https://www.researchgate.net/publication/224103556_Arthur_Samuel_Pioneer_in_Machine_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/224103556_Arthur_Samuel_Pioneer_in_Machine_Learning</a>  
 
-43. <a id="endnote-43"></a>
+43.<a id="endnote-43"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/350834453_Machine_learning_and_deep_learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/350834453_Machine_learning_and_deep_learning</a>  
+   Link:<a href="https://www.researchgate.net/publication/350834453_Machine_learning_and_deep_learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/350834453_Machine_learning_and_deep_learning</a>  
 
-44. <a id="endnote-44"></a>
+44.<a id="endnote-44"></a>
    Source: deeplearningbook.org  
-   Link: <a href="https://www.deeplearningbook.org/contents/ml.html" target="_blank" rel="noopener noreferrer nofollow">https://www.deeplearningbook.org/contents/ml.html</a>  
+   Link:<a href="https://www.deeplearningbook.org/contents/ml.html" target="_blank" rel="noopener noreferrer nofollow">https://www.deeplearningbook.org/contents/ml.html</a>  
 
-45. <a id="endnote-45"></a>
+45.<a id="endnote-45"></a>
    Source: kaggle.com  
-   Link: <a href="https://www.kaggle.com/general/556370" target="_blank" rel="noopener noreferrer nofollow">https://www.kaggle.com/general/556370</a>  
+   Link:<a href="https://www.kaggle.com/general/556370" target="_blank" rel="noopener noreferrer nofollow">https://www.kaggle.com/general/556370</a>  
 
-46. <a id="endnote-46"></a>
+46.<a id="endnote-46"></a>
    Source: brookings.edu  
-   Link: <a href="https://www.brookings.edu/articles/algorithmic-bias-detection-and-mitigation-best-practices-and-policies-to-reduce-consumer-harms/" target="_blank" rel="noopener noreferrer nofollow">https://www.brookings.edu/articles/algorithmic-bias-detection-and-mitigation-best-practices-and-policies-to-reduce-consumer-harms/</a>  
+   Link:<a href="https://www.brookings.edu/articles/algorithmic-bias-detection-and-mitigation-best-practices-and-policies-to-reduce-consumer-harms/" target="_blank" rel="noopener noreferrer nofollow">https://www.brookings.edu/articles/algorithmic-bias-detection-and-mitigation-best-practices-and-policies-to-reduce-consumer-harms/</a>  

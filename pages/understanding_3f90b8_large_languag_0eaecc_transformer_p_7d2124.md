@@ -288,11 +288,11 @@ image: /assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d
 
 ## Introduction
 
-The 2017 paper *Attention Is All You Need* did not change the basic objective of [language models]({{ 'language-models/' | relative_url }}). They still learned by predicting the next token in a sequence. What changed was the architecture used to perform that prediction. By replacing recurrent processing with [self-attention]({{ 'self-attention/' | relative_url }}), the Transformer made it practical to train much larger models on far more data and much longer contexts. That shift turned next-token prediction from a useful language-modelling technique into the foundation of modern large language models and chatbots. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The 2017 paper *Attention Is All You Need* did not change the basic objective of [language models]({{ 'language-models/' | relative_url }}). They still learned by predicting the next token in a sequence. What changed was the architecture used to perform that prediction. By replacing recurrent processing with [self-attention]({{ 'self-attention/' | relative_url }}), the Transformer made it practical to train much larger models on far more data and much longer contexts. That shift turned next-token prediction from a useful language-modelling technique into the foundation of modern large language models and chatbots.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d2124-Illustration-1-dark.svg" | relative_url }}" alt="Transformer shift illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d2124-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d2124-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Before the Transformer, many leading sequence models relied on recurrent neural networks (RNNs) or their variants such as Long Short-Term Memory (LSTM) networks. These systems processed text one step at a time. The Transformer showed that a model could instead examine relationships among tokens through [attention]({{ 'attention/' | relative_url }}) mechanisms while processing many positions in parallel. That design decision proved to be one of the most important technical milestones in the history of artificial intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+Before the Transformer, many leading sequence models relied on recurrent neural networks (RNNs) or their variants such as Long Short-Term Memory (LSTM) networks. These systems processed text one step at a time. The Transformer showed that a model could instead examine relationships among tokens through [attention]({{ 'attention/' | relative_url }}) mechanisms while processing many positions in parallel. That design decision proved to be one of the most important technical milestones in the history of artificial intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/A36u6DB_TgU" title="Your Next-Token Prediction and Transformers Are Biased for Long-Context Modeling - Yifei Wang｜ASAP20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=A36u6DB_TgU" target="_blank" rel="noopener noreferrer">Your Next-Token Prediction and Transformers Are Biased for Long-Context Modeling - Yifei Wang｜ASAP20</a></p><p class="youtube-embed-meta">Channel: ASAP Seminar Series</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=A36u6DB_TgU" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=A36u6DB_TgU">Open on YouTube</a></p></div></div></div>
@@ -301,11 +301,11 @@ Before the Transformer, many leading sequence models relied on recurrent neural 
 
 The key innovation was not the idea of predicting the next token. Language models had been doing that for decades. The breakthrough was changing how information flowed through the network.
 
-In recurrent models, each token is processed after the previous one. The model carries forward an internal state that attempts to summarise everything seen so far. This sequential structure creates two limitations. First, training is difficult to parallelise because each step depends on the completion of the previous step. Second, information from distant parts of a sequence can become harder to preserve and use effectively. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+In recurrent models, each token is processed after the previous one. The model carries forward an internal state that attempts to summarise everything seen so far. This sequential structure creates two limitations. First, training is difficult to parallelise because each step depends on the completion of the previous step. Second, information from distant parts of a sequence can become harder to preserve and use effectively.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-The Transformer removed recurrence entirely. Instead of forcing information through a chain of sequential states, it allowed each token representation to interact directly with other relevant tokens through attention. The original paper explicitly described the architecture as being based solely on attention mechanisms, dispensing with recurrence and convolutions. The result was a model that trained faster, scaled more efficiently across hardware, and achieved state-of-the-art translation performance at the time. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The Transformer removed recurrence entirely. Instead of forcing information through a chain of sequential states, it allowed each token representation to interact directly with other relevant tokens through attention. The original paper explicitly described the architecture as being based solely on attention mechanisms, dispensing with recurrence and convolutions. The result was a model that trained faster, scaled more efficiently across hardware, and achieved state-of-the-art translation performance at the time.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-For next-token [prediction]({{ 'error-harms/' | relative_url }}), this meant that the model no longer had to compress all prior context into a single evolving hidden state. Relevant information could be accessed more directly when estimating the next token. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Mechanics of Next Token Prediction with Self-Attention</span><span class="citation-popover-snippet">Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</span><span class="citation-popover-meta">Published: March 12, 2024</span></span></span>
+For next-token [prediction]({{ 'error-harms/' | relative_url }}), this meant that the model no longer had to compress all prior context into a single evolving hidden state. Relevant information could be accessed more directly when estimating the next token.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Mechanics of Next Token Prediction with Self-Attention</span><span class="citation-popover-snippet">Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</span><span class="citation-popover-meta">Published: March 12, 2024</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/bCz4OMemCcA" title="Attention is all you need (Transformer) - Model explanation (including math), Inference and Training" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=bCz4OMemCcA" target="_blank" rel="noopener noreferrer">Attention is all you need (Transformer) - Model explanation (including math), Inference and Training</a></p><p class="youtube-embed-meta">Channel: Umar Jamil &middot; Views: 708.5K &middot; Uploaded: May 2023 &middot; Length: 58 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=bCz4OMemCcA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=bCz4OMemCcA">Open on YouTube</a></p></div></div></div>
@@ -314,17 +314,17 @@ For next-token [prediction]({{ 'error-harms/' | relative_url }}), this meant tha
 
 Self-attention is the mechanism that made the Transformer distinctive.
 
-When predicting the next token, the model examines the tokens already present in the context. Rather than treating nearby tokens as inherently more important than distant ones, self-attention allows the model to calculate which earlier tokens are most relevant to the current prediction. Each token can effectively "look at" other tokens and assign different weights to them. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://magazine.sebastianraschka.com/p/visual-attention-variants" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: magazine.sebastianraschka.com">[Sebastian Raschka’s Magazine]</a><span class="citation-popover" role="note"><span class="citation-popover-source">magazine.sebastianraschka.com</span><span class="citation-popover-title">visual attention variants</span><span class="citation-popover-snippet">Sebastian Raschka’s MagazineA Visual Guide to Attention Variants in Modern LLMs22 Mar 2026 — In transformers, that mechanism is called se...</span></span></span>
+When predicting the next token, the model examines the tokens already present in the context. Rather than treating nearby tokens as inherently more important than distant ones, self-attention allows the model to calculate which earlier tokens are most relevant to the current prediction. Each token can effectively "look at" other tokens and assign different weights to them.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://magazine.sebastianraschka.com/p/visual-attention-variants" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: magazine.sebastianraschka.com">[Sebastian Raschka’s Magazine]</a><span class="citation-popover" role="note"><span class="citation-popover-source">magazine.sebastianraschka.com</span><span class="citation-popover-title">visual attention variants</span><span class="citation-popover-snippet">Sebastian Raschka’s MagazineA Visual Guide to Attention Variants in Modern LLMs22 Mar 2026 — In transformers, that mechanism is called se...</span></span></span>
 
 Consider a sentence containing a pronoun such as:
 
 > The scientist presented her findings after months of research.
 
-To predict words that follow, the model benefits from connecting "her" with "scientist". In a recurrent architecture, that relationship must survive through a chain of intermediate processing steps. In a Transformer, attention creates a more direct pathway between those tokens. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+To predict words that follow, the model benefits from connecting "her" with "scientist". In a recurrent architecture, that relationship must survive through a chain of intermediate processing steps. In a Transformer, attention creates a more direct pathway between those tokens.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-This ability becomes even more important in longer documents. A question at the end of a prompt may depend on information introduced many paragraphs earlier. Attention allows the model to establish links across that context without relying entirely on a compressed memory state. The original Transformer also introduced [multi-head]({{ 'multi-heads/' | relative_url }}) attention, allowing the model to track different kinds of relationships simultaneously. One attention head might focus on grammatical structure while another focuses on semantic relationships or topic continuity. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+This ability becomes even more important in longer documents. A question at the end of a prompt may depend on information introduced many paragraphs earlier. Attention allows the model to establish links across that context without relying entirely on a compressed memory state. The original Transformer also introduced [multi-head]({{ 'multi-heads/' | relative_url }}) attention, allowing the model to track different kinds of relationships simultaneously. One attention head might focus on grammatical structure while another focuses on semantic relationships or topic continuity.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-The result is not human [understanding]({{ 'understanding/' | relative_url }}) in the ordinary sense. The model is still performing statistical prediction. However, it can use contextual information much more effectively when making those predictions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Mechanics of Next Token Prediction with Self-Attention</span><span class="citation-popover-snippet">Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</span><span class="citation-popover-meta">Published: March 12, 2024</span></span></span>
+The result is not human [understanding]({{ 'understanding/' | relative_url }}) in the ordinary sense. The model is still performing statistical prediction. However, it can use contextual information much more effectively when making those predictions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Mechanics of Next Token Prediction with Self-Attention</span><span class="citation-popover-snippet">Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</span><span class="citation-popover-meta">Published: March 12, 2024</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d2124-Illustration-2-dark.svg" | relative_url }}" alt="Transformer shift illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d2124-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d2124-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -332,13 +332,13 @@ The result is not human [understanding]({{ 'understanding/' | relative_url }}) i
 
 The most important long-term consequence of the Transformer was scalability.
 
-Researchers quickly discovered that Transformer-based models improved predictably as they were trained with more parameters, more data, and more computing power. Because the architecture could process training examples in parallel, organisations could train models at a scale that was far more difficult with earlier recurrent approaches. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+Researchers quickly discovered that Transformer-based models improved predictably as they were trained with more parameters, more data, and more computing power. Because the architecture could process training examples in parallel, organisations could train models at a scale that was far more difficult with earlier recurrent approaches.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-This mattered because next-token prediction is a data-hungry objective. A model trained on a small corpus learns limited patterns. A model trained on vast portions of the internet, books, code repositories, and other text sources learns an enormous range of statistical relationships. The Transformer provided a practical way to exploit that scale. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://sebastianraschka.com/faq/docs/next-token-prediction.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: sebastianraschka.com">[Sebastian Raschka, PhD+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">sebastianraschka.com</span><span class="citation-popover-snippet">Open source on sebastianraschka.com.</span></span></span>
+This mattered because next-token prediction is a data-hungry objective. A model trained on a small corpus learns limited patterns. A model trained on vast portions of the internet, books, code repositories, and other text sources learns an enormous range of statistical relationships. The Transformer provided a practical way to exploit that scale.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://sebastianraschka.com/faq/docs/next-token-prediction.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: sebastianraschka.com">[Sebastian Raschka, PhD+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">sebastianraschka.com</span><span class="citation-popover-snippet">Open source on sebastianraschka.com.</span></span></span>
 
-An important historical irony is that the original paper focused on machine translation rather than chatbots. The authors demonstrated strong results on translation benchmarks and emphasised efficiency and parallelisation. Yet the architectural changes they introduced turned out to be ideally suited for large-scale self-supervised language modelling, where the task is simply to predict missing or future tokens. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+An important historical irony is that the original paper focused on machine translation rather than chatbots. The authors demonstrated strong results on translation benchmarks and emphasised efficiency and parallelisation. Yet the architectural changes they introduced turned out to be ideally suited for large-scale self-supervised language modelling, where the task is simply to predict missing or future tokens.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-As larger Transformer models were trained, capabilities that seemed unrelated to next-token prediction began to emerge. Models became increasingly effective at summarisation, question answering, coding assistance, instruction following, and dialogue. The training objective remained fundamentally the same, but the scale of the model and the richness of its learned representations expanded dramatically. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Mechanics of Next Token Prediction with Self-Attention</span><span class="citation-popover-snippet">Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</span><span class="citation-popover-meta">Published: March 12, 2024</span></span></span>
+As larger Transformer models were trained, capabilities that seemed unrelated to next-token prediction began to emerge. Models became increasingly effective at summarisation, question answering, coding assistance, instruction following, and dialogue. The training objective remained fundamentally the same, but the scale of the model and the richness of its learned representations expanded dramatically.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Mechanics of Next Token Prediction with Self-Attention</span><span class="citation-popover-snippet">Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</span><span class="citation-popover-meta">Published: March 12, 2024</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/dBxc5Zrp7Fc" title="0.1% AI Researchers INVENT New LLM Pretraining - Predict Order of All Future Tokens" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=dBxc5Zrp7Fc" target="_blank" rel="noopener noreferrer">0.1% AI Researchers INVENT New LLM Pretraining - Predict Order of All Future Tokens</a></p><p class="youtube-embed-meta">Channel: Vuk Rosić</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=dBxc5Zrp7Fc" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=dBxc5Zrp7Fc">Open on YouTube</a></p></div></div></div>
@@ -347,202 +347,202 @@ As larger Transformer models were trained, capabilities that seemed unrelated to
 
 The Transformer did not replace next-token prediction with a new goal. Instead, it made that goal vastly more productive.
 
-Before 2017, predicting the next token was a useful but relatively constrained technique. After the Transformer, the same objective could be applied to larger datasets, longer contexts, and much larger models. Attention provided a more flexible way to connect information across text, while parallel processing made large-scale training economically and technically feasible. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+Before 2017, predicting the next token was a useful but relatively constrained technique. After the Transformer, the same objective could be applied to larger datasets, longer contexts, and much larger models. Attention provided a more flexible way to connect information across text, while parallel processing made large-scale training economically and technically feasible.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-Modern chatbots are therefore not the result of abandoning next-token prediction. They are largely the result of combining that simple objective with an architecture that scales extraordinarily well. The Transformer transformed next-token prediction from a specialised language-modelling method into the core engine of contemporary [generative AI]({{ 'generative-ai/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Mechanics of Next Token Prediction with Self-Attention</span><span class="citation-popover-snippet">Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</span><span class="citation-popover-meta">Published: March 12, 2024</span></span></span>
+Modern chatbots are therefore not the result of abandoning next-token prediction. They are largely the result of combining that simple objective with an architecture that scales extraordinarily well. The Transformer transformed next-token prediction from a specialised language-modelling method into the core engine of contemporary [generative AI]({{ 'generative-ai/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Mechanics of Next Token Prediction with Self-Attention</span><span class="citation-popover-snippet">Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</span><span class="citation-popover-meta">Published: March 12, 2024</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d2124-Illustration-3-dark.svg" | relative_url }}" alt="Transformer shift illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d2124-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_transformer_p_7d2124-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why attention made prediction scale. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why attention made prediction scale. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Explains transformers, attention, scaling, and next-token prediction in practical terms.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains transformers, attention, scaling, and next-token prediction in practical terms.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Focused directly on transformer architectures and their NLP applications.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focused directly on transformer architectures and their NLP applications.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
-        </h4>
-        <p class="fr-book-author">By Sebastian Raschka</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
+</h4>
+<p class="fr-book-author">By Sebastian Raschka</p>
         
-        <p class="fr-book-desc">Shows how transformer-based language models are built and trained.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how transformer-based language models are built and trained.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Natural Language Processing on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Ua03zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Natural Language Processing" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Natural Language Processing">Transformers for Natural Language Processing</a>
-        </h4>
-        <p class="fr-book-author">By Denis Rothman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Natural Language Processing on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Ua03zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Natural Language Processing" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Natural Language Processing">Transformers for Natural Language Processing</a>
+</h4>
+<p class="fr-book-author">By Denis Rothman</p>
         
-        <p class="fr-book-desc">Covers self-attention, encoder-decoder models, BERT, GPT, and scaling concepts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers self-attention, encoder-decoder models, BERT, GPT, and scaling concepts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Abstract technology AI Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5778e66ff2a2bd54f370.jpg' | relative_url }}" alt="Listing image for Abstract technology AI Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Abstract technology AI Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Abstract technology AI Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5778e66ff2a2bd54f370.jpg' | relative_url }}" alt="Listing image for Abstract technology AI Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Abstract technology AI Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor"><img src="{{ '/assets/images/marketplace-covers/02aabf69323230be608b.jpg' | relative_url }}" alt="Listing image for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor"><img src="{{ '/assets/images/marketplace-covers/02aabf69323230be608b.jpg' | relative_url }}" alt="Listing image for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art"><img src="{{ '/assets/images/marketplace-covers/249fbf09ccb3b6116c54.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art"><img src="{{ '/assets/images/marketplace-covers/249fbf09ccb3b6116c54.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art"><img src="{{ '/assets/images/marketplace-covers/62e7a309bd3b32d41258.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art"><img src="{{ '/assets/images/marketplace-covers/62e7a309bd3b32d41258.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="transformer-shift-why-attention-made-prediction-scale-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -558,7 +558,7 @@ Modern chatbots are therefore not the result of abandoning next-token prediction
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -578,7 +578,7 @@ Modern chatbots are therefore not the result of abandoning next-token prediction
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -610,7 +610,7 @@ Modern chatbots are therefore not the result of abandoning next-token prediction
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -662,7 +662,7 @@ Modern chatbots are therefore not the result of abandoning next-token prediction
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -707,7 +707,7 @@ Modern chatbots are therefore not the result of abandoning next-token prediction
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -748,123 +748,123 @@ Modern chatbots are therefore not the result of abandoning next-token prediction
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv Attention Is All You Need  
-   Link: <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedJune 12, 2017...</p></details>
+   Link:<a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedJune 12, 2017...</p></details>
    Published: June 12, 2017  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: Wikipedia  
    Title: Transformer (deep learning)  
-   Link: <a href="https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer (deep learning)In deep learning, the transformer is a family of artificial neural network architectures based on the multi...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer (deep learning)In deep learning, the transformer is a family of artificial neural network architectures based on the multi...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1706.03762</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with...</p></details>
+   Link:<a href="https://arxiv.org/pdf/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1706.03762</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
    Title: arXiv Mechanics of Next Token Prediction with Self-Attention  
-   Link: <a href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2403.08081</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</p></details>
+   Link:<a href="https://arxiv.org/abs/2403.08081" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2403.08081</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mechanics of Next Token Prediction with Self-AttentionMarch 12, 2024 — by Y Li · 2024 · Cited by 73 — Abstract:Transformer-based lan...</p></details>
    Published: March 12, 2024  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: Wikipedia  
    Title: Attention Is All You Need  
-   Link: <a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need&quot;Attention Is All You Need&quot; is a 2017 research paper in [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) authored by eight scientists and eng...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need&quot;Attention Is All You Need&quot; is a 2017 research paper in [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) authored by eight scientists and eng...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2509.24435v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.24435v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Alternatives To Next Token Prediction In Text GenerationSep 29, 2025 — Defined as the task of predicting the next subword token given the...</p></details>
+   Link:<a href="https://arxiv.org/html/2509.24435v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.24435v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Alternatives To Next Token Prediction In Text GenerationSep 29, 2025 — Defined as the task of predicting the next subword token given the...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v7</a>  
+   Link:<a href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v7</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2104.08771" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2104.08771</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Adapting Pretrained Transformers for Machine Translationby M Gheini · 2021 · Cited by 249 — We study the power of cross-attention in the...</p></details>
+   Link:<a href="https://arxiv.org/abs/2104.08771" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2104.08771</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adapting Pretrained Transformers for Machine Translationby M Gheini · 2021 · Cited by 249 — We study the power of cross-attention in the...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: artificial-intelligence.blog  
    Title: attention is all you need  
-   Link: <a href="https://www.artificial-intelligence.blog/ai-news/attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence.blog/ai-news/attention-is-all-you-need</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Revolutionizing AI with the Transformer Model: “Attention Is...12 Jun 2025 — In 2017, a groundbreaking paper titled “Attention Is All Yo...</p></details>
+   Link:<a href="https://www.artificial-intelligence.blog/ai-news/attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence.blog/ai-news/attention-is-all-you-need</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Revolutionizing AI with the Transformer Model: “Attention Is...12 Jun 2025 — In 2017, a groundbreaking paper titled “Attention Is All Yo...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: magazine.sebastianraschka.com  
    Title: visual attention variants  
-   Link: <a href="https://magazine.sebastianraschka.com/p/visual-attention-variants" target="_blank" rel="noopener noreferrer nofollow">https://magazine.sebastianraschka.com/p/visual-attention-variants</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Sebastian Raschka’s MagazineA Visual Guide to Attention Variants in Modern LLMs22 Mar 2026 — In transformers, that mechanism is called se...</p></details>
+   Link:<a href="https://magazine.sebastianraschka.com/p/visual-attention-variants" target="_blank" rel="noopener noreferrer nofollow">https://magazine.sebastianraschka.com/p/visual-attention-variants</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Sebastian Raschka’s MagazineA Visual Guide to Attention Variants in Modern LLMs22 Mar 2026 — In transformers, that mechanism is called se...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: sebastianraschka.com  
-   Link: <a href="https://sebastianraschka.com/faq/docs/next-token-prediction.html" target="_blank" rel="noopener noreferrer nofollow">https://sebastianraschka.com/faq/docs/next-token-prediction.html</a>  
+   Link:<a href="https://sebastianraschka.com/faq/docs/next-token-prediction.html" target="_blank" rel="noopener noreferrer nofollow">https://sebastianraschka.com/faq/docs/next-token-prediction.html</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: academia.edu  
    Title: Attention Is All You Need  
-   Link: <a href="https://www.academia.edu/113744173/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://www.academia.edu/113744173/Attention_Is_All_You_Need</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Attention Is All You NeedEffective approaches to attention- based neural machine translation. arXiv preprint arXiv:1508.04025, 2015...</p></details>
+   Link:<a href="https://www.academia.edu/113744173/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://www.academia.edu/113744173/Attention_Is_All_You_Need</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Attention Is All You NeedEffective approaches to attention- based neural machine translation. arXiv preprint arXiv:1508.04025, 2015...</p></details>
 
 ### Additional References
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40weidagang/coffee-time-papers-attention-is-all-you-need-3c7d6bc75eab" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40weidagang/coffee-time-papers-attention-is-all-you-need-3c7d6bc75eab</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Coffee Time Papers: Attention Is All You NeedThe paper introduces the Transformer, a new neural network architecture that relies entirely...</p></details>
+   Link:<a href="https://medium.com/%40weidagang/coffee-time-papers-attention-is-all-you-need-3c7d6bc75eab" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40weidagang/coffee-time-papers-attention-is-all-you-need-3c7d6bc75eab</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Coffee Time Papers: Attention Is All You NeedThe paper introduces the Transformer, a new neural network architecture that relies entirely...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40pacosun/how-large-language-models-learn-to-predict-1edd6ab8d0d7" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40pacosun/how-large-language-models-learn-to-predict-1edd6ab8d0d7</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Large Language Models Learn to PredictThe answer is simple: they predict what comes next. LLMs are trained with one goal in mind, and...</p></details>
+   Link:<a href="https://medium.com/%40pacosun/how-large-language-models-learn-to-predict-1edd6ab8d0d7" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40pacosun/how-large-language-models-learn-to-predict-1edd6ab8d0d7</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Large Language Models Learn to PredictThe answer is simple: they predict what comes next. LLMs are trained with one goal in mind, and...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: research.google  
-   Link: <a href="https://research.google/pubs/mechanics-of-next-token-prediction-with-transformers/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/mechanics-of-next-token-prediction-with-transformers/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mechanics of Next Token Prediction with TransformersTransformer-based language models are trained on large datasets to predict the next t...</p></details>
+   Link:<a href="https://research.google/pubs/mechanics-of-next-token-prediction-with-transformers/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/mechanics-of-next-token-prediction-with-transformers/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mechanics of Next Token Prediction with TransformersTransformer-based language models are trained on large datasets to predict the next t...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: zeroentropy.dev  
-   Link: <a href="https://zeroentropy.dev/concepts/large-language-model/" target="_blank" rel="noopener noreferrer nofollow">https://zeroentropy.dev/concepts/large-language-model/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM: transformer next-token predictors as reasoning enginesA large language model is a transformer trained on vast text to predict the ne...</p></details>
+   Link:<a href="https://zeroentropy.dev/concepts/large-language-model/" target="_blank" rel="noopener noreferrer nofollow">https://zeroentropy.dev/concepts/large-language-model/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLM: transformer next-token predictors as reasoning enginesA large language model is a transformer trained on vast text to predict the ne...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: inspirehep.net  
-   Link: <a href="https://inspirehep.net/literature/2702854" target="_blank" rel="noopener noreferrer nofollow">https://inspirehep.net/literature/2702854</a>  
+   Link:<a href="https://inspirehep.net/literature/2702854" target="_blank" rel="noopener noreferrer nofollow">https://inspirehep.net/literature/2702854</a>  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: github.com  
-   Link: <a href="https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction" target="_blank" rel="noopener noreferrer nofollow">https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction</a>  
+   Link:<a href="https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction" target="_blank" rel="noopener noreferrer nofollow">https://github.com/LMM101/Awesome-Multimodal-Next-Token-Prediction</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: towardsai.net  
-   Link: <a href="https://towardsai.net/p/machine-learning/attention-is-all-you-need-a-deep-dive-into-the-revolutionary-transformer-architecture" target="_blank" rel="noopener noreferrer nofollow">https://towardsai.net/p/machine-learning/attention-is-all-you-need-a-deep-dive-into-the-revolutionary-transformer-architecture</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Deep Dive into the Revolutionary Transformer ArchitectureApr 10, 2025 — This paper introduced the Transformer architecture, a novel app...</p></details>
+   Link:<a href="https://towardsai.net/p/machine-learning/attention-is-all-you-need-a-deep-dive-into-the-revolutionary-transformer-architecture" target="_blank" rel="noopener noreferrer nofollow">https://towardsai.net/p/machine-learning/attention-is-all-you-need-a-deep-dive-into-the-revolutionary-transformer-architecture</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Deep Dive into the Revolutionary Transformer ArchitectureApr 10, 2025 — This paper introduced the Transformer architecture, a novel app...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: ai.stackexchange.com  
    Title: why people always say the transformer is parallelizable while the self attention  
-   Link: <a href="https://ai.stackexchange.com/questions/29903/why-people-always-say-the-transformer-is-parallelizable-while-the-self-attention" target="_blank" rel="noopener noreferrer nofollow">https://ai.stackexchange.com/questions/29903/why-people-always-say-the-transformer-is-parallelizable-while-the-self-attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>people always say the Transformer is parallelizable...29 Jul 2021 — The reason transformers are parallelizable while RNNs are not is not...</p></details>
+   Link:<a href="https://ai.stackexchange.com/questions/29903/why-people-always-say-the-transformer-is-parallelizable-while-the-self-attention" target="_blank" rel="noopener noreferrer nofollow">https://ai.stackexchange.com/questions/29903/why-people-always-say-the-transformer-is-parallelizable-while-the-self-attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>people always say the Transformer is parallelizable...29 Jul 2021 — The reason transformers are parallelizable while RNNs are not is not...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: omerseyfeddinkoc.medium.com  
    Title: why attention is all you need changed ai forever 02e42797905e  
-   Link: <a href="https://omerseyfeddinkoc.medium.com/why-attention-is-all-you-need-changed-ai-forever-02e42797905e" target="_blank" rel="noopener noreferrer nofollow">https://omerseyfeddinkoc.medium.com/why-attention-is-all-you-need-changed-ai-forever-02e42797905e</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>“Attention Is All You Need” Changed AI ForeverThis paper introduced the Transformer model, an architecture that completely eliminated rec...</p></details>
+   Link:<a href="https://omerseyfeddinkoc.medium.com/why-attention-is-all-you-need-changed-ai-forever-02e42797905e" target="_blank" rel="noopener noreferrer nofollow">https://omerseyfeddinkoc.medium.com/why-attention-is-all-you-need-changed-ai-forever-02e42797905e</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>“Attention Is All You Need” Changed AI ForeverThis paper introduced the Transformer model, an architecture that completely eliminated rec...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: lesswrong.com  
    Title: Less Wrong How did 'large' language models get that way?  
-   Link: <a href="https://www.lesswrong.com/posts/gcKhnqysxj9bBvbWD/how-did-large-language-models-get-that-way-the-role-of" target="_blank" rel="noopener noreferrer nofollow">https://www.lesswrong.com/posts/gcKhnqysxj9bBvbWD/how-did-large-language-models-get-that-way-the-role-of</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The role of...May 3, 2026 — The milestone transformer architecture, introduced in the 2017 paper Attention Is All You Need, totally upen...</p></details>
+   Link:<a href="https://www.lesswrong.com/posts/gcKhnqysxj9bBvbWD/how-did-large-language-models-get-that-way-the-role-of" target="_blank" rel="noopener noreferrer nofollow">https://www.lesswrong.com/posts/gcKhnqysxj9bBvbWD/how-did-large-language-models-get-that-way-the-role-of</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The role of...May 3, 2026 — The milestone transformer architecture, introduced in the 2017 paper Attention Is All You Need, totally upen...</p></details>
    Published: May 3, 2026  

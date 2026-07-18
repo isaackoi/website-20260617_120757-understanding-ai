@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4d
 
 ## Introduction
 
-When people hear that an AI system made a decision, they often imagine the model itself choosing an outcome. In practice, most important automated decisions emerge from a chain of systems. The AI model usually produces a score, probability or ranking. A separate decision engine then applies thresholds, business policies, legal requirements and operational rules to determine what happens next. The real-world outcome—approval, denial, investigation, prioritisation or escalation—comes from the combination of prediction and policy rather than from the model alone. This distinction is central to [understanding]({{ 'understanding/' | relative_url }}) automated decision-making because organisations are responsible not only for model accuracy but also for the rules that translate [predictions]({{ 'predictions/' | relative_url }}) into actions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework (AI RMF 1.0</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — The Framewo...</span><span class="citation-popover-meta">Published: June 4, 2025</span></span></span>
+When people hear that an AI system made a decision, they often imagine the model itself choosing an outcome. In practice, most important automated decisions emerge from a chain of systems. The AI model usually produces a score, probability or ranking. A separate decision engine then applies thresholds, business policies, legal requirements and operational rules to determine what happens next. The real-world outcome—approval, denial, investigation, prioritisation or escalation—comes from the combination of prediction and policy rather than from the model alone. This distinction is central to [understanding]({{ 'understanding/' | relative_url }}) automated decision-making because organisations are responsible not only for model accuracy but also for the rules that translate [predictions]({{ 'predictions/' | relative_url }}) into actions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework (AI RMF 1.0</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — The Framewo...</span><span class="citation-popover-meta">Published: June 4, 2025</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_decision_engi_769dde-Illustration-1-dark.svg" | relative_url }}" alt="Decision engines illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_decision_engi_769dde-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_decision_engi_769dde-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -290,16 +290,16 @@ A simplified workflow often looks like this:
 
 </div>
 
-The model might estimate the probability that a credit applicant will repay a loan, that a payment is fraudulent, or that a benefits claim deserves further scrutiny. The decision engine then decides what to do with that estimate. A score above one threshold may trigger approval, a score below another may trigger rejection, while scores in between may be sent to a human reviewer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://inrule.com/examples-of-decision-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: inrule.com">[InRule+2OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">inrule.com</span><span class="citation-popover-title">In Rule8 Examples of Decision Automation that Drive Business ...AI models surface insights; rules engines enforce policy and ensure compl</span><span class="citation-popover-snippet">Real-world use cases include claims, loans, onboarding, pricing, fraud detection ...Read more</span></span></span>
+The model might estimate the probability that a credit applicant will repay a loan, that a payment is fraudulent, or that a benefits claim deserves further scrutiny. The decision engine then decides what to do with that estimate. A score above one threshold may trigger approval, a score below another may trigger rejection, while scores in between may be sent to a human reviewer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://inrule.com/examples-of-decision-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: inrule.com">[InRule+2OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">inrule.com</span><span class="citation-popover-title">In Rule8 Examples of Decision Automation that Drive Business ...AI models surface insights; rules engines enforce policy and ensure compl</span><span class="citation-popover-snippet">Real-world use cases include claims, loans, onboarding, pricing, fraud detection ...Read more</span></span></span>
 
 This architecture appears across many sectors:
 
 
 <div class="content-enhancement content-enhancement--caution" markdown="1">
 
-* In banking, AI-generated risk scores help determine whether applications proceed, require additional checks or are declined. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/sub-issues/digital-finance/artificial-intelligence-in-finance.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD+2European Banking Authority]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI in financeIt is used in fraud detection, credit decisions, risk management, customer service, compliance, and portfolio management...</span></span></span>
-* In fraud detection, suspicious transactions receive risk scores that may trigger alerts, temporary holds or investigations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/ai-fraud-detection-in-banking" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">AI Fraud Detection in Banking &#124; IBMAI for fraud detection refers to implementing machine learning (ML) algorithms to mitigate fraudule...</span></span></span>
-* In public administration, predictive systems may help prioritise cases for investigation rather than automatically determine guilt or wrongdoing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/publications/public-governance-case-studies_575651e4-en/ai-driven-fraud-detection-and-digital-transformation-in-law-enforcement-in-lithuania_3c77cd6a-en.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI‑Driven Fraud Detection and Digital Transformation...24 Mar 2026 — The project aimed to explore how advanced data analytics and ar...</span></span></span>
+* In banking, AI-generated risk scores help determine whether applications proceed, require additional checks or are declined.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/sub-issues/digital-finance/artificial-intelligence-in-finance.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD+2European Banking Authority]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI in financeIt is used in fraud detection, credit decisions, risk management, customer service, compliance, and portfolio management...</span></span></span>
+* In fraud detection, suspicious transactions receive risk scores that may trigger alerts, temporary holds or investigations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/ai-fraud-detection-in-banking" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">AI Fraud Detection in Banking &#124; IBMAI for fraud detection refers to implementing machine learning (ML) algorithms to mitigate fraudule...</span></span></span>
+* In public administration, predictive systems may help prioritise cases for investigation rather than automatically determine guilt or wrongdoing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/publications/public-governance-case-studies_575651e4-en/ai-driven-fraud-detection-and-digital-transformation-in-law-enforcement-in-lithuania_3c77cd6a-en.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI‑Driven Fraud Detection and Digital Transformation...24 Mar 2026 — The project aimed to explore how advanced data analytics and ar...</span></span></span>
 
 </div>
 
@@ -325,7 +325,7 @@ Imagine a fraud model that scores transactions from 0 to 100.
 
 The underlying prediction is identical, but the consequences are dramatically different.
 
-Thresholds reflect organisational priorities. Lower thresholds often catch more risky cases but generate more false alarms. Higher thresholds reduce unnecessary interventions but may miss genuine problems. Choosing where to place these cut-offs is therefore a policy decision as much as a technical one. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://inrule.com/examples-of-decision-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: inrule.com">[InRule]</a><span class="citation-popover" role="note"><span class="citation-popover-source">inrule.com</span><span class="citation-popover-title">In Rule8 Examples of Decision Automation that Drive Business ...AI models surface insights; rules engines enforce policy and ensure compl</span><span class="citation-popover-snippet">Real-world use cases include claims, loans, onboarding, pricing, fraud detection ...Read more</span></span></span>
+Thresholds reflect organisational priorities. Lower thresholds often catch more risky cases but generate more false alarms. Higher thresholds reduce unnecessary interventions but may miss genuine problems. Choosing where to place these cut-offs is therefore a policy decision as much as a technical one.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://inrule.com/examples-of-decision-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: inrule.com">[InRule]</a><span class="citation-popover" role="note"><span class="citation-popover-source">inrule.com</span><span class="citation-popover-title">In Rule8 Examples of Decision Automation that Drive Business ...AI models surface insights; rules engines enforce policy and ensure compl</span><span class="citation-popover-snippet">Real-world use cases include claims, loans, onboarding, pricing, fraud detection ...Read more</span></span></span>
 
 Decision engines frequently incorporate additional rules alongside [AI outputs]({{ 'ai-outputs/' | relative_url }}):
 
@@ -337,7 +337,7 @@ Decision engines frequently incorporate additional rules alongside [AI outputs](
 * Internal risk policies.
 * Resource constraints.
 * Geographic restrictions.
-* Customer-service priorities. <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.oecd.org/en/topics/sub-issues/digital-finance/artificial-intelligence-in-finance.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[oecd.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI in financeIt is used in fraud detection, credit decisions, risk management, customer service, compliance, and portfolio management...</span></span></span>
+* Customer-service priorities.<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.oecd.org/en/topics/sub-issues/digital-finance/artificial-intelligence-in-finance.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[oecd.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI in financeIt is used in fraud detection, credit decisions, risk management, customer service, compliance, and portfolio management...</span></span></span>
 
 </div>
 
@@ -349,7 +349,7 @@ This explains why audits that examine only the machine-learning model can miss i
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_decision_engi_769dde-Illustration-2-dark.svg" | relative_url }}" alt="Decision engines illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_decision_engi_769dde-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_decision_engi_769dde-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## The hidden layer between prediction and action
 
-Decision engines are often described as rules engines because they execute predefined logic consistently at large scale. They transform analytical outputs into operational workflows. In many industries, this layer exists specifically because organisations need predictable enforcement of policies, compliance obligations and business procedures. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://inrule.com/examples-of-decision-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: inrule.com">[InRule]</a><span class="citation-popover" role="note"><span class="citation-popover-source">inrule.com</span><span class="citation-popover-title">In Rule8 Examples of Decision Automation that Drive Business ...AI models surface insights; rules engines enforce policy and ensure compl</span><span class="citation-popover-snippet">Real-world use cases include claims, loans, onboarding, pricing, fraud detection ...Read more</span></span></span>
+Decision engines are often described as rules engines because they execute predefined logic consistently at large scale. They transform analytical outputs into operational workflows. In many industries, this layer exists specifically because organisations need predictable enforcement of policies, compliance obligations and business procedures.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://inrule.com/examples-of-decision-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: inrule.com">[InRule]</a><span class="citation-popover" role="note"><span class="citation-popover-source">inrule.com</span><span class="citation-popover-title">In Rule8 Examples of Decision Automation that Drive Business ...AI models surface insights; rules engines enforce policy and ensure compl</span><span class="citation-popover-snippet">Real-world use cases include claims, loans, onboarding, pricing, fraud detection ...Read more</span></span></span>
 
 For example, an insurer might combine:
 
@@ -366,7 +366,7 @@ For example, an insurer might combine:
 
 The resulting action emerges from the entire chain rather than from any single component.
 
-This layered structure also means responsibility cannot be assigned solely to the model developer. Organisations decide which rules are applied, how thresholds are set, when humans become involved and which actions are triggered automatically. Governance frameworks increasingly emphasise evaluating the whole socio-technical system rather than only the algorithm. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework (AI RMF 1.0</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — The Framewo...</span><span class="citation-popover-meta">Published: June 4, 2025</span></span></span>
+This layered structure also means responsibility cannot be assigned solely to the model developer. Organisations decide which rules are applied, how thresholds are set, when humans become involved and which actions are triggered automatically. Governance frameworks increasingly emphasise evaluating the whole socio-technical system rather than only the algorithm.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework (AI RMF 1.0</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — The Framewo...</span><span class="citation-popover-meta">Published: June 4, 2025</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/C5NGczQMHu0" title="[KIELive#51] TrustyAI: Ensuring the Fairness and Transparency of Decision Models" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=C5NGczQMHu0" target="_blank" rel="noopener noreferrer">[KIELive#51] TrustyAI: Ensuring the Fairness and Transparency of Decision Models</a></p><p class="youtube-embed-meta">Channel: KIE &middot; Views: 679 &middot; Uploaded: November 2021 &middot; Length: 39 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=C5NGczQMHu0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=C5NGczQMHu0">Open on YouTube</a></p></div></div></div>
@@ -375,7 +375,7 @@ This layered structure also means responsibility cannot be assigned solely to th
 
 Many organisations place a human somewhere in the workflow and describe the process as human-supervised. In practice, the effectiveness of that [oversight]({{ 'oversight/' | relative_url }}) depends on what the human can actually do.
 
-A reviewer who merely clicks “approve” on recommendations generated by a decision engine may contribute little meaningful judgement. Research and regulatory guidance increasingly distinguish between nominal human involvement and genuine oversight capable of identifying and correcting errors. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.zew.de/en/publications/human-oversight-done-right-the-ai-act-should-use-humans-to-monitor-ai-only-when-effective" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: zew.de">[ZEW+2AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">zew.de</span><span class="citation-popover-snippet">Human Oversight Done Right: The AI Act Should Use...The EU&#x27;s proposed Artificial Intelligence Act (AI Act) is meant to ensure safe AI...</span></span></span>
+A reviewer who merely clicks “approve” on recommendations generated by a decision engine may contribute little meaningful judgement. Research and regulatory guidance increasingly distinguish between nominal human involvement and genuine oversight capable of identifying and correcting errors.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.zew.de/en/publications/human-oversight-done-right-the-ai-act-should-use-humans-to-monitor-ai-only-when-effective" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: zew.de">[ZEW+2AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">zew.de</span><span class="citation-popover-snippet">Human Oversight Done Right: The AI Act Should Use...The EU&#x27;s proposed Artificial Intelligence Act (AI Act) is meant to ensure safe AI...</span></span></span>
 
 Several factors can weaken oversight:
 
@@ -398,11 +398,11 @@ When these conditions exist, a process may function as effectively automated eve
 
 A common misconception is that responsibility shifts to the AI once automated decisions are deployed. Regulatory and governance frameworks generally take the opposite view.
 
-Organisations that deploy AI systems remain accountable for the decisions that affect individuals. Human oversight requirements in the European Union's AI Act are designed to ensure that high-risk systems can be monitored, interpreted and overridden when necessary. The objective is to minimise risks to health, safety and fundamental rights rather than to remove human responsibility. Artificial Intelligence Act+2AI Act Service Desk <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[artificialintelligenceact.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+Organisations that deploy AI systems remain accountable for the decisions that affect individuals. Human oversight requirements in the European Union's AI Act are designed to ensure that high-risk systems can be monitored, interpreted and overridden when necessary. The objective is to minimise risks to health, safety and fundamental rights rather than to remove human responsibility. Artificial Intelligence Act+2AI Act Service Desk<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[artificialintelligenceact.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
-The AI Act also establishes rights for affected individuals to obtain meaningful explanations of the role an AI system played in significant decisions. The focus is not merely on the model's internal workings but on how its outputs contributed to the final decision-making process. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/86/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 86: Right to Explanation of Individual Decision-MakingThe right to obtain from the deployer clear and...</span></span></span>
+The AI Act also establishes rights for affected individuals to obtain meaningful explanations of the role an AI system played in significant decisions. The focus is not merely on the model's internal workings but on how its outputs contributed to the final decision-making process.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/86/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 86: Right to Explanation of Individual Decision-MakingThe right to obtain from the deployer clear and...</span></span></span>
 
-Similarly, UK data-protection guidance recognises protections relating to decisions based solely on automated processing when those decisions produce legal or similarly significant effects. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-title">ICORights related to automated decision making including ...“The data subject shall have the right not to be subject to a decision based</span><span class="citation-popover-snippet">solely on automated processing, including profiling, which produces legal effects ...Read more</span></span></span>
+Similarly, UK data-protection guidance recognises protections relating to decisions based solely on automated processing when those decisions produce legal or similarly significant effects.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-title">ICORights related to automated decision making including ...“The data subject shall have the right not to be subject to a decision based</span><span class="citation-popover-snippet">solely on automated processing, including profiling, which produces legal effects ...Read more</span></span></span>
 
 In practice, responsibility typically spans several actors:
 
@@ -421,197 +421,197 @@ Because decision engines connect predictions to actions, accountability often re
 
 The most consequential part of many AI deployments is not the prediction itself but the mechanism that converts that prediction into action. A model may estimate risk, likelihood or priority, but a decision engine determines whether someone is approved, rejected, investigated, delayed or escalated.
 
-Understanding automated decision-making therefore requires looking beyond model accuracy. Thresholds, business rules, escalation paths and oversight mechanisms shape real-world outcomes just as much as machine-learning performance. When organisations evaluate fairness, accountability and safety, the decision engine—not only the AI model—must be part of the analysis. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2InRule]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework (AI RMF 1.0</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — The Framewo...</span><span class="citation-popover-meta">Published: June 4, 2025</span></span></span>
+Understanding automated decision-making therefore requires looking beyond model accuracy. Thresholds, business rules, escalation paths and oversight mechanisms shape real-world outcomes just as much as machine-learning performance. When organisations evaluate fairness, accountability and safety, the decision engine—not only the AI model—must be part of the analysis.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2InRule]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework (AI RMF 1.0</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — The Framewo...</span><span class="citation-popover-meta">Published: June 4, 2025</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How AI scores become real world decisions. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How AI scores become real world decisions. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prediction Machines on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wJY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Prediction Machines" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prediction Machines">Prediction Machines</a>
-        </h4>
-        <p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prediction Machines on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wJY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Prediction Machines" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prediction Machines">Prediction Machines</a>
+</h4>
+<p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
         
-        <p class="fr-book-desc">Explains how predictions feed operational decision processes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how predictions feed operational decision processes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Addresses control over automated actions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses control over automated actions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Shows how AI systems and business rules create automated actions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how AI systems and business rules create automated actions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Illustrates impacts of decision engines and scoring rules.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Illustrates impacts of decision engines and scoring rules.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Prediction+Machines&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prediction Machines</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Prediction+Machines&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prediction Machines</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="decision-engines-how-ai-scores-become-real-world-decisions-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -627,7 +627,7 @@ Understanding automated decision-making therefore requires looking beyond model 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -647,7 +647,7 @@ Understanding automated decision-making therefore requires looking beyond model 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -679,7 +679,7 @@ Understanding automated decision-making therefore requires looking beyond model 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -731,7 +731,7 @@ Understanding automated decision-making therefore requires looking beyond model 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -776,7 +776,7 @@ Understanding automated decision-making therefore requires looking beyond model 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -817,204 +817,204 @@ Understanding automated decision-making therefore requires looking beyond model 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: nvlpubs.nist.gov  
    Title: Publications Artificial Intelligence Risk Management Framework (AI RMF 1.0)  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — The Framewo...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — The Framewo...</p></details>
    Published: June 4, 2025  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: inrule.com  
-   Link: <a href="https://inrule.com/examples-of-decision-[automation" target="_blank" rel="noopener noreferrer nofollow">https://inrule.com/examples-of-decision-[automation</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Real-world use cases include claims, loans, onboarding, pricing, fraud detection...Read more...</p></details>
+   Link:<a href="https://inrule.com/examples-of-decision-[automation" target="_blank" rel="noopener noreferrer nofollow">https://inrule.com/examples-of-decision-[automation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Real-world use cases include claims, loans, onboarding, pricing, fraud detection...Read more...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/sub-issues/digital-finance/artificial-intelligence-in-finance.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/digital-finance/artificial-intelligence-in-finance.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI in financeIt is used in fraud detection, credit decisions, risk management, customer service, compliance, and portfolio management...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/sub-issues/digital-finance/artificial-intelligence-in-finance.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/digital-finance/artificial-intelligence-in-finance.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in financeIt is used in fraud detection, credit decisions, risk management, customer service, compliance, and portfolio management...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/08/artificial-intelligence-machine-learning-and-big-data-in-finance_8d088cbb/98e761e7-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/08/artificial-intelligence-machine-learning-and-big-data-in-finance_8d088cbb/98e761e7-en.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>of creditworthiness of prospective borrowers, enhance the underwriting decision...</p></details>
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/08/artificial-intelligence-machine-learning-and-big-data-in-finance_8d088cbb/98e761e7-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/08/artificial-intelligence-machine-learning-and-big-data-in-finance_8d088cbb/98e761e7-en.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>of creditworthiness of prospective borrowers, enhance the underwriting decision...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/ai-fraud-detection-in-banking" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-fraud-detection-in-banking</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Fraud Detection in Banking | IBMAI for fraud detection refers to implementing machine learning (ML) algorithms to mitigate fraudule...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/ai-fraud-detection-in-banking" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-fraud-detection-in-banking</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Fraud Detection in Banking | IBMAI for fraud detection refers to implementing machine learning (ML) algorithms to mitigate fraudule...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/publications/public-governance-case-studies_575651e4-en/ai-driven-fraud-detection-and-digital-transformation-in-law-enforcement-in-lithuania_3c77cd6a-en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/public-governance-case-studies_575651e4-en/ai-driven-fraud-detection-and-digital-transformation-in-law-enforcement-in-lithuania_3c77cd6a-en.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI‑Driven Fraud Detection and Digital Transformation...24 Mar 2026 — The project aimed to explore how advanced data analytics and ar...</p></details>
+   Link:<a href="https://www.oecd.org/en/publications/public-governance-case-studies_575651e4-en/ai-driven-fraud-detection-and-digital-transformation-in-law-enforcement-in-lithuania_3c77cd6a-en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/public-governance-case-studies_575651e4-en/ai-driven-fraud-detection-and-digital-transformation-in-law-enforcement-in-lithuania_3c77cd6a-en.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI‑Driven Fraud Detection and Digital Transformation...24 Mar 2026 — The project aimed to explore how advanced data analytics and ar...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/wonk/government-automated-decision-making-transparency-and-responsibility-in-the-public-sector" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/wonk/government-automated-decision-making-transparency-and-responsibility-in-the-public-sector</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Government automated-decision-making: transparency...Apr 7, 2025 — Let&#x27;s examine the current landscape of algorithmic transparency in th...</p></details>
+   Link:<a href="https://oecd.ai/en/wonk/government-automated-decision-making-transparency-and-responsibility-in-the-public-sector" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/wonk/government-automated-decision-making-transparency-and-responsibility-in-the-public-sector</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Government automated-decision-making: transparency...Apr 7, 2025 — Let&#x27;s examine the current landscape of algorithmic transparency in th...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-principles.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI principlesThe OECD AI Principles are the first intergovernmental standard on AI. They promote innovative, trustworthy AI that respects...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-principles.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI principlesThe OECD AI Principles are the first intergovernmental standard on AI. They promote innovative, trustworthy AI that respects...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: zew.de  
-   Link: <a href="https://www.zew.de/en/publications/human-oversight-done-right-the-ai-act-should-use-humans-to-monitor-ai-only-when-effective" target="_blank" rel="noopener noreferrer nofollow">https://www.zew.de/en/publications/human-oversight-done-right-the-ai-act-should-use-humans-to-monitor-ai-only-when-effective</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Human Oversight Done Right: The AI Act Should Use...The EU&#x27;s proposed Artificial Intelligence Act (AI Act) is meant to ensure safe AI...</p></details>
+   Link:<a href="https://www.zew.de/en/publications/human-oversight-done-right-the-ai-act-should-use-humans-to-monitor-ai-only-when-effective" target="_blank" rel="noopener noreferrer nofollow">https://www.zew.de/en/publications/human-oversight-done-right-the-ai-act-should-use-humans-to-monitor-ai-only-when-effective</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Human Oversight Done Right: The AI Act Should Use...The EU&#x27;s proposed Artificial Intelligence Act (AI Act) is meant to ensure safe AI...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-organisations/[uk-gdpr" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/[uk-gdpr</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>solely on automated processing, including profiling, which produces legal effects...Read more...</p></details>
+   Link:<a href="https://ico.org.uk/for-organisations/[uk-gdpr" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/[uk-gdpr</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>solely on automated processing, including profiling, which produces legal effects...Read more...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/wonk/how-to-achieve-trustworthy-algorithmic-decision-making" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/wonk/how-to-achieve-trustworthy-algorithmic-decision-making</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Ensuring trustworthy algorithmic decision-makingThe review focused on the use of algorithms in significant decisions about individuals, l...</p></details>
+   Link:<a href="https://oecd.ai/en/wonk/how-to-achieve-trustworthy-algorithmic-decision-making" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/wonk/how-to-achieve-trustworthy-algorithmic-decision-making</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Ensuring trustworthy algorithmic decision-makingThe review focused on the use of algorithms in significant decisions about individuals, l...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/how-artificial-intelligence-is-accelerating-the-digital-government-journey_d9552dc7.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/how-artificial-intelligence-is-accelerating-the-digital-government-journey_d9552dc7.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It situates government as a developer...Read more...</p></details>
+   Link:<a href="https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/how-artificial-intelligence-is-accelerating-the-digital-government-journey_d9552dc7.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/how-artificial-intelligence-is-accelerating-the-digital-government-journey_d9552dc7.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It situates government as a developer...Read more...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: oecd.org  
    Title: f1498c02 en  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/regulatory-approaches-to-artificial-intelligence-in-finance_43d082c3/f1498c02-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/regulatory-approaches-to-artificial-intelligence-in-finance_43d082c3/f1498c02-en.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(e.g. around liquidity &amp; credit risks)...</p></details>
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/regulatory-approaches-to-artificial-intelligence-in-finance_43d082c3/f1498c02-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/09/regulatory-approaches-to-artificial-intelligence-in-finance_43d082c3/f1498c02-en.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(e.g. around liquidity &amp; credit risks)...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/supervision-of-artificial-intelligence-in-finance_1295e5e2/92743dc1-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/supervision-of-artificial-intelligence-in-finance_1295e5e2/92743dc1-en.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ligence (AI) in Finance and discusses reported challenges encountered in the...</p></details>
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/supervision-of-artificial-intelligence-in-finance_1295e5e2/92743dc1-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/01/supervision-of-artificial-intelligence-in-finance_1295e5e2/92743dc1-en.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ligence (AI) in Finance and discusses reported challenges encountered in the...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: oecd.org  
    Title: ai in public financial management 8089f818  
-   Link: <a href="https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-public-financial-management_8089f818.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-public-financial-management_8089f818.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI in public financial management: Governing with Artificial...18 Sept 2025 — Australia&#x27;s Robodebt scheme, introduced in 2016, was an au...</p></details>
+   Link:<a href="https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-public-financial-management_8089f818.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-public-financial-management_8089f818.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in public financial management: Governing with Artificial...18 Sept 2025 — Australia&#x27;s Robodebt scheme, introduced in 2016, was an au...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: artificial-intelligence-act.com  
-   Link: <a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[EU AI Act](&amp;#123;&amp;#123; &#x27;eu-ai-act/&#x27; | relative_url &amp;#125;&amp;#125;) - Updates, Compliance, TrainingThe AI Act bans AI systems that manipulate human behavior in a way that causes physical or psych...</p></details>
+   Link:<a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[EU AI Act](&amp;#123;&amp;#123; &#x27;eu-ai-act/&#x27; | relative_url &amp;#125;&amp;#125;) - Updates, Compliance, TrainingThe AI Act bans AI systems that manipulate human behavior in a way that causes physical or psych...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=C5NGczQMHu0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=C5NGczQMHu0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>InRule - Frequently Asked Questions...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=C5NGczQMHu0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=C5NGczQMHu0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>InRule - Frequently Asked Questions...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
    Title: In Rule  
-   Link: <a href="https://www.youtube.com/watch?v=8RINdMxFfTM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8RINdMxFfTM</a>  
+   Link:<a href="https://www.youtube.com/watch?v=8RINdMxFfTM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8RINdMxFfTM</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: bankingsupervision.europa.eu  
    Title: ECB Banking  
-   Link: <a href="https://www.bankingsupervision.europa.eu/press/supervisory-newsletters/newsletter/2025/html/ssm.nl251120_1.en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.bankingsupervision.europa.eu/press/supervisory-newsletters/newsletter/2025/html/ssm.nl251120_1.en.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>European Banking AuthorityAI&#x27;s impact on banking: use cases for credit scoring and fraud...20 Nov 2025 — Banks now use AI for credit sco...</p></details>
+   Link:<a href="https://www.bankingsupervision.europa.eu/press/supervisory-newsletters/newsletter/2025/html/ssm.nl251120_1.en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.bankingsupervision.europa.eu/press/supervisory-newsletters/newsletter/2025/html/ssm.nl251120_1.en.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>European Banking AuthorityAI&#x27;s impact on banking: use cases for credit scoring and fraud...20 Nov 2025 — Banks now use AI for credit sco...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/14/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 14: Human Oversight | EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/14/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 14: Human Oversight | EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/86/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/86/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 86: Right to Explanation of Individual Decision-MakingThe right to obtain from the deployer clear and...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/article/86/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/86/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 86: Right to Explanation of Individual Decision-MakingThe right to obtain from the deployer clear and...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>on the classification of high-risk AI systems(1) The Artificial Intelligence Act (the &#x27;AI Act&#x27;), which entered into force on 1 August 202...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>on the classification of high-risk AI systems(1) The Artificial Intelligence Act (the &#x27;AI Act&#x27;), which entered into force on 1 August 202...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: internationaltaxjournal.online  
-   Link: <a href="https://internationaltaxjournal.online/index.php/itj/article/view/213" target="_blank" rel="noopener noreferrer nofollow">https://internationaltaxjournal.online/index.php/itj/article/view/213</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Driven credit scoring and risk assessment in banksSep 25, 2025 — This paper analyzes the transformational shift in the banking sector...</p></details>
+   Link:<a href="https://internationaltaxjournal.online/index.php/itj/article/view/213" target="_blank" rel="noopener noreferrer nofollow">https://internationaltaxjournal.online/index.php/itj/article/view/213</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Driven credit scoring and risk assessment in banksSep 25, 2025 — This paper analyzes the transformational shift in the banking sector...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/high-level-summary/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Design their high risk AI system to allow deployers to implement human oversight.Read more...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/high-level-summary/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Design their high risk AI system to allow deployers to implement human oversight.Read more...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: artificialintelligenceact.eu  
    Title: It lays the foundations for the regulation of AI in the EU.Read more  
-   Link: <a href="https://artificialintelligenceact.eu/ai-act-explorer/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/ai-act-explorer/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The AI Act Explorer | EU Artificial Intelligence ActThe European Union has introduced new legislation on artificial intelligence: The EU...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/ai-act-explorer/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/ai-act-explorer/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The AI Act Explorer | EU Artificial Intelligence ActThe European Union has introduced new legislation on artificial intelligence: The EU...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: eduvest.greenvest.co.id  
-   Link: <a href="https://eduvest.greenvest.co.id/index.php/edv/article/view/52362" target="_blank" rel="noopener noreferrer nofollow">https://eduvest.greenvest.co.id/index.php/edv/article/view/52362</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Scoring P2P Lending Fintech: Right to Explanation in AI...by AS Maghfirli · 2025 — This study analyzes the legal framework governing the...</p></details>
+   Link:<a href="https://eduvest.greenvest.co.id/index.php/edv/article/view/52362" target="_blank" rel="noopener noreferrer nofollow">https://eduvest.greenvest.co.id/index.php/edv/article/view/52362</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Scoring P2P Lending Fintech: Right to Explanation in AI...by AS Maghfirli · 2025 — This study analyzes the legal framework governing the...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: researchhub.id  
-   Link: <a href="https://researchhub.id/index.php/optimal/article/view/6544" target="_blank" rel="noopener noreferrer nofollow">https://researchhub.id/index.php/optimal/article/view/6544</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Role of Artificial Intelligence in Risk Management for...16 June 2025 — AI technologies like machine learning and natural language p...</p></details>
+   Link:<a href="https://researchhub.id/index.php/optimal/article/view/6544" target="_blank" rel="noopener noreferrer nofollow">https://researchhub.id/index.php/optimal/article/view/6544</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Role of Artificial Intelligence in Risk Management for...16 June 2025 — AI technologies like machine learning and natural language p...</p></details>
    Published: June 2025  
 
 ### Additional References
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/398240409_Regulatory_Challenges_of_AI-Driven_Credit_Scoring_in_Indonesian_Banking_Between_Algorithmic_Bias_and_Consumer_Protection" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/398240409_Regulatory_Challenges_of_AI-Driven_Credit_Scoring_in_Indonesian_Banking_Between_Algorithmic_Bias_and_Consumer_Protection</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Regulatory Challenges of AI-Driven Credit Scoring in...4 Dec 2025 — This article examines the regulatory gaps in Indonesian laws related...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/398240409_Regulatory_Challenges_of_AI-Driven_Credit_Scoring_in_Indonesian_Banking_Between_Algorithmic_Bias_and_Consumer_Protection" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/398240409_Regulatory_Challenges_of_AI-Driven_Credit_Scoring_in_Indonesian_Banking_Between_Algorithmic_Bias_and_Consumer_Protection</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Regulatory Challenges of AI-Driven Credit Scoring in...4 Dec 2025 — This article examines the regulatory gaps in Indonesian laws related...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/top-content/artificial-intelligence/eu-ai-regulation-impact/eu-law-on-automated-decision-making-regulation/" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/artificial-intelligence/eu-ai-regulation-impact/eu-law-on-automated-decision-making-regulation/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU Law on Automated Decision-Making RegulationThe EU Law on Automated Decision-Making Regulation covers rules that require companies to e...</p></details>
+   Link:<a href="https://www.linkedin.com/top-content/artificial-intelligence/eu-ai-regulation-impact/eu-law-on-automated-decision-making-regulation/" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/artificial-intelligence/eu-ai-regulation-impact/eu-law-on-automated-decision-making-regulation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU Law on Automated Decision-Making RegulationThe EU Law on Automated Decision-Making Regulation covers rules that require companies to e...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40danykitishian/ai-driven-decision-making-29be2b097b64" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40danykitishian/ai-driven-decision-making-29be2b097b64</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Foundations of AI‑Driven Decision‑MakingThis page explains why algorithmic decisions differ from human ones; surveys the learning paradig...</p></details>
+   Link:<a href="https://medium.com/%40danykitishian/ai-driven-decision-making-29be2b097b64" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40danykitishian/ai-driven-decision-making-29be2b097b64</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Foundations of AI‑Driven Decision‑MakingThis page explains why algorithmic decisions differ from human ones; surveys the learning paradig...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/from-credit-scoring-fraud-detection-o9jdc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/from-credit-scoring-fraud-detection-o9jdc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>From Credit Scoring to Fraud Detection: The Expanding...This article explores how AI is expanding its role in FinTech — from credit scor...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/from-credit-scoring-fraud-detection-o9jdc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/from-credit-scoring-fraud-detection-o9jdc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>From Credit Scoring to Fraud Detection: The Expanding...This article explores how AI is expanding its role in FinTech — from credit scor...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: avolutionsoftware.com  
-   Link: <a href="https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (RMF)The NIST AI Risk Management Framework, often called the NIST AI RMF, gives organizations a practic...</p></details>
+   Link:<a href="https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (RMF)The NIST AI Risk Management Framework, often called the NIST AI RMF, gives organizations a practic...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/oecd-regulatory-approaches-artificial-intelligence-finance-iason-kojlf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/oecd-regulatory-approaches-artificial-intelligence-finance-iason-kojlf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Regulatory Approaches to Artificial Intelligence in FinanceThe OECD report provides a comprehensive analysis of AI&#x27;s growing role in fina...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/oecd-regulatory-approaches-artificial-intelligence-finance-iason-kojlf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/oecd-regulatory-approaches-artificial-intelligence-finance-iason-kojlf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Regulatory Approaches to Artificial Intelligence in FinanceThe OECD report provides a comprehensive analysis of AI&#x27;s growing role in fina...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: decisionbrain.com  
-   Link: <a href="https://decisionbrain.com/[responsible-ai" target="_blank" rel="noopener noreferrer nofollow">https://decisionbrain.com/[responsible-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Responsible AI Decision MakingExplore the potential and limitations of Generative AI in decision-making, addressing challenges like biase...</p></details>
+   Link:<a href="https://decisionbrain.com/[responsible-ai" target="_blank" rel="noopener noreferrer nofollow">https://decisionbrain.com/[responsible-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Responsible AI Decision MakingExplore the potential and limitations of Generative AI in decision-making, addressing challenges like biase...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: edps.europa.eu  
    Title: 2025 09 23 techdispatch 22025 human oversight automated making  
-   Link: <a href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making" target="_blank" rel="noopener noreferrer nofollow">https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>#2/2025 - Human Oversight of Automated...by W Wiewiórowski · Cited by 4 — For the purposes of this document, human oversight refers to t...</p></details>
+   Link:<a href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making" target="_blank" rel="noopener noreferrer nofollow">https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>#2/2025 - Human Oversight of Automated...by W Wiewiórowski · Cited by 4 — For the purposes of this document, human oversight refers to t...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: fsb.org  
    Title: OECD – FSB Roundtable on Artificial Intelligence AI in Finance  
-   Link: <a href="https://www.fsb.org/uploads/OECD-%E2%80%93-FSB-Roundtable-on-Artificial-Intelligence-AI-in-Finance.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.fsb.org/uploads/OECD-%E2%80%93-FSB-Roundtable-on-Artificial-Intelligence-AI-in-Finance.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FSB Roundtable on Artificial Intelligence (AI) in Finance30 Sept 2024 — These technologies have increased efficiency in operations, risk...</p></details>
+   Link:<a href="https://www.fsb.org/uploads/OECD-%E2%80%93-FSB-Roundtable-on-Artificial-Intelligence-AI-in-Finance.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.fsb.org/uploads/OECD-%E2%80%93-FSB-Roundtable-on-Artificial-Intelligence-AI-in-Finance.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FSB Roundtable on Artificial Intelligence (AI) in Finance30 Sept 2024 — These technologies have increased efficiency in operations, risk...</p></details>
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: blog.montaignecentre.com  
    Title: on the relative importance of the ai act right to explanation  
-   Link: <a href="https://blog.montaignecentre.com/en/on-the-relative-importance-of-the-ai-act-right-to-explanation/" target="_blank" rel="noopener noreferrer nofollow">https://blog.montaignecentre.com/en/on-the-relative-importance-of-the-ai-act-right-to-explanation/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Montaigne Centrum BlogOn the Relative Importance of the AI Act Right to Explanation29 Apr 2024 — The AI Act now contains a more explicit...</p></details>
+   Link:<a href="https://blog.montaignecentre.com/en/on-the-relative-importance-of-the-ai-act-right-to-explanation/" target="_blank" rel="noopener noreferrer nofollow">https://blog.montaignecentre.com/en/on-the-relative-importance-of-the-ai-act-right-to-explanation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Montaigne Centrum BlogOn the Relative Importance of the AI Act Right to Explanation29 Apr 2024 — The AI Act now contains a more explicit...</p></details>

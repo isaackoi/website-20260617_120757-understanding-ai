@@ -269,45 +269,45 @@ image: /assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5
 
 ## Introduction
 
-Protein [language models]({{ 'language-models/' | relative_url }}) apply the core idea behind Transformer-based language systems to biology: instead of reading sentences made of words, they read proteins made of amino acids. A protein is a chain built from a small alphabet of amino-acid residues, and the order of those residues largely determines the molecule’s shape and biological role. By training on hundreds of millions of protein sequences and learning to predict missing amino acids, Transformer models discover statistical patterns that reflect evolution, structure, and function. Remarkably, many of these properties emerge without the model being explicitly taught chemistry or three-dimensional protein structures. Research on models such as ESM (Evolutionary Scale Modeling) has shown that large-scale sequence learning can produce representations useful for structure [prediction]({{ 'error-harms/' | relative_url }}), mutation analysis, and protein design. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2GitHub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
+Protein [language models]({{ 'language-models/' | relative_url }}) apply the core idea behind Transformer-based language systems to biology: instead of reading sentences made of words, they read proteins made of amino acids. A protein is a chain built from a small alphabet of amino-acid residues, and the order of those residues largely determines the molecule’s shape and biological role. By training on hundreds of millions of protein sequences and learning to predict missing amino acids, Transformer models discover statistical patterns that reflect evolution, structure, and function. Remarkably, many of these properties emerge without the model being explicitly taught chemistry or three-dimensional protein structures. Research on models such as ESM (Evolutionary Scale Modeling) has shown that large-scale sequence learning can produce representations useful for structure [prediction]({{ 'error-harms/' | relative_url }}), mutation analysis, and protein design.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2GitHub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_protein_langu_44f99d-Illustration-1-dark.svg" | relative_url }}" alt="Protein models illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_protein_langu_44f99d-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_protein_langu_44f99d-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## Can proteins be read like a language?
 
-The analogy between language and proteins is not perfect, but it is surprisingly productive. Human languages are built from vocabularies and grammatical rules. Proteins are built from sequences of roughly twenty common amino acids arranged in specific orders. Just as changing a word can alter the meaning of a sentence, changing a single amino acid can alter a protein’s stability, shape, or function. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://elisagdelope.rbind.io/post/plms/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: elisagdelope.rbind.io">[Elisa G. de Lope+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">elisagdelope.rbind.io</span><span class="citation-popover-title">Elisa G</span><span class="citation-popover-snippet">de LopeGetting started with Protein Language Models - Elisa G. de Lope13 Sept 2024 — Like sentences crafted from words, proteins are intr...</span></span></span>
+The analogy between language and proteins is not perfect, but it is surprisingly productive. Human languages are built from vocabularies and grammatical rules. Proteins are built from sequences of roughly twenty common amino acids arranged in specific orders. Just as changing a word can alter the meaning of a sentence, changing a single amino acid can alter a protein’s stability, shape, or function.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://elisagdelope.rbind.io/post/plms/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: elisagdelope.rbind.io">[Elisa G. de Lope+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">elisagdelope.rbind.io</span><span class="citation-popover-title">Elisa G</span><span class="citation-popover-snippet">de LopeGetting started with Protein Language Models - Elisa G. de Lope13 Sept 2024 — Like sentences crafted from words, proteins are intr...</span></span></span>
 
-Protein language models therefore treat amino acids as tokens. A sequence such as a protein chain is converted into a series of token embeddings and processed by a Transformer. Instead of learning grammar and semantics, the model learns which amino acids tend to occur together, which positions are highly constrained by evolution, and which substitutions are likely or unlikely in a biological context. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00506" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubs.acs.org">[ACS Publications+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubs.acs.org</span><span class="citation-popover-snippet">ACS PublicationsProtein Language Models: Applications and Perspectives26 Dec 2025 — Originally designed for language tasks, LLMs have bee...</span></span></span>
+Protein language models therefore treat amino acids as tokens. A sequence such as a protein chain is converted into a series of token embeddings and processed by a Transformer. Instead of learning grammar and semantics, the model learns which amino acids tend to occur together, which positions are highly constrained by evolution, and which substitutions are likely or unlikely in a biological context.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00506" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubs.acs.org">[ACS Publications+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubs.acs.org</span><span class="citation-popover-snippet">ACS PublicationsProtein Language Models: Applications and Perspectives26 Dec 2025 — Originally designed for language tasks, LLMs have bee...</span></span></span>
 
-What makes this approach powerful is the scale of available data. Public biological databases contain hundreds of millions of protein sequences collected from organisms across the tree of life. These sequences provide a vast record of evolutionary experiments carried out over billions of years. Protein language models effectively compress patterns from that record into their internal representations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2EvolutionaryScale]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
+What makes this approach powerful is the scale of available data. Public biological databases contain hundreds of millions of protein sequences collected from organisms across the tree of life. These sequences provide a vast record of evolutionary experiments carried out over billions of years. Protein language models effectively compress patterns from that record into their internal representations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2EvolutionaryScale]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/hvIzAC1fbiQ" title="Protein Language Models (PLMs) - What They Are and How They Work" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=hvIzAC1fbiQ" target="_blank" rel="noopener noreferrer">Protein Language Models (PLMs) - What They Are and How They Work</a></p><p class="youtube-embed-meta">Channel: ProteinVision</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=hvIzAC1fbiQ" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=hvIzAC1fbiQ">Open on YouTube</a></p></div></div></div>
 
 ## How amino-acid sequences become model tokens
 
-Unlike natural-language systems that must handle huge vocabularies, protein models work with a compact alphabet. Each amino acid receives its own token representation. The model then processes the sequence using [self-attention]({{ 'self-attention/' | relative_url }}), allowing every position to influence every other position. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00506" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubs.acs.org">[ACS Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubs.acs.org</span><span class="citation-popover-snippet">ACS PublicationsProtein Language Models: Applications and Perspectives26 Dec 2025 — Originally designed for language tasks, LLMs have bee...</span></span></span>
+Unlike natural-language systems that must handle huge vocabularies, protein models work with a compact alphabet. Each amino acid receives its own token representation. The model then processes the sequence using [self-attention]({{ 'self-attention/' | relative_url }}), allowing every position to influence every other position.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00506" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubs.acs.org">[ACS Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubs.acs.org</span><span class="citation-popover-snippet">ACS PublicationsProtein Language Models: Applications and Perspectives26 Dec 2025 — Originally designed for language tasks, LLMs have bee...</span></span></span>
 
-This matters because proteins often contain long-range dependencies. Two amino acids that are far apart in the sequence may end up physically touching when the protein folds into its three-dimensional form. A Transformer can directly connect these distant positions through [attention]({{ 'attention/' | relative_url }}) mechanisms rather than relying only on local neighbourhoods. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=fylclEqgvgd" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Transformer protein language models are unsupervised...by R Rao · Cited by 479 — In this paper we demonstrate that Transformer...</span></span></span>
+This matters because proteins often contain long-range dependencies. Two amino acids that are far apart in the sequence may end up physically touching when the protein folds into its three-dimensional form. A Transformer can directly connect these distant positions through [attention]({{ 'attention/' | relative_url }}) mechanisms rather than relying only on local neighbourhoods.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=fylclEqgvgd" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Transformer protein language models are unsupervised...by R Rao · Cited by 479 — In this paper we demonstrate that Transformer...</span></span></span>
 
-As training progresses, the model develops numerical representations known as embeddings. Proteins with similar biological properties tend to occupy nearby regions of this learned representation space. The embeddings become compressed summaries of information that is difficult to read directly from raw amino-acid strings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12450373/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Fine-tuning protein language models unlocks the potential of...by R Sawhney · 2025 · Cited by 5 — Protein language models (pLMs) have...</span></span></span>
+As training progresses, the model develops numerical representations known as embeddings. Proteins with similar biological properties tend to occupy nearby regions of this learned representation space. The embeddings become compressed summaries of information that is difficult to read directly from raw amino-acid strings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12450373/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Fine-tuning protein language models unlocks the potential of...by R Sawhney · 2025 · Cited by 5 — Protein language models (pLMs) have...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/uPoFdCUqBWk" title="Lecture11 - Protein Language Models - MLCB24" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=uPoFdCUqBWk" target="_blank" rel="noopener noreferrer">Lecture11 - Protein Language Models - MLCB24</a></p><p class="youtube-embed-meta">Channel: Manolis Kellis &middot; Views: 8.7K &middot; Uploaded: October 2024 &middot; Length: 1 hour 23 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=uPoFdCUqBWk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=uPoFdCUqBWk">Open on YouTube</a></p></div></div></div>
 
 ## What missing-residue prediction teaches the model
 
-Most leading protein language models are trained with a masked language modelling objective similar to that used in BERT. During training, some amino acids are hidden from the model. The model must predict the missing residues using the surrounding sequence context. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2orbion.life]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
+Most leading protein language models are trained with a masked language modelling objective similar to that used in BERT. During training, some amino acids are hidden from the model. The model must predict the missing residues using the surrounding sequence context.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2orbion.life]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
 
-At first glance, this appears to be a simple prediction task. In practice, solving it requires learning deep biological regularities. Certain amino acids are chemically compatible with particular environments. Others tend to appear in active sites, structural motifs, or evolutionarily conserved regions. To predict the missing residue correctly, the model must infer these hidden constraints from sequence patterns alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2PNAS]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
+At first glance, this appears to be a simple prediction task. In practice, solving it requires learning deep biological regularities. Certain amino acids are chemically compatible with particular environments. Others tend to appear in active sites, structural motifs, or evolutionarily conserved regions. To predict the missing residue correctly, the model must infer these hidden constraints from sequence patterns alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2PNAS]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
 
 Evidence from large protein language models suggests that this training process teaches the model several kinds of biologically [meaningful]({{ 'human-review/' | relative_url }}) information:
 
-* **Evolutionary constraints:** The model learns which substitutions are tolerated and which are strongly selected against because they would disrupt function. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pnas.org/doi/10.1073/pnas.2406285121" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pnas.org">[PNAS]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pnas.org</span><span class="citation-popover-snippet">Protein language models learn evolutionary statistics of...by Z Zhang · 2024 · Cited by 164 — We developed a completely unsupervised...</span></span></span>
-* **Structural relationships:** The model learns patterns associated with residues that interact when a protein folds, even though explicit structural labels are not provided during training. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=fylclEqgvgd" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Transformer protein language models are unsupervised...by R Rao · Cited by 479 — In this paper we demonstrate that Transformer...</span></span></span>
-* **Functional signatures:** Sequences associated with similar biochemical roles often acquire similar internal representations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">The evolutionary scale modeling (ESM) series is promising to revolutionize protein science and engineering through large language models...</span></span></span>
+* **Evolutionary constraints:** The model learns which substitutions are tolerated and which are strongly selected against because they would disrupt function.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pnas.org/doi/10.1073/pnas.2406285121" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pnas.org">[PNAS]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pnas.org</span><span class="citation-popover-snippet">Protein language models learn evolutionary statistics of...by Z Zhang · 2024 · Cited by 164 — We developed a completely unsupervised...</span></span></span>
+* **Structural relationships:** The model learns patterns associated with residues that interact when a protein folds, even though explicit structural labels are not provided during training.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=fylclEqgvgd" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Transformer protein language models are unsupervised...by R Rao · Cited by 479 — In this paper we demonstrate that Transformer...</span></span></span>
+* **Functional signatures:** Sequences associated with similar biochemical roles often acquire similar internal representations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">The evolutionary scale modeling (ESM) series is promising to revolutionize protein science and engineering through large language models...</span></span></span>
 
-One influential study found that Transformer attention maps learned information about residue contacts directly from the unsupervised prediction objective. In effect, the model discovered clues about protein structure simply by trying to fill in missing amino acids. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=fylclEqgvgd" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Transformer protein language models are unsupervised...by R Rao · Cited by 479 — In this paper we demonstrate that Transformer...</span></span></span>
+One influential study found that Transformer attention maps learned information about residue contacts directly from the unsupervised prediction objective. In effect, the model discovered clues about protein structure simply by trying to fill in missing amino acids.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=fylclEqgvgd" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Transformer protein language models are unsupervised...by R Rao · Cited by 479 — In this paper we demonstrate that Transformer...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_protein_langu_44f99d-Illustration-2-dark.svg" | relative_url }}" alt="Protein models illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_protein_langu_44f99d-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_protein_langu_44f99d-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -315,11 +315,11 @@ One influential study found that Transformer attention maps learned information 
 
 A key question is whether protein language models merely memorise sequence statistics or genuinely learn biologically useful abstractions.
 
-Several lines of evidence suggest the latter. The ESM programme demonstrated that scaling Transformer training on massive protein databases produced representations that could support accurate structure prediction from sequence alone. Researchers reported that biological structure and function emerged from large-scale unsupervised learning, even though the model was trained primarily on sequence prediction tasks. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://github.com/facebookresearch/esm" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: github.com">[GitHub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">github.com</span><span class="citation-popover-snippet">facebookresearch/esm: Evolutionary Scale Modeling...ESMFold harnesses the ESM-2 language model to generate accurate structure pred...</span></span></span>
+Several lines of evidence suggest the latter. The ESM programme demonstrated that scaling Transformer training on massive protein databases produced representations that could support accurate structure prediction from sequence alone. Researchers reported that biological structure and function emerged from large-scale unsupervised learning, even though the model was trained primarily on sequence prediction tasks.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://github.com/facebookresearch/esm" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: github.com">[GitHub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">github.com</span><span class="citation-popover-snippet">facebookresearch/esm: Evolutionary Scale Modeling...ESMFold harnesses the ESM-2 language model to generate accurate structure pred...</span></span></span>
 
-Further evidence comes from mutation analysis. If a model assigns very low probability to a particular amino-acid substitution, that substitution often proves damaging in laboratory experiments. This indicates that the model has internalised information about which residues are important for maintaining a protein’s behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">The evolutionary scale modeling (ESM) series is promising to revolutionize protein science and engineering through large language models...</span></span></span>
+Further evidence comes from mutation analysis. If a model assigns very low probability to a particular amino-acid substitution, that substitution often proves damaging in laboratory experiments. This indicates that the model has internalised information about which residues are important for maintaining a protein’s behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">The evolutionary scale modeling (ESM) series is promising to revolutionize protein science and engineering through large language models...</span></span></span>
 
-Researchers have also shown that protein language models capture co-evolutionary patterns—cases where changes at one position are linked to changes elsewhere. Such patterns frequently reflect structural or functional coupling within proteins. The ability to recover these relationships from sequence data alone suggests that the models learn more than surface-level frequency statistics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pnas.org/doi/10.1073/pnas.2406285121" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pnas.org">[PNAS]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pnas.org</span><span class="citation-popover-snippet">Protein language models learn evolutionary statistics of...by Z Zhang · 2024 · Cited by 164 — We developed a completely unsupervised...</span></span></span>
+Researchers have also shown that protein language models capture co-evolutionary patterns—cases where changes at one position are linked to changes elsewhere. Such patterns frequently reflect structural or functional coupling within proteins. The ability to recover these relationships from sequence data alone suggests that the models learn more than surface-level frequency statistics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pnas.org/doi/10.1073/pnas.2406285121" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pnas.org">[PNAS]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pnas.org</span><span class="citation-popover-snippet">Protein language models learn evolutionary statistics of...by Z Zhang · 2024 · Cited by 164 — We developed a completely unsupervised...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/XdevS0GSuiQ" title="🔬 The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=XdevS0GSuiQ" target="_blank" rel="noopener noreferrer">🔬 The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub</a></p><p class="youtube-embed-meta">Channel: Latent Space</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=XdevS0GSuiQ" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=XdevS0GSuiQ">Open on YouTube</a></p></div></div></div>
@@ -333,210 +333,210 @@ These representations can be reused for downstream tasks, including:
 
 <div class="content-enhancement content-enhancement--insight-grid" markdown="1">
 
-* Predicting protein structure. <span class="citation-chip-wrap"><a class="citation-chip" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12756192/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[pmc.ncbi.nlm.nih.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Pretrained Protein Language Model Embeddings...by R Shaw · 2025 · Cited by 6 — Trained on vast databases of protein sequences, these mod...</span></span></span>
+* Predicting protein structure.<span class="citation-chip-wrap"><a class="citation-chip" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12756192/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[pmc.ncbi.nlm.nih.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Pretrained Protein Language Model Embeddings...by R Shaw · 2025 · Cited by 6 — Trained on vast databases of protein sequences, these mod...</span></span></span>
 * Estimating the effects of genetic mutations.
-* Classifying protein functions. <span class="citation-chip-wrap"><a class="citation-chip" href="https://en.wikipedia.org/wiki/Protein" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">ProteinProteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perfo...</span></span></span>
+* Classifying protein functions.<span class="citation-chip-wrap"><a class="citation-chip" href="https://en.wikipedia.org/wiki/Protein" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">ProteinProteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perfo...</span></span></span>
 * Identifying biologically related proteins.
-* Assisting protein engineering and design. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12450373/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[Nature+3PMC+3PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Fine-tuning protein language models unlocks the potential of...by R Sawhney · 2025 · Cited by 5 — Protein language models (pLMs) have...</span></span></span>
+* Assisting protein engineering and design.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12450373/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[Nature+3PMC+3PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Fine-tuning protein language models unlocks the potential of...by R Sawhney · 2025 · Cited by 5 — Protein language models (pLMs) have...</span></span></span>
 
 </div>
 
-In practical terms, the model acts as a compressed statistical summary of evolutionary knowledge. Instead of analysing millions of related sequences individually, researchers can use embeddings generated by a pretrained model to access information about likely structure and function. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">The evolutionary scale modeling (ESM) series is promising to revolutionize protein science and engineering through large language models...</span></span></span>
+In practical terms, the model acts as a compressed statistical summary of evolutionary knowledge. Instead of analysing millions of related sequences individually, researchers can use embeddings generated by a pretrained model to access information about likely structure and function.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">The evolutionary scale modeling (ESM) series is promising to revolutionize protein science and engineering through large language models...</span></span></span>
 
-This has become one of the strongest demonstrations that Transformer architectures are not limited to human language. When trained on amino-acid sequences, they learn representations that reflect genuine biological organisation. The model begins with nothing more than strings of residues and a missing-token prediction task, yet it develops internal knowledge that aligns with how proteins fold, evolve, and function. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
+This has become one of the strongest demonstrations that Transformer architectures are not limited to human language. When trained on amino-acid sequences, they learn representations that reflect genuine biological organisation. The model begins with nothing more than strings of residues and a missing-token prediction task, yet it develops internal knowledge that aligns with how proteins fold, evolve, and function.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: science.org">[Science+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">science.org</span><span class="citation-popover-snippet">Although the training objective...Read more...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_protein_langu_44f99d-Illustration-3-dark.svg" | relative_url }}" alt="Protein models illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_protein_langu_44f99d-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_transformers_81b5da_protein_langu_44f99d-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can proteins be read like a language?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can proteins be read like a language?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning for the Life Sciences on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=tYFKuwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Learning for the Life Sciences" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning for the Life Sciences">Deep Learning for the Life Sciences</a>
-        </h4>
-        <p class="fr-book-author">By Bharath Ramsundar, Peter Eastman et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning for the Life Sciences on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=tYFKuwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Learning for the Life Sciences" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning for the Life Sciences">Deep Learning for the Life Sciences</a>
+</h4>
+<p class="fr-book-author">By Bharath Ramsundar, Peter Eastman et al.</p>
         
-        <p class="fr-book-desc">Directly addresses machine learning applications in biological sequence and molecular data.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses machine learning applications in biological sequence and molecular data.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences+by+Bharath+Ramsundar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Bioinformatics+and+Functional+Genomics+by+Jonathan+Pevsner&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Bioinformatics and Functional Genomics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=NMpqAAAAMAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Bioinformatics and Functional Genomics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Bioinformatics+and+Functional+Genomics+by+Jonathan+Pevsner&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Bioinformatics and Functional Genomics">Bioinformatics and Functional Genomics</a>
-        </h4>
-        <p class="fr-book-author">By Jonathan Pevsner</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Bioinformatics+and+Functional+Genomics+by+Jonathan+Pevsner&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Bioinformatics and Functional Genomics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=NMpqAAAAMAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Bioinformatics and Functional Genomics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Bioinformatics+and+Functional+Genomics+by+Jonathan+Pevsner&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Bioinformatics and Functional Genomics">Bioinformatics and Functional Genomics</a>
+</h4>
+<p class="fr-book-author">By Jonathan Pevsner</p>
         
-        <p class="fr-book-desc">Explains biological sequence analysis and genomic information central to protein language models.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Bioinformatics+and+Functional+Genomics+by+Jonathan+Pevsner&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains biological sequence analysis and genomic information central to protein language models.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Bioinformatics+and+Functional+Genomics+by+Jonathan+Pevsner&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Covers representation learning concepts that underpin protein language models.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Covers representation learning concepts that underpin protein language models.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Natural Language Processing on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Ua03zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Natural Language Processing" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Natural Language Processing">Transformers for Natural Language Processing</a>
-        </h4>
-        <p class="fr-book-author">By Denis Rothman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Natural Language Processing on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Ua03zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Natural Language Processing" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Natural Language Processing">Transformers for Natural Language Processing</a>
+</h4>
+<p class="fr-book-author">By Denis Rothman</p>
         
-        <p class="fr-book-desc">Protein language models borrow core Transformer concepts originally developed for language.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Protein language models borrow core Transformer concepts originally developed for language.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Transformers+for+Natural+Language+Processing+by+Denis+Rothman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning for the Life Sciences</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Bioinformatics+and+Functional+Genomics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Bioinformatics and Functional Genomics</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+for+the+Life+Sciences&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning for the Life Sciences</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Bioinformatics+and+Functional+Genomics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Bioinformatics and Functional Genomics</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17"><img src="{{ '/assets/images/marketplace-covers/333441c1d36b578dc041.jpg' | relative_url }}" alt="Listing image for Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17"><img src="{{ '/assets/images/marketplace-covers/333441c1d36b578dc041.jpg' | relative_url }}" alt="Listing image for Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01"><img src="{{ '/assets/images/marketplace-covers/edc94c9624d3c7474e2e.jpg' | relative_url }}" alt="Listing image for REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01"><img src="{{ '/assets/images/marketplace-covers/edc94c9624d3c7474e2e.jpg' | relative_url }}" alt="Listing image for REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ADIDAS Mens Graphic Hoodie Jumper Small Black Cotton AI10"><img src="{{ '/assets/images/marketplace-covers/f60aab13e1f21776636a.jpg' | relative_url }}" alt="Listing image for ADIDAS Mens Graphic Hoodie Jumper Small Black Cotton AI10" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">ADIDAS Mens Graphic Hoodie Jumper Small Black Cotton AI10</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ADIDAS Mens Graphic Hoodie Jumper Small Black Cotton AI10"><img src="{{ '/assets/images/marketplace-covers/f60aab13e1f21776636a.jpg' | relative_url }}" alt="Listing image for ADIDAS Mens Graphic Hoodie Jumper Small Black Cotton AI10" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">ADIDAS Mens Graphic Hoodie Jumper Small Black Cotton AI10</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Nike Mens Graphic Hoodie Jumper XS Grey Colourblock Cotton AI04"><img src="{{ '/assets/images/marketplace-covers/348430fd07a637c81776.jpg' | relative_url }}" alt="Listing image for Nike Mens Graphic Hoodie Jumper XS Grey Colourblock Cotton AI04" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">Nike Mens Graphic Hoodie Jumper XS Grey Colourblock Cotton AI04</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Nike Mens Graphic Hoodie Jumper XS Grey Colourblock Cotton AI04"><img src="{{ '/assets/images/marketplace-covers/348430fd07a637c81776.jpg' | relative_url }}" alt="Listing image for Nike Mens Graphic Hoodie Jumper XS Grey Colourblock Cotton AI04" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">Nike Mens Graphic Hoodie Jumper XS Grey Colourblock Cotton AI04</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="protein-models-can-proteins-be-read-like-a-language-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -552,7 +552,7 @@ This has become one of the strongest demonstrations that Transformer architectur
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -572,7 +572,7 @@ This has become one of the strongest demonstrations that Transformer architectur
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -604,7 +604,7 @@ This has become one of the strongest demonstrations that Transformer architectur
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -656,7 +656,7 @@ This has become one of the strongest demonstrations that Transformer architectur
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -701,7 +701,7 @@ This has become one of the strongest demonstrations that Transformer architectur
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -742,191 +742,191 @@ This has become one of the strongest demonstrations that Transformer architectur
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: github.com  
-   Link: <a href="https://github.com/facebookresearch/esm" target="_blank" rel="noopener noreferrer nofollow">https://github.com/facebookresearch/esm</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>facebookresearch/esm: Evolutionary Scale Modeling...ESMFold harnesses the ESM-2 language model to generate accurate structure pred...</p></details>
+   Link:<a href="https://github.com/facebookresearch/esm" target="_blank" rel="noopener noreferrer nofollow">https://github.com/facebookresearch/esm</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>facebookresearch/esm: Evolutionary Scale Modeling...ESMFold harnesses the ESM-2 language model to generate accurate structure pred...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: elisagdelope.rbind.io  
    Title: Elisa G  
-   Link: <a href="https://elisagdelope.rbind.io/post/plms/" target="_blank" rel="noopener noreferrer nofollow">https://elisagdelope.rbind.io/post/plms/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>de LopeGetting started with Protein Language Models - Elisa G. de Lope13 Sept 2024 — Like sentences crafted from words, proteins are intr...</p></details>
+   Link:<a href="https://elisagdelope.rbind.io/post/plms/" target="_blank" rel="noopener noreferrer nofollow">https://elisagdelope.rbind.io/post/plms/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>de LopeGetting started with Protein Language Models - Elisa G. de Lope13 Sept 2024 — Like sentences crafted from words, proteins are intr...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMCThe language of proteins: NLP, [machine learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;)  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8050421/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8050421/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIHby D Ofer · 2021 · Cited by 468 — In this review, we present a modern view on applications of NLP methods to the study of protei...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8050421/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8050421/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIHby D Ofer · 2021 · Cited by 468 — In this review, we present a modern view on applications of NLP methods to the study of protei...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: pubs.acs.org  
-   Link: <a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00506" target="_blank" rel="noopener noreferrer nofollow">https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00506</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACS PublicationsProtein Language Models: Applications and Perspectives26 Dec 2025 — Originally designed for language tasks, LLMs have bee...</p></details>
+   Link:<a href="https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00506" target="_blank" rel="noopener noreferrer nofollow">https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00506</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACS PublicationsProtein Language Models: Applications and Perspectives26 Dec 2025 — Originally designed for language tasks, LLMs have bee...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12888012/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12888012/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Protein Language Models: Applications and Perspectives - PMCby M Leclercq · 2025 · Cited by 5 — These models treat amino acid sequence...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12888012/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12888012/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Protein Language Models: Applications and Perspectives - PMCby M Leclercq · 2025 · Cited by 5 — These models treat amino acid sequence...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: evolutionaryscale.ai  
    Title: esm cambrian  
-   Link: <a href="https://www.evolutionaryscale.ai/blog/esm-cambrian" target="_blank" rel="noopener noreferrer nofollow">https://www.evolutionaryscale.ai/blog/esm-cambrian</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Revealing the mysteries of proteins with...Dec 4, 2024 — Today we&#x27;re introducing ESM Cambrian, a next generation language model trained...</p></details>
+   Link:<a href="https://www.evolutionaryscale.ai/blog/esm-cambrian" target="_blank" rel="noopener noreferrer nofollow">https://www.evolutionaryscale.ai/blog/esm-cambrian</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Revealing the mysteries of proteins with...Dec 4, 2024 — Today we&#x27;re introducing ESM Cambrian, a next generation language model trained...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=fylclEqgvgd" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=fylclEqgvgd</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer protein language models are unsupervised...by R Rao · Cited by 479 — In this paper we demonstrate that Transformer...</p></details>
+   Link:<a href="https://openreview.net/forum?id=fylclEqgvgd" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=fylclEqgvgd</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer protein language models are unsupervised...by R Rao · Cited by 479 — In this paper we demonstrate that Transformer...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12450373/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12450373/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Fine-tuning protein language models unlocks the potential of...by R Sawhney · 2025 · Cited by 5 — Protein language models (pLMs) have...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12450373/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12450373/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fine-tuning protein language models unlocks the potential of...by R Sawhney · 2025 · Cited by 5 — Protein language models (pLMs) have...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12756192/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12756192/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Pretrained Protein Language Model Embeddings...by R Shaw · 2025 · Cited by 6 — Trained on vast databases of protein sequences, these mod...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12756192/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12756192/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Pretrained Protein Language Model Embeddings...by R Shaw · 2025 · Cited by 6 — Trained on vast databases of protein sequences, these mod...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: orbion.life  
-   Link: <a href="https://www.orbion.life/blog/protein-language-models-explained-for-bench-scientists" target="_blank" rel="noopener noreferrer nofollow">https://www.orbion.life/blog/protein-language-models-explained-for-bench-scientists</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Protein Language Models Explained for Bench Scientists3 Apr 2026 — Mask residues: Randomly hide ~15% of amino acids in each sequence...</p></details>
+   Link:<a href="https://www.orbion.life/blog/protein-language-models-explained-for-bench-scientists" target="_blank" rel="noopener noreferrer nofollow">https://www.orbion.life/blog/protein-language-models-explained-for-bench-scientists</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Protein Language Models Explained for Bench Scientists3 Apr 2026 — Mask residues: Randomly hide ~15% of amino acids in each sequence...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41592-026-03050-9" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41592-026-03050-9</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Compressing the collective knowledge of ESM into a single...by T Dinh · 2026 · Cited by 2 — ESM models are pretrained with the mas...</p></details>
+   Link:<a href="https://www.nature.com/articles/s41592-026-03050-9" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41592-026-03050-9</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Compressing the collective knowledge of ESM into a single...by T Dinh · 2026 · Cited by 2 — ESM models are pretrained with the mas...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: pnas.org  
-   Link: <a href="https://www.pnas.org/doi/10.1073/pnas.2406285121" target="_blank" rel="noopener noreferrer nofollow">https://www.pnas.org/doi/10.1073/pnas.2406285121</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Protein language models learn evolutionary statistics of...by Z Zhang · 2024 · Cited by 164 — We developed a completely unsupervised...</p></details>
+   Link:<a href="https://www.pnas.org/doi/10.1073/pnas.2406285121" target="_blank" rel="noopener noreferrer nofollow">https://www.pnas.org/doi/10.1073/pnas.2406285121</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Protein language models learn evolutionary statistics of...by Z Zhang · 2024 · Cited by 164 — We developed a completely unsupervised...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41467-022-32007-7" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41467-022-32007-7</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ProtGPT2 is a deep unsupervised language model for...by N Ferruz · 2022 · Cited by 1098 — We describe ProtGPT2, a language model trained...</p></details>
+   Link:<a href="https://www.nature.com/articles/s41467-022-32007-7" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41467-022-32007-7</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ProtGPT2 is a deep unsupervised language model for...by N Ferruz · 2022 · Cited by 1098 — We describe ProtGPT2, a language model trained...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41592-025-02776-2" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41592-025-02776-2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Biophysics-based protein language models for...by S Gelman · 2025 · Cited by 60 — Molecular modeling can generate large datasets reveali...</p></details>
+   Link:<a href="https://www.nature.com/articles/s41592-025-02776-2" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41592-025-02776-2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Biophysics-based protein language models for...by S Gelman · 2025 · Cited by 60 — Molecular modeling can generate large datasets reveali...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: amiteshbadkul.github.io  
    Title: esm2 explained  
-   Link: <a href="https://amiteshbadkul.github.io/blog/2023/esm2-explained/" target="_blank" rel="noopener noreferrer nofollow">https://amiteshbadkul.github.io/blog/2023/esm2-explained/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Evolutionary Scale Modeling using Protein Language Models29 Jul 2023 — These protein language models (PLMs) treat amino acid sequences an...</p></details>
+   Link:<a href="https://amiteshbadkul.github.io/blog/2023/esm2-explained/" target="_blank" rel="noopener noreferrer nofollow">https://amiteshbadkul.github.io/blog/2023/esm2-explained/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evolutionary Scale Modeling using Protein Language Models29 Jul 2023 — These protein language models (PLMs) treat amino acid sequences an...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: science.org  
-   Link: <a href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow">https://www.science.org/doi/10.1126/science.ade2574</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Although the training objective...Read more...</p></details>
+   Link:<a href="https://www.science.org/doi/10.1126/science.ade2574" target="_blank" rel="noopener noreferrer nofollow">https://www.science.org/doi/10.1126/science.ade2574</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Although the training objective...Read more...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The evolutionary scale modeling (ESM) series is promising to revolutionize protein science and engineering through large language models...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12806033/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The evolutionary scale modeling (ESM) series is promising to revolutionize protein science and engineering through large language models...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: pipebio.com  
    Title: protein language models  
-   Link: <a href="https://pipebio.com/blog/protein-language-models" target="_blank" rel="noopener noreferrer nofollow">https://pipebio.com/blog/protein-language-models</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>promises, pitfalls and applicationsJun 18, 2024 — PLMs have proven very valuable to learn the underlying patterns of protein sequences ev...</p></details>
+   Link:<a href="https://pipebio.com/blog/protein-language-models" target="_blank" rel="noopener noreferrer nofollow">https://pipebio.com/blog/protein-language-models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>promises, pitfalls and applicationsJun 18, 2024 — PLMs have proven very valuable to learn the underlying patterns of protein sequences ev...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Protein" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Protein</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ProteinProteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perfo...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Protein" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Protein</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ProteinProteins are large biomolecules and macromolecules that comprise one or more long chains of amino acid residues. Proteins perfo...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/docs/transformers/en/model_doc/esm" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/docs/transformers/en/model_doc/esm</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ESMThis page provides code and pre-trained weights for Transformer protein language models from Meta AI&#x27;s Fundamental AI Research Team.Re...</p></details>
+   Link:<a href="https://huggingface.co/docs/transformers/en/model_doc/esm" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/docs/transformers/en/model_doc/esm</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ESMThis page provides code and pre-trained weights for Transformer protein language models from Meta AI&#x27;s Fundamental AI Research Team.Re...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: betterhealth.vic.gov.au  
-   Link: <a href="https://www.betterhealth.vic.gov.au/health/healthyliving/protein" target="_blank" rel="noopener noreferrer nofollow">https://www.betterhealth.vic.gov.au/health/healthyliving/protein</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ProteinProtein is a nutrient your body needs to grow and repair cells, and to work properly. Protein is found in a wide range of food and...</p></details>
+   Link:<a href="https://www.betterhealth.vic.gov.au/health/healthyliving/protein" target="_blank" rel="noopener noreferrer nofollow">https://www.betterhealth.vic.gov.au/health/healthyliving/protein</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ProteinProtein is a nutrient your body needs to grow and repair cells, and to work properly. Protein is found in a wide range of food and...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: britannica.com  
-   Link: <a href="https://www.britannica.com/science/protein" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/science/protein</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Protein | Definition, Structure, &amp; ClassificationApr 17, 2026 — Protein, highly complex substance that is present in all living organisms...</p></details>
+   Link:<a href="https://www.britannica.com/science/protein" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/science/protein</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Protein | Definition, Structure, &amp; ClassificationApr 17, 2026 — Protein, highly complex substance that is present in all living organisms...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: esmprep.com  
-   Link: <a href="https://www.esmprep.com/9-12/college-admissions" target="_blank" rel="noopener noreferrer nofollow">https://www.esmprep.com/9-12/college-admissions</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ESM | College AdmissionsESM&#x27;s mission is to help students across the world gain admission to the right school for them, from Princeton to...</p></details>
+   Link:<a href="https://www.esmprep.com/9-12/college-admissions" target="_blank" rel="noopener noreferrer nofollow">https://www.esmprep.com/9-12/college-admissions</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ESM | College AdmissionsESM&#x27;s mission is to help students across the world gain admission to the right school for them, from Princeton to...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: pubmed.ncbi.nlm.nih.gov  
-   Link: <a href="https://pubmed.ncbi.nlm.nih.gov/30060014/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/30060014/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>M Watford · 2018 · Cited by 141 — Proteins are polymers of amino acids linked via α-peptide bonds. They can be represented as primary, se...</p></details>
+   Link:<a href="https://pubmed.ncbi.nlm.nih.gov/30060014/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/30060014/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>M Watford · 2018 · Cited by 141 — Proteins are polymers of amino acids linked via α-peptide bonds. They can be represented as primary, se...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12621866/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12621866/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>by AM Subramanian · 2025 · Cited by 1 — We show that although these models exhibit a prodigious latent capacity to access novel amino...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12621866/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12621866/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by AM Subramanian · 2025 · Cited by 1 — We show that although these models exhibit a prodigious latent capacity to access novel amino...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=uPoFdCUqBWk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=uPoFdCUqBWk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Protein Language Models - MLCB24A protein language model by training on a lot of protein sequences can learn about what amino acids are s...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=uPoFdCUqBWk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=uPoFdCUqBWk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Protein Language Models - MLCB24A protein language model by training on a lot of protein sequences can learn about what amino acids are s...</p></details>
 
 ### Additional References
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: medlineplus.gov  
    Title: They do most of the work in cells and are required for the structure, function  
-   Link: <a href="https://medlineplus.gov/genetics/[understanding" target="_blank" rel="noopener noreferrer nofollow">https://medlineplus.gov/genetics/[understanding</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What are proteins and what do they do?Mar 26, 2021 — Proteins are large, complex molecules that play many critical roles in the body...</p></details>
+   Link:<a href="https://medlineplus.gov/genetics/[understanding" target="_blank" rel="noopener noreferrer nofollow">https://medlineplus.gov/genetics/[understanding</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What are proteins and what do they do?Mar 26, 2021 — Proteins are large, complex molecules that play many critical roles in the body...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: esminsite.com  
-   Link: <a href="https://www.esminsite.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.esminsite.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ESM INSITE Workers&#x27; Compensation Risk ManagementESM&#x27;s tech-enabled risk management services provide Insurance Agencies and Employers with...</p></details>
+   Link:<a href="https://www.esminsite.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.esminsite.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ESM INSITE Workers&#x27; Compensation Risk ManagementESM&#x27;s tech-enabled risk management services provide Insurance Agencies and Employers with...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: esmsolutions.com  
-   Link: <a href="https://esmsolutions.com/" target="_blank" rel="noopener noreferrer nofollow">https://esmsolutions.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ESM SolutionsA better way to browse, shop, and buy. Connecting people with the resources they need to power education. All your suppliers...</p></details>
+   Link:<a href="https://esmsolutions.com/" target="_blank" rel="noopener noreferrer nofollow">https://esmsolutions.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ESM SolutionsA better way to browse, shop, and buy. Connecting people with the resources they need to power education. All your suppliers...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: opentext.com  
-   Link: <a href="https://www.opentext.com/what-is/enterprise-service-management" target="_blank" rel="noopener noreferrer nofollow">https://www.opentext.com/what-is/enterprise-service-management</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise Service Management (ESM) ExplainedEnterprise service management (ESM) is the application of IT service management (ITSM) princ...</p></details>
+   Link:<a href="https://www.opentext.com/what-is/enterprise-service-management" target="_blank" rel="noopener noreferrer nofollow">https://www.opentext.com/what-is/enterprise-service-management</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise Service Management (ESM) ExplainedEnterprise service management (ESM) is the application of IT service management (ITSM) princ...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: executiveship.com  
-   Link: <a href="https://www.executiveship.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.executiveship.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Executive Ship ManagementExecutive Ship Management (ESM) is a premier management company valued by its clients and partners in the indust...</p></details>
+   Link:<a href="https://www.executiveship.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.executiveship.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Executive Ship ManagementExecutive Ship Management (ESM) is a premier management company valued by its clients and partners in the indust...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: the-scientist.com  
-   Link: <a href="https://www.the-scientist.com/researchers-decode-how-protein-language-models-think-making-ai-more-transparent-73520" target="_blank" rel="noopener noreferrer nofollow">https://www.the-scientist.com/researchers-decode-how-protein-language-models-think-making-ai-more-transparent-73520</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers Decode How Protein Language Models Think...Sep 28, 2025 — By spreading out tightly packed information in neural networks, a...</p></details>
+   Link:<a href="https://www.the-scientist.com/researchers-decode-how-protein-language-models-think-making-ai-more-transparent-73520" target="_blank" rel="noopener noreferrer nofollow">https://www.the-scientist.com/researchers-decode-how-protein-language-models-think-making-ai-more-transparent-73520</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers Decode How Protein Language Models Think...Sep 28, 2025 — By spreading out tightly packed information in neural networks, a...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: nutrition.org.uk  
-   Link: <a href="https://www.nutrition.org.uk/nutritional-information/protein/" target="_blank" rel="noopener noreferrer nofollow">https://www.nutrition.org.uk/nutritional-information/protein/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>We need protein for energy growth, repair and maintenance of our bodies, especially our bones and muscles...</p></details>
+   Link:<a href="https://www.nutrition.org.uk/nutritional-information/protein/" target="_blank" rel="noopener noreferrer nofollow">https://www.nutrition.org.uk/nutritional-information/protein/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We need protein for energy growth, repair and maintenance of our bodies, especially our bones and muscles...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: esm.europa.eu  
-   Link: <a href="https://www.esm.europa.eu/" target="_blank" rel="noopener noreferrer nofollow">https://www.esm.europa.eu/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Stability Mechanism: HomeThe European Stability Mechanism (ESM) provides financial assistance to euro area countries in crisis, acting as...</p></details>
+   Link:<a href="https://www.esm.europa.eu/" target="_blank" rel="noopener noreferrer nofollow">https://www.esm.europa.eu/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Stability Mechanism: HomeThe European Stability Mechanism (ESM) provides financial assistance to euro area countries in crisis, acting as...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40anrizal05/protein-language-models-from-amino-acid-tokens-to-sequence-embeddings-e488e89a330e" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40anrizal05/protein-language-models-from-amino-acid-tokens-to-sequence-embeddings-e488e89a330e</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The training objective is to maximize the log likelihood...Read more...</p></details>
+   Link:<a href="https://medium.com/%40anrizal05/protein-language-models-from-amino-acid-tokens-to-sequence-embeddings-e488e89a330e" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40anrizal05/protein-language-models-from-amino-acid-tokens-to-sequence-embeddings-e488e89a330e</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The training objective is to maximize the log likelihood...Read more...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: esmschools.org  
    Title: East Syracuse Minoa Central School District  
-   Link: <a href="https://www.esmschools.org/" target="_blank" rel="noopener noreferrer nofollow">https://www.esmschools.org/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>HomeESM will be an exemplary student-centered learning community whose graduates are future focused and ready to excel in a complex, inte...</p></details>
+   Link:<a href="https://www.esmschools.org/" target="_blank" rel="noopener noreferrer nofollow">https://www.esmschools.org/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>HomeESM will be an exemplary student-centered learning community whose graduates are future focused and ready to excel in a complex, inte...</p></details>

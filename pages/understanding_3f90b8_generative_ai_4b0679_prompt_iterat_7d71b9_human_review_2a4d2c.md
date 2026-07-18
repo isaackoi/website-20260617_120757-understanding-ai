@@ -273,7 +273,7 @@ Prompt iteration has become a defining feature of AI-assisted creation. A user w
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_human_review_2a4d2c-Illustration-1-dark.svg" | relative_url }}" alt="Human review illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_human_review_2a4d2c-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_human_review_2a4d2c-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Human review remains essential because [generative AI]({{ 'generative-ai/' | relative_url }}) systems do not truly understand the meaning, context, or consequences of what they produce. They generate outputs by predicting patterns, which can result in factual errors, invented details, misleading reasoning, stylistic inconsistencies, or content that misses the original goal. Even as AI tools become more capable, major risk-management frameworks continue to emphasise human oversight and [validation]({{ 'stop-training/' | relative_url }}) as a core safeguard. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</span><span class="citation-popover-meta">Published: March 24, 2025</span></span></span>
+Human review remains essential because [generative AI]({{ 'generative-ai/' | relative_url }}) systems do not truly understand the meaning, context, or consequences of what they produce. They generate outputs by predicting patterns, which can result in factual errors, invented details, misleading reasoning, stylistic inconsistencies, or content that misses the original goal. Even as AI tools become more capable, major risk-management frameworks continue to emphasise human oversight and [validation]({{ 'stop-training/' | relative_url }}) as a core safeguard.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</span><span class="citation-popover-meta">Published: March 24, 2025</span></span></span>
 
 In modern creative workflows, the role of the creator increasingly shifts from producing every element directly to supervising, evaluating, correcting, and approving AI-generated drafts. The value of human review is not merely quality control; it is the mechanism that keeps AI-generated work connected to human judgement.
 
@@ -281,11 +281,11 @@ In modern creative workflows, the role of the creator increasingly shifts from p
 
 Prompt iteration improves results, but it does not eliminate the underlying limitations of generative models.
 
-One common problem is factual inaccuracy. Large [language models]({{ 'language-models/' | relative_url }}) can produce information that sounds convincing while being partially or completely false. Researchers and industry experts continue to describe these failures as [hallucinations]({{ 'hallucinations/' | relative_url }}): generated statements, references, events, or explanations that have no factual basis. Recent reporting and technical analyses suggest that even advanced models can still produce subtle inaccuracies that become harder, not easier, for users to detect because the writing appears highly confident and coherent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science+2Financial Times]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-title">Live Science AI hallucinates more frequently as it gets more advanced</span><span class="citation-popover-snippet">OpenAI&#x27;s latest reasoning models, o3 and o4-mini, showed higher hallucination rates than earlier versions, sparking concerns about the re...</span></span></span>
+One common problem is factual inaccuracy. Large [language models]({{ 'language-models/' | relative_url }}) can produce information that sounds convincing while being partially or completely false. Researchers and industry experts continue to describe these failures as [hallucinations]({{ 'hallucinations/' | relative_url }}): generated statements, references, events, or explanations that have no factual basis. Recent reporting and technical analyses suggest that even advanced models can still produce subtle inaccuracies that become harder, not easier, for users to detect because the writing appears highly confident and coherent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science+2Financial Times]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-title">Live Science AI hallucinates more frequently as it gets more advanced</span><span class="citation-popover-snippet">OpenAI&#x27;s latest reasoning models, o3 and o4-mini, showed higher hallucination rates than earlier versions, sparking concerns about the re...</span></span></span>
 
 Creative work also involves intent, which AI systems frequently misunderstand. A prompt may specify a target audience, tone, or purpose, yet the output can still drift away from what the creator actually wants. An article may sound persuasive but miss the central argument. A marketing campaign may follow stylistic instructions while failing to reflect a brand’s identity. A generated image may satisfy technical requirements but communicate the wrong emotional message.
 
-Another issue is weak reasoning. AI systems can generate chains of explanation that appear logical while containing hidden assumptions, [unsupported]({{ 'unsupported-claims/' | relative_url }}) conclusions, or contradictions. Because these weaknesses are often embedded within otherwise fluent prose, they can escape notice unless a human actively reviews the content. NIST’s Generative AI Profile specifically highlights the need to review generated outputs for validity and safety rather than assuming the model’s reasoning is reliable. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://site.unibo.it/hypermodelex/en/publications/2024-04-01-nist-ai-risk-management-genai.pdf/%40%40download/file/2024-04-01-NIST-AI-RISK-MANAGEMENT-GENAI.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: site.unibo.it">[University of Bologna]</a><span class="citation-popover" role="note"><span class="citation-popover-source">site.unibo.it</span><span class="citation-popover-title">2024 04 01 NIST AI RISK MANAGEMENT GENAI</span><span class="citation-popover-snippet">University of BolognaArtificial Intelligence Risk Management Framework13 Apr 2024 — Review GAI system outputs for validity and safety: Re...</span></span></span>
+Another issue is weak reasoning. AI systems can generate chains of explanation that appear logical while containing hidden assumptions, [unsupported]({{ 'unsupported-claims/' | relative_url }}) conclusions, or contradictions. Because these weaknesses are often embedded within otherwise fluent prose, they can escape notice unless a human actively reviews the content. NIST’s Generative AI Profile specifically highlights the need to review generated outputs for validity and safety rather than assuming the model’s reasoning is reliable.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://site.unibo.it/hypermodelex/en/publications/2024-04-01-nist-ai-risk-management-genai.pdf/%40%40download/file/2024-04-01-NIST-AI-RISK-MANAGEMENT-GENAI.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: site.unibo.it">[University of Bologna]</a><span class="citation-popover" role="note"><span class="citation-popover-source">site.unibo.it</span><span class="citation-popover-title">2024 04 01 NIST AI RISK MANAGEMENT GENAI</span><span class="citation-popover-snippet">University of BolognaArtificial Intelligence Risk Management Framework13 Apr 2024 — Review GAI system outputs for validity and safety: Re...</span></span></span>
 
 Creative outputs can also contain:
 
@@ -312,7 +312,7 @@ A common assumption is that sufficiently detailed prompts can eliminate most [AI
 
 The reason is simple: prompting influences probabilities rather than guaranteeing correctness. A highly detailed instruction can reduce ambiguity, yet the model still generates content based on statistical prediction rather than genuine understanding. Two outputs generated from nearly identical prompts may differ significantly in quality, accuracy, or suitability.
 
-Research on human-centred AI workflows has found that prompt optimisation alone cannot reliably replace validation. Studies examining automated annotation and evaluation tasks show that AI performance can vary substantially across contexts, even when prompts are carefully designed. Human-generated validation remains necessary because AI outputs can diverge from human judgement in important ways despite extensive prompt tuning. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.09467" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Keeping Humans in the Loop: Human-Centered Automated Annotation with Generative AISeptember 14, 2024...</span><span class="citation-popover-meta">Published: September 14, 2024</span></span></span>
+Research on human-centred AI workflows has found that prompt optimisation alone cannot reliably replace validation. Studies examining automated annotation and evaluation tasks show that AI performance can vary substantially across contexts, even when prompts are carefully designed. Human-generated validation remains necessary because AI outputs can diverge from human judgement in important ways despite extensive prompt tuning.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.09467" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Keeping Humans in the Loop: Human-Centered Automated Annotation with Generative AISeptember 14, 2024...</span><span class="citation-popover-meta">Published: September 14, 2024</span></span></span>
 
 There is also a practical limitation. Creators often do not know every requirement at the start of a project. New constraints emerge during drafting, editing, and audience testing. Human reviewers notice these gaps because they understand the broader purpose of the work, not merely the prompt that produced it.
 
@@ -346,7 +346,7 @@ These questions depend on context, values, and goals rather than statistical pre
 
 ### Recognising Subtle Errors
 
-As AI systems become more fluent, mistakes often become more difficult to spot. Rather than obvious nonsense, errors may appear as small distortions hidden within otherwise persuasive content. Human reviewers provide the contextual awareness needed to detect these issues. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-title">Live Science AI hallucinates more frequently as it gets more advanced</span><span class="citation-popover-snippet">OpenAI&#x27;s latest reasoning models, o3 and o4-mini, showed higher hallucination rates than earlier versions, sparking concerns about the re...</span></span></span>
+As AI systems become more fluent, mistakes often become more difficult to spot. Rather than obvious nonsense, errors may appear as small distortions hidden within otherwise persuasive content. Human reviewers provide the contextual awareness needed to detect these issues.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-title">Live Science AI hallucinates more frequently as it gets more advanced</span><span class="citation-popover-snippet">OpenAI&#x27;s latest reasoning models, o3 and o4-mini, showed higher hallucination rates than earlier versions, sparking concerns about the re...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/NSlXQ2bwFF0" title="NIST AI 600-1 Explained | Generative AI Risk Management (AI RMF GenAI Profile)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=NSlXQ2bwFF0" target="_blank" rel="noopener noreferrer">NIST AI 600-1 Explained | Generative AI Risk Management (AI RMF GenAI Profile)</a></p><p class="youtube-embed-meta">Channel: ProfessorBlackOps - CyberSecurity for the people</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=NSlXQ2bwFF0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=NSlXQ2bwFF0">Open on YouTube</a></p></div></div></div>
@@ -355,7 +355,7 @@ As AI systems become more fluent, mistakes often become more difficult to spot. 
 
 Creative work is not merely the production of content. It also involves deciding what should exist in the first place. Human reviewers contribute taste, strategy, ethics, and originality. They choose which ideas deserve emphasis, which narratives resonate with audiences, and which directions align with broader goals.
 
-This is why many organisations increasingly describe successful AI adoption as a human-in-the-loop process rather than a fully automated one. The human contribution shifts, but it does not disappear. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2livingsecurity.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</span><span class="citation-popover-meta">Published: March 24, 2025</span></span></span>
+This is why many organisations increasingly describe successful AI adoption as a human-in-the-loop process rather than a fully automated one. The human contribution shifts, but it does not disappear.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2livingsecurity.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</span><span class="citation-popover-meta">Published: March 24, 2025</span></span></span>
 
 ## Checks Before Publishing or Deploying AI-Assisted Work
 
@@ -365,7 +365,7 @@ Before publication, distribution, or deployment, creators typically need to veri
 
 ### Accuracy Checks
 
-Any factual claim, statistic, quotation, citation, or reference should be verified against trustworthy sources. AI-generated references and summaries deserve particular scrutiny because models can fabricate supporting details while presenting them confidently. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science+2LogicGate Risk Cloud]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-title">Live Science AI hallucinates more frequently as it gets more advanced</span><span class="citation-popover-snippet">OpenAI&#x27;s latest reasoning models, o3 and o4-mini, showed higher hallucination rates than earlier versions, sparking concerns about the re...</span></span></span>
+Any factual claim, statistic, quotation, citation, or reference should be verified against trustworthy sources. AI-generated references and summaries deserve particular scrutiny because models can fabricate supporting details while presenting them confidently.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science+2LogicGate Risk Cloud]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-title">Live Science AI hallucinates more frequently as it gets more advanced</span><span class="citation-popover-snippet">OpenAI&#x27;s latest reasoning models, o3 and o4-mini, showed higher hallucination rates than earlier versions, sparking concerns about the re...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_human_review_2a4d2c-Illustration-3-dark.svg" | relative_url }}" alt="Human review illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_human_review_2a4d2c-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_human_review_2a4d2c-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -379,11 +379,11 @@ Long projects often contain inconsistencies introduced across multiple generatio
 
 ### Ethical and Reputational Checks
 
-AI systems may generate content that is biased, insensitive, misleading, or potentially damaging to an organisation’s reputation. Human review helps identify issues that are difficult to encode as prompt instructions alone. Risk-management guidance for generative AI repeatedly emphasises human accountability for evaluating such outcomes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</span><span class="citation-popover-meta">Published: March 24, 2025</span></span></span>
+AI systems may generate content that is biased, insensitive, misleading, or potentially damaging to an organisation’s reputation. Human review helps identify issues that are difficult to encode as prompt instructions alone. Risk-management guidance for generative AI repeatedly emphasises human accountability for evaluating such outcomes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</span><span class="citation-popover-meta">Published: March 24, 2025</span></span></span>
 
 ### Domain-Specific Validation
 
-In specialised fields such as law, medicine, research, finance, engineering, or software development, subject-matter expertise remains critical. AI can accelerate drafting and exploration, but experts must still verify outputs before they are relied upon in professional settings. Studies of AI-assisted [code review]({{ 'code-review/' | relative_url }}), for example, show that human reviewers provide contextual understanding, testing insight, and quality feedback that automated systems frequently miss. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2603.15911" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Human-AI Synergy in Agentic Code Review</span><span class="citation-popover-snippet">Human-AI Synergy in Agentic Code ReviewMarch 16, 2026...</span><span class="citation-popover-meta">Published: March 16, 2026</span></span></span>
+In specialised fields such as law, medicine, research, finance, engineering, or software development, subject-matter expertise remains critical. AI can accelerate drafting and exploration, but experts must still verify outputs before they are relied upon in professional settings. Studies of AI-assisted [code review]({{ 'code-review/' | relative_url }}), for example, show that human reviewers provide contextual understanding, testing insight, and quality feedback that automated systems frequently miss.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2603.15911" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Human-AI Synergy in Agentic Code Review</span><span class="citation-popover-snippet">Human-AI Synergy in Agentic Code ReviewMarch 16, 2026...</span><span class="citation-popover-meta">Published: March 16, 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/qeuRQAityB8" title="What is Human-in-the-Loop?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=qeuRQAityB8" target="_blank" rel="noopener noreferrer">What is Human-in-the-Loop?</a></p><p class="youtube-embed-meta">Channel: Google Cloud Tech</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=qeuRQAityB8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=qeuRQAityB8">Open on YouTube</a></p></div></div></div>
@@ -392,199 +392,199 @@ In specialised fields such as law, medicine, research, finance, engineering, or 
 
 The growth of generative AI has not eliminated the need for human expertise. Instead, it has moved expertise to a different stage of the workflow.
 
-Prompt iteration helps creators generate possibilities quickly, but human review determines which possibilities become finished work. It catches hallucinations, identifies weak reasoning, checks alignment with goals, and applies contextual judgement that AI systems cannot reliably reproduce. Frameworks for AI risk management increasingly treat human oversight not as an optional extra but as a central control mechanism for trustworthy use of generative systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2University of Bologna]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</span><span class="citation-popover-meta">Published: March 24, 2025</span></span></span>
+Prompt iteration helps creators generate possibilities quickly, but human review determines which possibilities become finished work. It catches hallucinations, identifies weak reasoning, checks alignment with goals, and applies contextual judgement that AI systems cannot reliably reproduce. Frameworks for AI risk management increasingly treat human oversight not as an optional extra but as a central control mechanism for trustworthy use of generative systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2University of Bologna]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">Publications Artificial Intelligence Risk Management Framework</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</span><span class="citation-popover-meta">Published: March 24, 2025</span></span></span>
 
 As AI-assisted creation becomes more common, the most valuable skill may not be generating more content. It may be knowing how to evaluate, refine, and approve the content that AI generates. Human review remains the bridge between a plausible draft and a trustworthy final result.
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why AI drafts still need a human editor. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why AI drafts still need a human editor. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explains why AI systems require human supervision and evaluation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why AI systems require human supervision and evaluation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human + Machine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wpY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Human + Machine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human + Machine">Human + Machine</a>
-        </h4>
-        <p class="fr-book-author">By Paul R. Daugherty, H. James Wilson</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human + Machine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wpY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Human + Machine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human + Machine">Human + Machine</a>
+</h4>
+<p class="fr-book-author">By Paul R. Daugherty, H. James Wilson</p>
         
-        <p class="fr-book-desc">Discusses effective human review and collaboration alongside AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses effective human review and collaboration alongside AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Strong emphasis on human oversight, judgment, and AI limitations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Strong emphasis on human oversight, judgment, and AI limitations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Illustrates risks of unchecked algorithmic outputs and decision-making.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Illustrates risks of unchecked algorithmic outputs and decision-making.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+%2B+Machine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human + Machine</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+%2B+Machine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human + Machine</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe"><img src="{{ '/assets/images/marketplace-covers/fd6e68e9d855d53f81ac.jpg' | relative_url }}" alt="Listing image for Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe"><img src="{{ '/assets/images/marketplace-covers/fd6e68e9d855d53f81ac.jpg' | relative_url }}" alt="Listing image for Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science Genius Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bde1c84093196f5e3eac.jpg' | relative_url }}" alt="Listing image for Computer Science Genius Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Computer Science Genius Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science Genius Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bde1c84093196f5e3eac.jpg' | relative_url }}" alt="Listing image for Computer Science Genius Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Computer Science Genius Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a8b78855b29bc86d913d.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a8b78855b29bc86d913d.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="human-review-ed03c0-why-ai-drafts-still-need-a-human-editor-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -600,7 +600,7 @@ As AI-assisted creation becomes more common, the most valuable skill may not be 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -620,7 +620,7 @@ As AI-assisted creation becomes more common, the most valuable skill may not be 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -652,7 +652,7 @@ As AI-assisted creation becomes more common, the most valuable skill may not be 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -704,7 +704,7 @@ As AI-assisted creation becomes more common, the most valuable skill may not be 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -749,7 +749,7 @@ As AI-assisted creation becomes more common, the most valuable skill may not be 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -790,131 +790,131 @@ As AI-assisted creation becomes more common, the most valuable skill may not be 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: nvlpubs.nist.gov  
    Title: Publications Artificial Intelligence Risk Management Framework  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management FrameworkMarch 24, 2025 — by N AI · 2024 · Cited by 144 — NIST, which has conduc...</p></details>
    Published: March 24, 2025  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>or generative AI risk management that best aligns with...Read more...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>or generative AI risk management that best aligns with...Read more...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: logicgate.com  
-   Link: <a href="https://www.logicgate.com/blog/understanding-the-nist-ai-rmf-framework/" target="_blank" rel="noopener noreferrer nofollow">https://www.logicgate.com/blog/understanding-the-nist-ai-rmf-framework/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the NIST AI RMF Framework | LogicGate Risk CloudNovember 24, 2025 — It identifies unique risks posed by generative AI—such...</p></details>
+   Link:<a href="https://www.logicgate.com/blog/understanding-the-nist-ai-rmf-framework/" target="_blank" rel="noopener noreferrer nofollow">https://www.logicgate.com/blog/understanding-the-nist-ai-rmf-framework/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the NIST AI RMF Framework | LogicGate Risk CloudNovember 24, 2025 — It identifies unique risks posed by generative AI—such...</p></details>
    Published: November 24, 2025  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2409.09467" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2409.09467</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Keeping Humans in the Loop: Human-Centered Automated Annotation with Generative AISeptember 14, 2024...</p></details>
+   Link:<a href="https://arxiv.org/abs/2409.09467" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2409.09467</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Keeping Humans in the Loop: Human-Centered Automated Annotation with Generative AISeptember 14, 2024...</p></details>
    Published: September 14, 2024  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: livingsecurity.com  
    Title: nist ai risk management oversight  
-   Link: <a href="https://www.livingsecurity.com/blog/nist-ai-risk-management-oversight" target="_blank" rel="noopener noreferrer nofollow">https://www.livingsecurity.com/blog/nist-ai-risk-management-oversight</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A Guide to Human Oversight Controls for AIFeb 10, 2026 — Build safer, more accountable AI systems with strong human oversight controls. T...</p></details>
+   Link:<a href="https://www.livingsecurity.com/blog/nist-ai-risk-management-oversight" target="_blank" rel="noopener noreferrer nofollow">https://www.livingsecurity.com/blog/nist-ai-risk-management-oversight</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Guide to Human Oversight Controls for AIFeb 10, 2026 — Build safer, more accountable AI systems with strong human oversight controls. T...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv Human-AI Synergy in Agentic Code Review  
-   Link: <a href="https://arxiv.org/abs/2603.15911" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.15911</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Human-AI Synergy in Agentic Code ReviewMarch 16, 2026...</p></details>
+   Link:<a href="https://arxiv.org/abs/2603.15911" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.15911</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Human-AI Synergy in Agentic Code ReviewMarch 16, 2026...</p></details>
    Published: March 16, 2026  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2501.02725v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2501.02725v3</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence in Creative Industries: Advances Prior...5 Jun 2025 — One of the exciting aspects of using LLMs in the creative...</p></details>
+   Link:<a href="https://arxiv.org/html/2501.02725v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2501.02725v3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence in Creative Industries: Advances Prior...5 Jun 2025 — One of the exciting aspects of using LLMs in the creative...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: site.unibo.it  
    Title: 2024 04 01 NIST AI RISK MANAGEMENT GENAI  
-   Link: <a href="https://site.unibo.it/hypermodelex/en/publications/2024-04-01-nist-ai-risk-management-genai.pdf/%40%40download/file/2024-04-01-NIST-AI-RISK-MANAGEMENT-GENAI.pdf" target="_blank" rel="noopener noreferrer nofollow">https://site.unibo.it/hypermodelex/en/publications/2024-04-01-nist-ai-risk-management-genai.pdf/%40%40download/file/2024-04-01-NIST-AI-RISK-MANAGEMENT-GENAI.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>University of BolognaArtificial Intelligence Risk Management Framework13 Apr 2024 — Review GAI system outputs for validity and safety: Re...</p></details>
+   Link:<a href="https://site.unibo.it/hypermodelex/en/publications/2024-04-01-nist-ai-risk-management-genai.pdf/%40%40download/file/2024-04-01-NIST-AI-RISK-MANAGEMENT-GENAI.pdf" target="_blank" rel="noopener noreferrer nofollow">https://site.unibo.it/hypermodelex/en/publications/2024-04-01-nist-ai-risk-management-genai.pdf/%40%40download/file/2024-04-01-NIST-AI-RISK-MANAGEMENT-GENAI.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>University of BolognaArtificial Intelligence Risk Management Framework13 Apr 2024 — Review GAI system outputs for validity and safety: Re...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: livescience.com  
    Title: Live Science AI hallucinates more frequently as it gets more advanced  
-   Link: <a href="https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI&#x27;s latest reasoning models, o3 and o4-mini, showed higher hallucination rates than earlier versions, sparking concerns about the re...</p></details>
+   Link:<a href="https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/technology/artificial-intelligence/ai-hallucinates-more-frequently-as-it-gets-more-advanced-is-there-any-way-to-stop-it-from-happening-and-should-we-even-try</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI&#x27;s latest reasoning models, o3 and o4-mini, showed higher hallucination rates than earlier versions, sparking concerns about the re...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: ft.com  
-   Link: <a href="https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These errors arise from the probabilistic way the models predict the next word in a sentence, sometimes leading to plausible yet incorrec...</p></details>
+   Link:<a href="https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These errors arise from the probabilistic way the models predict the next word in a sentence, sometimes leading to plausible yet incorrec...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/NIST" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/NIST</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>industry and science can produce the improved products, services, and technologies of...Read more...</p></details>
+   Link:<a href="https://www.youtube.com/NIST" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/NIST</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>industry and science can produce the improved products, services, and technologies of...Read more...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: techgov.intelligence.org  
    Title: comments on nist ai rmf generative artificial intelligence profile nist ai 600 1  
-   Link: <a href="https://techgov.intelligence.org/research/comments-on-nist-ai-rmf-generative-artificial-intelligence-profile-nist-ai-600-1" target="_blank" rel="noopener noreferrer nofollow">https://techgov.intelligence.org/research/comments-on-nist-ai-rmf-generative-artificial-intelligence-profile-nist-ai-600-1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>We suggest including risks from misaligned AI...</p></details>
+   Link:<a href="https://techgov.intelligence.org/research/comments-on-nist-ai-rmf-generative-artificial-intelligence-profile-nist-ai" target="_blank" rel="noopener noreferrer nofollow">https://techgov.intelligence.org/research/comments-on-nist-ai-rmf-generative-artificial-intelligence-profile-nist-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We suggest including risks from misaligned AI...</p></details>
 
 ### Additional References
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/top-content/artificial-intelligence/ai-tools-for-content-creation/ai-content-creation-with-human-oversight/" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/artificial-intelligence/ai-tools-for-content-creation/ai-content-creation-with-human-oversight/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Content Creation with Human OversightAI content creation with human oversight means using artificial intelligence to generate written...</p></details>
+   Link:<a href="https://www.linkedin.com/top-content/artificial-intelligence/ai-tools-for-content-creation/ai-content-creation-with-human-oversight/" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/artificial-intelligence/ai-tools-for-content-creation/ai-content-creation-with-human-oversight/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Content Creation with Human OversightAI content creation with human oversight means using artificial intelligence to generate written...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: vaf.be  
-   Link: <a href="https://www.vaf.be/files/Onderzoek/human-in-the-loop_may-2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.vaf.be/files/Onderzoek/human-in-the-loop_may-2025.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>HUMAN IN THE LOOP – AI and the Film Value Chainby DRA FINNEY — Finney guides us through the many wonders and challenges that AI is bringi...</p></details>
+   Link:<a href="https://www.vaf.be/files/Onderzoek/human-in-the-loop_may-2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.vaf.be/files/Onderzoek/human-in-the-loop_may-2025.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>HUMAN IN THE LOOP – AI and the Film Value Chainby DRA FINNEY — Finney guides us through the many wonders and challenges that AI is bringi...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: adeptiv.ai  
-   Link: <a href="https://adeptiv.ai/nist-generative-ai/" target="_blank" rel="noopener noreferrer nofollow">https://adeptiv.ai/nist-generative-ai/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Generative AI Profile ExplainedIt focuses on assigning clear ownership for GenAI risk decisions, defining acceptable uses of generat...</p></details>
+   Link:<a href="https://adeptiv.ai/nist-generative-ai/" target="_blank" rel="noopener noreferrer nofollow">https://adeptiv.ai/nist-generative-ai/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Generative AI Profile ExplainedIt focuses on assigning clear ownership for GenAI risk decisions, defining acceptable uses of generat...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: darktrace.com  
-   Link: <a href="https://www.darktrace.com/cyber-ai-glossary/national-institute-of-standards-and-technology-nist" target="_blank" rel="noopener noreferrer nofollow">https://www.darktrace.com/cyber-ai-glossary/national-institute-of-standards-and-technology-nist</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What is NIST? | Definition &amp; ExamplesThe National Institute of Standards and Technology (NIST) is the federal technology agency that deve...</p></details>
+   Link:<a href="https://www.darktrace.com/cyber-ai-glossary/national-institute-of-standards-and-technology-nist" target="_blank" rel="noopener noreferrer nofollow">https://www.darktrace.com/cyber-ai-glossary/national-institute-of-standards-and-technology-nist</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is NIST? | Definition &amp; ExamplesThe National Institute of Standards and Technology (NIST) is the federal technology agency that deve...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: modelop.com  
-   Link: <a href="https://www.modelop.com/ai-governance/ai-regulations-standards/nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.modelop.com/ai-governance/ai-regulations-standards/nist-ai-rmf</a>  
+   Link:<a href="https://www.modelop.com/ai-governance/ai-regulations-standards/nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.modelop.com/ai-governance/ai-regulations-standards/nist-ai-rmf</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: blog.adobe.com  
-   Link: <a href="https://blog.adobe.com/en/publish/2024/10/08/adobes-ai-creative-frontier-study-reveals-creators-views-opportunities-risks-generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://blog.adobe.com/en/publish/2024/10/08/adobes-ai-creative-frontier-study-reveals-creators-views-opportunities-risks-generative-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>adobe.comAdobe&#x27;s AI and the Creative Frontier Study Reveals...8 Oct 2024 — 90 percent of creators said they believe generative AI tools...</p></details>
+   Link:<a href="https://blog.adobe.com/en/publish/2024/10/08/adobes-ai-creative-frontier-study-reveals-creators-views-opportunities-risks-generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://blog.adobe.com/en/publish/2024/10/08/adobes-ai-creative-frontier-study-reveals-creators-views-opportunities-risks-generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>adobe.comAdobe&#x27;s AI and the Creative Frontier Study Reveals...8 Oct 2024 — 90 percent of creators said they believe generative AI tools...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: linkedin.com  
    Title: hal 9000 case end to end ai risk oversight using nist sangita sridar wtqjc  
-   Link: <a href="https://www.linkedin.com/pulse/hal-9000-case-end-to-end-ai-risk-oversight-using-nist-sangita-sridar-wtqjc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/hal-9000-case-end-to-end-ai-risk-oversight-using-nist-sangita-sridar-wtqjc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How HAL 9000 Exposes AI Risks—and How the NIST AI RMF Can PrMay 8, 2025 — In this article, I explore how the NIST AI Risk Management Fram...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/hal-9000-case-end-to-end-ai-risk-oversight-using-nist-sangita-sridar-wtqjc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/hal-9000-case-end-to-end-ai-risk-oversight-using-nist-sangita-sridar-wtqjc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How HAL 9000 Exposes AI Risks—and How the NIST AI RMF Can PrMay 8, 2025 — In this article, I explore how the NIST AI Risk Management Fram...</p></details>
    Published: May 8, 2025  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=NSlXQ2bwFF0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=NSlXQ2bwFF0</a>  
+   Link:<a href="https://www.youtube.com/watch?v=NSlXQ2bwFF0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=NSlXQ2bwFF0</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: blacksmithinfosec.com  
-   Link: <a href="https://blacksmithinfosec.com/nists-ai-risk-management-framework-what-it-is-why-it-exists-and-what-msps-should-know/" target="_blank" rel="noopener noreferrer nofollow">https://blacksmithinfosec.com/nists-ai-risk-management-framework-what-it-is-why-it-exists-and-what-msps-should-know/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST&#x27;s AI Risk Management Framework: What It Is, Why It Exists, and...February 4, 2026 — NIST developed the AI RMF to help organizations...</p></details>
+   Link:<a href="https://blacksmithinfosec.com/nists-ai-risk-management-framework-what-it-is-why-it-exists-and-what-msps-should-know/" target="_blank" rel="noopener noreferrer nofollow">https://blacksmithinfosec.com/nists-ai-risk-management-framework-what-it-is-why-it-exists-and-what-msps-should-know/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST&#x27;s AI Risk Management Framework: What It Is, Why It Exists, and...February 4, 2026 — NIST developed the AI RMF to help organizations...</p></details>
    Published: February 4, 2026  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: averi.ai  
    Title: balancing creativity and ai human oversight in ai generated content  
-   Link: <a href="https://www.averi.ai/blog/balancing-creativity-and-ai-human-oversight-in-ai-generated-content" target="_blank" rel="noopener noreferrer nofollow">https://www.averi.ai/blog/balancing-creativity-and-ai-human-oversight-in-ai-generated-content</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Human Oversight In AI-Generated Content12 Sept 2025 — Companies implementing systematic AI oversight achieve 67% better content performan...</p></details>
+   Link:<a href="https://www.averi.ai/blog/balancing-creativity-and-ai-human-oversight-in-ai-generated-content" target="_blank" rel="noopener noreferrer nofollow">https://www.averi.ai/blog/balancing-creativity-and-ai-human-oversight-in-ai-generated-content</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Human Oversight In AI-Generated Content12 Sept 2025 — Companies implementing systematic AI oversight achieve 67% better content performan...</p></details>

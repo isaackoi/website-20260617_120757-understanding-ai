@@ -316,9 +316,9 @@ Modern route planning works best when the user treats the app as a decision-supp
 
 Navigation apps combine several streams of information to estimate the best route.
 
-Google explains that its mapping systems use historical traffic patterns together with live traffic conditions. [Machine-learning]({{ 'machine-learning/' | relative_url }}) models compare what is happening now with how similar roads behaved at similar times in the past, allowing the system to estimate future travel times rather than simply reporting current congestion. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: blog.google">[blog.google]</a><span class="citation-popover" role="note"><span class="citation-popover-source">blog.google</span><span class="citation-popover-title">For example, ...Read more</span><span class="citation-popover-snippet">Google Maps 101: How AI helps predict traffic and ...3 Sept 2020 — To predict what traffic will look like in the near future, Google Maps...</span></span></span>
+Google explains that its mapping systems use historical traffic patterns together with live traffic conditions. [Machine-learning]({{ 'machine-learning/' | relative_url }}) models compare what is happening now with how similar roads behaved at similar times in the past, allowing the system to estimate future travel times rather than simply reporting current congestion.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: blog.google">[blog.google]</a><span class="citation-popover" role="note"><span class="citation-popover-source">blog.google</span><span class="citation-popover-title">For example, ...Read more</span><span class="citation-popover-snippet">Google Maps 101: How AI helps predict traffic and ...3 Sept 2020 — To predict what traffic will look like in the near future, Google Maps...</span></span></span>
 
-Many navigation platforms also draw on large-scale location data and road reports. Waze, for example, relies heavily on information supplied by drivers, including reports of accidents, roadworks, hazards and delays, alongside real-time travel data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.waze.com/live-map" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: waze.com">[Waze+2Google Play]</a><span class="citation-popover" role="note"><span class="citation-popover-source">waze.com</span><span class="citation-popover-snippet">Waze: Driving directions, live traffic &amp; road conditions updatesRealtime driving directions based on live traffic updates from Waze...</span></span></span>
+Many navigation platforms also draw on large-scale location data and road reports. Waze, for example, relies heavily on information supplied by drivers, including reports of accidents, roadworks, hazards and delays, alongside real-time travel data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.waze.com/live-map" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: waze.com">[Waze+2Google Play]</a><span class="citation-popover" role="note"><span class="citation-popover-source">waze.com</span><span class="citation-popover-snippet">Waze: Driving directions, live traffic &amp; road conditions updatesRealtime driving directions based on live traffic updates from Waze...</span></span></span>
 
 The process generally follows three steps:
 
@@ -363,7 +363,7 @@ A driver who sees that a suggested diversion involves unsuitable roads, severe w
 The destination entered into the app is often simpler than the traveller's actual objective.
 
 [For example:](#endnote-1 "
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Maps 101: How AI helps predict traffic and...3 Sept 2020 — To predict what traffic will look like in the near future, Google Maps...&quot;)...</p></details>
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Maps 101: How AI helps predict traffic and...3 Sept 2020 — To predict what traffic will look like in the near future, Google Maps...&quot;)...</p></details>
 
 * A driver may need parking near a building rather than the building itself.
 * A delivery driver may need a specific entrance.
@@ -395,178 +395,178 @@ Navigation apps often outperform individual humans at analysing traffic networks
 For that reason, the best approach is neither blind trust nor blanket scepticism. The app supplies a data-driven prediction; the traveller supplies situational awareness, common sense and responsibility. Together, those strengths usually produce better decisions than either one alone.
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Should You Always Follow the Map?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Should You Always Follow the Map?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hello World on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=72FCDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hello World" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hello World">Hello World</a>
-        </h4>
-        <p class="fr-book-author">By Hannah Fry</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hello World on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=72FCDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hello World" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hello World">Hello World</a>
+</h4>
+<p class="fr-book-author">By Hannah Fry</p>
         
-        <p class="fr-book-desc">Explains how humans should interact with algorithmic recommendations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how humans should interact with algorithmic recommendations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Provides context for understanding AI advice versus human judgment.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for understanding AI advice versus human judgment.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Highlights effective human-AI collaboration rather than blind trust.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Highlights effective human-AI collaboration rather than blind trust.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Traffic+Flow+Theory+by+Daiheng+Ni&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Traffic Flow Theory on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=NrkXswEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Traffic Flow Theory" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Traffic+Flow+Theory+by+Daiheng+Ni&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Traffic Flow Theory">Traffic Flow Theory</a>
-        </h4>
-        <p class="fr-book-author">By Daiheng Ni</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Traffic+Flow+Theory+by+Daiheng+Ni&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Traffic Flow Theory on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=NrkXswEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Traffic Flow Theory" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Traffic+Flow+Theory+by+Daiheng+Ni&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Traffic Flow Theory">Traffic Flow Theory</a>
+</h4>
+<p class="fr-book-author">By Daiheng Ni</p>
         
-        <p class="fr-book-desc">Explains the traffic principles behind route recommendations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Traffic+Flow+Theory+by+Daiheng+Ni&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains the traffic principles behind route recommendations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Traffic+Flow+Theory+by+Daiheng+Ni&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hello+World&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hello World</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hello+World&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hello World</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car"><img src="{{ '/assets/images/marketplace-covers/526b63c9105e4b2c7bc0.jpg' | relative_url }}" alt="Listing image for 6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car"><img src="{{ '/assets/images/marketplace-covers/526b63c9105e4b2c7bc0.jpg' | relative_url }}" alt="Listing image for 6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit"><img src="{{ '/assets/images/marketplace-covers/9be77cb3cd417fc69711.jpg' | relative_url }}" alt="Listing image for 5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit"><img src="{{ '/assets/images/marketplace-covers/9be77cb3cd417fc69711.jpg' | relative_url }}" alt="Listing image for 5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">5 in 1 Robot Toys for Kids Building Set, APP &amp; Remote Control Robotics Kit</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit"><img src="{{ '/assets/images/marketplace-covers/6316323198d3d3131842.jpg' | relative_url }}" alt="Listing image for EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit"><img src="{{ '/assets/images/marketplace-covers/6316323198d3d3131842.jpg' | relative_url }}" alt="Listing image for EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">EcoBot Robotics Toy Build and Learn Science Museum STEM Building Robot Kit</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=routes-should-you-always-follow-the-map-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="routes-should-you-always-follow-the-map-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -582,7 +582,7 @@ For that reason, the best approach is neither blind trust nor blanket scepticism
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -602,7 +602,7 @@ For that reason, the best approach is neither blind trust nor blanket scepticism
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -634,7 +634,7 @@ For that reason, the best approach is neither blind trust nor blanket scepticism
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -686,7 +686,7 @@ For that reason, the best approach is neither blind trust nor blanket scepticism
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -731,7 +731,7 @@ For that reason, the best approach is neither blind trust nor blanket scepticism
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -772,155 +772,155 @@ For that reason, the best approach is neither blind trust nor blanket scepticism
 
 ## Endnotes
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: cloud.google.com  
    Title: predicting future travel times with the google maps apis  
-   Link: <a href="https://cloud.google.com/blog/topics/inside-google-cloud/predicting-future-travel-times-with-the-google-maps-apis" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/blog/topics/inside-google-cloud/predicting-future-travel-times-with-the-google-maps-apis</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google CloudPredicting future travel times with the Google Maps APIs11 Nov 2015 — Predictive travel time uses historical time-of-day and...</p></details>
+   Link:<a href="https://cloud.google.com/blog/topics/inside-google-cloud/predicting-future-travel-times-with-the-google-maps-apis" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/blog/topics/inside-google-cloud/predicting-future-travel-times-with-the-google-maps-apis</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google CloudPredicting future travel times with the Google Maps APIs11 Nov 2015 — Predictive travel time uses historical time-of-day and...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: waze.com  
-   Link: <a href="https://www.waze.com/live-map" target="_blank" rel="noopener noreferrer nofollow">https://www.waze.com/live-map</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Waze: Driving directions, live traffic &amp; road conditions updatesRealtime driving directions based on live traffic updates from Waze...</p></details>
+   Link:<a href="https://www.waze.com/live-map" target="_blank" rel="noopener noreferrer nofollow">https://www.waze.com/live-map</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Waze: Driving directions, live traffic &amp; road conditions updatesRealtime driving directions based on live traffic updates from Waze...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: play.google.com  
-   Link: <a href="https://play.google.com/store/apps/details?hl=en_GB&amp;id=com.waze" target="_blank" rel="noopener noreferrer nofollow">https://play.google.com/store/apps/details?hl=en_GB&amp;id=com.waze</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google PlayWaze Navigation &amp; Live Traffic – Apps on Google PlayWaze is a live map that harnesses the local knowledge of tens of millions...</p></details>
+   Link:<a href="https://play.google.com/store/apps/details?hl=en_GB&amp;id=com.waze" target="_blank" rel="noopener noreferrer nofollow">https://play.google.com/store/apps/details?hl=en_GB&amp;id=com.waze</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google PlayWaze Navigation &amp; Live Traffic – Apps on Google PlayWaze is a live map that harnesses the local knowledge of tens of millions...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: waze.com  
-   Link: <a href="https://www.waze.com/waze/" target="_blank" rel="noopener noreferrer nofollow">https://www.waze.com/waze/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Driving Directions &amp; Traffic Reports by WazeGet driving directions, a live traffic map &amp; road alerts. Download the GPS traffic app, power...</p></details>
+   Link:<a href="https://www.waze.com/waze/" target="_blank" rel="noopener noreferrer nofollow">https://www.waze.com/waze/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Driving Directions &amp; Traffic Reports by WazeGet driving directions, a live traffic map &amp; road alerts. Download the GPS traffic app, power...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: support.google.com  
-   Link: <a href="https://support.google.com/maps/answer/7565193?co=GENIE.Platform%3DAndroid&amp;hl=en-GB" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/maps/answer/7565193?co=GENIE.Platform%3DAndroid&amp;hl=en-GB</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google HelpPlan your commute or trip - Android - Google Maps HelpYou can use Google Maps to find all of your frequent trips quickly, in o...</p></details>
+   Link:<a href="https://support.google.com/maps/answer/7565193?co=GENIE.Platform%3DAndroid&amp;hl=en-GB" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/maps/answer/7565193?co=GENIE.Platform%3DAndroid&amp;hl=en-GB</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google HelpPlan your commute or trip - Android - Google Maps HelpYou can use Google Maps to find all of your frequent trips quickly, in o...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: mapsplatform.google.com  
-   Link: <a href="https://mapsplatform.google.com/intl/en_uk/solutions/offer-efficient-routes/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/intl/en_uk/solutions/offer-efficient-routes/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Maps PlatformRoute Optimization &amp; Real-Time TrafficProvide an efficient route for your drivers with turn-by-turn directions, real...</p></details>
+   Link:<a href="https://mapsplatform.google.com/intl/en_uk/solutions/offer-efficient-routes/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/intl/en_uk/solutions/offer-efficient-routes/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Maps PlatformRoute Optimization &amp; Real-Time TrafficProvide an efficient route for your drivers with turn-by-turn directions, real...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: mapsplatform.google.com  
-   Link: <a href="https://mapsplatform.google.com/resources/blog/roads-management-insights-is-now-available-build-safer-smarter-and-more-efficient-road-networks/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/resources/blog/roads-management-insights-is-now-available-build-safer-smarter-and-more-efficient-road-networks/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Historical traffic information about a road in Paris. Real-time monitoring: Respond to what&#x27;s happening now. In...Read more...</p></details>
+   Link:<a href="https://mapsplatform.google.com/resources/blog/roads-management-insights-is-now-available-build-safer-smarter-and-more-efficient-road-networks/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/resources/blog/roads-management-insights-is-now-available-build-safer-smarter-and-more-efficient-road-networks/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Historical traffic information about a road in Paris. Real-time monitoring: Respond to what&#x27;s happening now. In...Read more...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: mapsplatform.google.com  
    Title: offer efficient routes  
-   Link: <a href="https://mapsplatform.google.com/solutions/offer-efficient-routes/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/solutions/offer-efficient-routes/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Optimization &amp; Real-Time TrafficProvide an efficient route for your drivers with turn-by-turn directions, real-time traffic, and by displ...</p></details>
+   Link:<a href="https://mapsplatform.google.com/solutions/offer-efficient-routes/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/solutions/offer-efficient-routes/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Optimization &amp; Real-Time TrafficProvide an efficient route for your drivers with turn-by-turn directions, real-time traffic, and by displ...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: support.google.com  
    Title: how google maps collects traffic data  
-   Link: <a href="https://support.google.com/maps/thread/390437867/how-google-maps-collects-traffic-data?hl=en" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/maps/thread/390437867/how-google-maps-collects-traffic-data?hl=en</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>google maps collects traffic data..?26 Nov 2025 — Any one known plz explain...</p></details>
+   Link:<a href="https://support.google.com/maps/thread/390437867/how-google-maps-collects-traffic-data?hl=en" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/maps/thread/390437867/how-google-maps-collects-traffic-data?hl=en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>google maps collects traffic data..?26 Nov 2025 — Any one known plz explain...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: play.google.com  
-   Link: <a href="https://play.google.com/store/apps/details?id=com.travel.route.navigation.map.gps" target="_blank" rel="noopener noreferrer nofollow">https://play.google.com/store/apps/details?id=com.travel.route.navigation.map.gps</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Navigation &amp; Live Traffic - Apps on Google Play15 May 2026 — Travel Route Map, Live Traffic App is a reliable GPS route guide with AI-ass...</p></details>
+   Link:<a href="https://play.google.com/store/apps/details?id=com.travel.route.navigation.map.gps" target="_blank" rel="noopener noreferrer nofollow">https://play.google.com/store/apps/details?id=com.travel.route.navigation.map.gps</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Navigation &amp; Live Traffic - Apps on Google Play15 May 2026 — Travel Route Map, Live Traffic App is a reliable GPS route guide with AI-ass...</p></details>
    Published: May 2026  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: support.google.com  
-   Link: <a href="https://support.google.com/waze/?hl=en-GB" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/waze/?hl=en-GB</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>HelpOfficial Waze Help Center where you can find tips and tutorials on using Waze and other answers to frequently asked questions...</p></details>
+   Link:<a href="https://support.google.com/waze/?hl=en-GB" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/waze/?hl=en-GB</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>HelpOfficial Waze Help Center where you can find tips and tutorials on using Waze and other answers to frequently asked questions...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: waze.com  
-   Link: <a href="https://www.waze.com/company/" target="_blank" rel="noopener noreferrer nofollow">https://www.waze.com/company/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Driving Directions, Traffic Reports &amp; Road Alerts by WazeKnow when to leave, which route to take, and what to expect along the way. Get d...</p></details>
+   Link:<a href="https://www.waze.com/company/" target="_blank" rel="noopener noreferrer nofollow">https://www.waze.com/company/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Driving Directions, Traffic Reports &amp; Road Alerts by WazeKnow when to leave, which route to take, and what to expect along the way. Get d...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: How does Google Maps predict traffic so accurately?  
-   Link: <a href="http://www.youtube.com/watch?v=0k9yoWRLsUo" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=0k9yoWRLsUo</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Maps 101: How AI helps predict traffic and determine routes...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=0k9yoWRLsUo" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=0k9yoWRLsUo</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Maps 101: How AI helps predict traffic and determine routes...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
    Title: Google Maps 101: How AI helps predict traffic and determine routes  
-   Link: <a href="http://www.youtube.com/watch?v=lwR3ZDG2Oss" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=lwR3ZDG2Oss</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Google Maps Uses AI to Predict Traffic | AI in Everyday Life...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=lwR3ZDG2Oss" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=lwR3ZDG2Oss</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Google Maps Uses AI to Predict Traffic | AI in Everyday Life...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: thetimes.com  
    Title: The Times Safety alert over sat-navs diverting drivers on to country roads  
-   Link: <a href="https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn" target="_blank" rel="noopener noreferrer nofollow">https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The charity highlights that while these diversions may save only a few minutes, they significantly increase the risk of accidents. In 202...</p></details>
+   Link:<a href="https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn" target="_blank" rel="noopener noreferrer nofollow">https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The charity highlights that while these diversions may save only a few minutes, they significantly increase the risk of accidents. In 202...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: apps.apple.com  
    Title: App Store Waze Navigation & Live Traffic  
-   Link: <a href="https://apps.apple.com/us/app/waze-navigation-live-traffic/id323229106" target="_blank" rel="noopener noreferrer nofollow">https://apps.apple.com/us/app/waze-navigation-live-traffic/id323229106</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>App StoreWaze Navigation &amp; Live Traffic - App StoreDrivers safely and confidently reach their everyday destinations thanks to Waze map&#x27;s...</p></details>
+   Link:<a href="https://apps.apple.com/us/app/waze-navigation-live-traffic/id323229106" target="_blank" rel="noopener noreferrer nofollow">https://apps.apple.com/us/app/waze-navigation-live-traffic/id323229106</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>App StoreWaze Navigation &amp; Live Traffic - App StoreDrivers safely and confidently reach their everyday destinations thanks to Waze map&#x27;s...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Waze" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Waze</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Wazea subsidiary company of Google that provides satellite navigation software on smartphones and other computers that support the Glo...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Waze" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Waze</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Wazea subsidiary company of Google that provides satellite navigation software on smartphones and other computers that support the Glo...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/Waze/?locale=en_GB" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/Waze/?locale=en_GB</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>2455663 likes · 426 talking about this. Download Waze for free &amp; more: [https://visitlink.bio/waze](https://visitlink.bio/waze) ⚽ Drive with a Soccer Superfan...</p></details>
+   Link:<a href="https://www.facebook.com/Waze/?locale=en_GB" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/Waze/?locale=en_GB</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>2455663 likes · 426 talking about this. Download Waze for free &amp; more: [https://visitlink.bio/waze](https://visitlink.bio/waze) ⚽ Drive with a Soccer Superfan...</p></details>
 
 ### Additional References
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/ashish-cumar_systemdesign-googlemaps-dataengineering-activity-7430831387898892288-mth_" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/ashish-cumar_systemdesign-googlemaps-dataengineering-activity-7430831387898892288-mth_</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Maps Traffic Updates: How It WorksHow Google Maps Predicts Traffic Using Massive Data Systems. https... Powered by massive real-t...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/ashish-cumar_systemdesign-googlemaps-dataengineering-activity-7430831387898892288-mth_" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/ashish-cumar_systemdesign-googlemaps-dataengineering-activity-7430831387898892288-mth_</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Maps Traffic Updates: How It WorksHow Google Maps Predicts Traffic Using Massive Data Systems. https... Powered by massive real-t...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: lifewire.com  
-   Link: <a href="https://www.lifewire.com/check-real-time-traffic-google-maps-7486702" target="_blank" rel="noopener noreferrer nofollow">https://www.lifewire.com/check-real-time-traffic-google-maps-7486702</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>For the mobile app, tap the layers button at the top-right, select Traffic, and then close the panel to view traffic data. For the deskto...</p></details>
+   Link:<a href="https://www.lifewire.com/check-real-time-traffic-google-maps-7486702" target="_blank" rel="noopener noreferrer nofollow">https://www.lifewire.com/check-real-time-traffic-google-maps-7486702</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>For the mobile app, tap the layers button at the top-right, select Traffic, and then close the panel to view traffic data. For the deskto...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/explainlikeimfive/comments/1tlnxsr/eli5_how_does_google_maps_know_there_is_traffic/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/explainlikeimfive/comments/1tlnxsr/eli5_how_does_google_maps_know_there_is_traffic/</a>  
+   Link:<a href="https://www.reddit.com/r/explainlikeimfive/comments/1tlnxsr/eli5_how_does_google_maps_know_there_is_traffic/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/explainlikeimfive/comments/1tlnxsr/eli5_how_does_google_maps_know_there_is_traffic/</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: smartphones.gadgethacks.com  
    Title: Once updated, you can choose departure and/or arrival times to plan your trip  
-   Link: <a href="https://smartphones.gadgethacks.com/how-to/see-what-traffic-will-be-like-specific-time-with-google-maps-0193097/" target="_blank" rel="noopener noreferrer nofollow">https://smartphones.gadgethacks.com/how-to/see-what-traffic-will-be-like-specific-time-with-google-maps-0193097/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>to See What Traffic Will Be Like at a Specific Time with...15 Jan 2025 — To use this feature, ensure your Google Maps app is updated...</p></details>
+   Link:<a href="https://smartphones.gadgethacks.com/how-to/see-what-traffic-will-be-like-specific-time-with-google-maps-0193097/" target="_blank" rel="noopener noreferrer nofollow">https://smartphones.gadgethacks.com/how-to/see-what-traffic-will-be-like-specific-time-with-google-maps-0193097/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>to See What Traffic Will Be Like at a Specific Time with...15 Jan 2025 — To use this feature, ensure your Google Maps app is updated...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=IspW6dknefs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=IspW6dknefs</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Google Maps Knows There&#x27;s Traffic Before You DoGoogle Maps can predict traffic conditions for your entire route even the parts you ha...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=IspW6dknefs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=IspW6dknefs</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Google Maps Knows There&#x27;s Traffic Before You DoGoogle Maps can predict traffic conditions for your entire route even the parts you ha...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: klover.ai  
    Title: ai navigation tools avoid traffic and save time every day  
-   Link: <a href="https://www.klover.ai/ai-navigation-tools-avoid-traffic-and-save-time-every-day/" target="_blank" rel="noopener noreferrer nofollow">https://www.klover.ai/ai-navigation-tools-avoid-traffic-and-save-time-every-day/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Navigation Tools: Avoid Traffic and Save Time Every Day17 Apr 2025 — Real-Time Traffic Mapping: Systems like Waze and Google Maps inge...</p></details>
+   Link:<a href="https://www.klover.ai/ai-navigation-tools-avoid-traffic-and-save-time-every-day/" target="_blank" rel="noopener noreferrer nofollow">https://www.klover.ai/ai-navigation-tools-avoid-traffic-and-save-time-every-day/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Navigation Tools: Avoid Traffic and Save Time Every Day17 Apr 2025 — Real-Time Traffic Mapping: Systems like Waze and Google Maps inge...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/explainlikeimfive/comments/119zi10/eli5_how_does_sirigoogle_maps_calculate_how_long/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/explainlikeimfive/comments/119zi10/eli5_how_does_sirigoogle_maps_calculate_how_long/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>age speeds of the different roads you will be travelling down and spit out a time...</p></details>
+   Link:<a href="https://www.reddit.com/r/explainlikeimfive/comments/119zi10/eli5_how_does_sirigoogle_maps_calculate_how_long/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/explainlikeimfive/comments/119zi10/eli5_how_does_sirigoogle_maps_calculate_how_long/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>age speeds of the different roads you will be travelling down and spit out a time...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: xaltiusacademy.com  
    Title: how google maps knows the fastest route in real time  
-   Link: <a href="https://xaltiusacademy.com/how-google-maps-knows-the-fastest-route-in-real-time/" target="_blank" rel="noopener noreferrer nofollow">https://xaltiusacademy.com/how-google-maps-knows-the-fastest-route-in-real-time/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>21 Aug 2025 — Apart from user-generated data, Google also partners with governments and traffic agencies to get real-time information abo...</p></details>
+   Link:<a href="https://xaltiusacademy.com/how-google-maps-knows-the-fastest-route-in-real-time/" target="_blank" rel="noopener noreferrer nofollow">https://xaltiusacademy.com/how-google-maps-knows-the-fastest-route-in-real-time/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>21 Aug 2025 — Apart from user-generated data, Google also partners with governments and traffic agencies to get real-time information abo...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: tomsguide.com  
    Title: Tom's Guide Traffic lights are coming to Waze  
-   Link: <a href="https://www.tomsguide.com/computing/mobile-apps/traffic-lights-are-coming-to-waze-but-they-dont-seem-to-be-visible-to-everyone" target="_blank" rel="noopener noreferrer nofollow">https://www.tomsguide.com/computing/mobile-apps/traffic-lights-are-coming-to-waze-but-they-dont-seem-to-be-visible-to-everyone</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>First seen in testing in December, the feature appears intermittently for users, likely due to Waze&#x27;s reliance on crowdsourced data rathe...</p></details>
+   Link:<a href="https://www.tomsguide.com/computing/mobile-apps/traffic-lights-are-coming-to-waze-but-they-dont-seem-to-be-visible-to-everyone" target="_blank" rel="noopener noreferrer nofollow">https://www.tomsguide.com/computing/mobile-apps/traffic-lights-are-coming-to-waze-but-they-dont-seem-to-be-visible-to-everyone</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>First seen in testing in December, the feature appears intermittently for users, likely due to Waze&#x27;s reliance on crowdsourced data rathe...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/thesystemdesign/how-google-maps-knows-youre-in-traffic-without-asking-you-3ae10eb3ee26" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/thesystemdesign/how-google-maps-knows-youre-in-traffic-without-asking-you-3ae10eb3ee26</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ices to create a real-time picture of traffic conditions...Read more...</p></details>
+   Link:<a href="https://medium.com/thesystemdesign/how-google-maps-knows-youre-in-traffic-without-asking-you-3ae10eb3ee26" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/thesystemdesign/how-google-maps-knows-youre-in-traffic-without-asking-you-3ae10eb3ee26</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ices to create a real-time picture of traffic conditions...Read more...</p></details>

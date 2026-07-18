@@ -269,19 +269,19 @@ image: /assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818
 
 ## Introduction
 
-Many [AI benchmarks]({{ 'benchmark-gaps/' | relative_url }}) reward only one thing: getting the answer right. That sounds reasonable until a model encounters a question it cannot reliably answer. Under an answer-only scoring system, a model that guesses still has some chance of earning points, while a model that honestly says “I don’t know” receives none. The result is a subtle but important distortion: tests can encourage confident guessing rather than trustworthy behaviour. Research and industry analysis increasingly argue that this incentive structure contributes to [hallucinations]({{ 'hallucinations/' | relative_url }}) and overconfident mistakes in deployed AI systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude-2025-9" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider Why AI chatbots hallucinate, according to Open AI researchers</span><span class="citation-popover-snippet">This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</span></span></span>
+Many [AI benchmarks]({{ 'benchmark-gaps/' | relative_url }}) reward only one thing: getting the answer right. That sounds reasonable until a model encounters a question it cannot reliably answer. Under an answer-only scoring system, a model that guesses still has some chance of earning points, while a model that honestly says “I don’t know” receives none. The result is a subtle but important distortion: tests can encourage confident guessing rather than trustworthy behaviour. Research and industry analysis increasingly argue that this incentive structure contributes to [hallucinations]({{ 'hallucinations/' | relative_url }}) and overconfident mistakes in deployed AI systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider Why AI chatbots hallucinate, according to Open AI researchers</span><span class="citation-popover-snippet">This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_rewarding_ai_b780cf-Illustration-1-dark.svg" | relative_url }}" alt="I Don t illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_rewarding_ai_b780cf-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_rewarding_ai_b780cf-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-For users, the difference is significant. In many situations, especially when information is incomplete, ambiguous or unavailable, an admission of uncertainty is more useful than a persuasive but false answer. If [benchmarks]({{ 'benchmarks/' | relative_url }}) are meant to measure reliability, they must evaluate not only whether a model can answer correctly, but also whether it can recognise when it should refrain from answering at all. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2506.09038" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Abstention Bench: Reasoning LLMs Fail on Unanswerable Questions</span><span class="citation-popover-snippet">AbstentionBench: Reasoning LLMs Fail on Unanswerable QuestionsJune 10, 2025...</span><span class="citation-popover-meta">Published: June 10, 2025</span></span></span>
+For users, the difference is significant. In many situations, especially when information is incomplete, ambiguous or unavailable, an admission of uncertainty is more useful than a persuasive but false answer. If [benchmarks]({{ 'benchmarks/' | relative_url }}) are meant to measure reliability, they must evaluate not only whether a model can answer correctly, but also whether it can recognise when it should refrain from answering at all.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2506.09038" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Abstention Bench: Reasoning LLMs Fail on Unanswerable Questions</span><span class="citation-popover-snippet">AbstentionBench: Reasoning LLMs Fail on Unanswerable QuestionsJune 10, 2025...</span><span class="citation-popover-meta">Published: June 10, 2025</span></span></span>
 
 ## How Answer-Only Scoring Rewards Risky Guesses
 
 Traditional benchmark design often treats every question as if a correct answer exists and the model's job is simply to find it. Under that framework, uncertainty has no value. A correct guess earns full credit, while an honest refusal earns none.
 
-This creates a statistical incentive to take risks. Imagine a model facing a question about an obscure fact that it only partially remembers. If it answers confidently, there is a small chance it will be correct and receive a score increase. If it says “I don't know”, it guarantees zero points. Across thousands of benchmark questions, this can push optimisation towards [guessing]({{ 'guessing/' | relative_url }}) behaviour. OpenAI researchers have argued that current evaluation methods often reward this pattern, making models appear stronger on leaderboards while encouraging behaviour that users may find less trustworthy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude-2025-9" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider+2AI Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider Why AI chatbots hallucinate, according to Open AI researchers</span><span class="citation-popover-snippet">This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</span></span></span>
+This creates a statistical incentive to take risks. Imagine a model facing a question about an obscure fact that it only partially remembers. If it answers confidently, there is a small chance it will be correct and receive a score increase. If it says “I don't know”, it guarantees zero points. Across thousands of benchmark questions, this can push optimisation towards [guessing]({{ 'guessing/' | relative_url }}) behaviour. OpenAI researchers have argued that current evaluation methods often reward this pattern, making models appear stronger on leaderboards while encouraging behaviour that users may find less trustworthy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider+2AI Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider Why AI chatbots hallucinate, according to Open AI researchers</span><span class="citation-popover-snippet">This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</span></span></span>
 
-The problem is not merely theoretical. Discussions of hallucinations increasingly point to evaluation incentives as part of the cause. Models are frequently trained and assessed in environments where providing an answer is valued more than recognising uncertainty. As a result, fluent responses can be rewarded even when the underlying [confidence]({{ 'confidence/' | relative_url }}) is weak. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/think-ai-hallucinations-are-bad-heres-why-youre-wrong" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Think AI hallucinations are bad?</span><span class="citation-popover-snippet">Here&#x27;s why you&#x27;re wrongMarch 6, 2026 — The article challenges the common perception that AI hallucinations—instances where language model...</span><span class="citation-popover-meta">Published: March 6, 2026</span></span></span>
+The problem is not merely theoretical. Discussions of hallucinations increasingly point to evaluation incentives as part of the cause. Models are frequently trained and assessed in environments where providing an answer is valued more than recognising uncertainty. As a result, fluent responses can be rewarded even when the underlying [confidence]({{ 'confidence/' | relative_url }}) is weak.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/think-ai-hallucinations-are-bad-heres-why-youre-wrong" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Think AI hallucinations are bad?</span><span class="citation-popover-snippet">Here&#x27;s why you&#x27;re wrongMarch 6, 2026 — The article challenges the common perception that AI hallucinations—instances where language model...</span><span class="citation-popover-meta">Published: March 6, 2026</span></span></span>
 
 A useful comparison is a student taking an exam. If there is no penalty for incorrect answers, guessing may be rational. If incorrect answers carry a cost, students become more selective about when they answer. Benchmark rules shape AI behaviour in much the same way.
 
@@ -292,7 +292,7 @@ A useful comparison is a student taking an exam. If there is no penalty for inco
 
 The goal is not to make AI systems refuse everything. Instead, the goal is calibrated uncertainty: confidence levels that accurately reflect what the model knows and does not know.
 
-A model that answers correctly 90% of the time sounds impressive. However, if it expresses extreme confidence in both correct and incorrect answers, users have little way to distinguish reliable information from mistakes. A slightly less accurate model that reliably signals uncertainty may be safer and more useful in practice. Researchers in selective [prediction]({{ 'error-harms/' | relative_url }}) and calibrated classification have long argued that the ability to abstain is an important component of reliability, not a failure of capability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://api.emergentmind.com/papers/2208.12084" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: api.emergentmind.com">[Emergent Mind]</a><span class="citation-popover" role="note"><span class="citation-popover-source">api.emergentmind.com</span><span class="citation-popover-title">Emergent Mind Calibrated Selective Classification</span><span class="citation-popover-snippet">Emergent MindCalibrated Selective ClassificationAugust 25, 2022...</span><span class="citation-popover-meta">Published: August 25, 2022</span></span></span>
+A model that answers correctly 90% of the time sounds impressive. However, if it expresses extreme confidence in both correct and incorrect answers, users have little way to distinguish reliable information from mistakes. A slightly less accurate model that reliably signals uncertainty may be safer and more useful in practice. Researchers in selective [prediction]({{ 'error-harms/' | relative_url }}) and calibrated classification have long argued that the ability to abstain is an important component of reliability, not a failure of capability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://api.emergentmind.com/papers/2208.12084" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: api.emergentmind.com">[Emergent Mind]</a><span class="citation-popover" role="note"><span class="citation-popover-source">api.emergentmind.com</span><span class="citation-popover-title">Emergent Mind Calibrated Selective Classification</span><span class="citation-popover-snippet">Emergent MindCalibrated Selective ClassificationAugust 25, 2022...</span><span class="citation-popover-meta">Published: August 25, 2022</span></span></span>
 
 For users, uncertainty signals support better decisions:
 
@@ -306,7 +306,7 @@ For users, uncertainty signals support better decisions:
 
 </div>
 
-Recent work on uncertainty-aware benchmarks goes further by arguing that systems should distinguish between different reasons for uncertainty. Sometimes the problem is missing information in the question itself. In other cases, the limitation lies with the model's knowledge or reasoning ability. These situations may require different responses, such as asking a follow-up question versus consulting an external source. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2604.17293" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Beyond &quot;I Don&#x27;t Know&quot;: Evaluating LLM Self-Awareness in Discriminating Data and Model UncertaintyApril 19, 2026...</span><span class="citation-popover-meta">Published: April 19, 2026</span></span></span>
+Recent work on uncertainty-aware benchmarks goes further by arguing that systems should distinguish between different reasons for uncertainty. Sometimes the problem is missing information in the question itself. In other cases, the limitation lies with the model's knowledge or reasoning ability. These situations may require different responses, such as asking a follow-up question versus consulting an external source.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2604.17293" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Beyond &quot;I Don&#x27;t Know&quot;: Evaluating LLM Self-Awareness in Discriminating Data and Model UncertaintyApril 19, 2026...</span><span class="citation-popover-meta">Published: April 19, 2026</span></span></span>
 
 The key insight is that trustworthy AI depends not only on knowing facts but also on recognising the boundaries of its knowledge.
 
@@ -316,9 +316,9 @@ The key insight is that trustworthy AI depends not only on knowing facts but als
 
 Real users regularly ask questions that have no reliable answer. Some contain false assumptions. Others are underspecified, outdated or genuinely unknowable. Yet many benchmark suites historically focused on questions with clear solutions.
 
-This gap has motivated the creation of specialised evaluations that measure abstention behaviour. One example is AbstentionBench, which examines how models respond to questions involving false premises, missing information, subjective interpretations and outdated facts. The benchmark's findings suggest that abstention remains a difficult problem and that stronger reasoning ability does not automatically produce better uncertainty handling. In fact, some reasoning-focused models became worse at abstaining appropriately. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2506.09038" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Abstention Bench: Reasoning LLMs Fail on Unanswerable Questions</span><span class="citation-popover-snippet">AbstentionBench: Reasoning LLMs Fail on Unanswerable QuestionsJune 10, 2025...</span><span class="citation-popover-meta">Published: June 10, 2025</span></span></span>
+This gap has motivated the creation of specialised evaluations that measure abstention behaviour. One example is AbstentionBench, which examines how models respond to questions involving false premises, missing information, subjective interpretations and outdated facts. The benchmark's findings suggest that abstention remains a difficult problem and that stronger reasoning ability does not automatically produce better uncertainty handling. In fact, some reasoning-focused models became worse at abstaining appropriately.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2506.09038" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Abstention Bench: Reasoning LLMs Fail on Unanswerable Questions</span><span class="citation-popover-snippet">AbstentionBench: Reasoning LLMs Fail on Unanswerable QuestionsJune 10, 2025...</span><span class="citation-popover-meta">Published: June 10, 2025</span></span></span>
 
-That result is important because it challenges a common assumption. Higher benchmark scores on reasoning tasks do not necessarily mean a model is better at recognising when it should stop and say, “I don't know”. A system can become more capable at solving problems while simultaneously becoming more willing to generate answers in situations where certainty is not justified. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2506.09038" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Abstention Bench: Reasoning LLMs Fail on Unanswerable Questions</span><span class="citation-popover-snippet">AbstentionBench: Reasoning LLMs Fail on Unanswerable QuestionsJune 10, 2025...</span><span class="citation-popover-meta">Published: June 10, 2025</span></span></span>
+That result is important because it challenges a common assumption. Higher benchmark scores on reasoning tasks do not necessarily mean a model is better at recognising when it should stop and say, “I don't know”. A system can become more capable at solving problems while simultaneously becoming more willing to generate answers in situations where certainty is not justified.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2506.09038" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Abstention Bench: Reasoning LLMs Fail on Unanswerable Questions</span><span class="citation-popover-snippet">AbstentionBench: Reasoning LLMs Fail on Unanswerable QuestionsJune 10, 2025...</span><span class="citation-popover-meta">Published: June 10, 2025</span></span></span>
 
 This helps explain why benchmark improvements do not always translate into greater real-world trustworthiness.
 
@@ -337,13 +337,13 @@ Several approaches have been proposed:
 * **Reward appropriate abstention.** A model that correctly identifies a question as unanswerable should receive credit rather than being treated as if it failed.
 * **Penalise confident mistakes more heavily.** An incorrect answer given with high confidence may deserve a larger penalty than a cautious response.
 * **Measure calibration, not just accuracy.** Evaluation should consider whether confidence estimates match actual performance.
-* **Include unanswerable and ambiguous questions.** Benchmarks should test situations where the best response is uncertainty or clarification. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://api.emergentmind.com/papers/2208.12084" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: api.emergentmind.com">[Emergent Mind+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">api.emergentmind.com</span><span class="citation-popover-title">Emergent Mind Calibrated Selective Classification</span><span class="citation-popover-snippet">Emergent MindCalibrated Selective ClassificationAugust 25, 2022...</span><span class="citation-popover-meta">Published: August 25, 2022</span></span></span>
+* **Include unanswerable and ambiguous questions.** Benchmarks should test situations where the best response is uncertainty or clarification.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://api.emergentmind.com/papers/2208.12084" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: api.emergentmind.com">[Emergent Mind+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">api.emergentmind.com</span><span class="citation-popover-title">Emergent Mind Calibrated Selective Classification</span><span class="citation-popover-snippet">Emergent MindCalibrated Selective ClassificationAugust 25, 2022...</span><span class="citation-popover-meta">Published: August 25, 2022</span></span></span>
 
 </div>
 
-These ideas are closely related to the long-standing [machine learning]({{ 'machine-learning/' | relative_url }}) concept of the "reject option", where a model is allowed to decline predictions when uncertainty is high. Research in selective prediction shows that carefully designed abstention mechanisms can improve the reliability of accepted answers, particularly in high-stakes settings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2402.16300" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - Conformalized Selective Regression...</span></span></span>
+These ideas are closely related to the long-standing [machine learning]({{ 'machine-learning/' | relative_url }}) concept of the "reject option", where a model is allowed to decline predictions when uncertainty is high. Research in selective prediction shows that carefully designed abstention mechanisms can improve the reliability of accepted answers, particularly in high-stakes settings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2402.16300" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - Conformalized Selective Regression...</span></span></span>
 
-The challenge is balancing caution and usefulness. A model that refuses every difficult question would avoid many mistakes but would not be very helpful. Effective benchmark design therefore requires rewarding justified uncertainty while still encouraging correct answers when evidence is sufficient. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude-2025-9" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider Why AI chatbots hallucinate, according to Open AI researchers</span><span class="citation-popover-snippet">This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</span></span></span>
+The challenge is balancing caution and usefulness. A model that refuses every difficult question would avoid many mistakes but would not be very helpful. Effective benchmark design therefore requires rewarding justified uncertainty while still encouraging correct answers when evidence is sufficient.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider Why AI chatbots hallucinate, according to Open AI researchers</span><span class="citation-popover-snippet">This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_rewarding_ai_b780cf-Illustration-3-dark.svg" | relative_url }}" alt="I Don t illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_rewarding_ai_b780cf-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_rewarding_ai_b780cf-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -351,203 +351,203 @@ The challenge is balancing caution and usefulness. A model that refuses every di
 
 When people evaluate AI systems, they often focus on how many questions the model can answer. Yet reliability depends just as much on recognising when an answer should not be given.
 
-Benchmarks that ignore uncertainty risk rewarding the wrong behaviour. They can favour systems that sound authoritative regardless of their actual knowledge, creating a mismatch between leaderboard performance and user trust. By contrast, benchmarks that value calibrated uncertainty encourage models to communicate their limits more honestly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude-2025-9" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider+2AI Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider Why AI chatbots hallucinate, according to Open AI researchers</span><span class="citation-popover-snippet">This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</span></span></span>
+Benchmarks that ignore uncertainty risk rewarding the wrong behaviour. They can favour systems that sound authoritative regardless of their actual knowledge, creating a mismatch between leaderboard performance and user trust. By contrast, benchmarks that value calibrated uncertainty encourage models to communicate their limits more honestly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider+2AI Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider Why AI chatbots hallucinate, according to Open AI researchers</span><span class="citation-popover-snippet">This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</span></span></span>
 
-In the broader effort to understand artificial intelligence, this represents a shift from measuring pure capability to measuring judgement. A trustworthy system is not merely one that knows many answers. It is also one that can recognise the difference between knowledge, uncertainty and ignorance—and communicate that distinction clearly to the people relying on it. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2604.17293" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Beyond &quot;I Don&#x27;t Know&quot;: Evaluating LLM Self-Awareness in Discriminating Data and Model UncertaintyApril 19, 2026...</span><span class="citation-popover-meta">Published: April 19, 2026</span></span></span>
+In the broader effort to understand artificial intelligence, this represents a shift from measuring pure capability to measuring judgement. A trustworthy system is not merely one that knows many answers. It is also one that can recognise the difference between knowledge, uncertainty and ignorance—and communicate that distinction clearly to the people relying on it.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2604.17293" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Beyond &quot;I Don&#x27;t Know&quot;: Evaluating LLM Self-Awareness in Discriminating Data and Model UncertaintyApril 19, 2026...</span><span class="citation-popover-meta">Published: April 19, 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/nWJC6a72uHg" title="Hallucination Rate Explained in AI Testing | LLM Evaluation Metrics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=nWJC6a72uHg" target="_blank" rel="noopener noreferrer">Hallucination Rate Explained in AI Testing | LLM Evaluation Metrics</a></p><p class="youtube-embed-meta">Channel: CodeCraft Academy</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=nWJC6a72uHg" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=nWJC6a72uHg">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Should AI Get Credit for Uncertainty?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Should AI Get Credit for Uncertainty?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Directly discusses AI systems acting under uncertainty and why uncertainty about objectives should be preserved rather than hidden.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly discusses AI systems acting under uncertainty and why uncertainty about objectives should be preserved rather than hidden.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explores how AI systems make mistakes, misgeneralize and require better alignment with human goals.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores how AI systems make mistakes, misgeneralize and require better alignment with human goals.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking+in+Bets+by+Annie+Duke&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking in Bets on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=VcouDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking in Bets" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Thinking+in+Bets+by+Annie+Duke&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking in Bets">Thinking in Bets</a>
-        </h4>
-        <p class="fr-book-author">By Annie Duke</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking+in+Bets+by+Annie+Duke&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking in Bets on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=VcouDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking in Bets" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Thinking+in+Bets+by+Annie+Duke&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking in Bets">Thinking in Bets</a>
+</h4>
+<p class="fr-book-author">By Annie Duke</p>
         
-        <p class="fr-book-desc">Provides a practical framework for reasoning under uncertainty instead of rewarding overconfident answers.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Thinking+in+Bets+by+Annie+Duke&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides a practical framework for reasoning under uncertainty instead of rewarding overconfident answers.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Thinking+in+Bets+by+Annie+Duke&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Signal and the Noise on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nQ6RMAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Signal and the Noise" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Signal and the Noise">The Signal and the Noise</a>
-        </h4>
-        <p class="fr-book-author">By Nate Silver</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Signal and the Noise on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nQ6RMAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Signal and the Noise" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Signal and the Noise">The Signal and the Noise</a>
+</h4>
+<p class="fr-book-author">By Nate Silver</p>
         
-        <p class="fr-book-desc">Explains calibration, forecasting and the limits of confident predictions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains calibration, forecasting and the limits of confident predictions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Thinking+in+Bets&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Thinking in Bets</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Thinking+in+Bets&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Thinking in Bets</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="i-don-t-should-ai-get-credit-for-uncertainty-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -563,7 +563,7 @@ In the broader effort to understand artificial intelligence, this represents a s
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -583,7 +583,7 @@ In the broader effort to understand artificial intelligence, this represents a s
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -615,7 +615,7 @@ In the broader effort to understand artificial intelligence, this represents a s
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -667,7 +667,7 @@ In the broader effort to understand artificial intelligence, this represents a s
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -712,7 +712,7 @@ In the broader effort to understand artificial intelligence, this represents a s
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -753,93 +753,93 @@ In the broader effort to understand artificial intelligence, this represents a s
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv Abstention Bench: Reasoning LLMs Fail on Unanswerable Questions  
-   Link: <a href="https://arxiv.org/abs/2506.09038" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2506.09038</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AbstentionBench: Reasoning LLMs Fail on Unanswerable QuestionsJune 10, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2506.09038" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2506.09038</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AbstentionBench: Reasoning LLMs Fail on Unanswerable QuestionsJune 10, 2025...</p></details>
    Published: June 10, 2025  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: techradar.com  
    Title: Tech Radar Think AI hallucinations are bad?  
-   Link: <a href="https://www.techradar.com/pro/think-ai-hallucinations-are-bad-heres-why-youre-wrong" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/think-ai-hallucinations-are-bad-heres-why-youre-wrong</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Here&#x27;s why you&#x27;re wrongMarch 6, 2026 — The article challenges the common perception that AI hallucinations—instances where language model...</p></details>
+   Link:<a href="https://www.techradar.com/pro/think-ai-hallucinations-are-bad-heres-why-youre-wrong" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/think-ai-hallucinations-are-bad-heres-why-youre-wrong</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Here&#x27;s why you&#x27;re wrongMarch 6, 2026 — The article challenges the common perception that AI hallucinations—instances where language model...</p></details>
    Published: March 6, 2026  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2604.17293" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2604.17293</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Beyond &quot;I Don&#x27;t Know&quot;: Evaluating LLM Self-Awareness in Discriminating Data and Model UncertaintyApril 19, 2026...</p></details>
+   Link:<a href="https://arxiv.org/abs/2604.17293" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2604.17293</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Beyond &quot;I Don&#x27;t Know&quot;: Evaluating LLM Self-Awareness in Discriminating Data and Model UncertaintyApril 19, 2026...</p></details>
    Published: April 19, 2026  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: businessinsider.com  
    Title: [Business](&#123;&#123; 'business-adoption/' | relative_url &#125;&#125;) Insider Why AI chatbots hallucinate, according to Open AI researchers  
-   Link: <a href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude-2025-9" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude-2025-9</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</p></details>
+   Link:<a href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: theaiinsider.tech  
-   Link: <a href="https://theaiinsider.tech/2025/09/06/why-do-language-models-hallucinate-openai-scientists-say-llms-rewarded-for-being-too-cocky/" target="_blank" rel="noopener noreferrer nofollow">https://theaiinsider.tech/2025/09/06/why-do-language-models-hallucinate-openai-scientists-say-llms-rewarded-for-being-too-cocky/</a>  
+   Link:<a href="https://theaiinsider.tech/2025/09/06/why-do-language-models-hallucinate-openai-scientists-say-llms-rewarded-for-being-too-cocky/" target="_blank" rel="noopener noreferrer nofollow">https://theaiinsider.tech/2025/09/06/why-do-language-models-hallucinate-openai-scientists-say-llms-rewarded-for-being-too-cocky/</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: huggingface.co  
    Title: Hugging Face Paper page  
-   Link: <a href="https://huggingface.co/papers/2506.09038" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2506.09038</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions...</p></details>
+   Link:<a href="https://huggingface.co/papers/2506.09038" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2506.09038</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: api.emergentmind.com  
    Title: Emergent Mind Calibrated Selective Classification  
-   Link: <a href="https://api.emergentmind.com/papers/2208.12084" target="_blank" rel="noopener noreferrer nofollow">https://api.emergentmind.com/papers/2208.12084</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Emergent MindCalibrated Selective ClassificationAugust 25, 2022...</p></details>
+   Link:<a href="https://api.emergentmind.com/papers/2208.12084" target="_blank" rel="noopener noreferrer nofollow">https://api.emergentmind.com/papers/2208.12084</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Emergent MindCalibrated Selective ClassificationAugust 25, 2022...</p></details>
    Published: August 25, 2022  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: huggingface.co  
    Title: Hugging Face Paper page  
-   Link: <a href="https://huggingface.co/papers/2402.16300" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2402.16300</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - Conformalized Selective Regression...</p></details>
+   Link:<a href="https://huggingface.co/papers/2402.16300" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2402.16300</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - Conformalized Selective Regression...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: huggingface.co  
    Title: Hugging Face Paper page  
-   Link: <a href="https://huggingface.co/papers/2604.17073" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2604.17073</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - Abstain-R1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL...</p></details>
+   Link:<a href="https://huggingface.co/papers/2604.17073" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2604.17073</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - Abstain-R1: Calibrated Abstention and Post-Refusal Clarification via Verifiable RL...</p></details>
 
 ### Additional References
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: reddit.com  
    Title: Really good read if you have time, answered a lot of my questions  
-   Link: <a href="https://www.reddit.com/r/nocode/comments/1nbotra" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/nocode/comments/1nbotra</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>released an article talking about why models hallucinate, here is the TLDR (done by Manus just being transparent) linked article at the b...</p></details>
+   Link:<a href="https://www.reddit.com/r/nocode/comments/1nbotra" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/nocode/comments/1nbotra</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>released an article talking about why models hallucinate, here is the TLDR (done by Manus just being transparent) linked article at the b...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/AgentsOfAI/comments/1q19yo9/why_do_llms_hallucinate_so_confidently_instead_of/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/AgentsOfAI/comments/1q19yo9/why_do_llms_hallucinate_so_confidently_instead_of/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>do LLMs hallucinate so confidently instead of saying “I don’t know”?January 1, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/AgentsOfAI/comments/1q19yo9/why_do_llms_hallucinate_so_confidently_instead_of/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/AgentsOfAI/comments/1q19yo9/why_do_llms_hallucinate_so_confidently_instead_of/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>do LLMs hallucinate so confidently instead of saying “I don’t know”?January 1, 2026...</p></details>
    Published: January 1, 2026  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
    Title: Hallucination Rate Explained in AI Testing | LLM Evaluation Metrics  
-   Link: <a href="https://www.youtube.com/watch?v=nWJC6a72uHg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nWJC6a72uHg</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why AI Should Say “I Don&#x27;t Know” More Often (with Matt Glickman) - YouTube Why AI Should Say “I Don&#x27;t Know” More Often (with Matt Glickma...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=nWJC6a72uHg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nWJC6a72uHg</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why AI Should Say “I Don&#x27;t Know” More Often (with Matt Glickman) - YouTube Why AI Should Say “I Don&#x27;t Know” More Often (with Matt Glickma...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
    Title: Why AI Should Say “I Don't Know” More Often (with Matt Glickman)  
-   Link: <a href="https://www.youtube.com/watch?v=ZvXJN1SndNY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ZvXJN1SndNY</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM confidence calibration. Confidence Gap in high stakes decision making...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=ZvXJN1SndNY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ZvXJN1SndNY</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLM confidence calibration. Confidence Gap in high stakes decision making...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: The Bullshit Benchmark: AI Can't Say No  
-   Link: <a href="https://www.youtube.com/watch?v=frKeo3dd4zM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=frKeo3dd4zM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Hallucination Rate Explained in AI Testing | LLM Evaluation Metrics...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=frKeo3dd4zM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=frKeo3dd4zM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hallucination Rate Explained in AI Testing | LLM Evaluation Metrics...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: aicommission.org  
-   Link: <a href="https://aicommission.org/2025/09/openai-explains-why-language-models-hallucinate-evaluation-incentives-reward-guessing-over-uncertainty/" target="_blank" rel="noopener noreferrer nofollow">https://aicommission.org/2025/09/openai-explains-why-language-models-hallucinate-evaluation-incentives-reward-guessing-over-uncertainty/</a>  
+   Link:<a href="https://aicommission.org/2025/09/openai-explains-why-language-models-hallucinate-evaluation-incentives-reward-guessing-over-uncertainty/" target="_blank" rel="noopener noreferrer nofollow">https://aicommission.org/2025/09/openai-explains-why-language-models-hallucinate-evaluation-incentives-reward-guessing-over-uncertainty/</a>  

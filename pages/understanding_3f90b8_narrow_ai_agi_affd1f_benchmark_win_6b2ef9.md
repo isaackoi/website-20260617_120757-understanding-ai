@@ -288,7 +288,7 @@ image: /assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b
 
 ## Introduction
 
-Strong benchmark results are evidence that AI systems are improving, but they are not proof that artificial general intelligence (AGI) has arrived. Modern models have achieved dramatic gains on difficult tests in science, coding, mathematics, and multimodal reasoning. Yet a benchmark victory shows success on a specific evaluation, not necessarily the broad adaptability, reliability, and real-world judgement usually associated with general intelligence. The central challenge is that intelligence is broader than any fixed test. A system can excel on carefully designed tasks while still failing in unfamiliar situations, making inconsistent [decisions]({{ 'decisions/' | relative_url }}), or struggling to transfer its abilities outside the conditions under which it was evaluated. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">technical performance</span><span class="citation-popover-snippet">Stanford HAITechnical Performance &#124; The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</span></span></span>
+Strong benchmark results are evidence that AI systems are improving, but they are not proof that artificial general intelligence (AGI) has arrived. Modern models have achieved dramatic gains on difficult tests in science, coding, mathematics, and multimodal reasoning. Yet a benchmark victory shows success on a specific evaluation, not necessarily the broad adaptability, reliability, and real-world judgement usually associated with general intelligence. The central challenge is that intelligence is broader than any fixed test. A system can excel on carefully designed tasks while still failing in unfamiliar situations, making inconsistent [decisions]({{ 'decisions/' | relative_url }}), or struggling to transfer its abilities outside the conditions under which it was evaluated.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">technical performance</span><span class="citation-popover-snippet">Stanford HAITechnical Performance &#124; The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b2ef9-Illustration-1-dark.svg" | relative_url }}" alt="Benchmark limits illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b2ef9-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b2ef9-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -298,9 +298,9 @@ The debate is not whether benchmark progress is real—it clearly is. The questi
 
 The short answer is no. Benchmark wins provide evidence of capability, but capability and general intelligence are not identical concepts.
 
-Researchers use [benchmarks]({{ 'benchmarks/' | relative_url }}) because they offer a standard way to compare systems. Recent evaluations such as MMMU (Massive Multitask Multimodal [Understanding]({{ 'understanding/' | relative_url }})), GPQA (Graduate-Level Google-Proof Question Answering), and SWE-bench have become important because they test skills that were previously difficult for AI systems. Stanford's 2025 AI Index documented rapid gains on all three, with some models improving by tens of percentage points in a single year. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">technical performance</span><span class="citation-popover-snippet">Stanford HAITechnical Performance &#124; The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</span></span></span>
+Researchers use [benchmarks]({{ 'benchmarks/' | relative_url }}) because they offer a standard way to compare systems. Recent evaluations such as MMMU (Massive Multitask Multimodal [Understanding]({{ 'understanding/' | relative_url }})), GPQA (Graduate-Level Google-Proof Question Answering), and SWE-bench have become important because they test skills that were previously difficult for AI systems. Stanford's 2025 AI Index documented rapid gains on all three, with some models improving by tens of percentage points in a single year.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">technical performance</span><span class="citation-popover-snippet">Stanford HAITechnical Performance &#124; The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</span></span></span>
 
-These improvements matter. They demonstrate that models are becoming better at solving complex problems. However, even exceptional performance on such tests does not automatically establish that a system possesses the flexible, open-ended intelligence implied by AGI. A benchmark typically measures success within a predefined task distribution, whereas AGI is usually imagined as competence across a vast range of unfamiliar environments and goals. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2501.07458" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding and Benchmarking Artificial Intelligence: OpenAI&#x27;s o3 Is Not AGIJanuary 13, 2025...</span><span class="citation-popover-meta">Published: January 13, 2025</span></span></span>
+These improvements matter. They demonstrate that models are becoming better at solving complex problems. However, even exceptional performance on such tests does not automatically establish that a system possesses the flexible, open-ended intelligence implied by AGI. A benchmark typically measures success within a predefined task distribution, whereas AGI is usually imagined as competence across a vast range of unfamiliar environments and goals.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2501.07458" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding and Benchmarking Artificial Intelligence: OpenAI&#x27;s o3 Is Not AGIJanuary 13, 2025...</span><span class="citation-popover-meta">Published: January 13, 2025</span></span></span>
 
 A useful comparison is human examination performance. A student who scores highly on a difficult exam has demonstrated important skills, but the result alone does not reveal how well that person will handle novel situations, long-term planning, social judgement, creativity under uncertainty, or real-world responsibility. The same caution applies to AI systems.
 
@@ -317,13 +317,13 @@ Examples include:
 * **Coding benchmarks** such as SWE-bench, which measure the ability to solve software engineering tasks.
 * **Multimodal benchmarks** such as MMMU, which require combining text and visual information.
 * **Mathematics and problem-solving benchmarks** that test structured reasoning and symbolic manipulation.
-* **General reasoning challenges** such as ARC-AGI, which aim to evaluate abstract pattern discovery rather than memorised knowledge. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">technical performance</span><span class="citation-popover-snippet">Stanford HAITechnical Performance &#124; The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</span></span></span>
+* **General reasoning challenges** such as ARC-AGI, which aim to evaluate abstract pattern discovery rather than memorised knowledge.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">technical performance</span><span class="citation-popover-snippet">Stanford HAITechnical Performance &#124; The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</span></span></span>
 
 </div>
 
 The value of these tests is that they reveal capabilities that are difficult to observe through casual chatbot interactions. They often expose genuine advances in reasoning, planning, and problem-solving.
 
-The limitation is that each benchmark captures only a slice of performance. Success on one benchmark may say little about how a model behaves in a different domain, under changing conditions, or when interacting with people over long periods. Researchers increasingly rely on many benchmarks because no single test provides a complete picture. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+The limitation is that each benchmark captures only a slice of performance. Success on one benchmark may say little about how a model behaves in a different domain, under changing conditions, or when interacting with people over long periods. Researchers increasingly rely on many benchmarks because no single test provides a complete picture.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/rB4pvsm2AkA" title="Why AI Benchmarks Are Lying to You - with Wenhu Chen (Meta/University of Waterloo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=rB4pvsm2AkA" target="_blank" rel="noopener noreferrer">Why AI Benchmarks Are Lying to You - with Wenhu Chen (Meta/University of Waterloo)</a></p><p class="youtube-embed-meta">Channel: The Information Bottleneck</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=rB4pvsm2AkA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=rB4pvsm2AkA">Open on YouTube</a></p></div></div></div>
@@ -332,15 +332,15 @@ The limitation is that each benchmark captures only a slice of performance. Succ
 
 One reason benchmark wins can be misleading is that benchmarks are static while the real world is dynamic.
 
-A benchmark presents a fixed collection of questions or tasks. Once that benchmark becomes important, researchers and companies naturally optimise for it. This creates a version of Goodhart's Law: when a measure becomes a target, it becomes a less reliable measure of the thing it was intended to represent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2602.18029v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Collinear AI Blog]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Towards More Standardized AI Evaluation: From Models to...20 Feb 2026 — This dynamic is a direct instance of Goodhart&#x27;s law: “When...</span></span></span>
+A benchmark presents a fixed collection of questions or tasks. Once that benchmark becomes important, researchers and companies naturally optimise for it. This creates a version of Goodhart's Law: when a measure becomes a target, it becomes a less reliable measure of the thing it was intended to represent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2602.18029v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Collinear AI Blog]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Towards More Standardized AI Evaluation: From Models to...20 Feb 2026 — This dynamic is a direct instance of Goodhart&#x27;s law: “When...</span></span></span>
 
 Several effects follow:
 
-**Benchmark saturation.** Over time, systems become so good at a benchmark that it no longer distinguishes between levels of capability. Scores cluster near the top, making further progress difficult to interpret. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://mbrenndoerfer.com/writing/benchmark-saturation-ai-evaluation-metrics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mbrenndoerfer.com">[Michael Brenndoerfer+2GIZ Data Lab Blog]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mbrenndoerfer.com</span><span class="citation-popover-snippet">Learn why static metrics hit ceiling effects, lose statistical power, and how dynamic benchmarks solve this...</span></span></span>
+**Benchmark saturation.** Over time, systems become so good at a benchmark that it no longer distinguishes between levels of capability. Scores cluster near the top, making further progress difficult to interpret.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://mbrenndoerfer.com/writing/benchmark-saturation-ai-evaluation-metrics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mbrenndoerfer.com">[Michael Brenndoerfer+2GIZ Data Lab Blog]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mbrenndoerfer.com</span><span class="citation-popover-snippet">Learn why static metrics hit ceiling effects, lose statistical power, and how dynamic benchmarks solve this...</span></span></span>
 
-**Narrow optimisation.** Developers may improve performance specifically on benchmark tasks without producing equally large gains elsewhere. A higher score may reflect targeted engineering rather than a broad increase in intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2602.18029v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Towards More Standardized AI Evaluation: From Models to...20 Feb 2026 — This dynamic is a direct instance of Goodhart&#x27;s law: “When...</span></span></span>
+**Narrow optimisation.** Developers may improve performance specifically on benchmark tasks without producing equally large gains elsewhere. A higher score may reflect targeted engineering rather than a broad increase in intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2602.18029v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Towards More Standardized AI Evaluation: From Models to...20 Feb 2026 — This dynamic is a direct instance of Goodhart&#x27;s law: “When...</span></span></span>
 
-**Distribution [mismatch]({{ 'mismatch/' | relative_url }}).** Real-world environments contain ambiguity, incomplete information, changing objectives, and social consequences. Benchmarks often simplify these factors to create measurable tasks. A model that succeeds in the benchmark setting may behave differently once deployed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+**Distribution [mismatch]({{ 'mismatch/' | relative_url }}).** Real-world environments contain ambiguity, incomplete information, changing objectives, and social consequences. Benchmarks often simplify these factors to create measurable tasks. A model that succeeds in the benchmark setting may behave differently once deployed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 This does not make benchmarks useless. It means that benchmark results should be interpreted as evidence of competence under test conditions rather than definitive proof of general intelligence.
 
@@ -350,21 +350,21 @@ This does not make benchmarks useless. It means that benchmark results should be
 
 Another reason to treat benchmark claims cautiously is data [contamination]({{ 'contamination/' | relative_url }}).
 
-Many [AI benchmarks]({{ 'benchmark-gaps/' | relative_url }}) are public. Over time, benchmark questions, solutions, or closely related material can appear in training data. When this happens, it becomes difficult to know whether a model is demonstrating genuine generalisation or recalling patterns it has effectively seen before. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2510.07575" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Benchmarking is Broken -- Don&#x27;t Let AI be its Own Judgeby Z Cheng · 2025 · Cited by 9 — Public benchmarks may leak into or be delibe...</span></span></span>
+Many [AI benchmarks]({{ 'benchmark-gaps/' | relative_url }}) are public. Over time, benchmark questions, solutions, or closely related material can appear in training data. When this happens, it becomes difficult to know whether a model is demonstrating genuine generalisation or recalling patterns it has effectively seen before.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2510.07575" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Benchmarking is Broken -- Don&#x27;t Let AI be its Own Judgeby Z Cheng · 2025 · Cited by 9 — Public benchmarks may leak into or be delibe...</span></span></span>
 
-Researchers have increasingly warned that contamination can inflate benchmark scores. Reviews of AI evaluation practices identify benchmark leakage as one of the most significant threats to reliable measurement. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Researchers have increasingly warned that contamination can inflate benchmark scores. Reviews of AI evaluation practices identify benchmark leakage as one of the most significant threats to reliable measurement.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 Even when direct memorisation is absent, models may benefit from indirect exposure to similar examples. This makes interpretation harder. A strong score remains evidence of useful capability, but it may be weaker evidence of broad reasoning ability than it first appears.
 
-The contamination issue has become important enough that some benchmark creators now rely on private test sets, hidden evaluation procedures, or continuously updated datasets to preserve measurement quality. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://time.com/7203729/ai-evaluations-safety/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: time.com">[Time]</a><span class="citation-popover" role="note"><span class="citation-popover-source">time.com</span><span class="citation-popover-title">AI Models Are Getting Smarter</span><span class="citation-popover-snippet">New Tests Are Racing to Catch UpDecember 24, 2024 — AI developers are constantly evaluating their systems with new and more challenging t...</span><span class="citation-popover-meta">Published: December 24, 2024</span></span></span>
+The contamination issue has become important enough that some benchmark creators now rely on private test sets, hidden evaluation procedures, or continuously updated datasets to preserve measurement quality.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://time.com/7203729/ai-evaluations-safety/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: time.com">[Time]</a><span class="citation-popover" role="note"><span class="citation-popover-source">time.com</span><span class="citation-popover-title">AI Models Are Getting Smarter</span><span class="citation-popover-snippet">New Tests Are Racing to Catch UpDecember 24, 2024 — AI developers are constantly evaluating their systems with new and more challenging t...</span><span class="citation-popover-meta">Published: December 24, 2024</span></span></span>
 
 ## The ARC-AGI debate illustrates the problem
 
 The discussion surrounding ARC-AGI provides a useful example of why benchmark success does not settle the AGI question.
 
-ARC-AGI was designed by François Chollet to test abstract reasoning and adaptation to novel tasks. Because it focuses on unfamiliar problems rather than accumulated knowledge, many observers regard it as more relevant to intelligence than traditional question-answering benchmarks. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2501.07458" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding and Benchmarking Artificial Intelligence: OpenAI&#x27;s o3 Is Not AGIJanuary 13, 2025...</span><span class="citation-popover-meta">Published: January 13, 2025</span></span></span>
+ARC-AGI was designed by François Chollet to test abstract reasoning and adaptation to novel tasks. Because it focuses on unfamiliar problems rather than accumulated knowledge, many observers regard it as more relevant to intelligence than traditional question-answering benchmarks.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2501.07458" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding and Benchmarking Artificial Intelligence: OpenAI&#x27;s o3 Is Not AGIJanuary 13, 2025...</span><span class="citation-popover-meta">Published: January 13, 2025</span></span></span>
 
-When advanced models achieved impressive ARC-AGI scores, some commentators viewed the results as evidence that AGI might be close. Others disagreed. Critics argued that high scores could result from specialised search strategies, extensive computation, or benchmark-specific optimisation rather than the kind of flexible intelligence humans display across diverse real-world situations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2501.07458" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding and Benchmarking Artificial Intelligence: OpenAI&#x27;s o3 Is Not AGIJanuary 13, 2025...</span><span class="citation-popover-meta">Published: January 13, 2025</span></span></span>
+When advanced models achieved impressive ARC-AGI scores, some commentators viewed the results as evidence that AGI might be close. Others disagreed. Critics argued that high scores could result from specialised search strategies, extensive computation, or benchmark-specific optimisation rather than the kind of flexible intelligence humans display across diverse real-world situations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2501.07458" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Understanding and Benchmarking Artificial Intelligence: OpenAI&#x27;s o3 Is Not AGIJanuary 13, 2025...</span><span class="citation-popover-meta">Published: January 13, 2025</span></span></span>
 
 The disagreement highlights a broader point: even sophisticated benchmarks measure particular tasks. They can provide evidence for intelligence-related capabilities, but they cannot by themselves resolve philosophical and scientific debates about what AGI actually requires.
 
@@ -381,9 +381,9 @@ Readers do not need to dismiss benchmark results, but they should ask a few prac
 
 **How well does the benchmark reflect real-world use?** A model may excel on laboratory tests while remaining unreliable in practical deployment.
 
-**Could contamination or benchmark-specific optimisation be influencing results?** Public benchmarks become easier to target over time. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2510.07575" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Benchmarking is Broken -- Don&#x27;t Let AI be its Own Judgeby Z Cheng · 2025 · Cited by 9 — Public benchmarks may leak into or be delibe...</span></span></span>
+**Could contamination or benchmark-specific optimisation be influencing results?** Public benchmarks become easier to target over time.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2510.07575" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Benchmarking is Broken -- Don&#x27;t Let AI be its Own Judgeby Z Cheng · 2025 · Cited by 9 — Public benchmarks may leak into or be delibe...</span></span></span>
 
-**Are independent evaluations available?** Third-party testing often provides a more balanced picture than vendor-reported scores alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://time.com/7203729/ai-evaluations-safety/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: time.com">[Time]</a><span class="citation-popover" role="note"><span class="citation-popover-source">time.com</span><span class="citation-popover-title">AI Models Are Getting Smarter</span><span class="citation-popover-snippet">New Tests Are Racing to Catch UpDecember 24, 2024 — AI developers are constantly evaluating their systems with new and more challenging t...</span><span class="citation-popover-meta">Published: December 24, 2024</span></span></span>
+**Are independent evaluations available?** Third-party testing often provides a more balanced picture than vendor-reported scores alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://time.com/7203729/ai-evaluations-safety/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: time.com">[Time]</a><span class="citation-popover" role="note"><span class="citation-popover-source">time.com</span><span class="citation-popover-title">AI Models Are Getting Smarter</span><span class="citation-popover-snippet">New Tests Are Racing to Catch UpDecember 24, 2024 — AI developers are constantly evaluating their systems with new and more challenging t...</span><span class="citation-popover-meta">Published: December 24, 2024</span></span></span>
 
 The most informative evidence comes from converging signals: strong benchmark performance, robust real-world behaviour, adaptation to unfamiliar tasks, and reliability across different evaluation methods.
 
@@ -391,203 +391,203 @@ The most informative evidence comes from converging signals: strong benchmark pe
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b2ef9-Illustration-3-dark.svg" | relative_url }}" alt="Benchmark limits illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b2ef9-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b2ef9-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## What benchmark wins actually tell us
 
-Benchmark victories are neither meaningless nor decisive. They demonstrate that AI systems can master increasingly demanding tasks and that technical progress is occurring at a remarkable pace. Stanford's recent measurements of gains on MMMU, GPQA, and SWE-bench are genuine indicators of advancing capability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">technical performance</span><span class="citation-popover-snippet">Stanford HAITechnical Performance &#124; The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</span></span></span>
+Benchmark victories are neither meaningless nor decisive. They demonstrate that AI systems can master increasingly demanding tasks and that technical progress is occurring at a remarkable pace. Stanford's recent measurements of gains on MMMU, GPQA, and SWE-bench are genuine indicators of advancing capability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">technical performance</span><span class="citation-popover-snippet">Stanford HAITechnical Performance &#124; The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</span></span></span>
 
-What they do not show is that AI has solved the broader challenge of general intelligence. Static tests cannot fully capture adaptability, robustness, judgement, long-term planning, or performance in unfamiliar environments. As a result, benchmark wins should be treated as important evidence of progress rather than proof that AGI has arrived. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+What they do not show is that AI has solved the broader challenge of general intelligence. Static tests cannot fully capture adaptability, robustness, judgement, long-term planning, or performance in unfamiliar environments. As a result, benchmark wins should be treated as important evidence of progress rather than proof that AGI has arrived.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/jjnqIsdOq9g" title="AI Benchmarks Are Lying To You (Here&#x27;s What Actually Matters)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=jjnqIsdOq9g" target="_blank" rel="noopener noreferrer">AI Benchmarks Are Lying To You (Here&#x27;s What Actually Matters)</a></p><p class="youtube-embed-meta">Channel: AI Clarified</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=jjnqIsdOq9g" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=jjnqIsdOq9g">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Do benchmark wins prove intelligence?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Do benchmark wins prove intelligence?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Explains why benchmark success and impressive performance do not necessarily imply general intelligence.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why benchmark success and impressive performance do not necessarily imply general intelligence.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Discusses capability measurement, limitations, and the gap between performance and intelligence.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses capability measurement, limitations, and the gap between performance and intelligence.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Highlights the difference between measured performance and robust real-world competence.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Highlights the difference between measured performance and robust real-world competence.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=The+Emerging+Science+of+Machine+Learning+Benchmarks+by+Moritz+Hardt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Emerging Science of Machine Learning Benchmarks on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Emerging+Science+of+Machine+Learning+Benchmarks+by+Moritz+Hardt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Emerging Science of Machine Learning Benchmarks">The Emerging Science of Machine Learning Benchmarks</a>
-        </h4>
-        <p class="fr-book-author">By Moritz Hardt</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=The+Emerging+Science+of+Machine+Learning+Benchmarks+by+Moritz+Hardt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Emerging Science of Machine Learning Benchmarks on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Emerging+Science+of+Machine+Learning+Benchmarks+by+Moritz+Hardt&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Emerging Science of Machine Learning Benchmarks">The Emerging Science of Machine Learning Benchmarks</a>
+</h4>
+<p class="fr-book-author">By Moritz Hardt</p>
         
-        <p class="fr-book-desc">Directly examines what benchmarks measure, where they fail, and how to interpret results.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Emerging+Science+of+Machine+Learning+Benchmarks+by+Moritz+Hardt&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly examines what benchmarks measure, where they fail, and how to interpret results.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Emerging+Science+of+Machine+Learning+Benchmarks+by+Moritz+Hardt&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;"><img src="{{ '/assets/images/marketplace-covers/9f2801ba4cdd111cd79f.jpg' | relative_url }}" alt="Listing image for A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;"><img src="{{ '/assets/images/marketplace-covers/9f2801ba4cdd111cd79f.jpg' | relative_url }}" alt="Listing image for A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="benchmark-limits-do-benchmark-wins-prove-intelligence-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -603,7 +603,7 @@ What they do not show is that AI has solved the broader challenge of general int
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -623,7 +623,7 @@ What they do not show is that AI has solved the broader challenge of general int
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -655,7 +655,7 @@ What they do not show is that AI has solved the broader challenge of general int
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -707,7 +707,7 @@ What they do not show is that AI has solved the broader challenge of general int
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -752,7 +752,7 @@ What they do not show is that AI has solved the broader challenge of general int
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -793,142 +793,142 @@ What they do not show is that AI has solved the broader challenge of general int
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: hai.stanford.edu  
    Title: technical performance  
-   Link: <a href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Stanford HAITechnical Performance | The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</p></details>
+   Link:<a href="https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/ai-index/2025-ai-index-report/technical-performance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Stanford HAITechnical Performance | The 2025 AI Index ReportIn 2023, AI researchers introduced several challenging new benchmarks, includ...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.06559</a>  
+   Link:<a href="https://arxiv.org/abs/2502.06559" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.06559</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2501.07458" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2501.07458</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding and Benchmarking Artificial Intelligence: OpenAI&#x27;s o3 Is Not AGIJanuary 13, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2501.07458" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2501.07458</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding and Benchmarking Artificial Intelligence: OpenAI&#x27;s o3 Is Not AGIJanuary 13, 2025...</p></details>
    Published: January 13, 2025  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2605.14164v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2605.14164v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Unsteady Metrics and Benchmarking Cultures of AI Model...13 May 2026 — Few benchmarks achieve true widespread use (e.g., GPQA Diamo...</p></details>
+   Link:<a href="https://arxiv.org/html/2605.14164v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2605.14164v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Unsteady Metrics and Benchmarking Cultures of AI Model...13 May 2026 — Few benchmarks achieve true widespread use (e.g., GPQA Diamo...</p></details>
    Published: May 2026  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2602.18029v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.18029v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Towards More Standardized AI Evaluation: From Models to...20 Feb 2026 — This dynamic is a direct instance of Goodhart&#x27;s law: “When...</p></details>
+   Link:<a href="https://arxiv.org/html/2602.18029v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.18029v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Towards More Standardized AI Evaluation: From Models to...20 Feb 2026 — This dynamic is a direct instance of Goodhart&#x27;s law: “When...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: blog.collinear.ai  
    Title: gaming the system goodharts law exemplified in ai leaderboard controversy  
-   Link: <a href="https://blog.collinear.ai/p/gaming-the-system-goodharts-law-exemplified-in-ai-leaderboard-controversy" target="_blank" rel="noopener noreferrer nofollow">https://blog.collinear.ai/p/gaming-the-system-goodharts-law-exemplified-in-ai-leaderboard-controversy</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Collinear AI BlogGoodhart&#x27;s Law Exemplified in AI Leaderboard Controversy15 May 2025 — The recent uproar over the LMSYS (now LMArena) Cha...</p></details>
+   Link:<a href="https://blog.collinear.ai/p/gaming-the-system-goodharts-law-exemplified-in-ai-leaderboard-controversy" target="_blank" rel="noopener noreferrer nofollow">https://blog.collinear.ai/p/gaming-the-system-goodharts-law-exemplified-in-ai-leaderboard-controversy</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Collinear AI BlogGoodhart&#x27;s Law Exemplified in AI Leaderboard Controversy15 May 2025 — The recent uproar over the LMSYS (now LMArena) Cha...</p></details>
    Published: May 2025  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2510.07575" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2510.07575</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Benchmarking is Broken -- Don&#x27;t Let AI be its Own Judgeby Z Cheng · 2025 · Cited by 9 — Public benchmarks may leak into or be delibe...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2510.07575" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2510.07575</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Benchmarking is Broken -- Don&#x27;t Let AI be its Own Judgeby Z Cheng · 2025 · Cited by 9 — Public benchmarks may leak into or be delibe...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2603.21636" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.21636</a>  
+   Link:<a href="https://arxiv.org/abs/2603.21636" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.21636</a>  
 
-9. <a id="endnote-9"></a>
-   Source: arxiv.org  
-   Title: arXiv Benchmarking is Broken  
-   Link: <a href="https://arxiv.org/html/2510.07575v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.07575v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Benchmarking is Broken - Don&#x27;t Let AI be its Own Judge8 Oct 2025 — Issues like data contamination and selective reporting by model develo...</p></details>
-
-10. <a id="endnote-10"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
    Title: arXiv Benchmarking is Broken  
-   Link: <a href="https://arxiv.org/html/2510.07575v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.07575v2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Benchmarking is Broken - Don&#x27;t Let AI be its Own JudgeIssues like data contamination and selective reporting by model developers fuel hyp...</p></details>
+   Link:<a href="https://arxiv.org/html/2510.07575v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.07575v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Benchmarking is Broken - Don&#x27;t Let AI be its Own Judge8 Oct 2025 — Issues like data contamination and selective reporting by model develo...</p></details>
 
-11. <a id="endnote-11"></a>
+10.<a id="endnote-10"></a>
+   Source: arxiv.org  
+   Title: arXiv Benchmarking is Broken  
+   Link:<a href="https://arxiv.org/html/2510.07575v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.07575v2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Benchmarking is Broken - Don&#x27;t Let AI be its Own JudgeIssues like data contamination and selective reporting by model developers fuel hyp...</p></details>
+
+11.<a id="endnote-11"></a>
    Source: time.com  
    Title: AI Models Are Getting Smarter  
-   Link: <a href="https://time.com/7203729/ai-evaluations-safety/" target="_blank" rel="noopener noreferrer nofollow">https://time.com/7203729/ai-evaluations-safety/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>New Tests Are Racing to Catch UpDecember 24, 2024 — AI developers are constantly evaluating their systems with new and more challenging t...</p></details>
+   Link:<a href="https://time.com/7203729/ai-evaluations-safety/" target="_blank" rel="noopener noreferrer nofollow">https://time.com/7203729/ai-evaluations-safety/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>New Tests Are Racing to Catch UpDecember 24, 2024 — AI developers are constantly evaluating their systems with new and more challenging t...</p></details>
    Published: December 24, 2024  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: hai.stanford.edu  
    Title: hai ai index report 2025 chapter2 final  
-   Link: <a href="https://hai.stanford.edu/assets/files/hai_ai-index-report-2025_chapter2_final.pdf" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/assets/files/hai_ai-index-report-2025_chapter2_final.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>2: Technical Performancebenchmarks, including MMMU, GPQA, and SWE-bench, aimed at testing the limits of increasingly capable AI systems...</p></details>
+   Link:<a href="https://hai.stanford.edu/assets/files/hai_ai-index-report-2025_chapter2_final.pdf" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/assets/files/hai_ai-index-report-2025_chapter2_final.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>2: Technical Performancebenchmarks, including MMMU, GPQA, and SWE-bench, aimed at testing the limits of increasingly capable AI systems...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: mbrenndoerfer.com  
-   Link: <a href="https://mbrenndoerfer.com/writing/benchmark-saturation-ai-evaluation-metrics" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/benchmark-saturation-ai-evaluation-metrics</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Learn why static metrics hit ceiling effects, lose statistical power, and how dynamic benchmarks solve this...</p></details>
+   Link:<a href="https://mbrenndoerfer.com/writing/benchmark-saturation-ai-evaluation-metrics" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/benchmark-saturation-ai-evaluation-metrics</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Learn why static metrics hit ceiling effects, lose statistical power, and how dynamic benchmarks solve this...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: blog-datalab.com  
    Title: making sense of ai benchmarks  
-   Link: <a href="https://blog-datalab.com/making-sense-of-ai-benchmarks/" target="_blank" rel="noopener noreferrer nofollow">https://blog-datalab.com/making-sense-of-ai-benchmarks/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GIZ Data Lab BlogMaking Sense of AI Benchmarks4 Sept 2025 — What are the challenges in benchmark evaluation? Despite their utility, AI be...</p></details>
+   Link:<a href="https://blog-datalab.com/making-sense-of-ai-benchmarks/" target="_blank" rel="noopener noreferrer nofollow">https://blog-datalab.com/making-sense-of-ai-benchmarks/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GIZ Data Lab BlogMaking Sense of AI Benchmarks4 Sept 2025 — What are the challenges in benchmark evaluation? Despite their utility, AI be...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: llm-stats.com  
-   Link: <a href="https://llm-stats.com/benchmarks" target="_blank" rel="noopener noreferrer nofollow">https://llm-stats.com/benchmarks</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Benchmarks 2026The benchmark tests AI&#x27;s ability to understand document structure and content, requiring models to comprehend document...</p></details>
+   Link:<a href="https://llm-stats.com/benchmarks" target="_blank" rel="noopener noreferrer nofollow">https://llm-stats.com/benchmarks</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Benchmarks 2026The benchmark tests AI&#x27;s ability to understand document structure and content, requiring models to comprehend document...</p></details>
 
 ### Additional References
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/pdf?id=Y5LJrvfAIS" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=Y5LJrvfAIS</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Benchmarks: Interdisciplinary Issues and Policy...by M Eriksson — This paper summarises the results of an interdisci- plinary meta-re...</p></details>
+   Link:<a href="https://openreview.net/pdf?id=Y5LJrvfAIS" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=Y5LJrvfAIS</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Benchmarks: Interdisciplinary Issues and Policy...by M Eriksson — This paper summarises the results of an interdisci- plinary meta-re...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/technology/artificial-intelligence/ai-experts-ready-humanitys-last-exam-stump-powerful-tech-2024-09-16/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/technology/artificial-intelligence/ai-experts-ready-humanitys-last-exam-stump-powerful-tech-2024-09-16/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>El proyecto, llamado &quot;Humanity&#x27;s Last Exam&quot;, es organizado por el Centro para la Seguridad de la IA (CAIS) y la startup Scale AI. El anun...</p></details>
+   Link:<a href="https://www.reuters.com/technology/artificial-intelligence/ai-experts-ready-humanitys-last-exam-stump-powerful-tech-2024-09-16/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/technology/artificial-intelligence/ai-experts-ready-humanitys-last-exam-stump-powerful-tech-2024-09-16/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>El proyecto, llamado &quot;Humanity&#x27;s Last Exam&quot;, es organizado por el Centro para la Seguridad de la IA (CAIS) y la startup Scale AI. El anun...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: vox.com  
-   Link: <a href="https://www.vox.com/future-perfect/394336/artificial-intelligence-openai-o3-benchmarks-agi" target="_blank" rel="noopener noreferrer nofollow">https://www.vox.com/future-perfect/394336/artificial-intelligence-openai-o3-benchmarks-agi</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>In 2024, it was observed that existing AI systems are powerful enough to significantly change our world. OpenAI&#x27;s latest large language m...</p></details>
+   Link:<a href="https://www.vox.com/future-perfect/394336/artificial-intelligence-openai-o3-benchmarks-agi" target="_blank" rel="noopener noreferrer nofollow">https://www.vox.com/future-perfect/394336/artificial-intelligence-openai-o3-benchmarks-agi</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>In 2024, it was observed that existing AI systems are powerful enough to significantly change our world. OpenAI&#x27;s latest large language m...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/BetterOffline/comments/1rj2pi2/please_look_inside_the_ai_benchmarks_before/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/BetterOffline/comments/1rj2pi2/please_look_inside_the_ai_benchmarks_before/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Please, look inside the AI benchmarks before talking about...SWE-Bench Verified, and likely all the open benchmarks, are also contamina...</p></details>
+   Link:<a href="https://www.reddit.com/r/BetterOffline/comments/1rj2pi2/please_look_inside_the_ai_benchmarks_before/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/BetterOffline/comments/1rj2pi2/please_look_inside_the_ai_benchmarks_before/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Please, look inside the AI benchmarks before talking about...SWE-Bench Verified, and likely all the open benchmarks, are also contamina...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/technology/2025/nov/04/experts-find-flaws-hundreds-tests-check-ai-safety-effectiveness" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2025/nov/04/experts-find-flaws-hundreds-tests-check-ai-safety-effectiveness</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The study found nearly all benchmarks had weaknesses, with some being misleading or irrelevant, thereby undermining claims about AI model...</p></details>
+   Link:<a href="https://www.theguardian.com/technology/2025/nov/04/experts-find-flaws-hundreds-tests-check-ai-safety-effectiveness" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2025/nov/04/experts-find-flaws-hundreds-tests-check-ai-safety-effectiveness</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The study found nearly all benchmarks had weaknesses, with some being misleading or irrelevant, thereby undermining claims about AI model...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: hub.stabilarity.com  
    Title: the measurement crisis saturation goodharts law and the end of ai leaderboards  
-   Link: <a href="https://hub.stabilarity.com/the-measurement-crisis-saturation-goodharts-law-and-the-end-of-ai-leaderboards/" target="_blank" rel="noopener noreferrer nofollow">https://hub.stabilarity.com/the-measurement-crisis-saturation-goodharts-law-and-the-end-of-ai-leaderboards/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Measurement Crisis: Saturation, Goodhart&#x27;s Law, and the...13 Mar 2026 — We show that [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) deployment metrics from our Cost-Effective...</p></details>
+   Link:<a href="https://hub.stabilarity.com/the-measurement-crisis-saturation-goodharts-law-and-the-end-of-ai-leaderboards/" target="_blank" rel="noopener noreferrer nofollow">https://hub.stabilarity.com/the-measurement-crisis-saturation-goodharts-law-and-the-end-of-ai-leaderboards/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measurement Crisis: Saturation, Goodhart&#x27;s Law, and the...13 Mar 2026 — We show that [business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) deployment metrics from our Cost-Effective...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: forum.gnoppix.org  
    Title: ai benchmarks are broken and the industry keeps using them anyway study finds  
-   Link: <a href="https://forum.gnoppix.org/t/ai-benchmarks-are-broken-and-the-industry-keeps-using-them-anyway-study-finds/3890" target="_blank" rel="noopener noreferrer nofollow">https://forum.gnoppix.org/t/ai-benchmarks-are-broken-and-the-industry-keeps-using-them-anyway-study-finds/3890</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>benchmarks are broken and the industry keeps using...10 Jan 2026 — AI Benchmarks Are Flawed Due to Data Contamination, Yet the Industry...</p></details>
+   Link:<a href="https://forum.gnoppix.org/t/ai-benchmarks-are-broken-and-the-industry-keeps-using-them-anyway-study-finds/3890" target="_blank" rel="noopener noreferrer nofollow">https://forum.gnoppix.org/t/ai-benchmarks-are-broken-and-the-industry-keeps-using-them-anyway-study-finds/3890</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>benchmarks are broken and the industry keeps using...10 Jan 2026 — AI Benchmarks Are Flawed Due to Data Contamination, Yet the Industry...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: medium.com  
    Title: modern ai benchmarks what practitioners actually need to know b59f2367ef9f  
-   Link: <a href="https://medium.com/%40adnanmasood/modern-ai-benchmarks-what-practitioners-actually-need-to-know-b59f2367ef9f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/modern-ai-benchmarks-what-practitioners-actually-need-to-know-b59f2367ef9f</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Modern AI Benchmarks: What Practitioners Actually Need...A practitioner&#x27;s guide to AI benchmarks in 2026: what SWE-bench, GDPval, ARC-AG...</p></details>
+   Link:<a href="https://medium.com/%40adnanmasood/modern-ai-benchmarks-what-practitioners-actually-need-to-know-b59f2367ef9f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/modern-ai-benchmarks-what-practitioners-actually-need-to-know-b59f2367ef9f</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Modern AI Benchmarks: What Practitioners Actually Need...A practitioner&#x27;s guide to AI benchmarks in 2026: what SWE-bench, GDPval, ARC-AG...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: notes.muthu.co  
    Title: agent evaluation and benchmarking for measuring what matters  
-   Link: <a href="https://notes.muthu.co/2026/02/agent-evaluation-and-benchmarking-for-measuring-what-matters/" target="_blank" rel="noopener noreferrer nofollow">https://notes.muthu.co/2026/02/agent-evaluation-and-benchmarking-for-measuring-what-matters/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluation and Benchmarking for Measuring What...19 Feb 2026 — The shift to agent evaluation reflects Goodhart&#x27;s Law in action: when LLM...</p></details>
+   Link:<a href="https://notes.muthu.co/2026/02/agent-evaluation-and-benchmarking-for-measuring-what-matters/" target="_blank" rel="noopener noreferrer nofollow">https://notes.muthu.co/2026/02/agent-evaluation-and-benchmarking-for-measuring-what-matters/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluation and Benchmarking for Measuring What...19 Feb 2026 — The shift to agent evaluation reflects Goodhart&#x27;s Law in action: when LLM...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/ais-dirty-little-secret-why-most-benchmarks-joke-how-changes-danu-s-jmiqc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ais-dirty-little-secret-why-most-benchmarks-joke-how-changes-danu-s-jmiqc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It&#x27;s bold, it&#x27;s uncompromising, and it&#x27;s precisely what the AI community needs...Read more...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/ais-dirty-little-secret-why-most-benchmarks-joke-how-changes-danu-s-jmiqc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ais-dirty-little-secret-why-most-benchmarks-joke-how-changes-danu-s-jmiqc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It&#x27;s bold, it&#x27;s uncompromising, and it&#x27;s precisely what the AI community needs...Read more...</p></details>

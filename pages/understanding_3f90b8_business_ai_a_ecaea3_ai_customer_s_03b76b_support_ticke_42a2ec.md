@@ -273,7 +273,7 @@ A well-designed [AI customer]({{ 'service-ai/' | relative_url }}) service system
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b_support_ticke_42a2ec-Illustration-1-dark.svg" | relative_url }}" alt="Learning loop illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b_support_ticke_42a2ec-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b_support_ticke_42a2ec-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This matters because even a sophisticated AI assistant can only be as useful as the knowledge, policies and examples available to it. Resolved tickets reveal gaps that are often invisible in [documentation]({{ 'paper-safety/' | relative_url }}) alone. Over time, those signals can be used to improve knowledge bases, refine workflows, update policies and reduce repeat contacts, creating better outcomes for both customers and service teams. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
+This matters because even a sophisticated AI assistant can only be as useful as the knowledge, policies and examples available to it. Resolved tickets reveal gaps that are often invisible in [documentation]({{ 'paper-safety/' | relative_url }}) alone. Over time, those signals can be used to improve knowledge bases, refine workflows, update policies and reduce repeat contacts, creating better outcomes for both customers and service teams.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
 
 ## Can every support ticket teach the AI?
 
@@ -293,7 +293,7 @@ A ticket records more than a customer question. It captures the original problem
 
 </div>
 
-Support analytics platforms explicitly encourage teams to examine recurring ticket categories because repeated issues often indicate underlying product or documentation problems rather than simply a need for more agents. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
+Support analytics platforms explicitly encourage teams to examine recurring ticket categories because repeated issues often indicate underlying product or documentation problems rather than simply a need for more agents.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
 
 The learning loop becomes especially valuable when AI systems are involved. Instead of training solely on static manuals, organisations can learn from real-world service outcomes and feed those lessons back into future interactions.
 
@@ -314,17 +314,17 @@ For example, a returns policy might technically cover international orders, but 
 
 Tickets frequently expose information that customers could not find on their own.
 
-If many resolved cases contain nearly identical explanations written by agents, those explanations are candidates for new help-centre articles, updated FAQs or AI knowledge entries. Modern support systems increasingly surface relevant articles to agents during ticket handling precisely because knowledge reuse improves consistency and [speed]({{ 'speed/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.zendesk.co.uk/service/help-center/knowledge-agent-workspace/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: zendesk.co.uk">[Zendesk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">zendesk.co.uk</span><span class="citation-popover-title">Zendesk Knowledge in the Agent Workspace</span><span class="citation-popover-snippet">Knowledge in the Agent Workspace - Zendesk...</span></span></span>
+If many resolved cases contain nearly identical explanations written by agents, those explanations are candidates for new help-centre articles, updated FAQs or AI knowledge entries. Modern support systems increasingly surface relevant articles to agents during ticket handling precisely because knowledge reuse improves consistency and [speed]({{ 'speed/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.zendesk.co.uk/service/help-center/knowledge-agent-workspace/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: zendesk.co.uk">[Zendesk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">zendesk.co.uk</span><span class="citation-popover-title">Zendesk Knowledge in the Agent Workspace</span><span class="citation-popover-snippet">Knowledge in the Agent Workspace - Zendesk...</span></span></span>
 
 ### Product problems and recurring defects
 
 Support records are also an early-warning system for operational issues.
 
-A surge in tickets about a specific feature may indicate a software bug, confusing interface change or service outage. Ticket trend analysis helps organisations identify recurring product problems and direct improvements toward the root cause instead of repeatedly answering the same question. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
+A surge in tickets about a specific feature may indicate a software bug, confusing interface change or service outage. Ticket trend analysis helps organisations identify recurring product problems and direct improvements toward the root cause instead of repeatedly answering the same question.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
 
 ### Escalation signals
 
-Research on large-scale support operations has shown that ticket histories contain [meaningful]({{ 'human-review/' | relative_url }}) indicators of future escalations. In a study using millions of support tickets, researchers developed [machine-learning]({{ 'machine-learning/' | relative_url }}) models that identified escalation risks by analysing support-ticket characteristics and historical patterns. The work demonstrated that support records can capture organisational knowledge valuable far beyond the immediate case. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1901.01092" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">What do Support Analysts Know about Their Customers? On the Study and Prediction of Support Ticket Escalations in Large Software Org...</span></span></span>
+Research on large-scale support operations has shown that ticket histories contain [meaningful]({{ 'human-review/' | relative_url }}) indicators of future escalations. In a study using millions of support tickets, researchers developed [machine-learning]({{ 'machine-learning/' | relative_url }}) models that identified escalation risks by analysing support-ticket characteristics and historical patterns. The work demonstrated that support records can capture organisational knowledge valuable far beyond the immediate case.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1901.01092" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">What do Support Analysts Know about Their Customers? On the Study and Prediction of Support Ticket Escalations in Large Software Org...</span></span></span>
 
 ## How knowledge updates enter the workflow
 
@@ -369,7 +369,7 @@ Instead, subject-matter experts review emerging patterns and update:
 
 <div class="content-enhancement content-enhancement--decision" markdown="1">
 
-* Knowledge-base articles. <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.eesel.ai/blog/zendesk-knowledge-gap-identify-missing-articles" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eesel.ai">[eesel.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eesel.ai</span><span class="citation-popover-title">zendesk knowledge gap identify missing articles</span><span class="citation-popover-snippet">to identify knowledge gaps in Zendesk Guide &#124; eesel AIMarch 3, 2026...</span><span class="citation-popover-meta">Published: March 3, 2026</span></span></span>
+* Knowledge-base articles.<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.eesel.ai/blog/zendesk-knowledge-gap-identify-missing-articles" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eesel.ai">[eesel.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eesel.ai</span><span class="citation-popover-title">zendesk knowledge gap identify missing articles</span><span class="citation-popover-snippet">to identify knowledge gaps in Zendesk Guide &#124; eesel AIMarch 3, 2026...</span><span class="citation-popover-meta">Published: March 3, 2026</span></span></span>
 * Internal procedures.
 * Agent guidance.
 * Retrieval sources used by AI assistants.
@@ -385,7 +385,7 @@ This governance step is important because support tickets may contain temporary 
 
 The loop closes when organisations observe whether updates reduce future demand.
 
-Metrics such as ticket volume, reopen rates, resolution rates and repeat-contact rates help determine whether the knowledge update solved the underlying issue. Support platforms commonly track solved and reopened tickets because reopening often indicates that the original answer was incomplete or incorrect. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
+Metrics such as ticket volume, reopen rates, resolution rates and repeat-contact rates help determine whether the knowledge update solved the underlying issue. Support platforms commonly track solved and reopened tickets because reopening often indicates that the original answer was incomplete or incorrect.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
 
 ## Why stale documentation weakens AI
 
@@ -408,7 +408,7 @@ Several failure modes appear repeatedly:
 
 When this happens, human agents often learn the correct answer through experience, but the AI does not. The result is a growing gap between what experienced staff know and what the system can provide.
 
-This is why some newer support platforms focus on turning resolved interactions into knowledge improvements rather than treating documentation as a static asset. The underlying idea is that customer conversations continuously reveal where knowledge is incomplete, allowing organisations to update the information available to both agents and AI systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.usefini.com/blog/fini-knowledge-atlas" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: usefini.com">[Fini AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">usefini.com</span><span class="citation-popover-snippet">February 3, 2026...</span><span class="citation-popover-meta">Published: February 3, 2026</span></span></span>
+This is why some newer support platforms focus on turning resolved interactions into knowledge improvements rather than treating documentation as a static asset. The underlying idea is that customer conversations continuously reveal where knowledge is incomplete, allowing organisations to update the information available to both agents and AI systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.usefini.com/blog/fini-knowledge-atlas" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: usefini.com">[Fini AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">usefini.com</span><span class="citation-popover-snippet">February 3, 2026...</span><span class="citation-popover-meta">Published: February 3, 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/zaWri275JUk" title="Zendesk AI Agents: Setup, Costs, and Best Practices (2026)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=zaWri275JUk" target="_blank" rel="noopener noreferrer">Zendesk AI Agents: Setup, Costs, and Best Practices (2026)</a></p><p class="youtube-embed-meta">Channel: eesel AI</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=zaWri275JUk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=zaWri275JUk">Open on YouTube</a></p></div></div></div>
@@ -417,181 +417,181 @@ This is why some newer support platforms focus on turning resolved interactions 
 
 The learning loop is simple in principle: customers encounter problems, support resolves them, recurring lessons are identified, trusted knowledge is updated, and the improved knowledge helps future customers receive better answers.
 
-Without that loop, tickets remain historical records. With it, tickets become a source of continuous learning that strengthens documentation, improves policy clarity, reduces repeat issues and increases the effectiveness of AI-assisted customer service. In redesigned AI service workflows, the support ticket is not merely evidence of a past interaction; it is a mechanism for improving the next one. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support+2Zendesk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
+Without that loop, tickets remain historical records. With it, tickets become a source of continuous learning that strengthens documentation, improves policy clarity, reduces repeat issues and increases the effectiveness of AI-assisted customer service. In redesigned AI service workflows, the support ticket is not merely evidence of a past interaction; it is a mechanism for improving the next one.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.zendesk.com">[Zendesk Support+2Zendesk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.zendesk.com</span><span class="citation-popover-snippet">Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can every support ticket teach the AI?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can every support ticket teach the AI?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+on+Analytics+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing on Analytics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=n7Gp7Q84hcsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Competing on Analytics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+on+Analytics+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing on Analytics">Competing on Analytics</a>
-        </h4>
-        <p class="fr-book-author">By Thomas H. Davenport, Jeanne G. Harris</p>
-        <p class="fr-book-popularity">Rating: 3.0/5 from 16 Google Books ratings</p>
-        <p class="fr-book-desc">Explains extracting value from operational data such as support tickets.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+on+Analytics+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+on+Analytics+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing on Analytics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=n7Gp7Q84hcsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Competing on Analytics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+on+Analytics+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing on Analytics">Competing on Analytics</a>
+</h4>
+<p class="fr-book-author">By Thomas H. Davenport, Jeanne G. Harris</p>
+<p class="fr-book-popularity">Rating: 3.0/5 from 16 Google Books ratings</p>
+<p class="fr-book-desc">Explains extracting value from operational data such as support tickets.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+on+Analytics+by+Thomas+H.+Davenport&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Effortless Experience on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9mzbBQ2wVdEC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Effortless Experience" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Effortless Experience">The Effortless Experience</a>
-        </h4>
-        <p class="fr-book-author">By Matthew Dixon, Nicholas Toman et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Effortless Experience on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9mzbBQ2wVdEC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Effortless Experience" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Effortless Experience">The Effortless Experience</a>
+</h4>
+<p class="fr-book-author">By Matthew Dixon, Nicholas Toman et al.</p>
         
-        <p class="fr-book-desc">Uses customer-service evidence and recurring issues to improve support outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Uses customer-service evidence and recurring issues to improve support outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Working+Backwards+by+Colin+Bryar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Working Backwards on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=jgn5DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Working Backwards" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Working+Backwards+by+Colin+Bryar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Working Backwards">Working Backwards</a>
-        </h4>
-        <p class="fr-book-author">By Colin Bryar, Bill Carr</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Working+Backwards+by+Colin+Bryar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Working Backwards on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=jgn5DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Working Backwards" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Working+Backwards+by+Colin+Bryar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Working Backwards">Working Backwards</a>
+</h4>
+<p class="fr-book-author">By Colin Bryar, Bill Carr</p>
         
-        <p class="fr-book-desc">Shows how customer signals can drive continuous improvement loops.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Working+Backwards+by+Colin+Bryar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how customer signals can drive continuous improvement loops.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Working+Backwards+by+Colin+Bryar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Knowledge+Management+in+Theory+and+Practice%2C+third+edition+by+Kimiz+Dalkir&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Knowledge Management in Theory and Practice, third edition on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=xclDDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Knowledge Management in Theory and Practice, third edition" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Knowledge+Management+in+Theory+and+Practice%2C+third+edition+by+Kimiz+Dalkir&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Knowledge Management in Theory and Practice, third edition">Knowledge Management in Theory and Practice, third edition</a>
-        </h4>
-        <p class="fr-book-author">By Kimiz Dalkir</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Knowledge+Management+in+Theory+and+Practice%2C+third+edition+by+Kimiz+Dalkir&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Knowledge Management in Theory and Practice, third edition on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=xclDDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Knowledge Management in Theory and Practice, third edition" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Knowledge+Management+in+Theory+and+Practice%2C+third+edition+by+Kimiz+Dalkir&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Knowledge Management in Theory and Practice, third edition">Knowledge Management in Theory and Practice, third edition</a>
+</h4>
+<p class="fr-book-author">By Kimiz Dalkir</p>
         
-        <p class="fr-book-desc">Directly relevant to turning resolved cases into organisational knowledge.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Knowledge+Management+in+Theory+and+Practice%2C+third+edition+by+Kimiz+Dalkir&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly relevant to turning resolved cases into organisational knowledge.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Knowledge+Management+in+Theory+and+Practice%2C+third+edition+by+Kimiz+Dalkir&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+on+Analytics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing on Analytics</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Effortless+Experience&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Effortless Experience</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Working+Backwards&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Working Backwards</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+on+Analytics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing on Analytics</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Effortless+Experience&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Effortless Experience</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Working+Backwards&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Working Backwards</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/fd00da1c57d275a856b1.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/fd00da1c57d275a856b1.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5dab8409dd06438db006.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5dab8409dd06438db006.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="learning-loop-can-every-support-ticket-teach-the-ai-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -607,7 +607,7 @@ Without that loop, tickets remain historical records. With it, tickets become a 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -627,7 +627,7 @@ Without that loop, tickets remain historical records. With it, tickets become a 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -659,7 +659,7 @@ Without that loop, tickets remain historical records. With it, tickets become a 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -711,7 +711,7 @@ Without that loop, tickets remain historical records. With it, tickets become a 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -756,7 +756,7 @@ Without that loop, tickets remain historical records. With it, tickets become a 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -797,87 +797,87 @@ Without that loop, tickets remain historical records. With it, tickets become a 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: support.zendesk.com  
-   Link: <a href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow">https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</p></details>
+   Link:<a href="https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support" target="_blank" rel="noopener noreferrer nofollow">https://support.zendesk.com/hc/en-us/articles/4408832234394-Analyzing-the-metrics-that-matter-to-improve-customer-support</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Zendesk SupportAnalyzing the metrics that matter to improve customer support – Zendesk help...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1901.01092" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1901.01092</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What do Support Analysts Know about Their Customers? On the Study and [Prediction](&amp;#123;&amp;#123; &#x27;error-harms/&#x27; | relative_url &amp;#125;&amp;#125;) of Support Ticket Escalations in Large Software Org...</p></details>
+   Link:<a href="https://arxiv.org/abs/1901.01092" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1901.01092</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What do Support Analysts Know about Their Customers? On the Study and [Prediction](&amp;#123;&amp;#123; &#x27;error-harms/&#x27; | relative_url &amp;#125;&amp;#125;) of Support Ticket Escalations in Large Software Org...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: usefini.com  
-   Link: <a href="https://www.usefini.com/blog/fini-knowledge-atlas" target="_blank" rel="noopener noreferrer nofollow">https://www.usefini.com/blog/fini-knowledge-atlas</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>February 3, 2026...</p></details>
+   Link:<a href="https://www.usefini.com/blog/fini-knowledge-atlas" target="_blank" rel="noopener noreferrer nofollow">https://www.usefini.com/blog/fini-knowledge-atlas</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>February 3, 2026...</p></details>
    Published: February 3, 2026  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: zendesk.com  
    Title: AI for Customer Service & Support | Zendesk AI Platform  
-   Link: <a href="https://www.zendesk.com/service/ai/" target="_blank" rel="noopener noreferrer nofollow">https://www.zendesk.com/service/ai/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI for Customer Service &amp; Support | Zendesk AI Platform...</p></details>
+   Link:<a href="https://www.zendesk.com/service/ai/" target="_blank" rel="noopener noreferrer nofollow">https://www.zendesk.com/service/ai/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI for Customer Service &amp; Support | Zendesk AI Platform...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: youtube.com  
    Title: Get AI-generated procedures based on your ticket data | What's New  
-   Link: <a href="https://www.youtube.com/watch?v=faUwKZukyDk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=faUwKZukyDk</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Zendesk AI Agents: Setup, Costs, and Best Practices (2026)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=faUwKZukyDk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=faUwKZukyDk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Zendesk AI Agents: Setup, Costs, and Best Practices (2026)...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=zaWri275JUk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zaWri275JUk</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Zendesk AI: Autonomous AI Agents Resolving 80%+ of Tickets in 2026 – Full Review...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=zaWri275JUk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zaWri275JUk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Zendesk AI: Autonomous AI Agents Resolving 80%+ of Tickets in 2026 – Full Review...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=yyQQvx0gZkk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=yyQQvx0gZkk</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Automate Repetitive Zendesk Tickets by Category — Auto Reply AI Agent by Macha...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=yyQQvx0gZkk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=yyQQvx0gZkk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Automate Repetitive Zendesk Tickets by Category — Auto Reply AI Agent by Macha...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: zendesk.co.uk  
    Title: Zendesk Knowledge in the Agent Workspace  
-   Link: <a href="https://www.zendesk.co.uk/service/help-center/knowledge-agent-workspace/" target="_blank" rel="noopener noreferrer nofollow">https://www.zendesk.co.uk/service/help-center/knowledge-agent-workspace/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Knowledge in the Agent Workspace - Zendesk...</p></details>
+   Link:<a href="https://www.zendesk.co.uk/service/help-center/knowledge-agent-workspace/" target="_blank" rel="noopener noreferrer nofollow">https://www.zendesk.co.uk/service/help-center/knowledge-agent-workspace/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Knowledge in the Agent Workspace - Zendesk...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: eesel.ai  
    Title: zendesk knowledge gap identify missing articles  
-   Link: <a href="https://www.eesel.ai/blog/zendesk-knowledge-gap-identify-missing-articles" target="_blank" rel="noopener noreferrer nofollow">https://www.eesel.ai/blog/zendesk-knowledge-gap-identify-missing-articles</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>to identify knowledge gaps in Zendesk Guide | eesel AIMarch 3, 2026...</p></details>
+   Link:<a href="https://www.eesel.ai/blog/zendesk-knowledge-gap-identify-missing-articles" target="_blank" rel="noopener noreferrer nofollow">https://www.eesel.ai/blog/zendesk-knowledge-gap-identify-missing-articles</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>to identify knowledge gaps in Zendesk Guide | eesel AIMarch 3, 2026...</p></details>
    Published: March 3, 2026  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: support.dfeh.ca.gov  
    Title: Zendesk Reports  
-   Link: <a href="https://support.dfeh.ca.gov/hc/en-us/articles/38962879446541-Zendesk-Reports-Using-Analytics-for-Zendesk-Support" target="_blank" rel="noopener noreferrer nofollow">https://support.dfeh.ca.gov/hc/en-us/articles/38962879446541-Zendesk-Reports-Using-Analytics-for-Zendesk-Support</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Using Analytics for Zendesk Support – CRD Technical SupportSeptember 3, 2025...</p></details>
+   Link:<a href="https://support.dfeh.ca.gov/hc/en-us/articles/38962879446541-Zendesk-Reports-Using-Analytics-for-Zendesk-Support" target="_blank" rel="noopener noreferrer nofollow">https://support.dfeh.ca.gov/hc/en-us/articles/38962879446541-Zendesk-Reports-Using-Analytics-for-Zendesk-Support</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Using Analytics for Zendesk Support – CRD Technical SupportSeptember 3, 2025...</p></details>
    Published: September 3, 2025  
 
 ### Additional References
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=Gaw-glqgF1c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Gaw-glqgF1c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Is Already Resolving 90% of Customer Service Tickets - and It&#x27;s Getting Smarter | Shashi Upadhyay - YouTube AI Is Already Resolving 90...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Gaw-glqgF1c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Gaw-glqgF1c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Is Already Resolving 90% of Customer Service Tickets - and It&#x27;s Getting Smarter | Shashi Upadhyay - YouTube AI Is Already Resolving 90...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: siit.io  
    Title: www.siit.io How AI Agents Resolve IT Tickets (And Where Most Stop Short)  
-   Link: <a href="https://www.siit.io/blog/how-ai-agents-resolve-it-tickets" target="_blank" rel="noopener noreferrer nofollow">https://www.siit.io/blog/how-ai-agents-resolve-it-tickets</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Agents Resolve IT Tickets (And Where Most Stop Short)April 22, 2026...</p></details>
+   Link:<a href="https://www.siit.io/blog/how-ai-agents-resolve-it-tickets" target="_blank" rel="noopener noreferrer nofollow">https://www.siit.io/blog/how-ai-agents-resolve-it-tickets</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Agents Resolve IT Tickets (And Where Most Stop Short)April 22, 2026...</p></details>
    Published: April 22, 2026  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
    Title: AI Is Already Resolving 90% of Customer Service Tickets  
-   Link: <a href="https://www.youtube.com/watch?v=vjnh9rLsrvo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=vjnh9rLsrvo</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Get AI-generated procedures based on your ticket data | What&#x27;s New...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=vjnh9rLsrvo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=vjnh9rLsrvo</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Get AI-generated procedures based on your ticket data | What&#x27;s New...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: docs.bmc.com  
    Title: Resolving tickets with the help of [Agent assist](&#123;&#123; 'agent-assist/' | relative_url &#125;&#125;)  
-   Link: <a href="https://docs.bmc.com/xwiki/bin/view/Service-Management/IT-Service-Management/BMC-Helix-ITSM-Service-Desk/servicedesk262/Managing-incident-requests/Resolving-incident-requests/Resolving-tickets-with-the-help-of-Ask-HelixGPT/" target="_blank" rel="noopener noreferrer nofollow">https://docs.bmc.com/xwiki/bin/view/Service-Management/IT-Service-Management/BMC-Helix-ITSM-Service-Desk/servicedesk262/Managing-incident-requests/Resolving-incident-requests/Resolving-tickets-with-the-help-of-Ask-HelixGPT/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BMC DocumentationMay 5, 2026...</p></details>
+   Link:<a href="https://docs.bmc.com/xwiki/bin/view/Service-Management/IT-Service-Management/BMC-Helix-ITSM-Service-Desk/servicedesk262/Managing-incident-requests/Resolving-incident-requests/Resolving-tickets-with-the-help-of-Ask-HelixGPT/" target="_blank" rel="noopener noreferrer nofollow">https://docs.bmc.com/xwiki/bin/view/Service-Management/IT-Service-Management/BMC-Helix-ITSM-Service-Desk/servicedesk262/Managing-incident-requests/Resolving-incident-requests/Resolving-tickets-with-the-help-of-Ask-HelixGPT/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BMC DocumentationMay 5, 2026...</p></details>
    Published: May 5, 2026  

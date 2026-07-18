@@ -275,7 +275,7 @@ image: /assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03
 
 ## Introduction
 
-In AI-enabled customer service, the handoff from [automation]({{ 'automation-bias/' | relative_url }}) to a human specialist is often the moment that determines whether the customer experience feels efficient or frustrating. A chatbot that answers routine questions well can still create dissatisfaction if, during escalation, the customer has to repeat their problem, re-enter account details, or explain failed troubleshooting steps for a second time. Industry guidance consistently identifies context preservation as the defining characteristic of a successful handoff: the conversation, customer history, authentication status, and actions already attempted should move with the case rather than being lost at transfer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
+In AI-enabled customer service, the handoff from [automation]({{ 'automation-bias/' | relative_url }}) to a human specialist is often the moment that determines whether the customer experience feels efficient or frustrating. A chatbot that answers routine questions well can still create dissatisfaction if, during escalation, the customer has to repeat their problem, re-enter account details, or explain failed troubleshooting steps for a second time. Industry guidance consistently identifies context preservation as the defining characteristic of a successful handoff: the conversation, customer history, authentication status, and actions already attempted should move with the case rather than being lost at transfer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b_context_prese_a561b8-Illustration-1-dark.svg" | relative_url }}" alt="AI handoffs illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b_context_prese_a561b8-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b_context_prese_a561b8-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -285,9 +285,9 @@ Within redesigned customer-service workflows, AI handoffs are therefore not mere
 
 Many organisations evaluate AI support systems based on containment rates or the number of enquiries resolved without human involvement. Customers, however, often judge the experience differently. They care whether their issue is resolved with minimal effort.
 
-A common failure pattern occurs when the AI gathers information, identifies the problem and perhaps even performs preliminary diagnostics, only for the human agent to begin the interaction with questions that have already been answered. This creates the impression that the organisation's systems are disconnected and that the customer's time has been wasted. Industry analyses repeatedly describe this loss of continuity as one of the main reasons escalated conversations receive lower satisfaction scores than either successful self-service interactions or human-only support experiences. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.brainfishai.com/blog/the-dead-end-handoff-why-most-ai-support-tools-still-drop-the-customer" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: brainfishai.com">[Brainfish]</a><span class="citation-popover" role="note"><span class="citation-popover-source">brainfishai.com</span><span class="citation-popover-snippet">BrainfishThe Dead-End Handoff: Why Most AI Support Tools Still Drop the Customer &#124; BrainfishMay 18, 2026...</span><span class="citation-popover-meta">Published: May 18, 2026</span></span></span>
+A common failure pattern occurs when the AI gathers information, identifies the problem and perhaps even performs preliminary diagnostics, only for the human agent to begin the interaction with questions that have already been answered. This creates the impression that the organisation's systems are disconnected and that the customer's time has been wasted. Industry analyses repeatedly describe this loss of continuity as one of the main reasons escalated conversations receive lower satisfaction scores than either successful self-service interactions or human-only support experiences.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.brainfishai.com/blog/the-dead-end-handoff-why-most-ai-support-tools-still-drop-the-customer" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: brainfishai.com">[Brainfish]</a><span class="citation-popover" role="note"><span class="citation-popover-source">brainfishai.com</span><span class="citation-popover-snippet">BrainfishThe Dead-End Handoff: Why Most AI Support Tools Still Drop the Customer &#124; BrainfishMay 18, 2026...</span><span class="citation-popover-meta">Published: May 18, 2026</span></span></span>
 
-The handoff becomes especially important because AI is typically deployed to manage routine work while humans handle exceptions. By definition, escalated cases are often more complex, more valuable, or more emotionally sensitive than average interactions. Losing context at precisely this point amplifies frustration and increases resolution costs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
+The handoff becomes especially important because AI is typically deployed to manage routine work while humans handle exceptions. By definition, escalated cases are often more complex, more valuable, or more emotionally sensitive than average interactions. Losing context at precisely this point amplifies frustration and increases resolution costs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
 
 ## What context must survive escalation
 
@@ -300,11 +300,11 @@ The most important elements include:
 * **Authentication status**: whether identity [verification]({{ 'verification-cost/' | relative_url }}) has already occurred.
 * **Issue classification**: the AI's assessment of the problem category and urgency.
 * **Actions already attempted**: troubleshooting steps, searches, refunds, account checks or workflow actions already performed.
-* **[Confidence]({{ 'confidence/' | relative_url }}) and uncertainty indicators**: why the AI chose to escalate and where ambiguity remains. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy+2Brainfish]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
+* **[Confidence]({{ 'confidence/' | relative_url }}) and uncertainty indicators**: why the AI chose to escalate and where ambiguity remains.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy+2Brainfish]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
 
-The distinction between raw conversation logs and structured context matters. A human agent may not have time to read dozens of messages before responding. Effective systems therefore provide both the full interaction history and a concise summary that identifies the customer's goal, current status and unresolved issues. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.brainfishai.com/blog/the-dead-end-handoff-why-most-ai-support-tools-still-drop-the-customer" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: brainfishai.com">[Brainfish]</a><span class="citation-popover" role="note"><span class="citation-popover-source">brainfishai.com</span><span class="citation-popover-snippet">BrainfishThe Dead-End Handoff: Why Most AI Support Tools Still Drop the Customer &#124; BrainfishMay 18, 2026...</span><span class="citation-popover-meta">Published: May 18, 2026</span></span></span>
+The distinction between raw conversation logs and structured context matters. A human agent may not have time to read dozens of messages before responding. Effective systems therefore provide both the full interaction history and a concise summary that identifies the customer's goal, current status and unresolved issues.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.brainfishai.com/blog/the-dead-end-handoff-why-most-ai-support-tools-still-drop-the-customer" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: brainfishai.com">[Brainfish]</a><span class="citation-popover" role="note"><span class="citation-popover-source">brainfishai.com</span><span class="citation-popover-snippet">BrainfishThe Dead-End Handoff: Why Most AI Support Tools Still Drop the Customer &#124; BrainfishMay 18, 2026...</span><span class="citation-popover-meta">Published: May 18, 2026</span></span></span>
 
-Another important requirement is preserving workflow state. If a customer has already completed identity verification, uploaded documents or followed diagnostic instructions, the next agent should inherit that status. Repeating procedural steps creates unnecessary effort and lengthens handling times. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buzzi.ai/insights/ai-agent-customer-support-context-continuity" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buzzi.ai">[Buzzi.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buzzi.ai</span><span class="citation-popover-title">A I Agent for Customer Support: Context Continuity Guide</span><span class="citation-popover-snippet">A I Agent for Customer Support: Context Continuity Guide</span></span></span>
+Another important requirement is preserving workflow state. If a customer has already completed identity verification, uploaded documents or followed diagnostic instructions, the next agent should inherit that status. Repeating procedural steps creates unnecessary effort and lengthens handling times.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buzzi.ai/insights/ai-agent-customer-support-context-continuity" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buzzi.ai">[Buzzi.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buzzi.ai</span><span class="citation-popover-title">A I Agent for Customer Support: Context Continuity Guide</span><span class="citation-popover-snippet">A I Agent for Customer Support: Context Continuity Guide</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/O7GaLBOiH-c" title="Episode 07: Transfer Conversation From AI Agent To Live Human Agent | Salesforce Agentforce" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=O7GaLBOiH-c" target="_blank" rel="noopener noreferrer">Episode 07: Transfer Conversation From AI Agent To Live Human Agent | Salesforce Agentforce</a></p><p class="youtube-embed-meta">Channel: Salesforce Codey</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=O7GaLBOiH-c" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=O7GaLBOiH-c">Open on YouTube</a></p></div></div></div>
@@ -324,15 +324,15 @@ Common handoff triggers include:
 * Billing disputes, cancellations or account closures.
 * Signs of frustration or emotional distress.
 * Requests requiring judgement rather than rule-based responses.
-* Repeated unsuccessful attempts to solve the same issue. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy+2TechTarget]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
+* Repeated unsuccessful attempts to solve the same issue.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy+2TechTarget]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
 
 </div>
 
 The challenge is balancing automation efficiency against customer effort. Escalating too early can increase costs and reduce the value of automation. Escalating too late can damage trust.
 
-Research and practitioner guidance increasingly favour confidence-based escalation models, where AI systems recognise uncertainty and transfer responsibility before the interaction deteriorates. The goal is not to maximise AI participation but to maximise successful resolution. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techtarget.com/searchcustomerexperience/tip/Best-practices-for-initiating-chatbot-to-human-handoff" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techtarget.com">[TechTarget]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techtarget.com</span><span class="citation-popover-title">Tech Target Best practices for initiating chatbot-to-human handoff &#124; Tech Target</span><span class="citation-popover-snippet">Tech Target Best practices for initiating chatbot-to-human handoff &#124; Tech Target</span></span></span>
+Research and practitioner guidance increasingly favour confidence-based escalation models, where AI systems recognise uncertainty and transfer responsibility before the interaction deteriorates. The goal is not to maximise AI participation but to maximise successful resolution.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techtarget.com/searchcustomerexperience/tip/Best-practices-for-initiating-chatbot-to-human-handoff" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techtarget.com">[TechTarget]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techtarget.com</span><span class="citation-popover-title">Tech Target Best practices for initiating chatbot-to-human handoff &#124; Tech Target</span><span class="citation-popover-snippet">Tech Target Best practices for initiating chatbot-to-human handoff &#124; Tech Target</span></span></span>
 
-A useful principle is that customers should never have to argue for escalation. When users repeatedly request a human representative, continued automation often becomes a customer-experience problem rather than a technical one. Recent reporting on consumer experiences with AI service systems highlights how customers frequently seek human intervention when the issue involves risk, billing concerns or unusual circumstances. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tomsguide.com/ai/the-5-fastest-ways-to-get-past-ai-customer-service-chatbots-heres-what-actually-worked-at-amazon-optimum-walmart-at-and-t-and-more" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tomsguide.com">[Tom&#x27;s Guide]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tomsguide.com</span><span class="citation-popover-title">Tom&#x27;s Guide The 5 fastest ways to get past AI customer service chatbots</span><span class="citation-popover-snippet">As AI-powered systems become more common—and often more frustrating—five key methods stood out: 1. **Use Trigger Words**: Saying &quot;agent,&quot;...</span></span></span>
+A useful principle is that customers should never have to argue for escalation. When users repeatedly request a human representative, continued automation often becomes a customer-experience problem rather than a technical one. Recent reporting on consumer experiences with AI service systems highlights how customers frequently seek human intervention when the issue involves risk, billing concerns or unusual circumstances.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tomsguide.com/ai/the-5-fastest-ways-to-get-past-ai-customer-service-chatbots-heres-what-actually-worked-at-amazon-optimum-walmart-at-and-t-and-more" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tomsguide.com">[Tom&#x27;s Guide]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tomsguide.com</span><span class="citation-popover-title">Tom&#x27;s Guide The 5 fastest ways to get past AI customer service chatbots</span><span class="citation-popover-snippet">As AI-powered systems become more common—and often more frustrating—five key methods stood out: 1. **Use Trigger Words**: Saying &quot;agent,&quot;...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b_context_prese_a561b8-Illustration-2-dark.svg" | relative_url }}" alt="AI handoffs illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b_context_prese_a561b8-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b_context_prese_a561b8-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -340,7 +340,7 @@ A useful principle is that customers should never have to argue for escalation. 
 
 The operational cost of a failed handoff extends beyond customer irritation.
 
-When context is lost, human agents must reconstruct the case. They re-collect information, repeat diagnostic steps and re-establish customer identity. This creates duplicate effort for both parties and increases average handling time. Several industry assessments estimate that repeat-information friction can add significant time to escalated interactions while reducing customer satisfaction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.usefini.com/guides/ai-support-platforms-context-handoff-human-agents" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: usefini.com">[Fini AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">usefini.com</span><span class="citation-popover-title">Fini AIAI Support Platforms That Pass Context to Human Agents</span><span class="citation-popover-snippet">Fini AIAI Support Platforms That Pass Context to Human Agents</span></span></span>
+When context is lost, human agents must reconstruct the case. They re-collect information, repeat diagnostic steps and re-establish customer identity. This creates duplicate effort for both parties and increases average handling time. Several industry assessments estimate that repeat-information friction can add significant time to escalated interactions while reducing customer satisfaction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.usefini.com/guides/ai-support-platforms-context-handoff-human-agents" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: usefini.com">[Fini AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">usefini.com</span><span class="citation-popover-title">Fini AIAI Support Platforms That Pass Context to Human Agents</span><span class="citation-popover-snippet">Fini AIAI Support Platforms That Pass Context to Human Agents</span></span></span>
 
 The impact often appears in measurable outcomes:
 
@@ -351,13 +351,13 @@ The impact often appears in measurable outcomes:
 * Lower customer-satisfaction scores.
 * Higher repeat-contact rates.
 * Increased agent workload.
-* Reduced trust in self-service channels. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buildmvpfast.com">[BuildMVPFast]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buildmvpfast.com</span><span class="citation-popover-title">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span><span class="citation-popover-snippet">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span></span></span>
+* Reduced trust in self-service channels.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buildmvpfast.com">[BuildMVPFast]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buildmvpfast.com</span><span class="citation-popover-title">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span><span class="citation-popover-snippet">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span></span></span>
 
 </div>
 
-Support practitioners increasingly describe a specific failure mode: the AI successfully gathers valuable information, but the information never reaches the human agent in a usable form. In that situation, the organisation gains little from the AI's work because the process effectively restarts after escalation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/AI_Agents/comments/1te5z5x/your_ai_agent_says_transferring_you_to_a_human/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">Your AI agent says &quot;transferring you to a human&quot; and then... nothing happens. Here&#x27;s the pattern that actually fixes this.May 15, 2026...</span><span class="citation-popover-meta">Published: May 15, 2026</span></span></span>
+Support practitioners increasingly describe a specific failure mode: the AI successfully gathers valuable information, but the information never reaches the human agent in a usable form. In that situation, the organisation gains little from the AI's work because the process effectively restarts after escalation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/AI_Agents/comments/1te5z5x/your_ai_agent_says_transferring_you_to_a_human/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">Your AI agent says &quot;transferring you to a human&quot; and then... nothing happens. Here&#x27;s the pattern that actually fixes this.May 15, 2026...</span><span class="citation-popover-meta">Published: May 15, 2026</span></span></span>
 
-This explains why organisations focused solely on chatbot performance can miss larger workflow problems. A chatbot may answer accurately while still generating poor outcomes if escalation pathways are weak. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-title">AI-first contact centers are not chatbot projects. They are workflow projects</span><span class="citation-popover-snippet">AI-first contact centers are not chatbot projects. They are workflow projects.June 9, 2026...</span><span class="citation-popover-meta">Published: June 9, 2026</span></span></span>
+This explains why organisations focused solely on chatbot performance can miss larger workflow problems. A chatbot may answer accurately while still generating poor outcomes if escalation pathways are weak.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-title">AI-first contact centers are not chatbot projects. They are workflow projects</span><span class="citation-popover-snippet">AI-first contact centers are not chatbot projects. They are workflow projects.June 9, 2026...</span><span class="citation-popover-meta">Published: June 9, 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/e3s3vnmj_10" title="How do you hand off from AI to a human without losing the customer? | Assembled" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=e3s3vnmj_10" target="_blank" rel="noopener noreferrer">How do you hand off from AI to a human without losing the customer? | Assembled</a></p><p class="youtube-embed-meta">Channel: Assembled</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=e3s3vnmj_10" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=e3s3vnmj_10">Open on YouTube</a></p></div></div></div>
@@ -368,9 +368,9 @@ A useful implementation distinction is the difference between a cold transfer an
 
 In a cold transfer, the customer is moved to another queue or channel with little context carried forward. The human agent often starts from scratch.
 
-In a warm handoff, the specialist receives the conversation history, issue summary and customer details before engaging with the customer. Ideally, the first human response demonstrates awareness of the problem immediately. For example, instead of asking what the issue is, the specialist acknowledges the order, account or service problem already discussed with the AI. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buildmvpfast.com">[BuildMVPFast]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buildmvpfast.com</span><span class="citation-popover-title">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span><span class="citation-popover-snippet">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span></span></span>
+In a warm handoff, the specialist receives the conversation history, issue summary and customer details before engaging with the customer. Ideally, the first human response demonstrates awareness of the problem immediately. For example, instead of asking what the issue is, the specialist acknowledges the order, account or service problem already discussed with the AI.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buildmvpfast.com">[BuildMVPFast]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buildmvpfast.com</span><span class="citation-popover-title">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span><span class="citation-popover-snippet">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span></span></span>
 
-The best implementations also preserve continuity across channels. A customer who begins in chat and later speaks by phone should not experience the interaction as two unrelated cases. Omnichannel support strategies increasingly emphasise maintaining a single customer context regardless of communication channel. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/info/omnichannel-support-and-escalation-tools/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEOmnichannel support and escalation tools &#124; Ni CE</span><span class="citation-popover-snippet">Ni CEOmnichannel support and escalation tools &#124; Ni CE</span></span></span>
+The best implementations also preserve continuity across channels. A customer who begins in chat and later speaks by phone should not experience the interaction as two unrelated cases. Omnichannel support strategies increasingly emphasise maintaining a single customer context regardless of communication channel.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/info/omnichannel-support-and-escalation-tools/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEOmnichannel support and escalation tools &#124; Ni CE</span><span class="citation-popover-snippet">Ni CEOmnichannel support and escalation tools &#124; Ni CE</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/vszgR8dnYL0" title="Voice AI Agent with Context-Aware Warm Transfer to Human Agent | Integrated with Genesys" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=vszgR8dnYL0" target="_blank" rel="noopener noreferrer">Voice AI Agent with Context-Aware Warm Transfer to Human Agent | Integrated with Genesys</a></p><p class="youtube-embed-meta">Channel: Floatbot</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=vszgR8dnYL0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=vszgR8dnYL0">Open on YouTube</a></p></div></div></div>
@@ -388,11 +388,11 @@ Useful indicators include:
 * Time between escalation and first human response.
 * Customer satisfaction after escalation.
 * Repeat-contact rates for escalated cases.
-* Resolution rates for AI-assisted versus non-assisted escalations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buildmvpfast.com">[BuildMVPFast]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buildmvpfast.com</span><span class="citation-popover-title">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span><span class="citation-popover-snippet">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span></span></span>
+* Resolution rates for AI-assisted versus non-assisted escalations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buildmvpfast.com">[BuildMVPFast]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buildmvpfast.com</span><span class="citation-popover-title">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span><span class="citation-popover-snippet">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span></span></span>
 
 </div>
 
-One particularly revealing measure is context redundancy: how often human agents ask questions that the AI already asked and answered. High redundancy suggests that context is being captured but not effectively transferred. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buildmvpfast.com">[BuildMVPFast]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buildmvpfast.com</span><span class="citation-popover-title">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span><span class="citation-popover-snippet">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span></span></span>
+One particularly revealing measure is context redundancy: how often human agents ask questions that the AI already asked and answered. High redundancy suggests that context is being captured but not effectively transferred.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: buildmvpfast.com">[BuildMVPFast]</a><span class="citation-popover" role="note"><span class="citation-popover-source">buildmvpfast.com</span><span class="citation-popover-title">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span><span class="citation-popover-snippet">Build MVPFast Agent Handoff Patterns &#124; AI to Human Escalation</span></span></span>
 
 For organisations redesigning customer-service workflows with AI, these metrics often provide a more realistic picture of success than chatbot accuracy alone.
 
@@ -402,197 +402,197 @@ For organisations redesigning customer-service workflows with AI, these metrics 
 
 Context-preserving handoffs illustrate a broader principle in [understanding]({{ 'understanding/' | relative_url }}) artificial intelligence: the value of AI depends not only on model capability but also on workflow design. Customer-support automation succeeds when AI and human specialists operate as parts of a continuous process rather than separate systems.
 
-The strongest implementations treat escalation as a continuation of the same conversation. The customer remains in one journey, the specialist inherits the necessary context, and the organisation benefits from both automation efficiency and human judgement. When that continuity is missing, even a technically capable AI system can make support feel slower, more repetitive and less helpful than before. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy+2Brainfish]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
+The strongest implementations treat escalation as a continuation of the same conversation. The customer remains in one journey, the specialist inherits the necessary context, and the organisation benefits from both automation efficiency and human judgement. When that continuity is missing, even a technically capable AI system can make support feel slower, more repetitive and less helpful than before.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cognigy.com">[Cognigy+2Brainfish]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cognigy.com</span><span class="citation-popover-title">What Is Agent Handover &#124; Ni CE Cognigy</span><span class="citation-popover-snippet">What Is Agent Handover &#124; NiCE Cognigy...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why AI handoffs often make or break support. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why AI handoffs often make or break support. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Helps readers understand how humans and AI should collaborate in workflows.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps readers understand how humans and AI should collaborate in workflows.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Effortless Experience on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9mzbBQ2wVdEC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Effortless Experience" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Effortless Experience">The Effortless Experience</a>
-        </h4>
-        <p class="fr-book-author">By Matthew Dixon, Nicholas Toman et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Effortless Experience on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9mzbBQ2wVdEC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Effortless Experience" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Effortless Experience">The Effortless Experience</a>
+</h4>
+<p class="fr-book-author">By Matthew Dixon, Nicholas Toman et al.</p>
         
-        <p class="fr-book-desc">Focuses on reducing customer effort, directly tied to smooth AI-to-human handoffs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on reducing customer effort, directly tied to smooth AI-to-human handoffs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Outside in on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=zBy2a9bMfXYC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Outside in" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Outside in">Outside in</a>
-        </h4>
-        <p class="fr-book-author">By Harley Manning, Kerry Bodine</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Outside in on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=zBy2a9bMfXYC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Outside in" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Outside in">Outside in</a>
+</h4>
+<p class="fr-book-author">By Harley Manning, Kerry Bodine</p>
         
-        <p class="fr-book-desc">Explains journey continuity and why broken transitions damage customer experience.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains journey continuity and why broken transitions damage customer experience.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Customer+Understanding+by+Annette+Franz&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Customer Understanding on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8UNPyQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Customer Understanding" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Customer+Understanding+by+Annette+Franz&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Customer Understanding">Customer Understanding</a>
-        </h4>
-        <p class="fr-book-author">By Annette Franz</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Customer+Understanding+by+Annette+Franz&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Customer Understanding on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8UNPyQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Customer Understanding" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Customer+Understanding+by+Annette+Franz&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Customer Understanding">Customer Understanding</a>
+</h4>
+<p class="fr-book-author">By Annette Franz</p>
         
-        <p class="fr-book-desc">Covers preserving context and understanding customer interactions across touchpoints.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Customer+Understanding+by+Annette+Franz&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers preserving context and understanding customer interactions across touchpoints.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Customer+Understanding+by+Annette+Franz&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Effortless+Experience&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Effortless Experience</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Outside+in&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Outside in</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Effortless+Experience&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Effortless Experience</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Outside+in&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Outside in</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Smart AI Voice Sticker Printer Box, Magic Thermal Sticker Maker with Display"><img src="{{ '/assets/images/marketplace-covers/0f94233a00dc5ea55553.jpg' | relative_url }}" alt="Listing image for Smart AI Voice Sticker Printer Box, Magic Thermal Sticker Maker with Display" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Smart AI Voice Sticker Printer Box, Magic Thermal Sticker Maker with Display</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Smart AI Voice Sticker Printer Box, Magic Thermal Sticker Maker with Display"><img src="{{ '/assets/images/marketplace-covers/0f94233a00dc5ea55553.jpg' | relative_url }}" alt="Listing image for Smart AI Voice Sticker Printer Box, Magic Thermal Sticker Maker with Display" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Smart AI Voice Sticker Printer Box, Magic Thermal Sticker Maker with Display</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Sticker Printer Box With Fun Print APP For Work And Learning"><img src="{{ '/assets/images/marketplace-covers/3dcd8bcfc5f647d71caf.jpg' | relative_url }}" alt="Listing image for AI Sticker Printer Box With Fun Print APP For Work And Learning" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">AI Sticker Printer Box With Fun Print APP For Work And Learning</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Sticker Printer Box With Fun Print APP For Work And Learning"><img src="{{ '/assets/images/marketplace-covers/3dcd8bcfc5f647d71caf.jpg' | relative_url }}" alt="Listing image for AI Sticker Printer Box With Fun Print APP For Work And Learning" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">AI Sticker Printer Box With Fun Print APP For Work And Learning</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ai Sticker Do 21, Writing Pad, Heisei Retro"><img src="{{ '/assets/images/marketplace-covers/939f373609913f166b6a.jpg' | relative_url }}" alt="Listing image for Ai Sticker Do 21, Writing Pad, Heisei Retro" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Ai Sticker Do 21, Writing Pad, Heisei Retro</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ai Sticker Do 21, Writing Pad, Heisei Retro"><img src="{{ '/assets/images/marketplace-covers/939f373609913f166b6a.jpg' | relative_url }}" alt="Listing image for Ai Sticker Do 21, Writing Pad, Heisei Retro" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Ai Sticker Do 21, Writing Pad, Heisei Retro</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing"><img src="{{ '/assets/images/marketplace-covers/c7141b476292ac65a7a0.jpg' | relative_url }}" alt="Listing image for Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing"><img src="{{ '/assets/images/marketplace-covers/c7141b476292ac65a7a0.jpg' | relative_url }}" alt="Listing image for Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-handoffs-why-ai-handoffs-often-make-or-break-support-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -608,7 +608,7 @@ The strongest implementations treat escalation as a continuation of the same con
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -628,7 +628,7 @@ The strongest implementations treat escalation as a continuation of the same con
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -660,7 +660,7 @@ The strongest implementations treat escalation as a continuation of the same con
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -712,7 +712,7 @@ The strongest implementations treat escalation as a continuation of the same con
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -757,7 +757,7 @@ The strongest implementations treat escalation as a continuation of the same con
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -798,126 +798,126 @@ The strongest implementations treat escalation as a continuation of the same con
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: cognigy.com  
    Title: What Is Agent Handover | Ni CE Cognigy  
-   Link: <a href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow">https://www.cognigy.com/glossary/what-is-agent-handover</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What Is Agent Handover | NiCE Cognigy...</p></details>
+   Link:<a href="https://www.cognigy.com/glossary/what-is-agent-handover" target="_blank" rel="noopener noreferrer nofollow">https://www.cognigy.com/glossary/what-is-agent-handover</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What Is Agent Handover | NiCE Cognigy...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: buzzi.ai  
    Title: A I Agent for Customer Support: Context Continuity Guide  
-   Link: <a href="https://www.buzzi.ai/insights/ai-agent-customer-support-context-continuity" target="_blank" rel="noopener noreferrer nofollow">https://www.buzzi.ai/insights/ai-agent-customer-support-context-continuity</a>  
+   Link:<a href="https://www.buzzi.ai/insights/ai-agent-customer-support-context-continuity" target="_blank" rel="noopener noreferrer nofollow">https://www.buzzi.ai/insights/ai-agent-customer-support-context-continuity</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: buildmvpfast.com  
    Title: Build MVPFast Agent Handoff Patterns | AI to Human Escalation  
-   Link: <a href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow">https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026</a>  
+   Link:<a href="https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026" target="_blank" rel="noopener noreferrer nofollow">https://www.buildmvpfast.com/blog/agent-handoff-patterns-ai-human-escalation-confidence-threshold-2026</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: techtarget.com  
    Title: Tech Target Best practices for initiating chatbot-to-human handoff | Tech Target  
-   Link: <a href="https://www.techtarget.com/searchcustomerexperience/tip/Best-practices-for-initiating-chatbot-to-human-handoff" target="_blank" rel="noopener noreferrer nofollow">https://www.techtarget.com/searchcustomerexperience/tip/Best-practices-for-initiating-chatbot-to-human-handoff</a>  
+   Link:<a href="https://www.techtarget.com/searchcustomerexperience/tip/Best-practices-for-initiating-chatbot-to-human-handoff" target="_blank" rel="noopener noreferrer nofollow">https://www.techtarget.com/searchcustomerexperience/tip/Best-practices-for-initiating-chatbot-to-human-handoff</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/AI_Agents/comments/1te5z5x/your_ai_agent_says_transferring_you_to_a_human/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/AI_Agents/comments/1te5z5x/your_ai_agent_says_transferring_you_to_a_human/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Your AI agent says &quot;transferring you to a human&quot; and then... nothing happens. Here&#x27;s the pattern that actually fixes this.May 15, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/AI_Agents/comments/1te5z5x/your_ai_agent_says_transferring_you_to_a_human/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/AI_Agents/comments/1te5z5x/your_ai_agent_says_transferring_you_to_a_human/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Your AI agent says &quot;transferring you to a human&quot; and then... nothing happens. Here&#x27;s the pattern that actually fixes this.May 15, 2026...</p></details>
    Published: May 15, 2026  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: reddit.com  
    Title: AI-first contact centers are not chatbot projects. They are workflow projects  
-   Link: <a href="https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-first contact centers are not chatbot projects. They are workflow projects.June 9, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-first contact centers are not chatbot projects. They are workflow projects.June 9, 2026...</p></details>
    Published: June 9, 2026  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: nice.com  
    Title: Ni CEOmnichannel support and escalation tools | Ni CE  
-   Link: <a href="https://www.nice.com/info/omnichannel-support-and-escalation-tools/" target="_blank" rel="noopener noreferrer nofollow">https://www.nice.com/info/omnichannel-support-and-escalation-tools/</a>  
+   Link:<a href="https://www.nice.com/info/omnichannel-support-and-escalation-tools/" target="_blank" rel="noopener noreferrer nofollow">https://www.nice.com/info/omnichannel-support-and-escalation-tools/</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/receptionists/comments/1so0c98/every_escalation_in_our_support_team_ends_with/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/receptionists/comments/1so0c98/every_escalation_in_our_support_team_ends_with/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>escalation in our support team ends with hold music. Which AI receptionist handles live handoffs properly?April 17, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/receptionists/comments/1so0c98/every_escalation_in_our_support_team_ends_with/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/receptionists/comments/1so0c98/every_escalation_in_our_support_team_ends_with/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>escalation in our support team ends with hold music. Which AI receptionist handles live handoffs properly?April 17, 2026...</p></details>
    Published: April 17, 2026  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: reddit.com  
    Title: www.reddit.com The quiet ways AI agents fail in real support conversations  
-   Link: <a href="https://www.reddit.com/r/customerexperience/comments/1r13xfx/the_quiet_ways_ai_agents_fail_in_real_support/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/customerexperience/comments/1r13xfx/the_quiet_ways_ai_agents_fail_in_real_support/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>quiet ways AI agents fail in real support conversationsFebruary 10, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/customerexperience/comments/1r13xfx/the_quiet_ways_ai_agents_fail_in_real_support/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/customerexperience/comments/1r13xfx/the_quiet_ways_ai_agents_fail_in_real_support/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>quiet ways AI agents fail in real support conversationsFebruary 10, 2026...</p></details>
    Published: February 10, 2026  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: nice.com  
    Title: www.nice.com Conversational AI for Customer Service | Ni CE  
-   Link: <a href="https://www.nice.com/conversational-ai-platform/conversational-ai-for-customer-service" target="_blank" rel="noopener noreferrer nofollow">https://www.nice.com/conversational-ai-platform/conversational-ai-for-customer-service</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI for Customer Service | NiCE...</p></details>
+   Link:<a href="https://www.nice.com/conversational-ai-platform/conversational-ai-for-customer-service" target="_blank" rel="noopener noreferrer nofollow">https://www.nice.com/conversational-ai-platform/conversational-ai-for-customer-service</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI for Customer Service | NiCE...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: brainfishai.com  
-   Link: <a href="https://www.brainfishai.com/blog/the-dead-end-handoff-why-most-ai-support-tools-still-drop-the-customer" target="_blank" rel="noopener noreferrer nofollow">https://www.brainfishai.com/blog/the-dead-end-handoff-why-most-ai-support-tools-still-drop-the-customer</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BrainfishThe Dead-End Handoff: Why Most AI Support Tools Still Drop the Customer | BrainfishMay 18, 2026...</p></details>
+   Link:<a href="https://www.brainfishai.com/blog/the-dead-end-handoff-why-most-ai-support-tools-still-drop-the-customer" target="_blank" rel="noopener noreferrer nofollow">https://www.brainfishai.com/blog/the-dead-end-handoff-why-most-ai-support-tools-still-drop-the-customer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BrainfishThe Dead-End Handoff: Why Most AI Support Tools Still Drop the Customer | BrainfishMay 18, 2026...</p></details>
    Published: May 18, 2026  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: usefini.com  
    Title: Fini AIAI Support Platforms That Pass Context to Human Agents  
-   Link: <a href="https://www.usefini.com/guides/ai-support-platforms-context-handoff-human-agents" target="_blank" rel="noopener noreferrer nofollow">https://www.usefini.com/guides/ai-support-platforms-context-handoff-human-agents</a>  
+   Link:<a href="https://www.usefini.com/guides/ai-support-platforms-context-handoff-human-agents" target="_blank" rel="noopener noreferrer nofollow">https://www.usefini.com/guides/ai-support-platforms-context-handoff-human-agents</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: tomsguide.com  
    Title: Tom's Guide The 5 fastest ways to get past [AI customer](&#123;&#123; 'service-ai/' | relative_url &#125;&#125;) service chatbots  
-   Link: <a href="https://www.tomsguide.com/ai/the-5-fastest-ways-to-get-past-ai-customer-service-chatbots-heres-what-actually-worked-at-amazon-optimum-walmart-at-and-t-and-more" target="_blank" rel="noopener noreferrer nofollow">https://www.tomsguide.com/ai/the-5-fastest-ways-to-get-past-ai-customer-service-chatbots-heres-what-actually-worked-at-amazon-optimum-walmart-at-and-t-and-more</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>As AI-powered systems become more common—and often more frustrating—five key methods stood out: 1. **Use Trigger Words**: Saying &quot;agent,&quot;...</p></details>
+   Link:<a href="https://www.tomsguide.com/ai/the-5-fastest-ways-to-get-past-ai-customer-service-chatbots-heres-what-actually-worked-at-amazon-optimum-walmart-at-and-t-and-more" target="_blank" rel="noopener noreferrer nofollow">https://www.tomsguide.com/ai/the-5-fastest-ways-to-get-past-ai-customer-service-chatbots-heres-what-actually-worked-at-amazon-optimum-walmart-at-and-t-and-more</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>As AI-powered systems become more common—and often more frustrating—five key methods stood out: 1. **Use Trigger Words**: Saying &quot;agent,&quot;...</p></details>
 
 ### Additional References
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: meetkya.com  
-   Link: <a href="https://www.meetkya.com/learn/chatbot-handoff-to-human-best-practices" target="_blank" rel="noopener noreferrer nofollow">https://www.meetkya.com/learn/chatbot-handoff-to-human-best-practices</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>www.meetkya.comChatbot-to-Human Handoff: Best Practices for Seamless Transitions | Kya Learn | KyaNovember 12, 2025...</p></details>
+   Link:<a href="https://www.meetkya.com/learn/chatbot-handoff-to-human-best-practices" target="_blank" rel="noopener noreferrer nofollow">https://www.meetkya.com/learn/chatbot-handoff-to-human-best-practices</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>www.meetkya.comChatbot-to-Human Handoff: Best Practices for Seamless Transitions | Kya Learn | KyaNovember 12, 2025...</p></details>
    Published: November 12, 2025  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: corebee.ai  
    Title: What Is Human Handoff? Definition, Examples & Best Practices | Corebee | Corebee  
-   Link: <a href="https://corebee.ai/learn/human-handoff" target="_blank" rel="noopener noreferrer nofollow">https://corebee.ai/learn/human-handoff</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What Is Human Handoff? Definition, Examples &amp; Best Practices | Corebee | Corebee...</p></details>
+   Link:<a href="https://corebee.ai/learn/human-handoff" target="_blank" rel="noopener noreferrer nofollow">https://corebee.ai/learn/human-handoff</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What Is Human Handoff? Definition, Examples &amp; Best Practices | Corebee | Corebee...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
-   Link: <a href="http://www.youtube.com/watch?v=vszgR8dnYL0" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=vszgR8dnYL0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How do you hand off from AI to a human without losing the customer? | Assembled...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=vszgR8dnYL0" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=vszgR8dnYL0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How do you hand off from AI to a human without losing the customer? | Assembled...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
    Title: How do you hand off from AI to a human without losing the customer? | Assembled  
-   Link: <a href="http://www.youtube.com/watch?v=e3s3vnmj_10" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=e3s3vnmj_10</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Episode 07: Transfer Conversation From AI Agent To Live Human Agent | Salesforce Agentforce...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=e3s3vnmj_10" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=e3s3vnmj_10</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Episode 07: Transfer Conversation From AI Agent To Live Human Agent | Salesforce Agentforce...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
    Title: Memory for agents (conceptual video)  
-   Link: <a href="http://www.youtube.com/watch?v=JTL0yp85FsE" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=JTL0yp85FsE</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI chatbot human agent handover customer support context preservation What Does It Take to Build an AI Customer Support Chatbot? | ZONE30...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=JTL0yp85FsE" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=JTL0yp85FsE</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI chatbot human agent handover customer support context preservation What Does It Take to Build an AI Customer Support Chatbot? | ZONE30...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: digitalapplied.com  
    Title: ai customer support anti patterns deflection mistakes 2026  
-   Link: <a href="https://www.digitalapplied.com/blog/ai-customer-support-anti-patterns-deflection-mistakes-2026" target="_blank" rel="noopener noreferrer nofollow">https://www.digitalapplied.com/blog/ai-customer-support-anti-patterns-deflection-mistakes-2026</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Customer Support Anti-Patterns: Deflection Mistakes 2026May 6, 2026...</p></details>
+   Link:<a href="https://www.digitalapplied.com/blog/ai-customer-support-anti-patterns-deflection-mistakes-2026" target="_blank" rel="noopener noreferrer nofollow">https://www.digitalapplied.com/blog/ai-customer-support-anti-patterns-deflection-mistakes-2026</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Customer Support Anti-Patterns: Deflection Mistakes 2026May 6, 2026...</p></details>
    Published: May 6, 2026  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: youtube.com  
    Title: Understanding multi-agent handoffs  
-   Link: <a href="http://www.youtube.com/watch?v=WTr6mHTw5cM" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=WTr6mHTw5cM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Voice AI Agent with Context-Aware Warm Transfer to Human Agent | Integrated with Genesys...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=WTr6mHTw5cM" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=WTr6mHTw5cM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Voice AI Agent with Context-Aware Warm Transfer to Human Agent | Integrated with Genesys...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: youtube.com  
-   Link: <a href="http://www.youtube.com/watch?v=O7GaLBOiH-c" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=O7GaLBOiH-c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Memory for agents (conceptual video)...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=O7GaLBOiH-c" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=O7GaLBOiH-c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Memory for agents (conceptual video)...</p></details>

@@ -273,7 +273,7 @@ Artificial intelligence can produce medical summaries that sound clear, balanced
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_medical_contr_88c6d5-Illustration-1-dark.svg" | relative_url }}" alt="Medical Caveats illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_medical_contr_88c6d5-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_medical_contr_88c6d5-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This problem sits at the centre of a broader concern about AI over-compressing risk. Large [language models]({{ 'language-models/' | relative_url }}) are designed to condense information into concise answers. In doing so, they can preserve the main treatment pathway while dropping the exceptions that clinicians use to decide whether the pathway applies at all. Research has repeatedly found that AI systems tend to overgeneralise scientific and medical findings and may omit critical safety qualifications even when the overall answer appears accurate. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
+This problem sits at the centre of a broader concern about AI over-compressing risk. Large [language models]({{ 'language-models/' | relative_url }}) are designed to condense information into concise answers. In doing so, they can preserve the main treatment pathway while dropping the exceptions that clinicians use to decide whether the pathway applies at all. Research has repeatedly found that AI systems tend to overgeneralise scientific and medical findings and may omit critical safety qualifications even when the overall answer appears accurate.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
 
 ## When Medical AI Summaries Miss the Exception
 
@@ -295,7 +295,7 @@ A human clinician may mentally process questions such as:
 
 An AI summary often focuses on the average case because the average case is easier to compress into a short answer. The resulting recommendation can sound correct while failing to communicate the conditions under which it stops being correct.
 
-This is especially important because readers frequently interpret a concise answer as a complete answer. Researchers studying AI-generated summaries of scientific papers found that large language models were substantially more likely than human experts to overgeneralise findings, turning qualified conclusions into broader claims than the underlying evidence justified. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
+This is especially important because readers frequently interpret a concise answer as a complete answer. Researchers studying AI-generated summaries of scientific papers found that large language models were substantially more likely than human experts to overgeneralise findings, turning qualified conclusions into broader claims than the underlying evidence justified.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
 
 ## How Standard Pathways Become Overconfident Advice
 
@@ -323,7 +323,7 @@ The result is a subtle transformation:
 
 </div>
 
-Researchers have described a tendency for newer language models to produce authoritative answers rather than decline uncertain questions. This can make omissions harder to notice because the response sounds confident and complete even when important qualifications have been removed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
+Researchers have described a tendency for newer language models to produce authoritative answers rather than decline uncertain questions. This can make omissions harder to notice because the response sounds confident and complete even when important qualifications have been removed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
 
 The danger is not necessarily that the model invents a treatment. The danger is that it presents a treatment without preserving the conditions that make the treatment appropriate.
 
@@ -336,7 +336,7 @@ The danger is not necessarily that the model invents a treatment. The danger is 
 
 Pregnancy illustrates why contraindications matter.
 
-A medication considered routine for the general population may carry warnings, restrictions or additional considerations during pregnancy. A study evaluating ChatGPT's responses about over-the-counter medicines in pregnancy found generally high accuracy but also identified critical safety omissions, including failures to warn about known pregnancy-related risks in some cases. Researchers concluded that such omissions could create significant patient-safety concerns if users relied on the chatbot as a standalone source. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mdpi.com/2226-4787/13/4/104/html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mdpi.com">[MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mdpi.com</span><span class="citation-popover-snippet">Accuracy and Safety of ChatGPT-3.5 in Assessing Over-the-Counter Medication Use During Pregnancy: A Descriptive Comparative Study...</span></span></span>
+A medication considered routine for the general population may carry warnings, restrictions or additional considerations during pregnancy. A study evaluating ChatGPT's responses about over-the-counter medicines in pregnancy found generally high accuracy but also identified critical safety omissions, including failures to warn about known pregnancy-related risks in some cases. Researchers concluded that such omissions could create significant patient-safety concerns if users relied on the chatbot as a standalone source.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mdpi.com/2226-4787/13/4/104/html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mdpi.com">[MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mdpi.com</span><span class="citation-popover-snippet">Accuracy and Safety of ChatGPT-3.5 in Assessing Over-the-Counter Medication Use During Pregnancy: A Descriptive Comparative Study...</span></span></span>
 
 The problem is not unique to pregnancy. Similar issues arise with breastfeeding, fertility treatments and medicines that affect foetal development.
 
@@ -344,7 +344,7 @@ The problem is not unique to pregnancy. Similar issues arise with breastfeeding,
 
 Many medical risks emerge only when two or more medications are combined.
 
-A treatment summary that correctly describes a drug's intended effect may still be incomplete if it does not account for interactions with anticoagulants, antidepressants, heart medications or other therapies. Detecting clinically important drug–drug interactions remains an active area of research for [healthcare]({{ 'health-proxy/' | relative_url }}) AI systems, reflecting the complexity of preserving these relationships in [automated]({{ 'decisions/' | relative_url }}) outputs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://journals.sagepub.com/doi/10.1177/20420986251339358" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: journals.sagepub.com">[Sage Journals]</a><span class="citation-popover" role="note"><span class="citation-popover-source">journals.sagepub.com</span><span class="citation-popover-snippet">Justine Sicard, François Montastruc, Coline Achalme, Annie Pierre Jonville-Bera, Paul Songue, Marina Babin, Thomas Soeiro, Pauline Schiro...</span></span></span>
+A treatment summary that correctly describes a drug's intended effect may still be incomplete if it does not account for interactions with anticoagulants, antidepressants, heart medications or other therapies. Detecting clinically important drug–drug interactions remains an active area of research for [healthcare]({{ 'health-proxy/' | relative_url }}) AI systems, reflecting the complexity of preserving these relationships in [automated]({{ 'decisions/' | relative_url }}) outputs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://journals.sagepub.com/doi/10.1177/20420986251339358" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: journals.sagepub.com">[Sage Journals]</a><span class="citation-popover" role="note"><span class="citation-popover-source">journals.sagepub.com</span><span class="citation-popover-snippet">Justine Sicard, François Montastruc, Coline Achalme, Annie Pierre Jonville-Bera, Paul Songue, Marina Babin, Thomas Soeiro, Pauline Schiro...</span></span></span>
 
 A patient reading a short AI answer may see only the recommendation, not the interaction warning that would have changed the decision.
 
@@ -368,7 +368,7 @@ For example, a medication's safety may depend on:
 
 </div>
 
-Large language models have limited [understanding]({{ 'understanding/' | relative_url }}) of information that was never supplied to them. Even when relevant details are mentioned, healthcare reviews note that current systems can struggle to integrate subtle clinical context and appropriately weigh competing risk factors. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mdpi.com/3350980" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mdpi.com">[MDPI+2Springer Link]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mdpi.com</span><span class="citation-popover-snippet">Large Language Models in Healthcare and Medical Applications: A Review &#124; MDPIJune 10, 2025...</span><span class="citation-popover-meta">Published: June 10, 2025</span></span></span>
+Large language models have limited [understanding]({{ 'understanding/' | relative_url }}) of information that was never supplied to them. Even when relevant details are mentioned, healthcare reviews note that current systems can struggle to integrate subtle clinical context and appropriately weigh competing risk factors.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mdpi.com/3350980" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mdpi.com">[MDPI+2Springer Link]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mdpi.com</span><span class="citation-popover-snippet">Large Language Models in Healthcare and Medical Applications: A Review &#124; MDPIJune 10, 2025...</span><span class="citation-popover-meta">Published: June 10, 2025</span></span></span>
 
 The summary therefore reflects the information visible to the model, not necessarily the information that would matter to a clinician.
 
@@ -391,9 +391,9 @@ Consider two responses:
 
 The first contains an identifiable error. The second may appear flawless unless the reader already knows what is missing.
 
-This creates what some researchers describe as an illusion of reliability. Users may receive several accurate answers, build trust in the system, and then fail to recognise when a later response is incomplete in a medically significant way. The pregnancy-medication study specifically highlighted this risk, noting that omissions can become dangerous precisely because they occur within otherwise credible responses. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mdpi.com/2226-4787/13/4/104/html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mdpi.com">[MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mdpi.com</span><span class="citation-popover-snippet">Accuracy and Safety of ChatGPT-3.5 in Assessing Over-the-Counter Medication Use During Pregnancy: A Descriptive Comparative Study...</span></span></span>
+This creates what some researchers describe as an illusion of reliability. Users may receive several accurate answers, build trust in the system, and then fail to recognise when a later response is incomplete in a medically significant way. The pregnancy-medication study specifically highlighted this risk, noting that omissions can become dangerous precisely because they occur within otherwise credible responses.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mdpi.com/2226-4787/13/4/104/html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mdpi.com">[MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mdpi.com</span><span class="citation-popover-snippet">Accuracy and Safety of ChatGPT-3.5 in Assessing Over-the-Counter Medication Use During Pregnancy: A Descriptive Comparative Study...</span></span></span>
 
-Recent research on AI-generated clinical summaries has similarly found that omissions are often more common than outright fabrications. In physician-reviewed hospital summaries, omitted information appeared more frequently than hallucinated content. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848785" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: jamanetwork.com">[JAMA Network]</a><span class="citation-popover" role="note"><span class="citation-popover-source">jamanetwork.com</span><span class="citation-popover-snippet">JAMA NetworkPhysician-Reported Safety Outcomes of AI-Generated Hospital Course SummariesMay 8, 2026...</span><span class="citation-popover-meta">Published: May 8, 2026</span></span></span>
+Recent research on AI-generated clinical summaries has similarly found that omissions are often more common than outright fabrications. In physician-reviewed hospital summaries, omitted information appeared more frequently than hallucinated content.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848785" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: jamanetwork.com">[JAMA Network]</a><span class="citation-popover" role="note"><span class="citation-popover-source">jamanetwork.com</span><span class="citation-popover-snippet">JAMA NetworkPhysician-Reported Safety Outcomes of AI-Generated Hospital Course SummariesMay 8, 2026...</span><span class="citation-popover-meta">Published: May 8, 2026</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_medical_contr_88c6d5-Illustration-3-dark.svg" | relative_url }}" alt="Medical Caveats illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_medical_contr_88c6d5-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445_medical_contr_88c6d5-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -401,9 +401,9 @@ Recent research on AI-generated clinical summaries has similarly found that omis
 
 Many people assume that better-performing models automatically solve this issue. The evidence suggests the problem is more complicated.
 
-Modern systems are increasingly fluent, coherent and knowledgeable. Yet greater [fluency]({{ 'fluency-vs-accuracy/' | relative_url }}) can make missing caveats less visible. Researchers have found that newer models may produce more polished overgeneralisations rather than refusing uncertain requests. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
+Modern systems are increasingly fluent, coherent and knowledgeable. Yet greater [fluency]({{ 'fluency-vs-accuracy/' | relative_url }}) can make missing caveats less visible. Researchers have found that newer models may produce more polished overgeneralisations rather than refusing uncertain requests.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
 
-Another challenge is that healthcare conversations are highly sensitive to wording. Studies have shown that subtle changes in phrasing can alter model outputs, while misleading information presented in an authoritative medical style can sometimes be accepted more readily than casual misinformation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/business/healthcare-pharmaceuticals/medical-misinformation-more-likely-fool-ai-if-source-appears-legitimate-study-2026-02-09/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters+2Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">Medical misinformation more likely to fool AI if source appears legitimate, study shows</span><span class="citation-popover-snippet">Researchers tested 20 AI models with over 1 million user prompts, using three types of content: realistic hospital discharge notes with a...</span></span></span>
+Another challenge is that healthcare conversations are highly sensitive to wording. Studies have shown that subtle changes in phrasing can alter model outputs, while misleading information presented in an authoritative medical style can sometimes be accepted more readily than casual misinformation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/business/healthcare-pharmaceuticals/medical-misinformation-more-likely-fool-ai-if-source-appears-legitimate-study-2026-02-09/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters+2Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">Medical misinformation more likely to fool AI if source appears legitimate, study shows</span><span class="citation-popover-snippet">Researchers tested 20 AI models with over 1 million user prompts, using three types of content: realistic hospital discharge notes with a...</span></span></span>
 
 In practice, this means that a model may not merely miss a contraindication because it lacks knowledge. It may miss it because the prompt did not highlight the relevant risk factor, because the wording steered [attention]({{ 'attention/' | relative_url }}) elsewhere, or because the summary process compressed away information that seemed secondary but was clinically decisive.
 
@@ -431,194 +431,194 @@ The most important shift is conceptual: treat an AI medical summary as a compres
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When Medical AI Summaries Miss the Exception. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When Medical AI Summaries Miss the Exception. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Checklist+Manifesto+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Checklist Manifesto on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_AP2EAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Checklist Manifesto" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Checklist+Manifesto+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Checklist Manifesto">The Checklist Manifesto</a>
-        </h4>
-        <p class="fr-book-author">By Atul Gawande</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Checklist+Manifesto+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Checklist Manifesto on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_AP2EAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Checklist Manifesto" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Checklist+Manifesto+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Checklist Manifesto">The Checklist Manifesto</a>
+</h4>
+<p class="fr-book-author">By Atul Gawande</p>
         
-        <p class="fr-book-desc">Demonstrates why exceptions, overlooked details and safety checks matter in medical decisions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Checklist+Manifesto+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Demonstrates why exceptions, overlooked details and safety checks matter in medical decisions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Checklist+Manifesto+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Being+Mortal+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Being Mortal on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=jfFYBQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Being Mortal" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Being+Mortal+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Being Mortal">Being Mortal</a>
-        </h4>
-        <p class="fr-book-author">By Atul Gawande</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Being+Mortal+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Being Mortal on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=jfFYBQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Being Mortal" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Being+Mortal+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Being Mortal">Being Mortal</a>
+</h4>
+<p class="fr-book-author">By Atul Gawande</p>
         
-        <p class="fr-book-desc">Highlights the importance of individual patient circumstances rather than generic pathways.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Being+Mortal+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Highlights the importance of individual patient circumstances rather than generic pathways.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Being+Mortal+by+Atul+Gawande&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=How+Doctors+Think+by+Jerome+E.+Groopman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open How Doctors Think on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=hoNQPgAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for How Doctors Think" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=How+Doctors+Think+by+Jerome+E.+Groopman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="How Doctors Think">How Doctors Think</a>
-        </h4>
-        <p class="fr-book-author">By Jerome E. Groopman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=How+Doctors+Think+by+Jerome+E.+Groopman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open How Doctors Think on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=hoNQPgAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for How Doctors Think" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=How+Doctors+Think+by+Jerome+E.+Groopman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="How Doctors Think">How Doctors Think</a>
+</h4>
+<p class="fr-book-author">By Jerome E. Groopman</p>
         
-        <p class="fr-book-desc">Explores diagnostic reasoning, exceptions and sources of medical error.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=How+Doctors+Think+by+Jerome+E.+Groopman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores diagnostic reasoning, exceptions and sources of medical error.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=How+Doctors+Think+by+Jerome+E.+Groopman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Emperor+of+All+Maladies+by+Siddhartha+Mukherjee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Emperor of All Maladies on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=hgx0sJvphNkC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Emperor of All Maladies" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Emperor+of+All+Maladies+by+Siddhartha+Mukherjee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Emperor of All Maladies">The Emperor of All Maladies</a>
-        </h4>
-        <p class="fr-book-author">By Siddhartha Mukherjee</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Emperor+of+All+Maladies+by+Siddhartha+Mukherjee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Emperor of All Maladies on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=hgx0sJvphNkC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Emperor of All Maladies" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Emperor+of+All+Maladies+by+Siddhartha+Mukherjee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Emperor of All Maladies">The Emperor of All Maladies</a>
+</h4>
+<p class="fr-book-author">By Siddhartha Mukherjee</p>
         
-        <p class="fr-book-desc">Shows the complexity of evidence, treatment decisions and patient-specific factors.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Emperor+of+All+Maladies+by+Siddhartha+Mukherjee&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows the complexity of evidence, treatment decisions and patient-specific factors.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Emperor+of+All+Maladies+by+Siddhartha+Mukherjee&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Checklist+Manifesto&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Checklist Manifesto</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Being+Mortal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Being Mortal</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=How+Doctors+Think&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">How Doctors Think</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Checklist+Manifesto&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Checklist Manifesto</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Being+Mortal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Being Mortal</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=How+Doctors+Think&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">How Doctors Think</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="medical-caveats-when-medical-ai-summaries-miss-the-exception-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -634,7 +634,7 @@ The most important shift is conceptual: treat an AI medical summary as a compres
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -654,7 +654,7 @@ The most important shift is conceptual: treat an AI medical summary as a compres
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -686,7 +686,7 @@ The most important shift is conceptual: treat an AI medical summary as a compres
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -738,7 +738,7 @@ The most important shift is conceptual: treat an AI medical summary as a compres
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -783,7 +783,7 @@ The most important shift is conceptual: treat an AI medical summary as a compres
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -824,102 +824,102 @@ The most important shift is conceptual: treat an AI medical summary as a compres
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: mdpi.com  
-   Link: <a href="https://www.mdpi.com/2226-4787/13/4/104/html" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2226-4787/13/4/104/html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Accuracy and Safety of ChatGPT-3.5 in Assessing Over-the-Counter Medication Use During Pregnancy: A Descriptive Comparative Study...</p></details>
+   Link:<a href="https://www.mdpi.com/2226-4787/13/4/104/html" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2226-4787/13/4/104/html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Accuracy and Safety of ChatGPT-3.5 in Assessing Over-the-Counter Medication Use During Pregnancy: A Descriptive Comparative Study...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: mdpi.com  
-   Link: <a href="https://www.mdpi.com/3350980" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/3350980</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Models in Healthcare and Medical Applications: A Review | MDPIJune 10, 2025...</p></details>
+   Link:<a href="https://www.mdpi.com/3350980" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/3350980</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Models in Healthcare and Medical Applications: A Review | MDPIJune 10, 2025...</p></details>
    Published: June 10, 2025  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: link.springer.com  
-   Link: <a href="https://link.springer.com/article/10.1007/s10462-024-10921-0" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/article/10.1007/s10462-024-10921-0</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Springer LinkLarge language models in medical and healthcare fields: applications, advances, and challenges | Artificial Intelligence Rev...</p></details>
+   Link:<a href="https://link.springer.com/article/10.1007/s10462-024-10921-0" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/article/10.1007/s10462-024-10921-0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Springer LinkLarge language models in medical and healthcare fields: applications, advances, and challenges | Artificial Intelligence Rev...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: mdpi.com  
    Title: Large Language Models in Healthcare and Medical Applications: A Review  
-   Link: <a href="https://www.mdpi.com/2306-5354/12/6/631" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2306-5354/12/6/631</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Models in Healthcare and Medical Applications: A Review...</p></details>
+   Link:<a href="https://www.mdpi.com/2306-5354/12/6/631" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2306-5354/12/6/631</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Models in Healthcare and Medical Applications: A Review...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/[business" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/[business</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers tested 20 AI models with over 1 million user prompts, using three types of content: realistic hospital discharge notes with a...</p></details>
+   Link:<a href="https://www.reuters.com/[business" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/[business</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers tested 20 AI models with over 1 million user prompts, using three types of content: realistic hospital discharge notes with a...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: livescience.com  
-   Link: <a href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists | Live ScienceJuly 5, 2025...</p></details>
+   Link:<a href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists | Live ScienceJuly 5, 2025...</p></details>
    Published: July 5, 2025  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: journals.sagepub.com  
-   Link: <a href="https://journals.sagepub.com/doi/10.1177/20420986251339358" target="_blank" rel="noopener noreferrer nofollow">https://journals.sagepub.com/doi/10.1177/20420986251339358</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Justine Sicard, François Montastruc, Coline Achalme, Annie Pierre Jonville-Bera, Paul Songue, Marina Babin, Thomas Soeiro, Pauline Schiro...</p></details>
+   Link:<a href="https://journals.sagepub.com/doi/10.1177/20420986251339358" target="_blank" rel="noopener noreferrer nofollow">https://journals.sagepub.com/doi/10.1177/20420986251339358</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Justine Sicard, François Montastruc, Coline Achalme, Annie Pierre Jonville-Bera, Paul Songue, Marina Babin, Thomas Soeiro, Pauline Schiro...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: journals.sagepub.com  
-   Link: <a href="https://journals.sagepub.com/doi/abs/10.1177/20420986251339358" target="_blank" rel="noopener noreferrer nofollow">https://journals.sagepub.com/doi/abs/10.1177/20420986251339358</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Justine Sicard, François Montastruc, Coline Achalme, Annie Pierre Jonville-Bera, Paul Songue, Marina Babin, Thomas Soeiro, Pauline Schiro...</p></details>
+   Link:<a href="https://journals.sagepub.com/doi/abs/10.1177/20420986251339358" target="_blank" rel="noopener noreferrer nofollow">https://journals.sagepub.com/doi/abs/10.1177/20420986251339358</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Justine Sicard, François Montastruc, Coline Achalme, Annie Pierre Jonville-Bera, Paul Songue, Marina Babin, Thomas Soeiro, Pauline Schiro...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: jamanetwork.com  
-   Link: <a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848785" target="_blank" rel="noopener noreferrer nofollow">https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848785</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>JAMA NetworkPhysician-Reported Safety Outcomes of AI-Generated Hospital Course SummariesMay 8, 2026...</p></details>
+   Link:<a href="https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848785" target="_blank" rel="noopener noreferrer nofollow">https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2848785</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>JAMA NetworkPhysician-Reported Safety Outcomes of AI-Generated Hospital Course SummariesMay 8, 2026...</p></details>
    Published: May 8, 2026  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: livescience.com  
-   Link: <a href="https://www.livescience.com/health/rectal-garlic-insertion-for-immune-support-medical-chatbots-confidently-give-disastrously-misguided-advice-experts-say" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/health/rectal-garlic-insertion-for-immune-support-medical-chatbots-confidently-give-disastrously-misguided-advice-experts-say</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers found that large language models (LLMs) like ChatGPT and Gemini confidently provide incorrect health recommendations when pre...</p></details>
+   Link:<a href="https://www.livescience.com/health/rectal-garlic-insertion-for-immune-support-medical-chatbots-confidently-give-disastrously-misguided-advice-experts-say" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/health/rectal-garlic-insertion-for-immune-support-medical-chatbots-confidently-give-disastrously-misguided-advice-experts-say</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers found that large language models (LLMs) like ChatGPT and Gemini confidently provide incorrect health recommendations when pre...</p></details>
 
 ### Additional References
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: timesofindia.indiatimes.com  
-   Link: <a href="https://timesofindia.indiatimes.com/technology/tech-news/ai-chatbots-like-chatgpt-can-be-dangerous-for-doctors-as-well-as-patients-as-warns-mit-research/articleshow/122076203.cms" target="_blank" rel="noopener noreferrer nofollow">https://timesofindia.indiatimes.com/technology/tech-news/ai-chatbots-like-chatgpt-can-be-dangerous-for-doctors-as-well-as-patients-as-warns-mit-research/articleshow/122076203.cms</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers found that Large Language Models (LLMs) can be influenced by nonclinical elements in patient messages—such as typos, extra sp...</p></details>
+   Link:<a href="https://timesofindia.indiatimes.com/technology/tech-news/ai-chatbots-like-chatgpt-can-be-dangerous-for-doctors-as-well-as-patients-as-warns-mit-research/articleshow/122076203.cms" target="_blank" rel="noopener noreferrer nofollow">https://timesofindia.indiatimes.com/technology/tech-news/ai-chatbots-like-chatgpt-can-be-dangerous-for-doctors-as-well-as-patients-as-warns-mit-research/articleshow/122076203.cms</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers found that Large Language Models (LLMs) can be influenced by nonclinical elements in patient messages—such as typos, extra sp...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/LocalLLaMA/comments/1e7bw7e" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LocalLLaMA/comments/1e7bw7e</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>www.reddit.comMedical/Healthcare AI Experts: Where do Clinical LLMs Mostly Fail?July 19, 2024...</p></details>
+   Link:<a href="https://www.reddit.com/r/LocalLLaMA/comments/1e7bw7e" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LocalLLaMA/comments/1e7bw7e</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>www.reddit.comMedical/Healthcare AI Experts: Where do Clinical LLMs Mostly Fail?July 19, 2024...</p></details>
    Published: July 19, 2024  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=ry3R7k6x1Pg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ry3R7k6x1Pg</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Hidden Dangers of AI-Generated Medical Advice, With Girish Nadkarni, MD, MPH...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=ry3R7k6x1Pg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ry3R7k6x1Pg</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Hidden Dangers of AI-Generated Medical Advice, With Girish Nadkarni, MD, MPH...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: Study: AI Chatbots Give Misleading Medical Tips | WION  
-   Link: <a href="https://www.youtube.com/watch?v=_r4xByD2uPY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=_r4xByD2uPY</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Limits of Chatbots in Clinical Decision‑Making - YouTube The Limits of Chatbots in Clinical Decision‑Making - YouTube...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=_r4xByD2uPY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=_r4xByD2uPY</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Limits of Chatbots in Clinical Decision‑Making - YouTube The Limits of Chatbots in Clinical Decision‑Making - YouTube...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
    Title: The Hidden Dangers of AI-Generated Medical Advice, With Girish Nadkarni, MD, MPH  
-   Link: <a href="https://www.youtube.com/watch?v=5c5jGCXki1o" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=5c5jGCXki1o</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Is AI Safe for Medical Advice? What Parents Need to Know | Healthy Kids...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=5c5jGCXki1o" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=5c5jGCXki1o</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Is AI Safe for Medical Advice? What Parents Need to Know | Healthy Kids...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2606.07237" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2606.07237</a>  
+   Link:<a href="https://arxiv.org/abs/2606.07237" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2606.07237</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
    Title: Is AI Safe for Medical Advice? What Parents Need to Know | Healthy Kids  
-   Link: <a href="https://www.youtube.com/watch?v=H3DE2dwTvAQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=H3DE2dwTvAQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Study: AI Chatbots Give Misleading Medical Tips | WION...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=H3DE2dwTvAQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=H3DE2dwTvAQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Study: AI Chatbots Give Misleading Medical Tips | WION...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
    Title: The Limits of Chatbots in Clinical Decision‑Making  
-   Link: <a href="https://www.youtube.com/watch?v=oinwf25rIMc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=oinwf25rIMc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Assessing the Limitations of Large Language Models in Clinical Fact Decomposition...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=oinwf25rIMc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=oinwf25rIMc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Assessing the Limitations of Large Language Models in Clinical Fact Decomposition...</p></details>

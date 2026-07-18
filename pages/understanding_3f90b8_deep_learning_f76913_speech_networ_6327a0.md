@@ -288,7 +288,7 @@ image: /assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_63
 
 ## Introduction
 
-One of the most impressive features of modern artificial intelligence is that speech recognition systems can often understand words even when recordings are noisy, speakers have different [accents]({{ 'accents/' | relative_url }}), microphones vary in quality, or background sounds interfere with the signal. This is possible because [deep learning]({{ 'deep-learning/' | relative_url }}) models do not merely memorise raw audio patterns. Instead, they learn internal representations that emphasise the parts of speech that remain useful across many conditions while reducing sensitivity to irrelevant variation. Research over the past decade has shown that deeper acoustic models can develop increasingly stable speech cues, helping recognition systems perform far better than earlier approaches in noisy environments. At the same time, noise robustness remains incomplete, and speech systems still struggle when confronted with conditions that differ substantially from their training experience. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/0007398.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: microsoft.com">[Microsoft+2Opus Augsburg]</a><span class="citation-popover" role="note"><span class="citation-popover-source">microsoft.com</span><span class="citation-popover-snippet">In this paper, we have evaluated the performance of a DNN-based acoustic model for noise...</span></span></span>
+One of the most impressive features of modern artificial intelligence is that speech recognition systems can often understand words even when recordings are noisy, speakers have different [accents]({{ 'accents/' | relative_url }}), microphones vary in quality, or background sounds interfere with the signal. This is possible because [deep learning]({{ 'deep-learning/' | relative_url }}) models do not merely memorise raw audio patterns. Instead, they learn internal representations that emphasise the parts of speech that remain useful across many conditions while reducing sensitivity to irrelevant variation. Research over the past decade has shown that deeper acoustic models can develop increasingly stable speech cues, helping recognition systems perform far better than earlier approaches in noisy environments. At the same time, noise robustness remains incomplete, and speech systems still struggle when confronted with conditions that differ substantially from their training experience.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/0007398.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: microsoft.com">[Microsoft+2Opus Augsburg]</a><span class="citation-popover" role="note"><span class="citation-popover-source">microsoft.com</span><span class="citation-popover-snippet">In this paper, we have evaluated the performance of a DNN-based acoustic model for noise...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_6327a0-Illustration-1-dark.svg" | relative_url }}" alt="Speech cues illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_6327a0-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_6327a0-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -296,9 +296,9 @@ One of the most impressive features of modern artificial intelligence is that sp
 
 Speech is an unusually difficult signal for artificial intelligence because the same word can sound dramatically different from one recording to the next. Changes in speaker age, accent, speaking [speed]({{ 'speed/' | relative_url }}), microphone placement, room acoustics, background conversations, traffic noise, wind, reverberation and recording equipment can all alter the waveform reaching the system. Yet humans generally perceive the underlying word as the same.
 
-Early speech-recognition systems relied heavily on hand-engineered acoustic features and often degraded sharply when conditions changed. Deep neural networks improved this situation because they could learn directly from large amounts of speech data and discover patterns that remained informative despite environmental variation. Studies on standard speech-recognition [benchmarks]({{ 'benchmarks/' | relative_url }}) found that deep acoustic models exhibited surprisingly strong robustness to environmental distortion even without elaborate noise-compensation pipelines that older systems often required. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/0007398.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: microsoft.com">[Microsoft]</a><span class="citation-popover" role="note"><span class="citation-popover-source">microsoft.com</span><span class="citation-popover-snippet">In this paper, we have evaluated the performance of a DNN-based acoustic model for noise...</span></span></span>
+Early speech-recognition systems relied heavily on hand-engineered acoustic features and often degraded sharply when conditions changed. Deep neural networks improved this situation because they could learn directly from large amounts of speech data and discover patterns that remained informative despite environmental variation. Studies on standard speech-recognition [benchmarks]({{ 'benchmarks/' | relative_url }}) found that deep acoustic models exhibited surprisingly strong robustness to environmental distortion even without elaborate noise-compensation pipelines that older systems often required.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/0007398.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: microsoft.com">[Microsoft]</a><span class="citation-popover" role="note"><span class="citation-popover-source">microsoft.com</span><span class="citation-popover-snippet">In this paper, we have evaluated the performance of a DNN-based acoustic model for noise...</span></span></span>
 
-The central challenge is not simply recognising speech in known noise conditions. A useful system must continue working when confronted with new speakers, unfamiliar microphones or background sounds that were never explicitly represented in the training set. That problem has become one of the defining tests of representation learning in speech AI. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1612.01928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Invariant Representations for Noisy Speech Recognition</span><span class="citation-popover-snippet">arXiv Invariant Representations for Noisy Speech Recognition</span></span></span>
+The central challenge is not simply recognising speech in known noise conditions. A useful system must continue working when confronted with new speakers, unfamiliar microphones or background sounds that were never explicitly represented in the training set. That problem has become one of the defining tests of representation learning in speech AI.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1612.01928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Invariant Representations for Noisy Speech Recognition</span><span class="citation-popover-snippet">arXiv Invariant Representations for Noisy Speech Recognition</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/r-CEc_ZYV9E" title="Conformer-2: A state-of-the-art speech recognition model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=r-CEc_ZYV9E" target="_blank" rel="noopener noreferrer">Conformer-2: A state-of-the-art speech recognition model</a></p><p class="youtube-embed-meta">Channel: AssemblyAI &middot; Views: 4.9K &middot; Uploaded: July 2023 &middot; Length: 4 minutes 6 seconds</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=r-CEc_ZYV9E" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=r-CEc_ZYV9E">Open on YouTube</a></p></div></div></div>
@@ -307,11 +307,11 @@ The central challenge is not simply recognising speech in known noise conditions
 
 Deep [speech models]({{ 'failure-modes/' | relative_url }}) process audio through multiple layers, with each layer transforming the signal into a more useful representation. Early layers often capture local acoustic information such as frequency patterns, transitions and short-term temporal structure. Deeper layers progressively emphasise information that matters for recognising sounds and words while suppressing details that are less relevant.
 
-Researchers studying invariant speech recognition have found evidence that deeper representations increasingly disentangle linguistic content from nuisance factors such as noise and recording conditions. In other words, later layers become better at representing "what was said" rather than "how it happened to sound". <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cbmm.mit.edu">[CBMM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cbmm.mit.edu</span><span class="citation-popover-title">CBMMUntangling in Invariant Speech Recognition</span><span class="citation-popover-snippet">November 12, 2019 — by C Stephenson · Cited by 38 — Finally, we find that the deep representations carry out significant temporal untangl...</span><span class="citation-popover-meta">Published: November 12, 2019</span></span></span>
+Researchers studying invariant speech recognition have found evidence that deeper representations increasingly disentangle linguistic content from nuisance factors such as noise and recording conditions. In other words, later layers become better at representing "what was said" rather than "how it happened to sound".<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cbmm.mit.edu">[CBMM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cbmm.mit.edu</span><span class="citation-popover-title">CBMMUntangling in Invariant Speech Recognition</span><span class="citation-popover-snippet">November 12, 2019 — by C Stephenson · Cited by 38 — Finally, we find that the deep representations carry out significant temporal untangl...</span><span class="citation-popover-meta">Published: November 12, 2019</span></span></span>
 
-This process is especially important because speech varies over time. A spoken word is not a static image but a sequence of changing sounds. Deep networks learn patterns across many moments simultaneously, allowing them to recognise recurring structures even when individual acoustic fragments are distorted. The result is a hierarchy in which higher-level representations can remain relatively stable despite substantial variation in the raw waveform. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cbmm.mit.edu">[CBMM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cbmm.mit.edu</span><span class="citation-popover-title">CBMMUntangling in Invariant Speech Recognition</span><span class="citation-popover-snippet">November 12, 2019 — by C Stephenson · Cited by 38 — Finally, we find that the deep representations carry out significant temporal untangl...</span><span class="citation-popover-meta">Published: November 12, 2019</span></span></span>
+This process is especially important because speech varies over time. A spoken word is not a static image but a sequence of changing sounds. Deep networks learn patterns across many moments simultaneously, allowing them to recognise recurring structures even when individual acoustic fragments are distorted. The result is a hierarchy in which higher-level representations can remain relatively stable despite substantial variation in the raw waveform.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cbmm.mit.edu">[CBMM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cbmm.mit.edu</span><span class="citation-popover-title">CBMMUntangling in Invariant Speech Recognition</span><span class="citation-popover-snippet">November 12, 2019 — by C Stephenson · Cited by 38 — Finally, we find that the deep representations carry out significant temporal untangl...</span><span class="citation-popover-meta">Published: November 12, 2019</span></span></span>
 
-A practical example is the word "hello". Different speakers may pronounce it differently, and background noise may obscure portions of the signal. Yet the network can learn representations that consistently activate for the underlying speech pattern across many conditions. This ability to form stable internal cues is one reason modern systems outperform earlier speech-recognition methods in realistic environments. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://opus.bibliothek.uni-augsburg.de/opus4/files/71717/71717.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: opus.bibliothek.uni-augsburg.de">[Opus Augsburg]</a><span class="citation-popover" role="note"><span class="citation-popover-source">opus.bibliothek.uni-augsburg.de</span><span class="citation-popover-snippet">Opus AugsburgDeep learning for environmentally robust speech recognitionby Z Zhang · 2018 · Cited by 499 — Eliminating the negative effec...</span></span></span>
+A practical example is the word "hello". Different speakers may pronounce it differently, and background noise may obscure portions of the signal. Yet the network can learn representations that consistently activate for the underlying speech pattern across many conditions. This ability to form stable internal cues is one reason modern systems outperform earlier speech-recognition methods in realistic environments.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://opus.bibliothek.uni-augsburg.de/opus4/files/71717/71717.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: opus.bibliothek.uni-augsburg.de">[Opus Augsburg]</a><span class="citation-popover" role="note"><span class="citation-popover-source">opus.bibliothek.uni-augsburg.de</span><span class="citation-popover-snippet">Opus AugsburgDeep learning for environmentally robust speech recognitionby Z Zhang · 2018 · Cited by 499 — Eliminating the negative effec...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_6327a0-Illustration-2-dark.svg" | relative_url }}" alt="Speech cues illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_6327a0-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_6327a0-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -319,11 +319,11 @@ A practical example is the word "hello". Different speakers may pronounce it dif
 
 Architecture alone does not create noise robustness. Training strategy plays a major role.
 
-One common approach is [multi-condition]({{ 'multi-condition/' | relative_url }}) training, where systems are exposed to many noisy examples during learning. Researchers have repeatedly shown that adding diverse noise conditions helps models become less sensitive to environmental changes. Data augmentation techniques deliberately mix speech with background sounds, reverberation or channel distortions so the model learns to focus on speech-relevant information rather than accidental recording characteristics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cdn.amazon.science/a8/2a/aef830bf4a85bd43ca4618dcb2b2/learning-noise-invariant-representations-for-robust-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cdn.amazon.science">[Amazon Science+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cdn.amazon.science</span><span class="citation-popover-snippet">Amazon Sciencelearning-noise-invariant-representations-for-robust-speech...September 26, 2018 — by D Liang · Cited by 69 — One simple st...</span><span class="citation-popover-meta">Published: September 26, 2018</span></span></span>
+One common approach is [multi-condition]({{ 'multi-condition/' | relative_url }}) training, where systems are exposed to many noisy examples during learning. Researchers have repeatedly shown that adding diverse noise conditions helps models become less sensitive to environmental changes. Data augmentation techniques deliberately mix speech with background sounds, reverberation or channel distortions so the model learns to focus on speech-relevant information rather than accidental recording characteristics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cdn.amazon.science/a8/2a/aef830bf4a85bd43ca4618dcb2b2/learning-noise-invariant-representations-for-robust-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cdn.amazon.science">[Amazon Science+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cdn.amazon.science</span><span class="citation-popover-snippet">Amazon Sciencelearning-noise-invariant-representations-for-robust-speech...September 26, 2018 — by D Liang · Cited by 69 — One simple st...</span><span class="citation-popover-meta">Published: September 26, 2018</span></span></span>
 
-More recent work goes further by explicitly encouraging models to learn noise-invariant representations. Instead of only requiring noisy and clean recordings to produce the same transcription, these methods push internal representations themselves to remain similar across noise conditions. Experiments have shown that such approaches can improve recognition performance not only on familiar noise but also on previously unseen acoustic environments. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.amazon.science/publications/learning-noise-invariant-representations-for-robust-speech-recognition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: amazon.science">[Amazon Science+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">amazon.science</span><span class="citation-popover-snippet">Learning noise-invariant representations for robust speech...by D Liang · 2018 · Cited by 69 — We propose invariantrepresentation-learni...</span></span></span>
+More recent work goes further by explicitly encouraging models to learn noise-invariant representations. Instead of only requiring noisy and clean recordings to produce the same transcription, these methods push internal representations themselves to remain similar across noise conditions. Experiments have shown that such approaches can improve recognition performance not only on familiar noise but also on previously unseen acoustic environments.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.amazon.science/publications/learning-noise-invariant-representations-for-robust-speech-recognition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: amazon.science">[Amazon Science+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">amazon.science</span><span class="citation-popover-snippet">Learning noise-invariant representations for robust speech...by D Liang · 2018 · Cited by 69 — We propose invariantrepresentation-learni...</span></span></span>
 
-Large-scale self-supervised learning has extended this idea. Systems such as wav2vec 2.0 learn from enormous quantities of unlabelled audio before being adapted to recognition tasks. Because they encounter a broad range of speech characteristics during pretraining, they often develop representations that transfer more effectively across speakers, microphones and domains. ISCA Archive+2campus-fryslan.studenttheses.ub.rug.nl <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.isca-archive.org/interspeech_2021/hsu21_interspeech.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: isca-archive.org">[isca-archive.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">isca-archive.org</span><span class="citation-popover-title">ISCA Archive Analyzing Domain Shift in Self-Supervised Pre-Training</span><span class="citation-popover-snippet">ISCA Archive Analyzing Domain Shift in Self-Supervised Pre-Training</span></span></span>
+Large-scale self-supervised learning has extended this idea. Systems such as wav2vec 2.0 learn from enormous quantities of unlabelled audio before being adapted to recognition tasks. Because they encounter a broad range of speech characteristics during pretraining, they often develop representations that transfer more effectively across speakers, microphones and domains. ISCA Archive+2campus-fryslan.studenttheses.ub.rug.nl<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.isca-archive.org/interspeech_2021/hsu21_interspeech.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: isca-archive.org">[isca-archive.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">isca-archive.org</span><span class="citation-popover-title">ISCA Archive Analyzing Domain Shift in Self-Supervised Pre-Training</span><span class="citation-popover-snippet">ISCA Archive Analyzing Domain Shift in Self-Supervised Pre-Training</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/CS4t0iRU034" title="Fellowship: Robust Self Supervised Audio Visual Speech Recognition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=CS4t0iRU034" target="_blank" rel="noopener noreferrer">Fellowship: Robust Self Supervised Audio Visual Speech Recognition</a></p><p class="youtube-embed-meta">Channel: Launchpad &middot; Views: 488 &middot; Uploaded: November 2022 &middot; Length: 22 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=CS4t0iRU034" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=CS4t0iRU034">Open on YouTube</a></p></div></div></div>
@@ -332,11 +332,11 @@ Large-scale self-supervised learning has extended this idea. Systems such as wav
 
 Noise is not the only source of variability. Accent differences, vocal characteristics and recording hardware can create shifts as large as environmental noise.
 
-Modern deep speech models benefit from exposure to diverse data and from representation-learning techniques that separate linguistic content from superficial acoustic details. Continued pretraining and adaptation methods have been shown to improve robustness not only to background noise but also to microphone variation and demographic differences among speakers. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2409.14494v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">CPT-Boosted Wav2vec2.0: Towards Noise Robust Speech...13 Sept 2024 — In this paper, we propose continued pretraining (CPT) as an ef...</span></span></span>
+Modern deep speech models benefit from exposure to diverse data and from representation-learning techniques that separate linguistic content from superficial acoustic details. Continued pretraining and adaptation methods have been shown to improve robustness not only to background noise but also to microphone variation and demographic differences among speakers.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2409.14494v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">CPT-Boosted Wav2vec2.0: Towards Noise Robust Speech...13 Sept 2024 — In this paper, we propose continued pretraining (CPT) as an ef...</span></span></span>
 
-Large-scale training datasets contribute significantly to this effect. Models trained on diverse internet-scale audio collections encounter a much wider range of speaking styles, recording qualities and acoustic environments than earlier systems trained on carefully controlled laboratory speech. Exposure to this diversity encourages representations that generalise beyond a single recording setup. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://medium.com/%40krishnaprasath42213/whisper-robust-speech-recognition-via-large-scale-weak-supervision-2b818a86ce08" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medium.com">[Medium]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medium.com</span><span class="citation-popover-title">Whisper: Robust Speech Recognition via Large-Scale</span><span class="citation-popover-snippet">Noisy environments and varying recording quality. - Different accents, speaking styles, and domains. -...Read more...</span></span></span>
+Large-scale training datasets contribute significantly to this effect. Models trained on diverse internet-scale audio collections encounter a much wider range of speaking styles, recording qualities and acoustic environments than earlier systems trained on carefully controlled laboratory speech. Exposure to this diversity encourages representations that generalise beyond a single recording setup.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://medium.com/%40krishnaprasath42213/whisper-robust-speech-recognition-via-large-scale-weak-supervision-2b818a86ce08" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medium.com">[Medium]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medium.com</span><span class="citation-popover-title">Whisper: Robust Speech Recognition via Large-Scale</span><span class="citation-popover-snippet">Noisy environments and varying recording quality. - Different accents, speaking styles, and domains. -...Read more...</span></span></span>
 
-However, robustness is rarely absolute. A model may appear highly reliable on benchmark datasets while still struggling when deployed in specialised environments such as aviation communications, classrooms, industrial settings or low-resource languages. Performance often depends on whether the model has previously encountered sufficiently similar conditions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2203.16822" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+However, robustness is rarely absolute. A model may appear highly reliable on benchmark datasets while still struggling when deployed in specialised environments such as aviation communications, classrooms, industrial settings or low-resource languages. Performance often depends on whether the model has previously encountered sufficiently similar conditions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2203.16822" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_6327a0-Illustration-3-dark.svg" | relative_url }}" alt="Speech cues illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_6327a0-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_speech_networ_6327a0-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -344,205 +344,205 @@ However, robustness is rarely absolute. A model may appear highly reliable on be
 
 Despite major progress, speech recognition remains vulnerable to extreme acoustic variation.
 
-Several research programmes have highlighted that deep models can still suffer when confronted with unseen noise types, severe reverberation, unusual recording channels or substantial domain shifts. Systems that perform well on benchmark tasks may experience significant error increases when operating in unfamiliar real-world conditions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cs.cmu.edu/afs/cs/user/robust/www/Papers/MitraEtAl_100116.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs.cmu.edu">[CMU School of Computer Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs.cmu.edu</span><span class="citation-popover-snippet">CMU School of Computer ScienceRobust Features in Deep Learning-Based Speech Recognitionby V Mitra · Cited by 47 — DNNs are data sensitive...</span></span></span>
+Several research programmes have highlighted that deep models can still suffer when confronted with unseen noise types, severe reverberation, unusual recording channels or substantial domain shifts. Systems that perform well on benchmark tasks may experience significant error increases when operating in unfamiliar real-world conditions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cs.cmu.edu/afs/cs/user/robust/www/Papers/MitraEtAl_100116.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cs.cmu.edu">[CMU School of Computer Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cs.cmu.edu</span><span class="citation-popover-snippet">CMU School of Computer ScienceRobust Features in Deep Learning-Based Speech Recognitionby V Mitra · Cited by 47 — DNNs are data sensitive...</span></span></span>
 
-This limitation reveals an important distinction between robustness and true [understanding]({{ 'understanding/' | relative_url }}). A speech model may learn highly effective invariances from its training data, yet those invariances remain shaped by experience. When conditions move far outside that experience, performance can deteriorate unexpectedly. Researchers continue to investigate domain adaptation, self-supervised learning, speech enhancement and invariant representation learning as ways to reduce this gap. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1612.01928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Invariant Representations for Noisy Speech Recognition</span><span class="citation-popover-snippet">arXiv Invariant Representations for Noisy Speech Recognition</span></span></span>
+This limitation reveals an important distinction between robustness and true [understanding]({{ 'understanding/' | relative_url }}). A speech model may learn highly effective invariances from its training data, yet those invariances remain shaped by experience. When conditions move far outside that experience, performance can deteriorate unexpectedly. Researchers continue to investigate domain adaptation, self-supervised learning, speech enhancement and invariant representation learning as ways to reduce this gap.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1612.01928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Invariant Representations for Noisy Speech Recognition</span><span class="citation-popover-snippet">arXiv Invariant Representations for Noisy Speech Recognition</span></span></span>
 
-The broader lesson for understanding artificial intelligence is that deep learning succeeds not because it removes variability from the world, but because it learns representations that make important patterns easier to detect despite that variability. Speech recognition provides one of the clearest demonstrations of this principle: countless noisy and imperfect sounds are transformed into internal cues that remain useful across many speakers, environments and recording conditions, even though the process remains imperfect and incomplete. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cbmm.mit.edu">[CBMM+2Intel Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cbmm.mit.edu</span><span class="citation-popover-title">CBMMUntangling in Invariant Speech Recognition</span><span class="citation-popover-snippet">November 12, 2019 — by C Stephenson · Cited by 38 — Finally, we find that the deep representations carry out significant temporal untangl...</span><span class="citation-popover-meta">Published: November 12, 2019</span></span></span>
+The broader lesson for understanding artificial intelligence is that deep learning succeeds not because it removes variability from the world, but because it learns representations that make important patterns easier to detect despite that variability. Speech recognition provides one of the clearest demonstrations of this principle: countless noisy and imperfect sounds are transformed into internal cues that remain useful across many speakers, environments and recording conditions, even though the process remains imperfect and incomplete.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cbmm.mit.edu">[CBMM+2Intel Community]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cbmm.mit.edu</span><span class="citation-popover-title">CBMMUntangling in Invariant Speech Recognition</span><span class="citation-popover-snippet">November 12, 2019 — by C Stephenson · Cited by 38 — Finally, we find that the deep representations carry out significant temporal untangl...</span><span class="citation-popover-meta">Published: November 12, 2019</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/uOahA44OBhM" title="Deep Learning Acoustic Model in Microsoft Cortana Voice Assistant -- Jinyu Li (Microsoft) -- 2017" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=uOahA44OBhM" target="_blank" rel="noopener noreferrer">Deep Learning Acoustic Model in Microsoft Cortana Voice Assistant -- Jinyu Li (Microsoft) -- 2017</a></p><p class="youtube-embed-meta">Channel: Center for Language &amp; Speech Processing(CLSP), JHU</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=uOahA44OBhM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=uOahA44OBhM">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How do speech models hear through noise?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How do speech models hear through noise?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Speech and Language Processing: Pearson New International Edition PDF eBook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5c5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Speech and Language Processing: Pearson New International Edition PDF eBook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Speech and Language Processing: Pearson New International Edition PDF eBook">Speech and Language Processing: Pearson New International Edi...</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Jurafsky, James H. Martin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Speech and Language Processing: Pearson New International Edition PDF eBook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5c5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Speech and Language Processing: Pearson New International Edition PDF eBook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Speech and Language Processing: Pearson New International Edition PDF eBook">Speech and Language Processing: Pearson New International Edi...</a>
+</h4>
+<p class="fr-book-author">By Daniel Jurafsky, James H. Martin</p>
         
-        <p class="fr-book-desc">Covers speech recognition, acoustic modelling, and robustness.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers speech recognition, acoustic modelling, and robustness.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Provides the deep learning foundations used in modern speech systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Provides the deep learning foundations used in modern speech systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
-        <p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
-        <p class="fr-book-desc">Places deep learning within the wider AI landscape.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
+<p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
+<p class="fr-book-desc">Places deep learning within the wider AI landscape.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Fundamentals+of+Speech+Recognition+by+Lawrence+R.+Rabiner&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Fundamentals of Speech Recognition on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Fundamentals+of+Speech+Recognition+by+Lawrence+R.+Rabiner&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Fundamentals of Speech Recognition">Fundamentals of Speech Recognition</a>
-        </h4>
-        <p class="fr-book-author">By Lawrence R. Rabiner</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Fundamentals+of+Speech+Recognition+by+Lawrence+R.+Rabiner&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Fundamentals of Speech Recognition on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Fundamentals+of+Speech+Recognition+by+Lawrence+R.+Rabiner&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Fundamentals of Speech Recognition">Fundamentals of Speech Recognition</a>
+</h4>
+<p class="fr-book-author">By Lawrence R. Rabiner</p>
         
-        <p class="fr-book-desc">Explains the core challenges of recognising speech under varying conditions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Fundamentals+of+Speech+Recognition+by+Lawrence+R.+Rabiner&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains the core challenges of recognising speech under varying conditions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Fundamentals+of+Speech+Recognition+by+Lawrence+R.+Rabiner&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Speech and Language Processing: Pearson New International Edition PDF eBook</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Speech and Language Processing: Pearson New International Edition PDF eBook</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Topic-anchored marketplace searches for visual, collectible, or second-hand items related to this page.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Topic-anchored marketplace searches for visual, collectible, or second-hand items related to this page.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum"><img src="{{ '/assets/images/marketplace-covers/5b8614ccb0bfecbadb30.jpg' | relative_url }}" alt="Listing image for Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum"><img src="{{ '/assets/images/marketplace-covers/5b8614ccb0bfecbadb30.jpg' | relative_url }}" alt="Listing image for Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/1609ae8fb21f04b2f399.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/1609ae8fb21f04b2f399.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8b6ffef2772d9b97a585.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8b6ffef2772d9b97a585.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf3807e54de2d7f28837.jpg' | relative_url }}" alt="Listing image for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf3807e54de2d7f28837.jpg' | relative_url }}" alt="Listing image for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="speech-cues-how-do-speech-models-hear-through-noise-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -558,7 +558,7 @@ The broader lesson for understanding artificial intelligence is that deep learni
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -578,7 +578,7 @@ The broader lesson for understanding artificial intelligence is that deep learni
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -610,7 +610,7 @@ The broader lesson for understanding artificial intelligence is that deep learni
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -662,7 +662,7 @@ The broader lesson for understanding artificial intelligence is that deep learni
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -707,7 +707,7 @@ The broader lesson for understanding artificial intelligence is that deep learni
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -748,156 +748,156 @@ The broader lesson for understanding artificial intelligence is that deep learni
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: microsoft.com  
-   Link: <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/0007398.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/0007398.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>In this paper, we have evaluated the performance of a DNN-based acoustic model for noise...</p></details>
+   Link:<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/0007398.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/0007398.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>In this paper, we have evaluated the performance of a DNN-based acoustic model for noise...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Title: arXiv Invariant Representations for Noisy Speech Recognition  
-   Link: <a href="https://arxiv.org/abs/1612.01928" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1612.01928</a>  
+   Link:<a href="https://arxiv.org/abs/1612.01928" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1612.01928</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: cs.cmu.edu  
-   Link: <a href="https://www.cs.cmu.edu/afs/cs/user/robust/www/Papers/MitraEtAl_100116.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.cs.cmu.edu/afs/cs/user/robust/www/Papers/MitraEtAl_100116.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>CMU School of Computer ScienceRobust Features in Deep Learning-Based Speech Recognitionby V Mitra · Cited by 47 — DNNs are data sensitive...</p></details>
+   Link:<a href="https://www.cs.cmu.edu/afs/cs/user/robust/www/Papers/MitraEtAl_100116.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.cs.cmu.edu/afs/cs/user/robust/www/Papers/MitraEtAl_100116.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CMU School of Computer ScienceRobust Features in Deep Learning-Based Speech Recognitionby V Mitra · Cited by 47 — DNNs are data sensitive...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: cbmm.mit.edu  
    Title: CBMMUntangling in Invariant Speech Recognition  
-   Link: <a href="https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>November 12, 2019 — by C Stephenson · Cited by 38 — Finally, we find that the deep representations carry out significant temporal untangl...</p></details>
+   Link:<a href="https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cbmm.mit.edu/sites/default/files/publications/9583-untangling-in-invariant-speech-recognition.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>November 12, 2019 — by C Stephenson · Cited by 38 — Finally, we find that the deep representations carry out significant temporal untangl...</p></details>
    Published: November 12, 2019  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: community.intel.com  
    Title: New Research Shows How Neural Networks Process Invariant Speech  
-   Link: <a href="https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/New-Research-Shows-How-Neural-Networks-Process-Invariant-Speech/post/1335680" target="_blank" rel="noopener noreferrer nofollow">https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/New-Research-Shows-How-Neural-Networks-Process-Invariant-Speech/post/1335680</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Intel CommunityNew Research Shows How Neural Networks Process...20 Dec 2019 — Taken together, these findings shed light on how deep audi...</p></details>
+   Link:<a href="https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/New-Research-Shows-How-Neural-Networks-Process-Invariant-Speech/post/1335680" target="_blank" rel="noopener noreferrer nofollow">https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/New-Research-Shows-How-Neural-Networks-Process-Invariant-Speech/post/1335680</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Intel CommunityNew Research Shows How Neural Networks Process...20 Dec 2019 — Taken together, these findings shed light on how deep audi...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: cdn.amazon.science  
-   Link: <a href="https://cdn.amazon.science/a8/2a/aef830bf4a85bd43ca4618dcb2b2/learning-noise-invariant-representations-for-robust-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cdn.amazon.science/a8/2a/aef830bf4a85bd43ca4618dcb2b2/learning-noise-invariant-representations-for-robust-speech-recognition.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Sciencelearning-noise-invariant-representations-for-robust-speech...September 26, 2018 — by D Liang · Cited by 69 — One simple st...</p></details>
+   Link:<a href="https://cdn.amazon.science/a8/2a/aef830bf4a85bd43ca4618dcb2b2/learning-noise-invariant-representations-for-robust-speech-recognition.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cdn.amazon.science/a8/2a/aef830bf4a85bd43ca4618dcb2b2/learning-noise-invariant-representations-for-robust-speech-recognition.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Sciencelearning-noise-invariant-representations-for-robust-speech...September 26, 2018 — by D Liang · Cited by 69 — One simple st...</p></details>
    Published: September 26, 2018  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMCIncorporating Noise Robustness in Speech Command  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7219662/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC7219662/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>by A Pervaiz · 2020 · Cited by 82 — A novel technique is proposed for noise robustness by augmenting noise in training data. Our propo...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7219662/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC7219662/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by A Pervaiz · 2020 · Cited by 82 — A novel technique is proposed for noise robustness by augmenting noise in training data. Our propo...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/1705.10874" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1705.10874</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Besides, with the rise of big data era, it is now feasible...Read more...</p></details>
+   Link:<a href="https://arxiv.org/pdf/1705.10874" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1705.10874</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Besides, with the rise of big data era, it is now feasible...Read more...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: amazon.science  
-   Link: <a href="https://www.amazon.science/publications/learning-noise-invariant-representations-for-robust-speech-recognition" target="_blank" rel="noopener noreferrer nofollow">https://www.amazon.science/publications/learning-noise-invariant-representations-for-robust-speech-recognition</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Learning noise-invariant representations for robust speech...by D Liang · 2018 · Cited by 69 — We propose invariantrepresentation-learni...</p></details>
+   Link:<a href="https://www.amazon.science/publications/learning-noise-invariant-representations-for-robust-speech-recognition" target="_blank" rel="noopener noreferrer nofollow">https://www.amazon.science/publications/learning-noise-invariant-representations-for-robust-speech-recognition</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Learning noise-invariant representations for robust speech...by D Liang · 2018 · Cited by 69 — We propose invariantrepresentation-learni...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
    Title: arXiv Learning Noise-Invariant Representations for Robust Speech Recognition  
-   Link: <a href="https://arxiv.org/abs/1807.06610" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1807.06610</a>  
+   Link:<a href="https://arxiv.org/abs/1807.06610" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1807.06610</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: isca-archive.org  
    Title: ISCA Archive Analyzing Domain Shift in Self-Supervised Pre-Training  
-   Link: <a href="https://www.isca-archive.org/interspeech_2021/hsu21_interspeech.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.isca-archive.org/interspeech_2021/hsu21_interspeech.pdf</a>  
+   Link:<a href="https://www.isca-archive.org/interspeech_2021/hsu21_interspeech.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.isca-archive.org/interspeech_2021/hsu21_interspeech.pdf</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: campus-fryslan.studenttheses.ub.rug.nl  
    Title: MSc S4802829 CS Su  
-   Link: <a href="https://campus-fryslan.studenttheses.ub.rug.nl/543/1/MSc-S4802829-CS-Su.pdf" target="_blank" rel="noopener noreferrer nofollow">https://campus-fryslan.studenttheses.ub.rug.nl/543/1/MSc-S4802829-CS-Su.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Fine-Tuning Approach Using wav2vec 2.0by C Su · 2024 — This model excels in extracting robust speech representations, which are crucial...</p></details>
+   Link:<a href="https://campus-fryslan.studenttheses.ub.rug.nl/543/1/MSc-S4802829-CS-Su.pdf" target="_blank" rel="noopener noreferrer nofollow">https://campus-fryslan.studenttheses.ub.rug.nl/543/1/MSc-S4802829-CS-Su.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Fine-Tuning Approach Using wav2vec 2.0by C Su · 2024 — This model excels in extracting robust speech representations, which are crucial...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2203.16822" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2203.16822</a>  
+   Link:<a href="https://arxiv.org/abs/2203.16822" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2203.16822</a>  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2409.14494v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2409.14494v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>CPT-Boosted Wav2vec2.0: Towards Noise Robust Speech...13 Sept 2024 — In this paper, we propose continued pretraining (CPT) as an ef...</p></details>
+   Link:<a href="https://arxiv.org/html/2409.14494v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2409.14494v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CPT-Boosted Wav2vec2.0: Towards Noise Robust Speech...13 Sept 2024 — In this paper, we propose continued pretraining (CPT) as an ef...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: medium.com  
    Title: Whisper: Robust Speech Recognition via Large-Scale  
-   Link: <a href="https://medium.com/%40krishnaprasath42213/whisper-robust-speech-recognition-via-large-scale-weak-supervision-2b818a86ce08" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40krishnaprasath42213/whisper-robust-speech-recognition-via-large-scale-weak-supervision-2b818a86ce08</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Noisy environments and varying recording quality. - Different accents, speaking styles, and domains. -...Read more...</p></details>
+   Link:<a href="https://medium.com/%40krishnaprasath42213/whisper-robust-speech-recognition-via-large-scale-weak-supervision-2b818a86ce08" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40krishnaprasath42213/whisper-robust-speech-recognition-via-large-scale-weak-supervision-2b818a86ce08</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Noisy environments and varying recording quality. - Different accents, speaking styles, and domains. -...Read more...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: isca-archive.org  
    Title: du14 interspeech  
-   Link: <a href="https://www.isca-archive.org/interspeech_2014/du14_interspeech.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.isca-archive.org/interspeech_2014/du14_interspeech.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>mapping from...</p></details>
+   Link:<a href="https://www.isca-archive.org/interspeech_2014/du14_interspeech.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.isca-archive.org/interspeech_2014/du14_interspeech.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>mapping from...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: opus.bibliothek.uni-augsburg.de  
-   Link: <a href="https://opus.bibliothek.uni-augsburg.de/opus4/files/71717/71717.pdf" target="_blank" rel="noopener noreferrer nofollow">https://opus.bibliothek.uni-augsburg.de/opus4/files/71717/71717.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Opus AugsburgDeep learning for environmentally robust speech recognitionby Z Zhang · 2018 · Cited by 499 — Eliminating the negative effec...</p></details>
+   Link:<a href="https://opus.bibliothek.uni-augsburg.de/opus4/files/71717/71717.pdf" target="_blank" rel="noopener noreferrer nofollow">https://opus.bibliothek.uni-augsburg.de/opus4/files/71717/71717.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Opus AugsburgDeep learning for environmentally robust speech recognitionby Z Zhang · 2018 · Cited by 499 — Eliminating the negative effec...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/papers?q=acoustic+robustness+bottleneck" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers?q=acoustic+robustness+bottleneck</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Daily Papers21 May 2026 — Robust Speech Recognition via Large-Scale Weak Supervision · We study the capabilities of speech processing sys...</p></details>
+   Link:<a href="https://huggingface.co/papers?q=acoustic+robustness+bottleneck" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers?q=acoustic+robustness+bottleneck</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Daily Papers21 May 2026 — Robust Speech Recognition via Large-Scale Weak Supervision · We study the capabilities of speech processing sys...</p></details>
    Published: May 2026  
 
 ### Additional References
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: datamundi.ai  
-   Link: <a href="https://datamundi.ai/white-paper/from-speech-recognition-to-speech-reasoning-building-the-data-foundations-for-the-next-generation-of-voice-ai/" target="_blank" rel="noopener noreferrer nofollow">https://datamundi.ai/white-paper/from-speech-recognition-to-speech-reasoning-building-the-data-foundations-for-the-next-generation-of-voice-ai/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>From Speech Recognition to Speech ReasoningExplore the future of Speech AI and how it transforms voice interfaces into smart systems that...</p></details>
+   Link:<a href="https://datamundi.ai/white-paper/from-speech-recognition-to-speech-reasoning-building-the-data-foundations-for-the-next-generation-of-voice-ai/" target="_blank" rel="noopener noreferrer nofollow">https://datamundi.ai/white-paper/from-speech-recognition-to-speech-reasoning-building-the-data-foundations-for-the-next-generation-of-voice-ai/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>From Speech Recognition to Speech ReasoningExplore the future of Speech AI and how it transforms voice interfaces into smart systems that...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: oamonitor.ireland.openaire.eu  
-   Link: <a href="https://oamonitor.ireland.openaire.eu/rpo/rcsi/search/publication?pid=10.1109%2Ficassp.2013.6639100" target="_blank" rel="noopener noreferrer nofollow">https://oamonitor.ireland.openaire.eu/rpo/rcsi/search/publication?pid=10.1109%2Ficassp.2013.6639100</a>  
+   Link:<a href="https://oamonitor.ireland.openaire.eu/rpo/rcsi/search/publication?pid=10.1109%2Ficassp.2013.6639100" target="_blank" rel="noopener noreferrer nofollow">https://oamonitor.ireland.openaire.eu/rpo/rcsi/search/publication?pid=10.1109%2Ficassp.2013.6639100</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: iris.polito.it  
-   Link: <a href="https://iris.polito.it/retrieve/db3d29d0-13fe-4deb-a998-e081e525925f/Koudounas_PhD_Thesis.pdf" target="_blank" rel="noopener noreferrer nofollow">https://iris.polito.it/retrieve/db3d29d0-13fe-4deb-a998-e081e525925f/Koudounas_PhD_Thesis.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Robust, [Responsible](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) and Trustworthy Speech...This thesis introduces comprehensive frameworks and methodologies for build- ing robust, re...</p></details>
+   Link:<a href="https://iris.polito.it/retrieve/db3d29d0-13fe-4deb-a998-e081e525925f/Koudounas_PhD_Thesis.pdf" target="_blank" rel="noopener noreferrer nofollow">https://iris.polito.it/retrieve/db3d29d0-13fe-4deb-a998-e081e525925f/Koudounas_PhD_Thesis.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Robust, [Responsible](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) and Trustworthy Speech...This thesis introduces comprehensive frameworks and methodologies for build- ing robust, re...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/354221587_Robust_wav2vec_20_Analyzing_Domain_Shift_in_Self-Supervised_Pre-Training" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/354221587_Robust_wav2vec_20_Analyzing_Domain_Shift_in_Self-Supervised_Pre-Training</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Analyzing Domain Shift in Self-Supervised Pre-Training21 May 2026 — Speech enhancement (SE) aims to recover clean speech signals from noi...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/354221587_Robust_wav2vec_20_Analyzing_Domain_Shift_in_Self-Supervised_Pre-Training" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/354221587_Robust_wav2vec_20_Analyzing_Domain_Shift_in_Self-Supervised_Pre-Training</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Analyzing Domain Shift in Self-Supervised Pre-Training21 May 2026 — Speech enhancement (SE) aims to recover clean speech signals from noi...</p></details>
    Published: May 2026  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: sri.com  
-   Link: <a href="https://www.sri.com/wp-content/uploads/2021/12/evaluating_robust_features_on_deep_neural_networks_for_speech_recognition_in_noisy_and_channel_mismatched_conditions.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.sri.com/wp-content/uploads/2021/12/evaluating_robust_features_on_deep_neural_networks_for_speech_recognition_in_noisy_and_channel_mismatched_conditions.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>We present an exhaustive study on the use...Read...</p></details>
+   Link:<a href="https://www.sri.com/wp-content/uploads/2021/12/evaluating_robust_features_on_deep_neural_networks_for_speech_recognition_in_noisy_and_channel_mismatched_conditions.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.sri.com/wp-content/uploads/2021/12/evaluating_robust_features_on_deep_neural_networks_for_speech_recognition_in_noisy_and_channel_mismatched_conditions.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We present an exhaustive study on the use...Read...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: aclanthology.org  
    Title: 2025.naacl industry.74  
-   Link: <a href="https://aclanthology.org/2025.naacl-industry.74.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2025.naacl-industry.74.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Pisets: A Robust Speech Recognition System for Lectures...by I Bondarenko · 2025 · Cited by 1 — This paper presents a novel framework ai...</p></details>
+   Link:<a href="https://aclanthology.org/2025.naacl-industry.74.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2025.naacl-industry.74.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Pisets: A Robust Speech Recognition System for Lectures...by I Bondarenko · 2025 · Cited by 1 — This paper presents a novel framework ai...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: youtube.com  
    Title: Fellowship: Robust Self Supervised Audio Visual Speech Recognition  
-   Link: <a href="https://www.youtube.com/watch?v=CS4t0iRU034" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=CS4t0iRU034</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Unsupervised Speech Enhancement - YouTube Unsupervised Speech Enhancement - YouTube...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=CS4t0iRU034" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=CS4t0iRU034</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Unsupervised Speech Enhancement - YouTube Unsupervised Speech Enhancement - YouTube...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: aclanthology.org  
    Title: 2020.findings emnlp.106  
-   Link: <a href="https://aclanthology.org/2020.findings-emnlp.106.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.findings-emnlp.106.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>8000 hours of diverse and noisy speech, using an extended version of contrastive predictive coding model:...Read more...</p></details>
+   Link:<a href="https://aclanthology.org/2020.findings-emnlp.106.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.findings-emnlp.106.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>8000 hours of diverse and noisy speech, using an extended version of contrastive predictive coding model:...Read more...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/311458959_Invariant_Representations_for_Noisy_Speech_Recognition" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/311458959_Invariant_Representations_for_Noisy_Speech_Recognition</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>We use ideas from recent...Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/311458959_Invariant_Representations_for_Noisy_Speech_Recognition" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/311458959_Invariant_Representations_for_Noisy_Speech_Recognition</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We use ideas from recent...Read more...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: youtube.com  
    Title: Conformer-2: A state-of-the-art speech recognition model  
-   Link: <a href="https://www.youtube.com/watch?v=r-CEc_ZYV9E" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=r-CEc_ZYV9E</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Fellowship: Robust Self Supervised Audio Visual Speech Recognition...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=r-CEc_ZYV9E" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=r-CEc_ZYV9E</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fellowship: Robust Self Supervised Audio Visual Speech Recognition...</p></details>

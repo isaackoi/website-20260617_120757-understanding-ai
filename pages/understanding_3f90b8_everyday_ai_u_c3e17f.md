@@ -335,15 +335,15 @@ Everyday AI is most useful when it is not treated as magic, but as a task helper
 
 AI often feels new because of chatbots, but ordinary digital life has relied on AI-like pattern recognition for years. The difference is that many older uses are embedded inside services rather than presented as a conversation. They do not ask the user to “prompt” a system; they simply offer a result.
 
-In search, AI is used to infer what a query means, rank likely answers, and increasingly generate summaries. Google describes [AI Overviews]({{ 'liability-cases/' | relative_url }}) as AI-generated snapshots intended to help users find information faster, with links for deeper checking. That convenience is real, but it changes the user’s job: instead of comparing a page of search results, the user is often assessing a generated answer that may blend multiple sources. A 2026 measurement study of Google AI Overviews found that they appeared for 13.7% of trending queries overall and 64.7% of question-form queries, while 11.0% of the atomic claims in the responses were unsupported by the cited pages. The lesson for everyday use is not “avoid AI search”, but “treat summaries as starting points, not final proof”. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.google.com">[Google Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.google.com</span><span class="citation-popover-snippet">Learn how data helps Google...Read more...</span></span></span>
+In search, AI is used to infer what a query means, rank likely answers, and increasingly generate summaries. Google describes [AI Overviews]({{ 'liability-cases/' | relative_url }}) as AI-generated snapshots intended to help users find information faster, with links for deeper checking. That convenience is real, but it changes the user’s job: instead of comparing a page of search results, the user is often assessing a generated answer that may blend multiple sources. A 2026 measurement study of Google AI Overviews found that they appeared for 13.7% of trending queries overall and 64.7% of question-form queries, while 11.0% of the atomic claims in the responses were unsupported by the cited pages. The lesson for everyday use is not “avoid AI search”, but “treat summaries as starting points, not final proof”.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.google.com">[Google Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.google.com</span><span class="citation-popover-snippet">Learn how data helps Google...Read more...</span></span></span>
 
-Translation is a clearer example of AI doing a bounded task. Neural machine translation does not simply replace one word with another; it uses learned patterns from large translation datasets to produce fluent target-language text. Google’s neural machine translation work, introduced in 2016, reported large error reductions compared with its older phrase-based system, while Google Cloud’s current translation documentation describes neural machine translation as able to translate to and from many languages in real time. For a traveller, student, customer-service worker or family member, the value is practical: AI can make unfamiliar text immediately usable. The checkable workflow is also obvious: for casual use, the user can compare the translation with context; for legal, medical or literary text, a human translator or subject expert is still needed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1609.08144" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Google&#x27;s Neural Machine Translation System: Bridging the Gap between Human and Machine TranslationSeptember 26, 2016...</span><span class="citation-popover-meta">Published: September 26, 2016</span></span></span>
+Translation is a clearer example of AI doing a bounded task. Neural machine translation does not simply replace one word with another; it uses learned patterns from large translation datasets to produce fluent target-language text. Google’s neural machine translation work, introduced in 2016, reported large error reductions compared with its older phrase-based system, while Google Cloud’s current translation documentation describes neural machine translation as able to translate to and from many languages in real time. For a traveller, student, customer-service worker or family member, the value is practical: AI can make unfamiliar text immediately usable. The checkable workflow is also obvious: for casual use, the user can compare the translation with context; for legal, medical or literary text, a human translator or subject expert is still needed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1609.08144" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Google&#x27;s Neural Machine Translation System: Bridging the Gap between Human and Machine TranslationSeptember 26, 2016...</span><span class="citation-popover-meta">Published: September 26, 2016</span></span></span>
 
-Fraud detection shows AI working as a decision-support filter rather than a public-facing assistant. Payment networks and banks use machine learning to compare a transaction with patterns of normal and suspicious behaviour, then assign a risk score or trigger extra checks. Mastercard describes its Decision Intelligence system as using advanced analytics and AI to assess transaction risk in real time, while Visa says AI and machine learning are used to reduce fraud and false declines across digital payments. In 2023, Visa said it prevented 80 million fraudulent transactions worth $40 billion, using advanced technology including AI. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Mastercard+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Decision Intelligence for Fraud and Risk Management Explore how Decision Intelligence uses advanced analytics and AI to improve fraud det</span><span class="citation-popover-snippet">MastercardDecision Intelligence for Fraud and Risk ManagementExplore how Decision Intelligence uses advanced analytics and AI to improve...</span></span></span>
+Fraud detection shows AI working as a decision-support filter rather than a public-facing assistant. Payment networks and banks use machine learning to compare a transaction with patterns of normal and suspicious behaviour, then assign a risk score or trigger extra checks. Mastercard describes its Decision Intelligence system as using advanced analytics and AI to assess transaction risk in real time, while Visa says AI and machine learning are used to reduce fraud and false declines across digital payments. In 2023, Visa said it prevented 80 million fraudulent transactions worth $40 billion, using advanced technology including AI.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Mastercard+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Decision Intelligence for Fraud and Risk Management Explore how Decision Intelligence uses advanced analytics and AI to improve fraud det</span><span class="citation-popover-snippet">MastercardDecision Intelligence for Fraud and Risk ManagementExplore how Decision Intelligence uses advanced analytics and AI to improve...</span></span></span>
 
-This case also shows why AI decisions should rarely be left entirely unexplained. A fraud model that blocks a stolen-card purchase is valuable; a model that wrongly blocks a genuine customer without a clear path to review creates frustration and possible unfairness. UK Finance has highlighted federated learning as one way financial institutions can learn from shared fraud patterns without pooling customer data, but fraud prevention still depends on governance, appeals, monitoring and human escalation when a high-impact decision affects a person’s money. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ukfinance.org.uk/news-and-insight/blog/how-federated-learning-strengthens-fraud-detection-in-2025" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ukfinance.org.uk">[UK Finance]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ukfinance.org.uk</span><span class="citation-popover-title">how federated learning strengthens fraud detection in 2025</span><span class="citation-popover-snippet">how federated learning strengthens fraud detection in 2025</span></span></span>
+This case also shows why AI decisions should rarely be left entirely unexplained. A fraud model that blocks a stolen-card purchase is valuable; a model that wrongly blocks a genuine customer without a clear path to review creates frustration and possible unfairness. UK Finance has highlighted federated learning as one way financial institutions can learn from shared fraud patterns without pooling customer data, but fraud prevention still depends on governance, appeals, monitoring and human escalation when a high-impact decision affects a person’s money.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ukfinance.org.uk/news-and-insight/blog/how-federated-learning-strengthens-fraud-detection-in-2025" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ukfinance.org.uk">[UK Finance]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ukfinance.org.uk</span><span class="citation-popover-title">how federated learning strengthens fraud detection in 2025</span><span class="citation-popover-snippet">how federated learning strengthens fraud detection in 2025</span></span></span>
 
-Navigation is another familiar AI use case because the output is continuously tested against reality. Google has explained that Maps uses live traffic information and prediction to estimate conditions and determine routes, while later AI features use Gemini and geospatial data to support more conversational route planning and location recommendations. The system’s advice is useful because it is tied to concrete constraints: time, distance, traffic, tolls, road closures, walking routes, parking, and the user’s destination. A driver or pedestrian can judge whether the recommendation fits the visible world. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: blog.google">[blog.google]</a><span class="citation-popover" role="note"><span class="citation-popover-source">blog.google</span><span class="citation-popover-snippet">Open source on blog.google.</span></span></span>
+Navigation is another familiar AI use case because the output is continuously tested against reality. Google has explained that Maps uses live traffic information and prediction to estimate conditions and determine routes, while later AI features use Gemini and geospatial data to support more conversational route planning and location recommendations. The system’s advice is useful because it is tied to concrete constraints: time, distance, traffic, tolls, road closures, walking routes, parking, and the user’s destination. A driver or pedestrian can judge whether the recommendation fits the visible world.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: blog.google">[blog.google]</a><span class="citation-popover" role="note"><span class="citation-popover-source">blog.google</span><span class="citation-popover-snippet">Open source on blog.google.</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f-Illustration-1-dark.svg" | relative_url }}" alt="Use Cases illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f-Illustration-1-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -353,11 +353,11 @@ Generative AI has made everyday AI more visible because it produces words, code 
 
 For writing and summarising, the advantage is speed at the blank-page stage. An AI system can turn rough notes into a polite message, produce a meeting recap, suggest headings, or condense a long document into a shorter brief. The risk is that fluent text can disguise gaps. A summary may omit a caveat; a draft may sound more confident than the evidence allows; a citation may be wrong or invented. That is why AI writing works best when the user can compare the output with the original material, edit the tone, and check any factual or legal claims before sending.
 
-Workplace adoption reflects this tension. McKinsey’s 2025 workplace report found that almost all companies were investing in AI, but only 1% believed they had reached maturity. Its later 2025 global survey reported that organisations gaining more value were more likely to have defined processes for deciding when AI outputs need human validation. In practical terms, the difference between casual experimentation and useful deployment is not just access to a chatbot; it is knowing which tasks are safe to automate, which need review, and which should remain human-led. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-snippet">Open source on mckinsey.com.</span></span></span>
+Workplace adoption reflects this tension. McKinsey’s 2025 workplace report found that almost all companies were investing in AI, but only 1% believed they had reached maturity. Its later 2025 global survey reported that organisations gaining more value were more likely to have defined processes for deciding when AI outputs need human validation. In practical terms, the difference between casual experimentation and useful deployment is not just access to a chatbot; it is knowing which tasks are safe to automate, which need review, and which should remain human-led.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-snippet">Open source on mckinsey.com.</span></span></span>
 
-Coding assistants are a useful warning against simplistic “AI always boosts productivity” claims. A 2026 meta-analysis of 23 studies found a statistically significant but moderate positive effect of generative AI on programming productivity, with larger gains in controlled settings and smaller effects in open-source and enterprise contexts. A 2025 systematic review similarly found benefits such as faster development and less code search, but also concerns about cognitive offloading, inconsistent code quality and limited long-term evaluation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.04779" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Coding assistants are a useful warning against simplistic “AI always boosts productivity” claims. A 2026 meta-analysis of 23 studies found a statistically significant but moderate positive effect of generative AI on programming productivity, with larger gains in controlled settings and smaller effects in open-source and enterprise contexts. A 2025 systematic review similarly found benefits such as faster development and less code search, but also concerns about cognitive offloading, inconsistent code quality and limited long-term evaluation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.04779" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
-The practical lesson is that coding help is strongest when the output is easy to test: writing boilerplate, explaining unfamiliar syntax, producing small functions, generating tests, drafting documentation, or suggesting debugging paths. It is weaker when the assistant must understand a large, messy, security-sensitive codebase. In a 2025 randomised controlled trial by METR, experienced open-source developers working on familiar repositories took 19% longer when using AI tools, partly because they spent time reviewing and correcting outputs. That does not make coding assistants useless; it shows that the review burden can outweigh the generation speed when the task is complex and the user already has strong domain knowledge. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">2025 07 10 early 2025 ai experienced os dev study</span></span></span>
+The practical lesson is that coding help is strongest when the output is easy to test: writing boilerplate, explaining unfamiliar syntax, producing small functions, generating tests, drafting documentation, or suggesting debugging paths. It is weaker when the assistant must understand a large, messy, security-sensitive codebase. In a 2025 randomised controlled trial by METR, experienced open-source developers working on familiar repositories took 19% longer when using AI tools, partly because they spent time reviewing and correcting outputs. That does not make coding assistants useless; it shows that the review burden can outweigh the generation speed when the task is complex and the user already has strong domain knowledge.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: metr.org">[Metr]</a><span class="citation-popover" role="note"><span class="citation-popover-source">metr.org</span><span class="citation-popover-title">2025 07 10 early 2025 ai experienced os dev study</span><span class="citation-popover-snippet">2025 07 10 early 2025 ai experienced os dev study</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/4WgxWlcf1Xw" title="The best way to search for info online in the AI era | Terms of Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=4WgxWlcf1Xw" target="_blank" rel="noopener noreferrer">The best way to search for info online in the AI era | Terms of Service</a></p><p class="youtube-embed-meta">Channel: CNN &middot; Views: 15.2K &middot; Uploaded: January 2026 &middot; Length: 21 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=4WgxWlcf1Xw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=4WgxWlcf1Xw">Open on YouTube</a></p></div></div></div>
@@ -375,7 +375,7 @@ A useful decision-support workflow usually has four parts:
 
 This is why AI is often more helpful as a “second pair of eyes” than as an oracle. In fraud detection, the system flags risk but investigators, banks and customers may need to resolve edge cases. In navigation, the app suggests a route but the driver still accounts for road signs and safety. In search, the overview may orient the user, but the cited sources must support the claim. In coding, the assistant may propose a function, but tests, security review and maintainability still matter.
 
-Research on human-AI decision-making increasingly points to the same problem: accuracy alone is not enough. A 2026 paper on metrics for human-AI decision-making argues that evaluation often focuses on model accuracy rather than whether human-AI teams collaborate safely, including whether people overuse AI when it is wrong or underuse it when it is helpful. In other words, a good AI tool is not only a model with a high score; it is a system that helps people rely on it at the right moments. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2603.18895v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Research on human-AI decision-making increasingly points to the same problem: accuracy alone is not enough. A 2026 paper on metrics for human-AI decision-making argues that evaluation often focuses on model accuracy rather than whether human-AI teams collaborate safely, including whether people overuse AI when it is wrong or underuse it when it is helpful. In other words, a good AI tool is not only a model with a high score; it is a system that helps people rely on it at the right moments.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2603.18895v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f-Illustration-2-dark.svg" | relative_url }}" alt="Use Cases illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -383,7 +383,7 @@ Research on human-AI decision-making increasingly points to the same problem: ac
 
 Checkability is the difference between useful AI and risky automation. A weather summary, route suggestion, translation, transaction alert, meeting recap or code snippet can be checked against something outside the AI’s own wording. A vague strategic recommendation, invented citation, unsupported medical claim or confident legal answer may be much harder for an ordinary user to verify.
 
-The weakness of generative AI is not only that it can be wrong. It can be wrong in a polished, plausible way. Recent research on AI-assisted data extraction found that AI performed better on concrete, explicitly stated questions and worse on questions requiring subjective interpretation or absent information. That pattern is highly relevant to everyday use: AI is safer when asked to extract, transform or draft from provided material than when asked to infer too much from missing context. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2508.09458" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+The weakness of generative AI is not only that it can be wrong. It can be wrong in a polished, plausible way. Recent research on AI-assisted data extraction found that AI performed better on concrete, explicitly stated questions and worse on questions requiring subjective interpretation or absent information. That pattern is highly relevant to everyday use: AI is safer when asked to extract, transform or draft from provided material than when asked to infer too much from missing context.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2508.09458" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 A good everyday rule is to match the level of checking to the level of consequence. For low-stakes tasks, such as rephrasing a message or translating a restaurant menu, light review may be enough. For medium-stakes tasks, such as summarising a contract clause, preparing a work memo or editing code, the user should compare the output with the source and test any claims. For high-stakes tasks involving health, money, law, safety, employment or identity, AI should support preparation and understanding, not replace a qualified person or formal process.
 
@@ -419,194 +419,194 @@ The practical question is not “Can AI do this?” but “Can AI do this part o
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Where AI Actually Helps. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Where AI Actually Helps. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=J2HgEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=J2HgEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Explains where AI helps in real-world tasks and why human oversight matters.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains where AI helps in real-world tasks and why human oversight matters.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Snake Oil on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_lxOEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Snake Oil" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Snake Oil">AI Snake Oil</a>
-        </h4>
-        <p class="fr-book-author">By Arvind Narayanan, Sayash Kapoor</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Snake Oil on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_lxOEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Snake Oil" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Snake Oil">AI Snake Oil</a>
+</h4>
+<p class="fr-book-author">By Arvind Narayanan, Sayash Kapoor</p>
         
-        <p class="fr-book-desc">Covers AI strengths, weaknesses, and the need for verification.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers AI strengths, weaknesses, and the need for verification.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
-        </h4>
-        <p class="fr-book-author">By Mustafa Suleyman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
+</h4>
+<p class="fr-book-author">By Mustafa Suleyman</p>
         
-        <p class="fr-book-desc">Provides context on how AI is being deployed across society.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context on how AI is being deployed across society.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=The+Age+of+A.I.%3A+And+Our+Human+Future+by+Henry+Kissinger&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Age of A.I.: And Our Human Future on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Age+of+A.I.%3A+And+Our+Human+Future+by+Henry+Kissinger&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Age of A.I.: And Our Human Future">The Age of A.I.: And Our Human Future</a>
-        </h4>
-        <p class="fr-book-author">By Henry Kissinger</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=The+Age+of+A.I.%3A+And+Our+Human+Future+by+Henry+Kissinger&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Age of A.I.: And Our Human Future on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Age+of+A.I.%3A+And+Our+Human+Future+by+Henry+Kissinger&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Age of A.I.: And Our Human Future">The Age of A.I.: And Our Human Future</a>
+</h4>
+<p class="fr-book-author">By Henry Kissinger</p>
         
-        <p class="fr-book-desc">Discusses practical and societal impacts of AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Age+of+A.I.%3A+And+Our+Human+Future+by+Henry+Kissinger&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses practical and societal impacts of AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Age+of+A.I.%3A+And+Our+Human+Future+by+Henry+Kissinger&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Snake+Oil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Snake Oil</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Coming+Wave&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Coming Wave</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Snake+Oil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Snake Oil</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Coming+Wave&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Coming Wave</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4"><img src="{{ '/assets/images/marketplace-covers/6d953a3ff1a79dc36277.jpg' | relative_url }}" alt="Listing image for JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4"><img src="{{ '/assets/images/marketplace-covers/6d953a3ff1a79dc36277.jpg' | relative_url }}" alt="Listing image for JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Digital Art Bundle 100 ART works"><img src="{{ '/assets/images/marketplace-covers/ec53909f13c46487387a.jpg' | relative_url }}" alt="Listing image for AI Digital Art Bundle 100 ART works" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">AI Digital Art Bundle 100 ART works</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Digital Art Bundle 100 ART works"><img src="{{ '/assets/images/marketplace-covers/ec53909f13c46487387a.jpg' | relative_url }}" alt="Listing image for AI Digital Art Bundle 100 ART works" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">AI Digital Art Bundle 100 ART works</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture"><img src="{{ '/assets/images/marketplace-covers/69fcdeaefa137f143035.jpg' | relative_url }}" alt="Listing image for AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture"><img src="{{ '/assets/images/marketplace-covers/69fcdeaefa137f143035.jpg' | relative_url }}" alt="Listing image for AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI SEXY GIRL POSTER FANTASY CYBERPUNK EROTIC KINKY ANIME ART SIZE A4 A3 A2 A1"><img src="{{ '/assets/images/marketplace-covers/e149beb7600cb60ca1fd.jpg' | relative_url }}" alt="Listing image for AI SEXY GIRL POSTER FANTASY CYBERPUNK EROTIC KINKY ANIME ART SIZE A4 A3 A2 A1" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">AI SEXY GIRL POSTER FANTASY CYBERPUNK EROTIC KINKY ANIME ART SIZE A4 A3 A2 A1</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI SEXY GIRL POSTER FANTASY CYBERPUNK EROTIC KINKY ANIME ART SIZE A4 A3 A2 A1"><img src="{{ '/assets/images/marketplace-covers/e149beb7600cb60ca1fd.jpg' | relative_url }}" alt="Listing image for AI SEXY GIRL POSTER FANTASY CYBERPUNK EROTIC KINKY ANIME ART SIZE A4 A3 A2 A1" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">AI SEXY GIRL POSTER FANTASY CYBERPUNK EROTIC KINKY ANIME ART SIZE A4 A3 A2 A1</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=use-cases-where-ai-actually-helps-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="use-cases-where-ai-actually-helps-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -622,7 +622,7 @@ The practical question is not “Can AI do this?” but “Can AI do this part o
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -642,7 +642,7 @@ The practical question is not “Can AI do this?” but “Can AI do this part o
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -674,7 +674,7 @@ The practical question is not “Can AI do this?” but “Can AI do this part o
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -726,7 +726,7 @@ The practical question is not “Can AI do this?” but “Can AI do this part o
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -771,7 +771,7 @@ The practical question is not “Can AI do this?” but “Can AI do this part o
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -812,200 +812,200 @@ The practical question is not “Can AI do this?” but “Can AI do this part o
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: support.google.com  
-   Link: <a href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Learn how data helps Google...Read more...</p></details>
+   Link:<a href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Learn how data helps Google...Read more...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2605.14021" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.14021</a>  
+   Link:<a href="https://arxiv.org/abs/2605.14021" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.14021</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1609.08144" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1609.08144</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google&#x27;s Neural Machine Translation System: Bridging the Gap between Human and Machine TranslationSeptember 26, 2016...</p></details>
+   Link:<a href="https://arxiv.org/abs/1609.08144" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1609.08144</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google&#x27;s Neural Machine Translation System: Bridging the Gap between Human and Machine TranslationSeptember 26, 2016...</p></details>
    Published: September 26, 2016  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: docs.cloud.google.com  
-   Link: <a href="https://docs.cloud.google.com/translate/docs/advanced/nmt-model" target="_blank" rel="noopener noreferrer nofollow">https://docs.cloud.google.com/translate/docs/advanced/nmt-model</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Cloud DocumentationNeural Machine Translation (NMT) modelNeural Machine Translation (NMT) has evolved from the neural network tran...</p></details>
+   Link:<a href="https://docs.cloud.google.com/translate/docs/advanced/nmt-model" target="_blank" rel="noopener noreferrer nofollow">https://docs.cloud.google.com/translate/docs/advanced/nmt-model</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Cloud DocumentationNeural Machine Translation (NMT) modelNeural Machine Translation (NMT) has evolved from the neural network tran...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/us/en/[business" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/us/en/[business</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Decision Intelligence for Fraud and Risk ManagementExplore how Decision Intelligence uses advanced analytics and AI to improve...</p></details>
+   Link:<a href="https://www.mastercard.com/us/en/[business" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/us/en/[business</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Decision Intelligence for Fraud and Risk ManagementExplore how Decision Intelligence uses advanced analytics and AI to improve...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: corporate.visa.com  
-   Link: <a href="https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html</a>  
+   Link:<a href="https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: blog.google  
-   Link: <a href="https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/</a>  
+   Link:<a href="https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: blog.google  
    Title: ask maps immersive navigation  
-   Link: <a href="https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/</a>  
+   Link:<a href="https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/maps/ask-maps-immersive-navigation/</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: mckinsey.com  
-   Link: <a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work</a>  
+   Link:<a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/superagency-in-the-workplace-empowering-people-to-unlock-ais-full-potential-at-work</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: mckinsey.com  
    Title: the state of ai  
-   Link: <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</a>  
+   Link:<a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2605.04779" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.04779</a>  
+   Link:<a href="https://arxiv.org/abs/2605.04779" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.04779</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2507.03156" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2507.03156</a>  
+   Link:<a href="https://arxiv.org/abs/2507.03156" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2507.03156</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: metr.org  
    Title: 2025 07 10 early 2025 ai experienced os dev study  
-   Link: <a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow">https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/</a>  
+   Link:<a href="https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/" target="_blank" rel="noopener noreferrer nofollow">https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/</a>  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2603.18895v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2603.18895v1</a>  
+   Link:<a href="https://arxiv.org/html/2603.18895v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2603.18895v1</a>  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2508.09458" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2508.09458</a>  
+   Link:<a href="https://arxiv.org/abs/2508.09458" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2508.09458</a>  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: blog.google  
    Title: found translation more accurate fluent sentences google translate  
-   Link: <a href="https://blog.google/products-and-platforms/products/translate/found-translation-more-accurate-fluent-sentences-google-translate/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/translate/found-translation-more-accurate-fluent-sentences-google-translate/</a>  
+   Link:<a href="https://blog.google/products-and-platforms/products/translate/found-translation-more-accurate-fluent-sentences-google-translate/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/translate/found-translation-more-accurate-fluent-sentences-google-translate/</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: mckinsey.com  
    Title: the economic potential of generative ai the next productivity frontier  
-   Link: <a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier</a>  
+   Link:<a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier</a>  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: cloud.google.com  
    Title: 101 real world generative ai use cases from industry leaders  
-   Link: <a href="https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders</a>  
+   Link:<a href="https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: developers.google.com  
    Title: ai features  
-   Link: <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/appearance/ai-features</a>  
+   Link:<a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/appearance/ai-features</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: mapsplatform.google.com  
-   Link: <a href="https://mapsplatform.google.com/resources/blog/how-google-maps-platform-uses-aiml-and-community-contributions-keep-its-points-interest-date/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/resources/blog/how-google-maps-platform-uses-aiml-and-community-contributions-keep-its-points-interest-date/</a>  
+   Link:<a href="https://mapsplatform.google.com/resources/blog/how-google-maps-platform-uses-aiml-and-community-contributions-keep-its-points-interest-date/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/resources/blog/how-google-maps-platform-uses-aiml-and-community-contributions-keep-its-points-interest-date/</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: cloud.google.com  
-   Link: <a href="https://cloud.google.com/products/ai" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/products/ai</a>  
+   Link:<a href="https://cloud.google.com/products/ai" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/products/ai</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: mapsplatform.google.com  
    Title: offer efficient routes  
-   Link: <a href="https://mapsplatform.google.com/solutions/offer-efficient-routes/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/solutions/offer-efficient-routes/</a>  
+   Link:<a href="https://mapsplatform.google.com/solutions/offer-efficient-routes/" target="_blank" rel="noopener noreferrer nofollow">https://mapsplatform.google.com/solutions/offer-efficient-routes/</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/maps/documentation/routes" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/maps/documentation/routes</a>  
+   Link:<a href="https://developers.google.com/maps/documentation/routes" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/maps/documentation/routes</a>  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40maheera_amjad/machine-translation-in-nlp-how-google-translate-works-f9247d2d3249" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40maheera_amjad/machine-translation-in-nlp-how-google-translate-works-f9247d2d3249</a>  
+   Link:<a href="https://medium.com/%40maheera_amjad/machine-translation-in-nlp-how-google-translate-works-f9247d2d3249" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40maheera_amjad/machine-translation-in-nlp-how-google-translate-works-f9247d2d3249</a>  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2412.06603v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2412.06603v2</a>  
+   Link:<a href="https://arxiv.org/html/2412.06603v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2412.06603v2</a>  
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf</a>  
+   Link:<a href="https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf</a>  
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: search.google  
    Title: Google AI Mode  
-   Link: <a href="https://search.google/ways-to-search/ai-mode/" target="_blank" rel="noopener noreferrer nofollow">https://search.google/ways-to-search/ai-mode/</a>  
+   Link:<a href="https://search.google/ways-to-search/ai-mode/" target="_blank" rel="noopener noreferrer nofollow">https://search.google/ways-to-search/ai-mode/</a>  
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: ukfinance.org.uk  
    Title: how federated learning strengthens fraud detection in 2025  
-   Link: <a href="https://www.ukfinance.org.uk/news-and-insight/blog/how-federated-learning-strengthens-fraud-detection-in-2025" target="_blank" rel="noopener noreferrer nofollow">https://www.ukfinance.org.uk/news-and-insight/blog/how-federated-learning-strengthens-fraud-detection-in-2025</a>  
+   Link:<a href="https://www.ukfinance.org.uk/news-and-insight/blog/how-federated-learning-strengthens-fraud-detection-in-2025" target="_blank" rel="noopener noreferrer nofollow">https://www.ukfinance.org.uk/news-and-insight/blog/how-federated-learning-strengthens-fraud-detection-in-2025</a>  
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: businessinsider.com  
    Title: mastercard ai credit card fraud detection protects consumers 2025 5  
-   Link: <a href="https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers-2025-5" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers-2025-5</a>  
+   Link:<a href="https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers</a>  
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: fintechmagazine.com  
    Title: mastercard launches gen ai tool to better protect consumers  
-   Link: <a href="https://fintechmagazine.com/articles/mastercard-launches-gen-ai-tool-to-better-protect-consumers" target="_blank" rel="noopener noreferrer nofollow">https://fintechmagazine.com/articles/mastercard-launches-gen-ai-tool-to-better-protect-consumers</a>  
+   Link:<a href="https://fintechmagazine.com/articles/mastercard-launches-gen-ai-tool-to-better-protect-consumers" target="_blank" rel="noopener noreferrer nofollow">https://fintechmagazine.com/articles/mastercard-launches-gen-ai-tool-to-better-protect-consumers</a>  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: smarterway.ai  
-   Link: <a href="https://smarterway.ai/tools/mastercard-decision-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://smarterway.ai/tools/mastercard-decision-intelligence</a>  
+   Link:<a href="https://smarterway.ai/tools/mastercard-decision-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://smarterway.ai/tools/mastercard-decision-intelligence</a>  
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: ukfinance.org.uk  
    Title: tackling money mules machine learning  
-   Link: <a href="https://www.ukfinance.org.uk/news-and-insight/blog/tackling-money-mules-machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ukfinance.org.uk/news-and-insight/blog/tackling-money-mules-machine-learning</a>  
+   Link:<a href="https://www.ukfinance.org.uk/news-and-insight/blog/tackling-money-mules-machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ukfinance.org.uk/news-and-insight/blog/tackling-money-mules-machine-learning</a>  
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: cdomagazine.tech  
-   Link: <a href="https://www.cdomagazine.tech/aiml/mastercard-launches-decision-intelligence-pro-new-generative-ai-model-for-fraud-detection" target="_blank" rel="noopener noreferrer nofollow">https://www.cdomagazine.tech/aiml/mastercard-launches-decision-intelligence-pro-new-generative-ai-model-for-fraud-detection</a>  
+   Link:<a href="https://www.cdomagazine.tech/aiml/mastercard-launches-decision-intelligence-pro-new-generative-ai-model-for-fraud-detection" target="_blank" rel="noopener noreferrer nofollow">https://www.cdomagazine.tech/aiml/mastercard-launches-decision-intelligence-pro-new-generative-ai-model-for-fraud-detection</a>  
 
 ### Additional References
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: youtube.com  
    Title: The best way to search for info online in the AI era | Terms of Service  
-   Link: <a href="https://www.youtube.com/watch?v=4WgxWlcf1Xw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=4WgxWlcf1Xw</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI overviews search accuracy study google How to Dominate [AI Search](&amp;#123;&amp;#123; &#x27;ai-search/&#x27; | relative_url &amp;#125;&amp;#125;) Results in 2026 (ChatGPT, AI Overviews &amp; More) Surfer Academy...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=4WgxWlcf1Xw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=4WgxWlcf1Xw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI overviews search accuracy study google How to Dominate [AI Search](&amp;#123;&amp;#123; &#x27;ai-search/&#x27; | relative_url &amp;#125;&amp;#125;) Results in 2026 (ChatGPT, AI Overviews &amp; More) Surfer Academy...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: youtube.com  
    Title: How Accurate Are Google’s AI Overviews? | Listen Let Me Tell You Something  
-   Link: <a href="https://www.youtube.com/watch?v=uHpFAMwi8vc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=uHpFAMwi8vc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>10 Use Cases for AI Agents: IoT, RAG, &amp; Disaster Response Explained...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=uHpFAMwi8vc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=uHpFAMwi8vc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>10 Use Cases for AI Agents: IoT, RAG, &amp; Disaster Response Explained...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: youtube.com  
    Title: 10 Use Cases for AI Agents: Io T, RAG, & Disaster Response Explained  
-   Link: <a href="https://www.youtube.com/watch?v=Ts42JTye-AI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Ts42JTye-AI</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The best way to search for info online in the AI era | Terms of Service...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Ts42JTye-AI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Ts42JTye-AI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The best way to search for info online in the AI era | Terms of Service...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/383264952_Artificial_intelligence_in_fraud_prevention_Exploring_techniques_and_applications_challenges_and_opportunities" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/383264952_Artificial_intelligence_in_fraud_prevention_Exploring_techniques_and_applications_challenges_and_opportunities</a>  
+   Link:<a href="https://www.researchgate.net/publication/383264952_Artificial_intelligence_in_fraud_prevention_Exploring_techniques_and_applications_challenges_and_opportunities" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/383264952_Artificial_intelligence_in_fraud_prevention_Exploring_techniques_and_applications_challenges_and_opportunities</a>  
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/394865117_Financial_Fraud_Detection_with_AI_A_Machine_Learning-Based_Approach_for_Securing_Digital_Transactions" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/394865117_Financial_Fraud_Detection_with_AI_A_Machine_Learning-Based_Approach_for_Securing_Digital_Transactions</a>  
+   Link:<a href="https://www.researchgate.net/publication/394865117_Financial_Fraud_Detection_with_AI_A_Machine_Learning-Based_Approach_for_Securing_Digital_Transactions" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/394865117_Financial_Fraud_Detection_with_AI_A_Machine_Learning-Based_Approach_for_Securing_Digital_Transactions</a>  
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/ai-fraud-detection-in-banking" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-fraud-detection-in-banking</a>  
+   Link:<a href="https://www.ibm.com/think/topics/ai-fraud-detection-in-banking" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-fraud-detection-in-banking</a>  
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: sift.com  
-   Link: <a href="https://sift.com/blog/how-to-use-ai-in-fraud-detection/" target="_blank" rel="noopener noreferrer nofollow">https://sift.com/blog/how-to-use-ai-in-fraud-detection/</a>  
+   Link:<a href="https://sift.com/blog/how-to-use-ai-in-fraud-detection/" target="_blank" rel="noopener noreferrer nofollow">https://sift.com/blog/how-to-use-ai-in-fraud-detection/</a>  
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: keyrus.com  
-   Link: <a href="https://keyrus.com/uk/en/insights/ai-and-fraud-prevention-how-financial-institutions-can-stay-ahead-in-2025" target="_blank" rel="noopener noreferrer nofollow">https://keyrus.com/uk/en/insights/ai-and-fraud-prevention-how-financial-institutions-can-stay-ahead-in-2025</a>  
+   Link:<a href="https://keyrus.com/uk/en/insights/ai-and-fraud-prevention-how-financial-institutions-can-stay-ahead-in-2025" target="_blank" rel="noopener noreferrer nofollow">https://keyrus.com/uk/en/insights/ai-and-fraud-prevention-how-financial-institutions-can-stay-ahead-in-2025</a>  
 
-42. <a id="endnote-42"></a>
+42.<a id="endnote-42"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/[business/ai" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/[business/ai</a>  
+   Link:<a href="https://www.reuters.com/[business/ai" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/[business/ai</a>  
 
-43. <a id="endnote-43"></a>
+43.<a id="endnote-43"></a>
    Source: research.google  
-   Link: <a href="https://research.google/pubs/googles-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/googles-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation/</a>  
+   Link:<a href="https://research.google/pubs/googles-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/googles-neural-machine-translation-system-bridging-the-gap-between-human-and-machine-translation/</a>  

@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d44
 
 ## Introduction
 
-A chatbot does not predict the next word. It predicts the next token. That distinction becomes important when the boundary between tokens falls in an awkward place. Two prompts that look almost identical to a human can produce different internal token sequences, and those different sequences can shift the probabilities assigned to possible continuations. In some cases, a model becomes less confident about the continuation that would otherwise be the obvious answer. Recent research has shown that these effects are not merely theoretical: partial or misaligned token boundaries can significantly distort next-token probabilities, especially in code, compound-rich languages, and writing systems that do not rely on spaces. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
+A chatbot does not predict the next word. It predicts the next token. That distinction becomes important when the boundary between tokens falls in an awkward place. Two prompts that look almost identical to a human can produce different internal token sequences, and those different sequences can shift the probabilities assigned to possible continuations. In some cases, a model becomes less confident about the continuation that would otherwise be the obvious answer. Recent research has shown that these effects are not merely theoretical: partial or misaligned token boundaries can significantly distort next-token probabilities, especially in code, compound-rich languages, and writing systems that do not rely on spaces.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_awkward_token_032445-Illustration-1-dark.svg" | relative_url }}" alt="Token Splits illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_awkward_token_032445-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_awkward_token_032445-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,9 +277,9 @@ Within the broader topic of how tokenisation shapes chatbot answers, this mechan
 
 ## How token boundaries shape next-token probabilities
 
-[Language models]({{ 'language-models/' | relative_url }}) are trained on sequences of tokens produced by a tokenizer such as Byte Pair Encoding (BPE) or a related subword method. Common strings often become single tokens, while rarer strings are represented as several smaller pieces. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/tokenizer_summary" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceTokenization algorithmsTransformers support three subword tokenization algorithms: Byte pair encoding (BPE), Unigram, and Wor...</span></span></span>
+[Language models]({{ 'language-models/' | relative_url }}) are trained on sequences of tokens produced by a tokenizer such as Byte Pair Encoding (BPE) or a related subword method. Common strings often become single tokens, while rarer strings are represented as several smaller pieces.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/docs/transformers/tokenizer_summary" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-snippet">Hugging FaceTokenization algorithmsTransformers support three subword tokenization algorithms: Byte pair encoding (BPE), Unigram, and Wor...</span></span></span>
 
-When a model generates text, it calculates a probability distribution over all possible next tokens. The current token sequence is therefore the context from which every [prediction]({{ 'error-harms/' | relative_url }}) is made. If the tokenizer splits a phrase differently, the model is no longer conditioning on exactly the same sequence of units. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Top-p_sampling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Top-p sampling</span><span class="citation-popover-snippet">Top-p sampling</span></span></span>
+When a model generates text, it calculates a probability distribution over all possible next tokens. The current token sequence is therefore the context from which every [prediction]({{ 'error-harms/' | relative_url }}) is made. If the tokenizer splits a phrase differently, the model is no longer conditioning on exactly the same sequence of units.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Top-p_sampling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Top-p sampling</span><span class="citation-popover-snippet">Top-p sampling</span></span></span>
 
 The key point is that the model has learned statistical relationships between token sequences during training. A token that frequently appears after a particular token sequence may receive a high probability. But if a word is split differently, the preceding sequence changes, and so does the probability landscape.
 
@@ -287,7 +287,7 @@ For example:
 
 * A familiar word stored as one token may strongly suggest a particular continuation.
 * The same visible text, represented as several subword fragments, may spread probability across more alternatives.
-* A prompt ending inside a token can leave the model in a state that differs from any complete token sequence it commonly saw during training. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fast.ai">[fast.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fast.ai</span><span class="citation-popover-title">consider tokens that, if re-tokenized, would have high probability—</span><span class="citation-popover-snippet">Let&#x27;s Build the GPT Tokenizer: A Complete Guide to...16 Oct 2025 — This tutorial covers the process of tokenization in large language mo...</span></span></span>
+* A prompt ending inside a token can leave the model in a state that differs from any complete token sequence it commonly saw during training.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fast.ai">[fast.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fast.ai</span><span class="citation-popover-title">consider tokens that, if re-tokenized, would have high probability—</span><span class="citation-popover-snippet">Let&#x27;s Build the GPT Tokenizer: A Complete Guide to...16 Oct 2025 — This tutorial covers the process of tokenization in large language mo...</span></span></span>
 
 The result is that token boundaries are not passive bookkeeping. They directly influence what the model considers likely to come next.
 
@@ -296,11 +296,11 @@ The result is that token boundaries are not passive bookkeeping. They directly i
 
 ## Why partial tokens create unstable continuations
 
-The most striking version of this phenomenon is known as the partial token problem. It occurs when the text presented to the model effectively ends in the middle of what would normally be a larger token. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
+The most striking version of this phenomenon is known as the partial token problem. It occurs when the text presented to the model effectively ends in the middle of what would normally be a larger token.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
 
 Imagine that a tokenizer normally represents a frequent string as a single token. If a prompt stops halfway through that string, the model cannot simply treat it as the familiar token it learned during training. Instead, it must operate from a different tokenisation state.
 
-Research examining realistic prompts found that this can produce dramatic probability distortions. In affected cases, frontier language models assigned vastly lower probability to the correct continuation than when the prompt was adjusted to align cleanly with token boundaries. Surprisingly, the distortion did not disappear in larger models and sometimes became more pronounced. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
+Research examining realistic prompts found that this can produce dramatic probability distortions. In affected cases, frontier language models assigned vastly lower probability to the correct continuation than when the prompt was adjusted to align cleanly with token boundaries. Surprisingly, the distortion did not disappear in larger models and sometimes became more pronounced.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
 
 The mechanism is straightforward:
 
@@ -322,13 +322,13 @@ From the user's perspective, the answer may appear unexpectedly hesitant, unusua
 
 ### Code
 
-Programming languages often contain long identifiers, punctuation-heavy structures, and naming conventions that do not align neatly with token boundaries. A variable name may be tokenised into several pieces, with boundaries falling inside [meaningful]({{ 'human-review/' | relative_url }}) syntactic units. Research on tokenisation boundary problems identifies code as one of the domains where these misalignments are especially common. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
+Programming languages often contain long identifiers, punctuation-heavy structures, and naming conventions that do not align neatly with token boundaries. A variable name may be tokenised into several pieces, with boundaries falling inside [meaningful]({{ 'human-review/' | relative_url }}) syntactic units. Research on tokenisation boundary problems identifies code as one of the domains where these misalignments are especially common.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
 
 This helps explain why code-completion systems can sometimes behave differently when a programmer types one additional character. The extra character may trigger a different tokenisation, changing which completions appear most probable.
 
 ### Compound words
 
-Languages that build long compound words create similar challenges. A compound may correspond to several subword tokens, and boundaries between meaningful word parts do not always match tokenizer boundaries. When this happens, the model's learned patterns for the complete compound are fragmented across multiple token pieces. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
+Languages that build long compound words create similar challenges. A compound may correspond to several subword tokens, and boundaries between meaningful word parts do not always match tokenizer boundaries. When this happens, the model's learned patterns for the complete compound are fragmented across multiple token pieces.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
 
 As a result, continuations can become more sensitive to exactly where the text ends.
 
@@ -337,7 +337,7 @@ As a result, continuations can become more sensitive to exactly where the text e
 
 ### Writing systems without spaces
 
-Languages such as Chinese do not use spaces in the same way English does. Human readers can recognise word boundaries, but tokenizers may segment text differently. Recent work found that a substantial proportion of natural word boundaries in Chinese do not coincide with token boundaries, meaning a prompt can end at a complete word while still ending inside a larger token structure from the model's perspective. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
+Languages such as Chinese do not use spaces in the same way English does. Human readers can recognise word boundaries, but tokenizers may segment text differently. Recent work found that a substantial proportion of natural word boundaries in Chinese do not coincide with token boundaries, meaning a prompt can end at a complete word while still ending inside a larger token structure from the model's perspective.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
 
 This creates opportunities for probability distortions even when the user's text looks perfectly natural.
 
@@ -359,7 +359,7 @@ A user might reasonably assume that:
 
 </div>
 
-In reality, those changes can alter token boundaries. Because prediction happens at the token level, a small visible edit may move the model into a different probability state. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fast.ai">[fast.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fast.ai</span><span class="citation-popover-title">consider tokens that, if re-tokenized, would have high probability—</span><span class="citation-popover-snippet">Let&#x27;s Build the GPT Tokenizer: A Complete Guide to...16 Oct 2025 — This tutorial covers the process of tokenization in large language mo...</span></span></span>
+In reality, those changes can alter token boundaries. Because prediction happens at the token level, a small visible edit may move the model into a different probability state.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fast.ai">[fast.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fast.ai</span><span class="citation-popover-title">consider tokens that, if re-tokenized, would have high probability—</span><span class="citation-popover-snippet">Let&#x27;s Build the GPT Tokenizer: A Complete Guide to...16 Oct 2025 — This tutorial covers the process of tokenization in large language mo...</span></span></span>
 
 This is one reason why prompt wording sometimes feels unexpectedly sensitive. The effect is not always about meaning. Sometimes it is about where the tokenizer decided to place its invisible cuts.
 
@@ -367,167 +367,167 @@ This is one reason why prompt wording sometimes feels unexpectedly sensitive. Th
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_awkward_token_032445-Illustration-3-dark.svg" | relative_url }}" alt="Token Splits illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_awkward_token_032445-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_tokenization_d440e1_awkward_token_032445-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## What this reveals about chatbot behaviour
 
-Awkward token splits matter because language models learn and generate through token sequences rather than through words as humans understand them. When a prompt ends at an inconvenient boundary, the model's probability calculations can become distorted, causing different continuations to rise or fall in likelihood. Recent studies show that this is a real and measurable mechanism rather than a theoretical curiosity, particularly in code, highly compounding languages, and scripts without spaces. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
+Awkward token splits matter because language models learn and generate through token sequences rather than through words as humans understand them. When a prompt ends at an inconvenient boundary, the model's probability calculations can become distorted, causing different continuations to rise or fall in likelihood. Recent studies show that this is a real and measurable mechanism rather than a theoretical curiosity, particularly in code, highly compounding languages, and scripts without spaces.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">Open Review Are you going to finish that?</span><span class="citation-popover-snippet">A Practical Study of the...by H Xu — This paper quantifies the tokenization boundary problem in realistic prompts across three domains w...</span></span></span>
 
 [Understanding]({{ 'understanding/' | relative_url }}) this mechanism helps explain a broader lesson about artificial intelligence: some visible changes in chatbot answers originate not from reasoning differences, but from the hidden way text is segmented before the model ever begins predicting the next token.
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why one split can change an AI answer. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why one split can change an AI answer. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Shows how tokenization affects model behavior.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how tokenization affects model behavior.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Provides practical tokenization examples.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides practical tokenization examples.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
-        </h4>
-        <p class="fr-book-author">By Sebastian Raschka</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
+</h4>
+<p class="fr-book-author">By Sebastian Raschka</p>
         
-        <p class="fr-book-desc">Explains token boundaries and subword tokenization.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains token boundaries and subword tokenization.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Speech and Language Processing: Pearson New International Edition PDF eBook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5c5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Speech and Language Processing: Pearson New International Edition PDF eBook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Speech and Language Processing: Pearson New International Edition PDF eBook">Speech and Language Processing: Pearson New International Edi...</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Jurafsky, James H. Martin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Speech and Language Processing: Pearson New International Edition PDF eBook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5c5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Speech and Language Processing: Pearson New International Edition PDF eBook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Speech and Language Processing: Pearson New International Edition PDF eBook">Speech and Language Processing: Pearson New International Edi...</a>
+</h4>
+<p class="fr-book-author">By Daniel Jurafsky, James H. Martin</p>
         
-        <p class="fr-book-desc">Explains language segmentation and representation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains language segmentation and representation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack"><img src="{{ '/assets/images/marketplace-covers/8e8cf4f1dbb82a0acf8d.jpg' | relative_url }}" alt="Listing image for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack"><img src="{{ '/assets/images/marketplace-covers/8e8cf4f1dbb82a0acf8d.jpg' | relative_url }}" alt="Listing image for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack"><img src="{{ '/assets/images/marketplace-covers/6410bbade52c65ebe170.jpg' | relative_url }}" alt="Listing image for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack"><img src="{{ '/assets/images/marketplace-covers/6410bbade52c65ebe170.jpg' | relative_url }}" alt="Listing image for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="token-splits-why-one-split-can-change-an-ai-answer-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -543,7 +543,7 @@ Awkward token splits matter because language models learn and generate through t
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -563,7 +563,7 @@ Awkward token splits matter because language models learn and generate through t
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -595,7 +595,7 @@ Awkward token splits matter because language models learn and generate through t
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -647,7 +647,7 @@ Awkward token splits matter because language models learn and generate through t
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -692,7 +692,7 @@ Awkward token splits matter because language models learn and generate through t
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -733,111 +733,111 @@ Awkward token splits matter because language models learn and generate through t
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: openreview.net  
    Title: Open Review Are you going to finish that?  
-   Link: <a href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=b7KgXWA7gq</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A Practical Study of the...by H Xu — This paper quantifies the [tokenization](&amp;#123;&amp;#123; &#x27;tokenization/&#x27; | relative_url &amp;#125;&amp;#125;) boundary problem in realistic prompts across three domains w...</p></details>
+   Link:<a href="https://openreview.net/forum?id=b7KgXWA7gq" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=b7KgXWA7gq</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Practical Study of the...by H Xu — This paper quantifies the [tokenization](&amp;#123;&amp;#123; &#x27;tokenization/&#x27; | relative_url &amp;#125;&amp;#125;) boundary problem in realistic prompts across three domains w...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2601.23223" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2601.23223</a>  
+   Link:<a href="https://arxiv.org/abs/2601.23223" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2601.23223</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: Wikipedia  
    Title: Byte-pair encoding  
-   Link: <a href="https://en.wikipedia.org/wiki/Byte-pair_encoding" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Byte-pair_encoding</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Byte-pair_encoding" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Byte-pair_encoding</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: Wikipedia  
    Title: Top-p sampling  
-   Link: <a href="https://en.wikipedia.org/wiki/Top-p_sampling" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Top-p_sampling</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Top-p_sampling" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Top-p_sampling</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: fast.ai  
    Title: consider tokens that, if re-tokenized, would have high probability—  
-   Link: <a href="https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers" target="_blank" rel="noopener noreferrer nofollow">https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Let&#x27;s Build the GPT Tokenizer: A Complete Guide to...16 Oct 2025 — This tutorial covers the process of tokenization in large language mo...</p></details>
+   Link:<a href="https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers" target="_blank" rel="noopener noreferrer nofollow">https://www.fast.ai/posts/2025-10-16-karpathy-tokenizers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Let&#x27;s Build the GPT Tokenizer: A Complete Guide to...16 Oct 2025 — This tutorial covers the process of tokenization in large language mo...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv Impact of Tokenization on Language Models: An Analysis for Turkish  
-   Link: <a href="https://arxiv.org/abs/2204.08832" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2204.08832</a>  
+   Link:<a href="https://arxiv.org/abs/2204.08832" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2204.08832</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
    Title: arXiv Are you going to finish that?  
-   Link: <a href="https://arxiv.org/html/2601.23223v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2601.23223v2</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A Practical Study of the Partial...2 Feb 2026 — In this section, we motivate our study of the partial token problem by quantifying how o...</p></details>
+   Link:<a href="https://arxiv.org/html/2601.23223v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2601.23223v2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Practical Study of the Partial...2 Feb 2026 — In this section, we motivate our study of the partial token problem by quantifying how o...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2410.09303v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2410.09303v2</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Exact Byte-Level Probabilities from Tokenized Language...11 Apr 2025 — This work studies how tokenization impacts model performance by a...</p></details>
+   Link:<a href="https://arxiv.org/html/2410.09303v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2410.09303v2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Exact Byte-Level Probabilities from Tokenized Language...11 Apr 2025 — This work studies how tokenization impacts model performance by a...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2504.00178v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2504.00178v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Boundless Byte Pair Encoding: Breaking the Pre-...31 Mar 2025 — Pre-tokenization is a crucial step in preparing text for language models...</p></details>
+   Link:<a href="https://arxiv.org/html/2504.00178v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2504.00178v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Boundless Byte Pair Encoding: Breaking the Pre-...31 Mar 2025 — Pre-tokenization is a crucial step in preparing text for language models...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: huggingface.co  
-   Link: <a href="https://huggingface.co/docs/transformers/tokenizer_summary" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/docs/transformers/tokenizer_summary</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceTokenization algorithmsTransformers support three subword tokenization algorithms: Byte pair encoding (BPE), Unigram, and Wor...</p></details>
+   Link:<a href="https://huggingface.co/docs/transformers/tokenizer_summary" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/docs/transformers/tokenizer_summary</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceTokenization algorithmsTransformers support three subword tokenization algorithms: Byte pair encoding (BPE), Unigram, and Wor...</p></details>
 
 ### Additional References
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40suvraadeep/tokenization-demystified-building-tokenizers-for-language-models-9cd18cb26dab" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40suvraadeep/tokenization-demystified-building-tokenizers-for-language-models-9cd18cb26dab</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Building Tokenizers for Language Models | by SuvradeepThe GPT-4 model utilizes the BPE (Byte Pair Encoding) tokenization method, with a v...</p></details>
+   Link:<a href="https://medium.com/%40suvraadeep/tokenization-demystified-building-tokenizers-for-language-models-9cd18cb26dab" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40suvraadeep/tokenization-demystified-building-tokenizers-for-language-models-9cd18cb26dab</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Building Tokenizers for Language Models | by SuvradeepThe GPT-4 model utilizes the BPE (Byte Pair Encoding) tokenization method, with a v...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: gregrobison.medium.com  
-   Link: <a href="https://gregrobison.medium.com/a-comparative-analysis-of-byte-level-and-token-level-transformer-models-in-natural-language-9fb4331b6acc" target="_blank" rel="noopener noreferrer nofollow">https://gregrobison.medium.com/a-comparative-analysis-of-byte-level-and-token-level-transformer-models-in-natural-language-9fb4331b6acc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Comparative Analysis of Byte-Level and Token-Level...This report provides an in-depth comparative analysis of these two dominant paradig...</p></details>
+   Link:<a href="https://gregrobison.medium.com/a-comparative-analysis-of-byte-level-and-token-level-transformer-models-in-natural-language-9fb4331b6acc" target="_blank" rel="noopener noreferrer nofollow">https://gregrobison.medium.com/a-comparative-analysis-of-byte-level-and-token-level-transformer-models-in-natural-language-9fb4331b6acc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Comparative Analysis of Byte-Level and Token-Level...This report provides an in-depth comparative analysis of these two dominant paradig...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: connorjdavis.com  
-   Link: <a href="https://www.connorjdavis.com/p/language-modeling-part-7-bpe-tokenization" target="_blank" rel="noopener noreferrer nofollow">https://www.connorjdavis.com/p/language-modeling-part-7-bpe-tokenization</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>In the previous post, we trained a one-layer transformer for maximizing the likelihood of the next token...Read more...</p></details>
+   Link:<a href="https://www.connorjdavis.com/p/language-modeling-part-7-bpe-tokenization" target="_blank" rel="noopener noreferrer nofollow">https://www.connorjdavis.com/p/language-modeling-part-7-bpe-tokenization</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>In the previous post, we trained a one-layer transformer for maximizing the likelihood of the next token...Read more...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: machinelearningplus.com  
-   Link: <a href="https://machinelearningplus.com/nlp/build-bpe-tokenizer-from-scratch-python/" target="_blank" rel="noopener noreferrer nofollow">https://machinelearningplus.com/nlp/build-bpe-tokenizer-from-scratch-python/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Get it wrong, and your model receives garbage. Understand it well, and you can save money on every...Read more...</p></details>
+   Link:<a href="https://machinelearningplus.com/nlp/build-bpe-tokenizer-from-scratch-python/" target="_blank" rel="noopener noreferrer nofollow">https://machinelearningplus.com/nlp/build-bpe-tokenizer-from-scratch-python/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Get it wrong, and your model receives garbage. Understand it well, and you can save money on every...Read more...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: direct.mit.edu  
    Title: Tokenization as Finite State Transduction  
-   Link: <a href="https://direct.mit.edu/coli/article/51/4/1119/132855/Tokenization-as-Finite-State-Transduction" target="_blank" rel="noopener noreferrer nofollow">https://direct.mit.edu/coli/article/51/4/1119/132855/Tokenization-as-Finite-State-Transduction</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>as Finite-State TransductionTokenization is the first step in modern neural language model pipelines where an input text is converted to...</p></details>
+   Link:<a href="https://direct.mit.edu/coli/article/51/4/1119/132855/Tokenization-as-Finite-State-Transduction" target="_blank" rel="noopener noreferrer nofollow">https://direct.mit.edu/coli/article/51/4/1119/132855/Tokenization-as-Finite-State-Transduction</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>as Finite-State TransductionTokenization is the first step in modern neural language model pipelines where an input text is converted to...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: seantrott.substack.com  
    Title: tokenization in large language models  
-   Link: <a href="https://seantrott.substack.com/p/tokenization-in-large-language-models" target="_blank" rel="noopener noreferrer nofollow">https://seantrott.substack.com/p/tokenization-in-large-language-models</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>in large language models, explainedBPE starts out by creating tokens for all the basic symbols used in a tokenizer&#x27;s training text, e.g...</p></details>
+   Link:<a href="https://seantrott.substack.com/p/tokenization-in-large-language-models" target="_blank" rel="noopener noreferrer nofollow">https://seantrott.substack.com/p/tokenization-in-large-language-models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>in large language models, explainedBPE starts out by creating tokens for all the basic symbols used in a tokenizer&#x27;s training text, e.g...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: biorxiv.org  
    Title: 2024.09.09.612081v2.full text  
-   Link: <a href="https://www.biorxiv.org/content/10.1101/2024.09.09.612081v2.full-text" target="_blank" rel="noopener noreferrer nofollow">https://www.biorxiv.org/content/10.1101/2024.09.09.612081v2.full-text</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Comparison of Tokenization Impact in [Attention](&amp;#123;&amp;#123; &#x27;attention/&#x27; | relative_url &amp;#125;&amp;#125;) Based...17 Sept 2024 — This study explores the impact of tokenization in attention-base...</p></details>
+   Link:<a href="https://www.biorxiv.org/content/10.1101/2024.09.09.612081v2.full-text" target="_blank" rel="noopener noreferrer nofollow">https://www.biorxiv.org/content/10.1101/2024.09.09.612081v2.full-text</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Comparison of Tokenization Impact in [Attention](&amp;#123;&amp;#123; &#x27;attention/&#x27; | relative_url &amp;#125;&amp;#125;) Based...17 Sept 2024 — This study explores the impact of tokenization in attention-base...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: machinelearningmastery.com  
    Title: tokenizers in language models  
-   Link: <a href="https://machinelearningmastery.com/tokenizers-in-language-models/" target="_blank" rel="noopener noreferrer nofollow">https://machinelearningmastery.com/tokenizers-in-language-models/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>12 Sept 2025 — In this article, we will explore common tokenization algorithms used in modern LLMs, their implementation, and how to use...</p></details>
+   Link:<a href="https://machinelearningmastery.com/tokenizers-in-language-models/" target="_blank" rel="noopener noreferrer nofollow">https://machinelearningmastery.com/tokenizers-in-language-models/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>12 Sept 2025 — In this article, we will explore common tokenization algorithms used in modern LLMs, their implementation, and how to use...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=UHuNkAZl4Dg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=UHuNkAZl4Dg</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Let&#x27;s build the GPT Tokenizer - YouTube Andrej Karpathy · 1.1M views...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=UHuNkAZl4Dg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=UHuNkAZl4Dg</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Let&#x27;s build the GPT Tokenizer - YouTube Andrej Karpathy · 1.1M views...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: youtube.com  
    Title: Technical Breakdown: Why Subword Tokenization is the LLM Gold Standard  
-   Link: <a href="https://www.youtube.com/watch?v=Q-gZYvVGX-k" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Q-gZYvVGX-k</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization: The Only Video You’ll Ever Need. #aiexplained #chatgpt #tokenization #llmexplained...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Q-gZYvVGX-k" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Q-gZYvVGX-k</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Tokenization: The Only Video You’ll Ever Need. #aiexplained #chatgpt #tokenization #llmexplained...</p></details>

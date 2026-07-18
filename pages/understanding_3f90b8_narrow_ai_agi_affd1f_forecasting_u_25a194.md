@@ -296,7 +296,7 @@ One of the clearest ways to understand the limits of artificial intelligence is 
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_forecasting_u_25a194-Illustration-1-dark.svg" | relative_url }}" alt="Forecasting gap illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_forecasting_u_25a194-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_forecasting_u_25a194-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This distinction matters because many AI systems appear highly capable when evaluated on questions with known answers. Forecasting strips away that advantage. When a chatbot must estimate whether an election outcome, scientific breakthrough, economic event, or geopolitical development will occur, it cannot rely on memorised information. It must confront uncertainty directly. Research increasingly treats forecasting as a valuable test of whether AI systems can reason, update beliefs, and calibrate confidence in situations where nobody yet knows the truth. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=lfPkGWXLLf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">To produce an accurate forecast, a person or AI system must synthesize</span><span class="citation-popover-snippet">ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Forecasting is a useful testbed of LLM reas...</span></span></span>
+This distinction matters because many AI systems appear highly capable when evaluated on questions with known answers. Forecasting strips away that advantage. When a chatbot must estimate whether an election outcome, scientific breakthrough, economic event, or geopolitical development will occur, it cannot rely on memorised information. It must confront uncertainty directly. Research increasingly treats forecasting as a valuable test of whether AI systems can reason, update beliefs, and calibrate confidence in situations where nobody yet knows the truth.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=lfPkGWXLLf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">To produce an accurate forecast, a person or AI system must synthesize</span><span class="citation-popover-snippet">ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Forecasting is a useful testbed of LLM reas...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/a5eF_t7nOTU" title="Can AI Beat the Prediction Market? (I Ran a Simulation)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=a5eF_t7nOTU" target="_blank" rel="noopener noreferrer">Can AI Beat the Prediction Market? (I Ran a Simulation)</a></p><p class="youtube-embed-meta">Channel: Gaurab Aryal</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=a5eF_t7nOTU" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=a5eF_t7nOTU">Open on YouTube</a></p></div></div></div>
@@ -305,11 +305,11 @@ This distinction matters because many AI systems appear highly capable when eval
 
 Most popular [AI benchmarks]({{ 'benchmark-gaps/' | relative_url }}) measure performance on tasks that already have established answers. Mathematics problems, coding challenges, exam questions, and factual quizzes all reward arriving at a known solution. Even difficult reasoning tasks ultimately have a target answer against which performance can be measured.
 
-Forecasting introduces a different challenge. The model must estimate probabilities for events that have not yet happened. Success depends not only on reasoning but also on judgement. A forecaster must gather relevant information, identify uncertainties, avoid cognitive biases, and decide how confident to be. Researchers behind ForecastBench argue that accurate forecasting requires synthesising information, guarding against [overconfidence]({{ 'overconfidence/' | relative_url }}), combining evidence, and quantifying beliefs rather than merely producing fluent responses. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=lfPkGWXLLf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">To produce an accurate forecast, a person or AI system must synthesize</span><span class="citation-popover-snippet">ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Forecasting is a useful testbed of LLM reas...</span></span></span>
+Forecasting introduces a different challenge. The model must estimate probabilities for events that have not yet happened. Success depends not only on reasoning but also on judgement. A forecaster must gather relevant information, identify uncertainties, avoid cognitive biases, and decide how confident to be. Researchers behind ForecastBench argue that accurate forecasting requires synthesising information, guarding against [overconfidence]({{ 'overconfidence/' | relative_url }}), combining evidence, and quantifying beliefs rather than merely producing fluent responses.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=lfPkGWXLLf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">To produce an accurate forecast, a person or AI system must synthesize</span><span class="citation-popover-snippet">ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Forecasting is a useful testbed of LLM reas...</span></span></span>
 
 This exposes a weakness that ordinary chatbot interactions often hide. A chatbot can sound equally confident when discussing a settled fact and when speculating about an uncertain [future event]({{ 'benchmarks/' | relative_url }}). Human users may interpret fluency as confidence and confidence as accuracy. Forecasting benchmarks reveal whether that confidence is justified.
 
-Another reason forecasting is revealing is that it largely avoids the problem of benchmark contamination. Traditional AI tests can sometimes be influenced by training data that contains the answers. Forecasting questions are unresolved when the prediction is made, making memorisation impossible. ForecastBench was designed specifically around future events to eliminate this concern. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.19839" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span><span class="citation-popover-snippet">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span></span></span>
+Another reason forecasting is revealing is that it largely avoids the problem of benchmark contamination. Traditional AI tests can sometimes be influenced by training data that contains the answers. Forecasting questions are unresolved when the prediction is made, making memorisation impossible. ForecastBench was designed specifically around future events to eliminate this concern.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.19839" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span><span class="citation-popover-snippet">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/Vw4hU9oZc2s" title="Grok 4.20 Beta is LIVE - xAI&#x27;s Secret AI Just Beat GPT-5 in Real Trading (50% Gains!)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=Vw4hU9oZc2s" target="_blank" rel="noopener noreferrer">Grok 4.20 Beta is LIVE - xAI&#x27;s Secret AI Just Beat GPT-5 in Real Trading (50% Gains!)</a></p><p class="youtube-embed-meta">Channel: AI Perspectives</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=Vw4hU9oZc2s" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=Vw4hU9oZc2s">Open on YouTube</a></p></div></div></div>
@@ -320,9 +320,9 @@ A central concept in forecasting is calibration. A well-calibrated forecaster as
 
 Calibration matters because decision-makers often need probabilities rather than yes-or-no answers. A government planning for a disease outbreak, a business evaluating market risks, or a researcher assessing technological progress must understand uncertainty, not merely receive a prediction.
 
-Forecasting competitions provide a useful comparison. Decades of research have shown that aggregated crowd forecasts often outperform individual forecasters because different perspectives cancel out some errors. Recent studies comparing large language models with human forecasting communities have found mixed results. In some settings, individual language models lag behind expert human forecasters and well-functioning forecasting crowds. ForecastBench reported that expert human forecasters outperformed the strongest tested language models on its evaluation set. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.19839" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span><span class="citation-popover-snippet">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span></span></span>
+Forecasting competitions provide a useful comparison. Decades of research have shown that aggregated crowd forecasts often outperform individual forecasters because different perspectives cancel out some errors. Recent studies comparing large language models with human forecasting communities have found mixed results. In some settings, individual language models lag behind expert human forecasters and well-functioning forecasting crowds. ForecastBench reported that expert human forecasters outperformed the strongest tested language models on its evaluation set.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.19839" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span><span class="citation-popover-snippet">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span></span></span>
 
-At the same time, researchers have found that combining multiple model forecasts can improve performance substantially. Some studies suggest that ensembles of language-model forecasts can approach the accuracy of human forecasting crowds, highlighting that uncertainty estimation improves when diverse [predictions]({{ 'predictions/' | relative_url }}) are aggregated rather than relying on a single answer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2402.19379v4" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">LLM Ensemble Prediction Capabilities Rival Human Crowd...Our results suggest that LLMs can achieve forecasting accuracy rivaling th...</span></span></span>
+At the same time, researchers have found that combining multiple model forecasts can improve performance substantially. Some studies suggest that ensembles of language-model forecasts can approach the accuracy of human forecasting crowds, highlighting that uncertainty estimation improves when diverse [predictions]({{ 'predictions/' | relative_url }}) are aggregated rather than relying on a single answer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2402.19379v4" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">LLM Ensemble Prediction Capabilities Rival Human Crowd...Our results suggest that LLMs can achieve forecasting accuracy rivaling th...</span></span></span>
 
 These results are important because they reveal a difference between intelligence and calibration. A chatbot may generate sophisticated explanations while still being poorly calibrated about uncertain outcomes. Forecasting tests whether the system knows not only what it thinks, but also how strongly it should believe it.
 
@@ -332,11 +332,11 @@ These results are important because they reveal a difference between intelligenc
 
 Forecasting researchers have repeatedly found that language models can perform impressively on many reasoning tasks yet struggle when predictions require consistency and probabilistic judgement.
 
-One study that entered GPT-4 into a real-world forecasting tournament found that its predictions were significantly less accurate than crowd forecasts and in some cases approached the performance of a simple strategy that assigned middling probabilities to everything. The authors argued that forecasting tournaments are particularly useful because the answers are genuinely unknown at prediction time, making them a cleaner test of general reasoning than benchmarks where solutions may already exist in training data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2310.13014" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Large Language Model Prediction Capabilities: Evidence from a Real-World Forecasting TournamentOctober 17, 2023...</span><span class="citation-popover-meta">Published: October 17, 2023</span></span></span>
+One study that entered GPT-4 into a real-world forecasting tournament found that its predictions were significantly less accurate than crowd forecasts and in some cases approached the performance of a simple strategy that assigned middling probabilities to everything. The authors argued that forecasting tournaments are particularly useful because the answers are genuinely unknown at prediction time, making them a cleaner test of general reasoning than benchmarks where solutions may already exist in training data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2310.13014" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Large Language Model Prediction Capabilities: Evidence from a Real-World Forecasting TournamentOctober 17, 2023...</span><span class="citation-popover-meta">Published: October 17, 2023</span></span></span>
 
-Subsequent work showed that performance can improve dramatically when models are given external information, structured reasoning steps, retrieval systems, and forecast aggregation methods. However, this finding itself is revealing. Simply asking a chatbot for a prediction often produces weak results. Building a competitive forecasting system typically requires additional scaffolding, consistency checks, and specialised processes beyond ordinary conversation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2402.18563" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Approaching Human-Level Forecasting with Language Models</span><span class="citation-popover-snippet">arXiv Approaching Human-Level Forecasting with Language Models</span></span></span>
+Subsequent work showed that performance can improve dramatically when models are given external information, structured reasoning steps, retrieval systems, and forecast aggregation methods. However, this finding itself is revealing. Simply asking a chatbot for a prediction often produces weak results. Building a competitive forecasting system typically requires additional scaffolding, consistency checks, and specialised processes beyond ordinary conversation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2402.18563" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Approaching Human-Level Forecasting with Language Models</span><span class="citation-popover-snippet">arXiv Approaching Human-Level Forecasting with Language Models</span></span></span>
 
-Researchers and forecasting practitioners have also noted that language models sometimes violate basic logical constraints when estimating probabilities across related events. For example, they may assign a lower probability to an event occurring by a later date than by an earlier date, despite the later event encompassing the earlier one. Such inconsistencies expose limitations in uncertainty reasoning that are less visible during standard question answering. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.vox.com/future-perfect/411742/ai-forecasting-prediction-metaculus-llm" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: vox.com">[Vox]</a><span class="citation-popover" role="note"><span class="citation-popover-source">vox.com</span><span class="citation-popover-snippet">Competitions like those on Metaculus show that human experts consistently beat AI forecasters, although the performance gap is narrowing...</span></span></span>
+Researchers and forecasting practitioners have also noted that language models sometimes violate basic logical constraints when estimating probabilities across related events. For example, they may assign a lower probability to an event occurring by a later date than by an earlier date, despite the later event encompassing the earlier one. Such inconsistencies expose limitations in uncertainty reasoning that are less visible during standard question answering.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.vox.com/future-perfect/411742/ai-forecasting-prediction-metaculus-llm" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: vox.com">[Vox]</a><span class="citation-popover" role="note"><span class="citation-popover-source">vox.com</span><span class="citation-popover-snippet">Competitions like those on Metaculus show that human experts consistently beat AI forecasters, although the performance gap is narrowing...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/kkeuVTPh0m0" title="AI models matched superforecasters, ran 35 hours, and researched 5,000 materials for removing PFAS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=kkeuVTPh0m0" target="_blank" rel="noopener noreferrer">AI models matched superforecasters, ran 35 hours, and researched 5,000 materials for removing PFAS</a></p><p class="youtube-embed-meta">Channel: Shared Sapience</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=kkeuVTPh0m0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=kkeuVTPh0m0">Open on YouTube</a></p></div></div></div>
@@ -358,204 +358,204 @@ Forecasting research therefore encourages a more nuanced view of AI capability:
 * Reasoning quality and calibration are related but distinct abilities.
 * Probabilistic estimates are often more informative than categorical answers.
 * Aggregated forecasts frequently outperform single forecasts, whether the forecasters are humans or AI systems.
-* Confidence should be treated as a measurable property rather than inferred from persuasive language. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.19839" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span><span class="citation-popover-snippet">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span></span></span>
+* Confidence should be treated as a measurable property rather than inferred from persuasive language.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2409.19839" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span><span class="citation-popover-snippet">arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities</span></span></span>
 
 </div>
 
-For anyone trying to understand artificial intelligence, forecasting provides a useful stress test. It reveals where a chatbot's apparent certainty rests on genuine predictive skill and where it reflects the limitations of systems that can generate convincing answers without fully [understanding]({{ 'understanding/' | relative_url }}) how uncertain the future remains. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=lfPkGWXLLf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview+2metaculus.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">To produce an accurate forecast, a person or AI system must synthesize</span><span class="citation-popover-snippet">ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Forecasting is a useful testbed of LLM reas...</span></span></span>
+For anyone trying to understand artificial intelligence, forecasting provides a useful stress test. It reveals where a chatbot's apparent certainty rests on genuine predictive skill and where it reflects the limitations of systems that can generate convincing answers without fully [understanding]({{ 'understanding/' | relative_url }}) how uncertain the future remains.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=lfPkGWXLLf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview+2metaculus.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-title">To produce an accurate forecast, a person or AI system must synthesize</span><span class="citation-popover-snippet">ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Forecasting is a useful testbed of LLM reas...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_forecasting_u_25a194-Illustration-3-dark.svg" | relative_url }}" alt="Forecasting gap illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_forecasting_u_25a194-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_forecasting_u_25a194-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can chatbots predict the unknown?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can chatbots predict the unknown?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Superforecasting+by+Philip+Tetlock&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Superforecasting on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=45OmCQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Superforecasting" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Superforecasting+by+Philip+Tetlock&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Superforecasting">Superforecasting</a>
-        </h4>
-        <p class="fr-book-author">By Philip Tetlock, Dan Gardner</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Superforecasting+by+Philip+Tetlock&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Superforecasting on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=45OmCQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Superforecasting" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Superforecasting+by+Philip+Tetlock&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Superforecasting">Superforecasting</a>
+</h4>
+<p class="fr-book-author">By Philip Tetlock, Dan Gardner</p>
         
-        <p class="fr-book-desc">The foundational popular book on prediction, uncertainty, and calibration.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Superforecasting+by+Philip+Tetlock&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">The foundational popular book on prediction, uncertainty, and calibration.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Superforecasting+by+Philip+Tetlock&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Signal and the Noise on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nQ6RMAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Signal and the Noise" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Signal and the Noise">The Signal and the Noise</a>
-        </h4>
-        <p class="fr-book-author">By Nate Silver</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Signal and the Noise on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nQ6RMAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Signal and the Noise" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Signal and the Noise">The Signal and the Noise</a>
+</h4>
+<p class="fr-book-author">By Nate Silver</p>
         
-        <p class="fr-book-desc">Explains why predictions succeed or fail under uncertainty.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why predictions succeed or fail under uncertainty.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Signal+and+the+Noise+by+Nate+Silver&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Kahneman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
+</h4>
+<p class="fr-book-author">By Daniel Kahneman</p>
         
-        <p class="fr-book-desc">Covers biases that affect human and AI-assisted judgement.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers biases that affect human and AI-assisted judgement.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=How+to+Measure+Anything+by+Douglas+W.+Hubbard&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open How to Measure Anything on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CBAh4eM-g3AC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for How to Measure Anything" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=How+to+Measure+Anything+by+Douglas+W.+Hubbard&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="How to Measure Anything">How to Measure Anything</a>
-        </h4>
-        <p class="fr-book-author">By Douglas W. Hubbard</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=How+to+Measure+Anything+by+Douglas+W.+Hubbard&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open How to Measure Anything on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CBAh4eM-g3AC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for How to Measure Anything" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=How+to+Measure+Anything+by+Douglas+W.+Hubbard&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="How to Measure Anything">How to Measure Anything</a>
+</h4>
+<p class="fr-book-author">By Douglas W. Hubbard</p>
         
-        <p class="fr-book-desc">Focuses on quantifying uncertainty and making better predictions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=How+to+Measure+Anything+by+Douglas+W.+Hubbard&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on quantifying uncertainty and making better predictions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=How+to+Measure+Anything+by+Douglas+W.+Hubbard&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Superforecasting&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Superforecasting</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Signal+and+the+Noise&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Signal and the Noise</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Thinking, Fast and Slow</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Superforecasting&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Superforecasting</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Signal+and+the+Noise&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Signal and the Noise</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Thinking, Fast and Slow</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Mechanical engineering defini Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/52c499c7410fbd9d1efd.jpg' | relative_url }}" alt="Listing image for Funny Mechanical engineering defini Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Funny Mechanical engineering defini Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Mechanical engineering defini Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/52c499c7410fbd9d1efd.jpg' | relative_url }}" alt="Listing image for Funny Mechanical engineering defini Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Funny Mechanical engineering defini Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9e5e14d28187b4342672.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9e5e14d28187b4342672.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Engineer&#x27;s Brain Funny Engineering Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b324a7813aaef4140734.jpg' | relative_url }}" alt="Listing image for Engineer&#x27;s Brain Funny Engineering Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Engineer&#x27;s Brain Funny Engineering Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Engineer&#x27;s Brain Funny Engineering Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b324a7813aaef4140734.jpg' | relative_url }}" alt="Listing image for Engineer&#x27;s Brain Funny Engineering Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Engineer&#x27;s Brain Funny Engineering Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology background Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/890622061eb194f571ce.jpg' | relative_url }}" alt="Listing image for Technology background Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Technology background Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology background Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/890622061eb194f571ce.jpg' | relative_url }}" alt="Listing image for Technology background Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Technology background Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="forecasting-gap-can-chatbots-predict-the-unknown-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -571,7 +571,7 @@ For anyone trying to understand artificial intelligence, forecasting provides a 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -591,7 +591,7 @@ For anyone trying to understand artificial intelligence, forecasting provides a 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -623,7 +623,7 @@ For anyone trying to understand artificial intelligence, forecasting provides a 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -675,7 +675,7 @@ For anyone trying to understand artificial intelligence, forecasting provides a 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -720,7 +720,7 @@ For anyone trying to understand artificial intelligence, forecasting provides a 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -761,175 +761,175 @@ For anyone trying to understand artificial intelligence, forecasting provides a 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: openreview.net  
    Title: To produce an accurate forecast, a person or AI system must synthesize  
-   Link: <a href="https://openreview.net/forum?id=lfPkGWXLLf" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=lfPkGWXLLf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Forecasting is a useful testbed of LLM reas...</p></details>
+   Link:<a href="https://openreview.net/forum?id=lfPkGWXLLf" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=lfPkGWXLLf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Forecasting is a useful testbed of LLM reas...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Title: arXiv Forecast Bench: A Dynamic Benchmark of AI Forecasting Capabilities  
-   Link: <a href="https://arxiv.org/abs/2409.19839" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2409.19839</a>  
+   Link:<a href="https://arxiv.org/abs/2409.19839" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2409.19839</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: forecastbench.org  
-   Link: <a href="https://www.forecastbench.org/about/" target="_blank" rel="noopener noreferrer nofollow">https://www.forecastbench.org/about/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>8 Oct 2025 — We evaluate LLMs by regularly asking them to make probabilistic forecasts about future events, thereby creating a contaminat...</p></details>
+   Link:<a href="https://www.forecastbench.org/about/" target="_blank" rel="noopener noreferrer nofollow">https://www.forecastbench.org/about/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>8 Oct 2025 — We evaluate LLMs by regularly asking them to make probabilistic forecasts about future events, thereby creating a contaminat...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2409.19839v4" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2409.19839v4</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A Dynamic Benchmark of AI Forecasting CapabilitiesWhile LLMs have achieved super-human performance on many benchmarks, they perform less...</p></details>
+   Link:<a href="https://arxiv.org/html/2409.19839v4" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2409.19839v4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Dynamic Benchmark of AI Forecasting CapabilitiesWhile LLMs have achieved super-human performance on many benchmarks, they perform less...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2402.19379v4" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2402.19379v4</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Ensemble Prediction Capabilities Rival Human Crowd...Our results suggest that LLMs can achieve forecasting accuracy rivaling th...</p></details>
+   Link:<a href="https://arxiv.org/html/2402.19379v4" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2402.19379v4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Ensemble Prediction Capabilities Rival Human Crowd...Our results suggest that LLMs can achieve forecasting accuracy rivaling th...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMCWisdom of the silicon crowd: LLM ensemble prediction  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11800985/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC11800985/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>by P Schoenegger · 2024 · Cited by 97 — Our findings suggest that LLM predictions can rival the human crowd&#x27;s forecasting accuracy thr...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11800985/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC11800985/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by P Schoenegger · 2024 · Cited by 97 — Our findings suggest that LLM predictions can rival the human crowd&#x27;s forecasting accuracy thr...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
    Title: arXiv Approaching Human-Level Forecasting with Language Models  
-   Link: <a href="https://arxiv.org/abs/2402.18563" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2402.18563</a>  
+   Link:<a href="https://arxiv.org/abs/2402.18563" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2402.18563</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2310.13014" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.13014</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Model Prediction Capabilities: Evidence from a Real-World Forecasting TournamentOctober 17, 2023...</p></details>
+   Link:<a href="https://arxiv.org/abs/2310.13014" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.13014</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Model Prediction Capabilities: Evidence from a Real-World Forecasting TournamentOctober 17, 2023...</p></details>
    Published: October 17, 2023  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: vox.com  
-   Link: <a href="https://www.vox.com/future-perfect/411742/ai-forecasting-prediction-metaculus-llm" target="_blank" rel="noopener noreferrer nofollow">https://www.vox.com/future-perfect/411742/ai-forecasting-prediction-metaculus-llm</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Competitions like those on Metaculus show that human experts consistently beat AI forecasters, although the performance gap is narrowing...</p></details>
+   Link:<a href="https://www.vox.com/future-perfect/411742/ai-forecasting-prediction-metaculus-llm" target="_blank" rel="noopener noreferrer nofollow">https://www.vox.com/future-perfect/411742/ai-forecasting-prediction-metaculus-llm</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Competitions like those on Metaculus show that human experts consistently beat AI forecasters, although the performance gap is narrowing...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: metaculus.com  
    Title: introducing futureeval our new home for ai forecasting  
-   Link: <a href="https://www.metaculus.com/notebooks/42136/introducing-futureeval-our-new-home-for-ai-forecasting/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/notebooks/42136/introducing-futureeval-our-new-home-for-ai-forecasting/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Introducing FutureEval, our new home for AI forecasting12 Feb 2026 — FutureEval is Metaculus&#x27;s new benchmark that measures how well AI ag...</p></details>
+   Link:<a href="https://www.metaculus.com/notebooks/42136/introducing-futureeval-our-new-home-for-ai-forecasting/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/notebooks/42136/introducing-futureeval-our-new-home-for-ai-forecasting/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Introducing FutureEval, our new home for AI forecasting12 Feb 2026 — FutureEval is Metaculus&#x27;s new benchmark that measures how well AI ag...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: forecastbench.org  
-   Link: <a href="https://www.forecastbench.org/" target="_blank" rel="noopener noreferrer nofollow">https://www.forecastbench.org/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Explore how LLM forecasting accuracy evolves on ForecastBench. A linear trend projects the date when LLMs reach superforecas...</p></details>
+   Link:<a href="https://www.forecastbench.org/" target="_blank" rel="noopener noreferrer nofollow">https://www.forecastbench.org/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Explore how LLM forecasting accuracy evolves on ForecastBench. A linear trend projects the date when LLMs reach superforecas...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: metaculus.com  
    Title: Exploring Metaculus's AI Track Record  
-   Link: <a href="https://www.metaculus.com/notebooks/16708/exploring-metaculuss-ai-track-record/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/notebooks/16708/exploring-metaculuss-ai-track-record/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>March 28, 2023 — In this post, we report the results of a recent analysis we conducted exploring the performance of all AI-related foreca...</p></details>
+   Link:<a href="https://www.metaculus.com/notebooks/16708/exploring-metaculuss-ai-track-record/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/notebooks/16708/exploring-metaculuss-ai-track-record/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>March 28, 2023 — In this post, we report the results of a recent analysis we conducted exploring the performance of all AI-related foreca...</p></details>
    Published: March 28, 2023  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: metaculus.com  
    Title: A I Driven AI Forecasting Literature Review  
-   Link: <a href="https://www.metaculus.com/notebooks/43430/ai-forecasting-literature-review/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/notebooks/43430/ai-forecasting-literature-review/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Driven AI Forecasting Literature ReviewMay 16, 2026 — This is an AI-driven, human-reviewed piece, designed as a research aid to a larg...</p></details>
+   Link:<a href="https://www.metaculus.com/notebooks/43430/ai-forecasting-literature-review/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/notebooks/43430/ai-forecasting-literature-review/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Driven AI Forecasting Literature ReviewMay 16, 2026 — This is an AI-driven, human-reviewed piece, designed as a research aid to a larg...</p></details>
    Published: May 16, 2026  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: metaculus.com  
    Title: another year of ai benchmarking the plan  
-   Link: <a href="https://www.metaculus.com/notebooks/38909/another-year-of-ai-benchmarking-the-plan/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/notebooks/38909/another-year-of-ai-benchmarking-the-plan/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Another Year of AI Benchmarking: The Plan22 Jul 2025 — Over the last year, Metaculus has run a $120k tournament split over 4 quarters whe...</p></details>
+   Link:<a href="https://www.metaculus.com/notebooks/38909/another-year-of-ai-benchmarking-the-plan/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/notebooks/38909/another-year-of-ai-benchmarking-the-plan/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Another Year of AI Benchmarking: The Plan22 Jul 2025 — Over the last year, Metaculus has run a $120k tournament split over 4 quarters whe...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: metaculus.com  
    Title: A I Forecasting Benchmark Tournament  
-   Link: <a href="https://www.metaculus.com/tournament/aibq2/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/tournament/aibq2/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Forecasting Benchmark Tournament - 2025 Q2This is the 4th tournament in our $120,000 series designed to benchmark AI forecasting capab...</p></details>
+   Link:<a href="https://www.metaculus.com/tournament/aibq2/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/tournament/aibq2/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Forecasting Benchmark Tournament - 2025 Q2This is the 4th tournament in our $120,000 series designed to benchmark AI forecasting capab...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: metaculus.com  
    Title: fall aib 2025  
-   Link: <a href="https://www.metaculus.com/tournament/fall-aib-2025/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/tournament/fall-aib-2025/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>This is a bot-only competition where bot-makers attempt to push AI to its limits in predicting future events.Read more...</p></details>
+   Link:<a href="https://www.metaculus.com/tournament/fall-aib-2025/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/tournament/fall-aib-2025/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This is a bot-only competition where bot-makers attempt to push AI to its limits in predicting future events.Read more...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: metaculus.com  
-   Link: <a href="https://www.metaculus.com/questions/40290/when-will-llms-beat-superforecasters-at-forecastbench/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/questions/40290/when-will-llms-beat-superforecasters-at-forecastbench/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>When will LLMs beat superforecasters at ForecastBench?Metaculus is an online forecasting platform and aggregation engine working to impro...</p></details>
+   Link:<a href="https://www.metaculus.com/questions/40290/when-will-llms-beat-superforecasters-at-forecastbench/" target="_blank" rel="noopener noreferrer nofollow">https://www.metaculus.com/questions/40290/when-will-llms-beat-superforecasters-at-forecastbench/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>When will LLMs beat superforecasters at ForecastBench?Metaculus is an online forecasting platform and aggregation engine working to impro...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=R3VBfYVK1x" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=R3VBfYVK1x</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>I evaluate state-of-the-art LLMs on 464 forecasting...Read more...</p></details>
+   Link:<a href="https://openreview.net/forum?id=R3VBfYVK1x" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=R3VBfYVK1x</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>I evaluate state-of-the-art LLMs on 464 forecasting...Read more...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=QqtvS8ZMhb" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=QqtvS8ZMhb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>that forecasting small-model failure can reduce [inference](&amp;#123;&amp;#123; &#x27;inference-test/&#x27; | relative_url &amp;#125;&amp;#125;) cost while...</p></details>
+   Link:<a href="https://openreview.net/forum?id=QqtvS8ZMhb" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=QqtvS8ZMhb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>that forecasting small-model failure can reduce [inference](&amp;#123;&amp;#123; &#x27;inference-test/&#x27; | relative_url &amp;#125;&amp;#125;) cost while...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2601.22444v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2601.22444v2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Automating Forecasting Question Generation and...9 Mar 2026 — Abstract. Forecasting future events is highly valuable in decision-making...</p></details>
+   Link:<a href="https://arxiv.org/html/2601.22444v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2601.22444v2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automating Forecasting Question Generation and...9 Mar 2026 — Abstract. Forecasting future events is highly valuable in decision-making...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: emergentmind.com  
-   Link: <a href="https://www.emergentmind.com/topics/forecastbench" target="_blank" rel="noopener noreferrer nofollow">https://www.emergentmind.com/topics/forecastbench</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Dynamic AI Forecast Benchmark20 Feb 2026 — ForecastBench is a dynamic benchmark evaluating AI forecasting with contamination-free, contin...</p></details>
+   Link:<a href="https://www.emergentmind.com/topics/forecastbench" target="_blank" rel="noopener noreferrer nofollow">https://www.emergentmind.com/topics/forecastbench</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Dynamic AI Forecast Benchmark20 Feb 2026 — ForecastBench is a dynamic benchmark evaluating AI forecasting with contamination-free, contin...</p></details>
 
 ### Additional References
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: agent4science.org  
-   Link: <a href="https://agent4science.org/page/paper_mm2ew9ud2ftc7z0e" target="_blank" rel="noopener noreferrer nofollow">https://agent4science.org/page/paper_mm2ew9ud2ftc7z0e</a>  
+   Link:<a href="https://agent4science.org/page/paper_mm2ew9ud2ftc7z0e" target="_blank" rel="noopener noreferrer nofollow">https://agent4science.org/page/paper_mm2ew9ud2ftc7z0e</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/399806185_Human-Centric_AI_Forecasting_Models_for_Enhancing_Product_Availability_Perception_in_Seasonal_Retail_Microenterprises" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/399806185_Human-Centric_AI_Forecasting_Models_for_Enhancing_Product_Availability_Perception_in_Seasonal_Retail_Microenterprises</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Human-Centric AI Forecasting Models for Enhancing...9 Jan 2026 — The results of this study indicate that perceived flexibility, ac...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/399806185_Human-Centric_AI_Forecasting_Models_for_Enhancing_Product_Availability_Perception_in_Seasonal_Retail_Microenterprises" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/399806185_Human-Centric_AI_Forecasting_Models_for_Enhancing_Product_Availability_Perception_in_Seasonal_Retail_Microenterprises</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Human-Centric AI Forecasting Models for Enhancing...9 Jan 2026 — The results of this study indicate that perceived flexibility, ac...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: iclr.cc  
-   Link: <a href="https://iclr.cc/media/iclr-2025/Slides/28507.pdf" target="_blank" rel="noopener noreferrer nofollow">https://iclr.cc/media/iclr-2025/Slides/28507.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Our [automated](&amp;#123;&amp;#123; &#x27;decisions/&#x27; | relative_url &amp;#125;&amp;#125;) system manages the benchmark, from upda...</p></details>
+   Link:<a href="https://iclr.cc/media/iclr-2025/Slides/28507.pdf" target="_blank" rel="noopener noreferrer nofollow">https://iclr.cc/media/iclr-2025/Slides/28507.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBench: A Dynamic Benchmark of AI Forecasting...by E Karger · Cited by 57 — Our [automated](&amp;#123;&amp;#123; &#x27;decisions/&#x27; | relative_url &amp;#125;&amp;#125;) system manages the benchmark, from upda...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: scientificadvice.eu  
-   Link: <a href="https://scientificadvice.eu/scientific-outputs/artificial-intelligence-in-emergency-and-crisis-management-rapid-evidence-review-report/" target="_blank" rel="noopener noreferrer nofollow">https://scientificadvice.eu/scientific-outputs/artificial-intelligence-in-emergency-and-crisis-management-rapid-evidence-review-report/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence in Emergency and Crisis Management11 Dec 2025 — AI can help with situational awareness, forecasting, damage asses...</p></details>
+   Link:<a href="https://scientificadvice.eu/scientific-outputs/artificial-intelligence-in-emergency-and-crisis-management-rapid-evidence-review-report/" target="_blank" rel="noopener noreferrer nofollow">https://scientificadvice.eu/scientific-outputs/artificial-intelligence-in-emergency-and-crisis-management-rapid-evidence-review-report/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence in Emergency and Crisis Management11 Dec 2025 — AI can help with situational awareness, forecasting, damage asses...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: researchgate.net  
    Title: 384502750 ForecastBench A Dynamic Benchmark of AI Forecasting Capabilities  
-   Link: <a href="https://www.researchgate.net/publication/384502750_ForecastBench_A_Dynamic_Benchmark_of_AI_Forecasting_Capabilities" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/384502750_ForecastBench_A_Dynamic_Benchmark_of_AI_Forecasting_Capabilities</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Dynamic Benchmark of AI Forecasting Capabilities30 Sept 2024 — To address this gap, we introduce ForecastBench: a dynamic benchmark tha...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/384502750_ForecastBench_A_Dynamic_Benchmark_of_AI_Forecasting_Capabilities" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/384502750_ForecastBench_A_Dynamic_Benchmark_of_AI_Forecasting_Capabilities</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Dynamic Benchmark of AI Forecasting Capabilities30 Sept 2024 — To address this gap, we introduce ForecastBench: a dynamic benchmark tha...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: faculty.wharton.upenn.edu  
-   Link: <a href="https://faculty.wharton.upenn.edu/wp-content/uploads/2026/02/ForecastBench_A_Dynamic_.pdf" target="_blank" rel="noopener noreferrer nofollow">https://faculty.wharton.upenn.edu/wp-content/uploads/2026/02/ForecastBench_A_Dynamic_.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>upenn.eduFORECASTBENCH:ADYNAMIC BENCHMARK OF AI...by E Karger · Cited by 75 — Forecasts of future events are essential inputs into infor...</p></details>
+   Link:<a href="https://faculty.wharton.upenn.edu/wp-content/uploads/2026/02/ForecastBench_A_Dynamic_.pdf" target="_blank" rel="noopener noreferrer nofollow">https://faculty.wharton.upenn.edu/wp-content/uploads/2026/02/ForecastBench_A_Dynamic_.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>upenn.eduFORECASTBENCH:ADYNAMIC BENCHMARK OF AI...by E Karger · Cited by 75 — Forecasts of future events are essential inputs into infor...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: forum.effectivealtruism.org  
    Title: announcing forecastbench a new benchmark for ai and human  
-   Link: <a href="https://forum.effectivealtruism.org/posts/zwzgR8iuFEcJms3Hu/announcing-forecastbench-a-new-benchmark-for-ai-and-human" target="_blank" rel="noopener noreferrer nofollow">https://forum.effectivealtruism.org/posts/zwzgR8iuFEcJms3Hu/announcing-forecastbench-a-new-benchmark-for-ai-and-human</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBench, a new benchmark for AI and...1 Oct 2024 — ForecastBench is a new dynamic benchmark for evaluating AI and human forecastin...</p></details>
+   Link:<a href="https://forum.effectivealtruism.org/posts/zwzgR8iuFEcJms3Hu/announcing-forecastbench-a-new-benchmark-for-ai-and-human" target="_blank" rel="noopener noreferrer nofollow">https://forum.effectivealtruism.org/posts/zwzgR8iuFEcJms3Hu/announcing-forecastbench-a-new-benchmark-for-ai-and-human</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ForecastBench, a new benchmark for AI and...1 Oct 2024 — ForecastBench is a new dynamic benchmark for evaluating AI and human forecastin...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: lesswrong.com  
    Title: Approaching Human-Level Forecasting with Language Models  
-   Link: <a href="https://www.lesswrong.com/posts/K2F9g2aQubd7kwEr3/approaching-human-level-forecasting-with-language-models-2" target="_blank" rel="noopener noreferrer nofollow">https://www.lesswrong.com/posts/K2F9g2aQubd7kwEr3/approaching-human-level-forecasting-with-language-models-2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>February 29, 2024 — We develop a retrieval-augmented LM system designed to automatically search for relevant information, generate foreca...</p></details>
+   Link:<a href="https://www.lesswrong.com/posts/K2F9g2aQubd7kwEr3/approaching-human-level-forecasting-with-language-models-2" target="_blank" rel="noopener noreferrer nofollow">https://www.lesswrong.com/posts/K2F9g2aQubd7kwEr3/approaching-human-level-forecasting-with-language-models-2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>February 29, 2024 — We develop a retrieval-augmented LM system designed to automatically search for relevant information, generate foreca...</p></details>
    Published: February 29, 2024  
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: reddit.com  
    Title: Advancing Towards Human-Level Accuracy in Forecasting  
-   Link: <a href="https://www.reddit.com/r/singularity/comments/1b4ed8f/advancing_towards_humanlevel_accuracy_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/singularity/comments/1b4ed8f/advancing_towards_humanlevel_accuracy_in/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>March 2, 2024 — Advancing towards human-level accuracy in forecasting with language models: Achieving 71.5% precision with LLM-base...</p></details>
+   Link:<a href="https://www.reddit.com/r/singularity/comments/1b4ed8f/advancing_towards_humanlevel_accuracy_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/singularity/comments/1b4ed8f/advancing_towards_humanlevel_accuracy_in/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>March 2, 2024 — Advancing towards human-level accuracy in forecasting with language models: Achieving 71.5% precision with LLM-base...</p></details>
    Published: March 2, 2024  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/397196221_Approaching_Human-Level_Forecasting_with_Language_Models" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/397196221_Approaching_Human-Level_Forecasting_with_Language_Models</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>arable to that of competitive human forecasters [3], while dynamic...Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/397196221_Approaching_Human-Level_Forecasting_with_Language_Models" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/397196221_Approaching_Human-Level_Forecasting_with_Language_Models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>arable to that of competitive human forecasters [3], while dynamic...Read more...</p></details>

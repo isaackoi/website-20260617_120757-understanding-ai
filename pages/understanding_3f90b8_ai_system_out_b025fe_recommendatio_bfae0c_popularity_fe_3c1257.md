@@ -275,18 +275,18 @@ image: /assets/images/understanding_3f90b8_ai_system_out_b025fe_recommendatio_bf
 
 ## Introduction
 
-One of the most important ways recommendation systems shape [attention]({{ 'attention/' | relative_url }}) is through popularity feedback loops. A feedback loop occurs when content that receives early [engagement]({{ 'engagement-goals/' | relative_url }})—such as clicks, views, likes, watch time or shares—is interpreted by an algorithm as a signal of value. The system then exposes that content to more people, creating additional engagement that further strengthens the signal. Over time, a small initial advantage can become a large visibility advantage. Researchers often describe this as a “rich get richer” dynamic in which already-visible content becomes increasingly dominant. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2007.13019" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2EECS at UC Berkeley]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Feedback Loop and Bias Amplification in Recommender Systems</span><span class="citation-popover-snippet">arXivFeedback Loop and Bias Amplification in Recommender SystemsJuly 25, 2020</span></span></span>
+One of the most important ways recommendation systems shape [attention]({{ 'attention/' | relative_url }}) is through popularity feedback loops. A feedback loop occurs when content that receives early [engagement]({{ 'engagement-goals/' | relative_url }})—such as clicks, views, likes, watch time or shares—is interpreted by an algorithm as a signal of value. The system then exposes that content to more people, creating additional engagement that further strengthens the signal. Over time, a small initial advantage can become a large visibility advantage. Researchers often describe this as a “rich get richer” dynamic in which already-visible content becomes increasingly dominant.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2007.13019" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2EECS at UC Berkeley]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Feedback Loop and Bias Amplification in Recommender Systems</span><span class="citation-popover-snippet">arXivFeedback Loop and Bias Amplification in Recommender SystemsJuly 25, 2020</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_recommendatio_bfae0c_popularity_fe_3c1257-Illustration-1-dark.svg" | relative_url }}" alt="Feedback Loops illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_recommendatio_bfae0c_popularity_fe_3c1257-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_recommendatio_bfae0c_popularity_fe_3c1257-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This mechanism matters because recommendation systems are not simply measuring popularity; they can actively reinforce it. As a result, who receives attention online is often influenced not only by quality or relevance but also by how recommendation systems interpret and amplify early popularity signals. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: knightcolumbia.org">[Knight First Amendment Institute+2Springer]</a><span class="citation-popover" role="note"><span class="citation-popover-source">knightcolumbia.org</span><span class="citation-popover-title">understanding social media recommendation algorithms</span><span class="citation-popover-snippet">These algorithms are the engine that makes Facebook and YouTube what they are.Read more...</span></span></span>
+This mechanism matters because recommendation systems are not simply measuring popularity; they can actively reinforce it. As a result, who receives attention online is often influenced not only by quality or relevance but also by how recommendation systems interpret and amplify early popularity signals.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: knightcolumbia.org">[Knight First Amendment Institute+2Springer]</a><span class="citation-popover" role="note"><span class="citation-popover-source">knightcolumbia.org</span><span class="citation-popover-title">understanding social media recommendation algorithms</span><span class="citation-popover-snippet">These algorithms are the engine that makes Facebook and YouTube what they are.Read more...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/D4Us--bvFQo" title="Popularity Bias In Recommender Systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=D4Us--bvFQo" target="_blank" rel="noopener noreferrer">Popularity Bias In Recommender Systems</a></p><p class="youtube-embed-meta">Channel: Toronto Machine Learning Society (TMLS) &middot; Views: 166 &middot; Uploaded: July 2025 &middot; Length: 24 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=D4Us--bvFQo" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=D4Us--bvFQo">Open on YouTube</a></p></div></div></div>
 
 ## How popularity signals enter recommendations
 
-Recommendation systems rely on behavioural data to estimate what users are likely to engage with next. Among the many signals available, popularity is especially attractive because it is easy to measure. High view counts, strong engagement rates, rapid growth in interactions, and widespread sharing can all indicate that content is resonating with audiences. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: knightcolumbia.org">[Knight First Amendment Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">knightcolumbia.org</span><span class="citation-popover-title">understanding social media recommendation algorithms</span><span class="citation-popover-snippet">These algorithms are the engine that makes Facebook and YouTube what they are.Read more...</span></span></span>
+Recommendation systems rely on behavioural data to estimate what users are likely to engage with next. Among the many signals available, popularity is especially attractive because it is easy to measure. High view counts, strong engagement rates, rapid growth in interactions, and widespread sharing can all indicate that content is resonating with audiences.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: knightcolumbia.org">[Knight First Amendment Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">knightcolumbia.org</span><span class="citation-popover-title">understanding social media recommendation algorithms</span><span class="citation-popover-snippet">These algorithms are the engine that makes Facebook and YouTube what they are.Read more...</span></span></span>
 
 From the perspective of an algorithm, popularity can serve several purposes:
 
@@ -296,11 +296,11 @@ From the perspective of an algorithm, popularity can serve several purposes:
 * It may act as evidence that content is relevant or interesting.
 * It can reduce uncertainty about unfamiliar items.
 * It often predicts future engagement better than completely untested content.
-* It provides a simple ranking signal when large amounts of content compete for attention. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6206065/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">How algorithmic popularity bias hinders or promotes qualityby GL Ciampaglia · 2018 · Cited by 258 — Algorithms that favor popular item...</span></span></span>
+* It provides a simple ranking signal when large amounts of content compete for attention.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6206065/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">How algorithmic popularity bias hinders or promotes qualityby GL Ciampaglia · 2018 · Cited by 258 — Algorithms that favor popular item...</span></span></span>
 
 </div>
 
-The challenge is that popularity is not a neutral measurement. Once popularity becomes part of ranking [decisions]({{ 'decisions/' | relative_url }}), the algorithm begins influencing the very metric it uses. Every recommendation creates new opportunities for engagement, which then become additional evidence supporting future recommendations. Researchers identify this circular process as a core source of recommendation-system feedback loops. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2007.13019" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Concurrences]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Feedback Loop and Bias Amplification in Recommender Systems</span><span class="citation-popover-snippet">arXivFeedback Loop and Bias Amplification in Recommender SystemsJuly 25, 2020</span></span></span>
+The challenge is that popularity is not a neutral measurement. Once popularity becomes part of ranking [decisions]({{ 'decisions/' | relative_url }}), the algorithm begins influencing the very metric it uses. Every recommendation creates new opportunities for engagement, which then become additional evidence supporting future recommendations. Researchers identify this circular process as a core source of recommendation-system feedback loops.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2007.13019" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Concurrences]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Feedback Loop and Bias Amplification in Recommender Systems</span><span class="citation-popover-snippet">arXivFeedback Loop and Bias Amplification in Recommender SystemsJuly 25, 2020</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/10kDRYLcIHE" title="Your Desires Were Built Before You Called Them Choice" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=10kDRYLcIHE" target="_blank" rel="noopener noreferrer">Your Desires Were Built Before You Called Them Choice</a></p><p class="youtube-embed-meta">Channel: By Design &middot; Views: 11 &middot; Uploaded: May 2026 &middot; Length: 7 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=10kDRYLcIHE" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=10kDRYLcIHE">Open on YouTube</a></p></div></div></div>
@@ -381,194 +381,194 @@ Modern research on recommender systems increasingly examines ways to balance rel
 The central lesson is that recommendation systems do more than identify what is already popular. By deciding what people see next, they can create self-reinforcing cycles in which visibility generates more visibility. Understanding these feedback loops helps explain why small ranking differences can grow into major disparities in attention across the digital world. [arXiv+2Proceedings of Machine Learning Research](https://arxiv.org/abs/2007.13019)
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How Popular Content Becomes Even More Popular. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How Popular Content Becomes Even More Popular. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Formula+by+Albert-L%C3%A1szl%C3%B3+Barab%C3%A1si&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Formula on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KCmctAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Formula" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Formula+by+Albert-L%C3%A1szl%C3%B3+Barab%C3%A1si&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Formula">The Formula</a>
-        </h4>
-        <p class="fr-book-author">By Albert-László Barabási</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Formula+by+Albert-L%C3%A1szl%C3%B3+Barab%C3%A1si&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Formula on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KCmctAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Formula" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Formula+by+Albert-L%C3%A1szl%C3%B3+Barab%C3%A1si&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Formula">The Formula</a>
+</h4>
+<p class="fr-book-author">By Albert-László Barabási</p>
         
-        <p class="fr-book-desc">Explains cumulative advantage and rich-get-richer effects.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Formula+by+Albert-L%C3%A1szl%C3%B3+Barab%C3%A1si&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains cumulative advantage and rich-get-richer effects.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Formula+by+Albert-L%C3%A1szl%C3%B3+Barab%C3%A1si&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Filter Bubble on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Qn2ZnjzCE3gC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Filter Bubble" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Filter Bubble">The Filter Bubble</a>
-        </h4>
-        <p class="fr-book-author">By Eli Pariser</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Filter Bubble on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Qn2ZnjzCE3gC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Filter Bubble" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Filter Bubble">The Filter Bubble</a>
+</h4>
+<p class="fr-book-author">By Eli Pariser</p>
         
-        <p class="fr-book-desc">Shows how algorithms amplify visibility patterns.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how algorithms amplify visibility patterns.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Chaos+Machine+by+Max+Fisher&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Chaos Machine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Fz5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Chaos Machine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Chaos+Machine+by+Max+Fisher&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Chaos Machine">The Chaos Machine</a>
-        </h4>
-        <p class="fr-book-author">By Max Fisher</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Chaos+Machine+by+Max+Fisher&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Chaos Machine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Fz5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Chaos Machine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Chaos+Machine+by+Max+Fisher&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Chaos Machine">The Chaos Machine</a>
+</h4>
+<p class="fr-book-author">By Max Fisher</p>
         
-        <p class="fr-book-desc">Covers feedback loops driven by engagement and popularity.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Chaos+Machine+by+Max+Fisher&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers feedback loops driven by engagement and popularity.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Chaos+Machine+by+Max+Fisher&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Algorithms of Oppression on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AzlDDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Algorithms of Oppression" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Algorithms of Oppression">Algorithms of Oppression</a>
-        </h4>
-        <p class="fr-book-author">By Safiya Umoja Noble</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Algorithms of Oppression on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AzlDDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Algorithms of Oppression" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Algorithms of Oppression">Algorithms of Oppression</a>
+</h4>
+<p class="fr-book-author">By Safiya Umoja Noble</p>
         
-        <p class="fr-book-desc">Examines visibility amplification and ranking power.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines visibility amplification and ranking power.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Formula&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Formula</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Filter+Bubble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Filter Bubble</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Chaos+Machine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Chaos Machine</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Formula&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Formula</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Filter+Bubble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Filter Bubble</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Chaos+Machine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Chaos Machine</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="feedback-loops-how-popular-content-becomes-even-more-popular-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -584,7 +584,7 @@ The central lesson is that recommendation systems do more than identify what is 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -604,7 +604,7 @@ The central lesson is that recommendation systems do more than identify what is 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -636,7 +636,7 @@ The central lesson is that recommendation systems do more than identify what is 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -688,7 +688,7 @@ The central lesson is that recommendation systems do more than identify what is 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -733,7 +733,7 @@ The central lesson is that recommendation systems do more than identify what is 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -774,166 +774,166 @@ The central lesson is that recommendation systems do more than identify what is 
 
 ## Endnotes
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: www2.eecs.berkeley.edu  
    Title: EECS 2022 178  
-   Link: <a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/Archive/EECS-2022-178.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/Archive/EECS-2022-178.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>EECS at UC BerkeleyThe Dynamics of Recommender Systemsby K Krauth · 2022 · Cited by 1 — Beyond biased estimation, feedback loops are also...</p></details>
+   Link:<a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/Archive/EECS-2022-178.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www2.eecs.berkeley.edu/Pubs/TechRpts/2022/Archive/EECS-2022-178.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EECS at UC BerkeleyThe Dynamics of Recommender Systemsby K Krauth · 2022 · Cited by 1 — Beyond biased estimation, feedback loops are also...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: link.springer.com  
-   Link: <a href="https://link.springer.com/article/10.1007/s11257-024-09406-0" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/article/10.1007/s11257-024-09406-0</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A survey on popularity bias in recommender systemsby A Klimashevskaia · 2024 · Cited by 180 — In this paper, we discuss the poten...</p></details>
+   Link:<a href="https://link.springer.com/article/10.1007/s11257-024-09406-0" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/article/10.1007/s11257-024-09406-0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A survey on popularity bias in recommender systemsby A Klimashevskaia · 2024 · Cited by 180 — In this paper, we discuss the poten...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
    Title: arXiv A Survey on Popularity Bias in Recommender Systems  
-   Link: <a href="https://arxiv.org/abs/2308.01118" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2308.01118</a>  
+   Link:<a href="https://arxiv.org/abs/2308.01118" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2308.01118</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6206065/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC6206065/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How algorithmic popularity bias hinders or promotes qualityby GL Ciampaglia · 2018 · Cited by 258 — Algorithms that favor popular item...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6206065/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC6206065/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How algorithmic popularity bias hinders or promotes qualityby GL Ciampaglia · 2018 · Cited by 258 — Algorithms that favor popular item...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: awards.concurrences.com  
-   Link: <a href="https://awards.concurrences.com/docrestreint.api/pdf/nhad009.pdf" target="_blank" rel="noopener noreferrer nofollow">https://awards.concurrences.com/docrestreint.api/pdf/nhad009.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>more...</p></details>
+   Link:<a href="https://awards.concurrences.com/docrestreint.api/pdf/nhad009.pdf" target="_blank" rel="noopener noreferrer nofollow">https://awards.concurrences.com/docrestreint.api/pdf/nhad009.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>more...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: patents.google.com  
-   Link: <a href="https://patents.google.com/patent/WO2024249880A1/en" target="_blank" rel="noopener noreferrer nofollow">https://patents.google.com/patent/WO2024249880A1/en</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google PatentsImplementing and maintaining feedback loops in...Some feedback loops in recommender systems have the potential to amplify...</p></details>
+   Link:<a href="https://patents.google.com/patent/WO2024249880A1/en" target="_blank" rel="noopener noreferrer nofollow">https://patents.google.com/patent/WO2024249880A1/en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google PatentsImplementing and maintaining feedback loops in...Some feedback loops in recommender systems have the potential to amplify...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2504.04752" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2504.04752</a>  
+   Link:<a href="https://arxiv.org/abs/2504.04752" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2504.04752</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2203.00376" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2203.00376</a>  
+   Link:<a href="https://arxiv.org/abs/2203.00376" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2203.00376</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: researchgate.net  
    Title: Two anecdotal views exist about such effects.Read more  
-   Link: <a href="https://www.researchgate.net/publication/5198144_Blockbuster_Culture%27s_Next_Rise_or_Fall_The_Impact_of_Recommender_Systems_on_Sales_Diversity" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/5198144_Blockbuster_Culture%27s_Next_Rise_or_Fall_The_Impact_of_Recommender_Systems_on_Sales_Diversity</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of Recommender Systems on Sales DiversityOctober 1, 2007 — 25 May 2026 — This paper examines the effect of recomme...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/5198144_Blockbuster_Culture%27s_Next_Rise_or_Fall_The_Impact_of_Recommender_Systems_on_Sales_Diversity" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/5198144_Blockbuster_Culture%27s_Next_Rise_or_Fall_The_Impact_of_Recommender_Systems_on_Sales_Diversity</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of Recommender Systems on Sales DiversityOctober 1, 2007 — 25 May 2026 — This paper examines the effect of recomme...</p></details>
    Published: October 1, 2007  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: mdpi.com  
-   Link: <a href="https://www.mdpi.com/2078-2489/16/2/151" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2078-2489/16/2/151</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Popularity Bias in Recommender Systems: The Search for...by F Carnovalini · 2025 · Cited by 21 — While this bias stems from human te...</p></details>
+   Link:<a href="https://www.mdpi.com/2078-2489/16/2/151" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2078-2489/16/2/151</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Popularity Bias in Recommender Systems: The Search for...by F Carnovalini · 2025 · Cited by 21 — While this bias stems from human te...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/399768787_Dynamic_feedback_loops_in_recommender_systems_Analyzing_fairness_popularity_bias_and_user_group_disparities" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/399768787_Dynamic_feedback_loops_in_recommender_systems_Analyzing_fairness_popularity_bias_and_user_group_disparities</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Dynamic feedback loops in recommender systemsJan 17, 2026 — Overall, the results demonstrate that feedback loops magnify structural...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/399768787_Dynamic_feedback_loops_in_recommender_systems_Analyzing_fairness_popularity_bias_and_user_group_disparities" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/399768787_Dynamic_feedback_loops_in_recommender_systems_Analyzing_fairness_popularity_bias_and_user_group_disparities</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Dynamic feedback loops in recommender systemsJan 17, 2026 — Overall, the results demonstrate that feedback loops magnify structural...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: inovex.de  
    Title: fairness in recommender systems how to reduce the popularity bias  
-   Link: <a href="https://www.inovex.de/de/blog/fairness-in-recommender-systems-how-to-reduce-the-popularity-bias/" target="_blank" rel="noopener noreferrer nofollow">https://www.inovex.de/de/blog/fairness-in-recommender-systems-how-to-reduce-the-popularity-bias/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>inovex GmbHFairness in Recommender Systems: How to Reduce the...7 Apr 2022 — This article explains the popularity bias in recommender sy...</p></details>
+   Link:<a href="https://www.inovex.de/de/blog/fairness-in-recommender-systems-how-to-reduce-the-popularity-bias/" target="_blank" rel="noopener noreferrer nofollow">https://www.inovex.de/de/blog/fairness-in-recommender-systems-how-to-reduce-the-popularity-bias/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>inovex GmbHFairness in Recommender Systems: How to Reduce the...7 Apr 2022 — This article explains the popularity bias in recommender sy...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12453729/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12453729/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>nih.govEquiRate: balanced rating injection approach for popularity...by M Gulsoy · 2025 · Cited by 1 — A recent study addresses the prob...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12453729/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12453729/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>nih.govEquiRate: balanced rating injection approach for popularity...by M Gulsoy · 2025 · Cited by 1 — A recent study addresses the prob...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/346267408_Feedback_Loop_and_Bias_Amplification_in_Recommender_Systems" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/346267408_Feedback_Loop_and_Bias_Amplification_in_Recommender_Systems</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>to algorithmic recommendations; this creates a pernicious feedback loop.Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/346267408_Feedback_Loop_and_Bias_Amplification_in_Recommender_Systems" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/346267408_Feedback_Loop_and_Bias_Amplification_in_Recommender_Systems</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>to algorithmic recommendations; this creates a pernicious feedback loop.Read more...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: link.springer.com  
-   Link: <a href="https://link.springer.com/article/10.1007/s10844-026-01025-y" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/article/10.1007/s10844-026-01025-y</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>fairness, popularity bias, and user group disparitiesby Y Zoralioglu · 2026 · Cited by 1 — This study examines the interplay between popu...</p></details>
+   Link:<a href="https://link.springer.com/article/10.1007/s10844-026-01025-y" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/article/10.1007/s10844-026-01025-y</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>fairness, popularity bias, and user group disparitiesby Y Zoralioglu · 2026 · Cited by 1 — This study examines the interplay between popu...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2308.01118v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2308.01118v3</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Survey on Popularity Bias in Recommender SystemsIn this paper, we discuss the potential reasons for popularity bias and review existing...</p></details>
+   Link:<a href="https://arxiv.org/html/2308.01118v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2308.01118v3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Survey on Popularity Bias in Recommender SystemsIn this paper, we discuss the potential reasons for popularity bias and review existing...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2602.16315v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.16315v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Systemic Effects of Feedback Loops in Recommender...18 Feb 2026 — This article introduces a feedback-loop model and a flexible simulatio...</p></details>
+   Link:<a href="https://arxiv.org/html/2602.16315v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.16315v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Systemic Effects of Feedback Loops in Recommender...18 Feb 2026 — This article introduces a feedback-loop model and a flexible simulatio...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: knightcolumbia.org  
    Title: understanding social media recommendation algorithms  
-   Link: <a href="https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms" target="_blank" rel="noopener noreferrer nofollow">https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These algorithms are the engine that makes Facebook and YouTube what they are.Read more...</p></details>
+   Link:<a href="https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms" target="_blank" rel="noopener noreferrer nofollow">https://knightcolumbia.org/content/understanding-social-media-recommendation-algorithms</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These algorithms are the engine that makes Facebook and YouTube what they are.Read more...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: proceedings.mlr.press  
-   Link: <a href="https://proceedings.mlr.press/v294/kowald25a.html" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v294/kowald25a.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>more...</p></details>
+   Link:<a href="https://proceedings.mlr.press/v294/kowald25a.html" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v294/kowald25a.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>more...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: GOV.UK  
-   Link: <a href="https://www.gov.uk/government/publications/research-into-the-impact-of-streaming-services-algorithms-on-music-consumption/the-impact-of-algorithmically-driven-recommendation-systems-on-music-consumption-and-[production" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/government/publications/research-into-the-impact-of-streaming-services-algorithms-on-music-consumption/the-impact-of-algorithmically-driven-recommendation-systems-on-music-consumption-and-[production</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>impact of algorithmically driven recommendation...by D Hesmondhalgh · Cited by 60 — The impact of streaming platforms on musical product...</p></details>
+   Link:<a href="https://www.gov.uk/government/publications/research-into-the-impact-of-streaming-services-algorithms-on-music-consumption/the-impact-of-algorithmically-driven-recommendation-systems-on-music-consumption-and-[production" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/government/publications/research-into-the-impact-of-streaming-services-algorithms-on-music-consumption/the-impact-of-algorithmically-driven-recommendation-systems-on-music-consumption-and-[production</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>impact of algorithmically driven recommendation...by D Hesmondhalgh · Cited by 60 — The impact of streaming platforms on musical product...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: raw.githubusercontent.com  
-   Link: <a href="https://raw.githubusercontent.com/mlresearch/v294/main/assets/kowald25a/kowald25a.pdf" target="_blank" rel="noopener noreferrer nofollow">https://raw.githubusercontent.com/mlresearch/v294/main/assets/kowald25a/kowald25a.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Investigating Popularity Bias Amplification in Recommender...by D KOWALD · 2025 · Cited by 3 — Research has demonstrated that recommenda...</p></details>
+   Link:<a href="https://raw.githubusercontent.com/mlresearch/v294/main/assets/kowald25a/kowald25a.pdf" target="_blank" rel="noopener noreferrer nofollow">https://raw.githubusercontent.com/mlresearch/v294/main/assets/kowald25a/kowald25a.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Investigating Popularity Bias Amplification in Recommender...by D KOWALD · 2025 · Cited by 3 — Research has demonstrated that recommenda...</p></details>
 
 ### Additional References
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40kamalmeet/popularity-bias-in-recommendation-engines-2542d1cdb353" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kamalmeet/popularity-bias-in-recommendation-engines-2542d1cdb353</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Popularity Bias in Recommendation EnginesThis creates a feedback loop where popular items dominate visibility while others fade into obsc...</p></details>
+   Link:<a href="https://medium.com/%40kamalmeet/popularity-bias-in-recommendation-engines-2542d1cdb353" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kamalmeet/popularity-bias-in-recommendation-engines-2542d1cdb353</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Popularity Bias in Recommendation EnginesThis creates a feedback loop where popular items dominate visibility while others fade into obsc...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: Lawfare  
    Title: exploring tradeoffs in ranking and recommendation algorithms  
-   Link: <a href="https://www.lawfaremedia.org/article/exploring-tradeoffs-in-ranking-and-recommendation-algorithms" target="_blank" rel="noopener noreferrer nofollow">https://www.lawfaremedia.org/article/exploring-tradeoffs-in-ranking-and-recommendation-algorithms</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Tradeoffs in Ranking and Recommendation...by L Arcamona · 2023 — Recommender systems learn what users like, based on users&#x27; explicit rat...</p></details>
+   Link:<a href="https://www.lawfaremedia.org/article/exploring-tradeoffs-in-ranking-and-recommendation-algorithms" target="_blank" rel="noopener noreferrer nofollow">https://www.lawfaremedia.org/article/exploring-tradeoffs-in-ranking-and-recommendation-algorithms</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Tradeoffs in Ranking and Recommendation...by L Arcamona · 2023 — Recommender systems learn what users like, based on users&#x27; explicit rat...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/music-tomorrow/fairness-in-question-do-music-recommendation-algorithms-value-diversity-9906008939ae" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/music-tomorrow/fairness-in-question-do-music-recommendation-algorithms-value-diversity-9906008939ae</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>he rich indeed get richer as smaller artists get poorer.Read more...</p></details>
+   Link:<a href="https://medium.com/music-tomorrow/fairness-in-question-do-music-recommendation-algorithms-value-diversity-9906008939ae" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/music-tomorrow/fairness-in-question-do-music-recommendation-algorithms-value-diversity-9906008939ae</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>he rich indeed get richer as smaller artists get poorer.Read more...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: aman.ai  
-   Link: <a href="https://aman.ai/recsys/bias/" target="_blank" rel="noopener noreferrer nofollow">https://aman.ai/recsys/bias/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Aman&#x27;s AI Journal • Recommendation Systems • BiasRecommender systems are powerful tools in modern applications, helping to personalize co...</p></details>
+   Link:<a href="https://aman.ai/recsys/bias/" target="_blank" rel="noopener noreferrer nofollow">https://aman.ai/recsys/bias/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Aman&#x27;s AI Journal • Recommendation Systems • BiasRecommender systems are powerful tools in modern applications, helping to personalize co...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: topuniversities.com  
    Title: Q S Universities Rankings  
-   Link: <a href="https://www.topuniversities.com/university-rankings" target="_blank" rel="noopener noreferrer nofollow">https://www.topuniversities.com/university-rankings</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>QS Universities Rankings - Top Global...Explore global leading institutions by region, subject &amp; location ranked as per 6 ranking indica...</p></details>
+   Link:<a href="https://www.topuniversities.com/university-rankings" target="_blank" rel="noopener noreferrer nofollow">https://www.topuniversities.com/university-rankings</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>QS Universities Rankings - Top Global...Explore global leading institutions by region, subject &amp; location ranked as per 6 ranking indica...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: Wikipedia  
    Title: Recommender system  
-   Link: <a href="https://en.wikipedia.org/wiki/Recommender_system" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Recommender_system</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Recommender systemA recommender system, also called a recommendation algorithm, recommendation engine, or recommendation platform, is...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Recommender_system" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Recommender_system</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Recommender systemA recommender system, also called a recommendation algorithm, recommendation engine, or recommendation platform, is...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: dl.acm.org  
-   Link: <a href="https://dl.acm.org/doi/10.1145/3564284" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.1145/3564284</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryBias and Debias in Recommender System: A Survey...Such feedback loop not only creates biases but also intensifies bia...</p></details>
+   Link:<a href="https://dl.acm.org/doi/10.1145/3564284" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.1145/3564284</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryBias and Debias in Recommender System: A Survey...Such feedback loop not only creates biases but also intensifies bia...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=D4Us--bvFQo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=D4Us--bvFQo</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>sms proposed to control this bias, ranging...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=D4Us--bvFQo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=D4Us--bvFQo</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>sms proposed to control this bias, ranging...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=Kq8_jLSbMj8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Kq8_jLSbMj8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Feedback loops in data systems - Matthieu Ranger...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Kq8_jLSbMj8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Kq8_jLSbMj8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Feedback loops in data systems - Matthieu Ranger...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: youtube.com  
    Title: Your Desires Were Built Before You Called Them Choice  
-   Link: <a href="https://www.youtube.com/watch?v=10kDRYLcIHE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=10kDRYLcIHE</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mitigating Popularity Bias in Recommendation: Potential and Limits of Calibration...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=10kDRYLcIHE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=10kDRYLcIHE</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mitigating Popularity Bias in Recommendation: Potential and Limits of Calibration...</p></details>

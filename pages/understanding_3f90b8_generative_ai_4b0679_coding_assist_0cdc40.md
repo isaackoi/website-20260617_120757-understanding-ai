@@ -296,26 +296,26 @@ For many people, coding assistants are the first practical encounter with [gener
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0cdc40-Illustration-1-dark.svg" | relative_url }}" alt="Code Assistants illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0cdc40-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0cdc40-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-The harder question is whether faster coding translates into better [understanding]({{ 'understanding/' | relative_url }}). Evidence increasingly suggests that AI coding assistants often improve short-term productivity, but productivity and comprehension are not the same thing. Developers may complete tasks more quickly while understanding less about how the resulting software works, why it works, or where it might fail. Understanding this distinction is important for anyone trying to understand artificial intelligence, because it illustrates a broader theme: AI can amplify human output without necessarily increasing human expertise. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">This paper presents results from a controlled experiment with GitHub Copilot, an AI pair...</span></span></span>
+The harder question is whether faster coding translates into better [understanding]({{ 'understanding/' | relative_url }}). Evidence increasingly suggests that AI coding assistants often improve short-term productivity, but productivity and comprehension are not the same thing. Developers may complete tasks more quickly while understanding less about how the resulting software works, why it works, or where it might fail. Understanding this distinction is important for anyone trying to understand artificial intelligence, because it illustrates a broader theme: AI can amplify human output without necessarily increasing human expertise.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">This paper presents results from a controlled experiment with GitHub Copilot, an AI pair...</span></span></span>
 
 ## What Faster Code Completion Can and Cannot Prove
 
-The strongest evidence for productivity gains comes from controlled experiments. In one widely cited GitHub study, developers using Copilot completed a programming task roughly 56% faster than a control group without the tool. Participants also reported lower frustration and greater satisfaction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">This paper presents results from a controlled experiment with GitHub Copilot, an AI pair...</span></span></span>
+The strongest evidence for productivity gains comes from controlled experiments. In one widely cited GitHub study, developers using Copilot completed a programming task roughly 56% faster than a control group without the tool. Participants also reported lower frustration and greater satisfaction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">This paper presents results from a controlled experiment with GitHub Copilot, an AI pair...</span></span></span>
 
 These results demonstrate something important: AI can reduce the time required to produce working code. However, they do not automatically show that developers understand the code more deeply, write more maintainable systems, or become better engineers over time.
 
 This distinction matters because software development involves multiple skills:
 
 * Producing code.
-* Understanding existing code. <span class="citation-chip-wrap"><a class="citation-chip" href="https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cloudsecurityalliance.org">[cloudsecurityalliance.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cloudsecurityalliance.org</span><span class="citation-popover-title">understanding security risks in ai generated code</span><span class="citation-popover-snippet">Understanding Security Risks in AI-Generated CodeJul 9, 2025 — A recent study found that 62% of AI-generated code solutions contain desig...</span></span></span>
+* Understanding existing code.<span class="citation-chip-wrap"><a class="citation-chip" href="https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cloudsecurityalliance.org">[cloudsecurityalliance.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cloudsecurityalliance.org</span><span class="citation-popover-title">understanding security risks in ai generated code</span><span class="citation-popover-snippet">Understanding Security Risks in AI-Generated CodeJul 9, 2025 — A recent study found that 62% of AI-generated code solutions contain desig...</span></span></span>
 * Designing systems.
-* Identifying security risks. <span class="citation-chip-wrap"><a class="citation-chip" href="https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cloudsecurityalliance.org">[cloudsecurityalliance.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cloudsecurityalliance.org</span><span class="citation-popover-title">understanding security risks in ai generated code</span><span class="citation-popover-snippet">Understanding Security Risks in AI-Generated CodeJul 9, 2025 — A recent study found that 62% of AI-generated code solutions contain desig...</span></span></span>
+* Identifying security risks.<span class="citation-chip-wrap"><a class="citation-chip" href="https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cloudsecurityalliance.org">[cloudsecurityalliance.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cloudsecurityalliance.org</span><span class="citation-popover-title">understanding security risks in ai generated code</span><span class="citation-popover-snippet">Understanding Security Risks in AI-Generated CodeJul 9, 2025 — A recent study found that 62% of AI-generated code solutions contain desig...</span></span></span>
 * Maintaining software months or years later.
 * Explaining technical [decisions]({{ 'decisions/' | relative_url }}) to other people.
 
 An AI assistant may help with the first task while contributing little to the others. A developer who accepts generated code without examining it carefully may finish faster today but learn less about the underlying technology.
 
-Research and industry experience increasingly suggest that productivity gains are highly uneven. Simple and routine tasks often benefit the most, while complex design decisions, architectural choices, and debugging still require substantial human judgement. Some studies have even found little measurable improvement in real-world engineering metrics despite positive developer perceptions, suggesting that the feeling of [speed]({{ 'speed/' | relative_url }}) and the reality of organisational productivity are not always identical. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://uplevelteam.com/blog/ai-for-developer-productivity" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: uplevelteam.com">[uplevelteam.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">uplevelteam.com</span><span class="citation-popover-title">ai for developer productivity</span><span class="citation-popover-snippet">Analyzing actual engineering...Read more...</span></span></span>
+Research and industry experience increasingly suggest that productivity gains are highly uneven. Simple and routine tasks often benefit the most, while complex design decisions, architectural choices, and debugging still require substantial human judgement. Some studies have even found little measurable improvement in real-world engineering metrics despite positive developer perceptions, suggesting that the feeling of [speed]({{ 'speed/' | relative_url }}) and the reality of organisational productivity are not always identical.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://uplevelteam.com/blog/ai-for-developer-productivity" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: uplevelteam.com">[uplevelteam.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">uplevelteam.com</span><span class="citation-popover-title">ai for developer productivity</span><span class="citation-popover-snippet">Analyzing actual engineering...Read more...</span></span></span>
 
 ## Boilerplate, Test Generation, and Legacy Code Tasks
 
@@ -339,7 +339,7 @@ Large amounts of programming consist of predictable patterns:
 
 </div>
 
-AI systems are particularly effective at generating these structures because similar patterns appear repeatedly in their training data. In these situations, the assistant acts less like a creative programmer and more like an autocomplete system operating at a much larger scale. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2406.17910" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Evaluating the Efficiency and Challenges of Git Hub Copilot</span><span class="citation-popover-snippet">Evaluating the Efficiency and Challenges of GitHub Copilot...June 25, 2024 — by R Pandey · 2024 · Cited by 61 — This study evaluate...</span><span class="citation-popover-meta">Published: June 25, 2024</span></span></span>
+AI systems are particularly effective at generating these structures because similar patterns appear repeatedly in their training data. In these situations, the assistant acts less like a creative programmer and more like an autocomplete system operating at a much larger scale.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2406.17910" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Evaluating the Efficiency and Challenges of Git Hub Copilot</span><span class="citation-popover-snippet">Evaluating the Efficiency and Challenges of GitHub Copilot...June 25, 2024 — by R Pandey · 2024 · Cited by 61 — This study evaluate...</span><span class="citation-popover-meta">Published: June 25, 2024</span></span></span>
 
 The productivity benefit can be genuine. Developers spend less time reproducing familiar structures and more time focusing on higher-level problems.
 
@@ -363,9 +363,9 @@ This does not mean AI tools are harmful. It means that the benefits depend on ho
 
 The most important question often arises after the code has been generated: can the developer confidently review it?
 
-Many AI-generated programs are syntactically correct and appear professional. This appearance can create a false sense of reliability. Researchers have repeatedly found that coding assistants may generate insecure or flawed solutions even when the code looks convincing. A replication study examining Copilot-generated Python code found that newer versions improved compared with earlier releases, but insecure suggestions still appeared in more than a quarter of generated solutions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.11177" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Assessing the Security of GitHub Copilot Generated Code -- A Targeted Replication StudyNovember 18, 2023...</span><span class="citation-popover-meta">Published: November 18, 2023</span></span></span>
+Many AI-generated programs are syntactically correct and appear professional. This appearance can create a false sense of reliability. Researchers have repeatedly found that coding assistants may generate insecure or flawed solutions even when the code looks convincing. A replication study examining Copilot-generated Python code found that newer versions improved compared with earlier releases, but insecure suggestions still appeared in more than a quarter of generated solutions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.11177" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Assessing the Security of GitHub Copilot Generated Code -- A Targeted Replication StudyNovember 18, 2023...</span><span class="citation-popover-meta">Published: November 18, 2023</span></span></span>
 
-Other studies and industry analyses have continued to identify significant vulnerability rates in AI-generated code, particularly when developers rely heavily on generated outputs without applying security review processes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.veracode.com/blog/securing-ai-code-generation-appsec/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: veracode.com">[Veracode+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">veracode.com</span><span class="citation-popover-title">securing ai code generation appsec</span><span class="citation-popover-snippet">Why Securing AI Code Generation is Critical for AppSecApr 14, 2026 — In nearly half of all cases (45% to be exact) AI coding assi...</span></span></span>
+Other studies and industry analyses have continued to identify significant vulnerability rates in AI-generated code, particularly when developers rely heavily on generated outputs without applying security review processes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.veracode.com/blog/securing-ai-code-generation-appsec/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: veracode.com">[Veracode+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">veracode.com</span><span class="citation-popover-title">securing ai code generation appsec</span><span class="citation-popover-snippet">Why Securing AI Code Generation is Critical for AppSecApr 14, 2026 — In nearly half of all cases (45% to be exact) AI coding assi...</span></span></span>
 
 The challenge is not simply that AI makes mistakes. Human programmers make mistakes as well. The challenge is that AI can generate large volumes of plausible-looking code quickly, increasing the amount that must be reviewed.
 
@@ -379,7 +379,7 @@ Developers therefore need to ask questions such as:
 * Why does this implementation work?
 * What assumptions does it make?
 * How does it handle failure conditions?
-* What security risks exist? <span class="citation-chip-wrap"><a class="citation-chip" href="https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cloudsecurityalliance.org">[cloudsecurityalliance.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cloudsecurityalliance.org</span><span class="citation-popover-title">understanding security risks in ai generated code</span><span class="citation-popover-snippet">Understanding Security Risks in AI-Generated CodeJul 9, 2025 — A recent study found that 62% of AI-generated code solutions contain desig...</span></span></span>
+* What security risks exist?<span class="citation-chip-wrap"><a class="citation-chip" href="https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cloudsecurityalliance.org">[cloudsecurityalliance.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cloudsecurityalliance.org</span><span class="citation-popover-title">understanding security risks in ai generated code</span><span class="citation-popover-snippet">Understanding Security Risks in AI-Generated CodeJul 9, 2025 — A recent study found that 62% of AI-generated code solutions contain desig...</span></span></span>
 * Would I be comfortable maintaining this code next year?
 
 </div>
@@ -393,7 +393,7 @@ If those questions cannot be answered, the software may be functioning without b
 
 One of the most interesting findings from recent research is that AI-generated productivity gains may create new burdens for experienced developers.
 
-Studies of software projects suggest that AI can increase the amount of code being produced, particularly by less-experienced contributors. However, the resulting code may require additional review, correction, and maintenance by senior engineers. In one analysis of open-source projects, productivity increases were accompanied by increased review and rework demands on experienced developers. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.10165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">AI-assisted Programming May Decrease the Productivity of Experienced Developers by Increasing Maintenance BurdenOctober 11, 2025...</span><span class="citation-popover-meta">Published: October 11, 2025</span></span></span>
+Studies of software projects suggest that AI can increase the amount of code being produced, particularly by less-experienced contributors. However, the resulting code may require additional review, correction, and maintenance by senior engineers. In one analysis of open-source projects, productivity increases were accompanied by increased review and rework demands on experienced developers.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.10165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">AI-assisted Programming May Decrease the Productivity of Experienced Developers by Increasing Maintenance BurdenOctober 11, 2025...</span><span class="citation-popover-meta">Published: October 11, 2025</span></span></span>
 
 This highlights an important misunderstanding about [automation]({{ 'automation-bias/' | relative_url }}). Writing code is only one stage of software development. Someone must still evaluate quality, security, maintainability, and long-term consequences.
 
@@ -418,194 +418,194 @@ For understanding artificial intelligence, this distinction is crucial. AI syste
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0cdc40-Illustration-3-dark.svg" | relative_url }}" alt="Code Assistants illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0cdc40-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0cdc40-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Do AI Coding Tools Make Better Programmers?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Do AI Coding Tools Make Better Programmers?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Designing Data-intensive Applications on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BM7woQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Designing Data-intensive Applications" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Designing Data-intensive Applications">Designing Data-intensive Applications</a>
-        </h4>
-        <p class="fr-book-author">By Martin Kleppmann</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Designing Data-intensive Applications on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BM7woQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Designing Data-intensive Applications" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Designing Data-intensive Applications">Designing Data-intensive Applications</a>
+</h4>
+<p class="fr-book-author">By Martin Kleppmann</p>
         
-        <p class="fr-book-desc">Promotes deeper system understanding beyond code generation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Promotes deeper system understanding beyond code generation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Designing+Data-intensive+Applications+by+Martin+Kleppmann&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Pragmatic Programmer on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=LhOlDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Pragmatic Programmer" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Pragmatic Programmer">The Pragmatic Programmer</a>
-        </h4>
-        <p class="fr-book-author">By David Thomas, Andrew Hunt</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Pragmatic Programmer on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=LhOlDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Pragmatic Programmer" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Pragmatic Programmer">The Pragmatic Programmer</a>
+</h4>
+<p class="fr-book-author">By David Thomas, Andrew Hunt</p>
         
-        <p class="fr-book-desc">Emphasizes understanding, judgment, and long-term engineering skill.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Emphasizes understanding, judgment, and long-term engineering skill.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Clean Code on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=hjEFCAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Clean Code" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Clean Code">Clean Code</a>
-        </h4>
-        <p class="fr-book-author">By Robert C. Martin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Clean Code on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=hjEFCAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Clean Code" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Clean Code">Clean Code</a>
+</h4>
+<p class="fr-book-author">By Robert C. Martin</p>
         
-        <p class="fr-book-desc">Highlights code quality and comprehension beyond mere output.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Highlights code quality and comprehension beyond mere output.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Code Complete on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Code Complete">Code Complete</a>
-        </h4>
-        <p class="fr-book-author">By Steve McConnell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Code Complete on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Code Complete">Code Complete</a>
+</h4>
+<p class="fr-book-author">By Steve McConnell</p>
         
-        <p class="fr-book-desc">Focuses on building robust programming knowledge and practices.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on building robust programming knowledge and practices.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Designing+Data+intensive+Applications&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Designing Data intensive Applications</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Pragmatic Programmer</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Clean+Code&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Clean Code</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Designing+Data+intensive+Applications&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Designing Data intensive Applications</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Pragmatic Programmer</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Clean+Code&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Clean Code</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3"><img src="{{ '/assets/images/marketplace-covers/48f8430f427e44043fc1.jpg' | relative_url }}" alt="Listing image for Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3"><img src="{{ '/assets/images/marketplace-covers/48f8430f427e44043fc1.jpg' | relative_url }}" alt="Listing image for Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Morse Code Alphabet Chart Poster Educational Wall Poster Print Modern - A5 A4 A3</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Coder Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b93df232d4f49ade265c.jpg' | relative_url }}" alt="Listing image for Coding Coder Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Coding Coder Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Coder Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b93df232d4f49ade265c.jpg' | relative_url }}" alt="Listing image for Coding Coder Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Coding Coder Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8ba80ddd3cc27fa6c1b9.jpg' | relative_url }}" alt="Listing image for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Never Give Up Coding Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8ba80ddd3cc27fa6c1b9.jpg' | relative_url }}" alt="Listing image for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Never Give Up Coding Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Phonetic Alphabet Print International Code Informative Education Poster Referenc"><img src="{{ '/assets/images/marketplace-covers/9db01dc8cb60f65f5838.jpg' | relative_url }}" alt="Listing image for Phonetic Alphabet Print International Code Informative Education Poster Referenc" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Phonetic Alphabet Print International Code Informative Education Poster Referenc</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Phonetic Alphabet Print International Code Informative Education Poster Referenc"><img src="{{ '/assets/images/marketplace-covers/9db01dc8cb60f65f5838.jpg' | relative_url }}" alt="Listing image for Phonetic Alphabet Print International Code Informative Education Poster Referenc" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Phonetic Alphabet Print International Code Informative Education Poster Referenc</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="code-assistants-do-ai-coding-tools-make-better-programmers-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -621,7 +621,7 @@ For understanding artificial intelligence, this distinction is crucial. AI syste
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -641,7 +641,7 @@ For understanding artificial intelligence, this distinction is crucial. AI syste
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -673,7 +673,7 @@ For understanding artificial intelligence, this distinction is crucial. AI syste
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -725,7 +725,7 @@ For understanding artificial intelligence, this distinction is crucial. AI syste
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -770,7 +770,7 @@ For understanding artificial intelligence, this distinction is crucial. AI syste
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -811,138 +811,138 @@ For understanding artificial intelligence, this distinction is crucial. AI syste
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2302.06590</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>This paper presents results from a controlled experiment with GitHub Copilot, an AI pair...</p></details>
+   Link:<a href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2302.06590</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This paper presents results from a controlled experiment with GitHub Copilot, an AI pair...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: github.blog  
-   Link: <a href="https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/" target="_blank" rel="noopener noreferrer nofollow">https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The GitHub Blogquantifying GitHub Copilot&#x27;s impact on developer...7 Sept 2022 — In our research, we saw that GitHub Copilot supports fas...</p></details>
+   Link:<a href="https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/" target="_blank" rel="noopener noreferrer nofollow">https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The GitHub Blogquantifying GitHub Copilot&#x27;s impact on developer...7 Sept 2022 — In our research, we saw that GitHub Copilot supports fas...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: uplevelteam.com  
    Title: ai for developer productivity  
-   Link: <a href="https://uplevelteam.com/blog/ai-for-developer-productivity" target="_blank" rel="noopener noreferrer nofollow">https://uplevelteam.com/blog/ai-for-developer-productivity</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Analyzing actual engineering...Read more...</p></details>
+   Link:<a href="https://uplevelteam.com/blog/ai-for-developer-productivity" target="_blank" rel="noopener noreferrer nofollow">https://uplevelteam.com/blog/ai-for-developer-productivity</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Analyzing actual engineering...Read more...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2602.03593v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.03593v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Developer Perspectives on Productivity with AI Coding...3 Feb 2026 — Our survey results show that, while satisfaction with coding assist...</p></details>
+   Link:<a href="https://arxiv.org/html/2602.03593v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.03593v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Developer Perspectives on Productivity with AI Coding...3 Feb 2026 — Our survey results show that, while satisfaction with coding assist...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
    Title: arXiv Evaluating the Efficiency and Challenges of Git Hub Copilot  
-   Link: <a href="https://arxiv.org/abs/2406.17910" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2406.17910</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating the Efficiency and Challenges of GitHub Copilot...June 25, 2024 — by R Pandey · 2024 · Cited by 61 — This study evaluate...</p></details>
+   Link:<a href="https://arxiv.org/abs/2406.17910" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2406.17910</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating the Efficiency and Challenges of GitHub Copilot...June 25, 2024 — by R Pandey · 2024 · Cited by 61 — This study evaluate...</p></details>
    Published: June 25, 2024  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: github.com  
-   Link: <a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer nofollow">https://github.com/features/copilot</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot · Your AI pair programmerCode, command, and collaborate · Make your editor your most powerful accelerator · Ship faster wi...</p></details>
+   Link:<a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer nofollow">https://github.com/features/copilot</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot · Your AI pair programmerCode, command, and collaborate · Make your editor your most powerful accelerator · Ship faster wi...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2311.11177" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2311.11177</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Assessing the Security of GitHub Copilot Generated Code -- A Targeted Replication StudyNovember 18, 2023...</p></details>
+   Link:<a href="https://arxiv.org/abs/2311.11177" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2311.11177</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Assessing the Security of GitHub Copilot Generated Code -- A Targeted Replication StudyNovember 18, 2023...</p></details>
    Published: November 18, 2023  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: veracode.com  
    Title: securing ai code generation appsec  
-   Link: <a href="https://www.veracode.com/blog/securing-ai-code-generation-appsec/" target="_blank" rel="noopener noreferrer nofollow">https://www.veracode.com/blog/securing-ai-code-generation-appsec/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Securing AI Code Generation is Critical for AppSecApr 14, 2026 — In nearly half of all cases (45% to be exact) AI coding assi...</p></details>
+   Link:<a href="https://www.veracode.com/blog/securing-ai-code-generation-appsec/" target="_blank" rel="noopener noreferrer nofollow">https://www.veracode.com/blog/securing-ai-code-generation-appsec/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Securing AI Code Generation is Critical for AppSecApr 14, 2026 — In nearly half of all cases (45% to be exact) AI coding assi...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The research analyzed over 100 large [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) (LLMs) across 80 coding tasks and revealed no significant improvement in security pe...</p></details>
+   Link:<a href="https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/nearly-half-of-all-code-generated-by-ai-found-to-contain-security-flaws-even-big-llms-affected</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The research analyzed over 100 large [language models](&amp;#123;&amp;#123; &#x27;language-models/&#x27; | relative_url &amp;#125;&amp;#125;) (LLMs) across 80 coding tasks and revealed no significant improvement in security pe...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2510.10165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.10165</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-assisted Programming May Decrease the Productivity of Experienced Developers by Increasing Maintenance BurdenOctober 11, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2510.10165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.10165</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-assisted Programming May Decrease the Productivity of Experienced Developers by Increasing Maintenance BurdenOctober 11, 2025...</p></details>
    Published: October 11, 2025  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: github.com  
    Title: Git Hub · Change is constant  
-   Link: <a href="https://github.com/" target="_blank" rel="noopener noreferrer nofollow">https://github.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub keeps you ahead. · GitHubFrom your first line of code to final deployment, GitHub provides AI and automation tools to help you bui...</p></details>
+   Link:<a href="https://github.com/" target="_blank" rel="noopener noreferrer nofollow">https://github.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub keeps you ahead. · GitHubFrom your first line of code to final deployment, GitHub provides AI and automation tools to help you bui...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: gist.github.com  
-   Link: <a href="https://gist.github.com/sausheong/2f4c4845d44b31075bb1a3285ed40919" target="_blank" rel="noopener noreferrer nofollow">https://gist.github.com/sausheong/2f4c4845d44b31075bb1a3285ed40919</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Coding Assistant Surveys by CompaniesVarious AI Coding Tools, Survey, 57% of developers found AI tools beneficial for skill development a...</p></details>
+   Link:<a href="https://gist.github.com/sausheong/2f4c4845d44b31075bb1a3285ed40919" target="_blank" rel="noopener noreferrer nofollow">https://gist.github.com/sausheong/2f4c4845d44b31075bb1a3285ed40919</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Coding Assistant Surveys by CompaniesVarious AI Coding Tools, Survey, 57% of developers found AI tools beneficial for skill development a...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2605.23130v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2605.23130v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How AI Coding Assistants Transform Developers&#x27; Security...22 May 2026 — While prior work has documented vulnerability rates in AI-genera...</p></details>
+   Link:<a href="https://arxiv.org/html/2605.23130v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2605.23130v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How AI Coding Assistants Transform Developers&#x27; Security...22 May 2026 — While prior work has documented vulnerability rates in AI-genera...</p></details>
    Published: May 2026  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2506.11022" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2506.11022</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Security Degradation in Iterative AI Code Generationby S Shukla · 2025 · Cited by 13 — This paper addresses this research gap by systemat...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2506.11022" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2506.11022</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Security Degradation in Iterative AI Code Generationby S Shukla · 2025 · Cited by 13 — This paper addresses this research gap by systemat...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: cloudsecurityalliance.org  
    Title: understanding security risks in ai generated code  
-   Link: <a href="https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code" target="_blank" rel="noopener noreferrer nofollow">https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding Security Risks in AI-Generated CodeJul 9, 2025 — A recent study found that 62% of AI-generated code solutions contain desig...</p></details>
+   Link:<a href="https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code" target="_blank" rel="noopener noreferrer nofollow">https://cloudsecurityalliance.org/blog/2025/07/09/understanding-security-risks-in-ai-generated-code</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding Security Risks in AI-Generated CodeJul 9, 2025 — A recent study found that 62% of AI-generated code solutions contain desig...</p></details>
 
 ### Additional References
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/381609417_The_impact_of_GitHub_Copilot_on_developer_productivity_from_a_software_engineering_body_of_knowledge_perspective" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/381609417_The_impact_of_GitHub_Copilot_on_developer_productivity_from_a_software_engineering_body_of_knowledge_perspective</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) The impact of GitHub Copilot on developer...14 Aug 2024 — A case study was conducted at a leading automotive organization investig...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/381609417_The_impact_of_GitHub_Copilot_on_developer_productivity_from_a_software_engineering_body_of_knowledge_perspective" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/381609417_The_impact_of_GitHub_Copilot_on_developer_productivity_from_a_software_engineering_body_of_knowledge_perspective</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) The impact of GitHub Copilot on developer...14 Aug 2024 — A case study was conducted at a leading automotive organization investig...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/395806676_Developer_Productivity_With_and_Without_GitHub_Copilot_A_Longitudinal_Mixed-Methods_Case_Study" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/395806676_Developer_Productivity_With_and_Without_GitHub_Copilot_A_Longitudinal_Mixed-Methods_Case_Study</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Developer Productivity With and Without GitHub Copilot24 Sept 2025 — This study investigates the real-world impact of the generative AI (...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/395806676_Developer_Productivity_With_and_Without_GitHub_Copilot_A_Longitudinal_Mixed-Methods_Case_Study" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/395806676_Developer_Productivity_With_and_Without_GitHub_Copilot_A_Longitudinal_Mixed-Methods_Case_Study</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Developer Productivity With and Without GitHub Copilot24 Sept 2025 — This study investigates the real-world impact of the generative AI (...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/401623597_Security_Risks_in_AI-Generated_Code_Security_Risks_in_AI-Generated_Code_Investigating_Vulnerabilities_Introduced_by_AI_Coding_Assistants_A_Research_Study_on_Claude_Code_and_Generative_AI_Development_T" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/401623597_Security_Risks_in_AI-Generated_Code_Security_Risks_in_AI-Generated_Code_Investigating_Vulnerabilities_Introduced_by_AI_Coding_Assistants_A_Research_Study_on_Claude_Code_and_Generative_AI_Development_T</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Security Risks in AI-Generated Code...6 Mar 2026 — This research paper investigates potential security risks in AI-generated code...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/401623597_Security_Risks_in_AI-Generated_Code_Security_Risks_in_AI-Generated_Code_Investigating_Vulnerabilities_Introduced_by_AI_Coding_Assistants_A_Research_Study_on_Claude_Code_and_Generative_AI_Development_T" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/401623597_Security_Risks_in_AI-Generated_Code_Security_Risks_in_AI-Generated_Code_Investigating_Vulnerabilities_Introduced_by_AI_Coding_Assistants_A_Research_Study_on_Claude_Code_and_Generative_AI_Development_T</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Security Risks in AI-Generated Code...6 Mar 2026 — This research paper investigates potential security risks in AI-generated code...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: blesssphere.com  
-   Link: <a href="https://blesssphere.com/ai-developer-productivity-github-copilot-results/" target="_blank" rel="noopener noreferrer nofollow">https://blesssphere.com/ai-developer-productivity-github-copilot-results/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot Results Show 55% Faster Development...GitHub/MIT research shows 55% productivity gain with Copilot. See real AI-powered d...</p></details>
+   Link:<a href="https://blesssphere.com/ai-developer-productivity-github-copilot-results/" target="_blank" rel="noopener noreferrer nofollow">https://blesssphere.com/ai-developer-productivity-github-copilot-results/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot Results Show 55% Faster Development...GitHub/MIT research shows 55% productivity gain with Copilot. See real AI-powered d...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: visualstudiomagazine.com  
-   Link: <a href="https://visualstudiomagazine.com/articles/2024/11/22/article_0github-copilot-research-claims-code-quality-gains-in-addition-to-productivity.aspx" target="_blank" rel="noopener noreferrer nofollow">https://visualstudiomagazine.com/articles/2024/11/22/article_0github-copilot-research-claims-code-quality-gains-in-addition-to-productivity.aspx</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Research Claims Copilot Code Quality Gains in...22 Nov 2024 — GitHub says new research proves its Copilot AI tool can improve cod...</p></details>
+   Link:<a href="https://visualstudiomagazine.com/articles/2024/11/22/article_0github-copilot-research-claims-code-quality-gains-in-addition-to-productivity.aspx" target="_blank" rel="noopener noreferrer nofollow">https://visualstudiomagazine.com/articles/2024/11/22/article_0github-copilot-research-claims-code-quality-gains-in-addition-to-productivity.aspx</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Research Claims Copilot Code Quality Gains in...22 Nov 2024 — GitHub says new research proves its Copilot AI tool can improve cod...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/397890586_Empirical_Analysis_of_AI-Assisted_Code_Generation_Tools_Impact_on_Code_Quality_Security_and_Developer_Productivity" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/397890586_Empirical_Analysis_of_AI-Assisted_Code_Generation_Tools_Impact_on_Code_Quality_Security_and_Developer_Productivity</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Empirical Analysis of AI-Assisted Code Generation Tools...28 Nov 2025 — Results: The use of AI-assistive tools lead to a 31.4% increase...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/397890586_Empirical_Analysis_of_AI-Assisted_Code_Generation_Tools_Impact_on_Code_Quality_Security_and_Developer_Productivity" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/397890586_Empirical_Analysis_of_AI-Assisted_Code_Generation_Tools_Impact_on_Code_Quality_Security_and_Developer_Productivity</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Empirical Analysis of AI-Assisted Code Generation Tools...28 Nov 2025 — Results: The use of AI-assistive tools lead to a 31.4% increase...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/devsecops/comments/zsk9g8/ai_coding_assistance_and_its_effect_on_code/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/devsecops/comments/zsk9g8/ai_coding_assistance_and_its_effect_on_code/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI coding assistance and its effect on code securityAnd today I came across this study saying that coders who used AI assistants are not...</p></details>
+   Link:<a href="https://www.reddit.com/r/devsecops/comments/zsk9g8/ai_coding_assistance_and_its_effect_on_code/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/devsecops/comments/zsk9g8/ai_coding_assistance_and_its_effect_on_code/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI coding assistance and its effect on code securityAnd today I came across this study saying that coders who used AI assistants are not...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: dev.to  
-   Link: <a href="https://dev.to/aditi_bhatnagar_0250c01e4/your-ai-coding-assistant-is-probably-writing-vulnerabilities-heres-how-to-catch-them-3k8j" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/aditi_bhatnagar_0250c01e4/your-ai-coding-assistant-is-probably-writing-vulnerabilities-heres-how-to-catch-them-3k8j</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-generated code introduced security flaws in 45% of test cases. Not edge cases. Not obscure languages. Common OWASP Top...Read more...</p></details>
+   Link:<a href="https://dev.to/aditi_bhatnagar_0250c01e4/your-ai-coding-assistant-is-probably-writing-vulnerabilities-heres-how-to-catch-them-3k8j" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/aditi_bhatnagar_0250c01e4/your-ai-coding-assistant-is-probably-writing-vulnerabilities-heres-how-to-catch-them-3k8j</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-generated code introduced security flaws in 45% of test cases. Not edge cases. Not obscure languages. Common OWASP Top...Read more...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/368473822_The_Impact_of_AI_on_Developer_Productivity_Evidence_from_GitHub_Copilot" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/368473822_The_Impact_of_AI_on_Developer_Productivity_Evidence_from_GitHub_Copilot</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(2023) reported in a controlled study that GitHub Copilot increased programmer productivity by approximately 55% on a specific task...R...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/368473822_The_Impact_of_AI_on_Developer_Productivity_Evidence_from_GitHub_Copilot" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/368473822_The_Impact_of_AI_on_Developer_Productivity_Evidence_from_GitHub_Copilot</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(2023) reported in a controlled study that GitHub Copilot increased programmer productivity by approximately 55% on a specific task...R...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: vladimirsiedykh.com  
-   Link: <a href="https://vladimirsiedykh.com/blog/ai-development-team-productivity-github-research-developer-community-studies-2025" target="_blank" rel="noopener noreferrer nofollow">https://vladimirsiedykh.com/blog/ai-development-team-productivity-github-research-developer-community-studies-2025</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI developer productivity in 2025: what GitHub data...24 Aug 2025 — Between 60-75% of GitHub Copilot users reported increased job fulfill...</p></details>
+   Link:<a href="https://vladimirsiedykh.com/blog/ai-development-team-productivity-github-research-developer-community-studies-2025" target="_blank" rel="noopener noreferrer nofollow">https://vladimirsiedykh.com/blog/ai-development-team-productivity-github-research-developer-community-studies-2025</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI developer productivity in 2025: what GitHub data...24 Aug 2025 — Between 60-75% of GitHub Copilot users reported increased job fulfill...</p></details>

@@ -269,15 +269,15 @@ image: /assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2
 
 ## Introduction
 
-An AI score does not usually change anyone’s life on its own. The turning point comes when an organisation decides that a particular score should trigger a particular action. A fraud score above a chosen threshold may freeze a transaction. A lending score below a cutoff may lead to rejection. A [healthcare]({{ 'health-proxy/' | relative_url }}) risk score above a warning level may trigger extra tests or urgent review. The threshold is the bridge between [prediction]({{ 'error-harms/' | relative_url }}) and consequence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11785855/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Assessing Risk in Implementing New Artificial Intelligence...by A Nord-Bronzyk · 2025 · Cited by 15 — If the risk score is above a th...</span></span></span>
+An AI score does not usually change anyone’s life on its own. The turning point comes when an organisation decides that a particular score should trigger a particular action. A fraud score above a chosen threshold may freeze a transaction. A lending score below a cutoff may lead to rejection. A [healthcare]({{ 'health-proxy/' | relative_url }}) risk score above a warning level may trigger extra tests or urgent review. The threshold is the bridge between [prediction]({{ 'error-harms/' | relative_url }}) and consequence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11785855/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Assessing Risk in Implementing New Artificial Intelligence...by A Nord-Bronzyk · 2025 · Cited by 15 — If the risk score is above a th...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2ed8a_risk_score_th_d9070f-Illustration-1-dark.svg" | relative_url }}" alt="Thresholds illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2ed8a_risk_score_th_d9070f-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2ed8a_risk_score_th_d9070f-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This means that an AI system’s real-world impact often depends as much on threshold design as on the accuracy of the model itself. A small adjustment to a threshold can change who receives attention, who is delayed, who is approved, and who is denied access to services. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI Risks and Trustworthiness</span><span class="citation-popover-snippet">NIST AI Resource CenterAI Risks and Trustworthiness - AIRC - NIST AI Resource CenterHuman judgment should be employed when deciding on th...</span></span></span>
+This means that an AI system’s real-world impact often depends as much on threshold design as on the accuracy of the model itself. A small adjustment to a threshold can change who receives attention, who is delayed, who is approved, and who is denied access to services.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI Risks and Trustworthiness</span><span class="citation-popover-snippet">NIST AI Resource CenterAI Risks and Trustworthiness - AIRC - NIST AI Resource CenterHuman judgment should be employed when deciding on th...</span></span></span>
 
 ## How thresholds turn predictions into actions
 
-Most AI risk-scoring systems follow a simple operational pattern: <span class="citation-chip-wrap"><a class="citation-chip" href="https://verifywise.ai/lexicon/dynamic-risk-scoring-for-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: verifywise.ai">[verifywise.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">verifywise.ai</span><span class="citation-popover-snippet">AI risk scoring &#124; AI Governance LexiconAI risk scoring assigns and updates risk levels based on real-time performance and compliance data...</span></span></span>
+Most AI risk-scoring systems follow a simple operational pattern:<span class="citation-chip-wrap"><a class="citation-chip" href="https://verifywise.ai/lexicon/dynamic-risk-scoring-for-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: verifywise.ai">[verifywise.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">verifywise.ai</span><span class="citation-popover-snippet">AI risk scoring &#124; AI Governance LexiconAI risk scoring assigns and updates risk levels based on real-time performance and compliance data...</span></span></span>
 
 
 <div class="content-enhancement content-enhancement--step-flow" markdown="1">
@@ -300,7 +300,7 @@ The threshold therefore converts a prediction into a decision pathway. Organisat
 
 </div>
 
-This structure is common because [predictions]({{ 'predictions/' | relative_url }}) are uncertain. Rather than treating every score the same way, organisations decide how much risk they are willing to tolerate before taking action. NIST guidance emphasises that selecting threshold values requires human judgement because acceptable risk levels depend on organisational goals, legal obligations, and social consequences. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center+2FAICP Framework]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI Risks and Trustworthiness</span><span class="citation-popover-snippet">NIST AI Resource CenterAI Risks and Trustworthiness - AIRC - NIST AI Resource CenterHuman judgment should be employed when deciding on th...</span></span></span>
+This structure is common because [predictions]({{ 'predictions/' | relative_url }}) are uncertain. Rather than treating every score the same way, organisations decide how much risk they are willing to tolerate before taking action. NIST guidance emphasises that selecting threshold values requires human judgement because acceptable risk levels depend on organisational goals, legal obligations, and social consequences.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center+2FAICP Framework]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI Risks and Trustworthiness</span><span class="citation-popover-snippet">NIST AI Resource CenterAI Risks and Trustworthiness - AIRC - NIST AI Resource CenterHuman judgment should be employed when deciding on th...</span></span></span>
 
 An important implication follows: two organisations can use the same AI model but produce very different outcomes if they choose different thresholds.
 
@@ -313,13 +313,13 @@ An important implication follows: two organisations can use the same AI model bu
 
 Fraud systems often score transactions according to the likelihood that they are fraudulent. A bank might automatically approve low-risk transactions, route medium-risk cases for investigation, and temporarily block very high-risk activity.
 
-If the fraud threshold is lowered, more suspicious transactions will be caught. However, more legitimate customers may also find their purchases delayed or blocked. If the threshold is raised, customer inconvenience falls, but more fraudulent transactions may pass through. This is a business and policy choice, not merely a technical one. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bis.org/fsi/publ/insights63.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bis.org">[Bank for International Settlements]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bis.org</span><span class="citation-popover-snippet">Bank for International SettlementsRegulating AI in the financial sector: recent developments...December 11, 2024 — Use of AI for chatbot...</span><span class="citation-popover-meta">Published: December 11, 2024</span></span></span>
+If the fraud threshold is lowered, more suspicious transactions will be caught. However, more legitimate customers may also find their purchases delayed or blocked. If the threshold is raised, customer inconvenience falls, but more fraudulent transactions may pass through. This is a business and policy choice, not merely a technical one.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bis.org/fsi/publ/insights63.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bis.org">[Bank for International Settlements]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bis.org</span><span class="citation-popover-snippet">Bank for International SettlementsRegulating AI in the financial sector: recent developments...December 11, 2024 — Use of AI for chatbot...</span><span class="citation-popover-meta">Published: December 11, 2024</span></span></span>
 
 ### Lending and credit decisions
 
 In lending, thresholds frequently determine whether an application is approved, rejected, or referred for further assessment. Once a score crosses a cutoff, the applicant may experience a direct consequence.
 
-Because lending decisions affect access to credit, regulators often require organisations to explain adverse outcomes. In the United States, for example, creditors taking adverse action must provide specific reasons for the decision, including factors affecting the score when credit scoring is used. Consumer Financial Protection Bureau+2Consumer Compliance Outlook <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: consumerfinance.gov">[consumerfinance.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">consumerfinance.gov</span><span class="citation-popover-snippet">Consumer Financial Protection BureauConsumer Financial Protection Circular 2022-03: Adverse...26 May 2022 — ECOA and Regulation B requir...</span><span class="citation-popover-meta">Published: May 2022</span></span></span>
+Because lending decisions affect access to credit, regulators often require organisations to explain adverse outcomes. In the United States, for example, creditors taking adverse action must provide specific reasons for the decision, including factors affecting the score when credit scoring is used. Consumer Financial Protection Bureau+2Consumer Compliance Outlook<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: consumerfinance.gov">[consumerfinance.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">consumerfinance.gov</span><span class="citation-popover-snippet">Consumer Financial Protection BureauConsumer Financial Protection Circular 2022-03: Adverse...26 May 2022 — ECOA and Regulation B requir...</span><span class="citation-popover-meta">Published: May 2022</span></span></span>
 
 This illustrates how a numerical threshold can become a legal and economic event. A one-point movement across a cutoff may change a person's access to a loan even though their underlying circumstances differ only slightly from someone just on the other side of the boundary.
 
@@ -327,9 +327,9 @@ This illustrates how a numerical threshold can become a legal and economic event
 
 Healthcare systems increasingly use predictive models to identify patients at elevated risk of deterioration, infection, or other medical problems. The score itself does not treat a patient. Instead, thresholds determine when clinicians receive alerts or when additional assessments are triggered.
 
-Research on automated clinical warning systems shows that different alert thresholds produce different balances between sensitivity and false alarms. One study found that changing the alert threshold substantially altered the rates of detected cases and [false positives]({{ 'false-positives/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4994262/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Prospective evaluation of an automated method to identify...by SM Brown · 2016 · Cited by 63 — Selecting an alerting threshold of 0.0...</span></span></span>
+Research on automated clinical warning systems shows that different alert thresholds produce different balances between sensitivity and false alarms. One study found that changing the alert threshold substantially altered the rates of detected cases and [false positives]({{ 'false-positives/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4994262/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Prospective evaluation of an automated method to identify...by SM Brown · 2016 · Cited by 63 — Selecting an alerting threshold of 0.0...</span></span></span>
 
-Set the threshold too low and clinicians may receive many unnecessary alerts, creating workload and alert fatigue. Set it too high and genuinely at-risk patients may be missed. Medical organisations therefore have to balance early detection against unnecessary intervention. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bma.org.uk/media/njgfbmnn/bma-principles-for-artificial-intelligence-ai-and-its-application-in-healthcare.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bma.org.uk">[BMA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bma.org.uk</span><span class="citation-popover-snippet">Principles for Artificial Intelligence (AI) and its application in...September 30, 2024 — Risks include potential harms to patient he...</span><span class="citation-popover-meta">Published: September 30, 2024</span></span></span>
+Set the threshold too low and clinicians may receive many unnecessary alerts, creating workload and alert fatigue. Set it too high and genuinely at-risk patients may be missed. Medical organisations therefore have to balance early detection against unnecessary intervention.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bma.org.uk/media/njgfbmnn/bma-principles-for-artificial-intelligence-ai-and-its-application-in-healthcare.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bma.org.uk">[BMA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bma.org.uk</span><span class="citation-popover-snippet">Principles for Artificial Intelligence (AI) and its application in...September 30, 2024 — Risks include potential harms to patient he...</span><span class="citation-popover-meta">Published: September 30, 2024</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2ed8a_risk_score_th_d9070f-Illustration-2-dark.svg" | relative_url }}" alt="Thresholds illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2ed8a_risk_score_th_d9070f-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2ed8a_risk_score_th_d9070f-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -344,7 +344,7 @@ Imagine a lending threshold set at 70:
 
 The model itself sees only a one-point difference. The organisation's rule creates the much larger difference in outcome.
 
-This effect becomes especially significant when many people cluster around a threshold. A modest adjustment—from 70 to 72, for example—can suddenly move thousands of cases into a different workflow. The model has not changed; only the organisational rule has. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://thedocs.worldbank.org/en/doc/935891585869698451-0130022020/original/CREDITSCORINGAPPROACHESGUIDELINESFINALWEB.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thedocs.worldbank.org">[The World Bank Docs]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thedocs.worldbank.org</span><span class="citation-popover-snippet">The World Bank DocsCREDIT SCORING APPROACHES GUIDELINESIt is created by plotting the true positive rate against the false positive rate a...</span></span></span>
+This effect becomes especially significant when many people cluster around a threshold. A modest adjustment—from 70 to 72, for example—can suddenly move thousands of cases into a different workflow. The model has not changed; only the organisational rule has.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://thedocs.worldbank.org/en/doc/935891585869698451-0130022020/original/CREDITSCORINGAPPROACHESGUIDELINESFINALWEB.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thedocs.worldbank.org">[The World Bank Docs]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thedocs.worldbank.org</span><span class="citation-popover-snippet">The World Bank DocsCREDIT SCORING APPROACHES GUIDELINESIt is created by plotting the true positive rate against the false positive rate a...</span></span></span>
 
 As a result, debates about fairness and accountability often focus not only on the model but also on where thresholds are set and who decides that level of acceptable risk.
 
@@ -362,7 +362,7 @@ Lower thresholds generally mean:
 
 * More people are flagged.
 * More potential problems are detected.
-* More false positives occur. <span class="citation-chip-wrap"><a class="citation-chip" href="https://medium.com/%40adnanmasood/false-positives-the-hidden-cost-center-in-[production" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medium.com">[medium.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medium.com</span><span class="citation-popover-snippet">w as 5%, meaning 95% of alarms were false [2] — fueling...Read more...</span></span></span>
+* More false positives occur.<span class="citation-chip-wrap"><a class="citation-chip" href="https://medium.com/%40adnanmasood/false-positives-the-hidden-cost-center-in-[production" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medium.com">[medium.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medium.com</span><span class="citation-popover-snippet">w as 5%, meaning 95% of alarms were false [2] — fueling...Read more...</span></span></span>
 
 </div>
 
@@ -377,7 +377,7 @@ Higher thresholds generally mean:
 
 </div>
 
-In fraud detection, a false positive might inconvenience a legitimate customer. In healthcare, it might generate an unnecessary alert. In lending, it might subject an applicant to extra scrutiny. Conversely, missed cases can create financial losses, health harms, or safety risks. Threshold selection therefore determines how these competing costs are distributed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4994262/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2The World Bank Docs]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Prospective evaluation of an automated method to identify...by SM Brown · 2016 · Cited by 63 — Selecting an alerting threshold of 0.0...</span></span></span>
+In fraud detection, a false positive might inconvenience a legitimate customer. In healthcare, it might generate an unnecessary alert. In lending, it might subject an applicant to extra scrutiny. Conversely, missed cases can create financial losses, health harms, or safety risks. Threshold selection therefore determines how these competing costs are distributed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4994262/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2The World Bank Docs]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Prospective evaluation of an automated method to identify...by SM Brown · 2016 · Cited by 63 — Selecting an alerting threshold of 0.0...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2ed8a_risk_score_th_d9070f-Illustration-3-dark.svg" | relative_url }}" alt="Thresholds illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2ed8a_risk_score_th_d9070f-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_ai_prediction_a2ed8a_risk_score_th_d9070f-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -385,7 +385,7 @@ In fraud detection, a false positive might inconvenience a legitimate customer. 
 
 A common misunderstanding is that threshold values emerge automatically from the AI system. In reality, organisations typically choose them based on policy objectives, operational capacity, regulatory requirements, risk appetite, and social values.
 
-NIST's AI Risk Management Framework stresses that humans should determine the metrics and threshold values used to manage AI risks. The framework treats threshold-setting as part of governance and [oversight]({{ 'oversight/' | relative_url }}) rather than a purely mathematical exercise. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI Risks and Trustworthiness</span><span class="citation-popover-snippet">NIST AI Resource CenterAI Risks and Trustworthiness - AIRC - NIST AI Resource CenterHuman judgment should be employed when deciding on th...</span></span></span>
+NIST's AI Risk Management Framework stresses that humans should determine the metrics and threshold values used to manage AI risks. The framework treats threshold-setting as part of governance and [oversight]({{ 'oversight/' | relative_url }}) rather than a purely mathematical exercise.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI Risks and Trustworthiness</span><span class="citation-popover-snippet">NIST AI Resource CenterAI Risks and Trustworthiness - AIRC - NIST AI Resource CenterHuman judgment should be employed when deciding on th...</span></span></span>
 
 This is why threshold decisions often involve more than data scientists. Compliance teams, clinicians, fraud investigators, risk managers, executives, and regulators may all influence where the line is drawn.
 
@@ -393,201 +393,201 @@ This is why threshold decisions often involve more than data scientists. Complia
 
 An AI score starts deciding when a threshold links that score to an action. The prediction remains a statistical estimate, but the threshold transforms it into a practical consequence. Whether that consequence is a review, an alert, a delay, extra support, or a refusal depends on the rules attached to the score.
 
-Understanding AI therefore requires looking beyond the prediction itself. The most important question is often not “What score did the model produce?” but “What happens when the score crosses the line?” <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11785855/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Assessing Risk in Implementing New Artificial Intelligence...by A Nord-Bronzyk · 2025 · Cited by 15 — If the risk score is above a th...</span></span></span>
+Understanding AI therefore requires looking beyond the prediction itself. The most important question is often not “What score did the model produce?” but “What happens when the score crosses the line?”<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11785855/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Assessing Risk in Implementing New Artificial Intelligence...by A Nord-Bronzyk · 2025 · Cited by 15 — If the risk score is above a th...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/10LQ1gxHXyw" title="How to Classify AI Risk Before You Approve It" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=10LQ1gxHXyw" target="_blank" rel="noopener noreferrer">How to Classify AI Risk Before You Approve It</a></p><p class="youtube-embed-meta">Channel: Strategic Risk Lab</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=10LQ1gxHXyw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=10LQ1gxHXyw">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When does an AI score start deciding?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When does an AI score start deciding?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prediction Machines on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wJY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Prediction Machines" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prediction Machines">Prediction Machines</a>
-        </h4>
-        <p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prediction Machines on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wJY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Prediction Machines" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prediction Machines">Prediction Machines</a>
+</h4>
+<p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
         
-        <p class="fr-book-desc">Explains how predictions become operational decisions and actions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how predictions become operational decisions and actions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Discusses translating model outputs into human-impacting decisions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses translating model outputs into human-impacting decisions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Covers risk, objectives and consequences of automated systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers risk, objectives and consequences of automated systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Shows how scoring systems and cutoffs affect real-world outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how scoring systems and cutoffs affect real-world outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Prediction+Machines&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prediction Machines</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Prediction+Machines&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prediction Machines</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot"><img src="{{ '/assets/images/marketplace-covers/1f9790f8bfdb292332fa.jpg' | relative_url }}" alt="Listing image for 65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot"><img src="{{ '/assets/images/marketplace-covers/1f9790f8bfdb292332fa.jpg' | relative_url }}" alt="Listing image for 65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Sticker Printer Box With Fun Print APP For Work And Learning"><img src="{{ '/assets/images/marketplace-covers/3dcd8bcfc5f647d71caf.jpg' | relative_url }}" alt="Listing image for AI Sticker Printer Box With Fun Print APP For Work And Learning" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">AI Sticker Printer Box With Fun Print APP For Work And Learning</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Sticker Printer Box With Fun Print APP For Work And Learning"><img src="{{ '/assets/images/marketplace-covers/3dcd8bcfc5f647d71caf.jpg' | relative_url }}" alt="Listing image for AI Sticker Printer Box With Fun Print APP For Work And Learning" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">AI Sticker Printer Box With Fun Print APP For Work And Learning</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display"><img src="{{ '/assets/images/marketplace-covers/9ca910d37d759e83d938.jpg' | relative_url }}" alt="Listing image for Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display"><img src="{{ '/assets/images/marketplace-covers/9ca910d37d759e83d938.jpg' | relative_url }}" alt="Listing image for Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ai Sticker Do 21, Writing Pad, Heisei Retro"><img src="{{ '/assets/images/marketplace-covers/939f373609913f166b6a.jpg' | relative_url }}" alt="Listing image for Ai Sticker Do 21, Writing Pad, Heisei Retro" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Ai Sticker Do 21, Writing Pad, Heisei Retro</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ai Sticker Do 21, Writing Pad, Heisei Retro"><img src="{{ '/assets/images/marketplace-covers/939f373609913f166b6a.jpg' | relative_url }}" alt="Listing image for Ai Sticker Do 21, Writing Pad, Heisei Retro" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Ai Sticker Do 21, Writing Pad, Heisei Retro</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="thresholds-when-does-an-ai-score-start-deciding-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -603,7 +603,7 @@ Understanding AI therefore requires looking beyond the prediction itself. The mo
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -623,7 +623,7 @@ Understanding AI therefore requires looking beyond the prediction itself. The mo
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -655,7 +655,7 @@ Understanding AI therefore requires looking beyond the prediction itself. The mo
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -707,7 +707,7 @@ Understanding AI therefore requires looking beyond the prediction itself. The mo
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -752,7 +752,7 @@ Understanding AI therefore requires looking beyond the prediction itself. The mo
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -793,144 +793,144 @@ Understanding AI therefore requires looking beyond the prediction itself. The mo
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11785855/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC11785855/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Assessing Risk in Implementing New Artificial Intelligence...by A Nord-Bronzyk · 2025 · Cited by 15 — If the risk score is above a th...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11785855/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC11785855/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Assessing Risk in Implementing New Artificial Intelligence...by A Nord-Bronzyk · 2025 · Cited by 15 — If the risk score is above a th...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: nvlpubs.nist.gov  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 222 — [Documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) can enhance...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 222 — [Documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) can enhance...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: airc.nist.gov  
    Title: AI Resource Center AI Risks and Trustworthiness  
-   Link: <a href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource CenterAI Risks and Trustworthiness - AIRC - NIST AI Resource CenterHuman judgment should be employed when deciding on th...</p></details>
+   Link:<a href="https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/3-sec-characteristics/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource CenterAI Risks and Trustworthiness - AIRC - NIST AI Resource CenterHuman judgment should be employed when deciding on th...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: faicp-framework.com  
-   Link: <a href="https://www.faicp-framework.com/AI_RMF_NIST.html" target="_blank" rel="noopener noreferrer nofollow">https://www.faicp-framework.com/AI_RMF_NIST.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST | Artificial Intelligence Risk Management...Human judgment should be employed when deciding on the specific metrics related to AI t...</p></details>
+   Link:<a href="https://www.faicp-framework.com/AI_RMF_NIST.html" target="_blank" rel="noopener noreferrer nofollow">https://www.faicp-framework.com/AI_RMF_NIST.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST | Artificial Intelligence Risk Management...Human judgment should be employed when deciding on the specific metrics related to AI t...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4994262/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC4994262/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Prospective evaluation of an automated method to identify...by SM Brown · 2016 · Cited by 63 — Selecting an alerting threshold of 0.0...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4994262/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC4994262/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prospective evaluation of an automated method to identify...by SM Brown · 2016 · Cited by 63 — Selecting an alerting threshold of 0.0...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: bma.org.uk  
-   Link: <a href="https://www.bma.org.uk/media/njgfbmnn/bma-principles-for-artificial-intelligence-ai-and-its-application-in-healthcare.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.bma.org.uk/media/njgfbmnn/bma-principles-for-artificial-intelligence-ai-and-its-application-in-healthcare.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Principles for Artificial Intelligence (AI) and its application in...September 30, 2024 — Risks include potential harms to patient he...</p></details>
+   Link:<a href="https://www.bma.org.uk/media/njgfbmnn/bma-principles-for-artificial-intelligence-ai-and-its-application-in-healthcare.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.bma.org.uk/media/njgfbmnn/bma-principles-for-artificial-intelligence-ai-and-its-application-in-healthcare.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Principles for Artificial Intelligence (AI) and its application in...September 30, 2024 — Risks include potential harms to patient he...</p></details>
    Published: September 30, 2024  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>iated with artificial intelligence (AI).Read more...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>iated with artificial intelligence (AI).Read more...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: nvlpubs.nist.gov  
    Title: AI.600 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 144 — As GAI covers risks of models or applications that can be used acro...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 144 — As GAI covers risks of models or applications that can be used acro...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40adnanmasood/false-positives-the-hidden-cost-center-in-[production" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/false-positives-the-hidden-cost-center-in-[production</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>w as 5%, meaning 95% of alarms were false [2] — fueling...Read more...</p></details>
+   Link:<a href="https://medium.com/%40adnanmasood/false-positives-the-hidden-cost-center-in-[production" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/false-positives-the-hidden-cost-center-in-[production</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>w as 5%, meaning 95% of alarms were false [2] — fueling...Read more...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: governance.ai  
    Title: risk thresholds for frontier ai  
-   Link: <a href="https://www.governance.ai/research-paper/risk-thresholds-for-frontier-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.governance.ai/research-paper/risk-thresholds-for-frontier-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>20 Jun 2024 — One increasingly popular approach is to define capability thresholds, which describe AI capabilities beyond which an AI sys...</p></details>
+   Link:<a href="https://www.governance.ai/research-paper/risk-thresholds-for-frontier-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.governance.ai/research-paper/risk-thresholds-for-frontier-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>20 Jun 2024 — One increasingly popular approach is to define capability thresholds, which describe AI capabilities beyond which an AI sys...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: bis.org  
-   Link: <a href="https://www.bis.org/fsi/publ/insights63.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.bis.org/fsi/publ/insights63.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Bank for International SettlementsRegulating AI in the financial sector: recent developments...December 11, 2024 — Use of AI for chatbot...</p></details>
+   Link:<a href="https://www.bis.org/fsi/publ/insights63.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.bis.org/fsi/publ/insights63.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Bank for International SettlementsRegulating AI in the financial sector: recent developments...December 11, 2024 — Use of AI for chatbot...</p></details>
    Published: December 11, 2024  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: thedocs.worldbank.org  
-   Link: <a href="https://thedocs.worldbank.org/en/doc/935891585869698451-0130022020/original/CREDITSCORINGAPPROACHESGUIDELINESFINALWEB.pdf" target="_blank" rel="noopener noreferrer nofollow">https://thedocs.worldbank.org/en/doc/935891585869698451-0130022020/original/CREDITSCORINGAPPROACHESGUIDELINESFINALWEB.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The World Bank DocsCREDIT SCORING APPROACHES GUIDELINESIt is created by plotting the true positive rate against the false positive rate a...</p></details>
+   Link:<a href="https://thedocs.worldbank.org/en/doc/935891585869698451-0130022020/original/CREDITSCORINGAPPROACHESGUIDELINESFINALWEB.pdf" target="_blank" rel="noopener noreferrer nofollow">https://thedocs.worldbank.org/en/doc/935891585869698451-0130022020/original/CREDITSCORINGAPPROACHESGUIDELINESFINALWEB.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The World Bank DocsCREDIT SCORING APPROACHES GUIDELINESIt is created by plotting the true positive rate against the false positive rate a...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: consumerfinance.gov  
-   Link: <a href="https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Protection BureauConsumer Financial Protection Circular 2022-03: Adverse...26 May 2022 — ECOA and Regulation B requir...</p></details>
+   Link:<a href="https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Protection BureauConsumer Financial Protection Circular 2022-03: Adverse...26 May 2022 — ECOA and Regulation B requir...</p></details>
    Published: May 2022  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: consumercomplianceoutlook.org  
-   Link: <a href="https://www.consumercomplianceoutlook.org/2021/fourth-issue/advanced-topics-in-adverse-action-notices-under-the-equal-credit-opportunity-act" target="_blank" rel="noopener noreferrer nofollow">https://www.consumercomplianceoutlook.org/2021/fourth-issue/advanced-topics-in-adverse-action-notices-under-the-equal-credit-opportunity-act</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Advanced Topics in Adverse Action Notices Under...If adverse action is taken, as defined in the ECOA and Regulation B, the creditor must...</p></details>
+   Link:<a href="https://www.consumercomplianceoutlook.org/2021/fourth-issue/advanced-topics-in-adverse-action-notices-under-the-equal-credit-opportunity-act" target="_blank" rel="noopener noreferrer nofollow">https://www.consumercomplianceoutlook.org/2021/fourth-issue/advanced-topics-in-adverse-action-notices-under-the-equal-credit-opportunity-act</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Advanced Topics in Adverse Action Notices Under...If adverse action is taken, as defined in the ECOA and Regulation B, the creditor must...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: underdefense.com  
    Title: ai risk management  
-   Link: <a href="https://underdefense.com/blog/ai-risk-management/" target="_blank" rel="noopener noreferrer nofollow">https://underdefense.com/blog/ai-risk-management/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Shadow AI, Agentic Risks &amp; NIST Implementation PlaybookApr 24, 2026 — Implement confidence scoring: flag [AI outputs](&amp;#123;&amp;#123; &#x27;ai-outputs/&#x27; | relative_url &amp;#125;&amp;#125;) below 85% confidence...</p></details>
+   Link:<a href="https://underdefense.com/blog/ai-risk-management/" target="_blank" rel="noopener noreferrer nofollow">https://underdefense.com/blog/ai-risk-management/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Shadow AI, Agentic Risks &amp; NIST Implementation PlaybookApr 24, 2026 — Implement confidence scoring: flag [AI outputs](&amp;#123;&amp;#123; &#x27;ai-outputs/&#x27; | relative_url &amp;#125;&amp;#125;) below 85% confidence...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: assets.publishing.service.gov.uk  
-   Link: <a href="https://assets.publishing.service.gov.uk/media/65395abae6c968000daa9b25/frontier-ai-capabilities-risks-report.pdf" target="_blank" rel="noopener noreferrer nofollow">https://assets.publishing.service.gov.uk/media/65395abae6c968000daa9b25/frontier-ai-capabilities-risks-report.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>and risks from frontier AIThis report covers many risks, but we wish to emphasise that the overarching risk is a loss of trust in and tru...</p></details>
+   Link:<a href="https://assets.publishing.service.gov.uk/media/65395abae6c968000daa9b25/frontier-ai-capabilities-risks-report.pdf" target="_blank" rel="noopener noreferrer nofollow">https://assets.publishing.service.gov.uk/media/65395abae6c968000daa9b25/frontier-ai-capabilities-risks-report.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>and risks from frontier AIThis report covers many risks, but we wish to emphasise that the overarching risk is a loss of trust in and tru...</p></details>
 
 ### Additional References
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: jheor.org  
-   Link: <a href="https://jheor.org/article/33951-the-potential-cost-and-cost-effectiveness-impact-of-using-a-machine-learning-algorithm-for-early-detection-of-sepsis-in-intensive-care-units-in-sweden" target="_blank" rel="noopener noreferrer nofollow">https://jheor.org/article/33951-the-potential-cost-and-cost-effectiveness-impact-of-using-a-machine-learning-algorithm-for-early-detection-of-sepsis-in-intensive-care-units-in-sweden</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Potential Cost and Cost-Effectiveness Impact of Using...by O Ericson · 2022 · Cited by 30 — A sepsis prediction algorithm such as NA...</p></details>
+   Link:<a href="https://jheor.org/article/33951-the-potential-cost-and-cost-effectiveness-impact-of-using-a-machine-learning-algorithm-for-early-detection-of-sepsis-in-intensive-care-units-in-sweden" target="_blank" rel="noopener noreferrer nofollow">https://jheor.org/article/33951-the-potential-cost-and-cost-effectiveness-impact-of-using-a-machine-learning-algorithm-for-early-detection-of-sepsis-in-intensive-care-units-in-sweden</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Potential Cost and Cost-Effectiveness Impact of Using...by O Ericson · 2022 · Cited by 30 — A sepsis prediction algorithm such as NA...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: verifywise.ai  
-   Link: <a href="https://verifywise.ai/lexicon/dynamic-risk-scoring-for-ai" target="_blank" rel="noopener noreferrer nofollow">https://verifywise.ai/lexicon/dynamic-risk-scoring-for-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI risk scoring | AI Governance LexiconAI risk scoring assigns and updates risk levels based on real-time performance and compliance data...</p></details>
+   Link:<a href="https://verifywise.ai/lexicon/dynamic-risk-scoring-for-ai" target="_blank" rel="noopener noreferrer nofollow">https://verifywise.ai/lexicon/dynamic-risk-scoring-for-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI risk scoring | AI Governance LexiconAI risk scoring assigns and updates risk levels based on real-time performance and compliance data...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: ispartnersllc.com  
-   Link: <a href="https://www.ispartnersllc.com/hubs/nist-ai-rmf/measure/" target="_blank" rel="noopener noreferrer nofollow">https://www.ispartnersllc.com/hubs/nist-ai-rmf/measure/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI RMF Principle: MeasureThe “Measure” function in the NIST AI RMF guides organizations define specific metrics and thresholds to tr...</p></details>
+   Link:<a href="https://www.ispartnersllc.com/hubs/nist-ai-rmf/measure/" target="_blank" rel="noopener noreferrer nofollow">https://www.ispartnersllc.com/hubs/nist-ai-rmf/measure/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI RMF Principle: MeasureThe “Measure” function in the NIST AI RMF guides organizations define specific metrics and thresholds to tr...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: paloaltonetworks.com  
-   Link: <a href="https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)The NIST AI Risk Management Framework (AI RMF) is a guidance designed to improve the robustness...</p></details>
+   Link:<a href="https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)The NIST AI Risk Management Framework (AI RMF) is a guidance designed to improve the robustness...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: mitratech.com  
-   Link: <a href="https://mitratech.com/resource-hub/rc-use-case/nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://mitratech.com/resource-hub/rc-use-case/nist-ai-risk-management-framework/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management FrameworkThe RMF describes four functions to help organizations address the risks of AI systems: Govern, Map, Mea...</p></details>
+   Link:<a href="https://mitratech.com/resource-hub/rc-use-case/nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://mitratech.com/resource-hub/rc-use-case/nist-ai-risk-management-framework/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management FrameworkThe RMF describes four functions to help organizations address the risks of AI systems: Govern, Map, Mea...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/nists-ai-risk-management-framework-part-1-benefits-limits-norene-dtmrc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/nists-ai-risk-management-framework-part-1-benefits-limits-norene-dtmrc</a>  
+   Link:<a href="https://www.linkedin.com/pulse/nists-ai-risk-management-framework-part-1-benefits-limits-norene-dtmrc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/nists-ai-risk-management-framework-part-1-benefits-limits-norene-dtmrc</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: researchgate.net  
    Title: 361282215 False positive analysis of machine learning based sepsis prediction  
-   Link: <a href="https://www.researchgate.net/publication/361282215_False_positive_analysis_of_machine-learning_based_sepsis_prediction" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/361282215_False_positive_analysis_of_machine-learning_based_sepsis_prediction</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>False positive analysis of machine-learning based sepsis...13 Jun 2022 — Here, we conducted a false positive analysis to determine the s...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/361282215_False_positive_analysis_of_machine-learning_based_sepsis_prediction" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/361282215_False_positive_analysis_of_machine-learning_based_sepsis_prediction</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>False positive analysis of machine-learning based sepsis...13 Jun 2022 — Here, we conducted a false positive analysis to determine the s...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: wipfli.com  
    Title: fi ra be in compliance with adverse action notices to credit applicants  
-   Link: <a href="https://www.wipfli.com/insights/articles/fi-ra-be-in-compliance-with-adverse-action-notices-to-credit-applicants" target="_blank" rel="noopener noreferrer nofollow">https://www.wipfli.com/insights/articles/fi-ra-be-in-compliance-with-adverse-action-notices-to-credit-applicants</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Adverse action notice requirements and how you can avoid...28 Jan 2026 — The credit score and the reasons the credit score is not higher...</p></details>
+   Link:<a href="https://www.wipfli.com/insights/articles/fi-ra-be-in-compliance-with-adverse-action-notices-to-credit-applicants" target="_blank" rel="noopener noreferrer nofollow">https://www.wipfli.com/insights/articles/fi-ra-be-in-compliance-with-adverse-action-notices-to-credit-applicants</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adverse action notice requirements and how you can avoid...28 Jan 2026 — The credit score and the reasons the credit score is not higher...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: docs.modulos.ai  
-   Link: <a href="https://docs.modulos.ai/frameworks/nist-ai-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://docs.modulos.ai/frameworks/nist-ai-rmf/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Govern — culture, accountability, and oversight ​ · 2. Map — context and risk identification ​ · 3. Measure —...</p></details>
+   Link:<a href="https://docs.modulos.ai/frameworks/nist-ai-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://docs.modulos.ai/frameworks/nist-ai-rmf/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Govern — culture, accountability, and oversight ​ · 2. Map — context and risk identification ​ · 3. Measure —...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: eba.europa.eu  
    Title: EBA GL 2020 06 Final Report on GL on loan origination and monitoring  
-   Link: <a href="https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2020/Guidelines%20on%20loan%20origination%20and%20monitoring/884283/EBA%20GL%202020%2006%20Final%20Report%20on%20GL%20on%20loan%20origination%20and%20monitoring.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2020/Guidelines%20on%20loan%20origination%20and%20monitoring/884283/EBA%20GL%202020%2006%20Final%20Report%20on%20GL%20on%20loan%20origination%20and%20monitoring.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Report – Guidelines on loan origination and monitoring29 May 2020 — This section looks into the following topics: (1) credit risk governa...</p></details>
+   Link:<a href="https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2020/Guidelines%20on%20loan%20origination%20and%20monitoring/884283/EBA%20GL%202020%2006%20Final%20Report%20on%20GL%20on%20loan%20origination%20and%20monitoring.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.eba.europa.eu/sites/default/files/document_library/Publications/Guidelines/2020/Guidelines%20on%20loan%20origination%20and%20monitoring/884283/EBA%20GL%202020%2006%20Final%20Report%20on%20GL%20on%20loan%20origination%20and%20monitoring.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Report – Guidelines on loan origination and monitoring29 May 2020 — This section looks into the following topics: (1) credit risk governa...</p></details>
    Published: May 2020  

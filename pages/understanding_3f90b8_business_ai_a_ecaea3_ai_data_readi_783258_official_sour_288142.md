@@ -281,7 +281,7 @@ One of the most important questions in [production]({{ 'retrieval-failures/' | r
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_official_sour_288142-Illustration-1-dark.svg" | relative_url }}" alt="Source Truth illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_official_sour_288142-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_official_sour_288142-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 Employees often resolve these conflicts instinctively. A finance manager knows that the enterprise resource planning (ERP) system overrides a spreadsheet. A human resources specialist knows that the approved policy portal matters more than an old PDF stored on a shared drive. AI systems do not possess this organisational context unless it is explicitly designed into their retrieval process. As a result, they can produce confident answers based on outdated, duplicated or unofficial information.
 
-This is why many AI deployments encounter problems even when retrieval technology works correctly. The issue is not finding information; it is determining which information has authority. Organisations that fail to define authoritative sources, ownership rules and approval paths frequently discover that their AI systems reproduce internal disagreements rather than business truth. Effective governance therefore requires more than data access—it requires a clear definition of which source wins when conflicts occur. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Data governance</span><span class="citation-popover-snippet">Data governance</span></span></span>
+This is why many AI deployments encounter problems even when retrieval technology works correctly. The issue is not finding information; it is determining which information has authority. Organisations that fail to define authoritative sources, ownership rules and approval paths frequently discover that their AI systems reproduce internal disagreements rather than business truth. Effective governance therefore requires more than data access—it requires a clear definition of which source wins when conflicts occur.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Data governance</span><span class="citation-popover-snippet">Data governance</span></span></span>
 
 ## Why employees resolve document conflicts better than AI by default
 
@@ -303,7 +303,7 @@ A human employee may immediately recognise that the intranet policy is the appro
 
 This problem is amplified because organisations often store the same operational facts across multiple systems. Product specifications may appear in marketing documents, ERP records, sales presentations and supplier databases. Employee procedures may exist in knowledge bases, training materials and archived documents. Without explicit authority signals, AI retrieval systems can rank sources based on relevance rather than organisational legitimacy.
 
-Many retrieval failures described in enterprise AI deployments stem from this distinction. The system successfully finds information but lacks the governance framework needed to determine which information should be trusted. Enterprise AI governance literature increasingly treats authority, [provenance]({{ 'provenance/' | relative_url }}) and traceability as essential controls rather than optional enhancements. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://techstrata.com/platform" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techstrata.com">[TechStrata AI+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techstrata.com</span><span class="citation-popover-title">Tech Strata AIORiele AI Platform &#124; Tech Strata &#124; Tech Strata AI</span><span class="citation-popover-snippet">Tech Strata AIORiele AI Platform &#124; Tech Strata &#124; Tech Strata AI</span></span></span>
+Many retrieval failures described in enterprise AI deployments stem from this distinction. The system successfully finds information but lacks the governance framework needed to determine which information should be trusted. Enterprise AI governance literature increasingly treats authority, [provenance]({{ 'provenance/' | relative_url }}) and traceability as essential controls rather than optional enhancements.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://techstrata.com/platform" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techstrata.com">[TechStrata AI+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techstrata.com</span><span class="citation-popover-title">Tech Strata AIORiele AI Platform &#124; Tech Strata &#124; Tech Strata AI</span><span class="citation-popover-snippet">Tech Strata AIORiele AI Platform &#124; Tech Strata &#124; Tech Strata AI</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/p23X7ThA7N8" title="Building GitHub for Product Management: How Momental Uses AI to Find Merge Conflicts in Strategy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=p23X7ThA7N8" target="_blank" rel="noopener noreferrer">Building GitHub for Product Management: How Momental Uses AI to Find Merge Conflicts in Strategy</a></p><p class="youtube-embed-meta">Channel: Product Talk</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=p23X7ThA7N8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=p23X7ThA7N8">Open on YouTube</a></p></div></div></div>
@@ -343,7 +343,7 @@ When these controls exist, AI systems can use governance metadata alongside docu
 
 </div>
 
-Data governance frameworks increasingly emphasise metadata, cataloguing and controlled asset management precisely because these signals help distinguish trusted sources from unverified content. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Data governance</span><span class="citation-popover-snippet">Data governance</span></span></span>
+Data governance frameworks increasingly emphasise metadata, cataloguing and controlled asset management precisely because these signals help distinguish trusted sources from unverified content.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Data governance</span><span class="citation-popover-snippet">Data governance</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/7k9q0HkNDNs" title="What Enterprise Leaders Need to Know About Hybrid Data and AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=7k9q0HkNDNs" target="_blank" rel="noopener noreferrer">What Enterprise Leaders Need to Know About Hybrid Data and AI</a></p><p class="youtube-embed-meta">Channel: The Ravit Show</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=7k9q0HkNDNs" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=7k9q0HkNDNs">Open on YouTube</a></p></div></div></div>
@@ -368,7 +368,7 @@ For example:
 
 An AI assistant answering enterprise questions may therefore need a hierarchy of authority rather than one universal source of truth.
 
-Well-governed retrieval systems often maintain source-priority rules that determine which repositories take precedence for specific question types. This prevents a highly relevant but unofficial document from outranking the approved source. Governance architectures increasingly incorporate policy layers that enforce these [decisions]({{ 'decisions/' | relative_url }}) before information reaches the model. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.ibm.com/publications/governance-by-construction-for-generalist-agents" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.ibm.com">[IBM Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.ibm.com</span><span class="citation-popover-title">governance by construction for generalist agents</span><span class="citation-popover-snippet">IBM ResearchGovernance by Construction for Generalist Agents for ACM CAIS 2026 - IBM Research...</span></span></span>
+Well-governed retrieval systems often maintain source-priority rules that determine which repositories take precedence for specific question types. This prevents a highly relevant but unofficial document from outranking the approved source. Governance architectures increasingly incorporate policy layers that enforce these [decisions]({{ 'decisions/' | relative_url }}) before information reaches the model.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.ibm.com/publications/governance-by-construction-for-generalist-agents" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.ibm.com">[IBM Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.ibm.com</span><span class="citation-popover-title">governance by construction for generalist agents</span><span class="citation-popover-snippet">IBM ResearchGovernance by Construction for Generalist Agents for ACM CAIS 2026 - IBM Research...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_official_sour_288142-Illustration-2-dark.svg" | relative_url }}" alt="Source Truth illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_official_sour_288142-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_official_sour_288142-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -395,7 +395,7 @@ Typical warning signs include:
 
 In these situations, AI often acts as a diagnostic tool. Rather than creating inconsistency, it exposes inconsistency that was previously hidden behind human judgement and tribal knowledge.
 
-This is one reason enterprise AI projects frequently trigger broader data-governance initiatives. Before organisations can automate knowledge retrieval, they often need to decide who actually owns critical knowledge assets. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Data governance</span><span class="citation-popover-snippet">Data governance</span></span></span>
+This is one reason enterprise AI projects frequently trigger broader data-governance initiatives. Before organisations can automate knowledge retrieval, they often need to decide who actually owns critical knowledge assets.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Data governance</span><span class="citation-popover-snippet">Data governance</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_official_sour_288142-Illustration-3-dark.svg" | relative_url }}" alt="Source Truth illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_official_sour_288142-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_official_sour_288142-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -412,7 +412,7 @@ Safe enterprise retrieval therefore combines two separate decisions:
 
 Both conditions must be satisfied before information is presented.
 
-Modern governance approaches increasingly emphasise policy enforcement, role-based controls, auditability and human [oversight]({{ 'oversight/' | relative_url }}) mechanisms. Rather than allowing models unrestricted access to all data, governance layers mediate retrieval and enforce organisational rules before answers are generated. This reduces the risk of exposing sensitive information while preserving access to trusted knowledge. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.ibm.com/publications/governance-by-construction-for-generalist-agents" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.ibm.com">[IBM Research+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.ibm.com</span><span class="citation-popover-title">governance by construction for generalist agents</span><span class="citation-popover-snippet">IBM ResearchGovernance by Construction for Generalist Agents for ACM CAIS 2026 - IBM Research...</span></span></span>
+Modern governance approaches increasingly emphasise policy enforcement, role-based controls, auditability and human [oversight]({{ 'oversight/' | relative_url }}) mechanisms. Rather than allowing models unrestricted access to all data, governance layers mediate retrieval and enforce organisational rules before answers are generated. This reduces the risk of exposing sensitive information while preserving access to trusted knowledge.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.ibm.com/publications/governance-by-construction-for-generalist-agents" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.ibm.com">[IBM Research+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.ibm.com</span><span class="citation-popover-title">governance by construction for generalist agents</span><span class="citation-popover-snippet">IBM ResearchGovernance by Construction for Generalist Agents for ACM CAIS 2026 - IBM Research...</span></span></span>
 
 A useful mental model is that authority answers the question “Which source is correct?” while permissions answer the question “Who is allowed to know?”
 
@@ -438,197 +438,197 @@ The lower a source sits in the hierarchy, the less authority it should carry dur
 
 This approach mirrors how experienced employees already operate. They may consult working documents for context, but they rely on approved systems when making final decisions. AI systems become more trustworthy when they follow the same governance logic.
 
-The central lesson is that production AI does not merely require access to information. It requires a defined answer to a governance question: who owns the truth? Until an organisation can answer that question, even highly capable AI models may struggle to provide consistent and reliable responses. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com+2IBM Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Data governance</span><span class="citation-popover-snippet">Data governance</span></span></span>
+The central lesson is that production AI does not merely require access to information. It requires a defined answer to a governance question: who owns the truth? Until an organisation can answer that question, even highly capable AI models may struggle to provide consistent and reliable responses.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com+2IBM Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Data governance</span><span class="citation-popover-snippet">Data governance</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Who owns the truth AI uses?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Who owns the truth AI uses?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Business Data Ethics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=dBXlEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Business Data Ethics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Business Data Ethics">Business Data Ethics</a>
-        </h4>
-        <p class="fr-book-author">By Dennis Hirsch, Timothy Bartley et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Business Data Ethics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=dBXlEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Business Data Ethics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Business Data Ethics">Business Data Ethics</a>
+</h4>
+<p class="fr-book-author">By Dennis Hirsch, Timothy Bartley et al.</p>
         
-        <p class="fr-book-desc">Addresses governance, accountability and trustworthy AI decision inputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses governance, accountability and trustworthy AI decision inputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Governance on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=jknZwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Data Governance" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Governance">Data Governance</a>
-        </h4>
-        <p class="fr-book-author">By John Ladley</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Governance on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=jknZwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Data Governance" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Governance">Data Governance</a>
+</h4>
+<p class="fr-book-author">By John Ladley</p>
         
-        <p class="fr-book-desc">Directly addresses ownership, authority, stewardship and trusted sources.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses ownership, authority, stewardship and trusted sources.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Data Governance Imperative on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kEEVHPvVyfsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Data Governance Imperative" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Data Governance Imperative">The Data Governance Imperative</a>
-        </h4>
-        <p class="fr-book-author">By Steve Sarsfield</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Data Governance Imperative on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kEEVHPvVyfsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Data Governance Imperative" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Data Governance Imperative">The Data Governance Imperative</a>
+</h4>
+<p class="fr-book-author">By Steve Sarsfield</p>
         
-        <p class="fr-book-desc">Explains authoritative data, accountability and governance structures.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains authoritative data, accountability and governance structures.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Shows how organisations create trusted digital operating models.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how organisations create trusted digital operating models.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Business+Data+Ethics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Business Data Ethics</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Governance&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Governance</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Data+Governance+Imperative&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Data Governance Imperative</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Business+Data+Ethics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Business Data Ethics</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Governance&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Governance</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Data+Governance+Imperative&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Data Governance Imperative</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift"><img src="{{ '/assets/images/marketplace-covers/5898d351e2806da9dc74.jpg' | relative_url }}" alt="Listing image for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift"><img src="{{ '/assets/images/marketplace-covers/5898d351e2806da9dc74.jpg' | relative_url }}" alt="Listing image for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT"><img src="{{ '/assets/images/marketplace-covers/62605ae3a4527e1b3416.jpg' | relative_url }}" alt="Listing image for WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT"><img src="{{ '/assets/images/marketplace-covers/62605ae3a4527e1b3416.jpg' | relative_url }}" alt="Listing image for WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">WARNING MAY SPONTANEOUSLY START TALKING ABOUT DATA SCIENCE T-SHIRT</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="source-truth-who-owns-the-truth-ai-uses-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -644,7 +644,7 @@ The central lesson is that production AI does not merely require access to infor
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -664,7 +664,7 @@ The central lesson is that production AI does not merely require access to infor
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -696,7 +696,7 @@ The central lesson is that production AI does not merely require access to infor
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -748,7 +748,7 @@ The central lesson is that production AI does not merely require access to infor
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -793,7 +793,7 @@ The central lesson is that production AI does not merely require access to infor
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -834,109 +834,109 @@ The central lesson is that production AI does not merely require access to infor
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ibm.com  
    Title: Data governance  
-   Link: <a href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance</a>  
+   Link:<a href="https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/docs/en/watsonx/wdi/2.2.x?topic=data-governance</a>  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: research.ibm.com  
    Title: governance by construction for generalist agents  
-   Link: <a href="https://research.ibm.com/publications/governance-by-construction-for-generalist-agents" target="_blank" rel="noopener noreferrer nofollow">https://research.ibm.com/publications/governance-by-construction-for-generalist-agents</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>IBM ResearchGovernance by Construction for Generalist Agents for ACM CAIS 2026 - IBM Research...</p></details>
+   Link:<a href="https://research.ibm.com/publications/governance-by-construction-for-generalist-agents" target="_blank" rel="noopener noreferrer nofollow">https://research.ibm.com/publications/governance-by-construction-for-generalist-agents</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>IBM ResearchGovernance by Construction for Generalist Agents for ACM CAIS 2026 - IBM Research...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: techstrata.com  
    Title: Tech Strata AIORiele AI Platform | Tech Strata | Tech Strata AI  
-   Link: <a href="https://techstrata.com/platform" target="_blank" rel="noopener noreferrer nofollow">https://techstrata.com/platform</a>  
+   Link:<a href="https://techstrata.com/platform" target="_blank" rel="noopener noreferrer nofollow">https://techstrata.com/platform</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2602.11301" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2602.11301</a>  
+   Link:<a href="https://arxiv.org/abs/2602.11301" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2602.11301</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: developer.ibm.com  
-   Link: <a href="https://developer.ibm.com/components/watsonx-governance/articles/" target="_blank" rel="noopener noreferrer nofollow">https://developer.ibm.com/components/watsonx-governance/articles/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Articles - IBM Developer...</p></details>
+   Link:<a href="https://developer.ibm.com/components/watsonx-governance/articles/" target="_blank" rel="noopener noreferrer nofollow">https://developer.ibm.com/components/watsonx-governance/articles/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Articles - IBM Developer...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv RAG-Driven Data Quality Governance for Enterprise ERP Systems  
-   Link: <a href="https://arxiv.org/abs/2511.16700" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2511.16700</a>  
+   Link:<a href="https://arxiv.org/abs/2511.16700" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2511.16700</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: techradar.com  
    Title: Tech Radar3 risks hindering enterprise-ready AI  
-   Link: <a href="https://www.techradar.com/pro/3-risks-hindering-enterprise-ready-ai-and-how-low-code-workflows-help" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/3-risks-hindering-enterprise-ready-ai-and-how-low-code-workflows-help</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Agentic AI systems, which operate autonomously with minimal human oversight, face three primary risks: 1. **Lack of Transparency**: These...</p></details>
+   Link:<a href="https://www.techradar.com/pro/3-risks-hindering-enterprise-ready-ai-and-how-low-code-workflows-help" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/3-risks-hindering-enterprise-ready-ai-and-how-low-code-workflows-help</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Agentic AI systems, which operate autonomously with minimal human oversight, face three primary risks: 1. **Lack of Transparency**: These...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/why-confidential-ai-is-the-next-big-thing-for-enterprise" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/why-confidential-ai-is-the-next-big-thing-for-enterprise</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>With regulatory expectations tightening (e.g., HIPAA updates, SEC scrutiny), enterprises demand AI systems that not only produce safe out...</p></details>
+   Link:<a href="https://www.techradar.com/pro/why-confidential-ai-is-the-next-big-thing-for-enterprise" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/why-confidential-ai-is-the-next-big-thing-for-enterprise</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>With regulatory expectations tightening (e.g., HIPAA updates, SEC scrutiny), enterprises demand AI systems that not only produce safe out...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2510.25863" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.25863</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AAGATE: A NIST AI RMF-Aligned Governance Platform for Agentic AIOctober 29, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2510.25863" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.25863</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AAGATE: A NIST AI RMF-Aligned Governance Platform for Agentic AIOctober 29, 2025...</p></details>
    Published: October 29, 2025  
 
 ### Additional References
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/publications/reducing-risks-posed-[synthetic" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/reducing-risks-posed-[synthetic</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Risks Posed by Synthetic Content An Overview of Technical Approaches to Digital Content Transparency | NISTNovember 20, 2024...</p></details>
+   Link:<a href="https://www.nist.gov/publications/reducing-risks-posed-[synthetic" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/reducing-risks-posed-[synthetic</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Risks Posed by Synthetic Content An Overview of Technical Approaches to Digital Content Transparency | NISTNovember 20, 2024...</p></details>
    Published: November 20, 2024  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=p23X7ThA7N8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=p23X7ThA7N8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What Enterprise Leaders Need to Know About Hybrid Data and AI...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=p23X7ThA7N8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=p23X7ThA7N8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What Enterprise Leaders Need to Know About Hybrid Data and AI...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
    Title: Conflict RAG: The Ultimate Guide to Fixing AI Hallucinations  
-   Link: <a href="https://www.youtube.com/watch?v=wytpfp0OIoc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wytpfp0OIoc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Building GitHub for Product Management: How Momental Uses AI to Find Merge Conflicts in Strategy...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=wytpfp0OIoc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wytpfp0OIoc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Building GitHub for Product Management: How Momental Uses AI to Find Merge Conflicts in Strategy...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
    Title: What Enterprise Leaders Need to Know About Hybrid Data and AI  
-   Link: <a href="https://www.youtube.com/watch?v=7k9q0HkNDNs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7k9q0HkNDNs</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Get LLM Answers With Sources - Advanced RAG Tutorial...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=7k9q0HkNDNs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7k9q0HkNDNs</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Get LLM Answers With Sources - Advanced RAG Tutorial...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: nist.gov  
    Title: www.nist.gov A I Standards and Guidelines Group | NIST  
-   Link: <a href="https://www.nist.gov/itl/ai/ai-standards-and-guidelines-group" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai/ai-standards-and-guidelines-group</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Standards and Guidelines Group | NIST...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai/ai-standards-and-guidelines-group" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai/ai-standards-and-guidelines-group</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Standards and Guidelines Group | NIST...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
    Title: Top-Down Governance, Bottom-Up Architecture  
-   Link: <a href="https://www.youtube.com/watch?v=FoqrIQQl2H4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=FoqrIQQl2H4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ConflictRAG: The Ultimate Guide to Fixing AI Hallucinations...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=FoqrIQQl2H4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=FoqrIQQl2H4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ConflictRAG: The Ultimate Guide to Fixing AI Hallucinations...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: nist.gov  
    Title: www.nist.gov Data & informatics | NIST  
-   Link: <a href="https://www.nist.gov/data-informatics" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/data-informatics</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&amp; informatics | NIST...</p></details>
+   Link:<a href="https://www.nist.gov/data-informatics" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/data-informatics</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&amp; informatics | NIST...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: airc.nist.gov  
    Title: NIS T AI Resource Center  
-   Link: <a href="https://airc.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource Center - AIRC...</p></details>
+   Link:<a href="https://airc.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource Center - AIRC...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: eab-compliance.eu  
    Title: EAB Compliance [EU AI Act](&#123;&#123; 'eu-ai-act/' | relative_url &#125;&#125;) Compliance Platform · EAB Compliance  
-   Link: <a href="https://www.eab-compliance.eu/" target="_blank" rel="noopener noreferrer nofollow">https://www.eab-compliance.eu/</a>  
+   Link:<a href="https://www.eab-compliance.eu/" target="_blank" rel="noopener noreferrer nofollow">https://www.eab-compliance.eu/</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: 365ui.com  
    Title: Superagent Private AI Systems  
-   Link: <a href="https://365ui.com/" target="_blank" rel="noopener noreferrer nofollow">https://365ui.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Superagent Private AI Systems...</p></details>
+   Link:<a href="https://365ui.com/" target="_blank" rel="noopener noreferrer nofollow">https://365ui.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Superagent Private AI Systems...</p></details>

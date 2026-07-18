@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f
 
 ## Introduction
 
-A blocked payment is not proof of fraud. It is a risk decision, often made partly or wholly by [automated]({{ 'decisions/' | relative_url }}) systems, and it can be wrong. A fair appeal process should therefore let customers verify themselves quickly, reach human support when the automated check is producing harm, and have repeated mistakes logged so the fraud model and customer process improve. This matters because access to payments is access to ordinary life: rent, wages, travel, bills and [business]({{ 'business-adoption/' | relative_url }}) trading can all be affected. UK and European data-protection rules already recognise that significant automated decisions need routes for challenge and human intervention, while financial regulators and ombudsman bodies treat blocked payments and frozen accounts as issues that firms must handle fairly, not merely as back-office security events. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2Financial Ombudsman]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...</span></span></span>
+A blocked payment is not proof of fraud. It is a risk decision, often made partly or wholly by [automated]({{ 'decisions/' | relative_url }}) systems, and it can be wrong. A fair appeal process should therefore let customers verify themselves quickly, reach human support when the automated check is producing harm, and have repeated mistakes logged so the fraud model and customer process improve. This matters because access to payments is access to ordinary life: rent, wages, travel, bills and [business]({{ 'business-adoption/' | relative_url }}) trading can all be affected. UK and European data-protection rules already recognise that significant automated decisions need routes for challenge and human intervention, while financial regulators and ombudsman bodies treat blocked payments and frozen accounts as issues that firms must handle fairly, not merely as back-office security events.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2Financial Ombudsman]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_blocked_payme_b51bc2-Illustration-1-dark.svg" | relative_url }}" alt="Appeals illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_blocked_payme_b51bc2-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_blocked_payme_b51bc2-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,7 +277,7 @@ A blocked payment is not proof of fraud. It is a risk decision, often made partl
 
 A fair appeal starts at the moment the payment is blocked. The customer should be told promptly that the transaction has not gone through, whether any money has been reserved or moved, what action is needed, and how to contact the right team. A vague message such as “transaction declined” leaves the customer [guessing]({{ 'guessing/' | relative_url }}) whether the issue is fraud screening, insufficient funds, merchant error, [sanctions]({{ 'sanctions/' | relative_url }}) checks, a technical outage or a card limit.
 
-The notice does not need to reveal fraud-detection rules in a way that criminals could exploit. It can still be useful: “We stopped this payment because it looked unusual for your account. Please confirm whether you made it,” gives the customer more practical information than a silent decline. The Financial Ombudsman Service specifically handles complaints about blocked payments and frozen accounts, which shows that the communication around these interruptions is part of the customer harm, not separate from it. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: financial-ombudsman.org.uk">[Financial Ombudsman]</a><span class="citation-popover" role="note"><span class="citation-popover-source">financial-ombudsman.org.uk</span><span class="citation-popover-snippet">Financial OmbudsmanFrozen accounts and blocked paymentsOn this page you&#x27;ll discover whether you can bring a complaint about suspended pay...</span></span></span>
+The notice does not need to reveal fraud-detection rules in a way that criminals could exploit. It can still be useful: “We stopped this payment because it looked unusual for your account. Please confirm whether you made it,” gives the customer more practical information than a silent decline. The Financial Ombudsman Service specifically handles complaints about blocked payments and frozen accounts, which shows that the communication around these interruptions is part of the customer harm, not separate from it.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: financial-ombudsman.org.uk">[Financial Ombudsman]</a><span class="citation-popover" role="note"><span class="citation-popover-source">financial-ombudsman.org.uk</span><span class="citation-popover-snippet">Financial OmbudsmanFrozen accounts and blocked paymentsOn this page you&#x27;ll discover whether you can bring a complaint about suspended pay...</span></span></span>
 
 Good notices should include:
 
@@ -292,7 +292,7 @@ Good notices should include:
 
 </div>
 
-That last point is important. Modern payment fraud includes bank-employee impersonation and social-engineering attacks, so the appeal route must avoid creating a new scam opportunity. A bank that sends customers into confusing call-backs or unclear links may solve one fraud problem while creating another. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2026-02/EPC162-24%20v2.0%202025%20Payments%20Threats%20and%20Fraud%20Trends%20Report.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: europeanpaymentscouncil.eu">[European Payments Council]</a><span class="citation-popover" role="note"><span class="citation-popover-source">europeanpaymentscouncil.eu</span><span class="citation-popover-title">EPC162 24 v2.0 2025 Payments Threats and Fraud Trends Report</span><span class="citation-popover-snippet">European Payments Council2025 Payments Threats and Fraud Trends ReportDecember 1, 2025 — The objective is to trick victims in sharing cre...</span><span class="citation-popover-meta">Published: December 1, 2025</span></span></span>
+That last point is important. Modern payment fraud includes bank-employee impersonation and social-engineering attacks, so the appeal route must avoid creating a new scam opportunity. A bank that sends customers into confusing call-backs or unclear links may solve one fraud problem while creating another.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2026-02/EPC162-24%20v2.0%202025%20Payments%20Threats%20and%20Fraud%20Trends%20Report.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: europeanpaymentscouncil.eu">[European Payments Council]</a><span class="citation-popover" role="note"><span class="citation-popover-source">europeanpaymentscouncil.eu</span><span class="citation-popover-title">EPC162 24 v2.0 2025 Payments Threats and Fraud Trends Report</span><span class="citation-popover-snippet">European Payments Council2025 Payments Threats and Fraud Trends ReportDecember 1, 2025 — The objective is to trick victims in sharing cre...</span><span class="citation-popover-meta">Published: December 1, 2025</span></span></span>
 
 ## Customers need more than one way to verify
 
@@ -314,14 +314,14 @@ Alternative verification options can include:
 
 </div>
 
-The key governance principle is proportionality. A routine [false decline]({{ 'false-declines/' | relative_url }}) should not require the same paperwork as a suspected account takeover. Strong Customer Authentication rules in European payments already reflect this tension: security checks are essential, but payment systems also use risk-based analysis and exemptions to avoid unnecessary friction in lower-risk cases. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eba.europa.eu/sites/default/files/documents/10180/2137845/0f525dc7-0f97-4be7-9ad7-800723365b8e/Opinion%20on%20the%20implementation%20of%20the%20RTS%20on%20SCA%20and%20CSC%20%28EBA-2018-Op-04%29.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eba.europa.eu">[European Banking Authority]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eba.europa.eu</span><span class="citation-popover-snippet">European Banking AuthorityOpinion on the implementation of the RTS on SCA and CSC...June 13, 2018 — 13 Jun 2018 — For instance, only the...</span><span class="citation-popover-meta">Published: June 13, 2018</span></span></span>
+The key governance principle is proportionality. A routine [false decline]({{ 'false-declines/' | relative_url }}) should not require the same paperwork as a suspected account takeover. Strong Customer Authentication rules in European payments already reflect this tension: security checks are essential, but payment systems also use risk-based analysis and exemptions to avoid unnecessary friction in lower-risk cases.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.eba.europa.eu/sites/default/files/documents/10180/2137845/0f525dc7-0f97-4be7-9ad7-800723365b8e/Opinion%20on%20the%20implementation%20of%20the%20RTS%20on%20SCA%20and%20CSC%20%28EBA-2018-Op-04%29.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eba.europa.eu">[European Banking Authority]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eba.europa.eu</span><span class="citation-popover-snippet">European Banking AuthorityOpinion on the implementation of the RTS on SCA and CSC...June 13, 2018 — 13 Jun 2018 — For instance, only the...</span><span class="citation-popover-meta">Published: June 13, 2018</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/uXVUvtzXz14" title="Automated Decision Making and UK Data Protection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=uXVUvtzXz14" target="_blank" rel="noopener noreferrer">Automated Decision Making and UK Data Protection</a></p><p class="youtube-embed-meta">Channel: Acuity AutoRedact</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=uXVUvtzXz14" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=uXVUvtzXz14">Open on YouTube</a></p></div></div></div>
 
 ## Human support must be able to override the machine
 
-An appeal is not meaningful if the human reviewer simply repeats the automated score. Human support should be able to examine context, weigh evidence, recognise urgency, and override the block where appropriate. The UK Information Commissioner’s Office explains that people affected by significant solely automated decisions should have safeguards such as the ability to obtain human intervention, express their view and contest the decision. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...</span></span></span>
+An appeal is not meaningful if the human reviewer simply repeats the automated score. Human support should be able to examine context, weigh evidence, recognise urgency, and override the block where appropriate. The UK Information Commissioner’s Office explains that people affected by significant solely automated decisions should have safeguards such as the ability to obtain human intervention, express their view and contest the decision.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...</span></span></span>
 
 In blocked-payment appeals, meaningful human review should be available when:
 
@@ -336,7 +336,7 @@ In blocked-payment appeals, meaningful human review should be available when:
 
 </div>
 
-The human reviewer should not need to expose the fraud model’s full logic to the customer, but they should be able to see enough internal information to make a real decision: the trigger category, the transaction history, previous disputes, verification attempts, account restrictions and any vulnerability notes. The European Data Protection Supervisor has similarly stressed that human oversight of automated decision-making must be effective rather than symbolic. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: edps.europa.eu">[European Data Protection Supervisor]</a><span class="citation-popover" role="note"><span class="citation-popover-source">edps.europa.eu</span><span class="citation-popover-title">2025 09 23 techdispatch 22025 human oversight automated making</span><span class="citation-popover-snippet">European Data Protection SupervisorTechDispatch #2/2025 - Human Oversight of Automated...by W Wiewiórowski · Cited by 4 — Automated deci...</span></span></span>
+The human reviewer should not need to expose the fraud model’s full logic to the customer, but they should be able to see enough internal information to make a real decision: the trigger category, the transaction history, previous disputes, verification attempts, account restrictions and any vulnerability notes. The European Data Protection Supervisor has similarly stressed that human oversight of automated decision-making must be effective rather than symbolic.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: edps.europa.eu">[European Data Protection Supervisor]</a><span class="citation-popover" role="note"><span class="citation-popover-source">edps.europa.eu</span><span class="citation-popover-title">2025 09 23 techdispatch 22025 human oversight automated making</span><span class="citation-popover-snippet">European Data Protection SupervisorTechDispatch #2/2025 - Human Oversight of Automated...by W Wiewiórowski · Cited by 4 — Automated deci...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_blocked_payme_b51bc2-Illustration-2-dark.svg" | relative_url }}" alt="Appeals illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_blocked_payme_b51bc2-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_blocked_payme_b51bc2-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -344,7 +344,7 @@ The human reviewer should not need to expose the fraud model’s full logic to t
 
 A blocked payment can become harmful quickly. Delays that look modest from inside a bank can be serious for a customer waiting to pay a deposit, release goods, cover wages or meet a deadline. Fair appeal design should therefore separate low-risk verification, urgent manual escalation and formal complaint handling.
 
-For ordinary verification, the process should aim for minutes, not days. For complex reviews, customers should receive a status update, a reason for delay where legally possible, and a named route for escalation. If the issue becomes a complaint, FCA rules require firms to maintain effective complaint-handling procedures, and consumers can ultimately take eligible unresolved complaints to the Financial Ombudsman Service. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://handbook.fca.org.uk/handbook/disp1/disp1s3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: handbook.fca.org.uk">[FCA Handbook+2FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">handbook.fca.org.uk</span><span class="citation-popover-snippet">Where a respondent operates a telephone line for the purpose of enabling an eligible...Read more...</span></span></span>
+For ordinary verification, the process should aim for minutes, not days. For complex reviews, customers should receive a status update, a reason for delay where legally possible, and a named route for escalation. If the issue becomes a complaint, FCA rules require firms to maintain effective complaint-handling procedures, and consumers can ultimately take eligible unresolved complaints to the Financial Ombudsman Service.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://handbook.fca.org.uk/handbook/disp1/disp1s3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: handbook.fca.org.uk">[FCA Handbook+2FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">handbook.fca.org.uk</span><span class="citation-popover-snippet">Where a respondent operates a telephone line for the purpose of enabling an eligible...Read more...</span></span></span>
 
 A useful escalation ladder looks like this:
 
@@ -366,9 +366,9 @@ This structure helps avoid a common failure: treating every blocked payment as e
 
 ## The hardest cases involve secrecy, safety and fairness at once
 
-Payment providers cannot always explain everything. They may be prevented from disclosing details because of anti-money-laundering duties, sanctions screening, law-enforcement concerns or fraud-risk controls. The FCA’s work on payment account access and closures recognises that firms need effective systems to manage financial-crime and fraud risk, and that those controls may sometimes lead to accounts being suspended, declined or closed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-and-closures.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fca.org.uk">[FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fca.org.uk</span><span class="citation-popover-title">FCAUK Payment Accounts: access and closures</span><span class="citation-popover-snippet">September 20, 2023 — 5 Sept 2023 — This includes effective controls to manage financial crime and fraud risk, which may lead to customers...</span><span class="citation-popover-meta">Published: September 20, 2023</span></span></span>
+Payment providers cannot always explain everything. They may be prevented from disclosing details because of anti-money-laundering duties, sanctions screening, law-enforcement concerns or fraud-risk controls. The FCA’s work on payment account access and closures recognises that firms need effective systems to manage financial-crime and fraud risk, and that those controls may sometimes lead to accounts being suspended, declined or closed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-and-closures.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fca.org.uk">[FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fca.org.uk</span><span class="citation-popover-title">FCAUK Payment Accounts: access and closures</span><span class="citation-popover-snippet">September 20, 2023 — 5 Sept 2023 — This includes effective controls to manage financial crime and fraud risk, which may lead to customers...</span><span class="citation-popover-meta">Published: September 20, 2023</span></span></span>
 
-But secrecy should not become a blanket excuse for poor treatment. Even where a firm cannot disclose the full reason for a block, it can still explain the process, provide safe contact routes, review evidence, consider customer vulnerability, and avoid leaving people without usable access to funds for longer than necessary. The FCA’s Consumer Duty also pushes firms to consider customer [understanding]({{ 'understanding/' | relative_url }}) and outcomes across the journey, including communications after account access decisions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-closures-update.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fca.org.uk">[FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fca.org.uk</span><span class="citation-popover-title">FCAUK Payment Accounts Access and Closures: Update</span><span class="citation-popover-snippet">Duty imposes relevant obligations throughout the customer journey, from a firm&#x27;s interactions with the...Read more...</span></span></span>
+But secrecy should not become a blanket excuse for poor treatment. Even where a firm cannot disclose the full reason for a block, it can still explain the process, provide safe contact routes, review evidence, consider customer vulnerability, and avoid leaving people without usable access to funds for longer than necessary. The FCA’s Consumer Duty also pushes firms to consider customer [understanding]({{ 'understanding/' | relative_url }}) and outcomes across the journey, including communications after account access decisions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-closures-update.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fca.org.uk">[FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fca.org.uk</span><span class="citation-popover-title">FCAUK Payment Accounts Access and Closures: Update</span><span class="citation-popover-snippet">Duty imposes relevant obligations throughout the customer journey, from a firm&#x27;s interactions with the...Read more...</span></span></span>
 
 The practical test is whether the customer has a real route to resolution. A message that says “we cannot discuss this” may sometimes be legally necessary in part, but a fair process should still answer: what can the customer do, when will the firm review it, and how can urgent harm be raised?
 
@@ -385,13 +385,13 @@ Firms should track:
 * Appeal success rates.
 * Time taken to restore access.
 * Repeat blocks affecting the same customer.
-* Complaints involving vulnerable customers. <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: financial-ombudsman.org.uk">[financial-ombudsman.org.uk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">financial-ombudsman.org.uk</span><span class="citation-popover-snippet">Financial OmbudsmanFrozen accounts and blocked paymentsAre you dealing with complaints from customers whose current accounts have been fr...</span></span></span>
+* Complaints involving vulnerable customers.<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: financial-ombudsman.org.uk">[financial-ombudsman.org.uk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">financial-ombudsman.org.uk</span><span class="citation-popover-snippet">Financial OmbudsmanFrozen accounts and blocked paymentsAre you dealing with complaints from customers whose current accounts have been fr...</span></span></span>
 * Downstream harm, such as missed bills, fees or business disruption.
 * Cases where human reviewers frequently override the automated score.
 
 </div>
 
-This monitoring should feed into threshold tuning, staff training, customer-message design and model-risk review. The NIST AI Risk Management Framework frames AI risk management as an ongoing process of governing, mapping, measuring and managing risks to people, organisations and society; blocked-payment appeals are a concrete example of that lifecycle in everyday finance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — NIST plans...</span><span class="citation-popover-meta">Published: June 4, 2025</span></span></span>
+This monitoring should feed into threshold tuning, staff training, customer-message design and model-risk review. The NIST AI Risk Management Framework frames AI risk management as an ongoing process of governing, mapping, measuring and managing risks to people, organisations and society; blocked-payment appeals are a concrete example of that lifecycle in everyday finance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — NIST plans...</span><span class="citation-popover-meta">Published: June 4, 2025</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_blocked_payme_b51bc2-Illustration-3-dark.svg" | relative_url }}" alt="Appeals illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_blocked_payme_b51bc2-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_blocked_payme_b51bc2-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -399,7 +399,7 @@ This monitoring should feed into threshold tuning, staff training, customer-mess
 
 A payment block is not fully corrected just because the transaction is later approved. The customer may already have missed a deadline, lost a purchase, incurred fees, damaged a supplier relationship or been left without money at a critical moment. Fair appeals should therefore ask not only “was the payment genuine?” but also “what happened because we blocked it?”
 
-The Financial Ombudsman Service’s published material on blocked payments and frozen accounts makes clear that complaints can involve the way a firm handled the block, not only whether the firm had any reason to act. In one ombudsman decision involving blocked and closed accounts, the complaint included concern that the customer had missed a loan payment because of the block. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: financial-ombudsman.org.uk">[Financial Ombudsman]</a><span class="citation-popover" role="note"><span class="citation-popover-source">financial-ombudsman.org.uk</span><span class="citation-popover-snippet">Financial OmbudsmanFrozen accounts and blocked paymentsOn this page you&#x27;ll discover whether you can bring a complaint about suspended pay...</span></span></span>
+The Financial Ombudsman Service’s published material on blocked payments and frozen accounts makes clear that complaints can involve the way a firm handled the block, not only whether the firm had any reason to act. In one ombudsman decision involving blocked and closed accounts, the complaint included concern that the customer had missed a loan payment because of the block.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: financial-ombudsman.org.uk">[Financial Ombudsman]</a><span class="citation-popover" role="note"><span class="citation-popover-source">financial-ombudsman.org.uk</span><span class="citation-popover-snippet">Financial OmbudsmanFrozen accounts and blocked paymentsOn this page you&#x27;ll discover whether you can bring a complaint about suspended pay...</span></span></span>
 
 That distinction matters for AI governance. A fraud model may be statistically defensible overall while still causing avoidable harm in particular cases. Recording downstream consequences gives firms a better view of the real cost of false positives and helps prevent “accuracy” from being defined only in technical terms.
 
@@ -422,194 +422,194 @@ This is where blocked-payment appeals become part of understanding artificial in
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to What a fair payment appeal needs. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to What a fair payment appeal needs. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Power+of+Customer+Experience+by+Martin+Newman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Power of Customer Experience on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=H_oqEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Power of Customer Experience" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Power+of+Customer+Experience+by+Martin+Newman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Power of Customer Experience">The Power of Customer Experience</a>
-        </h4>
-        <p class="fr-book-author">By Martin Newman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Power+of+Customer+Experience+by+Martin+Newman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Power of Customer Experience on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=H_oqEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Power of Customer Experience" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Power+of+Customer+Experience+by+Martin+Newman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Power of Customer Experience">The Power of Customer Experience</a>
+</h4>
+<p class="fr-book-author">By Martin Newman</p>
         
-        <p class="fr-book-desc">Explains fair treatment, complaints handling, customer journeys, and organisational responses when systems cause harm.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Power+of+Customer+Experience+by+Martin+Newman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains fair treatment, complaints handling, customer journeys, and organisational responses when systems cause harm.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Power+of+Customer+Experience+by+Martin+Newman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Helps readers understand when human review should complement automated decisions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps readers understand when human review should complement automated decisions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Directly addresses unfair automated decisions, accountability, and appeals.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses unfair automated decisions, accountability, and appeals.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explores how machine-learning systems can create unintended outcomes and how institutions respond.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores how machine-learning systems can create unintended outcomes and how institutions respond.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Power+of+Customer+Experience&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Power of Customer Experience</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Power+of+Customer+Experience&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Power of Customer Experience</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game"><img src="{{ '/assets/images/marketplace-covers/4262455386b429ab533b.jpg' | relative_url }}" alt="Listing image for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">[Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game"><img src="{{ '/assets/images/marketplace-covers/4262455386b429ab533b.jpg' | relative_url }}" alt="Listing image for [Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">[Lot] New World Aeternum Developer Exclusive Artbook / Desk Mat / Steelbook Game</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A Certain Vending Machine Regional Development Desk Mat - A Certain Magical"><img src="{{ '/assets/images/marketplace-covers/0ab3139abc7571061244.jpg' | relative_url }}" alt="Listing image for A Certain Vending Machine Regional Development Desk Mat - A Certain Magical" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">A Certain Vending Machine Regional Development Desk Mat - A Certain Magical</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A Certain Vending Machine Regional Development Desk Mat - A Certain Magical"><img src="{{ '/assets/images/marketplace-covers/0ab3139abc7571061244.jpg' | relative_url }}" alt="Listing image for A Certain Vending Machine Regional Development Desk Mat - A Certain Magical" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">A Certain Vending Machine Regional Development Desk Mat - A Certain Magical</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Street Fighter 6 desk mat and accessories"><img src="{{ '/assets/images/marketplace-covers/981932c70bf6109b97ed.jpg' | relative_url }}" alt="Listing image for Street Fighter 6 desk mat and accessories" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">Street Fighter 6 desk mat and accessories</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Street Fighter 6 desk mat and accessories"><img src="{{ '/assets/images/marketplace-covers/981932c70bf6109b97ed.jpg' | relative_url }}" alt="Listing image for Street Fighter 6 desk mat and accessories" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">Street Fighter 6 desk mat and accessories</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for &#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)"><img src="{{ '/assets/images/marketplace-covers/fbf49f494b646faac637.jpg' | relative_url }}" alt="Listing image for &#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">&#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for &#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)"><img src="{{ '/assets/images/marketplace-covers/fbf49f494b646faac637.jpg' | relative_url }}" alt="Listing image for &#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">&#x27;Retro Vintage Camera&#x27; Mouse Mat / Desk Pad (MO00041754)</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer desk mat">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer desk mat</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+desk+mat&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer desk mat" data-ebay-reference="appeals-161a0b-what-a-fair-payment-appeal-needs-understanding-developer-desk-mat" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -625,7 +625,7 @@ This is where blocked-payment appeals become part of understanding artificial in
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -645,7 +645,7 @@ This is where blocked-payment appeals become part of understanding artificial in
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -677,7 +677,7 @@ This is where blocked-payment appeals become part of understanding artificial in
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -729,7 +729,7 @@ This is where blocked-payment appeals become part of understanding artificial in
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -774,7 +774,7 @@ This is where blocked-payment appeals become part of understanding artificial in
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -815,213 +815,213 @@ This is where blocked-payment appeals become part of understanding artificial in
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>hose based on profiling, that have a legal or similarly significant effect on...</p></details>
+   Link:<a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>hose based on profiling, that have a legal or similarly significant effect on...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Your rights relating to decisions being made about you...Organisations must not make decisions based solely on automated processing if t...</p></details>
+   Link:<a href="https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Your rights relating to decisions being made about you...Organisations must not make decisions based solely on automated processing if t...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: fca.org.uk  
    Title: how complain  
-   Link: <a href="https://www.fca.org.uk/consumers/how-complain" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/consumers/how-complain</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How to complain17 Apr 2016 — If you&#x27;re unhappy with a financial product or service, get in touch with the firm. Tell them what happened a...</p></details>
+   Link:<a href="https://www.fca.org.uk/consumers/how-complain" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/consumers/how-complain</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to complain17 Apr 2016 — If you&#x27;re unhappy with a financial product or service, get in touch with the firm. Tell them what happened a...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: nvlpubs.nist.gov  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — NIST plans...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)June 4, 2025 — by N AI · 2023 · Cited by 228 — NIST plans...</p></details>
    Published: June 4, 2025  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>iated with artificial intelligence (AI)...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>iated with artificial intelligence (AI)...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: clear.sale  
    Title: Everything You Need to Know About False Declines  
-   Link: <a href="https://www.clear.sale/blog/everything-you-need-to-know-about-false-declines" target="_blank" rel="noopener noreferrer nofollow">https://www.clear.sale/blog/everything-you-need-to-know-about-false-declines</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>SaleLearn about false declines, including strategies for reducing false declines to enhance customer experience and safeguard revenue...</p></details>
+   Link:<a href="https://www.clear.sale/blog/everything-you-need-to-know-about-false-declines" target="_blank" rel="noopener noreferrer nofollow">https://www.clear.sale/blog/everything-you-need-to-know-about-false-declines</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SaleLearn about false declines, including strategies for reducing false declines to enhance customer experience and safeguard revenue...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: financial-ombudsman.org.uk  
-   Link: <a href="https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments/frozen-accounts-blocked-payments</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Financial OmbudsmanFrozen accounts and blocked paymentsOn this page you&#x27;ll discover whether you can bring a complaint about suspended pay...</p></details>
+   Link:<a href="https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments/frozen-accounts-blocked-payments</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Financial OmbudsmanFrozen accounts and blocked paymentsOn this page you&#x27;ll discover whether you can bring a complaint about suspended pay...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: financial-ombudsman.org.uk  
-   Link: <a href="https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/frozen-accounts-blocked-payments</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Financial OmbudsmanFrozen accounts and blocked paymentsAre you dealing with complaints from customers whose current accounts have been fr...</p></details>
+   Link:<a href="https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/frozen-accounts-blocked-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/frozen-accounts-blocked-payments</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Financial OmbudsmanFrozen accounts and blocked paymentsAre you dealing with complaints from customers whose current accounts have been fr...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: europeanpaymentscouncil.eu  
    Title: EPC162 24 v2.0 2025 Payments Threats and Fraud Trends Report  
-   Link: <a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2026-02/EPC162-24%20v2.0%202025%20Payments%20Threats%20and%20Fraud%20Trends%20Report.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2026-02/EPC162-24%20v2.0%202025%20Payments%20Threats%20and%20Fraud%20Trends%20Report.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>European Payments Council2025 Payments Threats and Fraud Trends ReportDecember 1, 2025 — The objective is to trick victims in sharing cre...</p></details>
+   Link:<a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2026-02/EPC162-24%20v2.0%202025%20Payments%20Threats%20and%20Fraud%20Trends%20Report.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2026-02/EPC162-24%20v2.0%202025%20Payments%20Threats%20and%20Fraud%20Trends%20Report.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>European Payments Council2025 Payments Threats and Fraud Trends ReportDecember 1, 2025 — The objective is to trick victims in sharing cre...</p></details>
    Published: December 1, 2025  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: eba.europa.eu  
-   Link: <a href="https://www.eba.europa.eu/sites/default/files/documents/10180/2137845/0f525dc7-0f97-4be7-9ad7-800723365b8e/Opinion%20on%20the%20implementation%20of%20the%20RTS%20on%20SCA%20and%20CSC%20%28EBA-2018-Op-04%29.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.eba.europa.eu/sites/default/files/documents/10180/2137845/0f525dc7-0f97-4be7-9ad7-800723365b8e/Opinion%20on%20the%20implementation%20of%20the%20RTS%20on%20SCA%20and%20CSC%20%28EBA-2018-Op-04%29.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>European Banking AuthorityOpinion on the implementation of the RTS on SCA and CSC...June 13, 2018 — 13 Jun 2018 — For instance, only the...</p></details>
+   Link:<a href="https://www.eba.europa.eu/sites/default/files/documents/10180/2137845/0f525dc7-0f97-4be7-9ad7-800723365b8e/Opinion%20on%20the%20implementation%20of%20the%20RTS%20on%20SCA%20and%20CSC%20%28EBA-2018-Op-04%29.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.eba.europa.eu/sites/default/files/documents/10180/2137845/0f525dc7-0f97-4be7-9ad7-800723365b8e/Opinion%20on%20the%20implementation%20of%20the%20RTS%20on%20SCA%20and%20CSC%20%28EBA-2018-Op-04%29.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>European Banking AuthorityOpinion on the implementation of the RTS on SCA and CSC...June 13, 2018 — 13 Jun 2018 — For instance, only the...</p></details>
    Published: June 13, 2018  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: eba.europa.eu  
    Title: eba publishes opinion elements strong customer authentication  
-   Link: <a href="https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-opinion-elements-strong-customer-authentication" target="_blank" rel="noopener noreferrer nofollow">https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-opinion-elements-strong-customer-authentication</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>European Banking AuthorityEBA publishes an Opinion on the elements of strong customer...21 Jun 2019 — The European Banking Authority (EB...</p></details>
+   Link:<a href="https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-opinion-elements-strong-customer-authentication" target="_blank" rel="noopener noreferrer nofollow">https://www.eba.europa.eu/publications-and-media/press-releases/eba-publishes-opinion-elements-strong-customer-authentication</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>European Banking AuthorityEBA publishes an Opinion on the elements of strong customer...21 Jun 2019 — The European Banking Authority (EB...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: edps.europa.eu  
    Title: 2025 09 23 techdispatch 22025 human oversight automated making  
-   Link: <a href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making" target="_blank" rel="noopener noreferrer nofollow">https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>European Data Protection SupervisorTechDispatch #2/2025 - Human Oversight of Automated...by W Wiewiórowski · Cited by 4 — Automated deci...</p></details>
+   Link:<a href="https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making" target="_blank" rel="noopener noreferrer nofollow">https://www.edps.europa.eu/data-protection/our-work/publications/techdispatch/2025-09-23-techdispatch-22025-human-oversight-automated-making</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>European Data Protection SupervisorTechDispatch #2/2025 - Human Oversight of Automated...by W Wiewiórowski · Cited by 4 — Automated deci...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: handbook.fca.org.uk  
-   Link: <a href="https://handbook.fca.org.uk/handbook/disp1/disp1s3" target="_blank" rel="noopener noreferrer nofollow">https://handbook.fca.org.uk/handbook/disp1/disp1s3</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Where a respondent operates a telephone line for the purpose of enabling an eligible...Read more...</p></details>
+   Link:<a href="https://handbook.fca.org.uk/handbook/disp1/disp1s3" target="_blank" rel="noopener noreferrer nofollow">https://handbook.fca.org.uk/handbook/disp1/disp1s3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Where a respondent operates a telephone line for the purpose of enabling an eligible...Read more...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: fca.org.uk  
    Title: FCAUK Payment Accounts: access and closures  
-   Link: <a href="https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-and-closures.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-and-closures.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>September 20, 2023 — 5 Sept 2023 — This includes effective controls to manage financial crime and fraud risk, which may lead to customers...</p></details>
+   Link:<a href="https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-and-closures.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-and-closures.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>September 20, 2023 — 5 Sept 2023 — This includes effective controls to manage financial crime and fraud risk, which may lead to customers...</p></details>
    Published: September 20, 2023  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: fca.org.uk  
    Title: FCAUK Payment Accounts Access and Closures: Update  
-   Link: <a href="https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-closures-update.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-closures-update.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Duty imposes relevant obligations throughout the customer journey, from a firm&#x27;s interactions with the...Read more...</p></details>
+   Link:<a href="https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-closures-update.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publication/corporate/uk-payment-accounts-access-closures-update.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Duty imposes relevant obligations throughout the customer journey, from a firm&#x27;s interactions with the...Read more...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: fca.org.uk  
    Title: uk payment accounts access and closures update  
-   Link: <a href="https://www.fca.org.uk/publications/corporate-documents/uk-payment-accounts-access-and-closures-update" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/corporate-documents/uk-payment-accounts-access-and-closures-update</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK payment accounts access and closures: updateSep 4, 2024 — This report follows on from our 2023 report, UK Payment Accounts: access and...</p></details>
+   Link:<a href="https://www.fca.org.uk/publications/corporate-documents/uk-payment-accounts-access-and-closures-update" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/corporate-documents/uk-payment-accounts-access-and-closures-update</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK payment accounts access and closures: updateSep 4, 2024 — This report follows on from our 2023 report, UK Payment Accounts: access and...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: financial-ombudsman.org.uk  
    Title: DRN 2773561  
-   Link: <a href="https://www.financial-ombudsman.org.uk/decision/DRN-2773561.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/decision/DRN-2773561.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Decision Reference DRN-2773561Mr J complained to the bank about his accounts being blocked and then closed. Mr J felt he&#x27;d been unfairly...</p></details>
+   Link:<a href="https://www.financial-ombudsman.org.uk/decision/DRN-2773561.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/decision/DRN-2773561.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Decision Reference DRN-2773561Mr J complained to the bank about his accounts being blocked and then closed. Mr J felt he&#x27;d been unfairly...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: fca.org.uk  
-   Link: <a href="https://www.fca.org.uk/consumers/fraudulent-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/consumers/fraudulent-payments</a>  
+   Link:<a href="https://www.fca.org.uk/consumers/fraudulent-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/consumers/fraudulent-payments</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: fca.org.uk  
    Title: anti fraud controls complaint handling firms focus app fraud  
-   Link: <a href="https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Anti-fraud controls and complaint handling in firms (with a...7 Nov 2023 — This publication sets out the key findings from our review of...</p></details>
+   Link:<a href="https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Anti-fraud controls and complaint handling in firms (with a...7 Nov 2023 — This publication sets out the key findings from our review of...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: fca.org.uk  
-   Link: <a href="https://www.fca.org.uk/firms/financial-crime/fraud" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/firms/financial-crime/fraud</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>22 Feb 2016 — Fraud falls within the FCA&#x27;s objective of reducing the risk of financial crime and also affects our consumer protection obj...</p></details>
+   Link:<a href="https://www.fca.org.uk/firms/financial-crime/fraud" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/firms/financial-crime/fraud</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>22 Feb 2016 — Fraud falls within the FCA&#x27;s objective of reducing the risk of financial crime and also affects our consumer protection obj...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: fca.org.uk  
    Title: banks fraud controls comparison  
-   Link: <a href="https://www.fca.org.uk/data/banks-fraud-controls-comparison" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/data/banks-fraud-controls-comparison</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Comparison of banking providers&#x27; fraud controls9 Mar 2020 — Real-time fraud detection Our systems are designed to detect fraudulent payme...</p></details>
+   Link:<a href="https://www.fca.org.uk/data/banks-fraud-controls-comparison" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/data/banks-fraud-controls-comparison</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Comparison of banking providers&#x27; fraud controls9 Mar 2020 — Real-time fraud detection Our systems are designed to detect fraudulent payme...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: fca.org.uk  
    Title: complaints handling review findings  
-   Link: <a href="https://www.fca.org.uk/publications/multi-firm-reviews/complaints-handling-review-findings" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/multi-firm-reviews/complaints-handling-review-findings</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>15 Aug 2018 — The findings of our review of how Non-deposit Taking Mortgage Lenders (NDTMLs) and Mortgage Third-Party Administrators (MTP...</p></details>
+   Link:<a href="https://www.fca.org.uk/publications/multi-firm-reviews/complaints-handling-review-findings" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/multi-firm-reviews/complaints-handling-review-findings</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>15 Aug 2018 — The findings of our review of how Non-deposit Taking Mortgage Lenders (NDTMLs) and Mortgage Third-Party Administrators (MTP...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: fca.org.uk  
    Title: uk payment accounts access and closures  
-   Link: <a href="https://www.fca.org.uk/publications/corporate-documents/uk-payment-accounts-access-and-closures" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/corporate-documents/uk-payment-accounts-access-and-closures</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK Payment Accounts: access and closuresSep 19, 2023 — We set out key insights from our work on the provision of payment accounts to pers...</p></details>
+   Link:<a href="https://www.fca.org.uk/publications/corporate-documents/uk-payment-accounts-access-and-closures" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/corporate-documents/uk-payment-accounts-access-and-closures</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK Payment Accounts: access and closuresSep 19, 2023 — We set out key insights from our work on the provision of payment accounts to pers...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: financial-ombudsman.org.uk  
-   Link: <a href="https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Banking and paymentsFrozen accounts and blocked payments Do you have a complaint about the way your bank or building society froze your a...</p></details>
+   Link:<a href="https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/consumers/complaints-can-help/banking-and-payments</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Banking and paymentsFrozen accounts and blocked payments Do you have a complaint about the way your bank or building society froze your a...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: financial-ombudsman.org.uk  
-   Link: <a href="https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/bank-account-closures" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/bank-account-closures</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Bank account closuresDo you deal with customer complaints about bank account closures? This page will give you an overview of the complai...</p></details>
+   Link:<a href="https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/bank-account-closures" target="_blank" rel="noopener noreferrer nofollow">https://www.financial-ombudsman.org.uk/businesses/complaints-deal/banking-and-payments/bank-account-closures</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Bank account closuresDo you deal with customer complaints about bank account closures? This page will give you an overview of the complai...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: eba.europa.eu  
-   Link: <a href="https://www.eba.europa.eu/regulation-and-policy/consumer-protection" target="_blank" rel="noopener noreferrer nofollow">https://www.eba.europa.eu/regulation-and-policy/consumer-protection</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>protection | European Banking AuthorityThe EBA identifies and addresses harm that arises for EU consumers as a result of their interactio...</p></details>
+   Link:<a href="https://www.eba.europa.eu/regulation-and-policy/consumer-protection" target="_blank" rel="noopener noreferrer nofollow">https://www.eba.europa.eu/regulation-and-policy/consumer-protection</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>protection | European Banking AuthorityThe EBA identifies and addresses harm that arises for EU consumers as a result of their interactio...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: witness.ai  
    Title: ai risk management  
-   Link: <a href="https://witness.ai/blog/ai-risk-management/" target="_blank" rel="noopener noreferrer nofollow">https://witness.ai/blog/ai-risk-management/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI RMF &amp; Key Strategies13 Nov 2025 — Discover what AI risk management is, why it matters, and how to apply the NIST AI RMF with gove...</p></details>
+   Link:<a href="https://witness.ai/blog/ai-risk-management/" target="_blank" rel="noopener noreferrer nofollow">https://witness.ai/blog/ai-risk-management/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI RMF &amp; Key Strategies13 Nov 2025 — Discover what AI risk management is, why it matters, and how to apply the NIST AI RMF with gove...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: GOV.UK  
-   Link: <a href="https://www.gov.uk/government/publications/recommendations-on-payments-regulation-for-the-financial-conduct-authority-and-payment-systems-regulator-november-2024/joint-response-from-the-financial-conduct-authority-and-the-payment-systems-regulator" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/government/publications/recommendations-on-payments-regulation-for-the-financial-conduct-authority-and-payment-systems-regulator-november-2024/joint-response-from-the-financial-conduct-authority-and-the-payment-systems-regulator</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>response from the Financial Conduct Authority and...16 Dec 2025 — The PSR has commissioned an independent review of its APP scams polici...</p></details>
+   Link:<a href="https://www.gov.uk/government/publications/recommendations-on-payments-regulation-for-the-financial-conduct-authority-and-payment-systems-regulator-november-2024/joint-response-from-the-financial-conduct-authority-and-the-payment-systems-regulator" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/government/publications/recommendations-on-payments-regulation-for-the-financial-conduct-authority-and-payment-systems-regulator-november-2024/joint-response-from-the-financial-conduct-authority-and-the-payment-systems-regulator</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>response from the Financial Conduct Authority and...16 Dec 2025 — The PSR has commissioned an independent review of its APP scams polici...</p></details>
 
 ### Additional References
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: psr.org.uk  
-   Link: <a href="https://www.psr.org.uk/information-for-consumers/app-fraud-reimbursement-protections/" target="_blank" rel="noopener noreferrer nofollow">https://www.psr.org.uk/information-for-consumers/app-fraud-reimbursement-protections/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>APP fraud reimbursement protectionsAuthorised Push Payment (APP) fraud is a devastating crime. These protections start on 7 October 2024...</p></details>
+   Link:<a href="https://www.psr.org.uk/information-for-consumers/app-fraud-reimbursement-protections/" target="_blank" rel="noopener noreferrer nofollow">https://www.psr.org.uk/information-for-consumers/app-fraud-reimbursement-protections/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>APP fraud reimbursement protectionsAuthorised Push Payment (APP) fraud is a devastating crime. These protections start on 7 October 2024...</p></details>
    Published: October 2024  
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: gdpr-info.eu  
-   Link: <a href="https://gdpr-info.eu/art-22-gdpr/" target="_blank" rel="noopener noreferrer nofollow">https://gdpr-info.eu/art-22-gdpr/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Automated individual decision-making, including profilingThe data subject shall have the right not to be subject to a decision based sole...</p></details>
+   Link:<a href="https://gdpr-info.eu/art-22-gdpr/" target="_blank" rel="noopener noreferrer nofollow">https://gdpr-info.eu/art-22-gdpr/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automated individual decision-making, including profilingThe data subject shall have the right not to be subject to a decision based sole...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: citizensadvice.org.uk  
-   Link: <a href="https://www.citizensadvice.org.uk/debt-and-money/banking/complaints-about-banks-and-building-societies/" target="_blank" rel="noopener noreferrer nofollow">https://www.citizensadvice.org.uk/debt-and-money/banking/complaints-about-banks-and-building-societies/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Complaints about banks and building societiesYou can also contact the Financial Ombudsman Service&#x27;s consumer helpline on 0800 023 4 567 o...</p></details>
+   Link:<a href="https://www.citizensadvice.org.uk/debt-and-money/banking/complaints-about-banks-and-building-societies/" target="_blank" rel="noopener noreferrer nofollow">https://www.citizensadvice.org.uk/debt-and-money/banking/complaints-about-banks-and-building-societies/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Complaints about banks and building societiesYou can also contact the Financial Ombudsman Service&#x27;s consumer helpline on 0800 023 4 567 o...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: addleshawgoddard.com  
-   Link: <a href="https://www.addleshawgoddard.com/en/insights/insights-briefings/2024/financial-regulation/financial-regulation-in-the-know-payments-september-2024/fca-follow-up-report-uk-payment-accounts-access-closures/" target="_blank" rel="noopener noreferrer nofollow">https://www.addleshawgoddard.com/en/insights/insights-briefings/2024/financial-regulation/financial-regulation-in-the-know-payments-september-2024/fca-follow-up-report-uk-payment-accounts-access-closures/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FCA follow-up Report: UK Payment Accounts Access and...Clear and Comprehensive Communication with Customers: In instances where access t...</p></details>
+   Link:<a href="https://www.addleshawgoddard.com/en/insights/insights-briefings/2024/financial-regulation/financial-regulation-in-the-know-payments-september-2024/fca-follow-up-report-uk-payment-accounts-access-closures/" target="_blank" rel="noopener noreferrer nofollow">https://www.addleshawgoddard.com/en/insights/insights-briefings/2024/financial-regulation/financial-regulation-in-the-know-payments-september-2024/fca-follow-up-report-uk-payment-accounts-access-closures/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FCA follow-up Report: UK Payment Accounts Access and...Clear and Comprehensive Communication with Customers: In instances where access t...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: gocardless.com  
-   Link: <a href="https://gocardless.com/en-au/guides/posts/how-to-prevent-false-declines-in-ecommerce/" target="_blank" rel="noopener noreferrer nofollow">https://gocardless.com/en-au/guides/posts/how-to-prevent-false-declines-in-ecommerce/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Prevent False Declines in EcommerceReducing false declines · Upgrade your fraud protection tools. Legitimate transactions being er...</p></details>
+   Link:<a href="https://gocardless.com/en-au/guides/posts/how-to-prevent-false-declines-in-ecommerce/" target="_blank" rel="noopener noreferrer nofollow">https://gocardless.com/en-au/guides/posts/how-to-prevent-false-declines-in-ecommerce/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Prevent False Declines in EcommerceReducing false declines · Upgrade your fraud protection tools. Legitimate transactions being er...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: avolutionsoftware.com  
-   Link: <a href="https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (RMF)The NIST AI Risk Management Framework, often called the NIST AI RMF, gives organizations a practic...</p></details>
+   Link:<a href="https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (RMF)The NIST AI Risk Management Framework, often called the NIST AI RMF, gives organizations a practic...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: epic.org  
-   Link: <a href="https://epic.org/documents/epic-comments-national-institute-of-standards-and-technology-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://epic.org/documents/epic-comments-national-institute-of-standards-and-technology-ai-risk-management-framework/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and Technology AI Risk...EPIC believes the AI RMF is most effective where it provides clear directions o...</p></details>
+   Link:<a href="https://epic.org/documents/epic-comments-national-institute-of-standards-and-technology-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://epic.org/documents/epic-comments-national-institute-of-standards-and-technology-ai-risk-management-framework/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and Technology AI Risk...EPIC believes the AI RMF is most effective where it provides clear directions o...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: psr.org.uk  
-   Link: <a href="https://www.psr.org.uk/media/rhelv4op/ps25-5-app-scams-reimbursement-consolidated-policy-statement-may-2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.psr.org.uk/media/rhelv4op/ps25-5-app-scams-reimbursement-consolidated-policy-statement-may-2025.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>PS25/5 APP scams reimbursement requirement...Fighting authorised push payment fraud: That requirement came into effect on 7 October 2024...</p></details>
+   Link:<a href="https://www.psr.org.uk/media/rhelv4op/ps25-5-app-scams-reimbursement-consolidated-policy-statement-may-2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.psr.org.uk/media/rhelv4op/ps25-5-app-scams-reimbursement-consolidated-policy-statement-may-2025.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>PS25/5 APP scams reimbursement requirement...Fighting authorised push payment fraud: That requirement came into effect on 7 October 2024...</p></details>
    Published: October 2024  
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/neirajones_the-story-so-far-a-snapshot-of-what-weve-activity-7328717829631873024-anBr" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/neirajones_the-story-so-far-a-snapshot-of-what-weve-activity-7328717829631873024-anBr</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>PSR&#x27;s new rules reduce APP scams in UKThe Payment Systems Regulator #PSR published its Authorised Push Payment Scams Reimbursement Dashbo...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/neirajones_the-story-so-far-a-snapshot-of-what-weve-activity-7328717829631873024-anBr" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/neirajones_the-story-so-far-a-snapshot-of-what-weve-activity-7328717829631873024-anBr</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>PSR&#x27;s new rules reduce APP scams in UKThe Payment Systems Regulator #PSR published its Authorised Push Payment Scams Reimbursement Dashbo...</p></details>
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: dnb.nl  
-   Link: <a href="https://www.dnb.nl/en/contact/reporting-complaints-and-wrongdoing/complaints-about-institutions/" target="_blank" rel="noopener noreferrer nofollow">https://www.dnb.nl/en/contact/reporting-complaints-and-wrongdoing/complaints-about-institutions/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Reporting complaints and wrongdoingContact us if you have complaints about financial institutions. You can also report any actual or susp...</p></details>
+   Link:<a href="https://www.dnb.nl/en/contact/reporting-complaints-and-wrongdoing/complaints-about-institutions/" target="_blank" rel="noopener noreferrer nofollow">https://www.dnb.nl/en/contact/reporting-complaints-and-wrongdoing/complaints-about-institutions/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Reporting complaints and wrongdoingContact us if you have complaints about financial institutions. You can also report any actual or susp...</p></details>

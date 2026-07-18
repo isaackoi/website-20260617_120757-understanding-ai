@@ -288,7 +288,7 @@ image: /assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1
 
 ## Introduction
 
-[Generative AI]({{ 'generative-ai/' | relative_url }}) feels different from earlier AI systems because it usually returns something people can work on rather than something they are merely told. Traditional AI often classifies, ranks, flags, or predicts: an email is labelled spam, a transaction is scored as risky, or a recommendation system ranks items. Generative AI instead produces a draft—an email, paragraph, image, slide outline, software function, or marketing concept—that can be edited, shared, or published. This shift turns AI from a largely invisible decision-making tool into an active participant in creative and knowledge work. The result is a very different user experience, even though both generations of systems are built on statistical learning. The [popularity]({{ 'feedback-loops/' | relative_url }}) of systems such as ChatGPT made this distinction highly visible, helping bring generative AI into mainstream use at unprecedented speed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">chatgpt sets record fastest growing user base analyst note 2023 02 01</span><span class="citation-popover-snippet">ChatGPT sets record for fastest-growing user base2 Feb 2023 — ChatGPT, the popular chatbot from OpenAI, is estimated to have reach...</span></span></span>
+[Generative AI]({{ 'generative-ai/' | relative_url }}) feels different from earlier AI systems because it usually returns something people can work on rather than something they are merely told. Traditional AI often classifies, ranks, flags, or predicts: an email is labelled spam, a transaction is scored as risky, or a recommendation system ranks items. Generative AI instead produces a draft—an email, paragraph, image, slide outline, software function, or marketing concept—that can be edited, shared, or published. This shift turns AI from a largely invisible decision-making tool into an active participant in creative and knowledge work. The result is a very different user experience, even though both generations of systems are built on statistical learning. The [popularity]({{ 'feedback-loops/' | relative_url }}) of systems such as ChatGPT made this distinction highly visible, helping bring generative AI into mainstream use at unprecedented speed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">chatgpt sets record fastest growing user base analyst note</span><span class="citation-popover-snippet">ChatGPT sets record for fastest-growing user base2 Feb 2023 — ChatGPT, the popular chatbot from OpenAI, is estimated to have reach...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488-Illustration-1-dark.svg" | relative_url }}" alt="AI Drafts illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -300,7 +300,7 @@ When a fraud detector produces a [risk score]({{ 'thresholds/' | relative_url }}
 
 This creates a collaborative feeling that earlier AI systems rarely produced. The interaction becomes iterative. Users are no longer asking, “What does the system think?” They are asking, “What can we make together?”
 
-That distinction helps explain why public [attention]({{ 'attention/' | relative_url }}) shifted so quickly toward generative AI after conversational systems became widely available. The output is directly visible, personally relevant, and immediately usable. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters+2Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">chatgpt sets record fastest growing user base analyst note 2023 02 01</span><span class="citation-popover-snippet">ChatGPT sets record for fastest-growing user base2 Feb 2023 — ChatGPT, the popular chatbot from OpenAI, is estimated to have reach...</span></span></span>
+That distinction helps explain why public [attention]({{ 'attention/' | relative_url }}) shifted so quickly toward generative AI after conversational systems became widely available. The output is directly visible, personally relevant, and immediately usable.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters+2Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">chatgpt sets record fastest growing user base analyst note</span><span class="citation-popover-snippet">ChatGPT sets record for fastest-growing user base2 Feb 2023 — ChatGPT, the popular chatbot from OpenAI, is estimated to have reach...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/X4KHe8tah0c" title="ChatGPT Reaches 100 Million Weekly Users" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=X4KHe8tah0c" target="_blank" rel="noopener noreferrer">ChatGPT Reaches 100 Million Weekly Users</a></p><p class="youtube-embed-meta">Channel: Jaeden Schafer &middot; Views: 12 &middot; Uploaded: December 2023 &middot; Length: 11 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=X4KHe8tah0c" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=X4KHe8tah0c">Open on YouTube</a></p></div></div></div>
@@ -333,7 +333,7 @@ With a draft-oriented system:
 
 This difference changes the role of the user. In predictive systems, people are primarily evaluators of machine judgements. In generative systems, they become editors of machine-produced material.
 
-The practical consequences are significant. A [search ranking]({{ 'search-ranking/' | relative_url }}) determines which pages appear first. A language model can instead produce a complete summary of those pages. A predictive coding assistant might suggest the next word. A generative coding assistant can produce an entire function or application template. The output moves closer to the final product that the user actually wants. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2309.07930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Generative AI</span><span class="citation-popover-snippet">arXiv Generative AI</span></span></span>
+The practical consequences are significant. A [search ranking]({{ 'search-ranking/' | relative_url }}) determines which pages appear first. A language model can instead produce a complete summary of those pages. A predictive coding assistant might suggest the next word. A generative coding assistant can produce an entire function or application template. The output moves closer to the final product that the user actually wants.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2309.07930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Generative AI</span><span class="citation-popover-snippet">arXiv Generative AI</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488-Illustration-2-dark.svg" | relative_url }}" alt="AI Drafts illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -343,7 +343,7 @@ Drafts alter expectations because they feel less constrained than predictions.
 
 Most people understand that a recommendation score is only one input into a decision. A generated article or answer, however, resembles something a human might have written. The format encourages readers to evaluate it as communication rather than as a statistical estimate.
 
-This can create an impression of general competence. A system that can write a poem, summarise a report, generate code, and answer questions appears adaptable across many domains. In practice, these capabilities emerge because a single generative model can be prompted to perform many tasks without requiring a separate interface for each one. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2309.07930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Generative AI</span><span class="citation-popover-snippet">arXiv Generative AI</span></span></span>
+This can create an impression of general competence. A system that can write a poem, summarise a report, generate code, and answer questions appears adaptable across many domains. In practice, these capabilities emerge because a single generative model can be prompted to perform many tasks without requiring a separate interface for each one.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2309.07930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Generative AI</span><span class="citation-popover-snippet">arXiv Generative AI</span></span></span>
 
 The draft format also changes how success is judged. Users often do not ask whether every sentence is correct. Instead, they ask whether the output gives them a useful starting point. That makes generative AI valuable even when the first result requires editing.
 
@@ -358,11 +358,11 @@ The same qualities that make drafts useful can also make them misleading.
 
 A prediction system usually exposes its uncertainty through probabilities, [confidence]({{ 'confidence/' | relative_url }}) scores, or rankings. Generative systems often express uncertainty poorly because their output appears as coherent language, images, or code. The result can look complete even when parts of it are incorrect.
 
-Researchers and standards bodies have identified this as a distinctive challenge for generative AI. NIST's Generative AI Profile highlights risks related to fabricated or erroneous content, sometimes described as “hallucinations” or “confabulations,” where systems produce plausible but false information. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.600 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — This document is a cross-sectoral profil...</span></span></span>
+Researchers and standards bodies have identified this as a distinctive challenge for generative AI. NIST's Generative AI Profile highlights risks related to fabricated or erroneous content, sometimes described as “hallucinations” or “confabulations,” where systems produce plausible but false information.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.600 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — This document is a cross-sectoral profil...</span></span></span>
 
-The problem is amplified by presentation. A wrong classification may be obviously wrong once checked. A polished paragraph with invented details can be harder to detect because it follows the conventions of trustworthy writing. Studies and practical evaluations have repeatedly shown that large language models can generate fluent explanations while introducing factual errors, fabricated references, or unsupported claims. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mitsloanedtech.mit.edu">[MIT Sloan Teaching Tech+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mitsloanedtech.mit.edu</span><span class="citation-popover-snippet">MIT Sloan Teaching TechWhen AI Gets It Wrong: Addressing AI Hallucinations and...Generative AI tools can produce fabricated information...</span></span></span>
+The problem is amplified by presentation. A wrong classification may be obviously wrong once checked. A polished paragraph with invented details can be harder to detect because it follows the conventions of trustworthy writing. Studies and practical evaluations have repeatedly shown that large language models can generate fluent explanations while introducing factual errors, fabricated references, or unsupported claims.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mitsloanedtech.mit.edu">[MIT Sloan Teaching Tech+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mitsloanedtech.mit.edu</span><span class="citation-popover-snippet">MIT Sloan Teaching TechWhen AI Gets It Wrong: Addressing AI Hallucinations and...Generative AI tools can produce fabricated information...</span></span></span>
 
-Recent real-world incidents illustrate the risk. Investigations into AI-assisted reports have found examples of convincing-looking citations and references that did not actually exist, demonstrating how draft quality and factual quality can diverge. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/a-major-kpmg-report-on-ai-was-found-to-be-chock-full-of-ai-hallucinations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-snippet">The report contained 45 citations, with only five found to be accurate; the rest were either fabricated, distorted, or misleading. GPTZer...</span></span></span>
+Recent real-world incidents illustrate the risk. Investigations into AI-assisted reports have found examples of convincing-looking citations and references that did not actually exist, demonstrating how draft quality and factual quality can diverge.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/a-major-kpmg-report-on-ai-was-found-to-be-chock-full-of-ai-hallucinations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-snippet">The report contained 45 citations, with only five found to be accurate; the rest were either fabricated, distorted, or misleading. GPTZer...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488-Illustration-3-dark.svg" | relative_url }}" alt="AI Drafts illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -370,7 +370,7 @@ Recent real-world incidents illustrate the risk. Investigations into AI-assisted
 
 At a technical level, the contrast between prediction systems and draft systems is smaller than it appears.
 
-Many generative language models operate by predicting likely sequences of words or tokens. What feels revolutionary is not the underlying statistical process alone but the way those predictions are assembled into long-form outputs. Thousands of tiny predictions accumulate into a document, conversation, image description, or software program. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.villanova.edu/university/professional-studies/about/news-events/2026/0225.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: villanova.edu">[Villanova University]</a><span class="citation-popover" role="note"><span class="citation-popover-source">villanova.edu</span><span class="citation-popover-snippet">Villanova UniversityHere&#x27;s The Reason Your Gen AI Tool Sounds Right, But...25 Feb 2026 — Hallucinations are a failure of systems designe...</span></span></span>
+Many generative language models operate by predicting likely sequences of words or tokens. What feels revolutionary is not the underlying statistical process alone but the way those predictions are assembled into long-form outputs. Thousands of tiny predictions accumulate into a document, conversation, image description, or software program.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.villanova.edu/university/professional-studies/about/news-events/2026/0225.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: villanova.edu">[Villanova University]</a><span class="citation-popover" role="note"><span class="citation-popover-source">villanova.edu</span><span class="citation-popover-snippet">Villanova UniversityHere&#x27;s The Reason Your Gen AI Tool Sounds Right, But...25 Feb 2026 — Hallucinations are a failure of systems designe...</span></span></span>
 
 This creates a psychological shift. Users do not experience the individual predictions. They experience the finished artefact. The underlying mechanism remains predictive, but the product feels productive.
 
@@ -385,197 +385,197 @@ That is why generative AI often seems more capable than earlier forms of AI. Ins
 
 Predictive AI mainly influences decisions. Generative AI influences creation. One tells people something about the world; the other gives them material that may become part of the world. A spam score stays inside an email system. A generated article, image, or piece of code can be copied, modified, and published.
 
-That ability to produce editable artefacts is why modern AI often feels less like a calculator and more like a collaborator. It also explains why questions of verification, authorship, responsibility, and trust have become central. The more AI resembles a co-writer, the more important it becomes to remember that fluent drafts are not the same thing as verified knowledge. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.600 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — This document is a cross-sectoral profil...</span></span></span>
+That ability to produce editable artefacts is why modern AI often feels less like a calculator and more like a collaborator. It also explains why questions of verification, authorship, responsibility, and trust have become central. The more AI resembles a co-writer, the more important it becomes to remember that fluent drafts are not the same thing as verified knowledge.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.600 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — This document is a cross-sectoral profil...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why AI Now Feels Like a Co Writer. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why AI Now Feels Like a Co Writer. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Directly frames AI as a collaborator and co-writer.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly frames AI as a collaborator and co-writer.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Generative+AI+For+Dummies+by+Pam+Baker&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Generative AI For Dummies on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4iAeEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Generative AI For Dummies" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Generative+AI+For+Dummies+by+Pam+Baker&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Generative AI For Dummies">Generative AI For Dummies</a>
-        </h4>
-        <p class="fr-book-author">By Pam Baker</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Generative+AI+For+Dummies+by+Pam+Baker&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Generative AI For Dummies on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=4iAeEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Generative AI For Dummies" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Generative+AI+For+Dummies+by+Pam+Baker&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Generative AI For Dummies">Generative AI For Dummies</a>
+</h4>
+<p class="fr-book-author">By Pam Baker</p>
         
-        <p class="fr-book-desc">Covers practical use of AI-generated text and content.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Generative+AI+For+Dummies+by+Pam+Baker&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers practical use of AI-generated text and content.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Generative+AI+For+Dummies+by+Pam+Baker&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
-        </h4>
-        <p class="fr-book-author">By Mustafa Suleyman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
+</h4>
+<p class="fr-book-author">By Mustafa Suleyman</p>
         
-        <p class="fr-book-desc">Provides context for why AI-generated outputs are changing expectations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for why AI-generated outputs are changing expectations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI-Savvy Leader on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=USTIEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI-Savvy Leader" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI-Savvy Leader">The AI-Savvy Leader</a>
-        </h4>
-        <p class="fr-book-author">By David De Cremer</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI-Savvy Leader on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=USTIEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI-Savvy Leader" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI-Savvy Leader">The AI-Savvy Leader</a>
+</h4>
+<p class="fr-book-author">By David De Cremer</p>
         
-        <p class="fr-book-desc">Explores productive human-AI collaboration.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores productive human-AI collaboration.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Generative+AI+For+Dummies&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Generative AI For Dummies</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Coming+Wave&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Coming Wave</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Generative+AI+For+Dummies&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Generative AI For Dummies</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Coming+Wave&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Coming Wave</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/6e1f60225a82588553d0.jpg' | relative_url }}" alt="Listing image for yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/6e1f60225a82588553d0.jpg' | relative_url }}" alt="Listing image for yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9d141a9d1f8146ef1ea9.jpg' | relative_url }}" alt="Listing image for Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9d141a9d1f8146ef1ea9.jpg' | relative_url }}" alt="Listing image for Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made"><img src="{{ '/assets/images/marketplace-covers/5bc2986344f968932a31.jpg' | relative_url }}" alt="Listing image for Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made"><img src="{{ '/assets/images/marketplace-covers/5bc2986344f968932a31.jpg' | relative_url }}" alt="Listing image for Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology girl Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/d15790f38a23a1e38b22.jpg' | relative_url }}" alt="Listing image for Technology girl Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Technology girl Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology girl Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/d15790f38a23a1e38b22.jpg' | relative_url }}" alt="Listing image for Technology girl Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Technology girl Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="ai-drafts-why-ai-now-feels-like-a-co-writer-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -591,7 +591,7 @@ That ability to produce editable artefacts is why modern AI often feels less lik
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -611,7 +611,7 @@ That ability to produce editable artefacts is why modern AI often feels less lik
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -643,7 +643,7 @@ That ability to produce editable artefacts is why modern AI often feels less lik
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -695,7 +695,7 @@ That ability to produce editable artefacts is why modern AI often feels less lik
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -740,7 +740,7 @@ That ability to produce editable artefacts is why modern AI often feels less lik
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -781,128 +781,128 @@ That ability to produce editable artefacts is why modern AI often feels less lik
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: reuters.com  
    Title: chatgpt sets record fastest growing user base analyst note 2023 02 01  
-   Link: <a href="https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT sets record for fastest-growing user base2 Feb 2023 — ChatGPT, the popular chatbot from OpenAI, is estimated to have reach...</p></details>
+   Link:<a href="https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT sets record for fastest-growing user base2 Feb 2023 — ChatGPT, the popular chatbot from OpenAI, is estimated to have reach...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: axios.com  
-   Link: <a href="https://www.axios.com/2023/02/06/chatgpt-tech-giants-generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2023/02/06/chatgpt-tech-giants-generative-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Although most tech giants have been working on AI for years, ChatGPT’s explosive popularity since late 2022—reaching over 100 million mon...</p></details>
+   Link:<a href="https://www.axios.com/2023/02/06/chatgpt-tech-giants-generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2023/02/06/chatgpt-tech-giants-generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Although most tech giants have been working on AI for years, ChatGPT’s explosive popularity since late 2022—reaching over 100 million mon...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
    Title: arXiv Generative AI  
-   Link: <a href="https://arxiv.org/abs/2309.07930" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2309.07930</a>  
+   Link:<a href="https://arxiv.org/abs/2309.07930" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2309.07930</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
    Title: arXiv Chat GPT: A Meta-Analysis after 2.5 Months  
-   Link: <a href="https://arxiv.org/abs/2302.13795" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2302.13795</a>  
+   Link:<a href="https://arxiv.org/abs/2302.13795" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2302.13795</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: nvlpubs.nist.gov  
    Title: AI.600 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — This document is a cross-sectoral profil...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — This document is a cross-sectoral profil...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Frameworkby C Autio · 2024 · Cited by 90 — This document is a cross-sectoral profile of and compa...</p></details>
+   Link:<a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Frameworkby C Autio · 2024 · Cited by 90 — This document is a cross-sectoral profile of and compa...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTThe profile can help organizations identify unique risks posed by generative AI and proposes actions f...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTThe profile can help organizations identify unique risks posed by generative AI and proposes actions f...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: mitsloanedtech.mit.edu  
-   Link: <a href="https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/" target="_blank" rel="noopener noreferrer nofollow">https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Sloan Teaching TechWhen AI Gets It Wrong: Addressing AI Hallucinations and...Generative AI tools can produce fabricated information...</p></details>
+   Link:<a href="https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/" target="_blank" rel="noopener noreferrer nofollow">https://mitsloanedtech.mit.edu/ai/basics/addressing-ai-hallucinations-and-bias/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT Sloan Teaching TechWhen AI Gets It Wrong: Addressing AI Hallucinations and...Generative AI tools can produce fabricated information...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2303.08896" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2303.08896</a>  
+   Link:<a href="https://arxiv.org/abs/2303.08896" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2303.08896</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/a-major-kpmg-report-on-ai-was-found-to-be-chock-full-of-ai-hallucinations" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/a-major-kpmg-report-on-ai-was-found-to-be-chock-full-of-ai-hallucinations</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The report contained 45 citations, with only five found to be accurate; the rest were either fabricated, distorted, or misleading. GPTZer...</p></details>
+   Link:<a href="https://www.techradar.com/pro/a-major-kpmg-report-on-ai-was-found-to-be-chock-full-of-ai-hallucinations" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/a-major-kpmg-report-on-ai-was-found-to-be-chock-full-of-ai-hallucinations</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The report contained 45 citations, with only five found to be accurate; the rest were either fabricated, distorted, or misleading. GPTZer...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: villanova.edu  
-   Link: <a href="https://www.villanova.edu/university/professional-studies/about/news-events/2026/0225.html" target="_blank" rel="noopener noreferrer nofollow">https://www.villanova.edu/university/professional-studies/about/news-events/2026/0225.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Villanova UniversityHere&#x27;s The Reason Your Gen AI Tool Sounds Right, But...25 Feb 2026 — Hallucinations are a failure of systems designe...</p></details>
+   Link:<a href="https://www.villanova.edu/university/professional-studies/about/news-events/2026/0225.html" target="_blank" rel="noopener noreferrer nofollow">https://www.villanova.edu/university/professional-studies/about/news-events/2026/0225.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Villanova UniversityHere&#x27;s The Reason Your Gen AI Tool Sounds Right, But...25 Feb 2026 — Hallucinations are a failure of systems designe...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-powerex-enhance" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-powerex-enhance</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>for U.S. Semiconductor Manufacturing...</p></details>
+   Link:<a href="https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-powerex-enhance" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-powerex-enhance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>for U.S. Semiconductor Manufacturing...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: nist.gov  
    Title: draft nist guidelines rethink cybersecurity ai era  
-   Link: <a href="https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Draft NIST Guidelines Rethink Cybersecurity for the AI Era16 Dec 2025 — The guidelines focus on ways organizations can secure their AI sy...</p></details>
+   Link:<a href="https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Draft NIST Guidelines Rethink Cybersecurity for the AI Era16 Dec 2025 — The guidelines focus on ways organizations can secure their AI sy...</p></details>
 
 ### Additional References
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/technology/comments/10ro9gi/chatgpt_may_be_the_fastestgrowing_consumer_app_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/technology/comments/10ro9gi/chatgpt_may_be_the_fastestgrowing_consumer_app_in/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT may be the fastest-growing consumer app in...ChatGPT may be the fastest-growing consumer app in internet history, reaching 100 m...</p></details>
+   Link:<a href="https://www.reddit.com/r/technology/comments/10ro9gi/chatgpt_may_be_the_fastestgrowing_consumer_app_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/technology/comments/10ro9gi/chatgpt_may_be_the_fastestgrowing_consumer_app_in/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT may be the fastest-growing consumer app in...ChatGPT may be the fastest-growing consumer app in internet history, reaching 100 m...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: adeptiv.ai  
-   Link: <a href="https://adeptiv.ai/nist-generative-ai/" target="_blank" rel="noopener noreferrer nofollow">https://adeptiv.ai/nist-generative-ai/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Generative AI Profile ExplainedGenerative AI poses new sources of risk that are not covered by traditional AI governance. Some of th...</p></details>
+   Link:<a href="https://adeptiv.ai/nist-generative-ai/" target="_blank" rel="noopener noreferrer nofollow">https://adeptiv.ai/nist-generative-ai/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Generative AI Profile ExplainedGenerative AI poses new sources of risk that are not covered by traditional AI governance. Some of th...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: agatsoftware.com  
-   Link: <a href="https://agatsoftware.com/blog/latest-nist-guidance-identifies-generative-ai-risks-and-corresponding-mitigation-strategies/" target="_blank" rel="noopener noreferrer nofollow">https://agatsoftware.com/blog/latest-nist-guidance-identifies-generative-ai-risks-and-corresponding-mitigation-strategies/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AGAT Software NIST AI Compliance23 Jun 2025 — The GenAI Profile builds on this foundation, specifically addressing challenges unique to G...</p></details>
+   Link:<a href="https://agatsoftware.com/blog/latest-nist-guidance-identifies-generative-ai-risks-and-corresponding-mitigation-strategies/" target="_blank" rel="noopener noreferrer nofollow">https://agatsoftware.com/blog/latest-nist-guidance-identifies-generative-ai-risks-and-corresponding-mitigation-strategies/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AGAT Software NIST AI Compliance23 Jun 2025 — The GenAI Profile builds on this foundation, specifically addressing challenges unique to G...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: globalpolicywatch.com  
-   Link: <a href="https://www.globalpolicywatch.com/2026/01/nist-publishes-preliminary-draft-of-cybersecurity-framework-profile-for-artificial-intelligence-for-public-comment/" target="_blank" rel="noopener noreferrer nofollow">https://www.globalpolicywatch.com/2026/01/nist-publishes-preliminary-draft-of-cybersecurity-framework-profile-for-artificial-intelligence-for-public-comment/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Publishes Preliminary Draft of Cybersecurity...6 Jan 2026 — According to the draft, the Cyber AI Profile is intended to “provide gu...</p></details>
+   Link:<a href="https://www.globalpolicywatch.com/2026/01/nist-publishes-preliminary-draft-of-cybersecurity-framework-profile-for-artificial-intelligence-for-public-comment/" target="_blank" rel="noopener noreferrer nofollow">https://www.globalpolicywatch.com/2026/01/nist-publishes-preliminary-draft-of-cybersecurity-framework-profile-for-artificial-intelligence-for-public-comment/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Publishes Preliminary Draft of Cybersecurity...6 Jan 2026 — According to the draft, the Cyber AI Profile is intended to “provide gu...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: digitalgovernmenthub.org  
-   Link: <a href="https://digitalgovernmenthub.org/examples/nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile/" target="_blank" rel="noopener noreferrer nofollow">https://digitalgovernmenthub.org/examples/nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Artificial Intelligence Risk Management FrameworkThis profile provides a cross-sectoral profile of the AI Risk Management Framework...</p></details>
+   Link:<a href="https://digitalgovernmenthub.org/examples/nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile/" target="_blank" rel="noopener noreferrer nofollow">https://digitalgovernmenthub.org/examples/nist-artificial-intelligence-risk-management-framework-generative-artificial-intelligence-profile/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Artificial Intelligence Risk Management FrameworkThis profile provides a cross-sectoral profile of the AI Risk Management Framework...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: zw.linkedin.com  
-   Link: <a href="https://zw.linkedin.com/posts/josenilocm_reuters-chatgpt-the-popular-chatbot-from-activity-7050953242192617472-VRUu" target="_blank" rel="noopener noreferrer nofollow">https://zw.linkedin.com/posts/josenilocm_reuters-chatgpt-the-popular-chatbot-from-activity-7050953242192617472-VRUu</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>linkedin.comJosé Nilo Cruz Martins&#x27; PostReuters: &quot;ChatGPT, the popular chatbot from OpenAI, is estimated to have reached 100 million mont...</p></details>
+   Link:<a href="https://zw.linkedin.com/posts/josenilocm_reuters-chatgpt-the-popular-chatbot-from-activity-7050953242192617472-VRUu" target="_blank" rel="noopener noreferrer nofollow">https://zw.linkedin.com/posts/josenilocm_reuters-chatgpt-the-popular-chatbot-from-activity-7050953242192617472-VRUu</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>linkedin.comJosé Nilo Cruz Martins&#x27; PostReuters: &quot;ChatGPT, the popular chatbot from OpenAI, is estimated to have reached 100 million mont...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: misinforeview.hks.harvard.edu  
    Title: new sources of inaccuracy a conceptual framework for studying ai hallucinations  
-   Link: <a href="https://misinforeview.hks.harvard.edu/article/new-sources-of-inaccuracy-a-conceptual-framework-for-studying-ai-hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://misinforeview.hks.harvard.edu/article/new-sources-of-inaccuracy-a-conceptual-framework-for-studying-ai-hallucinations/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A conceptual framework for...by A Shao · 2025 · Cited by 15 — Introduction. AI hallucinations are inaccurate outputs generated by AI too...</p></details>
+   Link:<a href="https://misinforeview.hks.harvard.edu/article/new-sources-of-inaccuracy-a-conceptual-framework-for-studying-ai-hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://misinforeview.hks.harvard.edu/article/new-sources-of-inaccuracy-a-conceptual-framework-for-studying-ai-hallucinations/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A conceptual framework for...by A Shao · 2025 · Cited by 15 — Introduction. AI hallucinations are inaccurate outputs generated by AI too...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: docs.modulos.ai  
-   Link: <a href="https://docs.modulos.ai/frameworks/nist-ai-rmf/generative-ai-profile" target="_blank" rel="noopener noreferrer nofollow">https://docs.modulos.ai/frameworks/nist-ai-rmf/generative-ai-profile</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Dangerous contentViolent... The four core functions, trustworthy AI characteristics, and profiles in one place.Read more...</p></details>
+   Link:<a href="https://docs.modulos.ai/frameworks/nist-ai-rmf/generative-ai-profile" target="_blank" rel="noopener noreferrer nofollow">https://docs.modulos.ai/frameworks/nist-ai-rmf/generative-ai-profile</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Dangerous contentViolent... The four core functions, trustworthy AI characteristics, and profiles in one place.Read more...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: forbes.com  
    Title: chatgpt hits 100 million microsoft unleashes ai bots and catgpt goes viral  
-   Link: <a href="https://www.forbes.com/sites/martineparis/2023/02/03/chatgpt-hits-100-million-microsoft-unleashes-ai-bots-and-catgpt-goes-viral/" target="_blank" rel="noopener noreferrer nofollow">https://www.forbes.com/sites/martineparis/2023/02/03/chatgpt-hits-100-million-microsoft-unleashes-ai-bots-and-catgpt-goes-viral/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT Hits 100 Million Users, Google Invests In AI Bot...3 Feb 2023 — ChatGPT has hit an estimated 100 million monthly active users ma...</p></details>
+   Link:<a href="https://www.forbes.com/sites/martineparis/2023/02/03/chatgpt-hits-100-million-microsoft-unleashes-ai-bots-and-catgpt-goes-viral/" target="_blank" rel="noopener noreferrer nofollow">https://www.forbes.com/sites/martineparis/2023/02/03/chatgpt-hits-100-million-microsoft-unleashes-ai-bots-and-catgpt-goes-viral/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT Hits 100 Million Users, Google Invests In AI Bot...3 Feb 2023 — ChatGPT has hit an estimated 100 million monthly active users ma...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=X4KHe8tah0c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=X4KHe8tah0c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT Reaches 100 Million Weekly UsersIn this episode, we discuss the milestone achievement of OpenAI&#x27;s ChatGPT, which has recently sur...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=X4KHe8tah0c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=X4KHe8tah0c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT Reaches 100 Million Weekly UsersIn this episode, we discuss the milestone achievement of OpenAI&#x27;s ChatGPT, which has recently sur...</p></details>

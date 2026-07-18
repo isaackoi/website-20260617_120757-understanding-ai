@@ -292,13 +292,13 @@ Search ranking is one of the most ordinary ways people meet artificial intellige
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_search_rankin_9f0394-Illustration-1-dark.svg" | relative_url }}" alt="Search Ranking illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_search_rankin_9f0394-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_search_rankin_9f0394-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This matters because ranking quietly directs [attention]({{ 'attention/' | relative_url }}). The first few results often feel more relevant, more trustworthy or simply more convenient than the results below them. Search ranking therefore does more than retrieve information; it helps decide which sources people notice, which explanations they compare, and which answers become part of everyday belief. Google’s own Search [documentation]({{ 'paper-safety/' | relative_url }}) describes ranking as a process using factors such as meaning, relevance, quality, usability and context, including location and settings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: google.com">[Google]</a><span class="citation-popover" role="note"><span class="citation-popover-source">google.com</span><span class="citation-popover-snippet">How Does Google Determine Ranking ResultsDiscover how key factors such as meaning, relevance, and quality are used to generate how...</span></span></span>
+This matters because ranking quietly directs [attention]({{ 'attention/' | relative_url }}). The first few results often feel more relevant, more trustworthy or simply more convenient than the results below them. Search ranking therefore does more than retrieve information; it helps decide which sources people notice, which explanations they compare, and which answers become part of everyday belief. Google’s own Search [documentation]({{ 'paper-safety/' | relative_url }}) describes ranking as a process using factors such as meaning, relevance, quality, usability and context, including location and settings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: google.com">[Google]</a><span class="citation-popover" role="note"><span class="citation-popover-source">google.com</span><span class="citation-popover-snippet">How Does Google Determine Ranking ResultsDiscover how key factors such as meaning, relevance, and quality are used to generate how...</span></span></span>
 
 ## How queries become ranked results
 
-A simple database lookup returns items that match a stored field: a name, date, file title or exact keyword. Search ranking is different. The system has to infer what the user probably means, especially when a query is short, vague, misspelled or context-dependent. Someone searching “jaguar [speed]({{ 'speed/' | relative_url }})” might mean the animal, the car brand, or a sports team; “football” can point towards different sports depending on location. Google says Search uses context such as location, past Search history and settings to determine what may be most relevant in the moment. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: google.com">[Google]</a><span class="citation-popover" role="note"><span class="citation-popover-source">google.com</span><span class="citation-popover-snippet">How Does Google Determine Ranking ResultsDiscover how key factors such as meaning, relevance, and quality are used to generate how...</span></span></span>
+A simple database lookup returns items that match a stored field: a name, date, file title or exact keyword. Search ranking is different. The system has to infer what the user probably means, especially when a query is short, vague, misspelled or context-dependent. Someone searching “jaguar [speed]({{ 'speed/' | relative_url }})” might mean the animal, the car brand, or a sports team; “football” can point towards different sports depending on location. Google says Search uses context such as location, past Search history and settings to determine what may be most relevant in the moment.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: google.com">[Google]</a><span class="citation-popover" role="note"><span class="citation-popover-source">google.com</span><span class="citation-popover-snippet">How Does Google Determine Ranking ResultsDiscover how key factors such as meaning, relevance, and quality are used to generate how...</span></span></span>
 
-Modern search engines do this through layered ranking systems rather than one visible rule. Google describes systems that analyse the meaning of the query, match it to relevant content, assess quality, consider usability and apply contextual signals. Its public guide to ranking systems also identifies AI systems such as RankBrain and neural matching, with neural matching used to understand representations of concepts in queries and pages. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">for Developers A Guide to Google Search Ranking Systems Neural matching</span><span class="citation-popover-snippet">Neural matching is an AI system that Google uses to understand representations of concepts in queries and pages and match them to one ano...</span></span></span>
+Modern search engines do this through layered ranking systems rather than one visible rule. Google describes systems that analyse the meaning of the query, match it to relevant content, assess quality, consider usability and apply contextual signals. Its public guide to ranking systems also identifies AI systems such as RankBrain and neural matching, with neural matching used to understand representations of concepts in queries and pages.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">for Developers A Guide to Google Search Ranking Systems Neural matching</span><span class="citation-popover-snippet">Neural matching is an AI system that Google uses to understand representations of concepts in queries and pages and match them to one ano...</span></span></span>
 
 The key point is that the ranked page is the output. The user gives the system an input, the query, and receives a machine-generated ordering. The output may look like a list of links, but it has already passed through [automated]({{ 'decisions/' | relative_url }}) interpretation and selection.
 
@@ -307,9 +307,9 @@ The key point is that the ranked page is the output. The user gives the system a
 
 ## Why ranking influences attention and belief
 
-Search ranking shapes behaviour because people rarely inspect results evenly. A result near the top is more visible, more likely to be clicked, and often treated as a stronger candidate before the user has read it carefully. Research on search behaviour has long studied this “position bias”: the tendency for higher-ranked items to receive more attention partly because of where they appear, not only because they are better. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.google.com/pubs/archive/36363.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.google.com">[Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.google.com</span><span class="citation-popover-snippet">Google ResearchBeyond Position Bias: Examining Result Attractiveness as...by Y Yue · Cited by 267 — This study distinguishes itself from...</span></span></span>
+Search ranking shapes behaviour because people rarely inspect results evenly. A result near the top is more visible, more likely to be clicked, and often treated as a stronger candidate before the user has read it carefully. Research on search behaviour has long studied this “position bias”: the tendency for higher-ranked items to receive more attention partly because of where they appear, not only because they are better.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.google.com/pubs/archive/36363.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.google.com">[Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.google.com</span><span class="citation-popover-snippet">Google ResearchBeyond Position Bias: Examining Result Attractiveness as...by Y Yue · Cited by 267 — This study distinguishes itself from...</span></span></span>
 
-That makes ranking a practical form of power. It can affect which health advice looks prominent, which news sources are seen, which businesses get traffic, and which explanations appear credible. A study on search engine selection and sorting criteria found that ranking and selection can influence users’ knowledge, beliefs and behaviour, especially when people rely on search results to form judgements. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4004139/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">The Impact of Search Engine Selection and Sorting Criteria on...by A Allam · 2014 · Cited by 187 — This study is concerned with demon...</span></span></span>
+That makes ranking a practical form of power. It can affect which health advice looks prominent, which news sources are seen, which businesses get traffic, and which explanations appear credible. A study on search engine selection and sorting criteria found that ranking and selection can influence users’ knowledge, beliefs and behaviour, especially when people rely on search results to form judgements.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4004139/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">The Impact of Search Engine Selection and Sorting Criteria on...by A Allam · 2014 · Cited by 187 — This study is concerned with demon...</span></span></span>
 
 This does not mean search engines simply “make people believe” whatever appears first. Users still judge, compare and ignore results. But ranking changes the starting point. It decides which options are easy to notice and which require extra effort to find.
 
@@ -319,7 +319,7 @@ This does not mean search engines simply “make people believe” whatever appe
 
 Older mental models of search often imagine a giant index where the engine looks for exact words and lists matching pages. Keywords still matter, but modern search ranking is much richer than that. Search systems try to understand intent, context and page quality, not just whether a page repeats the same phrase as the query.
 
-Google’s Search Quality Rater Guidelines show how much of search evaluation concerns usefulness and “needs met”, not bare word matching. Raters assess whether results satisfy the user’s likely intent and whether pages are high quality, though Google states that rater scores do not directly determine individual rankings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: guidelines.raterhub.com">[RaterHub Guidelines]</a><span class="citation-popover" role="note"><span class="citation-popover-source">guidelines.raterhub.com</span><span class="citation-popover-snippet">RaterHub GuidelinesGeneral Guidelines11 Sept 2025 —... Search Quality Raters” as “raters” in these guidelines. Copyright... ○ Updated P...</span></span></span>
+Google’s Search Quality Rater Guidelines show how much of search evaluation concerns usefulness and “needs met”, not bare word matching. Raters assess whether results satisfy the user’s likely intent and whether pages are high quality, though Google states that rater scores do not directly determine individual rankings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: guidelines.raterhub.com">[RaterHub Guidelines]</a><span class="citation-popover" role="note"><span class="citation-popover-source">guidelines.raterhub.com</span><span class="citation-popover-snippet">RaterHub GuidelinesGeneral Guidelines11 Sept 2025 —... Search Quality Raters” as “raters” in these guidelines. Copyright... ○ Updated P...</span></span></span>
 
 This is where search ranking becomes a useful everyday example of AI. It is not AI because it looks human. It is AI because it performs [inference]({{ 'inference-test/' | relative_url }}): it estimates meaning, relevance and usefulness from incomplete signals, then produces an ordered output for a human-defined purpose.
 
@@ -332,7 +332,7 @@ Search ranking is valuable because the web is too large to browse manually. With
 
 The same compression creates risks. A ranking system must simplify messy questions, choose between competing signals, and make uncertain judgements about quality. It may favour established sources, recent pages, local results, popular pages, commercially optimised pages, or pages that fit the system’s interpretation of the query. Some of those choices improve results; others can bury useful minority perspectives or amplify pages that are easy for the system to recognise.
 
-Regulators increasingly treat ranking as something that needs explanation, not as invisible plumbing. The EU’s Digital Services Act classifies very large online search engines separately and imposes transparency and accountability duties on large platforms and search services. EU guidance on ranking transparency also stresses that online visibility can depend on key algorithmic parameters that should be communicated more clearly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/dsa-vlops" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-snippet">Digital StrategyDSA: Very large online platforms and search enginesThe DSA classifies platforms or search engines that have more than 45...</span></span></span>
+Regulators increasingly treat ranking as something that needs explanation, not as invisible plumbing. The EU’s Digital Services Act classifies very large online search engines separately and imposes transparency and accountability duties on large platforms and search services. EU guidance on ranking transparency also stresses that online visibility can depend on key algorithmic parameters that should be communicated more clearly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/dsa-vlops" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-snippet">Digital StrategyDSA: Very large online platforms and search enginesThe DSA classifies platforms or search engines that have more than 45...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_search_rankin_9f0394-Illustration-3-dark.svg" | relative_url }}" alt="Search Ranking illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_search_rankin_9f0394-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_search_rankin_9f0394-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -358,194 +358,194 @@ Search ranking is therefore a simple but powerful introduction to artificial int
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why search results are an AI output. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why search results are an AI output. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Filter Bubble on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Qn2ZnjzCE3gC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Filter Bubble" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Filter Bubble">The Filter Bubble</a>
-        </h4>
-        <p class="fr-book-author">By Eli Pariser</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Filter Bubble on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Qn2ZnjzCE3gC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Filter Bubble" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Filter Bubble">The Filter Bubble</a>
+</h4>
+<p class="fr-book-author">By Eli Pariser</p>
         
-        <p class="fr-book-desc">Explains how ranking and personalisation influence beliefs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how ranking and personalisation influence beliefs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Filter+Bubble+by+Eli+Pariser&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Search+by+John+Battelle&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Search on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pjqQEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Search" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Search+by+John+Battelle&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Search">The Search</a>
-        </h4>
-        <p class="fr-book-author">By John Battelle</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Search+by+John+Battelle&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Search on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pjqQEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Search" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Search+by+John+Battelle&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Search">The Search</a>
+</h4>
+<p class="fr-book-author">By John Battelle</p>
         
-        <p class="fr-book-desc">Explains how search became a ranking and discovery system.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Search+by+John+Battelle&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how search became a ranking and discovery system.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Search+by+John+Battelle&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Algorithms of Oppression on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AzlDDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Algorithms of Oppression" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Algorithms of Oppression">Algorithms of Oppression</a>
-        </h4>
-        <p class="fr-book-author">By Safiya Umoja Noble</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Algorithms of Oppression on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AzlDDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Algorithms of Oppression" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Algorithms of Oppression">Algorithms of Oppression</a>
+</h4>
+<p class="fr-book-author">By Safiya Umoja Noble</p>
         
-        <p class="fr-book-desc">Directly examines search results as algorithmic outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly examines search results as algorithmic outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Algorithms+of+Oppression+by+Safiya+Umoja+Noble&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Provides broader context for ranking-driven outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides broader context for ranking-driven outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Filter+Bubble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Filter Bubble</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Search&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Search</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Algorithms+of+Oppression&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Algorithms of Oppression</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Filter+Bubble&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Filter Bubble</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Search&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Search</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Algorithms+of+Oppression&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Algorithms of Oppression</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/c025a6fa8e25cf79e580.jpg' | relative_url }}" alt="Listing image for Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/c025a6fa8e25cf79e580.jpg' | relative_url }}" alt="Listing image for Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SEO - Search Engine Optimization Fr Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ce554b32056f5005aeb6.jpg' | relative_url }}" alt="Listing image for SEO - Search Engine Optimization Fr Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">SEO - Search Engine Optimization Fr Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SEO - Search Engine Optimization Fr Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ce554b32056f5005aeb6.jpg' | relative_url }}" alt="Listing image for SEO - Search Engine Optimization Fr Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">SEO - Search Engine Optimization Fr Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer"><img src="{{ '/assets/images/marketplace-covers/2d0ee2efab03a88d8db8.jpg' | relative_url }}" alt="Listing image for Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer"><img src="{{ '/assets/images/marketplace-covers/2d0ee2efab03a88d8db8.jpg' | relative_url }}" alt="Listing image for Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Online Search Engine Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4cead5da5acdc6b4d95b.jpg' | relative_url }}" alt="Listing image for Online Search Engine Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Online Search Engine Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Online Search Engine Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4cead5da5acdc6b4d95b.jpg' | relative_url }}" alt="Listing image for Online Search Engine Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Online Search Engine Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="search-ranking-why-search-results-are-an-ai-output-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -561,7 +561,7 @@ Search ranking is therefore a simple but powerful introduction to artificial int
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -581,7 +581,7 @@ Search ranking is therefore a simple but powerful introduction to artificial int
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -613,7 +613,7 @@ Search ranking is therefore a simple but powerful introduction to artificial int
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -665,7 +665,7 @@ Search ranking is therefore a simple but powerful introduction to artificial int
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -710,7 +710,7 @@ Search ranking is therefore a simple but powerful introduction to artificial int
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -751,162 +751,162 @@ Search ranking is therefore a simple but powerful introduction to artificial int
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: google.com  
-   Link: <a href="https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How Does Google Determine Ranking ResultsDiscover how key factors such as meaning, relevance, and quality are used to generate how...</p></details>
+   Link:<a href="https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Does Google Determine Ranking ResultsDiscover how key factors such as meaning, relevance, and quality are used to generate how...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/search/docs/fundamentals/how-search-works" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/fundamentals/how-search-works</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersIn-Depth Guide to How Google Search WorksGet an in-depth [understanding](&amp;#123;&amp;#123; &#x27;understanding/&#x27; | relative_url &amp;#125;&amp;#125;) of how Google Search works and improve your s...</p></details>
+   Link:<a href="https://developers.google.com/search/docs/fundamentals/how-search-works" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/fundamentals/how-search-works</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersIn-Depth Guide to How Google Search WorksGet an in-depth [understanding](&amp;#123;&amp;#123; &#x27;understanding/&#x27; | relative_url &amp;#125;&amp;#125;) of how Google Search works and improve your s...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: developers.google.com  
    Title: for Developers A Guide to Google Search Ranking Systems Neural matching  
-   Link: <a href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/appearance/ranking-systems-guide</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Neural matching is an AI system that Google uses to understand representations of concepts in queries and pages and match them to one ano...</p></details>
+   Link:<a href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/appearance/ranking-systems-guide</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Neural matching is an AI system that Google uses to understand representations of concepts in queries and pages and match them to one ano...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: research.google.com  
-   Link: <a href="https://research.google.com/pubs/archive/36363.pdf" target="_blank" rel="noopener noreferrer nofollow">https://research.google.com/pubs/archive/36363.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchBeyond Position Bias: Examining Result Attractiveness as...by Y Yue · Cited by 267 — This study distinguishes itself from...</p></details>
+   Link:<a href="https://research.google.com/pubs/archive/36363.pdf" target="_blank" rel="noopener noreferrer nofollow">https://research.google.com/pubs/archive/36363.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchBeyond Position Bias: Examining Result Attractiveness as...by Y Yue · Cited by 267 — This study distinguishes itself from...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4004139/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC4004139/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of Search Engine Selection and Sorting Criteria on...by A Allam · 2014 · Cited by 187 — This study is concerned with demon...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4004139/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC4004139/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of Search Engine Selection and Sorting Criteria on...by A Allam · 2014 · Cited by 187 — This study is concerned with demon...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: guidelines.raterhub.com  
-   Link: <a href="https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf" target="_blank" rel="noopener noreferrer nofollow">https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>RaterHub GuidelinesGeneral Guidelines11 Sept 2025 —... Search Quality Raters” as “raters” in these guidelines. Copyright... ○ Updated P...</p></details>
+   Link:<a href="https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf" target="_blank" rel="noopener noreferrer nofollow">https://guidelines.raterhub.com/searchqualityevaluatorguidelines.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>RaterHub GuidelinesGeneral Guidelines11 Sept 2025 —... Search Quality Raters” as “raters” in these guidelines. Copyright... ○ Updated P...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: developers.google.com  
    Title: search quality rater guidelines update  
-   Link: <a href="https://developers.google.com/search/blog/2023/11/search-quality-rater-guidelines-update" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/blog/2023/11/search-quality-rater-guidelines-update</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersSearch Quality Raters Guidelines update16 Nov 2023 — As a reminder, these guidelines are what are used by our search...</p></details>
+   Link:<a href="https://developers.google.com/search/blog/2023/11/search-quality-rater-guidelines-update" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/blog/2023/11/search-quality-rater-guidelines-update</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersSearch Quality Raters Guidelines update16 Nov 2023 — As a reminder, these guidelines are what are used by our search...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: services.google.com  
-   Link: <a href="https://services.google.com/fh/files/misc/hsw-sqrg.pdf" target="_blank" rel="noopener noreferrer nofollow">https://services.google.com/fh/files/misc/hsw-sqrg.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Quality Rater Guidelines: An OverviewWe first generate a sample of searches (say, a few hundred) to analyze a particular kind of search o...</p></details>
+   Link:<a href="https://services.google.com/fh/files/misc/hsw-sqrg.pdf" target="_blank" rel="noopener noreferrer nofollow">https://services.google.com/fh/files/misc/hsw-sqrg.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Quality Rater Guidelines: An OverviewWe first generate a sample of searches (say, a few hundred) to analyze a particular kind of search o...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: youtube.com  
    Title: From Keywords to Concepts: Bringing Native AI to Search at Slack  
-   Link: <a href="https://www.youtube.com/watch?v=Wo_jbPux20Y" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Wo_jbPux20Y</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Search: How Ranking Results Work...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Wo_jbPux20Y" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Wo_jbPux20Y</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Search: How Ranking Results Work...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: youtube.com  
    Title: Google Search: How Ranking Results Work  
-   Link: <a href="https://www.youtube.com/watch?v=QM0sYbEQSkM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=QM0sYbEQSkM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Google Search Engine Works | Crawling, Indexing, and Ranking Explained...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=QM0sYbEQSkM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=QM0sYbEQSkM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Google Search Engine Works | Crawling, Indexing, and Ranking Explained...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: digital-strategy.ec.europa.eu  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/dsa-vlops" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/dsa-vlops</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Digital StrategyDSA: Very large online platforms and search enginesThe DSA classifies platforms or search engines that have more than 45...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/dsa-vlops" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/dsa-vlops</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Digital StrategyDSA: Very large online platforms and search enginesThe DSA classifies platforms or search engines that have more than 45...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: digital-strategy.ec.europa.eu  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/library/ranking-transparency-guidelines-framework-eu-regulation-platform-[business" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/library/ranking-transparency-guidelines-framework-eu-regulation-platform-[business</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Digital StrategyRanking transparency guidelines in the framework of the EU...13 Mar 2020 — The Commission has published guidelines that...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/library/ranking-transparency-guidelines-framework-eu-regulation-platform-[business" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/library/ranking-transparency-guidelines-framework-eu-regulation-platform-[business</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Digital StrategyRanking transparency guidelines in the framework of the EU...13 Mar 2020 — The Commission has published guidelines that...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: mariehaynes.com  
-   Link: <a href="https://www.mariehaynes.com/google-ai-and-seo/" target="_blank" rel="noopener noreferrer nofollow">https://www.mariehaynes.com/google-ai-and-seo/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>From RankBrain to BERT and more: A Look at AI&#x27;s Role in...22 Feb 2022 — RankBrain was introduced to Google&#x27;s algorithms in 2015...</p></details>
+   Link:<a href="https://www.mariehaynes.com/google-ai-and-seo/" target="_blank" rel="noopener noreferrer nofollow">https://www.mariehaynes.com/google-ai-and-seo/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>From RankBrain to BERT and more: A Look at AI&#x27;s Role in...22 Feb 2022 — RankBrain was introduced to Google&#x27;s algorithms in 2015...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/traffic-radius_how-googles-ai-ranks-content-ranking-factors-activity-7456523102668132352-18Z6" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/traffic-radius_how-googles-ai-ranks-content-ranking-factors-activity-7456523102668132352-18Z6</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>This means AI is picking, organizing, and refreshing...Read more...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/traffic-radius_how-googles-ai-ranks-content-ranking-factors-activity-7456523102668132352-18Z6" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/traffic-radius_how-googles-ai-ranks-content-ranking-factors-activity-7456523102668132352-18Z6</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This means AI is picking, organizing, and refreshing...Read more...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: groundingpage.com  
-   Link: <a href="https://groundingpage.com/facts/google-search-quality-rater-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://groundingpage.com/facts/google-search-quality-rater-guidelines/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Search Quality Rater Guidelines: Entity SummaryThe Google Search Quality Rater Guidelines define evaluation criteria that human qu...</p></details>
+   Link:<a href="https://groundingpage.com/facts/google-search-quality-rater-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://groundingpage.com/facts/google-search-quality-rater-guidelines/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Search Quality Rater Guidelines: Entity SummaryThe Google Search Quality Rater Guidelines define evaluation criteria that human qu...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: seroundtable.com  
    Title: google search quality raters guidelines updated 38794  
-   Link: <a href="https://www.seroundtable.com/google-search-quality-raters-guidelines-updated-38794.html" target="_blank" rel="noopener noreferrer nofollow">https://www.seroundtable.com/google-search-quality-raters-guidelines-updated-38794.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Search Quality Raters Guidelines Updated24 Jan 2025 — Google wrote these guidelines are what is used by Google&#x27;s third-party searc...</p></details>
+   Link:<a href="https://www.seroundtable.com/google-search-quality-raters-guidelines-updated-38794.html" target="_blank" rel="noopener noreferrer nofollow">https://www.seroundtable.com/google-search-quality-raters-guidelines-updated-38794.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Search Quality Raters Guidelines Updated24 Jan 2025 — Google wrote these guidelines are what is used by Google&#x27;s third-party searc...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: ideadigital.agency  
    Title: google algorithms what bert mum and rankbrain are and how they affect your sales  
-   Link: <a href="https://ideadigital.agency/en/blog/google-algorithms-what-bert-mum-and-rankbrain-are-and-how-they-affect-your-sales/" target="_blank" rel="noopener noreferrer nofollow">https://ideadigital.agency/en/blog/google-algorithms-what-bert-mum-and-rankbrain-are-and-how-they-affect-your-sales/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Algorithms 2026: what BERT, MUM, and RankBrain...RankBrain, BERT, and MUM are the key AI-driven Google search algorithms in 2026...</p></details>
+   Link:<a href="https://ideadigital.agency/en/blog/google-algorithms-what-bert-mum-and-rankbrain-are-and-how-they-affect-your-sales/" target="_blank" rel="noopener noreferrer nofollow">https://ideadigital.agency/en/blog/google-algorithms-what-bert-mum-and-rankbrain-are-and-how-they-affect-your-sales/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Algorithms 2026: what BERT, MUM, and RankBrain...RankBrain, BERT, and MUM are the key AI-driven Google search algorithms in 2026...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: hmdigitalsolution.com  
    Title: Understand E-E-A-T, Page Quality ratings, YMYL, and how to improve your SEO  
-   Link: <a href="https://hmdigitalsolution.com/google-quality-rater-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://hmdigitalsolution.com/google-quality-rater-guidelines/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Quality Rater Guidelines: E-E-A-T &amp; SEO Guide 20265 Mar 2026 — Learn what Google Quality Raters look for in your content...</p></details>
+   Link:<a href="https://hmdigitalsolution.com/google-quality-rater-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://hmdigitalsolution.com/google-quality-rater-guidelines/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Quality Rater Guidelines: E-E-A-T &amp; SEO Guide 20265 Mar 2026 — Learn what Google Quality Raters look for in your content...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: rankmath.com  
-   Link: <a href="https://rankmath.com/seo-glossary/google-search-quality-rater-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://rankmath.com/seo-glossary/google-search-quality-rater-guidelines/</a>  
+   Link:<a href="https://rankmath.com/seo-glossary/google-search-quality-rater-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://rankmath.com/seo-glossary/google-search-quality-rater-guidelines/</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: slideshare.net  
    Title: google quality raters update 2025 checks ai generated content pdf  
-   Link: <a href="https://www.slideshare.net/slideshow/google-quality-raters-update-2025-checks-ai-generated-content-pdf/279135544" target="_blank" rel="noopener noreferrer nofollow">https://www.slideshare.net/slideshow/google-quality-raters-update-2025-checks-ai-generated-content-pdf/279135544</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Quality Raters Update 2025 Checks AI-Generated...These guidelines help assess – – Page Quality (EEAT or Expertise, Experience, Au...</p></details>
+   Link:<a href="https://www.slideshare.net/slideshow/google-quality-raters-update-2025-checks-ai-generated-content-pdf/279135544" target="_blank" rel="noopener noreferrer nofollow">https://www.slideshare.net/slideshow/google-quality-raters-update-2025-checks-ai-generated-content-pdf/279135544</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Quality Raters Update 2025 Checks AI-Generated...These guidelines help assess – – Page Quality (EEAT or Expertise, Experience, Au...</p></details>
 
 ### Additional References
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/372895163_From_Algorithmic_Transparency_to_Algorithmic_Choice_European_Perspectives_on_Recommender_Systems_and_Platform_Regulation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/372895163_From_Algorithmic_Transparency_to_Algorithmic_Choice_European_Perspectives_on_Recommender_Systems_and_Platform_Regulation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) From Algorithmic Transparency to Algorithmic ChoiceThis chapter scrutinizes the emerging European regulatory framework for algorith...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/372895163_From_Algorithmic_Transparency_to_Algorithmic_Choice_European_Perspectives_on_Recommender_Systems_and_Platform_Regulation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/372895163_From_Algorithmic_Transparency_to_Algorithmic_Choice_European_Perspectives_on_Recommender_Systems_and_Platform_Regulation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) From Algorithmic Transparency to Algorithmic ChoiceThis chapter scrutinizes the emerging European regulatory framework for algorith...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/nature-index/topics/l4/search-engine-algorithms-and-user-behavior" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/nature-index/topics/l4/search-engine-algorithms-and-user-behavior</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Search Engine Algorithms and User BehaviorSearch engine algorithms lie at the heart of how online information is discovered, ranked and u...</p></details>
+   Link:<a href="https://www.nature.com/nature-index/topics/l4/search-engine-algorithms-and-user-behavior" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/nature-index/topics/l4/search-engine-algorithms-and-user-behavior</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Search Engine Algorithms and User BehaviorSearch engine algorithms lie at the heart of how online information is discovered, ranked and u...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: mozillafoundation.org  
-   Link: <a href="https://www.mozillafoundation.org/en/blog/action-recommended-how-the-digital-services-act-addresses-platform-recommender-systems/" target="_blank" rel="noopener noreferrer nofollow">https://www.mozillafoundation.org/en/blog/action-recommended-how-the-digital-services-act-addresses-platform-recommender-systems/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How the Digital Services Act Addresses Platform...27 Feb 2023 — The EU&#x27;s Digital Services Act aims to reinforce transparency and account...</p></details>
+   Link:<a href="https://www.mozillafoundation.org/en/blog/action-recommended-how-the-digital-services-act-addresses-platform-recommender-systems/" target="_blank" rel="noopener noreferrer nofollow">https://www.mozillafoundation.org/en/blog/action-recommended-how-the-digital-services-act-addresses-platform-recommender-systems/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How the Digital Services Act Addresses Platform...27 Feb 2023 — The EU&#x27;s Digital Services Act aims to reinforce transparency and account...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/shantanuladhwe_did-you-wondered-why-you-always-click-on-activity-7307317279958982656-xh32" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/shantanuladhwe_did-you-wondered-why-you-always-click-on-activity-7307317279958982656-xh32</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Shantanu Ladhwe&#x27;s PostPosition bias happens when higher-ranked items get more clicks - not necessarily because they&#x27;re the most relevant...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/shantanuladhwe_did-you-wondered-why-you-always-click-on-activity-7307317279958982656-xh32" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/shantanuladhwe_did-you-wondered-why-you-always-click-on-activity-7307317279958982656-xh32</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Shantanu Ladhwe&#x27;s PostPosition bias happens when higher-ranked items get more clicks - not necessarily because they&#x27;re the most relevant...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: policyreview.info  
-   Link: <a href="https://policyreview.info/pdf/policyreview-2024-1-1746.pdf" target="_blank" rel="noopener noreferrer nofollow">https://policyreview.info/pdf/policyreview-2024-1-1746.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>he DSA provision requiring the disclo- sure of the main parameters used in VLOP&#x27;s recommender systems...Read more...</p></details>
+   Link:<a href="https://policyreview.info/pdf/policyreview-2024-1-1746.pdf" target="_blank" rel="noopener noreferrer nofollow">https://policyreview.info/pdf/policyreview-2024-1-1746.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>he DSA provision requiring the disclo- sure of the main parameters used in VLOP&#x27;s recommender systems...Read more...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: researchgate.net  
    Title: Research Gate Position Bias in Recommender Systems for Digital Libraries  
-   Link: <a href="https://www.researchgate.net/profile/Joeran-Beel/publication/323753668_Position_Bias_in_Recommender_Systems_for_Digital_Libraries/links/5ddfd28f299bf10bc32ead1e/Position-Bias-in-Recommender-Systems-for-Digital-Libraries.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/profile/Joeran-Beel/publication/323753668_Position_Bias_in_Recommender_Systems_for_Digital_Libraries/links/5ddfd28f299bf10bc32ead1e/Position-Bias-in-Recommender-Systems-for-Digital-Libraries.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>“Position bias” describes the tendency of users to interact with items on top of a list with higher probability than with items at a lowe...</p></details>
+   Link:<a href="https://www.researchgate.net/profile/Joeran-Beel/publication/323753668_Position_Bias_in_Recommender_Systems_for_Digital_Libraries/links/5ddfd28f299bf10bc32ead1e/Position-Bias-in-Recommender-Systems-for-Digital-Libraries.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/profile/Joeran-Beel/publication/323753668_Position_Bias_in_Recommender_Systems_for_Digital_Libraries/links/5ddfd28f299bf10bc32ead1e/Position-Bias-in-Recommender-Systems-for-Digital-Libraries.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>“Position bias” describes the tendency of users to interact with items on top of a list with higher probability than with items at a lowe...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/shorts/Up9TSZXMpG8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/shorts/Up9TSZXMpG8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Unlocking Google&#x27;s Algorithms: RankBrain, BERT, and MoreDiscover how Google&#x27;s powerful algorithms like RankBrain, BERT, and the Multitask...</p></details>
+   Link:<a href="https://www.youtube.com/shorts/Up9TSZXMpG8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/shorts/Up9TSZXMpG8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Unlocking Google&#x27;s Algorithms: RankBrain, BERT, and MoreDiscover how Google&#x27;s powerful algorithms like RankBrain, BERT, and the Multitask...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/how-ai-uses-neural-matching-rankbrain-bert-understand-ayub-ansary-xinic" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/how-ai-uses-neural-matching-rankbrain-bert-understand-ayub-ansary-xinic</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How AI Uses Neural Matching, RankBrain &amp; BERT in SearchIt processes search queries using Neural Matching, RankBrain, and BERT, three AI-d...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/how-ai-uses-neural-matching-rankbrain-bert-understand-ayub-ansary-xinic" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/how-ai-uses-neural-matching-rankbrain-bert-understand-ayub-ansary-xinic</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How AI Uses Neural Matching, RankBrain &amp; BERT in SearchIt processes search queries using Neural Matching, RankBrain, and BERT, three AI-d...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40linz07m/google-rankbrain-how-googles-ai-learns-to-interpret-search-queries-7eae7abaf16b" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40linz07m/google-rankbrain-how-googles-ai-learns-to-interpret-search-queries-7eae7abaf16b</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Google&#x27;s AI Learns to Interpret Search QueriesRankBrain is Google&#x27;s [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) system that helps interpret search queries and d...</p></details>
+   Link:<a href="https://medium.com/%40linz07m/google-rankbrain-how-googles-ai-learns-to-interpret-search-queries-7eae7abaf16b" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40linz07m/google-rankbrain-how-googles-ai-learns-to-interpret-search-queries-7eae7abaf16b</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Google&#x27;s AI Learns to Interpret Search QueriesRankBrain is Google&#x27;s [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) system that helps interpret search queries and d...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: kopp-online-marketing.com  
-   Link: <a href="https://www.kopp-online-marketing.com/how-does-google-ranking-work-today" target="_blank" rel="noopener noreferrer nofollow">https://www.kopp-online-marketing.com/how-does-google-ranking-work-today</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How does Google search (ranking) may be working todayIndexing and crawling is the basic requirement for ranking, but otherwise has nothin...</p></details>
+   Link:<a href="https://www.kopp-online-marketing.com/how-does-google-ranking-work-today" target="_blank" rel="noopener noreferrer nofollow">https://www.kopp-online-marketing.com/how-does-google-ranking-work-today</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How does Google search (ranking) may be working todayIndexing and crawling is the basic requirement for ranking, but otherwise has nothin...</p></details>

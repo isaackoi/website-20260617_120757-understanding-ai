@@ -333,29 +333,29 @@ image: /assets/images/understanding_3f90b8_business_ai_a_ecaea3-overview-social.
 
 ## Introduction
 
-[Business AI]({{ 'roi-metrics/' | relative_url }}) adoption beyond pilot projects is not mainly a question of buying a better model. It is the organisational work of turning AI from a promising experiment into a governed, measured and repeatable way of working. Pilots often stall because they are tested in clean, narrow conditions: a small team, a controlled dataset, a friendly workflow and limited consequences if the output is wrong. Scaling is different. It requires clear ownership, human [validation]({{ 'stop-training/' | relative_url }}) rules, reliable data pipelines, integration into daily systems, risk controls and a reason for employees to change how work actually gets done. McKinsey’s 2025 global AI survey describes the move from pilots to scaled impact as still “a work in progress” for most organisations, even as AI use has become widespread. It also finds that higher performers are more likely to redesign workflows, assign senior ownership and define when model outputs need human validation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
+[Business AI]({{ 'roi-metrics/' | relative_url }}) adoption beyond pilot projects is not mainly a question of buying a better model. It is the organisational work of turning AI from a promising experiment into a governed, measured and repeatable way of working. Pilots often stall because they are tested in clean, narrow conditions: a small team, a controlled dataset, a friendly workflow and limited consequences if the output is wrong. Scaling is different. It requires clear ownership, human [validation]({{ 'stop-training/' | relative_url }}) rules, reliable data pipelines, integration into daily systems, risk controls and a reason for employees to change how work actually gets done. McKinsey’s 2025 global AI survey describes the move from pilots to scaled impact as still “a work in progress” for most organisations, even as AI use has become widespread. It also finds that higher performers are more likely to redesign workflows, assign senior ownership and define when model outputs need human validation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-overview.webp" | relative_url }}" alt="Overview image for Business Adoption" loading="eager" decoding="sync" fetchpriority="high">
 ## From Experiments to Scaled Impact
 
-A pilot proves that AI can do something useful in a limited setting. Scaled adoption proves that the organisation can keep getting value from it when the work becomes messy, repeated and accountable. That difference is why many companies can point to impressive demos while still struggling to show profit-and-loss impact. The 2025 MIT NANDA report, widely discussed for its finding that 95% of enterprise [generative AI]({{ 'generative-ai/' | relative_url }}) pilots were not delivering measurable return, framed the issue less as model failure and more as an enterprise integration problem: tools did not learn from workflows, adapt to context or fit how people actually made [decisions]({{ 'decisions/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mlq.ai">[MLQ AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mlq.ai</span><span class="citation-popover-title">v0.1 State of AI in Business 2025 Report</span><span class="citation-popover-snippet">v0.1 State of AI in Business 2025 Report</span></span></span>
+A pilot proves that AI can do something useful in a limited setting. Scaled adoption proves that the organisation can keep getting value from it when the work becomes messy, repeated and accountable. That difference is why many companies can point to impressive demos while still struggling to show profit-and-loss impact. The 2025 MIT NANDA report, widely discussed for its finding that 95% of enterprise [generative AI]({{ 'generative-ai/' | relative_url }}) pilots were not delivering measurable return, framed the issue less as model failure and more as an enterprise integration problem: tools did not learn from workflows, adapt to context or fit how people actually made [decisions]({{ 'decisions/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mlq.ai">[MLQ AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mlq.ai</span><span class="citation-popover-title">v0.1 State of AI in Business 2025 Report</span><span class="citation-popover-snippet">v0.1 State of AI in Business 2025 Report</span></span></span>
 
-The most useful question for leaders is therefore not “Which AI tool should we try?” but “Which business process are we willing to redesign?” A customer-service chatbot that only answers frequently asked questions may reduce a few tickets. A redesigned service workflow might use AI to classify the request, retrieve the right policy, draft a response, flag uncertainty, route exceptions to a specialist and update the knowledge base after resolution. The value comes from the whole operating loop, not the model alone. BCG’s 2025 work on the AI impact gap similarly argues that changing how people work and focusing on the right value pools is the bridge between ordinary adoption and business advantage. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/closing-the-ai-impact-gap" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">closing the ai impact gap</span><span class="citation-popover-snippet">closing the ai impact gap</span></span></span>
+The most useful question for leaders is therefore not “Which AI tool should we try?” but “Which business process are we willing to redesign?” A customer-service chatbot that only answers frequently asked questions may reduce a few tickets. A redesigned service workflow might use AI to classify the request, retrieve the right policy, draft a response, flag uncertainty, route exceptions to a specialist and update the knowledge base after resolution. The value comes from the whole operating loop, not the model alone. BCG’s 2025 work on the AI impact gap similarly argues that changing how people work and focusing on the right value pools is the bridge between ordinary adoption and business advantage.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/closing-the-ai-impact-gap" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">closing the ai impact gap</span><span class="citation-popover-snippet">closing the ai impact gap</span></span></span>
 
-Scaled AI also needs a portfolio discipline that many pilots avoid. Organisations need to separate low-risk productivity aids from [high-impact]({{ 'high-impact-ai/' | relative_url }}) decision systems, and then fund them differently. A writing assistant for internal summaries may need light-touch guidance and monitoring. An AI system used in credit, hiring, clinical triage, pricing or legal review needs stronger validation, [audit trails]({{ 'audit-trails/' | relative_url }}), escalation rules and risk acceptance. NIST’s AI Risk Management Framework is useful here because it treats AI governance as a lifecycle process: organisations should govern, map, measure and manage AI risks continuously rather than treat risk review as a one-off sign-off before launch. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/5-sec-core/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI RMF Core</span><span class="citation-popover-snippet">AI Resource Center AI RMF Core</span></span></span>
+Scaled AI also needs a portfolio discipline that many pilots avoid. Organisations need to separate low-risk productivity aids from [high-impact]({{ 'high-impact-ai/' | relative_url }}) decision systems, and then fund them differently. A writing assistant for internal summaries may need light-touch guidance and monitoring. An AI system used in credit, hiring, clinical triage, pricing or legal review needs stronger validation, [audit trails]({{ 'audit-trails/' | relative_url }}), escalation rules and risk acceptance. NIST’s AI Risk Management Framework is useful here because it treats AI governance as a lifecycle process: organisations should govern, map, measure and manage AI risks continuously rather than treat risk review as a one-off sign-off before launch.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/5-sec-core/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI RMF Core</span><span class="citation-popover-snippet">AI Resource Center AI RMF Core</span></span></span>
 
-The “pilot purgatory” pattern is also a measurement problem. Many early projects are evaluated by output quality in isolation: whether the answer looks good, whether the summary is readable, whether the code compiles. In [production]({{ 'retrieval-failures/' | relative_url }}), the metric must move closer to the business process: shorter handling time, fewer rework cycles, higher conversion, reduced error rates, faster onboarding, better compliance evidence or improved employee capacity. A large field experiment in online retail found that generative AI enhancements increased sales in some consumer-facing workflows, but effects varied by use case, which is a reminder that AI value is not automatic even when the same broad technology is used. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.12049" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Generative AI and Firm Productivity: Field Experiments in Online Retail</span><span class="citation-popover-snippet">arXiv Generative AI and Firm Productivity: Field Experiments in Online Retail</span></span></span>
+The “pilot purgatory” pattern is also a measurement problem. Many early projects are evaluated by output quality in isolation: whether the answer looks good, whether the summary is readable, whether the code compiles. In [production]({{ 'retrieval-failures/' | relative_url }}), the metric must move closer to the business process: shorter handling time, fewer rework cycles, higher conversion, reduced error rates, faster onboarding, better compliance evidence or improved employee capacity. A large field experiment in online retail found that generative AI enhancements increased sales in some consumer-facing workflows, but effects varied by use case, which is a reminder that AI value is not automatic even when the same broad technology is used.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.12049" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Generative AI and Firm Productivity: Field Experiments in Online Retail</span><span class="citation-popover-snippet">arXiv Generative AI and Firm Productivity: Field Experiments in Online Retail</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-Illustration-1-dark.svg" | relative_url }}" alt="Business Adoption illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-Illustration-1-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Human Validation and Clear Ownership
 
-The phrase “human in the loop” is often too vague to be useful. In a real operating model, the organisation must define who checks what, when, against which standard and with what authority to override the AI. A lawyer reviewing an AI-drafted clause, a nurse checking an AI-generated patient note and a procurement manager approving an AI-ranked supplier list are not performing the same kind of oversight. Each needs different evidence, training and escalation rights. McKinsey’s 2025 survey highlights defined processes for deciding when model outputs need human validation as one of the practices that distinguishes AI high performers. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
+The phrase “human in the loop” is often too vague to be useful. In a real operating model, the organisation must define who checks what, when, against which standard and with what authority to override the AI. A lawyer reviewing an AI-drafted clause, a nurse checking an AI-generated patient note and a procurement manager approving an AI-ranked supplier list are not performing the same kind of oversight. Each needs different evidence, training and escalation rights. McKinsey’s 2025 survey highlights defined processes for deciding when model outputs need human validation as one of the practices that distinguishes AI high performers.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
 
-Clear ownership matters because AI systems cut across normal organisational boundaries. A model may be bought by IT, configured by a data team, used by operations, monitored by risk, and judged by customers or regulators. If nobody owns the business outcome, the system becomes a shared experiment with no accountable operator. Morgan Stanley’s public description of its firmwide AI team illustrates the opposite pattern: AI is treated as an organisation-wide capability with unified stewardship, human-centred design, data protection and controls rather than as scattered tool adoption by isolated teams. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: morganstanley.com">[Morgan Stanley]</a><span class="citation-popover" role="note"><span class="citation-popover-source">morganstanley.com</span><span class="citation-popover-snippet">Open source on morganstanley.com.</span></span></span>
+Clear ownership matters because AI systems cut across normal organisational boundaries. A model may be bought by IT, configured by a data team, used by operations, monitored by risk, and judged by customers or regulators. If nobody owns the business outcome, the system becomes a shared experiment with no accountable operator. Morgan Stanley’s public description of its firmwide AI team illustrates the opposite pattern: AI is treated as an organisation-wide capability with unified stewardship, human-centred design, data protection and controls rather than as scattered tool adoption by isolated teams.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: morganstanley.com">[Morgan Stanley]</a><span class="citation-popover" role="note"><span class="citation-popover-source">morganstanley.com</span><span class="citation-popover-snippet">Open source on morganstanley.com.</span></span></span>
 
-Ownership also has to include negative outcomes. If an AI tool drafts a poor client email, leaks sensitive information into the wrong workflow, recommends a biased decision or silently degrades after a data change, the organisation needs a known incident path. NIST’s guidance stresses that governance should connect AI policies to existing organisational governance and risk controls, align with data governance, define human roles and responsibilities, and document risk mapping and measurement processes. Those requirements sound procedural, but they are what turn AI from a clever assistant into an accountable business system. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/playbook/govern/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center Govern</span><span class="citation-popover-snippet">AI Resource Center Govern</span></span></span>
+Ownership also has to include negative outcomes. If an AI tool drafts a poor client email, leaks sensitive information into the wrong workflow, recommends a biased decision or silently degrades after a data change, the organisation needs a known incident path. NIST’s guidance stresses that governance should connect AI policies to existing organisational governance and risk controls, align with data governance, define human roles and responsibilities, and document risk mapping and measurement processes. Those requirements sound procedural, but they are what turn AI from a clever assistant into an accountable business system.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/playbook/govern/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center Govern</span><span class="citation-popover-snippet">AI Resource Center Govern</span></span></span>
 
 A practical ownership model usually includes three layers. The business owner is responsible for the value case and the process redesign. The technical owner is responsible for integration, monitoring and performance. The risk or governance owner is responsible for acceptable use, controls, documentation and escalation. Without all three, AI tends to fail in predictable ways: technically impressive tools with no adoption, popular tools with no risk controls, or compliant tools that never change the economics of the work.
 
@@ -364,13 +364,13 @@ A practical ownership model usually includes three layers. The business owner is
 
 ## Data Practices and Operating Models
 
-AI pilots often succeed on hand-picked documents, cleaned spreadsheets or a narrow set of historical examples. Production systems have to deal with incomplete records, inconsistent labels, changing policies, access restrictions, duplicated customer identities and data that lives across old enterprise systems. The OECD’s 2025 report on AI adoption in firms makes this point directly: before adopting AI, firms need digital technologies that systematically gather data from business processes and interactions, because AI applications depend on an accurate digital representation of the business. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/the-adoption-of-artificial-intelligence-in-firms_8fab986b/f9ef33c3-en.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-title">The Adoption of Artificial Intelligence in Firms</span><span class="citation-popover-snippet">The Adoption of Artificial Intelligence in Firms</span></span></span>
+AI pilots often succeed on hand-picked documents, cleaned spreadsheets or a narrow set of historical examples. Production systems have to deal with incomplete records, inconsistent labels, changing policies, access restrictions, duplicated customer identities and data that lives across old enterprise systems. The OECD’s 2025 report on AI adoption in firms makes this point directly: before adopting AI, firms need digital technologies that systematically gather data from business processes and interactions, because AI applications depend on an accurate digital representation of the business.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/the-adoption-of-artificial-intelligence-in-firms_8fab986b/f9ef33c3-en.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-title">The Adoption of Artificial Intelligence in Firms</span><span class="citation-popover-snippet">The Adoption of Artificial Intelligence in Firms</span></span></span>
 
 This is why data governance becomes a business adoption issue, not just a technical hygiene task. AI systems need to know which information is current, which source is authoritative, which users are allowed to see which records, and how sensitive data should be handled. Retrieval-augmented generation, where an AI tool draws on approved internal documents instead of relying only on its general training, can reduce some errors, but it does not remove the need for good document ownership, permissions and version control. If the underlying policy library is stale, fragmented or poorly tagged, AI can make the wrong answer easier to produce at scale.
 
-Operating models must also decide whether AI capability is centralised, embedded or federated. A central team can set standards, manage common platforms and reduce duplicated risk. Embedded teams understand local workflows and can redesign work where value is created. A federated model tries to combine both: central governance and shared infrastructure, with business units responsible for practical deployment. McKinsey’s “six dimensions” for capturing AI value — strategy, talent, operating model, technology, data, and adoption and scaling — reflect this broader point: scaled impact comes from coordinated organisational capability, not a single technical asset. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
+Operating models must also decide whether AI capability is centralised, embedded or federated. A central team can set standards, manage common platforms and reduce duplicated risk. Embedded teams understand local workflows and can redesign work where value is created. A federated model tries to combine both: central governance and shared infrastructure, with business units responsible for practical deployment. McKinsey’s “six dimensions” for capturing AI value — strategy, talent, operating model, technology, data, and adoption and scaling — reflect this broader point: scaled impact comes from coordinated organisational capability, not a single technical asset.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
 
-The operating model also has to manage shadow AI. When employees lack useful approved tools, they may turn to consumer services or informal workarounds. BCG’s 2025 survey of more than 10,600 workers across 11 countries found that AI use had gone mainstream, but also warned that employees without the right tools may find alternatives themselves, creating frustration, security risks and fragmented efforts. That is a strong argument for governed access to usable tools rather than a purely restrictive policy that pushes experimentation underground. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">ai at work momentum builds but gaps remain</span><span class="citation-popover-snippet">ai at work momentum builds but gaps remain</span></span></span>
+The operating model also has to manage shadow AI. When employees lack useful approved tools, they may turn to consumer services or informal workarounds. BCG’s 2025 survey of more than 10,600 workers across 11 countries found that AI use had gone mainstream, but also warned that employees without the right tools may find alternatives themselves, creating frustration, security risks and fragmented efforts. That is a strong argument for governed access to usable tools rather than a purely restrictive policy that pushes experimentation underground.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">ai at work momentum builds but gaps remain</span><span class="citation-popover-snippet">ai at work momentum builds but gaps remain</span></span></span>
 
 ## Why Workflow Redesign Beats Tool Roll-Out
 
@@ -378,7 +378,7 @@ A tool roll-out asks employees to add AI to the work they already do. Workflow r
 
 Consider a sales team. Giving every salesperson a generic AI writing assistant may save time on emails. Redesigning the workflow could connect AI to customer history, product rules, approved language, pricing boundaries and next-best-action guidance, while requiring human approval for commitments or discounts. The result is not “AI replaces salespeople”; it is a different division of labour between automated preparation and human relationship management. The same pattern applies in finance, HR, operations, legal and software development.
 
-This is also where employee trust becomes decisive. People are more likely to adopt AI when it improves a real pain point and when they know what they remain responsible for. They are less likely to trust it when it adds another screen, produces hard-to-check output or threatens to make them accountable for errors they cannot detect. The OECD’s 2026 work on AI and skills argues that most workers will not need advanced AI programming skills; instead, AI raises the importance of digital skills, data interpretation, problem-solving, creativity, innovation and managerial capability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/publications/ai-and-skills_f843b352-en/full-report.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-title">full report</span><span class="citation-popover-snippet">full report</span></span></span>
+This is also where employee trust becomes decisive. People are more likely to adopt AI when it improves a real pain point and when they know what they remain responsible for. They are less likely to trust it when it adds another screen, produces hard-to-check output or threatens to make them accountable for errors they cannot detect. The OECD’s 2026 work on AI and skills argues that most workers will not need advanced AI programming skills; instead, AI raises the importance of digital skills, data interpretation, problem-solving, creativity, innovation and managerial capability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/publications/ai-and-skills_f843b352-en/full-report.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-title">full report</span><span class="citation-popover-snippet">full report</span></span></span>
 
 The strongest adopters therefore invest in workflow literacy, not just prompt training. Prompting matters, but a useful prompt in a broken process is still a patch. Teams need to understand where AI is allowed to help, where it must not decide, which outputs require evidence, and how to report failure. In regulated or high-stakes work, the organisation also needs to preserve records of what was generated, what was changed and who approved the final action.
 
@@ -386,11 +386,11 @@ The strongest adopters therefore invest in workflow literacy, not just prompt tr
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-Illustration-2-dark.svg" | relative_url }}" alt="Business Adoption illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## The Governance Shift From Permission to Assurance
 
-Early AI governance often focused on permission: who may use which tool, for what task, with what data. Scaled adoption requires assurance: how the organisation knows the system is still performing acceptably after deployment. That means monitoring for drift, reviewing errors, updating data sources, testing for bias or security vulnerabilities, and retiring systems that no longer meet the business or risk case. NIST’s AI RMF describes risk management as continuous and lifecycle-based, with governance infused through mapping, measuring and managing risks. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/5-sec-core/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI RMF Core</span><span class="citation-popover-snippet">AI Resource Center AI RMF Core</span></span></span>
+Early AI governance often focused on permission: who may use which tool, for what task, with what data. Scaled adoption requires assurance: how the organisation knows the system is still performing acceptably after deployment. That means monitoring for drift, reviewing errors, updating data sources, testing for bias or security vulnerabilities, and retiring systems that no longer meet the business or risk case. NIST’s AI RMF describes risk management as continuous and lifecycle-based, with governance infused through mapping, measuring and managing risks.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/airmf/5-sec-core/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center AI RMF Core</span><span class="citation-popover-snippet">AI Resource Center AI RMF Core</span></span></span>
 
-Generative AI makes this harder because outputs can be fluent without being correct. A model can summarise a document elegantly while missing an exception, draft a confident answer from outdated policy, or produce code that works in a simple case but fails under edge conditions. A 2025 systematic literature review on generative AI in enterprise architecture found benefits in ideation, documentation and decision support, but also highlighted risks including opacity, bias, contextually incorrect outputs, privacy concerns, compliance issues and the need for professional oversight. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.22003" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Generative AI makes this harder because outputs can be fluent without being correct. A model can summarise a document elegantly while missing an exception, draft a confident answer from outdated policy, or produce code that works in a simple case but fails under edge conditions. A 2025 systematic literature review on generative AI in enterprise architecture found benefits in ideation, documentation and decision support, but also highlighted risks including opacity, bias, contextually incorrect outputs, privacy concerns, compliance issues and the need for professional oversight.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.22003" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
-Assurance also means treating third-party AI systems as part of the enterprise risk surface. Many organisations will not build foundation models, but they will buy AI-enabled software, connect it to internal data and let it affect customer or employee experiences. NIST’s governance guidance explicitly includes currently deployed and third-party AI systems within formal AI risk management policies. This matters because outsourcing the tool does not outsource accountability for how it is used in a business process. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/playbook/govern/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center Govern</span><span class="citation-popover-snippet">AI Resource Center Govern</span></span></span>
+Assurance also means treating third-party AI systems as part of the enterprise risk surface. Many organisations will not build foundation models, but they will buy AI-enabled software, connect it to internal data and let it affect customer or employee experiences. NIST’s governance guidance explicitly includes currently deployed and third-party AI systems within formal AI risk management policies. This matters because outsourcing the tool does not outsource accountability for how it is used in a business process.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://airc.nist.gov/airmf-resources/playbook/govern/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: airc.nist.gov">[NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">airc.nist.gov</span><span class="citation-popover-title">AI Resource Center Govern</span><span class="citation-popover-snippet">AI Resource Center Govern</span></span></span>
 
 A useful maturity test is simple: can the organisation explain why a deployed AI system exists, what data it uses, what decision or workflow it affects, who owns it, how it is monitored, when a human must intervene, what failure looks like and when it should be changed or switched off? If the answer is no, the organisation may have adoption activity, but it does not yet have scaled adoption.
 
@@ -401,11 +401,11 @@ A useful maturity test is simple: can the organisation explain why a deployed AI
 
 Scaled business AI adoption usually has several visible features. First, the [use cases]({{ 'use-cases/' | relative_url }}) are tied to business outcomes, not novelty. Second, the AI is embedded in systems where people already work. Third, validation is explicit rather than improvised. Fourth, data ownership is clear. Fifth, governance is strong enough to enable use rather than merely block it. These features explain why the same technology can produce very different results in two companies.
 
-Morgan Stanley offers a useful public example because its AI programme has been presented as a firmwide operating shift rather than a one-off chatbot launch. The company has announced AI tools for research access and knowledge retrieval, including AskResearchGPT for investment banking, sales and trading, and research staff, while also describing a firmwide AI function focused on stewardship, controls and data protection. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: morganstanley.com">[Morgan Stanley]</a><span class="citation-popover" role="note"><span class="citation-popover-source">morganstanley.com</span><span class="citation-popover-title">morgan stanley research announces askresearchgpt</span><span class="citation-popover-snippet">morgan stanley research announces askresearchgpt</span></span></span>
+Morgan Stanley offers a useful public example because its AI programme has been presented as a firmwide operating shift rather than a one-off chatbot launch. The company has announced AI tools for research access and knowledge retrieval, including AskResearchGPT for investment banking, sales and trading, and research staff, while also describing a firmwide AI function focused on stewardship, controls and data protection.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: morganstanley.com">[Morgan Stanley]</a><span class="citation-popover" role="note"><span class="citation-popover-source">morganstanley.com</span><span class="citation-popover-title">morgan stanley research announces askresearchgpt</span><span class="citation-popover-snippet">morgan stanley research announces askresearchgpt</span></span></span>
 
 The lesson is not that every company should copy a bank’s tooling. It is that scaled adoption depends on matching AI to an information-rich workflow, wrapping it in controls, and making it part of how professionals work. In wealth management or investment research, the valuable task is not simply generating text. It is helping staff find, distil and apply approved knowledge faster while preserving human judgement and compliance expectations.
 
-There is also a caution in the evidence. Stanford’s 2025 AI Index reported that organisational AI use had accelerated sharply, with 78% of organisations reporting AI use in 2024, up from 55% the previous year. But broad use does not mean broad transformation. The gap between “we use AI somewhere” and “AI has changed our operating model” is precisely the gap that business leaders need to manage. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai-production.s3.amazonaws.com">[Hai Production]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai-production.s3.amazonaws.com</span><span class="citation-popover-title">hai ai index report 2025</span><span class="citation-popover-snippet">hai ai index report 2025</span></span></span>
+There is also a caution in the evidence. Stanford’s 2025 AI Index reported that organisational AI use had accelerated sharply, with 78% of organisations reporting AI use in 2024, up from 55% the previous year. But broad use does not mean broad transformation. The gap between “we use AI somewhere” and “AI has changed our operating model” is precisely the gap that business leaders need to manage.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai-production.s3.amazonaws.com">[Hai Production]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai-production.s3.amazonaws.com</span><span class="citation-popover-title">hai ai index report 2025</span><span class="citation-popover-snippet">hai ai index report 2025</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-Illustration-3-dark.svg" | relative_url }}" alt="Business Adoption illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -423,7 +423,7 @@ Moving beyond pilots is a management discipline. The important decisions are con
 
 **Measure process outcomes, not demo quality.** Track cycle time, error rates, rework, customer experience, cost-to-serve, conversion, compliance evidence or employee capacity. A model that produces impressive text but does not improve the workflow is still a stalled adoption.
 
-**Plan for change management.** Training should cover not only how to use the tool, but how work changes, what remains human-owned, what evidence must be checked and how concerns are raised. Recent legal-industry analysis from Reuters makes the same broader point: generative AI adoption can create fragmented transformation and change fatigue unless organisations manage implementation through structured change, governance, training and stakeholder engagement. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/legal/legalindustry/strategic-change-management-age-generative-ai--pracin-2026-06-15/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-snippet">The article underscores that generative AI introduces complex legal, operational, and ethical challenges requiring holistic, interdiscipl...</span></span></span>
+**Plan for change management.** Training should cover not only how to use the tool, but how work changes, what remains human-owned, what evidence must be checked and how concerns are raised. Recent legal-industry analysis from Reuters makes the same broader point: generative AI adoption can create fragmented transformation and change fatigue unless organisations manage implementation through structured change, governance, training and stakeholder engagement.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/legal/legalindustry/strategic-change-management-age-generative-ai--pracin-2026-06-15/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-snippet">The article underscores that generative AI introduces complex legal, operational, and ethical challenges requiring holistic, interdiscipl...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/FY6M9LBZBF4" title="MIT NANDA - The GenAI Divide: State of AI in Business 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=FY6M9LBZBF4" target="_blank" rel="noopener noreferrer">MIT NANDA - The GenAI Divide: State of AI in Business 2025</a></p><p class="youtube-embed-meta">Channel: Strategy Wave Podcast</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=FY6M9LBZBF4" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=FY6M9LBZBF4">Open on YouTube</a></p></div></div></div>
@@ -435,194 +435,194 @@ Business AI adoption beyond pilot projects means treating AI as a change in orga
 The practical takeaway is clear. AI creates value when it becomes part of a managed operating system, not when it remains a laboratory experiment or a scattered collection of individual productivity hacks. The companies that progress beyond pilots are not necessarily the ones with the most ambitious announcements. They are the ones that can answer, in operational detail, what the AI is for, who is responsible for it, how it is validated, what data it depends on, how people use it and how the organisation knows whether it is still worth running.
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why AI Pilots Often Stall. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why AI Pilots Often Stall. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prediction Machines on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wJY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Prediction Machines" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prediction Machines">Prediction Machines</a>
-        </h4>
-        <p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prediction Machines on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wJY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Prediction Machines" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prediction Machines">Prediction Machines</a>
+</h4>
+<p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
         
-        <p class="fr-book-desc">Provides a framework for understanding AI deployment and value creation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides a framework for understanding AI deployment and value creation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Prediction+Machines+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Explains how companies move from experimentation to scalable AI-enabled operations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how companies move from experimentation to scalable AI-enabled operations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Shows how organisations can integrate AI into real workflows.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how organisations can integrate AI into real workflows.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI-Savvy Leader on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=USTIEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI-Savvy Leader" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI-Savvy Leader">The AI-Savvy Leader</a>
-        </h4>
-        <p class="fr-book-author">By David De Cremer</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI-Savvy Leader on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=USTIEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI-Savvy Leader" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI-Savvy Leader">The AI-Savvy Leader</a>
+</h4>
+<p class="fr-book-author">By David De Cremer</p>
         
-        <p class="fr-book-desc">Addresses organisational barriers to successful AI adoption.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses organisational barriers to successful AI adoption.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Prediction+Machines&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prediction Machines</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Prediction+Machines&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prediction Machines</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing"><img src="{{ '/assets/images/marketplace-covers/54124f4a58eba10c56e1.jpg' | relative_url }}" alt="Listing image for I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing"><img src="{{ '/assets/images/marketplace-covers/54124f4a58eba10c56e1.jpg' | relative_url }}" alt="Listing image for I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for New Red Crystal Enamel Pin Brooches for Women UK Ladies Dress Art Deco Gold Plt"><img src="{{ '/assets/images/marketplace-covers/ce4560a050159d792fb6.jpg' | relative_url }}" alt="Listing image for New Red Crystal Enamel Pin Brooches for Women UK Ladies Dress Art Deco Gold Plt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">New Red Crystal Enamel Pin Brooches for Women UK Ladies Dress Art Deco Gold Plt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for New Red Crystal Enamel Pin Brooches for Women UK Ladies Dress Art Deco Gold Plt"><img src="{{ '/assets/images/marketplace-covers/ce4560a050159d792fb6.jpg' | relative_url }}" alt="Listing image for New Red Crystal Enamel Pin Brooches for Women UK Ladies Dress Art Deco Gold Plt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">New Red Crystal Enamel Pin Brooches for Women UK Ladies Dress Art Deco Gold Plt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Hold On Let Me Chat GPT This Pin Badge Brooch Black &amp; White AI Computer Enamel"><img src="{{ '/assets/images/marketplace-covers/cdfb2a949d8e0e2ab28c.jpg' | relative_url }}" alt="Listing image for Hold On Let Me Chat GPT This Pin Badge Brooch Black &amp; White AI Computer Enamel" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Hold On Let Me Chat GPT This Pin Badge Brooch Black &amp; White AI Computer Enamel</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Hold On Let Me Chat GPT This Pin Badge Brooch Black &amp; White AI Computer Enamel"><img src="{{ '/assets/images/marketplace-covers/cdfb2a949d8e0e2ab28c.jpg' | relative_url }}" alt="Listing image for Hold On Let Me Chat GPT This Pin Badge Brooch Black &amp; White AI Computer Enamel" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Hold On Let Me Chat GPT This Pin Badge Brooch Black &amp; White AI Computer Enamel</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin"><img src="{{ '/assets/images/marketplace-covers/11f1f461e7da86c8d339.jpg' | relative_url }}" alt="Listing image for Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin"><img src="{{ '/assets/images/marketplace-covers/11f1f461e7da86c8d339.jpg' | relative_url }}" alt="Listing image for Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="business-adoption-why-ai-pilots-often-stall-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -638,7 +638,7 @@ The practical takeaway is clear. AI creates value when it becomes part of a mana
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -658,7 +658,7 @@ The practical takeaway is clear. AI creates value when it becomes part of a mana
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -690,7 +690,7 @@ The practical takeaway is clear. AI creates value when it becomes part of a mana
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -742,7 +742,7 @@ The practical takeaway is clear. AI creates value when it becomes part of a mana
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -787,7 +787,7 @@ The practical takeaway is clear. AI creates value when it becomes part of a mana
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -828,293 +828,293 @@ The practical takeaway is clear. AI creates value when it becomes part of a mana
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: mckinsey.com  
    Title: the state of ai  
-   Link: <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</a>  
+   Link:<a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</a>  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: mlq.ai  
    Title: v0.1 State of AI in Business 2025 Report  
-   Link: <a href="https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf" target="_blank" rel="noopener noreferrer nofollow">https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf</a>  
+   Link:<a href="https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf" target="_blank" rel="noopener noreferrer nofollow">https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: bcg.com  
    Title: closing the ai impact gap  
-   Link: <a href="https://www.bcg.com/publications/2025/closing-the-ai-impact-gap" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/closing-the-ai-impact-gap</a>  
+   Link:<a href="https://www.bcg.com/publications/2025/closing-the-ai-impact-gap" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/closing-the-ai-impact-gap</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: bcg.com  
    Title: ai at work momentum builds but gaps remain  
-   Link: <a href="https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain</a>  
+   Link:<a href="https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: airc.nist.gov  
    Title: AI Resource Center AI RMF Core  
-   Link: <a href="https://airc.nist.gov/airmf-resources/airmf/5-sec-core/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/5-sec-core/</a>  
+   Link:<a href="https://airc.nist.gov/airmf-resources/airmf/5-sec-core/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/5-sec-core/</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
    Title: arXiv Generative AI and Firm Productivity: Field Experiments in Online Retail  
-   Link: <a href="https://arxiv.org/abs/2510.12049" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.12049</a>  
+   Link:<a href="https://arxiv.org/abs/2510.12049" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.12049</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: airc.nist.gov  
    Title: AI Resource Center Govern  
-   Link: <a href="https://airc.nist.gov/airmf-resources/playbook/govern/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/playbook/govern/</a>  
+   Link:<a href="https://airc.nist.gov/airmf-resources/playbook/govern/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/playbook/govern/</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: oecd.org  
    Title: The Adoption of Artificial Intelligence in Firms  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/the-adoption-of-artificial-intelligence-in-firms_8fab986b/f9ef33c3-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/the-adoption-of-artificial-intelligence-in-firms_8fab986b/f9ef33c3-en.pdf</a>  
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/the-adoption-of-artificial-intelligence-in-firms_8fab986b/f9ef33c3-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/05/the-adoption-of-artificial-intelligence-in-firms_8fab986b/f9ef33c3-en.pdf</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: oecd.org  
    Title: the adoption of artificial intelligence in firms f9ef33c3 en  
-   Link: <a href="https://www.oecd.org/en/publications/the-adoption-of-artificial-intelligence-in-firms_f9ef33c3-en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/the-adoption-of-artificial-intelligence-in-firms_f9ef33c3-en.html</a>  
+   Link:<a href="https://www.oecd.org/en/publications/the-adoption-of-artificial-intelligence-in-firms_f9ef33c3-en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/the-adoption-of-artificial-intelligence-in-firms_f9ef33c3-en.html</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: bcg.com  
    Title: 26june2025 beyond ai adoption full potential  
-   Link: <a href="https://www.bcg.com/press/26june2025-beyond-ai-adoption-full-potential" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/press/26june2025-beyond-ai-adoption-full-potential</a>  
+   Link:<a href="https://www.bcg.com/press/26june2025-beyond-ai-adoption-full-potential" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/press/26june2025-beyond-ai-adoption-full-potential</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: oecd.org  
    Title: full report  
-   Link: <a href="https://www.oecd.org/en/publications/ai-and-skills_f843b352-en/full-report.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/ai-and-skills_f843b352-en/full-report.html</a>  
+   Link:<a href="https://www.oecd.org/en/publications/ai-and-skills_f843b352-en/full-report.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/ai-and-skills_f843b352-en/full-report.html</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2510.22003" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.22003</a>  
+   Link:<a href="https://arxiv.org/abs/2510.22003" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.22003</a>  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: hai.stanford.edu  
    Title: 2025 ai index report  
-   Link: <a href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/ai-index/2025-ai-index-report</a>  
+   Link:<a href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/ai-index/2025-ai-index-report</a>  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/legal/legalindustry/strategic-change-management-age-generative-ai--pracin-2026-06-15/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/legal/legalindustry/strategic-change-management-age-generative-ai--pracin-2026-06-15/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The article underscores that generative AI introduces complex legal, operational, and ethical challenges requiring holistic, interdiscipl...</p></details>
+   Link:<a href="https://www.reuters.com/legal/legalindustry/strategic-change-management-age-generative-ai--pracin-2026-06-15/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/legal/legalindustry/strategic-change-management-age-generative-ai--pracin-2026-06-15/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The article underscores that generative AI introduces complex legal, operational, and ethical challenges requiring holistic, interdiscipl...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: hai.stanford.edu  
    Title: ai index  
-   Link: <a href="https://hai.stanford.edu/ai-index" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/ai-index</a>  
+   Link:<a href="https://hai.stanford.edu/ai-index" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/ai-index</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: nvlpubs.nist.gov  
    Title: ai.100 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: nvlpubs.nist.gov  
    Title: AI.600 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: nist.gov  
    Title: ai risk management framework 2nd draft  
-   Link: <a href="https://www.nist.gov/document/ai-risk-management-framework-2nd-draft" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/ai-risk-management-framework-2nd-draft</a>  
+   Link:<a href="https://www.nist.gov/document/ai-risk-management-framework-2nd-draft" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/ai-risk-management-framework-2nd-draft</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: nist.gov  
    Title: ai risk management framework initial draft  
-   Link: <a href="https://www.nist.gov/document/ai-risk-management-framework-initial-draft" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/ai-risk-management-framework-initial-draft</a>  
+   Link:<a href="https://www.nist.gov/document/ai-risk-management-framework-initial-draft" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/ai-risk-management-framework-initial-draft</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: nist.gov  
    Title: A I RMF RFI Comments  
-   Link: <a href="https://www.nist.gov/system/files/documents/2021/09/15/ai-rmf-rfi-0070.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/system/files/documents/2021/09/15/ai-rmf-rfi-0070.pdf</a>  
+   Link:<a href="https://www.nist.gov/system/files/documents/2021/09/15/ai-rmf-rfi-0070.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/system/files/documents/2021/09/15/ai-rmf-rfi-0070.pdf</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: airc.nist.gov  
-   Link: <a href="https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/</a>  
+   Link:<a href="https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/</a>  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/speech-testimony/balancing-knowledge-and-governance-foundations-effective-risk-management-artificial" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/speech-testimony/balancing-knowledge-and-governance-foundations-effective-risk-management-artificial</a>  
+   Link:<a href="https://www.nist.gov/speech-testimony/balancing-knowledge-and-governance-foundations-effective-risk-management-artificial" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/speech-testimony/balancing-knowledge-and-governance-foundations-effective-risk-management-artificial</a>  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: nist.gov  
    Title: A I RMF 2nd Draft Comments  
-   Link: <a href="https://www.nist.gov/document/ai-rmf-2nd-draft-comments-raymond-sheh-karen-geappen-james-dietman" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/ai-rmf-2nd-draft-comments-raymond-sheh-karen-geappen-james-dietman</a>  
+   Link:<a href="https://www.nist.gov/document/ai-rmf-2nd-draft-comments-raymond-sheh-karen-geappen-james-dietman" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/ai-rmf-2nd-draft-comments-raymond-sheh-karen-geappen-james-dietman</a>  
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: nist.gov  
    Title: 1st draft ai rmf comments ferdi van engelen  
-   Link: <a href="https://www.nist.gov/document/1st-draft-ai-rmf-comments-ferdi-van-engelen" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/1st-draft-ai-rmf-comments-ferdi-van-engelen</a>  
+   Link:<a href="https://www.nist.gov/document/1st-draft-ai-rmf-comments-ferdi-van-engelen" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/1st-draft-ai-rmf-comments-ferdi-van-engelen</a>  
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence</a>  
+   Link:<a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence</a>  
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: airc.nist.gov  
-   Link: <a href="https://airc.nist.gov/airmf-resources/playbook/manage/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/playbook/manage/</a>  
+   Link:<a href="https://airc.nist.gov/airmf-resources/playbook/manage/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/playbook/manage/</a>  
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: mit.edu  
-   Link: <a href="https://www.mit.edu/" target="_blank" rel="noopener noreferrer nofollow">https://www.mit.edu/</a>  
+   Link:<a href="https://www.mit.edu/" target="_blank" rel="noopener noreferrer nofollow">https://www.mit.edu/</a>  
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: bcg.com  
    Title: ai adoption puzzle why usage up impact not  
-   Link: <a href="https://www.bcg.com/publications/2025/ai-adoption-puzzle-why-usage-up-impact-not" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/ai-adoption-puzzle-why-usage-up-impact-not</a>  
+   Link:<a href="https://www.bcg.com/publications/2025/ai-adoption-puzzle-why-usage-up-impact-not" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/ai-adoption-puzzle-why-usage-up-impact-not</a>  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: bcg.com  
    Title: ai will reshape more jobs than it replaces  
-   Link: <a href="https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces</a>  
+   Link:<a href="https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces</a>  
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: bcg.com  
    Title: are you generating value from ai the widening gap  
-   Link: <a href="https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap</a>  
+   Link:<a href="https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap</a>  
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: bcg.com  
    Title: Artificial Intelligence  
-   Link: <a href="https://www.bcg.com/capabilities/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/capabilities/artificial-intelligence</a>  
+   Link:<a href="https://www.bcg.com/capabilities/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/capabilities/artificial-intelligence</a>  
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: bcg.com  
    Title: ai transformation is a workforce transformation  
-   Link: <a href="https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation</a>  
+   Link:<a href="https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/ai-transformation-is-a-workforce-transformation</a>  
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: bcg.com  
    Title: how companies can prepare for ai first future  
-   Link: <a href="https://www.bcg.com/publications/2025/how-companies-can-prepare-for-ai-first-future" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/how-companies-can-prepare-for-ai-first-future</a>  
+   Link:<a href="https://www.bcg.com/publications/2025/how-companies-can-prepare-for-ai-first-future" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/how-companies-can-prepare-for-ai-first-future</a>  
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: bcg.com  
    Title: why ai change is actually a people change  
-   Link: <a href="https://www.bcg.com/publications/2026/why-ai-change-is-actually-a-people-change" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/why-ai-change-is-actually-a-people-change</a>  
+   Link:<a href="https://www.bcg.com/publications/2026/why-ai-change-is-actually-a-people-change" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/why-ai-change-is-actually-a-people-change</a>  
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: bcg.com  
-   Link: <a href="https://www.bcg.com/capabilities/artificial-intelligence/generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/capabilities/artificial-intelligence/generative-ai</a>  
+   Link:<a href="https://www.bcg.com/capabilities/artificial-intelligence/generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/capabilities/artificial-intelligence/generative-ai</a>  
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: mckinsey.com  
    Title: the state of ai how organizations are rewiring to capture value  
-   Link: <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value</a>  
+   Link:<a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value</a>  
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: mckinsey.com  
    Title: the state of ai how organizations are rewiring to capture value final  
-   Link: <a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf</a>  
+   Link:<a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf</a>  
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: oecd.org  
    Title: 795de142 en  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/governing-with-artificial-intelligence_398fa287/795de142-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/governing-with-artificial-intelligence_398fa287/795de142-en.pdf</a>  
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/governing-with-artificial-intelligence_398fa287/795de142-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/governing-with-artificial-intelligence_398fa287/795de142-en.pdf</a>  
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: oecd.org  
    Title: 7376c776 en  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/emerging-divides-in-the-transition-to-artificial-intelligence_eeb5e120/7376c776-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/emerging-divides-in-the-transition-to-artificial-intelligence_eeb5e120/7376c776-en.pdf</a>  
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/emerging-divides-in-the-transition-to-artificial-intelligence_eeb5e120/7376c776-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/emerging-divides-in-the-transition-to-artificial-intelligence_eeb5e120/7376c776-en.pdf</a>  
 
-42. <a id="endnote-42"></a>
+42.<a id="endnote-42"></a>
    Source: oecd.org  
    Title: 426399c1 en  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/ai-adoption-by-small-and-medium-sized-enterprises_9c48eae6/426399c1-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/ai-adoption-by-small-and-medium-sized-enterprises_9c48eae6/426399c1-en.pdf</a>  
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/ai-adoption-by-small-and-medium-sized-enterprises_9c48eae6/426399c1-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/ai-adoption-by-small-and-medium-sized-enterprises_9c48eae6/426399c1-en.pdf</a>  
 
-43. <a id="endnote-43"></a>
+43.<a id="endnote-43"></a>
    Source: oecd.ai  
    Title: ai and data governance workshops  
-   Link: <a href="https://oecd.ai/en/dashboards/policy-initiatives/ai-and-data-governance-workshops" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/dashboards/policy-initiatives/ai-and-data-governance-workshops</a>  
+   Link:<a href="https://oecd.ai/en/dashboards/policy-initiatives/ai-and-data-governance-workshops" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/dashboards/policy-initiatives/ai-and-data-governance-workshops</a>  
 
-44. <a id="endnote-44"></a>
+44.<a id="endnote-44"></a>
    Source: scale.com  
    Title: hitl ep13 ai evals in practice  
-   Link: <a href="https://scale.com/blog/hitl-ep13-ai-evals-in-practice" target="_blank" rel="noopener noreferrer nofollow">https://scale.com/blog/hitl-ep13-ai-evals-in-practice</a>  
+   Link:<a href="https://scale.com/blog/hitl-ep13-ai-evals-in-practice" target="_blank" rel="noopener noreferrer nofollow">https://scale.com/blog/hitl-ep13-ai-evals-in-practice</a>  
 
-45. <a id="endnote-45"></a>
+45.<a id="endnote-45"></a>
    Source: youtube.com  
    Title: The AI Opportunity in the Enterprise: What Industry Leaders See That Others Miss  
-   Link: <a href="https://www.youtube.com/watch?v=Tn-HH0sY8d8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Tn-HH0sY8d8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MIT NANDA - The GenAI Divide: State of AI in Business 2025...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Tn-HH0sY8d8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Tn-HH0sY8d8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT NANDA - The GenAI Divide: State of AI in Business 2025...</p></details>
 
-46. <a id="endnote-46"></a>
+46.<a id="endnote-46"></a>
    Source: youtube.com  
    Title: MIT NANDA  
-   Link: <a href="https://www.youtube.com/watch?v=FY6M9LBZBF4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=FY6M9LBZBF4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>From AI Pilot to Enterprise ROI: How Adobe&#x27;s Engineers Drive Adoption at Scale...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=FY6M9LBZBF4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=FY6M9LBZBF4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>From AI Pilot to Enterprise ROI: How Adobe&#x27;s Engineers Drive Adoption at Scale...</p></details>
 
-47. <a id="endnote-47"></a>
+47.<a id="endnote-47"></a>
    Source: morganstanley.com  
-   Link: <a href="https://www.morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team" target="_blank" rel="noopener noreferrer nofollow">https://www.morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team</a>  
+   Link:<a href="https://www.morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team" target="_blank" rel="noopener noreferrer nofollow">https://www.morganstanley.com/about-us/technology/artificial-intelligence-firmwide-team</a>  
 
-48. <a id="endnote-48"></a>
+48.<a id="endnote-48"></a>
    Source: morganstanley.com  
    Title: morgan stanley research announces askresearchgpt  
-   Link: <a href="https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt" target="_blank" rel="noopener noreferrer nofollow">https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt</a>  
+   Link:<a href="https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt" target="_blank" rel="noopener noreferrer nofollow">https://www.morganstanley.com/press-releases/morgan-stanley-research-announces-askresearchgpt</a>  
 
-49. <a id="endnote-49"></a>
+49.<a id="endnote-49"></a>
    Source: hai-production.s3.amazonaws.com  
    Title: hai ai index report 2025  
-   Link: <a href="https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf</a>  
+   Link:<a href="https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://hai-production.s3.amazonaws.com/files/hai_ai_index_report_2025.pdf</a>  
 
-50. <a id="endnote-50"></a>
+50.<a id="endnote-50"></a>
    Source: imd.org  
    Title: Morgan Stanley  
-   Link: <a href="https://www.imd.org/entity-profile/morgan-stanley-ai-maturity-2025/" target="_blank" rel="noopener noreferrer nofollow">https://www.imd.org/entity-profile/morgan-stanley-ai-maturity-2025/</a>  
+   Link:<a href="https://www.imd.org/entity-profile/morgan-stanley-ai-maturity-2025/" target="_blank" rel="noopener noreferrer nofollow">https://www.imd.org/entity-profile/morgan-stanley-ai-maturity-2025/</a>  
 
-51. <a id="endnote-51"></a>
+51.<a id="endnote-51"></a>
    Source: celent.com  
-   Link: <a href="https://www.celent.com/en/insights/531525129" target="_blank" rel="noopener noreferrer nofollow">https://www.celent.com/en/insights/531525129</a>  
+   Link:<a href="https://www.celent.com/en/insights/531525129" target="_blank" rel="noopener noreferrer nofollow">https://www.celent.com/en/insights/531525129</a>  
 
 ### Additional References
 
-52. <a id="endnote-52"></a>
+52.<a id="endnote-52"></a>
    Source: businessatoecd.org  
-   Link: <a href="https://www.businessatoecd.org/hubfs/Business%20Perspectives%20on%20Advancing%20AI.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.businessatoecd.org/hubfs/Business%20Perspectives%20on%20Advancing%20AI.pdf</a>  
+   Link:<a href="https://www.businessatoecd.org/hubfs/Business%20Perspectives%20on%20Advancing%20AI.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.businessatoecd.org/hubfs/Business%20Perspectives%20on%20Advancing%20AI.pdf</a>  
 
-53. <a id="endnote-53"></a>
+53.<a id="endnote-53"></a>
    Source: youtube.com  
    Title: From AI Pilot to Enterprise ROI: How Adobe's Engineers Drive Adoption at Scale  
-   Link: <a href="https://www.youtube.com/watch?v=TYZXu3--sZ4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TYZXu3--sZ4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Do Change Activation for AI Adoption...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=TYZXu3--sZ4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TYZXu3--sZ4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Do Change Activation for AI Adoption...</p></details>
 
-54. <a id="endnote-54"></a>
+54.<a id="endnote-54"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=yIJJ6kvP3aY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=yIJJ6kvP3aY</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The AI Opportunity in the Enterprise: What Industry Leaders See That Others Miss...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=yIJJ6kvP3aY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=yIJJ6kvP3aY</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The AI Opportunity in the Enterprise: What Industry Leaders See That Others Miss...</p></details>
 
-55. <a id="endnote-55"></a>
+55.<a id="endnote-55"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/abhishekratna_mckinseys-state-of-ai-in-2025-report-activity-7396010152161808384-7nK8" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/abhishekratna_mckinseys-state-of-ai-in-2025-report-activity-7396010152161808384-7nK8</a>  
+   Link:<a href="https://www.linkedin.com/posts/abhishekratna_mckinseys-state-of-ai-in-2025-report-activity-7396010152161808384-7nK8" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/abhishekratna_mckinseys-state-of-ai-in-2025-report-activity-7396010152161808384-7nK8</a>  
 
-56. <a id="endnote-56"></a>
+56.<a id="endnote-56"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40natishalom/95-of-ai-projects-fail-heres-why-that-s-a-good-thing-8a5936ebdea8" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40natishalom/95-of-ai-projects-fail-heres-why-that-s-a-good-thing-8a5936ebdea8</a>  
+   Link:<a href="https://medium.com/%40natishalom/95-of-ai-projects-fail-heres-why-that-s-a-good-thing-8a5936ebdea8" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40natishalom/95-of-ai-projects-fail-heres-why-that-s-a-good-thing-8a5936ebdea8</a>  
 
-57. <a id="endnote-57"></a>
+57.<a id="endnote-57"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/agi/comments/1mvg6pp/mit_report_95_of_generative_ai_pilots_at/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/agi/comments/1mvg6pp/mit_report_95_of_generative_ai_pilots_at/</a>  
+   Link:<a href="https://www.reddit.com/r/agi/comments/1mvg6pp/mit_report_95_of_generative_ai_pilots_at/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/agi/comments/1mvg6pp/mit_report_95_of_generative_ai_pilots_at/</a>  
 
-58. <a id="endnote-58"></a>
+58.<a id="endnote-58"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/raghavananand_mit-report-95-of-generative-ai-pilots-at-activity-7363268574611722240-FlkB" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/raghavananand_mit-report-95-of-generative-ai-pilots-at-activity-7363268574611722240-FlkB</a>  
+   Link:<a href="https://www.linkedin.com/posts/raghavananand_mit-report-95-of-generative-ai-pilots-at-activity-7363268574611722240-FlkB" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/raghavananand_mit-report-95-of-generative-ai-pilots-at-activity-7363268574611722240-FlkB</a>  
 
-59. <a id="endnote-59"></a>
+59.<a id="endnote-59"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/McKinsey/posts/ai-is-everywhere-but-most-companies-are-still-stuck-in-pilot-modethe-issue-isnt-/1479023967026955/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/McKinsey/posts/ai-is-everywhere-but-most-companies-are-still-stuck-in-pilot-modethe-issue-isnt-/1479023967026955/</a>  
+   Link:<a href="https://www.facebook.com/McKinsey/posts/ai-is-everywhere-but-most-companies-are-still-stuck-in-pilot-modethe-issue-isnt-/1479023967026955/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/McKinsey/posts/ai-is-everywhere-but-most-companies-are-still-stuck-in-pilot-modethe-issue-isnt-/1479023967026955/</a>  
 
-60. <a id="endnote-60"></a>
+60.<a id="endnote-60"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/christopher-martin-bcg_the-widening-ai-value-gap-activity-7379504659876724736-P42S" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/christopher-martin-bcg_the-widening-ai-value-gap-activity-7379504659876724736-P42S</a>  
+   Link:<a href="https://www.linkedin.com/posts/christopher-martin-bcg_the-widening-ai-value-gap-activity-7379504659876724736-P42S" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/christopher-martin-bcg_the-widening-ai-value-gap-activity-7379504659876724736-P42S</a>  
 
-61. <a id="endnote-61"></a>
+61.<a id="endnote-61"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/benjamin-rehberg_the-widening-ai-value-gap-activity-7379155605183287296-imzC" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/benjamin-rehberg_the-widening-ai-value-gap-activity-7379155605183287296-imzC</a>  
+   Link:<a href="https://www.linkedin.com/posts/benjamin-rehberg_the-widening-ai-value-gap-activity-7379155605183287296-imzC" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/benjamin-rehberg_the-widening-ai-value-gap-activity-7379155605183287296-imzC</a>  

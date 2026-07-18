@@ -294,7 +294,7 @@ image: /assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a
 
 ## Introduction
 
-Modern chatbots often feel intelligent because conversation is one of the main ways humans judge minds. Long before large [language models]({{ 'language-models/' | relative_url }}), two influential ideas—the ELIZA chatbot and the Turing test—showed that people can mistake convincing conversation for deeper [understanding]({{ 'understanding/' | relative_url }}). Together, they reveal a central challenge in understanding artificial intelligence: a system may sound human, appear empathetic, or even fool people in brief exchanges without possessing human-like comprehension. The lesson is not that chatbots are useless or deceptive by definition, but that conversational fluency and genuine understanding are not the same thing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
+Modern chatbots often feel intelligent because conversation is one of the main ways humans judge minds. Long before large [language models]({{ 'language-models/' | relative_url }}), two influential ideas—the ELIZA chatbot and the Turing test—showed that people can mistake convincing conversation for deeper [understanding]({{ 'understanding/' | relative_url }}). Together, they reveal a central challenge in understanding artificial intelligence: a system may sound human, appear empathetic, or even fool people in brief exchanges without possessing human-like comprehension. The lesson is not that chatbots are useless or deceptive by definition, but that conversational fluency and genuine understanding are not the same thing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7-Illustration-1-dark.svg" | relative_url }}" alt="ELIZA effect illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -302,26 +302,26 @@ Modern chatbots often feel intelligent because conversation is one of the main w
 
 ### What ELIZA showed about human expectations
 
-In 1966, computer scientist Joseph Weizenbaum created ELIZA, a simple conversational program that became famous for imitating a psychotherapist. Rather than understanding users' problems, ELIZA mainly detected keywords and transformed statements into questions or reflective responses. For example, if a user mentioned feeling unhappy, ELIZA might reply by asking why they felt unhappy. The illusion of understanding came from conversational technique rather than deep knowledge. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
+In 1966, computer scientist Joseph Weizenbaum created ELIZA, a simple conversational program that became famous for imitating a psychotherapist. Rather than understanding users' problems, ELIZA mainly detected keywords and transformed statements into questions or reflective responses. For example, if a user mentioned feeling unhappy, ELIZA might reply by asking why they felt unhappy. The illusion of understanding came from conversational technique rather than deep knowledge.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
 
-What surprised Weizenbaum was not the program itself but people's reactions to it. Many users quickly attributed empathy, insight, and genuine understanding to a system that possessed none of those qualities. Some wanted private conversations with the program, despite knowing it was software. Weizenbaum later reflected that even brief exposure to a simple program could trigger powerful misconceptions about machine understanding. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Weizenbaum Institut]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
+What surprised Weizenbaum was not the program itself but people's reactions to it. Many users quickly attributed empathy, insight, and genuine understanding to a system that possessed none of those qualities. Some wanted private conversations with the program, despite knowing it was software. Weizenbaum later reflected that even brief exposure to a simple program could trigger powerful misconceptions about machine understanding.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Weizenbaum Institut]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
 
-This tendency became known as the **ELIZA effect**: the human habit of reading more intelligence, comprehension, or emotional awareness into computer-generated language than the evidence justifies. Researchers continue to use the term because it captures a recurring pattern that extends far beyond the original chatbot. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
+This tendency became known as the **ELIZA effect**: the human habit of reading more intelligence, comprehension, or emotional awareness into computer-generated language than the evidence justifies. Researchers continue to use the term because it captures a recurring pattern that extends far beyond the original chatbot.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
 
-The importance of ELIZA is therefore not primarily technical. Modern chatbots are vastly more capable than ELIZA. The enduring lesson is psychological: humans are predisposed to treat coherent language and social responsiveness as signs of an inner mind. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://link.springer.com/article/10.1007/s00146-023-01793-z" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: link.springer.com">[Springer Link]</a><span class="citation-popover" role="note"><span class="citation-popover-source">link.springer.com</span><span class="citation-popover-snippet">Springer Linkmaking sense of human–computer interaction—Garfinkel&#x27;s...by C Eisenmann · 2024 · Cited by 47 — Although the ELIZA effect ha...</span></span></span>
+The importance of ELIZA is therefore not primarily technical. Modern chatbots are vastly more capable than ELIZA. The enduring lesson is psychological: humans are predisposed to treat coherent language and social responsiveness as signs of an inner mind.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://link.springer.com/article/10.1007/s00146-023-01793-z" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: link.springer.com">[Springer Link]</a><span class="citation-popover" role="note"><span class="citation-popover-source">link.springer.com</span><span class="citation-popover-snippet">Springer Linkmaking sense of human–computer interaction—Garfinkel&#x27;s...by C Eisenmann · 2024 · Cited by 47 — Although the ELIZA effect ha...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/GxSJQnWzJOs" title="The Chatbot Inventor’s Cautionary Alert (1978)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=GxSJQnWzJOs" target="_blank" rel="noopener noreferrer">The Chatbot Inventor’s Cautionary Alert (1978)</a></p><p class="youtube-embed-meta">Channel: GBH Archives</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=GxSJQnWzJOs" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=GxSJQnWzJOs">Open on YouTube</a></p></div></div></div>
 
 ### What short Turing-style chats can and cannot test
 
-The second influential idea comes from Alan Turing's 1950 proposal for what became known as the Turing test. In its classic form, a human judge communicates through text with both a human and a machine. If the judge cannot reliably tell which is which, the machine has succeeded in the test. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Turing test</span><span class="citation-popover-snippet">Turing test</span></span></span>
+The second influential idea comes from Alan Turing's 1950 proposal for what became known as the Turing test. In its classic form, a human judge communicates through text with both a human and a machine. If the judge cannot reliably tell which is which, the machine has succeeded in the test.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Turing test</span><span class="citation-popover-snippet">Turing test</span></span></span>
 
-The Turing test remains historically important because it shifted [attention]({{ 'attention/' | relative_url }}) away from abstract questions such as "Can machines think?" and toward observable behaviour. Instead of demanding access to a machine's internal processes, it asked whether the machine could participate in conversation in a human-like way. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Turing test</span><span class="citation-popover-snippet">Turing test</span></span></span>
+The Turing test remains historically important because it shifted [attention]({{ 'attention/' | relative_url }}) away from abstract questions such as "Can machines think?" and toward observable behaviour. Instead of demanding access to a machine's internal processes, it asked whether the machine could participate in conversation in a human-like way.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Turing test</span><span class="citation-popover-snippet">Turing test</span></span></span>
 
-Yet the test also has important limits. A machine can perform well by imitating conversational habits, social conventions, and even human mistakes. Passing a short conversation does not automatically demonstrate reasoning ability, self-awareness, long-term planning, or broad understanding of the world. Critics have long argued that the test measures human likeness in conversation more than intelligence itself. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Learning From Examples]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Turing test</span><span class="citation-popover-snippet">Turing test</span></span></span>
+Yet the test also has important limits. A machine can perform well by imitating conversational habits, social conventions, and even human mistakes. Passing a short conversation does not automatically demonstrate reasoning ability, self-awareness, long-term planning, or broad understanding of the world. Critics have long argued that the test measures human likeness in conversation more than intelligence itself.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Learning From Examples]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Turing test</span><span class="citation-popover-snippet">Turing test</span></span></span>
 
-Recent large language models have renewed these debates. Some modern systems have achieved impressive results in Turing-style evaluations, occasionally being mistaken for humans at high rates. However, researchers and commentators continue to caution that success in conversational imitation should not be confused with proof of general intelligence. Language competence is significant, but it is only one component of intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.psychologytoday.com/ca/blog/the-digital-self/202405/ais-turing-test-moment" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: psychologytoday.com">[Psychology Today+2The Week]</a><span class="citation-popover" role="note"><span class="citation-popover-source">psychologytoday.com</span><span class="citation-popover-title">Psychology Today AI&#x27;s Turing Test Moment</span><span class="citation-popover-snippet">Psychology TodayAI&#x27;s Turing Test MomentMay 17, 2024 — GPT-4&#x27;s Turing test performance suggests that AI language models are evolving faste...</span><span class="citation-popover-meta">Published: May 17, 2024</span></span></span>
+Recent large language models have renewed these debates. Some modern systems have achieved impressive results in Turing-style evaluations, occasionally being mistaken for humans at high rates. However, researchers and commentators continue to caution that success in conversational imitation should not be confused with proof of general intelligence. Language competence is significant, but it is only one component of intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.psychologytoday.com/ca/blog/the-digital-self/202405/ais-turing-test-moment" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: psychologytoday.com">[Psychology Today+2The Week]</a><span class="citation-popover" role="note"><span class="citation-popover-source">psychologytoday.com</span><span class="citation-popover-title">Psychology Today AI&#x27;s Turing Test Moment</span><span class="citation-popover-snippet">Psychology TodayAI&#x27;s Turing Test MomentMay 17, 2024 — GPT-4&#x27;s Turing test performance suggests that AI language models are evolving faste...</span><span class="citation-popover-meta">Published: May 17, 2024</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7-Illustration-2-dark.svg" | relative_url }}" alt="ELIZA effect illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -337,11 +337,11 @@ People do not evaluate intelligence solely through logic or factual accuracy. Th
 * Humour, emotion, and storytelling.
 * Signals of [confidence]({{ 'confidence/' | relative_url }}) and social awareness.
 
-When a chatbot displays these behaviours, users often infer understanding even when the system is relying on statistical patterns or scripted responses. The impression of intelligence emerges partly from the machine's output and partly from the user's interpretation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Springer Link]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
+When a chatbot displays these behaviours, users often infer understanding even when the system is relying on statistical patterns or scripted responses. The impression of intelligence emerges partly from the machine's output and partly from the user's interpretation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Springer Link]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">ELIZA effect</span><span class="citation-popover-snippet">ELIZA effect</span></span></span>
 
-This helps explain why conversational systems can be simultaneously impressive and misleading. A chatbot may produce helpful explanations, answer questions effectively, and maintain a coherent dialogue while still lacking the kind of [grounded]({{ 'rag-errors/' | relative_url }}) understanding people naturally assume is present. The more human-like the interaction becomes, the easier it is to overlook that distinction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8704682/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-title">PMCConversational Agents: Goals, Technologies, Vision</span><span class="citation-popover-snippet">by M Allouch · 2021 · Cited by 257 — The two main abilities required of CAs are the ability to logically understand the user&#x27;s utteran...</span></span></span>
+This helps explain why conversational systems can be simultaneously impressive and misleading. A chatbot may produce helpful explanations, answer questions effectively, and maintain a coherent dialogue while still lacking the kind of [grounded]({{ 'rag-errors/' | relative_url }}) understanding people naturally assume is present. The more human-like the interaction becomes, the easier it is to overlook that distinction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8704682/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-title">PMCConversational Agents: Goals, Technologies, Vision</span><span class="citation-popover-snippet">by M Allouch · 2021 · Cited by 257 — The two main abilities required of CAs are the ability to logically understand the user&#x27;s utteran...</span></span></span>
 
-The phenomenon has practical consequences. Researchers, ethicists, and policymakers increasingly discuss how emotionally persuasive chatbots can encourage trust, attachment, or [overconfidence]({{ 'overconfidence/' | relative_url }}) in their advice. These concerns are modern versions of the same pattern first observed with ELIZA nearly sixty years ago. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ft.com/content/686eaf73-a574-47db-afcb-7989d66783f5" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ft.com">[Financial Times+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ft.com</span><span class="citation-popover-title">Financial Times AI companions are not your child&#x27;s friend</span><span class="citation-popover-snippet">It traces the history of our emotional connection to AI, stemming from the 1960s &quot;Eliza effect,&quot; and highlights how modern AI chatbots’ i...</span></span></span>
+The phenomenon has practical consequences. Researchers, ethicists, and policymakers increasingly discuss how emotionally persuasive chatbots can encourage trust, attachment, or [overconfidence]({{ 'overconfidence/' | relative_url }}) in their advice. These concerns are modern versions of the same pattern first observed with ELIZA nearly sixty years ago.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ft.com/content/686eaf73-a574-47db-afcb-7989d66783f5" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ft.com">[Financial Times+2TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ft.com</span><span class="citation-popover-title">Financial Times AI companions are not your child&#x27;s friend</span><span class="citation-popover-snippet">It traces the history of our emotional connection to AI, stemming from the 1960s &quot;Eliza effect,&quot; and highlights how modern AI chatbots’ i...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/ZdNbEU0RUnw" title="The AI Empathy Trap - The ELIZA Effect" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=ZdNbEU0RUnw" target="_blank" rel="noopener noreferrer">The AI Empathy Trap - The ELIZA Effect</a></p><p class="youtube-embed-meta">Channel: Philosophy In Review</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=ZdNbEU0RUnw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=ZdNbEU0RUnw">Open on YouTube</a></p></div></div></div>
@@ -351,186 +351,186 @@ The phenomenon has practical consequences. Researchers, ethicists, and policymak
 
 ## The lasting lesson for understanding AI
 
-ELIZA and the Turing test remain valuable because they expose a gap between appearance and capability. ELIZA showed that people readily project understanding onto conversational software. The Turing test demonstrated that human-like dialogue can be a [meaningful]({{ 'human-review/' | relative_url }}) benchmark while also raising questions about what such performance actually proves. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
+ELIZA and the Turing test remain valuable because they expose a gap between appearance and capability. ELIZA showed that people readily project understanding onto conversational software. The Turing test demonstrated that human-like dialogue can be a [meaningful]({{ 'human-review/' | relative_url }}) benchmark while also raising questions about what such performance actually proves.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-snippet">Open source on wikipedia.org.</span></span></span>
 
-For understanding artificial intelligence, the combined lesson is straightforward: conversation can reveal important capabilities, but it is not a complete measure of intelligence. A chatbot that sounds human may possess remarkable language skills, yet the critical question is not whether it feels intelligent for a few minutes. The deeper question is what it truly understands, what it can reliably do, and where its apparent competence breaks down. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.psychologytoday.com/ca/blog/the-digital-self/202405/ais-turing-test-moment" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: psychologytoday.com">[Psychology Today+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">psychologytoday.com</span><span class="citation-popover-title">Psychology Today AI&#x27;s Turing Test Moment</span><span class="citation-popover-snippet">Psychology TodayAI&#x27;s Turing Test MomentMay 17, 2024 — GPT-4&#x27;s Turing test performance suggests that AI language models are evolving faste...</span><span class="citation-popover-meta">Published: May 17, 2024</span></span></span>
+For understanding artificial intelligence, the combined lesson is straightforward: conversation can reveal important capabilities, but it is not a complete measure of intelligence. A chatbot that sounds human may possess remarkable language skills, yet the critical question is not whether it feels intelligent for a few minutes. The deeper question is what it truly understands, what it can reliably do, and where its apparent competence breaks down.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.psychologytoday.com/ca/blog/the-digital-self/202405/ais-turing-test-moment" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: psychologytoday.com">[Psychology Today+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">psychologytoday.com</span><span class="citation-popover-title">Psychology Today AI&#x27;s Turing Test Moment</span><span class="citation-popover-snippet">Psychology TodayAI&#x27;s Turing Test MomentMay 17, 2024 — GPT-4&#x27;s Turing test performance suggests that AI language models are evolving faste...</span><span class="citation-popover-meta">Published: May 17, 2024</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7-Illustration-3-dark.svg" | relative_url }}" alt="ELIZA effect illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_eliza_turing_f9a7e7-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why sounding human is not enough. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why sounding human is not enough. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Most Human Human on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nuxm2eDaHwcC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Most Human Human" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Most Human Human">The Most Human Human</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Most Human Human on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nuxm2eDaHwcC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Most Human Human" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Most Human Human">The Most Human Human</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explores what conversational success can and cannot prove.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores what conversational success can and cannot prove.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Most+Human+Human+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Computer Power and Human Reason on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1jB8QgAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Computer Power and Human Reason" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Computer Power and Human Reason">Computer Power and Human Reason</a>
-        </h4>
-        <p class="fr-book-author">By Joseph Weizenbaum</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Computer Power and Human Reason on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1jB8QgAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Computer Power and Human Reason" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Computer Power and Human Reason">Computer Power and Human Reason</a>
+</h4>
+<p class="fr-book-author">By Joseph Weizenbaum</p>
         
-        <p class="fr-book-desc">Directly reflects on ELIZA and misconceptions about machine understanding.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly reflects on ELIZA and misconceptions about machine understanding.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason+by+Joseph+Weizenbaum&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Godel, Escher, Bach on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=lic72KLZq-0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Godel, Escher, Bach" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Godel, Escher, Bach">Godel, Escher, Bach</a>
-        </h4>
-        <p class="fr-book-author">By Douglas R. Hofstadter</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Godel, Escher, Bach on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=lic72KLZq-0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Godel, Escher, Bach" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Godel, Escher, Bach">Godel, Escher, Bach</a>
+</h4>
+<p class="fr-book-author">By Douglas R. Hofstadter</p>
         
-        <p class="fr-book-desc">Investigates intelligence, symbols, and mind-like behavior.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Investigates intelligence, symbols, and mind-like behavior.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach+by+Douglas+R.+Hofstadter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Provides context for judging intelligence beyond conversation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for judging intelligence beyond conversation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Most+Human+Human&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Most Human Human</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Computer Power and Human Reason</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Godel, Escher, Bach</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Most+Human+Human&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Most Human Human</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Computer+Power+and+Human+Reason&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Computer Power and Human Reason</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Godel%2C+Escher%2C+Bach&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Godel, Escher, Bach</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an..."><img src="{{ '/assets/images/marketplace-covers/ebfb234fb4391926139c.jpg' | relative_url }}" alt="Listing image for Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an..." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an...</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an..."><img src="{{ '/assets/images/marketplace-covers/ebfb234fb4391926139c.jpg' | relative_url }}" alt="Listing image for Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an..." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an...</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I fear human stupidity more than artificial intelligence - Black Glossy Mug"><img src="{{ '/assets/images/marketplace-covers/52595bd15c672bf8b55a.jpg' | relative_url }}" alt="Listing image for I fear human stupidity more than artificial intelligence - Black Glossy Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">I fear human stupidity more than artificial intelligence - Black Glossy Mug</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I fear human stupidity more than artificial intelligence - Black Glossy Mug"><img src="{{ '/assets/images/marketplace-covers/52595bd15c672bf8b55a.jpg' | relative_url }}" alt="Listing image for I fear human stupidity more than artificial intelligence - Black Glossy Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">I fear human stupidity more than artificial intelligence - Black Glossy Mug</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED"><img src="{{ '/assets/images/marketplace-covers/2587f03ea8b9b9b968c4.jpg' | relative_url }}" alt="Listing image for WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED"><img src="{{ '/assets/images/marketplace-covers/2587f03ea8b9b9b968c4.jpg' | relative_url }}" alt="Listing image for WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="eliza-effect-why-sounding-human-is-not-enough-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -546,7 +546,7 @@ For understanding artificial intelligence, the combined lesson is straightforwar
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -566,7 +566,7 @@ For understanding artificial intelligence, the combined lesson is straightforwar
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -598,7 +598,7 @@ For understanding artificial intelligence, the combined lesson is straightforwar
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -650,7 +650,7 @@ For understanding artificial intelligence, the combined lesson is straightforwar
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -695,7 +695,7 @@ For understanding artificial intelligence, the combined lesson is straightforwar
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -736,151 +736,151 @@ For understanding artificial intelligence, the combined lesson is straightforwar
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/ELIZA</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/ELIZA" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/ELIZA</a>  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: Wikipedia  
    Title: Turing test  
-   Link: <a href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Turing_test</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Turing_test" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Turing_test</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: Wikipedia  
    Title: ELIZA effect  
-   Link: <a href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/ELIZA_effect</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/ELIZA_effect" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/ELIZA_effect</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: weizenbaum-institut.de  
-   Link: <a href="https://www.weizenbaum-institut.de/w-100/exhibition-eliza/" target="_blank" rel="noopener noreferrer nofollow">https://www.weizenbaum-institut.de/w-100/exhibition-eliza/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ELIZASome participants not only developed a close relationship with ELIZA but also attributed empathy to the program. Even some practicin...</p></details>
+   Link:<a href="https://www.weizenbaum-institut.de/w-100/exhibition-eliza/" target="_blank" rel="noopener noreferrer nofollow">https://www.weizenbaum-institut.de/w-100/exhibition-eliza/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ELIZASome participants not only developed a close relationship with ELIZA but also attributed empathy to the program. Even some practicin...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: ojs.weizenbaum-institut.de  
-   Link: <a href="https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/106/96" target="_blank" rel="noopener noreferrer nofollow">https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/106/96</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Limits of Computationby DM Berry · 2023 · Cited by 94 — By developing the program ELIZA and the DOCTOR script, Weizenbaum revealed that c...</p></details>
+   Link:<a href="https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/106/96" target="_blank" rel="noopener noreferrer nofollow">https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/106/96</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Limits of Computationby DM Berry · 2023 · Cited by 94 — By developing the program ELIZA and the DOCTOR script, Weizenbaum revealed that c...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: link.springer.com  
-   Link: <a href="https://link.springer.com/article/10.1007/s00146-023-01793-z" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/article/10.1007/s00146-023-01793-z</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Springer Linkmaking sense of human–computer interaction—Garfinkel&#x27;s...by C Eisenmann · 2024 · Cited by 47 — Although the ELIZA effect ha...</p></details>
+   Link:<a href="https://link.springer.com/article/10.1007/s00146-023-01793-z" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/article/10.1007/s00146-023-01793-z</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Springer Linkmaking sense of human–computer interaction—Garfinkel&#x27;s...by C Eisenmann · 2024 · Cited by 47 — Although the ELIZA effect ha...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMCConversational Agents: Goals, Technologies, Vision  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8704682/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8704682/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>by M Allouch · 2021 · Cited by 257 — The two main abilities required of CAs are the ability to logically understand the user&#x27;s utteran...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8704682/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8704682/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by M Allouch · 2021 · Cited by 257 — The two main abilities required of CAs are the ability to logically understand the user&#x27;s utteran...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: techradar.com  
    Title: Tech Radar I looked into how AI chatbots respond to emotions  
-   Link: <a href="https://www.techradar.com/ai-platforms-assistants/i-looked-into-how-ai-chatbots-respond-to-emotions-and-what-i-found-out-about-the-eliza-effect-completely-changed-how-i-think-about-using-them" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/ai-platforms-assistants/i-looked-into-how-ai-chatbots-respond-to-emotions-and-what-i-found-out-about-the-eliza-effect-completely-changed-how-i-think-about-using-them</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Formerly, tech sought user attention; now, AI systems exploit emotional bonds through personalized, empathetic interactions. This is refe...</p></details>
+   Link:<a href="https://www.techradar.com/ai-platforms-assistants/i-looked-into-how-ai-chatbots-respond-to-emotions-and-what-i-found-out-about-the-eliza-effect-completely-changed-how-i-think-about-using-them" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/ai-platforms-assistants/i-looked-into-how-ai-chatbots-respond-to-emotions-and-what-i-found-out-about-the-eliza-effect-completely-changed-how-i-think-about-using-them</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Formerly, tech sought user attention; now, AI systems exploit emotional bonds through personalized, empathetic interactions. This is refe...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: ojs.weizenbaum-institut.de  
-   Link: <a href="https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/136/92" target="_blank" rel="noopener noreferrer nofollow">https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/136/92</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Joseph Weizenbaum to ChatGPTby C Floyd · 2023 · Cited by 16 — Weizenbaum, J. (1966). ELIZA – A computer program for the study of natural...</p></details>
+   Link:<a href="https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/136/92" target="_blank" rel="noopener noreferrer nofollow">https://ojs.weizenbaum-institut.de/index.php/wjds/article/view/136/92</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Joseph Weizenbaum to ChatGPTby C Floyd · 2023 · Cited by 16 — Weizenbaum, J. (1966). ELIZA – A computer program for the study of natural...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: jw.weizenbaum-institut.de  
    Title: de Die Wandlung zum Skeptiker  
-   Link: <a href="https://jw.weizenbaum-institut.de/wp03" target="_blank" rel="noopener noreferrer nofollow">https://jw.weizenbaum-institut.de/wp03</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mit Hilfe eines Skripts ermöglicht es eine Gesprächsinteraktion zwischen Mensch und...Read more...</p></details>
+   Link:<a href="https://jw.weizenbaum-institut.de/wp03" target="_blank" rel="noopener noreferrer nofollow">https://jw.weizenbaum-institut.de/wp03</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mit Hilfe eines Skripts ermöglicht es eine Gesprächsinteraktion zwischen Mensch und...Read more...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: eliza.com  
    Title: Chat GPT Enterprise & Agentic Systems  
-   Link: <a href="https://eliza.com/" target="_blank" rel="noopener noreferrer nofollow">https://eliza.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise AI Consulting &amp; Implementation | OpenAI...Eliza embeds forward deployed engineers into your organization, builds prod...</p></details>
+   Link:<a href="https://eliza.com/" target="_blank" rel="noopener noreferrer nofollow">https://eliza.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise AI Consulting &amp; Implementation | OpenAI...Eliza embeds forward deployed engineers into your organization, builds prod...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: learningfromexamples.com  
-   Link: <a href="https://www.learningfromexamples.com/p/the-turing-test-doesnt-measure-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.learningfromexamples.com/p/the-turing-test-doesnt-measure-intelligence</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Learning From ExamplesThe Turing test doesn&#x27;t measure intelligenceJul 24, 2025 — The test wasn&#x27;t designed to answer the question of wheth...</p></details>
+   Link:<a href="https://www.learningfromexamples.com/p/the-turing-test-doesnt-measure-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.learningfromexamples.com/p/the-turing-test-doesnt-measure-intelligence</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Learning From ExamplesThe Turing test doesn&#x27;t measure intelligenceJul 24, 2025 — The test wasn&#x27;t designed to answer the question of wheth...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: psychologytoday.com  
    Title: Psychology Today AI's Turing Test Moment  
-   Link: <a href="https://www.psychologytoday.com/ca/blog/the-digital-self/202405/ais-turing-test-moment" target="_blank" rel="noopener noreferrer nofollow">https://www.psychologytoday.com/ca/blog/the-digital-self/202405/ais-turing-test-moment</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Psychology TodayAI&#x27;s Turing Test MomentMay 17, 2024 — GPT-4&#x27;s Turing test performance suggests that AI language models are evolving faste...</p></details>
+   Link:<a href="https://www.psychologytoday.com/ca/blog/the-digital-self/202405/ais-turing-test-moment" target="_blank" rel="noopener noreferrer nofollow">https://www.psychologytoday.com/ca/blog/the-digital-self/202405/ais-turing-test-moment</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Psychology TodayAI&#x27;s Turing Test MomentMay 17, 2024 — GPT-4&#x27;s Turing test performance suggests that AI language models are evolving faste...</p></details>
    Published: May 17, 2024  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: theweek.com  
    Title: ai llms pass turing test  
-   Link: <a href="https://theweek.com/tech/ai-llms-pass-turing-test" target="_blank" rel="noopener noreferrer nofollow">https://theweek.com/tech/ai-llms-pass-turing-test</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>In evaluations, GPT-4.5 was mistaken for a human 73% of the time, while Llama-3.1-405B achieved a 56% rate, both significantly outperform...</p></details>
+   Link:<a href="https://theweek.com/tech/ai-llms-pass-turing-test" target="_blank" rel="noopener noreferrer nofollow">https://theweek.com/tech/ai-llms-pass-turing-test</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>In evaluations, GPT-4.5 was mistaken for a human 73% of the time, while Llama-3.1-405B achieved a 56% rate, both significantly outperform...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: ft.com  
    Title: Financial Times AI companions are not your child's friend  
-   Link: <a href="https://www.ft.com/content/686eaf73-a574-47db-afcb-7989d66783f5" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/686eaf73-a574-47db-afcb-7989d66783f5</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It traces the history of our emotional connection to AI, stemming from the 1960s &quot;Eliza effect,&quot; and highlights how modern AI chatbots’ i...</p></details>
+   Link:<a href="https://www.ft.com/content/686eaf73-a574-47db-afcb-7989d66783f5" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/686eaf73-a574-47db-afcb-7989d66783f5</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It traces the history of our emotional connection to AI, stemming from the 1960s &quot;Eliza effect,&quot; and highlights how modern AI chatbots’ i...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4867147/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC4867147/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>the Turing Test Does Not Mean the End of Humanityby K Warwick · 2015 · Cited by 46 — Passing the Turing test has no relationship with hum...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4867147/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC4867147/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>the Turing Test Does Not Mean the End of Humanityby K Warwick · 2015 · Cited by 46 — Passing the Turing test has no relationship with hum...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10907317/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10907317/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>We find that the chatbots&#x27;...Read m...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10907317/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10907317/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We find that the chatbots&#x27;...Read m...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: elizalovechild.com  
-   Link: <a href="https://www.elizalovechild.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.elizalovechild.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Official WebsiteThe latest music, videos, and merch from Eliza...</p></details>
+   Link:<a href="https://www.elizalovechild.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.elizalovechild.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Official WebsiteThe latest music, videos, and merch from Eliza...</p></details>
 
 ### Additional References
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2406.17650v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2406.17650v2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ELIZA Reinterpreted: The world&#x27;s first chatbot was not...ELIZA was intended to simulate—or caricature, as Weizenbaum himself suggests—th...</p></details>
+   Link:<a href="https://arxiv.org/html/2406.17650v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2406.17650v2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ELIZA Reinterpreted: The world&#x27;s first chatbot was not...ELIZA was intended to simulate—or caricature, as Weizenbaum himself suggests—th...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40adnanmasood/closing-the-eval-deployment-gap-in-ai-systems-discrepancy-between-benchmark-performance-and-d27c33361b93" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/closing-the-eval-deployment-gap-in-ai-systems-discrepancy-between-benchmark-performance-and-d27c33361b93</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Closing the Eval–Deployment Gap in AI SystemsThere&#x27;s also a need for theory on evaluating general intelligence or agency — something like...</p></details>
+   Link:<a href="https://medium.com/%40adnanmasood/closing-the-eval-deployment-gap-in-ai-systems-discrepancy-between-benchmark-performance-and-d27c33361b93" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/closing-the-eval-deployment-gap-in-ai-systems-discrepancy-between-benchmark-performance-and-d27c33361b93</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Closing the Eval–Deployment Gap in AI SystemsThere&#x27;s also a need for theory on evaluating general intelligence or agency — something like...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: spacedaily.com  
-   Link: <a href="https://spacedaily.com/n-sixty-years-before-chatgpt-a-chatbot-called-eliza-was-already-making-people-pour-their-secrets-into-a-computer-and-its-creator-considered-that-a-catastrophe-not-a-success/" target="_blank" rel="noopener noreferrer nofollow">https://spacedaily.com/n-sixty-years-before-chatgpt-a-chatbot-called-eliza-was-already-making-people-pour-their-secrets-into-a-computer-and-its-creator-considered-that-a-catastrophe-not-a-success/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Sixty years before ChatGPT, a chatbot called ELIZA was...2 days ago — Sixty years before ChatGPT, a chatbot called ELIZA was already mak...</p></details>
+   Link:<a href="https://spacedaily.com/n-sixty-years-before-chatgpt-a-chatbot-called-eliza-was-already-making-people-pour-their-secrets-into-a-computer-and-its-creator-considered-that-a-catastrophe-not-a-success/" target="_blank" rel="noopener noreferrer nofollow">https://spacedaily.com/n-sixty-years-before-chatgpt-a-chatbot-called-eliza-was-already-making-people-pour-their-secrets-into-a-computer-and-its-creator-considered-that-a-catastrophe-not-a-success/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Sixty years before ChatGPT, a chatbot called ELIZA was...2 days ago — Sixty years before ChatGPT, a chatbot called ELIZA was already mak...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: botpress.com  
-   Link: <a href="https://botpress.com/blog/turing-test" target="_blank" rel="noopener noreferrer nofollow">https://botpress.com/blog/turing-test</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Turing TestThe Turing Test is an AI test to see whether, through a chat conversation, a computer can convince a human that it is human.Re...</p></details>
+   Link:<a href="https://botpress.com/blog/turing-test" target="_blank" rel="noopener noreferrer nofollow">https://botpress.com/blog/turing-test</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Turing TestThe Turing Test is an AI test to see whether, through a chat conversation, a computer can convince a human that it is human.Re...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40metaform3d/chat-gpt-does-not-pass-the-turing-test-5299bfb4a9f0" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40metaform3d/chat-gpt-does-not-pass-the-turing-test-5299bfb4a9f0</a>  
+   Link:<a href="https://medium.com/%40metaform3d/chat-gpt-does-not-pass-the-turing-test-5299bfb4a9f0" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40metaform3d/chat-gpt-does-not-pass-the-turing-test-5299bfb4a9f0</a>  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/top-content/user-experience/user-experience-and-emotional-[engagement" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/user-experience/user-experience-and-emotional-[engagement</a>  
+   Link:<a href="https://www.linkedin.com/top-content/user-experience/user-experience-and-emotional-[engagement" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/top-content/user-experience/user-experience-and-emotional-[engagement</a>  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/technology/2023/jul/25/joseph-weizenbaum-inventor-eliza-chatbot-turned-against-artificial-intelligence-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2023/jul/25/joseph-weizenbaum-inventor-eliza-chatbot-turned-against-artificial-intelligence-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The GuardianWeizenbaum&#x27;s nightmares: how the inventor of the first...25 Jul 2023 — Weizenbaum had stumbled across the computerised versi...</p></details>
+   Link:<a href="https://www.theguardian.com/technology/2023/jul/25/joseph-weizenbaum-inventor-eliza-chatbot-turned-against-artificial-intelligence-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2023/jul/25/joseph-weizenbaum-inventor-eliza-chatbot-turned-against-artificial-intelligence-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The GuardianWeizenbaum&#x27;s nightmares: how the inventor of the first...25 Jul 2023 — Weizenbaum had stumbled across the computerised versi...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: spectrum.ieee.org  
    Title: why people demanded privacy to confide in the worlds first chatbot  
-   Link: <a href="https://spectrum.ieee.org/why-people-demanded-privacy-to-confide-in-the-worlds-first-chatbot" target="_blank" rel="noopener noreferrer nofollow">https://spectrum.ieee.org/why-people-demanded-privacy-to-confide-in-the-worlds-first-chatbot</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>People Demanded Privacy to Confide in the World&#x27;s...Weizenbaum called this the Eliza effect, and believed it was a type of “delusional t...</p></details>
+   Link:<a href="https://spectrum.ieee.org/why-people-demanded-privacy-to-confide-in-the-worlds-first-chatbot" target="_blank" rel="noopener noreferrer nofollow">https://spectrum.ieee.org/why-people-demanded-privacy-to-confide-in-the-worlds-first-chatbot</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>People Demanded Privacy to Confide in the World&#x27;s...Weizenbaum called this the Eliza effect, and believed it was a type of “delusional t...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: elizaos.ai  
-   Link: <a href="https://elizaos.ai/" target="_blank" rel="noopener noreferrer nofollow">https://elizaos.ai/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Home | ElizaThe next evolution of software — building systems that don&#x27;t just execute, they co-create. Join Community. AI Influencer. Cod...</p></details>
+   Link:<a href="https://elizaos.ai/" target="_blank" rel="noopener noreferrer nofollow">https://elizaos.ai/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Home | ElizaThe next evolution of software — building systems that don&#x27;t just execute, they co-create. Join Community. AI Influencer. Cod...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: medium.com  
    Title: eliza 1966 the first chatbot in history that fooled everyone b9d910c63919  
-   Link: <a href="https://medium.com/%40himash0009/eliza-1966-the-first-chatbot-in-history-that-fooled-everyone-b9d910c63919" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40himash0009/eliza-1966-the-first-chatbot-in-history-that-fooled-everyone-b9d910c63919</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What shocked Weizenbaum was how quickly people formed emotional connections with ELIZA. Users would pour...Read more...</p></details>
+   Link:<a href="https://medium.com/%40himash0009/eliza-1966-the-first-chatbot-in-history-that-fooled-everyone-b9d910c63919" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40himash0009/eliza-1966-the-first-chatbot-in-history-that-fooled-everyone-b9d910c63919</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What shocked Weizenbaum was how quickly people formed emotional connections with ELIZA. Users would pour...Read more...</p></details>

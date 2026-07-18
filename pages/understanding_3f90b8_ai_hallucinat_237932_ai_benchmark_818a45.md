@@ -298,7 +298,7 @@ AI [benchmarks]({{ 'benchmarks/' | relative_url }}) often show steady progress, 
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45-Illustration-1-dark.svg" | relative_url }}" alt="Benchmark gaps illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-A model can score highly on short factual questions, multiple-choice tasks or carefully curated datasets while still struggling when asked to analyse lengthy documents, reconcile conflicting evidence, track uncertainty or explain what it does not know. Reliability becomes much harder to measure once tasks involve incomplete information, ambiguous sources and long chains of factual claims. As a result, benchmark scores can create an overly optimistic picture of how dependable an AI system will be outside the testing environment. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+A model can score highly on short factual questions, multiple-choice tasks or carefully curated datasets while still struggling when asked to analyse lengthy documents, reconcile conflicting evidence, track uncertainty or explain what it does not know. Reliability becomes much harder to measure once tasks involve incomplete information, ambiguous sources and long chains of factual claims. As a result, benchmark scores can create an overly optimistic picture of how dependable an AI system will be outside the testing environment.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
 ## Why short tests understate real-world risk
 
@@ -317,9 +317,9 @@ In the real world, users often ask questions that involve:
 
 </div>
 
-Benchmarks based on short questions rarely capture these conditions. A model that correctly answers thousands of trivia-style questions may still fail when asked to produce a long report that contains dozens of factual claims. Each individual claim introduces another opportunity for error, and those errors can accumulate even when the overall answer sounds coherent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers?q=Factuality+evaluation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Daily Papers</span><span class="citation-popover-snippet">Hugging FaceDaily Papers - Hugging Face...</span></span></span>
+Benchmarks based on short questions rarely capture these conditions. A model that correctly answers thousands of trivia-style questions may still fail when asked to produce a long report that contains dozens of factual claims. Each individual claim introduces another opportunity for error, and those errors can accumulate even when the overall answer sounds coherent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers?q=Factuality+evaluation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Daily Papers</span><span class="citation-popover-snippet">Hugging FaceDaily Papers - Hugging Face...</span></span></span>
 
-Another problem is that benchmark datasets are often curated and cleaned. Real users do not operate in curated environments. They ask about niche organisations, local events, obscure people and specialised documents that may not appear in widely used training or evaluation sets. Research behind the WildHallucinations benchmark found substantially higher hallucination rates for entities lacking strong online [documentation]({{ 'paper-safety/' | relative_url }}), particularly those without dedicated Wikipedia pages. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers?q=Factuality+evaluation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Daily Papers</span><span class="citation-popover-snippet">Hugging FaceDaily Papers - Hugging Face...</span></span></span>
+Another problem is that benchmark datasets are often curated and cleaned. Real users do not operate in curated environments. They ask about niche organisations, local events, obscure people and specialised documents that may not appear in widely used training or evaluation sets. Research behind the WildHallucinations benchmark found substantially higher hallucination rates for entities lacking strong online [documentation]({{ 'paper-safety/' | relative_url }}), particularly those without dedicated Wikipedia pages.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers?q=Factuality+evaluation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Daily Papers</span><span class="citation-popover-snippet">Hugging FaceDaily Papers - Hugging Face...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/rB4pvsm2AkA" title="Why AI Benchmarks Are Lying to You - with Wenhu Chen (Meta/University of Waterloo)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=rB4pvsm2AkA" target="_blank" rel="noopener noreferrer">Why AI Benchmarks Are Lying to You - with Wenhu Chen (Meta/University of Waterloo)</a></p><p class="youtube-embed-meta">Channel: The Information Bottleneck</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=rB4pvsm2AkA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=rB4pvsm2AkA">Open on YouTube</a></p></div></div></div>
@@ -328,11 +328,11 @@ Another problem is that benchmark datasets are often curated and cleaned. Real u
 
 A less obvious issue is that many evaluation systems score only whether an answer is correct. They do not adequately distinguish between a model that guesses and a model that admits uncertainty.
 
-If a benchmark awards points only for correct answers, then [guessing]({{ 'guessing/' | relative_url }}) can sometimes improve scores. A model that invents an answer has a small chance of being right, whereas a model that says “I don't know” receives no credit. Over thousands of test questions, this can create incentives that favour confident guessing rather than calibrated uncertainty. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+If a benchmark awards points only for correct answers, then [guessing]({{ 'guessing/' | relative_url }}) can sometimes improve scores. A model that invents an answer has a small chance of being right, whereas a model that says “I don't know” receives no credit. Over thousands of test questions, this can create incentives that favour confident guessing rather than calibrated uncertainty.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
 This matters because users usually care more about avoiding false information than about receiving an answer at all. In many settings, an honest acknowledgement of uncertainty is safer and more useful than a fluent but incorrect response.
 
-Researchers and developers have increasingly argued that benchmark design should penalise confident errors more heavily and explicitly reward appropriate uncertainty. Otherwise, leaderboards may rank systems in ways that do not reflect real-world trustworthiness. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+Researchers and developers have increasingly argued that benchmark design should penalise confident errors more heavily and explicitly reward appropriate uncertainty. Otherwise, leaderboards may rank systems in ways that do not reflect real-world trustworthiness.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
 ## Long-form grounding and uncertainty problems
 
@@ -340,9 +340,9 @@ Researchers and developers have increasingly argued that benchmark design should
 
 Short-answer benchmarks typically evaluate one claim at a time. Real-world outputs are often much longer.
 
-Consider an AI-generated briefing, legal summary or research overview containing fifty factual statements. Even if the system is highly accurate on individual claims, the probability that at least one statement is wrong rises as more claims are introduced. A benchmark based on isolated questions may therefore underestimate the frequency of errors in long-form writing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai.meta.com/research/publications/factscore-fine-grained-atomic-evaluation-of-factual-precision-in-long-form-text-generation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.meta.com">[Meta AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.meta.com</span><span class="citation-popover-snippet">Meta AIFactScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation &#124; Research - AI at MetaNovember 17, 2023...</span><span class="citation-popover-meta">Published: November 17, 2023</span></span></span>
+Consider an AI-generated briefing, legal summary or research overview containing fifty factual statements. Even if the system is highly accurate on individual claims, the probability that at least one statement is wrong rises as more claims are introduced. A benchmark based on isolated questions may therefore underestimate the frequency of errors in long-form writing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai.meta.com/research/publications/factscore-fine-grained-atomic-evaluation-of-factual-precision-in-long-form-text-generation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.meta.com">[Meta AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.meta.com</span><span class="citation-popover-snippet">Meta AIFactScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation &#124; Research - AI at MetaNovember 17, 2023...</span><span class="citation-popover-meta">Published: November 17, 2023</span></span></span>
 
-This challenge has motivated the development of long-form factuality benchmarks such as LongFact and evaluation methods such as FACTSCORE and SAFE, which attempt to break long responses into individual factual assertions and verify them separately. These approaches emerged because traditional benchmark scores often failed to reveal how many unsupported claims were hidden inside apparently strong answers. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai.meta.com/research/publications/factscore-fine-grained-atomic-evaluation-of-factual-precision-in-long-form-text-generation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.meta.com">[Meta AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.meta.com</span><span class="citation-popover-snippet">Meta AIFactScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation &#124; Research - AI at MetaNovember 17, 2023...</span><span class="citation-popover-meta">Published: November 17, 2023</span></span></span>
+This challenge has motivated the development of long-form factuality benchmarks such as LongFact and evaluation methods such as FACTSCORE and SAFE, which attempt to break long responses into individual factual assertions and verify them separately. These approaches emerged because traditional benchmark scores often failed to reveal how many unsupported claims were hidden inside apparently strong answers.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai.meta.com/research/publications/factscore-fine-grained-atomic-evaluation-of-factual-precision-in-long-form-text-generation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai.meta.com">[Meta AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai.meta.com</span><span class="citation-popover-snippet">Meta AIFactScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation &#124; Research - AI at MetaNovember 17, 2023...</span><span class="citation-popover-meta">Published: November 17, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45-Illustration-2-dark.svg" | relative_url }}" alt="Benchmark gaps illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -358,7 +358,7 @@ Examples include:
 * Producing evidence-based reports.
 * Comparing multiple sources.
 
-In these situations, reliability depends not only on factual knowledge but also on accurately tracing claims back to evidence. Research on long-document summarisation has found that existing factuality metrics can become unstable when documents are lengthy, information-dense or require reasoning across multiple sections. Metrics that appear reliable on short summaries often become less dependable in [long-context]({{ 'long-context-cost/' | relative_url }}) settings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://researchprofiles.ku.dk/da/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchprofiles.ku.dk">[Københavns Universitets Forskningsportal]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchprofiles.ku.dk</span><span class="citation-popover-snippet">Københavns Universitets ForskningsportalStress Testing Factual Consistency Metrics for Long-Document Summarization - Københavns Universit...</span></span></span>
+In these situations, reliability depends not only on factual knowledge but also on accurately tracing claims back to evidence. Research on long-document summarisation has found that existing factuality metrics can become unstable when documents are lengthy, information-dense or require reasoning across multiple sections. Metrics that appear reliable on short summaries often become less dependable in [long-context]({{ 'long-context-cost/' | relative_url }}) settings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://researchprofiles.ku.dk/da/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchprofiles.ku.dk">[Københavns Universitets Forskningsportal]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchprofiles.ku.dk</span><span class="citation-popover-snippet">Københavns Universitets ForskningsportalStress Testing Factual Consistency Metrics for Long-Document Summarization - Københavns Universit...</span></span></span>
 
 This creates a measurement gap: benchmark performance may improve while the ability to stay faithfully grounded in source material remains difficult to verify.
 
@@ -371,7 +371,7 @@ Many real questions do not have a clean answer.
 
 A historical record may be incomplete. Two sources may conflict. A recent event may not yet be documented. A user may ask a question whose premises are mistaken.
 
-Humans often handle these situations by discussing evidence quality, explaining ambiguity or noting what remains unknown. Traditional benchmark scoring systems usually reduce the outcome to a binary right-or-wrong judgement. That simplification hides an important aspect of reliability: whether a model recognises the limits of its knowledge. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+Humans often handle these situations by discussing evidence quality, explaining ambiguity or noting what remains unknown. Traditional benchmark scoring systems usually reduce the outcome to a binary right-or-wrong judgement. That simplification hides an important aspect of reliability: whether a model recognises the limits of its knowledge.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/jjnqIsdOq9g" title="AI Benchmarks Are Lying To You (Here&#x27;s What Actually Matters)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=jjnqIsdOq9g" target="_blank" rel="noopener noreferrer">AI Benchmarks Are Lying To You (Here&#x27;s What Actually Matters)</a></p><p class="youtube-embed-meta">Channel: AI Clarified</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=jjnqIsdOq9g" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=jjnqIsdOq9g">Open on YouTube</a></p></div></div></div>
@@ -392,9 +392,9 @@ A stronger factuality assessment would measure several dimensions simultaneously
 
 **Long-form consistency.** The system should maintain factual accuracy across extended outputs rather than only short answers.
 
-**Behaviour under ambiguity.** Tests should examine whether a model identifies missing information, conflicting evidence and unresolved questions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[AI Models+3OpenAI+3Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+**Behaviour under ambiguity.** Tests should examine whether a model identifies missing information, conflicting evidence and unresolved questions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[AI Models+3OpenAI+3Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
-There is also growing interest in statistical approaches that quantify uncertainty in benchmark results themselves. NIST researchers have argued that more sophisticated evaluation methods can reveal hidden weaknesses in benchmark design and provide a more realistic picture of model capabilities than simple leaderboard scores. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2026/02/new-report-expanding-ai-evaluation-toolbox-statistical-models" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">New Report: Expanding the AI Evaluation Toolbox with Statistical Models &#124; NIST</span><span class="citation-popover-snippet">New Report: Expanding the AI Evaluation Toolbox with Statistical Models &#124; NIST...</span></span></span>
+There is also growing interest in statistical approaches that quantify uncertainty in benchmark results themselves. NIST researchers have argued that more sophisticated evaluation methods can reveal hidden weaknesses in benchmark design and provide a more realistic picture of model capabilities than simple leaderboard scores.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/news-events/news/2026/02/new-report-expanding-ai-evaluation-toolbox-statistical-models" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">New Report: Expanding the AI Evaluation Toolbox with Statistical Models &#124; NIST</span><span class="citation-popover-snippet">New Report: Expanding the AI Evaluation Toolbox with Statistical Models &#124; NIST...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45-Illustration-3-dark.svg" | relative_url }}" alt="Benchmark gaps illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -402,197 +402,197 @@ There is also growing interest in statistical approaches that quantify uncertain
 
 The key lesson is that benchmark success and real-world reliability are not the same thing. Many benchmarks were designed to measure whether a model can produce the correct answer under controlled conditions. Users, however, need systems that remain trustworthy when information is messy, evidence is incomplete and uncertainty matters.
 
-As AI systems become more capable, the most important reliability question is increasingly not whether they can answer standard benchmark questions. It is whether they can recognise the limits of their knowledge, remain grounded in evidence and avoid inventing information when the correct response is uncertain. Existing benchmarks capture part of that challenge, but they often miss the conditions under which unreliable answers cause the greatest practical harm. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+As AI systems become more capable, the most important reliability question is increasingly not whether they can answer standard benchmark questions. It is whether they can recognise the limits of their knowledge, remain grounded in evidence and avoid inventing information when the correct response is uncertain. Existing benchmarks capture part of that challenge, but they often miss the conditions under which unreliable answers cause the greatest practical harm.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to What AI benchmarks miss about reliability. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to What AI benchmarks miss about reliability. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Covers evaluation gaps between benchmarks and real-world behaviour.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers evaluation gaps between benchmarks and real-world behaviour.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Discusses reliability, uncertainty, and failure modes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses reliability, uncertainty, and failure modes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Explains why benchmark success does not equal robust intelligence.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why benchmark success does not equal robust intelligence.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Highlights practical evaluation and validation of AI outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Highlights practical evaluation and validation of AI outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL"><img src="{{ '/assets/images/marketplace-covers/d0683946fdfc9215b99f.jpg' | relative_url }}" alt="Listing image for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL"><img src="{{ '/assets/images/marketplace-covers/d0683946fdfc9215b99f.jpg' | relative_url }}" alt="Listing image for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt"><img src="{{ '/assets/images/marketplace-covers/5b6f0d8afbdc2e9cb4b7.jpg' | relative_url }}" alt="Listing image for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt"><img src="{{ '/assets/images/marketplace-covers/5b6f0d8afbdc2e9cb4b7.jpg' | relative_url }}" alt="Listing image for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/aa61fc90ec322633ed9b.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/aa61fc90ec322633ed9b.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top"><img src="{{ '/assets/images/marketplace-covers/415bfea6289a619ab1bb.jpg' | relative_url }}" alt="Listing image for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top"><img src="{{ '/assets/images/marketplace-covers/415bfea6289a619ab1bb.jpg' | relative_url }}" alt="Listing image for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="benchmark-gaps-what-ai-benchmarks-miss-about-reliability-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -608,7 +608,7 @@ As AI systems become more capable, the most important reliability question is in
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -628,7 +628,7 @@ As AI systems become more capable, the most important reliability question is in
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -660,7 +660,7 @@ As AI systems become more capable, the most important reliability question is in
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -712,7 +712,7 @@ As AI systems become more capable, the most important reliability question is in
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -757,7 +757,7 @@ As AI systems become more capable, the most important reliability question is in
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -798,135 +798,135 @@ As AI systems become more capable, the most important reliability question is in
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: OpenAI  
    Title: why [language models](&#123;&#123; 'language-models/' | relative_url &#125;&#125;) hallucinate  
-   Link: <a href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>September 5, 2025...</p></details>
+   Link:<a href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>September 5, 2025...</p></details>
    Published: September 5, 2025  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: nist.gov  
    Title: New Report: Expanding the AI Evaluation Toolbox with Statistical Models | NIST  
-   Link: <a href="https://www.nist.gov/news-events/news/2026/02/new-report-expanding-ai-evaluation-toolbox-statistical-models" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2026/02/new-report-expanding-ai-evaluation-toolbox-statistical-models</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>New Report: Expanding the AI Evaluation Toolbox with Statistical Models | NIST...</p></details>
+   Link:<a href="https://www.nist.gov/news-events/news/2026/02/new-report-expanding-ai-evaluation-toolbox-statistical-models" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2026/02/new-report-expanding-ai-evaluation-toolbox-statistical-models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>New Report: Expanding the AI Evaluation Toolbox with Statistical Models | NIST...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: reddit.com  
    Title: Open AI: Why Language Models Hallucinate  
-   Link: <a href="https://www.reddit.com/r/LocalLLaMA/comments/1na7c1b" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LocalLLaMA/comments/1na7c1b</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI: Why Language Models Hallucinate...</p></details>
+   Link:<a href="https://www.reddit.com/r/LocalLLaMA/comments/1na7c1b" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LocalLLaMA/comments/1na7c1b</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI: Why Language Models Hallucinate...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: reddit.com  
    Title: Do you know why Language Models Hallucinate?  
-   Link: <a href="https://www.reddit.com/r/LLM/comments/1nd9e2g/do_you_know_why_language_models_hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LLM/comments/1nd9e2g/do_you_know_why_language_models_hallucinate/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Do you know why Language Models Hallucinate?...</p></details>
+   Link:<a href="https://www.reddit.com/r/LLM/comments/1nd9e2g/do_you_know_why_language_models_hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LLM/comments/1nd9e2g/do_you_know_why_language_models_hallucinate/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Do you know why Language Models Hallucinate?...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: ai.meta.com  
-   Link: <a href="https://ai.meta.com/research/publications/factscore-fine-grained-atomic-evaluation-of-factual-precision-in-long-form-text-generation/" target="_blank" rel="noopener noreferrer nofollow">https://ai.meta.com/research/publications/factscore-fine-grained-atomic-evaluation-of-factual-precision-in-long-form-text-generation/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Meta AIFactScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation | Research - AI at MetaNovember 17, 2023...</p></details>
+   Link:<a href="https://ai.meta.com/research/publications/factscore-fine-grained-atomic-evaluation-of-factual-precision-in-long-form-text-generation/" target="_blank" rel="noopener noreferrer nofollow">https://ai.meta.com/research/publications/factscore-fine-grained-atomic-evaluation-of-factual-precision-in-long-form-text-generation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Meta AIFactScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation | Research - AI at MetaNovember 17, 2023...</p></details>
    Published: November 17, 2023  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/OpenAI/comments/1rxzv4j/the_fundamental_limitation_of_transformer_models/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/OpenAI/comments/1rxzv4j/the_fundamental_limitation_of_transformer_models/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Fundamental Limitation of Transformer Models Is Deeper Than “Hallucination”March 19, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/OpenAI/comments/1rxzv4j/the_fundamental_limitation_of_transformer_models/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/OpenAI/comments/1rxzv4j/the_fundamental_limitation_of_transformer_models/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fundamental Limitation of Transformer Models Is Deeper Than “Hallucination”March 19, 2026...</p></details>
    Published: March 19, 2026  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/1pobptw/d_what_are_the_most_commonly_cited_benchmarks_for/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1pobptw/d_what_are_the_most_commonly_cited_benchmarks_for/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>December 16, 2025...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/1pobptw/d_what_are_the_most_commonly_cited_benchmarks_for/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1pobptw/d_what_are_the_most_commonly_cited_benchmarks_for/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>December 16, 2025...</p></details>
    Published: December 16, 2025  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/OpenAI/comments/1k4bat9" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/OpenAI/comments/1k4bat9</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>April 21, 2025...</p></details>
+   Link:<a href="https://www.reddit.com/r/OpenAI/comments/1k4bat9" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/OpenAI/comments/1k4bat9</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>April 21, 2025...</p></details>
    Published: April 21, 2025  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: huggingface.co  
    Title: Hugging Face Daily Papers  
-   Link: <a href="https://huggingface.co/papers?q=Factuality+evaluation" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers?q=Factuality+evaluation</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceDaily Papers - Hugging Face...</p></details>
+   Link:<a href="https://huggingface.co/papers?q=Factuality+evaluation" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers?q=Factuality+evaluation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FaceDaily Papers - Hugging Face...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: aimodels.fyi  
-   Link: <a href="https://www.aimodels.fyi/papers/arxiv/long-form-factuality-large-language-models" target="_blank" rel="noopener noreferrer nofollow">https://www.aimodels.fyi/papers/arxiv/long-form-factuality-large-language-models</a>  
+   Link:<a href="https://www.aimodels.fyi/papers/arxiv/long-form-factuality-large-language-models" target="_blank" rel="noopener noreferrer nofollow">https://www.aimodels.fyi/papers/arxiv/long-form-factuality-large-language-models</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: huggingface.co  
    Title: Hugging Face Paper page  
-   Link: <a href="https://huggingface.co/papers/2509.04664" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2509.04664</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - Why Language Models Hallucinate...</p></details>
+   Link:<a href="https://huggingface.co/papers/2509.04664" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2509.04664</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - Why Language Models Hallucinate...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: researchprofiles.ku.dk  
-   Link: <a href="https://researchprofiles.ku.dk/da/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/" target="_blank" rel="noopener noreferrer nofollow">https://researchprofiles.ku.dk/da/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Københavns Universitets ForskningsportalStress Testing Factual Consistency Metrics for Long-Document Summarization - Københavns Universit...</p></details>
+   Link:<a href="https://researchprofiles.ku.dk/da/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/" target="_blank" rel="noopener noreferrer nofollow">https://researchprofiles.ku.dk/da/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Københavns Universitets ForskningsportalStress Testing Factual Consistency Metrics for Long-Document Summarization - Københavns Universit...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: aimodels.fyi  
-   Link: <a href="https://www.aimodels.fyi/papers/arxiv/ccfqa-benchmark-cross-lingual-cross-modal-speech" target="_blank" rel="noopener noreferrer nofollow">https://www.aimodels.fyi/papers/arxiv/ccfqa-benchmark-cross-lingual-cross-modal-speech</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>www.aimodels.fyiCCFQA: A Benchmark for Cross-Lingual and Cross-Modal Speech and Text Factuality Evaluation | AI Research Paper DetailsAug...</p></details>
+   Link:<a href="https://www.aimodels.fyi/papers/arxiv/ccfqa-benchmark-cross-lingual-cross-modal-speech" target="_blank" rel="noopener noreferrer nofollow">https://www.aimodels.fyi/papers/arxiv/ccfqa-benchmark-cross-lingual-cross-modal-speech</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>www.aimodels.fyiCCFQA: A Benchmark for Cross-Lingual and Cross-Modal Speech and Text Factuality Evaluation | AI Research Paper DetailsAug...</p></details>
 
 ### Additional References
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/technology/2025/nov/04/experts-find-flaws-hundreds-tests-check-ai-safety-effectiveness" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2025/nov/04/experts-find-flaws-hundreds-tests-check-ai-safety-effectiveness</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Importantly, only 16% of benchmarks used statistical testing to validate their accuracy. Ill-defined concepts like “harmlessness” further...</p></details>
+   Link:<a href="https://www.theguardian.com/technology/2025/nov/04/experts-find-flaws-hundreds-tests-check-ai-safety-effectiveness" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2025/nov/04/experts-find-flaws-hundreds-tests-check-ai-safety-effectiveness</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Importantly, only 16% of benchmarks used statistical testing to validate their accuracy. Ill-defined concepts like “harmlessness” further...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: copenlu.com  
-   Link: <a href="https://www.copenlu.com/publication/2026_acl_mujahid/" target="_blank" rel="noopener noreferrer nofollow">https://www.copenlu.com/publication/2026_acl_mujahid/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Stress Testing Factual Consistency Metrics for Long-Document Summarization | CopeNLU...</p></details>
+   Link:<a href="https://www.copenlu.com/publication/2026_acl_mujahid/" target="_blank" rel="noopener noreferrer nofollow">https://www.copenlu.com/publication/2026_acl_mujahid/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Stress Testing Factual Consistency Metrics for Long-Document Summarization | CopeNLU...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: aigovernance.com  
-   Link: <a href="https://aigovernance.com/entry/nist-ai-600-1-[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://aigovernance.com/entry/nist-ai-600-1-[generative-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI 600-1 Generative AI Profile — Framework Overview &amp; Compliance Guide | AI Governance InstituteJuly 26, 2024...</p></details>
+   Link:<a href="https://aigovernance.com/entry/nist-ai-600-1-[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://aigovernance.com/entry/nist-ai-600-1-[generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI 600-1 Generative AI Profile — Framework Overview &amp; Compliance Guide | AI Governance InstituteJuly 26, 2024...</p></details>
    Published: July 26, 2024  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: ainews.com  
-   Link: <a href="https://www.ainews.com/p/why-ai-language-models-hallucinate-openai-explains-the-challenge" target="_blank" rel="noopener noreferrer nofollow">https://www.ainews.com/p/why-ai-language-models-hallucinate-openai-explains-the-challenge</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Language Models Hallucinate: OpenAI Explains the ChallengeSeptember 8, 2025...</p></details>
+   Link:<a href="https://www.ainews.com/p/why-ai-language-models-hallucinate-openai-explains-the-challenge" target="_blank" rel="noopener noreferrer nofollow">https://www.ainews.com/p/why-ai-language-models-hallucinate-openai-explains-the-challenge</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Language Models Hallucinate: OpenAI Explains the ChallengeSeptember 8, 2025...</p></details>
    Published: September 8, 2025  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
    Title: The AI Hallucination Problem (Why It's Not Fixed)  
-   Link: <a href="https://www.youtube.com/watch?v=JTO05qkG_fo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JTO05qkG_fo</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Disincentivizing Hallucination - YouTube Disincentivizing Hallucination - YouTube...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=JTO05qkG_fo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JTO05qkG_fo</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Disincentivizing Hallucination - YouTube Disincentivizing Hallucination - YouTube...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: youtube.com  
    Title: AI Benchmarks Are Lying To You (Here's What Actually Matters)  
-   Link: <a href="https://www.youtube.com/watch?v=jjnqIsdOq9g" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=jjnqIsdOq9g</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating and Enhancing Language Model Factuality...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=jjnqIsdOq9g" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=jjnqIsdOq9g</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating and Enhancing Language Model Factuality...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: sciencestack.ai  
-   Link: <a href="https://www.sciencestack.ai/paper/2407.17468" target="_blank" rel="noopener noreferrer nofollow">https://www.sciencestack.ai/paper/2407.17468</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>WildHallucinations: Evaluating Long-form Factuality in LLMs with Real-World Entity Queries (arXiv:2407.17468v1) - ScienceStack...</p></details>
+   Link:<a href="https://www.sciencestack.ai/paper/2407.17468" target="_blank" rel="noopener noreferrer nofollow">https://www.sciencestack.ai/paper/2407.17468</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>WildHallucinations: Evaluating Long-form Factuality in LLMs with Real-World Entity Queries (arXiv:2407.17468v1) - ScienceStack...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: vbn.aau.dk  
    Title: Stress Testing Factual Consistency Metrics for Long-Document Summarization  
-   Link: <a href="https://vbn.aau.dk/en/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/" target="_blank" rel="noopener noreferrer nofollow">https://vbn.aau.dk/en/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Aalborg University&#x27;s Research Portal...</p></details>
+   Link:<a href="https://vbn.aau.dk/en/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/" target="_blank" rel="noopener noreferrer nofollow">https://vbn.aau.dk/en/publications/stress-testing-factual-consistency-metrics-for-long-document-summ/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Aalborg University&#x27;s Research Portal...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: youtube.com  
    Title: Why AI Benchmarks Are Lying to You  
-   Link: <a href="https://www.youtube.com/watch?v=rB4pvsm2AkA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=rB4pvsm2AkA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Disincentivizing Hallucination...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=rB4pvsm2AkA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=rB4pvsm2AkA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Disincentivizing Hallucination...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: arxiv.org  
    Title: arXiv Are Reasoning Models More Prone to Hallucination?  
-   Link: <a href="https://arxiv.org/abs/2505.23646" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2505.23646</a>  
+   Link:<a href="https://arxiv.org/abs/2505.23646" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2505.23646</a>  

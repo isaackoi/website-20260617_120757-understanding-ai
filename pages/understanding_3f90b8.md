@@ -283,9 +283,9 @@ Three terms help make the field less foggy:
 
 **Machine learning** is the part of AI in which systems improve at a task by learning from data rather than being programmed with every rule by hand.
 
-**Deep learning** is a machine-learning approach using multi-layer neural networks. A major 2015 review by Yann LeCun, Yoshua Bengio and Geoffrey Hinton described deep learning as a way for computational models with multiple processing layers to learn representations of data at different levels of abstraction, which helped drive progress in speech recognition, object recognition and other domains. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/nature14539" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">Deep learningby Y LeCun · 2015 · Cited by 114697 — Deep learning allows computational models that are composed of multiple processi...</span></span></span>
+**Deep learning** is a machine-learning approach using multi-layer neural networks. A major 2015 review by Yann LeCun, Yoshua Bengio and Geoffrey Hinton described deep learning as a way for computational models with multiple processing layers to learn representations of data at different levels of abstraction, which helped drive progress in speech recognition, object recognition and other domains.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/nature14539" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">Deep learningby Y LeCun · 2015 · Cited by 114697 — Deep learning allows computational models that are composed of multiple processi...</span></span></span>
 
-**Generative AI** is AI that creates new content, such as text, images, video, music or code. The OECD notes that generative AI drew global attention in 2022 with large language models and text-to-image systems, but also raised new policy challenges because these tools are general-purpose and easy to deploy at scale. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/sub-issues/generative-ai.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">Generative AIGenerative AI (GenAI) is a category of AI that can create new content such as text, images, videos and music. It gained...</span></span></span>
+**Generative AI** is AI that creates new content, such as text, images, video, music or code. The OECD notes that generative AI drew global attention in 2022 with large language models and text-to-image systems, but also raised new policy challenges because these tools are general-purpose and easy to deploy at scale.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/sub-issues/generative-ai.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">Generative AIGenerative AI (GenAI) is a category of AI that can create new content such as text, images, videos and music. It gained...</span></span></span>
 
 ## How modern AI learns patterns
 
@@ -293,7 +293,7 @@ The basic training process is easier to grasp than the scale of modern systems s
 
 Neural networks are loosely inspired by the idea of connected processing units, but their practical power comes from mathematics, data and computing hardware. During training, the system makes errors, calculates how much each internal setting contributed to those errors and updates its parameters. Repeated many times over large datasets, this process can produce models that detect subtle patterns no human programmer explicitly wrote down.
 
-Large language models are a vivid example. They are trained on enormous collections of text to predict likely continuations. At first glance that sounds modest, but next-token prediction forces the model to absorb many regularities of language: grammar, style, facts, argument patterns, code syntax and common reasoning moves. The GPT-3 paper showed that scaling up language models could improve “few-shot” performance, where a model performs a new task from examples written in the prompt rather than from a separate fine-tuning dataset. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">arXiv Language Models are Few-Shot Learners</span></span></span>
+Large language models are a vivid example. They are trained on enormous collections of text to predict likely continuations. At first glance that sounds modest, but next-token prediction forces the model to absorb many regularities of language: grammar, style, facts, argument patterns, code syntax and common reasoning moves. The GPT-3 paper showed that scaling up language models could improve “few-shot” performance, where a model performs a new task from examples written in the prompt rather than from a separate fine-tuning dataset.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Language Models are Few-Shot Learners</span><span class="citation-popover-snippet">arXiv Language Models are Few-Shot Learners</span></span></span>
 
 This does not mean the system has human-like understanding. A language model can produce a strong explanation without being able to verify the world behind every sentence. It can also imitate the form of expertise when its underlying knowledge is incomplete or wrong. The key insight is that fluency and reliability are related but not identical.
 
@@ -301,7 +301,7 @@ This does not mean the system has human-like understanding. A language model can
 <img src="{{ "/assets/images/understanding_3f90b8-Illustration-1-dark.svg" | relative_url }}" alt="Understanding illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8-Illustration-1-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Why transformers changed the field
 
-The transformer is the architecture behind many modern language models and an increasing range of image, audio and multimodal systems. Introduced in the 2017 paper “Attention Is All You Need”, the transformer replaced earlier sequence-processing approaches with an architecture based heavily on attention mechanisms. Attention lets a model weigh relationships among different parts of an input, such as which words in a sentence matter most for interpreting another word. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.neurips.cc">[NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.neurips.cc</span><span class="citation-popover-title">Neur IPS Papers Attention is All you Need</span><span class="citation-popover-snippet">Neur IPS Papers Attention is All you Need</span></span></span>
+The transformer is the architecture behind many modern language models and an increasing range of image, audio and multimodal systems. Introduced in the 2017 paper “Attention Is All You Need”, the transformer replaced earlier sequence-processing approaches with an architecture based heavily on attention mechanisms. Attention lets a model weigh relationships among different parts of an input, such as which words in a sentence matter most for interpreting another word.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.neurips.cc">[NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.neurips.cc</span><span class="citation-popover-title">Neur IPS Papers Attention is All you Need</span><span class="citation-popover-snippet">Neur IPS Papers Attention is All you Need</span></span></span>
 
 Before transformers, many language systems processed text more sequentially, which made long-range relationships harder and training less efficient. Transformers made it easier to train very large models in parallel on modern hardware. That technical shift helped turn language modelling from a specialist research task into the foundation for widely used tools such as chatbots, coding assistants, summarisation systems and document-search assistants.
 
@@ -322,7 +322,7 @@ Artificial general intelligence, often shortened to AGI, usually refers to a hyp
 
 AI is strongest where there are patterns in data and a clear way to evaluate outputs. That includes classification, prediction, optimisation, content generation, anomaly detection and decision support. In everyday terms, AI can help with first drafts, search, translation, coding assistance, summarisation, customer support triage, medical image analysis, demand [forecasting]({{ 'forecasting-gap/' | relative_url }}) and quality control.
 
-The practical value often comes from speed and scale rather than brilliance. A model can scan thousands of documents faster than a person, flag unusual transactions continuously or produce a rough draft in seconds. In business settings, McKinsey’s 2025 survey reported that AI use had become widespread, but also that many organisations were still struggling to move from pilots to scaled impact. The strongest performers were more likely to have clear ownership, human-validation processes, data practices and operating models built around adoption rather than experimentation alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
+The practical value often comes from speed and scale rather than brilliance. A model can scan thousands of documents faster than a person, flag unusual transactions continuously or produce a rough draft in seconds. In business settings, McKinsey’s 2025 survey reported that AI use had become widespread, but also that many organisations were still struggling to move from pilots to scaled impact. The strongest performers were more likely to have clear ownership, human-validation processes, data practices and operating models built around adoption rather than experimentation alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
 
 The most useful AI deployments tend to share a pattern: the task is specific, the output can be checked, the user understands the system’s limits and the workflow has been redesigned around the tool. AI is less useful when organisations add it vaguely to existing processes without defining what success means.
 
@@ -330,9 +330,9 @@ The most useful AI deployments tend to share a pattern: the task is specific, th
 
 AI fails in ways that are different from ordinary software. Traditional software usually breaks because a rule is wrong or an edge case was missed. AI can fail because its training data was biased, its objective rewarded the wrong behaviour, its input differs from the training environment, its evaluation was too narrow or its output is persuasive but unsupported.
 
-Hallucination is the best-known failure mode for large language models. In this context, hallucination means a fluent answer that contains fabricated, misleading or unsupported information. Surveys of the field describe hallucination as a persistent reliability problem because language models are optimised to generate plausible text, not automatically to verify every claim against external evidence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Hallucination is the best-known failure mode for large language models. In this context, hallucination means a fluent answer that contains fabricated, misleading or unsupported information. Surveys of the field describe hallucination as a persistent reliability problem because language models are optimised to generate plausible text, not automatically to verify every claim against external evidence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
-Bias is another major risk. The “Gender Shades” study by Joy Buolamwini and Timnit Gebru showed that commercial facial-analysis systems had large accuracy disparities across gender and skin-type groups, exposing how benchmark datasets and model performance can fail unevenly across populations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Open source on mlr.press.</span></span></span>
+Bias is another major risk. The “Gender Shades” study by Joy Buolamwini and Timnit Gebru showed that commercial facial-analysis systems had large accuracy disparities across gender and skin-type groups, exposing how benchmark datasets and model performance can fail unevenly across populations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Open source on mlr.press.</span></span></span>
 
 A third problem is overtrust. Because AI systems often speak in polished language or produce precise-looking scores, users may treat outputs as more authoritative than they are. The safer habit is to ask: what evidence supports this output, how was the system tested, what kind of mistake would matter here and can a human meaningfully challenge the result?
 
@@ -348,7 +348,7 @@ This is why “more data” is not automatically better. Better data means data 
 
 ## How to judge whether an AI system is trustworthy
 
-A trustworthy AI system is not one that never fails. It is one whose risks are understood, tested, communicated and managed. NIST’s AI Risk Management Framework was created to help organisations manage risks to individuals, organisations and society, and it organises risk work around functions such as govern, map, measure and manage. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">Open source on nist.gov.</span></span></span>
+A trustworthy AI system is not one that never fails. It is one whose risks are understood, tested, communicated and managed. NIST’s AI Risk Management Framework was created to help organisations manage risks to individuals, organisations and society, and it organises risk work around functions such as govern, map, measure and manage.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">Open source on nist.gov.</span></span></span>
 
 For a non-specialist, five practical questions are especially useful:
 
@@ -363,7 +363,7 @@ For a non-specialist, five practical questions are especially useful:
 
 </div>
 
-The OECD’s AI Principles, first adopted in 2019 and updated in 2024, similarly emphasise trustworthy AI that respects human rights and democratic values. That international policy language can sound abstract, but its practical message is simple: AI should be judged not only by performance, but by safety, fairness, transparency, accountability and human control. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-title">ai principles</span><span class="citation-popover-snippet">ai principles</span></span></span>
+The OECD’s AI Principles, first adopted in 2019 and updated in 2024, similarly emphasise trustworthy AI that respects human rights and democratic values. That international policy language can sound abstract, but its practical message is simple: AI should be judged not only by performance, but by safety, fairness, transparency, accountability and human control.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-title">ai principles</span><span class="citation-popover-snippet">ai principles</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/hcoa7OMAmRk" title="How Intelligent is Artificial Intelligence? - Computerphile" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=hcoa7OMAmRk" target="_blank" rel="noopener noreferrer">How Intelligent is Artificial Intelligence? - Computerphile</a></p><p class="youtube-embed-meta">Channel: Computerphile &middot; Views: 304.6K &middot; Uploaded: September 2013 &middot; Length: 6 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=hcoa7OMAmRk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=hcoa7OMAmRk">Open on YouTube</a></p></div></div></div>
@@ -372,13 +372,13 @@ The OECD’s AI Principles, first adopted in 2019 and updated in 2024, similarly
 
 AI is already changing work, but not in a single uniform way. Some uses automate repetitive tasks. Others augment workers by speeding up drafting, search, analysis or coding. Some create new checking burdens because humans must review AI outputs before they can be trusted. The effect depends on the job, the organisation, the worker’s skill level and whether AI is used to replace judgement or support it.
 
-The World Economic Forum’s Future of Jobs Report 2025 draws on more than 1,000 employers across 55 economies and frames AI as part of a wider shift in skills, roles and workforce transformation between 2025 and 2030. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: weforum.org">[World Economic Forum]</a><span class="citation-popover" role="note"><span class="citation-popover-source">weforum.org</span><span class="citation-popover-title">the future of jobs report 2025</span><span class="citation-popover-snippet">the future of jobs report 2025</span></span></span> McKinsey’s 2025 work similarly suggests that AI adoption is now common, but measurable value depends on management practices, workflow redesign and human validation rather than tool access alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
+The World Economic Forum’s Future of Jobs Report 2025 draws on more than 1,000 employers across 55 economies and frames AI as part of a wider shift in skills, roles and workforce transformation between 2025 and 2030.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: weforum.org">[World Economic Forum]</a><span class="citation-popover" role="note"><span class="citation-popover-source">weforum.org</span><span class="citation-popover-title">the future of jobs report 2025</span><span class="citation-popover-snippet">the future of jobs report 2025</span></span></span> McKinsey’s 2025 work similarly suggests that AI adoption is now common, but measurable value depends on management practices, workflow redesign and human validation rather than tool access alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mckinsey.com">[McKinsey &amp; Company]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mckinsey.com</span><span class="citation-popover-title">the state of ai</span><span class="citation-popover-snippet">the state of ai</span></span></span>
 
 For individuals, the practical skill is not merely “using AI”. It is knowing when to use it, how to phrase a task, how to check outputs, how to protect sensitive information and when human expertise matters more than speed. A good AI user treats the system as a capable assistant with blind spots, not as a source of final truth.
 
 ## The environmental and infrastructure cost
 
-AI is digital, but it is not weightless. Training and running large models requires data centres, chips, electricity, cooling and supply chains. The International Energy Agency estimated that data centres used around 415 terawatt hours of electricity in 2024, about 1.5% of global electricity consumption, and that data-centre electricity use had grown quickly over the previous five years. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: iea.org">[IEA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">iea.org</span><span class="citation-popover-snippet">Open source on iea.org.</span></span></span>
+AI is digital, but it is not weightless. Training and running large models requires data centres, chips, electricity, cooling and supply chains. The International Energy Agency estimated that data centres used around 415 terawatt hours of electricity in 2024, about 1.5% of global electricity consumption, and that data-centre electricity use had grown quickly over the previous five years.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: iea.org">[IEA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">iea.org</span><span class="citation-popover-snippet">Open source on iea.org.</span></span></span>
 
 This does not mean every AI query has the same environmental footprint, or that AI is uniquely wasteful compared with all other technologies. It means AI should be evaluated as infrastructure as well as software. Efficiency improvements, cleaner power, better chip utilisation, model compression and careful deployment choices all matter. A small model used for a well-defined task may be more appropriate than a large general-purpose model used indiscriminately.
 
@@ -388,7 +388,7 @@ The infrastructure question also affects who can build and control AI. The most 
 <img src="{{ "/assets/images/understanding_3f90b8-Illustration-3-dark.svg" | relative_url }}" alt="Understanding illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Regulation and governance are catching up
 
-AI governance is moving from broad principles towards rules, standards and enforcement. The European Union’s AI Act, formally Regulation (EU) 2024/1689, establishes harmonised rules for artificial intelligence and uses a risk-based approach. Some uses are prohibited, high-risk systems face stricter obligations and transparency duties apply in areas such as certain AI-generated content and general-purpose AI. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eur-lex.europa.eu">[EUR-Lex]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eur-lex.europa.eu</span><span class="citation-popover-title">EUR-Lex Regulation</span><span class="citation-popover-snippet">EUR-Lex Regulation</span></span></span>
+AI governance is moving from broad principles towards rules, standards and enforcement. The European Union’s AI Act, formally Regulation (EU) 2024/1689, establishes harmonised rules for artificial intelligence and uses a risk-based approach. Some uses are prohibited, high-risk systems face stricter obligations and transparency duties apply in areas such as certain AI-generated content and general-purpose AI.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: eur-lex.europa.eu">[EUR-Lex]</a><span class="citation-popover" role="note"><span class="citation-popover-source">eur-lex.europa.eu</span><span class="citation-popover-title">EUR-Lex Regulation</span><span class="citation-popover-snippet">EUR-Lex Regulation</span></span></span>
 
 Risk-based regulation reflects a sensible idea: not all AI uses deserve the same level of scrutiny. A grammar suggestion tool and an AI system used in policing, employment, education or healthcare do not carry the same stakes. The harder question is implementation. Regulators, companies and researchers still need reliable ways to evaluate models, document risks, monitor real-world performance and respond when systems cause harm.
 
@@ -420,162 +420,162 @@ The central trade-off is that AI systems can be powerful without being fully rel
 The best understanding of AI is therefore neither wonder nor dismissal. It is disciplined curiosity: know what the system was built to do, ask how it was trained and tested, check its outputs against evidence, use it where its strengths fit the task and keep humans responsible where the consequences matter.
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to What AI Can Really Do. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to What AI Can Really Do. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Explains how AI systems work and where their risks arise.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how AI systems work and where their risks arise.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Covers AI capabilities, limitations, and common misconceptions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers AI capabilities, limitations, and common misconceptions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Explains what AI can and cannot do in everyday work and decision-making.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains what AI can and cannot do in everyday work and decision-making.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
-        </h4>
-        <p class="fr-book-author">By Mustafa Suleyman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
+</h4>
+<p class="fr-book-author">By Mustafa Suleyman</p>
         
-        <p class="fr-book-desc">Discusses the real-world impact of powerful AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses the real-world impact of powerful AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Topic-anchored marketplace searches for visual, collectible, or second-hand items related to this page.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Topic-anchored marketplace searches for visual, collectible, or second-hand items related to this page.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Decoration Emblem Badge Window Decal Car Sticker Vinyl Jesus Fish Symbol Logo"><img src="{{ '/assets/images/marketplace-covers/e2b463125a437e97072b.jpg' | relative_url }}" alt="Listing image for Decoration Emblem Badge Window Decal Car Sticker Vinyl Jesus Fish Symbol Logo" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">Decoration Emblem Badge Window Decal Car Sticker Vinyl Jesus Fish Symbol Logo</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Decoration Emblem Badge Window Decal Car Sticker Vinyl Jesus Fish Symbol Logo"><img src="{{ '/assets/images/marketplace-covers/e2b463125a437e97072b.jpg' | relative_url }}" alt="Listing image for Decoration Emblem Badge Window Decal Car Sticker Vinyl Jesus Fish Symbol Logo" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">Decoration Emblem Badge Window Decal Car Sticker Vinyl Jesus Fish Symbol Logo</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 5X QUALITY Microsoft AI Office COPILOT Logo Glossy sticker 33x16mm PC/LAPTOP"><img src="{{ '/assets/images/marketplace-covers/4749c69e7c21f4cd1c17.jpg' | relative_url }}" alt="Listing image for 5X QUALITY Microsoft AI Office COPILOT Logo Glossy sticker 33x16mm PC/LAPTOP" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">5X QUALITY Microsoft AI Office COPILOT Logo Glossy sticker 33x16mm PC/LAPTOP</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 5X QUALITY Microsoft AI Office COPILOT Logo Glossy sticker 33x16mm PC/LAPTOP"><img src="{{ '/assets/images/marketplace-covers/4749c69e7c21f4cd1c17.jpg' | relative_url }}" alt="Listing image for 5X QUALITY Microsoft AI Office COPILOT Logo Glossy sticker 33x16mm PC/LAPTOP" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">5X QUALITY Microsoft AI Office COPILOT Logo Glossy sticker 33x16mm PC/LAPTOP</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI logo sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI logo sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+logo+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=understanding-ai-logo-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI logo sticker" data-ebay-reference="understanding-ai-logo-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -591,7 +591,7 @@ The best understanding of AI is therefore neither wonder nor dismissal. It is di
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -611,7 +611,7 @@ The best understanding of AI is therefore neither wonder nor dismissal. It is di
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -643,7 +643,7 @@ The best understanding of AI is therefore neither wonder nor dismissal. It is di
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -695,7 +695,7 @@ The best understanding of AI is therefore neither wonder nor dismissal. It is di
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -740,7 +740,7 @@ The best understanding of AI is therefore neither wonder nor dismissal. It is di
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -781,326 +781,326 @@ The best understanding of AI is therefore neither wonder nor dismissal. It is di
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: csrc.nist.gov  
    Title: Computer Security Resource Centerartificial intelligence  
-   Link: <a href="https://csrc.nist.gov/glossary/term/artificial_intelligence" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/glossary/term/artificial_intelligence</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Computer Security Resource Centerartificial intelligence - Glossary | CSRCA machine-based system that can, for a given set of human...</p></details>
+   Link:<a href="https://csrc.nist.gov/glossary/term/artificial_intelligence" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/glossary/term/artificial_intelligence</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Computer Security Resource Centerartificial intelligence - Glossary | CSRCA machine-based system that can, for a given set of human...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/policy-issues/artificial-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/policy-issues/artificial-intelligence.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial intelligenceArtificial intelligence (AI) is a transformative technology capable of tasks that typically require human-like...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/policy-issues/artificial-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/policy-issues/artificial-intelligence.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial intelligenceArtificial intelligence (AI) is a transformative technology capable of tasks that typically require human-like...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/nature14539" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/nature14539</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Deep learningby Y LeCun · 2015 · Cited by 114697 — Deep learning allows computational models that are composed of multiple processi...</p></details>
+   Link:<a href="https://www.nature.com/articles/nature14539" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/nature14539</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep learningby Y LeCun · 2015 · Cited by 114697 — Deep learning allows computational models that are composed of multiple processi...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/sub-issues/generative-ai.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/generative-ai.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AIGenerative AI (GenAI) is a category of AI that can create new content such as text, images, videos and music. It gained...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/sub-issues/generative-ai.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/generative-ai.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AIGenerative AI (GenAI) is a category of AI that can create new content such as text, images, videos and music. It gained...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
    Title: arXiv Language Models are Few-Shot Learners  
-   Link: <a href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.14165</a>  
+   Link:<a href="https://arxiv.org/abs/2005.14165" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.14165</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: papers.neurips.cc  
    Title: Neur IPS Papers Attention is All you Need  
-   Link: <a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow">https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf</a>  
+   Link:<a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow">https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: mckinsey.com  
    Title: the state of ai  
-   Link: <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</a>  
+   Link:<a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: mckinsey.com  
    Title: the state of ai how organizations are rewiring to capture value  
-   Link: <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value</a>  
+   Link:<a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2311.05232</a>  
+   Link:<a href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2311.05232</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2510.06265" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.06265</a>  
+   Link:<a href="https://arxiv.org/abs/2510.06265" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.06265</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: nist.gov  
    Title: risk management framework aims improve trustworthiness artificial  
-   Link: <a href="https://www.nist.gov/news-events/news/2023/01/nist-risk-management-framework-aims-improve-trustworthiness-artificial" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2023/01/nist-risk-management-framework-aims-improve-trustworthiness-artificial</a>  
+   Link:<a href="https://www.nist.gov/news-events/news/2023/01/nist-risk-management-framework-aims-improve-trustworthiness-artificial" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2023/01/nist-risk-management-framework-aims-improve-trustworthiness-artificial</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: oecd.org  
    Title: ai principles  
-   Link: <a href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-principles.html</a>  
+   Link:<a href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-principles.html</a>  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: oecd.org  
    Title: updates ai principles to stay abreast of rapid technological developments  
-   Link: <a href="https://www.oecd.org/en/about/news/press-releases/2024/05/oecd-updates-ai-principles-to-stay-abreast-of-rapid-technological-developments.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/about/news/press-releases/2024/05/oecd-updates-ai-principles-to-stay-abreast-of-rapid-technological-developments.html</a>  
+   Link:<a href="https://www.oecd.org/en/about/news/press-releases/2024/05/oecd-updates-ai-principles-to-stay-abreast-of-rapid-technological-developments.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/about/news/press-releases/2024/05/oecd-updates-ai-principles-to-stay-abreast-of-rapid-technological-developments.html</a>  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: mckinsey.com  
    Title: the state of ai how organizations are rewiring to capture value final  
-   Link: <a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf</a>  
+   Link:<a href="https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/2025/the-state-of-ai-how-organizations-are-rewiring-to-capture-value_final.pdf</a>  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: iea.org  
-   Link: <a href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai</a>  
+   Link:<a href="https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/artificial-intelligence.html?wcmmode=disabled.com" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/artificial-intelligence.html?wcmmode=disabled.com</a>  
+   Link:<a href="https://www.oecd.org/en/topics/artificial-intelligence.html?wcmmode=disabled.com" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/artificial-intelligence.html?wcmmode=disabled.com</a>  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/ai-principles.html</a>  
+   Link:<a href="https://www.oecd.org/en/topics/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/ai-principles.html</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: legalinstruments.oecd.org  
    Title: oecd legal 0449  
-   Link: <a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449</a>  
+   Link:<a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2603.10023v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2603.10023v1</a>  
+   Link:<a href="https://arxiv.org/html/2603.10023v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2603.10023v1</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2504.07139" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2504.07139</a>  
+   Link:<a href="https://arxiv.org/abs/2504.07139" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2504.07139</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
+   Link:<a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2307.06435" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2307.06435</a>  
+   Link:<a href="https://arxiv.org/pdf/2307.06435" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2307.06435</a>  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2510.06265v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.06265v2</a>  
+   Link:<a href="https://arxiv.org/html/2510.06265v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.06265v2</a>  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: csrc.nist.gov  
-   Link: <a href="https://csrc.nist.gov/pubs/ai/100/2/e2025/final" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/pubs/ai/100/2/e2025/final</a>  
+   Link:<a href="https://csrc.nist.gov/pubs/ai/100/2/e2025/final" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/pubs/ai/100/2/e2025/final</a>  
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: nvlpubs.nist.gov  
    Title: ai.100 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/artificial-intelligence</a>  
+   Link:<a href="https://www.nist.gov/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/artificial-intelligence</a>  
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/artificial-intelligence/ai-standards" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/artificial-intelligence/ai-standards</a>  
+   Link:<a href="https://www.nist.gov/artificial-intelligence/ai-standards" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/artificial-intelligence/ai-standards</a>  
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: nist.gov  
    Title: concept note ai rmf profile trustworthy ai critical infrastructure  
-   Link: <a href="https://www.nist.gov/programs-projects/concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/programs-projects/concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure</a>  
+   Link:<a href="https://www.nist.gov/programs-projects/concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/programs-projects/concept-note-ai-rmf-profile-trustworthy-ai-critical-infrastructure</a>  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: proceedings.neurips.cc  
    Title: 1457c0d6bfcb4967418bfb8ac142f64a Paper  
-   Link: <a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf</a>  
+   Link:<a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf</a>  
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: iea.org  
    Title: energy and ai observatory  
-   Link: <a href="https://www.iea.org/data-and-statistics/data-tools/energy-and-ai-observatory" target="_blank" rel="noopener noreferrer nofollow">https://www.iea.org/data-and-statistics/data-tools/energy-and-ai-observatory</a>  
+   Link:<a href="https://www.iea.org/data-and-statistics/data-tools/energy-and-ai-observatory" target="_blank" rel="noopener noreferrer nofollow">https://www.iea.org/data-and-statistics/data-tools/energy-and-ai-observatory</a>  
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: iea.org  
-   Link: <a href="https://www.iea.org/reports/energy-and-ai/executive-summary" target="_blank" rel="noopener noreferrer nofollow">https://www.iea.org/reports/energy-and-ai/executive-summary</a>  
+   Link:<a href="https://www.iea.org/reports/energy-and-ai/executive-summary" target="_blank" rel="noopener noreferrer nofollow">https://www.iea.org/reports/energy-and-ai/executive-summary</a>  
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41586-026-10549-w" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-026-10549-w</a>  
+   Link:<a href="https://www.nature.com/articles/s41586-026-10549-w" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-026-10549-w</a>  
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/d41586-025-01113-z" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/d41586-025-01113-z</a>  
+   Link:<a href="https://www.nature.com/articles/d41586-025-01113-z" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/d41586-025-01113-z</a>  
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/ai-principles" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/ai-principles</a>  
+   Link:<a href="https://oecd.ai/en/ai-principles" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/ai-principles</a>  
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: oecd.ai  
    Title: The OECD Artificial Intelligence Policy Observatory  
-   Link: <a href="https://oecd.ai/" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/</a>  
+   Link:<a href="https://oecd.ai/" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/</a>  
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: oecd.ai  
    Title: evolving with innovation the 2024 oecd ai principles update  
-   Link: <a href="https://oecd.ai/en/wonk/evolving-with-innovation-the-2024-oecd-ai-principles-update" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/wonk/evolving-with-innovation-the-2024-oecd-ai-principles-update</a>  
+   Link:<a href="https://oecd.ai/en/wonk/evolving-with-innovation-the-2024-oecd-ai-principles-update" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/wonk/evolving-with-innovation-the-2024-oecd-ai-principles-update</a>  
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: oecd.ai  
    Title: oecd ai principles 9705  
-   Link: <a href="https://oecd.ai/en/dashboards/policy-initiatives/oecd-ai-principles-9705" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/dashboards/policy-initiatives/oecd-ai-principles-9705</a>  
+   Link:<a href="https://oecd.ai/en/dashboards/policy-initiatives/oecd-ai-principles-9705" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/dashboards/policy-initiatives/oecd-ai-principles-9705</a>  
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: csrc.nist.rip  
    Title: ripartificial intelligence AI  
-   Link: <a href="https://csrc.nist.rip/Topics/Technologies/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.rip/Topics/Technologies/artificial-intelligence</a>  
+   Link:<a href="https://csrc.nist.rip/Topics/Technologies/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.rip/Topics/Technologies/artificial-intelligence</a>  
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: proceedings.mlr.press  
-   Link: <a href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf</a>  
+   Link:<a href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf</a>  
 
-42. <a id="endnote-42"></a>
+42.<a id="endnote-42"></a>
    Source: weforum.org  
    Title: the future of jobs report 2025  
-   Link: <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" target="_blank" rel="noopener noreferrer nofollow">https://www.weforum.org/publications/the-future-of-jobs-report-2025/</a>  
+   Link:<a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/" target="_blank" rel="noopener noreferrer nofollow">https://www.weforum.org/publications/the-future-of-jobs-report-2025/</a>  
 
-43. <a id="endnote-43"></a>
+43.<a id="endnote-43"></a>
    Source: eur-lex.europa.eu  
    Title: EUR-Lex Regulation  
-   Link: <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" target="_blank" rel="noopener noreferrer nofollow">https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng</a>  
+   Link:<a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng" target="_blank" rel="noopener noreferrer nofollow">https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng</a>  
 
-44. <a id="endnote-44"></a>
+44.<a id="endnote-44"></a>
    Source: digital-strategy.ec.europa.eu  
    Title: Digital Strategy AI Act | Shaping Europe's digital future  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
 
-45. <a id="endnote-45"></a>
+45.<a id="endnote-45"></a>
    Source: ibm.com  
    Title: machine learning  
-   Link: <a href="https://www.ibm.com/think/machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/machine-learning</a>  
+   Link:<a href="https://www.ibm.com/think/machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/machine-learning</a>  
 
-46. <a id="endnote-46"></a>
+46.<a id="endnote-46"></a>
    Source: reports.weforum.org  
    Title: WEF Future of Jobs Report 2025  
-   Link: <a href="https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf</a>  
+   Link:<a href="https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf</a>  
 
-47. <a id="endnote-47"></a>
+47.<a id="endnote-47"></a>
    Source: weforum.org  
-   Link: <a href="https://www.weforum.org/stories/2025/01/future-of-jobs-report-2025-jobs-of-the-future-and-the-skills-you-need-to-get-them/" target="_blank" rel="noopener noreferrer nofollow">https://www.weforum.org/stories/2025/01/future-of-jobs-report-2025-jobs-of-the-future-and-the-skills-you-need-to-get-them/</a>  
+   Link:<a href="https://www.weforum.org/stories/2025/01/future-of-jobs-report-2025-jobs-of-the-future-and-the-skills-you-need-to-get-them/" target="_blank" rel="noopener noreferrer nofollow">https://www.weforum.org/stories/2025/01/future-of-jobs-report-2025-jobs-of-the-future-and-the-skills-you-need-to-get-them/</a>  
 
-48. <a id="endnote-48"></a>
+48.<a id="endnote-48"></a>
    Source: weforum.org  
-   Link: <a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/" target="_blank" rel="noopener noreferrer nofollow">https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/</a>  
+   Link:<a href="https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/" target="_blank" rel="noopener noreferrer nofollow">https://www.weforum.org/publications/the-future-of-jobs-report-2025/digest/</a>  
 
-49. <a id="endnote-49"></a>
+49.<a id="endnote-49"></a>
    Source: weforum.org  
    Title: future of jobs  
-   Link: <a href="https://www.weforum.org/publications/series/future-of-jobs/" target="_blank" rel="noopener noreferrer nofollow">https://www.weforum.org/publications/series/future-of-jobs/</a>  
+   Link:<a href="https://www.weforum.org/publications/series/future-of-jobs/" target="_blank" rel="noopener noreferrer nofollow">https://www.weforum.org/publications/series/future-of-jobs/</a>  
 
-50. <a id="endnote-50"></a>
+50.<a id="endnote-50"></a>
    Source: Wikipedia  
    Title: Attention Is All You Need  
-   Link: <a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
 
-51. <a id="endnote-51"></a>
+51.<a id="endnote-51"></a>
    Source: linkedin.com  
    Title: world economic forum jobs companies workers activity 7338233562950721537 MlOs  
-   Link: <a href="https://www.linkedin.com/posts/world-economic-forum_jobs-companies-workers-activity-7338233562950721537-MlOs" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/world-economic-forum_jobs-companies-workers-activity-7338233562950721537-MlOs</a>  
+   Link:<a href="https://www.linkedin.com/posts/world-economic-forum_jobs-companies-workers-activity-7338233562950721537-MlOs" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/world-economic-forum_jobs-companies-workers-activity-7338233562950721537-MlOs</a>  
 
-52. <a id="endnote-52"></a>
+52.<a id="endnote-52"></a>
    Source: build-up.ec.europa.eu  
    Title: international energy agency iea new report energy and ai  
-   Link: <a href="https://build-up.ec.europa.eu/en/resources-and-tools/publications/international-energy-agency-iea-new-report-energy-and-ai" target="_blank" rel="noopener noreferrer nofollow">https://build-up.ec.europa.eu/en/resources-and-tools/publications/international-energy-agency-iea-new-report-energy-and-ai</a>  
+   Link:<a href="https://build-up.ec.europa.eu/en/resources-and-tools/publications/international-energy-agency-iea-new-report-energy-and-ai" target="_blank" rel="noopener noreferrer nofollow">https://build-up.ec.europa.eu/en/resources-and-tools/publications/international-energy-agency-iea-new-report-energy-and-ai</a>  
 
-53. <a id="endnote-53"></a>
+53.<a id="endnote-53"></a>
    Source: digital-skills-jobs.europa.eu  
    Title: great skills reset wefs future jobs report 2025 catch 22 future work  
-   Link: <a href="https://digital-skills-jobs.europa.eu/en/latest/news/great-skills-reset-wefs-future-jobs-report-2025-catch-22-future-work" target="_blank" rel="noopener noreferrer nofollow">https://digital-skills-jobs.europa.eu/en/latest/news/great-skills-reset-wefs-future-jobs-report-2025-catch-22-future-work</a>  
+   Link:<a href="https://digital-skills-jobs.europa.eu/en/latest/news/great-skills-reset-wefs-future-jobs-report-2025-catch-22-future-work" target="_blank" rel="noopener noreferrer nofollow">https://digital-skills-jobs.europa.eu/en/latest/news/great-skills-reset-wefs-future-jobs-report-2025-catch-22-future-work</a>  
 
-54. <a id="endnote-54"></a>
+54.<a id="endnote-54"></a>
    Source: cs.toronto.edu  
    Title: Nature Deep Review  
-   Link: <a href="https://cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf</a>  
+   Link:<a href="https://cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf</a>  
 
-55. <a id="endnote-55"></a>
+55.<a id="endnote-55"></a>
    Source: academia.edu  
    Title: Deep Learning  
-   Link: <a href="https://www.academia.edu/35734459/Deep_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.academia.edu/35734459/Deep_Learning</a>  
+   Link:<a href="https://www.academia.edu/35734459/Deep_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.academia.edu/35734459/Deep_Learning</a>  
 
-56. <a id="endnote-56"></a>
+56.<a id="endnote-56"></a>
    Source: business.gov.nl  
-   Link: <a href="https://business.gov.nl/regulations/ai-act/" target="_blank" rel="noopener noreferrer nofollow">https://business.gov.nl/regulations/ai-act/</a>  
+   Link:<a href="https://business.gov.nl/regulations/ai-act/" target="_blank" rel="noopener noreferrer nofollow">https://business.gov.nl/regulations/ai-act/</a>  
 
-57. <a id="endnote-57"></a>
+57.<a id="endnote-57"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/llm/transformers" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/llm/transformers</a>  
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/llm/transformers" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/llm/transformers</a>  
 
-58. <a id="endnote-58"></a>
+58.<a id="endnote-58"></a>
    Source: eudat.eu  
    Title: Neural Networks  
-   Link: <a href="https://eudat.eu/sites/default/files/NeuralNetworks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://eudat.eu/sites/default/files/NeuralNetworks.pdf</a>  
+   Link:<a href="https://eudat.eu/sites/default/files/NeuralNetworks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://eudat.eu/sites/default/files/NeuralNetworks.pdf</a>  
 
-59. <a id="endnote-59"></a>
+59.<a id="endnote-59"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/277411157_Deep_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/277411157_Deep_Learning</a>  
+   Link:<a href="https://www.researchgate.net/publication/277411157_Deep_Learning" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/277411157_Deep_Learning</a>  
 
-60. <a id="endnote-60"></a>
+60.<a id="endnote-60"></a>
    Source: proceedings.mlr.press  
-   Link: <a href="https://proceedings.mlr.press/v81/buolamwini18a" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a</a>  
+   Link:<a href="https://proceedings.mlr.press/v81/buolamwini18a" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a</a>  
 
 ### Additional References
 
-61. <a id="endnote-61"></a>
+61.<a id="endnote-61"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=jKces7BJBNU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=jKces7BJBNU</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>SIMPLEST Explanation of How Artificial Intelligence Works? No Jargon | What is AI? How AI works?...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=jKces7BJBNU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=jKces7BJBNU</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SIMPLEST Explanation of How Artificial Intelligence Works? No Jargon | What is AI? How AI works?...</p></details>
 
-62. <a id="endnote-62"></a>
+62.<a id="endnote-62"></a>
    Source: youtube.com  
    Title: But what is a neural network? | Deep learning chapter 1  
-   Link: <a href="https://www.youtube.com/watch?v=I9v8efdO6vs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=I9v8efdO6vs</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Intelligent is Artificial Intelligence? - Computerphile...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=I9v8efdO6vs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=I9v8efdO6vs</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Intelligent is Artificial Intelligence? - Computerphile...</p></details>
 
-63. <a id="endnote-63"></a>
+63.<a id="endnote-63"></a>
    Source: youtube.com  
    Title: How Intelligent is Artificial Intelligence?  
-   Link: <a href="https://www.youtube.com/watch?v=hcoa7OMAmRk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=hcoa7OMAmRk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What Is Artificial Intelligence? Crash Course AI #1...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=hcoa7OMAmRk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=hcoa7OMAmRk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What Is Artificial Intelligence? Crash Course AI #1...</p></details>
 
-64. <a id="endnote-64"></a>
+64.<a id="endnote-64"></a>
    Source: youtube.com  
    Title: What Is Artificial Intelligence? Crash Course AI #1  
-   Link: <a href="https://www.youtube.com/watch?v=a0_lo_GDcFw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=a0_lo_GDcFw</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How AI really works (...it&#x27;s not actually intelligent)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=a0_lo_GDcFw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=a0_lo_GDcFw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How AI really works (...it&#x27;s not actually intelligent)...</p></details>
 
-65. <a id="endnote-65"></a>
+65.<a id="endnote-65"></a>
    Source: newsroom.ibm.com  
-   Link: <a href="https://newsroom.ibm.com/2024-01-10-Data-Suggests-Growth-in-Enterprise-Adoption-of-AI-is-Due-to-Widespread-Deployment-by-Early-Adopters" target="_blank" rel="noopener noreferrer nofollow">https://newsroom.ibm.com/2024-01-10-Data-Suggests-Growth-in-Enterprise-Adoption-of-AI-is-Due-to-Widespread-Deployment-by-Early-Adopters</a>  
+   Link:<a href="https://newsroom.ibm.com/2024-01-10-Data-Suggests-Growth-in-Enterprise-Adoption-of-AI-is-Due-to-Widespread-Deployment-by-Early-Adopters" target="_blank" rel="noopener noreferrer nofollow">https://newsroom.ibm.com/2024-01-10-Data-Suggests-Growth-in-Enterprise-Adoption-of-AI-is-Due-to-Widespread-Deployment-by-Early-Adopters</a>  
 
-66. <a id="endnote-66"></a>
+66.<a id="endnote-66"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/6/</a>  
+   Link:<a href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/6/</a>  
 
-67. <a id="endnote-67"></a>
+67.<a id="endnote-67"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/</a>  
+   Link:<a href="https://artificialintelligenceact.eu/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/</a>  
 
-68. <a id="endnote-68"></a>
+68.<a id="endnote-68"></a>
    Source: gendershades.org  
-   Link: <a href="https://gendershades.org/" target="_blank" rel="noopener noreferrer nofollow">https://gendershades.org/</a>  
+   Link:<a href="https://gendershades.org/" target="_blank" rel="noopener noreferrer nofollow">https://gendershades.org/</a>  
 
-69. <a id="endnote-69"></a>
+69.<a id="endnote-69"></a>
    Source: research.google  
-   Link: <a href="https://research.google/pubs/attention-is-all-you-need/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/attention-is-all-you-need/</a>  
+   Link:<a href="https://research.google/pubs/attention-is-all-you-need/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/attention-is-all-you-need/</a>  
 
-70. <a id="endnote-70"></a>
+70.<a id="endnote-70"></a>
    Source: poloclub.github.io  
-   Link: <a href="https://poloclub.github.io/transformer-explainer/" target="_blank" rel="noopener noreferrer nofollow">https://poloclub.github.io/transformer-explainer/</a>  
+   Link:<a href="https://poloclub.github.io/transformer-explainer/" target="_blank" rel="noopener noreferrer nofollow">https://poloclub.github.io/transformer-explainer/</a>  

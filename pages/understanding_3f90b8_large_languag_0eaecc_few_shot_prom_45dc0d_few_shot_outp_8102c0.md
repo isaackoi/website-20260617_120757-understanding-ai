@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45
 
 ## Introduction
 
-Few-shot prompting works because examples act like temporary task rules. However, those rules are often less stable than they appear. A prompt may produce excellent results for the first few cases and then gradually wander away from the intended pattern, a phenomenon often described as output drift. Drift occurs when the examples do not clearly define the task, when they contain hidden inconsistencies, or when new inputs expose gaps in the pattern the model inferred from the demonstrations. Research on [in-context learning]({{ 'in-context-learning/' | relative_url }}) repeatedly shows that model behaviour can be highly sensitive to the choice, ordering, and structure of examples, even when the underlying task remains unchanged. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.promptingguide.ai/techniques/fewshot" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: promptingguide.ai">[Prompting Guide+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">promptingguide.ai</span><span class="citation-popover-snippet">Prompting GuideFew-Shot Prompting1 Feb 2026 — Few-shot prompting can be used as a technique to enable in-context learning where we provid...</span></span></span>
+Few-shot prompting works because examples act like temporary task rules. However, those rules are often less stable than they appear. A prompt may produce excellent results for the first few cases and then gradually wander away from the intended pattern, a phenomenon often described as output drift. Drift occurs when the examples do not clearly define the task, when they contain hidden inconsistencies, or when new inputs expose gaps in the pattern the model inferred from the demonstrations. Research on [in-context learning]({{ 'in-context-learning/' | relative_url }}) repeatedly shows that model behaviour can be highly sensitive to the choice, ordering, and structure of examples, even when the underlying task remains unchanged.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.promptingguide.ai/techniques/fewshot" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: promptingguide.ai">[Prompting Guide+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">promptingguide.ai</span><span class="citation-popover-snippet">Prompting GuideFew-Shot Prompting1 Feb 2026 — Few-shot prompting can be used as a technique to enable in-context learning where we provid...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_few_shot_outp_8102c0-Illustration-1-dark.svg" | relative_url }}" alt="Output Drift illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_few_shot_outp_8102c0-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_few_shot_prom_45dc0d_few_shot_outp_8102c0-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -281,7 +281,7 @@ Few-shot examples do more than define a task. They also communicate assumptions 
 
 Consider a sentiment-classification prompt where two examples use the labels "Positive" and "Negative", but a third example uses a phrase such as "Mostly Positive". The model now receives conflicting evidence about whether the task requires strict categories or flexible descriptions. Early responses may still look correct, but later outputs can begin introducing new labels or formats because the prompt never established a single clear rule.
 
-Researchers studying in-context learning have found that performance is highly sensitive to demonstration selection and ordering. Different example sets can produce substantially different results even when they describe the same task. In some cases, models appear to follow the surface structure of demonstrations more strongly than the intended input-to-output relationship. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/372929181_Rethinking_the_Role_of_Demonstrations_What_Makes_In-Context_Learning_Work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-title">Research Gate What Makes In-Context Learning Work?</span><span class="citation-popover-snippet">Request PDFJanuary 1, 2022 — 2 Jun 2026 — Few-shot prompting includes a small set of input-output examples in the prompt to demonstrate...</span><span class="citation-popover-meta">Published: January 1, 2022</span></span></span>
+Researchers studying in-context learning have found that performance is highly sensitive to demonstration selection and ordering. Different example sets can produce substantially different results even when they describe the same task. In some cases, models appear to follow the surface structure of demonstrations more strongly than the intended input-to-output relationship.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/372929181_Rethinking_the_Role_of_Demonstrations_What_Makes_In-Context_Learning_Work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-title">Research Gate What Makes In-Context Learning Work?</span><span class="citation-popover-snippet">Request PDFJanuary 1, 2022 — 2 Jun 2026 — Few-shot prompting includes a small set of input-output examples in the prompt to demonstrate...</span><span class="citation-popover-meta">Published: January 1, 2022</span></span></span>
 
 This creates a common failure mode:
 
@@ -322,7 +322,7 @@ Now consider the input: "The product works, but customer support never replied."
 
 The demonstrations never showed mixed sentiment. The model must invent a strategy. One response might classify it as negative. Another might introduce a neutral category. A third might produce a longer explanation. Each outcome reflects uncertainty about the hidden rule rather than uncertainty about the language itself.
 
-Studies of prompt sensitivity have shown that [predictions]({{ 'predictions/' | relative_url }}) are often less reliable precisely when they are sensitive to changes in demonstrations or prompt structure. Small modifications to examples can produce disproportionately large changes in outputs, indicating that the model's inferred rule is fragile. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2209.07661" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv On the Relation between Sensitivity and Accuracy in In-context Learning</span><span class="citation-popover-snippet">arXiv On the Relation between Sensitivity and Accuracy in In-context Learning</span></span></span>
+Studies of prompt sensitivity have shown that [predictions]({{ 'predictions/' | relative_url }}) are often less reliable precisely when they are sensitive to changes in demonstrations or prompt structure. Small modifications to examples can produce disproportionately large changes in outputs, indicating that the model's inferred rule is fragile.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2209.07661" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv On the Relation between Sensitivity and Accuracy in In-context Learning</span><span class="citation-popover-snippet">arXiv On the Relation between Sensitivity and Accuracy in In-context Learning</span></span></span>
 
 Edge cases therefore act as [stress tests]({{ 'stress-tests/' | relative_url }}). They reveal whether the few-shot examples captured the full task or only the easiest portion of it.
 
@@ -332,7 +332,7 @@ Edge cases therefore act as [stress tests]({{ 'stress-tests/' | relative_url }})
 
 A particularly subtle form of drift occurs when the model focuses on the wrong feature entirely.
 
-Research has found that models can sometimes rely heavily on demonstration format, label distribution, or other superficial characteristics rather than the intended reasoning process. If every positive example happens to be longer than every negative example, the model may partially associate length with sentiment. If all examples follow the same wording style, stylistic cues may influence future predictions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/372929181_Rethinking_the_Role_of_Demonstrations_What_Makes_In-Context_Learning_Work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-title">Research Gate What Makes In-Context Learning Work?</span><span class="citation-popover-snippet">Request PDFJanuary 1, 2022 — 2 Jun 2026 — Few-shot prompting includes a small set of input-output examples in the prompt to demonstrate...</span><span class="citation-popover-meta">Published: January 1, 2022</span></span></span>
+Research has found that models can sometimes rely heavily on demonstration format, label distribution, or other superficial characteristics rather than the intended reasoning process. If every positive example happens to be longer than every negative example, the model may partially associate length with sentiment. If all examples follow the same wording style, stylistic cues may influence future predictions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/372929181_Rethinking_the_Role_of_Demonstrations_What_Makes_In-Context_Learning_Work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-title">Research Gate What Makes In-Context Learning Work?</span><span class="citation-popover-snippet">Request PDFJanuary 1, 2022 — 2 Jun 2026 — Few-shot prompting includes a small set of input-output examples in the prompt to demonstrate...</span><span class="citation-popover-meta">Published: January 1, 2022</span></span></span>
 
 The resulting outputs can appear correct for several examples before gradually diverging when those accidental correlations no longer hold.
 
@@ -342,7 +342,7 @@ The resulting outputs can appear correct for several examples before gradually d
 
 The strongest defence against drift is not necessarily adding more examples. It is providing [better examples]({{ 'better-examples/' | relative_url }}).
 
-High-quality demonstrations make the temporary task rules easier to infer because they expose the boundaries of the task rather than only its simplest cases. Research on example selection shows that the choice of demonstrations significantly affects few-shot performance, and that carefully selected examples can improve both stability and accuracy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=D8oHQ2qSTj" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Example selection is quite important for few-shot...Read more...</span></span></span>
+High-quality demonstrations make the temporary task rules easier to infer because they expose the boundaries of the task rather than only its simplest cases. Research on example selection shows that the choice of demonstrations significantly affects few-shot performance, and that carefully selected examples can improve both stability and accuracy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openreview.net/forum?id=D8oHQ2qSTj" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openreview.net">[OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openreview.net</span><span class="citation-popover-snippet">Example selection is quite important for few-shot...Read more...</span></span></span>
 
 Several practices help reduce drift:
 
@@ -352,7 +352,7 @@ If the task requires a fixed format, every demonstration should follow it exactl
 
 **Include borderline cases.**
 
-Examples that sit near decision boundaries help clarify what should happen when inputs are ambiguous. They prevent the model from overgeneralising from only easy cases. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://tetrate.io/learn/ai/few-shot-learning-llms" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tetrate.io">[Tetrate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tetrate.io</span><span class="citation-popover-snippet">Few-Shot Learning for LLMs: Examples and...Some research suggests that including challenging or ambiguous examples improves few-s...</span></span></span>
+Examples that sit near decision boundaries help clarify what should happen when inputs are ambiguous. They prevent the model from overgeneralising from only easy cases.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://tetrate.io/learn/ai/few-shot-learning-llms" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tetrate.io">[Tetrate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tetrate.io</span><span class="citation-popover-snippet">Few-Shot Learning for LLMs: Examples and...Some research suggests that including challenging or ambiguous examples improves few-s...</span></span></span>
 
 **Cover [meaningful]({{ 'human-review/' | relative_url }}) variation.**
 
@@ -373,7 +373,7 @@ A prompt that works only on examples similar to its demonstrations is vulnerable
 
 Output drift highlights an important truth about few-shot prompting: the model is not simply executing instructions. It is constructing a temporary interpretation of the task from whatever evidence the prompt provides.
 
-That interpretation can be surprisingly powerful, allowing new behaviours without retraining. Yet it can also be surprisingly fragile. Research on in-context learning consistently shows sensitivity to example choice, ordering, label balance, and prompt structure. Small changes in demonstrations can lead to meaningful changes in behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2303.13217" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Fairness-guided Few-shot Prompting for Large Language Models</span><span class="citation-popover-snippet">arXiv Fairness-guided Few-shot Prompting for Large Language Models</span></span></span>
+That interpretation can be surprisingly powerful, allowing new behaviours without retraining. Yet it can also be surprisingly fragile. Research on in-context learning consistently shows sensitivity to example choice, ordering, label balance, and prompt structure. Small changes in demonstrations can lead to meaningful changes in behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2303.13217" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Fairness-guided Few-shot Prompting for Large Language Models</span><span class="citation-popover-snippet">arXiv Fairness-guided Few-shot Prompting for Large Language Models</span></span></span>
 
 For readers trying to understand artificial intelligence, output drift is a useful reminder that few-shot prompting does not create permanent knowledge or guaranteed rules. It creates a temporary working theory inside the model's current context. When the examples are clear, realistic, and well balanced, that theory can remain stable. When they are ambiguous or incomplete, the model may begin confidently following a pattern that slowly drifts away from what the user intended.
 
@@ -382,178 +382,178 @@ For readers trying to understand artificial intelligence, output drift is a usef
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When few shot prompts start to drift. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When few shot prompts start to drift. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
-        </h4>
-        <p class="fr-book-author">By Chip Huyen</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
+</h4>
+<p class="fr-book-author">By Chip Huyen</p>
         
-        <p class="fr-book-desc">Discusses prompt robustness and evaluation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses prompt robustness and evaluation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Addresses context, prompting, and output variation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses context, prompting, and output variation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prompt Engineering for Generative AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=fmZi0AEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Prompt Engineering for Generative AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prompt Engineering for Generative AI">Prompt Engineering for Generative AI</a>
-        </h4>
-        <p class="fr-book-author">By James Phoenix, Mike Taylor</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Prompt Engineering for Generative AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=fmZi0AEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Prompt Engineering for Generative AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Prompt Engineering for Generative AI">Prompt Engineering for Generative AI</a>
+</h4>
+<p class="fr-book-author">By James Phoenix, Mike Taylor</p>
         
-        <p class="fr-book-desc">Focused on reducing poor outputs and drift.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focused on reducing poor outputs and drift.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI+by+James+Phoenix&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Building+LLMS+for+Production+by+Louis-fran%C3%A7ois+Bouchard&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Building LLMS for Production on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Building+LLMS+for+Production+by+Louis-fran%C3%A7ois+Bouchard&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Building LLMS for Production">Building LLMS for Production</a>
-        </h4>
-        <p class="fr-book-author">By Louis-françois Bouchard, Louie Peters</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Building+LLMS+for+Production+by+Louis-fran%C3%A7ois+Bouchard&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Building LLMS for Production on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Building+LLMS+for+Production+by+Louis-fran%C3%A7ois+Bouchard&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Building LLMS for Production">Building LLMS for Production</a>
+</h4>
+<p class="fr-book-author">By Louis-françois Bouchard, Louie Peters</p>
         
-        <p class="fr-book-desc">Relevant to managing model inconsistency.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Building+LLMS+for+Production+by+Louis-fran%C3%A7ois+Bouchard&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Relevant to managing model inconsistency.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Building+LLMS+for+Production+by+Louis-fran%C3%A7ois+Bouchard&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prompt Engineering for Generative AI</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Prompt+Engineering+for+Generative+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Prompt Engineering for Generative AI</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Educational English Phonics Chart Children English Learning Poster Vocal Poster"><img src="{{ '/assets/images/marketplace-covers/b99cb6504b5a78845ac4.jpg' | relative_url }}" alt="Listing image for Educational English Phonics Chart Children English Learning Poster Vocal Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Educational English Phonics Chart Children English Learning Poster Vocal Poster</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Educational English Phonics Chart Children English Learning Poster Vocal Poster"><img src="{{ '/assets/images/marketplace-covers/b99cb6504b5a78845ac4.jpg' | relative_url }}" alt="Listing image for Educational English Phonics Chart Children English Learning Poster Vocal Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Educational English Phonics Chart Children English Learning Poster Vocal Poster</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/aad0c823f49d84d6dac2.jpg' | relative_url }}" alt="Listing image for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/aad0c823f49d84d6dac2.jpg' | relative_url }}" alt="Listing image for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+learning+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI learning poster -book -books" data-ebay-reference="output-drift-when-few-shot-prompts-start-to-drift-understanding-ai-learning-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -569,7 +569,7 @@ For readers trying to understand artificial intelligence, output drift is a usef
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -589,7 +589,7 @@ For readers trying to understand artificial intelligence, output drift is a usef
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -621,7 +621,7 @@ For readers trying to understand artificial intelligence, output drift is a usef
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -673,7 +673,7 @@ For readers trying to understand artificial intelligence, output drift is a usef
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -718,7 +718,7 @@ For readers trying to understand artificial intelligence, output drift is a usef
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -759,117 +759,117 @@ For readers trying to understand artificial intelligence, output drift is a usef
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2507.22887" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2507.22887</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A Positional Bias of In-Context Learningby K Cobbina · 2025 · Cited by 10 — In-context learning (ICL) is a critical emerging capability o...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2507.22887" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2507.22887</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Positional Bias of In-Context Learningby K Cobbina · 2025 · Cited by 10 — In-context learning (ICL) is a critical emerging capability o...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Title: arXiv Fairness-guided Few-shot Prompting for Large [Language Models](&#123;&#123; 'language-models/' | relative_url &#125;&#125;)  
-   Link: <a href="https://arxiv.org/abs/2303.13217" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2303.13217</a>  
+   Link:<a href="https://arxiv.org/abs/2303.13217" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2303.13217</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: researchgate.net  
    Title: Research Gate What Makes In-Context Learning Work?  
-   Link: <a href="https://www.researchgate.net/publication/372929181_Rethinking_the_Role_of_Demonstrations_What_Makes_In-Context_Learning_Work" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/372929181_Rethinking_the_Role_of_Demonstrations_What_Makes_In-Context_Learning_Work</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Request PDFJanuary 1, 2022 — 2 Jun 2026 — Few-shot prompting includes a small set of input-output examples in the prompt to demonstrate...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/372929181_Rethinking_the_Role_of_Demonstrations_What_Makes_In-Context_Learning_Work" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/372929181_Rethinking_the_Role_of_Demonstrations_What_Makes_In-Context_Learning_Work</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Request PDFJanuary 1, 2022 — 2 Jun 2026 — Few-shot prompting includes a small set of input-output examples in the prompt to demonstrate...</p></details>
    Published: January 1, 2022  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
    Title: arXiv On the Relation between Sensitivity and Accuracy in In-context Learning  
-   Link: <a href="https://arxiv.org/abs/2209.07661" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2209.07661</a>  
+   Link:<a href="https://arxiv.org/abs/2209.07661" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2209.07661</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=D8oHQ2qSTj" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=D8oHQ2qSTj</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Example selection is quite important for few-shot...Read more...</p></details>
+   Link:<a href="https://openreview.net/forum?id=D8oHQ2qSTj" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=D8oHQ2qSTj</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Example selection is quite important for few-shot...Read more...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: tetrate.io  
-   Link: <a href="https://tetrate.io/learn/ai/few-shot-learning-llms" target="_blank" rel="noopener noreferrer nofollow">https://tetrate.io/learn/ai/few-shot-learning-llms</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Learning for LLMs: Examples and...Some research suggests that including challenging or ambiguous examples improves few-s...</p></details>
+   Link:<a href="https://tetrate.io/learn/ai/few-shot-learning-llms" target="_blank" rel="noopener noreferrer nofollow">https://tetrate.io/learn/ai/few-shot-learning-llms</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Learning for LLMs: Examples and...Some research suggests that including challenging or ambiguous examples improves few-s...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2507.23211v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2507.23211v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Enhancing Few-Shot In-Context Learning by Leveraging...31 Jul 2025 — We propose a novel method that utilizes Negative samples to better...</p></details>
+   Link:<a href="https://arxiv.org/html/2507.23211v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2507.23211v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Enhancing Few-Shot In-Context Learning by Leveraging...31 Jul 2025 — We propose a novel method that utilizes Negative samples to better...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2402.10353" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2402.10353</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt-Based Bias Calibration for Better Zero/Few-Shot...by K He · 2024 · Cited by 13 — In this work, we propose a null-input prompting...</p></details>
+   Link:<a href="https://arxiv.org/abs/2402.10353" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2402.10353</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt-Based Bias Calibration for Better Zero/Few-Shot...by K He · 2024 · Cited by 13 — In this work, we propose a null-input prompting...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/378885725_Mitigating_Word_Bias_in_Zero-shot_Prompt-based_Classifiers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/378885725_Mitigating_Word_Bias_in_Zero-shot_Prompt-based_Classifiers</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Mitigating Word Bias in Zero-shot Prompt-based ClassifiersWe present ZMT (Zero-Shot Multi-Task Learning), a framework that jointly optimi...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/378885725_Mitigating_Word_Bias_in_Zero-shot_Prompt-based_Classifiers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/378885725_Mitigating_Word_Bias_in_Zero-shot_Prompt-based_Classifiers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mitigating Word Bias in Zero-shot Prompt-based ClassifiersWe present ZMT (Zero-Shot Multi-Task Learning), a framework that jointly optimi...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/381189669_Batch_Calibration_Rethinking_Calibration_for_In-Context_Learning_and_Prompt_Engineering?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbCwic3ViUGFnZSI6bnVsbH19" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/381189669_Batch_Calibration_Rethinking_Calibration_for_In-Context_Learning_and_Prompt_Engineering?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbCwic3ViUGFnZSI6bnVsbH19</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Rethinking Calibration for In-Context Learning and Prompt...In the few-shot setup, we further extend BC to allow it to learn the context...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/381189669_Batch_Calibration_Rethinking_Calibration_for_In-Context_Learning_and_Prompt_Engineering?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbCwic3ViUGFnZSI6bnVsbH19" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/381189669_Batch_Calibration_Rethinking_Calibration_for_In-Context_Learning_and_Prompt_Engineering?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbCwic3ViUGFnZSI6bnVsbH19</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Rethinking Calibration for In-Context Learning and Prompt...In the few-shot setup, we further extend BC to allow it to learn the context...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=YPIA7bgd5y" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=YPIA7bgd5y</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>In-Context Learning Learns Label Relationships but Is Not...by J Kossen · Cited by 102 — In this paper, we provide novel insights into ho...</p></details>
+   Link:<a href="https://openreview.net/forum?id=YPIA7bgd5y" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=YPIA7bgd5y</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>In-Context Learning Learns Label Relationships but Is Not...by J Kossen · Cited by 102 — In this paper, we provide novel insights into ho...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: promptingguide.ai  
-   Link: <a href="https://www.promptingguide.ai/techniques/fewshot" target="_blank" rel="noopener noreferrer nofollow">https://www.promptingguide.ai/techniques/fewshot</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompting GuideFew-Shot Prompting1 Feb 2026 — Few-shot prompting can be used as a technique to enable in-context learning where we provid...</p></details>
+   Link:<a href="https://www.promptingguide.ai/techniques/fewshot" target="_blank" rel="noopener noreferrer nofollow">https://www.promptingguide.ai/techniques/fewshot</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompting GuideFew-Shot Prompting1 Feb 2026 — Few-shot prompting can be used as a technique to enable in-context learning where we provid...</p></details>
 
 ### Additional References
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/in" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/in</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>IN Definition &amp; Meaning6 days ago — The meaning of IN is —used as a function word to indicate inclusion, location, or position within lim...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/in" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/in</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>IN Definition &amp; Meaning6 days ago — The meaning of IN is —used as a function word to indicate inclusion, location, or position within lim...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: github.com  
-   Link: <a href="https://github.com/dqxiu/icl_paperlist" target="_blank" rel="noopener noreferrer nofollow">https://github.com/dqxiu/icl_paperlist</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Paper List for In-context LearningFantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity. Yao...</p></details>
+   Link:<a href="https://github.com/dqxiu/icl_paperlist" target="_blank" rel="noopener noreferrer nofollow">https://github.com/dqxiu/icl_paperlist</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Paper List for In-context LearningFantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity. Yao...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: apxml.com  
-   Link: <a href="https://apxml.com/courses/prompt-engineering-agentic-workflows/chapter-2-advanced-prompting-agent-control/few-shot-examples-agent-guidance" target="_blank" rel="noopener noreferrer nofollow">https://apxml.com/courses/prompt-engineering-agentic-workflows/chapter-2-advanced-prompting-agent-control/few-shot-examples-agent-guidance</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Utilizing Few-Shot Examples for Agent GuidanceApply few-shot learning principles within prompts to guide and adapt agent behavior with mi...</p></details>
+   Link:<a href="https://apxml.com/courses/prompt-engineering-agentic-workflows/chapter-2-advanced-prompting-agent-control/few-shot-examples-agent-guidance" target="_blank" rel="noopener noreferrer nofollow">https://apxml.com/courses/prompt-engineering-agentic-workflows/chapter-2-advanced-prompting-agent-control/few-shot-examples-agent-guidance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Utilizing Few-Shot Examples for Agent GuidanceApply few-shot learning principles within prompts to guide and adapt agent behavior with mi...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: wordwebonline.com  
-   Link: <a href="https://www.wordwebonline.com/en/IN" target="_blank" rel="noopener noreferrer nofollow">https://www.wordwebonline.com/en/IN</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>in, In, in-, IN, ins- WordWeb dictionary definitionLocated in; surrounded by · Part of; a member of · At or after a particular a period o...</p></details>
+   Link:<a href="https://www.wordwebonline.com/en/IN" target="_blank" rel="noopener noreferrer nofollow">https://www.wordwebonline.com/en/IN</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>in, In, in-, IN, ins- WordWeb dictionary definitionLocated in; surrounded by · Part of; a member of · At or after a particular a period o...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: collinsdictionary.com  
-   Link: <a href="https://www.collinsdictionary.com/dictionary/english/in" target="_blank" rel="noopener noreferrer nofollow">https://www.collinsdictionary.com/dictionary/english/in</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>inside; within · 2. at a place where there is · 3. indicating a state, situation, or condition · 4. before or when (a period of...Read more...</p></details>
+   Link:<a href="https://www.collinsdictionary.com/dictionary/english/in" target="_blank" rel="noopener noreferrer nofollow">https://www.collinsdictionary.com/dictionary/english/in</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>inside; within · 2. at a place where there is · 3. indicating a state, situation, or condition · 4. before or when (a period of...Read more...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: sambanova.ai  
    Title: many shot prompting a practical guide to icl  
-   Link: <a href="https://sambanova.ai/blog/many-shot-prompting-a-practical-guide-to-icl" target="_blank" rel="noopener noreferrer nofollow">https://sambanova.ai/blog/many-shot-prompting-a-practical-guide-to-icl</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Many-Shot Prompting: A Practical Guide to In-Context...Apr 22, 2026 — We ran thousands of experiments on many-shot in-context learning (...</p></details>
+   Link:<a href="https://sambanova.ai/blog/many-shot-prompting-a-practical-guide-to-icl" target="_blank" rel="noopener noreferrer nofollow">https://sambanova.ai/blog/many-shot-prompting-a-practical-guide-to-icl</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Many-Shot Prompting: A Practical Guide to In-Context...Apr 22, 2026 — We ran thousands of experiments on many-shot in-context learning (...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: sandgarden.com  
-   Link: <a href="https://www.sandgarden.com/learn/few-shot-prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.sandgarden.com/learn/few-shot-prompting</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>more predictable outcomes—especially useful in practical, real-world...</p></details>
+   Link:<a href="https://www.sandgarden.com/learn/few-shot-prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.sandgarden.com/learn/few-shot-prompting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>more predictable outcomes—especially useful in practical, real-world...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40anicomanesh/mastering-few-shot-and-zero-shot-learning-in-llms-a-deep-dive-into-cross-domain-generalization-b33f779f5259" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40anicomanesh/mastering-few-shot-and-zero-shot-learning-in-llms-a-deep-dive-into-cross-domain-generalization-b33f779f5259</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>st a few input-output examples in the prompt. Typically...</p></details>
+   Link:<a href="https://medium.com/%40anicomanesh/mastering-few-shot-and-zero-shot-learning-in-llms-a-deep-dive-into-cross-domain-generalization-b33f779f5259" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40anicomanesh/mastering-few-shot-and-zero-shot-learning-in-llms-a-deep-dive-into-cross-domain-generalization-b33f779f5259</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>st a few input-output examples in the prompt. Typically...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: youtube.com  
-   Link: <a href="http://www.youtube.com/watch?v=mW0Cb3UCNBQ" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=mW0Cb3UCNBQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Rethinking the Role of Demonstrations What Makes In Context Learning Work James...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=mW0Cb3UCNBQ" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=mW0Cb3UCNBQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Rethinking the Role of Demonstrations What Makes In Context Learning Work James...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: comet.com  
-   Link: <a href="https://www.comet.com/site/blog/few-shot-prompting/" target="_blank" rel="noopener noreferrer nofollow">https://www.comet.com/site/blog/few-shot-prompting/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Prompting for Agentic Systems: Teaching by Example7 Mar 2026 — Few-shot prompting is a method that gives an LLM 2-5 examples to...</p></details>
+   Link:<a href="https://www.comet.com/site/blog/few-shot-prompting/" target="_blank" rel="noopener noreferrer nofollow">https://www.comet.com/site/blog/few-shot-prompting/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Few-Shot Prompting for Agentic Systems: Teaching by Example7 Mar 2026 — Few-shot prompting is a method that gives an LLM 2-5 examples to...</p></details>

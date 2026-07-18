@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6
 
 ## Introduction
 
-ResNet, short for Residual Network, became a landmark moment in artificial intelligence because it demonstrated that neural networks could be trained at depths that had previously seemed impractical. Before ResNet, researchers knew that deeper models should, in theory, learn richer representations. In practice, however, adding layers often made training harder and could even reduce accuracy. ResNet showed that this limitation was not an unavoidable consequence of depth itself. By redesigning how information moved through a network using shortcut paths, the architecture enabled models with more than 100 layers to train successfully and outperform much shallower systems. The results transformed [deep learning]({{ 'deep-learning/' | relative_url }}) research and helped establish a new belief: extreme depth could be useful if the architecture was designed correctly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
+ResNet, short for Residual Network, became a landmark moment in artificial intelligence because it demonstrated that neural networks could be trained at depths that had previously seemed impractical. Before ResNet, researchers knew that deeper models should, in theory, learn richer representations. In practice, however, adding layers often made training harder and could even reduce accuracy. ResNet showed that this limitation was not an unavoidable consequence of depth itself. By redesigning how information moved through a network using shortcut paths, the architecture enabled models with more than 100 layers to train successfully and outperform much shallower systems. The results transformed [deep learning]({{ 'deep-learning/' | relative_url }}) research and helped establish a new belief: extreme depth could be useful if the architecture was designed correctly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6b95e_resnet_extrem_0e077a-Illustration-1-dark.svg" | relative_url }}" alt="Res Net depth illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6b95e_resnet_extrem_0e077a-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6b95e_resnet_extrem_0e077a-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,11 +277,11 @@ ResNet, short for Residual Network, became a landmark moment in artificial intel
 
 The importance of ResNet was not simply that it introduced another neural-network architecture. Its significance was that it provided convincing evidence against a widely held practical assumption of the time: that very deep networks were inherently too difficult to optimise.
 
-The ResNet team focused on what they called the degradation problem. Researchers observed that when conventional networks became much deeper, training error could increase rather than decrease. This was surprising because a deeper network should always be capable of matching a shallower one by learning [identity mappings]({{ 'identity-mapping/' | relative_url }}) in its extra layers. Yet standard optimisation methods often failed to find those solutions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
+The ResNet team focused on what they called the degradation problem. Researchers observed that when conventional networks became much deeper, training error could increase rather than decrease. This was surprising because a deeper network should always be capable of matching a shallower one by learning [identity mappings]({{ 'identity-mapping/' | relative_url }}) in its extra layers. Yet standard optimisation methods often failed to find those solutions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
 
-ResNet addressed this by introducing residual blocks. Instead of forcing every layer stack to learn a completely new transformation, the architecture allowed information to travel along shortcut connections while the main path learned only the residual change. This made it easier for optimisation algorithms to preserve useful information and adjust it incrementally when necessary. The result was not merely a theoretical improvement; it changed the observed behaviour of deep networks during training. Models could become substantially deeper without suffering the severe optimisation difficulties that had previously appeared. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2BibBase]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
+ResNet addressed this by introducing residual blocks. Instead of forcing every layer stack to learn a completely new transformation, the architecture allowed information to travel along shortcut connections while the main path learned only the residual change. This made it easier for optimisation algorithms to preserve useful information and adjust it incrementally when necessary. The result was not merely a theoretical improvement; it changed the observed behaviour of deep networks during training. Models could become substantially deeper without suffering the severe optimisation difficulties that had previously appeared.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2BibBase]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
 
-A key reason the architecture proved so influential is that it reframed the question from “How can we train deeper networks?” to “How should information flow through deeper networks?” ResNet suggested that depth itself was not the enemy. The real challenge was ensuring that signals and gradients could move efficiently through many layers. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
+A key reason the architecture proved so influential is that it reframed the question from “How can we train deeper networks?” to “How should information flow through deeper networks?” ResNet suggested that depth itself was not the enemy. The real challenge was ensuring that signals and gradients could move efficiently through many layers.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/C6tLw-rPQ2o" title="Deep Residual Learning for Image Recognition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=C6tLw-rPQ2o" target="_blank" rel="noopener noreferrer">Deep Residual Learning for Image Recognition</a></p><p class="youtube-embed-meta">Channel: ComputerVisionFoundation Videos &middot; Views: 32.3K &middot; Uploaded: September 2016 &middot; Length: 11 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=C6tLw-rPQ2o" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=C6tLw-rPQ2o">Open on YouTube</a></p></div></div></div>
@@ -290,13 +290,13 @@ A key reason the architecture proved so influential is that it reframed the ques
 
 Architectural ideas become influential when they produce measurable gains on important [benchmarks]({{ 'benchmarks/' | relative_url }}). ResNet's breakthrough came on ImageNet, the large-scale image-recognition challenge that served as one of the most important tests of computer vision systems in the 2010s.
 
-The original ResNet paper reported successful training of a network with 152 layers, roughly eight times deeper than the influential VGG architecture that had previously set performance standards. Despite its extraordinary depth, the model achieved lower error rates while maintaining manageable computational complexity. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
+The original ResNet paper reported successful training of a network with 152 layers, roughly eight times deeper than the influential VGG architecture that had previously set performance standards. Despite its extraordinary depth, the model achieved lower error rates while maintaining manageable computational complexity.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
 
-Even more striking was the comparison with previous state-of-the-art systems. The 152-layer ResNet achieved a single-model top-5 [validation]({{ 'stop-training/' | relative_url }}) error of 4.49%, outperforming results that had previously required ensembles of multiple models. An ensemble of ResNets later achieved a 3.57% error rate and won first place in the 2015 ImageNet Large Scale Visual Recognition Challenge (ILSVRC). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cv-foundation.org">[cv-foundation.org+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cv-foundation.org</span><span class="citation-popover-title">He Deep Residual Learning CVPR 2016 paper</span><span class="citation-popover-snippet">This single-model result outperforms all previous ensemble results (Table 5). We...</span></span></span>
+Even more striking was the comparison with previous state-of-the-art systems. The 152-layer ResNet achieved a single-model top-5 [validation]({{ 'stop-training/' | relative_url }}) error of 4.49%, outperforming results that had previously required ensembles of multiple models. An ensemble of ResNets later achieved a 3.57% error rate and won first place in the 2015 ImageNet Large Scale Visual Recognition Challenge (ILSVRC).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cv-foundation.org">[cv-foundation.org+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cv-foundation.org</span><span class="citation-popover-title">He Deep Residual Learning CVPR 2016 paper</span><span class="citation-popover-snippet">This single-model result outperforms all previous ensemble results (Table 5). We...</span></span></span>
 
-These results mattered because they showed that depth was delivering real performance gains rather than merely increasing model size. Researchers had long suspected that deeper networks could learn better representations, but ResNet provided a practical demonstration on a globally recognised benchmark. The architecture did not merely survive at extreme depth; it benefited from it. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cv-foundation.org">[cv-foundation.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cv-foundation.org</span><span class="citation-popover-title">He Deep Residual Learning CVPR 2016 paper</span><span class="citation-popover-snippet">This single-model result outperforms all previous ensemble results (Table 5). We...</span></span></span>
+These results mattered because they showed that depth was delivering real performance gains rather than merely increasing model size. Researchers had long suspected that deeper networks could learn better representations, but ResNet provided a practical demonstration on a globally recognised benchmark. The architecture did not merely survive at extreme depth; it benefited from it.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cv-foundation.org">[cv-foundation.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cv-foundation.org</span><span class="citation-popover-title">He Deep Residual Learning CVPR 2016 paper</span><span class="citation-popover-snippet">This single-model result outperforms all previous ensemble results (Table 5). We...</span></span></span>
 
-The paper also presented experiments on CIFAR-10 with networks reaching hundreds and even one thousand layers. Although such extreme depths were not immediately practical for all applications, they reinforced the central message that optimisation barriers could be overcome. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
+The paper also presented experiments on CIFAR-10 with networks reaching hundreds and even one thousand layers. Although such extreme depths were not immediately practical for all applications, they reinforced the central message that optimisation barriers could be overcome.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6b95e_resnet_extrem_0e077a-Illustration-2-dark.svg" | relative_url }}" alt="Res Net depth illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6b95e_resnet_extrem_0e077a-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6b95e_resnet_extrem_0e077a-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -304,9 +304,9 @@ The paper also presented experiments on CIFAR-10 with networks reaching hundreds
 
 ResNet's historical importance comes partly from what it disproved. Before its publication, many researchers viewed depth as a resource that quickly encountered diminishing returns. After ResNet, depth became a design dimension that could be expanded much more aggressively.
 
-The architecture shifted the research community's expectations. Rather than asking whether a network was too deep to train, researchers increasingly explored how architectural innovations could make even deeper systems feasible. Subsequent work investigated hundreds of layers, wider residual networks, densely connected networks, and other approaches that built directly on the idea that information should have efficient paths through a model. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Residual_neural_network" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Residual neural network</span><span class="citation-popover-snippet">Residual neural network</span></span></span>
+The architecture shifted the research community's expectations. Rather than asking whether a network was too deep to train, researchers increasingly explored how architectural innovations could make even deeper systems feasible. Subsequent work investigated hundreds of layers, wider residual networks, densely connected networks, and other approaches that built directly on the idea that information should have efficient paths through a model.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Residual_neural_network" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Residual neural network</span><span class="citation-popover-snippet">Residual neural network</span></span></span>
 
-This change in perspective was important for the broader development of AI. Many later advances depended on the assumption that optimisation challenges could be solved through architectural design. ResNet became one of the clearest demonstrations that seemingly fundamental limitations could sometimes be engineering problems rather than theoretical barriers. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://bibbase.org/network/publication/he-zhang-ren-sun-deepresiduallearningforimagerecognition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bibbase.org">[BibBase]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bibbase.org</span><span class="citation-popover-snippet">We explicitly reformulate...Read more...</span></span></span>
+This change in perspective was important for the broader development of AI. Many later advances depended on the assumption that optimisation challenges could be solved through architectural design. ResNet became one of the clearest demonstrations that seemingly fundamental limitations could sometimes be engineering problems rather than theoretical barriers.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://bibbase.org/network/publication/he-zhang-ren-sun-deepresiduallearningforimagerecognition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bibbase.org">[BibBase]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bibbase.org</span><span class="citation-popover-snippet">We explicitly reformulate...Read more...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/OE3XNTBy0hA" title="ResNet Explained - Vanishing Gradients, Skip Connections, and Code Implementation | Computer Vision" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=OE3XNTBy0hA" target="_blank" rel="noopener noreferrer">ResNet Explained - Vanishing Gradients, Skip Connections, and Code Implementation | Computer Vision</a></p><p class="youtube-embed-meta">Channel: Vizuara</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=OE3XNTBy0hA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=OE3XNTBy0hA">Open on YouTube</a></p></div></div></div>
@@ -318,188 +318,188 @@ This change in perspective was important for the broader development of AI. Many
 
 Although ResNet was created for image recognition, its deeper legacy lies in the spread of residual connections across AI.
 
-Researchers quickly adopted residual-style [shortcuts]({{ 'shortcuts/' | relative_url }}) in object detection, semantic segmentation, and other computer-vision tasks. Variants such as ResNeXt, Wide ResNet, DenseNet, and Squeeze-and-Excitation Networks all built on or responded to the residual-learning framework introduced by ResNet. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Residual_neural_network" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Residual neural network</span><span class="citation-popover-snippet">Residual neural network</span></span></span>
+Researchers quickly adopted residual-style [shortcuts]({{ 'shortcuts/' | relative_url }}) in object detection, semantic segmentation, and other computer-vision tasks. Variants such as ResNeXt, Wide ResNet, DenseNet, and Squeeze-and-Excitation Networks all built on or responded to the residual-learning framework introduced by ResNet.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Residual_neural_network" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Residual neural network</span><span class="citation-popover-snippet">Residual neural network</span></span></span>
 
-The influence eventually extended far beyond vision. Residual connections became a common design pattern in modern deep learning because they improved optimisation and information flow. They now appear in many architectures that are not usually described as ResNets, including large [language models]({{ 'language-models/' | relative_url }}) and transformer-based systems. The specific implementations differ, but the underlying principle remains recognisable: preserve useful information through shortcut pathways while allowing layers to learn refinements rather than complete replacements. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Residual_neural_network" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Residual neural network</span><span class="citation-popover-snippet">Residual neural network</span></span></span>
+The influence eventually extended far beyond vision. Residual connections became a common design pattern in modern deep learning because they improved optimisation and information flow. They now appear in many architectures that are not usually described as ResNets, including large [language models]({{ 'language-models/' | relative_url }}) and transformer-based systems. The specific implementations differ, but the underlying principle remains recognisable: preserve useful information through shortcut pathways while allowing layers to learn refinements rather than complete replacements.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Residual_neural_network" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Residual neural network</span><span class="citation-popover-snippet">Residual neural network</span></span></span>
 
-In that sense, ResNet's most enduring contribution was not a particular 152-layer network. It was the proof that extreme depth could work when information was allowed to move through a model in smarter ways. That insight reshaped neural-network design and remains embedded in many of the most powerful AI systems used today. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
+In that sense, ResNet's most enduring contribution was not a particular 152-layer network. It was the proof that extreme depth could work when information was allowed to move through a model in smarter ways. That insight reshaped neural-network design and remains embedded in many of the most powerful AI systems used today.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</span><span class="citation-popover-meta">Published: December 10, 2015</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6b95e_resnet_extrem_0e077a-Illustration-3-dark.svg" | relative_url }}" alt="Res Net depth illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6b95e_resnet_extrem_0e077a-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_skip_connecti_b6b95e_resnet_extrem_0e077a-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How Res Net made very deep AI practical. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How Res Net made very deep AI practical. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning with Python on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wzozEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning with Python" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning with Python">Deep Learning with Python</a>
-        </h4>
-        <p class="fr-book-author">By Francois Chollet</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning with Python on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wzozEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning with Python" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning with Python">Deep Learning with Python</a>
+</h4>
+<p class="fr-book-author">By Francois Chollet</p>
         
-        <p class="fr-book-desc">Shows why architectural choices improve trainability and performance.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows why architectural choices improve trainability and performance.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Dive+into+Deep+Learning+by+Aston+Zhang&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Dive into Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=vfDiEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Dive into Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Dive+into+Deep+Learning+by+Aston+Zhang&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Dive into Deep Learning">Dive into Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Aston Zhang, Zachary C. Lipton et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Dive+into+Deep+Learning+by+Aston+Zhang&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Dive into Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=vfDiEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Dive into Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Dive+into+Deep+Learning+by+Aston+Zhang&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Dive into Deep Learning">Dive into Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Aston Zhang, Zachary C. Lipton et al.</p>
         
-        <p class="fr-book-desc">Explains modern architectures including residual-style concepts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Dive+into+Deep+Learning+by+Aston+Zhang&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains modern architectures including residual-style concepts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Dive+into+Deep+Learning+by+Aston+Zhang&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Neural+Networks+and+Deep+Learning+by+Charu+C.+Aggarwal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Neural Networks and Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=achqDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Neural Networks and Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Neural+Networks+and+Deep+Learning+by+Charu+C.+Aggarwal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Neural Networks and Deep Learning">Neural Networks and Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Charu C. Aggarwal</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Neural+Networks+and+Deep+Learning+by+Charu+C.+Aggarwal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Neural Networks and Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=achqDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Neural Networks and Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Neural+Networks+and+Deep+Learning+by+Charu+C.+Aggarwal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Neural Networks and Deep Learning">Neural Networks and Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Charu C. Aggarwal</p>
         
-        <p class="fr-book-desc">Explains gradient propagation and training dynamics.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Neural+Networks+and+Deep+Learning+by+Charu+C.+Aggarwal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains gradient propagation and training dynamics.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Neural+Networks+and+Deep+Learning+by+Charu+C.+Aggarwal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Covers optimisation challenges, gradient flow, and deep architectures.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Covers optimisation challenges, gradient flow, and deep architectures.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+with+Python&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning with Python</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Dive+into+Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Dive into Deep Learning</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Neural+Networks+and+Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Neural Networks and Deep Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+with+Python&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning with Python</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Dive+into+Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Dive into Deep Learning</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Neural+Networks+and+Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Neural Networks and Deep Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5dab8409dd06438db006.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5dab8409dd06438db006.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/fd00da1c57d275a856b1.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/fd00da1c57d275a856b1.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="res-net-depth-how-res-net-made-very-deep-ai-practical-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -515,7 +515,7 @@ In that sense, ResNet's most enduring contribution was not a particular 152-laye
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -535,7 +535,7 @@ In that sense, ResNet's most enduring contribution was not a particular 152-laye
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -567,7 +567,7 @@ In that sense, ResNet's most enduring contribution was not a particular 152-laye
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -619,7 +619,7 @@ In that sense, ResNet's most enduring contribution was not a particular 152-laye
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -664,7 +664,7 @@ In that sense, ResNet's most enduring contribution was not a particular 152-laye
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -705,117 +705,117 @@ In that sense, ResNet's most enduring contribution was not a particular 152-laye
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1512.03385</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</p></details>
+   Link:<a href="https://arxiv.org/abs/1512.03385" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1512.03385</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>arXiv[1512.03385] Deep Residual Learning for Image RecognitionDecember 10, 2015 — by K He · 2015 · Cited by 320310 — On the ImageNet data...</p></details>
    Published: December 10, 2015  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: bibbase.org  
-   Link: <a href="https://bibbase.org/network/publication/he-zhang-ren-sun-deepresiduallearningforimagerecognition" target="_blank" rel="noopener noreferrer nofollow">https://bibbase.org/network/publication/he-zhang-ren-sun-deepresiduallearningforimagerecognition</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>We explicitly reformulate...Read more...</p></details>
+   Link:<a href="https://bibbase.org/network/publication/he-zhang-ren-sun-deepresiduallearningforimagerecognition" target="_blank" rel="noopener noreferrer nofollow">https://bibbase.org/network/publication/he-zhang-ren-sun-deepresiduallearningforimagerecognition</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We explicitly reformulate...Read more...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: Wikipedia  
    Title: Residual neural network  
-   Link: <a href="https://en.wikipedia.org/wiki/Residual_neural_network" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Residual_neural_network</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Residual_neural_network" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Residual_neural_network</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1512.03385?u=http%3A%2F%2Farxiv.org%2Fabs%2F1512.03385" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1512.03385?u=http%3A%2F%2Farxiv.org%2Fabs%2F1512.03385</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>[1512.03385] Deep Residual Learning for Image Recognitionby K He · 2015 · Cited by 321536 — On the ImageNet dataset we evaluate residual...</p></details>
+   Link:<a href="https://arxiv.org/abs/1512.03385?u=http%3A%2F%2Farxiv.org%2Fabs%2F1512.03385" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1512.03385?u=http%3A%2F%2Farxiv.org%2Fabs%2F1512.03385</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[1512.03385] Deep Residual Learning for Image Recognitionby K He · 2015 · Cited by 321536 — On the ImageNet dataset we evaluate residual...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: cv-foundation.org  
    Title: He Deep Residual Learning CVPR 2016 paper  
-   Link: <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>This single-model result outperforms all previous ensemble results (Table 5). We...</p></details>
+   Link:<a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This single-model result outperforms all previous ensemble results (Table 5). We...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2405.01725" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2405.01725</a>  
+   Link:<a href="https://arxiv.org/abs/2405.01725" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2405.01725</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2405.01725v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2405.01725v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Development of Skip Connection in Deep Neural Networks...2 May 2024 — Previous studies have shown that the idea of skip connections or r...</p></details>
+   Link:<a href="https://arxiv.org/html/2405.01725v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2405.01725v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Development of Skip Connection in Deep Neural Networks...2 May 2024 — Previous studies have shown that the idea of skip connections or r...</p></details>
    Published: May 2024  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/1512.03385" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1512.03385</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>1512.03385v1 [cs.CV] 10 Dec 2015by K He · 2015 · Cited by 320310 — ResNet reduces the top-1 error by 3.5% (Table 2), resulting from...</p></details>
+   Link:<a href="https://arxiv.org/pdf/1512.03385" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1512.03385</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>1512.03385v1 [cs.CV] 10 Dec 2015by K He · 2015 · Cited by 320310 — ResNet reduces the top-1 error by 3.5% (Table 2), resulting from...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: resnet.us  
-   Link: <a href="https://www.resnet.us/about/us/" target="_blank" rel="noopener noreferrer nofollow">https://www.resnet.us/about/us/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>United States.Read more...</p></details>
+   Link:<a href="https://www.resnet.us/about/us/" target="_blank" rel="noopener noreferrer nofollow">https://www.resnet.us/about/us/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>United States.Read more...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: mohitjain.me  
-   Link: <a href="https://mohitjain.me/2018/06/13/resnet/" target="_blank" rel="noopener noreferrer nofollow">https://mohitjain.me/2018/06/13/resnet/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The problem is the degradation problem; as we increase the depth of the network, instead of the accuracy increasing, it drops. This...Re...</p></details>
+   Link:<a href="https://mohitjain.me/2018/06/13/resnet/" target="_blank" rel="noopener noreferrer nofollow">https://mohitjain.me/2018/06/13/resnet/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The problem is the degradation problem; as we increase the depth of the network, instead of the accuracy increasing, it drops. This...Re...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: steggie3.github.io  
-   Link: <a href="https://steggie3.github.io/tech/resnet/" target="_blank" rel="noopener noreferrer nofollow">https://steggie3.github.io/tech/resnet/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Residual Learning for Image Recognition...19 Aug 2018 — ResNet is proposed in the 2015 paper Deep Residual Learning for Image Recog...</p></details>
+   Link:<a href="https://steggie3.github.io/tech/resnet/" target="_blank" rel="noopener noreferrer nofollow">https://steggie3.github.io/tech/resnet/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Residual Learning for Image Recognition...19 Aug 2018 — ResNet is proposed in the 2015 paper Deep Residual Learning for Image Recog...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: rupeshks.cc  
-   Link: <a href="https://rupeshks.cc/blog/skip.html" target="_blank" rel="noopener noreferrer nofollow">https://rupeshks.cc/blog/skip.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The paper Identity Mappings in Deep Residual Networks has design mistakes leading to...Read more...</p></details>
+   Link:<a href="https://rupeshks.cc/blog/skip.html" target="_blank" rel="noopener noreferrer nofollow">https://rupeshks.cc/blog/skip.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The paper Identity Mappings in Deep Residual Networks has design mistakes leading to...Read more...</p></details>
 
 ### Additional References
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/311609041_Deep_Residual_Learning_for_Image_Recognition" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/311609041_Deep_Residual_Learning_for_Image_Recognition</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Residual Learning for Image RecognitionLater, ResNet addressed the degradation problem in deep neural networks through residual lear...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/311609041_Deep_Residual_Learning_for_Image_Recognition" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/311609041_Deep_Residual_Learning_for_Image_Recognition</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Residual Learning for Image RecognitionLater, ResNet addressed the degradation problem in deep neural networks through residual lear...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: deepseek.com  
-   Link: <a href="https://www.deepseek.com/en/" target="_blank" rel="noopener noreferrer nofollow">https://www.deepseek.com/en/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Free access to DeepSeek. Experience the intelligent model. Access API. Build with the latest DeepSeek models. Powerful models, sm...</p></details>
+   Link:<a href="https://www.deepseek.com/en/" target="_blank" rel="noopener noreferrer nofollow">https://www.deepseek.com/en/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Free access to DeepSeek. Experience the intelligent model. Access API. Build with the latest DeepSeek models. Powerful models, sm...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40tnodecode/resnet-e7e0cba19e04" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40tnodecode/resnet-e7e0cba19e04</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ResNet. How skip connections enabled very deep…How skip connections enabled very deep networks and tackled problems like vanishing gradie...</p></details>
+   Link:<a href="https://medium.com/%40tnodecode/resnet-e7e0cba19e04" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40tnodecode/resnet-e7e0cba19e04</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ResNet. How skip connections enabled very deep…How skip connections enabled very deep networks and tackled problems like vanishing gradie...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: viso.ai  
-   Link: <a href="https://viso.ai/deep-learning/resnet-residual-neural-network/" target="_blank" rel="noopener noreferrer nofollow">https://viso.ai/deep-learning/resnet-residual-neural-network/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ResNet: Revolutionizing Deep Learning in Image RecognitionDeep residual networks like the popular ResNet-50 model are a convolutional neu...</p></details>
+   Link:<a href="https://viso.ai/deep-learning/resnet-residual-neural-network/" target="_blank" rel="noopener noreferrer nofollow">https://viso.ai/deep-learning/resnet-residual-neural-network/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ResNet: Revolutionizing Deep Learning in Image RecognitionDeep residual networks like the popular ResNet-50 model are a convolutional neu...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40pranav.bhagwat_36/[understanding" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40pranav.bhagwat_36/[understanding</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the Residual Learning Framework for...The final 152-layer ResNet achieved a top 5 error rate of 3.57 percent on the ImageN...</p></details>
+   Link:<a href="https://medium.com/%40pranav.bhagwat_36/[understanding" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40pranav.bhagwat_36/[understanding</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the Residual Learning Framework for...The final 152-layer ResNet achieved a top 5 error rate of 3.57 percent on the ImageN...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[D] Has the ResNet Hypothesis been debunked?The ResNet architecture was [invented](&amp;#123;&amp;#123; &#x27;fake-citations-d81942/&#x27; | relative_url &amp;#125;&amp;#125;) to solve the degradation problem that has been empirical...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/px3hzd/d_has_the_resnet_hypothesis_been_debunked/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[D] Has the ResNet Hypothesis been debunked?The ResNet architecture was [invented](&amp;#123;&amp;#123; &#x27;fake-citations-d81942/&#x27; | relative_url &amp;#125;&amp;#125;) to solve the degradation problem that has been empirical...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: scribd.com  
-   Link: <a href="https://www.scribd.com/document/677483373/ResNet" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/677483373/ResNet</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>converge on the ImageNet dataset. ○ For too deep network, layers at later stages is. suspected to contribute...Read more...</p></details>
+   Link:<a href="https://www.scribd.com/document/677483373/ResNet" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/677483373/ResNet</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>converge on the ImageNet dataset. ○ For too deep network, layers at later stages is. suspected to contribute...Read more...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=C6tLw-rPQ2o" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=C6tLw-rPQ2o</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Residual Learning for Image RecognitionWe have proposed deep residual networks which are very easy to train and they can simply gain...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=C6tLw-rPQ2o" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=C6tLw-rPQ2o</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Residual Learning for Image RecognitionWe have proposed deep residual networks which are very easy to train and they can simply gain...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=cL8RqY1slI8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=cL8RqY1slI8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ResNet Explained — Deep Residual Learning for Image...A short walkthrough of &quot;Deep Residual Learning for Image Recognition&quot; by He, Zhang...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=cL8RqY1slI8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=cL8RqY1slI8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ResNet Explained — Deep Residual Learning for Image...A short walkthrough of &quot;Deep Residual Learning for Image Recognition&quot; by He, Zhang...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: sjpyo.tistory.com  
    Title: Image Net Classification with Deep Convolutional Neural Networks;  
-   Link: <a href="https://sjpyo.tistory.com/72" target="_blank" rel="noopener noreferrer nofollow">https://sjpyo.tistory.com/72</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>residual learning for image recognition; ResNet (2015)- Try to resolve degradation problem with deeper network which isn&#x27;t caused by over...</p></details>
+   Link:<a href="https://sjpyo.tistory.com/72" target="_blank" rel="noopener noreferrer nofollow">https://sjpyo.tistory.com/72</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>residual learning for image recognition; ResNet (2015)- Try to resolve degradation problem with deeper network which isn&#x27;t caused by over...</p></details>

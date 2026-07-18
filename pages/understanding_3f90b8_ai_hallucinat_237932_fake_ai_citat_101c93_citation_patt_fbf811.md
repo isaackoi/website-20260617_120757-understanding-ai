@@ -275,7 +275,7 @@ image: /assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_10
 
 ## Introduction
 
-Fake AI citations are rarely random inventions. They are usually assembled from patterns the model has learned about what a credible reference should look like. This is why a fabricated source can appear so convincing: the author names look plausible, the journal title fits the topic, the publication year seems reasonable, and even identifiers such as page numbers or case citations follow familiar conventions. The model has learned the structure of authority so well that it can generate references that resemble genuine scholarship even when no matching source exists. Research across academic, medical, and legal domains shows that these citation-shaped [hallucinations]({{ 'hallucinations/' | relative_url }}) are a persistent failure mode of large [language models]({{ 'language-models/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
+Fake AI citations are rarely random inventions. They are usually assembled from patterns the model has learned about what a credible reference should look like. This is why a fabricated source can appear so convincing: the author names look plausible, the journal title fits the topic, the publication year seems reasonable, and even identifiers such as page numbers or case citations follow familiar conventions. The model has learned the structure of authority so well that it can generate references that resemble genuine scholarship even when no matching source exists. Research across academic, medical, and legal domains shows that these citation-shaped [hallucinations]({{ 'hallucinations/' | relative_url }}) are a persistent failure mode of large [language models]({{ 'language-models/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_citation_patt_fbf811-Illustration-1-dark.svg" | relative_url }}" alt="Fake Sources illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_citation_patt_fbf811-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_citation_patt_fbf811-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -283,7 +283,7 @@ Fake AI citations are rarely random inventions. They are usually assembled from 
 
 ## How models learn citation grammar
 
-A citation is not just a collection of facts. It follows a highly regular pattern. Academic references contain predictable combinations of author names, publication years, titles, journals, volume numbers, page ranges, and identifiers. Legal citations have similarly rigid structures. During training, language models encounter millions of these patterns and become highly skilled at reproducing them. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
+A citation is not just a collection of facts. It follows a highly regular pattern. Academic references contain predictable combinations of author names, publication years, titles, journals, volume numbers, page ranges, and identifiers. Legal citations have similarly rigid structures. During training, language models encounter millions of these patterns and become highly skilled at reproducing them.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
 
 The important point is that the model is learning statistical relationships, not maintaining a verified catalogue of every source ever published. It learns that:
 
@@ -297,7 +297,7 @@ The important point is that the model is learning statistical relationships, not
 
 </div>
 
-When asked for references, the model can combine these learned elements into a citation that looks authentic because every component individually resembles something real. The resulting reference may be entirely fabricated, partly fabricated, or a hybrid assembled from fragments of genuine publications. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
+When asked for references, the model can combine these learned elements into a citation that looks authentic because every component individually resembles something real. The resulting reference may be entirely fabricated, partly fabricated, or a hybrid assembled from fragments of genuine publications.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
 
 This is similar to how a person can produce a grammatically correct sentence about an event that never happened. The structure is correct even when the underlying claim is false.
 
@@ -308,31 +308,31 @@ This is similar to how a person can produce a grammatically correct sentence abo
 
 The transition from citation pattern to fake source occurs because language generation and source [verification]({{ 'verification-cost/' | relative_url }}) are different tasks.
 
-A language model's primary objective is to predict likely text. If a user asks for supporting evidence on a specialised topic, the model often generates the kind of reference that would normally accompany such a claim. Unless it is connected to a retrieval system or external database, it has no built-in mechanism that guarantees the source actually exists. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
+A language model's primary objective is to predict likely text. If a user asks for supporting evidence on a specialised topic, the model often generates the kind of reference that would normally accompany such a claim. Unless it is connected to a retrieval system or external database, it has no built-in mechanism that guarantees the source actually exists.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
 
-Researchers studying hallucinated references have found that fabricated citations frequently contain a mixture of correct and incorrect details. A title may resemble a real paper, the journal may genuinely exist, and the publication year may fit the field's timeline, yet the complete reference cannot be found anywhere. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
+Researchers studying hallucinated references have found that fabricated citations frequently contain a mixture of correct and incorrect details. A title may resemble a real paper, the journal may genuinely exist, and the publication year may fit the field's timeline, yet the complete reference cannot be found anywhere.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
 
-This happens because the model is optimising for coherence rather than verification. From the model's perspective, producing a reference that fits the statistical pattern of scholarly writing is often easier than expressing uncertainty. The output therefore reflects what a source is likely to look like rather than whether a source can be confirmed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://deepai.org/publication/do-language-models-know-when-they-re-hallucinating-references" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: deepai.org">[DeepAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">deepai.org</span><span class="citation-popover-title">Deep AIDo Language Models Know When They&#x27;re Hallucinating References? &#124; Deep AI</span><span class="citation-popover-snippet">Deep AIDo Language Models Know When They&#x27;re Hallucinating References? &#124; Deep AI</span></span></span>
+This happens because the model is optimising for coherence rather than verification. From the model's perspective, producing a reference that fits the statistical pattern of scholarly writing is often easier than expressing uncertainty. The output therefore reflects what a source is likely to look like rather than whether a source can be confirmed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://deepai.org/publication/do-language-models-know-when-they-re-hallucinating-references" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: deepai.org">[DeepAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">deepai.org</span><span class="citation-popover-title">Deep AIDo Language Models Know When They&#x27;re Hallucinating References? &#124; Deep AI</span><span class="citation-popover-snippet">Deep AIDo Language Models Know When They&#x27;re Hallucinating References? &#124; Deep AI</span></span></span>
 
 ## Examples of citation-shaped hallucinations
 
-Not all fake citations are identical. Recent analyses have identified several recurring forms of citation fabrication. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
+Not all fake citations are identical. Recent analyses have identified several recurring forms of citation fabrication.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
 
 **Total fabrication**
 
-Every major component is invented. The authors, title, publication details, and identifiers collectively describe a source that does not exist. Studies examining AI-generated references continue to find substantial rates of complete fabrication. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
+Every major component is invented. The authors, title, publication details, and identifiers collectively describe a source that does not exist. Studies examining AI-generated references continue to find substantial rates of complete fabrication.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
 
 **Partial corruption**
 
-A real source exists, but some details are altered. The title may be slightly changed, an author omitted, a publication year modified, or a digital object identifier (DOI) replaced with an incorrect one. To a casual reader, the citation still appears legitimate. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
+A real source exists, but some details are altered. The title may be slightly changed, an author omitted, a publication year modified, or a digital object identifier (DOI) replaced with an incorrect one. To a casual reader, the citation still appears legitimate.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
 
 **Identifier hijacking**
 
-The model combines a real identifier with the wrong paper or mixes details from multiple sources. Because one part of the citation is genuine, the fabricated reference can survive superficial [checking]({{ 'checklists/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
+The model combines a real identifier with the wrong paper or mixes details from multiple sources. Because one part of the citation is genuine, the fabricated reference can survive superficial [checking]({{ 'checklists/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
 
 **Semantic fabrication**
 
-The citation refers to a source that sounds exactly like the sort of paper that ought to exist. The title aligns perfectly with the topic, making the absence of a real publication difficult to notice without searching databases directly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
+The citation refers to a source that sounds exactly like the sort of paper that ought to exist. The title aligns perfectly with the topic, making the absence of a real publication difficult to notice without searching databases directly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_citation_patt_fbf811-Illustration-2-dark.svg" | relative_url }}" alt="Fake Sources illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_citation_patt_fbf811-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_citation_patt_fbf811-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -340,9 +340,9 @@ The citation refers to a source that sounds exactly like the sort of paper that 
 
 One reason fabricated references are dangerous is that they exploit the same credibility signals humans rely on when evaluating information.
 
-Readers often judge a source before checking it. A detailed citation containing recognised journal names, realistic author lists, and precise publication information creates an impression of diligence and research. The more complete the reference appears, the more trustworthy it feels. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/s41537-023-00379-4" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">ChatGPT: these are not hallucinations – they’re fabrications and falsifications &#124; SchizophreniaAugust 19, 2023...</span><span class="citation-popover-meta">Published: August 19, 2023</span></span></span>
+Readers often judge a source before checking it. A detailed citation containing recognised journal names, realistic author lists, and precise publication information creates an impression of diligence and research. The more complete the reference appears, the more trustworthy it feels.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nature.com/articles/s41537-023-00379-4" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nature.com">[Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nature.com</span><span class="citation-popover-snippet">ChatGPT: these are not hallucinations – they’re fabrications and falsifications &#124; SchizophreniaAugust 19, 2023...</span><span class="citation-popover-meta">Published: August 19, 2023</span></span></span>
 
-Evidence suggests that this effect extends beyond casual readers. Large-scale analyses have found fabricated citations appearing in academic manuscripts and even passing through peer-review processes. Researchers studying citation validity have documented invalid references in published papers and identified significant gaps in routine citation verification practices among both authors and reviewers. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
+Evidence suggests that this effect extends beyond casual readers. Large-scale analyses have found fabricated citations appearing in academic manuscripts and even passing through peer-review processes. Researchers studying citation validity have documented invalid references in published papers and identified significant gaps in routine citation verification practices among both authors and reviewers.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: papers.cool">[Cool Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">papers.cool</span><span class="citation-popover-snippet">Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 &#124; Cool Papers - I...</span></span></span>
 
 The result is a credibility shortcut: people often verify the format before verifying the existence.
 
@@ -350,11 +350,11 @@ The result is a credibility shortcut: people often verify the format before veri
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_citation_patt_fbf811-Illustration-3-dark.svg" | relative_url }}" alt="Fake Sources illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_citation_patt_fbf811-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_fake_ai_citat_101c93_citation_patt_fbf811-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## A memorable case: when citation grammar fooled professionals
 
-The legal profession provides one of the clearest illustrations of citation-shaped hallucinations. In the widely discussed Mata v. [Avianca case]({{ 'avianca-case/' | relative_url }}), lawyers submitted court filings containing fictitious judicial decisions generated by ChatGPT. The fabricated cases included realistic case names, plausible court details, and convincing legal language. Opposing counsel eventually discovered that the cited decisions could not be found in any legal database. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Mata_v._Avianca%2C_Inc" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Mata v. Avianca, Inc</span><span class="citation-popover-snippet">Mata v. Avianca, Inc</span></span></span>
+The legal profession provides one of the clearest illustrations of citation-shaped hallucinations. In the widely discussed Mata v. [Avianca case]({{ 'avianca-case/' | relative_url }}), lawyers submitted court filings containing fictitious judicial decisions generated by ChatGPT. The fabricated cases included realistic case names, plausible court details, and convincing legal language. Opposing counsel eventually discovered that the cited decisions could not be found in any legal database.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Mata_v._Avianca%2C_Inc" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Mata v. Avianca, Inc</span><span class="citation-popover-snippet">Mata v. Avianca, Inc</span></span></span>
 
-What made the incident notable was not merely that the citations were false. It was that they looked authentic enough to enter formal legal documents. The model had successfully reproduced the grammar of legal authority without providing real authority. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://legalclarity.org/what-happened-in-the-mata-v-avianca-case/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: legalclarity.org">[LegalClarity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">legalclarity.org</span><span class="citation-popover-title">Legal Clarity Mata v. Avianca: Fake Cases, Chat GPT, and Sanctions</span><span class="citation-popover-snippet">Mata v. Avianca: Fake Cases, ChatGPT, and Sanctions - LegalClarity...</span></span></span>
+What made the incident notable was not merely that the citations were false. It was that they looked authentic enough to enter formal legal documents. The model had successfully reproduced the grammar of legal authority without providing real authority.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://legalclarity.org/what-happened-in-the-mata-v-avianca-case/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: legalclarity.org">[LegalClarity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">legalclarity.org</span><span class="citation-popover-title">Legal Clarity Mata v. Avianca: Fake Cases, Chat GPT, and Sanctions</span><span class="citation-popover-snippet">Mata v. Avianca: Fake Cases, ChatGPT, and Sanctions - LegalClarity...</span></span></span>
 
-Similar incidents have continued to appear in courts, reinforcing the lesson that realistic citation structure should never be mistaken for evidence that verification has occurred. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">Judge rules both sides in lawsuit misused AI, disqualifies lawyers</span><span class="citation-popover-snippet">District Judge in Mississippi, Sharion Aycock, has disqualified all attorneys involved in a contract dispute case after discovering both...</span></span></span>
+Similar incidents have continued to appear in courts, reinforcing the lesson that realistic citation structure should never be mistaken for evidence that verification has occurred.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">Judge rules both sides in lawsuit misused AI, disqualifies lawyers</span><span class="citation-popover-snippet">District Judge in Mississippi, Sharion Aycock, has disqualified all attorneys involved in a contract dispute case after discovering both...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/Czc-x-4NKu0" title="Why AI Hallucinates Academic References | GPT-5.2, Claude 4.6 | Sonnet | Gemini 2.5 Pro |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=Czc-x-4NKu0" target="_blank" rel="noopener noreferrer">Why AI Hallucinates Academic References | GPT-5.2, Claude 4.6 | Sonnet | Gemini 2.5 Pro |</a></p><p class="youtube-embed-meta">Channel: THE NEXUS DECK</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=Czc-x-4NKu0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=Czc-x-4NKu0">Open on YouTube</a></p></div></div></div>
@@ -363,187 +363,187 @@ Similar incidents have continued to appear in courts, reinforcing the lesson tha
 
 The central mechanism is simple but powerful: language models learn how references are constructed before they learn whether any particular reference exists.
 
-Because scholarly citations follow highly regular patterns, a model can generate references that satisfy nearly every visual and structural expectation of academic authority. When verification is absent, statistical prediction fills the gap. The output therefore inherits the appearance of scholarship without necessarily inheriting its evidential foundation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2DeepAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
+Because scholarly citations follow highly regular patterns, a model can generate references that satisfy nearly every visual and structural expectation of academic authority. When verification is absent, statistical prediction fills the gap. The output therefore inherits the appearance of scholarship without necessarily inheriting its evidential foundation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2DeepAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
 
-This is why fake citations sound so real. They are not random errors. They are the product of a system that has become remarkably good at imitating the form of knowledge, even when it cannot confirm the source behind it. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
+This is why fake citations sound so real. They are not random errors. They are the product of a system that has become remarkably good at imitating the form of knowledge, even when it cannot confirm the source behind it.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</span><span class="citation-popover-meta">Published: May 29, 2023</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/Cbe_mhdr4nM" title="Introduction to AI for Data Analytics (Webinar)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=Cbe_mhdr4nM" target="_blank" rel="noopener noreferrer">Introduction to AI for Data Analytics (Webinar)</a></p><p class="youtube-embed-meta">Channel: Graduate School USA</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=Cbe_mhdr4nM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=Cbe_mhdr4nM">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why fake citations sound so real. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why fake citations sound so real. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Explains why AI systems generate convincing but unreliable outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why AI systems generate convincing but unreliable outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Examines how AI objectives and outputs can diverge from reality.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines how AI objectives and outputs can diverge from reality.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open You Look Like a Thing and I Love You on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sFvYwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for You Look Like a Thing and I Love You" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="You Look Like a Thing and I Love You">You Look Like a Thing and I Love You</a>
-        </h4>
-        <p class="fr-book-author">By Janelle Shane</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open You Look Like a Thing and I Love You on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sFvYwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for You Look Like a Thing and I Love You" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="You Look Like a Thing and I Love You">You Look Like a Thing and I Love You</a>
+</h4>
+<p class="fr-book-author">By Janelle Shane</p>
         
-        <p class="fr-book-desc">Demonstrates common AI failure modes and pattern-based mistakes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Demonstrates common AI failure modes and pattern-based mistakes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You+by+Janelle+Shane&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Provides background on why AI outputs require oversight and verification.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides background on why AI outputs require oversight and verification.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">You Look Like a Thing and I Love You</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=You+Look+Like+a+Thing+and+I+Love+You&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">You Look Like a Thing and I Love You</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED"><img src="{{ '/assets/images/marketplace-covers/2587f03ea8b9b9b968c4.jpg' | relative_url }}" alt="Listing image for WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED"><img src="{{ '/assets/images/marketplace-covers/2587f03ea8b9b9b968c4.jpg' | relative_url }}" alt="Listing image for WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">WORLDS MOST MODEST ARTIFICIAL INTELLIGENCE ENGINEER SARCASTIC MUG PERSONALISED</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I fear human stupidity more than artificial intelligence - Black Glossy Mug"><img src="{{ '/assets/images/marketplace-covers/52595bd15c672bf8b55a.jpg' | relative_url }}" alt="Listing image for I fear human stupidity more than artificial intelligence - Black Glossy Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">I fear human stupidity more than artificial intelligence - Black Glossy Mug</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I fear human stupidity more than artificial intelligence - Black Glossy Mug"><img src="{{ '/assets/images/marketplace-covers/52595bd15c672bf8b55a.jpg' | relative_url }}" alt="Listing image for I fear human stupidity more than artificial intelligence - Black Glossy Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">I fear human stupidity more than artificial intelligence - Black Glossy Mug</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an..."><img src="{{ '/assets/images/marketplace-covers/ebfb234fb4391926139c.jpg' | relative_url }}" alt="Listing image for Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an..." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an...</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an..."><img src="{{ '/assets/images/marketplace-covers/ebfb234fb4391926139c.jpg' | relative_url }}" alt="Listing image for Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an..." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">Here Sits The Tea Of The Worlds Best Artificial Intelligence Student - Mug an...</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence mug" data-ebay-reference="fake-sources-why-fake-citations-sound-so-real-understanding-artificial-intelligence-mug" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -559,7 +559,7 @@ This is why fake citations sound so real. They are not random errors. They are t
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -579,7 +579,7 @@ This is why fake citations sound so real. They are not random errors. They are t
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -611,7 +611,7 @@ This is why fake citations sound so real. They are not random errors. They are t
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -663,7 +663,7 @@ This is why fake citations sound so real. They are not random errors. They are t
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -708,7 +708,7 @@ This is why fake citations sound so real. They are not random errors. They are t
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -749,106 +749,106 @@ This is why fake citations sound so real. They are not random errors. They are t
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/371136684_Do_Language_Models_Know_When_They%27re_Hallucinating_References</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ResearchGate(PDF) Do Language Models Know When They&#x27;re Hallucinating References?May 29, 2023...</p></details>
    Published: May 29, 2023  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: mdpi.com  
-   Link: <a href="https://www.mdpi.com/2306-5729/11/5/122" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2306-5729/11/5/122</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating the Integrity of LLM-Generated Citations: Prevalence and Risks of Fabricated References in Scientific Literature...</p></details>
+   Link:<a href="https://www.mdpi.com/2306-5729/11/5/122" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2306-5729/11/5/122</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating the Integrity of LLM-Generated Citations: Prevalence and Risks of Fabricated References in Scientific Literature...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: deepai.org  
    Title: Deep AIDo Language Models Know When They're Hallucinating References? | Deep AI  
-   Link: <a href="https://deepai.org/publication/do-language-models-know-when-they-re-hallucinating-references" target="_blank" rel="noopener noreferrer nofollow">https://deepai.org/publication/do-language-models-know-when-they-re-hallucinating-references</a>  
+   Link:<a href="https://deepai.org/publication/do-language-models-know-when-they-re-hallucinating-references" target="_blank" rel="noopener noreferrer nofollow">https://deepai.org/publication/do-language-models-know-when-they-re-hallucinating-references</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: papers.cool  
-   Link: <a href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow">https://papers.cool/arxiv/2602.05930</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 | Cool Papers - I...</p></details>
+   Link:<a href="https://papers.cool/arxiv/2602.05930" target="_blank" rel="noopener noreferrer nofollow">https://papers.cool/arxiv/2602.05930</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Cool PapersCompound Deception in Elite Peer Review: A Failure Mode Taxonomy of 100 Fabricated Citations at NeurIPS 2025 | Cool Papers - I...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: papers.cool  
-   Link: <a href="https://papers.cool/arxiv/2603.07287" target="_blank" rel="noopener noreferrer nofollow">https://papers.cool/arxiv/2603.07287</a>  
+   Link:<a href="https://papers.cool/arxiv/2603.07287" target="_blank" rel="noopener noreferrer nofollow">https://papers.cool/arxiv/2603.07287</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41537-023-00379-4" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41537-023-00379-4</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT: these are not hallucinations – they’re fabrications and falsifications | SchizophreniaAugust 19, 2023...</p></details>
+   Link:<a href="https://www.nature.com/articles/s41537-023-00379-4" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41537-023-00379-4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT: these are not hallucinations – they’re fabrications and falsifications | SchizophreniaAugust 19, 2023...</p></details>
    Published: August 19, 2023  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: Wikipedia  
    Title: Mata v. Avianca, Inc  
-   Link: <a href="https://en.wikipedia.org/wiki/Mata_v._Avianca%2C_Inc" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Mata_v._Avianca%2C_Inc</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Mata_v._Avianca%2C_Inc" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Mata_v._Avianca%2C_Inc</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: legalclarity.org  
    Title: Legal Clarity Mata v. Avianca: Fake Cases, Chat GPT, and [Sanctions](&#123;&#123; 'sanctions/' | relative_url &#125;&#125;)  
-   Link: <a href="https://legalclarity.org/what-happened-in-the-mata-v-avianca-case/" target="_blank" rel="noopener noreferrer nofollow">https://legalclarity.org/what-happened-in-the-mata-v-avianca-case/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca: Fake Cases, ChatGPT, and Sanctions - LegalClarity...</p></details>
+   Link:<a href="https://legalclarity.org/what-happened-in-the-mata-v-avianca-case/" target="_blank" rel="noopener noreferrer nofollow">https://legalclarity.org/what-happened-in-the-mata-v-avianca-case/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca: Fake Cases, ChatGPT, and Sanctions - LegalClarity...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: reuters.com  
    Title: Judge rules both sides in lawsuit misused AI, disqualifies lawyers  
-   Link: <a href="https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>District Judge in Mississippi, Sharion Aycock, has disqualified all attorneys involved in a contract dispute case after discovering both...</p></details>
+   Link:<a href="https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>District Judge in Mississippi, Sharion Aycock, has disqualified all attorneys involved in a contract dispute case after discovering both...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41598-023-34806-4" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41598-023-34806-4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>intentions of information sources can affect what information people think qualifies as true | Scientific ReportsMay 12, 2023...</p></details>
+   Link:<a href="https://www.nature.com/articles/s41598-023-34806-4" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41598-023-34806-4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>intentions of information sources can affect what information people think qualifies as true | Scientific ReportsMay 12, 2023...</p></details>
    Published: May 12, 2023  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2602.06718" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2602.06718</a>  
+   Link:<a href="https://arxiv.org/abs/2602.06718" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2602.06718</a>  
 
 ### Additional References
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: pcgamer.com  
-   Link: <a href="https://www.pcgamer.com/software/ai/both-lawyers-in-case-use-hallucinating-ai-causing-judge-to-throw-up-hands-bar-them-for-2-years-fine-everybody-and-call-the-whole-thing-off-for-60-days/" target="_blank" rel="noopener noreferrer nofollow">https://www.pcgamer.com/software/ai/both-lawyers-in-case-use-hallucinating-ai-causing-judge-to-throw-up-hands-bar-them-for-2-years-fine-everybody-and-call-the-whole-thing-off-for-60-days/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attorneys Kathleen M. Wilson and Kathryn Y. Williams used [generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) and did not verify the fictitious legal references it produced. T...</p></details>
+   Link:<a href="https://www.pcgamer.com/software/ai/both-lawyers-in-case-use-hallucinating-ai-causing-judge-to-throw-up-hands-bar-them-for-2-years-fine-everybody-and-call-the-whole-thing-off-for-60-days/" target="_blank" rel="noopener noreferrer nofollow">https://www.pcgamer.com/software/ai/both-lawyers-in-case-use-hallucinating-ai-causing-judge-to-throw-up-hands-bar-them-for-2-years-fine-everybody-and-call-the-whole-thing-off-for-60-days/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attorneys Kathleen M. Wilson and Kathryn Y. Williams used [generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) and did not verify the fictitious legal references it produced. T...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/science/comments/1p2jxl8/study_finds_nearly_twothirds_of_aigenerated/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/science/comments/1p2jxl8/study_finds_nearly_twothirds_of_aigenerated/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Study finds nearly two-thirds of AI-generated citations are fabricated or contain errors. The lack of reliability of large language...</p></details>
+   Link:<a href="https://www.reddit.com/r/science/comments/1p2jxl8/study_finds_nearly_twothirds_of_aigenerated/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/science/comments/1p2jxl8/study_finds_nearly_twothirds_of_aigenerated/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Study finds nearly two-thirds of AI-generated citations are fabricated or contain errors. The lack of reliability of large language...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: ft.com  
-   Link: <a href="https://www.ft.com/content/b3828e92-4961-4b39-84f0-c42f33be3c3f" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/b3828e92-4961-4b39-84f0-c42f33be3c3f</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GPTZero&#x27;s CEO Edward Tian warned that misinformation from authoritative firms like KPMG undermines public trust and risks spreading AI-in...</p></details>
+   Link:<a href="https://www.ft.com/content/b3828e92-4961-4b39-84f0-c42f33be3c3f" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/b3828e92-4961-4b39-84f0-c42f33be3c3f</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GPTZero&#x27;s CEO Edward Tian warned that misinformation from authoritative firms like KPMG undermines public trust and risks spreading AI-in...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=Cbe_mhdr4nM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Cbe_mhdr4nM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why AI Hallucinates Academic References | GPT-5.2, Claude 4.6 | Sonnet | Gemini 2.5 Pro Why AI Hallucinates Academic References | GPT-5.2...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Cbe_mhdr4nM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Cbe_mhdr4nM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why AI Hallucinates Academic References | GPT-5.2, Claude 4.6 | Sonnet | Gemini 2.5 Pro Why AI Hallucinates Academic References | GPT-5.2...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: reddit.com  
    Title: www.reddit.com Researchers just found 28 fake AI citations in medical papers  
-   Link: <a href="https://www.reddit.com/r/ArtificialInteligence/comments/1tovv8g/researchers_just_found_28_fake_ai_citations_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ArtificialInteligence/comments/1tovv8g/researchers_just_found_28_fake_ai_citations_in/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>just found 28 fake AI citations in medical papersMay 27, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/ArtificialInteligence/comments/1tovv8g/researchers_just_found_28_fake_ai_citations_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ArtificialInteligence/comments/1tovv8g/researchers_just_found_28_fake_ai_citations_in/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>just found 28 fake AI citations in medical papersMay 27, 2026...</p></details>
    Published: May 27, 2026  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=Czc-x-4NKu0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Czc-x-4NKu0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Hallucinations: 146,000 Fake Citations Found...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=Czc-x-4NKu0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=Czc-x-4NKu0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Hallucinations: 146,000 Fake Citations Found...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
    Title: Stop Using AI to Write Research Papers (A Professor's Warning)  
-   Link: <a href="https://www.youtube.com/watch?v=24fkAF-W4dI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=24fkAF-W4dI</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Introduction to AI for Data Analytics (Webinar)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=24fkAF-W4dI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=24fkAF-W4dI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Introduction to AI for Data Analytics (Webinar)...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: youtube.com  
    Title: LLM Hallucinations: 146,000 Fake Citations Found  
-   Link: <a href="https://www.youtube.com/watch?v=0E3mHRT-g8I" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0E3mHRT-g8I</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Stop Using AI to Write Research Papers (A Professor&#x27;s Warning)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=0E3mHRT-g8I" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0E3mHRT-g8I</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Stop Using AI to Write Research Papers (A Professor&#x27;s Warning)...</p></details>

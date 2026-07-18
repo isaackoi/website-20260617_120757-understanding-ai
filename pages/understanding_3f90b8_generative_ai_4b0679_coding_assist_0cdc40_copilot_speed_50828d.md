@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0c
 
 ## Introduction
 
-Coding assistants such as GitHub Copilot can make developers noticeably faster. The strongest controlled experiment found that programmers using Copilot completed a coding task about 56% faster than a control group. That result is real and important. However, faster completion is not the same thing as deeper [understanding]({{ 'understanding/' | relative_url }}). A developer can successfully ship code, pass tests, and close a ticket while remaining unable to explain why the solution works, how it might fail, or how to modify it safely later. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Impact of AI on Developer Productivity: Evidence from Git Hub Copilot</span><span class="citation-popover-snippet">The Impact of AI on Developer Productivity: Evidence from GitHub CopilotFebruary 13, 2023...</span><span class="citation-popover-meta">Published: February 13, 2023</span></span></span>
+Coding assistants such as GitHub Copilot can make developers noticeably faster. The strongest controlled experiment found that programmers using Copilot completed a coding task about 56% faster than a control group. That result is real and important. However, faster completion is not the same thing as deeper [understanding]({{ 'understanding/' | relative_url }}). A developer can successfully ship code, pass tests, and close a ticket while remaining unable to explain why the solution works, how it might fail, or how to modify it safely later.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Impact of AI on Developer Productivity: Evidence from Git Hub Copilot</span><span class="citation-popover-snippet">The Impact of AI on Developer Productivity: Evidence from GitHub CopilotFebruary 13, 2023...</span><span class="citation-popover-meta">Published: February 13, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0cdc40_copilot_speed_50828d-Illustration-1-dark.svg" | relative_url }}" alt="Speed vs depth illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0cdc40_copilot_speed_50828d-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_coding_assist_0cdc40_copilot_speed_50828d-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,11 +277,11 @@ This distinction matters because software engineering is not only about producin
 
 ## Does faster coding mean better programming?
 
-The most widely cited evidence for Copilot's productivity benefits comes from a controlled GitHub study in which developers implemented an HTTP server in JavaScript. Participants with Copilot completed the task 55.8% faster than those without it. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Impact of AI on Developer Productivity: Evidence from Git Hub Copilot</span><span class="citation-popover-snippet">The Impact of AI on Developer Productivity: Evidence from GitHub CopilotFebruary 13, 2023...</span><span class="citation-popover-meta">Published: February 13, 2023</span></span></span>
+The most widely cited evidence for Copilot's productivity benefits comes from a controlled GitHub study in which developers implemented an HTTP server in JavaScript. Participants with Copilot completed the task 55.8% faster than those without it.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Impact of AI on Developer Productivity: Evidence from Git Hub Copilot</span><span class="citation-popover-snippet">The Impact of AI on Developer Productivity: Evidence from GitHub CopilotFebruary 13, 2023...</span><span class="citation-popover-meta">Published: February 13, 2023</span></span></span>
 
 What this study measured, however, was task completion speed under controlled conditions. It did not directly measure long-term comprehension, architectural judgement, debugging skill, or the ability to explain generated code. Those are separate capabilities.
 
-This distinction becomes clearer when examining later research and field studies. Real-world software development involves understanding existing systems, collaborating with colleagues, reviewing code, and maintaining software months or years after it is written. Researchers studying Copilot in a large public-sector software organisation found that developers often reported feeling more productive, yet commit-based productivity metrics showed no statistically significant change after adoption. The researchers noted a gap between subjective impressions of productivity and measurable engineering output. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.20353" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods Case StudySeptember 24, 2025...</span><span class="citation-popover-meta">Published: September 24, 2025</span></span></span>
+This distinction becomes clearer when examining later research and field studies. Real-world software development involves understanding existing systems, collaborating with colleagues, reviewing code, and maintaining software months or years after it is written. Researchers studying Copilot in a large public-sector software organisation found that developers often reported feeling more productive, yet commit-based productivity metrics showed no statistically significant change after adoption. The researchers noted a gap between subjective impressions of productivity and measurable engineering output.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.20353" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods Case StudySeptember 24, 2025...</span><span class="citation-popover-meta">Published: September 24, 2025</span></span></span>
 
 The lesson is not that productivity gains are imaginary. Rather, speed measurements answer a narrower question than many people assume. They show that developers can often produce code more quickly, not that they have become better programmers in every relevant sense.
 
@@ -317,7 +317,7 @@ These are valuable metrics, but they do not reveal whether a developer could:
 
 The distinction is similar to using a calculator. Completing arithmetic faster does not necessarily demonstrate a stronger understanding of mathematics. Likewise, generating code faster does not automatically demonstrate stronger software engineering judgement.
 
-Several researchers and industry observers have therefore argued that coding-assistant studies should not be interpreted as comprehensive measures of engineering competence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: third-bit.com">[third-bit.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">third-bit.com</span><span class="citation-popover-snippet">The task was...Read more...</span></span></span>
+Several researchers and industry observers have therefore argued that coding-assistant studies should not be interpreted as comprehensive measures of engineering competence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: third-bit.com">[third-bit.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">third-bit.com</span><span class="citation-popover-snippet">The task was...Read more...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/R03lvlbbREY" title="How GitHub Copilot improves code quality | Jared Bauer | Beyond the Commit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=R03lvlbbREY" target="_blank" rel="noopener noreferrer">How GitHub Copilot improves code quality | Jared Bauer | Beyond the Commit</a></p><p class="youtube-embed-meta">Channel: GitHub &middot; Views: 1.3K &middot; Uploaded: May 2025 &middot; Length: 8 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=R03lvlbbREY" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=R03lvlbbREY">Open on YouTube</a></p></div></div></div>
@@ -326,7 +326,7 @@ Several researchers and industry observers have therefore argued that coding-ass
 
 A generated solution can appear convincing long before it is fully understood.
 
-One reason is [automation bias]({{ 'automation-bias/' | relative_url }}): people tend to trust outputs produced by automated systems, especially when those outputs look polished and plausible. Research examining programmers reviewing Copilot-generated code found that developers devoted less visual [attention]({{ 'attention/' | relative_url }}) to AI-generated code than to human-written code, despite the need for careful inspection. The authors warned that programmers should be alert to complacency when reviewing generated output. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2208.14613" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">How Readable is Model-generated Code? Examining Readability and Visual Inspection of GitHub CopilotAugust 31, 2022...</span><span class="citation-popover-meta">Published: August 31, 2022</span></span></span>
+One reason is [automation bias]({{ 'automation-bias/' | relative_url }}): people tend to trust outputs produced by automated systems, especially when those outputs look polished and plausible. Research examining programmers reviewing Copilot-generated code found that developers devoted less visual [attention]({{ 'attention/' | relative_url }}) to AI-generated code than to human-written code, despite the need for careful inspection. The authors warned that programmers should be alert to complacency when reviewing generated output.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2208.14613" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">How Readable is Model-generated Code? Examining Readability and Visual Inspection of GitHub CopilotAugust 31, 2022...</span><span class="citation-popover-meta">Published: August 31, 2022</span></span></span>
 
 This creates a subtle failure mode:
 
@@ -348,9 +348,9 @@ This becomes especially risky when the code handles concurrency, security, netwo
 
 Recent research has begun examining understanding directly rather than treating task completion as a proxy.
 
-A 2026 randomised controlled study reported that developers using AI coding assistance while learning unfamiliar programming libraries scored lower on comprehension assessments than those who worked without such assistance. The study found a divide between developers who used AI primarily for conceptual guidance and those who delegated substantial code generation. Participants who relied heavily on generated code demonstrated weaker understanding of the underlying material. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.infoq.com/news/2026/02/ai-coding-skill-formation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: infoq.com">[InfoQ]</a><span class="citation-popover" role="note"><span class="citation-popover-source">infoq.com</span><span class="citation-popover-title">ai coding skill formation</span><span class="citation-popover-snippet">Anthropic Study: AI Coding Assistance Reduces Developer...23 Feb 2026 — Anthropic research shows developers using AI assistance sco...</span></span></span>
+A 2026 randomised controlled study reported that developers using AI coding assistance while learning unfamiliar programming libraries scored lower on comprehension assessments than those who worked without such assistance. The study found a divide between developers who used AI primarily for conceptual guidance and those who delegated substantial code generation. Participants who relied heavily on generated code demonstrated weaker understanding of the underlying material.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.infoq.com/news/2026/02/ai-coding-skill-formation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: infoq.com">[InfoQ]</a><span class="citation-popover" role="note"><span class="citation-popover-source">infoq.com</span><span class="citation-popover-title">ai coding skill formation</span><span class="citation-popover-snippet">Anthropic Study: AI Coding Assistance Reduces Developer...23 Feb 2026 — Anthropic research shows developers using AI assistance sco...</span></span></span>
 
-Research on students has raised similar questions. Studies investigating Copilot's effects in educational settings increasingly focus not only on whether students can complete assignments but also on whether they can explain their solutions and transfer knowledge to new problems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/full/10.1145/3702652.3744219" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryThe Effects of GitHub Copilot on Computing Students...by MIH Shihab · 2025 · Cited by 37 — This paper investigates ho...</span></span></span>
+Research on students has raised similar questions. Studies investigating Copilot's effects in educational settings increasingly focus not only on whether students can complete assignments but also on whether they can explain their solutions and transfer knowledge to new problems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/full/10.1145/3702652.3744219" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryThe Effects of GitHub Copilot on Computing Students...by MIH Shihab · 2025 · Cited by 37 — This paper investigates ho...</span></span></span>
 
 These findings support a broader concern: AI assistance may sometimes substitute for learning rather than reinforce it. When that happens, productivity gains and knowledge gains diverge.
 
@@ -373,9 +373,9 @@ Writing code is only one part of development. Someone must still:
 
 </div>
 
-Studies and surveys increasingly describe a "[verification]({{ 'verification-cost/' | relative_url }}) burden" or "verification debt": developers save time generating code but spend additional time [checking]({{ 'checklists/' | relative_url }}) whether it is trustworthy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">Despite 96% of developers admitting they don&#x27;t fully trust the functional correctness of AI-written code, many skip verification—primaril...</span></span></span>
+Studies and surveys increasingly describe a "[verification]({{ 'verification-cost/' | relative_url }}) burden" or "verification debt": developers save time generating code but spend additional time [checking]({{ 'checklists/' | relative_url }}) whether it is trustworthy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">Despite 96% of developers admitting they don&#x27;t fully trust the functional correctness of AI-written code, many skip verification—primaril...</span></span></span>
 
-This becomes problematic when verification is skipped. Surveys have found that many developers do not consistently review AI-generated code despite expressing limited trust in its correctness. Other respondents reported that verifying AI-generated code can be more time-consuming than reviewing code written by colleagues because the reasoning behind the generated solution is often unclear. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/devs-dont-trust-ai-code-but-many-say-they-still-dont-check-it-anyways" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Devs don&#x27;t trust AI code</span><span class="citation-popover-snippet">Alarmingly, less than half (48%) consistently check this code before committing it, opening the door to bugs and vulnerabilities. Even th...</span></span></span>
+This becomes problematic when verification is skipped. Surveys have found that many developers do not consistently review AI-generated code despite expressing limited trust in its correctness. Other respondents reported that verifying AI-generated code can be more time-consuming than reviewing code written by colleagues because the reasoning behind the generated solution is often unclear.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.techradar.com/pro/devs-dont-trust-ai-code-but-many-say-they-still-dont-check-it-anyways" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: techradar.com">[TechRadar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">techradar.com</span><span class="citation-popover-title">Tech Radar Devs don&#x27;t trust AI code</span><span class="citation-popover-snippet">Alarmingly, less than half (48%) consistently check this code before committing it, opening the door to bugs and vulnerabilities. Even th...</span></span></span>
 
 In these situations, apparent productivity can be misleading. The speed comes from reducing visible effort at code creation while increasing hidden effort in validation and maintenance.
 
@@ -439,199 +439,199 @@ The answer need not be yes every time, but the question reveals whether the tool
 
 ## Why this matters for understanding artificial intelligence
 
-The Copilot debate illustrates a broader lesson about AI systems. Artificial intelligence can increase output without proportionally increasing human understanding. A person may become faster, more productive, and more successful at completing tasks while simultaneously relying on reasoning they do not fully possess themselves. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Impact of AI on Developer Productivity: Evidence from Git Hub Copilot</span><span class="citation-popover-snippet">The Impact of AI on Developer Productivity: Evidence from GitHub CopilotFebruary 13, 2023...</span><span class="citation-popover-meta">Published: February 13, 2023</span></span></span>
+The Copilot debate illustrates a broader lesson about AI systems. Artificial intelligence can increase output without proportionally increasing human understanding. A person may become faster, more productive, and more successful at completing tasks while simultaneously relying on reasoning they do not fully possess themselves.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv The Impact of AI on Developer Productivity: Evidence from Git Hub Copilot</span><span class="citation-popover-snippet">The Impact of AI on Developer Productivity: Evidence from GitHub CopilotFebruary 13, 2023...</span><span class="citation-popover-meta">Published: February 13, 2023</span></span></span>
 
 That possibility does not negate the value of coding assistants. It simply changes how their benefits should be interpreted. Speed is a useful measure of performance, but it is an incomplete measure of expertise. When evaluating AI-assisted work, the crucial question is not only how quickly a task was completed, but whether the human involved can still explain, maintain, and improve the result after the assistant is gone.
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Does faster coding mean better programming?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Does faster coding mean better programming?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Pragmatic Programmer on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=LhOlDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Pragmatic Programmer" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Pragmatic Programmer">The Pragmatic Programmer</a>
-        </h4>
-        <p class="fr-book-author">By David Thomas, Andrew Hunt</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Pragmatic Programmer on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=LhOlDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Pragmatic Programmer" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Pragmatic Programmer">The Pragmatic Programmer</a>
+</h4>
+<p class="fr-book-author">By David Thomas, Andrew Hunt</p>
         
-        <p class="fr-book-desc">Separates productivity from true engineering skill.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Separates productivity from true engineering skill.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Pragmatic+Programmer+by+David+Thomas&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Clean Code on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=hjEFCAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Clean Code" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Clean Code">Clean Code</a>
-        </h4>
-        <p class="fr-book-author">By Robert C. Martin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Clean Code on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=hjEFCAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Clean Code" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Clean Code">Clean Code</a>
+</h4>
+<p class="fr-book-author">By Robert C. Martin</p>
         
-        <p class="fr-book-desc">Focuses on understanding and maintaining code quality.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on understanding and maintaining code quality.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Clean+Code+by+Robert+C.+Martin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=A+Philosophy+of+Software+Design+by+John+Ousterhout&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open A Philosophy of Software Design on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pD6-swEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for A Philosophy of Software Design" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=A+Philosophy+of+Software+Design+by+John+Ousterhout&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="A Philosophy of Software Design">A Philosophy of Software Design</a>
-        </h4>
-        <p class="fr-book-author">By John Ousterhout</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=A+Philosophy+of+Software+Design+by+John+Ousterhout&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open A Philosophy of Software Design on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pD6-swEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for A Philosophy of Software Design" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=A+Philosophy+of+Software+Design+by+John+Ousterhout&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="A Philosophy of Software Design">A Philosophy of Software Design</a>
+</h4>
+<p class="fr-book-author">By John Ousterhout</p>
         
-        <p class="fr-book-desc">Emphasizes deep design understanding over coding speed.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=A+Philosophy+of+Software+Design+by+John+Ousterhout&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Emphasizes deep design understanding over coding speed.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=A+Philosophy+of+Software+Design+by+John+Ousterhout&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Code Complete on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Code Complete">Code Complete</a>
-        </h4>
-        <p class="fr-book-author">By Steve McConnell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Code Complete on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Code Complete">Code Complete</a>
+</h4>
+<p class="fr-book-author">By Steve McConnell</p>
         
-        <p class="fr-book-desc">Explores what effective programming actually involves.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores what effective programming actually involves.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Code+Complete+by+Steve+McConnell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Pragmatic Programmer</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Clean+Code&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Clean Code</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=A+Philosophy+of+Software+Design&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">A Philosophy of Software Design</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Pragmatic+Programmer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Pragmatic Programmer</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Clean+Code&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Clean Code</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=A+Philosophy+of+Software+Design&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">A Philosophy of Software Design</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 50 Pcs/Pack Programmers Hackers Linux Python Stickers For Laptop PC Sticker Bomb"><img src="{{ '/assets/images/marketplace-covers/08c2bdef59e30581d7c1.jpg' | relative_url }}" alt="Listing image for 50 Pcs/Pack Programmers Hackers Linux Python Stickers For Laptop PC Sticker Bomb" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">50 Pcs/Pack Programmers Hackers Linux Python Stickers For Laptop PC Sticker Bomb</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 50 Pcs/Pack Programmers Hackers Linux Python Stickers For Laptop PC Sticker Bomb"><img src="{{ '/assets/images/marketplace-covers/08c2bdef59e30581d7c1.jpg' | relative_url }}" alt="Listing image for 50 Pcs/Pack Programmers Hackers Linux Python Stickers For Laptop PC Sticker Bomb" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">50 Pcs/Pack Programmers Hackers Linux Python Stickers For Laptop PC Sticker Bomb</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Soviet vintage space stickers — Sticker sheet, sticker pack, macbook skin"><img src="{{ '/assets/images/marketplace-covers/ebec9a85a5fd62482b2f.jpg' | relative_url }}" alt="Listing image for Soviet vintage space stickers — Sticker sheet, sticker pack, macbook skin" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Soviet vintage space stickers — Sticker sheet, sticker pack, macbook skin</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Soviet vintage space stickers — Sticker sheet, sticker pack, macbook skin"><img src="{{ '/assets/images/marketplace-covers/ebec9a85a5fd62482b2f.jpg' | relative_url }}" alt="Listing image for Soviet vintage space stickers — Sticker sheet, sticker pack, macbook skin" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Soviet vintage space stickers — Sticker sheet, sticker pack, macbook skin</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker"><img src="{{ '/assets/images/marketplace-covers/207b5601277e8bda9630.jpg' | relative_url }}" alt="Listing image for Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker"><img src="{{ '/assets/images/marketplace-covers/207b5601277e8bda9630.jpg' | relative_url }}" alt="Listing image for Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Coding Symbol Vinyl Decal | Programming Software Development | Die Cut Sticker</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot"><img src="{{ '/assets/images/marketplace-covers/fef498777bc7524140fb.jpg' | relative_url }}" alt="Listing image for Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot"><img src="{{ '/assets/images/marketplace-covers/fef498777bc7524140fb.jpg' | relative_url }}" alt="Listing image for Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Antarctica Sticker Pack - US Antarctic Program &amp; Search and Rescue Decals Lot</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for programming sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: programming sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=programming+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="programming sticker pack" data-ebay-reference="speed-vs-depth-does-faster-coding-mean-better-programming-understanding-programming-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -647,7 +647,7 @@ That possibility does not negate the value of coding assistants. It simply chang
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -667,7 +667,7 @@ That possibility does not negate the value of coding assistants. It simply chang
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -699,7 +699,7 @@ That possibility does not negate the value of coding assistants. It simply chang
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -751,7 +751,7 @@ That possibility does not negate the value of coding assistants. It simply chang
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -796,7 +796,7 @@ That possibility does not negate the value of coding assistants. It simply chang
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -837,169 +837,169 @@ That possibility does not negate the value of coding assistants. It simply chang
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv The Impact of AI on Developer Productivity: Evidence from Git Hub Copilot  
-   Link: <a href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2302.06590</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of AI on Developer Productivity: Evidence from GitHub CopilotFebruary 13, 2023...</p></details>
+   Link:<a href="https://arxiv.org/abs/2302.06590" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2302.06590</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of AI on Developer Productivity: Evidence from GitHub CopilotFebruary 13, 2023...</p></details>
    Published: February 13, 2023  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2302.06590" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2302.06590</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Further investigations into the productivity...Read more...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2302.06590" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2302.06590</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Further investigations into the productivity...Read more...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2509.20353" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.20353</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods Case StudySeptember 24, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2509.20353" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.20353</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Developer Productivity With and Without GitHub Copilot: A Longitudinal Mixed-Methods Case StudySeptember 24, 2025...</p></details>
    Published: September 24, 2025  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: third-bit.com  
-   Link: <a href="https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/" target="_blank" rel="noopener noreferrer nofollow">https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The task was...Read more...</p></details>
+   Link:<a href="https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/" target="_blank" rel="noopener noreferrer nofollow">https://third-bit.com/2026/05/20/twelve-ways-to-be-wrong/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The task was...Read more...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2602.03593v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.03593v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Developer Perspectives on Productivity with AI Coding...Feb 3, 2026 — In the age of AI coding assistants, it has become even more import...</p></details>
+   Link:<a href="https://arxiv.org/html/2602.03593v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.03593v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Developer Perspectives on Productivity with AI Coding...Feb 3, 2026 — In the age of AI coding assistants, it has become even more import...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2208.14613" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2208.14613</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How Readable is Model-generated Code? Examining Readability and Visual Inspection of GitHub CopilotAugust 31, 2022...</p></details>
+   Link:<a href="https://arxiv.org/abs/2208.14613" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2208.14613</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Readable is Model-generated Code? Examining Readability and Visual Inspection of GitHub CopilotAugust 31, 2022...</p></details>
    Published: August 31, 2022  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: infoq.com  
    Title: ai coding skill formation  
-   Link: <a href="https://www.infoq.com/news/2026/02/ai-coding-skill-formation/" target="_blank" rel="noopener noreferrer nofollow">https://www.infoq.com/news/2026/02/ai-coding-skill-formation/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Anthropic Study: AI Coding Assistance Reduces Developer...23 Feb 2026 — Anthropic research shows developers using AI assistance sco...</p></details>
+   Link:<a href="https://www.infoq.com/news/2026/02/ai-coding-skill-formation/" target="_blank" rel="noopener noreferrer nofollow">https://www.infoq.com/news/2026/02/ai-coding-skill-formation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Anthropic Study: AI Coding Assistance Reduces Developer...23 Feb 2026 — Anthropic research shows developers using AI assistance sco...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: dl.acm.org  
-   Link: <a href="https://dl.acm.org/doi/full/10.1145/3702652.3744219" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/full/10.1145/3702652.3744219</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryThe Effects of GitHub Copilot on Computing Students...by MIH Shihab · 2025 · Cited by 37 — This paper investigates ho...</p></details>
+   Link:<a href="https://dl.acm.org/doi/full/10.1145/3702652.3744219" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/full/10.1145/3702652.3744219</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryThe Effects of GitHub Copilot on Computing Students...by MIH Shihab · 2025 · Cited by 37 — This paper investigates ho...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: techradar.com  
    Title: Tech Radar Devs don't trust AI code  
-   Link: <a href="https://www.techradar.com/pro/devs-dont-trust-ai-code-but-many-say-they-still-dont-check-it-anyways" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/devs-dont-trust-ai-code-but-many-say-they-still-dont-check-it-anyways</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Alarmingly, less than half (48%) consistently check this code before committing it, opening the door to bugs and vulnerabilities. Even th...</p></details>
+   Link:<a href="https://www.techradar.com/pro/devs-dont-trust-ai-code-but-many-say-they-still-dont-check-it-anyways" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/devs-dont-trust-ai-code-but-many-say-they-still-dont-check-it-anyways</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Alarmingly, less than half (48%) consistently check this code before committing it, opening the door to bugs and vulnerabilities. Even th...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: github.com  
    Title: Git Hub · Change is constant  
-   Link: <a href="https://github.com/" target="_blank" rel="noopener noreferrer nofollow">https://github.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub keeps you ahead. · GitHubFrom your first line of code to final deployment, GitHub provides AI and automation tools to help you bui...</p></details>
+   Link:<a href="https://github.com/" target="_blank" rel="noopener noreferrer nofollow">https://github.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub keeps you ahead. · GitHubFrom your first line of code to final deployment, GitHub provides AI and automation tools to help you bui...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: github.com  
-   Link: <a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer nofollow">https://github.com/features/copilot</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot · Your AI pair programmerCopilot in your editor does it all, from explaining concepts and completing code, to proposing ed...</p></details>
+   Link:<a href="https://github.com/features/copilot" target="_blank" rel="noopener noreferrer nofollow">https://github.com/features/copilot</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot · Your AI pair programmerCopilot in your editor does it all, from explaining concepts and completing code, to proposing ed...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: docs.github.com  
    Title: [code review](&#123;&#123; 'code-review/' | relative_url &#125;&#125;)  
-   Link: <a href="https://docs.github.com/en/copilot/concepts/agents/code-review" target="_blank" rel="noopener noreferrer nofollow">https://docs.github.com/en/copilot/concepts/agents/code-review</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot code reviewCopilot code review reviews code written in any language, and provides feedback. It reviews your code from mult...</p></details>
+   Link:<a href="https://docs.github.com/en/copilot/concepts/agents/code-review" target="_blank" rel="noopener noreferrer nofollow">https://docs.github.com/en/copilot/concepts/agents/code-review</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot code reviewCopilot code review reviews code written in any language, and provides feedback. It reviews your code from mult...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: learn.github.com  
-   Link: <a href="https://learn.github.com/learning-pathways/github-copilot" target="_blank" rel="noopener noreferrer nofollow">https://learn.github.com/learning-pathways/github-copilot</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>of GitHub Copilot (Learning Pathway)GitHub Copilot Chat acts as a real‑time collaborator, helping developers reason through logic, valida...</p></details>
+   Link:<a href="https://learn.github.com/learning-pathways/github-copilot" target="_blank" rel="noopener noreferrer nofollow">https://learn.github.com/learning-pathways/github-copilot</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>of GitHub Copilot (Learning Pathway)GitHub Copilot Chat acts as a real‑time collaborator, helping developers reason through logic, valida...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2302.00438" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2302.00438</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>An Empirical Study on GitHub Copilotby A Mastropaolo · 2023 · Cited by 260 — In this paper we present an empirical study in which we aim...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2302.00438" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2302.00438</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An Empirical Study on GitHub Copilotby A Mastropaolo · 2023 · Cited by 260 — In this paper we present an empirical study in which we aim...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2504.16485v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2504.16485v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>On Developers&#x27; Self-Declaration of AI-Generated CodeApr 23, 2025 — This study intends to understand the ways developers use to self-decla...</p></details>
+   Link:<a href="https://arxiv.org/html/2504.16485v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2504.16485v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>On Developers&#x27; Self-Declaration of AI-Generated CodeApr 23, 2025 — This study intends to understand the ways developers use to self-decla...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: github.blog  
-   Link: <a href="https://github.blog/" target="_blank" rel="noopener noreferrer nofollow">https://github.blog/</a>  
+   Link:<a href="https://github.blog/" target="_blank" rel="noopener noreferrer nofollow">https://github.blog/</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: github.blog  
    Title: Does Git Hub Copilot improve code quality?  
-   Link: <a href="https://github.blog/news-insights/research/does-github-copilot-improve-code-quality-heres-what-the-data-says/" target="_blank" rel="noopener noreferrer nofollow">https://github.blog/news-insights/research/does-github-copilot-improve-code-quality-heres-what-the-data-says/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Here&#x27;s what...Nov 18, 2024 — Findings in our latest study show that the quality of code written with GitHub Copilot is significantly mor...</p></details>
+   Link:<a href="https://github.blog/news-insights/research/does-github-copilot-improve-code-quality-heres-what-the-data-says/" target="_blank" rel="noopener noreferrer nofollow">https://github.blog/news-insights/research/does-github-copilot-improve-code-quality-heres-what-the-data-says/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Here&#x27;s what...Nov 18, 2024 — Findings in our latest study show that the quality of code written with GitHub Copilot is significantly mor...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: github.blog  
    Title: survey reveals ais impact on the developer experience  
-   Link: <a href="https://github.blog/news-insights/research/survey-reveals-ais-impact-on-the-developer-experience/" target="_blank" rel="noopener noreferrer nofollow">https://github.blog/news-insights/research/survey-reveals-ais-impact-on-the-developer-experience/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Survey reveals AI&#x27;s impact on the developer experienceJun 13, 2023 — In previous research we conducted, 87% of developers reported that t...</p></details>
+   Link:<a href="https://github.blog/news-insights/research/survey-reveals-ais-impact-on-the-developer-experience/" target="_blank" rel="noopener noreferrer nofollow">https://github.blog/news-insights/research/survey-reveals-ais-impact-on-the-developer-experience/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Survey reveals AI&#x27;s impact on the developer experienceJun 13, 2023 — In previous research we conducted, 87% of developers reported that t...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: cacm.acm.org  
    Title: measuring github copilots impact on productivity  
-   Link: <a href="https://cacm.acm.org/research/measuring-github-copilots-impact-on-productivity/" target="_blank" rel="noopener noreferrer nofollow">https://cacm.acm.org/research/measuring-github-copilots-impact-on-productivity/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot&#x27;s Impact on Productivity15 Feb 2024 — A case study asks Copilot users about the tool&#x27;s impact on their productivity, and s...</p></details>
+   Link:<a href="https://cacm.acm.org/research/measuring-github-copilots-impact-on-productivity/" target="_blank" rel="noopener noreferrer nofollow">https://cacm.acm.org/research/measuring-github-copilots-impact-on-productivity/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot&#x27;s Impact on Productivity15 Feb 2024 — A case study asks Copilot users about the tool&#x27;s impact on their productivity, and s...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: dl.acm.org  
-   Link: <a href="https://dl.acm.org/doi/full/10.1145/3709353" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/full/10.1145/3709353</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Transformation of Developer&#x27;s Routine by 2030by K Qiu · 2025 · Cited by 34 — In this article, we provide a comparative analysis betwee...</p></details>
+   Link:<a href="https://dl.acm.org/doi/full/10.1145/3709353" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/full/10.1145/3709353</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Transformation of Developer&#x27;s Routine by 2030by K Qiu · 2025 · Cited by 34 — In this article, we provide a comparative analysis betwee...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: itpro.com  
-   Link: <a href="https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Despite 96% of developers admitting they don&#x27;t fully trust the functional correctness of AI-written code, many skip verification—primaril...</p></details>
+   Link:<a href="https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/software/development/software-developers-not-checking-ai-generated-code-verification-debt</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Despite 96% of developers admitting they don&#x27;t fully trust the functional correctness of AI-written code, many skip verification—primaril...</p></details>
 
 ### Additional References
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/aagupta_41-of-all-code-shipped-in-2025-was-ai-generated-activity-7438810992651743232-II6u" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/aagupta_41-of-all-code-shipped-in-2025-was-ai-generated-activity-7438810992651743232-II6u</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Generated Code Defects Rise, PMs Must Own Intent... burden of verification shifts from syntax to systemic outcomes. Relying on automat...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/aagupta_41-of-all-code-shipped-in-2025-was-ai-generated-activity-7438810992651743232-II6u" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/aagupta_41-of-all-code-shipped-in-2025-was-ai-generated-activity-7438810992651743232-II6u</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Generated Code Defects Rise, PMs Must Own Intent... burden of verification shifts from syntax to systemic outcomes. Relying on automat...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/drelleobrien_more-code-less-validation-risk-factors-activity-7413966333069131776-Yfj5" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/drelleobrien_more-code-less-validation-risk-factors-activity-7413966333069131776-Yfj5</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Elle O&#x27;Brien&#x27;s PostWhat we should do, is stop accepting code from any source—AI or human—without knowledgeable human review. That it comp...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/drelleobrien_more-code-less-validation-risk-factors-activity-7413966333069131776-Yfj5" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/drelleobrien_more-code-less-validation-risk-factors-activity-7413966333069131776-Yfj5</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Elle O&#x27;Brien&#x27;s PostWhat we should do, is stop accepting code from any source—AI or human—without knowledgeable human review. That it comp...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: cut-the-saas.com  
-   Link: <a href="https://cut-the-saas.com/ai/[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://cut-the-saas.com/ai/[generative-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Gen AI Impact: 56% Faster Dev TasksHow much faster did developers code with GitHub Copilot in this study? The group using Copilot complet...</p></details>
+   Link:<a href="https://cut-the-saas.com/ai/[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://cut-the-saas.com/ai/[generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gen AI Impact: 56% Faster Dev TasksHow much faster did developers code with GitHub Copilot in this study? The group using Copilot complet...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: xebia.com  
-   Link: <a href="https://xebia.com/blog/github-copilot-productivity/" target="_blank" rel="noopener noreferrer nofollow">https://xebia.com/blog/github-copilot-productivity/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot &amp; ProductivityRob has a strong focus on ALM and DevOps, automating manual tasks and helping teams deliver value to the end...</p></details>
+   Link:<a href="https://xebia.com/blog/github-copilot-productivity/" target="_blank" rel="noopener noreferrer nofollow">https://xebia.com/blog/github-copilot-productivity/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot &amp; ProductivityRob has a strong focus on ALM and DevOps, automating manual tasks and helping teams deliver value to the end...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40reliabledataengineering/ai-is-writing-46-of-all-code-github-copilots-real-impact-on-15-million-developers-787d789fcfdc" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40reliabledataengineering/ai-is-writing-46-of-all-code-github-copilots-real-impact-on-15-million-developers-787d789fcfdc</a>  
+   Link:<a href="https://medium.com/%40reliabledataengineering/ai-is-writing-46-of-all-code-github-copilots-real-impact-on-15-million-developers-787d789fcfdc" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40reliabledataengineering/ai-is-writing-46-of-all-code-github-copilots-real-impact-on-15-million-developers-787d789fcfdc</a>  
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: git-scm.com  
-   Link: <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer nofollow">https://git-scm.com/</a>  
+   Link:<a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer nofollow">https://git-scm.com/</a>  
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: zenml.io  
-   Link: <a href="https://www.zenml.io/llmops-database/improving-contextual-understanding-in-github-copilot-through-advanced-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.zenml.io/llmops-database/improving-contextual-understanding-in-github-copilot-through-advanced-prompt-engineering</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Improving Contextual Understanding in GitHub Copilot...This case study examines how GitHub&#x27;s machine learning researchers and engineers...</p></details>
+   Link:<a href="https://www.zenml.io/llmops-database/improving-contextual-understanding-in-github-copilot-through-advanced-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.zenml.io/llmops-database/improving-contextual-understanding-in-github-copilot-through-advanced-prompt-engineering</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Improving Contextual Understanding in GitHub Copilot...This case study examines how GitHub&#x27;s machine learning researchers and engineers...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/sanjoyghosh82_transforming-software-development-evaluating-activity-7213884338935918594-oNGg" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/sanjoyghosh82_transforming-software-development-evaluating-activity-7213884338935918594-oNGg</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How GitHub Copilot boosts developer productivity... study from Cornell University: Pros: - Time Savings: Developers can save up to 50% on...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/sanjoyghosh82_transforming-software-development-evaluating-activity-7213884338935918594-oNGg" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/sanjoyghosh82_transforming-software-development-evaluating-activity-7213884338935918594-oNGg</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How GitHub Copilot boosts developer productivity... study from Cornell University: Pros: - Time Savings: Developers can save up to 50% on...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/368473822_The_Impact_of_AI_on_Developer_Productivity_Evidence_from_GitHub_Copilot" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/368473822_The_Impact_of_AI_on_Developer_Productivity_Evidence_from_GitHub_Copilot</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot as an AI partner programmer completed tasks 55.8% faster than others. Furthermore, a survey study on Copilot by Liang et a...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/368473822_The_Impact_of_AI_on_Developer_Productivity_Evidence_from_GitHub_Copilot" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/368473822_The_Impact_of_AI_on_Developer_Productivity_Evidence_from_GitHub_Copilot</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GitHub Copilot as an AI partner programmer completed tasks 55.8% faster than others. Furthermore, a survey study on Copilot by Liang et a...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: ksred.com  
    Title: ai for coding why most developers are getting it wrong and how to get it right  
-   Link: <a href="https://www.ksred.com/ai-for-coding-why-most-developers-are-getting-it-wrong-and-how-to-get-it-right/" target="_blank" rel="noopener noreferrer nofollow">https://www.ksred.com/ai-for-coding-why-most-developers-are-getting-it-wrong-and-how-to-get-it-right/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI for Coding: Why Most Developers Get It Wrong (2025 Guide)28 July 2025 — The data backs this up: while 76% of developers are using or p...</p></details>
+   Link:<a href="https://www.ksred.com/ai-for-coding-why-most-developers-are-getting-it-wrong-and-how-to-get-it-right/" target="_blank" rel="noopener noreferrer nofollow">https://www.ksred.com/ai-for-coding-why-most-developers-are-getting-it-wrong-and-how-to-get-it-right/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI for Coding: Why Most Developers Get It Wrong (2025 Guide)28 July 2025 — The data backs this up: while 76% of developers are using or p...</p></details>
    Published: July 2025  

@@ -269,17 +269,17 @@ image: /assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f8
 
 ## Introduction
 
-A test set is one of the simplest and most powerful tools for detecting [overfitting]({{ 'overfitting/' | relative_url }}) in artificial intelligence. An overfitted model can appear highly successful when judged on the data it learned from, yet fail when faced with genuinely new examples. The purpose of a test set is to reveal this gap. By holding back a portion of data and keeping it unseen during training, developers can check whether a model has learned a general pattern or merely memorised the training examples. When training results are excellent but test results are noticeably worse, the test set provides direct evidence that overfitting has occurred. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Overfitting? &#124; IBMOverfitting occurs when an algorithm fits too closely to its training data, resulting in a model that can&#x27;t...</span></span></span>
+A test set is one of the simplest and most powerful tools for detecting [overfitting]({{ 'overfitting/' | relative_url }}) in artificial intelligence. An overfitted model can appear highly successful when judged on the data it learned from, yet fail when faced with genuinely new examples. The purpose of a test set is to reveal this gap. By holding back a portion of data and keeping it unseen during training, developers can check whether a model has learned a general pattern or merely memorised the training examples. When training results are excellent but test results are noticeably worse, the test set provides direct evidence that overfitting has occurred.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Overfitting? &#124; IBMOverfitting occurs when an algorithm fits too closely to its training data, resulting in a model that can&#x27;t...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_test_sets_ove_9bab93-Illustration-1-dark.svg" | relative_url }}" alt="Test sets illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_test_sets_ove_9bab93-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_test_sets_ove_9bab93-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## What a test set is for
 
-A test set is a collection of examples deliberately excluded from the learning process. The model does not use these examples to adjust its parameters, choose settings, or improve its performance. Instead, the test set serves as an independent examination that is taken only after development is complete. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">dividing datasets</span><span class="citation-popover-snippet">Google for DevelopersDividing the original dataset &#124; Machine LearningDec 3, 2025 — Learn how to divide a machine learning dataset into tr...</span></span></span>
+A test set is a collection of examples deliberately excluded from the learning process. The model does not use these examples to adjust its parameters, choose settings, or improve its performance. Instead, the test set serves as an independent examination that is taken only after development is complete.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">dividing datasets</span><span class="citation-popover-snippet">Google for DevelopersDividing the original dataset &#124; Machine LearningDec 3, 2025 — Learn how to divide a machine learning dataset into tr...</span></span></span>
 
-The logic resembles a final exam. A student who has only practised a fixed set of questions may appear knowledgeable, but a new examination reveals whether the underlying subject has actually been understood. In [machine learning]({{ 'machine-learning/' | relative_url }}), the test set plays the role of that new examination. It measures how well the model handles situations it has not previously encountered. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersDatasets, generalization, and overfitting &#124; Machine LearningThis course module provides guidelines for preparing dat...</span></span></span>
+The logic resembles a final exam. A student who has only practised a fixed set of questions may appear knowledgeable, but a new examination reveals whether the underlying subject has actually been understood. In [machine learning]({{ 'machine-learning/' | relative_url }}), the test set plays the role of that new examination. It measures how well the model handles situations it has not previously encountered.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersDatasets, generalization, and overfitting &#124; Machine LearningThis course module provides guidelines for preparing dat...</span></span></span>
 
-This matters because the real purpose of AI systems is not to reproduce old answers. Their value comes from making useful [predictions]({{ 'predictions/' | relative_url }}) about future cases, new customers, unseen images, unfamiliar documents, or other data that did not exist during training. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Overfitting? &#124; IBMOverfitting occurs when an algorithm fits too closely to its training data, resulting in a model that can&#x27;t...</span></span></span>
+This matters because the real purpose of AI systems is not to reproduce old answers. Their value comes from making useful [predictions]({{ 'predictions/' | relative_url }}) about future cases, new customers, unseen images, unfamiliar documents, or other data that did not exist during training.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Overfitting? &#124; IBMOverfitting occurs when an algorithm fits too closely to its training data, resulting in a model that can&#x27;t...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/Tbw9VYw9eSY" title="UNIT - 3Generalization-Overfitting and Underfitting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=Tbw9VYw9eSY" target="_blank" rel="noopener noreferrer">UNIT - 3Generalization-Overfitting and Underfitting</a></p><p class="youtube-embed-meta">Channel: kmit vista</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=Tbw9VYw9eSY" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=Tbw9VYw9eSY">Open on YouTube</a></p></div></div></div>
@@ -288,11 +288,11 @@ This matters because the real purpose of AI systems is not to reproduce old answ
 
 The clearest sign of overfitting appears when training and test performance diverge.
 
-Consider a model that achieves 99% accuracy on its training data. At first glance, that seems impressive. However, if the same model achieves only 75% accuracy on the test set, the difference suggests that much of what it learned does not transfer to new situations. Rather than discovering general rules, it has adapted itself too closely to the specific details of the training examples. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aws.amazon.com/what-is/overfitting/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aws.amazon.com">[Amazon Web Services, Inc.]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aws.amazon.com</span><span class="citation-popover-title">Web Services, Inc.What is Overfitting?</span><span class="citation-popover-snippet">Amazon Web Services, Inc.What is Overfitting? - Overfitting in Machine Learning Explained...</span></span></span>
+Consider a model that achieves 99% accuracy on its training data. At first glance, that seems impressive. However, if the same model achieves only 75% accuracy on the test set, the difference suggests that much of what it learned does not transfer to new situations. Rather than discovering general rules, it has adapted itself too closely to the specific details of the training examples.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aws.amazon.com/what-is/overfitting/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aws.amazon.com">[Amazon Web Services, Inc.]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aws.amazon.com</span><span class="citation-popover-title">Web Services, Inc.What is Overfitting?</span><span class="citation-popover-snippet">Amazon Web Services, Inc.What is Overfitting? - Overfitting in Machine Learning Explained...</span></span></span>
 
-Researchers often look for a pattern known as the **generalisation gap**: the difference between performance on training data and performance on unseen data. A small gap suggests the model has learned useful patterns that carry over to new examples. A large gap suggests overfitting. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://scikit-learn.org/stable/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scikit-learn.org">[Scikit-learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scikit-learn.org</span><span class="citation-popover-title">learning curve</span><span class="citation-popover-snippet">Validation curves: plotting scores to evaluate modelsIf the training score is high and the validation score is low, the estimator is over...</span></span></span>
+Researchers often look for a pattern known as the **generalisation gap**: the difference between performance on training data and performance on unseen data. A small gap suggests the model has learned useful patterns that carry over to new examples. A large gap suggests overfitting.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://scikit-learn.org/stable/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scikit-learn.org">[Scikit-learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scikit-learn.org</span><span class="citation-popover-title">learning curve</span><span class="citation-popover-snippet">Validation curves: plotting scores to evaluate modelsIf the training score is high and the validation score is low, the estimator is over...</span></span></span>
 
-Learning curves and [validation]({{ 'stop-training/' | relative_url }}) curves make this visible. A model that continues improving on the training set while stagnating or worsening on unseen data is showing classic overfitting behaviour. Scikit-learn's [documentation]({{ 'paper-safety/' | relative_url }}) identifies the combination of high training scores and low validation scores as a hallmark of overfitting. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://scikit-learn.org/stable/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scikit-learn.org">[Scikit-learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scikit-learn.org</span><span class="citation-popover-title">learning curve</span><span class="citation-popover-snippet">Validation curves: plotting scores to evaluate modelsIf the training score is high and the validation score is low, the estimator is over...</span></span></span>
+Learning curves and [validation]({{ 'stop-training/' | relative_url }}) curves make this visible. A model that continues improving on the training set while stagnating or worsening on unseen data is showing classic overfitting behaviour. Scikit-learn's [documentation]({{ 'paper-safety/' | relative_url }}) identifies the combination of high training scores and low validation scores as a hallmark of overfitting.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://scikit-learn.org/stable/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scikit-learn.org">[Scikit-learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scikit-learn.org</span><span class="citation-popover-title">learning curve</span><span class="citation-popover-snippet">Validation curves: plotting scores to evaluate modelsIf the training score is high and the validation score is low, the estimator is over...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/TyT8i8YIcwI" title="Machine Learning Crash Course: Generalization" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=TyT8i8YIcwI" target="_blank" rel="noopener noreferrer">Machine Learning Crash Course: Generalization</a></p><p class="youtube-embed-meta">Channel: Google for Developers</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=TyT8i8YIcwI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=TyT8i8YIcwI">Open on YouTube</a></p></div></div></div>
@@ -303,7 +303,7 @@ Imagine an image classifier trained to identify cats and dogs.
 
 If many training photographs of dogs happen to be taken outdoors while cat photographs are mostly indoors, an overly flexible model may learn to associate grass with dogs and furniture with cats. During training, this shortcut may produce excellent scores because those background patterns are common. However, when the test set contains indoor dogs and outdoor cats, performance drops sharply.
 
-The poor test result exposes the fact that the model learned an accidental correlation rather than the concept it was supposed to learn. The training score alone would not reveal this mistake. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersDatasets, generalization, and overfitting &#124; Machine LearningThis course module provides guidelines for preparing dat...</span></span></span>
+The poor test result exposes the fact that the model learned an accidental correlation rather than the concept it was supposed to learn. The training score alone would not reveal this mistake.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersDatasets, generalization, and overfitting &#124; Machine LearningThis course module provides guidelines for preparing dat...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_test_sets_ove_9bab93-Illustration-2-dark.svg" | relative_url }}" alt="Test sets illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_test_sets_ove_9bab93-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_test_sets_ove_9bab93-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -311,7 +311,7 @@ The poor test result exposes the fact that the model learned an accidental corre
 
 A test set only works if it remains genuinely untouched.
 
-If developers repeatedly examine test results and alter the model in response, information from the test set gradually leaks into the development process. The test set stops functioning as an independent check and becomes another source of training feedback. This phenomenon is often described as "overfitting the test set". <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/MachineLearning/comments/81o4f0/d_does_most_research_in_ml_overfit_to_the_test/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">Reddit[D] Does most research in ML overfit to the test set in some...The rule is that you should first divide the whole dataset into tra...</span></span></span>
+If developers repeatedly examine test results and alter the model in response, information from the test set gradually leaks into the development process. The test set stops functioning as an independent check and becomes another source of training feedback. This phenomenon is often described as "overfitting the test set".<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/MachineLearning/comments/81o4f0/d_does_most_research_in_ml_overfit_to_the_test/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">Reddit[D] Does most research in ML overfit to the test set in some...The rule is that you should first divide the whole dataset into tra...</span></span></span>
 
 For this reason, machine-learning practice usually separates data into three groups:
 
@@ -320,13 +320,13 @@ For this reason, machine-learning practice usually separates data into three gro
 
 * **Training set**: used to learn patterns.
 * **Validation set**: used during development to compare model versions and tune settings.
-* **Test set**: reserved for final evaluation only. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.geeksforgeeks.org/machine-learning/training-vs-testing-vs-validation-sets/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: geeksforgeeks.org">[GeeksforGeeks]</a><span class="citation-popover" role="note"><span class="citation-popover-source">geeksforgeeks.org</span><span class="citation-popover-title">training vs testing vs validation sets</span><span class="citation-popover-snippet">Training vs Testing vs Validation SetsJan 6, 2026 — The training set teaches the model patterns, the validation set helps fi...</span></span></span>
+* **Test set**: reserved for final evaluation only.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.geeksforgeeks.org/machine-learning/training-vs-testing-vs-validation-sets/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: geeksforgeeks.org">[GeeksforGeeks]</a><span class="citation-popover" role="note"><span class="citation-popover-source">geeksforgeeks.org</span><span class="citation-popover-title">training vs testing vs validation sets</span><span class="citation-popover-snippet">Training vs Testing vs Validation SetsJan 6, 2026 — The training set teaches the model patterns, the validation set helps fi...</span></span></span>
 
 </div>
 
-Keeping the test set isolated preserves its value as evidence. Once the model has indirectly learned from the test data, the reported score no longer reflects performance on truly unseen examples. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/MachineLearning/comments/81o4f0/d_does_most_research_in_ml_overfit_to_the_test/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">Reddit[D] Does most research in ML overfit to the test set in some...The rule is that you should first divide the whole dataset into tra...</span></span></span>
+Keeping the test set isolated preserves its value as evidence. Once the model has indirectly learned from the test data, the reported score no longer reflects performance on truly unseen examples.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reddit.com/r/MachineLearning/comments/81o4f0/d_does_most_research_in_ml_overfit_to_the_test/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reddit.com">[Reddit]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reddit.com</span><span class="citation-popover-snippet">Reddit[D] Does most research in ML overfit to the test set in some...The rule is that you should first divide the whole dataset into tra...</span></span></span>
 
-Google's machine-learning guidance also emphasises that duplicates between training and test partitions can create misleadingly optimistic results. If a test example is effectively the same as one used during training, the model is not being challenged with something genuinely new. Removing such overlaps helps ensure a fair evaluation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">dividing datasets</span><span class="citation-popover-snippet">Google for DevelopersDividing the original dataset &#124; Machine LearningDec 3, 2025 — Learn how to divide a machine learning dataset into tr...</span></span></span>
+Google's machine-learning guidance also emphasises that duplicates between training and test partitions can create misleadingly optimistic results. If a test example is effectively the same as one used during training, the model is not being challenged with something genuinely new. Removing such overlaps helps ensure a fair evaluation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">dividing datasets</span><span class="citation-popover-snippet">Google for DevelopersDividing the original dataset &#124; Machine LearningDec 3, 2025 — Learn how to divide a machine learning dataset into tr...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/rEwiRBdz1us" title="#127: Scikit-learn 121: Model Selection 9: Validation curves" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=rEwiRBdz1us" target="_blank" rel="noopener noreferrer">#127: Scikit-learn 121: Model Selection 9: Validation curves</a></p><p class="youtube-embed-meta">Channel: learndataa</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=rEwiRBdz1us" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=rEwiRBdz1us">Open on YouTube</a></p></div></div></div>
@@ -335,11 +335,11 @@ Google's machine-learning guidance also emphasises that duplicates between train
 
 Although test sets are powerful, they are not perfect.
 
-A test set can only reveal overfitting if it accurately represents the kind of data the model will encounter in practice. If the test set is too small, unrepresentative, or contains systematic errors, its results may give a distorted picture of real-world performance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">dividing datasets</span><span class="citation-popover-snippet">Google for DevelopersDividing the original dataset &#124; Machine LearningDec 3, 2025 — Learn how to divide a machine learning dataset into tr...</span></span></span>
+A test set can only reveal overfitting if it accurately represents the kind of data the model will encounter in practice. If the test set is too small, unrepresentative, or contains systematic errors, its results may give a distorted picture of real-world performance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-title">dividing datasets</span><span class="citation-popover-snippet">Google for DevelopersDividing the original dataset &#124; Machine LearningDec 3, 2025 — Learn how to divide a machine learning dataset into tr...</span></span></span>
 
-Researchers have found significant labelling errors in several widely used benchmark test sets. In such cases, measured accuracy can reflect imperfections in the benchmark rather than genuine model quality. This does not make test sets useless, but it highlights that the quality of the test data matters as much as the quality of the model. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2103.14749" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Researchers have found significant labelling errors in several widely used benchmark test sets. In such cases, measured accuracy can reflect imperfections in the benchmark rather than genuine model quality. This does not make test sets useless, but it highlights that the quality of the test data matters as much as the quality of the model.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2103.14749" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
-Another limitation is distribution shift. A model may perform well on a carefully prepared test set yet struggle when deployed in a changing environment where future data differs from past data. A test set measures performance on unseen examples from the available dataset; it cannot perfectly predict every future condition. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersOverfitting &#124; Machine LearningDec 3, 2025 — Overfitting means creating a model that matches (memorizes) the training...</span></span></span>
+Another limitation is distribution shift. A model may perform well on a carefully prepared test set yet struggle when deployed in a changing environment where future data differs from past data. A test set measures performance on unseen examples from the available dataset; it cannot perfectly predict every future condition.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/machine-learning/crash-course/overfitting/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Google for DevelopersOverfitting &#124; Machine LearningDec 3, 2025 — Overfitting means creating a model that matches (memorizes) the training...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_test_sets_ove_9bab93-Illustration-3-dark.svg" | relative_url }}" alt="Test sets illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_test_sets_ove_9bab93-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_overfitting_n_f898e2_test_sets_ove_9bab93-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -347,197 +347,197 @@ Another limitation is distribution shift. A model may perform well on a carefull
 
 The most important lesson from test sets is that intelligence in machine learning is judged by behaviour on new examples, not by success on familiar ones.
 
-An overfitted model can appear almost flawless when evaluated on the data it has already seen. The test set strips away that illusion. By confronting the model with untouched examples, it provides evidence about whether the system has learned a transferable pattern or merely memorised the past. A strong test score does not guarantee perfect real-world performance, but a large gap between training and test results is one of the clearest signs that a model has failed to generalise. IBM+2Amazon Web Services, Inc. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Overfitting? &#124; IBMOverfitting occurs when an algorithm fits too closely to its training data, resulting in a model that can&#x27;t...</span></span></span>
+An overfitted model can appear almost flawless when evaluated on the data it has already seen. The test set strips away that illusion. By confronting the model with untouched examples, it provides evidence about whether the system has learned a transferable pattern or merely memorised the past. A strong test score does not guarantee perfect real-world performance, but a large gap between training and test results is one of the clearest signs that a model has failed to generalise. IBM+2Amazon Web Services, Inc.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/overfitting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Overfitting? &#124; IBMOverfitting occurs when an algorithm fits too closely to its training data, resulting in a model that can&#x27;t...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to The new examples that reveal overfitting. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to The new examples that reveal overfitting. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Demonstrates test sets and evaluation workflows with real examples.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Demonstrates test sets and evaluation workflows with real examples.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open An Introduction to Statistical Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=g5gezgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for An Introduction to Statistical Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="An Introduction to Statistical Learning">An Introduction to Statistical Learning</a>
-        </h4>
-        <p class="fr-book-author">By Gareth James, Daniela Witten et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open An Introduction to Statistical Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=g5gezgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for An Introduction to Statistical Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="An Introduction to Statistical Learning">An Introduction to Statistical Learning</a>
+</h4>
+<p class="fr-book-author">By Gareth James, Daniela Witten et al.</p>
         
-        <p class="fr-book-desc">Strong coverage of train-test splits, validation, and model assessment.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Strong coverage of train-test splits, validation, and model assessment.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Pattern Recognition and Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kOXDtAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Pattern Recognition and Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Pattern Recognition and Machine Learning">Pattern Recognition and Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Christopher M. Bishop</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Pattern Recognition and Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kOXDtAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Pattern Recognition and Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Pattern Recognition and Machine Learning">Pattern Recognition and Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Christopher M. Bishop</p>
         
-        <p class="fr-book-desc">Explains why unseen data is essential for measuring generalisation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why unseen data is essential for measuring generalisation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning+by+Christopher+M.+Bishop&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
-        </h4>
-        <p class="fr-book-author">By Andriy Burkov</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
+</h4>
+<p class="fr-book-author">By Andriy Burkov</p>
         
-        <p class="fr-book-desc">Summarises evaluation methods and test-set reasoning clearly.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Summarises evaluation methods and test-set reasoning clearly.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=An+to+Statistical+Learning+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">An to Statistical Learning books</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Pattern Recognition and Machine Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=An+to+Statistical+Learning+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">An to Statistical Learning books</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Pattern+Recognition+and+Machine+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Pattern Recognition and Machine Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf3807e54de2d7f28837.jpg' | relative_url }}" alt="Listing image for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf3807e54de2d7f28837.jpg' | relative_url }}" alt="Listing image for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum"><img src="{{ '/assets/images/marketplace-covers/5b8614ccb0bfecbadb30.jpg' | relative_url }}" alt="Listing image for Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum"><img src="{{ '/assets/images/marketplace-covers/5b8614ccb0bfecbadb30.jpg' | relative_url }}" alt="Listing image for Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 4 Pack - Cable Machine Workout Posters Volume 1 &amp; Volume 2 + Dum</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/1609ae8fb21f04b2f399.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/1609ae8fb21f04b2f399.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/59d6570844f9044c0aba.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/59d6570844f9044c0aba.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="test-sets-the-new-examples-that-reveal-overfitting-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -553,7 +553,7 @@ An overfitted model can appear almost flawless when evaluated on the data it has
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -573,7 +573,7 @@ An overfitted model can appear almost flawless when evaluated on the data it has
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -605,7 +605,7 @@ An overfitted model can appear almost flawless when evaluated on the data it has
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -657,7 +657,7 @@ An overfitted model can appear almost flawless when evaluated on the data it has
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -702,7 +702,7 @@ An overfitted model can appear almost flawless when evaluated on the data it has
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -743,196 +743,196 @@ An overfitted model can appear almost flawless when evaluated on the data it has
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/overfitting" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/overfitting</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What is Overfitting? | IBMOverfitting occurs when an algorithm fits too closely to its training data, resulting in a model that can&#x27;t...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/overfitting" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/overfitting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is Overfitting? | IBMOverfitting occurs when an algorithm fits too closely to its training data, resulting in a model that can&#x27;t...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: aws.amazon.com  
    Title: Web Services, Inc.What is Overfitting?  
-   Link: <a href="https://aws.amazon.com/what-is/overfitting/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/what-is/overfitting/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Web Services, Inc.What is Overfitting? - Overfitting in Machine Learning Explained...</p></details>
+   Link:<a href="https://aws.amazon.com/what-is/overfitting/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/what-is/overfitting/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Web Services, Inc.What is Overfitting? - Overfitting in Machine Learning Explained...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: developers.google.com  
    Title: dividing datasets  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersDividing the original dataset | Machine LearningDec 3, 2025 — Learn how to divide a machine learning dataset into tr...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersDividing the original dataset | Machine LearningDec 3, 2025 — Learn how to divide a machine learning dataset into tr...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: geeksforgeeks.org  
    Title: training vs testing vs validation sets  
-   Link: <a href="https://www.geeksforgeeks.org/machine-learning/training-vs-testing-vs-validation-sets/" target="_blank" rel="noopener noreferrer nofollow">https://www.geeksforgeeks.org/machine-learning/training-vs-testing-vs-validation-sets/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Training vs Testing vs Validation SetsJan 6, 2026 — The training set teaches the model patterns, the validation set helps fi...</p></details>
+   Link:<a href="https://www.geeksforgeeks.org/machine-learning/training-vs-testing-vs-validation-sets/" target="_blank" rel="noopener noreferrer nofollow">https://www.geeksforgeeks.org/machine-learning/training-vs-testing-vs-validation-sets/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Training vs Testing vs Validation SetsJan 6, 2026 — The training set teaches the model patterns, the validation set helps fi...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/overfitting" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersDatasets, generalization, and overfitting | Machine LearningThis course module provides guidelines for preparing dat...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/overfitting" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersDatasets, generalization, and overfitting | Machine LearningThis course module provides guidelines for preparing dat...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/overfitting/overfitting" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/overfitting</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersOverfitting | Machine LearningDec 3, 2025 — Overfitting means creating a model that matches (memorizes) the training...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/overfitting/overfitting" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/overfitting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google for DevelopersOverfitting | Machine LearningDec 3, 2025 — Overfitting means creating a model that matches (memorizes) the training...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: scikit-learn.org  
    Title: learning curve  
-   Link: <a href="https://scikit-learn.org/stable/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/modules/learning_curve.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Validation curves: plotting scores to evaluate modelsIf the training score is high and the validation score is low, the estimator is over...</p></details>
+   Link:<a href="https://scikit-learn.org/stable/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/modules/learning_curve.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Validation curves: plotting scores to evaluate modelsIf the training score is high and the validation score is low, the estimator is over...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: geeksforgeeks.org  
    Title: validation curve using scikit learn  
-   Link: <a href="https://www.geeksforgeeks.org/machine-learning/validation-curve-using-scikit-learn/" target="_blank" rel="noopener noreferrer nofollow">https://www.geeksforgeeks.org/machine-learning/validation-curve-using-scikit-learn/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Validation Curve using Scikit-learnJul 23, 2025 — Overfitting: If the training score is high and the validation score is low, the model i...</p></details>
+   Link:<a href="https://www.geeksforgeeks.org/machine-learning/validation-curve-using-scikit-learn/" target="_blank" rel="noopener noreferrer nofollow">https://www.geeksforgeeks.org/machine-learning/validation-curve-using-scikit-learn/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Validation Curve using Scikit-learnJul 23, 2025 — Overfitting: If the training score is high and the validation score is low, the model i...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/81o4f0/d_does_most_research_in_ml_overfit_to_the_test/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/81o4f0/d_does_most_research_in_ml_overfit_to_the_test/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Reddit[D] Does most research in ML overfit to the test set in some...The rule is that you should first divide the whole dataset into tra...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/81o4f0/d_does_most_research_in_ml_overfit_to_the_test/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/81o4f0/d_does_most_research_in_ml_overfit_to_the_test/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Reddit[D] Does most research in ML overfit to the test set in some...The rule is that you should first divide the whole dataset into tra...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
    Title: arXiv Model Similarity Mitigates Test Set Overuse  
-   Link: <a href="https://arxiv.org/abs/1905.12580" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1905.12580</a>  
+   Link:<a href="https://arxiv.org/abs/1905.12580" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1905.12580</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2103.14749" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2103.14749</a>  
+   Link:<a href="https://arxiv.org/abs/2103.14749" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2103.14749</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: scikit-learn.org  
-   Link: <a href="https://scikit-learn.org/stable/modules/cross_validation.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/modules/cross_validation.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>3.1. Cross-validation: evaluating estimator performanceCross-validation provides information about how well an estimator generalizes by e...</p></details>
+   Link:<a href="https://scikit-learn.org/stable/modules/cross_validation.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/modules/cross_validation.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>3.1. Cross-validation: evaluating estimator performanceCross-validation provides information about how well an estimator generalizes by e...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: google.com  
-   Link: <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
+   Link:<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: developers.google.com  
    Title: test your knowledge  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/overfitting/test-your-knowledge" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/test-your-knowledge</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>your knowledge | Machine LearningDec 3, 2025 — Test your knowledge of dataset, generalization, and overfitting principles by completing t...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/overfitting/test-your-knowledge" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/test-your-knowledge</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>your knowledge | Machine LearningDec 3, 2025 — Test your knowledge of dataset, generalization, and overfitting principles by completing t...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course/overfitting/quiz" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/quiz</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>You must answer at least 4 questions correctly to pass this quiz. Which of the following is an example of a stationary dataset?Read more...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course/overfitting/quiz" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course/overfitting/quiz</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>You must answer at least 4 questions correctly to pass this quiz. Which of the following is an example of a stationary dataset?Read more...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: developers.google.com  
    Title: crash course  
-   Link: <a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>google.comGoogle&#x27;s Machine Learning Crash CourseDatasets, Generalization, and Overfitting. An introduction to the characteristics of mach...</p></details>
+   Link:<a href="https://developers.google.com/machine-learning/crash-course" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/machine-learning/crash-course</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>google.comGoogle&#x27;s Machine Learning Crash CourseDatasets, Generalization, and Overfitting. An introduction to the characteristics of mach...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: scikit-learn.org  
-   Link: <a href="https://scikit-learn.org/" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>machine learning in Python — scikit-learn 1.9.0...Machine Learning in Python · Simple and efficient tools for predictive d...</p></details>
+   Link:<a href="https://scikit-learn.org/" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>machine learning in Python — scikit-learn 1.9.0...Machine Learning in Python · Simple and efficient tools for predictive d...</p></details>
 
-18. <a id="endnote-18"></a>
-   Source: scikit-learn.org  
-   Title: learning curve  
-   Link: <a href="https://scikit-learn.org/0.17/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/0.17/modules/learning_curve.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Validation curves: plotting scores to evaluate modelsA learning curve shows the validation and training score of an estimator for varying...</p></details>
-
-19. <a id="endnote-19"></a>
+18.<a id="endnote-18"></a>
    Source: scikit-learn.org  
    Title: learning curve  
-   Link: <a href="https://scikit-learn.org/0.16/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/0.16/modules/learning_curve.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Validation curves: plotting scores to evaluate modelsA learning curve shows the validation and training score of an estimator for varying...</p></details>
+   Link:<a href="https://scikit-learn.org/0.17/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/0.17/modules/learning_curve.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Validation curves: plotting scores to evaluate modelsA learning curve shows the validation and training score of an estimator for varying...</p></details>
 
-20. <a id="endnote-20"></a>
+19.<a id="endnote-19"></a>
    Source: scikit-learn.org  
    Title: learning curve  
-   Link: <a href="https://scikit-learn.org/0.15/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/0.15/modules/learning_curve.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Validation curves: plotting scores to evaluate modelsA learning curve shows the validation and training score of an estimator for varying...</p></details>
+   Link:<a href="https://scikit-learn.org/0.16/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/0.16/modules/learning_curve.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Validation curves: plotting scores to evaluate modelsA learning curve shows the validation and training score of an estimator for varying...</p></details>
 
-21. <a id="endnote-21"></a>
+20.<a id="endnote-20"></a>
    Source: scikit-learn.org  
-   Link: <a href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The effect is depicted by [checking](&amp;#123;&amp;#123; &#x27;checklists/&#x27; | relative_url &amp;#125;&amp;#125;) the statistical performance of the model...</p></details>
+   Title: learning curve  
+   Link:<a href="https://scikit-learn.org/0.15/modules/learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/0.15/modules/learning_curve.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Validation curves: plotting scores to evaluate modelsA learning curve shows the validation and training score of an estimator for varying...</p></details>
 
-22. <a id="endnote-22"></a>
+21.<a id="endnote-21"></a>
    Source: scikit-learn.org  
-   Link: <a href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Underfitting vs. OverfittingWe calculate the mean squared error (MSE) on the validation set, the higher, the less likely the model genera...</p></details>
+   Link:<a href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The effect is depicted by [checking](&amp;#123;&amp;#123; &#x27;checklists/&#x27; | relative_url &amp;#125;&amp;#125;) the statistical performance of the model...</p></details>
 
-23. <a id="endnote-23"></a>
+22.<a id="endnote-22"></a>
    Source: scikit-learn.org  
-   Link: <a href="https://scikit-learn.org/1.5/auto_examples/model_selection/plot_validation_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/1.5/auto_examples/model_selection/plot_validation_curve.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Plotting Validation CurvesIf gamma is too high, the classifier will overfit, which means that the training score is good but the validati...</p></details>
+   Link:<a href="https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/stable/auto_examples/model_selection/plot_underfitting_overfitting.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Underfitting vs. OverfittingWe calculate the mean squared error (MSE) on the validation set, the higher, the less likely the model genera...</p></details>
 
-24. <a id="endnote-24"></a>
+23.<a id="endnote-23"></a>
+   Source: scikit-learn.org  
+   Link:<a href="https://scikit-learn.org/1.5/auto_examples/model_selection/plot_validation_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://scikit-learn.org/1.5/auto_examples/model_selection/plot_validation_curve.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Plotting Validation CurvesIf gamma is too high, the classifier will overfit, which means that the training score is good but the validati...</p></details>
+
+24.<a id="endnote-24"></a>
    Source: about.google  
-   Link: <a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Our products, technology and company...Learn more about Google. Explore our innovative AI products and services, and how we&#x27;re using tec...</p></details>
+   Link:<a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Our products, technology and company...Learn more about Google. Explore our innovative AI products and services, and how we&#x27;re using tec...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2305.05792v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2305.05792v2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Testing for OverfittingMar 10, 2025 — We stipulate conditions under which this test is valid, explain why training data alone is unsuitab...</p></details>
+   Link:<a href="https://arxiv.org/html/2305.05792v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2305.05792v2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Testing for OverfittingMar 10, 2025 — We stipulate conditions under which this test is valid, explain why training data alone is unsuitab...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: stackoverflow.com  
-   Link: <a href="https://stackoverflow.com/questions/20357705/scikit-learn-cross-validation-over-fitting-or-under-fitting" target="_blank" rel="noopener noreferrer nofollow">https://stackoverflow.com/questions/20357705/scikit-learn-cross-validation-over-fitting-or-under-fitting</a>  
+   Link:<a href="https://stackoverflow.com/questions/20357705/scikit-learn-cross-validation-over-fitting-or-under-fitting" target="_blank" rel="noopener noreferrer nofollow">https://stackoverflow.com/questions/20357705/scikit-learn-cross-validation-over-fitting-or-under-fitting</a>  
 
 ### Additional References
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: inria.github.io  
-   Link: <a href="https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_validation_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_validation_curve.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Overfit-generalization-underfit — Scikit-learn courseIn this notebook, we put these two errors into perspective and show how they can hel...</p></details>
+   Link:<a href="https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_validation_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://inria.github.io/scikit-learn-mooc/python_scripts/cross_validation_validation_curve.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Overfit-generalization-underfit — Scikit-learn courseIn this notebook, we put these two errors into perspective and show how they can hel...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: stackoverflow.com  
-   Link: <a href="https://stackoverflow.com/questions/52717219/machine-learning-python-drawing-validation-curve" target="_blank" rel="noopener noreferrer nofollow">https://stackoverflow.com/questions/52717219/machine-learning-python-drawing-validation-curve</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;Machine Learning + Python: Drawing Validation curveI want to draw a validation curve for my Naive Bayes estimator like this: [http://scik...&quot;](http://scik...&quot;)...</p></details>
+   Link:<a href="https://stackoverflow.com/questions/52717219/machine-learning-python-drawing-validation-curve" target="_blank" rel="noopener noreferrer nofollow">https://stackoverflow.com/questions/52717219/machine-learning-python-drawing-validation-curve</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;Machine Learning + Python: Drawing Validation curveI want to draw a validation curve for my Naive Bayes estimator like this: [http://scik...&quot;](http://scik...&quot;)...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: scikit-yb.org  
-   Link: <a href="https://www.scikit-yb.org/en/latest/api/model_selection/validation_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://www.scikit-yb.org/en/latest/api/model_selection/validation_curve.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Validation Curve — Yellowbrick v1.5 documentationAfter a depth of 7, the training and test scores diverge, this is because deeper trees a...</p></details>
+   Link:<a href="https://www.scikit-yb.org/en/latest/api/model_selection/validation_curve.html" target="_blank" rel="noopener noreferrer nofollow">https://www.scikit-yb.org/en/latest/api/model_selection/validation_curve.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Validation Curve — Yellowbrick v1.5 documentationAfter a depth of 7, the training and test scores diverge, this is because deeper trees a...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: github.com  
-   Link: <a href="https://github.com/litaotao/machine-learning-crash-course" target="_blank" rel="noopener noreferrer nofollow">https://github.com/litaotao/machine-learning-crash-course</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>machine-learning-crash-course from googleThe model&#x27;s generalization curve above means that the model is overfitting to the data in the tr...</p></details>
+   Link:<a href="https://github.com/litaotao/machine-learning-crash-course" target="_blank" rel="noopener noreferrer nofollow">https://github.com/litaotao/machine-learning-crash-course</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>machine-learning-crash-course from googleThe model&#x27;s generalization curve above means that the model is overfitting to the data in the tr...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: ai.stackexchange.com  
    Title: Consider a noisy 2d dataset where I am fitting polynomials. A good model would  
-   Link: <a href="https://ai.stackexchange.com/questions/43298/why-does-model-overfitting-lead-to-poor-generalization" target="_blank" rel="noopener noreferrer nofollow">https://ai.stackexchange.com/questions/43298/why-does-model-overfitting-lead-to-poor-generalization</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>does model overfitting lead to poor generalization?Jan 2, 2024 — If a model overfit to the training data, why does it generalize poorly?...</p></details>
+   Link:<a href="https://ai.stackexchange.com/questions/43298/why-does-model-overfitting-lead-to-poor-generalization" target="_blank" rel="noopener noreferrer nofollow">https://ai.stackexchange.com/questions/43298/why-does-model-overfitting-lead-to-poor-generalization</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>does model overfitting lead to poor generalization?Jan 2, 2024 — If a model overfit to the training data, why does it generalize poorly?...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=rEwiRBdz1us" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=rEwiRBdz1us</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>#127: Scikit-learn 121: Model Selection 9: Validation curvesThe video discusses validation and learning curves in Scikit-learn... Lectur...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=rEwiRBdz1us" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=rEwiRBdz1us</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>#127: Scikit-learn 121: Model Selection 9: Validation curvesThe video discusses validation and learning curves in Scikit-learn... Lectur...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=TyT8i8YIcwI&amp;vl=en" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TyT8i8YIcwI&amp;vl=en</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning Crash Course: GeneralizationThe quality of a machine learning model hinges on its ability to generalize: to make good pr...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=TyT8i8YIcwI&amp;vl=en" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TyT8i8YIcwI&amp;vl=en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Machine Learning Crash Course: GeneralizationThe quality of a machine learning model hinges on its ability to generalize: to make good pr...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: refontelearning.com  
    Title: Overfitting happens when a model learns the training data too well –  
-   Link: <a href="https://www.refontelearning.com/blog/model-evaluation-and-validation-techniques-in-machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.refontelearning.com/blog/model-evaluation-and-validation-techniques-in-machine-learning</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Model Evaluation and Validation Techniques in Machine...Aug 22, 2025 — Two common issues can hurt generalization: overfitting and underf...</p></details>
+   Link:<a href="https://www.refontelearning.com/blog/model-evaluation-and-validation-techniques-in-machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.refontelearning.com/blog/model-evaluation-and-validation-techniques-in-machine-learning</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Evaluation and Validation Techniques in Machine...Aug 22, 2025 — Two common issues can hurt generalization: overfitting and underf...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: machinelearningmastery.com  
    Title: learning curves for diagnosing machine learning model performance  
-   Link: <a href="https://www.machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/" target="_blank" rel="noopener noreferrer nofollow">https://www.machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to use Learning Curves to Diagnose Machine...Aug 6, 2019 — In this post, you will discover learning curves and how they can be used...</p></details>
+   Link:<a href="https://www.machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/" target="_blank" rel="noopener noreferrer nofollow">https://www.machinelearningmastery.com/learning-curves-for-diagnosing-machine-learning-model-performance/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to use Learning Curves to Diagnose Machine...Aug 6, 2019 — In this post, you will discover learning curves and how they can be used...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: jobaajlearnings.com  
    Title: overfitting in machine learning what it is and how to prevent it  
-   Link: <a href="https://www.jobaajlearnings.com/blog/overfitting-in-machine-learning-what-it-is-and-how-to-prevent-it" target="_blank" rel="noopener noreferrer nofollow">https://www.jobaajlearnings.com/blog/overfitting-in-machine-learning-what-it-is-and-how-to-prevent-it</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Overfitting in Machine Learning: What It Is and How to...30 Mar 2026 — In machine learning, overfitting occurs when a model learns the t...</p></details>
+   Link:<a href="https://www.jobaajlearnings.com/blog/overfitting-in-machine-learning-what-it-is-and-how-to-prevent-it" target="_blank" rel="noopener noreferrer nofollow">https://www.jobaajlearnings.com/blog/overfitting-in-machine-learning-what-it-is-and-how-to-prevent-it</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Overfitting in Machine Learning: What It Is and How to...30 Mar 2026 — In machine learning, overfitting occurs when a model learns the t...</p></details>

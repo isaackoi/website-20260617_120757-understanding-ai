@@ -288,7 +288,7 @@ image: /assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd
 
 ## Introduction
 
-As organisations move beyond AI pilot projects, a new governance problem often emerges: employees start using their own AI tools when approved systems are unavailable, restricted, slow to deploy, or less capable than publicly available alternatives. This phenomenon, commonly called “shadow AI”, is not usually driven by malicious intent. It is often a productivity response. Workers face deadlines, see peers using AI successfully, and adopt consumer tools to fill gaps in official technology offerings. The result is a parallel AI environment operating outside normal [oversight]({{ 'oversight/' | relative_url }}), creating risks that may be invisible until a security incident, compliance failure, or quality problem occurs. Research from Microsoft and LinkedIn found that widespread workplace AI use is often accompanied by employees bringing their own tools to work, particularly when organisations have not yet provided a clear AI strategy or approved alternatives. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://news.microsoft.com/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: news.microsoft.com">[Microsoft]</a><span class="citation-popover" role="note"><span class="citation-popover-source">news.microsoft.com</span><span class="citation-popover-snippet">SourceMicrosoft and LinkedIn release the 2024 Work Trend Index on the state of AI at work - SourceMay 8, 2024...</span><span class="citation-popover-meta">Published: May 8, 2024</span></span></span>
+As organisations move beyond AI pilot projects, a new governance problem often emerges: employees start using their own AI tools when approved systems are unavailable, restricted, slow to deploy, or less capable than publicly available alternatives. This phenomenon, commonly called “shadow AI”, is not usually driven by malicious intent. It is often a productivity response. Workers face deadlines, see peers using AI successfully, and adopt consumer tools to fill gaps in official technology offerings. The result is a parallel AI environment operating outside normal [oversight]({{ 'oversight/' | relative_url }}), creating risks that may be invisible until a security incident, compliance failure, or quality problem occurs. Research from Microsoft and LinkedIn found that widespread workplace AI use is often accompanied by employees bringing their own tools to work, particularly when organisations have not yet provided a clear AI strategy or approved alternatives.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://news.microsoft.com/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: news.microsoft.com">[Microsoft]</a><span class="citation-popover" role="note"><span class="citation-popover-source">news.microsoft.com</span><span class="citation-popover-snippet">SourceMicrosoft and LinkedIn release the 2024 Work Trend Index on the state of AI at work - SourceMay 8, 2024...</span><span class="citation-popover-meta">Published: May 8, 2024</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc-Illustration-1-dark.svg" | relative_url }}" alt="Shadow AI illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -296,7 +296,7 @@ As organisations move beyond AI pilot projects, a new governance problem often e
 
 Shadow AI grows when demand for AI assistance rises faster than organisational governance and procurement processes.
 
-In many organisations, employees can access powerful AI systems through a web browser in seconds, while obtaining approval for an enterprise AI tool may take months. This [mismatch]({{ 'mismatch/' | relative_url }}) creates a strong incentive to bypass formal channels. Microsoft research found extensive use of [generative AI]({{ 'generative-ai/' | relative_url }}) among knowledge workers, including significant levels of employee-led adoption outside employer-managed programmes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.axios.com/2024/05/08/employees-bring-their-own-ai-microsoft-linkedin" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: axios.com">[Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">axios.com</span><span class="citation-popover-title">employees bring their own ai microsoft linkedin</span><span class="citation-popover-snippet">This independent use reflects rapid adoption of AI tools among employees but also underscores fears of job insecurity—53% of AI users wor...</span></span></span>
+In many organisations, employees can access powerful AI systems through a web browser in seconds, while obtaining approval for an enterprise AI tool may take months. This [mismatch]({{ 'mismatch/' | relative_url }}) creates a strong incentive to bypass formal channels. Microsoft research found extensive use of [generative AI]({{ 'generative-ai/' | relative_url }}) among knowledge workers, including significant levels of employee-led adoption outside employer-managed programmes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.axios.com/2024/05/08/employees-bring-their-own-ai-microsoft-linkedin" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: axios.com">[Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">axios.com</span><span class="citation-popover-title">employees bring their own ai microsoft linkedin</span><span class="citation-popover-snippet">This independent use reflects rapid adoption of AI tools among employees but also underscores fears of job insecurity—53% of AI users wor...</span></span></span>
 
 Several conditions make shadow AI particularly likely:
 
@@ -311,15 +311,15 @@ Several conditions make shadow AI particularly likely:
 
 </div>
 
-The mechanism is similar to the earlier rise of “shadow IT”, where workers adopted unauthorised software and cloud services. However, generative AI introduces additional complications because it does not merely store information. It processes, transforms and generates new content, code, analyses and [decisions]({{ 'decisions/' | relative_url }}). This makes governance challenges more complex than traditional software adoption. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.manageengine.com/data-security/what-is/shadow-ai.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: manageengine.com">[ManageEngine]</a><span class="citation-popover" role="note"><span class="citation-popover-source">manageengine.com</span><span class="citation-popover-snippet">Open source on manageengine.com.</span></span></span>
+The mechanism is similar to the earlier rise of “shadow IT”, where workers adopted unauthorised software and cloud services. However, generative AI introduces additional complications because it does not merely store information. It processes, transforms and generates new content, code, analyses and [decisions]({{ 'decisions/' | relative_url }}). This makes governance challenges more complex than traditional software adoption.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.manageengine.com/data-security/what-is/shadow-ai.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: manageengine.com">[ManageEngine]</a><span class="citation-popover" role="note"><span class="citation-popover-source">manageengine.com</span><span class="citation-popover-snippet">Open source on manageengine.com.</span></span></span>
 
-A recurring pattern appears across organisations: employees often know the tools are unofficial, but perceive the productivity benefit as outweighing the immediate risk. Surveys in the UK and internationally have found large numbers of workers using unapproved AI tools, with some citing the absence of a suitable employer-provided option as the reason. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">Open source on itpro.com.</span></span></span>
+A recurring pattern appears across organisations: employees often know the tools are unofficial, but perceive the productivity benefit as outweighing the immediate risk. Surveys in the UK and internationally have found large numbers of workers using unapproved AI tools, with some citing the absence of a suitable employer-provided option as the reason.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">Open source on itpro.com.</span></span></span>
 
 ## Security and compliance risks from workarounds
 
 The most visible shadow AI risk is uncontrolled data exposure.
 
-Many generative AI systems require users to submit prompts containing text, documents, code, spreadsheets or customer information. When workers upload sensitive material into consumer-grade AI services, organisations may lose visibility over where that information is processed, stored or reused. Security specialists consistently identify data leakage as the primary shadow AI concern. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://securiti.ai/what-is-shadow-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: securiti.ai">[Securiti+2Security Boulevard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">securiti.ai</span><span class="citation-popover-title">What is Shadow AI? Risks, Examples, and Governance</span><span class="citation-popover-snippet">What is Shadow AI? Risks, Examples, and Governance - Securiti...</span></span></span>
+Many generative AI systems require users to submit prompts containing text, documents, code, spreadsheets or customer information. When workers upload sensitive material into consumer-grade AI services, organisations may lose visibility over where that information is processed, stored or reused. Security specialists consistently identify data leakage as the primary shadow AI concern.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://securiti.ai/what-is-shadow-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: securiti.ai">[Securiti+2Security Boulevard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">securiti.ai</span><span class="citation-popover-title">What is Shadow AI? Risks, Examples, and Governance</span><span class="citation-popover-snippet">What is Shadow AI? Risks, Examples, and Governance - Securiti...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/7FoDtT3o-A8" title="Bring Your Own AI: Balance Rewards and Risks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=7FoDtT3o-A8" target="_blank" rel="noopener noreferrer">Bring Your Own AI: Balance Rewards and Risks</a></p><p class="youtube-embed-meta">Channel: MIT Sloan Executive Education</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=7FoDtT3o-A8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=7FoDtT3o-A8">Open on YouTube</a></p></div></div></div>
@@ -341,7 +341,7 @@ Potentially exposed information includes:
 
 </div>
 
-Researchers and security analysts note that many users do not fully understand how different AI services handle submitted information, creating risks around retention, model training and third-party processing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://securiti.ai/what-is-shadow-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: securiti.ai">[Securiti]</a><span class="citation-popover" role="note"><span class="citation-popover-source">securiti.ai</span><span class="citation-popover-title">What is Shadow AI? Risks, Examples, and Governance</span><span class="citation-popover-snippet">What is Shadow AI? Risks, Examples, and Governance - Securiti...</span></span></span>
+Researchers and security analysts note that many users do not fully understand how different AI services handle submitted information, creating risks around retention, model training and third-party processing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://securiti.ai/what-is-shadow-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: securiti.ai">[Securiti]</a><span class="citation-popover" role="note"><span class="citation-popover-source">securiti.ai</span><span class="citation-popover-title">What is Shadow AI? Risks, Examples, and Governance</span><span class="citation-popover-snippet">What is Shadow AI? Risks, Examples, and Governance - Securiti...</span></span></span>
 
 ### Compliance obligations become harder to meet
 
@@ -359,7 +359,7 @@ Shadow AI undermines these controls because:
 
 </div>
 
-Data protection, privacy and intellectual property concerns are repeatedly identified by OECD analyses as important governance issues surrounding workplace generative AI adoption. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/generative-ai-and-the-sme-workforce_83bafdfb/2d08b99d-en.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-title">Generative AI and the SME Workforce</span><span class="citation-popover-snippet">Generative AI and the SME WorkforceApril 29, 2026...</span><span class="citation-popover-meta">Published: April 29, 2026</span></span></span>
+Data protection, privacy and intellectual property concerns are repeatedly identified by OECD analyses as important governance issues surrounding workplace generative AI adoption.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/generative-ai-and-the-sme-workforce_83bafdfb/2d08b99d-en.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-title">Generative AI and the SME Workforce</span><span class="citation-popover-snippet">Generative AI and the SME WorkforceApril 29, 2026...</span><span class="citation-popover-meta">Published: April 29, 2026</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc-Illustration-2-dark.svg" | relative_url }}" alt="Shadow AI illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -369,13 +369,13 @@ Security is only part of the problem.
 
 When unofficial AI becomes embedded in daily workflows, organisations may unknowingly depend on outputs that have not been validated. Employees may use AI-generated summaries, analyses, code or recommendations in operational processes without formal review standards.
 
-Unlike traditional software, generative AI can produce plausible but incorrect outputs. If shadow AI use remains invisible, managers may not realise where decisions are being influenced by machine-generated content. This creates governance gaps around accountability, accuracy and quality assurance. Analysts increasingly describe shadow AI as a challenge that extends beyond individual tools into hidden workflows and automated processes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ecosystm.io">[Ecosystm]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ecosystm.io</span><span class="citation-popover-title">Report: Shadow AI: Risks, Exposure &amp; Governance</span><span class="citation-popover-snippet">Report: Shadow AI: Risks, Exposure &amp; Governance - Ecosystm...</span></span></span>
+Unlike traditional software, generative AI can produce plausible but incorrect outputs. If shadow AI use remains invisible, managers may not realise where decisions are being influenced by machine-generated content. This creates governance gaps around accountability, accuracy and quality assurance. Analysts increasingly describe shadow AI as a challenge that extends beyond individual tools into hidden workflows and automated processes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ecosystm.io">[Ecosystm]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ecosystm.io</span><span class="citation-popover-title">Report: Shadow AI: Risks, Exposure &amp; Governance</span><span class="citation-popover-snippet">Report: Shadow AI: Risks, Exposure &amp; Governance - Ecosystm...</span></span></span>
 
 ## Why banning AI rarely solves the problem
 
 A purely restrictive response often fails because it ignores the underlying driver: employees are trying to solve real work problems.
 
-When workers believe AI significantly improves productivity, a ban may simply push usage further out of sight. Several industry studies suggest that many employees conceal AI use from employers, making detection and governance more difficult. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pcworld.com/article/2324694/microsoft-more-workers-using-ai-but-theyre-ashamed-to-admit-it.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pcworld.com">[PCWorld]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pcworld.com</span><span class="citation-popover-title">More workers are using AI, but they&#x27;re ashamed to admit it &#124; PCWorld</span><span class="citation-popover-snippet">More workers are using AI, but they&#x27;re ashamed to admit it &#124; PCWorldMay 8, 2024...</span><span class="citation-popover-meta">Published: May 8, 2024</span></span></span>
+When workers believe AI significantly improves productivity, a ban may simply push usage further out of sight. Several industry studies suggest that many employees conceal AI use from employers, making detection and governance more difficult.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pcworld.com/article/2324694/microsoft-more-workers-using-ai-but-theyre-ashamed-to-admit-it.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pcworld.com">[PCWorld]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pcworld.com</span><span class="citation-popover-title">More workers are using AI, but they&#x27;re ashamed to admit it &#124; PCWorld</span><span class="citation-popover-snippet">More workers are using AI, but they&#x27;re ashamed to admit it &#124; PCWorldMay 8, 2024...</span><span class="citation-popover-meta">Published: May 8, 2024</span></span></span>
 
 This creates a paradox. The organisations most concerned about AI risk can unintentionally increase governance risk if they provide no practical, approved alternative. Employees still face workload pressures and continue searching for ways to work faster.
 
@@ -388,7 +388,7 @@ The challenge therefore becomes less about eliminating AI use and more about bri
 
 The strongest defence against shadow AI is usually not stricter prohibition but better enablement.
 
-When organisations provide capable, accessible and trusted AI tools, the incentive to seek unofficial alternatives falls substantially. Governance experts increasingly argue that shadow AI should be addressed as an adoption problem as much as a security problem. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ecosystm.io">[Ecosystm]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ecosystm.io</span><span class="citation-popover-title">Report: Shadow AI: Risks, Exposure &amp; Governance</span><span class="citation-popover-snippet">Report: Shadow AI: Risks, Exposure &amp; Governance - Ecosystm...</span></span></span>
+When organisations provide capable, accessible and trusted AI tools, the incentive to seek unofficial alternatives falls substantially. Governance experts increasingly argue that shadow AI should be addressed as an adoption problem as much as a security problem.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ecosystm.io">[Ecosystm]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ecosystm.io</span><span class="citation-popover-title">Report: Shadow AI: Risks, Exposure &amp; Governance</span><span class="citation-popover-snippet">Report: Shadow AI: Risks, Exposure &amp; Governance - Ecosystm...</span></span></span>
 
 ### Provide approved tools that meet real needs
 
@@ -399,7 +399,7 @@ Employees are less likely to use unauthorised systems when approved tools are:
 * Integrated into existing workflows.
 * Supported by training and [documentation]({{ 'paper-safety/' | relative_url }}).
 
-Research on enterprise AI adoption consistently shows that usefulness and workflow integration are major factors influencing sustained use of approved systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2602.18576" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Generative AI in Knowledge Work: Perception, Usefulness, and Acceptance of Microsoft 365 CopilotFebruary 20, 2026...</span><span class="citation-popover-meta">Published: February 20, 2026</span></span></span>
+Research on enterprise AI adoption consistently shows that usefulness and workflow integration are major factors influencing sustained use of approved systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2602.18576" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Generative AI in Knowledge Work: Perception, Usefulness, and Acceptance of Microsoft 365 CopilotFebruary 20, 2026...</span><span class="citation-popover-meta">Published: February 20, 2026</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc-Illustration-3-dark.svg" | relative_url }}" alt="Shadow AI illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_shadow_ai_ris_fd40fc-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -429,203 +429,203 @@ Clear rules reduce uncertainty and make compliant behaviour easier.
 
 Organisations that treat every instance of shadow AI as employee misconduct may miss valuable information.
 
-Unauthorised AI usage often reveals unmet demand. If hundreds of employees independently adopt the same tool, that may indicate a legitimate [business]({{ 'business-adoption/' | relative_url }}) need. Some governance specialists therefore recommend identifying high-value use cases and bringing them into approved environments rather than focusing exclusively on enforcement. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">Open source on itpro.com.</span></span></span>
+Unauthorised AI usage often reveals unmet demand. If hundreds of employees independently adopt the same tool, that may indicate a legitimate [business]({{ 'business-adoption/' | relative_url }}) need. Some governance specialists therefore recommend identifying high-value use cases and bringing them into approved environments rather than focusing exclusively on enforcement.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itpro.com">[IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itpro.com</span><span class="citation-popover-snippet">Open source on itpro.com.</span></span></span>
 
 ## The governance lesson behind shadow AI
 
 Shadow AI is a symptom of a broader organisational reality: AI adoption does not wait for governance to catch up.
 
-When approved tools lag behind employee expectations, workers frequently create their own solutions. The resulting risks extend beyond data leakage to include compliance failures, unreliable outputs, hidden dependencies and reduced organisational visibility. The central governance challenge is therefore not merely controlling AI use but ensuring that safe, effective and approved AI options arrive quickly enough that employees do not feel compelled to build an unofficial AI ecosystem of their own. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ecosystm.io">[Ecosystm+2Source]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ecosystm.io</span><span class="citation-popover-title">Report: Shadow AI: Risks, Exposure &amp; Governance</span><span class="citation-popover-snippet">Report: Shadow AI: Risks, Exposure &amp; Governance - Ecosystm...</span></span></span>
+When approved tools lag behind employee expectations, workers frequently create their own solutions. The resulting risks extend beyond data leakage to include compliance failures, unreliable outputs, hidden dependencies and reduced organisational visibility. The central governance challenge is therefore not merely controlling AI use but ensuring that safe, effective and approved AI options arrive quickly enough that employees do not feel compelled to build an unofficial AI ecosystem of their own.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ecosystm.io">[Ecosystm+2Source]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ecosystm.io</span><span class="citation-popover-title">Report: Shadow AI: Risks, Exposure &amp; Governance</span><span class="citation-popover-snippet">Report: Shadow AI: Risks, Exposure &amp; Governance - Ecosystm...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to What happens when workers bring their own AI?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to What happens when workers bring their own AI?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Explains organizational systems needed to manage AI use at scale.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains organizational systems needed to manage AI use at scale.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Governance+Handbook+by+Sunil+Gregory&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Governance Handbook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iL59EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Governance Handbook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Governance+Handbook+by+Sunil+Gregory&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Governance Handbook">AI Governance Handbook</a>
-        </h4>
-        <p class="fr-book-author">By Sunil Gregory, Anindya Sircar</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Governance+Handbook+by+Sunil+Gregory&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Governance Handbook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iL59EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Governance Handbook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Governance+Handbook+by+Sunil+Gregory&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Governance Handbook">AI Governance Handbook</a>
+</h4>
+<p class="fr-book-author">By Sunil Gregory, Anindya Sircar</p>
         
-        <p class="fr-book-desc">Directly covers enterprise AI controls and governance structures.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Governance+Handbook+by+Sunil+Gregory&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly covers enterprise AI controls and governance structures.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Governance+Handbook+by+Sunil+Gregory&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI-Savvy Leader on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=USTIEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI-Savvy Leader" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI-Savvy Leader">The AI-Savvy Leader</a>
-        </h4>
-        <p class="fr-book-author">By David De Cremer</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI-Savvy Leader on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=USTIEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI-Savvy Leader" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI-Savvy Leader">The AI-Savvy Leader</a>
+</h4>
+<p class="fr-book-author">By David De Cremer</p>
         
-        <p class="fr-book-desc">Addresses governance gaps and employee adoption challenges.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses governance gaps and employee adoption challenges.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+AI-Savvy+Leader+by+David+De+Cremer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Cybersecurity+and+Cyberwar+by+P.W.+Singer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Cybersecurity and Cyberwar on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=B88ZAgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Cybersecurity and Cyberwar" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Cybersecurity+and+Cyberwar+by+P.W.+Singer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Cybersecurity and Cyberwar">Cybersecurity and Cyberwar</a>
-        </h4>
-        <p class="fr-book-author">By P.W. Singer, Allan Friedman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Cybersecurity+and+Cyberwar+by+P.W.+Singer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Cybersecurity and Cyberwar on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=B88ZAgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Cybersecurity and Cyberwar" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Cybersecurity+and+Cyberwar+by+P.W.+Singer&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Cybersecurity and Cyberwar">Cybersecurity and Cyberwar</a>
+</h4>
+<p class="fr-book-author">By P.W. Singer, Allan Friedman</p>
         
-        <p class="fr-book-desc">Provides context for unmanaged technology risks and policy controls.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Cybersecurity+and+Cyberwar+by+P.W.+Singer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for unmanaged technology risks and policy controls.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Cybersecurity+and+Cyberwar+by+P.W.+Singer&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Governance+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Governance books</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+AI+Savvy+Leader&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The AI Savvy Leader</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Governance+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Governance books</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+AI+Savvy+Leader&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The AI Savvy Leader</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt"><img src="{{ '/assets/images/marketplace-covers/5b6f0d8afbdc2e9cb4b7.jpg' | relative_url }}" alt="Listing image for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt"><img src="{{ '/assets/images/marketplace-covers/5b6f0d8afbdc2e9cb4b7.jpg' | relative_url }}" alt="Listing image for Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Skynet Artificial Intelligence Male Adults Short Sleeve Soft Style T Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY"><img src="{{ '/assets/images/marketplace-covers/95f715df35fa193ddaab.jpg' | relative_url }}" alt="Listing image for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY"><img src="{{ '/assets/images/marketplace-covers/95f715df35fa193ddaab.jpg' | relative_url }}" alt="Listing image for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL"><img src="{{ '/assets/images/marketplace-covers/d0683946fdfc9215b99f.jpg' | relative_url }}" alt="Listing image for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL"><img src="{{ '/assets/images/marketplace-covers/d0683946fdfc9215b99f.jpg' | relative_url }}" alt="Listing image for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top"><img src="{{ '/assets/images/marketplace-covers/415bfea6289a619ab1bb.jpg' | relative_url }}" alt="Listing image for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top"><img src="{{ '/assets/images/marketplace-covers/415bfea6289a619ab1bb.jpg' | relative_url }}" alt="Listing image for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="shadow-ai-what-happens-when-workers-bring-their-own-ai-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -641,7 +641,7 @@ When approved tools lag behind employee expectations, workers frequently create 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -661,7 +661,7 @@ When approved tools lag behind employee expectations, workers frequently create 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -693,7 +693,7 @@ When approved tools lag behind employee expectations, workers frequently create 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -745,7 +745,7 @@ When approved tools lag behind employee expectations, workers frequently create 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -790,7 +790,7 @@ When approved tools lag behind employee expectations, workers frequently create 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -831,121 +831,121 @@ When approved tools lag behind employee expectations, workers frequently create 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: news.microsoft.com  
-   Link: <a href="https://news.microsoft.com/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/" target="_blank" rel="noopener noreferrer nofollow">https://news.microsoft.com/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>SourceMicrosoft and LinkedIn release the 2024 Work Trend Index on the state of AI at work - SourceMay 8, 2024...</p></details>
+   Link:<a href="https://news.microsoft.com/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/" target="_blank" rel="noopener noreferrer nofollow">https://news.microsoft.com/2024/05/08/microsoft-and-linkedin-release-the-2024-work-trend-index-on-the-state-of-ai-at-work/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SourceMicrosoft and LinkedIn release the 2024 Work Trend Index on the state of AI at work - SourceMay 8, 2024...</p></details>
    Published: May 8, 2024  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: axios.com  
    Title: employees bring their own ai microsoft linkedin  
-   Link: <a href="https://www.axios.com/2024/05/08/employees-bring-their-own-ai-microsoft-linkedin" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2024/05/08/employees-bring-their-own-ai-microsoft-linkedin</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>This independent use reflects rapid adoption of AI tools among employees but also underscores fears of job insecurity—53% of AI users wor...</p></details>
+   Link:<a href="https://www.axios.com/2024/05/08/employees-bring-their-own-ai-microsoft-linkedin" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2024/05/08/employees-bring-their-own-ai-microsoft-linkedin</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This independent use reflects rapid adoption of AI tools among employees but also underscores fears of job insecurity—53% of AI users wor...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: manageengine.com  
-   Link: <a href="https://www.manageengine.com/data-security/what-is/shadow-ai.html" target="_blank" rel="noopener noreferrer nofollow">https://www.manageengine.com/data-security/what-is/shadow-ai.html</a>  
+   Link:<a href="https://www.manageengine.com/data-security/what-is/shadow-ai.html" target="_blank" rel="noopener noreferrer nofollow">https://www.manageengine.com/data-security/what-is/shadow-ai.html</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: securiti.ai  
    Title: What is Shadow AI? Risks, Examples, and Governance  
-   Link: <a href="https://securiti.ai/what-is-shadow-ai/" target="_blank" rel="noopener noreferrer nofollow">https://securiti.ai/what-is-shadow-ai/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What is Shadow AI? Risks, Examples, and Governance - Securiti...</p></details>
+   Link:<a href="https://securiti.ai/what-is-shadow-ai/" target="_blank" rel="noopener noreferrer nofollow">https://securiti.ai/what-is-shadow-ai/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is Shadow AI? Risks, Examples, and Governance - Securiti...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: ecosystm.io  
    Title: Report: Shadow AI: Risks, Exposure & Governance  
-   Link: <a href="https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/" target="_blank" rel="noopener noreferrer nofollow">https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Report: Shadow AI: Risks, Exposure &amp; Governance - Ecosystm...</p></details>
+   Link:<a href="https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/" target="_blank" rel="noopener noreferrer nofollow">https://ecosystm.io/insights/report-shadow-ai-risks-exposure-governance/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Report: Shadow AI: Risks, Exposure &amp; Governance - Ecosystm...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: oecd.org  
    Title: Generative AI and the SME Workforce  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/generative-ai-and-the-sme-workforce_83bafdfb/2d08b99d-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/generative-ai-and-the-sme-workforce_83bafdfb/2d08b99d-en.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI and the SME WorkforceApril 29, 2026...</p></details>
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/generative-ai-and-the-sme-workforce_83bafdfb/2d08b99d-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/generative-ai-and-the-sme-workforce_83bafdfb/2d08b99d-en.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI and the SME WorkforceApril 29, 2026...</p></details>
    Published: April 29, 2026  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: pcworld.com  
    Title: More workers are using AI, but they're ashamed to admit it | PCWorld  
-   Link: <a href="https://www.pcworld.com/article/2324694/microsoft-more-workers-using-ai-but-theyre-ashamed-to-admit-it.html" target="_blank" rel="noopener noreferrer nofollow">https://www.pcworld.com/article/2324694/microsoft-more-workers-using-ai-but-theyre-ashamed-to-admit-it.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>More workers are using AI, but they&#x27;re ashamed to admit it | PCWorldMay 8, 2024...</p></details>
+   Link:<a href="https://www.pcworld.com/article/2324694/microsoft-more-workers-using-ai-but-theyre-ashamed-to-admit-it.html" target="_blank" rel="noopener noreferrer nofollow">https://www.pcworld.com/article/2324694/microsoft-more-workers-using-ai-but-theyre-ashamed-to-admit-it.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>More workers are using AI, but they&#x27;re ashamed to admit it | PCWorldMay 8, 2024...</p></details>
    Published: May 8, 2024  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2602.18576" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2602.18576</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI in Knowledge Work: Perception, Usefulness, and Acceptance of Microsoft 365 CopilotFebruary 20, 2026...</p></details>
+   Link:<a href="https://arxiv.org/abs/2602.18576" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2602.18576</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI in Knowledge Work: Perception, Usefulness, and Acceptance of Microsoft 365 CopilotFebruary 20, 2026...</p></details>
    Published: February 20, 2026  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: oecd.org  
    Title: www.oecd.org Generative AI for anti-corruption and integrity in government (EN)  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/generative-ai-for-anti-corruption-and-integrity-in-government_9859b6a8/657a185a-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/generative-ai-for-anti-corruption-and-integrity-in-government_9859b6a8/657a185a-en.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI for anti-corruption and integrity in government (EN)May 13, 2025...</p></details>
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/generative-ai-for-anti-corruption-and-integrity-in-government_9859b6a8/657a185a-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/generative-ai-for-anti-corruption-and-integrity-in-government_9859b6a8/657a185a-en.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI for anti-corruption and integrity in government (EN)May 13, 2025...</p></details>
    Published: May 13, 2025  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: oecd.org  
    Title: www.oecd.org A I risks and incidents | OECD  
-   Link: <a href="https://www.oecd.org/en/topics/ai-risks-and-incidents" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/ai-risks-and-incidents</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>risks and incidents | OECD...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/ai-risks-and-incidents" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/ai-risks-and-incidents</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>risks and incidents | OECD...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: itpro.com  
-   Link: <a href="https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on</a>  
+   Link:<a href="https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/technology/artificial-intelligence/microsoft-says-71-percent-of-workers-have-used-unapproved-ai-tools-at-work-and-its-a-trend-that-enterprises-need-to-crack-down-on</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: securityboulevard.com  
    Title: Security Boulevard Shadow AI: Examples, Risks, and 8 Ways to Mitigate Them  
-   Link: <a href="https://securityboulevard.com/2025/06/shadow-ai-examples-risks-and-8-ways-to-mitigate-them" target="_blank" rel="noopener noreferrer nofollow">https://securityboulevard.com/2025/06/shadow-ai-examples-risks-and-8-ways-to-mitigate-them</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Security BoulevardShadow AI: Examples, Risks, and 8 Ways to Mitigate Them - Security Boulevard...</p></details>
+   Link:<a href="https://securityboulevard.com/2025/06/shadow-ai-examples-risks-and-8-ways-to-mitigate-them" target="_blank" rel="noopener noreferrer nofollow">https://securityboulevard.com/2025/06/shadow-ai-examples-risks-and-8-ways-to-mitigate-them</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Security BoulevardShadow AI: Examples, Risks, and 8 Ways to Mitigate Them - Security Boulevard...</p></details>
 
 ### Additional References
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: businessinsider.com  
-   Link: <a href="https://www.businessinsider.com/sneaky-rise-shadow-ai-workplace-claude-it-2026-5" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/sneaky-rise-shadow-ai-workplace-claude-it-2026-5</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Despite the security risks, many workers feel compelled to use tools like ChatGPT or Claude to stay competitive and efficient, especially...</p></details>
+   Link:<a href="https://www.businessinsider.com/sneaky-rise-shadow-ai-workplace-claude-it" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/sneaky-rise-shadow-ai-workplace-claude-it</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Despite the security risks, many workers feel compelled to use tools like ChatGPT or Claude to stay competitive and efficient, especially...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/security/is-shadow-ai-a-threat-to-your-business-report-claims-workers-are-increasingly-more-willing-to-cut-corners-and-take-risks" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/security/is-shadow-ai-a-threat-to-your-business-report-claims-workers-are-increasingly-more-willing-to-cut-corners-and-take-risks</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Is &#x27;Shadow AI&#x27; a threat to your business? Report claims workers are increasingly more willing to cut corners and take risks | Te...</p></details>
+   Link:<a href="https://www.techradar.com/pro/security/is-shadow-ai-a-threat-to-your-business-report-claims-workers-are-increasingly-more-willing-to-cut-corners-and-take-risks" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/security/is-shadow-ai-a-threat-to-your-business-report-claims-workers-are-increasingly-more-willing-to-cut-corners-and-take-risks</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Is &#x27;Shadow AI&#x27; a threat to your business? Report claims workers are increasingly more willing to cut corners and take risks | Te...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: techradar.com  
    Title: www.techradar.com A new wave of 'Shadow AI' is worrying workplaces | Tech Radar  
-   Link: <a href="https://www.techradar.com/pro/security/a-new-wave-of-shadow-ai-is-worrying-workplaces" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/security/a-new-wave-of-shadow-ai-is-worrying-workplaces</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>new wave of &#x27;Shadow AI&#x27; is worrying workplaces | TechRadarOctober 13, 2025...</p></details>
+   Link:<a href="https://www.techradar.com/pro/security/a-new-wave-of-shadow-ai-is-worrying-workplaces" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/security/a-new-wave-of-shadow-ai-is-worrying-workplaces</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>new wave of &#x27;Shadow AI&#x27; is worrying workplaces | TechRadarOctober 13, 2025...</p></details>
    Published: October 13, 2025  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
    Title: You Ask, I Answer: Managing Enterprise Shadow AI?  
-   Link: <a href="https://www.youtube.com/watch?v=aK0NPw3HAP0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=aK0NPw3HAP0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise AI Governance: Build Secure, Trusted AI at Scale | Module 1.1...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=aK0NPw3HAP0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=aK0NPw3HAP0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise AI Governance: Build Secure, Trusted AI at Scale | Module 1.1...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
    Title: 75% of Your Staff Are Already Using AI (Without You Knowing)  
-   Link: <a href="https://www.youtube.com/watch?v=EXer1xELb20" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=EXer1xELb20</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Bring Your Own AI: Balance Rewards and Risks...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=EXer1xELb20" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=EXer1xELb20</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Bring Your Own AI: Balance Rewards and Risks...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
    Title: Bring Your Own AI (BYOAI): Risks & Opportunities  
-   Link: <a href="https://www.youtube.com/watch?v=No8o3H1bYvA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=No8o3H1bYvA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>You Ask, I Answer: Managing Enterprise Shadow AI?...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=No8o3H1bYvA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=No8o3H1bYvA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>You Ask, I Answer: Managing Enterprise Shadow AI?...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: youtube.com  
    Title: Bring Your Own AI: Balance Rewards and Risks  
-   Link: <a href="https://www.youtube.com/watch?v=7FoDtT3o-A8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7FoDtT3o-A8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Bring Your Own AI (BYOAI): Risks &amp; Opportunities...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=7FoDtT3o-A8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7FoDtT3o-A8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Bring Your Own AI (BYOAI): Risks &amp; Opportunities...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: youtube.com  
    Title: Enterprise AI Governance: Build Secure, Trusted AI at Scale | Module 1.1  
-   Link: <a href="https://www.youtube.com/watch?v=0uK-cr5qGGc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0uK-cr5qGGc</a>  
+   Link:<a href="https://www.youtube.com/watch?v=0uK-cr5qGGc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0uK-cr5qGGc</a>  

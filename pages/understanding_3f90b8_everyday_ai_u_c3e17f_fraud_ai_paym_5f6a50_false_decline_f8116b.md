@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f
 
 ## Introduction
 
-A legitimate card payment can be declined even when the cardholder is genuine and has sufficient funds. In modern payment systems, fraud-detection AI rarely looks for a single piece of proof that a transaction is fraudulent. Instead, it evaluates hundreds of signals and estimates the probability that something is wrong. When several weak warning signs appear together—such as an unfamiliar location, a new device, an unusually large purchase, or a merchant category associated with higher fraud rates—the system may judge the risk to be high enough to interrupt the payment. This outcome is known as a false decline or false positive: a real transaction that is mistakenly treated as suspicious. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://stripe.com/resources/more/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: stripe.com">[Stripe+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">stripe.com</span><span class="citation-popover-title">False declines 101: How businesses can prevent them</span><span class="citation-popover-snippet">False declines 101: How businesses can prevent themAugust 22, 2023 — 22 Aug 2023 — False declines, also called “false positives,” o...</span><span class="citation-popover-meta">Published: August 22, 2023</span></span></span>
+A legitimate card payment can be declined even when the cardholder is genuine and has sufficient funds. In modern payment systems, fraud-detection AI rarely looks for a single piece of proof that a transaction is fraudulent. Instead, it evaluates hundreds of signals and estimates the probability that something is wrong. When several weak warning signs appear together—such as an unfamiliar location, a new device, an unusually large purchase, or a merchant category associated with higher fraud rates—the system may judge the risk to be high enough to interrupt the payment. This outcome is known as a false decline or false positive: a real transaction that is mistakenly treated as suspicious.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://stripe.com/resources/more/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: stripe.com">[Stripe+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">stripe.com</span><span class="citation-popover-title">False declines 101: How businesses can prevent them</span><span class="citation-popover-snippet">False declines 101: How businesses can prevent themAugust 22, 2023 — 22 Aug 2023 — False declines, also called “false positives,” o...</span><span class="citation-popover-meta">Published: August 22, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_false_decline_f8116b-Illustration-1-dark.svg" | relative_url }}" alt="False declines illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_false_decline_f8116b-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_false_decline_f8116b-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,15 +277,15 @@ A legitimate card payment can be declined even when the cardholder is genuine an
 
 ## Signals That Can Make a Genuine Payment Look Unusual
 
-Fraud-detection systems analyse large numbers of behavioural, transactional and contextual signals in real time. A single unusual signal may not matter much, but combinations of signals can push a transaction into a higher-risk category. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
+Fraud-detection systems analyse large numbers of behavioural, transactional and contextual signals in real time. A single unusual signal may not matter much, but combinations of signals can push a transaction into a higher-risk category.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
 
 Common examples include:
 
-* **Travel-related changes.** A card normally used in Manchester suddenly appears in Singapore, Madrid or New York. Even when the customer is travelling legitimately, the location change can resemble the behaviour of a stolen card. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-snippet">Visa CorporateSmarter transaction monitoring for secure payments &#124; VisaTransaction monitoring analyzes payment activity in real time to s...</span></span></span>
-* **New devices or browsers.** Online payments made from a device never previously associated with the account may increase [risk scores]({{ 'thresholds/' | relative_url }}) because account takeover attacks often involve unfamiliar devices. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
-* **Unusual purchase amounts.** A customer who typically spends £20–£50 may suddenly attempt a £2,000 purchase. Large deviations from past behaviour are commonly used as fraud indicators. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
-* **Merchant characteristics.** Some merchant categories experience higher fraud rates than others. A transaction at a merchant associated with elevated fraud risk can receive additional scrutiny even when the customer is genuine. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
-* **Velocity patterns.** Multiple transactions within a short period can resemble card-testing attacks or stolen-card usage, even when they result from normal customer activity. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-snippet">Visa CorporateSmarter transaction monitoring for secure payments &#124; VisaTransaction monitoring analyzes payment activity in real time to s...</span></span></span>
+* **Travel-related changes.** A card normally used in Manchester suddenly appears in Singapore, Madrid or New York. Even when the customer is travelling legitimately, the location change can resemble the behaviour of a stolen card.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-snippet">Visa CorporateSmarter transaction monitoring for secure payments &#124; VisaTransaction monitoring analyzes payment activity in real time to s...</span></span></span>
+* **New devices or browsers.** Online payments made from a device never previously associated with the account may increase [risk scores]({{ 'thresholds/' | relative_url }}) because account takeover attacks often involve unfamiliar devices.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
+* **Unusual purchase amounts.** A customer who typically spends £20–£50 may suddenly attempt a £2,000 purchase. Large deviations from past behaviour are commonly used as fraud indicators.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
+* **Merchant characteristics.** Some merchant categories experience higher fraud rates than others. A transaction at a merchant associated with elevated fraud risk can receive additional scrutiny even when the customer is genuine.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
+* **Velocity patterns.** Multiple transactions within a short period can resemble card-testing attacks or stolen-card usage, even when they result from normal customer activity.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-snippet">Visa CorporateSmarter transaction monitoring for secure payments &#124; VisaTransaction monitoring analyzes payment activity in real time to s...</span></span></span>
 
 The key point is that fraud models often evaluate patterns rather than isolated facts. A customer travelling abroad, using a new phone and making an expensive purchase on the same day may trigger concern even though each individual action is perfectly legitimate.
 
@@ -296,13 +296,13 @@ The key point is that fraud models often evaluate patterns rather than isolated 
 
 Many people assume fraud systems look for obvious evidence of crime. In practice, modern AI systems often operate by combining many imperfect clues.
 
-A location change alone may not trigger a decline. A new device alone may not trigger a decline. An expensive purchase alone may not trigger a decline. But the combination of all three may resemble patterns previously associated with fraud. [Machine-learning]({{ 'machine-learning/' | relative_url }}) models are designed to detect these combinations because fraud itself often appears as a collection of subtle anomalies rather than one definitive warning sign. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
+A location change alone may not trigger a decline. A new device alone may not trigger a decline. An expensive purchase alone may not trigger a decline. But the combination of all three may resemble patterns previously associated with fraud. [Machine-learning]({{ 'machine-learning/' | relative_url }}) models are designed to detect these combinations because fraud itself often appears as a collection of subtle anomalies rather than one definitive warning sign.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
 
 This creates an unavoidable challenge: some legitimate customers occasionally resemble historical fraud cases.
 
 ## How Risk Thresholds Turn Scores Into Blocks or Challenges
 
-Fraud-detection AI does not usually decide that a transaction is definitely fraudulent. Instead, it produces a risk score or risk estimate. Financial institutions then apply thresholds that determine what happens next. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
+Fraud-detection AI does not usually decide that a transaction is definitely fraudulent. Instead, it produces a risk score or risk estimate. Financial institutions then apply thresholds that determine what happens next.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
 
 A simplified process looks like this:
 
@@ -313,15 +313,15 @@ A simplified process looks like this:
 3. The score is compared with decision thresholds.
 4. The payment is approved, challenged for [verification]({{ 'verification-cost/' | relative_url }}), or declined.
 
-This means false declines are not caused only by the model itself. They also depend on where institutions set their thresholds. A bank that wants to minimise fraud losses may choose a stricter threshold. A bank prioritising customer convenience may allow more borderline transactions to proceed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-snippet">Visa CorporateSmarter transaction monitoring for secure payments &#124; VisaTransaction monitoring analyzes payment activity in real time to s...</span></span></span>
+This means false declines are not caused only by the model itself. They also depend on where institutions set their thresholds. A bank that wants to minimise fraud losses may choose a stricter threshold. A bank prioritising customer convenience may allow more borderline transactions to proceed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-snippet">Visa CorporateSmarter transaction monitoring for secure payments &#124; VisaTransaction monitoring analyzes payment activity in real time to s...</span></span></span>
 
-The trade-off is fundamental. Lowering thresholds catches more fraud but increases the chance of blocking genuine customers. Raising thresholds reduces customer friction but may allow more fraudulent transactions through. No threshold eliminates both problems simultaneously. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://stripe.com/resources/more/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: stripe.com">[Stripe+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">stripe.com</span><span class="citation-popover-title">False declines 101: How businesses can prevent them</span><span class="citation-popover-snippet">False declines 101: How businesses can prevent themAugust 22, 2023 — 22 Aug 2023 — False declines, also called “false positives,” o...</span><span class="citation-popover-meta">Published: August 22, 2023</span></span></span>
+The trade-off is fundamental. Lowering thresholds catches more fraud but increases the chance of blocking genuine customers. Raising thresholds reduces customer friction but may allow more fraudulent transactions through. No threshold eliminates both problems simultaneously.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://stripe.com/resources/more/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: stripe.com">[Stripe+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">stripe.com</span><span class="citation-popover-title">False declines 101: How businesses can prevent them</span><span class="citation-popover-snippet">False declines 101: How businesses can prevent themAugust 22, 2023 — 22 Aug 2023 — False declines, also called “false positives,” o...</span><span class="citation-popover-meta">Published: August 22, 2023</span></span></span>
 
 ### Why Models Sometimes Learn the Wrong Lessons
 
-Another source of false declines comes from the data used to train fraud models. <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.checkout.com/blog/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: checkout.com">[checkout.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">checkout.com</span><span class="citation-popover-title">false declines explained</span><span class="citation-popover-snippet">What are false declines and how can they be prevented?23 May 2023 — False declines are legitimate transactions that are mistakenly blocke...</span><span class="citation-popover-meta">Published: May 2023</span></span></span>
+Another source of false declines comes from the data used to train fraud models.<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.checkout.com/blog/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: checkout.com">[checkout.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">checkout.com</span><span class="citation-popover-title">false declines explained</span><span class="citation-popover-snippet">What are false declines and how can they be prevented?23 May 2023 — False declines are legitimate transactions that are mistakenly blocke...</span><span class="citation-popover-meta">Published: May 2023</span></span></span>
 
-Machine-learning systems learn from historical outcomes. If past data contain biases, incomplete information or unusual fraud patterns concentrated in certain locations, merchant types or customer groups, the model may learn associations that are statistically useful but imperfect. Researchers and industry experts have noted that models can sometimes overgeneralise from historical fraud examples, increasing the risk that legitimate activity is flagged as suspicious. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers-2025-5" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider At Mastercard, AI is helping to power fraud-detection systems</span><span class="citation-popover-snippet">AI-driven solutions have been part of Mastercard&#x27;s security tools for over a decade, with the current systems analyzing up to 160 billion...</span></span></span>
+Machine-learning systems learn from historical outcomes. If past data contain biases, incomplete information or unusual fraud patterns concentrated in certain locations, merchant types or customer groups, the model may learn associations that are statistically useful but imperfect. Researchers and industry experts have noted that models can sometimes overgeneralise from historical fraud examples, increasing the risk that legitimate activity is flagged as suspicious.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider At Mastercard, AI is helping to power fraud-detection systems</span><span class="citation-popover-snippet">AI-driven solutions have been part of Mastercard&#x27;s security tools for over a decade, with the current systems analyzing up to 160 billion...</span></span></span>
 
 This does not mean the model is malfunctioning. It means that probabilistic systems inevitably make errors when predicting rare events from incomplete information.
 
@@ -332,7 +332,7 @@ This does not mean the model is malfunctioning. It means that probabilistic syst
 
 A false decline may last only seconds, but its consequences can be significant.
 
-For customers, the immediate effects include embarrassment at a checkout, delays during travel, inability to complete urgent purchases and the frustration of contacting a bank to prove that a transaction is genuine. Because fraud systems operate instantly, customers often receive little explanation beyond a generic decline message. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://stripe.com/resources/more/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: stripe.com">[Stripe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">stripe.com</span><span class="citation-popover-title">False declines 101: How businesses can prevent them</span><span class="citation-popover-snippet">False declines 101: How businesses can prevent themAugust 22, 2023 — 22 Aug 2023 — False declines, also called “false positives,” o...</span><span class="citation-popover-meta">Published: August 22, 2023</span></span></span>
+For customers, the immediate effects include embarrassment at a checkout, delays during travel, inability to complete urgent purchases and the frustration of contacting a bank to prove that a transaction is genuine. Because fraud systems operate instantly, customers often receive little explanation beyond a generic decline message.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://stripe.com/resources/more/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: stripe.com">[Stripe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">stripe.com</span><span class="citation-popover-title">False declines 101: How businesses can prevent them</span><span class="citation-popover-snippet">False declines 101: How businesses can prevent themAugust 22, 2023 — 22 Aug 2023 — False declines, also called “false positives,” o...</span><span class="citation-popover-meta">Published: August 22, 2023</span></span></span>
 
 Merchants experience different costs:
 
@@ -342,13 +342,13 @@ Merchants experience different costs:
 * Lost sales when customers abandon purchases.
 * Reduced customer loyalty.
 * Increased support requests.
-* Damage to brand reputation when checkout experiences fail. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.checkout.com/blog/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: checkout.com">[Checkout.com+2Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">checkout.com</span><span class="citation-popover-title">false declines explained</span><span class="citation-popover-snippet">What are false declines and how can they be prevented?23 May 2023 — False declines are legitimate transactions that are mistakenly blocke...</span><span class="citation-popover-meta">Published: May 2023</span></span></span>
+* Damage to brand reputation when checkout experiences fail.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.checkout.com/blog/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: checkout.com">[Checkout.com+2Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">checkout.com</span><span class="citation-popover-title">false declines explained</span><span class="citation-popover-snippet">What are false declines and how can they be prevented?23 May 2023 — False declines are legitimate transactions that are mistakenly blocke...</span><span class="citation-popover-meta">Published: May 2023</span></span></span>
 
 </div>
 
-Industry studies and payment providers increasingly describe false declines as a major commercial problem rather than a minor inconvenience. Visa notes that repeated declines can reduce future card usage, while merchants report substantial revenue losses when legitimate customers abandon transactions after being blocked. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/sites/visa-perspectives/security-trust/tale-of-two-transactions.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">tale of two transactions</span><span class="citation-popover-snippet">Visa CorporateA tale of two transactions &#124; VisaFeb 27, 2024 — False declines, also known as false positives, are legitimate transactions...</span></span></span>
+Industry studies and payment providers increasingly describe false declines as a major commercial problem rather than a minor inconvenience. Visa notes that repeated declines can reduce future card usage, while merchants report substantial revenue losses when legitimate customers abandon transactions after being blocked.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/sites/visa-perspectives/security-trust/tale-of-two-transactions.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">tale of two transactions</span><span class="citation-popover-snippet">Visa CorporateA tale of two transactions &#124; VisaFeb 27, 2024 — False declines, also known as false positives, are legitimate transactions...</span></span></span>
 
-A practical example comes from fraud-[management systems]({{ 'management-systems/' | relative_url }}) that replaced simple approve-or-decline decisions with additional verification steps. Rather than rejecting borderline transactions outright, some systems request extra authentication and recover revenue that would otherwise have been lost to false declines. One reported deployment approved millions of dollars' worth of legitimate transactions that older systems would likely have rejected. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions-2025-7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">These older systems often incorrectly decline legitimate transactions, leading to lost revenue and customer dissatisfaction. TickPick, an...</span></span></span>
+A practical example comes from fraud-[management systems]({{ 'management-systems/' | relative_url }}) that replaced simple approve-or-decline decisions with additional verification steps. Rather than rejecting borderline transactions outright, some systems request extra authentication and recover revenue that would otherwise have been lost to false declines. One reported deployment approved millions of dollars' worth of legitimate transactions that older systems would likely have rejected.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">These older systems often incorrectly decline legitimate transactions, leading to lost revenue and customer dissatisfaction. TickPick, an...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_false_decline_f8116b-Illustration-3-dark.svg" | relative_url }}" alt="False declines illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_false_decline_f8116b-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50_false_decline_f8116b-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -356,203 +356,203 @@ A practical example comes from fraud-[management systems]({{ 'management-systems
 
 False declines persist because fraud detection is fundamentally a prediction problem. Fraudsters continuously change tactics, forcing models to identify suspicious behaviour before certainty is available. Waiting for definitive proof would allow many fraudulent transactions to succeed.
 
-As a result, payment AI systems operate in a grey area between security and convenience. They must make rapid decisions using incomplete information, balancing the cost of missed fraud against the cost of wrongly blocking legitimate customers. Modern AI has improved this balance by incorporating more contextual information and richer behavioural analysis, and payment networks report ongoing reductions in false positives. Yet no system can completely eliminate them because genuine behaviour sometimes looks statistically similar to fraud. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/news/ap/en/blog-posts/en/2019/january/how-ai-is-transforming-the-payments-experience/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[visaacceptance.com+3Mastercard+3Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-snippet">How AI is Transforming the Payments ExperienceThese new technologies are both improving fraud detection while cutting the false...</span></span></span>
+As a result, payment AI systems operate in a grey area between security and convenience. They must make rapid decisions using incomplete information, balancing the cost of missed fraud against the cost of wrongly blocking legitimate customers. Modern AI has improved this balance by incorporating more contextual information and richer behavioural analysis, and payment networks report ongoing reductions in false positives. Yet no system can completely eliminate them because genuine behaviour sometimes looks statistically similar to fraud.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/news/ap/en/blog-posts/en/2019/january/how-ai-is-transforming-the-payments-experience/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[visaacceptance.com+3Mastercard+3Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-snippet">How AI is Transforming the Payments ExperienceThese new technologies are both improving fraud detection while cutting the false...</span></span></span>
 
-False declines therefore illustrate a broader lesson about artificial intelligence: many AI systems do not determine what is true. They estimate what is likely, and occasionally a perfectly legitimate action falls on the wrong side of a probability threshold. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
+False declines therefore illustrate a broader lesson about artificial intelligence: many AI systems do not determine what is true. They estimate what is likely, and occasionally a perfectly legitimate action falls on the wrong side of a probability threshold.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Visa Corporate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-title">Corporate AI solutions for fraud prevention and detection &#124; Visa1</span><span class="citation-popover-snippet">Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/LBiUDXo6xRY" title="AI in Payments and Fraud with Galit Michel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=LBiUDXo6xRY" target="_blank" rel="noopener noreferrer">AI in Payments and Fraud with Galit Michel</a></p><p class="youtube-embed-meta">Channel: FlyCode</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=LBiUDXo6xRY" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=LBiUDXo6xRY">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why real payments sometimes look like fraud. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why real payments sometimes look like fraud. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Machine+Learning+Advances+in+Payment+Card+Fraud+Detection+by+Nick+Ryman-Tubb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Machine Learning Advances in Payment Card Fraud Detection on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=JG89DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Machine Learning Advances in Payment Card Fraud Detection" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Machine+Learning+Advances+in+Payment+Card+Fraud+Detection+by+Nick+Ryman-Tubb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Machine Learning Advances in Payment Card Fraud Detection">Machine Learning Advances in Payment Card Fraud Detection</a>
-        </h4>
-        <p class="fr-book-author">By Nick Ryman-Tubb, Paul Krause</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Machine+Learning+Advances+in+Payment+Card+Fraud+Detection+by+Nick+Ryman-Tubb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Machine Learning Advances in Payment Card Fraud Detection on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=JG89DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Machine Learning Advances in Payment Card Fraud Detection" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Machine+Learning+Advances+in+Payment+Card+Fraud+Detection+by+Nick+Ryman-Tubb&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Machine Learning Advances in Payment Card Fraud Detection">Machine Learning Advances in Payment Card Fraud Detection</a>
+</h4>
+<p class="fr-book-author">By Nick Ryman-Tubb, Paul Krause</p>
         
-        <p class="fr-book-desc">Directly addresses fraud models, detection signals, and false positives.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Machine+Learning+Advances+in+Payment+Card+Fraud+Detection+by+Nick+Ryman-Tubb&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses fraud models, detection signals, and false positives.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Machine+Learning+Advances+in+Payment+Card+Fraud+Detection+by+Nick+Ryman-Tubb&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Fraud+Analytics+Using+Descriptive%2C+Predictive%2C+and+Social+Network+Techniques+by+Bart+Baesens&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Fraud Analytics Using Descriptive, Predictive, and Social Network Techniques on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1fTGBwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Fraud Analytics Using Descriptive, Predictive, and Social Network Techniques" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Fraud+Analytics+Using+Descriptive%2C+Predictive%2C+and+Social+Network+Techniques+by+Bart+Baesens&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Fraud Analytics Using Descriptive, Predictive, and Social Network Techniques">Fraud Analytics Using Descriptive, Predictive, and Social Net...</a>
-        </h4>
-        <p class="fr-book-author">By Bart Baesens, Veronique Van Vlasselaer et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Fraud+Analytics+Using+Descriptive%2C+Predictive%2C+and+Social+Network+Techniques+by+Bart+Baesens&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Fraud Analytics Using Descriptive, Predictive, and Social Network Techniques on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1fTGBwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Fraud Analytics Using Descriptive, Predictive, and Social Network Techniques" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Fraud+Analytics+Using+Descriptive%2C+Predictive%2C+and+Social+Network+Techniques+by+Bart+Baesens&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Fraud Analytics Using Descriptive, Predictive, and Social Network Techniques">Fraud Analytics Using Descriptive, Predictive, and Social Net...</a>
+</h4>
+<p class="fr-book-author">By Bart Baesens, Veronique Van Vlasselaer et al.</p>
         
-        <p class="fr-book-desc">Explains how risk systems evaluate transactions and generate mistaken alerts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Fraud+Analytics+Using+Descriptive%2C+Predictive%2C+and+Social+Network+Techniques+by+Bart+Baesens&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how risk systems evaluate transactions and generate mistaken alerts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Fraud+Analytics+Using+Descriptive%2C+Predictive%2C+and+Social+Network+Techniques+by+Bart+Baesens&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Illustrates the human costs of false positives and automated classification errors.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Illustrates the human costs of false positives and automated classification errors.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Provides context on evaluation errors and machine-learning trade-offs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context on evaluation errors and machine-learning trade-offs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Machine+Learning+Advances+in+Payment+Card+Fraud+Detection&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Advances in Payment Card Fraud Detection</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Fraud+Analytics+Using+Descriptive%2C+Predictive%2C+and+Social+Network+Techniques&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Fraud Analytics Using Descriptive, Predictive, and Social Network Techniques</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Machine+Learning+Advances+in+Payment+Card+Fraud+Detection&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Advances in Payment Card Fraud Detection</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Fraud+Analytics+Using+Descriptive%2C+Predictive%2C+and+Social+Network+Techniques&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Fraud Analytics Using Descriptive, Predictive, and Social Network Techniques</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Abstract technology AI Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5778e66ff2a2bd54f370.jpg' | relative_url }}" alt="Listing image for Abstract technology AI Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Abstract technology AI Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Abstract technology AI Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5778e66ff2a2bd54f370.jpg' | relative_url }}" alt="Listing image for Abstract technology AI Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Abstract technology AI Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor"><img src="{{ '/assets/images/marketplace-covers/07347b86ace5b8ddc466.jpg' | relative_url }}" alt="Listing image for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor"><img src="{{ '/assets/images/marketplace-covers/07347b86ace5b8ddc466.jpg' | relative_url }}" alt="Listing image for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art"><img src="{{ '/assets/images/marketplace-covers/4b4938e18ef5ed25ab15.jpg' | relative_url }}" alt="Listing image for Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art"><img src="{{ '/assets/images/marketplace-covers/4b4938e18ef5ed25ab15.jpg' | relative_url }}" alt="Listing image for Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art"><img src="{{ '/assets/images/marketplace-covers/62e7a309bd3b32d41258.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art"><img src="{{ '/assets/images/marketplace-covers/62e7a309bd3b32d41258.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="false-declines-why-real-payments-sometimes-look-like-fraud-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -568,7 +568,7 @@ False declines therefore illustrate a broader lesson about artificial intelligen
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -588,7 +588,7 @@ False declines therefore illustrate a broader lesson about artificial intelligen
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -620,7 +620,7 @@ False declines therefore illustrate a broader lesson about artificial intelligen
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -672,7 +672,7 @@ False declines therefore illustrate a broader lesson about artificial intelligen
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -717,7 +717,7 @@ False declines therefore illustrate a broader lesson about artificial intelligen
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -758,223 +758,223 @@ False declines therefore illustrate a broader lesson about artificial intelligen
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: stripe.com  
    Title: False declines 101: How businesses can prevent them  
-   Link: <a href="https://stripe.com/resources/more/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow">https://stripe.com/resources/more/false-declines-explained</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>False declines 101: How businesses can prevent themAugust 22, 2023 — 22 Aug 2023 — False declines, also called “false positives,” o...</p></details>
+   Link:<a href="https://stripe.com/resources/more/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow">https://stripe.com/resources/more/false-declines-explained</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>False declines 101: How businesses can prevent themAugust 22, 2023 — 22 Aug 2023 — False declines, also called “false positives,” o...</p></details>
    Published: August 22, 2023  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: corporate.visa.com  
    Title: Corporate AI solutions for fraud prevention and detection | Visa1  
-   Link: <a href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</p></details>
+   Link:<a href="https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/ai-fraud-detection.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Real-time risk scoring: When a transaction occurs, the AI model instantly evaluates hundreds of data points to calculate a risk score. ·...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: checkout.com  
    Title: false declines explained  
-   Link: <a href="https://www.checkout.com/blog/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow">https://www.checkout.com/blog/false-declines-explained</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What are false declines and how can they be prevented?23 May 2023 — False declines are legitimate transactions that are mistakenly blocke...</p></details>
+   Link:<a href="https://www.checkout.com/blog/false-declines-explained" target="_blank" rel="noopener noreferrer nofollow">https://www.checkout.com/blog/false-declines-explained</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What are false declines and how can they be prevented?23 May 2023 — False declines are legitimate transactions that are mistakenly blocke...</p></details>
    Published: May 2023  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: corporate.visa.com  
-   Link: <a href="https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Visa CorporateSmarter transaction monitoring for secure payments | VisaTransaction monitoring analyzes payment activity in real time to s...</p></details>
+   Link:<a href="https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/transaction-monitoring.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Visa CorporateSmarter transaction monitoring for secure payments | VisaTransaction monitoring analyzes payment activity in real time to s...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: visaacceptance.com  
-   Link: <a href="https://www.visaacceptance.com/content/dam/documents/en/ai-machine-learning-guide.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.visaacceptance.com/content/dam/documents/en/ai-machine-learning-guide.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Driven Risk Management (PDF)Artificial intelligence (AI) and machine learning (ML) are transforming risk detection by automating and e...</p></details>
+   Link:<a href="https://www.visaacceptance.com/content/dam/documents/en/ai-machine-learning-guide.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.visaacceptance.com/content/dam/documents/en/ai-machine-learning-guide.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-Driven Risk Management (PDF)Artificial intelligence (AI) and machine learning (ML) are transforming risk detection by automating and e...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/us/en/[business" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/us/en/[business</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more...</p></details>
+   Link:<a href="https://www.mastercard.com/us/en/[business" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/us/en/[business</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/global/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Decision Intelligence is a transaction risk monitoring solution that helps you prevent fraud and...</p></details>
+   Link:<a href="https://www.mastercard.com/global/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Decision Intelligence is a transaction risk monitoring solution that helps you prevent fraud and...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: mastercard.com  
    Title: ai is helping banks save millions by transforming payment fraud prevention  
-   Link: <a href="https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI is helping banks save millions by transforming payment...6 Feb 2026 — Learn how AI enables real-time payment fraud detection that hel...</p></details>
+   Link:<a href="https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI is helping banks save millions by transforming payment...6 Feb 2026 — Learn how AI enables real-time payment fraud detection that hel...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: corporate.visa.com  
    Title: tale of two transactions  
-   Link: <a href="https://corporate.visa.com/en/sites/visa-perspectives/security-trust/tale-of-two-transactions.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/sites/visa-perspectives/security-trust/tale-of-two-transactions.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Visa CorporateA tale of two transactions | VisaFeb 27, 2024 — False declines, also known as false positives, are legitimate transactions...</p></details>
+   Link:<a href="https://corporate.visa.com/en/sites/visa-perspectives/security-trust/tale-of-two-transactions.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/sites/visa-perspectives/security-trust/tale-of-two-transactions.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Visa CorporateA tale of two transactions | VisaFeb 27, 2024 — False declines, also known as false positives, are legitimate transactions...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/news/ap/en/blog-posts/en/2019/january/how-ai-is-transforming-the-payments-experience/" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/news/ap/en/blog-posts/en/2019/january/how-ai-is-transforming-the-payments-experience/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How AI is Transforming the Payments ExperienceThese new technologies are both improving fraud detection while cutting the false...</p></details>
+   Link:<a href="https://www.mastercard.com/news/ap/en/blog-posts/en/2019/january/how-ai-is-transforming-the-payments-experience/" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/news/ap/en/blog-posts/en/2019/january/how-ai-is-transforming-the-payments-experience/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How AI is Transforming the Payments ExperienceThese new technologies are both improving fraud detection while cutting the false...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: visaacceptance.com  
    Title: ai driven fraud management  
-   Link: <a href="https://www.visaacceptance.com/en/solutions/ai-driven-fraud-management.html" target="_blank" rel="noopener noreferrer nofollow">https://www.visaacceptance.com/en/solutions/ai-driven-fraud-management.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-powered fraud and risk management solutionsVisa&#x27;s AI-powered fraud and risk solutions help you detect threats early, reduce fraud, inc...</p></details>
+   Link:<a href="https://www.visaacceptance.com/en/solutions/ai-driven-fraud-management.html" target="_blank" rel="noopener noreferrer nofollow">https://www.visaacceptance.com/en/solutions/ai-driven-fraud-management.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-powered fraud and risk management solutionsVisa&#x27;s AI-powered fraud and risk solutions help you detect threats early, reduce fraud, inc...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: mastercard.com  
    Title: Decision Intelligence – beyond Mastercard• Reduce falsely declined transactions  
-   Link: <a href="https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>• Decline or alert high-risk transactions in real time. • Write custom rules tailored to unique fraud trends. This...Read more...</p></details>
+   Link:<a href="https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>• Decline or alert high-risk transactions in real time. • Write custom rules tailored to unique fraud trends. This...Read more...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/global/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A global technology company in the payments industryWe connect and power a digital economy that benefits people, businesses and governmen...</p></details>
+   Link:<a href="https://www.mastercard.com/global/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A global technology company in the payments industryWe connect and power a digital economy that benefits people, businesses and governmen...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/nz/en/business/payments/merchant-cloud/insights/ai-optimization.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/nz/en/business/payments/merchant-cloud/insights/ai-optimization.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How AI driven fraud solutions and payment optimisation...May 28, 2026 — By using AI to align fraud decisions with performance goals, ret...</p></details>
+   Link:<a href="https://www.mastercard.com/nz/en/business/payments/merchant-cloud/insights/ai-optimization.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/nz/en/business/payments/merchant-cloud/insights/ai-optimization.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How AI driven fraud solutions and payment optimisation...May 28, 2026 — By using AI to align fraud decisions with performance goals, ret...</p></details>
    Published: May 28, 2026  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/in/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/in/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Decision Intelligence for Fraud and Risk ManagementExplore how Decision Intelligence uses advanced analytics and AI to improve fraud dete...</p></details>
+   Link:<a href="https://www.mastercard.com/in/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/in/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Decision Intelligence for Fraud and Risk ManagementExplore how Decision Intelligence uses advanced analytics and AI to improve fraud dete...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: visaacceptance.com  
    Title: accurate risk scoring ai machine learning  
-   Link: <a href="https://www.visaacceptance.com/en-us/blog/article/2023/accurate-risk-scoring-ai-machine-learning.html" target="_blank" rel="noopener noreferrer nofollow">https://www.visaacceptance.com/en-us/blog/article/2023/accurate-risk-scoring-ai-machine-learning.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI and machine learning now offer more accurate risk scoring5 Dec 2023 — our ML model generates a highly accurate risk score for every tr...</p></details>
+   Link:<a href="https://www.visaacceptance.com/en-us/blog/article/2023/accurate-risk-scoring-ai-machine-learning.html" target="_blank" rel="noopener noreferrer nofollow">https://www.visaacceptance.com/en-us/blog/article/2023/accurate-risk-scoring-ai-machine-learning.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI and machine learning now offer more accurate risk scoring5 Dec 2023 — our ML model generates a highly accurate risk score for every tr...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: visa.com  
-   Link: <a href="https://www.visa.com/en-us/solutions/secure-card-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.visa.com/en-us/solutions/secure-card-payments</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Optimize authorization performance with Visa ProtectAn AI-powered risk score, Visa Account Attack Intelligence (VAAI) Score​​ helps issue...</p></details>
+   Link:<a href="https://www.visa.com/en-us/solutions/secure-card-payments" target="_blank" rel="noopener noreferrer nofollow">https://www.visa.com/en-us/solutions/secure-card-payments</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Optimize authorization performance with Visa ProtectAn AI-powered risk score, Visa Account Attack Intelligence (VAAI) Score​​ helps issue...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: corporate.visa.com  
    Title: fraud detection  
-   Link: <a href="https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>future of fraud detection: smarter, faster, safer | VisaDiscover how AI and machine learning are reshaping fraud detection, reducing fals...</p></details>
+   Link:<a href="https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>future of fraud detection: smarter, faster, safer | VisaDiscover how AI and machine learning are reshaping fraud detection, reducing fals...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: paymentsdive.com  
    Title: mastercard to use ai for fraud detection  
-   Link: <a href="https://www.paymentsdive.com/ex/mpt/news/mastercard-to-use-ai-for-fraud-detection/" target="_blank" rel="noopener noreferrer nofollow">https://www.paymentsdive.com/ex/mpt/news/mastercard-to-use-ai-for-fraud-detection/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Dec 2, 2016 — The smart technology behind Decision Intelligence examines patterns of use for a specific account in order to detect normal...</p></details>
+   Link:<a href="https://www.paymentsdive.com/ex/mpt/news/mastercard-to-use-ai-for-fraud-detection/" target="_blank" rel="noopener noreferrer nofollow">https://www.paymentsdive.com/ex/mpt/news/mastercard-to-use-ai-for-fraud-detection/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Dec 2, 2016 — The smart technology behind Decision Intelligence examines patterns of use for a specific account in order to detect normal...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: businessinsider.com  
    Title: Business Insider At Mastercard, AI is helping to power fraud-detection systems  
-   Link: <a href="https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers-2025-5" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers-2025-5</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-driven solutions have been part of Mastercard&#x27;s security tools for over a decade, with the current systems analyzing up to 160 billion...</p></details>
+   Link:<a href="https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-driven solutions have been part of Mastercard&#x27;s security tools for over a decade, with the current systems analyzing up to 160 billion...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: businessinsider.com  
-   Link: <a href="https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions-2025-7" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions-2025-7</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These older systems often incorrectly decline legitimate transactions, leading to lost revenue and customer dissatisfaction. TickPick, an...</p></details>
+   Link:<a href="https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These older systems often incorrectly decline legitimate transactions, leading to lost revenue and customer dissatisfaction. TickPick, an...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: acceleratingbiz.com  
    Title: Master Card Inc.Read more  
-   Link: <a href="https://acceleratingbiz.com/briefing/mastercard-introduces-decision-intelligence-machine-learning-enabled-solution-providing-decision-fraud-detection-services/" target="_blank" rel="noopener noreferrer nofollow">https://acceleratingbiz.com/briefing/mastercard-introduces-decision-intelligence-machine-learning-enabled-solution-providing-decision-fraud-detection-services/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard introduces Decision Intelligence, machine...Mastercard introduces Decision Intelligence, machine learning-enabled solution pr...</p></details>
+   Link:<a href="https://acceleratingbiz.com/briefing/mastercard-introduces-decision-intelligence-machine-learning-enabled-solution-providing-decision-fraud-detection-services/" target="_blank" rel="noopener noreferrer nofollow">https://acceleratingbiz.com/briefing/mastercard-introduces-decision-intelligence-machine-learning-enabled-solution-providing-decision-fraud-detection-services/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard introduces Decision Intelligence, machine...Mastercard introduces Decision Intelligence, machine learning-enabled solution pr...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: riskified.com  
    Title: false declines  
-   Link: <a href="https://www.riskified.com/learning/ecommerce-checkout-optimization/false-declines/" target="_blank" rel="noopener noreferrer nofollow">https://www.riskified.com/learning/ecommerce-checkout-optimization/false-declines/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What they cost you &amp; how to reduce themA false decline is an online transaction that gets rejected because it is wrongly identified as fraud...</p></details>
+   Link:<a href="https://www.riskified.com/learning/ecommerce-checkout-optimization/false-declines/" target="_blank" rel="noopener noreferrer nofollow">https://www.riskified.com/learning/ecommerce-checkout-optimization/false-declines/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What they cost you &amp; how to reduce themA false decline is an online transaction that gets rejected because it is wrongly identified as fraud...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: fintechmagazine.com  
    Title: mastercard ai evolution reshapes finserv landscape  
-   Link: <a href="https://fintechmagazine.com/articles/mastercard-ai-evolution-reshapes-finserv-landscape" target="_blank" rel="noopener noreferrer nofollow">https://fintechmagazine.com/articles/mastercard-ai-evolution-reshapes-finserv-landscape</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard: AI Evolution Reshapes Finserv Landscape12 Dec 2024 — The company&#x27;s Decision Intelligence Pro solution analyses one trillion d...</p></details>
+   Link:<a href="https://fintechmagazine.com/articles/mastercard-ai-evolution-reshapes-finserv-landscape" target="_blank" rel="noopener noreferrer nofollow">https://fintechmagazine.com/articles/mastercard-ai-evolution-reshapes-finserv-landscape</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard: AI Evolution Reshapes Finserv Landscape12 Dec 2024 — The company&#x27;s Decision Intelligence Pro solution analyses one trillion d...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: kanerika.com  
    Title: ai in fraud detection  
-   Link: <a href="https://kanerika.com/blogs/ai-in-fraud-detection/" target="_blank" rel="noopener noreferrer nofollow">https://kanerika.com/blogs/ai-in-fraud-detection/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard&#x27;s AI engine – Decision Intelligence and its Pro upgrade, scans hundreds...Read more...</p></details>
+   Link:<a href="https://kanerika.com/blogs/ai-in-fraud-detection/" target="_blank" rel="noopener noreferrer nofollow">https://kanerika.com/blogs/ai-in-fraud-detection/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard&#x27;s AI engine – Decision Intelligence and its Pro upgrade, scans hundreds...Read more...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: pymnts.com  
    Title: mastercard says new ai model ups fraud detection by 20percent  
-   Link: <a href="https://www.pymnts.com/artificial-intelligence-2/2024/mastercard-says-new-ai-model-ups-fraud-detection-by-20percent/" target="_blank" rel="noopener noreferrer nofollow">https://www.pymnts.com/artificial-intelligence-2/2024/mastercard-says-new-ai-model-ups-fraud-detection-by-20percent/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard Says New AI Model Ups Fraud Detection by 20%Feb 1, 2024 — Mastercard has introduced a [generative](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) artificial intelligence (AI)...</p></details>
+   Link:<a href="https://www.pymnts.com/artificial-intelligence-2/2024/mastercard-says-new-ai-model-ups-fraud-detection-by-20percent/" target="_blank" rel="noopener noreferrer nofollow">https://www.pymnts.com/artificial-intelligence-2/2024/mastercard-says-new-ai-model-ups-fraud-detection-by-20percent/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard Says New AI Model Ups Fraud Detection by 20%Feb 1, 2024 — Mastercard has introduced a [generative](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) artificial intelligence (AI)...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: fintechfutures.com  
-   Link: <a href="https://www.fintechfutures.com/ai-in-fintech/mastercard-battles-fraud-false-declines-with-ai-based-tool" target="_blank" rel="noopener noreferrer nofollow">https://www.fintechfutures.com/ai-in-fintech/mastercard-battles-fraud-false-declines-with-ai-based-tool</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard Battles Fraud, False Declines with AI-Based ToolMastercard is employing artificial intelligence to improve the accuracy of rea...</p></details>
+   Link:<a href="https://www.fintechfutures.com/ai-in-fintech/mastercard-battles-fraud-false-declines-with-ai-based-tool" target="_blank" rel="noopener noreferrer nofollow">https://www.fintechfutures.com/ai-in-fintech/mastercard-battles-fraud-false-declines-with-ai-based-tool</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard Battles Fraud, False Declines with AI-Based ToolMastercard is employing artificial intelligence to improve the accuracy of rea...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: mastercardbelgium.prezly.com  
    Title: mastercard rolls out artificial intelligence across its global network  
-   Link: <a href="https://mastercardbelgium.prezly.com/mastercard-rolls-out-artificial-intelligence-across-its-global-network" target="_blank" rel="noopener noreferrer nofollow">https://mastercardbelgium.prezly.com/mastercard-rolls-out-artificial-intelligence-across-its-global-network</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>This new functionality can help...</p></details>
+   Link:<a href="https://mastercardbelgium.prezly.com/mastercard-rolls-out-artificial-intelligence-across-its-global-network" target="_blank" rel="noopener noreferrer nofollow">https://mastercardbelgium.prezly.com/mastercard-rolls-out-artificial-intelligence-across-its-global-network</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This new functionality can help...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/groups/torontocaribbean/posts/1706577040025716/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/torontocaribbean/posts/1706577040025716/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard uses AI to reduce fraudMastercard has developed an in-house generative AI to prevent fraud on its payment network. Called Deci...</p></details>
+   Link:<a href="https://www.facebook.com/groups/torontocaribbean/posts/1706577040025716/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/torontocaribbean/posts/1706577040025716/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard uses AI to reduce fraudMastercard has developed an in-house generative AI to prevent fraud on its payment network. Called Deci...</p></details>
 
 ### Additional References
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/392629004_Advanced_fraud_detection_using_machine_learning_models_enhancing_financial_transaction_security" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/392629004_Advanced_fraud_detection_using_machine_learning_models_enhancing_financial_transaction_security</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Advanced fraud detection using machine learning models2 Jun 2025 — This research presents an end-to-end, feature-rich machine learning fr...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/392629004_Advanced_fraud_detection_using_machine_learning_models_enhancing_financial_transaction_security" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/392629004_Advanced_fraud_detection_using_machine_learning_models_enhancing_financial_transaction_security</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Advanced fraud detection using machine learning models2 Jun 2025 — This research presents an end-to-end, feature-rich machine learning fr...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/ai-fraud-detection-in-banking" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-fraud-detection-in-banking</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Fraud Detection in Banking | IBMAI models can learn to recognize the difference between suspicious activities and legitimate transacti...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/ai-fraud-detection-in-banking" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-fraud-detection-in-banking</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Fraud Detection in Banking | IBMAI models can learn to recognize the difference between suspicious activities and legitimate transacti...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/ai-fraud-detection-payments-transactions-transforming-andre-kq1ce" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ai-fraud-detection-payments-transactions-transforming-andre-kq1ce</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI for Fraud Detection in Payments &amp; TransactionsMastercard reported compelling results: 50% reduction in false declines within first yea...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/ai-fraud-detection-payments-transactions-transforming-andre-kq1ce" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ai-fraud-detection-payments-transactions-transforming-andre-kq1ce</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI for Fraud Detection in Payments &amp; TransactionsMastercard reported compelling results: 50% reduction in false declines within first yea...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/dwaynegefferie_why-most-payment-teams-are-solving-the-wrong-activity-7429461655157108736-IebC" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/dwaynegefferie_why-most-payment-teams-are-solving-the-wrong-activity-7429461655157108736-IebC</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>False Declines Cost Merchants $118B, Not FraudWe are working on a Real-Time Credit Card Fraud Detection system with GPS-Based Verificatio...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/dwaynegefferie_why-most-payment-teams-are-solving-the-wrong-activity-7429461655157108736-IebC" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/dwaynegefferie_why-most-payment-teams-are-solving-the-wrong-activity-7429461655157108736-IebC</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>False Declines Cost Merchants $118B, Not FraudWe are working on a Real-Time Credit Card Fraud Detection system with GPS-Based Verificatio...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: web.superagi.com  
-   Link: <a href="https://web.superagi.com/real-time-fraud-prevention-case-studies-of-businesses-using-ai-to-secure-online-payments-in-2025/" target="_blank" rel="noopener noreferrer nofollow">https://web.superagi.com/real-time-fraud-prevention-case-studies-of-businesses-using-ai-to-secure-online-payments-in-2025/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>superagi.comReal-Time Fraud Prevention: Case Studies of Businesses...29 Jun 2025 — According to a report by Mastercard, the use of AI in...</p></details>
+   Link:<a href="https://web.superagi.com/real-time-fraud-prevention-case-studies-of-businesses-using-ai-to-secure-online-payments-in-2025/" target="_blank" rel="noopener noreferrer nofollow">https://web.superagi.com/real-time-fraud-prevention-case-studies-of-businesses-using-ai-to-secure-online-payments-in-2025/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>superagi.comReal-Time Fraud Prevention: Case Studies of Businesses...29 Jun 2025 — According to a report by Mastercard, the use of AI in...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: mdpi.com  
-   Link: <a href="https://www.mdpi.com/2076-3417/15/21/11787" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2076-3417/15/21/11787</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>An Introduction to Machine Learning Methods for Fraud...by AA Compagnino · 2025 · Cited by 25 — For example, in credit card fraud detect...</p></details>
+   Link:<a href="https://www.mdpi.com/2076-3417/15/21/11787" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2076-3417/15/21/11787</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An Introduction to Machine Learning Methods for Fraud...by AA Compagnino · 2025 · Cited by 25 — For example, in credit card fraud detect...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: geekyants.com  
    Title: ai fraud detection in fintech apps roi risk reduction compliance gains  
-   Link: <a href="https://geekyants.com/blog/ai-fraud-detection-in-fintech-apps-roi-risk-reduction-compliance-gains" target="_blank" rel="noopener noreferrer nofollow">https://geekyants.com/blog/ai-fraud-detection-in-fintech-apps-roi-risk-reduction-compliance-gains</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Fraud Detection in Fintech Apps: ROI, Risk Reduction &amp;...18 Nov 2025 — AI reduces fraud losses by up to 50% through real-time detecti...</p></details>
+   Link:<a href="https://geekyants.com/blog/ai-fraud-detection-in-fintech-apps-roi-risk-reduction-compliance-gains" target="_blank" rel="noopener noreferrer nofollow">https://geekyants.com/blog/ai-fraud-detection-in-fintech-apps-roi-risk-reduction-compliance-gains</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Fraud Detection in Fintech Apps: ROI, Risk Reduction &amp;...18 Nov 2025 — AI reduces fraud losses by up to 50% through real-time detecti...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: wyllo.ai  
    Title: why ecommerce fraud prevention tools create false positives  
-   Link: <a href="https://wyllo.ai/why-ecommerce-fraud-prevention-tools-create-false-positives/" target="_blank" rel="noopener noreferrer nofollow">https://wyllo.ai/why-ecommerce-fraud-prevention-tools-create-false-positives/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>27 May 2026 — Ecommerce fraud prevention tools flag too many good customers. Why it happens at scale, and how to cut false positives with...</p></details>
+   Link:<a href="https://wyllo.ai/why-ecommerce-fraud-prevention-tools-create-false-positives/" target="_blank" rel="noopener noreferrer nofollow">https://wyllo.ai/why-ecommerce-fraud-prevention-tools-create-false-positives/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>27 May 2026 — Ecommerce fraud prevention tools flag too many good customers. Why it happens at scale, and how to cut false positives with...</p></details>
    Published: May 2026  
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: paymentsjournal.com  
-   Link: <a href="https://www.paymentsjournal.com/using-artificial-intelligence-visa-is-combatting-fraud-at-nearly-the-[speed" target="_blank" rel="noopener noreferrer nofollow">https://www.paymentsjournal.com/using-artificial-intelligence-visa-is-combatting-fraud-at-nearly-the-[speed</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>helped issuers prevent an estimated $25 billion in annual fraud, the company announced on...Read more...</p></details>
+   Link:<a href="https://www.paymentsjournal.com/using-artificial-intelligence-visa-is-combatting-fraud-at-nearly-the-[speed" target="_blank" rel="noopener noreferrer nofollow">https://www.paymentsjournal.com/using-artificial-intelligence-visa-is-combatting-fraud-at-nearly-the-[speed</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>helped issuers prevent an estimated $25 billion in annual fraud, the company announced on...Read more...</p></details>
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: nhregister.com  
    Title: A bank representative can override a declined transaction in real time.Read more  
-   Link: <a href="https://www.nhregister.com/news/article/your-bank-s-ai-just-blocked-your-payment-22276482.php" target="_blank" rel="noopener noreferrer nofollow">https://www.nhregister.com/news/article/your-bank-s-ai-just-blocked-your-payment-22276482.php</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>New Haven RegisterYour bank&#x27;s AI just blocked your payment – what can you do?3 days ago — Call your bank immediately: A fraud flag is pro...</p></details>
+   Link:<a href="https://www.nhregister.com/news/article/your-bank-s-ai-just-blocked-your-payment-22276482.php" target="_blank" rel="noopener noreferrer nofollow">https://www.nhregister.com/news/article/your-bank-s-ai-just-blocked-your-payment-22276482.php</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>New Haven RegisterYour bank&#x27;s AI just blocked your payment – what can you do?3 days ago — Call your bank immediately: A fraud flag is pro...</p></details>

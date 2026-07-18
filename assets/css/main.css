@@ -266,8 +266,14 @@ body {
   align-items: center;
 }
 
-.article-header-pill {
+.site-nav .article-header-pill {
   display: none;
+}
+
+@media (min-width: 981px) {
+  body.page-article .site-nav .article-header-parent {
+    display: inline-flex;
+  }
 }
 
 .site-nav a {
@@ -2176,6 +2182,10 @@ body.right-sidebar-collapsed .sidebar {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.article-hero-media img[src*="-Illustration-" i] {
+  object-position: left center;
 }
 
 .article-hero-media-note {
@@ -4478,6 +4488,32 @@ a.citation-chip:focus-visible {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+.youtube-embed-duration {
+  position: absolute;
+  right: 0.72rem;
+  top: 0.68rem;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.5rem;
+  padding: 0.12rem 0.42rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.82);
+  color: #fff;
+  font-family: var(--font-heading-stack);
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+}
+
+.youtube-embed-frame:hover .youtube-embed-duration,
+.youtube-embed-frame:focus-within .youtube-embed-duration {
+  opacity: 0;
 }
 
 .youtube-embed-link-panel {
@@ -7187,51 +7223,51 @@ body.right-sidebar-collapsed .layout-grid-article {
 
 /* Visual DNA overrides (deterministic per site) */
 :root {
-  --font-heading-stack: "Plus Jakarta Sans", "Avenir Next", "Segoe UI", sans-serif;
-  --font-body-stack: "Lora", Georgia, serif;
-  --brand: #1d7c58;
-  --brand-dark: #165a40;
-  --accent: #b45f10;
-  --dna-bg-orb-1: rgba(29, 124, 88, 0.18);
-  --dna-bg-orb-2: rgba(180, 95, 16, 0.14);
-  --dna-bg-orb-3: rgba(47, 140, 109, 0.1);
-  --dna-bg-top: #f7fbf8;
-  --dna-bg-bottom: #eef4ef;
-  --dna-hero-start: rgba(235, 251, 243, 0.92);
-  --dna-hero-end: rgba(255, 244, 230, 0.84);
-  --dna-hero-glow: rgba(22, 90, 64, 0.2);
-  --dna-level-1-start: #1d7c58;
-  --dna-level-1-end: #4ab488;
-  --dna-level-2-start: #2f7468;
-  --dna-level-2-end: #67b2a4;
-  --dna-level-3-start: #98591a;
-  --dna-level-3-end: #d7964e;
-  --dna-pill-border: rgba(29, 124, 88, 0.28);
-  --dna-pill-bg: linear-gradient(180deg, #ffffff 0%, #e9f8ef 100%);
-  --dna-pill-hover-border: rgba(22, 90, 64, 0.52);
-  --dna-pill-hover-bg: linear-gradient(180deg, #ffffff 0%, #d8f0e0 100%);
-  --dna-pill-text: #165a40;
+  --font-heading-stack: "Sora", "Avenir Next", "Segoe UI", sans-serif;
+  --font-body-stack: "Public Sans", "Segoe UI", sans-serif;
+  --brand: #205fa8;
+  --brand-dark: #19457b;
+  --accent: #d07111;
+  --dna-bg-orb-1: rgba(32, 95, 168, 0.18);
+  --dna-bg-orb-2: rgba(208, 113, 17, 0.15);
+  --dna-bg-orb-3: rgba(23, 84, 152, 0.1);
+  --dna-bg-top: #f6f9fd;
+  --dna-bg-bottom: #edf2f9;
+  --dna-hero-start: rgba(234, 244, 255, 0.92);
+  --dna-hero-end: rgba(255, 244, 232, 0.84);
+  --dna-hero-glow: rgba(25, 69, 123, 0.2);
+  --dna-level-1-start: #205fa8;
+  --dna-level-1-end: #4e88d8;
+  --dna-level-2-start: #2a78b4;
+  --dna-level-2-end: #5eb6f2;
+  --dna-level-3-start: #a85f18;
+  --dna-level-3-end: #e29f59;
+  --dna-pill-border: rgba(32, 95, 168, 0.28);
+  --dna-pill-bg: linear-gradient(180deg, #ffffff 0%, #eaf1fc 100%);
+  --dna-pill-hover-border: rgba(25, 69, 123, 0.52);
+  --dna-pill-hover-bg: linear-gradient(180deg, #ffffff 0%, #dce8f9 100%);
+  --dna-pill-text: #19457b;
   --dna-orb-pos-1: 12% 2%;
   --dna-orb-pos-2: 90% 22%;
   --dna-orb-pos-3: 56% 86%;
 }
 :root[data-theme="dark"] {
-  --brand: #8de8bf;
-  --brand-dark: #cbf9e3;
-  --accent: #ffc982;
-  --dna-bg-orb-1: rgba(141, 232, 191, 0.2);
-  --dna-bg-orb-2: rgba(255, 201, 130, 0.16);
-  --dna-bg-orb-3: rgba(104, 199, 163, 0.14);
-  --dna-bg-top: #0b1614;
-  --dna-bg-bottom: #0c1918;
-  --dna-hero-start: rgba(18, 38, 33, 0.95);
-  --dna-hero-end: rgba(33, 28, 22, 0.9);
-  --dna-hero-glow: rgba(141, 232, 191, 0.24);
-  --dna-pill-border: rgba(141, 232, 191, 0.4);
-  --dna-pill-bg: linear-gradient(180deg, #1f3a34 0%, #162c28 100%);
-  --dna-pill-hover-border: rgba(255, 201, 130, 0.5);
-  --dna-pill-hover-bg: linear-gradient(180deg, #2a4a42 0%, #1f3a34 100%);
-  --dna-pill-text: #dff7ea;
+  --brand: #8ac2ff;
+  --brand-dark: #cfe8ff;
+  --accent: #ffc483;
+  --dna-bg-orb-1: rgba(138, 194, 255, 0.2);
+  --dna-bg-orb-2: rgba(255, 196, 131, 0.16);
+  --dna-bg-orb-3: rgba(105, 170, 246, 0.16);
+  --dna-bg-top: #0a1324;
+  --dna-bg-bottom: #0d1629;
+  --dna-hero-start: rgba(19, 33, 58, 0.96);
+  --dna-hero-end: rgba(34, 25, 21, 0.9);
+  --dna-hero-glow: rgba(138, 194, 255, 0.24);
+  --dna-pill-border: rgba(138, 194, 255, 0.42);
+  --dna-pill-bg: linear-gradient(180deg, #1e3253 0%, #182842 100%);
+  --dna-pill-hover-border: rgba(255, 196, 131, 0.52);
+  --dna-pill-hover-bg: linear-gradient(180deg, #29456e 0%, #1e3253 100%);
+  --dna-pill-text: #e2efff;
 }
 body.motif-orbital {
   --dna-orb-pos-1: 12% 2%;
@@ -12568,6 +12604,18 @@ body.page-article {
   --measure-media: 74rem;
 }
 
+@media (min-width: 981px) and (max-width: 1399px) {
+  body.page-article {
+    --layout-fluid-width: 99vw;
+    --sidebar-left-track: clamp(190px, 15vw, 210px);
+    --sidebar-right-track: clamp(198px, 16vw, 218px);
+  }
+
+  body.page-article .page-content .container {
+    padding-inline: clamp(0.56rem, 0.8vw, 0.74rem);
+  }
+}
+
 :root[data-reading-width="wide"] body.page-article {
   --layout-max-width: 1560px;
   --layout-fluid-width: 98vw;
@@ -12736,6 +12784,36 @@ body.page-article .article-body p.pseudo-heading-level-3::before {
   margin-bottom: 0.42rem;
   border-radius: 999px;
   background: linear-gradient(90deg, rgba(185, 103, 42, 0.92), rgba(185, 103, 42, 0.18));
+}
+
+/* Related links are a compact reading aid, not another article section. */
+body.page-article .article-body .related-reports h2 {
+  max-width: none;
+  margin: 0 0 0.54rem;
+  padding-top: 0.5rem;
+  font-size: calc(1.08rem * var(--reading-heading-scale));
+  line-height: 1.2;
+  letter-spacing: -0.012em;
+  text-wrap: pretty;
+}
+
+body.page-article .article-body .related-reports h2::before {
+  width: 2.8rem;
+  height: 3px;
+}
+
+body.page-article .article-body .related-reports h3 {
+  max-width: none;
+  margin: 0 0 0.28rem;
+  font-size: 0.82rem;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  color: var(--muted);
+  text-wrap: pretty;
+}
+
+body.page-article .article-body .related-reports h3::before {
+  display: none;
 }
 
 body.page-article .article-body h4 {
@@ -13387,6 +13465,7 @@ body.page-article .article-body > .content-enhancement--step-flow > ol > li::bef
 .fr-search-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr));
+  align-items: start;
   gap: 0.9rem;
 }
 
@@ -13432,8 +13511,10 @@ body.page-article .article-body > .content-enhancement--step-flow > ol > li::bef
   z-index: 1;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
+  padding: 0.28rem;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .fr-search-cover {
@@ -13519,6 +13600,39 @@ body.page-article .article-body > .content-enhancement--step-flow > ol > li::bef
   line-height: 1.48;
 }
 
+.fr-ebay-query-context {
+  margin: 0 0 0.72rem;
+  color: color-mix(in srgb, var(--muted) 84%, var(--heading) 16%);
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
+.fr-ebay-query-context a {
+  color: #92400e;
+  font-weight: 750;
+}
+
+.fr-listing-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.26rem 0.62rem;
+  margin: 0;
+  color: color-mix(in srgb, var(--muted) 82%, var(--heading) 18%);
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
+.fr-listing-meta span:not(:last-child)::after {
+  content: "·";
+  margin-left: 0.62rem;
+  color: color-mix(in srgb, var(--muted) 62%, transparent 38%);
+}
+
+.fr-listing-price {
+  color: var(--heading);
+  font-weight: 850;
+}
+
 .fr-book-popularity {
   font-weight: 700;
 }
@@ -13593,6 +13707,10 @@ a.fr-book-fit:focus-visible {
   font-weight: 800;
   letter-spacing: 0.01em;
   text-decoration: none;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+  text-align: center;
   box-shadow: 0 12px 22px rgba(245, 158, 11, 0.22);
   transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
 }
@@ -13737,6 +13855,15 @@ a.fr-book-fit:focus-visible {
 :root[data-theme="dark"] .fr-book-cover {
   background: linear-gradient(180deg, rgba(251, 191, 36, 0.18) 0%, rgba(217, 119, 6, 0.16) 100%);
   box-shadow: inset 0 0 0 1px rgba(251, 191, 36, 0.14);
+}
+
+:root[data-theme="dark"] .fr-book-cover img {
+  background: rgba(255, 255, 255, 0.92);
+}
+
+:root[data-theme="dark"] .fr-ebay-query-context a,
+:root[data-theme="dark"] .fr-listing-price {
+  color: rgba(254, 215, 170, 0.98);
 }
 
 :root[data-theme="dark"] .fr-search-cover {
@@ -15791,9 +15918,10 @@ a.fr-book-fit:focus-visible {
 }
 
 :where(.interactive-map-shell, .uap-world-map-shell) {
+  --interactive-map-frame-height: clamp(22rem, 32vw, 31.5rem);
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(17rem, 0.34fr);
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 0.34fr);
   align-items: stretch;
   isolation: isolate;
   gap: clamp(0.85rem, 1.2vw, 1.15rem);
@@ -15817,11 +15945,56 @@ a.fr-book-fit:focus-visible {
   pointer-events: none;
 }
 
+.interactive-map-region-nav {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.interactive-map-region-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.2rem;
+  padding: 0.42rem 0.72rem;
+  border: 1px solid rgba(126, 210, 223, 0.34);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.62);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 760;
+  cursor: pointer;
+}
+
+.interactive-map-region-button small {
+  display: inline-grid;
+  min-width: 1.35rem;
+  min-height: 1.35rem;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(126, 210, 223, 0.18);
+  color: var(--ink-soft);
+  font-size: 0.7rem;
+}
+
+.interactive-map-region-button:hover,
+.interactive-map-region-button:focus-visible {
+  border-color: rgba(217, 130, 43, 0.62);
+  background: rgba(255, 255, 255, 0.9);
+  outline: none;
+  transform: translateY(-1px);
+}
+
 :where(.interactive-map-canvas, .uap-world-map-canvas) {
   position: relative;
   overflow: hidden;
   touch-action: pan-y;
-  min-height: clamp(19rem, 54vh, 35rem);
+  height: var(--interactive-map-frame-height);
+  min-height: 0;
+  max-height: var(--interactive-map-frame-height);
   border: 1px solid rgba(255, 255, 255, 0.58);
   border-radius: 20px;
   background:
@@ -15831,6 +16004,47 @@ a.fr-book-fit:focus-visible {
     linear-gradient(180deg, rgba(14, 34, 54, 0.08), rgba(14, 34, 54, 0.02));
   background-size: auto, 26px 26px, auto, auto;
   box-shadow: inset 0 0 46px rgba(14, 35, 55, 0.1), 0 18px 42px rgba(14, 35, 55, 0.11);
+}
+
+:where(.interactive-map-status, .uap-world-map-status) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 6;
+  width: max-content;
+  max-width: calc(100% - 2rem);
+  padding: 0.48rem 0.72rem;
+  border: 1px solid rgba(126, 210, 223, 0.28);
+  border-radius: 999px;
+  background: rgba(8, 21, 36, 0.82);
+  color: rgba(244, 250, 252, 0.94);
+  font-family: var(--font-heading-stack);
+  font-size: 0.78rem;
+  font-weight: 760;
+  line-height: 1.3;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(12px);
+}
+
+:where(.interactive-map-static-fallback, .uap-world-map-static-fallback) {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: contain;
+}
+
+:where(.interactive-map-shell, .uap-world-map-shell):where(
+  [data-map-state="partial"],
+  [data-map-state="fallback"],
+  [data-map-state="static"]
+) :where(.interactive-map-status, .uap-world-map-status) {
+  top: auto;
+  bottom: 0.72rem;
+  transform: translateX(-50%);
 }
 
 :where(.interactive-map-canvas, .uap-world-map-canvas)::before {
@@ -15849,8 +16063,8 @@ a.fr-book-fit:focus-visible {
 :where(.interactive-map-canvas, .uap-world-map-canvas)::after {
   content: "Click a highlighted area";
   position: absolute;
-  right: 0.85rem;
-  bottom: 0.75rem;
+  right: 1.55rem;
+  bottom: 1rem;
   z-index: 2;
   padding: 0.36rem 0.62rem;
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -15867,26 +16081,83 @@ a.fr-book-fit:focus-visible {
 }
 
 :where(.interactive-map-canvas, .uap-world-map-canvas) svg {
-  min-height: clamp(19rem, 54vh, 35rem);
+  min-height: 0;
 }
 
 :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="world"] :where(.interactive-map-canvas, .uap-world-map-canvas),
 :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="state"] :where(.interactive-map-canvas, .uap-world-map-canvas),
-:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="us-states"] :where(.interactive-map-canvas, .uap-world-map-canvas) {
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="us-states"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="province"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="county"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="department"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="region"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="france-departments"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="spain-provinces"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="italy-regions"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="germany-states"] :where(.interactive-map-canvas, .uap-world-map-canvas) {
   align-self: start;
   aspect-ratio: 16 / 9;
   min-height: 0;
 }
 
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="canada"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="australia"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="uk-counties"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="france-departments"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="spain-provinces"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="italy-regions"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="germany-states"] :where(.interactive-map-canvas, .uap-world-map-canvas) {
+  aspect-ratio: 16 / 9;
+}
+
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="uk-counties"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg {
+  background: rgba(8, 21, 36, 0.12);
+}
+
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="county"] .map-context-ireland {
+  fill: #9aa6b5 !important;
+  opacity: 0.72;
+  pointer-events: none;
+}
+
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="uk-counties"] rect[id="rect21763"] {
+  fill: transparent !important;
+}
+
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-layout="uk-counties"] svg[data-map-fit-applied="linked-bounds"] :where(path, polygon, polyline, rect, circle):not([data-interactive-map-item]):not(.map-context-ireland) {
+  display: none !important;
+}
+
+:root[data-theme="dark"] :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="county"] .map-context-ireland {
+  fill: #536171 !important;
+  opacity: 0.78;
+}
+
 :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="world"] :where(.interactive-map-preview, .uap-world-map-preview),
 :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="state"] :where(.interactive-map-preview, .uap-world-map-preview),
-:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="us-states"] :where(.interactive-map-preview, .uap-world-map-preview) {
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="us-states"] :where(.interactive-map-preview, .uap-world-map-preview),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="province"] :where(.interactive-map-preview, .uap-world-map-preview),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="county"] :where(.interactive-map-preview, .uap-world-map-preview),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="department"] :where(.interactive-map-preview, .uap-world-map-preview),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="region"] :where(.interactive-map-preview, .uap-world-map-preview),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="france-departments"] :where(.interactive-map-preview, .uap-world-map-preview),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="spain-provinces"] :where(.interactive-map-preview, .uap-world-map-preview),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="italy-regions"] :where(.interactive-map-preview, .uap-world-map-preview),
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="germany-states"] :where(.interactive-map-preview, .uap-world-map-preview) {
   min-height: 0;
 }
 
 :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="world"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
 :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="state"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
-:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="us-states"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg {
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="us-states"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="province"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="county"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="department"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="region"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="france-departments"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="spain-provinces"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="italy-regions"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
+:where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="germany-states"] :where(.interactive-map-canvas, .uap-world-map-canvas) svg {
   display: block;
   width: 100%;
   height: 100%;
@@ -15950,6 +16221,10 @@ a.fr-book-fit:focus-visible {
   pointer-events: auto;
 }
 
+:where(.interactive-map-pan-control, .uap-world-map-pan-control)[hidden] {
+  display: none !important;
+}
+
 :where(.interactive-map-pan-controls, .uap-world-map-pan-controls) {
   position: absolute;
   inset: 0;
@@ -15964,7 +16239,7 @@ a.fr-book-fit:focus-visible {
 }
 
 :where(.interactive-map-pan-control-right, .uap-world-map-pan-control-right) {
-  right: 0.8rem;
+  right: 1.3rem;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -16003,30 +16278,73 @@ a.fr-book-fit:focus-visible {
   transition: fill 160ms ease, opacity 160ms ease, filter 160ms ease, stroke 160ms ease;
 }
 
+:where(.interactive-map-shell, .uap-world-map-shell):where(
+  [data-map-layout="canada"],
+  [data-map-layout="australia"],
+  [data-map-layout="france-departments"],
+  [data-map-layout="spain-provinces"],
+  [data-map-layout="italy-regions"],
+  [data-map-layout="germany-states"]
+) :where(.interactive-map-canvas, .uap-world-map-canvas) :where([data-interactive-map-item], [data-uap-country]) {
+  stroke: rgba(3, 18, 31, 0.7) !important;
+  stroke-width: 1.25 !important;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+  paint-order: stroke fill markers;
+}
+
+:where(.interactive-map-shell, .uap-world-map-shell):where(
+  [data-map-layout="canada"],
+  [data-map-layout="australia"]
+) :where(.interactive-map-canvas, .uap-world-map-canvas) :where([data-interactive-map-item], [data-uap-country]) {
+  stroke-width: 1.55 !important;
+}
+
 :where(.interactive-map-canvas, .uap-world-map-canvas) :where([data-interactive-map-item], [data-uap-country]).is-linked {
   fill: rgba(21, 117, 132, 0.76) !important;
   filter: drop-shadow(0 0 3px rgba(126, 210, 223, 0.42));
+}
+
+:where(.interactive-map-canvas, .uap-world-map-canvas) .map-context-shape {
+  fill: rgba(73, 112, 133, 0.28) !important;
+  stroke: rgba(45, 79, 101, 0.44) !important;
+  stroke-width: 1 !important;
+  pointer-events: none;
+  vector-effect: non-scaling-stroke;
 }
 
 :where(.interactive-map-canvas, .uap-world-map-canvas) :where([data-interactive-map-item], [data-uap-country]).is-hovered,
 :where(.interactive-map-canvas, .uap-world-map-canvas) :where([data-interactive-map-item], [data-uap-country]):focus {
   fill: #ff4d3d !important;
   stroke: rgba(255, 245, 218, 0.98) !important;
-  stroke-width: 1.9;
+  stroke-width: 1.9 !important;
   filter: drop-shadow(0 0 8px rgba(242, 166, 74, 0.88)) drop-shadow(0 10px 16px rgba(14, 35, 55, 0.3));
 }
 
 :where(.interactive-map-preview, .uap-world-map-preview) {
+  --map-preview-image-height: clamp(7.2rem, 16vh, 10.2rem);
+  --map-preview-meta-height: 1.52rem;
+  --map-preview-kicker-height: 1.28rem;
+  --map-preview-title-height: clamp(4rem, 5vw, 4.35rem);
+  --map-preview-summary-height: calc(1.36em * 3);
+  --map-preview-cta-height: 2.2rem;
   display: grid;
-  grid-template-rows: clamp(8rem, 18vh, 11.4rem) minmax(1.48rem, auto) minmax(1.35rem, auto) minmax(3.15rem, auto) minmax(4.5rem, 1fr) auto;
+  grid-template-rows: var(--map-preview-image-height)
+    var(--map-preview-meta-height)
+    var(--map-preview-kicker-height)
+    var(--map-preview-title-height)
+    var(--map-preview-summary-height)
+    minmax(0.55rem, 1fr)
+    var(--map-preview-cta-height);
   align-content: start;
-  gap: clamp(0.34rem, 0.6vw, 0.54rem);
+  gap: clamp(0.24rem, 0.48vw, 0.42rem);
   align-self: stretch;
-  height: clamp(20rem, 54vh, 35rem);
-  min-height: clamp(20rem, 54vh, 35rem);
-  max-height: clamp(20rem, 54vh, 35rem);
+  height: var(--interactive-map-frame-height);
+  min-height: 0;
+  max-height: var(--interactive-map-frame-height);
   overflow: hidden;
-  padding: clamp(0.9rem, 1.4vw, 1.1rem);
+  padding: clamp(0.72rem, 1.1vw, 0.9rem);
   border-color: rgba(255, 255, 255, 0.56);
   border-radius: 20px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(244, 250, 252, 0.66));
@@ -16034,8 +16352,34 @@ a.fr-book-fit:focus-visible {
   backdrop-filter: blur(18px);
 }
 
+.home-map-panel-source {
+  margin: -0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
+.home-map-panel-source a {
+  color: inherit;
+}
+
 :where(.interactive-map-preview, .uap-world-map-preview):not(:has(img)) {
-  grid-template-rows: minmax(1.48rem, auto) minmax(1.35rem, auto) minmax(3.15rem, auto) minmax(4.5rem, 1fr) auto;
+  grid-template-rows:
+    var(--map-preview-meta-height)
+    var(--map-preview-kicker-height)
+    var(--map-preview-title-height)
+    var(--map-preview-summary-height)
+    minmax(0.55rem, 1fr)
+    var(--map-preview-cta-height);
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview).is-image-missing {
+  grid-template-rows:
+    var(--map-preview-meta-height)
+    var(--map-preview-kicker-height)
+    var(--map-preview-title-height)
+    var(--map-preview-summary-height)
+    minmax(0.55rem, 1fr)
+    var(--map-preview-cta-height);
 }
 
 :where(.interactive-map-preview, .uap-world-map-preview):hover {
@@ -16044,44 +16388,71 @@ a.fr-book-fit:focus-visible {
 }
 
 :where(.interactive-map-preview, .uap-world-map-preview) img {
+  grid-row: 1;
   width: 100%;
-  height: clamp(8rem, 18vh, 11.4rem);
-  max-height: clamp(8rem, 18vh, 11.4rem);
+  height: var(--map-preview-image-height);
+  max-height: var(--map-preview-image-height);
   margin: 0;
   object-fit: cover;
   border: 1px solid rgba(255, 255, 255, 0.64);
   border-radius: 16px;
+  background:
+    linear-gradient(110deg, transparent 24%, rgba(126, 210, 223, 0.13) 42%, transparent 60%),
+    radial-gradient(circle at 50% 50%, rgba(126, 210, 223, 0.18), rgba(8, 21, 36, 0.2));
   box-shadow: 0 14px 28px rgba(14, 35, 55, 0.16);
 }
 
 :where(.interactive-map-preview, .uap-world-map-preview) strong {
+  grid-row: 4;
   display: -webkit-box;
   font-size: clamp(1.05rem, 0.36vw + 0.98rem, 1.18rem);
-  line-height: 1.14;
-  min-height: calc(1.14em * 2);
-  max-height: calc(1.14em * 2);
+  line-height: 1.12;
+  height: var(--map-preview-title-height);
+  min-height: var(--map-preview-title-height);
+  max-height: var(--map-preview-title-height);
   overflow: hidden;
+  contain: paint;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
 }
 
 :where(.interactive-map-preview, .uap-world-map-preview) :where(span[data-interactive-map-preview-summary], span[data-uap-world-map-preview-summary]) {
+  grid-row: 5;
   display: -webkit-box;
   margin-top: 0;
   font-size: 0.9rem;
-  line-height: 1.5;
-  min-height: calc(1.5em * 4);
-  max-height: calc(1.5em * 4);
+  line-height: 1.36;
+  min-height: var(--map-preview-summary-height);
+  max-height: var(--map-preview-summary-height);
   overflow: hidden;
+  contain: paint;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
 }
 
 :where(.interactive-map-preview-meta, .uap-world-map-preview-meta) {
+  grid-row: 2;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 0.34rem;
   align-items: center;
+  min-height: var(--map-preview-meta-height);
+  max-height: var(--map-preview-meta-height);
+  overflow: hidden;
+}
+
+:where(.interactive-map-preview-kicker, .uap-world-map-preview-kicker) {
+  grid-row: 3;
+  display: block;
+  min-height: var(--map-preview-kicker-height);
+  max-height: var(--map-preview-kicker-height);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+:where(.interactive-map-preview-kicker, .uap-world-map-preview-kicker).is-placeholder {
+  visibility: hidden;
 }
 
 :where(.interactive-map-preview-chip, .uap-world-map-preview-chip),
@@ -16090,6 +16461,8 @@ a.fr-book-fit:focus-visible {
   display: inline-flex;
   align-items: center;
   min-height: 1.48rem;
+  max-height: 1.48rem;
+  max-width: 100%;
   padding: 0.18rem 0.46rem;
   border: 1px solid rgba(126, 210, 223, 0.28);
   border-radius: 999px;
@@ -16100,6 +16473,9 @@ a.fr-book-fit:focus-visible {
   font-weight: 760;
   letter-spacing: 0.035em;
   text-transform: uppercase;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 :where(button.interactive-map-preview-chip-action, button.uap-world-map-preview-chip-action) {
@@ -16128,12 +16504,16 @@ a.fr-book-fit:focus-visible {
 }
 
 :where(.interactive-map-preview-cta, .uap-world-map-preview-cta) {
+  grid-row: 7;
   align-self: end;
   justify-self: start;
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
   margin-top: 0.24rem;
+  margin-left: clamp(0.35rem, 0.8vw, 0.72rem);
+  min-height: var(--map-preview-cta-height);
+  max-height: var(--map-preview-cta-height);
   padding: 0.46rem 0.7rem;
   border-radius: 999px;
   background: linear-gradient(135deg, rgba(217, 130, 43, 0.92), rgba(242, 166, 74, 0.82));
@@ -16144,6 +16524,46 @@ a.fr-book-fit:focus-visible {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   box-shadow: 0 12px 26px rgba(217, 130, 43, 0.24);
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview):not(:has(img)) :where(.interactive-map-preview-meta, .uap-world-map-preview-meta) {
+  grid-row: 1;
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview).is-image-missing :where(.interactive-map-preview-meta, .uap-world-map-preview-meta) {
+  grid-row: 1;
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview):not(:has(img)) :where(.interactive-map-preview-kicker, .uap-world-map-preview-kicker) {
+  grid-row: 2;
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview).is-image-missing :where(.interactive-map-preview-kicker, .uap-world-map-preview-kicker) {
+  grid-row: 2;
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview):not(:has(img)) strong {
+  grid-row: 3;
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview).is-image-missing strong {
+  grid-row: 3;
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview):not(:has(img)) :where(span[data-interactive-map-preview-summary], span[data-uap-world-map-preview-summary]) {
+  grid-row: 4;
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview).is-image-missing :where(span[data-interactive-map-preview-summary], span[data-uap-world-map-preview-summary]) {
+  grid-row: 4;
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview):not(:has(img)) :where(.interactive-map-preview-cta, .uap-world-map-preview-cta) {
+  grid-row: 6;
+}
+
+:where(.interactive-map-preview, .uap-world-map-preview).is-image-missing :where(.interactive-map-preview-cta, .uap-world-map-preview-cta) {
+  grid-row: 6;
 }
 
 :where(.interactive-map-preview-cta, .uap-world-map-preview-cta)::after {
@@ -16182,6 +16602,11 @@ a.fr-book-fit:focus-visible {
   box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
+:root[data-theme="dark"] :where(.interactive-map-canvas, .uap-world-map-canvas) .map-context-shape {
+  fill: rgba(37, 77, 98, 0.5) !important;
+  stroke: rgba(126, 210, 223, 0.22) !important;
+}
+
 :root[data-theme="dark"] :where(.interactive-map-canvas, .uap-world-map-canvas) :where([data-interactive-map-item], [data-uap-country]).is-hovered,
 :root[data-theme="dark"] :where(.interactive-map-canvas, .uap-world-map-canvas) :where([data-interactive-map-item], [data-uap-country]):focus {
   fill: #ffd166 !important;
@@ -16212,7 +16637,9 @@ a.fr-book-fit:focus-visible {
 
   :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="world"] :where(.interactive-map-canvas, .uap-world-map-canvas),
   :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="state"] :where(.interactive-map-canvas, .uap-world-map-canvas),
-  :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="us-states"] :where(.interactive-map-canvas, .uap-world-map-canvas) {
+  :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="us-states"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+  :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="province"] :where(.interactive-map-canvas, .uap-world-map-canvas),
+  :where(.interactive-map-shell, .uap-world-map-shell)[data-map-kind="county"] :where(.interactive-map-canvas, .uap-world-map-canvas) {
     aspect-ratio: 4 / 3;
   }
 
@@ -16228,9 +16655,20 @@ a.fr-book-fit:focus-visible {
     border-radius: 18px;
   }
 
-  :where(.interactive-map-canvas, .uap-world-map-canvas),
-  :where(.interactive-map-canvas, .uap-world-map-canvas) svg {
-    min-height: 15rem;
+  :where(.interactive-map-canvas, .uap-world-map-canvas) {
+    width: 100%;
+    height: clamp(15rem, 75vw, 19rem);
+    min-height: clamp(15rem, 75vw, 19rem);
+    max-height: none;
+    aspect-ratio: auto !important;
+  }
+
+  :where(.interactive-map-canvas, .uap-world-map-canvas) svg,
+  :where(.interactive-map-static-fallback, .uap-world-map-static-fallback) {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    max-height: 100%;
   }
 
   :where(.interactive-map-canvas, .uap-world-map-canvas)::after {

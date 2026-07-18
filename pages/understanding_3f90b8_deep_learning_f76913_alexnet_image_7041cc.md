@@ -288,7 +288,7 @@ image: /assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_70
 
 ## Introduction
 
-In the history of artificial intelligence, few single results changed opinion as quickly as AlexNet’s victory in the 2012 ImageNet Large Scale Visual Recognition Challenge (ILSVRC). Before that moment, deep neural networks were respected by a small group of researchers but were not the dominant approach in computer vision. After it, [deep learning]({{ 'deep-learning/' | relative_url }}) became impossible to ignore. AlexNet did not merely win a benchmark; it outperformed competing systems by such a large margin that many researchers concluded that a different technological path had suddenly become viable. Its success suggested that sufficiently deep neural networks, trained on large datasets with powerful hardware, could learn visual representations more effectively than the hand-crafted feature pipelines that had dominated the field for years. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library+2NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</span></span></span>
+In the history of artificial intelligence, few single results changed opinion as quickly as AlexNet’s victory in the 2012 ImageNet Large Scale Visual Recognition Challenge (ILSVRC). Before that moment, deep neural networks were respected by a small group of researchers but were not the dominant approach in computer vision. After it, [deep learning]({{ 'deep-learning/' | relative_url }}) became impossible to ignore. AlexNet did not merely win a benchmark; it outperformed competing systems by such a large margin that many researchers concluded that a different technological path had suddenly become viable. Its success suggested that sufficiently deep neural networks, trained on large datasets with powerful hardware, could learn visual representations more effectively than the hand-crafted feature pipelines that had dominated the field for years.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library+2NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-overview.webp" | relative_url }}" alt="Overview image for Alex Net" loading="eager" decoding="sync" fetchpriority="high">
@@ -296,11 +296,11 @@ In the history of artificial intelligence, few single results changed opinion as
 
 The importance of AlexNet was not that it introduced neural networks. Researchers had experimented with neural networks for decades. The breakthrough was that it provided a highly visible demonstration on a benchmark that the wider computer-vision community trusted.
 
-In 2012, the ImageNet challenge asked systems to classify images among 1,000 object categories using a dataset containing more than a million training images. The benchmark was deliberately difficult and had become one of the most important ways of measuring progress in visual recognition. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.image-net.org/challenges/LSVRC/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: image-net.org">[image-net.org+2image-net.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">image-net.org</span><span class="citation-popover-snippet">Large Scale Visual Recognition ChallengeThe ImageNet Large Scale Visual Recognition Challenge (ILSVRC) evaluates algorithms for object de...</span></span></span>
+In 2012, the ImageNet challenge asked systems to classify images among 1,000 object categories using a dataset containing more than a million training images. The benchmark was deliberately difficult and had become one of the most important ways of measuring progress in visual recognition.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.image-net.org/challenges/LSVRC/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: image-net.org">[image-net.org+2image-net.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">image-net.org</span><span class="citation-popover-snippet">Large Scale Visual Recognition ChallengeThe ImageNet Large Scale Visual Recognition Challenge (ILSVRC) evaluates algorithms for object de...</span></span></span>
 
-AlexNet achieved a top-5 error rate of 15.3%, while the second-place system achieved 26.2%. A gap of more than ten percentage points was extraordinary in a field where improvements were often incremental. The result immediately attracted [attention]({{ 'attention/' | relative_url }}) because it was not a narrow victory; it was a dramatic leap forward. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</span></span></span>
+AlexNet achieved a top-5 error rate of 15.3%, while the second-place system achieved 26.2%. A gap of more than ten percentage points was extraordinary in a field where improvements were often incremental. The result immediately attracted [attention]({{ 'attention/' | relative_url }}) because it was not a narrow victory; it was a dramatic leap forward.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</span></span></span>
 
-The deeper significance was psychological as much as technical. Many researchers had viewed deep neural networks as difficult to train, computationally expensive, and unlikely to outperform carefully engineered feature-based systems. AlexNet provided public evidence that those assumptions were becoming outdated. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pinecone.io/learn/series/image-search/imagenet/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pinecone.io">[Pinecone]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pinecone.io</span><span class="citation-popover-snippet">AlexNet and ImageNet: The Birth of Deep LearningAlexNet dominated the competition, and they did it with a deep-layered Convolutio...</span></span></span>
+The deeper significance was psychological as much as technical. Many researchers had viewed deep neural networks as difficult to train, computationally expensive, and unlikely to outperform carefully engineered feature-based systems. AlexNet provided public evidence that those assumptions were becoming outdated.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pinecone.io/learn/series/image-search/imagenet/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pinecone.io">[Pinecone]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pinecone.io</span><span class="citation-popover-snippet">AlexNet and ImageNet: The Birth of Deep LearningAlexNet dominated the competition, and they did it with a deep-layered Convolutio...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-Illustration-1-dark.svg" | relative_url }}" alt="Alex Net illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-Illustration-1-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -308,11 +308,11 @@ The deeper significance was psychological as much as technical. Many researchers
 
 To understand why the result mattered, it helps to understand what ImageNet represented.
 
-ImageNet was not a small laboratory dataset. It was a large-scale benchmark designed to test whether a system could recognise thousands of object types under realistic conditions. Images varied in lighting, angle, background clutter and object appearance. Success required more than detecting simple [edges]({{ 'edges/' | relative_url }}) or textures. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.image-net.org/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: image-net.org">[image-net.org+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">image-net.org</span><span class="citation-popover-snippet">ImageNetImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the...</span></span></span>
+ImageNet was not a small laboratory dataset. It was a large-scale benchmark designed to test whether a system could recognise thousands of object types under realistic conditions. Images varied in lighting, angle, background clutter and object appearance. Success required more than detecting simple [edges]({{ 'edges/' | relative_url }}) or textures.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.image-net.org/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: image-net.org">[image-net.org+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">image-net.org</span><span class="citation-popover-snippet">ImageNetImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the...</span></span></span>
 
-Before AlexNet, leading computer-vision systems often depended on hand-designed features such as SIFT descriptors, colour statistics and other engineered representations. Researchers spent considerable effort deciding which visual characteristics should be extracted before classification. Performance improvements typically came from better feature engineering and more sophisticated classifiers rather than from learning representations directly from raw image data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://image-net.org/challenges/LSVRC/2012/results.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: image-net.org">[image-net.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">image-net.org</span><span class="citation-popover-snippet">All results Task 1 (classification) Mixed selection from High-Level SVM scores and Baseline Scores...</span></span></span>
+Before AlexNet, leading computer-vision systems often depended on hand-designed features such as SIFT descriptors, colour statistics and other engineered representations. Researchers spent considerable effort deciding which visual characteristics should be extracted before classification. Performance improvements typically came from better feature engineering and more sophisticated classifiers rather than from learning representations directly from raw image data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://image-net.org/challenges/LSVRC/2012/results.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: image-net.org">[image-net.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">image-net.org</span><span class="citation-popover-snippet">All results Task 1 (classification) Mixed selection from High-Level SVM scores and Baseline Scores...</span></span></span>
 
-AlexNet challenged that workflow. Instead of relying primarily on manually designed visual descriptors, it learned representations automatically through multiple layers of computation. The benchmark therefore became a test not only of classification accuracy but also of whether representation learning could outperform traditional feature engineering at scale. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.neurips.cc">[NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.neurips.cc</span><span class="citation-popover-title">4824 imagenet classification with deep convolutional neural networks</span><span class="citation-popover-snippet">NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</span></span></span>
+AlexNet challenged that workflow. Instead of relying primarily on manually designed visual descriptors, it learned representations automatically through multiple layers of computation. The benchmark therefore became a test not only of classification accuracy but also of whether representation learning could outperform traditional feature engineering at scale.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.neurips.cc">[NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.neurips.cc</span><span class="citation-popover-title">4824 imagenet classification with deep convolutional neural networks</span><span class="citation-popover-snippet">NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/Nq3auVtvd9Q" title="[Classic] ImageNet Classification with Deep Convolutional Neural Networks (Paper Explained)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=Nq3auVtvd9Q" target="_blank" rel="noopener noreferrer">[Classic] ImageNet Classification with Deep Convolutional Neural Networks (Paper Explained)</a></p><p class="youtube-embed-meta">Channel: Yannic Kilcher &middot; Views: 49.4K &middot; Uploaded: July 2020 &middot; Length: 46 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=Nq3auVtvd9Q" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=Nq3auVtvd9Q">Open on YouTube</a></p></div></div></div>
@@ -323,24 +323,24 @@ One reason AlexNet became so influential is that it demonstrated the importance 
 
 ### Depth enabled richer visual representations
 
-The network contained multiple convolutional layers followed by fully connected layers. This depth allowed the model to build increasingly abstract representations from raw pixels. Lower layers could respond to simple visual structures, while deeper layers could combine those signals into more complex patterns useful for recognising objects. The authors argued that the network’s depth was essential to its performance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.neurips.cc">[NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.neurips.cc</span><span class="citation-popover-title">4824 imagenet classification with deep convolutional neural networks</span><span class="citation-popover-snippet">NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</span></span></span>
+The network contained multiple convolutional layers followed by fully connected layers. This depth allowed the model to build increasingly abstract representations from raw pixels. Lower layers could respond to simple visual structures, while deeper layers could combine those signals into more complex patterns useful for recognising objects. The authors argued that the network’s depth was essential to its performance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.neurips.cc">[NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.neurips.cc</span><span class="citation-popover-title">4824 imagenet classification with deep convolutional neural networks</span><span class="citation-popover-snippet">NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-Illustration-2-dark.svg" | relative_url }}" alt="Alex Net illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### GPUs made large-scale training practical
 
-Deep networks had existed before 2012, but training them on large datasets was often prohibitively slow. AlexNet exploited graphics processing units (GPUs), which were well suited to the highly parallel calculations required by neural networks. The model was split across two GPUs because a single device could not hold the entire network. This hardware strategy dramatically reduced training time and helped demonstrate that large deep networks could be trained on real-world datasets. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2neurohive.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Alex Net</span><span class="citation-popover-snippet">Alex Net</span></span></span>
+Deep networks had existed before 2012, but training them on large datasets was often prohibitively slow. AlexNet exploited graphics processing units (GPUs), which were well suited to the highly parallel calculations required by neural networks. The model was split across two GPUs because a single device could not hold the entire network. This hardware strategy dramatically reduced training time and helped demonstrate that large deep networks could be trained on real-world datasets.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2neurohive.io]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Alex Net</span><span class="citation-popover-snippet">Alex Net</span></span></span>
 
 ### Dropout helped control overfitting
 
-A large model trained on over a million images still faced the risk of memorising patterns that would not generalise to new data. AlexNet used dropout, a regularisation technique that temporarily removes random units during training. This reduced co-dependence between neurons and improved generalisation. Combined with data augmentation, dropout helped make a very large network practical rather than merely powerful. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://helios2.mi.parisdescartes.fr/~lomn/Cours/RNVO/AlexNet12.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helios2.mi.parisdescartes.fr">[Helios 2+2NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helios2.mi.parisdescartes.fr</span><span class="citation-popover-title">Alex Net12</span><span class="citation-popover-snippet">Helios 2ImageNet classification with deep convolutional neural networksby A Krizhevsky · 2017 · Cited by 43703 — To reduce overfitting in...</span></span></span>
+A large model trained on over a million images still faced the risk of memorising patterns that would not generalise to new data. AlexNet used dropout, a regularisation technique that temporarily removes random units during training. This reduced co-dependence between neurons and improved generalisation. Combined with data augmentation, dropout helped make a very large network practical rather than merely powerful.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://helios2.mi.parisdescartes.fr/~lomn/Cours/RNVO/AlexNet12.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helios2.mi.parisdescartes.fr">[Helios 2+2NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helios2.mi.parisdescartes.fr</span><span class="citation-popover-title">Alex Net12</span><span class="citation-popover-snippet">Helios 2ImageNet classification with deep convolutional neural networksby A Krizhevsky · 2017 · Cited by 43703 — To reduce overfitting in...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/c_u4AHNjOpk" title="AlexNet and ImageNet Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=c_u4AHNjOpk" target="_blank" rel="noopener noreferrer">AlexNet and ImageNet Explained</a></p><p class="youtube-embed-meta">Channel: James Briggs</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=c_u4AHNjOpk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=c_u4AHNjOpk">Open on YouTube</a></p></div></div></div>
 
 ### The combination mattered more than any single ingredient
 
-None of these components alone explains the breakthrough. Depth provided representational power, GPUs supplied the necessary computation, and dropout helped the model generalise. AlexNet became a landmark because it showed that these elements could work together successfully on a benchmark large enough to convince sceptics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.neurips.cc">[NeurIPS Proceedings+2Dive into Deep Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.neurips.cc</span><span class="citation-popover-title">4824 imagenet classification with deep convolutional neural networks</span><span class="citation-popover-snippet">NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</span></span></span>
+None of these components alone explains the breakthrough. Depth provided representational power, GPUs supplied the necessary computation, and dropout helped the model generalise. AlexNet became a landmark because it showed that these elements could work together successfully on a benchmark large enough to convince sceptics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.neurips.cc">[NeurIPS Proceedings+2Dive into Deep Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.neurips.cc</span><span class="citation-popover-title">4824 imagenet classification with deep convolutional neural networks</span><span class="citation-popover-snippet">NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/UZDiGooFs54" title="The moment we stopped understanding AI [AlexNet]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=UZDiGooFs54" target="_blank" rel="noopener noreferrer">The moment we stopped understanding AI [AlexNet]</a></p><p class="youtube-embed-meta">Channel: Welch Labs &middot; Views: 2.5M &middot; Uploaded: July 2024 &middot; Length: 17 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=UZDiGooFs54" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=UZDiGooFs54">Open on YouTube</a></p></div></div></div>
@@ -349,211 +349,211 @@ None of these components alone explains the breakthrough. Depth provided represe
 
 AlexNet's success proved several important points.
 
-First, it demonstrated that deep neural networks could achieve state-of-the-art performance on a major real-world benchmark when sufficient data and computing power were available. Second, it showed that learned representations could outperform many hand-crafted feature pipelines. Third, it convinced researchers and companies that investing in deep learning was likely to produce substantial returns. The years immediately following 2012 saw an explosion of research into deeper and more capable neural-network architectures. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</span></span></span>
+First, it demonstrated that deep neural networks could achieve state-of-the-art performance on a major real-world benchmark when sufficient data and computing power were available. Second, it showed that learned representations could outperform many hand-crafted feature pipelines. Third, it convinced researchers and companies that investing in deep learning was likely to produce substantial returns. The years immediately following 2012 saw an explosion of research into deeper and more capable neural-network architectures.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</span></span></span>
 
 However, the breakthrough did not prove that deep learning had solved vision, let alone intelligence.
 
-AlexNet was highly specialised for image classification. It could recognise patterns in labelled images but did not understand scenes in a human sense, reason about the world, or transfer knowledge broadly across tasks. Its success also depended on large quantities of labelled data and significant computational resources. The result showed that deep learning was a powerful approach, not that it had eliminated all limitations of machine perception. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.neurips.cc">[NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.neurips.cc</span><span class="citation-popover-title">4824 imagenet classification with deep convolutional neural networks</span><span class="citation-popover-snippet">NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</span></span></span>
+AlexNet was highly specialised for image classification. It could recognise patterns in labelled images but did not understand scenes in a human sense, reason about the world, or transfer knowledge broadly across tasks. Its success also depended on large quantities of labelled data and significant computational resources. The result showed that deep learning was a powerful approach, not that it had eliminated all limitations of machine perception.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.neurips.cc">[NeurIPS Proceedings]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.neurips.cc</span><span class="citation-popover-title">4824 imagenet classification with deep convolutional neural networks</span><span class="citation-popover-snippet">NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</span></span></span>
 
-A common misunderstanding is that AlexNet instantly created modern AI. In reality, it served as a turning point. It provided a compelling demonstration that persuaded much of the research community to revisit and expand ideas that had existed for years. The subsequent progress of deep learning came from many later advances, but AlexNet supplied the public proof that large-scale representation learning could deliver results that previous approaches struggled to match. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2ACM Digital Library]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Alex Net</span><span class="citation-popover-snippet">Alex Net</span></span></span>
+A common misunderstanding is that AlexNet instantly created modern AI. In reality, it served as a turning point. It provided a compelling demonstration that persuaded much of the research community to revisit and expand ideas that had existed for years. The subsequent progress of deep learning came from many later advances, but AlexNet supplied the public proof that large-scale representation learning could deliver results that previous approaches struggled to match.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2ACM Digital Library]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Alex Net</span><span class="citation-popover-snippet">Alex Net</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-Illustration-3-dark.svg" | relative_url }}" alt="Alex Net illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_alexnet_image_7041cc-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Why the result became visible beyond computer vision
 
-Many research papers improve [benchmarks]({{ 'benchmarks/' | relative_url }}), yet few become historical milestones. AlexNet became visible because its victory was easy to understand. A respected competition existed, a measurable score was published, and the winning system achieved a surprisingly large improvement. The result created a clear before-and-after moment that could be recognised by researchers, technology companies and eventually the broader public. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</span></span></span>
+Many research papers improve [benchmarks]({{ 'benchmarks/' | relative_url }}), yet few become historical milestones. AlexNet became visible because its victory was easy to understand. A respected competition existed, a measurable score was published, and the winning system achieved a surprisingly large improvement. The result created a clear before-and-after moment that could be recognised by researchers, technology companies and eventually the broader public.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dl.acm.org">[ACM Digital Library+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dl.acm.org</span><span class="citation-popover-snippet">ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</span></span></span>
 
-In that sense, AlexNet's importance lies not only in the architecture itself but in what it revealed. It transformed deep learning from a promising research direction into a demonstrated practical method. For many observers, 2012 was the moment when deep learning stopped being a niche idea and became the central story of modern artificial intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2viso.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Alex Net</span><span class="citation-popover-snippet">Alex Net</span></span></span>
+In that sense, AlexNet's importance lies not only in the architecture itself but in what it revealed. It transformed deep learning from a promising research direction into a demonstrated practical method. For many observers, 2012 was the moment when deep learning stopped being a niche idea and became the central story of modern artificial intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2viso.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Alex Net</span><span class="citation-popover-snippet">Alex Net</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why did Alex Net change AI history?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why did Alex Net change AI history?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Provides approachable explanations of deep-learning architectures and layers.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides approachable explanations of deep-learning architectures and layers.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning with Python on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wzozEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning with Python" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning with Python">Deep Learning with Python</a>
-        </h4>
-        <p class="fr-book-author">By Francois Chollet</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning with Python on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wzozEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning with Python" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning with Python">Deep Learning with Python</a>
+</h4>
+<p class="fr-book-author">By Francois Chollet</p>
         
-        <p class="fr-book-desc">Explains how layered neural networks learn representations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how layered neural networks learn representations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+with+Python+by+Francois+Chollet&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Directly explains neural networks, layers, representation learning, and training.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Directly explains neural networks, layers, representation learning, and training.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Computer+Vision+by+Richard+Szeliski&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Computer Vision on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=bXzAlkODwa8C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Computer Vision" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Computer+Vision+by+Richard+Szeliski&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Computer Vision">Computer Vision</a>
-        </h4>
-        <p class="fr-book-author">By Richard Szeliski</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Computer+Vision+by+Richard+Szeliski&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Computer Vision on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=bXzAlkODwa8C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Computer Vision" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Computer+Vision+by+Richard+Szeliski&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Computer Vision">Computer Vision</a>
+</h4>
+<p class="fr-book-author">By Richard Szeliski</p>
         
-        <p class="fr-book-desc">Provides context on object recognition and visual feature hierarchies.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Computer+Vision+by+Richard+Szeliski&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context on object recognition and visual feature hierarchies.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Computer+Vision+by+Richard+Szeliski&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+with+Python&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning with Python</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning+with+Python&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning with Python</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Machine Learning T shirt I Heart Machine Learning Tee"><img src="{{ '/assets/images/marketplace-covers/8a2fa5c22d0a63287e93.jpg' | relative_url }}" alt="Listing image for I Love Machine Learning T shirt I Heart Machine Learning Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Machine Learning T shirt I Heart Machine Learning Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Machine Learning T shirt I Heart Machine Learning Tee"><img src="{{ '/assets/images/marketplace-covers/8a2fa5c22d0a63287e93.jpg' | relative_url }}" alt="Listing image for I Love Machine Learning T shirt I Heart Machine Learning Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Machine Learning T shirt I Heart Machine Learning Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm and Study Machine Learning T shirt Funny Tee"><img src="{{ '/assets/images/marketplace-covers/5cf6b015d0c00883f639.jpg' | relative_url }}" alt="Listing image for Keep Calm and Study Machine Learning T shirt Funny Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Keep Calm and Study Machine Learning T shirt Funny Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm and Study Machine Learning T shirt Funny Tee"><img src="{{ '/assets/images/marketplace-covers/5cf6b015d0c00883f639.jpg' | relative_url }}" alt="Listing image for Keep Calm and Study Machine Learning T shirt Funny Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Keep Calm and Study Machine Learning T shirt Funny Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Got Machine Learning? T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c488c01aeb763732238d.jpg' | relative_url }}" alt="Listing image for Got Machine Learning? T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Got Machine Learning? T shirt Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Got Machine Learning? T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c488c01aeb763732238d.jpg' | relative_url }}" alt="Listing image for Got Machine Learning? T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Got Machine Learning? T shirt Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee"><img src="{{ '/assets/images/marketplace-covers/cc76046aa1cf333f1a8e.jpg' | relative_url }}" alt="Listing image for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee"><img src="{{ '/assets/images/marketplace-covers/cc76046aa1cf333f1a8e.jpg' | relative_url }}" alt="Listing image for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="alex-net-why-did-alex-net-change-ai-history-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -569,7 +569,7 @@ In that sense, AlexNet's importance lies not only in the architecture itself but
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -589,7 +589,7 @@ In that sense, AlexNet's importance lies not only in the architecture itself but
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -621,7 +621,7 @@ In that sense, AlexNet's importance lies not only in the architecture itself but
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -673,7 +673,7 @@ In that sense, AlexNet's importance lies not only in the architecture itself but
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -718,7 +718,7 @@ In that sense, AlexNet's importance lies not only in the architecture itself but
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -759,135 +759,135 @@ In that sense, AlexNet's importance lies not only in the architecture itself but
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: dl.acm.org  
-   Link: <a href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.5555/2999134.2999257</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</p></details>
+   Link:<a href="https://dl.acm.org/doi/10.5555/2999134.2999257" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.5555/2999134.2999257</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryImageNet classification with deep convolutional neural...by A Krizhevsky · 2012 · Cited by 156222 — We also entered a...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: proceedings.neurips.cc  
    Title: 4824 imagenet classification with deep convolutional neural networks  
-   Link: <a href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</p></details>
+   Link:<a href="https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS ProceedingsImageNet Classification with Deep Convolutional Neural...by A Krizhevsky · Cited by 154940 — We trained a large, deep...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1409.0575" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1409.0575</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ImageNet Large Scale Visual Recognition Challengeby O Russakovsky · 2014 · Cited by 55542 — The ImageNet Large Scale Visual Recognit...</p></details>
+   Link:<a href="https://arxiv.org/abs/1409.0575" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1409.0575</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ImageNet Large Scale Visual Recognition Challengeby O Russakovsky · 2014 · Cited by 55542 — The ImageNet Large Scale Visual Recognit...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: image-net.org  
-   Link: <a href="https://www.image-net.org/challenges/LSVRC/" target="_blank" rel="noopener noreferrer nofollow">https://www.image-net.org/challenges/LSVRC/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Large Scale Visual Recognition ChallengeThe ImageNet Large Scale Visual Recognition Challenge (ILSVRC) evaluates algorithms for object de...</p></details>
+   Link:<a href="https://www.image-net.org/challenges/LSVRC/" target="_blank" rel="noopener noreferrer nofollow">https://www.image-net.org/challenges/LSVRC/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Large Scale Visual Recognition ChallengeThe ImageNet Large Scale Visual Recognition Challenge (ILSVRC) evaluates algorithms for object de...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: image-net.org  
-   Link: <a href="https://www.image-net.org/challenges/LSVRC/2012/" target="_blank" rel="noopener noreferrer nofollow">https://www.image-net.org/challenges/LSVRC/2012/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ImageNet Large Scale Visual Recognition Challenge 2012The goal of this competition is to estimate the content of photographs for the purp...</p></details>
+   Link:<a href="https://www.image-net.org/challenges/LSVRC/2012/" target="_blank" rel="noopener noreferrer nofollow">https://www.image-net.org/challenges/LSVRC/2012/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ImageNet Large Scale Visual Recognition Challenge 2012The goal of this competition is to estimate the content of photographs for the purp...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: image-net.org  
-   Link: <a href="https://www.image-net.org/" target="_blank" rel="noopener noreferrer nofollow">https://www.image-net.org/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ImageNetImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the...</p></details>
+   Link:<a href="https://www.image-net.org/" target="_blank" rel="noopener noreferrer nofollow">https://www.image-net.org/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ImageNetImageNet is an image database organized according to the WordNet hierarchy (currently only the nouns), in which each node of the...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: Wikipedia  
    Title: Alex Net  
-   Link: <a href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/AlexNet</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/AlexNet" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/AlexNet</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: pinecone.io  
-   Link: <a href="https://www.pinecone.io/learn/series/image-search/imagenet/" target="_blank" rel="noopener noreferrer nofollow">https://www.pinecone.io/learn/series/image-search/imagenet/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AlexNet and ImageNet: The Birth of Deep LearningAlexNet dominated the competition, and they did it with a deep-layered Convolutio...</p></details>
+   Link:<a href="https://www.pinecone.io/learn/series/image-search/imagenet/" target="_blank" rel="noopener noreferrer nofollow">https://www.pinecone.io/learn/series/image-search/imagenet/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AlexNet and ImageNet: The Birth of Deep LearningAlexNet dominated the competition, and they did it with a deep-layered Convolutio...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: image-net.org  
-   Link: <a href="https://www.image-net.org/challenges/LSVRC/index.php" target="_blank" rel="noopener noreferrer nofollow">https://www.image-net.org/challenges/LSVRC/index.php</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>One high level...Read more...</p></details>
+   Link:<a href="https://www.image-net.org/challenges/LSVRC/index.php" target="_blank" rel="noopener noreferrer nofollow">https://www.image-net.org/challenges/LSVRC/index.php</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>One high level...Read more...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: image-net.org  
-   Link: <a href="https://image-net.org/challenges/LSVRC/2012/results.html" target="_blank" rel="noopener noreferrer nofollow">https://image-net.org/challenges/LSVRC/2012/results.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>All results Task 1 (classification) Mixed selection from High-Level SVM scores and Baseline Scores...</p></details>
+   Link:<a href="https://image-net.org/challenges/LSVRC/2012/results.html" target="_blank" rel="noopener noreferrer nofollow">https://image-net.org/challenges/LSVRC/2012/results.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>All results Task 1 (classification) Mixed selection from High-Level SVM scores and Baseline Scores...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: neurohive.io  
    Title: Alex Net  
-   Link: <a href="https://neurohive.io/en/popular-networks/alexnet-imagenet-classification-with-deep-convolutional-neural-networks/" target="_blank" rel="noopener noreferrer nofollow">https://neurohive.io/en/popular-networks/alexnet-imagenet-classification-with-deep-convolutional-neural-networks/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AlexNet - ImageNet Classification with CNNOct 29, 2018 — The results show that a large, deep convolutional neural network is capable of a...</p></details>
+   Link:<a href="https://neurohive.io/en/popular-networks/alexnet-imagenet-classification-with-deep-convolutional-neural-networks/" target="_blank" rel="noopener noreferrer nofollow">https://neurohive.io/en/popular-networks/alexnet-imagenet-classification-with-deep-convolutional-neural-networks/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AlexNet - ImageNet Classification with CNNOct 29, 2018 — The results show that a large, deep convolutional neural network is capable of a...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: viso.ai  
-   Link: <a href="https://viso.ai/deep-learning/alexnet/" target="_blank" rel="noopener noreferrer nofollow">https://viso.ai/deep-learning/alexnet/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Revolutionary Deep Learning Architecture29 Apr 2024 — AlexNet is an Image Classification model that transformed deep learning. It was i...</p></details>
+   Link:<a href="https://viso.ai/deep-learning/alexnet/" target="_blank" rel="noopener noreferrer nofollow">https://viso.ai/deep-learning/alexnet/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Revolutionary Deep Learning Architecture29 Apr 2024 — AlexNet is an Image Classification model that transformed deep learning. It was i...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: helios2.mi.parisdescartes.fr  
    Title: Alex Net12  
-   Link: <a href="https://helios2.mi.parisdescartes.fr/~lomn/Cours/RNVO/AlexNet12.pdf" target="_blank" rel="noopener noreferrer nofollow">https://helios2.mi.parisdescartes.fr/~lomn/Cours/RNVO/AlexNet12.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Helios 2ImageNet classification with deep convolutional neural networksby A Krizhevsky · 2017 · Cited by 43703 — To reduce [overfitting](&amp;#123;&amp;#123; &#x27;overfitting/&#x27; | relative_url &amp;#125;&amp;#125;) in...</p></details>
+   Link:<a href="https://helios2.mi.parisdescartes.fr/~lomn/Cours/RNVO/AlexNet12.pdf" target="_blank" rel="noopener noreferrer nofollow">https://helios2.mi.parisdescartes.fr/~lomn/Cours/RNVO/AlexNet12.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Helios 2ImageNet classification with deep convolutional neural networksby A Krizhevsky · 2017 · Cited by 43703 — To reduce [overfitting](&amp;#123;&amp;#123; &#x27;overfitting/&#x27; | relative_url &amp;#125;&amp;#125;) in...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: d2l.ai  
    Title: Dive into Deep Learning8.1  
-   Link: <a href="https://d2l.ai/chapter_convolutional-modern/alexnet.html" target="_blank" rel="noopener noreferrer nofollow">https://d2l.ai/chapter_convolutional-modern/alexnet.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Convolutional Neural Networks (AlexNet)AlexNet&#x27;s structure bears a striking resemblance to LeNet, with a number of critical improvem...</p></details>
+   Link:<a href="https://d2l.ai/chapter_convolutional-modern/alexnet.html" target="_blank" rel="noopener noreferrer nofollow">https://d2l.ai/chapter_convolutional-modern/alexnet.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Convolutional Neural Networks (AlexNet)AlexNet&#x27;s structure bears a striking resemblance to LeNet, with a number of critical improvem...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: mohitjain.me  
-   Link: <a href="https://mohitjain.me/2018/06/06/alexnet/" target="_blank" rel="noopener noreferrer nofollow">https://mohitjain.me/2018/06/06/alexnet/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Paper Explanation: ImageNet Classification with Deep...Jun 6, 2018 — AlexNet famously won the 2012 ImageNet LSVRC-2012 competition by a...</p></details>
+   Link:<a href="https://mohitjain.me/2018/06/06/alexnet/" target="_blank" rel="noopener noreferrer nofollow">https://mohitjain.me/2018/06/06/alexnet/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Paper Explanation: ImageNet Classification with Deep...Jun 6, 2018 — AlexNet famously won the 2012 ImageNet LSVRC-2012 competition by a...</p></details>
 
 ### Additional References
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40abhishekjainindore24/deep-learning-architecture-2-alexnet-8018f7640161" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40abhishekjainindore24/deep-learning-architecture-2-alexnet-8018f7640161</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Learning Architecture 2: Alexnet | by Abhishek JainAlexNet consists of eight layers: five convolutional layers followed by three fu...</p></details>
+   Link:<a href="https://medium.com/%40abhishekjainindore24/deep-learning-architecture-2-alexnet-8018f7640161" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40abhishekjainindore24/deep-learning-architecture-2-alexnet-8018f7640161</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Learning Architecture 2: Alexnet | by Abhishek JainAlexNet consists of eight layers: five convolutional layers followed by three fu...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40alriffaud/imagenet-classification-with-deep-convolutional-neural-networks-a-detailed-analysis-of-krizhevsky-d41d6fe418fd" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40alriffaud/imagenet-classification-with-deep-convolutional-neural-networks-a-detailed-analysis-of-krizhevsky-d41d6fe418fd</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ImageNet Classification with Deep Convolutional Neural...This implementation captures the core of AlexNet&#x27;s architecture, including conv...</p></details>
+   Link:<a href="https://medium.com/%40alriffaud/imagenet-classification-with-deep-convolutional-neural-networks-a-detailed-analysis-of-krizhevsky-d41d6fe418fd" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40alriffaud/imagenet-classification-with-deep-convolutional-neural-networks-a-detailed-analysis-of-krizhevsky-d41d6fe418fd</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ImageNet Classification with Deep Convolutional Neural...This implementation captures the core of AlexNet&#x27;s architecture, including conv...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: slideshare.net  
-   Link: <a href="https://www.slideshare.net/slideshow/alexnetimagenet-classification-with-deep-convolutional-neural-networks-91159705/91159705" target="_blank" rel="noopener noreferrer nofollow">https://www.slideshare.net/slideshow/alexnetimagenet-classification-with-deep-convolutional-neural-networks-91159705/91159705</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AlexNet(ImageNet Classification with Deep Convolutional...The document details the architecture and results of AlexNet, a convolutional...</p></details>
+   Link:<a href="https://www.slideshare.net/slideshow/alexnetimagenet-classification-with-deep-convolutional-neural-networks-91159705/91159705" target="_blank" rel="noopener noreferrer nofollow">https://www.slideshare.net/slideshow/alexnetimagenet-classification-with-deep-convolutional-neural-networks-91159705/91159705</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AlexNet(ImageNet Classification with Deep Convolutional...The document details the architecture and results of AlexNet, a convolutional...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40arberzylyftari123/the-paper-that-changed-ai-forever-alexnet-and-the-deep-learning-revolution-f5643ec995af" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40arberzylyftari123/the-paper-that-changed-ai-forever-alexnet-and-the-deep-learning-revolution-f5643ec995af</a>  
+   Link:<a href="https://medium.com/%40arberzylyftari123/the-paper-that-changed-ai-forever-alexnet-and-the-deep-learning-revolution-f5643ec995af" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40arberzylyftari123/the-paper-that-changed-ai-forever-alexnet-and-the-deep-learning-revolution-f5643ec995af</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: karan3-zoh.medium.com  
-   Link: <a href="https://karan3-zoh.medium.com/paper-summary-imagenet-classification-with-deep-convolutional-neural-networks-41ce6c65960" target="_blank" rel="noopener noreferrer nofollow">https://karan3-zoh.medium.com/paper-summary-imagenet-classification-with-deep-convolutional-neural-networks-41ce6c65960</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Architecture Paper Summary | Medium - Karan UppalThis is a revolutionary paper in the find of Deep Learning that introduces the AlexNet m...</p></details>
+   Link:<a href="https://karan3-zoh.medium.com/paper-summary-imagenet-classification-with-deep-convolutional-neural-networks-41ce6c65960" target="_blank" rel="noopener noreferrer nofollow">https://karan3-zoh.medium.com/paper-summary-imagenet-classification-with-deep-convolutional-neural-networks-41ce6c65960</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Architecture Paper Summary | Medium - Karan UppalThis is a revolutionary paper in the find of Deep Learning that introduces the AlexNet m...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: itaimle.com  
-   Link: <a href="https://www.itaimle.com/index.php/ijaiml/article/download/201/74" target="_blank" rel="noopener noreferrer nofollow">https://www.itaimle.com/index.php/ijaiml/article/download/201/74</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>p ImageNet Classification with Deep Conby R Sandeep · 2012 — In the 2012 ImageNet Large Scale Visual Recognition Challenge (ILSVRC)...</p></details>
+   Link:<a href="https://www.itaimle.com/index.php/ijaiml/article/download/201/74" target="_blank" rel="noopener noreferrer nofollow">https://www.itaimle.com/index.php/ijaiml/article/download/201/74</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>p ImageNet Classification with Deep Conby R Sandeep · 2012 — In the 2012 ImageNet Large Scale Visual Recognition Challenge (ILSVRC)...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: medium.com  
    Title: [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) alexnet the 2012 breakthrough that changed ai forever 7c365cf76969  
-   Link: <a href="https://medium.com/%40shivsingh483/understanding-alexnet-the-2012-breakthrough-that-changed-ai-forever-7c365cf76969" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40shivsingh483/understanding-alexnet-the-2012-breakthrough-that-changed-ai-forever-7c365cf76969</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding AlexNet: The 2012 Breakthrough That...AlexNet&#x27;s 15.3% top-5 error rate was unprecedented, drastically outperforming previo...</p></details>
+   Link:<a href="https://medium.com/%40shivsingh483/understanding-alexnet-the-2012-breakthrough-that-changed-ai-forever-7c365cf76969" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40shivsingh483/understanding-alexnet-the-2012-breakthrough-that-changed-ai-forever-7c365cf76969</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding AlexNet: The 2012 Breakthrough That...AlexNet&#x27;s 15.3% top-5 error rate was unprecedented, drastically outperforming previo...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/design-bootcamp/summary-alexnet-caffenet-winner-of-ilsvrc-2012-image-classification-c9ada890663" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/design-bootcamp/summary-alexnet-caffenet-winner-of-ilsvrc-2012-image-classification-c9ada890663</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Summary: AlexNet, CaffeNet — Winner of ILSVRC 2012...ILSVRC (ImageNet Large Scale Visual Recognition Competition), an image classificati...</p></details>
+   Link:<a href="https://medium.com/design-bootcamp/summary-alexnet-caffenet-winner-of-ilsvrc-2012-image-classification-c9ada890663" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/design-bootcamp/summary-alexnet-caffenet-winner-of-ilsvrc-2012-image-classification-c9ada890663</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Summary: AlexNet, CaffeNet — Winner of ILSVRC 2012...ILSVRC (ImageNet Large Scale Visual Recognition Competition), an image classificati...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: tomshardware.com  
    Title: Tom's Hardware Two GTX 580s in SLI are [responsible](&#123;&#123; 'responsible-ai/' | relative_url &#125;&#125;) for the AI we have today  
-   Link: <a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/two-gtx-580s-in-sli-are-responsible-for-the-ai-we-have-today-nvidias-huang-revealed-that-the-invention-of-deep-learning-began-with-two-flagship-fermi-gpus-in-2012" target="_blank" rel="noopener noreferrer nofollow">https://www.tomshardware.com/tech-industry/artificial-intelligence/two-gtx-580s-in-sli-are-responsible-for-the-ai-we-have-today-nvidias-huang-revealed-that-the-invention-of-deep-learning-began-with-two-flagship-fermi-gpus-in-2012</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers at the University of Toronto, namely Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, developed AlexNet—an eight-layer c...</p></details>
+   Link:<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/two-gtx-580s-in-sli-are-responsible-for-the-ai-we-have-today-nvidias-huang-revealed-that-the-invention-of-deep-learning-began-with-two-flagship-fermi-gpus-in-2012" target="_blank" rel="noopener noreferrer nofollow">https://www.tomshardware.com/tech-industry/artificial-intelligence/two-gtx-580s-in-sli-are-responsible-for-the-ai-we-have-today-nvidias-huang-revealed-that-the-invention-of-deep-learning-began-with-two-flagship-fermi-gpus-in-2012</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Researchers at the University of Toronto, namely Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, developed AlexNet—an eight-layer c...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: researchgate.net  
    Title: 385379683 Deep Learning in Image Recognition A New Era for Computer Vision  
-   Link: <a href="https://www.researchgate.net/publication/385379683_Deep_Learning_in_Image_Recognition_A_New_Era_for_Computer_Vision" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/385379683_Deep_Learning_in_Image_Recognition_A_New_Era_for_Computer_Vision</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Learning in Image Recognition: A New Era for...13 Nov 2024 — This paper explores the advancements in image recognition, spotlightin...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/385379683_Deep_Learning_in_Image_Recognition_A_New_Era_for_Computer_Vision" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/385379683_Deep_Learning_in_Image_Recognition_A_New_Era_for_Computer_Vision</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Learning in Image Recognition: A New Era for...13 Nov 2024 — This paper explores the advancements in image recognition, spotlightin...</p></details>

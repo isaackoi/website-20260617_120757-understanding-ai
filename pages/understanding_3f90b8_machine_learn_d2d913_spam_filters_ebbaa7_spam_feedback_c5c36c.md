@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebb
 
 ## Introduction
 
-[Spam filters]({{ 'spam-filters/' | relative_url }}) are a useful example of why artificial intelligence often learns from examples rather than relying on fixed rules. Even a well-trained filter becomes less effective if its training data stops changing while spammers continue inventing new tricks. User feedback helps solve this problem. Every time someone marks a message as spam or rescues a legitimate message from the spam folder, they create a new labelled example. Those labels give filtering systems fresh evidence about what people currently consider unwanted or acceptable email. Large email providers explicitly use user feedback as part of their [machine-learning]({{ 'machine-learning/' | relative_url }}) systems, allowing filters to adapt as spam campaigns, phishing tactics, and marketing practices evolve. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
+[Spam filters]({{ 'spam-filters/' | relative_url }}) are a useful example of why artificial intelligence often learns from examples rather than relying on fixed rules. Even a well-trained filter becomes less effective if its training data stops changing while spammers continue inventing new tricks. User feedback helps solve this problem. Every time someone marks a message as spam or rescues a legitimate message from the spam folder, they create a new labelled example. Those labels give filtering systems fresh evidence about what people currently consider unwanted or acceptable email. Large email providers explicitly use user feedback as part of their [machine-learning]({{ 'machine-learning/' | relative_url }}) systems, allowing filters to adapt as spam campaigns, phishing tactics, and marketing practices evolve.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_spam_feedback_c5c36c-Illustration-1-dark.svg" | relative_url }}" alt="User Feedback illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_spam_feedback_c5c36c-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_spam_feedback_c5c36c-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,7 +277,7 @@ image: /assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebb
 
 A machine-learning spam filter needs examples of both spam and legitimate messages. User actions provide a continuous stream of those examples.
 
-When a user clicks “Report spam”, the system gains a message that has been labelled as unwanted by a human. When a user clicks “Not spam” on a message that was incorrectly filtered, the system gains a labelled example in the opposite direction. Gmail states that machine learning uses user feedback and user input as part of its spam-filtering process, and that marking incorrectly classified messages as “Not spam” helps the system better understand preferences and recognise spam more accurately. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
+When a user clicks “Report spam”, the system gains a message that has been labelled as unwanted by a human. When a user clicks “Not spam” on a message that was incorrectly filtered, the system gains a labelled example in the opposite direction. Gmail states that machine learning uses user feedback and user input as part of its spam-filtering process, and that marking incorrectly classified messages as “Not spam” helps the system better understand preferences and recognise spam more accurately.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
 
 In practice, providers rarely treat a single report as absolute proof. Instead, they aggregate signals from many users. A single complaint might reflect an individual preference, but thousands of similar complaints can indicate that a new spam campaign is spreading.
 
@@ -294,7 +294,7 @@ The feedback process typically works as a cycle:
 
 </div>
 
-This continual flow of examples helps the filter keep pace with changing behaviour rather than depending entirely on historical training data. Google Workspace+2Harvard Business School AI Institute <span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[workspace.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
+This continual flow of examples helps the filter keep pace with changing behaviour rather than depending entirely on historical training data. Google Workspace+2Harvard Business School AI Institute<span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[workspace.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/JB_TuycOJnM" title="How Machine Learning Is Used To Filter Spam Emails | LSE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=JB_TuycOJnM" target="_blank" rel="noopener noreferrer">How Machine Learning Is Used To Filter Spam Emails | LSE</a></p><p class="youtube-embed-meta">Channel: GetSmarter</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=JB_TuycOJnM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=JB_TuycOJnM">Open on YouTube</a></p></div></div></div>
@@ -303,11 +303,11 @@ This continual flow of examples helps the filter keep pace with changing behavio
 
 Spam is not a fixed category. Attackers constantly alter wording, formatting, links, domains, and delivery methods to avoid detection.
 
-A rule-based filter may block a phrase today, only for attackers to replace it tomorrow with a slightly altered version. Machine-learning systems are more resilient because they can learn broader patterns, but they still require recent examples to recognise emerging tactics. Research on email spam filtering consistently describes this as a continuing “cat-and-mouse” struggle between spammers and defenders. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1606.01042" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Machine Learning for E-mail Spam Filtering: Review,Techniques and Trends</span><span class="citation-popover-snippet">arXiv Machine Learning for E-mail Spam Filtering: Review,Techniques and Trends</span></span></span>
+A rule-based filter may block a phrase today, only for attackers to replace it tomorrow with a slightly altered version. Machine-learning systems are more resilient because they can learn broader patterns, but they still require recent examples to recognise emerging tactics. Research on email spam filtering consistently describes this as a continuing “cat-and-mouse” struggle between spammers and defenders.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1606.01042" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Machine Learning for E-mail Spam Filtering: Review,Techniques and Trends</span><span class="citation-popover-snippet">arXiv Machine Learning for E-mail Spam Filtering: Review,Techniques and Trends</span></span></span>
 
 User feedback is especially valuable when entirely new campaigns appear. Consider a phishing campaign that uses unfamiliar wording, newly registered websites, or novel formatting. The filter may initially have little evidence about it. Once users begin reporting those messages, the system can connect the reports to common characteristics and adjust its future [predictions]({{ 'predictions/' | relative_url }}).
 
-Google has explained that Gmail’s spam filtering uses machine learning powered by user feedback, combining user input with signals such as sender reputation, domains, and authentication data. This combination allows the system to adapt when attackers shift tactics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
+Google has explained that Gmail’s spam filtering uses machine learning powered by user feedback, combining user input with signals such as sender reputation, domains, and authentication data. This combination allows the system to adapt when attackers shift tactics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
 
 A useful way to think about the process is that user feedback keeps the training dataset current. Without new labels, the model would gradually become a historical snapshot of yesterday’s spam rather than a defence against today’s attacks.
 
@@ -322,7 +322,7 @@ Spam filters must balance two competing goals:
 
 The second goal is often harder than it appears. An aggressive filter can block more unwanted mail, but it can also hide important messages from employers, banks, schools, charities, or friends.
 
-When users rescue a message from the spam folder, they provide evidence that the filter made a false positive error. Google notes that manually marking messages as “Not spam” helps Gmail learn and improve future [decisions]({{ 'decisions/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://knowledge.workspace.google.com/admin/support/troubleshooting/gmail-marks-valid-email-messages-as-spam" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: knowledge.workspace.google.com">[Google Workspace Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">knowledge.workspace.google.com</span><span class="citation-popover-snippet">Gmail uses machine learning to better understand your preferences, and to recognize spam. When you manually...Read more...</span></span></span>
+When users rescue a message from the spam folder, they provide evidence that the filter made a false positive error. Google notes that manually marking messages as “Not spam” helps Gmail learn and improve future [decisions]({{ 'decisions/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://knowledge.workspace.google.com/admin/support/troubleshooting/gmail-marks-valid-email-messages-as-spam" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: knowledge.workspace.google.com">[Google Workspace Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">knowledge.workspace.google.com</span><span class="citation-popover-snippet">Gmail uses machine learning to better understand your preferences, and to recognize spam. When you manually...Read more...</span></span></span>
 
 This feedback helps the system recognise situations where apparent spam signals are actually associated with legitimate communication. Over time, the model learns a more accurate boundary between wanted and unwanted messages.
 
@@ -332,7 +332,7 @@ This feedback helps the system recognise situations where apparent spam signals 
 
 A challenge for spam filtering is that preferences differ between users.
 
-Some people welcome promotional offers, newsletters, or fundraising emails. Others regard the same messages as unwanted. Google has highlighted this problem directly, noting that what counts as spam can vary between individuals. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">ridding gmail of 100 million more spam messages with tensorflow</span><span class="citation-popover-snippet">Google WorkspaceSpam does not bring us joy—ridding Gmail of 100 million...7 Feb 2019 — TensorFlow helps us catch the spammers who slip t...</span></span></span>
+Some people welcome promotional offers, newsletters, or fundraising emails. Others regard the same messages as unwanted. Google has highlighted this problem directly, noting that what counts as spam can vary between individuals.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">ridding gmail of 100 million more spam messages with tensorflow</span><span class="citation-popover-snippet">Google WorkspaceSpam does not bring us joy—ridding Gmail of 100 million...7 Feb 2019 — TensorFlow helps us catch the spammers who slip t...</span></span></span>
 
 Because of this variation, modern filtering systems often use feedback at multiple levels:
 
@@ -368,7 +368,7 @@ Large-scale feedback offers several advantages:
 
 </div>
 
-Because millions of users interact with email every day, providers can gather a huge volume of labelled examples that would be difficult to create manually. This constant supply of data is one reason machine-learning filters can adapt more effectively than systems based only on hand-written rules. Google Workspace+2Harvard Business School AI Institute <span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[workspace.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
+Because millions of users interact with email every day, providers can gather a huge volume of labelled examples that would be difficult to create manually. This constant supply of data is one reason machine-learning filters can adapt more effectively than systems based only on hand-written rules. Google Workspace+2Harvard Business School AI Institute<span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[workspace.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_spam_feedback_c5c36c-Illustration-3-dark.svg" | relative_url }}" alt="User Feedback illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_spam_feedback_c5c36c-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_spam_feedback_c5c36c-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -378,7 +378,7 @@ Human feedback can also be unreliable.
 
 Users sometimes report legitimate marketing emails as spam simply because they no longer want them. Others fail to report genuine phishing attempts. Some users rarely interact with spam controls at all.
 
-There is also the possibility of coordinated or biased reporting. If enough people deliberately mislabel messages, the feedback signal can become distorted. For that reason, providers generally combine user reports with many other indicators, such as sender reputation, authentication records, message content, delivery patterns, and behavioural signals. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
+There is also the possibility of coordinated or biased reporting. If enough people deliberately mislabel messages, the feedback signal can become distorted. For that reason, providers generally combine user reports with many other indicators, such as sender reputation, authentication records, message content, delivery patterns, and behavioural signals.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[Google Workspace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
 
 The goal is not to trust every click blindly but to treat feedback as one important source of evidence among many.
 
@@ -386,201 +386,201 @@ The goal is not to trust every click blindly but to treat feedback as one import
 
 The key lesson is that a spam filter is not a static piece of software. It is a learning system that depends on a steady flow of new examples.
 
-User reports supply those examples. Marking a message as spam adds evidence about emerging threats. Marking a message as “Not spam” helps correct mistakes and reduce [false positives]({{ 'false-positives/' | relative_url }}). Together, these actions create a continuously updated dataset that allows machine-learning models to track changing behaviour, adapt to new scams, and remain useful long after their original training. In a world where attackers constantly change tactics, user feedback is one of the main mechanisms that keeps spam filters current rather than frozen in the past. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[WIRED+3Google Workspace+3Google Workspace Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
+User reports supply those examples. Marking a message as spam adds evidence about emerging threats. Marking a message as “Not spam” helps correct mistakes and reduce [false positives]({{ 'false-positives/' | relative_url }}). Together, these actions create a continuously updated dataset that allows machine-learning models to track changing behaviour, adapt to new scams, and remain useful long after their original training. In a world where attackers constantly change tactics, user feedback is one of the main mechanisms that keeps spam filters current rather than frozen in the past.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: workspace.google.com">[WIRED+3Google Workspace+3Google Workspace Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">workspace.google.com</span><span class="citation-popover-title">Workspace An overview of Gmail&#x27;s spam filters</span><span class="citation-popover-snippet">Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</span><span class="citation-popover-meta">Published: May 28, 2022</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/GEH6d589lg8" title="What Actually Happens When You Hit &quot;Send&quot;? (Gmail Architecture Explained)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=GEH6d589lg8" target="_blank" rel="noopener noreferrer">What Actually Happens When You Hit &quot;Send&quot;? (Gmail Architecture Explained)</a></p><p class="youtube-embed-meta">Channel: Sketch Mind</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=GEH6d589lg8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=GEH6d589lg8">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why your spam clicks help the filter learn. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why your spam clicks help the filter learn. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Explains how new labelled data improves model performance.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how new labelled data improves model performance.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Science for Business on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=EZAtAAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Data Science for Business" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Science for Business">Data Science for Business</a>
-        </h4>
-        <p class="fr-book-author">By Foster Provost, Tom Fawcett</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Science for Business on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=EZAtAAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Data Science for Business" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Science for Business">Data Science for Business</a>
+</h4>
+<p class="fr-book-author">By Foster Provost, Tom Fawcett</p>
         
-        <p class="fr-book-desc">Illustrates feedback loops and learning from user behaviour.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Illustrates feedback loops and learning from user behaviour.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
-        </h4>
-        <p class="fr-book-author">By Andriy Burkov</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
+</h4>
+<p class="fr-book-author">By Andriy Burkov</p>
         
-        <p class="fr-book-desc">Introduces supervised learning and retraining concepts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Introduces supervised learning and retraining concepts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Machine+Learning+for+Absolute+Beginners+by+Oliver+Theobald&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Machine Learning for Absolute Beginners on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=PGNzswEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Machine Learning for Absolute Beginners" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Machine+Learning+for+Absolute+Beginners+by+Oliver+Theobald&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Machine Learning for Absolute Beginners">Machine Learning for Absolute Beginners</a>
-        </h4>
-        <p class="fr-book-author">By Oliver Theobald</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Machine+Learning+for+Absolute+Beginners+by+Oliver+Theobald&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Machine Learning for Absolute Beginners on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=PGNzswEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Machine Learning for Absolute Beginners" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Machine+Learning+for+Absolute+Beginners+by+Oliver+Theobald&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Machine Learning for Absolute Beginners">Machine Learning for Absolute Beginners</a>
+</h4>
+<p class="fr-book-author">By Oliver Theobald</p>
         
-        <p class="fr-book-desc">Explains how examples teach machine-learning systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Machine+Learning+for+Absolute+Beginners+by+Oliver+Theobald&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how examples teach machine-learning systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Machine+Learning+for+Absolute+Beginners+by+Oliver+Theobald&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Science+for+Business&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Science for Business</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Science+for+Business&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Science for Business</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/59d6570844f9044c0aba.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/59d6570844f9044c0aba.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/aad0c823f49d84d6dac2.jpg' | relative_url }}" alt="Listing image for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/aad0c823f49d84d6dac2.jpg' | relative_url }}" alt="Listing image for Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning AI Data Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Learning Machine - Smart Brain Educ Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/6c290384866868cfa8c6.jpg' | relative_url }}" alt="Listing image for Learning Machine - Smart Brain Educ Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Learning Machine - Smart Brain Educ Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Learning Machine - Smart Brain Educ Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/6c290384866868cfa8c6.jpg' | relative_url }}" alt="Listing image for Learning Machine - Smart Brain Educ Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Learning Machine - Smart Brain Educ Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf3807e54de2d7f28837.jpg' | relative_url }}" alt="Listing image for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf3807e54de2d7f28837.jpg' | relative_url }}" alt="Listing image for Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Revolut Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="user-feedback-why-your-spam-clicks-help-the-filter-learn-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -596,7 +596,7 @@ User reports supply those examples. Marking a message as spam adds evidence abou
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -616,7 +616,7 @@ User reports supply those examples. Marking a message as spam adds evidence abou
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -648,7 +648,7 @@ User reports supply those examples. Marking a message as spam adds evidence abou
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -700,7 +700,7 @@ User reports supply those examples. Marking a message as spam adds evidence abou
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -745,7 +745,7 @@ User reports supply those examples. Marking a message as spam adds evidence abou
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -786,98 +786,98 @@ User reports supply those examples. Marking a message as spam adds evidence abou
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: workspace.google.com  
    Title: Workspace An overview of Gmail's spam filters  
-   Link: <a href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow">https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</p></details>
+   Link:<a href="https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters" target="_blank" rel="noopener noreferrer nofollow">https://workspace.google.com/blog/identity-and-security/an-overview-of-gmails-spam-filters</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google WorkspaceAn overview of Gmail&#x27;s spam filtersMay 28, 2022 — How do Gmail spam filters work? Machine learning powered by user feedba...</p></details>
    Published: May 28, 2022  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: knowledge.workspace.google.com  
-   Link: <a href="https://knowledge.workspace.google.com/admin/support/troubleshooting/gmail-marks-valid-email-messages-as-spam" target="_blank" rel="noopener noreferrer nofollow">https://knowledge.workspace.google.com/admin/support/troubleshooting/gmail-marks-valid-email-messages-as-spam</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Gmail uses machine learning to better understand your preferences, and to recognize spam. When you manually...Read more...</p></details>
+   Link:<a href="https://knowledge.workspace.google.com/admin/support/troubleshooting/gmail-marks-valid-email-messages-as-spam" target="_blank" rel="noopener noreferrer nofollow">https://knowledge.workspace.google.com/admin/support/troubleshooting/gmail-marks-valid-email-messages-as-spam</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gmail uses machine learning to better understand your preferences, and to recognize spam. When you manually...Read more...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: d3.harvard.edu  
-   Link: <a href="https://d3.harvard.edu/platform-digit/submission/gmail-ensuring-a-spam-free-inbox-with-machine-learning/" target="_blank" rel="noopener noreferrer nofollow">https://d3.harvard.edu/platform-digit/submission/gmail-ensuring-a-spam-free-inbox-with-machine-learning/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) School AI InstituteGmail: ensuring a spam-free inbox with Machine Learning21 Nov 2015 — If an email is deemed “not spam”...</p></details>
+   Link:<a href="https://d3.harvard.edu/platform-digit/submission/gmail-ensuring-a-spam-free-inbox-with-machine-learning/" target="_blank" rel="noopener noreferrer nofollow">https://d3.harvard.edu/platform-digit/submission/gmail-ensuring-a-spam-free-inbox-with-machine-learning/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard [Business](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;) School AI InstituteGmail: ensuring a spam-free inbox with Machine Learning21 Nov 2015 — If an email is deemed “not spam”...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
    Title: arXiv Machine Learning for E-mail Spam Filtering: Review,Techniques and Trends  
-   Link: <a href="https://arxiv.org/abs/1606.01042" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1606.01042</a>  
+   Link:<a href="https://arxiv.org/abs/1606.01042" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1606.01042</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: wired.com  
    Title: google says ai catches 99 9 percent gmail spam  
-   Link: <a href="https://www.wired.com/2015/07/google-says-ai-catches-99-9-percent-gmail-spam/" target="_blank" rel="noopener noreferrer nofollow">https://www.wired.com/2015/07/google-says-ai-catches-99-9-percent-gmail-spam/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google Says Its AI Catches 99.9 Percent of Gmail SpamJul 9, 2015 — Gmail&#x27;s spam filters don&#x27;t just curb junk by applying pre-existing rul...</p></details>
+   Link:<a href="https://www.wired.com/2015/07/google-says-ai-catches-99-9-percent-gmail-spam/" target="_blank" rel="noopener noreferrer nofollow">https://www.wired.com/2015/07/google-says-ai-catches-99-9-percent-gmail-spam/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google Says Its AI Catches 99.9 Percent of Gmail SpamJul 9, 2015 — Gmail&#x27;s spam filters don&#x27;t just curb junk by applying pre-existing rul...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: workspace.google.com  
    Title: ridding gmail of 100 million more spam messages with tensorflow  
-   Link: <a href="https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow" target="_blank" rel="noopener noreferrer nofollow">https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google WorkspaceSpam does not bring us joy—ridding Gmail of 100 million...7 Feb 2019 — TensorFlow helps us catch the spammers who slip t...</p></details>
+   Link:<a href="https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow" target="_blank" rel="noopener noreferrer nofollow">https://workspace.google.com/blog/product-announcements/ridding-gmail-of-100-million-more-spam-messages-with-tensorflow</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google WorkspaceSpam does not bring us joy—ridding Gmail of 100 million...7 Feb 2019 — TensorFlow helps us catch the spammers who slip t...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: play.google.com  
-   Link: <a href="https://play.google.com/store/apps/details?hl=en_US&amp;id=com.google.android.gm" target="_blank" rel="noopener noreferrer nofollow">https://play.google.com/store/apps/details?hl=en_US&amp;id=com.google.android.gm</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Apps on Google PlayThe official Gmail app brings the best of Gmail to your Android phone or tablet with enhanced security protections, mu...</p></details>
+   Link:<a href="https://play.google.com/store/apps/details?hl=en_US&amp;id=com.google.android.gm" target="_blank" rel="noopener noreferrer nofollow">https://play.google.com/store/apps/details?hl=en_US&amp;id=com.google.android.gm</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Apps on Google PlayThe official Gmail app brings the best of Gmail to your Android phone or tablet with enhanced security protections, mu...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: support.google.com  
-   Link: <a href="https://support.google.com/mail/answer/8494?co=GENIE.Platform%3DDesktop&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/mail/answer/8494?co=GENIE.Platform%3DDesktop&amp;hl=en</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>in to Gmail - ComputerTo open Gmail, you can sign in from a computer or add your account to the Gmail app on your phone or tablet.Read more...</p></details>
+   Link:<a href="https://support.google.com/mail/answer/8494?co=GENIE.Platform%3DDesktop&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/mail/answer/8494?co=GENIE.Platform%3DDesktop&amp;hl=en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>in to Gmail - ComputerTo open Gmail, you can sign in from a computer or add your account to the Gmail app on your phone or tablet.Read more...</p></details>
 
 ### Additional References
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40saniamishra85/spam-email-detection-using-machine-learning-32617c372cdc" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40saniamishra85/spam-email-detection-using-machine-learning-32617c372cdc</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Spam Email Detection Using Machine LearningSpam Email Detection Using Machine Learning · Growing Email Volume: With billions of emails se...</p></details>
+   Link:<a href="https://medium.com/%40saniamishra85/spam-email-detection-using-machine-learning-32617c372cdc" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40saniamishra85/spam-email-detection-using-machine-learning-32617c372cdc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Spam Email Detection Using Machine LearningSpam Email Detection Using Machine Learning · Growing Email Volume: With billions of emails se...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: github.com  
-   Link: <a href="https://github.com/Apaulgithub/oibsip_taskno4" target="_blank" rel="noopener noreferrer nofollow">https://github.com/Apaulgithub/oibsip_taskno4</a>  
+   Link:<a href="https://github.com/Apaulgithub/oibsip_taskno4" target="_blank" rel="noopener noreferrer nofollow">https://github.com/Apaulgithub/oibsip_taskno4</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/369462107_Email_Spam_Filtering_Methods_Comparison_and_Analysis" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/369462107_Email_Spam_Filtering_Methods_Comparison_and_Analysis</a>  
+   Link:<a href="https://www.researchgate.net/publication/369462107_Email_Spam_Filtering_Methods_Comparison_and_Analysis" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/369462107_Email_Spam_Filtering_Methods_Comparison_and_Analysis</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: microsoft.com  
    Title: Shop Microsoft 365, Copilot, Teams, Xbox, Windows, Azure, Surface and more  
-   Link: <a href="https://www.microsoft.com/en-gb" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-gb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI, Cloud, Productivity, Computing, Gaming &amp; AppsExplore Microsoft products and services and support for your home or business...</p></details>
+   Link:<a href="https://www.microsoft.com/en-gb" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-gb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI, Cloud, Productivity, Computing, Gaming &amp; AppsExplore Microsoft products and services and support for your home or business...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/microsoft" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/microsoft</a>  
+   Link:<a href="https://www.youtube.com/microsoft" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/microsoft</a>  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: stackoverflow.com  
    Title: Publicly Available Spam Filter Training Set [closed]Closed  
-   Link: <a href="https://stackoverflow.com/questions/4743996/publicly-available-spam-filter-training-set" target="_blank" rel="noopener noreferrer nofollow">https://stackoverflow.com/questions/4743996/publicly-available-spam-filter-training-set</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>This question is seeking recommendations for software libraries, tutorials, tools, books, or other off-site resources. It does not meet S...</p></details>
+   Link:<a href="https://stackoverflow.com/questions/4743996/publicly-available-spam-filter-training-set" target="_blank" rel="noopener noreferrer nofollow">https://stackoverflow.com/questions/4743996/publicly-available-spam-filter-training-set</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This question is seeking recommendations for software libraries, tutorials, tools, books, or other off-site resources. It does not meet S...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: dev.to  
-   Link: <a href="https://dev.to/synergistdigitalmedia/gmails-2025-spam-filter-doesnt-care-about-your-feelings-a-deliverability-reality-check-1l7k" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/synergistdigitalmedia/gmails-2025-spam-filter-doesnt-care-about-your-feelings-a-deliverability-reality-check-1l7k</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Gmail&#x27;s 2025 Spam Filter Doesn&#x27;t Care About Your FeelingsNov 22, 2025 — Gmail&#x27;s 2025 algorithm tracks [engagement](&amp;#123;&amp;#123; &#x27;engagement-goals/&#x27; | relative_url &amp;#125;&amp;#125;) with disturbing precision...</p></details>
+   Link:<a href="https://dev.to/synergistdigitalmedia/gmails-2025-spam-filter-doesnt-care-about-your-feelings-a-deliverability-reality-check-1l7k" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/synergistdigitalmedia/gmails-2025-spam-filter-doesnt-care-about-your-feelings-a-deliverability-reality-check-1l7k</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gmail&#x27;s 2025 Spam Filter Doesn&#x27;t Care About Your FeelingsNov 22, 2025 — Gmail&#x27;s 2025 algorithm tracks [engagement](&amp;#123;&amp;#123; &#x27;engagement-goals/&#x27; | relative_url &amp;#125;&amp;#125;) with disturbing precision...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
    Title: What Actually Happens When You Hit "Send"? (Gmail Architecture Explained)  
-   Link: <a href="https://www.youtube.com/watch?v=GEH6d589lg8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=GEH6d589lg8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Definition of Machine Learning (Experience, Task, and Performance) - YouTube Definition of Machine Learning (Experience, Task, and Perfor...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=GEH6d589lg8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=GEH6d589lg8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Definition of Machine Learning (Experience, Task, and Performance) - YouTube Definition of Machine Learning (Experience, Task, and Perfor...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40bobbyjimenez/catching-recipients-in-a-bad-mood-how-gmails-user-feedback-feeds-its-ai-to-detect-emails-as-spam-865b389cc0af" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40bobbyjimenez/catching-recipients-in-a-bad-mood-how-gmails-user-feedback-feeds-its-ai-to-detect-emails-as-spam-865b389cc0af</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>erves as a robust defense against spam, phishing, and malware.Read more...</p></details>
+   Link:<a href="https://medium.com/%40bobbyjimenez/catching-recipients-in-a-bad-mood-how-gmails-user-feedback-feeds-its-ai-to-detect-emails-as-spam-865b389cc0af" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40bobbyjimenez/catching-recipients-in-a-bad-mood-how-gmails-user-feedback-feeds-its-ai-to-detect-emails-as-spam-865b389cc0af</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>erves as a robust defense against spam, phishing, and malware.Read more...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: office.com  
-   Link: <a href="https://www.office.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.office.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>and PowerPoint, plus services like OneDrive, Teams, Outlook, and the...</p></details>
+   Link:<a href="https://www.office.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.office.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>and PowerPoint, plus services like OneDrive, Teams, Outlook, and the...</p></details>

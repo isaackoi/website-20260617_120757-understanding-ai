@@ -275,19 +275,19 @@ image: /assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1b
 
 ## Introduction
 
-Parallel training was the breakthrough that made Transformers practical to scale, but it did not eliminate every computational bottleneck. The same [self-attention]({{ 'self-attention/' | relative_url }}) mechanism that allows a Transformer to process an entire sequence simultaneously also creates a growing cost as sequences become longer. A model can analyse thousands of words, lines of code, or conversation turns in parallel, yet the amount of work required by [attention]({{ 'attention/' | relative_url }}) rises much faster than the length of the input. This is why extending context windows from a few thousand tokens to hundreds of thousands or even millions remains one of the most challenging engineering problems in modern AI. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+Parallel training was the breakthrough that made Transformers practical to scale, but it did not eliminate every computational bottleneck. The same [self-attention]({{ 'self-attention/' | relative_url }}) mechanism that allows a Transformer to process an entire sequence simultaneously also creates a growing cost as sequences become longer. A model can analyse thousands of words, lines of code, or conversation turns in parallel, yet the amount of work required by [attention]({{ 'attention/' | relative_url }}) rises much faster than the length of the input. This is why extending context windows from a few thousand tokens to hundreds of thousands or even millions remains one of the most challenging engineering problems in modern AI.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_long_context_736cb4-Illustration-1-dark.svg" | relative_url }}" alt="Long context cost illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_long_context_736cb4-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_long_context_736cb4-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-The result is a central trade-off in Transformer design: the architecture scales exceptionally well across hardware, but long contexts place increasing pressure on computation, memory, and training budgets. [Understanding]({{ 'understanding/' | relative_url }}) this limitation helps explain why so much recent AI research focuses on efficient attention methods rather than simply making models larger. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hazyresearch.stanford.edu">[hazyresearch.stanford.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hazyresearch.stanford.edu</span><span class="citation-popover-title">2023 01 12 flashattention long sequences</span><span class="citation-popover-snippet">Fast Transformer Training with Long SequencesJan 13, 2023 — FlashAttention is a new algorithm to speed up attention and reduce its memory...</span></span></span>
+The result is a central trade-off in Transformer design: the architecture scales exceptionally well across hardware, but long contexts place increasing pressure on computation, memory, and training budgets. [Understanding]({{ 'understanding/' | relative_url }}) this limitation helps explain why so much recent AI research focuses on efficient attention methods rather than simply making models larger.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hazyresearch.stanford.edu">[hazyresearch.stanford.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hazyresearch.stanford.edu</span><span class="citation-popover-title">2023 01 12 flashattention long sequences</span><span class="citation-popover-snippet">Fast Transformer Training with Long SequencesJan 13, 2023 — FlashAttention is a new algorithm to speed up attention and reduce its memory...</span></span></span>
 
 ## Why attention cost grows with sequence length
 
-The core issue comes from how self-attention works. Each token compares itself with every other token in the sequence to determine which pieces of information matter most. If a sequence contains 100 tokens, there are roughly 10,000 pairwise relationships. If the sequence grows to 1,000 tokens, the number of potential interactions rises to about one million. The growth is quadratic: doubling the sequence length roughly quadruples the amount of attention computation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://shreyansh26.github.io/post/2022-10-10_efficient_transformers_survey/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: shreyansh26.github.io">[Shreyansh Singh+2aiplanet.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">shreyansh26.github.io</span><span class="citation-popover-snippet">Shreyansh SinghPaper Summary #7 - Efficient Transformers: A Survey10 Oct 2022 — This is a survey paper on the various memory-efficiency...</span></span></span>
+The core issue comes from how self-attention works. Each token compares itself with every other token in the sequence to determine which pieces of information matter most. If a sequence contains 100 tokens, there are roughly 10,000 pairwise relationships. If the sequence grows to 1,000 tokens, the number of potential interactions rises to about one million. The growth is quadratic: doubling the sequence length roughly quadruples the amount of attention computation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://shreyansh26.github.io/post/2022-10-10_efficient_transformers_survey/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: shreyansh26.github.io">[Shreyansh Singh+2aiplanet.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">shreyansh26.github.io</span><span class="citation-popover-snippet">Shreyansh SinghPaper Summary #7 - Efficient Transformers: A Survey10 Oct 2022 — This is a survey paper on the various memory-efficiency...</span></span></span>
 
-This behaviour differs from the scaling story that made Transformers attractive in the first place. Training can be distributed across many GPUs because attention calculations are highly parallelisable matrix operations. However, parallel hardware does not change the underlying mathematics. Longer sequences still create many more token-to-token comparisons that must be computed somewhere. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+This behaviour differs from the scaling story that made Transformers attractive in the first place. Training can be distributed across many GPUs because attention calculations are highly parallelisable matrix operations. However, parallel hardware does not change the underlying mathematics. Longer sequences still create many more token-to-token comparisons that must be computed somewhere.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-A useful way to think about the problem is that attention treats a document as a dense network of relationships. Every new token potentially connects to all previous tokens. As context windows expand from 4,000 tokens to 32,000, 128,000, or beyond, the number of possible relationships explodes much faster than the visible increase in text length. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://shreyansh26.github.io/post/2022-10-10_efficient_transformers_survey/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: shreyansh26.github.io">[Shreyansh Singh]</a><span class="citation-popover" role="note"><span class="citation-popover-source">shreyansh26.github.io</span><span class="citation-popover-snippet">Shreyansh SinghPaper Summary #7 - Efficient Transformers: A Survey10 Oct 2022 — This is a survey paper on the various memory-efficiency...</span></span></span>
+A useful way to think about the problem is that attention treats a document as a dense network of relationships. Every new token potentially connects to all previous tokens. As context windows expand from 4,000 tokens to 32,000, 128,000, or beyond, the number of possible relationships explodes much faster than the visible increase in text length.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://shreyansh26.github.io/post/2022-10-10_efficient_transformers_survey/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: shreyansh26.github.io">[Shreyansh Singh]</a><span class="citation-popover" role="note"><span class="citation-popover-source">shreyansh26.github.io</span><span class="citation-popover-snippet">Shreyansh SinghPaper Summary #7 - Efficient Transformers: A Survey10 Oct 2022 — This is a survey paper on the various memory-efficiency...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/H8i8DR1jeuI" title="Recurrence and Attention for Long-Context Transformers [Jacob Buckman] - 750" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=H8i8DR1jeuI" target="_blank" rel="noopener noreferrer">Recurrence and Attention for Long-Context Transformers [Jacob Buckman] - 750</a></p><p class="youtube-embed-meta">Channel: The TWIML AI Podcast with Sam Charrington</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=H8i8DR1jeuI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=H8i8DR1jeuI">Open on YouTube</a></p></div></div></div>
@@ -303,27 +303,27 @@ For attention-heavy workloads:
 
 * Doubling sequence length can roughly quadruple attention operations.
 * Four times the sequence length can require around sixteen times the attention work.
-* Memory requirements often grow alongside computation because attention scores and intermediate states must be stored during training. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2107.05768" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Shreyansh Singh]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Full Attention Transformer with Sparse Computation Costby H Ren · 2021 · Cited by 112 — PDF of the paper titled ・ the key limitation...</span></span></span>
+* Memory requirements often grow alongside computation because attention scores and intermediate states must be stored during training.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2107.05768" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Shreyansh Singh]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Full Attention Transformer with Sparse Computation Costby H Ren · 2021 · Cited by 112 — PDF of the paper titled ・ the key limitation...</span></span></span>
 
 </div>
 
-This scaling behaviour explains why extending context windows is not merely a matter of buying proportionally more hardware. The costs can accelerate much faster than the apparent increase in usable context. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://mbrenndoerfer.com/writing/quadratic-attention-bottleneck-transformers-long-sequences" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mbrenndoerfer.com">[Michael Brenndoerfer]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mbrenndoerfer.com</span><span class="citation-popover-title">quadratic attention bottleneck transformers long sequences</span><span class="citation-popover-snippet">Michael BrenndoerferQuadratic Attention Bottleneck: Why Transformers Struggle...19 Jun 2025 — Understand why self-attention has O(n²) co...</span></span></span>
+This scaling behaviour explains why extending context windows is not merely a matter of buying proportionally more hardware. The costs can accelerate much faster than the apparent increase in usable context.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://mbrenndoerfer.com/writing/quadratic-attention-bottleneck-transformers-long-sequences" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mbrenndoerfer.com">[Michael Brenndoerfer]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mbrenndoerfer.com</span><span class="citation-popover-title">quadratic attention bottleneck transformers long sequences</span><span class="citation-popover-snippet">Michael BrenndoerferQuadratic Attention Bottleneck: Why Transformers Struggle...19 Jun 2025 — Understand why self-attention has O(n²) co...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_long_context_736cb4-Illustration-2-dark.svg" | relative_url }}" alt="Long context cost illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_long_context_736cb4-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_long_context_736cb4-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Memory pressure in long-input Transformer training
 
-Computation is only part of the challenge. Training large Transformer models also requires storing activations, gradients, and attention-related intermediate values. As sequence length grows, memory consumption can become the limiting factor before raw processing [speed]({{ 'speed/' | relative_url }}) does. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2205.14135" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware...</span></span></span>
+Computation is only part of the challenge. Training large Transformer models also requires storing activations, gradients, and attention-related intermediate values. As sequence length grows, memory consumption can become the limiting factor before raw processing [speed]({{ 'speed/' | relative_url }}) does.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2205.14135" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware...</span></span></span>
 
 This memory pressure creates several practical constraints:
 
 * Smaller batch sizes may be required to fit long sequences into GPU memory.
 * Training throughput often falls because hardware spends more time moving data.
-* Additional GPUs may be needed simply to hold model state and attention information rather than perform new computation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hazyresearch.stanford.edu">[hazyresearch.stanford.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hazyresearch.stanford.edu</span><span class="citation-popover-title">2023 01 12 flashattention long sequences</span><span class="citation-popover-snippet">Fast Transformer Training with Long SequencesJan 13, 2023 — FlashAttention is a new algorithm to speed up attention and reduce its memory...</span></span></span>
+* Additional GPUs may be needed simply to hold model state and attention information rather than perform new computation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hazyresearch.stanford.edu">[hazyresearch.stanford.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hazyresearch.stanford.edu</span><span class="citation-popover-title">2023 01 12 flashattention long sequences</span><span class="citation-popover-snippet">Fast Transformer Training with Long SequencesJan 13, 2023 — FlashAttention is a new algorithm to speed up attention and reduce its memory...</span></span></span>
 
-Researchers working on long-context [language models]({{ 'language-models/' | relative_url }}) frequently report that memory becomes a dominant engineering concern. Even when sufficient computing power exists, storing the information required by attention can prevent straightforward scaling to longer documents. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2310.03294" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs TrainingOctober 5, 2023...</span><span class="citation-popover-meta">Published: October 5, 2023</span></span></span>
+Researchers working on long-context [language models]({{ 'language-models/' | relative_url }}) frequently report that memory becomes a dominant engineering concern. Even when sufficient computing power exists, storing the information required by attention can prevent straightforward scaling to longer documents.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2310.03294" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs TrainingOctober 5, 2023...</span><span class="citation-popover-meta">Published: October 5, 2023</span></span></span>
 
-The distinction matters because parallel training solved a different problem. Transformers removed the sequential dependency chain that limited recurrent neural networks. They did not remove the need to represent interactions across an entire context window. As contexts become larger, that interaction structure itself becomes expensive. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The distinction matters because parallel training solved a different problem. Transformers removed the sequential dependency chain that limited recurrent neural networks. They did not remove the need to represent interactions across an entire context window. As contexts become larger, that interaction structure itself becomes expensive.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/iNkcLI1LFEM" title="L47: Motivation for fast attention mechanism | time &amp; space complexity in self-attention" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=iNkcLI1LFEM" target="_blank" rel="noopener noreferrer">L47: Motivation for fast attention mechanism | time &amp; space complexity in self-attention</a></p><p class="youtube-embed-meta">Channel: IIT Madras - B.S. Degree Programme</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=iNkcLI1LFEM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=iNkcLI1LFEM">Open on YouTube</a></p></div></div></div>
@@ -332,9 +332,9 @@ The distinction matters because parallel training solved a different problem. Tr
 
 The industry's response has largely been to make attention more efficient rather than abandon the Transformer entirely.
 
-One influential example is FlashAttention, which reorganises attention computations to reduce costly memory transfers between different levels of GPU memory. The key insight is that modern accelerators often spend significant time moving data rather than performing arithmetic. By restructuring the computation, FlashAttention can reduce memory usage and accelerate training while preserving exact attention behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2205.14135" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware...</span></span></span>
+One influential example is FlashAttention, which reorganises attention computations to reduce costly memory transfers between different levels of GPU memory. The key insight is that modern accelerators often spend significant time moving data rather than performing arithmetic. By restructuring the computation, FlashAttention can reduce memory usage and accelerate training while preserving exact attention behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2205.14135" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenReview]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware...</span></span></span>
 
-Researchers have also explored distributed attention systems that spread long-context processing across multiple devices. Methods such as DistFlashAttn aim to support sequence lengths far beyond what a single GPU could comfortably handle. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2310.03294" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs TrainingOctober 5, 2023...</span><span class="citation-popover-meta">Published: October 5, 2023</span></span></span>
+Researchers have also explored distributed attention systems that spread long-context processing across multiple devices. Methods such as DistFlashAttn aim to support sequence lengths far beyond what a single GPU could comfortably handle.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2310.03294" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs TrainingOctober 5, 2023...</span><span class="citation-popover-meta">Published: October 5, 2023</span></span></span>
 
 Another major research direction is reducing the number of token interactions that must be calculated at all. Common approaches include:
 
@@ -343,11 +343,11 @@ Another major research direction is reducing the number of token interactions th
 
 * **Sparse attention**, where tokens attend only to selected parts of the sequence.
 * **Linear attention variants**, which replace full pairwise comparison with more efficient approximations.
-* **Memory and retrieval mechanisms**, which try to access only relevant information from very long histories. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://medium.com/%40kiranvutukuri/69-sparse-attention-making-transformers-efficient-for-long-sequences-859aa03b03f6" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medium.com">[Medium+2Medium]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medium.com</span><span class="citation-popover-snippet">69. Making Transformers Efficient for Long Sequences:...By attending to a subset of tokens, attention cost drops from quadratic to...</span></span></span>
+* **Memory and retrieval mechanisms**, which try to access only relevant information from very long histories.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://medium.com/%40kiranvutukuri/69-sparse-attention-making-transformers-efficient-for-long-sequences-859aa03b03f6" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medium.com">[Medium+2Medium]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medium.com</span><span class="citation-popover-snippet">69. Making Transformers Efficient for Long Sequences:...By attending to a subset of tokens, attention cost drops from quadratic to...</span></span></span>
 
 </div>
 
-These approaches attempt to move beyond the quadratic scaling of standard attention, although they often introduce trade-offs involving accuracy, implementation complexity, or the ability to capture long-range relationships. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2107.05768" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Full Attention Transformer with Sparse Computation Costby H Ren · 2021 · Cited by 112 — PDF of the paper titled ・ the key limitation...</span></span></span>
+These approaches attempt to move beyond the quadratic scaling of standard attention, although they often introduce trade-offs involving accuracy, implementation complexity, or the ability to capture long-range relationships.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2107.05768" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Full Attention Transformer with Sparse Computation Costby H Ren · 2021 · Cited by 112 — PDF of the paper titled ・ the key limitation...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_long_context_736cb4-Illustration-3-dark.svg" | relative_url }}" alt="Long context cost illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_long_context_736cb4-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_parallel_tran_b1bb48_long_context_736cb4-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -355,203 +355,203 @@ These approaches attempt to move beyond the quadratic scaling of standard attent
 
 Long-context models can read books, analyse large codebases, process lengthy conversations, and combine information spread across vast documents. Yet the cost of doing so remains one of the defining limitations of Transformer-based AI.
 
-This creates a subtle but important lesson about the architecture's success. Transformers became dominant because they aligned well with parallel hardware and large-scale training. However, the same attention mechanism that enabled that success still contains a scaling tension: every increase [in context]({{ 'in-context-learning/' | relative_url }}) length asks the model to reason over a rapidly growing number of relationships. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2hazyresearch.stanford.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+This creates a subtle but important lesson about the architecture's success. Transformers became dominant because they aligned well with parallel hardware and large-scale training. However, the same attention mechanism that enabled that success still contains a scaling tension: every increase [in context]({{ 'in-context-learning/' | relative_url }}) length asks the model to reason over a rapidly growing number of relationships.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2hazyresearch.stanford.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-Modern advances have made long contexts increasingly practical, but they mostly reduce, redistribute, or approximate the underlying cost rather than eliminating it entirely. As a result, attention efficiency remains one of the most active areas of research in the effort to build AI systems that can reliably work with ever larger amounts of information. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2205.14135" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Machine Learning At Scale]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware...</span></span></span>
+Modern advances have made long contexts increasingly practical, but they mostly reduce, redistribute, or approximate the underlying cost rather than eliminating it entirely. As a result, attention efficiency remains one of the most active areas of research in the effort to build AI systems that can reliably work with ever larger amounts of information.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2205.14135" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Machine Learning At Scale]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/bJFywl3KnSM" title="Flash Attention Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=bJFywl3KnSM" target="_blank" rel="noopener noreferrer">Flash Attention Explained</a></p><p class="youtube-embed-meta">Channel: Unify</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=bJFywl3KnSM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=bJFywl3KnSM">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why faster training still hit a length limit. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why faster training still hit a length limit. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Covers context windows, attention limits, and LLM scaling.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers context windows, attention limits, and LLM scaling.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
-        </h4>
-        <p class="fr-book-author">By Sebastian Raschka</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
+</h4>
+<p class="fr-book-author">By Sebastian Raschka</p>
         
-        <p class="fr-book-desc">Explains attention computation and long-context constraints.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains attention computation and long-context constraints.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Provides practical context on transformer performance trade-offs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides practical context on transformer performance trade-offs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Dqe_zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Machine Learning">Transformers for Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Uday Kamath, Kenneth L. Graham et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Dqe_zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Machine Learning">Transformers for Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Uday Kamath, Kenneth L. Graham et al.</p>
         
-        <p class="fr-book-desc">Discusses attention complexity and efficiency improvements.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses attention complexity and efficiency improvements.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Nike FA Coach Developer T Shirt"><img src="{{ '/assets/images/marketplace-covers/912a9298fd1a40b97ab4.jpg' | relative_url }}" alt="Listing image for Nike FA Coach Developer T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Nike FA Coach Developer T Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Nike FA Coach Developer T Shirt"><img src="{{ '/assets/images/marketplace-covers/912a9298fd1a40b97ab4.jpg' | relative_url }}" alt="Listing image for Nike FA Coach Developer T Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Nike FA Coach Developer T Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/74c4bcfb6becc37024d7.jpg' | relative_url }}" alt="Listing image for Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/74c4bcfb6becc37024d7.jpg' | relative_url }}" alt="Listing image for Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Solution Developer T Shirt - We Do Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Training Developer T Shirt - What I Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4cf17b9629f16ae400d2.jpg' | relative_url }}" alt="Listing image for Training Developer T Shirt - What I Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Training Developer T Shirt - What I Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Training Developer T Shirt - What I Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4cf17b9629f16ae400d2.jpg' | relative_url }}" alt="Listing image for Training Developer T Shirt - What I Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Training Developer T Shirt - What I Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/f2a77d37152dec3ecaa4.jpg' | relative_url }}" alt="Listing image for Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/f2a77d37152dec3ecaa4.jpg' | relative_url }}" alt="Listing image for Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Sales Developer T Shirt - What Is Y Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for developer t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: developer t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=developer+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="developer t shirt" data-ebay-reference="long-context-cost-why-faster-training-still-hit-a-length-limit-understanding-developer-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -567,7 +567,7 @@ Modern advances have made long contexts increasingly practical, but they mostly 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -587,7 +587,7 @@ Modern advances have made long contexts increasingly practical, but they mostly 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -619,7 +619,7 @@ Modern advances have made long contexts increasingly practical, but they mostly 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -671,7 +671,7 @@ Modern advances have made long contexts increasingly practical, but they mostly 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -716,7 +716,7 @@ Modern advances have made long contexts increasingly practical, but they mostly 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -757,218 +757,218 @@ Modern advances have made long contexts increasingly practical, but they mostly 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</p></details>
+   Link:<a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>arXiv[1706.03762] Attention Is All You NeedJune 12, 2017 — Jun 12, 2017 — We propose a new simple network architecture, the Transformer...</p></details>
    Published: June 12, 2017  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2107.05768" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2107.05768</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Full Attention Transformer with Sparse Computation Costby H Ren · 2021 · Cited by 112 — PDF of the paper titled ・ the key limitation...</p></details>
+   Link:<a href="https://arxiv.org/abs/2107.05768" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2107.05768</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Full Attention Transformer with Sparse Computation Costby H Ren · 2021 · Cited by 112 — PDF of the paper titled ・ the key limitation...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: hazyresearch.stanford.edu  
    Title: 2023 01 12 flashattention long sequences  
-   Link: <a href="https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences" target="_blank" rel="noopener noreferrer nofollow">https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Fast Transformer Training with Long SequencesJan 13, 2023 — FlashAttention is a new algorithm to speed up attention and reduce its memory...</p></details>
+   Link:<a href="https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences" target="_blank" rel="noopener noreferrer nofollow">https://hazyresearch.stanford.edu/blog/2023-01-12-flashattention-long-sequences</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fast Transformer Training with Long SequencesJan 13, 2023 — FlashAttention is a new algorithm to speed up attention and reduce its memory...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2205.14135" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2205.14135</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware...</p></details>
+   Link:<a href="https://arxiv.org/abs/2205.14135" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2205.14135</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: aiplanet.com  
-   Link: <a href="https://aiplanet.com/learn/llm-bootcamp/module-4/2343/transformers-attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://aiplanet.com/learn/llm-bootcamp/module-4/2343/transformers-attention-is-all-you-need</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Transformers- Attention is all you needComputational Complexity: The traditional Attention mechanism involves pairwise comparisons betwee...</p></details>
+   Link:<a href="https://aiplanet.com/learn/llm-bootcamp/module-4/2343/transformers-attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://aiplanet.com/learn/llm-bootcamp/module-4/2343/transformers-attention-is-all-you-need</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformers- Attention is all you needComputational Complexity: The traditional Attention mechanism involves pairwise comparisons betwee...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2310.03294v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2310.03294v2</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>DistFlashAttn: Distributed Memory-efficient Attention for...Mar 31, 2024 — FlashAttention (Dao, 2023) effectively reduces the quadratic...</p></details>
+   Link:<a href="https://arxiv.org/html/2310.03294v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2310.03294v2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>DistFlashAttn: Distributed Memory-efficient Attention for...Mar 31, 2024 — FlashAttention (Dao, 2023) effectively reduces the quadratic...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=H4DqfPSibmx" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=H4DqfPSibmx</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware exact...</p></details>
+   Link:<a href="https://openreview.net/forum?id=H4DqfPSibmx" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=H4DqfPSibmx</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fast and Memory-Efficient Exact Attention with IO-Awarenessby T Dao · 2022 · Cited by 5165 — We propose FlashAttention, an IO-aware exact...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2310.03294" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.03294</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs TrainingOctober 5, 2023...</p></details>
+   Link:<a href="https://arxiv.org/abs/2310.03294" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.03294</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>DISTFLASHATTN: Distributed Memory-efficient Attention for Long-context LLMs TrainingOctober 5, 2023...</p></details>
    Published: October 5, 2023  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40kiranvutukuri/69-sparse-attention-making-transformers-efficient-for-long-sequences-859aa03b03f6" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kiranvutukuri/69-sparse-attention-making-transformers-efficient-for-long-sequences-859aa03b03f6</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>69. Making Transformers Efficient for Long Sequences:...By attending to a subset of tokens, attention cost drops from quadratic to...</p></details>
+   Link:<a href="https://medium.com/%40kiranvutukuri/69-sparse-attention-making-transformers-efficient-for-long-sequences-859aa03b03f6" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kiranvutukuri/69-sparse-attention-making-transformers-efficient-for-long-sequences-859aa03b03f6</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>69. Making Transformers Efficient for Long Sequences:...By attending to a subset of tokens, attention cost drops from quadratic to...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40dr.teck/efficient-alternatives-to-transformer-self-attention-397851f324ab" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40dr.teck/efficient-alternatives-to-transformer-self-attention-397851f324ab</a>  
+   Link:<a href="https://medium.com/%40dr.teck/efficient-alternatives-to-transformer-self-attention-397851f324ab" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40dr.teck/efficient-alternatives-to-transformer-self-attention-397851f324ab</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2502.01659" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.01659</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Increasing Transformer Context Length with Sparse Graph...by N Tomczak · 2025 · Cited by 2 — In this work, we address this issue by prop...</p></details>
+   Link:<a href="https://arxiv.org/abs/2502.01659" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.01659</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Increasing Transformer Context Length with Sparse Graph...by N Tomczak · 2025 · Cited by 2 — In this work, we address this issue by prop...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2506.01963v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2506.01963v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Non-Attention LLM for Ultra-Long Context Horizons9 May 2025 — We present a novel non-attention-based architecture for large language mo...</p></details>
+   Link:<a href="https://arxiv.org/html/2506.01963v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2506.01963v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Non-Attention LLM for Ultra-Long Context Horizons9 May 2025 — We present a novel non-attention-based architecture for large language mo...</p></details>
    Published: May 2025  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2209.04881" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2209.04881</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>On The Computational Complexity of Self-Attentionby FD Keles · 2022 · Cited by 379 — We prove that the time complexity of self-attention...</p></details>
+   Link:<a href="https://arxiv.org/abs/2209.04881" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2209.04881</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>On The Computational Complexity of Self-Attentionby FD Keles · 2022 · Cited by 379 — We prove that the time complexity of self-attention...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40mridulrao674385/attention-mechanism-complexity-analysis-7314063459b1" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40mridulrao674385/attention-mechanism-complexity-analysis-7314063459b1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Mechanism Complexity Analysis | by Mridul RaoComplexity analysis is about estimating how the time required to execute an algori...</p></details>
+   Link:<a href="https://medium.com/%40mridulrao674385/attention-mechanism-complexity-analysis-7314063459b1" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40mridulrao674385/attention-mechanism-complexity-analysis-7314063459b1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Mechanism Complexity Analysis | by Mridul RaoComplexity analysis is about estimating how the time required to execute an algori...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: [machine-learning](&#123;&#123; 'machine-learning/' | relative_url &#125;&#125;)-made-simple.medium.com  
-   Link: <a href="https://machine-learning-made-simple.medium.com/transformers-vs-mamba-vs-linear-attention-who-wins-long-context-f1dc8ceb5ede" target="_blank" rel="noopener noreferrer nofollow">https://machine-learning-made-simple.medium.com/transformers-vs-mamba-vs-linear-attention-who-wins-long-context-f1dc8ceb5ede</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>vs Mamba vs Linear Attention: Who Wins Long...Transformer inference today faces a fundamental bottleneck — the quadratic cost of attention...</p></details>
+   Link:<a href="https://machine-learning-made-simple.medium.com/transformers-vs-mamba-vs-linear-attention-who-wins-long-context-f1dc8ceb5ede" target="_blank" rel="noopener noreferrer nofollow">https://machine-learning-made-simple.medium.com/transformers-vs-mamba-vs-linear-attention-who-wins-long-context-f1dc8ceb5ede</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>vs Mamba vs Linear Attention: Who Wins Long...Transformer inference today faces a fundamental bottleneck — the quadratic cost of attention...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/data-science-collective/transformers-the-game-changer-how-attention-is-all-you-need-architecture-changed-ai-forever-81a43344ce63" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science-collective/transformers-the-game-changer-how-attention-is-all-you-need-architecture-changed-ai-forever-81a43344ce63</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>N, you compute N x N attention scores. For GPT-3 with 2048...Read more...</p></details>
+   Link:<a href="https://medium.com/data-science-collective/transformers-the-game-changer-how-attention-is-all-you-need-architecture-changed-ai-forever-81a43344ce63" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science-collective/transformers-the-game-changer-how-attention-is-all-you-need-architecture-changed-ai-forever-81a43344ce63</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>N, you compute N x N attention scores. For GPT-3 with 2048...Read more...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40sailakkshmiallada/the-evolution-of-flash-attention-revolutionizing-transformer-efficiency-8a039918d507" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40sailakkshmiallada/the-evolution-of-flash-attention-revolutionizing-transformer-efficiency-8a039918d507</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ion, enabling longer context windows and faster training.Read more...</p></details>
+   Link:<a href="https://medium.com/%40sailakkshmiallada/the-evolution-of-flash-attention-revolutionizing-transformer-efficiency-8a039918d507" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40sailakkshmiallada/the-evolution-of-flash-attention-revolutionizing-transformer-efficiency-8a039918d507</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ion, enabling longer context windows and faster training.Read more...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: sulbhajain.medium.com  
-   Link: <a href="https://sulbhajain.medium.com/flash-attention-fast-and-memory-efficient-exact-attention-with-io-awareness-paper-review-79639127c5de" target="_blank" rel="noopener noreferrer nofollow">https://sulbhajain.medium.com/flash-attention-fast-and-memory-efficient-exact-attention-with-io-awareness-paper-review-79639127c5de</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>and Memory-Efficient Exact Attention with IO-Awareness...26 May 2025 — Solution: FlashAttention is an IO-aware exact attention algorithm...</p></details>
+   Link:<a href="https://sulbhajain.medium.com/flash-attention-fast-and-memory-efficient-exact-attention-with-io-awareness-paper-review-79639127c5de" target="_blank" rel="noopener noreferrer nofollow">https://sulbhajain.medium.com/flash-attention-fast-and-memory-efficient-exact-attention-with-io-awareness-paper-review-79639127c5de</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>and Memory-Efficient Exact Attention with IO-Awareness...26 May 2025 — Solution: FlashAttention is an IO-aware exact attention algorithm...</p></details>
    Published: May 2025  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: medium.com  
    Title: The Quadratic Burden  
-   Link: <a href="https://medium.com/%40rajnish_khatri/the-quadratic-burden-45759ec6bd21" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40rajnish_khatri/the-quadratic-burden-45759ec6bd21</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>No recurrence. No convolution. Only attention — each token looking at every other token, weighing, selecting, composing...Read more...</p></details>
+   Link:<a href="https://medium.com/%40rajnish_khatri/the-quadratic-burden-45759ec6bd21" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40rajnish_khatri/the-quadratic-burden-45759ec6bd21</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>No recurrence. No convolution. Only attention — each token looking at every other token, weighing, selecting, composing...Read more...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: ahmdtaha.medium.com  
-   Link: <a href="https://ahmdtaha.medium.com/flashattention-fast-and-memory-efficient-exact-attention-with-io-awareness-2a0aec52ed3d" target="_blank" rel="noopener noreferrer nofollow">https://ahmdtaha.medium.com/flashattention-fast-and-memory-efficient-exact-attention-with-io-awareness-2a0aec52ed3d</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>medium.comFlashAttention: Fast and Memory-Efficient Exact Attention with...This paper [1] proposes an IO-aware algorithm that computes e...</p></details>
+   Link:<a href="https://ahmdtaha.medium.com/flashattention-fast-and-memory-efficient-exact-attention-with-io-awareness-2a0aec52ed3d" target="_blank" rel="noopener noreferrer nofollow">https://ahmdtaha.medium.com/flashattention-fast-and-memory-efficient-exact-attention-with-io-awareness-2a0aec52ed3d</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>medium.comFlashAttention: Fast and Memory-Efficient Exact Attention with...This paper [1] proposes an IO-aware algorithm that computes e...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40kdk199604/kdks-review-attention-is-all-you-need-what-makes-the-transformer-so-revolutionary-c91f135583b0" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kdk199604/kdks-review-attention-is-all-you-need-what-makes-the-transformer-so-revolutionary-c91f135583b0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is All You Need: What makes the transformer so...In the Transformer model, the attention layer focuses on the input sequence i...</p></details>
+   Link:<a href="https://medium.com/%40kdk199604/kdks-review-attention-is-all-you-need-what-makes-the-transformer-so-revolutionary-c91f135583b0" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kdk199604/kdks-review-attention-is-all-you-need-what-makes-the-transformer-so-revolutionary-c91f135583b0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is All You Need: What makes the transformer so...In the Transformer model, the attention layer focuses on the input sequence i...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/forum?id=pUEDkZyPDl&amp;referrer=%5Bthe+profile+of+Dacheng+Li%5D%28%2Fprofile%3Fid%3D~Dacheng_Li1%29" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=pUEDkZyPDl&amp;referrer=%5Bthe+profile+of+Dacheng+Li%5D%28%2Fprofile%3Fid%3D~Dacheng_Li1%29</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>DISTFLASHATTN: Distributed Memory-efficient Attention for...Aug 25, 2024 — Abstract: FlashAttention effectively reduces the quadratic pea...</p></details>
+   Link:<a href="https://openreview.net/forum?id=pUEDkZyPDl&amp;referrer=%5Bthe+profile+of+Dacheng+Li%5D%28%2Fprofile%3Fid%3D~Dacheng_Li1%29" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/forum?id=pUEDkZyPDl&amp;referrer=%5Bthe+profile+of+Dacheng+Li%5D%28%2Fprofile%3Fid%3D~Dacheng_Li1%29</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>DISTFLASHATTN: Distributed Memory-efficient Attention for...Aug 25, 2024 — Abstract: FlashAttention effectively reduces the quadratic pea...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/pdf?id=Eh0Od2BJIM" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=Eh0Od2BJIM</a>  
+   Link:<a href="https://openreview.net/pdf?id=Eh0Od2BJIM" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=Eh0Od2BJIM</a>  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: shreyansh26.github.io  
-   Link: <a href="https://shreyansh26.github.io/post/2022-10-10_efficient_transformers_survey/" target="_blank" rel="noopener noreferrer nofollow">https://shreyansh26.github.io/post/2022-10-10_efficient_transformers_survey/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Shreyansh SinghPaper Summary #7 - Efficient Transformers: A Survey10 Oct 2022 — This is a survey paper on the various memory-efficiency...</p></details>
+   Link:<a href="https://shreyansh26.github.io/post/2022-10-10_efficient_transformers_survey/" target="_blank" rel="noopener noreferrer nofollow">https://shreyansh26.github.io/post/2022-10-10_efficient_transformers_survey/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Shreyansh SinghPaper Summary #7 - Efficient Transformers: A Survey10 Oct 2022 — This is a survey paper on the various memory-efficiency...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: mbrenndoerfer.com  
    Title: quadratic attention bottleneck transformers long sequences  
-   Link: <a href="https://mbrenndoerfer.com/writing/quadratic-attention-bottleneck-transformers-long-sequences" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/quadratic-attention-bottleneck-transformers-long-sequences</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferQuadratic Attention Bottleneck: Why Transformers Struggle...19 Jun 2025 — Understand why self-attention has O(n²) co...</p></details>
+   Link:<a href="https://mbrenndoerfer.com/writing/quadratic-attention-bottleneck-transformers-long-sequences" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/quadratic-attention-bottleneck-transformers-long-sequences</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferQuadratic Attention Bottleneck: Why Transformers Struggle...19 Jun 2025 — Understand why self-attention has O(n²) co...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: machinelearningatscale.substack.com  
    Title: Machine Learning At Scale64  
-   Link: <a href="https://machinelearningatscale.substack.com/p/64-challenges-and-solutions-of-long" target="_blank" rel="noopener noreferrer nofollow">https://machinelearningatscale.substack.com/p/64-challenges-and-solutions-of-long</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>substack.com64. Breaking the Attention Barrier: A Deep Dive into Scaling...Flash Attention is an algorithm designed to address the memor...</p></details>
+   Link:<a href="https://machinelearningatscale.substack.com/p/64-challenges-and-solutions-of-long" target="_blank" rel="noopener noreferrer nofollow">https://machinelearningatscale.substack.com/p/64-challenges-and-solutions-of-long</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>substack.com64. Breaking the Attention Barrier: A Deep Dive into Scaling...Flash Attention is an algorithm designed to address the memor...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: attention-survey.github.io  
-   Link: <a href="https://attention-survey.github.io/files/Attention_Survey.pdf" target="_blank" rel="noopener noreferrer nofollow">https://attention-survey.github.io/files/Attention_Survey.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ntion heads, and d = 128 head dimensionality in a 48-layer Transformer with MHA, the KV.Read more...</p></details>
+   Link:<a href="https://attention-survey.github.io/files/Attention_Survey.pdf" target="_blank" rel="noopener noreferrer nofollow">https://attention-survey.github.io/files/Attention_Survey.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ntion heads, and d = 128 head dimensionality in a 48-layer Transformer with MHA, the KV.Read more...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: mbrenndoerfer.com  
    Title: attention complexity quadratic scaling memory efficient transformers  
-   Link: <a href="https://mbrenndoerfer.com/writing/attention-complexity-quadratic-scaling-memory-efficient-transformers" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/attention-complexity-quadratic-scaling-memory-efficient-transformers</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Complexity: Quadratic Scaling, Memory Limits &amp;...26 May 2025 — For autoregressive generation where the full context is reproce...</p></details>
+   Link:<a href="https://mbrenndoerfer.com/writing/attention-complexity-quadratic-scaling-memory-efficient-transformers" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/attention-complexity-quadratic-scaling-memory-efficient-transformers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Complexity: Quadratic Scaling, Memory Limits &amp;...26 May 2025 — For autoregressive generation where the full context is reproce...</p></details>
    Published: May 2025  
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: mbrenndoerfer.com  
    Title: flashattention io aware exact attention long context language models  
-   Link: <a href="https://mbrenndoerfer.com/writing/flashattention-io-aware-exact-attention-long-context-language-models" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/flashattention-io-aware-exact-attention-long-context-language-models</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FlashAttention: IO-Aware Exact Attention for Long-Context...Jul 11, 2025 — This approach reduced memory complexity from quadratic to lin...</p></details>
+   Link:<a href="https://mbrenndoerfer.com/writing/flashattention-io-aware-exact-attention-long-context-language-models" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/flashattention-io-aware-exact-attention-long-context-language-models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FlashAttention: IO-Aware Exact Attention for Long-Context...Jul 11, 2025 — This approach reduced memory complexity from quadratic to lin...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: mbrenndoerfer.com  
    Title: The Transformer: Attention Is All You Need  
-   Link: <a href="https://mbrenndoerfer.com/writing/transformer-attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/transformer-attention-is-all-you-need</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>InteractiveJun 7, 2025 — A comprehensive guide to the Transformer architecture, including self-attention mechanisms, [multi-head](&amp;#123;&amp;#123; &#x27;multi-heads/&#x27; | relative_url &amp;#125;&amp;#125;) attention...</p></details>
+   Link:<a href="https://mbrenndoerfer.com/writing/transformer-attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/transformer-attention-is-all-you-need</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>InteractiveJun 7, 2025 — A comprehensive guide to the Transformer architecture, including self-attention mechanisms, [multi-head](&amp;#123;&amp;#123; &#x27;multi-heads/&#x27; | relative_url &amp;#125;&amp;#125;) attention...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: github.com  
-   Link: <a href="https://github.com/dao-ailab/flash-attention" target="_blank" rel="noopener noreferrer nofollow">https://github.com/dao-ailab/flash-attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>s memory quadratic in sequence length, whereas FlashAttention has memory linear...</p></details>
+   Link:<a href="https://github.com/dao-ailab/flash-attention" target="_blank" rel="noopener noreferrer nofollow">https://github.com/dao-ailab/flash-attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>s memory quadratic in sequence length, whereas FlashAttention has memory linear...</p></details>
 
 ### Additional References
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: aussieai.com  
-   Link: <a href="https://www.aussieai.com/research/attention" target="_blank" rel="noopener noreferrer nofollow">https://www.aussieai.com/research/attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention OptimizationMemory-efficient attention algorithms are an inference optimization method that improves the QKV matrix computation...</p></details>
+   Link:<a href="https://www.aussieai.com/research/attention" target="_blank" rel="noopener noreferrer nofollow">https://www.aussieai.com/research/attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention OptimizationMemory-efficient attention algorithms are an inference optimization method that improves the QKV matrix computation...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: bentoml.com  
-   Link: <a href="https://bentoml.com/llm/kernel-optimization/flashattention" target="_blank" rel="noopener noreferrer nofollow">https://bentoml.com/llm/kernel-optimization/flashattention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FlashAttention | LLM Inference HandbookFlashAttention is a fast, memory-efficient attention algorithm for Transformers that accelerates L...</p></details>
+   Link:<a href="https://bentoml.com/llm/kernel-optimization/flashattention" target="_blank" rel="noopener noreferrer nofollow">https://bentoml.com/llm/kernel-optimization/flashattention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FlashAttention | LLM Inference HandbookFlashAttention is a fast, memory-efficient attention algorithm for Transformers that accelerates L...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: nvidia.com  
-   Link: <a href="https://www.nvidia.com/en-us/on-demand/session/gtc24-s62546/" target="_blank" rel="noopener noreferrer nofollow">https://www.nvidia.com/en-us/on-demand/session/gtc24-s62546/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FlashAttention: Fast and Memory-Efficient Exact Attention...We propose FlashAttention, an IO-aware exact attention algorithm that uses t...</p></details>
+   Link:<a href="https://www.nvidia.com/en-us/on-demand/session/gtc24-s62546/" target="_blank" rel="noopener noreferrer nofollow">https://www.nvidia.com/en-us/on-demand/session/gtc24-s62546/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FlashAttention: Fast and Memory-Efficient Exact Attention...We propose FlashAttention, an IO-aware exact attention algorithm that uses t...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/LocalLLaMA/comments/17rme8v/regarding_long_context_and_quadratic_attention/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LocalLLaMA/comments/17rme8v/regarding_long_context_and_quadratic_attention/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Regarding long context and quadratic attentionQuadratic scaling of attention is a problem, but not something any of the currently trained...</p></details>
+   Link:<a href="https://www.reddit.com/r/LocalLLaMA/comments/17rme8v/regarding_long_context_and_quadratic_attention/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LocalLLaMA/comments/17rme8v/regarding_long_context_and_quadratic_attention/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Regarding long context and quadratic attentionQuadratic scaling of attention is a problem, but not something any of the currently trained...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: stackoverflow.com  
-   Link: <a href="https://stackoverflow.com/questions/65703260/computational-complexity-of-self-attention-in-the-transformer-model" target="_blank" rel="noopener noreferrer nofollow">https://stackoverflow.com/questions/65703260/computational-complexity-of-self-attention-in-the-transformer-model</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Computational Complexity of Self-Attention in the...I recently went through the Transformer paper from Google Research describing how se...</p></details>
+   Link:<a href="https://stackoverflow.com/questions/65703260/computational-complexity-of-self-attention-in-the-transformer-model" target="_blank" rel="noopener noreferrer nofollow">https://stackoverflow.com/questions/65703260/computational-complexity-of-self-attention-in-the-transformer-model</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Computational Complexity of Self-Attention in the...I recently went through the Transformer paper from Google Research describing how se...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: velog.io  
-   Link: <a href="https://velog.io/%40chaewonkim0425/Why-Attention-was-all-we-needed" target="_blank" rel="noopener noreferrer nofollow">https://velog.io/%40chaewonkim0425/Why-Attention-was-all-we-needed</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[Paper review] Why Attention Was All We NeededThe self-attention mechanism compares every token with every other token, causing quadratic...</p></details>
+   Link:<a href="https://velog.io/%40chaewonkim0425/Why-Attention-was-all-we-needed" target="_blank" rel="noopener noreferrer nofollow">https://velog.io/%40chaewonkim0425/Why-Attention-was-all-we-needed</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Paper review] Why Attention Was All We NeededThe self-attention mechanism compares every token with every other token, causing quadratic...</p></details>
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/398527678_Efficient_Attention_and_Beyond_A_Survey_of_Advances_in_Optimizing_Transformer_Inference" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/398527678_Efficient_Attention_and_Beyond_A_Survey_of_Advances_in_Optimizing_Transformer_Inference</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Survey of Advances in Optimizing Transformer Inference12 Dec 2025 — Efficient Attention and Beyond: A Survey of Advances in Optimizing...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/398527678_Efficient_Attention_and_Beyond_A_Survey_of_Advances_in_Optimizing_Transformer_Inference" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/398527678_Efficient_Attention_and_Beyond_A_Survey_of_Advances_in_Optimizing_Transformer_Inference</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Survey of Advances in Optimizing Transformer Inference12 Dec 2025 — Efficient Attention and Beyond: A Survey of Advances in Optimizing...</p></details>
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: apxml.com  
-   Link: <a href="https://apxml.com/courses/foundations-transformers-architecture/chapter-6-advanced-architectural-variants-analysis/self-attention-complexity" target="_blank" rel="noopener noreferrer nofollow">https://apxml.com/courses/foundations-transformers-architecture/chapter-6-advanced-architectural-variants-analysis/self-attention-complexity</a>  
+   Link:<a href="https://apxml.com/courses/foundations-transformers-architecture/chapter-6-advanced-architectural-variants-analysis/self-attention-complexity" target="_blank" rel="noopener noreferrer nofollow">https://apxml.com/courses/foundations-transformers-architecture/chapter-6-advanced-architectural-variants-analysis/self-attention-complexity</a>  
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: wandb.ai  
-   Link: <a href="https://wandb.ai/wandb_fc/tips/reports/The-Problem-with-Quadratic-Attention-in-Transformer-Architectures--Vmlldzo3MDE0Mzcz" target="_blank" rel="noopener noreferrer nofollow">https://wandb.ai/wandb_fc/tips/reports/The-Problem-with-Quadratic-Attention-in-Transformer-Architectures--Vmlldzo3MDE0Mzcz</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Problem with Quadratic Attention in Transformer...Mar 4, 2024 — This report provides a brief overview of the problem with vanilla se...</p></details>
+   Link:<a href="https://wandb.ai/wandb_fc/tips/reports/The-Problem-with-Quadratic-Attention-in-Transformer-Architectures--Vmlldzo3MDE0Mzcz" target="_blank" rel="noopener noreferrer nofollow">https://wandb.ai/wandb_fc/tips/reports/The-Problem-with-Quadratic-Attention-in-Transformer-Architectures--Vmlldzo3MDE0Mzcz</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Problem with Quadratic Attention in Transformer...Mar 4, 2024 — This report provides a brief overview of the problem with vanilla se...</p></details>
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=eMlx5fFNoYc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=eMlx5fFNoYc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;Kurt, W. (2024, August 12). Say what you mean: A response to &#x27;Let Me Speak Freely&#x27;. Count Bayesie. [https://www.countbayesie.com/blog/2024...&quot;](https://www.countbayesie.com/blog/2024...&quot;)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=eMlx5fFNoYc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=eMlx5fFNoYc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;Kurt, W. (2024, August 12). Say what you mean: A response to &#x27;Let Me Speak Freely&#x27;. Count Bayesie. [https://www.countbayesie.com/blog/2024...&quot;](https://www.countbayesie.com/blog/2024...&quot;)...</p></details>

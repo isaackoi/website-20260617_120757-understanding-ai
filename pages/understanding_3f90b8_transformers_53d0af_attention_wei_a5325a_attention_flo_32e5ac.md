@@ -269,13 +269,13 @@ image: /assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a53
 
 ## Introduction
 
-A coloured [attention]({{ 'attention/' | relative_url }}) heat map can be visually persuasive. If a token receives a bright, high-attention score, it appears to be the piece of text that mattered most. The problem is that a Transformer does not make decisions from a single attention layer. Information is repeatedly mixed, copied, and transformed across many layers. By the time a model reaches a later layer, the representation associated with one token may already contain information gathered from numerous earlier tokens. As a result, a single [attention map]({{ 'attention-maps-e039cc/' | relative_url }}) often shows only a local routing decision rather than the full path of influence through the network. Research on attention flow and attention rollout was developed specifically to address this problem by tracing how information propagates across layers rather than inspecting one layer in isolation. These methods generally correlate more strongly with independent measures of token importance than raw attention heat maps do. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+A coloured [attention]({{ 'attention/' | relative_url }}) heat map can be visually persuasive. If a token receives a bright, high-attention score, it appears to be the piece of text that mattered most. The problem is that a Transformer does not make decisions from a single attention layer. Information is repeatedly mixed, copied, and transformed across many layers. By the time a model reaches a later layer, the representation associated with one token may already contain information gathered from numerous earlier tokens. As a result, a single [attention map]({{ 'attention-maps-e039cc/' | relative_url }}) often shows only a local routing decision rather than the full path of influence through the network. Research on attention flow and attention rollout was developed specifically to address this problem by tracing how information propagates across layers rather than inspecting one layer in isolation. These methods generally correlate more strongly with independent measures of token importance than raw attention heat maps do.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_attention_flo_32e5ac-Illustration-1-dark.svg" | relative_url }}" alt="Attention Flow illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_attention_flo_32e5ac-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_attention_flo_32e5ac-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## How attention flow works
 
-The key idea behind attention flow is that influence in a Transformer is cumulative. Every [self-attention]({{ 'self-attention/' | relative_url }}) layer takes representations from the previous layer and combines them into new representations. Because this process repeats many times, information originating from one input token can travel through numerous intermediate nodes before contributing to a final [prediction]({{ 'error-harms/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+The key idea behind attention flow is that influence in a Transformer is cumulative. Every [self-attention]({{ 'self-attention/' | relative_url }}) layer takes representations from the previous layer and combines them into new representations. Because this process repeats many times, information originating from one input token can travel through numerous intermediate nodes before contributing to a final [prediction]({{ 'error-harms/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
 A standard attention heat map typically answers a narrow question:
 
@@ -285,9 +285,9 @@ Attention flow asks a different question:
 
 > Through all layers of the network, how much information from each input token can reach this representation?
 
-To answer that question, the model is treated as a directed graph. Tokens and hidden representations become nodes, while attention connections become weighted [edges]({{ 'edges/' | relative_url }}). The method then estimates how much influence can travel from input tokens to later representations through the entire network rather than through a single layer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+To answer that question, the model is treated as a directed graph. Tokens and hidden representations become nodes, while attention connections become weighted [edges]({{ 'edges/' | relative_url }}). The method then estimates how much influence can travel from input tokens to later representations through the entire network rather than through a single layer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
-This distinction matters because residual connections—the skip connections present in Transformer blocks—allow information to persist even when attention weights appear small. Attention flow and related methods explicitly account for these pathways, producing a more realistic picture of how information moves through the model. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-title">Research Gate(PDF) Quantifying Attention Flow in Transformers</span><span class="citation-popover-snippet">ResearchGate(PDF) Quantifying Attention Flow in TransformersMay 8, 2020 — To understand how attention is aggregated through the network...</span><span class="citation-popover-meta">Published: May 8, 2020</span></span></span>
+This distinction matters because residual connections—the skip connections present in Transformer blocks—allow information to persist even when attention weights appear small. Attention flow and related methods explicitly account for these pathways, producing a more realistic picture of how information moves through the model.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-title">Research Gate(PDF) Quantifying Attention Flow in Transformers</span><span class="citation-popover-snippet">ResearchGate(PDF) Quantifying Attention Flow in TransformersMay 8, 2020 — To understand how attention is aggregated through the network...</span><span class="citation-popover-meta">Published: May 8, 2020</span></span></span>
 
 A useful analogy is air travel. Looking at the final flight into a destination does not reveal where passengers originally started. Many travellers may have arrived through connecting airports. Attention flow reconstructs the entire journey, while a single heat map only shows the final leg.
 
@@ -296,39 +296,39 @@ A useful analogy is air travel. Looking at the final flight into a destination d
 
 ## What rollout reveals that heat maps miss
 
-Attention rollout was introduced alongside attention flow as a practical way to estimate how attention accumulates through layers. Instead of examining one attention matrix at a time, rollout recursively combines attention matrices across layers. The result is an estimate of how strongly a final representation is connected to the original input tokens. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+Attention rollout was introduced alongside attention flow as a practical way to estimate how attention accumulates through layers. Instead of examining one attention matrix at a time, rollout recursively combines attention matrices across layers. The result is an estimate of how strongly a final representation is connected to the original input tokens.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
 This approach reveals several patterns that are often hidden in ordinary visualisations.
 
 ### Influence can come from indirect paths
 
-Suppose a final-layer token strongly attends to token B. A heat map might suggest that B is the main source of information. However, token B may itself have obtained most of its information from tokens A and C in earlier layers. Looking only at the final layer obscures that history. Rollout and flow methods recover these indirect dependencies. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+Suppose a final-layer token strongly attends to token B. A heat map might suggest that B is the main source of information. However, token B may itself have obtained most of its information from tokens A and C in earlier layers. Looking only at the final layer obscures that history. Rollout and flow methods recover these indirect dependencies.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_attention_flo_32e5ac-Illustration-2-dark.svg" | relative_url }}" alt="Attention Flow illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_attention_flo_32e5ac-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_attention_flo_32e5ac-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Late-layer attention can be misleading
 
-As representations become more abstract, a token's embedding increasingly contains mixed information from multiple sources. A late-layer attention score therefore reflects attention to an already-combined representation rather than to a single original token. Tracking attention across layers helps disentangle those mixtures. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Quantifying Attention Flow in Transformers</span><span class="citation-popover-snippet">arXiv Quantifying Attention Flow in Transformers</span></span></span>
+As representations become more abstract, a token's embedding increasingly contains mixed information from multiple sources. A late-layer attention score therefore reflects attention to an already-combined representation rather than to a single original token. Tracking attention across layers helps disentangle those mixtures.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Quantifying Attention Flow in Transformers</span><span class="citation-popover-snippet">arXiv Quantifying Attention Flow in Transformers</span></span></span>
 
 ### Hidden contributors become visible
 
-In many cases, important input tokens receive modest attention in the final layers but exert substantial influence through chains of intermediate interactions. Heat maps can understate their role, whereas attention flow often identifies them as significant contributors. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+In many cases, important input tokens receive modest attention in the final layers but exert substantial influence through chains of intermediate interactions. Heat maps can understate their role, whereas attention flow often identifies them as significant contributors.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
-The empirical evidence is one reason these methods attracted attention. In experiments on Transformer models, attention rollout and attention flow showed substantially higher agreement with independent importance measures, including gradient-based attribution and input-ablation tests, than raw attention weights did. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+The empirical evidence is one reason these methods attracted attention. In experiments on Transformer models, attention rollout and attention flow showed substantially higher agreement with independent importance measures, including gradient-based attribution and input-ablation tests, than raw attention weights did.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/G6_IA5vKXRI" title="Image Classification Using Vision Transformer | An Image is Worth 16x16 Words" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=G6_IA5vKXRI" target="_blank" rel="noopener noreferrer">Image Classification Using Vision Transformer | An Image is Worth 16x16 Words</a></p><p class="youtube-embed-meta">Channel: ExplainingAI &middot; Views: 3.9K &middot; Uploaded: October 2023 &middot; Length: 9 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=G6_IA5vKXRI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=G6_IA5vKXRI">Open on YouTube</a></p></div></div></div>
 
 ## Why this matters for explanations
 
-The broader debate around attention as explanation emerged after studies showed that raw attention weights often correlate poorly with other measures of feature importance. Researchers demonstrated that very different attention patterns could sometimes produce essentially the same prediction, raising doubts about interpreting a heat map as a causal explanation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+The broader debate around attention as explanation emerged after studies showed that raw attention weights often correlate poorly with other measures of feature importance. Researchers demonstrated that very different attention patterns could sometimes produce essentially the same prediction, raising doubts about interpreting a heat map as a causal explanation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
-Attention flow does not completely solve the explanation problem, but it addresses one of the main weaknesses of raw attention visualisation: the failure to account for information mixing across layers. Instead of treating attention as a single snapshot, it models attention as a process unfolding through the network. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+Attention flow does not completely solve the explanation problem, but it addresses one of the main weaknesses of raw attention visualisation: the failure to account for information mixing across layers. Instead of treating attention as a single snapshot, it models attention as a process unfolding through the network.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
 This shift changes the interpretation:
 
-* A heat map shows where information is being routed at one step. <span class="citation-chip-wrap"><a class="citation-chip" href="https://creatis-myriad.github.io/2022/07/07/AttentionRollout.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: creatis-myriad.github.io">[Attention Rollout]</a><span class="citation-popover" role="note"><span class="citation-popover-source">creatis-myriad.github.io</span><span class="citation-popover-snippet">Quantifying Attention Flow in Transformers7 Jul 2022 — This paper presents two methods, Attention Rollout and Attention Flow, that allow...</span></span></span> ut estimates how routing [decisions]({{ 'decisions/' | relative_url }}) accumulate across steps.
-* Attention flow estimates how influence can travel through the entire attention graph. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+* A heat map shows where information is being routed at one step.<span class="citation-chip-wrap"><a class="citation-chip" href="https://creatis-myriad.github.io/2022/07/07/AttentionRollout.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: creatis-myriad.github.io">[Attention Rollout]</a><span class="citation-popover" role="note"><span class="citation-popover-source">creatis-myriad.github.io</span><span class="citation-popover-snippet">Quantifying Attention Flow in Transformers7 Jul 2022 — This paper presents two methods, Attention Rollout and Attention Flow, that allow...</span></span></span> ut estimates how routing [decisions]({{ 'decisions/' | relative_url }}) accumulate across steps.
+* Attention flow estimates how influence can travel through the entire attention graph.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
 For someone trying to understand why a Transformer produced a particular output, the latter two perspectives are usually closer to the underlying computation.
 
@@ -336,193 +336,193 @@ For someone trying to understand why a Transformer produced a particular output,
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_attention_flo_32e5ac-Illustration-3-dark.svg" | relative_url }}" alt="Attention Flow illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_attention_flo_32e5ac-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_attention_flo_32e5ac-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## Comparing attention flow with other attribution methods
 
-Attention flow is best viewed as part of a broader interpretability toolkit rather than a definitive measure of causation. Researchers commonly compare it with gradient-based attribution, input ablation, and relevance-propagation methods. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Chefer_Transformer_Interpretability_Beyond_Attention_Visualization_CVPR_2021_paper.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openaccess.thecvf.com">[CVF Open Access]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openaccess.thecvf.com</span><span class="citation-popover-snippet">CVF Open AccessTransformer Interpretability Beyond Attention Visualizationby H Chefer · 2021 · Cited by 1538 — The rollout method [1] is...</span></span></span>
+Attention flow is best viewed as part of a broader interpretability toolkit rather than a definitive measure of causation. Researchers commonly compare it with gradient-based attribution, input ablation, and relevance-propagation methods.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Chefer_Transformer_Interpretability_Beyond_Attention_Visualization_CVPR_2021_paper.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: openaccess.thecvf.com">[CVF Open Access]</a><span class="citation-popover" role="note"><span class="citation-popover-source">openaccess.thecvf.com</span><span class="citation-popover-snippet">CVF Open AccessTransformer Interpretability Beyond Attention Visualizationby H Chefer · 2021 · Cited by 1538 — The rollout method [1] is...</span></span></span>
 
 Each approach answers a slightly different question:
 
 MethodMain questionRaw attention heat mapsWhere is attention directed in a particular layer?Attention rolloutHow does attention accumulate across layers?Attention flowWhich input tokens can transmit influence through the network graph?GradientsHow much would the output change if an input changed slightly?Ablation testsWhat happens if an input token is removed or masked?
 
-Attention flow has an important advantage over simple heat maps because it respects the multi-layer structure of Transformers. However, gradient and ablation methods often remain stronger indicators of causal influence because they directly measure output sensitivity rather than relying solely on attention patterns. This is why many modern interpretability studies use attention flow as one source of evidence and compare it against independent attribution methods. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology+2CVF Open Access]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+Attention flow has an important advantage over simple heat maps because it respects the multi-layer structure of Transformers. However, gradient and ablation methods often remain stronger indicators of causal influence because they directly measure output sensitivity rather than relying solely on attention patterns. This is why many modern interpretability studies use attention flow as one source of evidence and compare it against independent attribution methods.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology+2CVF Open Access]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
-The practical lesson is that attention heat maps are easiest to visualise but often oversimplify what is happening. Following attention through the network—whether through rollout, flow, or related methods—produces a richer and usually more faithful picture of how information from the input contributes to the model's final behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
+The practical lesson is that attention heat maps are easiest to visualise but often oversimplify what is happening. Following attention through the network—whether through rollout, flow, or related methods—produces a richer and usually more faithful picture of how information from the input contributes to the model's final behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/qU7wO02urYU" title="Vision Transformers (ViT) Explained + Fine-tuning in Python" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=qU7wO02urYU" target="_blank" rel="noopener noreferrer">Vision Transformers (ViT) Explained + Fine-tuning in Python</a></p><p class="youtube-embed-meta">Channel: James Briggs &middot; Views: 76.0K &middot; Uploaded: November 2022 &middot; Length: 30 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=qU7wO02urYU" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=qU7wO02urYU">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why Following Attention Across Layers Changes the Story. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why Following Attention Across Layers Changes the Story. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Explains transformer layers and attention mechanisms that attention-flow methods analyse.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains transformer layers and attention mechanisms that attention-flow methods analyse.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Provides foundations for layered neural representations and gradient-based learning.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Provides foundations for layered neural representations and gradient-based learning.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Helps readers build enough practical ML context to understand model internals and visualisation methods.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps readers build enough practical ML context to understand model internals and visualisation methods.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Interpretable Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Interpretable Machine Learning">Interpretable Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Christoph Molnar</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Interpretable Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Interpretable Machine Learning">Interpretable Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Christoph Molnar</p>
         
-        <p class="fr-book-desc">Gives readers broader tools for judging attribution and explanation methods.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Gives readers broader tools for judging attribution and explanation methods.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+on+Machine+Learning+with+Scikit+Learn%2C+Keras%2C+and+TensorFlow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands on Machine Learning with Scikit Learn, Keras, and TensorFlow</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/fd00da1c57d275a856b1.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/fd00da1c57d275a856b1.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5dab8409dd06438db006.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Machine Learning Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5dab8409dd06438db006.jpg' | relative_url }}" alt="Listing image for Machine Learning Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">Machine Learning Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning wall art" data-ebay-reference="attention-flow-why-following-attention-across-layers-changes-the-story-understanding-machine-learning-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -538,7 +538,7 @@ The practical lesson is that attention heat maps are easiest to visualise but of
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -558,7 +558,7 @@ The practical lesson is that attention heat maps are easiest to visualise but of
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -590,7 +590,7 @@ The practical lesson is that attention heat maps are easiest to visualise but of
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -642,7 +642,7 @@ The practical lesson is that attention heat maps are easiest to visualise but of
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -687,7 +687,7 @@ The practical lesson is that attention heat maps are easiest to visualise but of
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -728,148 +728,148 @@ The practical lesson is that attention heat maps are easiest to visualise but of
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv Quantifying Attention Flow in Transformers  
-   Link: <a href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.00928</a>  
+   Link:<a href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.00928</a>  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: researchgate.net  
    Title: Research Gate(PDF) Quantifying Attention Flow in Transformers  
-   Link: <a href="https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ResearchGate(PDF) Quantifying Attention Flow in TransformersMay 8, 2020 — To understand how attention is aggregated through the network...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ResearchGate(PDF) Quantifying Attention Flow in TransformersMay 8, 2020 — To understand how attention is aggregated through the network...</p></details>
    Published: May 8, 2020  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
    Title: arXiv Attention is not Explanation  
-   Link: <a href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1902.10186</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not ExplanationFebruary 26, 2019...</p></details>
+   Link:<a href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1902.10186</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not ExplanationFebruary 26, 2019...</p></details>
    Published: February 26, 2019  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/343298597_Quantifying_Attention_Flow_in_Transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/343298597_Quantifying_Attention_Flow_in_Transformers</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>introduced attention rollout, attention flow, and more elaborate graph-based...Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/343298597_Quantifying_Attention_Flow_in_Transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/343298597_Quantifying_Attention_Flow_in_Transformers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>introduced attention rollout, attention flow, and more elaborate graph-based...Read more...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: aclanthology.org  
    Title: 2020.acl main.385  
-   Link: <a href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</p></details>
+   Link:<a href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1768 — We propose two methods for approximating the a...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: samiraabnar.github.io  
    Title: attention flow  
-   Link: <a href="https://samiraabnar.github.io/articles/2020-04/attention_flow" target="_blank" rel="noopener noreferrer nofollow">https://samiraabnar.github.io/articles/2020-04/attention_flow</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow in TransformersApr 5, 2020 — I explain two simple but effective methods, called Attention Rollout and Attentio...</p></details>
+   Link:<a href="https://samiraabnar.github.io/articles/2020-04/attention_flow" target="_blank" rel="noopener noreferrer nofollow">https://samiraabnar.github.io/articles/2020-04/attention_flow</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow in TransformersApr 5, 2020 — I explain two simple but effective methods, called Attention Rollout and Attentio...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: aclanthology.org  
    Title: 2020.acl main.385  
-   Link: <a href="https://aclanthology.org/2020.acl-main.385.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1691 — The main difference between attention rollout...</p></details>
+   Link:<a href="https://aclanthology.org/2020.acl-main.385.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1691 — The main difference between attention rollout...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: openaccess.thecvf.com  
-   Link: <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Chefer_Transformer_Interpretability_Beyond_Attention_Visualization_CVPR_2021_paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://openaccess.thecvf.com/content/CVPR2021/papers/Chefer_Transformer_Interpretability_Beyond_Attention_Visualization_CVPR_2021_paper.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>CVF Open AccessTransformer Interpretability Beyond Attention Visualizationby H Chefer · 2021 · Cited by 1538 — The rollout method [1] is...</p></details>
+   Link:<a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Chefer_Transformer_Interpretability_Beyond_Attention_Visualization_CVPR_2021_paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://openaccess.thecvf.com/content/CVPR2021/papers/Chefer_Transformer_Interpretability_Beyond_Attention_Visualization_CVPR_2021_paper.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CVF Open AccessTransformer Interpretability Beyond Attention Visualizationby H Chefer · 2021 · Cited by 1538 — The rollout method [1] is...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Transformer" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>TransformerA transformer is a passive component that transfers electrical energy from one electrical circuit to another circuit, or mu...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Transformer" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>TransformerA transformer is a passive component that transfers electrical energy from one electrical circuit to another circuit, or mu...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: github.com  
    Title: attention rollout for vision transformer.ipynb  
-   Link: <a href="https://github.com/arnavs04/paper-implementations/blob/main/attention-rollout/attention-rollout-for-vision-transformer.ipynb" target="_blank" rel="noopener noreferrer nofollow">https://github.com/arnavs04/paper-implementations/blob/main/attention-rollout/attention-rollout-for-vision-transformer.ipynb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>20, 2024 — Attention rollout has been shown to produce more interpretable and [meaningful](&amp;#123;&amp;#123; &#x27;human-review/&#x27; | relative_url &amp;#125;&amp;#125;) visualizations of attention, especially for deep...</p></details>
+   Link:<a href="https://github.com/arnavs04/paper-implementations/blob/main/attention-rollout/attention-rollout-for-vision-transformer.ipynb" target="_blank" rel="noopener noreferrer nofollow">https://github.com/arnavs04/paper-implementations/blob/main/attention-rollout/attention-rollout-for-vision-transformer.ipynb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>20, 2024 — Attention rollout has been shown to produce more interpretable and [meaningful](&amp;#123;&amp;#123; &#x27;human-review/&#x27; | relative_url &amp;#125;&amp;#125;) visualizations of attention, especially for deep...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/data-science-collective/how-to-read-a-transformers-mind-and-when-you-can-t-ccaedf4b83ea" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science-collective/how-to-read-a-transformers-mind-and-when-you-can-t-ccaedf4b83ea</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Rollout: One Beautiful Idea, One Easy-to-Miss Fix...In this article we will build the attention rollout mechanism from scratch...</p></details>
+   Link:<a href="https://medium.com/data-science-collective/how-to-read-a-transformers-mind-and-when-you-can-t-ccaedf4b83ea" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science-collective/how-to-read-a-transformers-mind-and-when-you-can-t-ccaedf4b83ea</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Rollout: One Beautiful Idea, One Easy-to-Miss Fix...In this article we will build the attention rollout mechanism from scratch...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: scribd.com  
-   Link: <a href="https://www.scribd.com/document/913571062/2020-acl-main-385" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/913571062/2020-acl-main-385</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>rdam ILLC, University of AmsterdamRead more...</p></details>
+   Link:<a href="https://www.scribd.com/document/913571062/2020-acl-main-385" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/913571062/2020-acl-main-385</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>rdam ILLC, University of AmsterdamRead more...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: emergentmind.com  
    Title: gradient attention rollout  
-   Link: <a href="https://www.emergentmind.com/topics/gradient-attention-rollout" target="_blank" rel="noopener noreferrer nofollow">https://www.emergentmind.com/topics/gradient-attention-rollout</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Oct 15, 2025 — Gradient Attention Rollout aggregates attention and gradient data across Transformer layers to yield sharper and more fait...</p></details>
+   Link:<a href="https://www.emergentmind.com/topics/gradient-attention-rollout" target="_blank" rel="noopener noreferrer nofollow">https://www.emergentmind.com/topics/gradient-attention-rollout</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Oct 15, 2025 — Gradient Attention Rollout aggregates attention and gradient data across Transformer layers to yield sharper and more fait...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: creatis-myriad.github.io  
    Title: Attention Rollout  
-   Link: <a href="https://creatis-myriad.github.io/2022/07/07/AttentionRollout.html" target="_blank" rel="noopener noreferrer nofollow">https://creatis-myriad.github.io/2022/07/07/AttentionRollout.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow in Transformers7 Jul 2022 — This paper presents two methods, Attention Rollout and Attention Flow, that allow...</p></details>
+   Link:<a href="https://creatis-myriad.github.io/2022/07/07/AttentionRollout.html" target="_blank" rel="noopener noreferrer nofollow">https://creatis-myriad.github.io/2022/07/07/AttentionRollout.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow in Transformers7 Jul 2022 — This paper presents two methods, Attention Rollout and Attention Flow, that allow...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: kaggle.com  
    Title: attention rollout for vision transformers  
-   Link: <a href="https://www.kaggle.com/code/arnavs19/attention-rollout-for-vision-transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.kaggle.com/code/arnavs19/attention-rollout-for-vision-transformers</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Jun 20, 2024 — Attention rollout has been shown to produce more interpretable and meaningful visualizations of attention, especially for...</p></details>
+   Link:<a href="https://www.kaggle.com/code/arnavs19/attention-rollout-for-vision-transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.kaggle.com/code/arnavs19/attention-rollout-for-vision-transformers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Jun 20, 2024 — Attention rollout has been shown to produce more interpretable and meaningful visualizations of attention, especially for...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: hackmd.io  
-   Link: <a href="https://hackmd.io/%40YungHuiHsu/rk8ZHeqys" target="_blank" rel="noopener noreferrer nofollow">https://hackmd.io/%40YungHuiHsu/rk8ZHeqys</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[Explainable AI] Transformer Interpretability Beyond...Nov 8, 2023 — [Explainable AI] Transformer Interpretability Beyond Attention Visu...</p></details>
+   Link:<a href="https://hackmd.io/%40YungHuiHsu/rk8ZHeqys" target="_blank" rel="noopener noreferrer nofollow">https://hackmd.io/%40YungHuiHsu/rk8ZHeqys</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Explainable AI] Transformer Interpretability Beyond...Nov 8, 2023 — [Explainable AI] Transformer Interpretability Beyond Attention Visu...</p></details>
 
 ### Additional References
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40nivonl/exploring-visual-attention-in-transformer-models-ab538c06083a" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40nivonl/exploring-visual-attention-in-transformer-models-ab538c06083a</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring Visual Attention in Transformer ModelsIn this post, we will delve into how to quantify and visualize attention, focusing on the...</p></details>
+   Link:<a href="https://medium.com/%40nivonl/exploring-visual-attention-in-transformer-models-ab538c06083a" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40nivonl/exploring-visual-attention-in-transformer-models-ab538c06083a</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring Visual Attention in Transformer ModelsIn this post, we will delve into how to quantify and visualize attention, focusing on the...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/information" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/information</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>INFORMATION Definition &amp; Meaning6 days ago — The meaning of INFORMATION is knowledge gained from investigation, study, or instruction. Ho...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/information" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/information</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>INFORMATION Definition &amp; Meaning6 days ago — The meaning of INFORMATION is knowledge gained from investigation, study, or instruction. Ho...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: semanticscholar.org  
-   Link: <a href="https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Quantifying Attention Flow in TransformersThis paper proposes two methods for approximating the attention to input tokens given att...</p></details>
+   Link:<a href="https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Quantifying Attention Flow in TransformersThis paper proposes two methods for approximating the attention to input tokens given att...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: github.com  
-   Link: <a href="https://github.com/samiraabnar/attention_flow" target="_blank" rel="noopener noreferrer nofollow">https://github.com/samiraabnar/attention_flow</a>  
+   Link:<a href="https://github.com/samiraabnar/attention_flow" target="_blank" rel="noopener noreferrer nofollow">https://github.com/samiraabnar/attention_flow</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=DVoHvmww2lQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=DVoHvmww2lQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>James Briggs | Vision Transformers (ViT) Explained + Fine-tuning in Python - [https://www.youtube.com/watch?v=qU7wO02urYU](https://www.youtube.com/watch?v=qU7wO02urYU) Good Place to un...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=DVoHvmww2lQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=DVoHvmww2lQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>James Briggs | Vision Transformers (ViT) Explained + Fine-tuning in Python - [https://www.youtube.com/watch?v=qU7wO02urYU](https://www.youtube.com/watch?v=qU7wO02urYU) Good Place to un...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: youtu.be  
    Title: Revealing Dark Secrets of BERT (Analysis of BERT's Attention Heads)  
-   Link: <a href="https://youtu.be/mnU9ILoDH68" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/mnU9ILoDH68</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Abstract of the paper In the Transformer model, “self-attention” combines information from attended embed- dings into the representation...</p></details>
+   Link:<a href="https://youtu.be/mnU9ILoDH68" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/mnU9ILoDH68</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Abstract of the paper In the Transformer model, “self-attention” combines information from attended embed- dings into the representation...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: medium.com  
    Title: how to read a transformers mind and when you can t ccaedf4b83ea  
-   Link: <a href="https://medium.com/%40sean.j.moran/how-to-read-a-transformers-mind-and-when-you-can-t-ccaedf4b83ea" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40sean.j.moran/how-to-read-a-transformers-mind-and-when-you-can-t-ccaedf4b83ea</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to read a Transformer&#x27;s mind — and when you can&#x27;tAbnar &amp; Zuidema (2020) — “Quantifying Attention Flow in Transformers” — — The origin...</p></details>
+   Link:<a href="https://medium.com/%40sean.j.moran/how-to-read-a-transformers-mind-and-when-you-can-t-ccaedf4b83ea" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40sean.j.moran/how-to-read-a-transformers-mind-and-when-you-can-t-ccaedf4b83ea</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to read a Transformer&#x27;s mind — and when you can&#x27;tAbnar &amp; Zuidema (2020) — “Quantifying Attention Flow in Transformers” — — The origin...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: medium.com  
    Title: interpretability and analysis of models for nlp e6b977ac1dc6  
-   Link: <a href="https://medium.com/%40lawrence.carolin/interpretability-and-analysis-of-models-for-nlp-e6b977ac1dc6" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40lawrence.carolin/interpretability-and-analysis-of-models-for-nlp-e6b977ac1dc6</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Interpretability and Analysis of Models for NLP @ ACL 2020To combat this, they introduce attention rollout and attention flow as post-hoc...</p></details>
+   Link:<a href="https://medium.com/%40lawrence.carolin/interpretability-and-analysis-of-models-for-nlp-e6b977ac1dc6" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40lawrence.carolin/interpretability-and-analysis-of-models-for-nlp-e6b977ac1dc6</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Interpretability and Analysis of Models for NLP @ ACL 2020To combat this, they introduce attention rollout and attention flow as post-hoc...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: youtube.com  
    Title: Image Classification Using Vision Transformer | An Image is Worth 16x16 Words  
-   Link: <a href="https://www.youtube.com/watch?v=G6_IA5vKXRI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=G6_IA5vKXRI</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow In Transformers (Effective Way to Interpret Attention in BERT) Explained - YouTube Quantifying Attention Flow...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=G6_IA5vKXRI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=G6_IA5vKXRI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow In Transformers (Effective Way to Interpret Attention in BERT) Explained - YouTube Quantifying Attention Flow...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: github.com  
-   Link: <a href="https://github.com/jacobgil/vit-explain" target="_blank" rel="noopener noreferrer nofollow">https://github.com/jacobgil/vit-explain</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>jacobgil/vit-explain: Explainability for Vision TransformersThe Attention Rollout method suggests taking the average attention accross th...</p></details>
+   Link:<a href="https://github.com/jacobgil/vit-explain" target="_blank" rel="noopener noreferrer nofollow">https://github.com/jacobgil/vit-explain</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>jacobgil/vit-explain: Explainability for Vision TransformersThe Attention Rollout method suggests taking the average attention accross th...</p></details>

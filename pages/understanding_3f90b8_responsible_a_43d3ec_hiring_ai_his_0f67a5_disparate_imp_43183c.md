@@ -279,11 +279,11 @@ A hiring algorithm can achieve impressive overall accuracy and still create unfa
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5_disparate_imp_43183c-Illustration-1-dark.svg" | relative_url }}" alt="Impact tests illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5_disparate_imp_43183c-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5_disparate_imp_43183c-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Within the broader problem of how hiring AI can learn inequality from past success, disparate impact testing addresses a specific risk: historical hiring patterns may be embedded in training data, allowing an apparently neutral system to reproduce exclusion at scale. Employment regulators, AI governance frameworks, and [responsible-AI]({{ 'responsible-ai/' | relative_url }}) practitioners increasingly treat group-level outcome testing as a necessary step before [automated]({{ 'decisions/' | relative_url }}) screening systems influence real hiring decisions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">trustworthy ai managing risks artificial intelligence</span><span class="citation-popover-snippet">Trustworthy AI: Managing the Risks of Artificial Intelligence &#124; NISTSeptember 29, 2022...</span><span class="citation-popover-meta">Published: September 29, 2022</span></span></span>
+Within the broader problem of how hiring AI can learn inequality from past success, disparate impact testing addresses a specific risk: historical hiring patterns may be embedded in training data, allowing an apparently neutral system to reproduce exclusion at scale. Employment regulators, AI governance frameworks, and [responsible-AI]({{ 'responsible-ai/' | relative_url }}) practitioners increasingly treat group-level outcome testing as a necessary step before [automated]({{ 'decisions/' | relative_url }}) screening systems influence real hiring decisions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">trustworthy ai managing risks artificial intelligence</span><span class="citation-popover-snippet">Trustworthy AI: Managing the Risks of Artificial Intelligence &#124; NISTSeptember 29, 2022...</span><span class="citation-popover-meta">Published: September 29, 2022</span></span></span>
 
 ## What disparate impact means in automated screening
 
-Disparate impact refers to a situation where a hiring practice appears neutral but produces substantially different outcomes for different groups. The key issue is not whether a system explicitly uses protected characteristics. A tool can generate discriminatory effects even when race, sex, or age are removed from the data because other variables may act as proxies for those characteristics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.productionai.institute/insights/hr-employment-ai-playbook" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: productionai.institute">[Production AI Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">productionai.institute</span><span class="citation-popover-snippet">Open source on productionai.institute.</span></span></span>
+Disparate impact refers to a situation where a hiring practice appears neutral but produces substantially different outcomes for different groups. The key issue is not whether a system explicitly uses protected characteristics. A tool can generate discriminatory effects even when race, sex, or age are removed from the data because other variables may act as proxies for those characteristics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.productionai.institute/insights/hr-employment-ai-playbook" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: productionai.institute">[Production AI Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">productionai.institute</span><span class="citation-popover-snippet">Open source on productionai.institute.</span></span></span>
 
 In AI-assisted recruitment, disparate impact testing asks questions such as:
 
@@ -297,16 +297,16 @@ In AI-assisted recruitment, disparate impact testing asks questions such as:
 
 </div>
 
-The purpose is to evaluate outcomes rather than intentions. An algorithm does not need to be designed with discriminatory intent to create discriminatory effects. Employment law has long recognised this distinction, and regulators have increasingly applied the same logic to automated decision tools. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mcguirewoods.com/client-resources/alerts/2023/5/eeoc-issues-guidance-on-artificial-intelligence-hiring-tools/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mcguirewoods.com">[McGuireWoods]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mcguirewoods.com</span><span class="citation-popover-title">Mc Guire Woods EEOC Issues Guidance on Artificial Intelligence Hiring Tools</span><span class="citation-popover-snippet">EEOC Issues Guidance on Artificial Intelligence Hiring Tools - McGuireWoodsMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+The purpose is to evaluate outcomes rather than intentions. An algorithm does not need to be designed with discriminatory intent to create discriminatory effects. Employment law has long recognised this distinction, and regulators have increasingly applied the same logic to automated decision tools.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mcguirewoods.com/client-resources/alerts/2023/5/eeoc-issues-guidance-on-artificial-intelligence-hiring-tools/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mcguirewoods.com">[McGuireWoods]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mcguirewoods.com</span><span class="citation-popover-title">Mc Guire Woods EEOC Issues Guidance on Artificial Intelligence Hiring Tools</span><span class="citation-popover-snippet">EEOC Issues Guidance on Artificial Intelligence Hiring Tools - McGuireWoodsMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/8dZAEXTCong" title="Why Counterfactual Testing Reveals Hidden Bias in AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=8dZAEXTCong" target="_blank" rel="noopener noreferrer">Why Counterfactual Testing Reveals Hidden Bias in AI</a></p><p class="youtube-embed-meta">Channel: Business Analytics Simplified</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=8dZAEXTCong" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=8dZAEXTCong">Open on YouTube</a></p></div></div></div>
 
 ### The role of the four-fifths rule
 
-One commonly used screening test is the "four-fifths rule" or "80% rule". Under guidance used in employment discrimination analysis, a group's selection rate may warrant further scrutiny if it is less than 80% of the selection rate achieved by the highest-performing comparison group. For example, if 50% of one group progresses to interview but only 30% of another group does, the ratio is 60%, falling below the four-fifths threshold. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mcguirewoods.com/client-resources/alerts/2023/5/eeoc-issues-guidance-on-artificial-intelligence-hiring-tools/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mcguirewoods.com">[McGuireWoods]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mcguirewoods.com</span><span class="citation-popover-title">Mc Guire Woods EEOC Issues Guidance on Artificial Intelligence Hiring Tools</span><span class="citation-popover-snippet">EEOC Issues Guidance on Artificial Intelligence Hiring Tools - McGuireWoodsMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+One commonly used screening test is the "four-fifths rule" or "80% rule". Under guidance used in employment discrimination analysis, a group's selection rate may warrant further scrutiny if it is less than 80% of the selection rate achieved by the highest-performing comparison group. For example, if 50% of one group progresses to interview but only 30% of another group does, the ratio is 60%, falling below the four-fifths threshold.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mcguirewoods.com/client-resources/alerts/2023/5/eeoc-issues-guidance-on-artificial-intelligence-hiring-tools/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mcguirewoods.com">[McGuireWoods]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mcguirewoods.com</span><span class="citation-popover-title">Mc Guire Woods EEOC Issues Guidance on Artificial Intelligence Hiring Tools</span><span class="citation-popover-snippet">EEOC Issues Guidance on Artificial Intelligence Hiring Tools - McGuireWoodsMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
-However, governance experts caution that the four-fifths rule is only an initial indicator rather than a complete fairness judgement. Legal analysis, statistical significance, context, sample size, and [business]({{ 'business-adoption/' | relative_url }}) necessity all matter. Treating the rule as a complete definition of fairness can oversimplify a more complex legal and ethical question. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2202.09519" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">The four-fifths rule is not disparate impact: a woeful tale of epistemic trespassing in algorithmic fairnessFebruary 19, 2022...</span><span class="citation-popover-meta">Published: February 19, 2022</span></span></span>
+However, governance experts caution that the four-fifths rule is only an initial indicator rather than a complete fairness judgement. Legal analysis, statistical significance, context, sample size, and [business]({{ 'business-adoption/' | relative_url }}) necessity all matter. Treating the rule as a complete definition of fairness can oversimplify a more complex legal and ethical question.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2202.09519" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">The four-fifths rule is not disparate impact: a woeful tale of epistemic trespassing in algorithmic fairnessFebruary 19, 2022...</span><span class="citation-popover-meta">Published: February 19, 2022</span></span></span>
 
 ## Why overall accuracy can mask group harm
 
@@ -314,11 +314,11 @@ One of the most common misunderstandings in AI deployment is assuming that a hig
 
 Imagine an AI screening system that correctly predicts successful hires 90% of the time across all applicants. At first glance, this appears excellent. Yet if most applicants belong to one demographic group, the model can maintain high overall accuracy while systematically rejecting qualified candidates from a smaller group.
 
-This happens because [machine-learning]({{ 'machine-learning/' | relative_url }}) systems optimise for statistical performance against their training objectives. If historical hiring data contains unequal patterns, the model may learn shortcuts that improve [prediction]({{ 'error-harms/' | relative_url }}) scores while disadvantaging certain populations. A performance dashboard focused only on accuracy, precision, or efficiency may therefore miss harmful outcome disparities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: snowflake.com">[Snowflake]</a><span class="citation-popover" role="note"><span class="citation-popover-source">snowflake.com</span><span class="citation-popover-title">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake</span><span class="citation-popover-snippet">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake...</span></span></span>
+This happens because [machine-learning]({{ 'machine-learning/' | relative_url }}) systems optimise for statistical performance against their training objectives. If historical hiring data contains unequal patterns, the model may learn shortcuts that improve [prediction]({{ 'error-harms/' | relative_url }}) scores while disadvantaging certain populations. A performance dashboard focused only on accuracy, precision, or efficiency may therefore miss harmful outcome disparities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: snowflake.com">[Snowflake]</a><span class="citation-popover" role="note"><span class="citation-popover-source">snowflake.com</span><span class="citation-popover-title">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake</span><span class="citation-popover-snippet">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake...</span></span></span>
 
-Researchers and governance frameworks consequently recommend examining performance separately across demographic groups. Metrics such as selection rates, false-positive rates, false-negative rates, and true-positive rates can reveal problems that remain invisible in aggregate statistics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: snowflake.com">[Snowflake]</a><span class="citation-popover" role="note"><span class="citation-popover-source">snowflake.com</span><span class="citation-popover-title">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake</span><span class="citation-popover-snippet">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake...</span></span></span>
+Researchers and governance frameworks consequently recommend examining performance separately across demographic groups. Metrics such as selection rates, false-positive rates, false-negative rates, and true-positive rates can reveal problems that remain invisible in aggregate statistics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: snowflake.com">[Snowflake]</a><span class="citation-popover" role="note"><span class="citation-popover-source">snowflake.com</span><span class="citation-popover-title">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake</span><span class="citation-popover-snippet">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake...</span></span></span>
 
-A practical example can be seen in discussions surrounding biased recruitment systems. The lesson from high-profile failures was not merely that the models made mistakes. It was that traditional performance measures did not automatically reveal how certain groups were being disadvantaged. Group-level testing was needed to uncover the problem. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/incidents/2021-06-03-b058" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-title">A I Recruitment Systems Cause Bias and Unfair Job Rejections</span><span class="citation-popover-snippet">AI Recruitment Systems Cause Bias and Unfair Job Rejections - OECD.AIJune 3, 2021...</span><span class="citation-popover-meta">Published: June 3, 2021</span></span></span>
+A practical example can be seen in discussions surrounding biased recruitment systems. The lesson from high-profile failures was not merely that the models made mistakes. It was that traditional performance measures did not automatically reveal how certain groups were being disadvantaged. Group-level testing was needed to uncover the problem.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/incidents/2021-06-03-b058" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-title">A I Recruitment Systems Cause Bias and Unfair Job Rejections</span><span class="citation-popover-snippet">AI Recruitment Systems Cause Bias and Unfair Job Rejections - OECD.AIJune 3, 2021...</span><span class="citation-popover-meta">Published: June 3, 2021</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5_disparate_imp_43183c-Illustration-2-dark.svg" | relative_url }}" alt="Impact tests illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5_disparate_imp_43183c-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5_disparate_imp_43183c-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -330,13 +330,13 @@ Organisations typically begin by evaluating historical data used for training. I
 
 Several safeguards are commonly recommended:
 
-**Pre-deployment audits.** Models are evaluated on held-out datasets before use in real recruitment. Selection rates and error rates are compared across groups to identify disparities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ispartnersllc.com/hubs/nist-ai-rmf/principles/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ispartnersllc.com">[I.S. Partners]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ispartnersllc.com</span><span class="citation-popover-title">I.S. Partners Framework Principles of NIST AI RMF</span><span class="citation-popover-snippet">I.S. Partners Framework Principles of NIST AI RMF</span></span></span>
+**Pre-deployment audits.** Models are evaluated on held-out datasets before use in real recruitment. Selection rates and error rates are compared across groups to identify disparities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ispartnersllc.com/hubs/nist-ai-rmf/principles/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ispartnersllc.com">[I.S. Partners]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ispartnersllc.com</span><span class="citation-popover-title">I.S. Partners Framework Principles of NIST AI RMF</span><span class="citation-popover-snippet">I.S. Partners Framework Principles of NIST AI RMF</span></span></span>
 
-**Multiple fairness measures.** Organisations increasingly look beyond a single metric. Demographic parity, equal opportunity, calibration, and related measures can reveal different kinds of imbalance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: snowflake.com">[Snowflake]</a><span class="citation-popover" role="note"><span class="citation-popover-source">snowflake.com</span><span class="citation-popover-title">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake</span><span class="citation-popover-snippet">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake...</span></span></span>
+**Multiple fairness measures.** Organisations increasingly look beyond a single metric. Demographic parity, equal opportunity, calibration, and related measures can reveal different kinds of imbalance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: snowflake.com">[Snowflake]</a><span class="citation-popover" role="note"><span class="citation-popover-source">snowflake.com</span><span class="citation-popover-title">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake</span><span class="citation-popover-snippet">Algorithmic Bias: Types, Detection &amp; Mitigation &#124; Snowflake...</span></span></span>
 
-**Human review of adverse findings.** Significant disparities should trigger investigation rather than automatic deployment. Teams need to determine whether the disparity reflects a legitimate job-related requirement or an avoidable bias in the system. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">trustworthy ai managing risks artificial intelligence</span><span class="citation-popover-snippet">Trustworthy AI: Managing the Risks of Artificial Intelligence &#124; NISTSeptember 29, 2022...</span><span class="citation-popover-meta">Published: September 29, 2022</span></span></span>
+**Human review of adverse findings.** Significant disparities should trigger investigation rather than automatic deployment. Teams need to determine whether the disparity reflects a legitimate job-related requirement or an avoidable bias in the system.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">trustworthy ai managing risks artificial intelligence</span><span class="citation-popover-snippet">Trustworthy AI: Managing the Risks of Artificial Intelligence &#124; NISTSeptember 29, 2022...</span><span class="citation-popover-meta">Published: September 29, 2022</span></span></span>
 
-**[Documentation]({{ 'paper-safety/' | relative_url }}) and accountability.** Governance frameworks emphasise documenting datasets, testing methods, assumptions, and mitigation decisions so that organisations can demonstrate responsible [oversight]({{ 'oversight/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">trustworthy ai managing risks artificial intelligence</span><span class="citation-popover-snippet">Trustworthy AI: Managing the Risks of Artificial Intelligence &#124; NISTSeptember 29, 2022...</span><span class="citation-popover-meta">Published: September 29, 2022</span></span></span>
+**[Documentation]({{ 'paper-safety/' | relative_url }}) and accountability.** Governance frameworks emphasise documenting datasets, testing methods, assumptions, and mitigation decisions so that organisations can demonstrate responsible [oversight]({{ 'oversight/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">trustworthy ai managing risks artificial intelligence</span><span class="citation-popover-snippet">Trustworthy AI: Managing the Risks of Artificial Intelligence &#124; NISTSeptember 29, 2022...</span><span class="citation-popover-meta">Published: September 29, 2022</span></span></span>
 
 These safeguards shift the focus from simply building an accurate model to demonstrating that the model can be trusted in a real employment setting.
 
@@ -347,7 +347,7 @@ These safeguards shift the focus from simply building an accurate model to demon
 
 Passing a fairness audit before deployment does not guarantee fair outcomes indefinitely. Hiring pools change, labour markets evolve, and models may behave differently when exposed to real-world applicant populations.
 
-For this reason, responsible AI governance increasingly treats disparate impact testing as an ongoing monitoring activity rather than a one-time certification exercise. NIST's risk-management approach emphasises measuring and managing risks throughout the AI lifecycle, recognising that fairness problems can emerge after deployment even when earlier evaluations appeared satisfactory. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">trustworthy ai managing risks artificial intelligence</span><span class="citation-popover-snippet">Trustworthy AI: Managing the Risks of Artificial Intelligence &#124; NISTSeptember 29, 2022...</span><span class="citation-popover-meta">Published: September 29, 2022</span></span></span>
+For this reason, responsible AI governance increasingly treats disparate impact testing as an ongoing monitoring activity rather than a one-time certification exercise. NIST's risk-management approach emphasises measuring and managing risks throughout the AI lifecycle, recognising that fairness problems can emerge after deployment even when earlier evaluations appeared satisfactory.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST AI Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">trustworthy ai managing risks artificial intelligence</span><span class="citation-popover-snippet">Trustworthy AI: Managing the Risks of Artificial Intelligence &#124; NISTSeptember 29, 2022...</span><span class="citation-popover-meta">Published: September 29, 2022</span></span></span>
 
 Post-deployment monitoring typically includes:
 
@@ -361,7 +361,7 @@ Post-deployment monitoring typically includes:
 
 </div>
 
-This lifecycle approach reflects an important insight: fairness is not a permanent property of a hiring algorithm. It is a condition that must be continually assessed as the system operates in changing social and organisational environments. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ispartnersllc.com/hubs/nist-ai-rmf/principles/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ispartnersllc.com">[I.S. Partners]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ispartnersllc.com</span><span class="citation-popover-title">I.S. Partners Framework Principles of NIST AI RMF</span><span class="citation-popover-snippet">I.S. Partners Framework Principles of NIST AI RMF</span></span></span>
+This lifecycle approach reflects an important insight: fairness is not a permanent property of a hiring algorithm. It is a condition that must be continually assessed as the system operates in changing social and organisational environments.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ispartnersllc.com/hubs/nist-ai-rmf/principles/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ispartnersllc.com">[I.S. Partners]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ispartnersllc.com</span><span class="citation-popover-title">I.S. Partners Framework Principles of NIST AI RMF</span><span class="citation-popover-snippet">I.S. Partners Framework Principles of NIST AI RMF</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5_disparate_imp_43183c-Illustration-3-dark.svg" | relative_url }}" alt="Impact tests illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5_disparate_imp_43183c-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_hiring_ai_his_0f67a5_disparate_imp_43183c-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -369,201 +369,201 @@ This lifecycle approach reflects an important insight: fairness is not a permane
 
 Disparate impact testing exists because recruitment systems influence access to jobs, income, and career opportunities. In that context, high predictive performance alone is not enough.
 
-The central question is whether an automated screening tool creates unjustified barriers for particular groups of applicants. By examining real outcomes rather than relying solely on technical accuracy metrics, disparate impact testing helps organisations detect when historical inequalities have been encoded into automated decision-making. It therefore serves as one of the most important governance mechanisms for preventing [hiring AI]({{ 'hiring-ai/' | relative_url }}) from learning that past exclusion is evidence of future merit. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.productionai.institute/insights/hr-employment-ai-playbook" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: productionai.institute">[Production AI Institute+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">productionai.institute</span><span class="citation-popover-snippet">Open source on productionai.institute.</span></span></span>
+The central question is whether an automated screening tool creates unjustified barriers for particular groups of applicants. By examining real outcomes rather than relying solely on technical accuracy metrics, disparate impact testing helps organisations detect when historical inequalities have been encoded into automated decision-making. It therefore serves as one of the most important governance mechanisms for preventing [hiring AI]({{ 'hiring-ai/' | relative_url }}) from learning that past exclusion is evidence of future merit.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.productionai.institute/insights/hr-employment-ai-playbook" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: productionai.institute">[Production AI Institute+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">productionai.institute</span><span class="citation-popover-snippet">Open source on productionai.institute.</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/wGibAvhtOnE" title="Employment Law This Week - Making AI Work for HR - Deep Dive Episode" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=wGibAvhtOnE" target="_blank" rel="noopener noreferrer">Employment Law This Week - Making AI Work for HR - Deep Dive Episode</a></p><p class="youtube-embed-meta">Channel: Epstein Becker Green</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=wGibAvhtOnE" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=wGibAvhtOnE">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why accurate hiring AI can still be unfair. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why accurate hiring AI can still be unfair. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Covers fairness, bias, and unintended consequences in machine learning.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers fairness, bias, and unintended consequences in machine learning.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Fairness+and+Machine+Learning+by+Solon+Barocas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Fairness and Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ouawEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Fairness and Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Fairness+and+Machine+Learning+by+Solon+Barocas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Fairness and Machine Learning">Fairness and Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Solon Barocas, Moritz Hardt et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Fairness+and+Machine+Learning+by+Solon+Barocas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Fairness and Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ouawEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Fairness and Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Fairness+and+Machine+Learning+by+Solon+Barocas&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Fairness and Machine Learning">Fairness and Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Solon Barocas, Moritz Hardt et al.</p>
         
-        <p class="fr-book-desc">Directly addresses disparate impact, discrimination, and fairness metrics.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Fairness+and+Machine+Learning+by+Solon+Barocas&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses disparate impact, discrimination, and fairness metrics.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Fairness+and+Machine+Learning+by+Solon+Barocas&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Explains how accurate models can still create harmful group outcomes and discrimination.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how accurate models can still create harmful group outcomes and discrimination.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Automating Inequality on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pn4pDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Automating Inequality" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Automating Inequality">Automating Inequality</a>
-        </h4>
-        <p class="fr-book-author">By Virginia Eubanks</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Automating Inequality on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=pn4pDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Automating Inequality" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Automating Inequality">Automating Inequality</a>
+</h4>
+<p class="fr-book-author">By Virginia Eubanks</p>
         
-        <p class="fr-book-desc">Shows how data-driven systems can reproduce unequal treatment at scale.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how data-driven systems can reproduce unequal treatment at scale.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Automating+Inequality+by+Virginia+Eubanks&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Fairness+and+Machine+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Fairness and Machine Learning</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Fairness+and+Machine+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Fairness and Machine Learning</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="impact-tests-why-accurate-hiring-ai-can-still-be-unfair-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -579,7 +579,7 @@ The central question is whether an automated screening tool creates unjustified 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -599,7 +599,7 @@ The central question is whether an automated screening tool creates unjustified 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -631,7 +631,7 @@ The central question is whether an automated screening tool creates unjustified 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -683,7 +683,7 @@ The central question is whether an automated screening tool creates unjustified 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -728,7 +728,7 @@ The central question is whether an automated screening tool creates unjustified 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -769,101 +769,101 @@ The central question is whether an automated screening tool creates unjustified 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: nist.gov  
    Title: trustworthy ai managing risks artificial intelligence  
-   Link: <a href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Trustworthy AI: Managing the Risks of Artificial Intelligence | NISTSeptember 29, 2022...</p></details>
+   Link:<a href="https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/speech-testimony/trustworthy-ai-managing-risks-artificial-intelligence</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Trustworthy AI: Managing the Risks of Artificial Intelligence | NISTSeptember 29, 2022...</p></details>
    Published: September 29, 2022  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: nist.gov  
    Title: Artificial Intelligence Risk Management Framework (AI RMF 1.0) | NIST  
-   Link: <a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Framework (AI RMF 1.0) | NIST...</p></details>
+   Link:<a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Framework (AI RMF 1.0) | NIST...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: mcguirewoods.com  
    Title: Mc Guire Woods EEOC Issues Guidance on Artificial Intelligence Hiring Tools  
-   Link: <a href="https://www.mcguirewoods.com/client-resources/alerts/2023/5/eeoc-issues-guidance-on-artificial-intelligence-hiring-tools/" target="_blank" rel="noopener noreferrer nofollow">https://www.mcguirewoods.com/client-resources/alerts/2023/5/eeoc-issues-guidance-on-artificial-intelligence-hiring-tools/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>EEOC Issues Guidance on Artificial Intelligence Hiring Tools - McGuireWoodsMay 23, 2023...</p></details>
+   Link:<a href="https://www.mcguirewoods.com/client-resources/alerts/2023/5/eeoc-issues-guidance-on-artificial-intelligence-hiring-tools/" target="_blank" rel="noopener noreferrer nofollow">https://www.mcguirewoods.com/client-resources/alerts/2023/5/eeoc-issues-guidance-on-artificial-intelligence-hiring-tools/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EEOC Issues Guidance on Artificial Intelligence Hiring Tools - McGuireWoodsMay 23, 2023...</p></details>
    Published: May 23, 2023  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2202.09519" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2202.09519</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The four-fifths rule is not disparate impact: a woeful tale of epistemic trespassing in algorithmic fairnessFebruary 19, 2022...</p></details>
+   Link:<a href="https://arxiv.org/abs/2202.09519" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2202.09519</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The four-fifths rule is not disparate impact: a woeful tale of epistemic trespassing in algorithmic fairnessFebruary 19, 2022...</p></details>
    Published: February 19, 2022  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: snowflake.com  
    Title: Algorithmic Bias: Types, Detection & Mitigation | Snowflake  
-   Link: <a href="https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/" target="_blank" rel="noopener noreferrer nofollow">https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Algorithmic Bias: Types, Detection &amp; Mitigation | Snowflake...</p></details>
+   Link:<a href="https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/" target="_blank" rel="noopener noreferrer nofollow">https://www.snowflake.com/en/artificial-intelligence/ai-governance/algorithmic-bias/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Algorithmic Bias: Types, Detection &amp; Mitigation | Snowflake...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: oecd.ai  
    Title: A I Recruitment Systems Cause Bias and Unfair Job Rejections  
-   Link: <a href="https://oecd.ai/en/incidents/2021-06-03-b058" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/incidents/2021-06-03-b058</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Recruitment Systems Cause Bias and Unfair Job Rejections - OECD.AIJune 3, 2021...</p></details>
+   Link:<a href="https://oecd.ai/en/incidents/2021-06-03-b058" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/incidents/2021-06-03-b058</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Recruitment Systems Cause Bias and Unfair Job Rejections - OECD.AIJune 3, 2021...</p></details>
    Published: June 3, 2021  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: airc.nist.gov  
    Title: AI Resource Center AI RMF  
-   Link: <a href="https://airc.nist.gov/airmf-resources/airmf/?msockid=230452fd411163c516a4445a405c6214" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/?msockid=230452fd411163c516a4445a405c6214</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource CenterAI RMF - AIRC...</p></details>
+   Link:<a href="https://airc.nist.gov/airmf-resources/airmf/?msockid=230452fd411163c516a4445a405c6214" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/?msockid=230452fd411163c516a4445a405c6214</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource CenterAI RMF - AIRC...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: airc.nist.gov  
    Title: AI Resource Center Executive  
-   Link: <a href="https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource CenterExecutive Summary - AIRC...</p></details>
+   Link:<a href="https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource CenterExecutive Summary - AIRC...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: nist.gov  
    Title: Trustworthy and responsible AI | NIST  
-   Link: <a href="https://www.nist.gov/trustworthy-and-responsible-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/trustworthy-and-responsible-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Trustworthy and responsible AI | NIST...</p></details>
+   Link:<a href="https://www.nist.gov/trustworthy-and-responsible-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/trustworthy-and-responsible-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Trustworthy and responsible AI | NIST...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: productionai.institute  
-   Link: <a href="https://www.productionai.institute/insights/hr-employment-ai-playbook" target="_blank" rel="noopener noreferrer nofollow">https://www.productionai.institute/insights/hr-employment-ai-playbook</a>  
+   Link:<a href="https://www.productionai.institute/insights/hr-employment-ai-playbook" target="_blank" rel="noopener noreferrer nofollow">https://www.productionai.institute/insights/hr-employment-ai-playbook</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: ispartnersllc.com  
    Title: I.S. Partners Framework Principles of NIST AI RMF  
-   Link: <a href="https://www.ispartnersllc.com/hubs/nist-ai-rmf/principles/" target="_blank" rel="noopener noreferrer nofollow">https://www.ispartnersllc.com/hubs/nist-ai-rmf/principles/</a>  
+   Link:<a href="https://www.ispartnersllc.com/hubs/nist-ai-rmf/principles/" target="_blank" rel="noopener noreferrer nofollow">https://www.ispartnersllc.com/hubs/nist-ai-rmf/principles/</a>  
 
 ### Additional References
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=0zeKm6vob4U" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0zeKm6vob4U</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hiring Under Fire: CHRO Kristen Duckett on Mobley v. Workday, Governance, and Accountability...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=0zeKm6vob4U" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0zeKm6vob4U</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hiring Under Fire: CHRO Kristen Duckett on Mobley v. Workday, Governance, and Accountability...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=1Fp-MNRjZY8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=1Fp-MNRjZY8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Counterfactual Testing Reveals Hidden Bias in AI...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=1Fp-MNRjZY8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=1Fp-MNRjZY8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Counterfactual Testing Reveals Hidden Bias in AI...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: AI in Hiring Is Now a Legal Risk Employers Can't Ignore  
-   Link: <a href="https://www.youtube.com/watch?v=hrAd5cFaPYM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=hrAd5cFaPYM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Employment Law This Week - Making AI Work for HR - Deep Dive Episode...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=hrAd5cFaPYM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=hrAd5cFaPYM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Employment Law This Week - Making AI Work for HR - Deep Dive Episode...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
    Title: Why Counterfactual Testing Reveals Hidden Bias in AI  
-   Link: <a href="https://www.youtube.com/watch?v=8dZAEXTCong" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8dZAEXTCong</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Hiring Is Now a Legal Risk Employers Can&#x27;t Ignore...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=8dZAEXTCong" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8dZAEXTCong</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Hiring Is Now a Legal Risk Employers Can&#x27;t Ignore...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: dwt.com  
-   Link: <a href="https://www.dwt.com/blogs/employment-labor-and-benefits/2023/05/eeoc-automated-tools-hiring-discrimination" target="_blank" rel="noopener noreferrer nofollow">https://www.dwt.com/blogs/employment-labor-and-benefits/2023/05/eeoc-automated-tools-hiring-discrimination</a>  
+   Link:<a href="https://www.dwt.com/blogs/employment-labor-and-benefits/2023/05/eeoc-automated-tools-hiring-discrimination" target="_blank" rel="noopener noreferrer nofollow">https://www.dwt.com/blogs/employment-labor-and-benefits/2023/05/eeoc-automated-tools-hiring-discrimination</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
    Title: Employment Law This Week  
-   Link: <a href="https://www.youtube.com/watch?v=wGibAvhtOnE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wGibAvhtOnE</a>  
+   Link:<a href="https://www.youtube.com/watch?v=wGibAvhtOnE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wGibAvhtOnE</a>  

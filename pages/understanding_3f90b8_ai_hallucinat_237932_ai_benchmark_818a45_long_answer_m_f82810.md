@@ -279,7 +279,7 @@ A common way to test artificial intelligence is to ask short factual questions: 
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_long_answer_m_f82810-Illustration-1-dark.svg" | relative_url }}" alt="Long Answers illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_long_answer_m_f82810-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_long_answer_m_f82810-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This matters because most real-world uses of AI involve extended outputs: reports, research summaries, briefings, analyses, and educational explanations. A system that performs well on trivia-style [benchmarks]({{ 'benchmarks/' | relative_url }}) may still make significant mistakes once it must sustain accuracy across an entire document. Researchers have increasingly developed long-form factuality evaluations precisely because traditional benchmarks often fail to capture this difference. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+This matters because most real-world uses of AI involve extended outputs: reports, research summaries, briefings, analyses, and educational explanations. A system that performs well on trivia-style [benchmarks]({{ 'benchmarks/' | relative_url }}) may still make significant mistakes once it must sustain accuracy across an entire document. Researchers have increasingly developed long-form factuality evaluations precisely because traditional benchmarks often fail to capture this difference.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
 ## Why Single-Answer Tests Look Cleaner Than Real Tasks
 
@@ -287,7 +287,7 @@ Short factual benchmarks usually evaluate one claim at a time. The model either 
 
 Real-world writing is different. A 1,000-word report may contain dozens of factual statements. Some may be correct, some partly correct, and some [unsupported]({{ 'unsupported-claims/' | relative_url }}). The final document can sound coherent even when several individual claims are wrong.
 
-This difference means that benchmark scores can hide a practical reliability problem. Imagine a model that is highly accurate on individual facts. If that model is asked to generate a long explanation containing many separate factual statements, each statement introduces another opportunity for error. The overall answer may therefore be less reliable than its short-question benchmark performance suggests. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+This difference means that benchmark scores can hide a practical reliability problem. Imagine a model that is highly accurate on individual facts. If that model is asked to generate a long explanation containing many separate factual statements, each statement introduces another opportunity for error. The overall answer may therefore be less reliable than its short-question benchmark performance suggests.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
 Another reason trivia tests appear cleaner is that they usually have clearly defined answers. Real reports often require the model to:
 
@@ -302,7 +302,7 @@ Another reason trivia tests appear cleaner is that they usually have clearly def
 
 </div>
 
-These demands rarely appear in simple question-answer benchmarks, even though they are central to practical use. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+These demands rarely appear in simple question-answer benchmarks, even though they are central to practical use.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/CDT6tn3gmh0" title="Episodic Memory for AI Agents: Why Retrieval Beats Long Context" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=CDT6tn3gmh0" target="_blank" rel="noopener noreferrer">Episodic Memory for AI Agents: Why Retrieval Beats Long Context</a></p><p class="youtube-embed-meta">Channel: The Bearded AI Guy</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=CDT6tn3gmh0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=CDT6tn3gmh0">Open on YouTube</a></p></div></div></div>
@@ -315,7 +315,7 @@ A long answer is not one factual claim. It is a collection of many claims linked
 
 For example, consider an AI-generated company profile. The model might correctly identify the company's founder but incorrectly state the founding year. It might accurately describe a product line but invent a market-share statistic. It might correctly mention an acquisition while misstating its timing. Individually, these mistakes can seem minor. Together, they can substantially reduce the reliability of the document.
 
-Researchers behind the FActScore evaluation framework argue that long-form factuality cannot be assessed adequately with a single pass-fail judgement because generated text often contains a mixture of supported and unsupported statements. Instead, they break outputs into “atomic facts” and evaluate each one separately. Their work showed that long answers frequently contain enough unsupported claims that coarse evaluation methods miss important weaknesses. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+Researchers behind the FActScore evaluation framework argue that long-form factuality cannot be assessed adequately with a single pass-fail judgement because generated text often contains a mixture of supported and unsupported statements. Instead, they break outputs into “atomic facts” and evaluate each one separately. Their work showed that long answers frequently contain enough unsupported claims that coarse evaluation methods miss important weaknesses.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
 This accumulation effect creates a mathematical challenge for reliability measurement. Even if a model performs well on individual claims, the probability that every claim in a long report is correct decreases as the number of claims increases. A benchmark based on isolated facts may therefore overestimate how dependable the same model will be when writing an extended analysis.
 
@@ -335,15 +335,15 @@ Traditional benchmarks are attractive because they are easy to score. A model's 
 
 Long-form outputs are much harder to evaluate. There may be hundreds of factual assertions in a single response. Some may be partially correct. Others may depend on interpretation or source quality. Human review becomes expensive and time-consuming.
 
-As a result, benchmark designers have historically favoured shorter tasks with clearer scoring rules. This improves comparability between models but can reduce visibility into long-answer [failure modes]({{ 'failure-modes/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+As a result, benchmark designers have historically favoured shorter tasks with clearer scoring rules. This improves comparability between models but can reduce visibility into long-answer [failure modes]({{ 'failure-modes/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
-A related issue is that many evaluations reward accuracy without sufficiently rewarding appropriate uncertainty. Research discussed by OpenAI argues that systems can receive better scores by guessing than by admitting they do not know an answer. While this issue appears in short-question benchmarks, its consequences become more serious in long-form writing because a model has many opportunities to insert unsupported details throughout an answer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
+A related issue is that many evaluations reward accuracy without sufficiently rewarding appropriate uncertainty. Research discussed by OpenAI argues that systems can receive better scores by guessing than by admitting they do not know an answer. While this issue appears in short-question benchmarks, its consequences become more serious in long-form writing because a model has many opportunities to insert unsupported details throughout an answer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">September 5, 2025...</span><span class="citation-popover-meta">Published: September 5, 2025</span></span></span>
 
 ## What Long-Form Factuality Checks Try to Measure
 
 Long-form factuality evaluations were developed to address exactly these shortcomings.
 
-Instead of asking whether an entire response is correct, they examine the factual components within the response. The goal is to measure how many individual claims are supported by reliable evidence. This shifts attention from final-answer accuracy to claim-level reliability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+Instead of asking whether an entire response is correct, they examine the factual components within the response. The goal is to measure how many individual claims are supported by reliable evidence. This shifts attention from final-answer accuracy to claim-level reliability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
 Several modern approaches focus on questions such as:
 
@@ -358,7 +358,7 @@ Several modern approaches focus on questions such as:
 
 </div>
 
-These evaluations attempt to capture the reality that users often consume [AI outputs]({{ 'ai-outputs/' | relative_url }}) as complete documents rather than isolated answers. A model that answers trivia questions well but struggles to maintain factual consistency across hundreds of words may score differently when evaluated at this finer level of detail. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+These evaluations attempt to capture the reality that users often consume [AI outputs]({{ 'ai-outputs/' | relative_url }}) as complete documents rather than isolated answers. A model that answers trivia questions well but struggles to maintain factual consistency across hundreds of words may score differently when evaluated at this finer level of detail.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/-NvVXaRrx6Q" title="Long-form factuality in large language models" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=-NvVXaRrx6Q" target="_blank" rel="noopener noreferrer">Long-form factuality in large language models</a></p><p class="youtube-embed-meta">Channel: Arxiv Papers</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=-NvVXaRrx6Q" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=-NvVXaRrx6Q">Open on YouTube</a></p></div></div></div>
@@ -369,7 +369,7 @@ One influential idea is the use of atomic facts: individual factual statements t
 
 For example, a biography might contain separate claims about a person's birth date, education, career milestones, awards, and publications. Evaluating each claim separately provides a much clearer picture of reliability than assigning a single score to the entire biography.
 
-This approach recognises that long-form factuality is fundamentally different from answering a trivia question. The challenge is not merely retrieving one fact correctly. It is sustaining accuracy across a network of related claims while avoiding unsupported additions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+This approach recognises that long-form factuality is fundamentally different from answering a trivia question. The challenge is not merely retrieving one fact correctly. It is sustaining accuracy across a network of related claims while avoiding unsupported additions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/SYVPCsW4DWc" title="AI Evals 101: How to Evaluate LLMs, Agentic AI &amp; GenAI Systems (Step by Step)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=SYVPCsW4DWc" target="_blank" rel="noopener noreferrer">AI Evals 101: How to Evaluate LLMs, Agentic AI &amp; GenAI Systems (Step by Step)</a></p><p class="youtube-embed-meta">Channel: Interview Kickstart US</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=SYVPCsW4DWc" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=SYVPCsW4DWc">Open on YouTube</a></p></div></div></div>
@@ -380,200 +380,200 @@ When people see benchmark leaderboards, it is easy to assume that a higher score
 
 A model can perform impressively on short factual tests while still making enough small mistakes in extended writing to create misleading reports. The mechanism is not mysterious: every additional claim introduces another opportunity for error, and conventional benchmarks often measure claims individually rather than collectively.
 
-[Understanding]({{ 'understanding/' | relative_url }}) this distinction helps explain why benchmark progress and user experience sometimes diverge. Trivia-style tests reveal part of a model's capabilities, but many real-world failures only become visible when the system must maintain factual accuracy across a long, evidence-heavy answer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
+[Understanding]({{ 'understanding/' | relative_url }}) this distinction helps explain why benchmark progress and user experience sometimes diverge. Trivia-style tests reveal part of a model's capabilities, but many real-world failures only become visible when the system must maintain factual accuracy across a long, evidence-heavy answer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</span><span class="citation-popover-meta">Published: May 23, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_long_answer_m_f82810-Illustration-3-dark.svg" | relative_url }}" alt="Long Answers illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_long_answer_m_f82810-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_benchmark_818a45_long_answer_m_f82810-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why Long AI Answers Fail Differently. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why Long AI Answers Fail Differently. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explains why benchmark performance can diverge from real-world reliability.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why benchmark performance can diverge from real-world reliability.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+J.+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=VMq_wwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+J.+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart J. Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+J.+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=VMq_wwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+J.+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart J. Russell</p>
         
-        <p class="fr-book-desc">Discusses limitations and risks of advanced AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+J.+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses limitations and risks of advanced AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+J.+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI Revolution in Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AY-5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The AI Revolution in Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI Revolution in Medicine">The AI Revolution in Medicine</a>
-        </h4>
-        <p class="fr-book-author">By Peter Lee, Carey Goldberg et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI Revolution in Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AY-5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The AI Revolution in Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI Revolution in Medicine">The AI Revolution in Medicine</a>
+</h4>
+<p class="fr-book-author">By Peter Lee, Carey Goldberg et al.</p>
         
-        <p class="fr-book-desc">Highlights verification needs for long-form AI-generated content.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Highlights verification needs for long-form AI-generated content.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Addresses practical strengths and weaknesses of LLM outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses practical strengths and weaknesses of LLM outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The AI Revolution in Medicine</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The AI Revolution in Medicine</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery"><img src="{{ '/assets/images/marketplace-covers/fe6f721a300e36459934.jpg' | relative_url }}" alt="Listing image for A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A I Artificial Intelligence 6 Movie Poster Art Print Print Classic Rare Gallery</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="long-answers-why-long-ai-answers-fail-differently-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -589,7 +589,7 @@ A model can perform impressively on short factual tests while still making enoug
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -609,7 +609,7 @@ A model can perform impressively on short factual tests while still making enoug
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -641,7 +641,7 @@ A model can perform impressively on short factual tests while still making enoug
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -693,7 +693,7 @@ A model can perform impressively on short factual tests while still making enoug
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -738,7 +738,7 @@ A model can perform impressively on short factual tests while still making enoug
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -779,70 +779,70 @@ A model can perform impressively on short factual tests while still making enoug
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.14251</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</p></details>
+   Link:<a href="https://arxiv.org/abs/2305.14251" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2305.14251</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text GenerationMay 23, 2023...</p></details>
    Published: May 23, 2023  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: OpenAI  
    Title: why language models hallucinate  
-   Link: <a href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>September 5, 2025...</p></details>
+   Link:<a href="https://openai.com/index/why-language-models-hallucinate" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>September 5, 2025...</p></details>
    Published: September 5, 2025  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: OpenAI  
    Title: Open AIHow confessions can keep language models honest | Open AI  
-   Link: <a href="https://openai.com/ja-JP/index/how-confessions-can-keep-language-models-honest/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/ja-JP/index/how-confessions-can-keep-language-models-honest/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How confessions can keep language models honest | OpenAI...</p></details>
+   Link:<a href="https://openai.com/ja-JP/index/how-confessions-can-keep-language-models-honest/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/ja-JP/index/how-confessions-can-keep-language-models-honest/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How confessions can keep language models honest | OpenAI...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: OpenAI  
    Title: why language models hallucinate  
-   Link: <a href="https://openai.com/fr-FR/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/fr-FR/index/why-language-models-hallucinate/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>comModèles de langage: aux origines des [hallucinations](&amp;#123;&amp;#123; &#x27;hallucinations/&#x27; | relative_url &amp;#125;&amp;#125;) | OpenAISeptember 5, 2025...</p></details>
+   Link:<a href="https://openai.com/fr-FR/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/fr-FR/index/why-language-models-hallucinate/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>comModèles de langage: aux origines des [hallucinations](&amp;#123;&amp;#123; &#x27;hallucinations/&#x27; | relative_url &amp;#125;&amp;#125;) | OpenAISeptember 5, 2025...</p></details>
    Published: September 5, 2025  
 
 ### Additional References
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: papers.lunadong.com  
-   Link: <a href="https://papers.lunadong.com/paper/4449" target="_blank" rel="noopener noreferrer nofollow">https://papers.lunadong.com/paper/4449</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Paper RadarFactScore: Fine-grained atomic evaluation of factual precision in long form text generation - Paper Summary...</p></details>
+   Link:<a href="https://papers.lunadong.com/paper/4449" target="_blank" rel="noopener noreferrer nofollow">https://papers.lunadong.com/paper/4449</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Paper RadarFactScore: Fine-grained atomic evaluation of factual precision in long form text generation - Paper Summary...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: computerworld.com  
-   Link: <a href="https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html" target="_blank" rel="noopener noreferrer nofollow">https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>admits AI hallucinations are mathematically inevitable, not just engineering flaws – ComputerworldSeptember 18, 2025...</p></details>
+   Link:<a href="https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html" target="_blank" rel="noopener noreferrer nofollow">https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>admits AI hallucinations are mathematically inevitable, not just engineering flaws – ComputerworldSeptember 18, 2025...</p></details>
    Published: September 18, 2025  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: youtube.com  
    Title: Lost in Stories: Consistency Bugs in Long Story Generation by LLMs  
-   Link: <a href="https://www.youtube.com/watch?v=FQuPOLz_M1U" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=FQuPOLz_M1U</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Long-form factuality in large language models - YouTube Long-form factuality in large language models - YouTube...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=FQuPOLz_M1U" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=FQuPOLz_M1U</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Long-form factuality in large language models - YouTube Long-form factuality in large language models - YouTube...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: youtube.com  
    Title: AI Evals 101: How to Evaluate LLMs, Agentic AI & Gen AI Systems  
-   Link: <a href="https://www.youtube.com/watch?v=SYVPCsW4DWc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=SYVPCsW4DWc</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Lost in Stories: Consistency Bugs in Long Story Generation by LLMs...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=SYVPCsW4DWc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=SYVPCsW4DWc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Lost in Stories: Consistency Bugs in Long Story Generation by LLMs...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: youtube.com  
    Title: Episodic Memory for AI Agents: Why Retrieval Beats [Long Context](&#123;&#123; 'long-context-cost/' | relative_url &#125;&#125;)  
-   Link: <a href="https://www.youtube.com/watch?v=CDT6tn3gmh0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=CDT6tn3gmh0</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Evals 101: How to Evaluate LLMs, Agentic AI &amp; GenAI Systems...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=CDT6tn3gmh0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=CDT6tn3gmh0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Evals 101: How to Evaluate LLMs, Agentic AI &amp; GenAI Systems...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: youtube.com  
    Title: Long-form factuality in large language models  
-   Link: <a href="https://www.youtube.com/watch?v=-NvVXaRrx6Q" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=-NvVXaRrx6Q</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Episodic Memory for AI Agents: Why Retrieval Beats Long Context...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=-NvVXaRrx6Q" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=-NvVXaRrx6Q</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Episodic Memory for AI Agents: Why Retrieval Beats Long Context...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: sciencestack.ai  
-   Link: <a href="https://www.sciencestack.ai/paper/2310.00741" target="_blank" rel="noopener noreferrer nofollow">https://www.sciencestack.ai/paper/2310.00741</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FELM: Benchmarking Factuality Evaluation of Large Language Models (arXiv:2310.00741v2) - ScienceStack...</p></details>
+   Link:<a href="https://www.sciencestack.ai/paper/2310.00741" target="_blank" rel="noopener noreferrer nofollow">https://www.sciencestack.ai/paper/2310.00741</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FELM: Benchmarking Factuality Evaluation of Large Language Models (arXiv:2310.00741v2) - ScienceStack...</p></details>

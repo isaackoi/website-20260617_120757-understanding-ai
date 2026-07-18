@@ -275,21 +275,21 @@ image: /assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a53
 
 ## Introduction
 
-One of the strongest pieces of evidence that attention weights can be misleading as explanations comes from a simple observation: a model can sometimes produce the same answer even when its [attention map]({{ 'attention-maps-e039cc/' | relative_url }}) changes dramatically. If two very different patterns of attention lead to essentially the same [prediction]({{ 'error-harms/' | relative_url }}), then the attention map cannot be a unique explanation of why that prediction occurred. This finding has become a central argument in the debate over whether attention visualisations should be interpreted as faithful accounts of model reasoning. Rather than revealing a single decisive path to an answer, attention maps may represent just one of several computational routes available to the model. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+One of the strongest pieces of evidence that attention weights can be misleading as explanations comes from a simple observation: a model can sometimes produce the same answer even when its [attention map]({{ 'attention-maps-e039cc/' | relative_url }}) changes dramatically. If two very different patterns of attention lead to essentially the same [prediction]({{ 'error-harms/' | relative_url }}), then the attention map cannot be a unique explanation of why that prediction occurred. This finding has become a central argument in the debate over whether attention visualisations should be interpreted as faithful accounts of model reasoning. Rather than revealing a single decisive path to an answer, attention maps may represent just one of several computational routes available to the model.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_same_answer_d_11e89e-Illustration-1-dark.svg" | relative_url }}" alt="Same Answer illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_same_answer_d_11e89e-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_same_answer_d_11e89e-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-In the broader discussion of why [attention]({{ 'attention/' | relative_url }}) weights can mislead explanations, this evidence matters because explanations are expected to identify factors that genuinely drive a decision. If alternative attention patterns can be substituted without changing the outcome, the highlighted tokens or regions may be less essential than they appear. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+In the broader discussion of why [attention]({{ 'attention/' | relative_url }}) weights can mislead explanations, this evidence matters because explanations are expected to identify factors that genuinely drive a decision. If alternative attention patterns can be substituted without changing the outcome, the highlighted tokens or regions may be less essential than they appear.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
 ## Can Two Very Different Attention Maps Mean the Same Thing?
 
 Research suggests that the answer is often yes.
 
-A widely cited 2019 study by Sarthak Jain and Byron Wallace tested whether attention weights truly reflected the reasons behind model [predictions]({{ 'predictions/' | relative_url }}). Among several experiments, they searched for alternative attention distributions that differed substantially from the model's original attention pattern while preserving the same output. They found that such alternative distributions frequently existed. In other words, the model's prediction remained stable even when attention was redirected to different parts of the input. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+A widely cited 2019 study by Sarthak Jain and Byron Wallace tested whether attention weights truly reflected the reasons behind model [predictions]({{ 'predictions/' | relative_url }}). Among several experiments, they searched for alternative attention distributions that differed substantially from the model's original attention pattern while preserving the same output. They found that such alternative distributions frequently existed. In other words, the model's prediction remained stable even when attention was redirected to different parts of the input.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
-The significance of this result is easy to see through a thought experiment. Imagine a sentiment-analysis system classifying a review as positive. One attention map highlights words such as "excellent" and "wonderful". A second, very different map focuses on other parts of the sentence, yet the model still predicts "positive" with nearly identical [confidence]({{ 'confidence/' | relative_url }}). If both maps lead to the same result, it becomes difficult to argue that the first map uniquely explains the decision. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+The significance of this result is easy to see through a thought experiment. Imagine a sentiment-analysis system classifying a review as positive. One attention map highlights words such as "excellent" and "wonderful". A second, very different map focuses on other parts of the sentence, yet the model still predicts "positive" with nearly identical [confidence]({{ 'confidence/' | relative_url }}). If both maps lead to the same result, it becomes difficult to argue that the first map uniquely explains the decision.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
-This does not mean that attention is meaningless. It means that a single attention visualisation may be only one possible description of the computation rather than a faithful account of what was necessary for the prediction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">We challenge many of the assumptions underlying this work.Read more</span><span class="citation-popover-snippet">ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1707 — A recent paper claims that &#x27;Attention is not Explana...</span></span></span>
+This does not mean that attention is meaningless. It means that a single attention visualisation may be only one possible description of the computation rather than a faithful account of what was necessary for the prediction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">We challenge many of the assumptions underlying this work.Read more</span><span class="citation-popover-snippet">ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1707 — A recent paper claims that &#x27;Attention is not Explana...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/bCz4OMemCcA" title="Attention is all you need (Transformer) - Model explanation (including math), Inference and Training" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=bCz4OMemCcA" target="_blank" rel="noopener noreferrer">Attention is all you need (Transformer) - Model explanation (including math), Inference and Training</a></p><p class="youtube-embed-meta">Channel: Umar Jamil &middot; Views: 708.5K &middot; Uploaded: May 2023 &middot; Length: 58 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=bCz4OMemCcA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=bCz4OMemCcA">Open on YouTube</a></p></div></div></div>
@@ -298,7 +298,7 @@ This does not mean that attention is meaningless. It means that a single attenti
 
 The key evidence comes from counterfactual attention experiments.
 
-In these studies, researchers deliberately alter attention weights while attempting to keep the model's output unchanged. If attention genuinely captures the causal basis of a decision, then major changes in attention should produce major changes in predictions. However, researchers often found the opposite: attention could be modified substantially while predictions remained nearly identical. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2307 — one might hope that if attention weights are peaky, then coun...</span></span></span>
+In these studies, researchers deliberately alter attention weights while attempting to keep the model's output unchanged. If attention genuinely captures the causal basis of a decision, then major changes in attention should produce major changes in predictions. However, researchers often found the opposite: attention could be modified substantially while predictions remained nearly identical.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2307 — one might hope that if attention weights are peaky, then coun...</span></span></span>
 
 The logic resembles a scientific intervention test:
 
@@ -313,9 +313,9 @@ The logic resembles a scientific intervention test:
 
 </div>
 
-When the prediction stays the same despite large changes in attention, the original attention map loses credibility as a complete explanation. The experiment reveals that multiple explanations, expressed as attention distributions, are compatible with the same behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+When the prediction stays the same despite large changes in attention, the original attention map loses credibility as a complete explanation. The experiment reveals that multiple explanations, expressed as attention distributions, are compatible with the same behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
-Importantly, these experiments do not prove that attention is useless. They show that attention alone is insufficient as evidence of causation. A heat map may indicate where information is flowing, but it does not necessarily identify the features that the model truly depends on. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+Importantly, these experiments do not prove that attention is useless. They show that attention alone is insufficient as evidence of causation. A heat map may indicate where information is flowing, but it does not necessarily identify the features that the model truly depends on.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/E3XoXPXeYe8" title="Attention Sink in Transformers: A Survey" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=E3XoXPXeYe8" target="_blank" rel="noopener noreferrer">Attention Sink in Transformers: A Survey</a></p><p class="youtube-embed-meta">Channel: AI Research Roundup</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=E3XoXPXeYe8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=E3XoXPXeYe8">Open on YouTube</a></p></div></div></div>
@@ -324,11 +324,11 @@ Importantly, these experiments do not prove that attention is useless. They show
 
 The existence of different attention maps leading to the same answer is less surprising when considering how modern neural networks operate.
 
-Transformer models contain many layers and many attention heads. Information can travel through numerous [routes]({{ 'routes/' | relative_url }}) before reaching the final prediction. Different internal pathways may encode similar information, creating a form of redundancy. As a result, changing one attention pattern does not always remove the information needed for the task because that information may already be represented elsewhere in the network. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[2005.00928] Quantifying Attention Flow in TransformersMay 2, 2020 — by S Abnar · 2020 · Cited by 1611 — In this paper, we consider...</span><span class="citation-popover-meta">Published: May 2, 2020</span></span></span>
+Transformer models contain many layers and many attention heads. Information can travel through numerous [routes]({{ 'routes/' | relative_url }}) before reaching the final prediction. Different internal pathways may encode similar information, creating a form of redundancy. As a result, changing one attention pattern does not always remove the information needed for the task because that information may already be represented elsewhere in the network.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[2005.00928] Quantifying Attention Flow in TransformersMay 2, 2020 — by S Abnar · 2020 · Cited by 1611 — In this paper, we consider...</span><span class="citation-popover-meta">Published: May 2, 2020</span></span></span>
 
-Researchers studying [attention flow]({{ 'attention-flow/' | relative_url }}) have shown that information becomes increasingly mixed as it passes through layers. A token highlighted in one layer may already contain information gathered from many other tokens earlier in the computation. Consequently, several distinct attention configurations can produce representations that are functionally equivalent by the time the model generates its output. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[2005.00928] Quantifying Attention Flow in TransformersMay 2, 2020 — by S Abnar · 2020 · Cited by 1611 — In this paper, we consider...</span><span class="citation-popover-meta">Published: May 2, 2020</span></span></span>
+Researchers studying [attention flow]({{ 'attention-flow/' | relative_url }}) have shown that information becomes increasingly mixed as it passes through layers. A token highlighted in one layer may already contain information gathered from many other tokens earlier in the computation. Consequently, several distinct attention configurations can produce representations that are functionally equivalent by the time the model generates its output.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[2005.00928] Quantifying Attention Flow in TransformersMay 2, 2020 — by S Abnar · 2020 · Cited by 1611 — In this paper, we consider...</span><span class="citation-popover-meta">Published: May 2, 2020</span></span></span>
 
-Another factor is that attention is only one component of the model. Feed-forward layers, residual connections, embeddings, and other mechanisms all contribute to the final prediction. Even if attention changes, these other components can preserve enough information for the answer to remain stable. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[2005.00928] Quantifying Attention Flow in TransformersMay 2, 2020 — by S Abnar · 2020 · Cited by 1611 — In this paper, we consider...</span><span class="citation-popover-meta">Published: May 2, 2020</span></span></span>
+Another factor is that attention is only one component of the model. Feed-forward layers, residual connections, embeddings, and other mechanisms all contribute to the final prediction. Even if attention changes, these other components can preserve enough information for the answer to remain stable.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">arXiv[2005.00928] Quantifying Attention Flow in TransformersMay 2, 2020 — by S Abnar · 2020 · Cited by 1611 — In this paper, we consider...</span><span class="citation-popover-meta">Published: May 2, 2020</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_same_answer_d_11e89e-Illustration-3-dark.svg" | relative_url }}" alt="Same Answer illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_same_answer_d_11e89e-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_same_answer_d_11e89e-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -336,208 +336,208 @@ Another factor is that attention is only one component of the model. Feed-forwar
 
 The practical lesson is not that attention maps should be discarded. Rather, they should be interpreted with caution.
 
-A useful explanation should help answer a counterfactual question: what would have changed the decision? If dramatically different attention patterns leave the decision unchanged, then attention alone cannot provide that answer. The map may show one way the model processed information, but not necessarily the factors that were indispensable for the outcome. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+A useful explanation should help answer a counterfactual question: what would have changed the decision? If dramatically different attention patterns leave the decision unchanged, then attention alone cannot provide that answer. The map may show one way the model processed information, but not necessarily the factors that were indispensable for the outcome.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
-This insight has influenced a broader shift in AI interpretability research. Instead of relying solely on raw attention visualisations, researchers increasingly compare attention with other evidence, such as gradient-based importance measures, feature ablation tests, causal interventions, and attention-flow analyses. The goal is to determine not merely where information appears to move, but which inputs genuinely affect the prediction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+This insight has influenced a broader shift in AI interpretability research. Instead of relying solely on raw attention visualisations, researchers increasingly compare attention with other evidence, such as gradient-based importance measures, feature ablation tests, causal interventions, and attention-flow analyses. The goal is to determine not merely where information appears to move, but which inputs genuinely affect the prediction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
-The debate remains active. Some researchers argue that attention can still be informative under carefully defined conditions and should not be dismissed entirely. Others maintain that the existence of radically different attention maps producing the same output fundamentally limits attention's explanatory value. What both sides largely agree on is that a colourful attention heat map should not automatically be treated as a faithful explanation of model reasoning. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">We challenge many of the assumptions underlying this work.Read more</span><span class="citation-popover-snippet">ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1707 — A recent paper claims that &#x27;Attention is not Explana...</span></span></span>
+The debate remains active. Some researchers argue that attention can still be informative under carefully defined conditions and should not be dismissed entirely. Others maintain that the existence of radically different attention maps producing the same output fundamentally limits attention's explanatory value. What both sides largely agree on is that a colourful attention heat map should not automatically be treated as a faithful explanation of model reasoning.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">We challenge many of the assumptions underlying this work.Read more</span><span class="citation-popover-snippet">ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1707 — A recent paper claims that &#x27;Attention is not Explana...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/zXD3oiLT3uE" title="Computer Vision Meetup: ConceptAttention: Interpreting the Representations of Diffusion Transformers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=zXD3oiLT3uE" target="_blank" rel="noopener noreferrer">Computer Vision Meetup: ConceptAttention: Interpreting the Representations of Diffusion Transformers</a></p><p class="youtube-embed-meta">Channel: Voxel51</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=zXD3oiLT3uE" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=zXD3oiLT3uE">Open on YouTube</a></p></div></div></div>
 
 ## The Key Takeaway
 
-The finding that different attention maps can produce the same answer is one of the clearest demonstrations that attention is not the same thing as explanation. Counterfactual experiments show that a model's prediction can remain stable even when attention shifts dramatically across the input. This suggests that attention visualisations often describe one possible computational route rather than the unique reason for a decision. For anyone trying to understand artificial intelligence systems, the lesson is straightforward: attention maps can provide clues, but explanations require evidence that the highlighted information actually mattered to the outcome. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
+The finding that different attention maps can produce the same answer is one of the clearest demonstrations that attention is not the same thing as explanation. Counterfactual experiments show that a model's prediction can remain stable even when attention shifts dramatically across the input. This suggests that attention visualisations often describe one possible computational route rather than the unique reason for a decision. For anyone trying to understand artificial intelligence systems, the lesson is straightforward: attention maps can provide clues, but explanations require evidence that the highlighted information actually mattered to the outcome.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention is not Explanation</span><span class="citation-popover-snippet">Attention is not ExplanationFebruary 26, 2019...</span><span class="citation-popover-meta">Published: February 26, 2019</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can Two Very Different Attention Maps Mean the Same Thing?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can Two Very Different Attention Maps Mean the Same Thing?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Explains the attention-based models whose explanations are being questioned.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains the attention-based models whose explanations are being questioned.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Connects unreliable explanations to the broader challenge of understanding model behaviour.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Connects unreliable explanations to the broader challenge of understanding model behaviour.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Provides the background needed to understand multiple computational paths in neural networks.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Provides the background needed to understand multiple computational paths in neural networks.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Interpretable Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Interpretable Machine Learning">Interpretable Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Christoph Molnar</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Interpretable Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Interpretable Machine Learning">Interpretable Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Christoph Molnar</p>
         
-        <p class="fr-book-desc">Directly supports the page&#x27;s question about whether explanations identify real causes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly supports the page&#x27;s question about whether explanations identify real causes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/733ab76412f032036068.jpg' | relative_url }}" alt="Listing image for Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/733ab76412f032036068.jpg' | relative_url }}" alt="Listing image for Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neural network Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neuron synapses, neural network, me Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ebb84b494d6be8ae55f9.jpg' | relative_url }}" alt="Listing image for Neuron synapses, neural network, me Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neuron synapses, neural network, me Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neuron synapses, neural network, me Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ebb84b494d6be8ae55f9.jpg' | relative_url }}" alt="Listing image for Neuron synapses, neural network, me Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neuron synapses, neural network, me Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/7a9ac001fd831d4281df.jpg' | relative_url }}" alt="Listing image for Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/7a9ac001fd831d4281df.jpg' | relative_url }}" alt="Listing image for Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Deep Neural Network Framed Art Prin Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/0897eded9b536f769450.jpg' | relative_url }}" alt="Listing image for Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/0897eded9b536f769450.jpg' | relative_url }}" alt="Listing image for Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">Neural Network Watercolor Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for neural network poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: neural network poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=neural+network+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="neural network poster" data-ebay-reference="same-answer-can-two-very-different-attention-maps-mean-the-same-thing-understanding-neural-network-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -553,7 +553,7 @@ The finding that different attention maps can produce the same answer is one of 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -573,7 +573,7 @@ The finding that different attention maps can produce the same answer is one of 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -605,7 +605,7 @@ The finding that different attention maps can produce the same answer is one of 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -657,7 +657,7 @@ The finding that different attention maps can produce the same answer is one of 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -702,7 +702,7 @@ The finding that different attention maps can produce the same answer is one of 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -743,146 +743,146 @@ The finding that different attention maps can produce the same answer is one of 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv Attention is not Explanation  
-   Link: <a href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1902.10186</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not ExplanationFebruary 26, 2019...</p></details>
+   Link:<a href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1902.10186</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not ExplanationFebruary 26, 2019...</p></details>
    Published: February 26, 2019  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/1902.10186" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1902.10186</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>1902.10186v3 [cs.CL] 8 May 2019by S Jain · 2019 · Cited by 2458 — Under the assumption that attention weights are explanatory, such...</p></details>
+   Link:<a href="https://arxiv.org/pdf/1902.10186" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1902.10186</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>1902.10186v3 [cs.CL] 8 May 2019by S Jain · 2019 · Cited by 2458 — Under the assumption that attention weights are explanatory, such...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
    Title: arXiv Attention is not not Explanation  
-   Link: <a href="https://arxiv.org/abs/1908.04626" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1908.04626</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>We challenge many of the assumptions underlying this work.Read more...</p></details>
+   Link:<a href="https://arxiv.org/abs/1908.04626" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1908.04626</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We challenge many of the assumptions underlying this work.Read more...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.00928</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>arXiv[2005.00928] Quantifying Attention Flow in TransformersMay 2, 2020 — by S Abnar · 2020 · Cited by 1611 — In this paper, we consider...</p></details>
+   Link:<a href="https://arxiv.org/abs/2005.00928" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2005.00928</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>arXiv[2005.00928] Quantifying Attention Flow in TransformersMay 2, 2020 — by S Abnar · 2020 · Cited by 1611 — In this paper, we consider...</p></details>
    Published: May 2, 2020  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
    Title: arXiv Attention cannot be an Explanation  
-   Link: <a href="https://arxiv.org/abs/2201.11194" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2201.11194</a>  
+   Link:<a href="https://arxiv.org/abs/2201.11194" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2201.11194</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2601.04398v4" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2601.04398v4</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Interpreting Transformers Through Attention Head...Feb 26, 2026 — Initial transformer interpretability research treated attention weight...</p></details>
+   Link:<a href="https://arxiv.org/html/2601.04398v4" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2601.04398v4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Interpreting Transformers Through Attention Head...Feb 26, 2026 — Initial transformer interpretability research treated attention weight...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2401.05744" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2401.05744</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Counterfactual Reasoning for Path-Based Explainable...by Y Li · 2024 · Cited by 56 — Access Paper: View a PDF of the paper titled Attent...</p></details>
+   Link:<a href="https://arxiv.org/abs/2401.05744" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2401.05744</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Counterfactual Reasoning for Path-Based Explainable...by Y Li · 2024 · Cited by 56 — Access Paper: View a PDF of the paper titled Attent...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: aclanthology.org  
-   Link: <a href="https://aclanthology.org/N19-1357.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/N19-1357.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2307 — one might hope that if attention weights are peaky, then coun...</p></details>
+   Link:<a href="https://aclanthology.org/N19-1357.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/N19-1357.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2307 — one might hope that if attention weights are peaky, then coun...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: aclanthology.org  
    Title: We challenge many of the assumptions underlying this work.Read more  
-   Link: <a href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/D19-1002/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1707 — A recent paper claims that &#x27;Attention is not Explana...</p></details>
+   Link:<a href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/D19-1002/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1707 — A recent paper claims that &#x27;Attention is not Explana...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: aclanthology.org  
    Title: 2020.acl main.385  
-   Link: <a href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>2020. Quantifying Attention Flow in Transformers. In Proceedings of the 58th Annual Meeting of the Association for...Read more...</p></details>
+   Link:<a href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>2020. Quantifying Attention Flow in Transformers. In Proceedings of the 58th Annual Meeting of the Association for...Read more...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: aclanthology.org  
    Title: ACL Anthology Is Attention Explanation?  
-   Link: <a href="https://aclanthology.org/2022.acl-long.269.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2022.acl-long.269.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>An Introduction to the Debateby A Bibal · 2022 · Cited by 211 — (2020) theoretically show that at- tention weights in transformers can be...</p></details>
+   Link:<a href="https://aclanthology.org/2022.acl-long.269.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2022.acl-long.269.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An Introduction to the Debateby A Bibal · 2022 · Cited by 211 — (2020) theoretically show that at- tention weights in transformers can be...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: aclanthology.org  
-   Link: <a href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/N19-1357/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not Explanationby S Jain · 2019 · Cited by 2461 — Our findings show that standard attention modules do not provide meaningfu...</p></details>
+   Link:<a href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/N19-1357/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not Explanationby S Jain · 2019 · Cited by 2461 — Our findings show that standard attention modules do not provide meaningfu...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: aclanthology.org  
-   Link: <a href="https://aclanthology.org/2020.acl-main.385.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1611 — In this paper, we consider the problem of quantifying this...</p></details>
+   Link:<a href="https://aclanthology.org/2020.acl-main.385.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1611 — In this paper, we consider the problem of quantifying this...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Attention" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AttentionAttention is the concentration of awareness directed at some task or phenomenon while mostly excluding others. Focused attent...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Attention" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AttentionAttention is the concentration of awareness directed at some task or phenomenon while mostly excluding others. Focused attent...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: dictionary.cambridge.org  
-   Link: <a href="https://dictionary.cambridge.org/dictionary/english/attention" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english/attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>English meaning - Cambridge Dictionary5 days ago — to watch, listen to, or think about something or someone carefully or with interest...</p></details>
+   Link:<a href="https://dictionary.cambridge.org/dictionary/english/attention" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english/attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>English meaning - Cambridge Dictionary5 days ago — to watch, listen to, or think about something or someone carefully or with interest...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: github.com  
-   Link: <a href="https://github.com/sarahwie/attention" target="_blank" rel="noopener noreferrer nofollow">https://github.com/sarahwie/attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Code for EMNLP 2019 paper &quot;Attention is not...We&#x27;ve based our repository on the code provided by Sarthak Jain &amp; Byron Wallace for their...</p></details>
+   Link:<a href="https://github.com/sarahwie/attention" target="_blank" rel="noopener noreferrer nofollow">https://github.com/sarahwie/attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Code for EMNLP 2019 paper &quot;Attention is not...We&#x27;ve based our repository on the code provided by Sarthak Jain &amp; Byron Wallace for their...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: samiraabnar.github.io  
    Title: attention flow  
-   Link: <a href="https://samiraabnar.github.io/articles/2020-04/attention_flow" target="_blank" rel="noopener noreferrer nofollow">https://samiraabnar.github.io/articles/2020-04/attention_flow</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow in Transformers5 Apr 2020 — I explain two simple but effective methods, called Attention Rollout and Attention...</p></details>
+   Link:<a href="https://samiraabnar.github.io/articles/2020-04/attention_flow" target="_blank" rel="noopener noreferrer nofollow">https://samiraabnar.github.io/articles/2020-04/attention_flow</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Quantifying Attention Flow in Transformers5 Apr 2020 — I explain two simple but effective methods, called Attention Rollout and Attention...</p></details>
 
 ### Additional References
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/attention" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/attention</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ATTENTION Definition &amp; Meaning5 days ago — 1. a: the act or state of applying the mind to something Our attention was on the game. You s...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/attention" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ATTENTION Definition &amp; Meaning5 days ago — 1. a: the act or state of applying the mind to something Our attention was on the game. You s...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: openreview.net  
-   Link: <a href="https://openreview.net/pdf?id=BJe-_CNKPH" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=BJe-_CNKPH</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ATTENTION INTERPRETABILITY ACROSS NLP TASKSby S Vashishth · Cited by 260 — We also explain why attention weights are not interpretable wh...</p></details>
+   Link:<a href="https://openreview.net/pdf?id=BJe-_CNKPH" target="_blank" rel="noopener noreferrer nofollow">https://openreview.net/pdf?id=BJe-_CNKPH</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ATTENTION INTERPRETABILITY ACROSS NLP TASKSby S Vashishth · Cited by 260 — We also explain why attention weights are not interpretable wh...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: scribd.com  
-   Link: <a href="https://www.scribd.com/document/539572843/1902-10186" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/539572843/1902-10186</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Mechanisms Lack Explanatory Power | PDF2) It is possible to construct different attention distributions that yield equiva...</p></details>
+   Link:<a href="https://www.scribd.com/document/539572843/1902-10186" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/539572843/1902-10186</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Mechanisms Lack Explanatory Power | PDF2) It is possible to construct different attention distributions that yield equiva...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40yuvalpinter/attention-is-not-not-explanation-dbc25b534017" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40yuvalpinter/attention-is-not-not-explanation-dbc25b534017</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not not ExplanationAttention Distribution is not a Primitive. From a modeling perspective, detaching the attention scores ob...</p></details>
+   Link:<a href="https://medium.com/%40yuvalpinter/attention-is-not-not-explanation-dbc25b534017" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40yuvalpinter/attention-is-not-not-explanation-dbc25b534017</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not not ExplanationAttention Distribution is not a Primitive. From a modeling perspective, detaching the attention scores ob...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: bibbase.org  
-   Link: <a href="https://bibbase.org/network/publication/wiegreffe-pinter-attentionisnotnotexplanation-2019" target="_blank" rel="noopener noreferrer nofollow">https://bibbase.org/network/publication/wiegreffe-pinter-attentionisnotnotexplanation-2019</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not not ExplanationWe propose four alternative tests to determine when/whether attention can be used as explanation: a simpl...</p></details>
+   Link:<a href="https://bibbase.org/network/publication/wiegreffe-pinter-attentionisnotnotexplanation-2019" target="_blank" rel="noopener noreferrer nofollow">https://bibbase.org/network/publication/wiegreffe-pinter-attentionisnotnotexplanation-2019</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not not ExplanationWe propose four alternative tests to determine when/whether attention can be used as explanation: a simpl...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/1003d7w/discussion_is_attention_an_explanation/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1003d7w/discussion_is_attention_an_explanation/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[Discussion] is attention an explanation?: r/MachineLearningAttention maps can be a type of explanation. It tells you what the model was...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/1003d7w/discussion_is_attention_an_explanation/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1003d7w/discussion_is_attention_an_explanation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Discussion] is attention an explanation?: r/MachineLearningAttention maps can be a type of explanation. It tells you what the model was...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: semanticscholar.org  
-   Link: <a href="https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Quantifying Attention Flow in TransformersThis paper proposes two methods for approximating the attention to input tokens given att...</p></details>
+   Link:<a href="https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Quantifying Attention Flow in TransformersThis paper proposes two methods for approximating the attention to input tokens given att...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: pure.uva.nl  
-   Link: <a href="https://pure.uva.nl/ws/files/178487922/2020.acl-main.385.pdf" target="_blank" rel="noopener noreferrer nofollow">https://pure.uva.nl/ws/files/178487922/2020.acl-main.385.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>uva.nlUvA-DARE (Digital Academic Repository)In this paper, we consider the problem of quantifying this flow of infor- mation through self...</p></details>
+   Link:<a href="https://pure.uva.nl/ws/files/178487922/2020.acl-main.385.pdf" target="_blank" rel="noopener noreferrer nofollow">https://pure.uva.nl/ws/files/178487922/2020.acl-main.385.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>uva.nlUvA-DARE (Digital Academic Repository)In this paper, we consider the problem of quantifying this flow of infor- mation through self...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: github.com  
-   Link: <a href="https://github.com/samiraabnar/attention_flow" target="_blank" rel="noopener noreferrer nofollow">https://github.com/samiraabnar/attention_flow</a>  
+   Link:<a href="https://github.com/samiraabnar/attention_flow" target="_blank" rel="noopener noreferrer nofollow">https://github.com/samiraabnar/attention_flow</a>  
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>We show that even when reliable [adversarial](&amp;#123;&amp;#123; &#x27;stress-tests/&#x27; | relative_url &amp;#125;&amp;#125;) distributions can be found, they...Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We show that even when reliable [adversarial](&amp;#123;&amp;#123; &#x27;stress-tests/&#x27; | relative_url &amp;#125;&amp;#125;) distributions can be found, they...Read more...</p></details>

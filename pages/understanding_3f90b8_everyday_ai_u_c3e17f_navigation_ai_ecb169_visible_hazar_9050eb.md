@@ -285,7 +285,7 @@ A suggested route should generally be ignored when continuing would expose road 
 
 The clearest reason to disregard [navigation]({{ 'routes/' | relative_url }}) advice is the presence of a visible hazard that was not reflected in the route calculation.
 
-Flooded roads are one of the most common examples. Navigation systems increasingly incorporate flood reports, but real-world conditions can change faster than map data. Floodwater may conceal potholes, damaged road surfaces, open drains or structural failures beneath the surface. Transportation and flood-safety authorities consistently warn that roads covered by water can become impassable or dangerous even when they appear shallow. Research on flood-affected transport infrastructure has documented vehicle losses, road failures and severe safety consequences when drivers attempt to continue through floodwaters. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cdema.org/virtuallibrary/index.php/charim-hbook/use-case-book/3a-critical-infrastructure/3-2-design-guidelines/3-2-2-roads-in-flood-areas" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cdema.org">[cdema.org+2consorsegurosdigital.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cdema.org</span><span class="citation-popover-title">3 2 2 roads in flood areas</span><span class="citation-popover-snippet">3.2.2 Roads in flood affected areas15 Jul 2016 — There will be a disruption to the road network, risk to vehicles and passengers trying t...</span></span></span>
+Flooded roads are one of the most common examples. Navigation systems increasingly incorporate flood reports, but real-world conditions can change faster than map data. Floodwater may conceal potholes, damaged road surfaces, open drains or structural failures beneath the surface. Transportation and flood-safety authorities consistently warn that roads covered by water can become impassable or dangerous even when they appear shallow. Research on flood-affected transport infrastructure has documented vehicle losses, road failures and severe safety consequences when drivers attempt to continue through floodwaters.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.cdema.org/virtuallibrary/index.php/charim-hbook/use-case-book/3a-critical-infrastructure/3-2-design-guidelines/3-2-2-roads-in-flood-areas" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: cdema.org">[cdema.org+2consorsegurosdigital.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">cdema.org</span><span class="citation-popover-title">3 2 2 roads in flood areas</span><span class="citation-popover-snippet">3.2.2 Roads in flood affected areas15 Jul 2016 — There will be a disruption to the road network, risk to vehicles and passengers trying t...</span></span></span>
 
 Other visible conditions that should override navigation instructions include:
 
@@ -297,7 +297,7 @@ Other visible conditions that should override navigation instructions include:
 * Ice, snow drifts or standing water creating obvious loss-of-control risks.
 * Damaged bridges, washed-out sections of road or visible subsidence.
 * Roadworks that have narrowed or obstructed the carriageway beyond what the app indicates.
-* Severe congestion caused by an incident where emergency access is required. <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.transportation.gov/grants/ss4a/ITS-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: transportation.gov">[transportation.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">transportation.gov</span><span class="citation-popover-title">ITS use cases</span><span class="citation-popover-snippet">improve emergency vehicle access...</span></span></span>
+* Severe congestion caused by an incident where emergency access is required.<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.transportation.gov/grants/ss4a/ITS-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: transportation.gov">[transportation.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">transportation.gov</span><span class="citation-popover-title">ITS use cases</span><span class="citation-popover-snippet">improve emergency vehicle access...</span></span></span>
 
 </div>
 
@@ -310,9 +310,9 @@ In each case, the driver possesses information that the navigation system may no
 
 Some dangers are visible only when approaching the location and may never appear accurately on a route map.
 
-Rural roads provide a useful example. Navigation systems often divert traffic onto narrow country lanes to avoid congestion. Yet those roads may contain sharp blind bends, agricultural vehicles, livestock crossings, overgrown vegetation, poor sight lines or unexpected single-track sections. UK road-safety organisations have warned that sat-nav diversions can place unfamiliar drivers onto roads with substantially greater risk than the roads they are trying to avoid. Recent road-safety analysis noted that rural roads account for a disproportionate share of fatal collisions despite carrying a minority of total traffic. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thetimes.com">[The Times]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thetimes.com</span><span class="citation-popover-title">The Times Safety alert over sat-navs diverting drivers on to country roads</span><span class="citation-popover-snippet">The charity highlights that while these diversions may save only a few minutes, they significantly increase the risk of accidents. In 202...</span></span></span>
+Rural roads provide a useful example. Navigation systems often divert traffic onto narrow country lanes to avoid congestion. Yet those roads may contain sharp blind bends, agricultural vehicles, livestock crossings, overgrown vegetation, poor sight lines or unexpected single-track sections. UK road-safety organisations have warned that sat-nav diversions can place unfamiliar drivers onto roads with substantially greater risk than the roads they are trying to avoid. Recent road-safety analysis noted that rural roads account for a disproportionate share of fatal collisions despite carrying a minority of total traffic.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thetimes.com">[The Times]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thetimes.com</span><span class="citation-popover-title">The Times Safety alert over sat-navs diverting drivers on to country roads</span><span class="citation-popover-snippet">The charity highlights that while these diversions may save only a few minutes, they significantly increase the risk of accidents. In 202...</span></span></span>
 
-Visibility is particularly important. Road-safety guidance notes that limited forward visibility increases the likelihood that drivers will be unable to react in time to hazards. Vegetation, road geometry and temporary obstructions can create risks that are impossible for a routing algorithm to judge accurately from traffic data alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nationalhighways.co.uk/media/viad3j1n/guide-to-road-safety-route-treatments.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nationalhighways.co.uk">[National Highways]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nationalhighways.co.uk</span><span class="citation-popover-snippet">National HighwaysGuide to Road Safety Route Treatments March 2025June 5, 2025 — forward visibility, there is a greater risk of road users...</span><span class="citation-popover-meta">Published: June 5, 2025</span></span></span>
+Visibility is particularly important. Road-safety guidance notes that limited forward visibility increases the likelihood that drivers will be unable to react in time to hazards. Vegetation, road geometry and temporary obstructions can create risks that are impossible for a routing algorithm to judge accurately from traffic data alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nationalhighways.co.uk/media/viad3j1n/guide-to-road-safety-route-treatments.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nationalhighways.co.uk">[National Highways]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nationalhighways.co.uk</span><span class="citation-popover-snippet">National HighwaysGuide to Road Safety Route Treatments March 2025June 5, 2025 — forward visibility, there is a greater risk of road users...</span><span class="citation-popover-meta">Published: June 5, 2025</span></span></span>
 
 Drivers should therefore be cautious when an app suggests:
 
@@ -332,7 +332,7 @@ Drivers should therefore be cautious when an app suggests:
 
 Navigation systems are designed primarily to optimise travel. During emergencies, safety becomes more important than efficiency.
 
-If emergency vehicles are approaching, if police are directing traffic, or if responders have closed part of a road, official instructions should take precedence over the app. Emergency management agencies and transport authorities increasingly use connected technologies to communicate hazards, but those systems are not universal and may not reach every navigation platform immediately. Research on emergency routing repeatedly highlights that road closures and rapidly changing conditions can create information gaps between the field situation and routing systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ops.fhwa.dot.gov/publications/fhwahop22030/fhwahop22030.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ops.fhwa.dot.gov">[FHWA Operations+2IEREK Press]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ops.fhwa.dot.gov</span><span class="citation-popover-title">FHWA Operations Implementing Solutions for Emergency Routing</span><span class="citation-popover-snippet">FHWA OperationsImplementing Solutions for Emergency RoutingFebruary 22, 2024 — Encourage State DOTs to expedite weight and roadside safet...</span><span class="citation-popover-meta">Published: February 22, 2024</span></span></span>
+If emergency vehicles are approaching, if police are directing traffic, or if responders have closed part of a road, official instructions should take precedence over the app. Emergency management agencies and transport authorities increasingly use connected technologies to communicate hazards, but those systems are not universal and may not reach every navigation platform immediately. Research on emergency routing repeatedly highlights that road closures and rapidly changing conditions can create information gaps between the field situation and routing systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ops.fhwa.dot.gov/publications/fhwahop22030/fhwahop22030.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ops.fhwa.dot.gov">[FHWA Operations+2IEREK Press]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ops.fhwa.dot.gov</span><span class="citation-popover-title">FHWA Operations Implementing Solutions for Emergency Routing</span><span class="citation-popover-snippet">FHWA OperationsImplementing Solutions for Emergency RoutingFebruary 22, 2024 — Encourage State DOTs to expedite weight and roadside safet...</span><span class="citation-popover-meta">Published: February 22, 2024</span></span></span>
 
 A driver who can see flashing lights, emergency personnel or temporary barriers is receiving higher-quality information than a route planner that may still assume the road is available.
 
@@ -343,7 +343,7 @@ A driver who can see flashing lights, emergency personnel or temporary barriers 
 
 The difficult [decisions]({{ 'decisions/' | relative_url }}) usually occur when the hazard is not a complete blockage but a visible increase in risk.
 
-A navigation app might suggest a diversion that saves five minutes. Yet if that diversion leads onto a flooded lane, a poorly maintained track, or a road where visibility is severely reduced, the time saving becomes irrelevant. The route recommendation is optimising for travel time, while the driver must evaluate safety, vehicle capability and comfort. Road-safety experts have increasingly argued that drivers should actively question whether small time savings justify exposure to greater risk. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thetimes.com">[The Times]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thetimes.com</span><span class="citation-popover-title">The Times Safety alert over sat-navs diverting drivers on to country roads</span><span class="citation-popover-snippet">The charity highlights that while these diversions may save only a few minutes, they significantly increase the risk of accidents. In 202...</span></span></span>
+A navigation app might suggest a diversion that saves five minutes. Yet if that diversion leads onto a flooded lane, a poorly maintained track, or a road where visibility is severely reduced, the time saving becomes irrelevant. The route recommendation is optimising for travel time, while the driver must evaluate safety, vehicle capability and comfort. Road-safety experts have increasingly argued that drivers should actively question whether small time savings justify exposure to greater risk.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thetimes.com">[The Times]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thetimes.com</span><span class="citation-popover-title">The Times Safety alert over sat-navs diverting drivers on to country roads</span><span class="citation-popover-snippet">The charity highlights that while these diversions may save only a few minutes, they significantly increase the risk of accidents. In 202...</span></span></span>
 
 A practical rule is simple:
 
@@ -367,194 +367,194 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When Should You Ignore a Suggested Route?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When Should You Ignore a Suggested Route?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Official+Highway+Code+by+Great+Britain.+Department+for+Transport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Official Highway Code on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=B-1hrgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Official Highway Code" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Official+Highway+Code+by+Great+Britain.+Department+for+Transport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Official Highway Code">The Official Highway Code</a>
-        </h4>
-        <p class="fr-book-author">By Great Britain. Department for Transport, Driver and Vehicle Standards Agency</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Official+Highway+Code+by+Great+Britain.+Department+for+Transport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Official Highway Code on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=B-1hrgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Official Highway Code" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Official+Highway+Code+by+Great+Britain.+Department+for+Transport&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Official Highway Code">The Official Highway Code</a>
+</h4>
+<p class="fr-book-author">By Great Britain. Department for Transport, Driver and Vehicle Standards Agency</p>
         
-        <p class="fr-book-desc">Directly relevant to judging hazards and safe driving decisions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Official+Highway+Code+by+Great+Britain.+Department+for+Transport&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly relevant to judging hazards and safe driving decisions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Official+Highway+Code+by+Great+Britain.+Department+for+Transport&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Roadcraft+by+Philip+Coyne&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Roadcraft on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=O5QYAAAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Roadcraft" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Roadcraft+by+Philip+Coyne&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Roadcraft">Roadcraft</a>
-        </h4>
-        <p class="fr-book-author">By Philip Coyne</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Roadcraft+by+Philip+Coyne&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Roadcraft on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=O5QYAAAACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Roadcraft" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Roadcraft+by+Philip+Coyne&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Roadcraft">Roadcraft</a>
+</h4>
+<p class="fr-book-author">By Philip Coyne</p>
         
-        <p class="fr-book-desc">Focuses on hazard perception, observation, and safe decision-making.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Roadcraft+by+Philip+Coyne&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on hazard perception, observation, and safe decision-making.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Roadcraft+by+Philip+Coyne&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hello World on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=72FCDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hello World" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hello World">Hello World</a>
-        </h4>
-        <p class="fr-book-author">By Hannah Fry</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hello World on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=72FCDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hello World" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hello World">Hello World</a>
+</h4>
+<p class="fr-book-author">By Hannah Fry</p>
         
-        <p class="fr-book-desc">Reinforces the idea that human judgment can supersede automated recommendations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Reinforces the idea that human judgment can supersede automated recommendations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Explains AI limitations in changing real-world environments.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains AI limitations in changing real-world environments.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Official+Highway+Code&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Official Highway Code</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Roadcraft&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Roadcraft</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hello+World&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hello World</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Official+Highway+Code&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Official Highway Code</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Roadcraft&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Roadcraft</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hello+World&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hello World</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science Coffee Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/369997190c529ab73ee7.jpg' | relative_url }}" alt="Listing image for Computer Science Coffee Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">Computer Science Coffee Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science print">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science Coffee Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/369997190c529ab73ee7.jpg' | relative_url }}" alt="Listing image for Computer Science Coffee Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">Computer Science Coffee Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science print">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4960074c91e5c071f040.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science print">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4960074c91e5c071f040.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science print">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a8b78855b29bc86d913d.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science print">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a8b78855b29bc86d913d.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science print">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science print">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science print">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science print" data-ebay-reference="road-hazards-when-should-you-ignore-a-suggested-route-understanding-computer-science-print" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -570,7 +570,7 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -590,7 +590,7 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -622,7 +622,7 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -674,7 +674,7 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -719,7 +719,7 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -760,121 +760,121 @@ This balance illustrates a broader principle of artificial intelligence. AI syst
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: cdema.org  
    Title: 3 2 2 roads in flood areas  
-   Link: <a href="https://www.cdema.org/virtuallibrary/index.php/charim-hbook/use-case-book/3a-critical-infrastructure/3-2-design-guidelines/3-2-2-roads-in-flood-areas" target="_blank" rel="noopener noreferrer nofollow">https://www.cdema.org/virtuallibrary/index.php/charim-hbook/use-case-book/3a-critical-infrastructure/3-2-design-guidelines/3-2-2-roads-in-flood-areas</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>3.2.2 Roads in flood affected areas15 Jul 2016 — There will be a disruption to the road network, risk to vehicles and passengers trying t...</p></details>
+   Link:<a href="https://www.cdema.org/virtuallibrary/index.php/charim-hbook/use-case-book/3a-critical-infrastructure/3-2-design-guidelines/3-2-2-roads-in-flood-areas" target="_blank" rel="noopener noreferrer nofollow">https://www.cdema.org/virtuallibrary/index.php/charim-hbook/use-case-book/3a-critical-infrastructure/3-2-design-guidelines/3-2-2-roads-in-flood-areas</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>3.2.2 Roads in flood affected areas15 Jul 2016 — There will be a disruption to the road network, risk to vehicles and passengers trying t...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: consorsegurosdigital.com  
    Title: Floods, a danger to road safety  
-   Link: <a href="https://www.consorsegurosdigital.com/almacen/pdf/floods-a-danger-to-road-safety.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.consorsegurosdigital.com/almacen/pdf/floods-a-danger-to-road-safety.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ConsorsegurosDue to their [speed](&amp;#123;&amp;#123; &#x27;speed/&#x27; | relative_url &amp;#125;&amp;#125;) and unpredictability, flash floods are extremely hazardous to personal safety, specifically to road safety...</p></details>
+   Link:<a href="https://www.consorsegurosdigital.com/almacen/pdf/floods-a-danger-to-road-safety.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.consorsegurosdigital.com/almacen/pdf/floods-a-danger-to-road-safety.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ConsorsegurosDue to their [speed](&amp;#123;&amp;#123; &#x27;speed/&#x27; | relative_url &amp;#125;&amp;#125;) and unpredictability, flash floods are extremely hazardous to personal safety, specifically to road safety...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: press.ierek.com  
-   Link: <a href="https://press.ierek.com/index.php/Resourceedings/article/view/946" target="_blank" rel="noopener noreferrer nofollow">https://press.ierek.com/index.php/Resourceedings/article/view/946</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>IEREK PressRouting and Navigation Solutions for Emergency Vehicles...by C Ozcan-tatar · 2023 · Cited by 3 — The application is developed...</p></details>
+   Link:<a href="https://press.ierek.com/index.php/Resourceedings/article/view/946" target="_blank" rel="noopener noreferrer nofollow">https://press.ierek.com/index.php/Resourceedings/article/view/946</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>IEREK PressRouting and Navigation Solutions for Emergency Vehicles...by C Ozcan-tatar · 2023 · Cited by 3 — The application is developed...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: transportation.gov  
    Title: ITS [use cases](&#123;&#123; 'use-cases/' | relative_url &#125;&#125;)  
-   Link: <a href="https://www.transportation.gov/grants/ss4a/ITS-use-cases" target="_blank" rel="noopener noreferrer nofollow">https://www.transportation.gov/grants/ss4a/ITS-use-cases</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>improve emergency vehicle access...</p></details>
+   Link:<a href="https://www.transportation.gov/grants/ss4a/ITS-use-cases" target="_blank" rel="noopener noreferrer nofollow">https://www.transportation.gov/grants/ss4a/ITS-use-cases</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>improve emergency vehicle access...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: thetimes.com  
    Title: The Times Safety alert over sat-navs diverting drivers on to country roads  
-   Link: <a href="https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn" target="_blank" rel="noopener noreferrer nofollow">https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The charity highlights that while these diversions may save only a few minutes, they significantly increase the risk of accidents. In 202...</p></details>
+   Link:<a href="https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn" target="_blank" rel="noopener noreferrer nofollow">https://www.thetimes.com/uk/transport/article/sat-nav-safety-alert-country-roads-3pg963gdn</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The charity highlights that while these diversions may save only a few minutes, they significantly increase the risk of accidents. In 202...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: nationalhighways.co.uk  
-   Link: <a href="https://nationalhighways.co.uk/media/viad3j1n/guide-to-road-safety-route-treatments.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nationalhighways.co.uk/media/viad3j1n/guide-to-road-safety-route-treatments.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>National HighwaysGuide to Road Safety Route Treatments March 2025June 5, 2025 — forward visibility, there is a greater risk of road users...</p></details>
+   Link:<a href="https://nationalhighways.co.uk/media/viad3j1n/guide-to-road-safety-route-treatments.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nationalhighways.co.uk/media/viad3j1n/guide-to-road-safety-route-treatments.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National HighwaysGuide to Road Safety Route Treatments March 2025June 5, 2025 — forward visibility, there is a greater risk of road users...</p></details>
    Published: June 5, 2025  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: ops.fhwa.dot.gov  
    Title: FHWA Operations Implementing Solutions for Emergency Routing  
-   Link: <a href="https://ops.fhwa.dot.gov/publications/fhwahop22030/fhwahop22030.pdf" target="_blank" rel="noopener noreferrer nofollow">https://ops.fhwa.dot.gov/publications/fhwahop22030/fhwahop22030.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>FHWA OperationsImplementing Solutions for Emergency RoutingFebruary 22, 2024 — Encourage State DOTs to expedite weight and roadside safet...</p></details>
+   Link:<a href="https://ops.fhwa.dot.gov/publications/fhwahop22030/fhwahop22030.pdf" target="_blank" rel="noopener noreferrer nofollow">https://ops.fhwa.dot.gov/publications/fhwahop22030/fhwahop22030.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FHWA OperationsImplementing Solutions for Emergency RoutingFebruary 22, 2024 — Encourage State DOTs to expedite weight and roadside safet...</p></details>
    Published: February 22, 2024  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: GOV.UK  
    Title: www.gov.uk The Highway Code  
-   Link: <a href="https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Highway Code - General rules, techniques and advice...1 Oct 2015 — You MUST NOT use hazard warning lights while driving or being towed u...</p></details>
+   Link:<a href="https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Highway Code - General rules, techniques and advice...1 Oct 2015 — You MUST NOT use hazard warning lights while driving or being towed u...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: GOV.UK  
-   Link: <a href="https://www.gov.uk/guidance/flood-risk-and-coastal-change" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/guidance/flood-risk-and-coastal-change</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>risk and coastal changeAdvises how to take account of and address the risks associated with flooding and coastal change in the planning p...</p></details>
+   Link:<a href="https://www.gov.uk/guidance/flood-risk-and-coastal-change" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/guidance/flood-risk-and-coastal-change</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>risk and coastal changeAdvises how to take account of and address the risks associated with flooding and coastal change in the planning p...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: highways.dot.gov  
    Title: infrastructure developing [risk based](&#123;&#123; 'risk-rules/' | relative_url &#125;&#125;) scour program  
-   Link: <a href="https://highways.dot.gov/fed-aid-essentials/videos/other-programs/infrastructure-developing-risk-based-scour-program" target="_blank" rel="noopener noreferrer nofollow">https://highways.dot.gov/fed-aid-essentials/videos/other-programs/infrastructure-developing-risk-based-scour-program</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>dot.govInfrastructure: Developing a Risk-Based Scour Program | FHWAThis online training provides guidance on developing a Plan of Action...</p></details>
+   Link:<a href="https://highways.dot.gov/fed-aid-essentials/videos/other-programs/infrastructure-developing-risk-based-scour-program" target="_blank" rel="noopener noreferrer nofollow">https://highways.dot.gov/fed-aid-essentials/videos/other-programs/infrastructure-developing-risk-based-scour-program</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>dot.govInfrastructure: Developing a Risk-Based Scour Program | FHWAThis online training provides guidance on developing a Plan of Action...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: assets.publishing.service.gov.uk  
-   Link: <a href="https://assets.publishing.service.gov.uk/media/5a7d8038e5274a676d532707/safety-at-streetworks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://assets.publishing.service.gov.uk/media/5a7d8038e5274a676d532707/safety-at-streetworks.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>at Street Works and Road WorksThis Code of Practice (referred to from here on as the Code) is intended to help you to safely carry out si...</p></details>
+   Link:<a href="https://assets.publishing.service.gov.uk/media/5a7d8038e5274a676d532707/safety-at-streetworks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://assets.publishing.service.gov.uk/media/5a7d8038e5274a676d532707/safety-at-streetworks.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>at Street Works and Road WorksThis Code of Practice (referred to from here on as the Code) is intended to help you to safely carry out si...</p></details>
 
 ### Additional References
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: rospa.com  
-   Link: <a href="https://www.rospa.com/road-safety" target="_blank" rel="noopener noreferrer nofollow">https://www.rospa.com/road-safety</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Road safety advice and informationA vast array of advice and information on all areas of road safety covering drivers, riders, pedestrian...</p></details>
+   Link:<a href="https://www.rospa.com/road-safety" target="_blank" rel="noopener noreferrer nofollow">https://www.rospa.com/road-safety</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Road safety advice and informationA vast array of advice and information on all areas of road safety covering drivers, riders, pedestrian...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: clearview-intelligence.com  
-   Link: <a href="https://www.clearview-intelligence.com/wp-content/uploads/2024/10/Route-safety-solutions-brochure-digital-.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.clearview-intelligence.com/wp-content/uploads/2024/10/Route-safety-solutions-brochure-digital-.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Route Safety SolutionsThis case study focuses on minimising road accidents resulting from excessive speed, limited visibility, complex ju...</p></details>
+   Link:<a href="https://www.clearview-intelligence.com/wp-content/uploads/2024/10/Route-safety-solutions-brochure-digital-.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.clearview-intelligence.com/wp-content/uploads/2024/10/Route-safety-solutions-brochure-digital-.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Route Safety SolutionsThis case study focuses on minimising road accidents resulting from excessive speed, limited visibility, complex ju...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/groups/WantageAndGroveCommunity/posts/1505266390184511/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/WantageAndGroveCommunity/posts/1505266390184511/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Waze app helps report flooded roadsSimply enter your route into Waze App and it will show you all REPORTED hazards including flooded road...</p></details>
+   Link:<a href="https://www.facebook.com/groups/WantageAndGroveCommunity/posts/1505266390184511/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/WantageAndGroveCommunity/posts/1505266390184511/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Waze app helps report flooded roadsSimply enter your route into Waze App and it will show you all REPORTED hazards including flooded road...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/groups/964805740341395/posts/3509053489249928/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/964805740341395/posts/3509053489249928/</a>  
+   Link:<a href="https://www.facebook.com/groups/964805740341395/posts/3509053489249928/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/964805740341395/posts/3509053489249928/</a>  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: naturalhazards.com.au  
-   Link: <a href="https://www.naturalhazards.com.au/crc-collection/downloads/enhancing_resilience_of_critical_road_infrastructure_-_final_project_report_may_2021.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.naturalhazards.com.au/crc-collection/downloads/enhancing_resilience_of_critical_road_infrastructure_-_final_project_report_may_2021.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>enhancing resilience of critical road structures: bridges...by S Setunge · 2021 · Cited by 1 — The research conducted included assessme...</p></details>
+   Link:<a href="https://www.naturalhazards.com.au/crc-collection/downloads/enhancing_resilience_of_critical_road_infrastructure_-_final_project_report_may_2021.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.naturalhazards.com.au/crc-collection/downloads/enhancing_resilience_of_critical_road_infrastructure_-_final_project_report_may_2021.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>enhancing resilience of critical road structures: bridges...by S Setunge · 2021 · Cited by 1 — The research conducted included assessme...</p></details>
    Published: may 2021  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: tomtom.com  
    Title: building road network resilience how to keep moving through disruption  
-   Link: <a href="https://www.tomtom.com/newsroom/explainers-and-insights/building-road-network-resilience-how-to-keep-moving-through-disruption/" target="_blank" rel="noopener noreferrer nofollow">https://www.tomtom.com/newsroom/explainers-and-insights/building-road-network-resilience-how-to-keep-moving-through-disruption/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Moving through disruptions in Urban spaces20 Jan 2026 — Real-time floating car data revealed functional roadways through a heavily damage...</p></details>
+   Link:<a href="https://www.tomtom.com/newsroom/explainers-and-insights/building-road-network-resilience-how-to-keep-moving-through-disruption/" target="_blank" rel="noopener noreferrer nofollow">https://www.tomtom.com/newsroom/explainers-and-insights/building-road-network-resilience-how-to-keep-moving-through-disruption/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Moving through disruptions in Urban spaces20 Jan 2026 — Real-time floating car data revealed functional roadways through a heavily damage...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: benton2.org  
    Title: Benton County Fire District No 2HAAS Alert Safety Cloud  
-   Link: <a href="https://www.benton2.org/haas-alert-safety-cloud" target="_blank" rel="noopener noreferrer nofollow">https://www.benton2.org/haas-alert-safety-cloud</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Benton County Fire District No 2BCFD #2 emergency vehicles can now send real-time alerts to drivers when units are responding to or opera...</p></details>
+   Link:<a href="https://www.benton2.org/haas-alert-safety-cloud" target="_blank" rel="noopener noreferrer nofollow">https://www.benton2.org/haas-alert-safety-cloud</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Benton County Fire District No 2BCFD #2 emergency vehicles can now send real-time alerts to drivers when units are responding to or opera...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: instagram.com  
-   Link: <a href="https://www.instagram.com/reel/DZZkXCjndsG/" target="_blank" rel="noopener noreferrer nofollow">https://www.instagram.com/reel/DZZkXCjndsG/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Not all safety alerts are created equal Behind every alert in...When a route includes a vehicle restriction, HERE SDK Navigation provide...</p></details>
+   Link:<a href="https://www.instagram.com/reel/DZZkXCjndsG/" target="_blank" rel="noopener noreferrer nofollow">https://www.instagram.com/reel/DZZkXCjndsG/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Not all safety alerts are created equal Behind every alert in...When a route includes a vehicle restriction, HERE SDK Navigation provide...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/firenuzzle/posts/navigating-flooded-roads-can-be-dangerous%EF%B8%8F%EF%B8%8F-always-assess-the-water-depth-avoid-/455278910811416/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/firenuzzle/posts/navigating-flooded-roads-can-be-dangerous%EF%B8%8F%EF%B8%8F-always-assess-the-water-depth-avoid-/455278910811416/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>water to recede. Floodwater can hide dangers, damage...Read more...</p></details>
+   Link:<a href="https://www.facebook.com/firenuzzle/posts/navigating-flooded-roads-can-be-dangerous%EF%B8%8F%EF%B8%8F-always-assess-the-water-depth-avoid-/455278910811416/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/firenuzzle/posts/navigating-flooded-roads-can-be-dangerous%EF%B8%8F%EF%B8%8F-always-assess-the-water-depth-avoid-/455278910811416/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>water to recede. Floodwater can hide dangers, damage...Read more...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: youtube.com  
    Title: Turn around, don't drown: Safety tips for driving amid flooding from Debby  
-   Link: <a href="http://www.youtube.com/watch?v=8_VzMM3gc0g" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=8_VzMM3gc0g</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google maps fail flooded stream gps driver EPIC GPS FAIL! Car Plunges into Frozen Canal in Indianapolis Snipjolt...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=8_VzMM3gc0g" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=8_VzMM3gc0g</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google maps fail flooded stream gps driver EPIC GPS FAIL! Car Plunges into Frozen Canal in Indianapolis Snipjolt...</p></details>

@@ -292,7 +292,7 @@ Retrieval-augmented generation (RAG) was introduced to address one of the most v
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_grounded_ai_e_ead19a-Illustration-1-dark.svg" | relative_url }}" alt="RAG errors illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_grounded_ai_e_ead19a-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_grounded_ai_e_ead19a-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-A grounded answer can still be wrong even when it cites real documents. The failure may occur before the answer is generated, when the system retrieves incomplete or irrelevant material, or afterwards, when the model misreads, misattributes or overgeneralises from the retrieved evidence. Researchers increasingly distinguish between “having sources” and “using sources correctly”. A citation can show where information came from, but it does not guarantee that the information was interpreted accurately. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</span><span class="citation-popover-meta">Published: December 22, 2024</span></span></span>
+A grounded answer can still be wrong even when it cites real documents. The failure may occur before the answer is generated, when the system retrieves incomplete or irrelevant material, or afterwards, when the model misreads, misattributes or overgeneralises from the retrieved evidence. Researchers increasingly distinguish between “having sources” and “using sources correctly”. A citation can show where information came from, but it does not guarantee that the information was interpreted accurately.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</span><span class="citation-popover-meta">Published: December 22, 2024</span></span></span>
 
 For anyone trying to understand artificial intelligence, this is an important shift. The key question is no longer only whether an AI system [invented]({{ 'fake-citations-d81942/' | relative_url }}) evidence. It is also whether it understood the evidence it found.
 
@@ -302,9 +302,9 @@ Many errors originate before the language model starts composing a response. If 
 
 One common problem is **retrieval [mismatch]({{ 'mismatch/' | relative_url }})**. A user asks a specific question, but the search component retrieves passages that are related rather than directly relevant. Because language models are designed to produce complete answers, they may confidently build a response from nearby but incorrect evidence.
 
-Research evaluating RAG systems in medical question-answering found that retrieval failures accounted for most observed errors. Problems included insufficiently specific context, fragmented information and missing document structure, causing the system to confuse distinct medical procedures or overlook critical distinctions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13009108/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">September 2, 2025...</span><span class="citation-popover-meta">Published: September 2, 2025</span></span></span>
+Research evaluating RAG systems in medical question-answering found that retrieval failures accounted for most observed errors. Problems included insufficiently specific context, fragmented information and missing document structure, causing the system to confuse distinct medical procedures or overlook critical distinctions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13009108/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">September 2, 2025...</span><span class="citation-popover-meta">Published: September 2, 2025</span></span></span>
 
-Document processing can introduce another layer of failure. Many enterprise systems ingest PDFs, scanned reports and tables through optical character recognition (OCR). If a table is partially unreadable, a footnote disappears or a heading is assigned to the wrong section, the retrieval system may faithfully return corrupted information. Later stages cannot easily recover what was lost. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/386419255_OCR_Hinders_RAG_Evaluating_the_Cascading_Impact_of_OCR_on_Retrieval-Augmented_Generation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Open source on researchgate.net.</span></span></span>
+Document processing can introduce another layer of failure. Many enterprise systems ingest PDFs, scanned reports and tables through optical character recognition (OCR). If a table is partially unreadable, a footnote disappears or a heading is assigned to the wrong section, the retrieval system may faithfully return corrupted information. Later stages cannot easily recover what was lost.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/386419255_OCR_Hinders_RAG_Evaluating_the_Cascading_Impact_of_OCR_on_Retrieval-Augmented_Generation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Open source on researchgate.net.</span></span></span>
 
 Other retrieval-stage problems include:
 
@@ -312,7 +312,7 @@ Other retrieval-stage problems include:
 * **Ranking errors**: the correct passage is retrieved but placed below less relevant passages, reducing the chance that the model will use it.
 * **Context dilution**: too many retrieved passages compete for [attention]({{ 'attention/' | relative_url }}), causing crucial evidence to be buried.
 * **Document-version confusion**: the system retrieves an outdated policy, regulation or guideline instead of the current version.
-* **Structural blindness**: tables, appendices, diagrams and footnotes may contain essential information that retrieval systems handle poorly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face+2MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</span><span class="citation-popover-meta">Published: December 22, 2024</span></span></span>
+* **Structural blindness**: tables, appendices, diagrams and footnotes may contain essential information that retrieval systems handle poorly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face+2MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</span><span class="citation-popover-meta">Published: December 22, 2024</span></span></span>
 
 These failures illustrate a practical reality: grounding is only as reliable as the retrieval pipeline that supplies the evidence.
 
@@ -327,7 +327,7 @@ This is the stage many users find most surprising. The source is present, the ci
 
 ### When the evidence is present but misunderstood
 
-Researchers studying RAG systems have repeatedly observed reasoning failures in which models misinterpret valid context. In one medical evaluation, models occasionally retrieved the relevant information but applied it incorrectly, such as misunderstanding threshold values or extrapolating beyond what the source actually stated. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13009108/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">September 2, 2025...</span><span class="citation-popover-meta">Published: September 2, 2025</span></span></span>
+Researchers studying RAG systems have repeatedly observed reasoning failures in which models misinterpret valid context. In one medical evaluation, models occasionally retrieved the relevant information but applied it incorrectly, such as misunderstanding threshold values or extrapolating beyond what the source actually stated.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13009108/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">September 2, 2025...</span><span class="citation-popover-meta">Published: September 2, 2025</span></span></span>
 
 This happens because retrieval does not replace the language model's reasoning process. The model still has to decide:
 
@@ -350,7 +350,7 @@ Grounded systems often combine information from several sources into a single an
 
 For example, one document may state that a policy applies in a specific circumstance, while another describes a broader rule. The model may merge the two and present a conclusion that appears reasonable but is not explicitly supported by either source.
 
-Researchers examining context use in RAG systems have found that models do not always utilise retrieved information as effectively as expected. The presence of relevant context does not guarantee faithful incorporation into the final answer. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</span><span class="citation-popover-meta">Published: December 22, 2024</span></span></span>
+Researchers examining context use in RAG systems have found that models do not always utilise retrieved information as effectively as expected. The presence of relevant context does not guarantee faithful incorporation into the final answer.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</span><span class="citation-popover-meta">Published: December 22, 2024</span></span></span>
 
 This creates a distinctive failure mode: the answer is not fabricated, yet it is still misleading.
 
@@ -360,7 +360,7 @@ This creates a distinctive failure mode: the answer is not fabricated, yet it is
 
 Another risk is citation misalignment. The answer contains a genuine citation, but the cited passage does not actually support the claim being made.
 
-Governance frameworks for AI increasingly emphasise that citations should support specific claims rather than merely point to generally related material. A source that discusses a topic is not necessarily evidence for every statement made about that topic. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://air-governance-framework.finos.org/mitigations/mi-13_providing-citations-and-source-traceability-for-ai-generated-information.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: air-governance-framework.finos.org">[air-governance-framework.finos.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">air-governance-framework.finos.org</span><span class="citation-popover-title">FINO S AI Governance Framework</span><span class="citation-popover-snippet">FINO S AI Governance Framework</span></span></span>
+Governance frameworks for AI increasingly emphasise that citations should support specific claims rather than merely point to generally related material. A source that discusses a topic is not necessarily evidence for every statement made about that topic.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://air-governance-framework.finos.org/mitigations/mi-13_providing-citations-and-source-traceability-for-ai-generated-information.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: air-governance-framework.finos.org">[air-governance-framework.finos.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">air-governance-framework.finos.org</span><span class="citation-popover-title">FINO S AI Governance Framework</span><span class="citation-popover-snippet">FINO S AI Governance Framework</span></span></span>
 
 In practice, users often see:
 
@@ -387,7 +387,7 @@ A citation answers one question: *where did the system get information?* It does
 
 This distinction matters because retrieval and reasoning are separate processes. A model may retrieve excellent evidence and still misunderstand it. Conversely, it may retrieve mediocre evidence and present it with impressive confidence.
 
-Researchers and governance organisations increasingly stress the importance of attribution fidelity—the degree to which an AI-generated claim is genuinely supported by the cited source. Simply displaying links is not enough. Users need confidence that claims and evidence remain correctly aligned. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://air-governance-framework.finos.org/mitigations/mi-13_providing-citations-and-source-traceability-for-ai-generated-information.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: air-governance-framework.finos.org">[air-governance-framework.finos.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">air-governance-framework.finos.org</span><span class="citation-popover-title">FINO S AI Governance Framework</span><span class="citation-popover-snippet">FINO S AI Governance Framework</span></span></span>
+Researchers and governance organisations increasingly stress the importance of attribution fidelity—the degree to which an AI-generated claim is genuinely supported by the cited source. Simply displaying links is not enough. Users need confidence that claims and evidence remain correctly aligned.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://air-governance-framework.finos.org/mitigations/mi-13_providing-citations-and-source-traceability-for-ai-generated-information.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: air-governance-framework.finos.org">[air-governance-framework.finos.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">air-governance-framework.finos.org</span><span class="citation-popover-title">FINO S AI Governance Framework</span><span class="citation-popover-snippet">FINO S AI Governance Framework</span></span></span>
 
 The challenge is particularly important in domains such as law, medicine, compliance and scientific research, where small wording differences can change the meaning of a document.
 
@@ -428,199 +428,199 @@ A citation is strongest when an independent reader can follow the evidence and a
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_grounded_ai_e_ead19a-Illustration-3-dark.svg" | relative_url }}" alt="RAG errors illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_grounded_ai_e_ead19a-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_grounded_ai_e_ead19a-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## The implementation challenge
 
-The next generation of grounded AI systems is increasingly focused on improving not just retrieval quality but evidence use. Researchers are exploring better reranking methods, citation alignment techniques, context-aware reasoning and evaluation frameworks that measure whether answers are actually supported by retrieved passages rather than merely accompanied by them. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.semanticscholar.org/paper/Mindful-RAG%3A-A-Study-of-Points-of-Failure-in-Agrawal-Kumarage/a546fa44c110c33a3280f31090f96f5b886ac44f" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: semanticscholar.org">[Semantic Scholar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">semanticscholar.org</span><span class="citation-popover-snippet">July 16, 2024...</span><span class="citation-popover-meta">Published: July 16, 2024</span></span></span>
+The next generation of grounded AI systems is increasingly focused on improving not just retrieval quality but evidence use. Researchers are exploring better reranking methods, citation alignment techniques, context-aware reasoning and evaluation frameworks that measure whether answers are actually supported by retrieved passages rather than merely accompanied by them.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.semanticscholar.org/paper/Mindful-RAG%3A-A-Study-of-Points-of-Failure-in-Agrawal-Kumarage/a546fa44c110c33a3280f31090f96f5b886ac44f" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: semanticscholar.org">[Semantic Scholar]</a><span class="citation-popover" role="note"><span class="citation-popover-source">semanticscholar.org</span><span class="citation-popover-snippet">July 16, 2024...</span><span class="citation-popover-meta">Published: July 16, 2024</span></span></span>
 
-The broader lesson is that grounding reduces one class of hallucination but introduces a different implementation challenge. An AI system can be connected to the correct documents, provide real citations and still produce a misleading answer. Reliability depends not only on finding evidence but also on interpreting it faithfully. In practice, the difference between those two tasks is where many of the most important remaining errors occur. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</span><span class="citation-popover-meta">Published: December 22, 2024</span></span></span>
+The broader lesson is that grounding reduces one class of hallucination but introduces a different implementation challenge. An AI system can be connected to the correct documents, provide real citations and still produce a misleading answer. Reliability depends not only on finding evidence but also on interpreting it faithfully. In practice, the difference between those two tasks is where many of the most important remaining errors occur.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: huggingface.co">[Hugging Face+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">huggingface.co</span><span class="citation-popover-title">Hugging Face Paper page</span><span class="citation-popover-snippet">Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</span><span class="citation-popover-meta">Published: December 22, 2024</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why sourced AI answers can still mislead. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why sourced AI answers can still mislead. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explores errors that persist even when systems use external information.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores errors that persist even when systems use external information.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Discusses reliability and trustworthy system design.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses reliability and trustworthy system design.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Explains limitations in understanding, reasoning, and context use.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains limitations in understanding, reasoning, and context use.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Emphasises checking sourced AI outputs rather than trusting citations alone.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Emphasises checking sourced AI outputs rather than trusting citations alone.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed"><img src="{{ '/assets/images/marketplace-covers/a03f33b86263c5cdb482.jpg' | relative_url }}" alt="Listing image for Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed"><img src="{{ '/assets/images/marketplace-covers/a03f33b86263c5cdb482.jpg' | relative_url }}" alt="Listing image for Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Computer Tools 1984 Spindex Stickers Graphics Programming Chart MAC Rare 1st Ed</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners"><img src="{{ '/assets/images/marketplace-covers/c7f472d3e39dd5c20921.jpg' | relative_url }}" alt="Listing image for Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners"><img src="{{ '/assets/images/marketplace-covers/c7f472d3e39dd5c20921.jpg' | relative_url }}" alt="Listing image for Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Viola Finger Guide Stickers - Learn Notes Easily | 15&quot; for Beginners</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone"><img src="{{ '/assets/images/marketplace-covers/0435e3c1eec51d679a89.jpg' | relative_url }}" alt="Listing image for 50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone"><img src="{{ '/assets/images/marketplace-covers/0435e3c1eec51d679a89.jpg' | relative_url }}" alt="Listing image for 50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt"><img src="{{ '/assets/images/marketplace-covers/fb7da36081682aadc04b.jpg' | relative_url }}" alt="Listing image for What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt"><img src="{{ '/assets/images/marketplace-covers/fb7da36081682aadc04b.jpg' | relative_url }}" alt="Listing image for What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="rag-errors-why-sourced-ai-answers-can-still-mislead-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -636,7 +636,7 @@ The broader lesson is that grounding reduces one class of hallucination but intr
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -656,7 +656,7 @@ The broader lesson is that grounding reduces one class of hallucination but intr
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -688,7 +688,7 @@ The broader lesson is that grounding reduces one class of hallucination but intr
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -740,7 +740,7 @@ The broader lesson is that grounding reduces one class of hallucination but intr
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -785,7 +785,7 @@ The broader lesson is that grounding reduces one class of hallucination but intr
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -826,95 +826,95 @@ The broader lesson is that grounding reduces one class of hallucination but intr
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: air-governance-framework.finos.org  
    Title: FINO S AI Governance Framework  
-   Link: <a href="https://air-governance-framework.finos.org/mitigations/mi-13_providing-citations-and-source-traceability-for-ai-generated-information.html" target="_blank" rel="noopener noreferrer nofollow">https://air-governance-framework.finos.org/mitigations/mi-13_providing-citations-and-source-traceability-for-ai-generated-information.html</a>  
+   Link:<a href="https://air-governance-framework.finos.org/mitigations/mi-13_providing-citations-and-source-traceability-for-ai-generated-information.html" target="_blank" rel="noopener noreferrer nofollow">https://air-governance-framework.finos.org/mitigations/mi-13_providing-citations-and-source-traceability-for-ai-generated-information.html</a>  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13009108/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC13009108/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>September 2, 2025...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13009108/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC13009108/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>September 2, 2025...</p></details>
    Published: September 2, 2025  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/386419255_OCR_Hinders_RAG_Evaluating_the_Cascading_Impact_of_OCR_on_Retrieval-Augmented_Generation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/386419255_OCR_Hinders_RAG_Evaluating_the_Cascading_Impact_of_OCR_on_Retrieval-Augmented_Generation</a>  
+   Link:<a href="https://www.researchgate.net/publication/386419255_OCR_Hinders_RAG_Evaluating_the_Cascading_Impact_of_OCR_on_Retrieval-Augmented_Generation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/386419255_OCR_Hinders_RAG_Evaluating_the_Cascading_Impact_of_OCR_on_Retrieval-Augmented_Generation</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: mdpi.com  
-   Link: <a href="https://www.mdpi.com/2504-2289/9/12/320" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2504-2289/9/12/320</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges...</p></details>
+   Link:<a href="https://www.mdpi.com/2504-2289/9/12/320" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2504-2289/9/12/320</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Systematic Literature Review of Retrieval-Augmented Generation: Techniques, Metrics, and Challenges...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: huggingface.co  
    Title: Hugging Face Paper page  
-   Link: <a href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2412.17031</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</p></details>
+   Link:<a href="https://huggingface.co/papers/2412.17031" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/papers/2412.17031</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Hugging FacePaper page - A Reality Check on Context Utilisation for Retrieval-Augmented GenerationDecember 22, 2024...</p></details>
    Published: December 22, 2024  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: semanticscholar.org  
-   Link: <a href="https://www.semanticscholar.org/paper/Mindful-RAG%3A-A-Study-of-Points-of-Failure-in-Agrawal-Kumarage/a546fa44c110c33a3280f31090f96f5b886ac44f" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Mindful-RAG%3A-A-Study-of-Points-of-Failure-in-Agrawal-Kumarage/a546fa44c110c33a3280f31090f96f5b886ac44f</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>July 16, 2024...</p></details>
+   Link:<a href="https://www.semanticscholar.org/paper/Mindful-RAG%3A-A-Study-of-Points-of-Failure-in-Agrawal-Kumarage/a546fa44c110c33a3280f31090f96f5b886ac44f" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Mindful-RAG%3A-A-Study-of-Points-of-Failure-in-Agrawal-Kumarage/a546fa44c110c33a3280f31090f96f5b886ac44f</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>July 16, 2024...</p></details>
    Published: July 16, 2024  
 
 ### Additional References
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: sciencedirect.com  
-   Link: <a href="https://www.sciencedirect.com/science/article/pii/S0163445326001143" target="_blank" rel="noopener noreferrer nofollow">https://www.sciencedirect.com/science/article/pii/S0163445326001143</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>antibiotic chatbot: Evaluation of a retrieval-augmented generation approach for providing guideline-based antimicrobial advice - ScienceD...</p></details>
+   Link:<a href="https://www.sciencedirect.com/science/article/pii/S0163445326001143" target="_blank" rel="noopener noreferrer nofollow">https://www.sciencedirect.com/science/article/pii/S0163445326001143</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>antibiotic chatbot: Evaluation of a retrieval-augmented generation approach for providing guideline-based antimicrobial advice - ScienceD...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: computerworld.com  
-   Link: <a href="https://www.computerworld.com/article/4010160/despite-its-ubiquity-rag-enhanced-ai-still-poses-accuracy-and-safety-risks.html" target="_blank" rel="noopener noreferrer nofollow">https://www.computerworld.com/article/4010160/despite-its-ubiquity-rag-enhanced-ai-still-poses-accuracy-and-safety-risks.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Despite its ubiquity, RAG-enhanced AI still poses accuracy and safety risks – Computerworld...</p></details>
+   Link:<a href="https://www.computerworld.com/article/4010160/despite-its-ubiquity-rag-enhanced-ai-still-poses-accuracy-and-safety-risks.html" target="_blank" rel="noopener noreferrer nofollow">https://www.computerworld.com/article/4010160/despite-its-ubiquity-rag-enhanced-ai-still-poses-accuracy-and-safety-risks.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Despite its ubiquity, RAG-enhanced AI still poses accuracy and safety risks – Computerworld...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/LLMDevs/comments/1s2tmf6/when_did_rag_stop_being_a_retrieval_problem_and/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LLMDevs/comments/1s2tmf6/when_did_rag_stop_being_a_retrieval_problem_and/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>did RAG stop being a retrieval problem and started becoming a selection problemMarch 24, 2026...</p></details>
+   Link:<a href="https://www.reddit.com/r/LLMDevs/comments/1s2tmf6/when_did_rag_stop_being_a_retrieval_problem_and/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/LLMDevs/comments/1s2tmf6/when_did_rag_stop_being_a_retrieval_problem_and/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>did RAG stop being a retrieval problem and started becoming a selection problemMarch 24, 2026...</p></details>
    Published: March 24, 2026  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: pure.qub.ac.uk  
-   Link: <a href="https://pure.qub.ac.uk/en/publications/a-systematic-literature-review-of-retrieval-augmented-generation-/" target="_blank" rel="noopener noreferrer nofollow">https://pure.qub.ac.uk/en/publications/a-systematic-literature-review-of-retrieval-augmented-generation-/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Queen&#x27;s University BelfastDecember 12, 2025...</p></details>
+   Link:<a href="https://pure.qub.ac.uk/en/publications/a-systematic-literature-review-of-retrieval-augmented-generation-/" target="_blank" rel="noopener noreferrer nofollow">https://pure.qub.ac.uk/en/publications/a-systematic-literature-review-of-retrieval-augmented-generation-/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Queen&#x27;s University BelfastDecember 12, 2025...</p></details>
    Published: December 12, 2025  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
    Title: Why Most Production RAG Systems Fail (Even When Metrics Look Fine)  
-   Link: <a href="https://www.youtube.com/watch?v=nrkDls9ETPU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nrkDls9ETPU</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>4 Hidden Reasons Your RAG Is Giving [Wrong Answers](&amp;#123;&amp;#123; &#x27;wrong-answers/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=nrkDls9ETPU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nrkDls9ETPU</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>4 Hidden Reasons Your RAG Is Giving [Wrong Answers](&amp;#123;&amp;#123; &#x27;wrong-answers/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
    Title: Why most RAG systems fail at Retrieval (not Generation)  
-   Link: <a href="https://www.youtube.com/watch?v=TOFnW5UdiEg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TOFnW5UdiEg</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Most Production RAG Systems Fail (Even When Metrics Look Fine)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=TOFnW5UdiEg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TOFnW5UdiEg</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Most Production RAG Systems Fail (Even When Metrics Look Fine)...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: ai.jmir.org  
    Title: JMI R AI  
-   Link: <a href="https://ai.jmir.org/2026/1/e83206" target="_blank" rel="noopener noreferrer nofollow">https://ai.jmir.org/2026/1/e83206</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>JMIR AI - Evaluation of a Retrieval-Augmented Generation Chatbot for Antimicrobial Resistance Research: Comparative Analysis of Large Lan...</p></details>
+   Link:<a href="https://ai.jmir.org/2026/1/e83206" target="_blank" rel="noopener noreferrer nofollow">https://ai.jmir.org/2026/1/e83206</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>JMIR AI - Evaluation of a Retrieval-Augmented Generation Chatbot for Antimicrobial Resistance Research: Comparative Analysis of Large Lan...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: Seven RAG Failures and How to Solve Them  
-   Link: <a href="https://www.youtube.com/watch?v=8wTTl7DZtpk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8wTTl7DZtpk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Is Your RAG Pipeline Failing? How to Stop AI [Hallucinations](&amp;#123;&amp;#123; &#x27;hallucinations/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=8wTTl7DZtpk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=8wTTl7DZtpk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Is Your RAG Pipeline Failing? How to Stop AI [Hallucinations](&amp;#123;&amp;#123; &#x27;hallucinations/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
    Title: 4 Hidden Reasons Your RAG Is Giving Wrong Answers  
-   Link: <a href="https://www.youtube.com/watch?v=zSouH6JdvkQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zSouH6JdvkQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Seven RAG Failures and How to Solve Them...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=zSouH6JdvkQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zSouH6JdvkQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Seven RAG Failures and How to Solve Them...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: aihandbook.io  
    Title: What Is Retrieval Augmented Generation (RAG)?  
-   Link: <a href="https://www.aihandbook.io/generative-ai-handbook/what-is-rag/" target="_blank" rel="noopener noreferrer nofollow">https://www.aihandbook.io/generative-ai-handbook/what-is-rag/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Handbook...</p></details>
+   Link:<a href="https://www.aihandbook.io/generative-ai-handbook/what-is-rag/" target="_blank" rel="noopener noreferrer nofollow">https://www.aihandbook.io/generative-ai-handbook/what-is-rag/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Handbook...</p></details>

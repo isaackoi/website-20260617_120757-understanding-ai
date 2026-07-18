@@ -74,9 +74,9 @@
           <section class="main-content{% if show_article_chrome %} article-content{% endif %}{% if is_search_page %} search-content{% endif %}">
             {% if show_article_chrome %}
             {% assign page_display_title = page.display_title_short | default: page.nav_short_title | default: page.display_title | default: page.title | default: 'Untitled Report' %}
-            {% assign raw_heading_title = page.heading_title | default: "" | strip %}
+            {% assign raw_heading_title = page.heading_title | default: page_display_title | strip %}
             {% assign normalized_heading_title = raw_heading_title | downcase %}
-            {% if raw_heading_title == blank or normalized_heading_title == 'untitled' or normalized_heading_title == 'untitled report' %}
+            {% if normalized_heading_title == 'untitled' or normalized_heading_title == 'untitled report' %}
             {% assign page_heading_title = page_display_title %}
             {% else %}
             {% assign page_heading_title = raw_heading_title %}

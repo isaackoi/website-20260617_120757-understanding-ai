@@ -275,11 +275,11 @@ image: /assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665
 
 ## Introduction
 
-An AI pilot does not prove [business]({{ 'business-adoption/' | relative_url }}) value simply because a model is accurate, fast or well liked by users. The real question is whether the system changes outcomes that appear in operational and financial results. This distinction explains why many organisations report successful pilots yet struggle to demonstrate return on investment (ROI) once executives ask about costs, revenue, productivity or risk reduction. Surveys of business leaders increasingly show dissatisfaction with AI programmes that generate impressive technical metrics but little measurable impact on profit-and-loss performance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-token-reckoning-execs-on-measuring-return-on-investment-2026-6" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider I asked 4 executives how they measure AI ROI</span><span class="citation-popover-snippet">None started with AI tokens.June 9, 2026 — At Mistral AI&#x27;s &quot;AI Now Summit&quot; in Paris, four executives shared insights on measuring the ret...</span><span class="citation-popover-meta">Published: June 9, 2026</span></span></span>
+An AI pilot does not prove [business]({{ 'business-adoption/' | relative_url }}) value simply because a model is accurate, fast or well liked by users. The real question is whether the system changes outcomes that appear in operational and financial results. This distinction explains why many organisations report successful pilots yet struggle to demonstrate return on investment (ROI) once executives ask about costs, revenue, productivity or risk reduction. Surveys of business leaders increasingly show dissatisfaction with AI programmes that generate impressive technical metrics but little measurable impact on profit-and-loss performance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-token-reckoning-execs-on-measuring-return-on-investment" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider I asked 4 executives how they measure AI ROI</span><span class="citation-popover-snippet">None started with AI tokens.June 9, 2026 — At Mistral AI&#x27;s &quot;AI Now Summit&quot; in Paris, four executives shared insights on measuring the ret...</span><span class="citation-popover-meta">Published: June 9, 2026</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665a2d_business_ai_m_1185a2-Illustration-1-dark.svg" | relative_url }}" alt="ROI Metrics illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665a2d_business_ai_m_1185a2-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_pilot_roi_665a2d_business_ai_m_1185a2-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-The most useful AI metrics therefore sit between model performance and business performance. They trace a chain from AI output to workflow change and finally to a measurable business result. When organisations track that chain properly, they can distinguish genuine value creation from what many executives now call “vanity metrics”. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.gartner.com/en/articles/ai-value-metrics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: gartner.com">[Gartner]</a><span class="citation-popover" role="note"><span class="citation-popover-source">gartner.com</span><span class="citation-popover-snippet">5 AI Metrics That Actually Prove ROI to Your BoardTo prove AI&#x27;s worth across the enterprise, move beyond inputs and activities to...</span></span></span>
+The most useful AI metrics therefore sit between model performance and business performance. They trace a chain from AI output to workflow change and finally to a measurable business result. When organisations track that chain properly, they can distinguish genuine value creation from what many executives now call “vanity metrics”.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.gartner.com/en/articles/ai-value-metrics" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: gartner.com">[Gartner]</a><span class="citation-popover" role="note"><span class="citation-popover-source">gartner.com</span><span class="citation-popover-snippet">5 AI Metrics That Actually Prove ROI to Your BoardTo prove AI&#x27;s worth across the enterprise, move beyond inputs and activities to...</span></span></span>
 
 ## Why prompt quality and accuracy can mislead executives
 
@@ -301,7 +301,7 @@ This is why leading organisations increasingly reject measures such as:
 
 </div>
 
-These indicators reveal activity and adoption but not value. Executives interviewed about AI ROI repeatedly emphasise that usage statistics are secondary to measurable improvements in business performance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-token-reckoning-execs-on-measuring-return-on-investment-2026-6" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider I asked 4 executives how they measure AI ROI</span><span class="citation-popover-snippet">None started with AI tokens.June 9, 2026 — At Mistral AI&#x27;s &quot;AI Now Summit&quot; in Paris, four executives shared insights on measuring the ret...</span><span class="citation-popover-meta">Published: June 9, 2026</span></span></span>
+These indicators reveal activity and adoption but not value. Executives interviewed about AI ROI repeatedly emphasise that usage statistics are secondary to measurable improvements in business performance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/ai-token-reckoning-execs-on-measuring-return-on-investment" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-title">Business Insider I asked 4 executives how they measure AI ROI</span><span class="citation-popover-snippet">None started with AI tokens.June 9, 2026 — At Mistral AI&#x27;s &quot;AI Now Summit&quot; in Paris, four executives shared insights on measuring the ret...</span><span class="citation-popover-meta">Published: June 9, 2026</span></span></span>
 
 A useful test is simple: if a metric improves dramatically, would the finance director expect any [meaningful]({{ 'human-review/' | relative_url }}) effect on revenue, cost, risk or productivity? If the answer is no, the metric is probably too far removed from business outcomes.
 
@@ -333,7 +333,7 @@ For example:
 <div class="content-enhancement content-enhancement--insight-grid" markdown="1">
 
 * AI assists coding.
-* Developers complete work faster. <span class="citation-chip-wrap"><a class="citation-chip" href="https://dr-gleb-tsipursky.medium.com/25-faster-40-better-the-new-math-of-ai-accelerated-work-af0ccb649cc0" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dr-gleb-tsipursky.medium.com">[dr-gleb-tsipursky.medium.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dr-gleb-tsipursky.medium.com</span><span class="citation-popover-title">com25% Faster, 40% Better: The New Math of AI-Accelerated Work Key Take-Away</span><span class="citation-popover-snippet">AI-accelerated work boosts productivity and quality by over 40%, proving that human-AI collaboration can transform knowledge...Read more...</span></span></span>
+* Developers complete work faster.<span class="citation-chip-wrap"><a class="citation-chip" href="https://dr-gleb-tsipursky.medium.com/25-faster-40-better-the-new-math-of-ai-accelerated-work-af0ccb649cc0" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dr-gleb-tsipursky.medium.com">[dr-gleb-tsipursky.medium.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dr-gleb-tsipursky.medium.com</span><span class="citation-popover-title">com25% Faster, 40% Better: The New Math of AI-Accelerated Work Key Take-Away</span><span class="citation-popover-snippet">AI-accelerated work boosts productivity and quality by over 40%, proving that human-AI collaboration can transform knowledge...Read more...</span></span></span>
 * Release cycles shorten.
 * New products reach market sooner and at lower cost.
 
@@ -351,7 +351,7 @@ For example:
 
 </div>
 
-Research from BCG shows that organisations generating meaningful AI returns tend to focus on end-to-end workflow outcomes rather than isolated technical improvements. Companies that successfully scale AI report measurable gains such as shorter product-development cycles, improved delivery [speed]({{ 'speed/' | relative_url }}) and stronger revenue growth. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/generative-ai-adoption-in-asia" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global+2BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">They focus on bigger goals ...Read more</span><span class="citation-popover-snippet">BCG GlobalIn the Race to Adopt AI, Asia-Pacific Is the Region to Watch11 Mar 2025 — According to BCG research, 1 in 4 businesses have sca...</span></span></span>
+Research from BCG shows that organisations generating meaningful AI returns tend to focus on end-to-end workflow outcomes rather than isolated technical improvements. Companies that successfully scale AI report measurable gains such as shorter product-development cycles, improved delivery [speed]({{ 'speed/' | relative_url }}) and stronger revenue growth.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/generative-ai-adoption-in-asia" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global+2BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">They focus on bigger goals ...Read more</span><span class="citation-popover-snippet">BCG GlobalIn the Race to Adopt AI, Asia-Pacific Is the Region to Watch11 Mar 2025 — According to BCG research, 1 in 4 businesses have sca...</span></span></span>
 
 ## Which cost metrics actually prove value?
 
@@ -395,7 +395,7 @@ A reduction of 10,000 labour hours means little unless the organisation can show
 
 </div>
 
-Executives increasingly question raw “hours saved” claims because many organisations cannot demonstrate where those saved hours went. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.linkedin.com/posts/scottjhornung_measuring-the-real-roi-of-an-ai-pilot-project-activity-7414304737166110720-JG3C" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: linkedin.com">[LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">linkedin.com</span><span class="citation-popover-title">Linked In Measuring AI Pilot ROI Beyond Business Metrics</span><span class="citation-popover-snippet">Measuring AI Pilot ROI Beyond Business MetricsJanuary 6, 2026 — Measuring the real ROI of an AI pilot project is not as straightf...</span><span class="citation-popover-meta">Published: January 6, 2026</span></span></span>
+Executives increasingly question raw “hours saved” claims because many organisations cannot demonstrate where those saved hours went.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.linkedin.com/posts/scottjhornung_measuring-the-real-roi-of-an-ai-pilot-project-activity-7414304737166110720-JG3C" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: linkedin.com">[LinkedIn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">linkedin.com</span><span class="citation-popover-title">Linked In Measuring AI Pilot ROI Beyond Business Metrics</span><span class="citation-popover-snippet">Measuring AI Pilot ROI Beyond Business MetricsJanuary 6, 2026 — Measuring the real ROI of an AI pilot project is not as straightf...</span><span class="citation-popover-meta">Published: January 6, 2026</span></span></span>
 
 ### Cost avoidance
 
@@ -427,7 +427,7 @@ Examples include:
 * Contract review
 * Software development cycles
 
-BCG research reports that mature AI adopters have achieved significant reductions in time-to-market for products and services, demonstrating how speed can translate into competitive advantage. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/generative-ai-adoption-in-asia" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">They focus on bigger goals ...Read more</span><span class="citation-popover-snippet">BCG GlobalIn the Race to Adopt AI, Asia-Pacific Is the Region to Watch11 Mar 2025 — According to BCG research, 1 in 4 businesses have sca...</span></span></span>
+BCG research reports that mature AI adopters have achieved significant reductions in time-to-market for products and services, demonstrating how speed can translate into competitive advantage.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/generative-ai-adoption-in-asia" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">They focus on bigger goals ...Read more</span><span class="citation-popover-snippet">BCG GlobalIn the Race to Adopt AI, Asia-Pacific Is the Region to Watch11 Mar 2025 — According to BCG research, 1 in 4 businesses have sca...</span></span></span>
 
 ### Throughput
 
@@ -456,7 +456,7 @@ Many AI investments generate value through loss prevention rather than visible r
 
 This category is frequently overlooked because avoided problems are harder to measure than completed tasks.
 
-Useful risk metrics include: <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.ibm.com/think/insights/ai-roi" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">ai roi</span><span class="citation-popover-snippet">How to maximize AI ROI in 2026The key metrics for AI ROI, both hard and soft, include numerous key performance indicators (KPIs) that can...</span></span></span>
+Useful risk metrics include:<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.ibm.com/think/insights/ai-roi" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">ai roi</span><span class="citation-popover-snippet">How to maximize AI ROI in 2026The key metrics for AI ROI, both hard and soft, include numerous key performance indicators (KPIs) that can...</span></span></span>
 
 ### Error-rate reduction
 
@@ -480,17 +480,17 @@ Regulated industries often assess:
 * Reporting accuracy
 * Policy violations
 
-The NIST AI Risk Management Framework highlights the importance of evaluating AI systems not only for performance but also for risk management and governance outcomes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">ai risk management framework</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NISTJuly 12, 2021 — The profile can help organizations identify unique risks posed by generative AI an...</span><span class="citation-popover-meta">Published: July 12, 2021</span></span></span>
+The NIST AI Risk Management Framework highlights the importance of evaluating AI systems not only for performance but also for risk management and governance outcomes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">ai risk management framework</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NISTJuly 12, 2021 — The profile can help organizations identify unique risks posed by generative AI an...</span><span class="citation-popover-meta">Published: July 12, 2021</span></span></span>
 
 ### Financial loss prevention
 
-Recent surveys show that organisations deploying AI can incur losses from flawed outputs, compliance failures and governance weaknesses. Consequently, pilots that reduce such exposures may create significant value even when revenue gains are modest. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/business/most-companies-suffer-some-risk-related-financial-loss-deploying-ai-ey-survey-2025-10-08/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-snippet">These losses, totaling approximately $4.4 billion, stemmed largely from issues such as compliance failures, flawed outputs, bias, and dis...</span></span></span>
+Recent surveys show that organisations deploying AI can incur losses from flawed outputs, compliance failures and governance weaknesses. Consequently, pilots that reduce such exposures may create significant value even when revenue gains are modest.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/business/most-companies-suffer-some-risk-related-financial-loss-deploying-ai-ey-survey-2025-10-08/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-snippet">These losses, totaling approximately $4.4 billion, stemmed largely from issues such as compliance failures, flawed outputs, bias, and dis...</span></span></span>
 
 ## Which productivity metrics are most credible?
 
 Productivity claims are among the most common AI success stories, but they require careful measurement.
 
-Academic and industry studies have found that AI can improve worker speed and output quality in some tasks. For example, experiments involving knowledge workers and consultants reported faster task completion and higher-quality outputs when AI assistance was available. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.thecrimson.com/article/2023/10/13/jagged-edge-ai-bcg/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thecrimson.com">[The Harvard Crimson]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thecrimson.com</span><span class="citation-popover-title">jagged edge ai bcg</span><span class="citation-popover-snippet">The Harvard CrimsonHarvard Business School Partners with BCG on AI...13 Oct 2023 — The study found that, compared to workers without AI...</span></span></span>
+Academic and industry studies have found that AI can improve worker speed and output quality in some tasks. For example, experiments involving knowledge workers and consultants reported faster task completion and higher-quality outputs when AI assistance was available.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.thecrimson.com/article/2023/10/13/jagged-edge-ai-bcg/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thecrimson.com">[The Harvard Crimson]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thecrimson.com</span><span class="citation-popover-title">jagged edge ai bcg</span><span class="citation-popover-snippet">The Harvard CrimsonHarvard Business School Partners with BCG on AI...13 Oct 2023 — The study found that, compared to workers without AI...</span></span></span>
 
 However, productivity becomes a business metric only when it changes organisational performance.
 
@@ -535,197 +535,197 @@ CategoryExample measuresCostCost per transaction, cost avoidance, operating expe
 
 Technical metrics such as accuracy, precision and response quality should still be tracked, but primarily as leading indicators. The metrics that ultimately prove value are those that connect [AI outputs]({{ 'ai-outputs/' | relative_url }}) to measurable business outcomes.
 
-This distinction is becoming increasingly important as organisations move beyond experimentation. Studies and executive surveys consistently show that companies achieving meaningful returns focus on revenue growth, cost reduction, workflow performance and risk management, while those focused mainly on technical success metrics often remain stuck in pilot mode. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global+3BCG Global+3Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">Global Are You Generating Value from AI?</span><span class="citation-popover-snippet">The Widening Gap30 Sept 2025 — BCG&#x27;s latest research provides empirical proof that AI future-built companies achieve five times the reven...</span></span></span>
+This distinction is becoming increasingly important as organisations move beyond experimentation. Studies and executive surveys consistently show that companies achieving meaningful returns focus on revenue growth, cost reduction, workflow performance and risk management, while those focused mainly on technical success metrics often remain stuck in pilot mode.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bcg.com">[BCG Global+3BCG Global+3Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bcg.com</span><span class="citation-popover-title">Global Are You Generating Value from AI?</span><span class="citation-popover-snippet">The Widening Gap30 Sept 2025 — BCG&#x27;s latest research provides empirical proof that AI future-built companies achieve five times the reven...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Which AI metrics actually prove value?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Which AI metrics actually prove value?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Power and Prediction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=86lYEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Power and Prediction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Power and Prediction">Power and Prediction</a>
-        </h4>
-        <p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Power and Prediction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=86lYEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Power and Prediction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Power and Prediction">Power and Prediction</a>
+</h4>
+<p class="fr-book-author">By Ajay Agrawal, Joshua Gans et al.</p>
         
-        <p class="fr-book-desc">Directly addresses where AI creates measurable economic value.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses where AI creates measurable economic value.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Power+and+Prediction+by+Ajay+Agrawal&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Connects AI initiatives to operating-model performance and outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Connects AI initiatives to operating-model performance and outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Explains practical business adoption and productivity gains.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains practical business adoption and productivity gains.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Measure+What+Matters+by+John+Doerr&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Measure What Matters on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=VEtTDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Measure What Matters" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Measure+What+Matters+by+John+Doerr&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Measure What Matters">Measure What Matters</a>
-        </h4>
-        <p class="fr-book-author">By John Doerr</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Measure+What+Matters+by+John+Doerr&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Measure What Matters on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=VEtTDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Measure What Matters" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Measure+What+Matters+by+John+Doerr&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Measure What Matters">Measure What Matters</a>
+</h4>
+<p class="fr-book-author">By John Doerr</p>
         
-        <p class="fr-book-desc">Useful for linking AI outputs to measurable business objectives.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Measure+What+Matters+by+John+Doerr&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Useful for linking AI outputs to measurable business objectives.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Measure+What+Matters+by+John+Doerr&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Power+and+Prediction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Power and Prediction</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Power+and+Prediction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Power and Prediction</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science Genius Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bde1c84093196f5e3eac.jpg' | relative_url }}" alt="Listing image for Computer Science Genius Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Computer Science Genius Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science Genius Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bde1c84093196f5e3eac.jpg' | relative_url }}" alt="Listing image for Computer Science Genius Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Computer Science Genius Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe"><img src="{{ '/assets/images/marketplace-covers/fd6e68e9d855d53f81ac.jpg' | relative_url }}" alt="Listing image for Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe"><img src="{{ '/assets/images/marketplace-covers/fd6e68e9d855d53f81ac.jpg' | relative_url }}" alt="Listing image for Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Software Engineer Knowledge Poster, Computer Science Wall Decor, Noframe</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4960074c91e5c071f040.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4960074c91e5c071f040.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science wall art" data-ebay-reference="roi-metrics-which-ai-metrics-actually-prove-value-understanding-computer-science-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -741,7 +741,7 @@ This distinction is becoming increasingly important as organisations move beyond
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -761,7 +761,7 @@ This distinction is becoming increasingly important as organisations move beyond
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -793,7 +793,7 @@ This distinction is becoming increasingly important as organisations move beyond
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -845,7 +845,7 @@ This distinction is becoming increasingly important as organisations move beyond
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -890,7 +890,7 @@ This distinction is becoming increasingly important as organisations move beyond
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -931,215 +931,215 @@ This distinction is becoming increasingly important as organisations move beyond
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: gartner.com  
-   Link: <a href="https://www.gartner.com/en/articles/ai-value-metrics" target="_blank" rel="noopener noreferrer nofollow">https://www.gartner.com/en/articles/ai-value-metrics</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>5 AI Metrics That Actually Prove ROI to Your BoardTo prove AI&#x27;s worth across the enterprise, move beyond inputs and activities to...</p></details>
+   Link:<a href="https://www.gartner.com/en/articles/ai-value-metrics" target="_blank" rel="noopener noreferrer nofollow">https://www.gartner.com/en/articles/ai-value-metrics</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>5 AI Metrics That Actually Prove ROI to Your BoardTo prove AI&#x27;s worth across the enterprise, move beyond inputs and activities to...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: bcg.com  
-   Link: <a href="https://www.bcg.com/publications/2025/[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/[generative-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalIn the Race to Adopt AI, Asia-Pacific Is the Region to Watch11 Mar 2025 — According to BCG research, 1 in 4 businesses have sca...</p></details>
+   Link:<a href="https://www.bcg.com/publications/2025/[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/[generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalIn the Race to Adopt AI, Asia-Pacific Is the Region to Watch11 Mar 2025 — According to BCG research, 1 in 4 businesses have sca...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: bcg.com  
    Title: Global Are You Generating Value from AI?  
-   Link: <a href="https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Widening Gap30 Sept 2025 — BCG&#x27;s latest research provides empirical proof that AI future-built companies achieve five times the reven...</p></details>
+   Link:<a href="https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/are-you-generating-value-from-ai-the-widening-gap</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Widening Gap30 Sept 2025 — BCG&#x27;s latest research provides empirical proof that AI future-built companies achieve five times the reven...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: bcg.com  
-   Link: <a href="https://www.bcg.com/capabilities/artificial-intelligence/generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/capabilities/artificial-intelligence/generative-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalHow Generative AI Is Transforming BusinessLearn how the adoption of generative AI in business is driving innovation, streamlini...</p></details>
+   Link:<a href="https://www.bcg.com/capabilities/artificial-intelligence/generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/capabilities/artificial-intelligence/generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalHow Generative AI Is Transforming BusinessLearn how the adoption of generative AI in business is driving innovation, streamlini...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: linkedin.com  
    Title: Linked In Measuring AI Pilot ROI Beyond Business Metrics  
-   Link: <a href="https://www.linkedin.com/posts/scottjhornung_measuring-the-real-roi-of-an-ai-pilot-project-activity-7414304737166110720-JG3C" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/scottjhornung_measuring-the-real-roi-of-an-ai-pilot-project-activity-7414304737166110720-JG3C</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring AI Pilot ROI Beyond Business MetricsJanuary 6, 2026 — Measuring the real ROI of an AI pilot project is not as straightf...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/scottjhornung_measuring-the-real-roi-of-an-ai-pilot-project-activity-7414304737166110720-JG3C" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/scottjhornung_measuring-the-real-roi-of-an-ai-pilot-project-activity-7414304737166110720-JG3C</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring AI Pilot ROI Beyond Business MetricsJanuary 6, 2026 — Measuring the real ROI of an AI pilot project is not as straightf...</p></details>
    Published: January 6, 2026  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: bcg.com  
    Title: how ai is paying off in the tech function  
-   Link: <a href="https://www.bcg.com/publications/2026/how-ai-is-paying-off-in-the-tech-function" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/how-ai-is-paying-off-in-the-tech-function</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalHow AI Is Paying Off in the Tech Function6 Jan 2026 — Value-creating use cases in tech often relate to [automation](&amp;#123;&amp;#123; &#x27;automation-bias/&#x27; | relative_url &amp;#125;&amp;#125;) and efficienc...</p></details>
+   Link:<a href="https://www.bcg.com/publications/2026/how-ai-is-paying-off-in-the-tech-function" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/how-ai-is-paying-off-in-the-tech-function</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalHow AI Is Paying Off in the Tech Function6 Jan 2026 — Value-creating use cases in tech often relate to [automation](&amp;#123;&amp;#123; &#x27;automation-bias/&#x27; | relative_url &amp;#125;&amp;#125;) and efficienc...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: nist.gov  
    Title: ai risk management framework  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTJuly 12, 2021 — The profile can help organizations identify unique risks posed by generative AI an...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTJuly 12, 2021 — The profile can help organizations identify unique risks posed by generative AI an...</p></details>
    Published: July 12, 2021  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: nvlpubs.nist.gov  
    Title: AI.600 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 144 — NIST, which has conducted both fundamen...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 144 — NIST, which has conducted both fundamen...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/business/most-companies-suffer-some-risk-related-financial-loss-deploying-ai-ey-survey-2025-10-08/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/business/most-companies-suffer-some-risk-related-financial-loss-deploying-ai-ey-survey-2025-10-08/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>These losses, totaling approximately $4.4 billion, stemmed largely from issues such as compliance failures, flawed outputs, bias, and dis...</p></details>
+   Link:<a href="https://www.reuters.com/business/most-companies-suffer-some-risk-related-financial-loss-deploying-ai-ey-survey-2025-10-08/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/business/most-companies-suffer-some-risk-related-financial-loss-deploying-ai-ey-survey-2025-10-08/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These losses, totaling approximately $4.4 billion, stemmed largely from issues such as compliance failures, flawed outputs, bias, and dis...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: bcg.com  
    Title: gen ai increases productivity and expands capabilities  
-   Link: <a href="https://www.bcg.com/publications/2024/gen-ai-increases-productivity-and-expands-capabilities" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2024/gen-ai-increases-productivity-and-expands-capabilities</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalGenAI Increases Productivity &amp; Expands Capabilities5 Sept 2024 — A new experiment shows that GenAI isn&#x27;t just a tool for increa...</p></details>
+   Link:<a href="https://www.bcg.com/publications/2024/gen-ai-increases-productivity-and-expands-capabilities" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2024/gen-ai-increases-productivity-and-expands-capabilities</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG GlobalGenAI Increases Productivity &amp; Expands Capabilities5 Sept 2024 — A new experiment shows that GenAI isn&#x27;t just a tool for increa...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: media-publications.bcg.com  
    Title: The Widening AI Value Gap October 2025  
-   Link: <a href="https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Widening AI Value GapBCG&#x27;s latest research provides empirical proof that for a small number of companies AI is delivering significant bot...</p></details>
+   Link:<a href="https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://media-publications.bcg.com/The-Widening-AI-Value-Gap-October-2025.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Widening AI Value GapBCG&#x27;s latest research provides empirical proof that for a small number of companies AI is delivering significant bot...</p></details>
    Published: October 2025  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: bcg.com  
-   Link: <a href="https://www.bcg.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Boston Consulting Group: Strategic Management ConsultingBCG is a global consulting firm that partners with leaders in business and societ...</p></details>
+   Link:<a href="https://www.bcg.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Boston Consulting Group: Strategic Management ConsultingBCG is a global consulting firm that partners with leaders in business and societ...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: bcg.com  
    Title: [understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) every model has a point of view  
-   Link: <a href="https://www.bcg.com/publications/2026/understanding-every-model-has-a-point-of-view" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/understanding-every-model-has-a-point-of-view</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>30 Jan 2026 — The Path to Generative AI Value Begins with a Workforce Diagnostic. Generative AI presents both benefits and challenges to...</p></details>
+   Link:<a href="https://www.bcg.com/publications/2026/understanding-every-model-has-a-point-of-view" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2026/understanding-every-model-has-a-point-of-view</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>30 Jan 2026 — The Path to Generative AI Value Begins with a Workforce Diagnostic. Generative AI presents both benefits and challenges to...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: bcg.com  
-   Link: <a href="https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI at Work: Momentum Builds, but Gaps Remain26 Jun 2025 — Track the value you are generating with AI through improvements in productivity...</p></details>
+   Link:<a href="https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI at Work: Momentum Builds, but Gaps Remain26 Jun 2025 — Track the value you are generating with AI through improvements in productivity...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: bcg.com  
    Title: ai adoption puzzle why usage up impact not  
-   Link: <a href="https://www.bcg.com/publications/2025/ai-adoption-puzzle-why-usage-up-impact-not" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/ai-adoption-puzzle-why-usage-up-impact-not</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Adoption Puzzle: Why Usage Is Up But Impact Is NotDec 8, 2025 — BCG&#x27;s research shows 50% of companies are stagnating or just emerging...</p></details>
+   Link:<a href="https://www.bcg.com/publications/2025/ai-adoption-puzzle-why-usage-up-impact-not" target="_blank" rel="noopener noreferrer nofollow">https://www.bcg.com/publications/2025/ai-adoption-puzzle-why-usage-up-impact-not</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Adoption Puzzle: Why Usage Is Up But Impact Is NotDec 8, 2025 — BCG&#x27;s research shows 50% of companies are stagnating or just emerging...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: web-assets.bcg.com  
    Title: the genai adoption conundrum  
-   Link: <a href="https://web-assets.bcg.com/ec/28/6d50498e430c80b433acf1d9f294/the-genai-adoption-conundrum.pdf" target="_blank" rel="noopener noreferrer nofollow">https://web-assets.bcg.com/ec/28/6d50498e430c80b433acf1d9f294/the-genai-adoption-conundrum.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GenAI Adoption ConundrumMeasure what matters: Defining and continuously measuring the right metrics (see Figure 13) can help improve prod...</p></details>
+   Link:<a href="https://web-assets.bcg.com/ec/28/6d50498e430c80b433acf1d9f294/the-genai-adoption-conundrum.pdf" target="_blank" rel="noopener noreferrer nofollow">https://web-assets.bcg.com/ec/28/6d50498e430c80b433acf1d9f294/the-genai-adoption-conundrum.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GenAI Adoption ConundrumMeasure what matters: Defining and continuously measuring the right metrics (see Figure 13) can help improve prod...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Frameworkby C Autio · 2024 · Cited by 142 — This document is a cross-sectoral profile of and comp...</p></details>
+   Link:<a href="https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Frameworkby C Autio · 2024 · Cited by 142 — This document is a cross-sectoral profile of and comp...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: linkedin.com  
    Title: calculating roi generative ai initiatives mahmoud abufadda brcpf  
-   Link: <a href="https://www.linkedin.com/pulse/calculating-roi-generative-ai-initiatives-mahmoud-abufadda-brcpf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/calculating-roi-generative-ai-initiatives-mahmoud-abufadda-brcpf</a>  
+   Link:<a href="https://www.linkedin.com/pulse/calculating-roi-generative-ai-initiatives-mahmoud-abufadda-brcpf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/calculating-roi-generative-ai-initiatives-mahmoud-abufadda-brcpf</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/ian-fortney_new-bcg-research-just-confirmed-what-we-see-activity-7454167637330358272-Ab51" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/ian-fortney_new-bcg-research-just-confirmed-what-we-see-activity-7454167637330358272-Ab51</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Adoption: 60% of Companies See Minimal Value...New BCG research just confirmed what we see every week at Frame. 60% of companies repo...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/ian-fortney_new-bcg-research-just-confirmed-what-we-see-activity-7454167637330358272-Ab51" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/ian-fortney_new-bcg-research-just-confirmed-what-we-see-activity-7454167637330358272-Ab51</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Adoption: 60% of Companies See Minimal Value...New BCG research just confirmed what we see every week at Frame. 60% of companies repo...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/benjamin-rehberg_the-widening-ai-value-gap-activity-7379155605183287296-imzC" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/benjamin-rehberg_the-widening-ai-value-gap-activity-7379155605183287296-imzC</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BCG&#x27;s Build for the Future 2025 report: AI value gap...The latest BCG X Build for the Future 2025 study is a wake-up call: Only 5% of co...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/benjamin-rehberg_the-widening-ai-value-gap-activity-7379155605183287296-imzC" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/benjamin-rehberg_the-widening-ai-value-gap-activity-7379155605183287296-imzC</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG&#x27;s Build for the Future 2025 report: AI value gap...The latest BCG X Build for the Future 2025 study is a wake-up call: Only 5% of co...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/point-group-ltd_is-your-firm-ai-future-built-bcgs-latest-activity-7421480203048091648-xZ_e" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/point-group-ltd_is-your-firm-ai-future-built-bcgs-latest-activity-7421480203048091648-xZ_e</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BCG Study: Only 5% of Firms Are &#x27;AI Future-Built&#x27;26 Jan 2026 — Is your firm AI future-built? BCG&#x27;s latest research suggests only 5% of fi...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/point-group-ltd_is-your-firm-ai-future-built-bcgs-latest-activity-7421480203048091648-xZ_e" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/point-group-ltd_is-your-firm-ai-future-built-bcgs-latest-activity-7421480203048091648-xZ_e</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG Study: Only 5% of Firms Are &#x27;AI Future-Built&#x27;26 Jan 2026 — Is your firm AI future-built? BCG&#x27;s latest research suggests only 5% of fi...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/rickinatome_artificialintelligence-businesstransformation-activity-7379557767210098688-GpBl" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/rickinatome_artificialintelligence-businesstransformation-activity-7379557767210098688-GpBl</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BCG: Only 5% of companies capture value from AI, while...Boston Consulting Group just released new research showing that only 5% of comp...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/rickinatome_artificialintelligence-businesstransformation-activity-7379557767210098688-GpBl" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/rickinatome_artificialintelligence-businesstransformation-activity-7379557767210098688-GpBl</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG: Only 5% of companies capture value from AI, while...Boston Consulting Group just released new research showing that only 5% of comp...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/tjun-tang-9b967_the-ai-value-gap-is-no-longer-theoretical-activity-7381180501824323584-6IAl" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/tjun-tang-9b967_the-ai-value-gap-is-no-longer-theoretical-activity-7381180501824323584-6IAl</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>BCG report: How to bridge the AI value gap and join the 5...The AI value gap is no longer theoretical. It&#x27;s showing up in revenue, margi...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/tjun-tang-9b967_the-ai-value-gap-is-no-longer-theoretical-activity-7381180501824323584-6IAl" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/tjun-tang-9b967_the-ai-value-gap-is-no-longer-theoretical-activity-7381180501824323584-6IAl</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BCG report: How to bridge the AI value gap and join the 5...The AI value gap is no longer theoretical. It&#x27;s showing up in revenue, margi...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: businessinsider.com  
    Title: Business Insider I asked 4 executives how they measure AI ROI  
-   Link: <a href="https://www.businessinsider.com/ai-token-reckoning-execs-on-measuring-return-on-investment-2026-6" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/ai-token-reckoning-execs-on-measuring-return-on-investment-2026-6</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>None started with AI tokens.June 9, 2026 — At Mistral AI&#x27;s &quot;AI Now Summit&quot; in Paris, four executives shared insights on measuring the ret...</p></details>
+   Link:<a href="https://www.businessinsider.com/ai-token-reckoning-execs-on-measuring-return-on-investment" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/ai-token-reckoning-execs-on-measuring-return-on-investment</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>None started with AI tokens.June 9, 2026 — At Mistral AI&#x27;s &quot;AI Now Summit&quot; in Paris, four executives shared insights on measuring the ret...</p></details>
    Published: June 9, 2026  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: thecrimson.com  
    Title: jagged edge ai bcg  
-   Link: <a href="https://www.thecrimson.com/article/2023/10/13/jagged-edge-ai-bcg/" target="_blank" rel="noopener noreferrer nofollow">https://www.thecrimson.com/article/2023/10/13/jagged-edge-ai-bcg/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Harvard CrimsonHarvard Business School Partners with BCG on AI...13 Oct 2023 — The study found that, compared to workers without AI...</p></details>
+   Link:<a href="https://www.thecrimson.com/article/2023/10/13/jagged-edge-ai-bcg/" target="_blank" rel="noopener noreferrer nofollow">https://www.thecrimson.com/article/2023/10/13/jagged-edge-ai-bcg/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Harvard CrimsonHarvard Business School Partners with BCG on AI...13 Oct 2023 — The study found that, compared to workers without AI...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: businessinsider.com  
    Title: Business Insider BCG says only 5% of companies are deriving value from AI  
-   Link: <a href="https://www.businessinsider.com/industries-seeing-value-from-ai-bcg-consulting-report-2025-10" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/industries-seeing-value-from-ai-bcg-consulting-report-2025-10</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Here are the industries it says are getting it right.A 2025 report by Boston Consulting Group (BCG) reveals that only 5% of over 1,250 gl...</p></details>
+   Link:<a href="https://www.businessinsider.com/industries-seeing-value-from-ai-bcg-consulting-report" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/industries-seeing-value-from-ai-bcg-consulting-report</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Here are the industries it says are getting it right.A 2025 report by Boston Consulting Group (BCG) reveals that only 5% of over 1,250 gl...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: ibm.com  
    Title: ai roi  
-   Link: <a href="https://www.ibm.com/think/insights/ai-roi" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/insights/ai-roi</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to maximize AI ROI in 2026The key metrics for AI ROI, both hard and soft, include numerous key performance indicators (KPIs) that can...</p></details>
+   Link:<a href="https://www.ibm.com/think/insights/ai-roi" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/insights/ai-roi</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to maximize AI ROI in 2026The key metrics for AI ROI, both hard and soft, include numerous key performance indicators (KPIs) that can...</p></details>
 
 ### Additional References
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/vanity-metrics-are-jeopardizing-ai-roi" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/vanity-metrics-are-jeopardizing-ai-roi</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These metrics, often highlighted in presentations and social media, give a skewed picture by not tracking real business outcomes, leading...</p></details>
+   Link:<a href="https://www.techradar.com/pro/vanity-metrics-are-jeopardizing-ai-roi" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/vanity-metrics-are-jeopardizing-ai-roi</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These metrics, often highlighted in presentations and social media, give a skewed picture by not tracking real business outcomes, leading...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: itpro.com  
-   Link: <a href="https://www.itpro.com/business/business-strategy/pwc-ceo-survey-ai-return-on-investment" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/business/business-strategy/pwc-ceo-survey-ai-return-on-investment</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>While over 80% of companies are investing in technologies like AI, data analytics, and cloud, more than half (56%) report no significant...</p></details>
+   Link:<a href="https://www.itpro.com/business/business-strategy/pwc-ceo-survey-ai-return-on-investment" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/business/business-strategy/pwc-ceo-survey-ai-return-on-investment</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>While over 80% of companies are investing in technologies like AI, data analytics, and cloud, more than half (56%) report no significant...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: oecd.org  
    Title: the adoption of artificial intelligence in firms f9ef33c3 en  
-   Link: <a href="https://www.oecd.org/en/publications/the-adoption-of-artificial-intelligence-in-firms_f9ef33c3-en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/the-adoption-of-artificial-intelligence-in-firms_f9ef33c3-en.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Adoption of Artificial Intelligence in Firms2 May 2025 — This book provides evidence for policymakers, business leaders, and research...</p></details>
+   Link:<a href="https://www.oecd.org/en/publications/the-adoption-of-artificial-intelligence-in-firms_f9ef33c3-en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/the-adoption-of-artificial-intelligence-in-firms_f9ef33c3-en.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Adoption of Artificial Intelligence in Firms2 May 2025 — This book provides evidence for policymakers, business leaders, and research...</p></details>
    Published: May 2025  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: facebook.com  
-   Link: <a href="https://www.facebook.com/groups/agenticph/posts/1239259564883341/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/agenticph/posts/1239259564883341/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Human Side of AI Adoption: A Collective Story of Readiness, Culture and Leadership - a download link...Read more...</p></details>
+   Link:<a href="https://www.facebook.com/groups/agenticph/posts/1239259564883341/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/groups/agenticph/posts/1239259564883341/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Human Side of AI Adoption: A Collective Story of Readiness, Culture and Leadership - a download link...Read more...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: dr-gleb-tsipursky.medium.com  
    Title: com25% Faster, 40% Better: The New Math of AI-Accelerated Work Key Take-Away  
-   Link: <a href="https://dr-gleb-tsipursky.medium.com/25-faster-40-better-the-new-math-of-ai-accelerated-work-af0ccb649cc0" target="_blank" rel="noopener noreferrer nofollow">https://dr-gleb-tsipursky.medium.com/25-faster-40-better-the-new-math-of-ai-accelerated-work-af0ccb649cc0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-accelerated work boosts productivity and quality by over 40%, proving that human-AI collaboration can transform knowledge...Read more...</p></details>
+   Link:<a href="https://dr-gleb-tsipursky.medium.com/25-faster-40-better-the-new-math-of-ai-accelerated-work-af0ccb649cc0" target="_blank" rel="noopener noreferrer nofollow">https://dr-gleb-tsipursky.medium.com/25-faster-40-better-the-new-math-of-ai-accelerated-work-af0ccb649cc0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-accelerated work boosts productivity and quality by over 40%, proving that human-AI collaboration can transform knowledge...Read more...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: propeller.com  
    Title: measuring ai roi how to build an ai strategy that captures business value  
-   Link: <a href="https://propeller.com/blog/measuring-ai-roi-how-to-build-an-ai-strategy-that-captures-business-value" target="_blank" rel="noopener noreferrer nofollow">https://propeller.com/blog/measuring-ai-roi-how-to-build-an-ai-strategy-that-captures-business-value</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring AI ROI: Build an AI Strategy That Drives Value8 May 2025 — Building an AI strategy that captures business value means rethinkin...</p></details>
+   Link:<a href="https://propeller.com/blog/measuring-ai-roi-how-to-build-an-ai-strategy-that-captures-business-value" target="_blank" rel="noopener noreferrer nofollow">https://propeller.com/blog/measuring-ai-roi-how-to-build-an-ai-strategy-that-captures-business-value</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring AI ROI: Build an AI Strategy That Drives Value8 May 2025 — Building an AI strategy that captures business value means rethinkin...</p></details>
    Published: May 2025  
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: exec-ed.berkeley.edu  
    Title: beyond roi are we using the wrong metric in measuring ai success  
-   Link: <a href="https://exec-ed.berkeley.edu/2025/09/beyond-roi-are-we-using-the-wrong-metric-in-measuring-ai-success/" target="_blank" rel="noopener noreferrer nofollow">https://exec-ed.berkeley.edu/2025/09/beyond-roi-are-we-using-the-wrong-metric-in-measuring-ai-success/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ROI: Are We Using the Wrong Metric in Measuring...MIT&#x27;s recent report claiming that 95% of generative AI projects fail to deliver measur...</p></details>
+   Link:<a href="https://exec-ed.berkeley.edu/2025/09/beyond-roi-are-we-using-the-wrong-metric-in-measuring-ai-success/" target="_blank" rel="noopener noreferrer nofollow">https://exec-ed.berkeley.edu/2025/09/beyond-roi-are-we-using-the-wrong-metric-in-measuring-ai-success/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ROI: Are We Using the Wrong Metric in Measuring...MIT&#x27;s recent report claiming that 95% of generative AI projects fail to deliver measur...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: sponsored.foreignpolicy.com  
    Title: generative ai for the public sector from opportunities to value  
-   Link: <a href="https://sponsored.foreignpolicy.com/bcg/generative-ai-for-the-public-sector-from-opportunities-to-value/" target="_blank" rel="noopener noreferrer nofollow">https://sponsored.foreignpolicy.com/bcg/generative-ai-for-the-public-sector-from-opportunities-to-value/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI for the Public Sector: From Opportunities to...BCG estimates the productivity value of GenAI at $1.75 trillion annually across nation...</p></details>
+   Link:<a href="https://sponsored.foreignpolicy.com/bcg/generative-ai-for-the-public-sector-from-opportunities-to-value/" target="_blank" rel="noopener noreferrer nofollow">https://sponsored.foreignpolicy.com/bcg/generative-ai-for-the-public-sector-from-opportunities-to-value/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI for the Public Sector: From Opportunities to...BCG estimates the productivity value of GenAI at $1.75 trillion annually across nation...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: innovaitionpartners.com  
-   Link: <a href="https://innovaitionpartners.com/blog/the-roi-of-intelligence-a-definitive-guide-to-measuring-ai-value-in-professional-services-marketing-and-business-development" target="_blank" rel="noopener noreferrer nofollow">https://innovaitionpartners.com/blog/the-roi-of-intelligence-a-definitive-guide-to-measuring-ai-value-in-professional-services-marketing-and-business-development</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>reductions in client acquisition costs (CAC), and growth in revenue generated per...Read more...</p></details>
+   Link:<a href="https://innovaitionpartners.com/blog/the-roi-of-intelligence-a-definitive-guide-to-measuring-ai-value-in-professional-services-marketing-and-business-development" target="_blank" rel="noopener noreferrer nofollow">https://innovaitionpartners.com/blog/the-roi-of-intelligence-a-definitive-guide-to-measuring-ai-value-in-professional-services-marketing-and-business-development</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>reductions in client acquisition costs (CAC), and growth in revenue generated per...Read more...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: mariothomas.com  
    Title: Measuring AI Value: A Framework for business  
-   Link: <a href="https://mariothomas.com/blog/measuring-ai-roi/" target="_blank" rel="noopener noreferrer nofollow">https://mariothomas.com/blog/measuring-ai-roi/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mario Thomas13 Jan 2025 — A comprehensive framework for measuring AI ROI, combining traditional metrics and new approaches for evaluating...</p></details>
+   Link:<a href="https://mariothomas.com/blog/measuring-ai-roi/" target="_blank" rel="noopener noreferrer nofollow">https://mariothomas.com/blog/measuring-ai-roi/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mario Thomas13 Jan 2025 — A comprehensive framework for measuring AI ROI, combining traditional metrics and new approaches for evaluating...</p></details>

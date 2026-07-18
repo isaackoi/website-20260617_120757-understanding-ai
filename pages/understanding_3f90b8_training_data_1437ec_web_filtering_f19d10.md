@@ -288,7 +288,7 @@ image: /assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f1
 
 ## Introduction
 
-Large [language models]({{ 'language-models/' | relative_url }}) learn from patterns in the text they are given. Because the modern web contains spam, duplicated pages, machine-generated content, pornography, malware, and other low-value material, developers typically filter large web datasets before training. That cleaning process is often presented as a technical necessity, but it is also a powerful editorial decision. The filter determines which voices remain visible, which language varieties are treated as acceptable, and which topics appear frequently enough for a model to learn them. In practice, a language model learns not only from the web but also from the rules used to clean the web. Research on major training datasets has shown that some filtering methods remove disproportionate amounts of text associated with minority groups, dialects, and identity-related discussions, raising concerns about fairness and representation. arXiv+2Dr Alan D. Thompson – LifeArchitect.ai <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arxiv.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
+Large [language models]({{ 'language-models/' | relative_url }}) learn from patterns in the text they are given. Because the modern web contains spam, duplicated pages, machine-generated content, pornography, malware, and other low-value material, developers typically filter large web datasets before training. That cleaning process is often presented as a technical necessity, but it is also a powerful editorial decision. The filter determines which voices remain visible, which language varieties are treated as acceptable, and which topics appear frequently enough for a model to learn them. In practice, a language model learns not only from the web but also from the rules used to clean the web. Research on major training datasets has shown that some filtering methods remove disproportionate amounts of text associated with minority groups, dialects, and identity-related discussions, raising concerns about fairness and representation. arXiv+2Dr Alan D. Thompson – LifeArchitect.ai<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arxiv.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f19d10-Illustration-1-dark.svg" | relative_url }}" alt="Web Filters illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f19d10-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f19d10-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -296,7 +296,7 @@ Large [language models]({{ 'language-models/' | relative_url }}) learn from patt
 
 ### Why web-scale datasets need filtering
 
-Web-scale datasets are assembled from enormous internet archives such as Common Crawl, which contain billions of pages. Without filtering, training data would include large amounts of duplicated text, search-engine spam, corrupted pages, automatically generated content, and material that contributes little to language [understanding]({{ 'understanding/' | relative_url }}). Cleaning therefore serves legitimate goals: improving data quality, reducing noise, and making training more efficient. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: sites.rutgers.edu">[Sites@Rutgers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">sites.rutgers.edu</span><span class="citation-popover-title">Sites@Rutgers A Case Study on the Colossal Clean Crawled Corpus</span><span class="citation-popover-snippet">Sites@RutgersA Case Study on the Colossal Clean Crawled CorpusSeptember 13, 2021 — by J Dodge · Cited by 876 — C4 is created by taking th...</span><span class="citation-popover-meta">Published: September 13, 2021</span></span></span>
+Web-scale datasets are assembled from enormous internet archives such as Common Crawl, which contain billions of pages. Without filtering, training data would include large amounts of duplicated text, search-engine spam, corrupted pages, automatically generated content, and material that contributes little to language [understanding]({{ 'understanding/' | relative_url }}). Cleaning therefore serves legitimate goals: improving data quality, reducing noise, and making training more efficient.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: sites.rutgers.edu">[Sites@Rutgers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">sites.rutgers.edu</span><span class="citation-popover-title">Sites@Rutgers A Case Study on the Colossal Clean Crawled Corpus</span><span class="citation-popover-snippet">Sites@RutgersA Case Study on the Colossal Clean Crawled CorpusSeptember 13, 2021 — by J Dodge · Cited by 876 — C4 is created by taking th...</span><span class="citation-popover-meta">Published: September 13, 2021</span></span></span>
 
 Typical filters remove:
 
@@ -305,36 +305,36 @@ Typical filters remove:
 * Non-target languages.
 * Boilerplate website text.
 * Content containing words from profanity or [block lists]({{ 'block-lists/' | relative_url }}).
-* Pages judged to be low quality by [automated]({{ 'decisions/' | relative_url }}) heuristics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: sites.rutgers.edu">[Sites@Rutgers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">sites.rutgers.edu</span><span class="citation-popover-title">Sites@Rutgers A Case Study on the Colossal Clean Crawled Corpus</span><span class="citation-popover-snippet">Sites@RutgersA Case Study on the Colossal Clean Crawled CorpusSeptember 13, 2021 — by J Dodge · Cited by 876 — C4 is created by taking th...</span><span class="citation-popover-meta">Published: September 13, 2021</span></span></span>
+* Pages judged to be low quality by [automated]({{ 'decisions/' | relative_url }}) heuristics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: sites.rutgers.edu">[Sites@Rutgers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">sites.rutgers.edu</span><span class="citation-popover-title">Sites@Rutgers A Case Study on the Colossal Clean Crawled Corpus</span><span class="citation-popover-snippet">Sites@RutgersA Case Study on the Colossal Clean Crawled CorpusSeptember 13, 2021 — by J Dodge · Cited by 876 — C4 is created by taking th...</span><span class="citation-popover-meta">Published: September 13, 2021</span></span></span>
 
-The challenge is that language is social as well as technical. A filter cannot easily distinguish between genuinely harmful content and legitimate discussion that uses the same vocabulary. As a result, cleaning rules may remove valuable cultural and linguistic information alongside the material they were designed to exclude. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
+The challenge is that language is social as well as technical. A filter cannot easily distinguish between genuinely harmful content and legitimate discussion that uses the same vocabulary. As a result, cleaning rules may remove valuable cultural and linguistic information alongside the material they were designed to exclude.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/N5c2X8vhfBE" title="On the dangers of stochastic parrots: Can language models be too big? 🦜" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=N5c2X8vhfBE" target="_blank" rel="noopener noreferrer">On the dangers of stochastic parrots: Can language models be too big? 🦜</a></p><p class="youtube-embed-meta">Channel: The Alan Turing Institute</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=N5c2X8vhfBE" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=N5c2X8vhfBE">Open on YouTube</a></p></div></div></div>
 
 ### What C4 audits revealed about removed text
 
-One of the most influential examples comes from the Colossal Clean Crawled Corpus (C4), a large dataset created from Common Crawl and used in prominent language-model research. Researchers who audited C4 examined not only what remained in the dataset but also what had been removed during cleaning. Their findings showed that block-list filtering disproportionately excluded documents associated with minority groups. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
+One of the most influential examples comes from the Colossal Clean Crawled Corpus (C4), a large dataset created from Common Crawl and used in prominent language-model research. Researchers who audited C4 examined not only what remained in the dataset but also what had been removed during cleaning. Their findings showed that block-list filtering disproportionately excluded documents associated with minority groups.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
 
 The audit found several notable patterns:
 
-* Documents written in dialects associated with African American and Hispanic communities were removed at higher rates than text associated with White American English. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: s10251.pcdn.co">[Dr Alan D. Thompson – LifeArchitect.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">s10251.pcdn.co</span><span class="citation-popover-title">Dr Alan D</span><span class="citation-popover-snippet">Thompson – LifeArchitect.aiarXiv:2104.08758v1 [cs.CL] 18 Apr 202118 Apr 2021 — These findings suggest that the blocklist disproportionate...</span></span></span>
-* Text discussing gender identity, sexual orientation, race, and religion was frequently filtered because identity-related terms overlapped with words appearing on offensive-language block lists. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://maartensap.com/pdfs/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: maartensap.com">[Maarten Sap]</a><span class="citation-popover" role="note"><span class="citation-popover-source">maartensap.com</span><span class="citation-popover-title">21We investigate mentions related to gender identity, sexual orientation</span><span class="citation-popover-snippet">Maarten SapA Case Study on the Colossal Clean Crawled Corpusby J Dodge · Cited by 875 — Documenting Large Webtext Corpora: A Case Study o...</span></span></span>
-* Many excluded documents were not abusive or hateful; they simply contained vocabulary that triggered automated filters. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
+* Documents written in dialects associated with African American and Hispanic communities were removed at higher rates than text associated with White American English.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: s10251.pcdn.co">[Dr Alan D. Thompson – LifeArchitect.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">s10251.pcdn.co</span><span class="citation-popover-title">Dr Alan D</span><span class="citation-popover-snippet">Thompson – LifeArchitect.aiarXiv:2104.08758v1 [cs.CL] 18 Apr 202118 Apr 2021 — These findings suggest that the blocklist disproportionate...</span></span></span>
+* Text discussing gender identity, sexual orientation, race, and religion was frequently filtered because identity-related terms overlapped with words appearing on offensive-language block lists.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://maartensap.com/pdfs/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: maartensap.com">[Maarten Sap]</a><span class="citation-popover" role="note"><span class="citation-popover-source">maartensap.com</span><span class="citation-popover-title">21We investigate mentions related to gender identity, sexual orientation</span><span class="citation-popover-snippet">Maarten SapA Case Study on the Colossal Clean Crawled Corpusby J Dodge · Cited by 875 — Documenting Large Webtext Corpora: A Case Study o...</span></span></span>
+* Many excluded documents were not abusive or hateful; they simply contained vocabulary that triggered automated filters.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
 
-Researchers concluded that the filtering process systematically changed the composition of the dataset. Rather than merely removing noise, it altered which communities and forms of expression were represented in the training corpus. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
+Researchers concluded that the filtering process systematically changed the composition of the dataset. Rather than merely removing noise, it altered which communities and forms of expression were represented in the training corpus.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
 
-These findings became especially important because C4 was widely reused in language-model development. A filtering choice made once during dataset construction could therefore influence many downstream systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2021.emnlp-main.98/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2021.emnlp main.98</span><span class="citation-popover-snippet">ACL AnthologyA Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — In this work we provide some of the firs...</span></span></span>
+These findings became especially important because C4 was widely reused in language-model development. A filtering choice made once during dataset construction could therefore influence many downstream systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2021.emnlp-main.98/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2021.emnlp main.98</span><span class="citation-popover-snippet">ACL AnthologyA Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — In this work we provide some of the firs...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f19d10-Illustration-2-dark.svg" | relative_url }}" alt="Web Filters illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f19d10-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f19d10-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## How cleaning choices become model assumptions
 
-A language model learns statistical regularities from whatever survives the filtering stage. If a particular dialect appears less often in the training data, the model receives fewer opportunities to learn its vocabulary, grammar, and cultural references. If discussions of certain identities are systematically removed, the model may learn weaker or distorted associations about those groups. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: s10251.pcdn.co">[Dr Alan D. Thompson – LifeArchitect.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">s10251.pcdn.co</span><span class="citation-popover-title">Dr Alan D</span><span class="citation-popover-snippet">Thompson – LifeArchitect.aiarXiv:2104.08758v1 [cs.CL] 18 Apr 202118 Apr 2021 — These findings suggest that the blocklist disproportionate...</span></span></span>
+A language model learns statistical regularities from whatever survives the filtering stage. If a particular dialect appears less often in the training data, the model receives fewer opportunities to learn its vocabulary, grammar, and cultural references. If discussions of certain identities are systematically removed, the model may learn weaker or distorted associations about those groups.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: s10251.pcdn.co">[Dr Alan D. Thompson – LifeArchitect.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">s10251.pcdn.co</span><span class="citation-popover-title">Dr Alan D</span><span class="citation-popover-snippet">Thompson – LifeArchitect.aiarXiv:2104.08758v1 [cs.CL] 18 Apr 202118 Apr 2021 — These findings suggest that the blocklist disproportionate...</span></span></span>
 
-This process creates an important feedback effect. Developers may believe they are removing undesirable content, but they are also shaping the model's picture of normal language use. The model can come to treat the remaining text as the default version of reality because alternative forms of expression were filtered out before training began. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
+This process creates an important feedback effect. Developers may believe they are removing undesirable content, but they are also shaping the model's picture of normal language use. The model can come to treat the remaining text as the default version of reality because alternative forms of expression were filtered out before training began.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
 
-Researchers have argued that large web datasets already tend to overrepresent dominant social and cultural perspectives. Heavy filtering can amplify this tendency if it disproportionately removes language from marginalised communities while preserving mainstream sources. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: s10251.pcdn.co">[Dr Alan D. Thompson – LifeArchitect.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">s10251.pcdn.co</span><span class="citation-popover-title">Dr Alan D</span><span class="citation-popover-snippet">Thompson – LifeArchitect.aiOn the Dangers of Stochastic Parrots: Can Language Models...by EM Bender · Cited by 14366 — In §4, we discuss...</span></span></span>
+Researchers have argued that large web datasets already tend to overrepresent dominant social and cultural perspectives. Heavy filtering can amplify this tendency if it disproportionately removes language from marginalised communities while preserving mainstream sources.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: s10251.pcdn.co">[Dr Alan D. Thompson – LifeArchitect.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">s10251.pcdn.co</span><span class="citation-popover-title">Dr Alan D</span><span class="citation-popover-snippet">Thompson – LifeArchitect.aiOn the Dangers of Stochastic Parrots: Can Language Models...by EM Bender · Cited by 14366 — In §4, we discuss...</span></span></span>
 
 The result is not usually an obvious failure. Models often remain fluent and capable. Instead, the effects may appear in subtler ways:
 
@@ -342,7 +342,7 @@ The result is not usually an obvious failure. Models often remain fluent and cap
 * Less accurate responses about minority communities.
 * Greater reliance on majority-language norms.
 * Lower visibility of alternative cultural viewpoints.
-* Difficulty distinguishing offensive uses of identity terms from self-description or community discussion. Dr Alan D. Thompson – LifeArchitect.ai+2arXiv <span class="citation-link-wrap"><a class="citation-inline-link" href="https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: s10251.pcdn.co">[s10251.pcdn.co]</a><span class="citation-popover" role="note"><span class="citation-popover-source">s10251.pcdn.co</span><span class="citation-popover-title">Dr Alan D</span><span class="citation-popover-snippet">Thompson – LifeArchitect.aiarXiv:2104.08758v1 [cs.CL] 18 Apr 202118 Apr 2021 — These findings suggest that the blocklist disproportionate...</span></span></span>
+* Difficulty distinguishing offensive uses of identity terms from self-description or community discussion. Dr Alan D. Thompson – LifeArchitect.ai+2arXiv<span class="citation-link-wrap"><a class="citation-inline-link" href="https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: s10251.pcdn.co">[s10251.pcdn.co]</a><span class="citation-popover" role="note"><span class="citation-popover-source">s10251.pcdn.co</span><span class="citation-popover-title">Dr Alan D</span><span class="citation-popover-snippet">Thompson – LifeArchitect.aiarXiv:2104.08758v1 [cs.CL] 18 Apr 202118 Apr 2021 — These findings suggest that the blocklist disproportionate...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/J0oX_9bPq64" title="Smart Contract Shadow Audit with Code4rena&#x27;s Report | KUMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=J0oX_9bPq64" target="_blank" rel="noopener noreferrer">Smart Contract Shadow Audit with Code4rena&#x27;s Report | KUMA</a></p><p class="youtube-embed-meta">Channel: Bloqarl | Zealynx</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=J0oX_9bPq64" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=J0oX_9bPq64">Open on YouTube</a></p></div></div></div>
@@ -352,202 +352,202 @@ The result is not usually an obvious failure. Models often remain fluent and cap
 
 ## The central trade-off
 
-The evidence does not suggest that web filtering should be abandoned. Unfiltered web data contains significant amounts of spam, misinformation, duplicated content, and harmful material that can degrade model quality. The key lesson is that filtering is not a neutral housekeeping step. It is part of the training signal itself. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: sites.rutgers.edu">[Sites@Rutgers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">sites.rutgers.edu</span><span class="citation-popover-title">Sites@Rutgers A Case Study on the Colossal Clean Crawled Corpus</span><span class="citation-popover-snippet">Sites@RutgersA Case Study on the Colossal Clean Crawled CorpusSeptember 13, 2021 — by J Dodge · Cited by 876 — C4 is created by taking th...</span><span class="citation-popover-meta">Published: September 13, 2021</span></span></span>
+The evidence does not suggest that web filtering should be abandoned. Unfiltered web data contains significant amounts of spam, misinformation, duplicated content, and harmful material that can degrade model quality. The key lesson is that filtering is not a neutral housekeeping step. It is part of the training signal itself.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: sites.rutgers.edu">[Sites@Rutgers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">sites.rutgers.edu</span><span class="citation-popover-title">Sites@Rutgers A Case Study on the Colossal Clean Crawled Corpus</span><span class="citation-popover-snippet">Sites@RutgersA Case Study on the Colossal Clean Crawled CorpusSeptember 13, 2021 — by J Dodge · Cited by 876 — C4 is created by taking th...</span><span class="citation-popover-meta">Published: September 13, 2021</span></span></span>
 
-Understanding artificial intelligence therefore requires looking beyond model architecture and examining dataset construction. Every decision about what to keep, remove, or down-rank changes what the model encounters during learning. When a language model appears biased, insensitive to certain communities, or unusually confident about some viewpoints, part of the explanation may lie not in the model's design but in the web-filtering choices that shaped its training data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Knowing Machines]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
+Understanding artificial intelligence therefore requires looking beyond model architecture and examining dataset construction. Every decision about what to keep, remove, or down-rank changes what the model encounters during learning. When a language model appears biased, insensitive to certain communities, or unusually confident about some viewpoints, part of the explanation may lie not in the model's design but in the web-filtering choices that shaped its training data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Knowing Machines]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f19d10-Illustration-3-dark.svg" | relative_url }}" alt="Web Filters illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f19d10-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_web_filtering_f19d10-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can cleaning data make AI less fair?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can cleaning data make AI less fair?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KfodEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Atlas of AI">The Atlas of AI</a>
-        </h4>
-        <p class="fr-book-author">By Kate Crawford</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KfodEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Atlas of AI">The Atlas of AI</a>
+</h4>
+<p class="fr-book-author">By Kate Crawford</p>
         
-        <p class="fr-book-desc">Connects AI systems to the data, labour, and classification choices behind them.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Connects AI systems to the data, labour, and classification choices behind them.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Feminism+by+Catherine+D%27Ignazio&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Feminism on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=x5nSDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Data Feminism" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Data+Feminism+by+Catherine+D%27Ignazio&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Feminism">Data Feminism</a>
-        </h4>
-        <p class="fr-book-author">By Catherine D&#x27;Ignazio, Lauren F. Klein</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Feminism+by+Catherine+D%27Ignazio&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Feminism on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=x5nSDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Data Feminism" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Data+Feminism+by+Catherine+D%27Ignazio&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Feminism">Data Feminism</a>
+</h4>
+<p class="fr-book-author">By Catherine D&#x27;Ignazio, Lauren F. Klein</p>
         
-        <p class="fr-book-desc">Explains how datasets reflect power, omissions, and representation choices.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Data+Feminism+by+Catherine+D%27Ignazio&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how datasets reflect power, omissions, and representation choices.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Data+Feminism+by+Catherine+D%27Ignazio&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
-        <p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
-        <p class="fr-book-desc">Provides foundational coverage of learning objectives and evaluation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
+<p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
+<p class="fr-book-desc">Provides foundational coverage of learning objectives and evaluation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Directly supports the idea that technical data choices can create social harms.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly supports the idea that technical data choices can create social harms.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Atlas of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Feminism&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Feminism</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Atlas of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Feminism&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Feminism</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee"><img src="{{ '/assets/images/marketplace-covers/f21c0673c92a0935dcd5.jpg' | relative_url }}" alt="Listing image for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee"><img src="{{ '/assets/images/marketplace-covers/f21c0673c92a0935dcd5.jpg' | relative_url }}" alt="Listing image for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Encoder I Love Statistics Data Science Data Analysts T-Shirt"><img src="{{ '/assets/images/marketplace-covers/60bf667e404def522989.jpg' | relative_url }}" alt="Listing image for Data Encoder I Love Statistics Data Science Data Analysts T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Encoder I Love Statistics Data Science Data Analysts T-Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Encoder I Love Statistics Data Science Data Analysts T-Shirt"><img src="{{ '/assets/images/marketplace-covers/60bf667e404def522989.jpg' | relative_url }}" alt="Listing image for Data Encoder I Love Statistics Data Science Data Analysts T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Encoder I Love Statistics Data Science Data Analysts T-Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="web-filters-can-cleaning-data-make-ai-less-fair-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -563,7 +563,7 @@ Understanding artificial intelligence therefore requires looking beyond model ar
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -583,7 +583,7 @@ Understanding artificial intelligence therefore requires looking beyond model ar
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -615,7 +615,7 @@ Understanding artificial intelligence therefore requires looking beyond model ar
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -667,7 +667,7 @@ Understanding artificial intelligence therefore requires looking beyond model ar
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -712,7 +712,7 @@ Understanding artificial intelligence therefore requires looking beyond model ar
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -753,104 +753,104 @@ Understanding artificial intelligence therefore requires looking beyond model ar
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2104.08758</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</p></details>
+   Link:<a href="https://arxiv.org/abs/2104.08758" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2104.08758</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — we evaluate the text that was removed, and show...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: s10251.pcdn.co  
    Title: Dr Alan D  
-   Link: <a href="https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf" target="_blank" rel="noopener noreferrer nofollow">https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Thompson – LifeArchitect.aiarXiv:2104.08758v1 [cs.CL] 18 Apr 202118 Apr 2021 — These findings suggest that the blocklist disproportionate...</p></details>
+   Link:<a href="https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf" target="_blank" rel="noopener noreferrer nofollow">https://s10251.pcdn.co/pdf/2021-dodge-c4.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Thompson – LifeArchitect.aiarXiv:2104.08758v1 [cs.CL] 18 Apr 202118 Apr 2021 — These findings suggest that the blocklist disproportionate...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: sites.rutgers.edu  
    Title: Sites@Rutgers A Case Study on the Colossal Clean Crawled Corpus  
-   Link: <a href="https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow">https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Sites@RutgersA Case Study on the Colossal Clean Crawled CorpusSeptember 13, 2021 — by J Dodge · Cited by 876 — C4 is created by taking th...</p></details>
+   Link:<a href="https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow">https://sites.rutgers.edu/critical-ai/wp-content/uploads/sites/586/2021/09/dodge2021documentingC4.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Sites@RutgersA Case Study on the Colossal Clean Crawled CorpusSeptember 13, 2021 — by J Dodge · Cited by 876 — C4 is created by taking th...</p></details>
    Published: September 13, 2021  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: s10251.pcdn.co  
    Title: Dr Alan D  
-   Link: <a href="https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf" target="_blank" rel="noopener noreferrer nofollow">https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Thompson – LifeArchitect.aiOn the Dangers of Stochastic Parrots: Can Language Models...by EM Bender · Cited by 14366 — In §4, we discuss...</p></details>
+   Link:<a href="https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf" target="_blank" rel="noopener noreferrer nofollow">https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Thompson – LifeArchitect.aiOn the Dangers of Stochastic Parrots: Can Language Models...by EM Bender · Cited by 14366 — In §4, we discuss...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: knowingmachines.org  
-   Link: <a href="https://knowingmachines.org/publications/9-ways-to-see/essays/c4" target="_blank" rel="noopener noreferrer nofollow">https://knowingmachines.org/publications/9-ways-to-see/essays/c4</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The case of &#x27;Colossal Cleaned Common Crawl&#x27; (C4)While audits of C4 reveal the presence of harmful content, misinformation, and the exclus...</p></details>
+   Link:<a href="https://knowingmachines.org/publications/9-ways-to-see/essays/c4" target="_blank" rel="noopener noreferrer nofollow">https://knowingmachines.org/publications/9-ways-to-see/essays/c4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The case of &#x27;Colossal Cleaned Common Crawl&#x27; (C4)While audits of C4 reveal the presence of harmful content, misinformation, and the exclus...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: aclanthology.org  
    Title: 2021.emnlp main.98  
-   Link: <a href="https://aclanthology.org/2021.emnlp-main.98/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2021.emnlp-main.98/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyA Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — In this work we provide some of the firs...</p></details>
+   Link:<a href="https://aclanthology.org/2021.emnlp-main.98/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2021.emnlp-main.98/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyA Case Study on the Colossal Clean Crawled Corpusby J Dodge · 2021 · Cited by 876 — In this work we provide some of the firs...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: maartensap.com  
    Title: 21We investigate mentions related to gender identity, sexual orientation  
-   Link: <a href="https://maartensap.com/pdfs/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow">https://maartensap.com/pdfs/dodge2021documentingC4.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Maarten SapA Case Study on the Colossal Clean Crawled Corpusby J Dodge · Cited by 875 — Documenting Large Webtext Corpora: A Case Study o...</p></details>
+   Link:<a href="https://maartensap.com/pdfs/dodge2021documentingC4.pdf" target="_blank" rel="noopener noreferrer nofollow">https://maartensap.com/pdfs/dodge2021documentingC4.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Maarten SapA Case Study on the Colossal Clean Crawled Corpusby J Dodge · Cited by 875 — Documenting Large Webtext Corpora: A Case Study o...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: github.com  
-   Link: <a href="https://github.com/allenai/allennlp/discussions/5265" target="_blank" rel="noopener noreferrer nofollow">https://github.com/allenai/allennlp/discussions/5265</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>We now have almost 27TB of clean-ish data, in 101 different languages (plus the &quot;undetected&quot;...Read more...</p></details>
+   Link:<a href="https://github.com/allenai/allennlp/discussions/5265" target="_blank" rel="noopener noreferrer nofollow">https://github.com/allenai/allennlp/discussions/5265</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>We now have almost 27TB of clean-ish data, in 101 different languages (plus the &quot;undetected&quot;...Read more...</p></details>
 
 ### Additional References
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: aiaaic.org  
-   Link: <a href="https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-[automation" target="_blank" rel="noopener noreferrer nofollow">https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-[automation</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>C4 datasetAI text detector [language bias](&amp;#123;&amp;#123; &#x27;language-bias/&#x27; | relative_url &amp;#125;&amp;#125;) ・ hur ethnic minority analytics Tesla ・ generates inaccurate, racist, homophobic and offensive r...</p></details>
+   Link:<a href="https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-[automation" target="_blank" rel="noopener noreferrer nofollow">https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-[automation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>C4 datasetAI text detector [language bias](&amp;#123;&amp;#123; &#x27;language-bias/&#x27; | relative_url &amp;#125;&amp;#125;) ・ hur ethnic minority analytics Tesla ・ generates inaccurate, racist, homophobic and offensive r...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: code4rena.com  
-   Link: <a href="https://code4rena.com/" target="_blank" rel="noopener noreferrer nofollow">https://code4rena.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Keeping high severity bugs out of productionAfter 5 years of securing DeFi, Code4rena is closing its doors. Active competitio...</p></details>
+   Link:<a href="https://code4rena.com/" target="_blank" rel="noopener noreferrer nofollow">https://code4rena.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Keeping high severity bugs out of productionAfter 5 years of securing DeFi, Code4rena is closing its doors. Active competitio...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: sh-tsang.medium.com  
-   Link: <a href="https://sh-tsang.medium.com/review-documenting-largewebtext-corpora-a-case-study-on-the-colossal-clean-crawled-corpus-0bcc6554e4b6" target="_blank" rel="noopener noreferrer nofollow">https://sh-tsang.medium.com/review-documenting-largewebtext-corpora-a-case-study-on-the-colossal-clean-crawled-corpus-0bcc6554e4b6</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Large Webtext Corpora: A Case Study on the...Crawled Corpus (C4) used in T5, is a dataset removing text that is not natural English. Iss...</p></details>
+   Link:<a href="https://sh-tsang.medium.com/review-documenting-largewebtext-corpora-a-case-study-on-the-colossal-clean-crawled-corpus-0bcc6554e4b6" target="_blank" rel="noopener noreferrer nofollow">https://sh-tsang.medium.com/review-documenting-largewebtext-corpora-a-case-study-on-the-colossal-clean-crawled-corpus-0bcc6554e4b6</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Large Webtext Corpora: A Case Study on the...Crawled Corpus (C4) used in T5, is a dataset removing text that is not natural English. Iss...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40emilymenonbender/stochastic-parrots-frequently-unasked-questions-49c2e7d22d11" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40emilymenonbender/stochastic-parrots-frequently-unasked-questions-49c2e7d22d11</a>  
+   Link:<a href="https://medium.com/%40emilymenonbender/stochastic-parrots-frequently-unasked-questions-49c2e7d22d11" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40emilymenonbender/stochastic-parrots-frequently-unasked-questions-49c2e7d22d11</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: proceedings.neurips.cc  
    Title: 1c6bed78d3813886d3d72595dbecb80b Paper Datasets and [Benchmarks](&#123;&#123; 'benchmarks/' | relative_url &#125;&#125;)  
-   Link: <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/1c6bed78d3813886d3d72595dbecb80b-Paper-Datasets_and_Benchmarks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper_files/paper/2023/file/1c6bed78d3813886d3d72595dbecb80b-Paper-Datasets_and_Benchmarks.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>C4: An Open, Billion-scale Corpus of Images...by W Zhu · 2023 · Cited by 269 — Multimodal C4 (mmc4), a public, billion-scale image-text...</p></details>
+   Link:<a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/1c6bed78d3813886d3d72595dbecb80b-Paper-Datasets_and_Benchmarks.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.neurips.cc/paper_files/paper/2023/file/1c6bed78d3813886d3d72595dbecb80b-Paper-Datasets_and_Benchmarks.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>C4: An Open, Billion-scale Corpus of Images...by W Zhu · 2023 · Cited by 269 — Multimodal C4 (mmc4), a public, billion-scale image-text...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: On the dangers of stochastic parrots: Can language models be too big?  
-   Link: <a href="https://www.youtube.com/watch?v=N5c2X8vhfBE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=N5c2X8vhfBE</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>🦜Professor Emily M. Bender will present her recent (co-authored) paper On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=N5c2X8vhfBE" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=N5c2X8vhfBE</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>🦜Professor Emily M. Bender will present her recent (co-authored) paper On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: archive.org  
    Title: stochastic parrots 3442188.3445922  
-   Link: <a href="https://archive.org/details/stochastic-parrots-3442188.3445922" target="_blank" rel="noopener noreferrer nofollow">https://archive.org/details/stochastic-parrots-3442188.3445922</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>On the Dangers of Stochastic Parrots: Can Language...13 Jun 2022 — In this paper, we take a step back and ask: How big is too big? What...</p></details>
+   Link:<a href="https://archive.org/details/stochastic-parrots-3442188.3445922" target="_blank" rel="noopener noreferrer nofollow">https://archive.org/details/stochastic-parrots-3442188.3445922</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>On the Dangers of Stochastic Parrots: Can Language...13 Jun 2022 — In this paper, we take a step back and ask: How big is too big? What...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: gist.github.com  
-   Link: <a href="https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27" target="_blank" rel="noopener noreferrer nofollow">https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>criticism of &quot;On the Dangers of Stochastic ParrotsThe criticism has two parts: The paper is attacking the wrong target. racist, sexist, b...</p></details>
+   Link:<a href="https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27" target="_blank" rel="noopener noreferrer nofollow">https://gist.github.com/yoavg/9fc9be2f98b47c189a513573d902fb27</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>criticism of &quot;On the Dangers of Stochastic ParrotsThe criticism has two parts: The paper is attacking the wrong target. racist, sexist, b...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: buildcognitiveresonance.substack.com  
    Title: in defense of stochastic parrots  
-   Link: <a href="https://buildcognitiveresonance.substack.com/p/in-defense-of-stochastic-parrots" target="_blank" rel="noopener noreferrer nofollow">https://buildcognitiveresonance.substack.com/p/in-defense-of-stochastic-parrots</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>defense of stochastic parrots - by Benjamin RileyHere is an overly simplistic yet defensible story of how large-language models do what t...</p></details>
+   Link:<a href="https://buildcognitiveresonance.substack.com/p/in-defense-of-stochastic-parrots" target="_blank" rel="noopener noreferrer nofollow">https://buildcognitiveresonance.substack.com/p/in-defense-of-stochastic-parrots</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>defense of stochastic parrots - by Benjamin RileyHere is an overly simplistic yet defensible story of how large-language models do what t...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
    Title: LLMs Pretrain Better Without Data Filtering  
-   Link: <a href="https://www.youtube.com/watch?v=yqmsr9bHNcI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=yqmsr9bHNcI</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Bitter Lesson for Data Filtering discusses recent research demonstrating how data filtering methods directly alter the scaling behavior...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=yqmsr9bHNcI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=yqmsr9bHNcI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Bitter Lesson for Data Filtering discusses recent research demonstrating how data filtering methods directly alter the scaling behavior...</p></details>

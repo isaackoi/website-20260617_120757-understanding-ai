@@ -286,25 +286,25 @@ header:
 image: /assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_search_sou_1cb643-Illustration-1-social.jpg
 ---
 
-AI-generated search summaries can be useful, but they should not be treated as proof. Modern search engines increasingly place a generated answer above traditional links, giving users a quick overview of a topic without requiring them to open several webpages. This saves time, especially for factual questions or broad introductions. However, it also changes how people evaluate information. Instead of comparing multiple sources directly, users are often asked to trust a synthesis created by an AI system. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.google.com">[Google Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.google.com</span><span class="citation-popover-snippet">How data helps Google...Read more...</span></span></span>
+AI-generated search summaries can be useful, but they should not be treated as proof. Modern search engines increasingly place a generated answer above traditional links, giving users a quick overview of a topic without requiring them to open several webpages. This saves time, especially for factual questions or broad introductions. However, it also changes how people evaluate information. Instead of comparing multiple sources directly, users are often asked to trust a synthesis created by an AI system.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.google.com">[Google Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.google.com</span><span class="citation-popover-snippet">How data helps Google...Read more...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_search_sou_1cb643-Illustration-1-dark.svg" | relative_url }}" alt="AI Search illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_search_sou_1cb643-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_search_sou_1cb643-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-The central risk is not simply that an AI summary may contain mistakes. The more subtle problem is that a summary can appear well-sourced while including claims that are not fully supported by the pages it cites. Research on Google [AI Overviews]({{ 'liability-cases/' | relative_url }}) found that 11% of analysed atomic claims were [unsupported]({{ 'unsupported-claims/' | relative_url }}) by the cited sources, even when those sources themselves appeared credible. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2605.14021v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring Google AI Overviews: Activation, Source Quality...13 May 2026 — Third, decomposing responses into 98,020 atomic claims, 1...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
+The central risk is not simply that an AI summary may contain mistakes. The more subtle problem is that a summary can appear well-sourced while including claims that are not fully supported by the pages it cites. Research on Google [AI Overviews]({{ 'liability-cases/' | relative_url }}) found that 11% of analysed atomic claims were [unsupported]({{ 'unsupported-claims/' | relative_url }}) by the cited sources, even when those sources themselves appeared credible.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2605.14021v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring Google AI Overviews: Activation, Source Quality...13 May 2026 — Third, decomposing responses into 98,020 atomic claims, 1...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
 
 ## How AI Search Turns Queries Into Generated Answers
 
-Traditional search engines mainly ranked and displayed links. AI-powered search adds another layer: retrieval and synthesis. The system first identifies potentially relevant sources, then generates a natural-language answer that combines information from several pages into a single response. Citations are often attached to give users a path back to the underlying material. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ahrefs.com/blog/google-ai-overviews/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ahrefs.com">[Ahrefs]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ahrefs.com</span><span class="citation-popover-title">google ai overviews</span><span class="citation-popover-snippet">Google AI Overviews: All You Need to Know27 May 2025 — Google&#x27;s AI Overviews are AI-generated summaries for search queries. Example...</span><span class="citation-popover-meta">Published: May 2025</span></span></span>
+Traditional search engines mainly ranked and displayed links. AI-powered search adds another layer: retrieval and synthesis. The system first identifies potentially relevant sources, then generates a natural-language answer that combines information from several pages into a single response. Citations are often attached to give users a path back to the underlying material.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ahrefs.com/blog/google-ai-overviews/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ahrefs.com">[Ahrefs]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ahrefs.com</span><span class="citation-popover-title">google ai overviews</span><span class="citation-popover-snippet">Google AI Overviews: All You Need to Know27 May 2025 — Google&#x27;s AI Overviews are AI-generated summaries for search queries. Example...</span><span class="citation-popover-meta">Published: May 2025</span></span></span>
 
-This approach offers clear benefits. Users can ask longer and more complex questions, receive summaries of multiple viewpoints, and avoid opening numerous tabs. Search providers explicitly describe AI summaries as snapshots designed to help users understand a topic quickly while still providing links for deeper investigation. Google Help+2Google Search - A new kind of help <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.google.com">[support.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.google.com</span><span class="citation-popover-snippet">How data helps Google...Read more...</span></span></span>
+This approach offers clear benefits. Users can ask longer and more complex questions, receive summaries of multiple viewpoints, and avoid opening numerous tabs. Search providers explicitly describe AI summaries as snapshots designed to help users understand a topic quickly while still providing links for deeper investigation. Google Help+2Google Search - A new kind of help<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.google.com">[support.google.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.google.com</span><span class="citation-popover-snippet">How data helps Google...Read more...</span></span></span>
 
-Yet the process introduces a new layer of interpretation. The user no longer reads the original sources first. Instead, the AI decides which facts to extract, how to connect them, and what level of [confidence]({{ 'confidence/' | relative_url }}) to express. Research examining AI-mediated search found that generated answers can create different patterns of source exposure and may present information with less visible uncertainty than the underlying materials contain. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2603.16138" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Answer Bubbles: Information Exposure in AI-Mediated Search</span><span class="citation-popover-snippet">Answer Bubbles: Information Exposure in AI-Mediated SearchMarch 17, 2026...</span><span class="citation-popover-meta">Published: March 17, 2026</span></span></span>
+Yet the process introduces a new layer of interpretation. The user no longer reads the original sources first. Instead, the AI decides which facts to extract, how to connect them, and what level of [confidence]({{ 'confidence/' | relative_url }}) to express. Research examining AI-mediated search found that generated answers can create different patterns of source exposure and may present information with less visible uncertainty than the underlying materials contain.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2603.16138" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Answer Bubbles: Information Exposure in AI-Mediated Search</span><span class="citation-popover-snippet">Answer Bubbles: Information Exposure in AI-Mediated SearchMarch 17, 2026...</span><span class="citation-popover-meta">Published: March 17, 2026</span></span></span>
 
 ## Why Unsupported Claims Change the User's Job
 
 The presence of citations can create a strong impression of reliability. Many users assume that if a statement includes a source link, the source directly supports the claim. AI-generated summaries complicate that assumption.
 
-A large 2026 study of Google AI Overviews analysed more than 98,000 individual claims and found that 11% were unsupported by the cited pages. The dominant problem was omission: the cited source discussed the topic but did not actually provide evidence for a specific statement included in the summary. Researchers also found that source quality and claim fidelity were largely independent, meaning that credible sources did not automatically guarantee accurate summaries. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2605.14021v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring Google AI Overviews: Activation, Source Quality...13 May 2026 — Third, decomposing responses into 98,020 atomic claims, 1...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
+A large 2026 study of Google AI Overviews analysed more than 98,000 individual claims and found that 11% were unsupported by the cited pages. The dominant problem was omission: the cited source discussed the topic but did not actually provide evidence for a specific statement included in the summary. Researchers also found that source quality and claim fidelity were largely independent, meaning that credible sources did not automatically guarantee accurate summaries.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2605.14021v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring Google AI Overviews: Activation, Source Quality...13 May 2026 — Third, decomposing responses into 98,020 atomic claims, 1...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
 
 This changes the user's responsibility in several ways:
 
@@ -314,7 +314,7 @@ This changes the user's responsibility in several ways:
 * A cited source may support part of a generated answer but not all of it.
 * The AI may combine information from multiple sources and present the result as a single coherent claim.
 * Important qualifications, limitations, or disagreements present in the original material may be omitted.
-* Confident wording can make uncertain conclusions appear settled. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2410.22349" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+* Confident wording can make uncertain conclusions appear settled.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2410.22349" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 </div>
 
@@ -325,11 +325,11 @@ The practical result is that users increasingly need to verify not only whether 
 
 ## Real Examples of Why Verification Matters
 
-Concerns about source fidelity are not merely theoretical. Researchers studying [generative]({{ 'generative-ai/' | relative_url }}) search systems have documented inaccurate citations, unsupported claims, and patterns of selective source use across multiple AI search products. Some studies have also found evidence that generative search engines occasionally cite AI-generated content, raising questions about the quality of the information being recycled into summaries. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2410.22349" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Concerns about source fidelity are not merely theoretical. Researchers studying [generative]({{ 'generative-ai/' | relative_url }}) search systems have documented inaccurate citations, unsupported claims, and patterns of selective source use across multiple AI search products. Some studies have also found evidence that generative search engines occasionally cite AI-generated content, raising questions about the quality of the information being recycled into summaries.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2410.22349" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
-Public controversies have highlighted the consequences when errors appear authoritative. In 2026, a German court ruled that Google could be held liable for false statements generated by AI Overviews after misleading summaries linked publishers to fraudulent activities. The court's reasoning reflected a key distinction: unlike a conventional search result that merely points to third-party content, an AI summary creates a new statement that users may interpret as the platform's own representation of the facts. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: wired.com">[WIRED+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">wired.com</span><span class="citation-popover-snippet">The Munich Regional Court found that the feature generated misleading summaries incorrectly linking two publishers to scams and fraudulen...</span></span></span>
+Public controversies have highlighted the consequences when errors appear authoritative. In 2026, a German court ruled that Google could be held liable for false statements generated by AI Overviews after misleading summaries linked publishers to fraudulent activities. The court's reasoning reflected a key distinction: unlike a conventional search result that merely points to third-party content, an AI summary creates a new statement that users may interpret as the platform's own representation of the facts.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: wired.com">[WIRED+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">wired.com</span><span class="citation-popover-snippet">The Munich Regional Court found that the feature generated misleading summaries incorrectly linking two publishers to scams and fraudulen...</span></span></span>
 
-Health-related examples have also attracted scrutiny. Reports examining AI-generated search responses found instances of inaccurate medical and mental-health information, prompting concerns from health organisations and researchers about the risks of relying on summaries without [checking]({{ 'checklists/' | relative_url }}) the underlying evidence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2026/feb/20/mind-inquiry-google-ai-overviews-mental-health-guardian-investigation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">This initiative follows a Guardian investigation that exposed how Google&#x27;s AI Overviews — AI-generated summaries shown above search resul...</span></span></span>
+Health-related examples have also attracted scrutiny. Reports examining AI-generated search responses found instances of inaccurate medical and mental-health information, prompting concerns from health organisations and researchers about the risks of relying on summaries without [checking]({{ 'checklists/' | relative_url }}) the underlying evidence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2026/feb/20/mind-inquiry-google-ai-overviews-mental-health-guardian-investigation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">This initiative follows a Guardian investigation that exposed how Google&#x27;s AI Overviews — AI-generated summaries shown above search resul...</span></span></span>
 
 These incidents do not prove that AI search is broadly unreliable. They do show that citation alone is not enough to guarantee trustworthiness.
 
@@ -366,13 +366,13 @@ AI systems often merge information from sources published at different times. A 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_search_sou_1cb643-Illustration-3-dark.svg" | relative_url }}" alt="AI Search illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_search_sou_1cb643-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_search_sou_1cb643-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Be Careful With Confident Language
 
-Research on AI-mediated search suggests that generated summaries can reduce visible signals of uncertainty. Strongly worded conclusions are not always backed by equally strong evidence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2603.16138" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Answer Bubbles: Information Exposure in AI-Mediated Search</span><span class="citation-popover-snippet">Answer Bubbles: Information Exposure in AI-Mediated SearchMarch 17, 2026...</span><span class="citation-popover-meta">Published: March 17, 2026</span></span></span>
+Research on AI-mediated search suggests that generated summaries can reduce visible signals of uncertainty. Strongly worded conclusions are not always backed by equally strong evidence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2603.16138" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Answer Bubbles: Information Exposure in AI-Mediated Search</span><span class="citation-popover-snippet">Answer Bubbles: Information Exposure in AI-Mediated SearchMarch 17, 2026...</span><span class="citation-popover-meta">Published: March 17, 2026</span></span></span>
 
 ## Trust the Summary, Verify the Evidence
 
-AI search summaries represent a significant shift in how people interact with information. They reduce the effort needed to gather facts, compare sources, and understand unfamiliar topics. For routine questions, that convenience is often valuable. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.google.com">[Google Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.google.com</span><span class="citation-popover-snippet">How data helps Google...Read more...</span></span></span>
+AI search summaries represent a significant shift in how people interact with information. They reduce the effort needed to gather facts, compare sources, and understand unfamiliar topics. For routine questions, that convenience is often valuable.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.google.com">[Google Help]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.google.com</span><span class="citation-popover-snippet">How data helps Google...Read more...</span></span></span>
 
-The challenge is that AI-generated answers are interpretations, not direct evidence. Studies have shown that unsupported claims can appear alongside legitimate citations, and real-world cases demonstrate that errors may carry significant consequences when users assume the summary has already done the verification work. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2605.14021v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+3arXiv+3arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring Google AI Overviews: Activation, Source Quality...13 May 2026 — Third, decomposing responses into 98,020 atomic claims, 1...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
+The challenge is that AI-generated answers are interpretations, not direct evidence. Studies have shown that unsupported claims can appear alongside legitimate citations, and real-world cases demonstrate that errors may carry significant consequences when users assume the summary has already done the verification work.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/2605.14021v1" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+3arXiv+3arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Measuring Google AI Overviews: Activation, Source Quality...13 May 2026 — Third, decomposing responses into 98,020 atomic claims, 1...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
 
 The safest habit is simple: treat AI search summaries as efficient starting points. When a claim matters, follow the citations, read the source, and confirm that the evidence genuinely supports the conclusion.
 
@@ -381,194 +381,194 @@ The safest habit is simple: treat AI search summaries as efficient starting poin
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can AI Search Summaries Be Trusted?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can AI Search Summaries Be Trusted?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=J2HgEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=J2HgEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Covers practical evaluation of AI-generated answers.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers practical evaluation of AI-generated answers.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Snake Oil on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_lxOEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Snake Oil" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Snake Oil">AI Snake Oil</a>
-        </h4>
-        <p class="fr-book-author">By Arvind Narayanan, Sayash Kapoor</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Snake Oil on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_lxOEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Snake Oil" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Snake Oil">AI Snake Oil</a>
+</h4>
+<p class="fr-book-author">By Arvind Narayanan, Sayash Kapoor</p>
         
-        <p class="fr-book-desc">Directly addresses reliability and trust in AI outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses reliability and trust in AI outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Calling Bullshit on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=S2ZOzQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Calling Bullshit" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Calling Bullshit">Calling Bullshit</a>
-        </h4>
-        <p class="fr-book-author">By Carl T. Bergstrom, Jevin Darwin West</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Calling Bullshit on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=S2ZOzQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Calling Bullshit" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Calling Bullshit">Calling Bullshit</a>
+</h4>
+<p class="fr-book-author">By Carl T. Bergstrom, Jevin Darwin West</p>
         
-        <p class="fr-book-desc">Teaches evidence checking and source evaluation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Teaches evidence checking and source evaluation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Death+of+Expertise+by+Tom+Nichols&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Death of Expertise on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=-KP_DQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Death of Expertise" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Death+of+Expertise+by+Tom+Nichols&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Death of Expertise">The Death of Expertise</a>
-        </h4>
-        <p class="fr-book-author">By Tom Nichols</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Death+of+Expertise+by+Tom+Nichols&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Death of Expertise on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=-KP_DQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Death of Expertise" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Death+of+Expertise+by+Tom+Nichols&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Death of Expertise">The Death of Expertise</a>
+</h4>
+<p class="fr-book-author">By Tom Nichols</p>
         
-        <p class="fr-book-desc">Explores authority, expertise and information quality.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Death+of+Expertise+by+Tom+Nichols&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores authority, expertise and information quality.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Death+of+Expertise+by+Tom+Nichols&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Snake+Oil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Snake Oil</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Calling+Bullshit&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Calling Bullshit</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Snake+Oil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Snake Oil</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Calling+Bullshit&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Calling Bullshit</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Goddess Heaven 2 Game Poster Promotional Novelty Pc Engine Pc-Fx Nec Search Flye"><img src="{{ '/assets/images/marketplace-covers/909d82c64b7926b09994.jpg' | relative_url }}" alt="Listing image for Goddess Heaven 2 Game Poster Promotional Novelty Pc Engine Pc-Fx Nec Search Flye" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Goddess Heaven 2 Game Poster Promotional Novelty Pc Engine Pc-Fx Nec Search Flye</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Goddess Heaven 2 Game Poster Promotional Novelty Pc Engine Pc-Fx Nec Search Flye"><img src="{{ '/assets/images/marketplace-covers/909d82c64b7926b09994.jpg' | relative_url }}" alt="Listing image for Goddess Heaven 2 Game Poster Promotional Novelty Pc Engine Pc-Fx Nec Search Flye" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Goddess Heaven 2 Game Poster Promotional Novelty Pc Engine Pc-Fx Nec Search Flye</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for GAZERK Print Ad Game Poster Art PROMO Videogame Search Engine Advert"><img src="{{ '/assets/images/marketplace-covers/f9e7e2d4f671a58a2614.jpg' | relative_url }}" alt="Listing image for GAZERK Print Ad Game Poster Art PROMO Videogame Search Engine Advert" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">GAZERK Print Ad Game Poster Art PROMO Videogame Search Engine Advert</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for GAZERK Print Ad Game Poster Art PROMO Videogame Search Engine Advert"><img src="{{ '/assets/images/marketplace-covers/f9e7e2d4f671a58a2614.jpg' | relative_url }}" alt="Listing image for GAZERK Print Ad Game Poster Art PROMO Videogame Search Engine Advert" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">GAZERK Print Ad Game Poster Art PROMO Videogame Search Engine Advert</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer"><img src="{{ '/assets/images/marketplace-covers/2d0ee2efab03a88d8db8.jpg' | relative_url }}" alt="Listing image for Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer"><img src="{{ '/assets/images/marketplace-covers/2d0ee2efab03a88d8db8.jpg' | relative_url }}" alt="Listing image for Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Princess Dragnet Game Poster Promotion Novelty Pc Engine Pc-Fx Nec Search Flyer</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/c025a6fa8e25cf79e580.jpg' | relative_url }}" alt="Listing image for Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/c025a6fa8e25cf79e580.jpg' | relative_url }}" alt="Listing image for Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">Librarian Original Search Engine Fr Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for search engine poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: search engine poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=search+engine+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="search engine poster" data-ebay-reference="ai-search-can-ai-search-summaries-be-trusted-understanding-search-engine-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -584,7 +584,7 @@ The safest habit is simple: treat AI search summaries as efficient starting poin
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -604,7 +604,7 @@ The safest habit is simple: treat AI search summaries as efficient starting poin
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -636,7 +636,7 @@ The safest habit is simple: treat AI search summaries as efficient starting poin
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -688,7 +688,7 @@ The safest habit is simple: treat AI search summaries as efficient starting poin
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -733,7 +733,7 @@ The safest habit is simple: treat AI search summaries as efficient starting poin
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -774,162 +774,162 @@ The safest habit is simple: treat AI search summaries as efficient starting poin
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: support.google.com  
-   Link: <a href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How data helps Google...Read more...</p></details>
+   Link:<a href="https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en" target="_blank" rel="noopener noreferrer nofollow">https://support.google.com/websearch/answer/14901683?co=GENIE.Platform%3DAndroid&amp;hl=en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How data helps Google...Read more...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: search.google  
    Title: Google Search  
-   Link: <a href="https://search.google/intl/en-GB/ways-to-search/ai-overviews/" target="_blank" rel="noopener noreferrer nofollow">https://search.google/intl/en-GB/ways-to-search/ai-overviews/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI Overviews - Search anything, effortlesslyAI Overviews provide a snapshot of key information about a topic or question with link...</p></details>
+   Link:<a href="https://search.google/intl/en-GB/ways-to-search/ai-overviews/" target="_blank" rel="noopener noreferrer nofollow">https://search.google/intl/en-GB/ways-to-search/ai-overviews/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI Overviews - Search anything, effortlesslyAI Overviews provide a snapshot of key information about a topic or question with link...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2605.14021v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2605.14021v1</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring Google AI Overviews: Activation, Source Quality...13 May 2026 — Third, decomposing responses into 98,020 atomic claims, 1...</p></details>
+   Link:<a href="https://arxiv.org/html/2605.14021v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2605.14021v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring Google AI Overviews: Activation, Source Quality...13 May 2026 — Third, decomposing responses into 98,020 atomic claims, 1...</p></details>
    Published: May 2026  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2605.14021" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2605.14021</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring Google AI Overviews: Activation, Source Quality...by H Xu · 2026 — Third, decomposing re- sponses into 98,020 atomic claims, 1...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2605.14021" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2605.14021</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Measuring Google AI Overviews: Activation, Source Quality...by H Xu · 2026 — Third, decomposing re- sponses into 98,020 atomic claims, 1...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: ahrefs.com  
    Title: google ai overviews  
-   Link: <a href="https://ahrefs.com/blog/google-ai-overviews/" target="_blank" rel="noopener noreferrer nofollow">https://ahrefs.com/blog/google-ai-overviews/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI Overviews: All You Need to Know27 May 2025 — Google&#x27;s AI Overviews are AI-generated summaries for search queries. Example...</p></details>
+   Link:<a href="https://ahrefs.com/blog/google-ai-overviews/" target="_blank" rel="noopener noreferrer nofollow">https://ahrefs.com/blog/google-ai-overviews/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI Overviews: All You Need to Know27 May 2025 — Google&#x27;s AI Overviews are AI-generated summaries for search queries. Example...</p></details>
    Published: May 2025  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv Answer Bubbles: Information Exposure in AI-Mediated Search  
-   Link: <a href="https://arxiv.org/abs/2603.16138" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.16138</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Answer Bubbles: Information Exposure in AI-Mediated SearchMarch 17, 2026...</p></details>
+   Link:<a href="https://arxiv.org/abs/2603.16138" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.16138</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Answer Bubbles: Information Exposure in AI-Mediated SearchMarch 17, 2026...</p></details>
    Published: March 17, 2026  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2410.22349" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2410.22349</a>  
+   Link:<a href="https://arxiv.org/abs/2410.22349" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2410.22349</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2605.23684" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.23684</a>  
+   Link:<a href="https://arxiv.org/abs/2605.23684" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.23684</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: wired.com  
-   Link: <a href="https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews" target="_blank" rel="noopener noreferrer nofollow">https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Munich Regional Court found that the feature generated misleading summaries incorrectly linking two publishers to scams and fraudulen...</p></details>
+   Link:<a href="https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews" target="_blank" rel="noopener noreferrer nofollow">https://www.wired.com/story/a-court-has-ruled-that-google-is-liable-for-false-statements-generated-by-ai-overviews</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Munich Regional Court found that the feature generated misleading summaries incorrectly linking two publishers to scams and fraudulen...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/world/google-appeal-german-court-ruling-assigning-liability-ai-overviews-false-claims-2026-06-12/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/world/google-appeal-german-court-ruling-assigning-liability-ai-overviews-false-claims-2026-06-12/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Munich court characterized the content produced by AI Overviews as Google&#x27;s own, making the company [responsible](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) for any false claims...</p></details>
+   Link:<a href="https://www.reuters.com/world/google-appeal-german-court-ruling-assigning-liability-ai-overviews-false-claims-2026-06-12/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/world/google-appeal-german-court-ruling-assigning-liability-ai-overviews-false-claims-2026-06-12/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Munich court characterized the content produced by AI Overviews as Google&#x27;s own, making the company [responsible](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) for any false claims...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: google.com  
-   Link: <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
+   Link:<a href="https://www.google.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Search the world&#x27;s information, including webpages, images, videos and more. Google has many special features to help you find exac...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: developers.google.com  
    Title: ai features  
-   Link: <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/appearance/ai-features</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Features and Your Website | Google Search CentralThis guide covers how AI features like AI Overviews and AI Mode work in Google Search fr...</p></details>
+   Link:<a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/appearance/ai-features</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Features and Your Website | Google Search CentralThis guide covers how AI features like AI Overviews and AI Mode work in Google Search fr...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: search.google  
    Title: Google AI Overviews  
-   Link: <a href="https://search.google/intl/en-IN/ways-to-search/ai-overviews/" target="_blank" rel="noopener noreferrer nofollow">https://search.google/intl/en-IN/ways-to-search/ai-overviews/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Search anything, effortlesslyAI Overviews provide a snapshot of key information about a topic or question with links so you can easily ex...</p></details>
+   Link:<a href="https://search.google/intl/en-IN/ways-to-search/ai-overviews/" target="_blank" rel="noopener noreferrer nofollow">https://search.google/intl/en-IN/ways-to-search/ai-overviews/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Search anything, effortlesslyAI Overviews provide a snapshot of key information about a topic or question with links so you can easily ex...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: about.google  
-   Link: <a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Our products, technology and company...Learn more about Google. Explore our innovative AI products and services, and how we&#x27;re using tec...</p></details>
+   Link:<a href="https://about.google/" target="_blank" rel="noopener noreferrer nofollow">https://about.google/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Our products, technology and company...Learn more about Google. Explore our innovative AI products and services, and how we&#x27;re using tec...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: blog.google  
    Title: explore web generative ai search  
-   Link: <a href="https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>5 new ways to explore the web with generative AI in Search6 May 2026 — New updates to AI Mode and AI Overviews in Google Search make it e...</p></details>
+   Link:<a href="https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/search/explore-web-generative-ai-search/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>5 new ways to explore the web with generative AI in Search6 May 2026 — New updates to AI Mode and AI Overviews in Google Search make it e...</p></details>
    Published: May 2026  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/technology/2026/feb/20/mind-inquiry-google-ai-overviews-mental-health-guardian-investigation" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2026/feb/20/mind-inquiry-google-ai-overviews-mental-health-guardian-investigation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>This initiative follows a Guardian investigation that exposed how Google&#x27;s AI Overviews — AI-generated summaries shown above search resul...</p></details>
+   Link:<a href="https://www.theguardian.com/technology/2026/feb/20/mind-inquiry-google-ai-overviews-mental-health-guardian-investigation" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2026/feb/20/mind-inquiry-google-ai-overviews-mental-health-guardian-investigation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This initiative follows a Guardian investigation that exposed how Google&#x27;s AI Overviews — AI-generated summaries shown above search resul...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: blog.google  
    Title: generative ai google search may 2024  
-   Link: <a href="https://blog.google/products-and-platforms/products/search/generative-ai-google-search-may-2024/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/search/generative-ai-google-search-may-2024/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI in Search: Let Google do the searching for you14 May 2024 — We&#x27;re bringing AI Overviews to everyone in the U.S. and adding...</p></details>
+   Link:<a href="https://blog.google/products-and-platforms/products/search/generative-ai-google-search-may-2024/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/search/generative-ai-google-search-may-2024/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI in Search: Let Google do the searching for you14 May 2024 — We&#x27;re bringing AI Overviews to everyone in the U.S. and adding...</p></details>
    Published: may 2024  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: blog.google  
-   Link: <a href="https://blog.google/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>on the Keyword, Google&#x27;s official blog...</p></details>
+   Link:<a href="https://blog.google/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>on the Keyword, Google&#x27;s official blog...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=kOnsqqVbIeY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=kOnsqqVbIeY</a>  
+   Link:<a href="https://www.youtube.com/watch?v=kOnsqqVbIeY" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=kOnsqqVbIeY</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Google</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation](&amp;#123;&amp;#123; &#x27;routes/&#x27; | relative_url &amp;#125;&amp;#125;) applications, email services, office suites, online vid...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Google</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleGoogle is the largest provider of search engines, mapping and [navigation](&amp;#123;&amp;#123; &#x27;routes/&#x27; | relative_url &amp;#125;&amp;#125;) applications, email services, office suites, online vid...</p></details>
 
 ### Additional References
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: drdaveheath.com  
-   Link: <a href="https://drdaveheath.com/blog/how-ai-fact-checking-systems-verify-claims-and-sources" target="_blank" rel="noopener noreferrer nofollow">https://drdaveheath.com/blog/how-ai-fact-checking-systems-verify-claims-and-sources</a>  
+   Link:<a href="https://drdaveheath.com/blog/how-ai-fact-checking-systems-verify-claims-and-sources" target="_blank" rel="noopener noreferrer nofollow">https://drdaveheath.com/blog/how-ai-fact-checking-systems-verify-claims-and-sources</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: pcgamer.com  
-   Link: <a href="https://www.pcgamer.com/software/ai/google-claims-most-users-know-information-generated-with-ai-should-not-be-blindly-trusted-but-a-court-ruled-its-still-liable-for-false-claims-made-in-ai-overview/" target="_blank" rel="noopener noreferrer nofollow">https://www.pcgamer.com/software/ai/google-claims-most-users-know-information-generated-with-ai-should-not-be-blindly-trusted-but-a-court-ruled-its-still-liable-for-false-claims-made-in-ai-overview/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The case centered on misinformation that misattributed unethical practices to two Munich-based publishers—claims derived not from origina...</p></details>
+   Link:<a href="https://www.pcgamer.com/software/ai/google-claims-most-users-know-information-generated-with-ai-should-not-be-blindly-trusted-but-a-court-ruled-its-still-liable-for-false-claims-made-in-ai-overview/" target="_blank" rel="noopener noreferrer nofollow">https://www.pcgamer.com/software/ai/google-claims-most-users-know-information-generated-with-ai-should-not-be-blindly-trusted-but-a-court-ruled-its-still-liable-for-false-claims-made-in-ai-overview/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The case centered on misinformation that misattributed unethical practices to two Munich-based publishers—claims derived not from origina...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: niemanlab.org  
    Title: google highlights links from subscribed publications in new ai overviews update  
-   Link: <a href="https://www.niemanlab.org/2026/05/google-highlights-links-from-subscribed-publications-in-new-ai-overviews-update/" target="_blank" rel="noopener noreferrer nofollow">https://www.niemanlab.org/2026/05/google-highlights-links-from-subscribed-publications-in-new-ai-overviews-update/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google highlights links from subscribed publications in...6 May 2026 — And Google claims that, overall, more publisher links will appear...</p></details>
+   Link:<a href="https://www.niemanlab.org/2026/05/google-highlights-links-from-subscribed-publications-in-new-ai-overviews-update/" target="_blank" rel="noopener noreferrer nofollow">https://www.niemanlab.org/2026/05/google-highlights-links-from-subscribed-publications-in-new-ai-overviews-update/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google highlights links from subscribed publications in...6 May 2026 — And Google claims that, overall, more publisher links will appear...</p></details>
    Published: May 2026  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/Google" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/Google</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleJoin us as we reimagine how AI can make your life better and help you explore your creativity, connect with the world, and discover...</p></details>
+   Link:<a href="https://www.youtube.com/Google" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/Google</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GoogleJoin us as we reimagine how AI can make your life better and help you explore your creativity, connect with the world, and discover...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/ai-ai-oh/the-web-is-turning-into-a-trust-setting-a804f8351dcf" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/ai-ai-oh/the-web-is-turning-into-a-trust-setting-a804f8351dcf</a>  
+   Link:<a href="https://medium.com/ai-ai-oh/the-web-is-turning-into-a-trust-setting-a804f8351dcf" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/ai-ai-oh/the-web-is-turning-into-a-trust-setting-a804f8351dcf</a>  
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/technews/comments/1jb3lqy/ai_search_engines_cite_incorrect_sources_at_an/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/technews/comments/1jb3lqy/ai_search_engines_cite_incorrect_sources_at_an/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI search engines cite incorrect sources at an alarming 60...So if you tell it &quot;cite your sources&quot; it will generate random citations wit...</p></details>
+   Link:<a href="https://www.reddit.com/r/technews/comments/1jb3lqy/ai_search_engines_cite_incorrect_sources_at_an/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/technews/comments/1jb3lqy/ai_search_engines_cite_incorrect_sources_at_an/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI search engines cite incorrect sources at an alarming 60...So if you tell it &quot;cite your sources&quot; it will generate random citations wit...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: quattr.com  
-   Link: <a href="https://www.quattr.com/improve-discoverability/google-search-generative-experience-with-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.quattr.com/improve-discoverability/google-search-generative-experience-with-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI Overview ExplainedAI-Powered Snapshots: AI Overview generates AI-powered snapshots that provide concise overview of complex top...</p></details>
+   Link:<a href="https://www.quattr.com/improve-discoverability/google-search-generative-experience-with-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.quattr.com/improve-discoverability/google-search-generative-experience-with-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI Overview ExplainedAI-Powered Snapshots: AI Overview generates AI-powered snapshots that provide concise overview of complex top...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: useomnia.com  
-   Link: <a href="https://www.useomnia.com/knowledge-base/google-ai-overviews" target="_blank" rel="noopener noreferrer nofollow">https://www.useomnia.com/knowledge-base/google-ai-overviews</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI Overviews: Concise Search Summaries &amp; SourcesGoogle AI Overviews provide concise, AI-generated answers in search with source li...</p></details>
+   Link:<a href="https://www.useomnia.com/knowledge-base/google-ai-overviews" target="_blank" rel="noopener noreferrer nofollow">https://www.useomnia.com/knowledge-base/google-ai-overviews</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google AI Overviews: Concise Search Summaries &amp; SourcesGoogle AI Overviews provide concise, AI-generated answers in search with source li...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/kyle-morley_google-just-dropped-a-wave-of-ai-powered-activity-7358462572120948736-bp6q" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/kyle-morley_google-just-dropped-a-wave-of-ai-powered-activity-7358462572120948736-bp6q</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google introduces AI-powered Search features for educationGoogle just dropped a wave of AI-powered Search features and it&#x27;s a game-change...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/kyle-morley_google-just-dropped-a-wave-of-ai-powered-activity-7358462572120948736-bp6q" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/kyle-morley_google-just-dropped-a-wave-of-ai-powered-activity-7358462572120948736-bp6q</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google introduces AI-powered Search features for educationGoogle just dropped a wave of AI-powered Search features and it&#x27;s a game-change...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: ziptie.dev  
-   Link: <a href="https://ziptie.dev/blog/myths-about-ai-search-that-are-harmful/" target="_blank" rel="noopener noreferrer nofollow">https://ziptie.dev/blog/myths-about-ai-search-that-are-harmful/</a>  
+   Link:<a href="https://ziptie.dev/blog/myths-about-ai-search-that-are-harmful/" target="_blank" rel="noopener noreferrer nofollow">https://ziptie.dev/blog/myths-about-ai-search-that-are-harmful/</a>  

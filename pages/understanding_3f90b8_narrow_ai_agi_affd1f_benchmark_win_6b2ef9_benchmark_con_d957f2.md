@@ -285,7 +285,7 @@ In modern large [language models]({{ 'language-models/' | relative_url }}), wher
 
 Benchmark contamination (often called *data leakage* in evaluation settings) occurs when **evaluation data overlaps with training data**, either exactly or in paraphrased or structurally similar form.
 
-This idea is closely related to classic [machine learning]({{ 'machine-learning/' | relative_url }}) “data leakage”, where information from the test set accidentally influences training and inflates performance estimates <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/data-leakage-machine-learning" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Data Leakage in Machine Learning?Data leakage in machine learning occurs when a model uses information during training that wo...</span></span></span>. In the benchmark context, the problem is simpler but more damaging: if a model has already seen benchmark questions during training, then the test is no longer a test.
+This idea is closely related to classic [machine learning]({{ 'machine-learning/' | relative_url }}) “data leakage”, where information from the test set accidentally influences training and inflates performance estimates<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/data-leakage-machine-learning" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Data Leakage in Machine Learning?Data leakage in machine learning occurs when a model uses information during training that wo...</span></span></span>. In the benchmark context, the problem is simpler but more damaging: if a model has already seen benchmark questions during training, then the test is no longer a test.
 
 Contamination can happen in several ways:
 
@@ -311,7 +311,7 @@ When a model has seen benchmark items during training:
 * It can exploit surface cues (phrasing, structure, distractor patterns) that are identical to training examples.
 * It may appear to “generalise” when it is actually performing high-[confidence]({{ 'confidence/' | relative_url }}) recall.
 
-Large-scale analyses of contamination in language model evaluation show that benchmark leakage is not trivial. One broad review of LLM contamination research reports that widely used [benchmarks]({{ 'benchmarks/' | relative_url }}) have been exposed to significant levels of overlap with training data across multiple models and tasks, affecting interpretation of results across domains such as coding, reasoning, and instruction-following <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2402.03927" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMsFebruary 6, 2024...</span><span class="citation-popover-meta">Published: February 6, 2024</span></span></span>.
+Large-scale analyses of contamination in language model evaluation show that benchmark leakage is not trivial. One broad review of LLM contamination research reports that widely used [benchmarks]({{ 'benchmarks/' | relative_url }}) have been exposed to significant levels of overlap with training data across multiple models and tasks, affecting interpretation of results across domains such as coding, reasoning, and instruction-following<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2402.03927" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMsFebruary 6, 2024...</span><span class="citation-popover-meta">Published: February 6, 2024</span></span></span>.
 
 Even modest contamination rates can distort comparisons between models. A system trained on slightly more leaked data may appear substantially better on benchmarks, even if its true generalisation ability is unchanged.
 
@@ -335,7 +335,7 @@ If two models are evaluated on a contaminated benchmark:
 
 This creates a core interpretability problem: benchmark scores stop being a clean function of “intelligence level” and become entangled with unknown training corpus composition.
 
-Empirical studies of leakage across benchmarks show that contamination can vary dramatically by dataset and task type, with some benchmarks showing high overlap while others remain relatively clean <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06215" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering BenchmarksFebruary 10, 2025...</span><span class="citation-popover-meta">Published: February 10, 2025</span></span></span>. This unevenness makes cross-benchmark comparisons especially fragile, since some tests are effectively “easier” due to higher exposure in training data.
+Empirical studies of leakage across benchmarks show that contamination can vary dramatically by dataset and task type, with some benchmarks showing high overlap while others remain relatively clean<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.06215" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering BenchmarksFebruary 10, 2025...</span><span class="citation-popover-meta">Published: February 10, 2025</span></span></span>. This unevenness makes cross-benchmark comparisons especially fragile, since some tests are effectively “easier” due to higher exposure in training data.
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b2ef9_benchmark_con_d957f2-Illustration-2-dark.svg" | relative_url }}" alt="Contamination illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b2ef9_benchmark_con_d957f2-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_benchmark_win_6b2ef9_benchmark_con_d957f2-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -370,7 +370,7 @@ Each reuse increases the probability of indirect leakage.
 
 Modern systems are frequently updated with new data and [feedback loops]({{ 'feedback-loops/' | relative_url }}), including user-generated content. This creates additional pathways for indirect contamination over time, where benchmark-like patterns enter later training stages.
 
-A systematic review of contamination in LLMs highlights that even indirect leakage—where models are exposed to benchmark-like content through iterative improvements—can meaningfully distort evaluation outcomes and is difficult to eliminate entirely <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2402.03927" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMsFebruary 6, 2024...</span><span class="citation-popover-meta">Published: February 6, 2024</span></span></span>.
+A systematic review of contamination in LLMs highlights that even indirect leakage—where models are exposed to benchmark-like content through iterative improvements—can meaningfully distort evaluation outcomes and is difficult to eliminate entirely<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2402.03927" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMsFebruary 6, 2024...</span><span class="citation-popover-meta">Published: February 6, 2024</span></span></span>.
 
 ## How researchers try to detect and reduce contamination bias
 
@@ -411,194 +411,194 @@ In this sense, contamination does not just “inflate scores”; it weakens the 
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Did the model learn or remember?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Did the model learn or remember?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Book+of+Why+by+Judea+Pearl&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Book of Why on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=VV0otAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Book of Why" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Book+of+Why+by+Judea+Pearl&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Book of Why">The Book of Why</a>
-        </h4>
-        <p class="fr-book-author">By Judea Pearl, Dana Mackenzie</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Book+of+Why+by+Judea+Pearl&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Book of Why on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=VV0otAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Book of Why" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Book+of+Why+by+Judea+Pearl&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Book of Why">The Book of Why</a>
+</h4>
+<p class="fr-book-author">By Judea Pearl, Dana Mackenzie</p>
         
-        <p class="fr-book-desc">Helps readers think about evidence, causation, and valid evaluation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Book+of+Why+by+Judea+Pearl&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps readers think about evidence, causation, and valid evaluation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Book+of+Why+by+Judea+Pearl&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Covers datasets, benchmarks, bias, and evaluation challenges.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers datasets, benchmarks, bias, and evaluation challenges.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
-        <p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
-        <p class="fr-book-desc">Explains training, testing, and performance measurement concepts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
+<p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
+<p class="fr-book-desc">Explains training, testing, and performance measurement concepts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Shows how misleading metrics can create false confidence.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how misleading metrics can create false confidence.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Book+of+Why&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Book of Why</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Book+of+Why&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Book of Why</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Film Poster/Print A3/A4/A5 230gsm Framed"><img src="{{ '/assets/images/marketplace-covers/9225615e79f32848450a.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Film Poster/Print A3/A4/A5 230gsm Framed" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Film Poster/Print A3/A4/A5 230gsm Framed</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Film Poster/Print A3/A4/A5 230gsm Framed"><img src="{{ '/assets/images/marketplace-covers/9225615e79f32848450a.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Film Poster/Print A3/A4/A5 230gsm Framed" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Film Poster/Print A3/A4/A5 230gsm Framed</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Bluray Steelbook + Original Film Poster"><img src="{{ '/assets/images/marketplace-covers/2ff0125f83301b4b7855.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Bluray Steelbook + Original Film Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Bluray Steelbook + Original Film Poster</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Bluray Steelbook + Original Film Poster"><img src="{{ '/assets/images/marketplace-covers/2ff0125f83301b4b7855.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Bluray Steelbook + Original Film Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Bluray Steelbook + Original Film Poster</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for TERMINATOR ,SKYNET CYBERDYNE SYSTEMS, SKYNET (Artificial Intelligence) Film Prop"><img src="{{ '/assets/images/marketplace-covers/1813ebfecb614904e2aa.jpg' | relative_url }}" alt="Listing image for TERMINATOR ,SKYNET CYBERDYNE SYSTEMS, SKYNET (Artificial Intelligence) Film Prop" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">TERMINATOR ,SKYNET CYBERDYNE SYSTEMS, SKYNET (Artificial Intelligence) Film Prop</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for TERMINATOR ,SKYNET CYBERDYNE SYSTEMS, SKYNET (Artificial Intelligence) Film Prop"><img src="{{ '/assets/images/marketplace-covers/1813ebfecb614904e2aa.jpg' | relative_url }}" alt="Listing image for TERMINATOR ,SKYNET CYBERDYNE SYSTEMS, SKYNET (Artificial Intelligence) Film Prop" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">TERMINATOR ,SKYNET CYBERDYNE SYSTEMS, SKYNET (Artificial Intelligence) Film Prop</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial Intelligence Movie Poster A1 A2 A3"><img src="{{ '/assets/images/marketplace-covers/6f86ae5ca4361a6e09ac.jpg' | relative_url }}" alt="Listing image for Artificial Intelligence Movie Poster A1 A2 A3" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence Movie Poster A1 A2 A3</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial Intelligence Movie Poster A1 A2 A3"><img src="{{ '/assets/images/marketplace-covers/6f86ae5ca4361a6e09ac.jpg' | relative_url }}" alt="Listing image for Artificial Intelligence Movie Poster A1 A2 A3" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence Movie Poster A1 A2 A3</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="contamination-did-the-model-learn-or-remember-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -614,7 +614,7 @@ In this sense, contamination does not just “inflate scores”; it weakens the 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -634,7 +634,7 @@ In this sense, contamination does not just “inflate scores”; it weakens the 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -666,7 +666,7 @@ In this sense, contamination does not just “inflate scores”; it weakens the 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -718,7 +718,7 @@ In this sense, contamination does not just “inflate scores”; it weakens the 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -763,7 +763,7 @@ In this sense, contamination does not just “inflate scores”; it weakens the 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -804,116 +804,116 @@ In this sense, contamination does not just “inflate scores”; it weakens the 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/data-leakage-machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/data-leakage-machine-learning</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What is Data Leakage in Machine Learning?Data leakage in machine learning occurs when a model uses information during training that wo...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/data-leakage-machine-learning" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/data-leakage-machine-learning</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is Data Leakage in Machine Learning?Data leakage in machine learning occurs when a model uses information during training that wo...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2402.03927" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2402.03927</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMsFebruary 6, 2024...</p></details>
+   Link:<a href="https://arxiv.org/abs/2402.03927" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2402.03927</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Leak, Cheat, Repeat: Data Contamination and Evaluation Malpractices in Closed-Source LLMsFebruary 6, 2024...</p></details>
    Published: February 6, 2024  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2502.06215" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.06215</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering BenchmarksFebruary 10, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2502.06215" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.06215</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LessLeak-Bench: A First Investigation of Data Leakage in LLMs Across 83 Software Engineering BenchmarksFebruary 10, 2025...</p></details>
    Published: February 10, 2025  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: data.gov  
-   Link: <a href="https://data.gov/" target="_blank" rel="noopener noreferrer nofollow">https://data.gov/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Home - Data.govHere you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visual...</p></details>
+   Link:<a href="https://data.gov/" target="_blank" rel="noopener noreferrer nofollow">https://data.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Home - Data.govHere you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visual...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2502.00678" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.00678</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>by HK Choi · 2025 · Cited by 16 — We propose Kernel Divergence Score (KDS), a novel method that evaluates dataset contamination by comput...</p></details>
+   Link:<a href="https://arxiv.org/abs/2502.00678" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.00678</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by HK Choi · 2025 · Cited by 16 — We propose Kernel Divergence Score (KDS), a novel method that evaluates dataset contamination by comput...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: github.com  
    Title: awesome data contamination  
-   Link: <a href="https://github.com/lyy1994/awesome-data-contamination" target="_blank" rel="noopener noreferrer nofollow">https://github.com/lyy1994/awesome-data-contamination</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>lyy1994/awesome-data-contamination: The Paper List on...Our best method achieves an accuracy between 92% and 100% in detecting if an LLM...</p></details>
+   Link:<a href="https://github.com/lyy1994/awesome-data-contamination" target="_blank" rel="noopener noreferrer nofollow">https://github.com/lyy1994/awesome-data-contamination</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>lyy1994/awesome-data-contamination: The Paper List on...Our best method achieves an accuracy between 92% and 100% in detecting if an LLM...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: leak-llm.github.io  
-   Link: <a href="https://leak-llm.github.io/" target="_blank" rel="noopener noreferrer nofollow">https://leak-llm.github.io/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Leak, Cheat, Repeat: Data Contamination and Evaluation...In this work, we conduct the first systematic review of work using OpenAI&#x27;s Cha...</p></details>
+   Link:<a href="https://leak-llm.github.io/" target="_blank" rel="noopener noreferrer nofollow">https://leak-llm.github.io/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Leak, Cheat, Repeat: Data Contamination and Evaluation...In this work, we conduct the first systematic review of work using OpenAI&#x27;s Cha...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: bench.com  
-   Link: <a href="https://www.bench.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.bench.com/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>mark | Advanced Electronics Engineering...Benchmark provides full product lifecycle solutions including product design, engineering...</p></details>
+   Link:<a href="https://www.bench.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.bench.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>mark | Advanced Electronics Engineering...Benchmark provides full product lifecycle solutions including product design, engineering...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Machine" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Machine</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>MachineA machine is a thermodynamic system that uses power to apply forces and control movement to perform an action. The term is comm...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Machine" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Machine</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MachineA machine is a thermodynamic system that uses power to apply forces and control movement to perform an action. The term is comm...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: britannica.com  
-   Link: <a href="https://www.britannica.com/technology/machine" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/technology/machine</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Machine | Definition, Mechanisms &amp; EfficiencyMachine, device, having a unique purpose, that augments or replaces human or animal effort f...</p></details>
+   Link:<a href="https://www.britannica.com/technology/machine" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/technology/machine</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Machine | Definition, Mechanisms &amp; EfficiencyMachine, device, having a unique purpose, that augments or replaces human or animal effort f...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: dictionary.cambridge.org  
-   Link: <a href="https://dictionary.cambridge.org/us/dictionary/english/machine" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/us/dictionary/english/machine</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>definition in the Cambridge English Dictionarya piece of equipment with several moving parts that uses power to do a particular type of...</p></details>
+   Link:<a href="https://dictionary.cambridge.org/us/dictionary/english/machine" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/us/dictionary/english/machine</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>definition in the Cambridge English Dictionarya piece of equipment with several moving parts that uses power to do a particular type of...</p></details>
 
 ### Additional References
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/data" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/data</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>DATA Definition &amp; Meaning6 days ago — The meaning of DATA is factual information (such as measurements or statistics) used as a basis for...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/data" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/data</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>DATA Definition &amp; Meaning6 days ago — The meaning of DATA is factual information (such as measurements or statistics) used as a basis for...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/machine" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/machine</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MACHINE Definition &amp; Meaning5 days ago — The meaning of MACHINE is a mechanically, electrically, or electronically operated device for pe...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/machine" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/machine</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MACHINE Definition &amp; Meaning5 days ago — The meaning of MACHINE is a mechanically, electrically, or electronically operated device for pe...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: machinetools.com  
-   Link: <a href="https://www.machinetools.com/en" target="_blank" rel="noopener noreferrer nofollow">https://www.machinetools.com/en</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>, The metalworking machine &amp; tooling...MachineTools.com is the leading worldwide industrial marketplace of new and used metalworking mac...</p></details>
+   Link:<a href="https://www.machinetools.com/en" target="_blank" rel="noopener noreferrer nofollow">https://www.machinetools.com/en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>, The metalworking machine &amp; tooling...MachineTools.com is the leading worldwide industrial marketplace of new and used metalworking mac...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: thegrigorian.medium.com  
    Title: when benchmarks lie why contamination breaks llm evaluation 1fa335706f32  
-   Link: <a href="https://thegrigorian.medium.com/when-benchmarks-lie-why-contamination-breaks-llm-evaluation-1fa335706f32" target="_blank" rel="noopener noreferrer nofollow">https://thegrigorian.medium.com/when-benchmarks-lie-why-contamination-breaks-llm-evaluation-1fa335706f32</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Benchmarks Lie: Why Contamination Breaks LLM...Benchmark leakage into training data — intentional or not — compromises evaluation validi...</p></details>
+   Link:<a href="https://thegrigorian.medium.com/when-benchmarks-lie-why-contamination-breaks-llm-evaluation-1fa335706f32" target="_blank" rel="noopener noreferrer nofollow">https://thegrigorian.medium.com/when-benchmarks-lie-why-contamination-breaks-llm-evaluation-1fa335706f32</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Benchmarks Lie: Why Contamination Breaks LLM...Benchmark leakage into training data — intentional or not — compromises evaluation validi...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
    Title: How We Test AI: Benchmark Datasets Explained (MMLU, GSM8K & More)  
-   Link: <a href="https://www.youtube.com/watch?v=7t1RdmiW3fc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7t1RdmiW3fc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Is Everyone Talking About DeepSWE? The Benchmark That Changes Everything Why Is Everyone Talking About DeepSWE? The Benchmark That Ch...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=7t1RdmiW3fc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=7t1RdmiW3fc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Is Everyone Talking About DeepSWE? The Benchmark That Changes Everything Why Is Everyone Talking About DeepSWE? The Benchmark That Ch...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/1eeq3eh/does_including_benchmark_qa_in_training_data/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1eeq3eh/does_including_benchmark_qa_in_training_data/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>s to avoid including the metrics in their pre training dataset.Read more...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/1eeq3eh/does_including_benchmark_qa_in_training_data/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1eeq3eh/does_including_benchmark_qa_in_training_data/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>s to avoid including the metrics in their pre training dataset.Read more...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: deeplearning.ai  
    Title: the problem with benchmark contamination in ai  
-   Link: <a href="https://www.deeplearning.ai/the-batch/the-problem-with-benchmark-contamination-in-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.deeplearning.ai/the-batch/the-problem-with-benchmark-contamination-in-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Oct 30, 2024 — Horror stories: Researchers have found disturbing signs that the test sets of many widely used benchmarks have leaked into...</p></details>
+   Link:<a href="https://www.deeplearning.ai/the-batch/the-problem-with-benchmark-contamination-in-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.deeplearning.ai/the-batch/the-problem-with-benchmark-contamination-in-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Oct 30, 2024 — Horror stories: Researchers have found disturbing signs that the test sets of many widely used benchmarks have leaked into...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: youtu.be  
-   Link: <a href="https://youtu.be/wkH3_u2C568" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/wkH3_u2C568</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;▶️ The AI War: Six Companies, One Race, 2017-2026: [https://youtu.be/3Blql6L7P5s...&quot;](https://youtu.be/3Blql6L7P5s...&quot;)...</p></details>
+   Link:<a href="https://youtu.be/wkH3_u2C568" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/wkH3_u2C568</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;▶️ The AI War: Six Companies, One Race, 2017-2026: [https://youtu.be/3Blql6L7P5s...&quot;](https://youtu.be/3Blql6L7P5s...&quot;)...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: flexbooks.ck12.org  
    Title: simple machines ms ps  
-   Link: <a href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/13.4/primary/lesson/simple-machines-ms-ps/" target="_blank" rel="noopener noreferrer nofollow">https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/13.4/primary/lesson/simple-machines-ms-ps/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>· A machine is any device that makes work easier by changing a force. · Machines may increase the strength of the force, increase the dis...</p></details>
+   Link:<a href="https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/13.4/primary/lesson/simple-machines-ms-ps/" target="_blank" rel="noopener noreferrer nofollow">https://flexbooks.ck12.org/cbook/ck-12-middle-school-physical-science-flexbook-2.0/section/13.4/primary/lesson/simple-machines-ms-ps/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>· A machine is any device that makes work easier by changing a force. · Machines may increase the strength of the force, increase the dis...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: forum.gnoppix.org  
-   Link: <a href="https://forum.gnoppix.org/t/ai-benchmarks-are-broken-and-the-industry-keeps-using-them-anyway-study-finds/3890" target="_blank" rel="noopener noreferrer nofollow">https://forum.gnoppix.org/t/ai-benchmarks-are-broken-and-the-industry-keeps-using-them-anyway-study-finds/3890</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>benchmarks are broken and the industry keeps using...Jan 10, 2026 — HumanEval saw 48% contamination in GPT-4&#x27;s training data, with the M...</p></details>
+   Link:<a href="https://forum.gnoppix.org/t/ai-benchmarks-are-broken-and-the-industry-keeps-using-them-anyway-study-finds/3890" target="_blank" rel="noopener noreferrer nofollow">https://forum.gnoppix.org/t/ai-benchmarks-are-broken-and-the-industry-keeps-using-them-anyway-study-finds/3890</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>benchmarks are broken and the industry keeps using...Jan 10, 2026 — HumanEval saw 48% contamination in GPT-4&#x27;s training data, with the M...</p></details>

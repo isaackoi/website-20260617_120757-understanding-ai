@@ -269,13 +269,13 @@ image: /assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4d
 
 ## Introduction
 
-When artificial intelligence or other [automated]({{ 'decisions/' | relative_url }}) systems make decisions about people, UK data-protection law provides additional safeguards if those decisions happen without [meaningful]({{ 'human-review/' | relative_url }}) human involvement and have serious consequences. Under the UK GDPR framework, individuals are protected when a decision is made solely through automated processing and produces legal effects or similarly significant effects on their lives. These protections matter because automated systems can influence access to jobs, credit, insurance, housing, services, and other important opportunities. The law therefore seeks to ensure that people are not left subject to opaque machine decisions without a way to understand, question, or challenge the outcome. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
+When artificial intelligence or other [automated]({{ 'decisions/' | relative_url }}) systems make decisions about people, UK data-protection law provides additional safeguards if those decisions happen without [meaningful]({{ 'human-review/' | relative_url }}) human involvement and have serious consequences. Under the UK GDPR framework, individuals are protected when a decision is made solely through automated processing and produces legal effects or similarly significant effects on their lives. These protections matter because automated systems can influence access to jobs, credit, insurance, housing, services, and other important opportunities. The law therefore seeks to ensure that people are not left subject to opaque machine decisions without a way to understand, question, or challenge the outcome.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_uk_gdpr_autom_43277d-Illustration-1-dark.svg" | relative_url }}" alt="UK GDPR illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_uk_gdpr_autom_43277d-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_uk_gdpr_autom_43277d-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## When a decision is solely automated
 
-A decision is considered solely automated when it is made without meaningful human involvement. The key issue is not whether a human appears somewhere in the process, but whether that person genuinely reviews the case and has the authority and ability to alter the outcome before it takes effect. A superficial or [rubber-stamp]({{ 'rubber-stamping/' | relative_url }}) review does not usually count as meaningful human [oversight]({{ 'oversight/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lexology.com">[Lexology+2LegalVision UK]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lexology.com</span><span class="citation-popover-snippet">Automated decision making: ICO consults on updated...20 May 2026 — Under the UK GDPR, a decision is “solely automated” where it...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
+A decision is considered solely automated when it is made without meaningful human involvement. The key issue is not whether a human appears somewhere in the process, but whether that person genuinely reviews the case and has the authority and ability to alter the outcome before it takes effect. A superficial or [rubber-stamp]({{ 'rubber-stamping/' | relative_url }}) review does not usually count as meaningful human [oversight]({{ 'oversight/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lexology.com">[Lexology+2LegalVision UK]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lexology.com</span><span class="citation-popover-snippet">Automated decision making: ICO consults on updated...20 May 2026 — Under the UK GDPR, a decision is “solely automated” where it...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
 
 Examples can include:
 
@@ -285,11 +285,11 @@ Examples can include:
 * An online credit application that is automatically approved or rejected by a scoring system.
 * A recruitment platform that automatically excludes applicants based on algorithmic criteria.
 * An automated fraud system that freezes an account without human review.
-* Insurance pricing or eligibility decisions generated entirely by automated profiling. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">This refers to decisions made without any human involvement, for example: an online decision after you have applied for...</span></span></span>
+* Insurance pricing or eligibility decisions generated entirely by automated profiling.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">This refers to decisions made without any human involvement, for example: an online decision after you have applied for...</span></span></span>
 
 </div>
 
-The distinction between automated assistance and automated decision-making is important. If a human decision-maker actively evaluates the evidence, questions the system's recommendation, and can change the result, the decision may fall outside the category of solely automated decision-making. If the human merely confirms what the system recommends, the legal safeguards are more likely to apply. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lexology.com">[Lexology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lexology.com</span><span class="citation-popover-snippet">Automated decision making: ICO consults on updated...20 May 2026 — Under the UK GDPR, a decision is “solely automated” where it...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
+The distinction between automated assistance and automated decision-making is important. If a human decision-maker actively evaluates the evidence, questions the system's recommendation, and can change the result, the decision may fall outside the category of solely automated decision-making. If the human merely confirms what the system recommends, the legal safeguards are more likely to apply.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lexology.com">[Lexology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lexology.com</span><span class="citation-popover-snippet">Automated decision making: ICO consults on updated...20 May 2026 — Under the UK GDPR, a decision is “solely automated” where it...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/bNu0eKWuOvM" title="Transparency in algorithmic decision-making: Karen Yeung, Birmingham Law School" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=bNu0eKWuOvM" target="_blank" rel="noopener noreferrer">Transparency in algorithmic decision-making: Karen Yeung, Birmingham Law School</a></p><p class="youtube-embed-meta">Channel: The Alan Turing Institute</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=bNu0eKWuOvM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=bNu0eKWuOvM">Open on YouTube</a></p></div></div></div>
@@ -298,11 +298,11 @@ The distinction between automated assistance and automated decision-making is im
 
 The special protections do not apply to every automated action. They focus on decisions that have a legal effect on a person or otherwise significantly affect them.
 
-A legal effect directly changes a person's legal rights or obligations. Examples include decisions affecting contractual rights, entitlement to benefits, immigration status, or eligibility for financial products. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://gdpr-info.eu/art-22-gdpr/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: gdpr-info.eu">[GDPR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">gdpr-info.eu</span><span class="citation-popover-snippet">Open source on gdpr-info.eu.</span></span></span>
+A legal effect directly changes a person's legal rights or obligations. Examples include decisions affecting contractual rights, entitlement to benefits, immigration status, or eligibility for financial products.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://gdpr-info.eu/art-22-gdpr/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: gdpr-info.eu">[GDPR]</a><span class="citation-popover" role="note"><span class="citation-popover-source">gdpr-info.eu</span><span class="citation-popover-snippet">Open source on gdpr-info.eu.</span></span></span>
 
-A similarly significant effect may not change legal rights directly but can still have a major impact on someone's circumstances, opportunities, or behaviour. Examples often cited by regulators include decisions affecting employment prospects, access to education, access to credit, insurance terms, or the ability to use essential services. Whether an effect is significant can depend on context and on the practical consequences for the individual. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2Inside Privacy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
+A similarly significant effect may not change legal rights directly but can still have a major impact on someone's circumstances, opportunities, or behaviour. Examples often cited by regulators include decisions affecting employment prospects, access to education, access to credit, insurance terms, or the ability to use essential services. Whether an effect is significant can depend on context and on the practical consequences for the individual.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2Inside Privacy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
 
-This threshold is important because it separates routine [automation]({{ 'automation-bias/' | relative_url }}) from situations where human dignity, fairness, and accountability become particularly important. A recommendation about which advertisement to display is unlikely to qualify. A system that automatically rejects a job applicant may well do so. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
+This threshold is important because it separates routine [automation]({{ 'automation-bias/' | relative_url }}) from situations where human dignity, fairness, and accountability become particularly important. A recommendation about which advertisement to display is unlikely to qualify. A system that automatically rejects a job applicant may well do so.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
 
 ## How explanation, challenge and human intervention fit together
 
@@ -312,231 +312,231 @@ The core purpose of the UK GDPR safeguards is not simply transparency. It is to 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_uk_gdpr_autom_43277d-Illustration-2-dark.svg" | relative_url }}" alt="UK GDPR illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_uk_gdpr_autom_43277d-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_uk_gdpr_autom_43277d-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Access to meaningful information
 
-Individuals are entitled to know when relevant automated decision-making is taking place and to receive meaningful information about the logic involved, along with information about the significance and likely consequences of the processing. The aim is not necessarily to disclose source code or proprietary algorithms. Instead, organisations should provide explanations that help people understand how relevant factors contributed to the outcome and what the decision means for them. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.crowell.com/en/insights/client-alerts/europes-highest-court-compels-disclosure-of-automated-decision-making-procedures-and-principles-in-data-access-request-case" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: crowell.com">[Crowell &amp; Moring - Home+2Fieldfisher]</a><span class="citation-popover" role="note"><span class="citation-popover-source">crowell.com</span><span class="citation-popover-title">&amp; Moring</span><span class="citation-popover-snippet">Article 15 of the GDPR sets forth the data subject&#x27;s right of ...Read more</span></span></span>
+Individuals are entitled to know when relevant automated decision-making is taking place and to receive meaningful information about the logic involved, along with information about the significance and likely consequences of the processing. The aim is not necessarily to disclose source code or proprietary algorithms. Instead, organisations should provide explanations that help people understand how relevant factors contributed to the outcome and what the decision means for them.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.crowell.com/en/insights/client-alerts/europes-highest-court-compels-disclosure-of-automated-decision-making-procedures-and-principles-in-data-access-request-case" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: crowell.com">[Crowell &amp; Moring - Home+2Fieldfisher]</a><span class="citation-popover" role="note"><span class="citation-popover-source">crowell.com</span><span class="citation-popover-title">&amp; Moring</span><span class="citation-popover-snippet">Article 15 of the GDPR sets forth the data subject&#x27;s right of ...Read more</span></span></span>
 
-The Information Commissioner's Office (ICO) has repeatedly stressed that technical complexity is not a valid excuse for failing to explain important automated decisions in an understandable way. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fieldfisher.com/en/insights/what-constitutes-meaningful-information-about-automated-decision-making" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fieldfisher.com">[Fieldfisher]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fieldfisher.com</span><span class="citation-popover-title">what constitutes meaningful information about automated decision making</span><span class="citation-popover-snippet">What constitutes &quot;meaningful information&quot; about automated...18 Nov 2024 — The controller must provide meaningful information...</span></span></span>
+The Information Commissioner's Office (ICO) has repeatedly stressed that technical complexity is not a valid excuse for failing to explain important automated decisions in an understandable way.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fieldfisher.com/en/insights/what-constitutes-meaningful-information-about-automated-decision-making" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fieldfisher.com">[Fieldfisher]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fieldfisher.com</span><span class="citation-popover-title">what constitutes meaningful information about automated decision making</span><span class="citation-popover-snippet">What constitutes &quot;meaningful information&quot; about automated...18 Nov 2024 — The controller must provide meaningful information...</span></span></span>
 
 ### The right to challenge
 
-A central safeguard is the ability to contest a decision. If an automated outcome appears incorrect, unfair, or based on inaccurate data, the affected person should have a route to challenge it. This recognises that automated systems can make mistakes, rely on outdated information, or apply rules in ways that create unintended consequences. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://academic.oup.com/idpl/article/7/4/233/4762325" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: academic.oup.com">[OUP Academic+2GDPR Local]</a><span class="citation-popover" role="note"><span class="citation-popover-source">academic.oup.com</span><span class="citation-popover-snippet">OUP AcademicMeaningful information and the right to explanationby AD Selbst · 2017 · Cited by 832 — Most important for this discussion, A...</span></span></span>
+A central safeguard is the ability to contest a decision. If an automated outcome appears incorrect, unfair, or based on inaccurate data, the affected person should have a route to challenge it. This recognises that automated systems can make mistakes, rely on outdated information, or apply rules in ways that create unintended consequences.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://academic.oup.com/idpl/article/7/4/233/4762325" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: academic.oup.com">[OUP Academic+2GDPR Local]</a><span class="citation-popover" role="note"><span class="citation-popover-source">academic.oup.com</span><span class="citation-popover-snippet">OUP AcademicMeaningful information and the right to explanationby AD Selbst · 2017 · Cited by 832 — Most important for this discussion, A...</span></span></span>
 
-Challenge rights are especially important because many AI-driven systems rely on statistical [predictions]({{ 'predictions/' | relative_url }}) rather than certainties. A person may therefore need an opportunity to explain circumstances that the system could not adequately capture. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2103.01774" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Conceptualising Contestability: Perspectives on Contesting Algorithmic DecisionsFebruary 23, 2021...</span><span class="citation-popover-meta">Published: February 23, 2021</span></span></span>
+Challenge rights are especially important because many AI-driven systems rely on statistical [predictions]({{ 'predictions/' | relative_url }}) rather than certainties. A person may therefore need an opportunity to explain circumstances that the system could not adequately capture.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2103.01774" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Conceptualising Contestability: Perspectives on Contesting Algorithmic DecisionsFebruary 23, 2021...</span><span class="citation-popover-meta">Published: February 23, 2021</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/uXVUvtzXz14" title="Automated Decision Making and UK Data Protection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=uXVUvtzXz14" target="_blank" rel="noopener noreferrer">Automated Decision Making and UK Data Protection</a></p><p class="youtube-embed-meta">Channel: Acuity AutoRedact</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=uXVUvtzXz14" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=uXVUvtzXz14">Open on YouTube</a></p></div></div></div>
 
 ### The right to human intervention
 
-The law also links contestability to human review. Where the safeguards apply, individuals can seek meaningful human intervention rather than being left entirely at the mercy of an automated process. The reviewer should be capable of assessing the case independently, considering additional information, and changing the outcome where appropriate. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://academic.oup.com/idpl/article/7/4/233/4762325" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: academic.oup.com">[OUP Academic+2Autoriteit Persoonsgegevens]</a><span class="citation-popover" role="note"><span class="citation-popover-source">academic.oup.com</span><span class="citation-popover-snippet">OUP AcademicMeaningful information and the right to explanationby AD Selbst · 2017 · Cited by 832 — Most important for this discussion, A...</span></span></span>
+The law also links contestability to human review. Where the safeguards apply, individuals can seek meaningful human intervention rather than being left entirely at the mercy of an automated process. The reviewer should be capable of assessing the case independently, considering additional information, and changing the outcome where appropriate.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://academic.oup.com/idpl/article/7/4/233/4762325" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: academic.oup.com">[OUP Academic+2Autoriteit Persoonsgegevens]</a><span class="citation-popover" role="note"><span class="citation-popover-source">academic.oup.com</span><span class="citation-popover-snippet">OUP AcademicMeaningful information and the right to explanationby AD Selbst · 2017 · Cited by 832 — Most important for this discussion, A...</span></span></span>
 
-This requirement reflects a broader governance principle in AI oversight: human involvement should be genuine and effective, not merely symbolic. A reviewer who cannot question the system or lacks authority to alter the result provides little real protection. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lexology.com">[Lexology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lexology.com</span><span class="citation-popover-snippet">Automated decision making: ICO consults on updated...20 May 2026 — Under the UK GDPR, a decision is “solely automated” where it...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
+This requirement reflects a broader governance principle in AI oversight: human involvement should be genuine and effective, not merely symbolic. A reviewer who cannot question the system or lacks authority to alter the result provides little real protection.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lexology.com">[Lexology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lexology.com</span><span class="citation-popover-snippet">Automated decision making: ICO consults on updated...20 May 2026 — Under the UK GDPR, a decision is “solely automated” where it...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/GtDHFNNJATU" title="GDPR Right 7: Automated Decision Making Rights - Compliance Elementals" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=GtDHFNNJATU" target="_blank" rel="noopener noreferrer">GDPR Right 7: Automated Decision Making Rights - Compliance Elementals</a></p><p class="youtube-embed-meta">Channel: Griffin House Consultancy</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=GtDHFNNJATU" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=GtDHFNNJATU">Open on YouTube</a></p></div></div></div>
 
 ## Why these safeguards matter in AI systems
 
-Modern AI systems increasingly perform tasks that influence hiring, lending, fraud detection, customer screening, and access to services. As these systems become more sophisticated, it can become harder for affected individuals to understand why a particular outcome occurred. UK GDPR protections are intended to preserve accountability in these situations by ensuring that important decisions remain understandable and contestable. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">ing to protect data subjects from solely automated decision making.Read more...</span></span></span>
+Modern AI systems increasingly perform tasks that influence hiring, lending, fraud detection, customer screening, and access to services. As these systems become more sophisticated, it can become harder for affected individuals to understand why a particular outcome occurred. UK GDPR protections are intended to preserve accountability in these situations by ensuring that important decisions remain understandable and contestable.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">ing to protect data subjects from solely automated decision making.Read more...</span></span></span>
 
-The safeguards do not prohibit all automation. Rather, they recognise that some decisions have consequences serious enough to justify additional protections. The combination of transparency, challenge rights, and meaningful human intervention aims to prevent important life outcomes from becoming unreviewable products of algorithmic processes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
+The safeguards do not prohibit all automation. Rather, they recognise that some decisions have consequences serious enough to justify additional protections. The combination of transparency, challenge rights, and meaningful human intervention aims to prevent important life outcomes from becoming unreviewable products of algorithmic processes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_uk_gdpr_autom_43277d-Illustration-3-dark.svg" | relative_url }}" alt="UK GDPR illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_uk_gdpr_autom_43277d-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe_automated_dec_4de325_uk_gdpr_autom_43277d-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## A practical example
 
-Imagine an AI-assisted recruitment system that automatically rejects candidates whose assessment scores fall below a threshold. If no recruiter meaningfully reviews those applications and the rejection determines whether a candidate can progress, the decision may qualify as a solely automated decision with a similarly significant effect. In that situation, the applicant may have rights relating to explanation, challenge, and human review under the UK GDPR framework. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2Keystone]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">This refers to decisions made without any human involvement, for example: an online decision after you have applied for...</span></span></span>
+Imagine an AI-assisted recruitment system that automatically rejects candidates whose assessment scores fall below a threshold. If no recruiter meaningfully reviews those applications and the rejection determines whether a candidate can progress, the decision may qualify as a solely automated decision with a similarly significant effect. In that situation, the applicant may have rights relating to explanation, challenge, and human review under the UK GDPR framework.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2Keystone]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">This refers to decisions made without any human involvement, for example: an online decision after you have applied for...</span></span></span>
 
-This example illustrates the broader principle behind the law: when automated systems make consequential decisions about people, individuals should not be left without a way to understand what happened, question the outcome, and obtain meaningful human consideration of their case. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
+This example illustrates the broader principle behind the law: when automated systems make consequential decisions about people, individuals should not be left without a way to understand what happened, question the outcome, and obtain meaningful human consideration of their case.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on...Read more...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to What rights apply to automated AI decisions?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to What rights apply to automated AI decisions?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Examines fairness, accountability and explainability concerns.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines fairness, accountability and explainability concerns.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
-        </h4>
-        <p class="fr-book-author">By Kate Crawford</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
+</h4>
+<p class="fr-book-author">By Kate Crawford</p>
         
-        <p class="fr-book-desc">Addresses power, regulation and societal impacts of AI.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses power, regulation and societal impacts of AI.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+and+Goliath+by+Bruce+Schneier&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data and Goliath on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=eFuNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Data and Goliath" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Data+and+Goliath+by+Bruce+Schneier&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data and Goliath">Data and Goliath</a>
-        </h4>
-        <p class="fr-book-author">By Bruce Schneier</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+and+Goliath+by+Bruce+Schneier&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data and Goliath on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=eFuNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Data and Goliath" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Data+and+Goliath+by+Bruce+Schneier&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data and Goliath">Data and Goliath</a>
+</h4>
+<p class="fr-book-author">By Bruce Schneier</p>
         
-        <p class="fr-book-desc">Provides context for rights affected by automated decisions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Data+and+Goliath+by+Bruce+Schneier&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for rights affected by automated decisions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Data+and+Goliath+by+Bruce+Schneier&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Covers decisions with significant effects on people.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers decisions with significant effects on people.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+and+Goliath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data and Goliath</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+and+Goliath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data and Goliath</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Mens Leather Wallet RFID Blocking Soft Genuine Card Slots Id Window Coin Pocket"><img src="{{ '/assets/images/marketplace-covers/7cc027f9333cdb3222d4.jpg' | relative_url }}" alt="Listing image for Mens Leather Wallet RFID Blocking Soft Genuine Card Slots Id Window Coin Pocket" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">Mens Leather Wallet RFID Blocking Soft Genuine Card Slots Id Window Coin Pocket</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for RFID blocking wallet">Search <span data-ebay-domain-label>eBay.co.uk</span>: RFID blocking wallet</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Mens Leather Wallet RFID Blocking Soft Genuine Card Slots Id Window Coin Pocket"><img src="{{ '/assets/images/marketplace-covers/7cc027f9333cdb3222d4.jpg' | relative_url }}" alt="Listing image for Mens Leather Wallet RFID Blocking Soft Genuine Card Slots Id Window Coin Pocket" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">Mens Leather Wallet RFID Blocking Soft Genuine Card Slots Id Window Coin Pocket</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for RFID blocking wallet">Search<span data-ebay-domain-label>eBay.co.uk</span>: RFID blocking wallet</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection"><img src="{{ '/assets/images/marketplace-covers/3ad364974b3da25f86cf.jpg' | relative_url }}" alt="Listing image for Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for RFID blocking wallet">Search <span data-ebay-domain-label>eBay.co.uk</span>: RFID blocking wallet</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection"><img src="{{ '/assets/images/marketplace-covers/3ad364974b3da25f86cf.jpg' | relative_url }}" alt="Listing image for Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for RFID blocking wallet">Search<span data-ebay-domain-label>eBay.co.uk</span>: RFID blocking wallet</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection"><img src="{{ '/assets/images/marketplace-covers/2a8f500cab06029a6f93.jpg' | relative_url }}" alt="Listing image for Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for RFID blocking wallet">Search <span data-ebay-domain-label>eBay.co.uk</span>: RFID blocking wallet</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection"><img src="{{ '/assets/images/marketplace-covers/2a8f500cab06029a6f93.jpg' | relative_url }}" alt="Listing image for Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">Designer Mens Leather Wallet RFID SAFE Contactless Card Blocking ID Protection</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for RFID blocking wallet">Search<span data-ebay-domain-label>eBay.co.uk</span>: RFID blocking wallet</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for RFID Blocking Credit Card Bifold Wallet Leather &amp; Aluminium Black/Silver"><img src="{{ '/assets/images/marketplace-covers/d326e2373ae4d085d5b6.jpg' | relative_url }}" alt="Listing image for RFID Blocking Credit Card Bifold Wallet Leather &amp; Aluminium Black/Silver" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">RFID Blocking Credit Card Bifold Wallet Leather &amp; Aluminium Black/Silver</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for RFID blocking wallet">Search <span data-ebay-domain-label>eBay.co.uk</span>: RFID blocking wallet</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for RFID Blocking Credit Card Bifold Wallet Leather &amp; Aluminium Black/Silver"><img src="{{ '/assets/images/marketplace-covers/d326e2373ae4d085d5b6.jpg' | relative_url }}" alt="Listing image for RFID Blocking Credit Card Bifold Wallet Leather &amp; Aluminium Black/Silver" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">RFID Blocking Credit Card Bifold Wallet Leather &amp; Aluminium Black/Silver</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for RFID blocking wallet">Search<span data-ebay-domain-label>eBay.co.uk</span>: RFID blocking wallet</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=RFID+blocking+wallet&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="RFID blocking wallet" data-ebay-reference="uk-gdpr-what-rights-apply-to-automated-ai-decisions-understanding-rfid-blocking-wallet" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -552,7 +552,7 @@ This example illustrates the broader principle behind the law: when automated sy
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -572,7 +572,7 @@ This example illustrates the broader principle behind the law: when automated sy
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -604,7 +604,7 @@ This example illustrates the broader principle behind the law: when automated sy
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -656,7 +656,7 @@ This example illustrates the broader principle behind the law: when automated sy
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -701,7 +701,7 @@ This example illustrates the broader principle behind the law: when automated sy
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -742,167 +742,167 @@ This example illustrates the broader principle behind the law: when automated sy
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>hose based on profiling, that have a legal or similarly significant effect on...Read more...</p></details>
+   Link:<a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>hose based on profiling, that have a legal or similarly significant effect on...Read more...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-1-the-basics-of-explaining-ai/legal-framework/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-1-the-basics-of-explaining-ai/legal-framework/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Legal frameworkArticle 22 of the GDPR gives individuals the right not to be subject to a solely automated decision producing legal or sim...</p></details>
+   Link:<a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-1-the-basics-of-explaining-ai/legal-framework/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/explaining-decisions-made-with-artificial-intelligence/part-1-the-basics-of-explaining-ai/legal-framework/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Legal frameworkArticle 22 of the GDPR gives individuals the right not to be subject to a solely automated decision producing legal or sim...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: gdpr-info.eu  
-   Link: <a href="https://gdpr-info.eu/art-22-gdpr/" target="_blank" rel="noopener noreferrer nofollow">https://gdpr-info.eu/art-22-gdpr/</a>  
+   Link:<a href="https://gdpr-info.eu/art-22-gdpr/" target="_blank" rel="noopener noreferrer nofollow">https://gdpr-info.eu/art-22-gdpr/</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: lexology.com  
-   Link: <a href="https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b" target="_blank" rel="noopener noreferrer nofollow">https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Automated decision making: ICO consults on updated...20 May 2026 — Under the UK GDPR, a decision is “solely automated” where it...</p></details>
+   Link:<a href="https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b" target="_blank" rel="noopener noreferrer nofollow">https://www.lexology.com/library/detail.aspx?g=0c02e28e-4a1e-4e8f-8bbe-88cb7f61547b</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automated decision making: ICO consults on updated...20 May 2026 — Under the UK GDPR, a decision is “solely automated” where it...</p></details>
    Published: May 2026  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>This refers to decisions made without any human involvement, for example: an online decision after you have applied for...</p></details>
+   Link:<a href="https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-the-public/your-rights-relating-to-decisions-being-made-about-you-without-human-involvement/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This refers to decisions made without any human involvement, for example: an online decision after you have applied for...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: crowell.com  
    Title: & Moring  
-   Link: <a href="https://www.crowell.com/en/insights/client-alerts/europes-highest-court-compels-[disclosure" target="_blank" rel="noopener noreferrer nofollow">https://www.crowell.com/en/insights/client-alerts/europes-highest-court-compels-[disclosure</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Article 15 of the GDPR sets forth the data subject&#x27;s right of...Read more...</p></details>
+   Link:<a href="https://www.crowell.com/en/insights/client-alerts/europes-highest-court-compels-[disclosure" target="_blank" rel="noopener noreferrer nofollow">https://www.crowell.com/en/insights/client-alerts/europes-highest-court-compels-[disclosure</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Article 15 of the GDPR sets forth the data subject&#x27;s right of...Read more...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: fieldfisher.com  
    Title: what constitutes meaningful information about automated decision making  
-   Link: <a href="https://www.fieldfisher.com/en/insights/what-constitutes-meaningful-information-about-automated-decision-making" target="_blank" rel="noopener noreferrer nofollow">https://www.fieldfisher.com/en/insights/what-constitutes-meaningful-information-about-automated-decision-making</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What constitutes &quot;meaningful information&quot; about automated...18 Nov 2024 — The controller must provide meaningful information...</p></details>
+   Link:<a href="https://www.fieldfisher.com/en/insights/what-constitutes-meaningful-information-about-automated-decision-making" target="_blank" rel="noopener noreferrer nofollow">https://www.fieldfisher.com/en/insights/what-constitutes-meaningful-information-about-automated-decision-making</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What constitutes &quot;meaningful information&quot; about automated...18 Nov 2024 — The controller must provide meaningful information...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: academic.oup.com  
-   Link: <a href="https://academic.oup.com/idpl/article/7/4/233/4762325" target="_blank" rel="noopener noreferrer nofollow">https://academic.oup.com/idpl/article/7/4/233/4762325</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>OUP AcademicMeaningful information and the right to explanationby AD Selbst · 2017 · Cited by 832 — Most important for this discussion, A...</p></details>
+   Link:<a href="https://academic.oup.com/idpl/article/7/4/233/4762325" target="_blank" rel="noopener noreferrer nofollow">https://academic.oup.com/idpl/article/7/4/233/4762325</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OUP AcademicMeaningful information and the right to explanationby AD Selbst · 2017 · Cited by 832 — Most important for this discussion, A...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2103.01774" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2103.01774</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Conceptualising Contestability: Perspectives on Contesting Algorithmic DecisionsFebruary 23, 2021...</p></details>
+   Link:<a href="https://arxiv.org/abs/2103.01774" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2103.01774</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Conceptualising Contestability: Perspectives on Contesting Algorithmic DecisionsFebruary 23, 2021...</p></details>
    Published: February 23, 2021  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1803.07540" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1803.07540</a>  
+   Link:<a href="https://arxiv.org/abs/1803.07540" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1803.07540</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ing to protect data subjects from solely automated decision making.Read more...</p></details>
+   Link:<a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ing to protect data subjects from solely automated decision making.Read more...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/automated-decisions-can-streamline-the-hiring-process-with-the-right-safeguards-in-place/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/automated-decisions-can-streamline-the-hiring-process-with-the-right-safeguards-in-place/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Automated decisions can streamline the hiring process31 Mar 2026 — We are calling on businesses to review their use of automated decision...</p></details>
+   Link:<a href="https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/automated-decisions-can-streamline-the-hiring-process-with-the-right-safeguards-in-place/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2026/03/automated-decisions-can-streamline-the-hiring-process-with-the-right-safeguards-in-place/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automated decisions can streamline the hiring process31 Mar 2026 — We are calling on businesses to review their use of automated decision...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: legalvision.co.uk  
    Title: article 22 uk gdpr  
-   Link: <a href="https://legalvision.co.uk/data-privacy-it/article-22-uk-gdpr/" target="_blank" rel="noopener noreferrer nofollow">https://legalvision.co.uk/data-privacy-it/article-22-uk-gdpr/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Automated Decision-Making31 Mar 2025 — Under Article 22 of the UK GDPR, individuals have the right not to be subject to a decision based...</p></details>
+   Link:<a href="https://legalvision.co.uk/data-privacy-it/article-22-uk-gdpr/" target="_blank" rel="noopener noreferrer nofollow">https://legalvision.co.uk/data-privacy-it/article-22-uk-gdpr/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automated Decision-Making31 Mar 2025 — Under Article 22 of the UK GDPR, individuals have the right not to be subject to a decision based...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: keystonelaw.com  
-   Link: <a href="https://keystonelaw.com/keynotes/what-does-the-icos-warning-against-automated-decision-making-mean-for-ai-recruitment-and-employers/" target="_blank" rel="noopener noreferrer nofollow">https://keystonelaw.com/keynotes/what-does-the-icos-warning-against-automated-decision-making-mean-for-ai-recruitment-and-employers/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>KeystoneWhat does the ICO&#x27;s warning against automated decision-...This means they&#x27;re using solely automated systems without meaningful h...</p></details>
+   Link:<a href="https://keystonelaw.com/keynotes/what-does-the-icos-warning-against-automated-decision-making-mean-for-ai-recruitment-and-employers/" target="_blank" rel="noopener noreferrer nofollow">https://keystonelaw.com/keynotes/what-does-the-icos-warning-against-automated-decision-making-mean-for-ai-recruitment-and-employers/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>KeystoneWhat does the ICO&#x27;s warning against automated decision-...This means they&#x27;re using solely automated systems without meaningful h...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: insideprivacy.com  
-   Link: <a href="https://www.insideprivacy.com/united-kingdom-2/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/" target="_blank" rel="noopener noreferrer nofollow">https://www.insideprivacy.com/united-kingdom-2/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK ICO Consults on Draft Automated Decision-Making...24 Apr 2026 — The Draft Guidance also clarifies that whether a decision has “signif...</p></details>
+   Link:<a href="https://www.insideprivacy.com/united-kingdom-2/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/" target="_blank" rel="noopener noreferrer nofollow">https://www.insideprivacy.com/united-kingdom-2/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK ICO Consults on Draft Automated Decision-Making...24 Apr 2026 — The Draft Guidance also clarifies that whether a decision has “signif...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: gdprlocal.com  
    Title: automated decision making gdpr  
-   Link: <a href="https://gdprlocal.com/automated-decision-making-gdpr/" target="_blank" rel="noopener noreferrer nofollow">https://gdprlocal.com/automated-decision-making-gdpr/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Automated Decision Making: Overview of GDPR Article 224 Sept 2025 — Individuals have the right to obtain human intervention, express thei...</p></details>
+   Link:<a href="https://gdprlocal.com/automated-decision-making-gdpr/" target="_blank" rel="noopener noreferrer nofollow">https://gdprlocal.com/automated-decision-making-gdpr/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automated Decision Making: Overview of GDPR Article 224 Sept 2025 — Individuals have the right to obtain human intervention, express thei...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: autoriteitpersoonsgegevens.nl  
    Title: right to human intervention in decision making processes  
-   Link: <a href="https://www.autoriteitpersoonsgegevens.nl/en/themes/basic-gdpr/privacy-rights-under-the-gdpr/right-to-human-intervention-in-decision-making-processes" target="_blank" rel="noopener noreferrer nofollow">https://www.autoriteitpersoonsgegevens.nl/en/themes/basic-gdpr/privacy-rights-under-the-gdpr/right-to-human-intervention-in-decision-making-processes</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Right to human intervention in decision-making processes9 Apr 2025 — GDPR gives people the right to human intervention in automated decis...</p></details>
+   Link:<a href="https://www.autoriteitpersoonsgegevens.nl/en/themes/basic-gdpr/privacy-rights-under-the-gdpr/right-to-human-intervention-in-decision-making-processes" target="_blank" rel="noopener noreferrer nofollow">https://www.autoriteitpersoonsgegevens.nl/en/themes/basic-gdpr/privacy-rights-under-the-gdpr/right-to-human-intervention-in-decision-making-processes</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Right to human intervention in decision-making processes9 Apr 2025 — GDPR gives people the right to human intervention in automated decis...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/03/ico-consultation-on-the-draft-guidance-about-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/03/ico-consultation-on-the-draft-guidance-about-automated-decision-making-including-profiling/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It isn&#x27;t intended to cover every data protection concept and provides links to...Read more...</p></details>
+   Link:<a href="https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/03/ico-consultation-on-the-draft-guidance-about-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/about-the-ico/ico-and-stakeholder-consultations/2026/03/ico-consultation-on-the-draft-guidance-about-automated-decision-making-including-profiling/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It isn&#x27;t intended to cover every data protection concept and provides links to...Read more...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/media2/bibhz1gs/existing-guidance-automated-decision-making-and-profiling.pdf" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/media2/bibhz1gs/existing-guidance-automated-decision-making-and-profiling.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Automated decision- making and profilingThe UK GDPR gives people the right not to be subject to solely automated decisions, including pro...</p></details>
+   Link:<a href="https://ico.org.uk/media2/bibhz1gs/existing-guidance-automated-decision-making-and-profiling.pdf" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/media2/bibhz1gs/existing-guidance-automated-decision-making-and-profiling.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automated decision- making and profilingThe UK GDPR gives people the right not to be subject to solely automated decisions, including pro...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-organisations/law-enforcement/guide-to-le-processing/individual-rights/right-not-to-be-subject-to-automated-decision-making/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/law-enforcement/guide-to-le-processing/individual-rights/right-not-to-be-subject-to-automated-decision-making/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Right not to be subject to automated decision-makingPart 3 provides safeguards for individuals against the risk that a potentially damagi...</p></details>
+   Link:<a href="https://ico.org.uk/for-organisations/law-enforcement/guide-to-le-processing/individual-rights/right-not-to-be-subject-to-automated-decision-making/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/law-enforcement/guide-to-le-processing/individual-rights/right-not-to-be-subject-to-automated-decision-making/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Right not to be subject to automated decision-makingPart 3 provides safeguards for individuals against the risk that a potentially damagi...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: bratby.law  
    Title: ai automated decision making  
-   Link: <a href="https://bratby.law/practice-areas/data-protection/ai-automated-decision-making/" target="_blank" rel="noopener noreferrer nofollow">https://bratby.law/practice-areas/data-protection/ai-automated-decision-making/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Automated Decision-Making | UK GDPR and DUAA 2025Solely automated decisions with significant effects are now permitted for most personal...</p></details>
+   Link:<a href="https://bratby.law/practice-areas/data-protection/ai-automated-decision-making/" target="_blank" rel="noopener noreferrer nofollow">https://bratby.law/practice-areas/data-protection/ai-automated-decision-making/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Automated Decision-Making | UK GDPR and DUAA 2025Solely automated decisions with significant effects are now permitted for most personal...</p></details>
 
 ### Additional References
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: freeths.co.uk  
-   Link: <a href="https://www.freeths.co.uk/insights-events/legal-articles/2026/ico-consults-on-updated-automated-decision-making-and-profiling-guidance/" target="_blank" rel="noopener noreferrer nofollow">https://www.freeths.co.uk/insights-events/legal-articles/2026/ico-consults-on-updated-automated-decision-making-and-profiling-guidance/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ICO consults on updated automated decision making and...2 days ago — The updated guidance is intended to help organisations understand w...</p></details>
+   Link:<a href="https://www.freeths.co.uk/insights-events/legal-articles/2026/ico-consults-on-updated-automated-decision-making-and-profiling-guidance/" target="_blank" rel="noopener noreferrer nofollow">https://www.freeths.co.uk/insights-events/legal-articles/2026/ico-consults-on-updated-automated-decision-making-and-profiling-guidance/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ICO consults on updated automated decision making and...2 days ago — The updated guidance is intended to help organisations understand w...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/information-commissioner%27s-office_yesterday-we-published-our-new-draft-automated-activity-7445095815812964352-G3P5" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/information-commissioner%27s-office_yesterday-we-published-our-new-draft-automated-activity-7445095815812964352-G3P5</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK GDPR Update: Automated Decision-Making Guidance... UK GDPR&#x27;s article 22A provisions that relate to solely automated decisions with sig...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/information-commissioner%27s-office_yesterday-we-published-our-new-draft-automated-activity-7445095815812964352-G3P5" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/information-commissioner%27s-office_yesterday-we-published-our-new-draft-automated-activity-7445095815812964352-G3P5</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK GDPR Update: Automated Decision-Making Guidance... UK GDPR&#x27;s article 22A provisions that relate to solely automated decisions with sig...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: edpb.europa.eu  
-   Link: <a href="https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/automated-decision-making-and-profiling_en" target="_blank" rel="noopener noreferrer nofollow">https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/automated-decision-making-and-profiling_en</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>decision-making and profilingAutomated decision-making and profiling... During its first plenary meeting the European Data Protection Bo...</p></details>
+   Link:<a href="https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/automated-decision-making-and-profiling_en" target="_blank" rel="noopener noreferrer nofollow">https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/automated-decision-making-and-profiling_en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>decision-making and profilingAutomated decision-making and profiling... During its first plenary meeting the European Data Protection Bo...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: handleygill.co.uk  
-   Link: <a href="https://www.handleygill.co.uk/handley-gill-blog/section-80-data-use-and-access-act-2025-article-22a-uk-gdpr-automated-decision-making-automated-processing-meaningful-human-involvement" target="_blank" rel="noopener noreferrer nofollow">https://www.handleygill.co.uk/handley-gill-blog/section-80-data-use-and-access-act-2025-article-22a-uk-gdpr-automated-decision-making-automated-processing-meaningful-human-involvement</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What do we mean by meaningful?20 Mar 2026 — Article 22B UK GDPR imposes restrictions on significant decisions based partly or entirely on...</p></details>
+   Link:<a href="https://www.handleygill.co.uk/handley-gill-blog/section-80-data-use-and-access-act-2025-article-22a-uk-gdpr-automated-decision-making-automated-processing-meaningful-human-involvement" target="_blank" rel="noopener noreferrer nofollow">https://www.handleygill.co.uk/handley-gill-blog/section-80-data-use-and-access-act-2025-article-22a-uk-gdpr-automated-decision-making-automated-processing-meaningful-human-involvement</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What do we mean by meaningful?20 Mar 2026 — Article 22B UK GDPR imposes restrictions on significant decisions based partly or entirely on...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/privacy-partnership_privacy-partnership-briefing-art-22-new-rules-activity-7427315838250295297-YGmo" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/privacy-partnership_privacy-partnership-briefing-art-22-new-rules-activity-7427315838250295297-YGmo</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK GDPR Article 22 Changes: Automated Decision...11 Feb 2026 — — The safeguards at Article 22C are mandatory for all significant solely...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/privacy-partnership_privacy-partnership-briefing-art-22-new-rules-activity-7427315838250295297-YGmo" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/privacy-partnership_privacy-partnership-briefing-art-22-new-rules-activity-7427315838250295297-YGmo</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK GDPR Article 22 Changes: Automated Decision...11 Feb 2026 — — The safeguards at Article 22C are mandatory for all significant solely...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: globalpolicywatch.com  
-   Link: <a href="https://www.globalpolicywatch.com/2026/04/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/" target="_blank" rel="noopener noreferrer nofollow">https://www.globalpolicywatch.com/2026/04/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK ICO Consults on Draft Automated Decision-Making...29 Apr 2026 — The Draft Guidance is the ICO&#x27;s first detailed interpretation of the...</p></details>
+   Link:<a href="https://www.globalpolicywatch.com/2026/04/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/" target="_blank" rel="noopener noreferrer nofollow">https://www.globalpolicywatch.com/2026/04/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK ICO Consults on Draft Automated Decision-Making...29 Apr 2026 — The Draft Guidance is the ICO&#x27;s first detailed interpretation of the...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: twobirds.com  
-   Link: <a href="https://www.twobirds.com/en/insights/2026/ico-launches-consultation-on-draft-guidance-on-automated-decision-making-and-profiling" target="_blank" rel="noopener noreferrer nofollow">https://www.twobirds.com/en/insights/2026/ico-launches-consultation-on-draft-guidance-on-automated-decision-making-and-profiling</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>decision; and; which has a legal or similarly significant effect on a data subject. (Art. 22A). When is ADM allowed under new Articles 22...</p></details>
+   Link:<a href="https://www.twobirds.com/en/insights/2026/ico-launches-consultation-on-draft-guidance-on-automated-decision-making-and-profiling" target="_blank" rel="noopener noreferrer nofollow">https://www.twobirds.com/en/insights/2026/ico-launches-consultation-on-draft-guidance-on-automated-decision-making-and-profiling</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>decision; and; which has a legal or similarly significant effect on a data subject. (Art. 22A). When is ADM allowed under new Articles 22...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: trilateralresearch.com  
-   Link: <a href="https://trilateralresearch.com/emerging-technology/how-to-provide-meaningful-information-about-the-logic-involved-in-automated-decisions" target="_blank" rel="noopener noreferrer nofollow">https://trilateralresearch.com/emerging-technology/how-to-provide-meaningful-information-about-the-logic-involved-in-automated-decisions</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to provide meaningful information about the logic...15 Jun 2020 — This article outlines a step-by-step guidance to ensure GDPR compl...</p></details>
+   Link:<a href="https://trilateralresearch.com/emerging-technology/how-to-provide-meaningful-information-about-the-logic-involved-in-automated-decisions" target="_blank" rel="noopener noreferrer nofollow">https://trilateralresearch.com/emerging-technology/how-to-provide-meaningful-information-about-the-logic-involved-in-automated-decisions</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to provide meaningful information about the logic...15 Jun 2020 — This article outlines a step-by-step guidance to ensure GDPR compl...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: inquisitiveminds.bristows.com  
    Title: dsars trade secrets and automated decision making what counts as meaningful i  
-   Link: <a href="https://inquisitiveminds.bristows.com/post/102jjlq/dsars-trade-secrets-and-automated-decision-making-what-counts-as-meaningful-i" target="_blank" rel="noopener noreferrer nofollow">https://inquisitiveminds.bristows.com/post/102jjlq/dsars-trade-secrets-and-automated-decision-making-what-counts-as-meaningful-i</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>bristows.comDSARs, trade secrets, and automated decision-making20 Sept 2024 — If an individual is subject to automated decision-making, i...</p></details>
+   Link:<a href="https://inquisitiveminds.bristows.com/post/102jjlq/dsars-trade-secrets-and-automated-decision-making-what-counts-as-meaningful-i" target="_blank" rel="noopener noreferrer nofollow">https://inquisitiveminds.bristows.com/post/102jjlq/dsars-trade-secrets-and-automated-decision-making-what-counts-as-meaningful-i</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>bristows.comDSARs, trade secrets, and automated decision-making20 Sept 2024 — If an individual is subject to automated decision-making, i...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: europeanlawblog.eu  
    Title: radical rewriting of article 22 gdpr on machine decisions in the ai era  
-   Link: <a href="https://www.europeanlawblog.eu/pub/radical-rewriting-of-article-22-gdpr-on-machine-decisions-in-the-ai-era" target="_blank" rel="noopener noreferrer nofollow">https://www.europeanlawblog.eu/pub/radical-rewriting-of-article-22-gdpr-on-machine-decisions-in-the-ai-era</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Radical rewriting of Article 22 GDPR on machine decisions...13 Oct 2021 — Our proposal is to clarify and simplify Article 22 and to stre...</p></details>
+   Link:<a href="https://www.europeanlawblog.eu/pub/radical-rewriting-of-article-22-gdpr-on-machine-decisions-in-the-ai-era" target="_blank" rel="noopener noreferrer nofollow">https://www.europeanlawblog.eu/pub/radical-rewriting-of-article-22-gdpr-on-machine-decisions-in-the-ai-era</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Radical rewriting of Article 22 GDPR on machine decisions...13 Oct 2021 — Our proposal is to clarify and simplify Article 22 and to stre...</p></details>

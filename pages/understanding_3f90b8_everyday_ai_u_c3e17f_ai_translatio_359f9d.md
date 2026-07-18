@@ -292,15 +292,15 @@ AI translation has become one of the most visible and useful applications of art
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_translatio_359f9d-Illustration-1-dark.svg" | relative_url }}" alt="Translation illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_translatio_359f9d-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_translatio_359f9d-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-However, “good enough” depends on what is at stake. A mistranslated restaurant menu may cause minor confusion. A mistranslated medical instruction, legal contract, or literary passage can change meaning in ways that matter. [Understanding]({{ 'understanding/' | relative_url }}) when AI translation is reliable and when human review is necessary is therefore an important part of understanding artificial intelligence itself. The key question is not whether machine translation works, but where its limits lie. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12252260/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Evaluation of the accuracy and safety of machine translation of...by M Kong · 2025 · Cited by 30 — We evaluated the translation accur...</span></span></span>
+However, “good enough” depends on what is at stake. A mistranslated restaurant menu may cause minor confusion. A mistranslated medical instruction, legal contract, or literary passage can change meaning in ways that matter. [Understanding]({{ 'understanding/' | relative_url }}) when AI translation is reliable and when human review is necessary is therefore an important part of understanding artificial intelligence itself. The key question is not whether machine translation works, but where its limits lie.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12252260/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Evaluation of the accuracy and safety of machine translation of...by M Kong · 2025 · Cited by 30 — We evaluated the translation accur...</span></span></span>
 
 ## Why Neural Translation Works Better Than Word Swapping
 
 Early translation software often relied on replacing words or short phrases with equivalents in another language. This approach struggled with grammar, word order, idioms, and expressions whose meanings depended on context.
 
-Modern neural machine translation (NMT) systems work differently. Rather than translating each word independently, they analyse entire sentences and learn patterns from enormous collections of translated text. Google's neural translation research described this shift as moving from phrase-by-phrase processing towards considering the whole sentence as a unit. This allows the system to make better [decisions]({{ 'decisions/' | relative_url }}) about meaning, grammar, and sentence structure. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.google/blog/a-neural-network-for-machine-translation-at-production-scale/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.google">[Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.google</span><span class="citation-popover-title">When it</span><span class="citation-popover-snippet">Google ResearchA Neural Network for Machine Translation, at Production ...27 Sept 2016 — The advantage of this approach is that it requir...</span></span></span>
+Modern neural machine translation (NMT) systems work differently. Rather than translating each word independently, they analyse entire sentences and learn patterns from enormous collections of translated text. Google's neural translation research described this shift as moving from phrase-by-phrase processing towards considering the whole sentence as a unit. This allows the system to make better [decisions]({{ 'decisions/' | relative_url }}) about meaning, grammar, and sentence structure.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.google/blog/a-neural-network-for-machine-translation-at-production-scale/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.google">[Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.google</span><span class="citation-popover-title">When it</span><span class="citation-popover-snippet">Google ResearchA Neural Network for Machine Translation, at Production ...27 Sept 2016 — The advantage of this approach is that it requir...</span></span></span>
 
-Research comparing neural and phrase-based systems found that neural models produce more fluent translations and handle complex language patterns more effectively. In particular, they improved the handling of sentence structure and long-distance relationships between words, reducing many of the awkward errors that characterised earlier machine translation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1608.04631" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Neural versus Phrase-Based Machine Translation Quality: a Case Study</span><span class="citation-popover-snippet">Neural versus Phrase-Based Machine Translation Quality: a Case StudyAugust 16, 2016...</span><span class="citation-popover-meta">Published: August 16, 2016</span></span></span>
+Research comparing neural and phrase-based systems found that neural models produce more fluent translations and handle complex language patterns more effectively. In particular, they improved the handling of sentence structure and long-distance relationships between words, reducing many of the awkward errors that characterised earlier machine translation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1608.04631" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Neural versus Phrase-Based Machine Translation Quality: a Case Study</span><span class="citation-popover-snippet">Neural versus Phrase-Based Machine Translation Quality: a Case StudyAugust 16, 2016...</span><span class="citation-popover-meta">Published: August 16, 2016</span></span></span>
 
 This improvement explains why translation tools today often feel surprisingly natural. A traveller can photograph a sign, a student can read a foreign-language article, or a customer-service worker can understand an incoming message almost instantly. In many everyday situations, perfect translation is unnecessary; understanding the main idea is enough.
 
@@ -324,7 +324,7 @@ Common examples include:
 
 </div>
 
-In these situations, users usually need the general meaning rather than a legally or technically precise rendering. If a sentence sounds slightly awkward, the practical value remains high because communication still occurs. This balance between [speed]({{ 'speed/' | relative_url }}) and acceptable accuracy is one reason machine translation has become so widely adopted. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.google/blog/a-neural-network-for-machine-translation-at-production-scale/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.google">[Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.google</span><span class="citation-popover-title">When it</span><span class="citation-popover-snippet">Google ResearchA Neural Network for Machine Translation, at Production ...27 Sept 2016 — The advantage of this approach is that it requir...</span></span></span>
+In these situations, users usually need the general meaning rather than a legally or technically precise rendering. If a sentence sounds slightly awkward, the practical value remains high because communication still occurs. This balance between [speed]({{ 'speed/' | relative_url }}) and acceptable accuracy is one reason machine translation has become so widely adopted.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.google/blog/a-neural-network-for-machine-translation-at-production-scale/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.google">[Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.google</span><span class="citation-popover-title">When it</span><span class="citation-popover-snippet">Google ResearchA Neural Network for Machine Translation, at Production ...27 Sept 2016 — The advantage of this approach is that it requir...</span></span></span>
 
 Another advantage is accessibility. People who would never hire a professional translator can now obtain immediate translations at virtually no cost. AI therefore expands access to information that might otherwise remain unavailable because of language barriers.
 
@@ -337,7 +337,7 @@ Although modern systems are far better than earlier word-swapping approaches, la
 
 Words often have multiple meanings. Tone, irony, humour, cultural references, and implied assumptions may not be explicitly stated. Even when the literal translation is correct, the intended meaning can be weakened or altered.
 
-Researchers and translation specialists continue to identify context as one of the central challenges in machine translation. Cultural references, idioms, social conventions, and audience expectations frequently require interpretation rather than simple conversion between languages. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://translated.com/resources/the-role-of-context-in-machine-translation-accuracy" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: translated.com">[Translated+2ijscl.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">translated.com</span><span class="citation-popover-snippet">The Role of Context in Machine Translation AccuracyBy incorporating context, machine translation systems can accurately interpr...</span></span></span>
+Researchers and translation specialists continue to identify context as one of the central challenges in machine translation. Cultural references, idioms, social conventions, and audience expectations frequently require interpretation rather than simple conversion between languages.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://translated.com/resources/the-role-of-context-in-machine-translation-accuracy" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: translated.com">[Translated+2ijscl.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">translated.com</span><span class="citation-popover-snippet">The Role of Context in Machine Translation AccuracyBy incorporating context, machine translation systems can accurately interpr...</span></span></span>
 
 For example, a phrase that sounds polite in one culture may sound abrupt in another. A joke may rely on local knowledge. A [political]({{ 'political-video/' | relative_url }}) slogan may carry historical associations that are invisible to a machine. Human translators can recognise these signals and adapt the wording accordingly.
 
@@ -349,7 +349,7 @@ This does not mean AI translation is unusable. It means users should recognise t
 
 Legal language is designed to be precise. A single word can determine rights, obligations, deadlines, liabilities, or ownership.
 
-Machine translation can provide a useful first draft of a contract, court filing, or regulatory document. However, legal professionals generally require human review because legal terminology often has specialised meanings that differ from everyday usage. Small translation errors can create ambiguity or even alter the interpretation of a clause. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://benjamins.com/online/hot/articles/mac2?srsltid=AfmBOooGDYZbvHfbOKW174qDIWGY_uMmYIXv0qdsVVXgZsni_fu01n5S" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: benjamins.com">[Benjamins+2esiconf.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">benjamins.com</span><span class="citation-popover-snippet">Killman: Machine translation and legal terminologyNov 10, 2023 — This chapter discusses what can be expected from data-driven ma...</span></span></span>
+Machine translation can provide a useful first draft of a contract, court filing, or regulatory document. However, legal professionals generally require human review because legal terminology often has specialised meanings that differ from everyday usage. Small translation errors can create ambiguity or even alter the interpretation of a clause.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://benjamins.com/online/hot/articles/mac2?srsltid=AfmBOooGDYZbvHfbOKW174qDIWGY_uMmYIXv0qdsVVXgZsni_fu01n5S" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: benjamins.com">[Benjamins+2esiconf.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">benjamins.com</span><span class="citation-popover-snippet">Killman: Machine translation and legal terminologyNov 10, 2023 — This chapter discusses what can be expected from data-driven ma...</span></span></span>
 
 Human legal translators do more than translate vocabulary. They understand how legal concepts function within different legal systems. A term that appears equivalent across languages may actually have a different legal effect.
 
@@ -359,9 +359,9 @@ For this reason, organisations frequently use a human-in-the-loop approach: AI g
 
 Medical communication combines specialised terminology with potentially serious consequences.
 
-Recent research examining machine translation in [healthcare]({{ 'health-proxy/' | relative_url }}) found that modern AI systems can achieve high levels of accuracy, but the possibility of harmful errors remains important because misunderstandings may affect diagnosis, treatment, medication use, or patient consent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12252260/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Evaluation of the accuracy and safety of machine translation of...by M Kong · 2025 · Cited by 30 — We evaluated the translation accur...</span></span></span>
+Recent research examining machine translation in [healthcare]({{ 'health-proxy/' | relative_url }}) found that modern AI systems can achieve high levels of accuracy, but the possibility of harmful errors remains important because misunderstandings may affect diagnosis, treatment, medication use, or patient consent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12252260/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Evaluation of the accuracy and safety of machine translation of...by M Kong · 2025 · Cited by 30 — We evaluated the translation accur...</span></span></span>
 
-Medical translation is challenging because many terms have precise technical meanings. Instructions involving dosages, symptoms, procedures, or risks must be communicated accurately. Professional medical translators often possess both language skills and subject-matter knowledge, allowing them to recognise subtle but important distinctions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itcglobaltranslations.com/blog/from-diagnosis-to-clinical-trials-understanding-ultra-specialization-in-medical-translation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itcglobaltranslations.com">[itcglobaltranslations.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itcglobaltranslations.com</span><span class="citation-popover-snippet">The Ultra-specialized World of Medical Translation - ITC GlobalDec 18, 2025 — To translate a medical document for a particular discipline...</span></span></span>
+Medical translation is challenging because many terms have precise technical meanings. Instructions involving dosages, symptoms, procedures, or risks must be communicated accurately. Professional medical translators often possess both language skills and subject-matter knowledge, allowing them to recognise subtle but important distinctions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.itcglobaltranslations.com/blog/from-diagnosis-to-clinical-trials-understanding-ultra-specialization-in-medical-translation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: itcglobaltranslations.com">[itcglobaltranslations.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">itcglobaltranslations.com</span><span class="citation-popover-snippet">The Ultra-specialized World of Medical Translation - ITC GlobalDec 18, 2025 — To translate a medical document for a particular discipline...</span></span></span>
 
 In practice, AI translation can help patients and clinicians communicate more easily, especially when no translator is immediately available. Yet high-stakes decisions generally require expert review rather than blind trust in automated output.
 
@@ -372,11 +372,11 @@ In practice, AI translation can help patients and clinicians communicate more ea
 
 Literary translation presents a different challenge. The goal is not merely to preserve information but also style, rhythm, emotion, character voice, humour, and cultural atmosphere.
 
-A novel, poem, or play often contains layers of meaning that depend on word choice and artistic effect. A machine may successfully convey the basic plot while losing the qualities that make the original work memorable. Scholars and professional translators continue to argue that literary translation requires interpretation and creative judgement that AI cannot fully replicate. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.goethe.de/ins/gb/en/kul/past/lit/ail/21967545.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: goethe.de">[Goethe-Institut+2Slator]</a><span class="citation-popover" role="note"><span class="citation-popover-source">goethe.de</span><span class="citation-popover-snippet">InstitutCan Artificial Intelligence Help Literary Translators?by R Youdale — With advances in the latest kind of machine translati...</span></span></span>
+A novel, poem, or play often contains layers of meaning that depend on word choice and artistic effect. A machine may successfully convey the basic plot while losing the qualities that make the original work memorable. Scholars and professional translators continue to argue that literary translation requires interpretation and creative judgement that AI cannot fully replicate.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.goethe.de/ins/gb/en/kul/past/lit/ail/21967545.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: goethe.de">[Goethe-Institut+2Slator]</a><span class="citation-popover" role="note"><span class="citation-popover-source">goethe.de</span><span class="citation-popover-snippet">InstitutCan Artificial Intelligence Help Literary Translators?by R Youdale — With advances in the latest kind of machine translati...</span></span></span>
 
-Consider dialogue in fiction. A translator may need to decide whether a character sounds formal, sarcastic, nervous, educated, or humorous. These decisions shape the reader's experience. Machines can imitate patterns found in training data, but they do not possess lived cultural experience or artistic intent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.translata.eu/blog/the-cultural-nuances-ai-cant-capture-why-human-translators-are-irreplaceable" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: translata.eu">[Translata.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">translata.eu</span><span class="citation-popover-title">the cultural nuances ai cant capture why human translators are irreplaceable</span><span class="citation-popover-snippet">The Cultural Nuances AI Can&#x27;t Capture: Why Human...Aug 22, 2024 — Machine translation might handle basic vocabulary and grammar, but it...</span></span></span>
+Consider dialogue in fiction. A translator may need to decide whether a character sounds formal, sarcastic, nervous, educated, or humorous. These decisions shape the reader's experience. Machines can imitate patterns found in training data, but they do not possess lived cultural experience or artistic intent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.translata.eu/blog/the-cultural-nuances-ai-cant-capture-why-human-translators-are-irreplaceable" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: translata.eu">[Translata.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">translata.eu</span><span class="citation-popover-title">the cultural nuances ai cant capture why human translators are irreplaceable</span><span class="citation-popover-snippet">The Cultural Nuances AI Can&#x27;t Capture: Why Human...Aug 22, 2024 — Machine translation might handle basic vocabulary and grammar, but it...</span></span></span>
 
-As a result, literary publishing increasingly experiments with AI-assisted workflows, but human translators remain central to producing high-quality literary work. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/books/2024/apr/16/survey-finds-generative-ai-proving-major-threat-to-the-work-of-translators" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Additionally, over 75% anticipate that AI will negatively impact their future earnings. The survey, conducted in January, indicates that...</span></span></span>
+As a result, literary publishing increasingly experiments with AI-assisted workflows, but human translators remain central to producing high-quality literary work.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/books/2024/apr/16/survey-finds-generative-ai-proving-major-threat-to-the-work-of-translators" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Additionally, over 75% anticipate that AI will negatively impact their future earnings. The survey, conducted in January, indicates that...</span></span></span>
 
 ## A Practical Rule: Match Review to Risk
 
@@ -388,184 +388,184 @@ A simple rule is:
 * **Medium risk:** [business]({{ 'business-adoption/' | relative_url }}) communication, educational materials, customer support — AI translation is useful but benefits from [checking]({{ 'checklists/' | relative_url }}).
 * **High risk:** legal documents, medical information, safety instructions, official records, literary publishing — expert human review is essential.
 
-This approach reflects how many organisations already use translation technology. AI provides speed, scale, and accessibility. Humans provide judgement, accountability, cultural understanding, and specialist expertise. Together they create a system that is often more effective than either working alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/390979935_Machine_Translation_vs_Human_Translation_in_Industry_Settings" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-title">390979935 Machine Translation vs Human Translation in Industry Settings</span><span class="citation-popover-snippet">ResearchGate(PDF) Machine Translation vs. Human...Apr 21, 2025 — Domain expertise: Certified translators often specialize in industries...</span></span></span>
+This approach reflects how many organisations already use translation technology. AI provides speed, scale, and accessibility. Humans provide judgement, accountability, cultural understanding, and specialist expertise. Together they create a system that is often more effective than either working alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.researchgate.net/publication/390979935_Machine_Translation_vs_Human_Translation_in_Industry_Settings" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[ResearchGate+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-title">390979935 Machine Translation vs Human Translation in Industry Settings</span><span class="citation-popover-snippet">ResearchGate(PDF) Machine Translation vs. Human...Apr 21, 2025 — Domain expertise: Certified translators often specialize in industries...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_translatio_359f9d-Illustration-3-dark.svg" | relative_url }}" alt="Translation illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_translatio_359f9d-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_ai_translatio_359f9d-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When Is AI Translation Good Enough?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When Is AI Translation Good Enough?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=J2HgEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=J2HgEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Helps readers understand practical AI capabilities and limits.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps readers understand practical AI capabilities and limits.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Snake Oil on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_lxOEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Snake Oil" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Snake Oil">AI Snake Oil</a>
-        </h4>
-        <p class="fr-book-author">By Arvind Narayanan, Sayash Kapoor</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Snake Oil on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_lxOEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Snake Oil" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Snake Oil">AI Snake Oil</a>
+</h4>
+<p class="fr-book-author">By Arvind Narayanan, Sayash Kapoor</p>
         
-        <p class="fr-book-desc">Discusses when AI systems are reliable and when they are not.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses when AI systems are reliable and when they are not.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Found+in+Translation+by+Nataly+Kelly&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Found in Translation on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1Glkd3p3ZxkC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Found in Translation" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Found+in+Translation+by+Nataly+Kelly&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Found in Translation">Found in Translation</a>
-        </h4>
-        <p class="fr-book-author">By Nataly Kelly, Jost Zetzsche</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Found+in+Translation+by+Nataly+Kelly&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Found in Translation on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1Glkd3p3ZxkC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Found in Translation" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Found+in+Translation+by+Nataly+Kelly&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Found in Translation">Found in Translation</a>
+</h4>
+<p class="fr-book-author">By Nataly Kelly, Jost Zetzsche</p>
         
-        <p class="fr-book-desc">Explains translation quality and real-world language challenges.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Found+in+Translation+by+Nataly+Kelly&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains translation quality and real-world language challenges.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Found+in+Translation+by+Nataly+Kelly&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Is+That+a+Fish+in+Your+Ear%3F+by+David+Bellos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Is That a Fish in Your Ear? on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=FKC4LA4dkuQC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Is That a Fish in Your Ear?" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Is+That+a+Fish+in+Your+Ear%3F+by+David+Bellos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Is That a Fish in Your Ear?">Is That a Fish in Your Ear?</a>
-        </h4>
-        <p class="fr-book-author">By David Bellos</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Is+That+a+Fish+in+Your+Ear%3F+by+David+Bellos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Is That a Fish in Your Ear? on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=FKC4LA4dkuQC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Is That a Fish in Your Ear?" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Is+That+a+Fish+in+Your+Ear%3F+by+David+Bellos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Is That a Fish in Your Ear?">Is That a Fish in Your Ear?</a>
+</h4>
+<p class="fr-book-author">By David Bellos</p>
         
-        <p class="fr-book-desc">Explores what translation can and cannot achieve.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Is+That+a+Fish+in+Your+Ear%3F+by+David+Bellos&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores what translation can and cannot achieve.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Is+That+a+Fish+in+Your+Ear%3F+by+David+Bellos&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Snake+Oil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Snake Oil</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Found+in+Translation&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Found in Translation</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Snake+Oil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Snake Oil</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Found+in+Translation&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Found in Translation</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8ba80ddd3cc27fa6c1b9.jpg' | relative_url }}" alt="Listing image for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Never Give Up Coding Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8ba80ddd3cc27fa6c1b9.jpg' | relative_url }}" alt="Listing image for Never Give Up Coding Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Never Give Up Coding Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/925d06fe336970b2c015.jpg' | relative_url }}" alt="Listing image for I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/925d06fe336970b2c015.jpg' | relative_url }}" alt="Listing image for I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">I&#x27;d Rather Be Coding Framed Art Pri Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Coder Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b93df232d4f49ade265c.jpg' | relative_url }}" alt="Listing image for Coding Coder Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Coding Coder Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Coding Coder Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/b93df232d4f49ade265c.jpg' | relative_url }}" alt="Listing image for Coding Coder Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">Coding Coder Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for coding poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: coding poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=coding+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=translation-when-is-ai-translation-good-enough-understanding-coding-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="coding poster" data-ebay-reference="translation-when-is-ai-translation-good-enough-understanding-coding-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -581,7 +581,7 @@ This approach reflects how many organisations already use translation technology
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -601,7 +601,7 @@ This approach reflects how many organisations already use translation technology
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -633,7 +633,7 @@ This approach reflects how many organisations already use translation technology
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -685,7 +685,7 @@ This approach reflects how many organisations already use translation technology
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -730,7 +730,7 @@ This approach reflects how many organisations already use translation technology
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -771,186 +771,186 @@ This approach reflects how many organisations already use translation technology
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12252260/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12252260/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluation of the accuracy and safety of machine translation of...by M Kong · 2025 · Cited by 30 — We evaluated the translation accur...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12252260/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12252260/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluation of the accuracy and safety of machine translation of...by M Kong · 2025 · Cited by 30 — We evaluated the translation accur...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: researchgate.net  
    Title: 390979935 Machine Translation vs Human Translation in Industry Settings  
-   Link: <a href="https://www.researchgate.net/publication/390979935_Machine_Translation_vs_Human_Translation_in_Industry_Settings" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/390979935_Machine_Translation_vs_Human_Translation_in_Industry_Settings</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ResearchGate(PDF) Machine Translation vs. Human...Apr 21, 2025 — Domain expertise: Certified translators often specialize in industries...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/390979935_Machine_Translation_vs_Human_Translation_in_Industry_Settings" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/390979935_Machine_Translation_vs_Human_Translation_in_Industry_Settings</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ResearchGate(PDF) Machine Translation vs. Human...Apr 21, 2025 — Domain expertise: Certified translators often specialize in industries...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
    Title: arXiv Neural versus Phrase-Based Machine Translation Quality: a Case Study  
-   Link: <a href="https://arxiv.org/abs/1608.04631" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1608.04631</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Neural versus Phrase-Based Machine Translation Quality: a Case StudyAugust 16, 2016...</p></details>
+   Link:<a href="https://arxiv.org/abs/1608.04631" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1608.04631</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Neural versus Phrase-Based Machine Translation Quality: a Case StudyAugust 16, 2016...</p></details>
    Published: August 16, 2016  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: goethe.de  
-   Link: <a href="https://www.goethe.de/ins/gb/en/kul/past/lit/ail/21967545.html" target="_blank" rel="noopener noreferrer nofollow">https://www.goethe.de/ins/gb/en/kul/past/lit/ail/21967545.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>InstitutCan Artificial Intelligence Help Literary Translators?by R Youdale — With advances in the latest kind of machine translati...</p></details>
+   Link:<a href="https://www.goethe.de/ins/gb/en/kul/past/lit/ail/21967545.html" target="_blank" rel="noopener noreferrer nofollow">https://www.goethe.de/ins/gb/en/kul/past/lit/ail/21967545.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>InstitutCan Artificial Intelligence Help Literary Translators?by R Youdale — With advances in the latest kind of machine translati...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: translated.com  
-   Link: <a href="https://translated.com/resources/the-role-of-context-in-machine-translation-accuracy" target="_blank" rel="noopener noreferrer nofollow">https://translated.com/resources/the-role-of-context-in-machine-translation-accuracy</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Role of Context in Machine Translation AccuracyBy incorporating context, machine translation systems can accurately interpr...</p></details>
+   Link:<a href="https://translated.com/resources/the-role-of-context-in-machine-translation-accuracy" target="_blank" rel="noopener noreferrer nofollow">https://translated.com/resources/the-role-of-context-in-machine-translation-accuracy</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Role of Context in Machine Translation AccuracyBy incorporating context, machine translation systems can accurately interpr...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: ijscl.com  
    Title: Naturally.Read mo  
-   Link: <a href="https://www.ijscl.com/article_727173_b7951cc4dcde2170f389ee7f0e0759c6.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ijscl.com/article_727173_b7951cc4dcde2170f389ee7f0e0759c6.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Pragmatic and Cultural Challenges in Machine Translationby H Al Sharoufi · 2025 · Cited by 3 — Pragmatics enables translators to capture...</p></details>
+   Link:<a href="https://www.ijscl.com/article_727173_b7951cc4dcde2170f389ee7f0e0759c6.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ijscl.com/article_727173_b7951cc4dcde2170f389ee7f0e0759c6.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Pragmatic and Cultural Challenges in Machine Translationby H Al Sharoufi · 2025 · Cited by 3 — Pragmatics enables translators to capture...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: benjamins.com  
-   Link: <a href="https://benjamins.com/online/hot/articles/mac2?srsltid=AfmBOooGDYZbvHfbOKW174qDIWGY_uMmYIXv0qdsVVXgZsni_fu01n5S" target="_blank" rel="noopener noreferrer nofollow">https://benjamins.com/online/hot/articles/mac2?srsltid=AfmBOooGDYZbvHfbOKW174qDIWGY_uMmYIXv0qdsVVXgZsni_fu01n5S</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Killman: Machine translation and legal terminologyNov 10, 2023 — This chapter discusses what can be expected from data-driven ma...</p></details>
+   Link:<a href="https://benjamins.com/online/hot/articles/mac2?srsltid=AfmBOooGDYZbvHfbOKW174qDIWGY_uMmYIXv0qdsVVXgZsni_fu01n5S" target="_blank" rel="noopener noreferrer nofollow">https://benjamins.com/online/hot/articles/mac2?srsltid=AfmBOooGDYZbvHfbOKW174qDIWGY_uMmYIXv0qdsVVXgZsni_fu01n5S</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Killman: Machine translation and legal terminologyNov 10, 2023 — This chapter discusses what can be expected from data-driven ma...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: esiconf.org  
-   Link: <a href="https://esiconf.org/index.php/MESAS/article/download/3590/3377/6736" target="_blank" rel="noopener noreferrer nofollow">https://esiconf.org/index.php/MESAS/article/download/3590/3377/6736</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Terminology translation in specialized fields (medical, legal...ANNOTATION: This paper explores the challenges of terminology translatio...</p></details>
+   Link:<a href="https://esiconf.org/index.php/MESAS/article/download/3590/3377/6736" target="_blank" rel="noopener noreferrer nofollow">https://esiconf.org/index.php/MESAS/article/download/3590/3377/6736</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Terminology translation in specialized fields (medical, legal...ANNOTATION: This paper explores the challenges of terminology translatio...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: itcglobaltranslations.com  
-   Link: <a href="https://www.itcglobaltranslations.com/blog/from-diagnosis-to-clinical-trials-understanding-ultra-specialization-in-medical-translation/" target="_blank" rel="noopener noreferrer nofollow">https://www.itcglobaltranslations.com/blog/from-diagnosis-to-clinical-trials-understanding-ultra-specialization-in-medical-translation/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Ultra-specialized World of Medical Translation - ITC GlobalDec 18, 2025 — To translate a medical document for a particular discipline...</p></details>
+   Link:<a href="https://www.itcglobaltranslations.com/blog/from-diagnosis-to-clinical-trials-understanding-ultra-specialization-in-medical-translation/" target="_blank" rel="noopener noreferrer nofollow">https://www.itcglobaltranslations.com/blog/from-diagnosis-to-clinical-trials-understanding-ultra-specialization-in-medical-translation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Ultra-specialized World of Medical Translation - ITC GlobalDec 18, 2025 — To translate a medical document for a particular discipline...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: slator.com  
    Title: research attempts to bring literary machine translation closer to human quality  
-   Link: <a href="https://slator.com/research-attempts-to-bring-literary-machine-translation-closer-to-human-quality/" target="_blank" rel="noopener noreferrer nofollow">https://slator.com/research-attempts-to-bring-literary-machine-translation-closer-to-human-quality/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Research Attempts to Bring Literary Machine Translation...Sep 9, 2024 — Researchers from Aalborg University and the University of Gronin...</p></details>
+   Link:<a href="https://slator.com/research-attempts-to-bring-literary-machine-translation-closer-to-human-quality/" target="_blank" rel="noopener noreferrer nofollow">https://slator.com/research-attempts-to-bring-literary-machine-translation-closer-to-human-quality/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Research Attempts to Bring Literary Machine Translation...Sep 9, 2024 — Researchers from Aalborg University and the University of Gronin...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: translata.eu  
    Title: the cultural nuances ai cant capture why human translators are irreplaceable  
-   Link: <a href="https://www.translata.eu/blog/the-cultural-nuances-ai-cant-capture-why-human-translators-are-irreplaceable" target="_blank" rel="noopener noreferrer nofollow">https://www.translata.eu/blog/the-cultural-nuances-ai-cant-capture-why-human-translators-are-irreplaceable</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Cultural Nuances AI Can&#x27;t Capture: Why Human...Aug 22, 2024 — Machine translation might handle basic vocabulary and grammar, but it...</p></details>
+   Link:<a href="https://www.translata.eu/blog/the-cultural-nuances-ai-cant-capture-why-human-translators-are-irreplaceable" target="_blank" rel="noopener noreferrer nofollow">https://www.translata.eu/blog/the-cultural-nuances-ai-cant-capture-why-human-translators-are-irreplaceable</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Cultural Nuances AI Can&#x27;t Capture: Why Human...Aug 22, 2024 — Machine translation might handle basic vocabulary and grammar, but it...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/391050023_Cultural_Nuances_in_Translation_AI_vs_Human_Translators" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/391050023_Cultural_Nuances_in_Translation_AI_vs_Human_Translators</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Cultural Nuances in Translation: AI vs Human TranslatorsApr 23, 2025 — One of the primary limitations of machine translation...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/391050023_Cultural_Nuances_in_Translation_AI_vs_Human_Translators" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/391050023_Cultural_Nuances_in_Translation_AI_vs_Human_Translators</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Cultural Nuances in Translation: AI vs Human TranslatorsApr 23, 2025 — One of the primary limitations of machine translation...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: translated.com  
-   Link: <a href="https://translated.com/resources/the-impact-of-cultural-nuances-on-machine-translation" target="_blank" rel="noopener noreferrer nofollow">https://translated.com/resources/the-impact-of-cultural-nuances-on-machine-translation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of Cultural Nuances on Machine TranslationDiscover how cultural nuances impact machine translation and why a human-in-the-loop...</p></details>
+   Link:<a href="https://translated.com/resources/the-impact-of-cultural-nuances-on-machine-translation" target="_blank" rel="noopener noreferrer nofollow">https://translated.com/resources/the-impact-of-cultural-nuances-on-machine-translation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Impact of Cultural Nuances on Machine TranslationDiscover how cultural nuances impact machine translation and why a human-in-the-loop...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: researchgate.net  
    Title: 318748442 Automated MT evaluation metrics and their limitations  
-   Link: <a href="https://www.researchgate.net/publication/318748442_Automated_MT_evaluation_metrics_and_their_limitations" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/318748442_Automated_MT_evaluation_metrics_and_their_limitations</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Automated MT evaluation metrics and their limitationsMar 7, 2026 — This paper gives a general overview of the main classes of metho...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/318748442_Automated_MT_evaluation_metrics_and_their_limitations" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/318748442_Automated_MT_evaluation_metrics_and_their_limitations</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Automated MT evaluation metrics and their limitationsMar 7, 2026 — This paper gives a general overview of the main classes of metho...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/330998210_A_Comparative_Evaluation_of_Phrase-Based_SMT_and_Neural_Machine_Translation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/330998210_A_Comparative_Evaluation_of_Phrase-Based_SMT_and_Neural_Machine_Translation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>translation (PBSMT) and neural machine translation (NMT) for four language...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/330998210_A_Comparative_Evaluation_of_Phrase-Based_SMT_and_Neural_Machine_Translation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/330998210_A_Comparative_Evaluation_of_Phrase-Based_SMT_and_Neural_Machine_Translation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>translation (PBSMT) and neural machine translation (NMT) for four language...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1609.08144" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1609.08144</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[1609.08144] Google&#x27;s Neural Machine Translation Systemby Y Wu · 2016 · Cited by 10661 — In this work, we present GNMT, Google&#x27;s Neural M...</p></details>
+   Link:<a href="https://arxiv.org/abs/1609.08144" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1609.08144</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[1609.08144] Google&#x27;s Neural Machine Translation Systemby Y Wu · 2016 · Cited by 10661 — In this work, we present GNMT, Google&#x27;s Neural M...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: phrase.com  
    Title: neural machine translation  
-   Link: <a href="https://phrase.com/blog/posts/neural-machine-translation/" target="_blank" rel="noopener noreferrer nofollow">https://phrase.com/blog/posts/neural-machine-translation/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What Lies Ahead?25 Feb 2026 — NMT is especially effective at translations that require high neural network accuracy but are also very rep...</p></details>
+   Link:<a href="https://phrase.com/blog/posts/neural-machine-translation/" target="_blank" rel="noopener noreferrer nofollow">https://phrase.com/blog/posts/neural-machine-translation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What Lies Ahead?25 Feb 2026 — NMT is especially effective at translations that require high neural network accuracy but are also very rep...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: research.google  
    Title: When it  
-   Link: <a href="https://research.google/blog/a-neural-network-for-machine-translation-at-[production" target="_blank" rel="noopener noreferrer nofollow">https://research.google/blog/a-neural-network-for-machine-translation-at-[production</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchA Neural Network for Machine Translation, at Production...27 Sept 2016 — The advantage of this approach is that it requir...</p></details>
+   Link:<a href="https://research.google/blog/a-neural-network-for-machine-translation-at-[production" target="_blank" rel="noopener noreferrer nofollow">https://research.google/blog/a-neural-network-for-machine-translation-at-[production</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchA Neural Network for Machine Translation, at Production...27 Sept 2016 — The advantage of this approach is that it requir...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: aclanthology.org  
    Title: phrase-based SMT outputs,  
-   Link: <a href="https://aclanthology.org/D16-1025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/D16-1025.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyNeural versus Phrase-Based Machine Translation Qualityby L Bentivogli · 2016 · Cited by 599 — To understand in what respects...</p></details>
+   Link:<a href="https://aclanthology.org/D16-1025.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/D16-1025.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyNeural versus Phrase-Based Machine Translation Qualityby L Bentivogli · 2016 · Cited by 599 — To understand in what respects...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/technology/2026/may/08/being-human-helps-despite-rise-of-ai-is-there-still-hope-for-europes-translators" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2026/may/08/being-human-helps-despite-rise-of-ai-is-there-still-hope-for-europes-translators</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The article discusses the growing concerns among European translators about job security and income due to the rise of AI, especially pos...</p></details>
+   Link:<a href="https://www.theguardian.com/technology/2026/may/08/being-human-helps-despite-rise-of-ai-is-there-still-hope-for-europes-translators" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2026/may/08/being-human-helps-despite-rise-of-ai-is-there-still-hope-for-europes-translators</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The article discusses the growing concerns among European translators about job security and income due to the rise of AI, especially pos...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/books/2024/apr/16/survey-finds-generative-ai-proving-major-threat-to-the-work-of-translators" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/books/2024/apr/16/survey-finds-generative-ai-proving-major-threat-to-the-work-of-translators</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Additionally, over 75% anticipate that AI will negatively impact their future earnings. The survey, conducted in January, indicates that...</p></details>
+   Link:<a href="https://www.theguardian.com/books/2024/apr/16/survey-finds-generative-ai-proving-major-threat-to-the-work-of-translators" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/books/2024/apr/16/survey-finds-generative-ai-proving-major-threat-to-the-work-of-translators</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Additionally, over 75% anticipate that AI will negatively impact their future earnings. The survey, conducted in January, indicates that...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: aclanthology.org  
    Title: 2025.wmt 1.7  
-   Link: <a href="https://aclanthology.org/2025.wmt-1.7.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2025.wmt-1.7.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These form the basis for both ma- chine output and human review. Our specification.Read more...</p></details>
+   Link:<a href="https://aclanthology.org/2025.wmt-1.7.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2025.wmt-1.7.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These form the basis for both ma- chine output and human review. Our specification.Read more...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10958410/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10958410/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>intelligence and human translation: A contrastive...by AM Moneus · 2024 · Cited by 193 — Machine translation, which uses artificial inte...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10958410/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC10958410/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>intelligence and human translation: A contrastive...by AM Moneus · 2024 · Cited by 193 — Machine translation, which uses artificial inte...</p></details>
 
 ### Additional References
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: rossion.com  
-   Link: <a href="https://rossion.com/the-human-touch-in-translation-beyond-technology/" target="_blank" rel="noopener noreferrer nofollow">https://rossion.com/the-human-touch-in-translation-beyond-technology/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Human Touch in Translation: Beyond Technology | RossionThis blog explores the limitations of machine translation and emphasizes the v...</p></details>
+   Link:<a href="https://rossion.com/the-human-touch-in-translation-beyond-technology/" target="_blank" rel="noopener noreferrer nofollow">https://rossion.com/the-human-touch-in-translation-beyond-technology/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Human Touch in Translation: Beyond Technology | RossionThis blog explores the limitations of machine translation and emphasizes the v...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: research.rug.nl  
-   Link: <a href="https://research.rug.nl/nl/publications/neural-versus-phrase-based-machine-translation-quality-a-case-stu/" target="_blank" rel="noopener noreferrer nofollow">https://research.rug.nl/nl/publications/neural-versus-phrase-based-machine-translation-quality-a-case-stu/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>versus phrase-based machine translation qualityTo understand in what respects NMT provides better translation quality than PBMT, we perfo...</p></details>
+   Link:<a href="https://research.rug.nl/nl/publications/neural-versus-phrase-based-machine-translation-quality-a-case-stu/" target="_blank" rel="noopener noreferrer nofollow">https://research.rug.nl/nl/publications/neural-versus-phrase-based-machine-translation-quality-a-case-stu/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>versus phrase-based machine translation qualityTo understand in what respects NMT provides better translation quality than PBMT, we perfo...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: nist.gov  
    Title: nist 2005 machine translation evaluation official results  
-   Link: <a href="https://www.nist.gov/itl/iad/mig/nist-2005-machine-translation-evaluation-official-results" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/iad/mig/nist-2005-machine-translation-evaluation-official-results</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Aug 29, 2024 — The NIST 2005 Machine Translation Evaluation (MT-05) was part of an ongoing series of evaluations of human language transl...</p></details>
+   Link:<a href="https://www.nist.gov/itl/iad/mig/nist-2005-machine-translation-evaluation-official-results" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/iad/mig/nist-2005-machine-translation-evaluation-official-results</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Aug 29, 2024 — The NIST 2005 Machine Translation Evaluation (MT-05) was part of an ongoing series of evaluations of human language transl...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: nist.gov  
    Title: nist 2008 open machine translation evaluation mt08  
-   Link: <a href="https://www.nist.gov/itl/iad/mig/nist-2008-open-machine-translation-evaluation-mt08" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/iad/mig/nist-2008-open-machine-translation-evaluation-mt08</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST 2008 Open Machine Translation Evaluation - (MT08)Aug 27, 2024 — The NIST 2008 Machine Translation Evaluation (MT-08) is part of an o...</p></details>
+   Link:<a href="https://www.nist.gov/itl/iad/mig/nist-2008-open-machine-translation-evaluation-mt08" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/iad/mig/nist-2008-open-machine-translation-evaluation-mt08</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST 2008 Open Machine Translation Evaluation - (MT08)Aug 27, 2024 — The NIST 2008 Machine Translation Evaluation (MT-08) is part of an o...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: jktranslate.com  
-   Link: <a href="https://jktranslate.com/en/the-risks-of-machine-translation-in-high-stakes-legal-documents-why-human-certification-matters/" target="_blank" rel="noopener noreferrer nofollow">https://jktranslate.com/en/the-risks-of-machine-translation-in-high-stakes-legal-documents-why-human-certification-matters/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ted legal texts contained critical errors in 38% of reviewed samples, ranging...Read more...</p></details>
+   Link:<a href="https://jktranslate.com/en/the-risks-of-machine-translation-in-high-stakes-legal-documents-why-human-certification-matters/" target="_blank" rel="noopener noreferrer nofollow">https://jktranslate.com/en/the-risks-of-machine-translation-in-high-stakes-legal-documents-why-human-certification-matters/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ted legal texts contained critical errors in 38% of reviewed samples, ranging...Read more...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: nist.gov  
    Title: open machine translation evaluation  
-   Link: <a href="https://www.nist.gov/itl/iad/mig/open-machine-translation-evaluation" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/iad/mig/open-machine-translation-evaluation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Dec 3, 2010 — The OpenMT evaluations are intended to be of interest to all researchers working on the general problem of automatic tr...</p></details>
+   Link:<a href="https://www.nist.gov/itl/iad/mig/open-machine-translation-evaluation" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/iad/mig/open-machine-translation-evaluation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Dec 3, 2010 — The OpenMT evaluations are intended to be of interest to all researchers working on the general problem of automatic tr...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: translatologia.ukf.sk  
    Title: analysis of human versus machine translation accuracy  
-   Link: <a href="https://www.translatologia.ukf.sk/2017/01/analysis-of-human-versus-machine-translation-accuracy/" target="_blank" rel="noopener noreferrer nofollow">https://www.translatologia.ukf.sk/2017/01/analysis-of-human-versus-machine-translation-accuracy/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>of human versus machine translation accuracyJan 4, 2017 — These results indicated that humans with at least a moderate level of exposure...</p></details>
+   Link:<a href="https://www.translatologia.ukf.sk/2017/01/analysis-of-human-versus-machine-translation-accuracy/" target="_blank" rel="noopener noreferrer nofollow">https://www.translatologia.ukf.sk/2017/01/analysis-of-human-versus-machine-translation-accuracy/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>of human versus machine translation accuracyJan 4, 2017 — These results indicated that humans with at least a moderate level of exposure...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: scispace.com  
-   Link: <a href="https://scispace.com/pdf/quality-evaluation-of-c-e-translation-of-legal-texts-by-1jp6dvdm.pdf" target="_blank" rel="noopener noreferrer nofollow">https://scispace.com/pdf/quality-evaluation-of-c-e-translation-of-legal-texts-by-1jp6dvdm.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>text translation tasks were accomplished using two popular neural machine...</p></details>
+   Link:<a href="https://scispace.com/pdf/quality-evaluation-of-c-e-translation-of-legal-texts-by-1jp6dvdm.pdf" target="_blank" rel="noopener noreferrer nofollow">https://scispace.com/pdf/quality-evaluation-of-c-e-translation-of-legal-texts-by-1jp6dvdm.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>text translation tasks were accomplished using two popular neural machine...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: prolingoeditors.com  
    Title: limitations ai translation cultural relevance  
-   Link: <a href="https://www.prolingoeditors.com/limitations-ai-translation-cultural-relevance" target="_blank" rel="noopener noreferrer nofollow">https://www.prolingoeditors.com/limitations-ai-translation-cultural-relevance</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Human Nuance Still Reigns Supreme in TranslationApr 26, 2025 — This post delves into the limitations of AI-assisted translation and u...</p></details>
+   Link:<a href="https://www.prolingoeditors.com/limitations-ai-translation-cultural-relevance" target="_blank" rel="noopener noreferrer nofollow">https://www.prolingoeditors.com/limitations-ai-translation-cultural-relevance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Human Nuance Still Reigns Supreme in TranslationApr 26, 2025 — This post delves into the limitations of AI-assisted translation and u...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: youtube.com  
    Title: The Human Factor in Machine Translation and Post-editing 1  
-   Link: <a href="https://www.youtube.com/watch?v=LoeUC63t2Xg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=LoeUC63t2Xg</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Human Review Still Matters in Professional Translation - YouTube CA Translation · 47 views...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=LoeUC63t2Xg" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=LoeUC63t2Xg</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Human Review Still Matters in Professional Translation - YouTube CA Translation · 47 views...</p></details>

@@ -273,7 +273,7 @@ One of the most deceptive [failure modes]({{ 'failure-modes/' | relative_url }})
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_stale_documen_33f867-Illustration-1-dark.svg" | relative_url }}" alt="Stale Docs illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_stale_documen_33f867-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_stale_documen_33f867-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This distinction matters for [production]({{ 'retrieval-failures/' | relative_url }}) AI systems. Modern retrieval-augmented generation (RAG) architectures are designed to ground answers in company documents rather than relying solely on model training. Yet if retrieval surfaces an outdated policy, superseded procedure or copied file, the AI can produce a polished, evidence-backed answer that appears trustworthy while being operationally wrong. Enterprise AI therefore inherits the quality, ownership and lifecycle problems of the documents it depends on. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2amicited.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Vector Databases for RAG &#124; IBM</span><span class="citation-popover-snippet">Vector Databases for RAG &#124; IBM...</span></span></span>
+This distinction matters for [production]({{ 'retrieval-failures/' | relative_url }}) AI systems. Modern retrieval-augmented generation (RAG) architectures are designed to ground answers in company documents rather than relying solely on model training. Yet if retrieval surfaces an outdated policy, superseded procedure or copied file, the AI can produce a polished, evidence-backed answer that appears trustworthy while being operationally wrong. Enterprise AI therefore inherits the quality, ownership and lifecycle problems of the documents it depends on.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2amicited.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Vector Databases for RAG &#124; IBM</span><span class="citation-popover-snippet">Vector Databases for RAG &#124; IBM...</span></span></span>
 
 ## Why stale information is harder to spot than hallucination
 
@@ -295,7 +295,7 @@ This creates a dangerous situation:
 
 Yet the underlying guidance is obsolete.
 
-Researchers and practitioners describe this as a freshness problem: knowledge bases change continuously while indexes, embeddings and retrieval layers may lag behind those changes. Without active freshness management, systems can confidently serve information that was once correct but is no longer current. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.amicited.com/faq/how-do-rag-systems-handle-outdated-information/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: amicited.com">[amicited.com+2Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">amicited.com</span><span class="citation-popover-title">How Do RAG Systems Handle Outdated Information? &#124; Am I Cited</span><span class="citation-popover-snippet">How Do RAG Systems Handle Outdated Information? &#124; Am I Cited</span></span></span>
+Researchers and practitioners describe this as a freshness problem: knowledge bases change continuously while indexes, embeddings and retrieval layers may lag behind those changes. Without active freshness management, systems can confidently serve information that was once correct but is no longer current.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.amicited.com/faq/how-do-rag-systems-handle-outdated-information/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: amicited.com">[amicited.com+2Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">amicited.com</span><span class="citation-popover-title">How Do RAG Systems Handle Outdated Information? &#124; Am I Cited</span><span class="citation-popover-snippet">How Do RAG Systems Handle Outdated Information? &#124; Am I Cited</span></span></span>
 
 The result is often more convincing than a hallucination. A fabricated answer may raise suspicion. An answer supported by an old employee handbook or retired compliance procedure often does not.
 
@@ -321,7 +321,7 @@ The AI retrieval layer encounters several competing versions of the same truth:
 
 </div>
 
-From a retrieval perspective, all of these documents may appear relevant. Semantic search is designed to find related content, not necessarily the newest or most authoritative content. If metadata is incomplete or inconsistent, the retrieval engine can struggle to distinguish an approved source from an abandoned copy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2TECHCOMMUNITY.MICROSOFT.COM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Vector Databases for RAG &#124; IBM</span><span class="citation-popover-snippet">Vector Databases for RAG &#124; IBM...</span></span></span>
+From a retrieval perspective, all of these documents may appear relevant. Semantic search is designed to find related content, not necessarily the newest or most authoritative content. If metadata is incomplete or inconsistent, the retrieval engine can struggle to distinguish an approved source from an abandoned copy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2TECHCOMMUNITY.MICROSOFT.COM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Vector Databases for RAG &#124; IBM</span><span class="citation-popover-snippet">Vector Databases for RAG &#124; IBM...</span></span></span>
 
 This phenomenon is often called version drift: different systems slowly diverge from one another until no single answer can be trusted automatically.
 
@@ -347,21 +347,21 @@ Many organisations assume that connecting AI to live documents automatically sol
 
 ### Indexing delays
 
-A source document may be updated immediately, but the search index or vector database may not refresh at the same pace. Users can therefore receive answers based on yesterday's version despite today's revision being available elsewhere. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.amicited.com/faq/how-do-rag-systems-handle-outdated-information/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: amicited.com">[amicited.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">amicited.com</span><span class="citation-popover-title">How Do RAG Systems Handle Outdated Information? &#124; Am I Cited</span><span class="citation-popover-snippet">How Do RAG Systems Handle Outdated Information? &#124; Am I Cited</span></span></span>
+A source document may be updated immediately, but the search index or vector database may not refresh at the same pace. Users can therefore receive answers based on yesterday's version despite today's revision being available elsewhere.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.amicited.com/faq/how-do-rag-systems-handle-outdated-information/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: amicited.com">[amicited.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">amicited.com</span><span class="citation-popover-title">How Do RAG Systems Handle Outdated Information? &#124; Am I Cited</span><span class="citation-popover-snippet">How Do RAG Systems Handle Outdated Information? &#124; Am I Cited</span></span></span>
 
 ### Duplicate content
 
-Multiple copies of the same document often enter the knowledge base. Retrieval systems may surface whichever copy scores highest for relevance rather than whichever copy is most recent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/enterprise-llm-knowledge-base/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">Enterprise LLM Knowledge Base: Architecture and Governance Guide</span><span class="citation-popover-snippet">Enterprise LLM Knowledge Base: Architecture and Governance Guide...</span></span></span>
+Multiple copies of the same document often enter the knowledge base. Retrieval systems may surface whichever copy scores highest for relevance rather than whichever copy is most recent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/enterprise-llm-knowledge-base/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">Enterprise LLM Knowledge Base: Architecture and Governance Guide</span><span class="citation-popover-snippet">Enterprise LLM Knowledge Base: Architecture and Governance Guide...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_stale_documen_33f867-Illustration-2-dark.svg" | relative_url }}" alt="Stale Docs illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_stale_documen_33f867-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_stale_documen_33f867-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Missing metadata
 
-Without reliable timestamps, ownership records or version identifiers, the system has little basis for preferring one document over another. Data [provenance]({{ 'provenance/' | relative_url }})—the documented history of where information came from and how it changed—becomes difficult to reconstruct. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/enhanced-data-provenance-transparency" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">How IBM is gaining operational efficiency through enhanced data provenance transparency...</span></span></span>
+Without reliable timestamps, ownership records or version identifiers, the system has little basis for preferring one document over another. Data [provenance]({{ 'provenance/' | relative_url }})—the documented history of where information came from and how it changed—becomes difficult to reconstruct.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/insights/enhanced-data-provenance-transparency" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">How IBM is gaining operational efficiency through enhanced data provenance transparency...</span></span></span>
 
 ### Semantic similarity over authority
 
-Vector search is designed to find meaning rather than governance status. An obsolete procedure can rank highly because its language closely matches the user's question. The retrieval engine may not know that the document was superseded. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Vector Databases for RAG &#124; IBM</span><span class="citation-popover-snippet">Vector Databases for RAG &#124; IBM...</span></span></span>
+Vector search is designed to find meaning rather than governance status. An obsolete procedure can rank highly because its language closely matches the user's question. The retrieval engine may not know that the document was superseded.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Vector Databases for RAG &#124; IBM</span><span class="citation-popover-snippet">Vector Databases for RAG &#124; IBM...</span></span></span>
 
 These are not model failures. They are information-management failures expressed through AI.
 
@@ -382,7 +382,7 @@ The answer looks excellent. It cites a real document. It reflects an authentic p
 
 It is also wrong.
 
-This scenario illustrates why production AI governance increasingly focuses on retrieval quality, source authority and document lifecycle management rather than model capability alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: venturebeat.com">[Venturebeat+2Logistics Viewpoints]</a><span class="citation-popover" role="note"><span class="citation-popover-source">venturebeat.com</span><span class="citation-popover-title">Enterprises are measuring the wrong part of RAG &#124; Venture Beat</span><span class="citation-popover-snippet">Enterprises are measuring the wrong part of RAG &#124; VentureBeat...</span></span></span>
+This scenario illustrates why production AI governance increasingly focuses on retrieval quality, source authority and document lifecycle management rather than model capability alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: venturebeat.com">[Venturebeat+2Logistics Viewpoints]</a><span class="citation-popover" role="note"><span class="citation-popover-source">venturebeat.com</span><span class="citation-popover-title">Enterprises are measuring the wrong part of RAG &#124; Venture Beat</span><span class="citation-popover-snippet">Enterprises are measuring the wrong part of RAG &#124; VentureBeat...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/XZ2rqOlHNWQ" title="Eliminate AI Hallucinations: TIBCO BusinessWorks™ Plugin for AI (RAG Deep Dive)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=XZ2rqOlHNWQ" target="_blank" rel="noopener noreferrer">Eliminate AI Hallucinations: TIBCO BusinessWorks™ Plugin for AI (RAG Deep Dive)</a></p><p class="youtube-embed-meta">Channel: TIBCO</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=XZ2rqOlHNWQ" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=XZ2rqOlHNWQ">Open on YouTube</a></p></div></div></div>
@@ -397,25 +397,25 @@ Several controls are particularly important.
 
 Not all documents should be treated equally. Official policy repositories, approved knowledge bases and controlled document systems should outrank personal folders, email attachments and archived copies.
 
-The retrieval layer should understand authority, not just relevance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/enterprise-llm-knowledge-base/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">Enterprise LLM Knowledge Base: Architecture and Governance Guide</span><span class="citation-popover-snippet">Enterprise LLM Knowledge Base: Architecture and Governance Guide...</span></span></span>
+The retrieval layer should understand authority, not just relevance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/enterprise-llm-knowledge-base/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">Enterprise LLM Knowledge Base: Architecture and Governance Guide</span><span class="citation-popover-snippet">Enterprise LLM Knowledge Base: Architecture and Governance Guide...</span></span></span>
 
 ### Freshness-aware retrieval
 
-Document age alone is not enough, but retrieval systems can incorporate recency signals, update timestamps and re-certification dates into ranking [decisions]({{ 'decisions/' | relative_url }}). Some organisations explicitly score knowledge assets for freshness and ownership. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/llm-knowledge-base-staleness/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It</span><span class="citation-popover-snippet">LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It...</span></span></span>
+Document age alone is not enough, but retrieval systems can incorporate recency signals, update timestamps and re-certification dates into ranking [decisions]({{ 'decisions/' | relative_url }}). Some organisations explicitly score knowledge assets for freshness and ownership.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/llm-knowledge-base-staleness/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It</span><span class="citation-popover-snippet">LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_stale_documen_33f867-Illustration-3-dark.svg" | relative_url }}" alt="Stale Docs illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_stale_documen_33f867-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_data_readi_783258_stale_documen_33f867-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Provenance tracking
 
-Every retrieved answer should be traceable back to its source, ownership history and revision path. Provenance records help determine whether a document remains valid and who is responsible for maintaining it. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://csrc.nist.gov/glossary/term/provenance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: csrc.nist.gov">[NIST Computer Security Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">csrc.nist.gov</span><span class="citation-popover-title">Computer Security Resource Centerprovenance</span><span class="citation-popover-snippet">NIST Computer Security Resource Centerprovenance - Glossary &#124; CSRC...</span></span></span>
+Every retrieved answer should be traceable back to its source, ownership history and revision path. Provenance records help determine whether a document remains valid and who is responsible for maintaining it.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://csrc.nist.gov/glossary/term/provenance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: csrc.nist.gov">[NIST Computer Security Resource Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">csrc.nist.gov</span><span class="citation-popover-title">Computer Security Resource Centerprovenance</span><span class="citation-popover-snippet">NIST Computer Security Resource Centerprovenance - Glossary &#124; CSRC...</span></span></span>
 
 ### Automated re-indexing
 
-When a source changes, dependent indexes and embeddings should be refreshed automatically rather than waiting for periodic batch updates. This reduces the window during which obsolete information remains visible. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/llm-knowledge-base-staleness/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It</span><span class="citation-popover-snippet">LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It...</span></span></span>
+When a source changes, dependent indexes and embeddings should be refreshed automatically rather than waiting for periodic batch updates. This reduces the window during which obsolete information remains visible.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/llm-knowledge-base-staleness/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It</span><span class="citation-popover-snippet">LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It...</span></span></span>
 
 ### Expiry and certification policies
 
-High-risk documents can be assigned review dates. If ownership lapses or certification expires, the retrieval system can reduce ranking priority or exclude the document entirely until it is reviewed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/enterprise-llm-knowledge-base/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">Enterprise LLM Knowledge Base: Architecture and Governance Guide</span><span class="citation-popover-snippet">Enterprise LLM Knowledge Base: Architecture and Governance Guide...</span></span></span>
+High-risk documents can be assigned review dates. If ownership lapses or certification expires, the retrieval system can reduce ranking priority or exclude the document entirely until it is reviewed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://atlan.com/know/enterprise-llm-knowledge-base/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: atlan.com">[Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">atlan.com</span><span class="citation-popover-title">Enterprise LLM Knowledge Base: Architecture and Governance Guide</span><span class="citation-popover-snippet">Enterprise LLM Knowledge Base: Architecture and Governance Guide...</span></span></span>
 
 ## The deeper lesson for understanding artificial intelligence
 
@@ -423,201 +423,201 @@ Stale-document failures reveal an important truth about enterprise AI: grounding
 
 A retrieval system can successfully find evidence. A language model can faithfully summarise that evidence. The answer can be coherent, cited and persuasive. Yet the result can still be wrong because the underlying information has aged out of reality.
 
-As organisations move from AI pilots to production systems, freshness becomes a governance problem rather than a modelling problem. The challenge is not merely helping AI find documents. It is ensuring that the documents it finds remain the documents the organisation wants trusted today. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Vector Databases for RAG &#124; IBM</span><span class="citation-popover-snippet">Vector Databases for RAG &#124; IBM...</span></span></span>
+As organisations move from AI pilots to production systems, freshness becomes a governance problem rather than a modelling problem. The challenge is not merely helping AI find documents. It is ensuring that the documents it finds remain the documents the organisation wants trusted today.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM+2Atlan]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-title">Vector Databases for RAG &#124; IBM</span><span class="citation-popover-snippet">Vector Databases for RAG &#124; IBM...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/XzCghEm3fH0" title="Why Retrieval-Augmented Generation (RAG) Matters in Modern AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=XzCghEm3fH0" target="_blank" rel="noopener noreferrer">Why Retrieval-Augmented Generation (RAG) Matters in Modern AI</a></p><p class="youtube-embed-meta">Channel: CodeCraft Academy</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=XzCghEm3fH0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=XzCghEm3fH0">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When AI trusts the wrong document. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When AI trusts the wrong document. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Governance on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=jknZwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Data Governance" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Governance">Data Governance</a>
-        </h4>
-        <p class="fr-book-author">By John Ladley</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Governance on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=jknZwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Data Governance" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Governance">Data Governance</a>
+</h4>
+<p class="fr-book-author">By John Ladley</p>
         
-        <p class="fr-book-desc">Directly relevant to document ownership, lifecycle control and source authority.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly relevant to document ownership, lifecycle control and source authority.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Data+Governance+by+John+Ladley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
-        </h4>
-        <p class="fr-book-author">By Chip Huyen</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
+</h4>
+<p class="fr-book-author">By Chip Huyen</p>
         
-        <p class="fr-book-desc">Covers production AI systems and data quality challenges.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers production AI systems and data quality challenges.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Data Governance Imperative on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kEEVHPvVyfsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Data Governance Imperative" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Data Governance Imperative">The Data Governance Imperative</a>
-        </h4>
-        <p class="fr-book-author">By Steve Sarsfield</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Data Governance Imperative on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=kEEVHPvVyfsC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Data Governance Imperative" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Data Governance Imperative">The Data Governance Imperative</a>
+</h4>
+<p class="fr-book-author">By Steve Sarsfield</p>
         
-        <p class="fr-book-desc">Explains controls that prevent outdated information from remaining authoritative.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains controls that prevent outdated information from remaining authoritative.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Data+Governance+Imperative+by+Steve+Sarsfield&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Addresses digital operating models dependent on trusted information.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses digital operating models dependent on trusted information.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Governance&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Governance</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Data+Governance+Imperative&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Data Governance Imperative</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Governance&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Governance</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Data+Governance+Imperative&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Data Governance Imperative</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust The Process Algorithmic Data Science Design T-Shirt"><img src="{{ '/assets/images/marketplace-covers/2deb0ec9dd209ad0b99b.jpg' | relative_url }}" alt="Listing image for Trust The Process Algorithmic Data Science Design T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust The Process Algorithmic Data Science Design T-Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift"><img src="{{ '/assets/images/marketplace-covers/5898d351e2806da9dc74.jpg' | relative_url }}" alt="Listing image for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift"><img src="{{ '/assets/images/marketplace-covers/5898d351e2806da9dc74.jpg' | relative_url }}" alt="Listing image for Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Drives Decisions Mens T-Shirt Data Science Technology Fathers Day Gift</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A"><img src="{{ '/assets/images/marketplace-covers/874527dbab6343be07db.jpg' | relative_url }}" alt="Listing image for Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Data Is Greater Than Opinion Data Analyst Science Mens T Shirts #P1#Or#A</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee"><img src="{{ '/assets/images/marketplace-covers/f21c0673c92a0935dcd5.jpg' | relative_url }}" alt="Listing image for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee"><img src="{{ '/assets/images/marketplace-covers/f21c0673c92a0935dcd5.jpg' | relative_url }}" alt="Listing image for I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Anal Analytics T-Shirt Unisex Funny Data Science Cartoon Graphic Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for data science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: data science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=data+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="data science t shirt" data-ebay-reference="stale-docs-when-ai-trusts-the-wrong-document-understanding-data-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -633,7 +633,7 @@ As organisations move from AI pilots to production systems, freshness becomes a 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -653,7 +653,7 @@ As organisations move from AI pilots to production systems, freshness becomes a 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -685,7 +685,7 @@ As organisations move from AI pilots to production systems, freshness becomes a 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -737,7 +737,7 @@ As organisations move from AI pilots to production systems, freshness becomes a 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -782,7 +782,7 @@ As organisations move from AI pilots to production systems, freshness becomes a 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -823,146 +823,146 @@ As organisations move from AI pilots to production systems, freshness becomes a 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ibm.com  
    Title: Vector Databases for RAG | IBM  
-   Link: <a href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/rag-vector-database</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Vector Databases for RAG | IBM...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/rag-vector-database" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/rag-vector-database</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Vector Databases for RAG | IBM...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: amicited.com  
    Title: How Do RAG Systems Handle Outdated Information? | Am I Cited  
-   Link: <a href="https://www.amicited.com/faq/how-do-rag-systems-handle-outdated-information/" target="_blank" rel="noopener noreferrer nofollow">https://www.amicited.com/faq/how-do-rag-systems-handle-outdated-information/</a>  
+   Link:<a href="https://www.amicited.com/faq/how-do-rag-systems-handle-outdated-information/" target="_blank" rel="noopener noreferrer nofollow">https://www.amicited.com/faq/how-do-rag-systems-handle-outdated-information/</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: atlan.com  
    Title: Enterprise LLM Knowledge Base: Architecture and Governance Guide  
-   Link: <a href="https://atlan.com/know/enterprise-llm-knowledge-base/" target="_blank" rel="noopener noreferrer nofollow">https://atlan.com/know/enterprise-llm-knowledge-base/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise LLM Knowledge Base: Architecture and Governance Guide...</p></details>
+   Link:<a href="https://atlan.com/know/enterprise-llm-knowledge-base/" target="_blank" rel="noopener noreferrer nofollow">https://atlan.com/know/enterprise-llm-knowledge-base/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprise LLM Knowledge Base: Architecture and Governance Guide...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: atlan.com  
    Title: LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It  
-   Link: <a href="https://atlan.com/know/llm-knowledge-base-staleness/" target="_blank" rel="noopener noreferrer nofollow">https://atlan.com/know/llm-knowledge-base-staleness/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It...</p></details>
+   Link:<a href="https://atlan.com/know/llm-knowledge-base-staleness/" target="_blank" rel="noopener noreferrer nofollow">https://atlan.com/know/llm-knowledge-base-staleness/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Knowledge Base Staleness: Scoring, Causes, and How to Fix It...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: venturebeat.com  
    Title: Enterprises are measuring the wrong part of RAG | Venture Beat  
-   Link: <a href="https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag" target="_blank" rel="noopener noreferrer nofollow">https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprises are measuring the wrong part of RAG | VentureBeat...</p></details>
+   Link:<a href="https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag" target="_blank" rel="noopener noreferrer nofollow">https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Enterprises are measuring the wrong part of RAG | VentureBeat...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: techcommunity.microsoft.com  
-   Link: <a href="https://techcommunity.microsoft.com/blog/microsoftmissioncriticalblog/azure-openai-architecture-the-decisions-that-actually-matter-part-1/4525976" target="_blank" rel="noopener noreferrer nofollow">https://techcommunity.microsoft.com/blog/microsoftmissioncriticalblog/azure-openai-architecture-the-decisions-that-actually-matter-part-1/4525976</a>  
+   Link:<a href="https://techcommunity.microsoft.com/blog/microsoftmissioncriticalblog/azure-openai-architecture-the-decisions-that-actually-matter-part-1/4525976" target="_blank" rel="noopener noreferrer nofollow">https://techcommunity.microsoft.com/blog/microsoftmissioncriticalblog/azure-openai-architecture-the-decisions-that-actually-matter-part-1/4525976</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/insights/enhanced-data-provenance-transparency" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/insights/enhanced-data-provenance-transparency</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How IBM is gaining operational efficiency through enhanced data provenance transparency...</p></details>
+   Link:<a href="https://www.ibm.com/think/insights/enhanced-data-provenance-transparency" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/insights/enhanced-data-provenance-transparency</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How IBM is gaining operational efficiency through enhanced data provenance transparency...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: csrc.nist.gov  
    Title: Computer Security Resource Centerprovenance  
-   Link: <a href="https://csrc.nist.gov/glossary/term/provenance" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/glossary/term/provenance</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Computer Security Resource Centerprovenance - Glossary | CSRC...</p></details>
+   Link:<a href="https://csrc.nist.gov/glossary/term/provenance" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/glossary/term/provenance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST Computer Security Resource Centerprovenance - Glossary | CSRC...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: learn.microsoft.com  
    Title: RA G and [Generative AI](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;)  
-   Link: <a href="https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>RAG and Generative AI - Azure AI Search | Microsoft LearnJanuary 15, 2026...</p></details>
+   Link:<a href="https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>RAG and Generative AI - Azure AI Search | Microsoft LearnJanuary 15, 2026...</p></details>
    Published: January 15, 2026  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: learn.microsoft.com  
    Title: Using your data with Azure Open AI in Microsoft Foundry Models  
-   Link: <a href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data?tabs=rest" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data?tabs=rest</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Using your data with Azure OpenAI in Microsoft Foundry Models - Azure OpenAI | Microsoft LearnDecember 2, 2025...</p></details>
+   Link:<a href="https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data?tabs=rest" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/use-your-data?tabs=rest</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Using your data with Azure OpenAI in Microsoft Foundry Models - Azure OpenAI | Microsoft LearnDecember 2, 2025...</p></details>
    Published: December 2, 2025  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: learn.microsoft.com  
    Title: Design a Secure Multitenant RAG Inferencing Solution  
-   Link: <a href="https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/secure-multitenant-rag" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/secure-multitenant-rag</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Azure Architecture Center | Microsoft LearnOctober 3, 2025...</p></details>
+   Link:<a href="https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/secure-multitenant-rag" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/secure-multitenant-rag</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Azure Architecture Center | Microsoft LearnOctober 3, 2025...</p></details>
    Published: October 3, 2025  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: devblogs.microsoft.com  
    Title: Azure's approach to versioning and avoiding breaking changes  
-   Link: <a href="https://devblogs.microsoft.com/azure-sdk/azure-approach-to-versioning-and-avoiding-breaking-changes/" target="_blank" rel="noopener noreferrer nofollow">https://devblogs.microsoft.com/azure-sdk/azure-approach-to-versioning-and-avoiding-breaking-changes/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Azure SDK BlogMarch 6, 2023...</p></details>
+   Link:<a href="https://devblogs.microsoft.com/azure-sdk/azure-approach-to-versioning-and-avoiding-breaking-changes/" target="_blank" rel="noopener noreferrer nofollow">https://devblogs.microsoft.com/azure-sdk/azure-approach-to-versioning-and-avoiding-breaking-changes/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Azure SDK BlogMarch 6, 2023...</p></details>
    Published: March 6, 2023  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: ibm.com  
    Title: www.ibm.com What is Open Rag? | IBM  
-   Link: <a href="https://www.ibm.com/think/topics/openrag" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/openrag</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>is OpenRag? | IBM...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/openrag" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/openrag</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>is OpenRag? | IBM...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: logisticsviewpoints.com  
    Title: Logistics Viewpoints Why Enterprise AI Systems Fail: It’s Not RAG  
-   Link: <a href="https://logisticsviewpoints.com/2026/04/17/why-enterprise-ai-systems-fail-its-not-rag-its-context-control/" target="_blank" rel="noopener noreferrer nofollow">https://logisticsviewpoints.com/2026/04/17/why-enterprise-ai-systems-fail-its-not-rag-its-context-control/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Logistics ViewpointsWhy Enterprise AI Systems Fail: It’s Not RAG - It’s Context Control - Logistics Viewpoints...</p></details>
+   Link:<a href="https://logisticsviewpoints.com/2026/04/17/why-enterprise-ai-systems-fail-its-not-rag-its-context-control/" target="_blank" rel="noopener noreferrer nofollow">https://logisticsviewpoints.com/2026/04/17/why-enterprise-ai-systems-fail-its-not-rag-its-context-control/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Logistics ViewpointsWhy Enterprise AI Systems Fail: It’s Not RAG - It’s Context Control - Logistics Viewpoints...</p></details>
 
 ### Additional References
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/rag-is-dead-why-enterprises-are-shifting-to-agent-based-ai-architectures" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/rag-is-dead-why-enterprises-are-shifting-to-agent-based-ai-architectures</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Key security measures for successful implementation include robust authentication and authorization, real-time monitoring and alerting, a...</p></details>
+   Link:<a href="https://www.techradar.com/pro/rag-is-dead-why-enterprises-are-shifting-to-agent-based-ai-architectures" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/rag-is-dead-why-enterprises-are-shifting-to-agent-based-ai-architectures</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Key security measures for successful implementation include robust authentication and authorization, real-time monitoring and alerting, a...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/security/researchers-poison-their-own-data-when-stolen-by-an-ai-to-ruin-results" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/security/researchers-poison-their-own-data-when-stolen-by-an-ai-to-ruin-results</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>If an unauthorized party accesses the KG without a secret key, the AI will generate inaccurate or hallucinated responses. AURA renders st...</p></details>
+   Link:<a href="https://www.techradar.com/pro/security/researchers-poison-their-own-data-when-stolen-by-an-ai-to-ruin-results" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/security/researchers-poison-their-own-data-when-stolen-by-an-ai-to-ruin-results</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>If an unauthorized party accesses the KG without a secret key, the AI will generate inaccurate or hallucinated responses. AURA renders st...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: cioandleader.com  
    Title: CIO&Leader Enterprise AI Doesn't Fail on Models. It Fails on Meaning  
-   Link: <a href="https://www.cioandleader.com/enterprise-ai-doesnt-fail-on-models-it-fails-on-meaning/" target="_blank" rel="noopener noreferrer nofollow">https://www.cioandleader.com/enterprise-ai-doesnt-fail-on-models-it-fails-on-meaning/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>CIO&amp;LeaderEnterprise AI Doesn&#x27;t Fail on Models. It Fails on Meaning - CIO&amp;Leader...</p></details>
+   Link:<a href="https://www.cioandleader.com/enterprise-ai-doesnt-fail-on-models-it-fails-on-meaning/" target="_blank" rel="noopener noreferrer nofollow">https://www.cioandleader.com/enterprise-ai-doesnt-fail-on-models-it-fails-on-meaning/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CIO&amp;LeaderEnterprise AI Doesn&#x27;t Fail on Models. It Fails on Meaning - CIO&amp;Leader...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: youtube.com  
    Title: Eliminate AI [Hallucinations](&#123;&#123; 'hallucinations/' | relative_url &#125;&#125;): TIBCO Business Works™ Plugin for AI (RAG Deep Dive)  
-   Link: <a href="https://www.youtube.com/watch?v=XZ2rqOlHNWQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=XZ2rqOlHNWQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Stop Using RAG as Memory — Daniel Chalef, Zep...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=XZ2rqOlHNWQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=XZ2rqOlHNWQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Stop Using RAG as Memory — Daniel Chalef, Zep...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: youtube.com  
    Title: RAG Architecture Explained (In-Depth) | Gen AI Course  
-   Link: <a href="https://www.youtube.com/watch?v=KHIB02B8M8c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=KHIB02B8M8c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Retrieval-Augmented Generation (RAG) Matters in Modern AI...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=KHIB02B8M8c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=KHIB02B8M8c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Retrieval-Augmented Generation (RAG) Matters in Modern AI...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: youtube.com  
    Title: How RAG Actually Works — Connecting AI to Real Knowledge  
-   Link: <a href="https://www.youtube.com/watch?v=nFAG5sm1ibA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nFAG5sm1ibA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>RAG Architecture Explained (In-Depth) | Gen AI Course...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=nFAG5sm1ibA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=nFAG5sm1ibA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>RAG Architecture Explained (In-Depth) | Gen AI Course...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: denser.ai  
-   Link: <a href="https://denser.ai/blog/improve-ai-chatbot-accuracy/" target="_blank" rel="noopener noreferrer nofollow">https://denser.ai/blog/improve-ai-chatbot-accuracy/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>May 11, 2026...</p></details>
+   Link:<a href="https://denser.ai/blog/improve-ai-chatbot-accuracy/" target="_blank" rel="noopener noreferrer nofollow">https://denser.ai/blog/improve-ai-chatbot-accuracy/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>May 11, 2026...</p></details>
    Published: May 11, 2026  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: youtube.com  
    Title: Stop Using RAG as Memory — Daniel Chalef, Zep  
-   Link: <a href="https://www.youtube.com/watch?v=T5IMo5ntyhA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=T5IMo5ntyhA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How RAG Actually Works — Connecting AI to Real Knowledge...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=T5IMo5ntyhA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=T5IMo5ntyhA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How RAG Actually Works — Connecting AI to Real Knowledge...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: witness.ai  
    Title: What Is RAG Security? 7 Risks Hiding in Your AI Knowledge Base  
-   Link: <a href="https://witness.ai/blog/rag-security/" target="_blank" rel="noopener noreferrer nofollow">https://witness.ai/blog/rag-security/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>April 17, 2026...</p></details>
+   Link:<a href="https://witness.ai/blog/rag-security/" target="_blank" rel="noopener noreferrer nofollow">https://witness.ai/blog/rag-security/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>April 17, 2026...</p></details>
    Published: April 17, 2026  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: natoma.ai  
    Title: What Is Retrieval-Augmented Generation (RAG)? | Natoma  
-   Link: <a href="https://natoma.ai/glossary/what-is-retrieval-augmented-generation-rag" target="_blank" rel="noopener noreferrer nofollow">https://natoma.ai/glossary/what-is-retrieval-augmented-generation-rag</a>  
+   Link:<a href="https://natoma.ai/glossary/what-is-retrieval-augmented-generation-rag" target="_blank" rel="noopener noreferrer nofollow">https://natoma.ai/glossary/what-is-retrieval-augmented-generation-rag</a>  

@@ -327,7 +327,7 @@ image: /assets/images/understanding_3f90b8_ai_hallucinat_237932-overview-social.
 
 ## Introduction
 
-AI systems can be useful without being reliable in the way people often assume. A large language model can produce fluent, well-structured answers that are partly wrong, [unsupported]({{ 'unsupported-claims/' | relative_url }}), internally inconsistent or entirely invented. This problem is commonly called “hallucination”, though “confabulation” is often a better term because the system is not seeing things; it is generating plausible text from patterns. NIST defines the risk as [generative AI]({{ 'generative-ai/' | relative_url }}) producing confidently stated but false or erroneous content that may mislead users. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span>
+AI systems can be useful without being reliable in the way people often assume. A large language model can produce fluent, well-structured answers that are partly wrong, [unsupported]({{ 'unsupported-claims/' | relative_url }}), internally inconsistent or entirely invented. This problem is commonly called “hallucination”, though “confabulation” is often a better term because the system is not seeing things; it is generating plausible text from patterns. NIST defines the risk as [generative AI]({{ 'generative-ai/' | relative_url }}) producing confidently stated but false or erroneous content that may mislead users.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932-overview.webp" | relative_url }}" alt="Overview image for AI Errors" loading="eager" decoding="sync" fetchpriority="high">
@@ -335,7 +335,7 @@ The core danger is not merely that AI makes mistakes. People already expect soft
 
 ## How plausible details get invented
 
-A language model generates text by predicting likely continuations, not by consulting a built-in ledger of verified truths for every statement. That design can produce accurate summaries and explanations, but it can also produce names, dates, quotations, citations and causal explanations that merely fit the pattern of the answer. NIST notes that generative systems approximate the statistical distribution of their training data, which helps explain why outputs can be coherent while still being false or inconsistent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span>
+A language model generates text by predicting likely continuations, not by consulting a built-in ledger of verified truths for every statement. That design can produce accurate summaries and explanations, but it can also produce names, dates, quotations, citations and causal explanations that merely fit the pattern of the answer. NIST notes that generative systems approximate the statistical distribution of their training data, which helps explain why outputs can be coherent while still being false or inconsistent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span>
 
 A simple example is a model asked for a source. It may know the pattern of an academic citation: author names, paper title, journal, year, page range and digital object identifier. If it lacks reliable access to the actual source, it may still assemble a citation-shaped answer. The result can look more trustworthy than a vague answer because it contains the very details readers associate with verification.
 
@@ -351,7 +351,7 @@ This is why hallucinations often cluster around:
 
 </div>
 
-OpenAI researchers have argued that hallucinations persist partly because many training and evaluation systems reward guessing more than admitting uncertainty. If a test gives points for a correct answer but no credit for saying “I do not know”, models learn behaviour that resembles a student guessing under exam pressure. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.04664" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Why Language Models Hallucinate</span><span class="citation-popover-snippet">Why Language Models HallucinateSeptember 4, 2025...</span><span class="citation-popover-meta">Published: September 4, 2025</span></span></span>
+OpenAI researchers have argued that hallucinations persist partly because many training and evaluation systems reward guessing more than admitting uncertainty. If a test gives points for a correct answer but no credit for saying “I do not know”, models learn behaviour that resembles a student guessing under exam pressure.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2509.04664" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Why Language Models Hallucinate</span><span class="citation-popover-snippet">Why Language Models HallucinateSeptember 4, 2025...</span><span class="citation-popover-meta">Published: September 4, 2025</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932-Illustration-1-dark.svg" | relative_url }}" alt="AI Errors illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932-Illustration-1-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -359,17 +359,17 @@ OpenAI researchers have argued that hallucinations persist partly because many t
 
 Human readers often use fluency as a shortcut for competence. A confident paragraph with clean structure, careful caveats and technical vocabulary feels more credible than a hesitant one. Large language models exploit that expectation unintentionally: they are optimised to produce helpful-looking language, and helpful-looking language often sounds certain.
 
-That is why an AI answer can be unreliable even when it contains sensible reasoning steps. NIST warns that generative systems may produce confabulated logic or citations that appear to justify an answer, further encouraging users to trust it. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span> A chain of reasoning is not proof that the model checked the world; it may be another generated artefact.
+That is why an AI answer can be unreliable even when it contains sensible reasoning steps. NIST warns that generative systems may produce confabulated logic or citations that appear to justify an answer, further encouraging users to trust it.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span> A chain of reasoning is not proof that the model checked the world; it may be another generated artefact.
 
 The problem is especially awkward because the same behaviour that makes AI useful can make it risky. Users want direct answers, not endless hedging. Developers therefore tune systems to be responsive, polite and decisive. But the more an answer resembles a finished expert response, the easier it is to miss the places where the system has silently substituted likelihood for evidence.
 
 ## The legal cases made the failure visible
 
-Court filings have become one of the clearest public examples because legal citations are highly checkable. In *Mata v. Avianca*, lawyers submitted material that included non-existent judicial opinions with fake quotes and fake citations generated by an AI tool, leading to [sanctions]({{ 'sanctions/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.law.berkeley.edu/wp-content/uploads/archive/2025/12/Mata-v-Avianca-Inc.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.berkeley.edu">[UC Berkeley Law]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.berkeley.edu</span><span class="citation-popover-title">UC Berkeley Law Mata v</span><span class="citation-popover-snippet">Avianca, Inc., 678 F.Supp.3d 443 (2023)December 1, 2025 — After air carrier moved to dismiss, passengers&#x27; attorneys filed affirmation in...</span><span class="citation-popover-meta">Published: December 1, 2025</span></span></span> The case became a warning because the hallucinations were not vague mistakes: they had the form of real legal authority.
+Court filings have become one of the clearest public examples because legal citations are highly checkable. In *Mata v. Avianca*, lawyers submitted material that included non-existent judicial opinions with fake quotes and fake citations generated by an AI tool, leading to [sanctions]({{ 'sanctions/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.law.berkeley.edu/wp-content/uploads/archive/2025/12/Mata-v-Avianca-Inc.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.berkeley.edu">[UC Berkeley Law]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.berkeley.edu</span><span class="citation-popover-title">UC Berkeley Law Mata v</span><span class="citation-popover-snippet">Avianca, Inc., 678 F.Supp.3d 443 (2023)December 1, 2025 — After air carrier moved to dismiss, passengers&#x27; attorneys filed affirmation in...</span><span class="citation-popover-meta">Published: December 1, 2025</span></span></span> The case became a warning because the hallucinations were not vague mistakes: they had the form of real legal authority.
 
-The pattern did not stop there. Stanford researchers studying AI legal research tools reported that general-purpose chatbots hallucinated between 58% and 82% of the time on legal queries in an earlier study, while specialised legal tools still produced hallucinations in benchmarking despite being marketed as more grounded. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">ai trial legal models hallucinate 1 out 6 or more benchmarking queries</span><span class="citation-popover-snippet">Stanford HAIAI on Trial: Legal Models Hallucinate in 1 out of 6 (or More...23 May 2024 — Our previous study of general-purpose chatbots...</span><span class="citation-popover-meta">Published: May 2024</span></span></span>
+The pattern did not stop there. Stanford researchers studying AI legal research tools reported that general-purpose chatbots hallucinated between 58% and 82% of the time on legal queries in an earlier study, while specialised legal tools still produced hallucinations in benchmarking despite being marketed as more grounded.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-title">ai trial legal models hallucinate 1 out 6 or more benchmarking queries</span><span class="citation-popover-snippet">Stanford HAIAI on Trial: Legal Models Hallucinate in 1 out of 6 (or More...23 May 2024 — Our previous study of general-purpose chatbots...</span><span class="citation-popover-meta">Published: May 2024</span></span></span>
 
-The UK has seen similar concerns. In 2025, the High Court warned legal professionals after fake case-law citations appeared in proceedings, including one case in which 18 of 45 cited cases were reportedly fictitious. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2025/jun/06/high-court-tells-uk-lawyers-to-urgently-stop-misuse-of-ai-in-legal-work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">In response, Dame Victoria Sharp, president of the King&#x27;s Bench Division, emphasized the threat to the justice system and stated that leg...</span></span></span> These incidents show why “the user should check” is not a complete safeguard. Busy professionals can be fooled by outputs that look like the kind of material they already handle every day.
+The UK has seen similar concerns. In 2025, the High Court warned legal professionals after fake case-law citations appeared in proceedings, including one case in which 18 of 45 cited cases were reportedly fictitious.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/technology/2025/jun/06/high-court-tells-uk-lawyers-to-urgently-stop-misuse-of-ai-in-legal-work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">In response, Dame Victoria Sharp, president of the King&#x27;s Bench Division, emphasized the threat to the justice system and stated that leg...</span></span></span> These incidents show why “the user should check” is not a complete safeguard. Busy professionals can be fooled by outputs that look like the kind of material they already handle every day.
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/no7EQkOiHQM" title="Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (Paper Explained)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=no7EQkOiHQM" target="_blank" rel="noopener noreferrer">Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (Paper Explained)</a></p><p class="youtube-embed-meta">Channel: Yannic Kilcher &middot; Views: 42.1K &middot; Uploaded: June 2024 &middot; Length: 1 hour 11 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=no7EQkOiHQM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=no7EQkOiHQM">Open on YouTube</a></p></div></div></div>
@@ -378,7 +378,7 @@ The UK has seen similar concerns. In 2025, the High Court warned legal professio
 
 AI systems are often tested on benchmarks: sets of questions with expected answers. Benchmarks are useful, but they can understate real-world unreliability. A model may do well on short, closed questions yet fail when asked to summarise a messy document, interpret conflicting sources, cite authorities or answer a question whose correct response is “there is not enough evidence”.
 
-Google DeepMind’s FACTS Grounding benchmark was designed to test whether models can produce long-form responses grounded only in a provided document, using 1,719 examples. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: deepmind.google">[Google DeepMind]</a><span class="citation-popover" role="note"><span class="citation-popover-source">deepmind.google</span><span class="citation-popover-snippet">Open source on deepmind.google.</span></span></span> That kind of evaluation matters because many real-world tasks are not trivia questions. They require the model to stay within evidence, resist adding outside assumptions and avoid overstating what a document says.
+Google DeepMind’s FACTS Grounding benchmark was designed to test whether models can produce long-form responses grounded only in a provided document, using 1,719 examples.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: deepmind.google">[Google DeepMind]</a><span class="citation-popover" role="note"><span class="citation-popover-source">deepmind.google</span><span class="citation-popover-snippet">Open source on deepmind.google.</span></span></span> That kind of evaluation matters because many real-world tasks are not trivia questions. They require the model to stay within evidence, resist adding outside assumptions and avoid overstating what a document says.
 
 However, even better benchmarks face hard limits. A test set cannot cover every possible prompt, domain, language, adversarial phrasing or edge case. It may also reward an answer that matches a known label while missing whether the model expressed the right level of uncertainty. This is why factuality cannot be reduced to a single leaderboard score.
 
@@ -388,9 +388,9 @@ A further problem is that AI failures are often context-dependent. A model might
 
 One common response to hallucination is retrieval-augmented generation, often shortened to RAG. In a RAG system, the model retrieves documents from a search index, database or knowledge base before answering. This can reduce reliance on the model’s internal memory and can make answers easier to audit.
 
-Retrieval is a real improvement, but it is not a magic fix. Anthropic has described “Contextual Retrieval” methods that reduced failed retrievals by 49%, and by 67% when combined with reranking, showing that much of the reliability problem depends on whether the right evidence is found in the first place. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/engineering/contextual-retrieval" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">contextual retrieval</span><span class="citation-popover-snippet">contextual retrieval</span></span></span>
+Retrieval is a real improvement, but it is not a magic fix. Anthropic has described “Contextual Retrieval” methods that reduced failed retrievals by 49%, and by 67% when combined with reranking, showing that much of the reliability problem depends on whether the right evidence is found in the first place.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/engineering/contextual-retrieval" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">contextual retrieval</span><span class="citation-popover-snippet">contextual retrieval</span></span></span>
 
-Even when the right documents are retrieved, errors can remain. A 2025 review of hallucination mitigation in retrieval-augmented systems identified risks from low-quality, obsolete or narrow retrieval sources. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mdpi.com/2227-7390/13/5/856" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mdpi.com">[MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mdpi.com</span><span class="citation-popover-snippet">Open source on mdpi.com.</span></span></span> Other research argues that retrieval-augmented medical systems can still mislead users by decontextualising accurate facts, omitting important sources or reinforcing a user’s misconception. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.14898" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Retrieval-augmented systems can be dangerous medical communicators</span><span class="citation-popover-snippet">arXiv Retrieval-augmented systems can be dangerous medical communicators</span></span></span>
+Even when the right documents are retrieved, errors can remain. A 2025 review of hallucination mitigation in retrieval-augmented systems identified risks from low-quality, obsolete or narrow retrieval sources.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mdpi.com/2227-7390/13/5/856" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mdpi.com">[MDPI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mdpi.com</span><span class="citation-popover-snippet">Open source on mdpi.com.</span></span></span> Other research argues that retrieval-augmented medical systems can still mislead users by decontextualising accurate facts, omitting important sources or reinforcing a user’s misconception.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2502.14898" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Retrieval-augmented systems can be dangerous medical communicators</span><span class="citation-popover-snippet">arXiv Retrieval-augmented systems can be dangerous medical communicators</span></span></span>
 
 The practical lesson is that grounding changes the problem rather than removing it. Instead of asking only “Did the model invent this?”, users must also ask “Did it retrieve the right material?”, “Did it interpret the material correctly?” and “Did it leave out something essential?”
 
@@ -410,14 +410,14 @@ Hallucinations are not all the same. Some are obvious fabrications, but many are
 
 **False certainty** appears when the answer gives a confident conclusion despite weak evidence. This can happen even when every individual sentence sounds reasonable.
 
-**Reasoning drift** happens when a model starts with the right facts but moves toward a conclusion not supported by them. NIST specifically notes that confabulations can include outputs that contradict previous statements in the same context. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span>
+**Reasoning drift** happens when a model starts with the right facts but moves toward a conclusion not supported by them. NIST specifically notes that confabulations can include outputs that contradict previous statements in the same context.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/n5TAek1dF7g" title="Judge DESTROYS Lawyer Over AI Hallucinations And Fake Case Citations" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=n5TAek1dF7g" target="_blank" rel="noopener noreferrer">Judge DESTROYS Lawyer Over AI Hallucinations And Fake Case Citations</a></p><p class="youtube-embed-meta">Channel: Lawyer You Know &middot; Views: 71.9K &middot; Uploaded: August 2025 &middot; Length: 1 hour 2 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=n5TAek1dF7g" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=n5TAek1dF7g">Open on YouTube</a></p></div></div></div>
 
 ## Why humans still over-trust flawed answers
 
-AI errors are partly technical, but the risk is also social. People tend to defer to systems that are fast, polished and consistent, especially when they are under time pressure. NIST identifies human-AI configuration risks such as automation bias and over-reliance, where users may unjustifiably treat AI content as higher quality than other sources. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span>
+AI errors are partly technical, but the risk is also social. People tend to defer to systems that are fast, polished and consistent, especially when they are under time pressure. NIST identifies human-AI configuration risks such as automation bias and over-reliance, where users may unjustifiably treat AI content as higher quality than other sources.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</span></span></span>
 
 This makes hallucination a workflow problem, not just a model problem. A lawyer pasting AI-generated citations into a brief, a student relying on an invented source, or a manager using an AI summary of a policy document may all believe they are saving time. The hidden cost appears later, when verification becomes harder than doing the original research properly.
 
@@ -451,194 +451,194 @@ The strongest AI systems will not be the ones that never make mistakes; they wil
 For users, the key mental shift is simple: AI is not a truth machine. It is a powerful language and pattern tool that can assist reasoning, research and drafting, but it does not remove the need for evidence. The more authoritative an answer sounds, the more important it is to ask what supports it.
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why AI Can Be Confidently Wrong. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why AI Can Be Confidently Wrong. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explains why AI systems can produce convincing but unreliable outputs and how alignment challenges arise.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why AI systems can produce convincing but unreliable outputs and how alignment challenges arise.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Explains why fluent AI systems can still fail at reasoning and reliability.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why fluent AI systems can still fail at reasoning and reliability.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Covers strengths, weaknesses, and verification practices for generative AI.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers strengths, weaknesses, and verification practices for generative AI.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
-        </h4>
-        <p class="fr-book-author">By Mustafa Suleyman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
+</h4>
+<p class="fr-book-author">By Mustafa Suleyman</p>
         
-        <p class="fr-book-desc">Discusses systemic risks created by increasingly capable AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses systemic risks created by increasingly capable AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;"><img src="{{ '/assets/images/marketplace-covers/9f2801ba4cdd111cd79f.jpg' | relative_url }}" alt="Listing image for A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;"><img src="{{ '/assets/images/marketplace-covers/9f2801ba4cdd111cd79f.jpg' | relative_url }}" alt="Listing image for A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. - Artificial Intelligence Movie/Film Poster Art PICTURE / PRINT 9&quot; x 8&quot;</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.i. ARTIFICIAL INTELLIGENCE (2001) UK cinema poster Spielberg Kubrick Jude Law"><img src="{{ '/assets/images/marketplace-covers/62c7988bd1e6ad357400.jpg' | relative_url }}" alt="Listing image for A.i. ARTIFICIAL INTELLIGENCE (2001) UK cinema poster Spielberg Kubrick Jude Law" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.i. ARTIFICIAL INTELLIGENCE (2001) UK cinema poster Spielberg Kubrick Jude Law</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.i. ARTIFICIAL INTELLIGENCE (2001) UK cinema poster Spielberg Kubrick Jude Law"><img src="{{ '/assets/images/marketplace-covers/62c7988bd1e6ad357400.jpg' | relative_url }}" alt="Listing image for A.i. ARTIFICIAL INTELLIGENCE (2001) UK cinema poster Spielberg Kubrick Jude Law" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.i. ARTIFICIAL INTELLIGENCE (2001) UK cinema poster Spielberg Kubrick Jude Law</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/ccd8b5ee633357b5409d.jpg' | relative_url }}" alt="Listing image for Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">Artificial intelligence is no a mat Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster" data-ebay-reference="ai-errors-why-ai-can-be-confidently-wrong-understanding-artificial-intelligence-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -654,7 +654,7 @@ For users, the key mental shift is simple: AI is not a truth machine. It is a po
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -674,7 +674,7 @@ For users, the key mental shift is simple: AI is not a truth machine. It is a po
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -706,7 +706,7 @@ For users, the key mental shift is simple: AI is not a truth machine. It is a po
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -758,7 +758,7 @@ For users, the key mental shift is simple: AI is not a truth machine. It is a po
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -803,7 +803,7 @@ For users, the key mental shift is simple: AI is not a truth machine. It is a po
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -844,166 +844,166 @@ For users, the key mental shift is simple: AI is not a truth machine. It is a po
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: nvlpubs.nist.gov  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Title: arXiv Why Language Models Hallucinate  
-   Link: <a href="https://arxiv.org/abs/2509.04664" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.04664</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Language Models HallucinateSeptember 4, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2509.04664" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.04664</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Language Models HallucinateSeptember 4, 2025...</p></details>
    Published: September 4, 2025  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: law.berkeley.edu  
    Title: UC Berkeley Law Mata v  
-   Link: <a href="https://www.law.berkeley.edu/wp-content/uploads/archive/2025/12/Mata-v-Avianca-Inc.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.law.berkeley.edu/wp-content/uploads/archive/2025/12/Mata-v-Avianca-Inc.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Avianca, Inc., 678 F.Supp.3d 443 (2023)December 1, 2025 — After air carrier moved to dismiss, passengers&#x27; attorneys filed affirmation in...</p></details>
+   Link:<a href="https://www.law.berkeley.edu/wp-content/uploads/archive/2025/12/Mata-v-Avianca-Inc.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.law.berkeley.edu/wp-content/uploads/archive/2025/12/Mata-v-Avianca-Inc.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Avianca, Inc., 678 F.Supp.3d 443 (2023)December 1, 2025 — After air carrier moved to dismiss, passengers&#x27; attorneys filed affirmation in...</p></details>
    Published: December 1, 2025  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: hai.stanford.edu  
    Title: ai trial legal models hallucinate 1 out 6 or more benchmarking queries  
-   Link: <a href="https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Stanford HAIAI on Trial: Legal Models Hallucinate in 1 out of 6 (or More...23 May 2024 — Our previous study of general-purpose chatbots...</p></details>
+   Link:<a href="https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Stanford HAIAI on Trial: Legal Models Hallucinate in 1 out of 6 (or More...23 May 2024 — Our previous study of general-purpose chatbots...</p></details>
    Published: May 2024  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2405.20362" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2405.20362</a>  
+   Link:<a href="https://arxiv.org/abs/2405.20362" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2405.20362</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: deepmind.google  
-   Link: <a href="https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/" target="_blank" rel="noopener noreferrer nofollow">https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/</a>  
+   Link:<a href="https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/" target="_blank" rel="noopener noreferrer nofollow">https://deepmind.google/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: anthropic.com  
    Title: contextual retrieval  
-   Link: <a href="https://www.anthropic.com/engineering/contextual-retrieval" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/engineering/contextual-retrieval</a>  
+   Link:<a href="https://www.anthropic.com/engineering/contextual-retrieval" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/engineering/contextual-retrieval</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: mdpi.com  
-   Link: <a href="https://www.mdpi.com/2227-7390/13/5/856" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2227-7390/13/5/856</a>  
+   Link:<a href="https://www.mdpi.com/2227-7390/13/5/856" target="_blank" rel="noopener noreferrer nofollow">https://www.mdpi.com/2227-7390/13/5/856</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
    Title: arXiv Retrieval-augmented systems can be dangerous medical communicators  
-   Link: <a href="https://arxiv.org/abs/2502.14898" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.14898</a>  
+   Link:<a href="https://arxiv.org/abs/2502.14898" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.14898</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: nist.gov  
    Title: hallucination detection large language models using diversion [decoding](&#123;&#123; 'decoding/' | relative_url &#125;&#125;)  
-   Link: <a href="https://www.nist.gov/publications/hallucination-detection-large-language-models-using-diversion-decoding" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/hallucination-detection-large-language-models-using-diversion-decoding</a>  
+   Link:<a href="https://www.nist.gov/publications/hallucination-detection-large-language-models-using-diversion-decoding" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/publications/hallucination-detection-large-language-models-using-diversion-decoding</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2602.06176v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.06176v1</a>  
+   Link:<a href="https://arxiv.org/html/2602.06176v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.06176v1</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2508.01781v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2508.01781v1</a>  
+   Link:<a href="https://arxiv.org/html/2508.01781v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2508.01781v1</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2508.03860" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2508.03860</a>  
+   Link:<a href="https://arxiv.org/html/2508.03860" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2508.03860</a>  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2509.04664v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.04664v1</a>  
+   Link:<a href="https://arxiv.org/html/2509.04664v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.04664v1</a>  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2604.03173v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2604.03173v1</a>  
+   Link:<a href="https://arxiv.org/html/2604.03173v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2604.03173v1</a>  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: OpenAI  
    Title: why language models hallucinate  
-   Link: <a href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate/</a>  
+   Link:<a href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate/</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: cdn.openai.com  
    Title: why language models hallucinate  
-   Link: <a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf</a>  
+   Link:<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf</a>  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: community.openai.com  
    Title: hallucination in retrieval augmented chatbot rag  
-   Link: <a href="https://community.openai.com/t/hallucination-in-retrieval-augmented-chatbot-rag/408275" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/hallucination-in-retrieval-augmented-chatbot-rag/408275</a>  
+   Link:<a href="https://community.openai.com/t/hallucination-in-retrieval-augmented-chatbot-rag/408275" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/hallucination-in-retrieval-augmented-chatbot-rag/408275</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: deepmind.google  
-   Link: <a href="https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/" target="_blank" rel="noopener noreferrer nofollow">https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/</a>  
+   Link:<a href="https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/" target="_blank" rel="noopener noreferrer nofollow">https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: cloud.google.com  
    Title: what are ai hallucinations  
-   Link: <a href="https://cloud.google.com/discover/what-are-ai-hallucinations" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/discover/what-are-ai-hallucinations</a>  
+   Link:<a href="https://cloud.google.com/discover/what-are-ai-hallucinations" target="_blank" rel="noopener noreferrer nofollow">https://cloud.google.com/discover/what-are-ai-hallucinations</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/technology/2025/jun/06/high-court-tells-uk-lawyers-to-urgently-stop-misuse-of-ai-in-legal-work" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2025/jun/06/high-court-tells-uk-lawyers-to-urgently-stop-misuse-of-ai-in-legal-work</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>In response, Dame Victoria Sharp, president of the King&#x27;s Bench Division, emphasized the threat to the justice system and stated that leg...</p></details>
+   Link:<a href="https://www.theguardian.com/technology/2025/jun/06/high-court-tells-uk-lawyers-to-urgently-stop-misuse-of-ai-in-legal-work" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/technology/2025/jun/06/high-court-tells-uk-lawyers-to-urgently-stop-misuse-of-ai-in-legal-work</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>In response, Dame Victoria Sharp, president of the King&#x27;s Bench Division, emphasized the threat to the justice system and stated that leg...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: theguardian.com  
    Title: utah lawyer chatgpt ai court brief  
-   Link: <a href="https://www.theguardian.com/us-news/2025/may/31/utah-lawyer-chatgpt-ai-court-brief" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/us-news/2025/may/31/utah-lawyer-chatgpt-ai-court-brief</a>  
+   Link:<a href="https://www.theguardian.com/us-news/2025/may/31/utah-lawyer-chatgpt-ai-court-brief" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/us-news/2025/may/31/utah-lawyer-chatgpt-ai-court-brief</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: fedcourt.gov.au  
    Title: needham j 20250627  
-   Link: <a href="https://www.fedcourt.gov.au/digital-law-library/judges-speeches/justice-needham/needham-j-20250627" target="_blank" rel="noopener noreferrer nofollow">https://www.fedcourt.gov.au/digital-law-library/judges-speeches/justice-needham/needham-j-20250627</a>  
+   Link:<a href="https://www.fedcourt.gov.au/digital-law-library/judges-speeches/justice-needham/needham-j-20250627" target="_blank" rel="noopener noreferrer nofollow">https://www.fedcourt.gov.au/digital-law-library/judges-speeches/justice-needham/needham-j-20250627</a>  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: layerxsecurity.com  
-   Link: <a href="https://layerxsecurity.com/generative-ai/hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://layerxsecurity.com/generative-ai/hallucinations/</a>  
+   Link:<a href="https://layerxsecurity.com/generative-ai/hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://layerxsecurity.com/generative-ai/hallucinations/</a>  
 
 ### Additional References
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: youtube.com  
    Title: NIST AI 600-1 Explained | Generative AI Risk Management (AI RMF Gen AI Profile)  
-   Link: <a href="https://www.youtube.com/watch?v=NSlXQ2bwFF0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=NSlXQ2bwFF0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why LLMs Hallucinate: A Theory of Errors...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=NSlXQ2bwFF0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=NSlXQ2bwFF0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why LLMs Hallucinate: A Theory of Errors...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: youtube.com  
    Title: Why LLMs Hallucinate: A Theory of Errors  
-   Link: <a href="https://www.youtube.com/watch?v=XticsxlSlTM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=XticsxlSlTM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How To Tell AI Errors vs. AI Hallucinations (Infographic Guide For Identifying AI Mistakes)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=XticsxlSlTM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=XticsxlSlTM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How To Tell AI Errors vs. AI Hallucinations (Infographic Guide For Identifying AI Mistakes)...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: youtube.com  
    Title: LLM Hallucinations: 146,000 Fake Citations Found  
-   Link: <a href="https://www.youtube.com/watch?v=0E3mHRT-g8I" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0E3mHRT-g8I</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI 600-1 Explained | Generative AI Risk Management (AI RMF GenAI Profile)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=0E3mHRT-g8I" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0E3mHRT-g8I</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI 600-1 Explained | Generative AI Risk Management (AI RMF GenAI Profile)...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: naturalandartificiallaw.com  
-   Link: <a href="https://naturalandartificiallaw.com/false-citations-ai-hallucinations-uk/" target="_blank" rel="noopener noreferrer nofollow">https://naturalandartificiallaw.com/false-citations-ai-hallucinations-uk/</a>  
+   Link:<a href="https://naturalandartificiallaw.com/false-citations-ai-hallucinations-uk/" target="_blank" rel="noopener noreferrer nofollow">https://naturalandartificiallaw.com/false-citations-ai-hallucinations-uk/</a>  
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/391876200_AI_Hallucinations_and_Misinformation_Navigating_[Synthetic" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/391876200_AI_Hallucinations_and_Misinformation_Navigating_[Synthetic</a>  
+   Link:<a href="https://www.researchgate.net/publication/391876200_AI_Hallucinations_and_Misinformation_Navigating_[Synthetic" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/391876200_AI_Hallucinations_and_Misinformation_Navigating_[Synthetic</a>  
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/399075968_Mitigating_Hallucinations_in_Large_Language_Models_via_Retrieval-Augmented_Generation_RAG" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/399075968_Mitigating_Hallucinations_in_Large_Language_Models_via_Retrieval-Augmented_Generation_RAG</a>  
+   Link:<a href="https://www.researchgate.net/publication/399075968_Mitigating_Hallucinations_in_Large_Language_Models_via_Retrieval-Augmented_Generation_RAG" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/399075968_Mitigating_Hallucinations_in_Large_Language_Models_via_Retrieval-Augmented_Generation_RAG</a>  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/404018526_Assessing_Llm_Hallucinations_And_The_Reliability_Of_Using_LLms_For_Automated_Hallucination_Detection" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/404018526_Assessing_Llm_Hallucinations_And_The_Reliability_Of_Using_LLms_For_Automated_Hallucination_Detection</a>  
+   Link:<a href="https://www.researchgate.net/publication/404018526_Assessing_Llm_Hallucinations_And_The_Reliability_Of_Using_LLms_For_Automated_Hallucination_Detection" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/404018526_Assessing_Llm_Hallucinations_And_The_Reliability_Of_Using_LLms_For_Automated_Hallucination_Detection</a>  
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40adnanmasood/a-field-guide-to-llm-failure-modes-5ffaeeb08e80" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/a-field-guide-to-llm-failure-modes-5ffaeeb08e80</a>  
+   Link:<a href="https://medium.com/%40adnanmasood/a-field-guide-to-llm-failure-modes-5ffaeeb08e80" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/a-field-guide-to-llm-failure-modes-5ffaeeb08e80</a>  
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: damiencharlotin.com  
-   Link: <a href="https://www.damiencharlotin.com/hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://www.damiencharlotin.com/hallucinations/</a>  
+   Link:<a href="https://www.damiencharlotin.com/hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://www.damiencharlotin.com/hallucinations/</a>  
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: cntxt.tech  
-   Link: <a href="https://www.cntxt.tech/insights/ai-hallucination-causes-examples-and-mitigation-strategies" target="_blank" rel="noopener noreferrer nofollow">https://www.cntxt.tech/insights/ai-hallucination-causes-examples-and-mitigation-strategies</a>  
+   Link:<a href="https://www.cntxt.tech/insights/ai-hallucination-causes-examples-and-mitigation-strategies" target="_blank" rel="noopener noreferrer nofollow">https://www.cntxt.tech/insights/ai-hallucination-causes-examples-and-mitigation-strategies</a>  

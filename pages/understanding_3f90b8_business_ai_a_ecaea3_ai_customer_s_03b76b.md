@@ -294,7 +294,7 @@ image: /assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03
 
 ## Introduction
 
-Customer service is one of the most common places where organisations introduce artificial intelligence, but many deployments stall because they focus on the visible front end: the chatbot. The larger gains usually come from redesigning the entire service workflow. Instead of treating AI as a digital receptionist that answers simple questions, organisations can use it to classify requests, retrieve policies, support agents, manage exceptions, capture learning and improve future interactions. Research and industry experience increasingly suggest that the biggest improvements emerge when AI becomes part of an end-to-end operating loop rather than a standalone conversational tool. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
+Customer service is one of the most common places where organisations introduce artificial intelligence, but many deployments stall because they focus on the visible front end: the chatbot. The larger gains usually come from redesigning the entire service workflow. Instead of treating AI as a digital receptionist that answers simple questions, organisations can use it to classify requests, retrieve policies, support agents, manage exceptions, capture learning and improve future interactions. Research and industry experience increasingly suggest that the biggest improvements emerge when AI becomes part of an end-to-end operating loop rather than a standalone conversational tool.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b-Illustration-1-dark.svg" | relative_url }}" alt="Service AI illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -319,7 +319,7 @@ A customer request typically passes through several steps:
 
 </div>
 
-Traditional chatbots often automate only the first step. Modern AI-enabled service operations increasingly target the entire chain. Industry analyses emphasise that effective customer-service AI combines intent recognition, workflow logic, system integration and escalation mechanisms to resolve issues from beginning to end rather than merely answering questions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
+Traditional chatbots often automate only the first step. Modern AI-enabled service operations increasingly target the entire chain. Industry analyses emphasise that effective customer-service AI combines intent recognition, workflow logic, system integration and escalation mechanisms to resolve issues from beginning to end rather than merely answering questions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
 
 This shift changes how organisations measure success. Instead of asking whether the chatbot produced a plausible answer, they examine outcomes such as resolution rates, handling time, repeat-contact rates and customer effort.
 
@@ -341,7 +341,7 @@ A redesigned workflow often follows a sequence such as:
 
 </div>
 
-The AI is therefore participating in a service loop rather than acting as an isolated interface. Several customer-service platforms now explicitly describe AI [use cases]({{ 'use-cases/' | relative_url }}) as complete workflows with decision logic, integrations and escalation paths rather than chatbot interactions alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
+The AI is therefore participating in a service loop rather than acting as an isolated interface. Several customer-service platforms now explicitly describe AI [use cases]({{ 'use-cases/' | relative_url }}) as complete workflows with decision logic, integrations and escalation paths rather than chatbot interactions alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/OFq_CvRCpA0" title="Orchestrating Complex AI Workflows with AI Agents &amp; LLMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=OFq_CvRCpA0" target="_blank" rel="noopener noreferrer">Orchestrating Complex AI Workflows with AI Agents &amp; LLMs</a></p><p class="youtube-embed-meta">Channel: IBM Technology</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=OFq_CvRCpA0" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=OFq_CvRCpA0">Open on YouTube</a></p></div></div></div>
@@ -354,11 +354,11 @@ Customer service contains many routine interactions: password resets, account en
 
 In effective implementations, AI does not simply attempt to answer every question. Instead, it estimates uncertainty and routes cases accordingly. High-confidence cases can proceed through automated paths, while low-confidence cases move to human specialists with relevant expertise.
 
-Research on customer-service AI increasingly highlights the importance of human intervention design. Evidence from large-scale customer-service experiments shows that escalation timing and specialist involvement can strongly influence outcomes when automated systems encounter situations beyond their capabilities. Early intervention is particularly important when customer frustration is already emerging. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.14830" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba&#x27;s Customer Service OperationsMay 14, 2026...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
+Research on customer-service AI increasingly highlights the importance of human intervention design. Evidence from large-scale customer-service experiments shows that escalation timing and specialist involvement can strongly influence outcomes when automated systems encounter situations beyond their capabilities. Early intervention is particularly important when customer frustration is already emerging.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.14830" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba&#x27;s Customer Service OperationsMay 14, 2026...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
 
 The goal is not merely faster routing. It is preserving context during escalation.
 
-Poor handoffs force customers to repeat information, explain the issue again and restart the interaction. Studies and practitioner reports consistently identify context loss as a major cause of customer dissatisfaction and unnecessary operational cost. Effective AI-to-human handoffs transfer conversation history, customer records, attempted solutions and supporting evidence directly to the specialist handling the case. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://bluetweak.com/blog/ai-to-human-handoff/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bluetweak.com">[BlueTweak]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bluetweak.com</span><span class="citation-popover-title">Blue Tweak AI-to-Human Handoff: Best Practices for Customer Support</span><span class="citation-popover-snippet">AI-to-Human Handoff: Best Practices for Customer Support...April 17, 2026 — 17 Apr 2026 — Gartner research shows that low-effor...</span><span class="citation-popover-meta">Published: April 17, 2026</span></span></span>
+Poor handoffs force customers to repeat information, explain the issue again and restart the interaction. Studies and practitioner reports consistently identify context loss as a major cause of customer dissatisfaction and unnecessary operational cost. Effective AI-to-human handoffs transfer conversation history, customer records, attempted solutions and supporting evidence directly to the specialist handling the case.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://bluetweak.com/blog/ai-to-human-handoff/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bluetweak.com">[BlueTweak]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bluetweak.com</span><span class="citation-popover-title">Blue Tweak AI-to-Human Handoff: Best Practices for Customer Support</span><span class="citation-popover-snippet">AI-to-Human Handoff: Best Practices for Customer Support...April 17, 2026 — 17 Apr 2026 — Gartner research shows that low-effor...</span><span class="citation-popover-meta">Published: April 17, 2026</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b-Illustration-2-dark.svg" | relative_url }}" alt="Service AI illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -378,7 +378,7 @@ This can create a different service model:
 
 </div>
 
-Evidence from workplace studies suggests that AI often provides its greatest benefits by raising the performance of less experienced workers through guidance and knowledge access. In customer-service environments, [generative AI]({{ 'generative-ai/' | relative_url }}) has been shown to improve productivity and support quality, particularly among lower-performing agents. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.axios.com/2023/04/25/artificial-intelligence-workplace-productivity" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: axios.com">[Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">axios.com</span><span class="citation-popover-title">First study to look at AI in the workplace finds it boosts productivity</span><span class="citation-popover-snippet">The study involved over 5,000 customer service agents and found that using generative AI—technology that creates content like text or ima...</span></span></span>
+Evidence from workplace studies suggests that AI often provides its greatest benefits by raising the performance of less experienced workers through guidance and knowledge access. In customer-service environments, [generative AI]({{ 'generative-ai/' | relative_url }}) has been shown to improve productivity and support quality, particularly among lower-performing agents.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.axios.com/2023/04/25/artificial-intelligence-workplace-productivity" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: axios.com">[Axios]</a><span class="citation-popover" role="note"><span class="citation-popover-source">axios.com</span><span class="citation-popover-title">First study to look at AI in the workplace finds it boosts productivity</span><span class="citation-popover-snippet">The study involved over 5,000 customer service agents and found that using generative AI—technology that creates content like text or ima...</span></span></span>
 
 That finding reinforces the workflow perspective: value comes not only from automation, but from changing how humans and machines divide labour.
 
@@ -406,7 +406,7 @@ After a case is resolved, the workflow can:
 
 </div>
 
-Knowledge management specialists increasingly argue that AI performance depends heavily on the quality and maintenance of organisational knowledge. Poorly maintained documentation becomes a bottleneck regardless of model sophistication. Conversely, structured knowledge improvement creates a reinforcing cycle in which every resolved case improves future service performance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.egain.com/generative-ai-for-customer-service-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: egain.com">[eGain+2CEUR-WS]</a><span class="citation-popover" role="note"><span class="citation-popover-source">egain.com</span><span class="citation-popover-title">e Gain Gen AI for Customer Service Automation</span><span class="citation-popover-snippet">Gen AI for Customer Service Automation - 5 PitfallsThis white paper discusses Gen AI projects in customer service automation, conten...</span></span></span>
+Knowledge management specialists increasingly argue that AI performance depends heavily on the quality and maintenance of organisational knowledge. Poorly maintained documentation becomes a bottleneck regardless of model sophistication. Conversely, structured knowledge improvement creates a reinforcing cycle in which every resolved case improves future service performance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.egain.com/generative-ai-for-customer-service-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: egain.com">[eGain+2CEUR-WS]</a><span class="citation-popover" role="note"><span class="citation-popover-source">egain.com</span><span class="citation-popover-title">e Gain Gen AI for Customer Service Automation</span><span class="citation-popover-snippet">Gen AI for Customer Service Automation - 5 PitfallsThis white paper discusses Gen AI projects in customer service automation, conten...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b-Illustration-3-dark.svg" | relative_url }}" alt="Service AI illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_ai_customer_s_03b76b-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -414,221 +414,221 @@ Knowledge management specialists increasingly argue that AI performance depends 
 
 A growing body of operational research describes customer-service AI as a feedback system rather than a static tool.
 
-In one recent framework, support agents provide feedback on AI responses, identify missing knowledge and indicate whether retrieved information was useful. These signals are then used to improve retrieval systems, knowledge repositories and model behaviour. Production testing showed measurable improvements in retrieval quality, helpfulness and agent adoption when these [feedback loops]({{ 'feedback-loops/' | relative_url }}) were embedded directly into operations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.06674" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Agent-in-the-Loop: A Data Flywheel for Continuous Improvement in LLM-based Customer SupportOctober 8, 2025...</span><span class="citation-popover-meta">Published: October 8, 2025</span></span></span>
+In one recent framework, support agents provide feedback on AI responses, identify missing knowledge and indicate whether retrieved information was useful. These signals are then used to improve retrieval systems, knowledge repositories and model behaviour. Production testing showed measurable improvements in retrieval quality, helpfulness and agent adoption when these [feedback loops]({{ 'feedback-loops/' | relative_url }}) were embedded directly into operations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2510.06674" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Agent-in-the-Loop: A Data Flywheel for Continuous Improvement in LLM-based Customer SupportOctober 8, 2025...</span><span class="citation-popover-meta">Published: October 8, 2025</span></span></span>
 
 The practical implication is significant. Instead of viewing customer support as a cost centre that handles tickets, organisations can treat it as a continuous source of operational intelligence.
 
-Recurring complaints may reveal product defects. Escalation patterns may expose unclear policies. Frequently requested explanations may indicate opportunities for self-service improvements. AI can help surface these patterns at a scale that would be difficult for human supervisors alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/technology/decagon-raises-35-million-ai-powered-customer-service-2024-06-18/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">Decagon raises $35 million for AI-powered customer service</span><span class="citation-popover-snippet">The company leverages generative AI technology, which gained popularity with OpenAI&#x27;s ChatGPT in late 2022, to enhance or replace custome...</span></span></span>
+Recurring complaints may reveal product defects. Escalation patterns may expose unclear policies. Frequently requested explanations may indicate opportunities for self-service improvements. AI can help surface these patterns at a scale that would be difficult for human supervisors alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/technology/decagon-raises-35-million-ai-powered-customer-service-2024-06-18/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">Decagon raises $35 million for AI-powered customer service</span><span class="citation-popover-snippet">The company leverages generative AI technology, which gained popularity with OpenAI&#x27;s ChatGPT in late 2022, to enhance or replace custome...</span></span></span>
 
 ## What successful redesign looks like
 
-The most successful customer-service AI programmes tend to share several characteristics: <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.evly.ai/blog/ai-in-customer-service" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: evly.ai">[evly.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">evly.ai</span><span class="citation-popover-title">ai in customer service</span><span class="citation-popover-snippet">Your 2026 Roadmap to Automation &amp; EfficiencyA complete 2026 guide to AI in customer service: automation workflows, top AI tools, ROI gain...</span></span></span>
+The most successful customer-service AI programmes tend to share several characteristics:<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.evly.ai/blog/ai-in-customer-service" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: evly.ai">[evly.ai]</a><span class="citation-popover" role="note"><span class="citation-popover-source">evly.ai</span><span class="citation-popover-title">ai in customer service</span><span class="citation-popover-snippet">Your 2026 Roadmap to Automation &amp; EfficiencyA complete 2026 guide to AI in customer service: automation workflows, top AI tools, ROI gain...</span></span></span>
 
-**They automate workflows, not conversations.** The focus is issue resolution rather than chatbot interaction counts. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
+**They automate workflows, not conversations.** The focus is issue resolution rather than chatbot interaction counts.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
 
-**They design explicit escalation paths.** Human specialists remain integral to handling ambiguity, exceptions and emotionally sensitive situations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.14830" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba&#x27;s Customer Service OperationsMay 14, 2026...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
+**They design explicit escalation paths.** Human specialists remain integral to handling ambiguity, exceptions and emotionally sensitive situations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2605.14830" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba&#x27;s Customer Service OperationsMay 14, 2026...</span><span class="citation-popover-meta">Published: May 14, 2026</span></span></span>
 
-**They preserve context across handoffs.** Customers do not need to repeat information when moving between AI and human support. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://bluetweak.com/blog/ai-to-human-handoff/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bluetweak.com">[BlueTweak]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bluetweak.com</span><span class="citation-popover-title">Blue Tweak AI-to-Human Handoff: Best Practices for Customer Support</span><span class="citation-popover-snippet">AI-to-Human Handoff: Best Practices for Customer Support...April 17, 2026 — 17 Apr 2026 — Gartner research shows that low-effor...</span><span class="citation-popover-meta">Published: April 17, 2026</span></span></span>
+**They preserve context across handoffs.** Customers do not need to repeat information when moving between AI and human support.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://bluetweak.com/blog/ai-to-human-handoff/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bluetweak.com">[BlueTweak]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bluetweak.com</span><span class="citation-popover-title">Blue Tweak AI-to-Human Handoff: Best Practices for Customer Support</span><span class="citation-popover-snippet">AI-to-Human Handoff: Best Practices for Customer Support...April 17, 2026 — 17 Apr 2026 — Gartner research shows that low-effor...</span><span class="citation-popover-meta">Published: April 17, 2026</span></span></span>
 
-**They treat knowledge as infrastructure.** Continuous improvement of policies, documentation and retrieval systems becomes part of daily operations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.egain.com/generative-ai-for-customer-service-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: egain.com">[eGain]</a><span class="citation-popover" role="note"><span class="citation-popover-source">egain.com</span><span class="citation-popover-title">e Gain Gen AI for Customer Service Automation</span><span class="citation-popover-snippet">Gen AI for Customer Service Automation - 5 PitfallsThis white paper discusses Gen AI projects in customer service automation, conten...</span></span></span>
+**They treat knowledge as infrastructure.** Continuous improvement of policies, documentation and retrieval systems becomes part of daily operations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.egain.com/generative-ai-for-customer-service-automation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: egain.com">[eGain]</a><span class="citation-popover" role="note"><span class="citation-popover-source">egain.com</span><span class="citation-popover-title">e Gain Gen AI for Customer Service Automation</span><span class="citation-popover-snippet">Gen AI for Customer Service Automation - 5 PitfallsThis white paper discusses Gen AI projects in customer service automation, conten...</span></span></span>
 
-**They measure business outcomes.** Resolution rates, customer effort, repeat contacts and satisfaction matter more than chatbot usage statistics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
+**They measure business outcomes.** Resolution rates, customer effort, repeat contacts and satisfaction matter more than chatbot usage statistics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nice.com">[NiCE]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nice.com</span><span class="citation-popover-title">Ni CEAI Customer Service Use Cases</span><span class="citation-popover-snippet">AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</span></span></span>
 
-Customer-service AI therefore offers a useful lesson for broader business adoption. The transformative effect rarely comes from attaching an AI model to the front door of an existing process. It comes from redesigning the entire request loop so that automation, human expertise and organisational learning reinforce one another over time. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.asapp.com/blog/why-scaling-ai-in-customer-service-starts-with-redesigning-work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: asapp.com">[ASAPP]</a><span class="citation-popover" role="note"><span class="citation-popover-source">asapp.com</span><span class="citation-popover-title">why scaling ai in customer service starts with redesigning work</span><span class="citation-popover-snippet">Learn how to redesign work around AI to drive real transformation in customer service operations...</span></span></span>
+Customer-service AI therefore offers a useful lesson for broader business adoption. The transformative effect rarely comes from attaching an AI model to the front door of an existing process. It comes from redesigning the entire request loop so that automation, human expertise and organisational learning reinforce one another over time.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.asapp.com/blog/why-scaling-ai-in-customer-service-starts-with-redesigning-work" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: asapp.com">[ASAPP]</a><span class="citation-popover" role="note"><span class="citation-popover-source">asapp.com</span><span class="citation-popover-title">why scaling ai in customer service starts with redesigning work</span><span class="citation-popover-snippet">Learn how to redesign work around AI to drive real transformation in customer service operations...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/_3-ZOKKo7II" title="Putting AI to work for Customer Service" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=_3-ZOKKo7II" target="_blank" rel="noopener noreferrer">Putting AI to work for Customer Service</a></p><p class="youtube-embed-meta">Channel: IBM Technology</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=_3-ZOKKo7II" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=_3-ZOKKo7II">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why chatbots are not the whole workflow. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why chatbots are not the whole workflow. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Effortless Experience on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9mzbBQ2wVdEC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Effortless Experience" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Effortless Experience">The Effortless Experience</a>
-        </h4>
-        <p class="fr-book-author">By Matthew Dixon, Nicholas Toman et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Effortless Experience on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9mzbBQ2wVdEC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Effortless Experience" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Effortless Experience">The Effortless Experience</a>
+</h4>
+<p class="fr-book-author">By Matthew Dixon, Nicholas Toman et al.</p>
         
-        <p class="fr-book-desc">Focuses on improving end-to-end customer interactions rather than isolated touchpoints.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on improving end-to-end customer interactions rather than isolated touchpoints.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Effortless+Experience+by+Matthew+Dixon&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Outside in on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=zBy2a9bMfXYC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Outside in" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Outside in">Outside in</a>
-        </h4>
-        <p class="fr-book-author">By Harley Manning, Kerry Bodine</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Outside in on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=zBy2a9bMfXYC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Outside in" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Outside in">Outside in</a>
+</h4>
+<p class="fr-book-author">By Harley Manning, Kerry Bodine</p>
         
-        <p class="fr-book-desc">Examines workflow redesign around customer needs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines workflow redesign around customer needs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Outside+in+by+Harley+Manning&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
-        </h4>
-        <p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Competing in the Age of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yW87wQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Competing in the Age of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Competing in the Age of AI">Competing in the Age of AI</a>
+</h4>
+<p class="fr-book-author">By Marco Iansiti, Karim R. Lakhani</p>
         
-        <p class="fr-book-desc">Shows how AI creates value when embedded in operational systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how AI creates value when embedded in operational systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI+by+Marco+Iansiti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Provides practical examples of AI-human workflows.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides practical examples of AI-human workflows.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Effortless+Experience&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Effortless Experience</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Outside+in&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Outside in</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Effortless+Experience&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Effortless Experience</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Outside+in&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Outside in</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Competing+in+the+Age+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Competing in the Age of AI</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9e5e14d28187b4342672.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9e5e14d28187b4342672.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made"><img src="{{ '/assets/images/marketplace-covers/5bc2986344f968932a31.jpg' | relative_url }}" alt="Listing image for Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made"><img src="{{ '/assets/images/marketplace-covers/5bc2986344f968932a31.jpg' | relative_url }}" alt="Listing image for Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Framed iPhone 7 Wall Art – Deconstructed Tech Frame | Unique Gift | UK Made</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9d141a9d1f8146ef1ea9.jpg' | relative_url }}" alt="Listing image for Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9d141a9d1f8146ef1ea9.jpg' | relative_url }}" alt="Listing image for Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Technology Definition Meaning 1 Art Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/52587c8494bbf9efb04f.jpg' | relative_url }}" alt="Listing image for RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/52587c8494bbf9efb04f.jpg' | relative_url }}" alt="Listing image for RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology wall art" data-ebay-reference="service-ai-why-chatbots-are-not-the-whole-workflow-understanding-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -644,7 +644,7 @@ Customer-service AI therefore offers a useful lesson for broader business adopti
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -664,7 +664,7 @@ Customer-service AI therefore offers a useful lesson for broader business adopti
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -696,7 +696,7 @@ Customer-service AI therefore offers a useful lesson for broader business adopti
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -748,7 +748,7 @@ Customer-service AI therefore offers a useful lesson for broader business adopti
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -793,7 +793,7 @@ Customer-service AI therefore offers a useful lesson for broader business adopti
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -834,130 +834,130 @@ Customer-service AI therefore offers a useful lesson for broader business adopti
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: nice.com  
    Title: Ni CEAI Customer Service Use Cases  
-   Link: <a href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow">https://www.nice.com/customer-service-ai/ai-customer-service-use-cases</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</p></details>
+   Link:<a href="https://www.nice.com/customer-service-ai/ai-customer-service-use-cases" target="_blank" rel="noopener noreferrer nofollow">https://www.nice.com/customer-service-ai/ai-customer-service-use-cases</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Customer Service Use Cases - NiCEDiscover how AI is reshaping customer service with 7 impactful use cases that enhance efficiency...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: asapp.com  
    Title: why scaling ai in customer service starts with redesigning work  
-   Link: <a href="https://www.asapp.com/blog/why-scaling-ai-in-customer-service-starts-with-redesigning-work" target="_blank" rel="noopener noreferrer nofollow">https://www.asapp.com/blog/why-scaling-ai-in-customer-service-starts-with-redesigning-work</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Learn how to redesign work around AI to drive real transformation in customer service operations...</p></details>
+   Link:<a href="https://www.asapp.com/blog/why-scaling-ai-in-customer-service-starts-with-redesigning-work" target="_blank" rel="noopener noreferrer nofollow">https://www.asapp.com/blog/why-scaling-ai-in-customer-service-starts-with-redesigning-work</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Learn how to redesign work around AI to drive real transformation in customer service operations...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2605.14830" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.14830</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba&#x27;s Customer Service OperationsMay 14, 2026...</p></details>
+   Link:<a href="https://arxiv.org/abs/2605.14830" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2605.14830</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Agentic AI and Human-in-the-Loop Interventions: Field Experimental Evidence from Alibaba&#x27;s Customer Service OperationsMay 14, 2026...</p></details>
    Published: May 14, 2026  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: bluetweak.com  
    Title: Blue Tweak AI-to-Human Handoff: Best Practices for Customer Support  
-   Link: <a href="https://bluetweak.com/blog/ai-to-human-handoff/" target="_blank" rel="noopener noreferrer nofollow">https://bluetweak.com/blog/ai-to-human-handoff/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-to-Human Handoff: Best Practices for Customer Support...April 17, 2026 — 17 Apr 2026 — Gartner research shows that low-effor...</p></details>
+   Link:<a href="https://bluetweak.com/blog/ai-to-human-handoff/" target="_blank" rel="noopener noreferrer nofollow">https://bluetweak.com/blog/ai-to-human-handoff/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-to-Human Handoff: Best Practices for Customer Support...April 17, 2026 — 17 Apr 2026 — Gartner research shows that low-effor...</p></details>
    Published: April 17, 2026  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: axios.com  
    Title: First study to look at AI in the workplace finds it boosts productivity  
-   Link: <a href="https://www.axios.com/2023/04/25/artificial-intelligence-workplace-productivity" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2023/04/25/artificial-intelligence-workplace-productivity</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The study involved over 5,000 customer service agents and found that using generative AI—technology that creates content like text or ima...</p></details>
+   Link:<a href="https://www.axios.com/2023/04/25/artificial-intelligence-workplace-productivity" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2023/04/25/artificial-intelligence-workplace-productivity</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The study involved over 5,000 customer service agents and found that using generative AI—technology that creates content like text or ima...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2603.29888" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.29888</a>  
+   Link:<a href="https://arxiv.org/abs/2603.29888" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2603.29888</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: egain.com  
    Title: e Gain Gen AI for Customer Service Automation  
-   Link: <a href="https://www.egain.com/generative-ai-for-customer-service-automation/" target="_blank" rel="noopener noreferrer nofollow">https://www.egain.com/generative-ai-for-customer-service-automation/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Gen AI for Customer Service Automation - 5 PitfallsThis white paper discusses Gen AI projects in customer service automation, conten...</p></details>
+   Link:<a href="https://www.egain.com/generative-ai-for-customer-service-automation/" target="_blank" rel="noopener noreferrer nofollow">https://www.egain.com/generative-ai-for-customer-service-automation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gen AI for Customer Service Automation - 5 PitfallsThis white paper discusses Gen AI projects in customer service automation, conten...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: ceur-ws.org  
-   Link: <a href="https://ceur-ws.org/Vol-4034/paper80.pdf" target="_blank" rel="noopener noreferrer nofollow">https://ceur-ws.org/Vol-4034/paper80.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Toward a knowledge management method for training...by E Dzenuska · 2025 — This paper summarizes preliminary findings on a knowledge man...</p></details>
+   Link:<a href="https://ceur-ws.org/Vol-4034/paper80.pdf" target="_blank" rel="noopener noreferrer nofollow">https://ceur-ws.org/Vol-4034/paper80.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Toward a knowledge management method for training...by E Dzenuska · 2025 — This paper summarizes preliminary findings on a knowledge man...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2510.06674" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.06674</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Agent-in-the-Loop: A Data Flywheel for Continuous Improvement in LLM-based Customer SupportOctober 8, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2510.06674" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2510.06674</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Agent-in-the-Loop: A Data Flywheel for Continuous Improvement in LLM-based Customer SupportOctober 8, 2025...</p></details>
    Published: October 8, 2025  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: reuters.com  
    Title: Decagon raises $35 million for AI-powered customer service  
-   Link: <a href="https://www.reuters.com/technology/decagon-raises-35-million-ai-powered-customer-service-2024-06-18/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/technology/decagon-raises-35-million-ai-powered-customer-service-2024-06-18/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The company leverages generative AI technology, which gained popularity with OpenAI&#x27;s ChatGPT in late 2022, to enhance or replace custome...</p></details>
+   Link:<a href="https://www.reuters.com/technology/decagon-raises-35-million-ai-powered-customer-service-2024-06-18/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/technology/decagon-raises-35-million-ai-powered-customer-service-2024-06-18/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The company leverages generative AI technology, which gained popularity with OpenAI&#x27;s ChatGPT in late 2022, to enhance or replace custome...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2602.10122v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.10122v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Practical Guide to Agentic AI Transition in Organizations27 Jan 2026 — Drawing on practical experience in designing and deploying agent...</p></details>
+   Link:<a href="https://arxiv.org/html/2602.10122v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.10122v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Practical Guide to Agentic AI Transition in Organizations27 Jan 2026 — Drawing on practical experience in designing and deploying agent...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: bluetweak.com  
    Title: ai use cases in customer service  
-   Link: <a href="https://bluetweak.com/blog/ai-use-cases-in-customer-service/" target="_blank" rel="noopener noreferrer nofollow">https://bluetweak.com/blog/ai-use-cases-in-customer-service/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Top 12 AI Customer Service Use Cases (2026)2 Oct 2025 — 12 impactful AI use cases in customer service (chatbots, [agent assist](&amp;#123;&amp;#123; &#x27;agent-assist/&#x27; | relative_url &amp;#125;&amp;#125;), multilingu...</p></details>
+   Link:<a href="https://bluetweak.com/blog/ai-use-cases-in-customer-service/" target="_blank" rel="noopener noreferrer nofollow">https://bluetweak.com/blog/ai-use-cases-in-customer-service/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Top 12 AI Customer Service Use Cases (2026)2 Oct 2025 — 12 impactful AI use cases in customer service (chatbots, [agent assist](&amp;#123;&amp;#123; &#x27;agent-assist/&#x27; | relative_url &amp;#125;&amp;#125;), multilingu...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: evly.ai  
    Title: ai in customer service  
-   Link: <a href="https://www.evly.ai/blog/ai-in-customer-service" target="_blank" rel="noopener noreferrer nofollow">https://www.evly.ai/blog/ai-in-customer-service</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Your 2026 Roadmap to Automation &amp; EfficiencyA complete 2026 guide to AI in customer service: automation workflows, top AI tools, ROI gain...</p></details>
+   Link:<a href="https://www.evly.ai/blog/ai-in-customer-service" target="_blank" rel="noopener noreferrer nofollow">https://www.evly.ai/blog/ai-in-customer-service</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Your 2026 Roadmap to Automation &amp; EfficiencyA complete 2026 guide to AI in customer service: automation workflows, top AI tools, ROI gain...</p></details>
 
 ### Additional References
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/381224987_Exploring_AI-Driven_Customer_Service_Evolution_Architectures_Opportunities_Challenges_and_Future_Directions" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/381224987_Exploring_AI-Driven_Customer_Service_Evolution_Architectures_Opportunities_Challenges_and_Future_Directions</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Exploring AI-Driven Customer Service: Evolution...6 Jun 2024 — This review presents a rigorous analysis of the impact of artificia...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/381224987_Exploring_AI-Driven_Customer_Service_Evolution_Architectures_Opportunities_Challenges_and_Future_Directions" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/381224987_Exploring_AI-Driven_Customer_Service_Evolution_Architectures_Opportunities_Challenges_and_Future_Directions</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Exploring AI-Driven Customer Service: Evolution...6 Jun 2024 — This review presents a rigorous analysis of the impact of artificia...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/389762161_Empowering_customer_service_with_generative_AI_enhancing_agent_performance_while_navigating_challenges" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/389762161_Empowering_customer_service_with_generative_AI_enhancing_agent_performance_while_navigating_challenges</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Empowering customer service with generative AI26 Mar 2025 — This research found that companies will require humans for effective cu...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/389762161_Empowering_customer_service_with_generative_AI_enhancing_agent_performance_while_navigating_challenges" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/389762161_Empowering_customer_service_with_generative_AI_enhancing_agent_performance_while_navigating_challenges</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Empowering customer service with generative AI26 Mar 2025 — This research found that companies will require humans for effective cu...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: leewayhertz.com  
-   Link: <a href="https://www.leewayhertz.com/customer-service-automation/" target="_blank" rel="noopener noreferrer nofollow">https://www.leewayhertz.com/customer-service-automation/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI for customer service automation: Use cases, benefits...This article explores the intricacies of AI in customer service automation, ex...</p></details>
+   Link:<a href="https://www.leewayhertz.com/customer-service-automation/" target="_blank" rel="noopener noreferrer nofollow">https://www.leewayhertz.com/customer-service-automation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI for customer service automation: Use cases, benefits...This article explores the intricacies of AI in customer service automation, ex...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/ai-in-customer-service" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-in-customer-service</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Customer ServiceAI in customer service refers to the use of technologies like AI and automation to streamline support, quickly assi...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/ai-in-customer-service" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/ai-in-customer-service</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Customer ServiceAI in customer service refers to the use of technologies like AI and automation to streamline support, quickly assi...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/nadyrizk_the-reality-check-over-the-coming-weeks-activity-7459696148744871936-LqGX" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/nadyrizk_the-reality-check-over-the-coming-weeks-activity-7459696148744871936-LqGX</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Customer Support: Reality Check and Future...The real opportunity is deeper in the workflow: • helping agents resolve issues faste...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/nadyrizk_the-reality-check-over-the-coming-weeks-activity-7459696148744871936-LqGX" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/nadyrizk_the-reality-check-over-the-coming-weeks-activity-7459696148744871936-LqGX</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Customer Support: Reality Check and Future...The real opportunity is deeper in the workflow: • helping agents resolve issues faste...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-first contact centers are not chatbot projects. They are...A lot of companies still seem to treat contact center AI like a chatbot ro...</p></details>
+   Link:<a href="https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/customerexperience/comments/1u1dv0g/aifirst_contact_centers_are_not_chatbot_projects/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-first contact centers are not chatbot projects. They are...A lot of companies still seem to treat contact center AI like a chatbot ro...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: layer3labs.io  
-   Link: <a href="https://www.layer3labs.io/ai-customer-service-automation" target="_blank" rel="noopener noreferrer nofollow">https://www.layer3labs.io/ai-customer-service-automation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Customer Service AutomationA practical guide to automating customer support — triage, response drafting, escalation logic, and self-se...</p></details>
+   Link:<a href="https://www.layer3labs.io/ai-customer-service-automation" target="_blank" rel="noopener noreferrer nofollow">https://www.layer3labs.io/ai-customer-service-automation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Customer Service AutomationA practical guide to automating customer support — triage, response drafting, escalation logic, and self-se...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/enhancing-customer-service-imperative-knowledge-management-sahni-vtlnc?trk=public_post" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/enhancing-customer-service-imperative-knowledge-management-sahni-vtlnc?trk=public_post</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI and KM for Customer ServiceKM and Gen AI imperative for customer service. Enhancing Customer Service: The Imperative of Kno...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/enhancing-customer-service-imperative-knowledge-management-sahni-vtlnc?trk=public_post" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/enhancing-customer-service-imperative-knowledge-management-sahni-vtlnc?trk=public_post</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI and KM for Customer ServiceKM and Gen AI imperative for customer service. Enhancing Customer Service: The Imperative of Kno...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: rivuletiq.com  
-   Link: <a href="https://www.rivuletiq.com/automate-customer-support-ai-without-losing-human-touch/" target="_blank" rel="noopener noreferrer nofollow">https://www.rivuletiq.com/automate-customer-support-ai-without-losing-human-touch/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Automate Your Customer Support with AI (Without...Learn how to automate customer support with AI the right way: faster responses...</p></details>
+   Link:<a href="https://www.rivuletiq.com/automate-customer-support-ai-without-losing-human-touch/" target="_blank" rel="noopener noreferrer nofollow">https://www.rivuletiq.com/automate-customer-support-ai-without-losing-human-touch/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Automate Your Customer Support with AI (Without...Learn how to automate customer support with AI the right way: faster responses...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: elastic.co  
    Title: generative ai for customer support knowledge centered service  
-   Link: <a href="https://www.elastic.co/blog/generative-ai-for-customer-support-knowledge-centered-service" target="_blank" rel="noopener noreferrer nofollow">https://www.elastic.co/blog/generative-ai-for-customer-support-knowledge-centered-service</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Breaking down the tiers: How generative AI and knowledge...22 Jul 2025 — GenAI and knowledge-centered service are changing how customer...</p></details>
+   Link:<a href="https://www.elastic.co/blog/generative-ai-for-customer-support-knowledge-centered-service" target="_blank" rel="noopener noreferrer nofollow">https://www.elastic.co/blog/generative-ai-for-customer-support-knowledge-centered-service</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Breaking down the tiers: How generative AI and knowledge...22 Jul 2025 — GenAI and knowledge-centered service are changing how customer...</p></details>

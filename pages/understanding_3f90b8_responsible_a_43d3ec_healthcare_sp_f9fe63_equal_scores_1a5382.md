@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9
 
 ## Introduction
 
-One of the most important lessons in [understanding]({{ 'understanding/' | relative_url }}) artificial intelligence is that equal scores do not necessarily mean equal outcomes. In the widely discussed [healthcare]({{ 'health-proxy/' | relative_url }}) risk-scoring case, researchers discovered that Black patients and White patients who received the same algorithmic risk score often had very different levels of illness. The score appeared neutral, but patients with identical ratings were not equally sick. Black patients were typically carrying a substantially greater disease burden than White patients at the same predicted risk level. This finding revealed how an AI system can seem accurate overall while still producing unequal consequences for different groups. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+One of the most important lessons in [understanding]({{ 'understanding/' | relative_url }}) artificial intelligence is that equal scores do not necessarily mean equal outcomes. In the widely discussed [healthcare]({{ 'health-proxy/' | relative_url }}) risk-scoring case, researchers discovered that Black patients and White patients who received the same algorithmic risk score often had very different levels of illness. The score appeared neutral, but patients with identical ratings were not equally sick. Black patients were typically carrying a substantially greater disease burden than White patients at the same predicted risk level. This finding revealed how an AI system can seem accurate overall while still producing unequal consequences for different groups.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_equal_scores_1a5382-Illustration-1-dark.svg" | relative_url }}" alt="Equal Scores illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_equal_scores_1a5382-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_equal_scores_1a5382-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,13 +277,13 @@ One of the most important lessons in [understanding]({{ 'understanding/' | relat
 
 The most striking evidence emerged when researchers stopped looking at overall [prediction]({{ 'error-harms/' | relative_url }}) accuracy and instead compared patients who received the same [risk score]({{ 'thresholds/' | relative_url }}).
 
-The healthcare algorithm was designed to identify patients who might benefit from additional care-management services. When researchers examined people with identical scores, they found that Black patients consistently had more chronic illness, more severe health conditions, and more signs of uncontrolled disease than White patients assigned the same level of risk. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://data6.org/su22/assignments/DissectingRacialBias.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: data6.org">[Data 6]</a><span class="citation-popover" role="note"><span class="citation-popover-source">data6.org</span><span class="citation-popover-snippet">June 24, 2021...</span><span class="citation-popover-meta">Published: June 24, 2021</span></span></span>
+The healthcare algorithm was designed to identify patients who might benefit from additional care-management services. When researchers examined people with identical scores, they found that Black patients consistently had more chronic illness, more severe health conditions, and more signs of uncontrolled disease than White patients assigned the same level of risk.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://data6.org/su22/assignments/DissectingRacialBias.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: data6.org">[Data 6]</a><span class="citation-popover" role="note"><span class="citation-popover-source">data6.org</span><span class="citation-popover-snippet">June 24, 2021...</span><span class="citation-popover-meta">Published: June 24, 2021</span></span></span>
 
-This observation mattered because a risk score is supposed to summarise underlying need. If two patients receive the same score, decision-makers generally assume they have roughly similar health risks. The study showed that this assumption was false. The algorithm's rankings systematically understated the health needs of many Black patients. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubmed.ncbi.nlm.nih.gov/31649194/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubmed.ncbi.nlm.nih.gov">[PubMed]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubmed.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Dissecting racial bias in an algorithm used to manage the health of populations - PubMed...</span></span></span>
+This observation mattered because a risk score is supposed to summarise underlying need. If two patients receive the same score, decision-makers generally assume they have roughly similar health risks. The study showed that this assumption was false. The algorithm's rankings systematically understated the health needs of many Black patients.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubmed.ncbi.nlm.nih.gov/31649194/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubmed.ncbi.nlm.nih.gov">[PubMed]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubmed.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Dissecting racial bias in an algorithm used to manage the health of populations - PubMed...</span></span></span>
 
-Researchers measured illness burden in several ways, including the number of chronic conditions and broader indicators of health status. Across these measures, the pattern remained consistent: equal algorithmic scores did not correspond to equal levels of sickness. Black patients had to be substantially sicker before receiving the same risk rating as White patients. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://data6.org/su22/assignments/DissectingRacialBias.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: data6.org">[Data 6]</a><span class="citation-popover" role="note"><span class="citation-popover-source">data6.org</span><span class="citation-popover-snippet">June 24, 2021...</span><span class="citation-popover-meta">Published: June 24, 2021</span></span></span>
+Researchers measured illness burden in several ways, including the number of chronic conditions and broader indicators of health status. Across these measures, the pattern remained consistent: equal algorithmic scores did not correspond to equal levels of sickness. Black patients had to be substantially sicker before receiving the same risk rating as White patients.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://data6.org/su22/assignments/DissectingRacialBias.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: data6.org">[Data 6]</a><span class="citation-popover" role="note"><span class="citation-popover-source">data6.org</span><span class="citation-popover-snippet">June 24, 2021...</span><span class="citation-popover-meta">Published: June 24, 2021</span></span></span>
 
-This finding is especially important because the disparity was not obvious from conventional performance statistics. The model could appear successful when evaluated against its training target while still producing unequal rankings when used to guide care [decisions]({{ 'decisions/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+This finding is especially important because the disparity was not obvious from conventional performance statistics. The model could appear successful when evaluated against its training target while still producing unequal rankings when used to guide care [decisions]({{ 'decisions/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/c5KcSNeGXOM" title="The Double-Edged Sword of AI, with Dr. Ziad Obermeyer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=c5KcSNeGXOM" target="_blank" rel="noopener noreferrer">The Double-Edged Sword of AI, with Dr. Ziad Obermeyer</a></p><p class="youtube-embed-meta">Channel: NEJM Group</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=c5KcSNeGXOM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=c5KcSNeGXOM">Open on YouTube</a></p></div></div></div>
@@ -292,13 +292,13 @@ This finding is especially important because the disparity was not obvious from 
 
 The unequal scoring translated directly into access to support programmes.
 
-Many health systems use risk thresholds to determine who receives additional monitoring, preventive interventions, case management, or specialised care coordination. Patients above a certain score are enrolled; those below it are not. Because Black patients were often assigned lower scores than their actual illness burden justified, many were less likely to qualify for these programmes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+Many health systems use risk thresholds to determine who receives additional monitoring, preventive interventions, case management, or specialised care coordination. Patients above a certain score are enrolled; those below it are not. Because Black patients were often assigned lower scores than their actual illness burden justified, many were less likely to qualify for these programmes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
-The researchers estimated that if the bias were removed, the share of Black patients identified for extra care would rise dramatically—from 17.7% to 46.5%. This was not a small statistical adjustment. It represented a major change in who would receive healthcare resources and support. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+The researchers estimated that if the bias were removed, the share of Black patients identified for extra care would rise dramatically—from 17.7% to 46.5%. This was not a small statistical adjustment. It represented a major change in who would receive healthcare resources and support.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
-The practical consequence was that two patients with similar medical needs could be treated differently by the allocation system. A White patient might cross the eligibility threshold while a Black patient with comparable or greater illness remained below it. The algorithm therefore influenced not only rankings on a screen but also real-world access to healthcare services. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+The practical consequence was that two patients with similar medical needs could be treated differently by the allocation system. A White patient might cross the eligibility threshold while a Black patient with comparable or greater illness remained below it. The algorithm therefore influenced not only rankings on a screen but also real-world access to healthcare services.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
-The pattern reflected a broader structural problem. Historical healthcare spending on Black patients was often lower than spending on White patients with similar health conditions. Because the algorithm learned from spending data, it inherited those patterns and reproduced them in its [predictions]({{ 'predictions/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth+2PubMed]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+The pattern reflected a broader structural problem. Historical healthcare spending on Black patients was often lower than spending on White patients with similar health conditions. Because the algorithm learned from spending data, it inherited those patterns and reproduced them in its [predictions]({{ 'predictions/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth+2PubMed]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/JfKYO1W4uuA" title="Keynote Presentation: Dissecting Algorithmic Bias" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=JfKYO1W4uuA" target="_blank" rel="noopener noreferrer">Keynote Presentation: Dissecting Algorithmic Bias</a></p><p class="youtube-embed-meta">Channel: R Consortium</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=JfKYO1W4uuA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=JfKYO1W4uuA">Open on YouTube</a></p></div></div></div>
@@ -311,191 +311,191 @@ The pattern reflected a broader structural problem. Historical healthcare spendi
 
 The equal-score finding became influential because it demonstrated a limitation of standard AI evaluation.
 
-A model can perform well on average while still treating groups differently. If evaluators only examine aggregate accuracy, they may miss important disparities hidden inside the rankings. The healthcare case showed that an algorithm can correctly predict its chosen target yet still fail at the task decision-makers actually care about. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+A model can perform well on average while still treating groups differently. If evaluators only examine aggregate accuracy, they may miss important disparities hidden inside the rankings. The healthcare case showed that an algorithm can correctly predict its chosen target yet still fail at the task decision-makers actually care about.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
-Group-level analysis helped expose the problem. Instead of asking whether the model predicted future costs accurately, researchers asked a different question: when Black and White patients receive the same score, do they have similar levels of illness? The answer was clearly no. That comparison revealed a disparity invisible in many conventional performance reports. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://data6.org/su22/assignments/DissectingRacialBias.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: data6.org">[Data 6]</a><span class="citation-popover" role="note"><span class="citation-popover-source">data6.org</span><span class="citation-popover-snippet">June 24, 2021...</span><span class="citation-popover-meta">Published: June 24, 2021</span></span></span>
+Group-level analysis helped expose the problem. Instead of asking whether the model predicted future costs accurately, researchers asked a different question: when Black and White patients receive the same score, do they have similar levels of illness? The answer was clearly no. That comparison revealed a disparity invisible in many conventional performance reports.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://data6.org/su22/assignments/DissectingRacialBias.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: data6.org">[Data 6]</a><span class="citation-popover" role="note"><span class="citation-popover-source">data6.org</span><span class="citation-popover-snippet">June 24, 2021...</span><span class="citation-popover-meta">Published: June 24, 2021</span></span></span>
 
-The lesson extends beyond healthcare. Whenever an AI system ranks people for opportunities, services, or interventions, developers must examine how scores relate to real outcomes across different populations. Equal numerical outputs do not automatically imply equal treatment. A score may encode hidden assumptions inherited from the data used to train the model. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+The lesson extends beyond healthcare. Whenever an AI system ranks people for opportunities, services, or interventions, developers must examine how scores relate to real outcomes across different populations. Equal numerical outputs do not automatically imply equal treatment. A score may encode hidden assumptions inherited from the data used to train the model.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
-For students of artificial intelligence, this case is a reminder that fairness questions often emerge not from the algorithm's mathematics alone but from the relationship between the score and the reality it is meant to represent. The discovery that Black patients were sicker at the same risk score became one of the clearest demonstrations that AI systems should be evaluated not only for predictive accuracy but also for how their rankings affect different groups in practice. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+For students of artificial intelligence, this case is a reminder that fairness questions often emerge not from the algorithm's mathematics alone but from the relationship between the score and the reality it is meant to represent. The discovery that Black patients were sicker at the same risk score became one of the clearest demonstrations that AI systems should be evaluated not only for predictive accuracy but also for how their rankings affect different groups in practice.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/U5MlyFsMi-E" title="Dissecting Algorithmic Bias | Ziad Obermeyer | AI FOR GOOD DISCOVERY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=U5MlyFsMi-E" target="_blank" rel="noopener noreferrer">Dissecting Algorithmic Bias | Ziad Obermeyer | AI FOR GOOD DISCOVERY</a></p><p class="youtube-embed-meta">Channel: AI for Good</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=U5MlyFsMi-E" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=U5MlyFsMi-E">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When equal risk scores hide unequal illness. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When equal risk scores hide unequal illness. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Explains why seemingly neutral scores can produce unequal consequences.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why seemingly neutral scores can produce unequal consequences.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=maTGwgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Medicine">Deep Medicine</a>
-        </h4>
-        <p class="fr-book-author">By Eric J. Topol</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=maTGwgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Medicine">Deep Medicine</a>
+</h4>
+<p class="fr-book-author">By Eric J. Topol</p>
         
-        <p class="fr-book-desc">Relevant to healthcare risk scoring and patient outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Relevant to healthcare risk scoring and patient outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Invisible Women on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MKZYDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Invisible Women" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Invisible Women">Invisible Women</a>
-        </h4>
-        <p class="fr-book-author">By Caroline Criado Perez</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Invisible Women on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MKZYDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Invisible Women" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Invisible Women">Invisible Women</a>
+</h4>
+<p class="fr-book-author">By Caroline Criado Perez</p>
         
-        <p class="fr-book-desc">Demonstrates how aggregate metrics can hide unequal realities.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Demonstrates how aggregate metrics can hide unequal realities.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Invisible+Women+by+Caroline+Criado+Perez&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nPy9uwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
-        </h4>
-        <p class="fr-book-author">By Ruha Benjamin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=nPy9uwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
+</h4>
+<p class="fr-book-author">By Ruha Benjamin</p>
         
-        <p class="fr-book-desc">Explores hidden inequalities within apparently neutral systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores hidden inequalities within apparently neutral systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Medicine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Medicine</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Invisible+Women&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Invisible Women</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Medicine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Medicine</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Invisible+Women&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Invisible Women</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Soviet Poster ORIGINAL First Aid kit Medical AI-2 NBC Chernobyl stalker USSR"><img src="{{ '/assets/images/marketplace-covers/e1653363e003e43aee7c.jpg' | relative_url }}" alt="Listing image for Soviet Poster ORIGINAL First Aid kit Medical AI-2 NBC Chernobyl stalker USSR" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Soviet Poster ORIGINAL First Aid kit Medical AI-2 NBC Chernobyl stalker USSR</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for medical AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: medical AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Soviet Poster ORIGINAL First Aid kit Medical AI-2 NBC Chernobyl stalker USSR"><img src="{{ '/assets/images/marketplace-covers/e1653363e003e43aee7c.jpg' | relative_url }}" alt="Listing image for Soviet Poster ORIGINAL First Aid kit Medical AI-2 NBC Chernobyl stalker USSR" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Soviet Poster ORIGINAL First Aid kit Medical AI-2 NBC Chernobyl stalker USSR</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for medical AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: medical AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Soviet Russian Poster First Aid Individual Medical Kit AI Military 24x36&quot;"><img src="{{ '/assets/images/marketplace-covers/eb46ffbfcbfc35f99eb8.jpg' | relative_url }}" alt="Listing image for Soviet Russian Poster First Aid Individual Medical Kit AI Military 24x36&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Soviet Russian Poster First Aid Individual Medical Kit AI Military 24x36&quot;</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for medical AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: medical AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Soviet Russian Poster First Aid Individual Medical Kit AI Military 24x36&quot;"><img src="{{ '/assets/images/marketplace-covers/eb46ffbfcbfc35f99eb8.jpg' | relative_url }}" alt="Listing image for Soviet Russian Poster First Aid Individual Medical Kit AI Military 24x36&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Soviet Russian Poster First Aid Individual Medical Kit AI Military 24x36&quot;</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for medical AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: medical AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Soviet Russian Poster First Aid Individual Medical Kit AI Military Army 18x24&quot;"><img src="{{ '/assets/images/marketplace-covers/7fcec2e40711537b3abe.jpg' | relative_url }}" alt="Listing image for Soviet Russian Poster First Aid Individual Medical Kit AI Military Army 18x24&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Soviet Russian Poster First Aid Individual Medical Kit AI Military Army 18x24&quot;</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for medical AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: medical AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Soviet Russian Poster First Aid Individual Medical Kit AI Military Army 18x24&quot;"><img src="{{ '/assets/images/marketplace-covers/7fcec2e40711537b3abe.jpg' | relative_url }}" alt="Listing image for Soviet Russian Poster First Aid Individual Medical Kit AI Military Army 18x24&quot;" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">Soviet Russian Poster First Aid Individual Medical Kit AI Military Army 18x24&quot;</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for medical AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: medical AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=medical+AI+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="medical AI poster -book -books" data-ebay-reference="equal-scores-when-equal-risk-scores-hide-unequal-illness-understanding-medical-ai-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -511,7 +511,7 @@ For students of artificial intelligence, this case is a reminder that fairness q
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -531,7 +531,7 @@ For students of artificial intelligence, this case is a reminder that fairness q
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -563,7 +563,7 @@ For students of artificial intelligence, this case is a reminder that fairness q
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -615,7 +615,7 @@ For students of artificial intelligence, this case is a reminder that fairness q
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -660,7 +660,7 @@ For students of artificial intelligence, this case is a reminder that fairness q
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -701,55 +701,55 @@ For students of artificial intelligence, this case is a reminder that fairness q
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: chicagobooth.edu  
-   Link: <a href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow">https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center | Chicago Booth...</p></details>
+   Link:<a href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow">https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center | Chicago Booth...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: pubmed.ncbi.nlm.nih.gov  
-   Link: <a href="https://pubmed.ncbi.nlm.nih.gov/31649194/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/31649194/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Dissecting racial bias in an algorithm used to manage the health of populations - PubMed...</p></details>
+   Link:<a href="https://pubmed.ncbi.nlm.nih.gov/31649194/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/31649194/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Dissecting racial bias in an algorithm used to manage the health of populations - PubMed...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: data6.org  
-   Link: <a href="https://data6.org/su22/assignments/DissectingRacialBias.pdf" target="_blank" rel="noopener noreferrer nofollow">https://data6.org/su22/assignments/DissectingRacialBias.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>June 24, 2021...</p></details>
+   Link:<a href="https://data6.org/su22/assignments/DissectingRacialBias.pdf" target="_blank" rel="noopener noreferrer nofollow">https://data6.org/su22/assignments/DissectingRacialBias.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>June 24, 2021...</p></details>
    Published: June 24, 2021  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: ouci.dntb.gov.ua  
    Title: Dissecting racial bias in an algorithm used to manage the health of populations  
-   Link: <a href="https://ouci.dntb.gov.ua/en/works/7P2G12Gl/" target="_blank" rel="noopener noreferrer nofollow">https://ouci.dntb.gov.ua/en/works/7P2G12Gl/</a>  
+   Link:<a href="https://ouci.dntb.gov.ua/en/works/7P2G12Gl/" target="_blank" rel="noopener noreferrer nofollow">https://ouci.dntb.gov.ua/en/works/7P2G12Gl/</a>  
 
 ### Additional References
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: reddit.com  
    Title: Millions of black people affected by racial bias in health-care algorithms  
-   Link: <a href="https://www.reddit.com/r/autotldr/comments/dn232j" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/autotldr/comments/dn232j</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Millions of black people affected by racial bias in health-care algorithms...</p></details>
+   Link:<a href="https://www.reddit.com/r/autotldr/comments/dn232j" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/autotldr/comments/dn232j</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Millions of black people affected by racial bias in health-care algorithms...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: youtube.com  
    Title: Dissecting Racial Bias in an Algorithm that Guides Health Decisions for Millions  
-   Link: <a href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=y6eo0FZIqjk</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Dissecting Algorithmic Bias | Ziad Obermeyer | AI FOR GOOD DISCOVERY...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=y6eo0FZIqjk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Dissecting Algorithmic Bias | Ziad Obermeyer | AI FOR GOOD DISCOVERY...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: youtube.com  
    Title: Dissecting Algorithmic Bias | Ziad Obermeyer | AI FOR GOOD DISCOVERY  
-   Link: <a href="https://www.youtube.com/watch?v=U5MlyFsMi-E" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=U5MlyFsMi-E</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Keynote Presentation: Dissecting Algorithmic Bias...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=U5MlyFsMi-E" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=U5MlyFsMi-E</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Keynote Presentation: Dissecting Algorithmic Bias...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: youtube.com  
    Title: The Double-Edged Sword of AI, with Dr. Ziad Obermeyer  
-   Link: <a href="https://www.youtube.com/watch?v=c5KcSNeGXOM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=c5KcSNeGXOM</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Double-Edged Sword of AI, with Dr. Ziad Obermeyer - YouTube...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=c5KcSNeGXOM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=c5KcSNeGXOM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Double-Edged Sword of AI, with Dr. Ziad Obermeyer - YouTube...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: youtube.com  
    Title: Keynote Presentation: Dissecting Algorithmic Bias  
-   Link: <a href="https://www.youtube.com/watch?v=JfKYO1W4uuA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JfKYO1W4uuA</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Double-Edged Sword of AI, with Dr. Ziad Obermeyer...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=JfKYO1W4uuA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=JfKYO1W4uuA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Double-Edged Sword of AI, with Dr. Ziad Obermeyer...</p></details>

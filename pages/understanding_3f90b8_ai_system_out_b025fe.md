@@ -337,17 +337,17 @@ AI is easiest to recognise by what it does: it takes inputs and produces outputs
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe-overview.webp" | relative_url }}" alt="Overview image for AI Outputs" loading="eager" decoding="sync" fetchpriority="high">
-This output-centred view is now built into major definitions. NIST describes AI as a machine-based system that can make predictions, recommendations or decisions for human-defined objectives, while the OECD and the [EU AI Act]({{ 'eu-ai-act/' | relative_url }}) use a broader formulation that includes predictions, content, recommendations and decisions. NIST Computer Security Resource Center+2OECD.AI <span class="citation-link-wrap"><a class="citation-inline-link" href="https://csrc.nist.gov/glossary/term/artificial_intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: csrc.nist.gov">[csrc.nist.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">csrc.nist.gov</span><span class="citation-popover-title">Computer Security Resource Centerartificial intelligence</span><span class="citation-popover-snippet">Computer Security Resource Centerartificial intelligence</span></span></span>
+This output-centred view is now built into major definitions. NIST describes AI as a machine-based system that can make predictions, recommendations or decisions for human-defined objectives, while the OECD and the [EU AI Act]({{ 'eu-ai-act/' | relative_url }}) use a broader formulation that includes predictions, content, recommendations and decisions. NIST Computer Security Resource Center+2OECD.AI<span class="citation-link-wrap"><a class="citation-inline-link" href="https://csrc.nist.gov/glossary/term/artificial_intelligence" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: csrc.nist.gov">[csrc.nist.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">csrc.nist.gov</span><span class="citation-popover-title">Computer Security Resource Centerartificial intelligence</span><span class="citation-popover-snippet">Computer Security Resource Centerartificial intelligence</span></span></span>
 
 ## The practical definition: inputs become outputs
 
 A useful definition of an AI system starts with a simple chain: input, [inference]({{ 'inference-test/' | relative_url }}), output and effect. The input might be a search query, an image, a credit record, a temperature reading, a user prompt, a click history or a set of rules. The system then infers how to produce an output: a label, score, ranking, generated paragraph, warning, route, recommendation or decision. The output matters because it can shape what a person sees, buys, believes, receives, is denied or is asked to do.
 
-The OECD’s updated definition makes this chain explicit: an AI system is machine-based, works towards explicit or implicit objectives, infers from the input it receives, and generates outputs such as predictions, content, recommendations or decisions that can influence physical or virtual environments. It also stresses that AI systems vary in autonomy and in how much they adapt after deployment. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/wonk/definition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-title">What is AI? Can you make a clear distinction between AI and non-AI systems?</span><span class="citation-popover-snippet">What is AI? Can you make a clear distinction between AI and non-AI systems?</span></span></span> The EU AI Act adopts a closely aligned definition, adding that an AI system may exhibit adaptiveness after deployment and may operate with varying levels of autonomy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Open source on artificialintelligenceact.eu.</span></span></span>
+The OECD’s updated definition makes this chain explicit: an AI system is machine-based, works towards explicit or implicit objectives, infers from the input it receives, and generates outputs such as predictions, content, recommendations or decisions that can influence physical or virtual environments. It also stresses that AI systems vary in autonomy and in how much they adapt after deployment.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/wonk/definition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-title">What is AI? Can you make a clear distinction between AI and non-AI systems?</span><span class="citation-popover-snippet">What is AI? Can you make a clear distinction between AI and non-AI systems?</span></span></span> The EU AI Act adopts a closely aligned definition, adding that an AI system may exhibit adaptiveness after deployment and may operate with varying levels of autonomy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Open source on artificialintelligenceact.eu.</span></span></span>
 
 This is why “AI” is not limited to systems that talk like people. Many AI systems never produce a sentence. A fraud model may produce a [risk score]({{ 'thresholds/' | relative_url }}). A medical imaging tool may flag a suspicious lesion. A [search ranking]({{ 'search-ranking/' | relative_url }}) system may decide which pages appear first. A recommender system may choose the next video or product to show. The common feature is not conversation; it is machine-based inference that turns inputs into outputs.
 
-The European Commission’s guidance on the AI Act puts special weight on outputs because they reveal both the function and the impact of a system. It identifies four broad output categories: predictions, content, recommendations and decisions. It also notes that deciding whether software counts as an AI system cannot be done through a single automatic list; the system’s architecture, functionality and role must be assessed [in context]({{ 'in-context-learning/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service Desk</span></span></span>
+The European Commission’s guidance on the AI Act puts special weight on outputs because they reveal both the function and the impact of a system. It identifies four broad output categories: predictions, content, recommendations and decisions. It also notes that deciding whether software counts as an AI system cannot be done through a single automatic list; the system’s architecture, functionality and role must be assessed [in context]({{ 'in-context-learning/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service Desk</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe-Illustration-1-dark.svg" | relative_url }}" alt="AI Outputs illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_system_out_b025fe-Illustration-1-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -355,13 +355,13 @@ The European Commission’s guidance on the AI Act puts special weight on output
 
 Many familiar AI systems are best understood by asking which kind of output they produce. The categories overlap in practice, but separating them helps explain what is happening and where responsibility sits.
 
-**Predictions** estimate something not directly known from information the system has received. A spam filter predicts whether an email is unwanted. A weather-linked energy model may predict demand. A health device may estimate the probability of a heart attack. The FDA gives examples of AI and machine-learning medical technologies such as an imaging system that provides diagnostic information for skin cancer and a smart sensor device that estimates heart attack probability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fda.gov">[U.S. Food and Drug Administration]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fda.gov</span><span class="citation-popover-snippet">Open source on fda.gov.</span></span></span>
+**Predictions** estimate something not directly known from information the system has received. A spam filter predicts whether an email is unwanted. A weather-linked energy model may predict demand. A health device may estimate the probability of a heart attack. The FDA gives examples of AI and machine-learning medical technologies such as an imaging system that provides diagnostic information for skin cancer and a smart sensor device that estimates heart attack probability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fda.gov">[U.S. Food and Drug Administration]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fda.gov</span><span class="citation-popover-snippet">Open source on fda.gov.</span></span></span>
 
 Predictions can look modest, but they often carry real consequences. A predicted risk may trigger extra checks, a warning, a referral, a price change or a refusal. The prediction itself is not always the final decision, yet it can strongly shape the decision path that follows. That is why the difference between “the AI predicted” and “the organisation decided” matters: the output may be statistical, but the consequences are social, legal and practical.
 
-**Recommendations** suggest an action, item or next step. A recommendation system uses data to narrow down choices among many options, such as products, films, articles or services. NVIDIA describes recommender systems as machine-learning systems that use data to help predict, narrow down and find what people are looking for among a large number of options; they may use past purchases, searches, demographic information, clicks, likes and other interaction data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nvidia.com/en-us/glossary/recommendation-system/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvidia.com">[NVIDIA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvidia.com</span><span class="citation-popover-title">What is a Recommendation System? &#124; Data Science &#124; NVIDIA Glossary</span><span class="citation-popover-snippet">What is a Recommendation System? &#124; Data Science &#124; NVIDIA Glossary</span></span></span>
+**Recommendations** suggest an action, item or next step. A recommendation system uses data to narrow down choices among many options, such as products, films, articles or services. NVIDIA describes recommender systems as machine-learning systems that use data to help predict, narrow down and find what people are looking for among a large number of options; they may use past purchases, searches, demographic information, clicks, likes and other interaction data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nvidia.com/en-us/glossary/recommendation-system/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvidia.com">[NVIDIA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvidia.com</span><span class="citation-popover-title">What is a Recommendation System? &#124; Data Science &#124; NVIDIA Glossary</span><span class="citation-popover-snippet">What is a Recommendation System? &#124; Data Science &#124; NVIDIA Glossary</span></span></span>
 
-Recommendations are powerful because they shape attention. Google says its automated ranking systems look at many factors and signals across hundreds of billions of pages and other content to present relevant results quickly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Open source on google.com.</span></span></span> Search ranking is not usually framed by users as a dramatic AI decision, but it is one of the clearest everyday examples of software turning a query into an ordered output that affects what people see first.
+Recommendations are powerful because they shape attention. Google says its automated ranking systems look at many factors and signals across hundreds of billions of pages and other content to present relevant results quickly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Open source on google.com.</span></span></span> Search ranking is not usually framed by users as a dramatic AI decision, but it is one of the clearest everyday examples of software turning a query into an ordered output that affects what people see first.
 
 **Decisions** go one step further: the system’s output may directly determine or trigger an outcome, sometimes with little human intervention. This can include approving a transaction, blocking an account action, routing a delivery, prioritising a case or denying access to a service. In lower-stakes settings, this may be useful automation. In higher-stakes settings, it raises harder questions about accuracy, appeal, explanation and human oversight.
 
@@ -376,9 +376,9 @@ Calling an AI system “intelligent” can mislead people into imagining a machi
 
 This matters most when the output sounds authoritative. A generated paragraph can be grammatically polished while still being wrong. A risk score can be numerically precise while resting on incomplete or biased data. A recommendation can feel personalised while mainly reflecting engagement targets, popularity signals or past behaviour. A decision can be automated while no person fully understands the model’s internal route to the result.
 
-Modern definitions avoid the “machine mind” trap by defining AI systems functionally rather than psychologically. The OECD deliberately focuses on an “AI system” rather than trying to define intelligence itself, because a system is more tangible for policy and governance. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/wonk/definition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-title">What is AI? Can you make a clear distinction between AI and non-AI systems?</span><span class="citation-popover-snippet">What is AI? Can you make a clear distinction between AI and non-AI systems?</span></span></span> The EU AI Act similarly focuses on machine-based systems, autonomy, adaptiveness, inputs, inference and outputs rather than consciousness or person-like reasoning. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Open source on artificialintelligenceact.eu.</span></span></span>
+Modern definitions avoid the “machine mind” trap by defining AI systems functionally rather than psychologically. The OECD deliberately focuses on an “AI system” rather than trying to define intelligence itself, because a system is more tangible for policy and governance.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/wonk/definition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-title">What is AI? Can you make a clear distinction between AI and non-AI systems?</span><span class="citation-popover-snippet">What is AI? Can you make a clear distinction between AI and non-AI systems?</span></span></span> The EU AI Act similarly focuses on machine-based systems, autonomy, adaptiveness, inputs, inference and outputs rather than consciousness or person-like reasoning.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Open source on artificialintelligenceact.eu.</span></span></span>
 
-The boundary with ordinary software is also important. A spreadsheet that calculates an average, a database that filters customers who bought a product last month, or a dashboard that displays sales trends is not automatically an AI system just because it processes data. The Commission’s guidance distinguishes basic data processing and descriptive analysis from systems that learn, reason or model in ways that generate AI-like outputs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service Desk</span></span></span>
+The boundary with ordinary software is also important. A spreadsheet that calculates an average, a database that filters customers who bought a product last month, or a dashboard that displays sales trends is not automatically an AI system just because it processes data. The Commission’s guidance distinguishes basic data processing and descriptive analysis from systems that learn, reason or model in ways that generate AI-like outputs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service Desk</span></span></span>
 
 This is the practical correction to hype. AI is not magic, but it is not “just any software” either. The key difference is that AI systems can infer patterns or generate outputs in ways that are less directly hand-coded than traditional fixed-rule systems. That can make them powerful in messy environments, but also harder to inspect, predict and contest.
 
@@ -388,11 +388,11 @@ This is the practical correction to hype. AI is not magic, but it is not “just
 
 The most common AI outputs are embedded in routine interactions. They decide which search result is prominent, which advert appears, which route is suggested, which support ticket is prioritised, which image is flagged, which product is recommended or which text is generated. The ordinariness is part of the point: AI often changes the texture of everyday decisions before it announces itself as AI.
 
-Health care shows the output-centred definition clearly. The FDA says AI and machine-learning technologies can derive insights from large volumes of health-care data and are being used by medical device manufacturers to assist providers and improve patient care. Its examples include diagnostic information from imaging and probability estimates from sensor data. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fda.gov">[U.S. Food and Drug Administration]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fda.gov</span><span class="citation-popover-snippet">Open source on fda.gov.</span></span></span> In these cases, the AI output is not a robot doctor. It is information offered inside a clinical workflow.
+Health care shows the output-centred definition clearly. The FDA says AI and machine-learning technologies can derive insights from large volumes of health-care data and are being used by medical device manufacturers to assist providers and improve patient care. Its examples include diagnostic information from imaging and probability estimates from sensor data.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fda.gov">[U.S. Food and Drug Administration]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fda.gov</span><span class="citation-popover-snippet">Open source on fda.gov.</span></span></span> In these cases, the AI output is not a robot doctor. It is information offered inside a clinical workflow.
 
-Online discovery is another clear example. Search ranking systems and recommender systems do not simply “find” information neutrally; they order, filter and prioritise. Google’s ranking [documentation]({{ 'paper-safety/' | relative_url }}) describes automated systems that use many signals to present useful results rapidly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Open source on google.com.</span></span></span> Recommender systems, meanwhile, learn from interactions such as impressions, clicks, likes and purchases to predict interests and personalise suggestions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nvidia.com/en-us/glossary/recommendation-system/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvidia.com">[NVIDIA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvidia.com</span><span class="citation-popover-title">What is a Recommendation System? &#124; Data Science &#124; NVIDIA Glossary</span><span class="citation-popover-snippet">What is a Recommendation System? &#124; Data Science &#124; NVIDIA Glossary</span></span></span>
+Online discovery is another clear example. Search ranking systems and recommender systems do not simply “find” information neutrally; they order, filter and prioritise. Google’s ranking [documentation]({{ 'paper-safety/' | relative_url }}) describes automated systems that use many signals to present useful results rapidly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.google.com">[Google for Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.google.com</span><span class="citation-popover-snippet">Open source on google.com.</span></span></span> Recommender systems, meanwhile, learn from interactions such as impressions, clicks, likes and purchases to predict interests and personalise suggestions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nvidia.com/en-us/glossary/recommendation-system/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvidia.com">[NVIDIA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvidia.com</span><span class="citation-popover-title">What is a Recommendation System? &#124; Data Science &#124; NVIDIA Glossary</span><span class="citation-popover-snippet">What is a Recommendation System? &#124; Data Science &#124; NVIDIA Glossary</span></span></span>
 
-Consumer and eligibility decisions show the higher-stakes version. Regulators have warned that automated tools used for credit, employment, insurance, housing or similar benefits can trigger legal duties, including notices and opportunities to correct inaccurate information. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.privacysecurityacademy.com/wp-content/uploads/2021/08/01-FTC-Using-Artificial-Intelligence-and-Algorithms-blog-post-2020.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: privacysecurityacademy.com">[Privacy Security Academy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">privacysecurityacademy.com</span><span class="citation-popover-title">Privacy Security Academy Using Artificial Intelligence and Algorithms</span><span class="citation-popover-snippet">Privacy Security Academy Using Artificial Intelligence and Algorithms</span></span></span> The important point is not whether a system looks sophisticated; it is whether its output affects a person’s access to money, work, housing, health care or other meaningful opportunities.
+Consumer and eligibility decisions show the higher-stakes version. Regulators have warned that automated tools used for credit, employment, insurance, housing or similar benefits can trigger legal duties, including notices and opportunities to correct inaccurate information.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.privacysecurityacademy.com/wp-content/uploads/2021/08/01-FTC-Using-Artificial-Intelligence-and-Algorithms-blog-post-2020.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: privacysecurityacademy.com">[Privacy Security Academy]</a><span class="citation-popover" role="note"><span class="citation-popover-source">privacysecurityacademy.com</span><span class="citation-popover-title">Privacy Security Academy Using Artificial Intelligence and Algorithms</span><span class="citation-popover-snippet">Privacy Security Academy Using Artificial Intelligence and Algorithms</span></span></span> The important point is not whether a system looks sophisticated; it is whether its output affects a person’s access to money, work, housing, health care or other meaningful opportunities.
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/uE_ahBZ78RA" title="How AI Systems Work: From Inputs to Outputs (With Examples) | AI Literacy Series" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=uE_ahBZ78RA" target="_blank" rel="noopener noreferrer">How AI Systems Work: From Inputs to Outputs (With Examples) | AI Literacy Series</a></p><p class="youtube-embed-meta">Channel: Dejan Kosutic &middot; Views: 1.7K &middot; Uploaded: January 2026 &middot; Length: 8 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=uE_ahBZ78RA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=uE_ahBZ78RA">Open on YouTube</a></p></div></div></div>
@@ -401,11 +401,11 @@ Consumer and eligibility decisions show the higher-stakes version. Regulators ha
 
 Definitions are not just academic wording. They decide what organisations must inventory, test, explain, regulate or disclose. If “AI” is defined too narrowly, important systems may escape scrutiny because they do not look like chatbots or robots. If it is defined too broadly, ordinary software may be treated as if it carries AI-specific risks even when it only applies fixed instructions.
 
-The EU’s formulation tries to draw the line around systems that infer how to generate outputs capable of influencing physical or virtual environments. Its guidance says the capacity to generate outputs is central to understanding both the functionality and the impact of an AI system. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service Desk</span></span></span> It also states that most systems qualifying as AI systems under the definition will not automatically face regulatory obligations; the AI Act applies a risk-based approach, with stricter rules for higher-risk uses. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service Desk</span></span></span>
+The EU’s formulation tries to draw the line around systems that infer how to generate outputs capable of influencing physical or virtual environments. Its guidance says the capacity to generate outputs is central to understanding both the functionality and the impact of an AI system.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service Desk</span></span></span> It also states that most systems qualifying as AI systems under the definition will not automatically face regulatory obligations; the AI Act applies a risk-based approach, with stricter rules for higher-risk uses.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service Desk</span></span></span>
 
-NIST’s AI Risk Management Framework takes a similar practical stance by focusing on the risks AI systems create for individuals, organisations and society. NIST describes the framework as a voluntary tool intended to help incorporate trustworthiness into the design, development, use and evaluation of AI products, services and systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">AI Risk Management Framework &#124; NIST</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NIST</span></span></span> This reinforces a key point: once AI is understood through outputs and effects, governance becomes less about whether a system seems impressive and more about whether it is valid, reliable, explainable, safe, fair and accountable in its actual context.
+NIST’s AI Risk Management Framework takes a similar practical stance by focusing on the risks AI systems create for individuals, organisations and society. NIST describes the framework as a voluntary tool intended to help incorporate trustworthiness into the design, development, use and evaluation of AI products, services and systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-title">AI Risk Management Framework &#124; NIST</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NIST</span></span></span> This reinforces a key point: once AI is understood through outputs and effects, governance becomes less about whether a system seems impressive and more about whether it is valid, reliable, explainable, safe, fair and accountable in its actual context.
 
-Public expectations also change when content generation is included explicitly. Older definitions often highlighted predictions, recommendations and decisions. Newer definitions include “content” because generative systems can now produce text, images, video, music, code and other material at scale. The OECD’s revised definition added content as an output category, and the EU AI Act definition includes it alongside predictions, recommendations and decisions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/wonk/definition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-title">What is AI? Can you make a clear distinction between AI and non-AI systems?</span><span class="citation-popover-snippet">What is AI? Can you make a clear distinction between AI and non-AI systems?</span></span></span>
+Public expectations also change when content generation is included explicitly. Older definitions often highlighted predictions, recommendations and decisions. Newer definitions include “content” because generative systems can now produce text, images, video, music, code and other material at scale. The OECD’s revised definition added content as an output category, and the EU AI Act definition includes it alongside predictions, recommendations and decisions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://oecd.ai/en/wonk/definition" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.ai">[OECD.AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.ai</span><span class="citation-popover-title">What is AI? Can you make a clear distinction between AI and non-AI systems?</span><span class="citation-popover-snippet">What is AI? Can you make a clear distinction between AI and non-AI systems?</span></span></span>
 
 That change matters because content outputs influence people differently from scores or rankings. A generated answer can become a source of apparent knowledge. A synthetic image can become evidence in a viewer’s mind. Generated code can become part of a working product. The output may not be a “decision” in the narrow sense, but it can still shape decisions made by humans downstream.
 
@@ -432,194 +432,194 @@ This test keeps attention on mechanism rather than mythology. It avoids treating
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to What Counts as AI Today?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to What Counts as AI Today?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explains how AI systems learn from data to generate outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how AI systems learn from data to generate outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Discusses AI capabilities and limitations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses AI capabilities and limitations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Explains what qualifies as AI and what does not.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains what qualifies as AI and what does not.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hello World on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=72FCDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hello World" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hello World">Hello World</a>
-        </h4>
-        <p class="fr-book-author">By Hannah Fry</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hello World on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=72FCDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hello World" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hello World">Hello World</a>
+</h4>
+<p class="fr-book-author">By Hannah Fry</p>
         
-        <p class="fr-book-desc">Uses practical examples of AI outputs and decisions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Uses practical examples of AI outputs and decisions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot"><img src="{{ '/assets/images/marketplace-covers/1f9790f8bfdb292332fa.jpg' | relative_url }}" alt="Listing image for 65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot"><img src="{{ '/assets/images/marketplace-covers/1f9790f8bfdb292332fa.jpg' | relative_url }}" alt="Listing image for 65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">65pcs Brainrot Cartoon Stickers Pack Waterproof Funny AI Scrapbook Memes UK Rot</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display"><img src="{{ '/assets/images/marketplace-covers/9ca910d37d759e83d938.jpg' | relative_url }}" alt="Listing image for Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display"><img src="{{ '/assets/images/marketplace-covers/9ca910d37d759e83d938.jpg' | relative_url }}" alt="Listing image for Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Smart AI Voice Sticker Printer Box, Mini Thermal Label Printer with Display</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Sticker Printer Box With Fun Print APP For Work And Learning"><img src="{{ '/assets/images/marketplace-covers/3dcd8bcfc5f647d71caf.jpg' | relative_url }}" alt="Listing image for AI Sticker Printer Box With Fun Print APP For Work And Learning" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">AI Sticker Printer Box With Fun Print APP For Work And Learning</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Sticker Printer Box With Fun Print APP For Work And Learning"><img src="{{ '/assets/images/marketplace-covers/3dcd8bcfc5f647d71caf.jpg' | relative_url }}" alt="Listing image for AI Sticker Printer Box With Fun Print APP For Work And Learning" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">AI Sticker Printer Box With Fun Print APP For Work And Learning</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing"><img src="{{ '/assets/images/marketplace-covers/c7141b476292ac65a7a0.jpg' | relative_url }}" alt="Listing image for Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing"><img src="{{ '/assets/images/marketplace-covers/c7141b476292ac65a7a0.jpg' | relative_url }}" alt="Listing image for Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">Voice Sticker Printer Parent-Child Fun AI Sticker Creator Thermal Printing</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=ai-outputs-what-counts-as-ai-today-understanding-ai-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker" data-ebay-reference="ai-outputs-what-counts-as-ai-today-understanding-ai-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -635,7 +635,7 @@ This test keeps attention on mechanism rather than mythology. It avoids treating
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -655,7 +655,7 @@ This test keeps attention on mechanism rather than mythology. It avoids treating
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -687,7 +687,7 @@ This test keeps attention on mechanism rather than mythology. It avoids treating
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -739,7 +739,7 @@ This test keeps attention on mechanism rather than mythology. It avoids treating
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -784,7 +784,7 @@ This test keeps attention on mechanism rather than mythology. It avoids treating
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -825,257 +825,257 @@ This test keeps attention on mechanism rather than mythology. It avoids treating
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: csrc.nist.gov  
    Title: Computer Security Resource Centerartificial intelligence  
-   Link: <a href="https://csrc.nist.gov/glossary/term/artificial_intelligence" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/glossary/term/artificial_intelligence</a>  
+   Link:<a href="https://csrc.nist.gov/glossary/term/artificial_intelligence" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/glossary/term/artificial_intelligence</a>  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: oecd.ai  
    Title: What is AI? Can you make a clear distinction between AI and non-AI systems?  
-   Link: <a href="https://oecd.ai/en/wonk/definition" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/wonk/definition</a>  
+   Link:<a href="https://oecd.ai/en/wonk/definition" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/wonk/definition</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: ai-act-service-desk.ec.europa.eu  
    Title: AI Act Service Desk  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF</a>  
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/commission_guidelines_on_the_definition_of_an_artificial_intelligence_system_established_by_regulation_eu_20241689_ai_actenglish_nf2skcqfrtjdfggjavcodopcwz4_112455.PDF</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: fda.gov  
-   Link: <a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device" target="_blank" rel="noopener noreferrer nofollow">https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device</a>  
+   Link:<a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device" target="_blank" rel="noopener noreferrer nofollow">https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-software-medical-device</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: nvidia.com  
    Title: What is a Recommendation System? | Data Science | NVIDIA Glossary  
-   Link: <a href="https://www.nvidia.com/en-us/glossary/recommendation-system/" target="_blank" rel="noopener noreferrer nofollow">https://www.nvidia.com/en-us/glossary/recommendation-system/</a>  
+   Link:<a href="https://www.nvidia.com/en-us/glossary/recommendation-system/" target="_blank" rel="noopener noreferrer nofollow">https://www.nvidia.com/en-us/glossary/recommendation-system/</a>  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: developers.google.com  
-   Link: <a href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/appearance/ranking-systems-guide</a>  
+   Link:<a href="https://developers.google.com/search/docs/appearance/ranking-systems-guide" target="_blank" rel="noopener noreferrer nofollow">https://developers.google.com/search/docs/appearance/ranking-systems-guide</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: nist.gov  
    Title: AI Risk Management Framework | NIST  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/artificial-intelligence</a>  
+   Link:<a href="https://www.nist.gov/artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/artificial-intelligence</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: airc.nist.gov  
-   Link: <a href="https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/</a>  
+   Link:<a href="https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: nist.gov  
    Title: draft nist guidelines rethink cybersecurity ai era  
-   Link: <a href="https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era</a>  
+   Link:<a href="https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2025/12/draft-nist-guidelines-rethink-cybersecurity-ai-era</a>  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: csrc.nist.gov  
-   Link: <a href="https://csrc.nist.gov/glossary/term/AI" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/glossary/term/AI</a>  
+   Link:<a href="https://csrc.nist.gov/glossary/term/AI" target="_blank" rel="noopener noreferrer nofollow">https://csrc.nist.gov/glossary/term/AI</a>  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/document/artificial-intelligence-key-consideration-and-effective-implementation-strategies" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/artificial-intelligence-key-consideration-and-effective-implementation-strategies</a>  
+   Link:<a href="https://www.nist.gov/document/artificial-intelligence-key-consideration-and-effective-implementation-strategies" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/document/artificial-intelligence-key-consideration-and-effective-implementation-strategies</a>  
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: nvlpubs.nist.gov  
    Title: ai.100 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_3c815e51/623da898-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_3c815e51/623da898-en.pdf</a>  
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_3c815e51/623da898-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/explanatory-memorandum-on-the-updated-oecd-definition-of-an-ai-system_3c815e51/623da898-en.pdf</a>  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: legalinstruments.oecd.org  
    Title: oecd legal 0449  
-   Link: <a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449</a>  
+   Link:<a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449</a>  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: legalinstruments.oecd.org  
-   Link: <a href="https://legalinstruments.oecd.org/public/doc/648/1df51f15-53fc-43ef-9f13-ee9f957076bc.htm" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/public/doc/648/1df51f15-53fc-43ef-9f13-ee9f957076bc.htm</a>  
+   Link:<a href="https://legalinstruments.oecd.org/public/doc/648/1df51f15-53fc-43ef-9f13-ee9f957076bc.htm" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/public/doc/648/1df51f15-53fc-43ef-9f13-ee9f957076bc.htm</a>  
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: stip.oecd.org  
-   Link: <a href="https://stip.oecd.org/stip/interactive-dashboards/policy-initiatives/2025%2Fdata%2FpolicyInitiatives%2F26839" target="_blank" rel="noopener noreferrer nofollow">https://stip.oecd.org/stip/interactive-dashboards/policy-initiatives/2025%2Fdata%2FpolicyInitiatives%2F26839</a>  
+   Link:<a href="https://stip.oecd.org/stip/interactive-dashboards/policy-initiatives/2025%2Fdata%2FpolicyInitiatives%2F26839" target="_blank" rel="noopener noreferrer nofollow">https://stip.oecd.org/stip/interactive-dashboards/policy-initiatives/2025%2Fdata%2FpolicyInitiatives%2F26839</a>  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/02/oecd-framework-for-the-classification-of-ai-systems_336a8b57/cb6d9eca-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/02/oecd-framework-for-the-classification-of-ai-systems_336a8b57/cb6d9eca-en.pdf</a>  
+   Link:<a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/02/oecd-framework-for-the-classification-of-ai-systems_336a8b57/cb6d9eca-en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/02/oecd-framework-for-the-classification-of-ai-systems_336a8b57/cb6d9eca-en.pdf</a>  
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: google.com  
-   Link: <a href="https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results</a>  
+   Link:<a href="https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results" target="_blank" rel="noopener noreferrer nofollow">https://www.google.com/intl/en_us/search/howsearchworks/how-search-works/ranking-results</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: fda.gov  
-   Link: <a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices" target="_blank" rel="noopener noreferrer nofollow">https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices</a>  
+   Link:<a href="https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices" target="_blank" rel="noopener noreferrer nofollow">https://www.fda.gov/medical-devices/software-medical-device-samd/artificial-intelligence-enabled-medical-devices</a>  
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/ai-principles" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/ai-principles</a>  
+   Link:<a href="https://oecd.ai/en/ai-principles" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/ai-principles</a>  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: artificial-intelligence-act.com  
    Title: E U AI Act  
-   Link: <a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
+   Link:<a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/3/</a>  
+   Link:<a href="https://artificialintelligenceact.eu/article/3/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/3/</a>  
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: privacysecurityacademy.com  
    Title: Privacy Security Academy Using Artificial Intelligence and Algorithms  
-   Link: <a href="https://www.privacysecurityacademy.com/wp-content/uploads/2021/08/01-FTC-Using-Artificial-Intelligence-and-Algorithms-blog-post-2020.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.privacysecurityacademy.com/wp-content/uploads/2021/08/01-FTC-Using-Artificial-Intelligence-and-Algorithms-blog-post-2020.pdf</a>  
+   Link:<a href="https://www.privacysecurityacademy.com/wp-content/uploads/2021/08/01-FTC-Using-Artificial-Intelligence-and-Algorithms-blog-post-2020.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.privacysecurityacademy.com/wp-content/uploads/2021/08/01-FTC-Using-Artificial-Intelligence-and-Algorithms-blog-post-2020.pdf</a>  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: Wikipedia  
    Title: Recommender system  
-   Link: <a href="https://en.wikipedia.org/wiki/Recommender_system" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Recommender_system</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Recommender_system" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Recommender_system</a>  
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: ftc.gov  
-   Link: <a href="https://www.ftc.gov/system/files/documents/public_statements/1564883/remarks_of_commissioner_rebecca_kelly_slaughter_on_algorithmic_and_economic_justice_01-24-2020.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/system/files/documents/public_statements/1564883/remarks_of_commissioner_rebecca_kelly_slaughter_on_algorithmic_and_economic_justice_01-24-2020.pdf</a>  
+   Link:<a href="https://www.ftc.gov/system/files/documents/public_statements/1564883/remarks_of_commissioner_rebecca_kelly_slaughter_on_algorithmic_and_economic_justice_01-24-2020.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/system/files/documents/public_statements/1564883/remarks_of_commissioner_rebecca_kelly_slaughter_on_algorithmic_and_economic_justice_01-24-2020.pdf</a>  
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: ftc.gov  
    Title: EEOC CRT FTC CFPB AI Joint Statement(final)  
-   Link: <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf</a>  
+   Link:<a href="https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf</a>  
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: ftc.gov  
    Title: ftc releases 2023 privacy data security update  
-   Link: <a href="https://www.ftc.gov/news-events/news/press-releases/2024/03/ftc-releases-2023-privacy-data-security-update" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/news-events/news/press-releases/2024/03/ftc-releases-2023-privacy-data-security-update</a>  
+   Link:<a href="https://www.ftc.gov/news-events/news/press-releases/2024/03/ftc-releases-2023-privacy-data-security-update" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/news-events/news/press-releases/2024/03/ftc-releases-2023-privacy-data-security-update</a>  
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: ftc.gov  
    Title: ai companies uphold your privacy confidentiality commitments  
-   Link: <a href="https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2024/01/ai-companies-uphold-your-privacy-confidentiality-commitments" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2024/01/ai-companies-uphold-your-privacy-confidentiality-commitments</a>  
+   Link:<a href="https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2024/01/ai-companies-uphold-your-privacy-confidentiality-commitments" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/policy/advocacy-research/tech-at-ftc/2024/01/ai-companies-uphold-your-privacy-confidentiality-commitments</a>  
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: ftc.gov  
    Title: 2024.03.21 PrivacyandDataSecurityUpdate 508  
-   Link: <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/2024.03.21-PrivacyandDataSecurityUpdate-508.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/system/files/ftc_gov/pdf/2024.03.21-PrivacyandDataSecurityUpdate-508.pdf</a>  
+   Link:<a href="https://www.ftc.gov/system/files/ftc_gov/pdf/2024.03.21-PrivacyandDataSecurityUpdate-508.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.ftc.gov/system/files/ftc_gov/pdf/2024.03.21-PrivacyandDataSecurityUpdate-508.pdf</a>  
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/</a>  
+   Link:<a href="https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/</a>  
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: digital-strategy.ec.europa.eu  
    Title: eu A I Act | Shaping Europe's digital future  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: eur-lex.europa.eu  
    Title: rules for trustworthy artificial intelligence in the eu  
-   Link: <a href="https://eur-lex.europa.eu/EN/legal-content/summary/rules-for-trustworthy-artificial-intelligence-in-the-eu.html" target="_blank" rel="noopener noreferrer nofollow">https://eur-lex.europa.eu/EN/legal-content/summary/rules-for-trustworthy-artificial-intelligence-in-the-eu.html</a>  
+   Link:<a href="https://eur-lex.europa.eu/EN/legal-content/summary/rules-for-trustworthy-artificial-intelligence-in-the-eu.html" target="_blank" rel="noopener noreferrer nofollow">https://eur-lex.europa.eu/EN/legal-content/summary/rules-for-trustworthy-artificial-intelligence-in-the-eu.html</a>  
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: edps.europa.eu  
    Title: 2025 11 11 ai risks management guidance en  
-   Link: <a href="https://www.edps.europa.eu/system/files/2025-11/2025-11-11_ai_risks_management_guidance_en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.edps.europa.eu/system/files/2025-11/2025-11-11_ai_risks_management_guidance_en.pdf</a>  
+   Link:<a href="https://www.edps.europa.eu/system/files/2025-11/2025-11-11_ai_risks_management_guidance_en.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.edps.europa.eu/system/files/2025-11/2025-11-11_ai_risks_management_guidance_en.pdf</a>  
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: interoperable-europe.ec.europa.eu  
    Title: artificial intelligence rp2024  
-   Link: <a href="https://interoperable-europe.ec.europa.eu/collection/rolling-plan-ict-standardisation/artificial-intelligence-rp2024" target="_blank" rel="noopener noreferrer nofollow">https://interoperable-europe.ec.europa.eu/collection/rolling-plan-ict-standardisation/artificial-intelligence-rp2024</a>  
+   Link:<a href="https://interoperable-europe.ec.europa.eu/collection/rolling-plan-ict-standardisation/artificial-intelligence-rp2024" target="_blank" rel="noopener noreferrer nofollow">https://interoperable-europe.ec.europa.eu/collection/rolling-plan-ict-standardisation/artificial-intelligence-rp2024</a>  
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: europarl.europa.eu  
-   Link: <a href="https://www.europarl.europa.eu/RegData/etudes/STUD/2019/624261/EPRS_STU%282019%29624261_EN.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.europarl.europa.eu/RegData/etudes/STUD/2019/624261/EPRS_STU%282019%29624261_EN.pdf</a>  
+   Link:<a href="https://www.europarl.europa.eu/RegData/etudes/STUD/2019/624261/EPRS_STU%282019%29624261_EN.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.europarl.europa.eu/RegData/etudes/STUD/2019/624261/EPRS_STU%282019%29624261_EN.pdf</a>  
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: blog.google  
    Title: how ai powers great search results  
-   Link: <a href="https://blog.google/products-and-platforms/products/search/how-ai-powers-great-search-results/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/search/how-ai-powers-great-search-results/</a>  
+   Link:<a href="https://blog.google/products-and-platforms/products/search/how-ai-powers-great-search-results/" target="_blank" rel="noopener noreferrer nofollow">https://blog.google/products-and-platforms/products/search/how-ai-powers-great-search-results/</a>  
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: privacysecurityacademy.com  
    Title: Using Artificial Intelligence and Algorithms Federal Trade Commission  
-   Link: <a href="https://privacysecurityacademy.com/wp-content/uploads/2021/01/Using-Artificial-Intelligence-and-Algorithms-_-Federal-Trade-Commission.pdf" target="_blank" rel="noopener noreferrer nofollow">https://privacysecurityacademy.com/wp-content/uploads/2021/01/Using-Artificial-Intelligence-and-Algorithms-_-Federal-Trade-Commission.pdf</a>  
+   Link:<a href="https://privacysecurityacademy.com/wp-content/uploads/2021/01/Using-Artificial-Intelligence-and-Algorithms-_-Federal-Trade-Commission.pdf" target="_blank" rel="noopener noreferrer nofollow">https://privacysecurityacademy.com/wp-content/uploads/2021/01/Using-Artificial-Intelligence-and-Algorithms-_-Federal-Trade-Commission.pdf</a>  
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: privacysecurityacademy.com  
-   Link: <a href="https://www.privacysecurityacademy.com/wp-content/uploads/2022/09/EXCERPT-Biden-Blueprint-for-AI-Bill-of-Rights.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.privacysecurityacademy.com/wp-content/uploads/2022/09/EXCERPT-Biden-Blueprint-for-AI-Bill-of-Rights.pdf</a>  
+   Link:<a href="https://www.privacysecurityacademy.com/wp-content/uploads/2022/09/EXCERPT-Biden-Blueprint-for-AI-Bill-of-Rights.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.privacysecurityacademy.com/wp-content/uploads/2022/09/EXCERPT-Biden-Blueprint-for-AI-Bill-of-Rights.pdf</a>  
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: digital.gov.au  
-   Link: <a href="https://www.digital.gov.au/policy/ai/AI-technical-standard/technical-standard-governments-use-artificial-intelligence-key-terms" target="_blank" rel="noopener noreferrer nofollow">https://www.digital.gov.au/policy/ai/AI-technical-standard/technical-standard-governments-use-artificial-intelligence-key-terms</a>  
+   Link:<a href="https://www.digital.gov.au/policy/ai/AI-technical-standard/technical-standard-governments-use-artificial-intelligence-key-terms" target="_blank" rel="noopener noreferrer nofollow">https://www.digital.gov.au/policy/ai/AI-technical-standard/technical-standard-governments-use-artificial-intelligence-key-terms</a>  
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: ojs.aaai.org  
-   Link: <a href="https://ojs.aaai.org/index.php/aimagazine/article/view/18140" target="_blank" rel="noopener noreferrer nofollow">https://ojs.aaai.org/index.php/aimagazine/article/view/18140</a>  
+   Link:<a href="https://ojs.aaai.org/index.php/aimagazine/article/view/18140" target="_blank" rel="noopener noreferrer nofollow">https://ojs.aaai.org/index.php/aimagazine/article/view/18140</a>  
 
-42. <a id="endnote-42"></a>
+42.<a id="endnote-42"></a>
    Source: intelligence.dlapiper.com  
    Title: artificial intelligence  
-   Link: <a href="https://intelligence.dlapiper.com/artificial-intelligence/?c=EU&amp;t=04-definitions" target="_blank" rel="noopener noreferrer nofollow">https://intelligence.dlapiper.com/artificial-intelligence/?c=EU&amp;t=04-definitions</a>  
+   Link:<a href="https://intelligence.dlapiper.com/artificial-intelligence/?c=EU&amp;t=04-definitions" target="_blank" rel="noopener noreferrer nofollow">https://intelligence.dlapiper.com/artificial-intelligence/?c=EU&amp;t=04-definitions</a>  
 
-43. <a id="endnote-43"></a>
+43.<a id="endnote-43"></a>
    Source: mindgard.ai  
    Title: ai risk management framework  
-   Link: <a href="https://mindgard.ai/blog/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://mindgard.ai/blog/ai-risk-management-framework</a>  
+   Link:<a href="https://mindgard.ai/blog/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://mindgard.ai/blog/ai-risk-management-framework</a>  
 
-44. <a id="endnote-44"></a>
+44.<a id="endnote-44"></a>
    Source: digital.nsw.gov.au  
    Title: nsw.gov.ausimplified AI definitions from leading standards  
-   Link: <a href="https://www.digital.nsw.gov.au/policy/artificial-intelligence/a-common-understanding-simplified-ai-definitions-from-leading" target="_blank" rel="noopener noreferrer nofollow">https://www.digital.nsw.gov.au/policy/artificial-intelligence/a-common-understanding-simplified-ai-definitions-from-leading</a>  
+   Link:<a href="https://www.digital.nsw.gov.au/policy/artificial-intelligence/a-common-understanding-simplified-ai-definitions-from-leading" target="_blank" rel="noopener noreferrer nofollow">https://www.digital.nsw.gov.au/policy/artificial-intelligence/a-common-understanding-simplified-ai-definitions-from-leading</a>  
 
-45. <a id="endnote-45"></a>
+45.<a id="endnote-45"></a>
    Source: gdpr.blog.hu  
    Title: hu Deep dive into the AI Act  
-   Link: <a href="https://gdpr.blog.hu/2024/06/10/deep_dive_into_the_ai_act_part_3_the_definition_of_ai_systems" target="_blank" rel="noopener noreferrer nofollow">https://gdpr.blog.hu/2024/06/10/deep_dive_into_the_ai_act_part_3_the_definition_of_ai_systems</a>  
+   Link:<a href="https://gdpr.blog.hu/2024/06/10/deep_dive_into_the_ai_act_part_3_the_definition_of_ai_systems" target="_blank" rel="noopener noreferrer nofollow">https://gdpr.blog.hu/2024/06/10/deep_dive_into_the_ai_act_part_3_the_definition_of_ai_systems</a>  
 
 ### Additional References
 
-46. <a id="endnote-46"></a>
+46.<a id="endnote-46"></a>
    Source: youtube.com  
    Title: How AI Systems Work: From Inputs to Outputs (With Examples) | AI Literacy Series  
-   Link: <a href="https://www.youtube.com/watch?v=uE_ahBZ78RA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=uE_ahBZ78RA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>7 Stages of the AI System Lifecycle for AI Governance | AI Literacy Series...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=uE_ahBZ78RA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=uE_ahBZ78RA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>7 Stages of the AI System Lifecycle for AI Governance | AI Literacy Series...</p></details>
 
-47. <a id="endnote-47"></a>
+47.<a id="endnote-47"></a>
    Source: youtube.com  
    Title: 7 Stages of the AI System Lifecycle for AI Governance | AI Literacy Series  
-   Link: <a href="https://www.youtube.com/watch?v=IxzckDC784s" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=IxzckDC784s</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the European AI Act: Key Insights on New AI Regulations...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=IxzckDC784s" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=IxzckDC784s</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the European AI Act: Key Insights on New AI Regulations...</p></details>
 
-48. <a id="endnote-48"></a>
+48.<a id="endnote-48"></a>
    Source: govinfo.gov  
-   Link: <a href="https://www.govinfo.gov/app/details/GOVPUB-PREX23-PURL-gpo193638" target="_blank" rel="noopener noreferrer nofollow">https://www.govinfo.gov/app/details/GOVPUB-PREX23-PURL-gpo193638</a>  
+   Link:<a href="https://www.govinfo.gov/app/details/GOVPUB-PREX23-PURL-gpo193638" target="_blank" rel="noopener noreferrer nofollow">https://www.govinfo.gov/app/details/GOVPUB-PREX23-PURL-gpo193638</a>  
 
-49. <a id="endnote-49"></a>
+49.<a id="endnote-49"></a>
    Source: youtube.com  
    Title: Understanding the European AI Act: Key Insights on New AI Regulations  
-   Link: <a href="https://www.youtube.com/watch?v=PGyg1GFteHM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=PGyg1GFteHM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Developing a Classification of AI Systems...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=PGyg1GFteHM" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=PGyg1GFteHM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Developing a Classification of AI Systems...</p></details>
 
-50. <a id="endnote-50"></a>
+50.<a id="endnote-50"></a>
    Source: youtube.com  
    Title: Developing a Classification of AI Systems  
-   Link: <a href="https://www.youtube.com/watch?v=ZGuDK-vPes0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ZGuDK-vPes0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Governance Basics: Simple Explanation &amp; Real-World Examples | AI Literacy Series...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=ZGuDK-vPes0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=ZGuDK-vPes0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Governance Basics: Simple Explanation &amp; Real-World Examples | AI Literacy Series...</p></details>
 
-51. <a id="endnote-51"></a>
+51.<a id="endnote-51"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/data-science/recommender-systems-a-complete-guide-to-machine-learning-models-96d3f94ea748" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science/recommender-systems-a-complete-guide-to-machine-learning-models-96d3f94ea748</a>  
+   Link:<a href="https://medium.com/data-science/recommender-systems-a-complete-guide-to-machine-learning-models-96d3f94ea748" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/data-science/recommender-systems-a-complete-guide-to-machine-learning-models-96d3f94ea748</a>  
 
-52. <a id="endnote-52"></a>
+52.<a id="endnote-52"></a>
    Source: ketryx.com  
-   Link: <a href="https://www.ketryx.com/blog/a-complete-guide-to-the-fdas-ai-ml-guidance-for-medical-devices" target="_blank" rel="noopener noreferrer nofollow">https://www.ketryx.com/blog/a-complete-guide-to-the-fdas-ai-ml-guidance-for-medical-devices</a>  
+   Link:<a href="https://www.ketryx.com/blog/a-complete-guide-to-the-fdas-ai-ml-guidance-for-medical-devices" target="_blank" rel="noopener noreferrer nofollow">https://www.ketryx.com/blog/a-complete-guide-to-the-fdas-ai-ml-guidance-for-medical-devices</a>  
 
-53. <a id="endnote-53"></a>
+53.<a id="endnote-53"></a>
    Source: teradata.com  
-   Link: <a href="https://www.teradata.com/insights/ai-and-machine-learning/ai-decision-making" target="_blank" rel="noopener noreferrer nofollow">https://www.teradata.com/insights/ai-and-machine-learning/ai-decision-making</a>  
+   Link:<a href="https://www.teradata.com/insights/ai-and-machine-learning/ai-decision-making" target="_blank" rel="noopener noreferrer nofollow">https://www.teradata.com/insights/ai-and-machine-learning/ai-decision-making</a>  
 
-54. <a id="endnote-54"></a>
+54.<a id="endnote-54"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/stacknova/ai-series-part-1-what-is-artificial-intelligence-880406121a36" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/stacknova/ai-series-part-1-what-is-artificial-intelligence-880406121a36</a>  
+   Link:<a href="https://medium.com/stacknova/ai-series-part-1-what-is-artificial-intelligence-880406121a36" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/stacknova/ai-series-part-1-what-is-artificial-intelligence-880406121a36</a>  
 
-55. <a id="endnote-55"></a>
+55.<a id="endnote-55"></a>
    Source: abbacustechnologies.com  
-   Link: <a href="https://www.abbacustechnologies.com/ai-decision-making/" target="_blank" rel="noopener noreferrer nofollow">https://www.abbacustechnologies.com/ai-decision-making/</a>  
+   Link:<a href="https://www.abbacustechnologies.com/ai-decision-making/" target="_blank" rel="noopener noreferrer nofollow">https://www.abbacustechnologies.com/ai-decision-making/</a>  

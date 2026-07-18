@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1a
 
 ## Introduction
 
-One reason a modern AI assistant can seem like a single general intelligence is that it preserves conversational continuity while quietly changing what it is doing underneath. A user may ask for a summary, then a web search, then a piece of code, then a schedule, all within the same chat window. The conversation feels continuous, so the underlying shifts between different functions are easy to miss. The result is a powerful impression that one mind is handling every task, even when multiple specialised processes, tools, or external systems are involved. Research on conversational agents and tool-using AI systems shows that many assistants now combine language generation with retrieval systems, external tools, and task-specific services, yet present the outcome through a single conversational surface. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.openai.com">[OpenAI Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.openai.com</span><span class="citation-popover-title">function calling</span><span class="citation-popover-snippet">OpenAI DevelopersFunction calling &#124; OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</span></span></span>
+One reason a modern AI assistant can seem like a single general intelligence is that it preserves conversational continuity while quietly changing what it is doing underneath. A user may ask for a summary, then a web search, then a piece of code, then a schedule, all within the same chat window. The conversation feels continuous, so the underlying shifts between different functions are easy to miss. The result is a powerful impression that one mind is handling every task, even when multiple specialised processes, tools, or external systems are involved. Research on conversational agents and tool-using AI systems shows that many assistants now combine language generation with retrieval systems, external tools, and task-specific services, yet present the outcome through a single conversational surface.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.openai.com">[OpenAI Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.openai.com</span><span class="citation-popover-title">function calling</span><span class="citation-popover-snippet">OpenAI DevelopersFunction calling &#124; OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_chatbot_task_fcb82d-Illustration-1-dark.svg" | relative_url }}" alt="Task Switching illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_chatbot_task_fcb82d-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_chatbot_task_fcb82d-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,18 +277,18 @@ One reason a modern AI assistant can seem like a single general intelligence is 
 
 Traditional software usually makes task changes visible. Opening a calculator, switching to a browser, and then launching a coding environment creates obvious boundaries between activities. Chatbots remove many of those boundaries.
 
-In a conversational interface, every request arrives in the same form: natural language. Whether the system is generating text, retrieving information, calling a tool, or triggering an external service, the user's experience remains the same. They type a message and receive a reply. Conversational interface designers often describe language as a universal interaction layer because it can represent many different tasks without requiring different controls or screens. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.zendesk.com/blog/customer-service/support/conversational-interface/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: zendesk.com">[Zendesk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">zendesk.com</span><span class="citation-popover-title">What is a conversational interface?</span><span class="citation-popover-snippet">What is a conversational interface?April 16, 2026 — 23 Mar 2024 — Conversational user interfaces can be built with AI, natural lan...</span><span class="citation-popover-meta">Published: April 16, 2026</span></span></span>
+In a conversational interface, every request arrives in the same form: natural language. Whether the system is generating text, retrieving information, calling a tool, or triggering an external service, the user's experience remains the same. They type a message and receive a reply. Conversational interface designers often describe language as a universal interaction layer because it can represent many different tasks without requiring different controls or screens.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.zendesk.com/blog/customer-service/support/conversational-interface/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: zendesk.com">[Zendesk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">zendesk.com</span><span class="citation-popover-title">What is a conversational interface?</span><span class="citation-popover-snippet">What is a conversational interface?April 16, 2026 — 23 Mar 2024 — Conversational user interfaces can be built with AI, natural lan...</span><span class="citation-popover-meta">Published: April 16, 2026</span></span></span>
 
 This design creates an important psychological effect. The user sees continuity in the dialogue rather than transitions between functions. The visible interaction remains stable even when the underlying operation changes substantially.
 
 Consider a typical exchange:
 
-1. “Summarise this article.” <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.researchgate.net/publication/391753997_Conversational_AI_and_the_Future_of_Intelligent_Chatbots_Bridging_Human-Machine_Interaction_with_CCAI" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[researchgate.net]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Conversational AI and the Future of Intelligent ChatbotsThis comprehensive article examines the evolution and future trajectory of conver...</span></span></span>
+1. “Summarise this article.”<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.researchgate.net/publication/391753997_Conversational_AI_and_the_Future_of_Intelligent_Chatbots_Bridging_Human-Machine_Interaction_with_CCAI" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: researchgate.net">[researchgate.net]</a><span class="citation-popover" role="note"><span class="citation-popover-source">researchgate.net</span><span class="citation-popover-snippet">Conversational AI and the Future of Intelligent ChatbotsThis comprehensive article examines the evolution and future trajectory of conver...</span></span></span>
 2. “Find recent information about the topic.”
 3. “Write Python code to analyse the data.”
 4. “Turn the findings into a project plan.”
 
-From the user's perspective, these are four messages in one conversation. Under the surface, they may involve different capabilities, data sources, and execution pathways. Yet the conversation presents them as a single ongoing interaction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.openai.com">[OpenAI Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.openai.com</span><span class="citation-popover-title">function calling</span><span class="citation-popover-snippet">OpenAI DevelopersFunction calling &#124; OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</span></span></span>
+From the user's perspective, these are four messages in one conversation. Under the surface, they may involve different capabilities, data sources, and execution pathways. Yet the conversation presents them as a single ongoing interaction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.openai.com">[OpenAI Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.openai.com</span><span class="citation-popover-title">function calling</span><span class="citation-popover-snippet">OpenAI DevelopersFunction calling &#124; OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/pI1yUiNKyDA" title="OpenAI Function Calling Explained: Chat Completions &amp; Assistants API" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=pI1yUiNKyDA" target="_blank" rel="noopener noreferrer">OpenAI Function Calling Explained: Chat Completions &amp; Assistants API</a></p><p class="youtube-embed-meta">Channel: Pradip Nichite</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=pI1yUiNKyDA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=pI1yUiNKyDA">Open on YouTube</a></p></div></div></div>
@@ -297,7 +297,7 @@ From the user's perspective, these are four messages in one conversation. Under 
 
 The key mechanism is conversational continuity. Humans naturally interpret a coherent dialogue as evidence of a coherent agent.
 
-When an assistant remembers previous messages, refers back to earlier context, and answers in a consistent voice, the interaction feels unified. The user's [attention]({{ 'attention/' | relative_url }}) stays focused on the topic being discussed rather than on the technical processes producing the response. Research in human–computer interaction has repeatedly found that conversational design strongly shapes perceptions of intelligence, trust, and coherence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2202.09895" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Utrecht University]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital LibraryFebruary 20, 2022...</span><span class="citation-popover-meta">Published: February 20, 2022</span></span></span>
+When an assistant remembers previous messages, refers back to earlier context, and answers in a consistent voice, the interaction feels unified. The user's [attention]({{ 'attention/' | relative_url }}) stays focused on the topic being discussed rather than on the technical processes producing the response. Research in human–computer interaction has repeatedly found that conversational design strongly shapes perceptions of intelligence, trust, and coherence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2202.09895" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Utrecht University]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital LibraryFebruary 20, 2022...</span><span class="citation-popover-meta">Published: February 20, 2022</span></span></span>
 
 Several interface features reinforce this effect:
 
@@ -312,7 +312,7 @@ A useful comparison is a human office worker who silently switches between a cal
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_chatbot_task_fcb82d-Illustration-2-dark.svg" | relative_url }}" alt="Task Switching illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_chatbot_task_fcb82d-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_chatbox_gener_1aa743_chatbot_task_fcb82d-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## The hidden routing that users rarely see
 
-Many modern assistants do more than predict text. They can decide when to retrieve information, query databases, search documents, execute code, or call external tools. Tool-calling frameworks are explicitly designed around this idea: the model determines when a task requires an external capability, the system executes that capability, and the final result is returned through the conversation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.openai.com">[OpenAI Developers+2TECHCOMMUNITY.MICROSOFT.COM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.openai.com</span><span class="citation-popover-title">function calling</span><span class="citation-popover-snippet">OpenAI DevelopersFunction calling &#124; OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</span></span></span>
+Many modern assistants do more than predict text. They can decide when to retrieve information, query databases, search documents, execute code, or call external tools. Tool-calling frameworks are explicitly designed around this idea: the model determines when a task requires an external capability, the system executes that capability, and the final result is returned through the conversation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.openai.com">[OpenAI Developers+2TECHCOMMUNITY.MICROSOFT.COM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.openai.com</span><span class="citation-popover-title">function calling</span><span class="citation-popover-snippet">OpenAI DevelopersFunction calling &#124; OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</span></span></span>
 
 The important point is not that tool use exists. It is that the interface often conceals it.
 
@@ -320,7 +320,7 @@ A user may ask:
 
 > “What meetings do I have tomorrow, and draft a reply to the latest client email?”
 
-The assistant might access a calendar system, retrieve email information, generate text, and format the response. Yet the user often receives a single conversational answer rather than a visible sequence of distinct operations. Studies of tool-augmented conversational systems increasingly treat these behaviours as coordinated workflows involving multiple components rather than a single monolithic capability. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.10775" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenAI Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Tool Talk: Evaluating Tool-Usage in a Conversational Setting</span><span class="citation-popover-snippet">arXiv Tool Talk: Evaluating Tool-Usage in a Conversational Setting</span></span></span>
+The assistant might access a calendar system, retrieve email information, generate text, and format the response. Yet the user often receives a single conversational answer rather than a visible sequence of distinct operations. Studies of tool-augmented conversational systems increasingly treat these behaviours as coordinated workflows involving multiple components rather than a single monolithic capability.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.10775" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2OpenAI Developers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Tool Talk: Evaluating Tool-Usage in a Conversational Setting</span><span class="citation-popover-snippet">arXiv Tool Talk: Evaluating Tool-Usage in a Conversational Setting</span></span></span>
 
 Because the switching is hidden, users can easily attribute the entire performance to one broad intelligence rather than to a collection of specialised mechanisms.
 
@@ -331,7 +331,7 @@ Because the switching is hidden, users can easily attribute the entire performan
 
 The main risk is not that the assistant is pretending to use tools. The risk is that users may misunderstand what the assistant itself understands.
 
-When a chatbot successfully retrieves information from a database, users may conclude that it already possessed that knowledge. When it performs a calculation using a specialised process, users may assume the same capability exists in every context. When it completes a workflow involving several systems, users may infer a level of general reasoning that exceeds what any single component provides. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.10775" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Tool Talk: Evaluating Tool-Usage in a Conversational Setting</span><span class="citation-popover-snippet">arXiv Tool Talk: Evaluating Tool-Usage in a Conversational Setting</span></span></span>
+When a chatbot successfully retrieves information from a database, users may conclude that it already possessed that knowledge. When it performs a calculation using a specialised process, users may assume the same capability exists in every context. When it completes a workflow involving several systems, users may infer a level of general reasoning that exceeds what any single component provides.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.10775" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Tool Talk: Evaluating Tool-Usage in a Conversational Setting</span><span class="citation-popover-snippet">arXiv Tool Talk: Evaluating Tool-Usage in a Conversational Setting</span></span></span>
 
 This misunderstanding can produce several common errors:
 
@@ -350,201 +350,201 @@ Understanding artificial intelligence requires separating the conversational exp
 
 The chat interface acts as a layer that unifies many activities into one user experience. Search, retrieval, planning, writing, calculation, coding assistance, and external tool use can all appear as successive turns in the same conversation. That design is extremely useful because it reduces friction and makes complex systems easier to use. At the same time, it can make task switching nearly invisible.
 
-This is one of the reasons a single chat box can make narrow AI systems look more general than they are. The conversation remains constant while the underlying work changes, encouraging users to perceive one seamless intelligence where there may actually be a collection of specialised capabilities working together behind the scenes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.openai.com">[OpenAI Developers+2Mendix Documentation]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.openai.com</span><span class="citation-popover-title">function calling</span><span class="citation-popover-snippet">OpenAI DevelopersFunction calling &#124; OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</span></span></span>
+This is one of the reasons a single chat box can make narrow AI systems look more general than they are. The conversation remains constant while the underlying work changes, encouraging users to perceive one seamless intelligence where there may actually be a collection of specialised capabilities working together behind the scenes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: developers.openai.com">[OpenAI Developers+2Mendix Documentation]</a><span class="citation-popover" role="note"><span class="citation-popover-source">developers.openai.com</span><span class="citation-popover-title">function calling</span><span class="citation-popover-snippet">OpenAI DevelopersFunction calling &#124; OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/p0I-hwZSWMs" title="Function Calling with OpenAI APIs | A Crash Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=p0I-hwZSWMs" target="_blank" rel="noopener noreferrer">Function Calling with OpenAI APIs | A Crash Course</a></p><p class="youtube-embed-meta">Channel: Elvis Saravia</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=p0I-hwZSWMs" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=p0I-hwZSWMs">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why one chat feels like one mind. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why one chat feels like one mind. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Explains how one interface can unify many different AI functions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how one interface can unify many different AI functions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
-        </h4>
-        <p class="fr-book-author">By Mustafa Suleyman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
+</h4>
+<p class="fr-book-author">By Mustafa Suleyman</p>
         
-        <p class="fr-book-desc">Discusses increasingly capable AI systems and tool integration.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses increasingly capable AI systems and tool integration.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
-        <p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
-        <p class="fr-book-desc">Provides background on different AI methods hidden behind interfaces.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
+<p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
+<p class="fr-book-desc">Provides background on different AI methods hidden behind interfaces.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Master Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=WpTSDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Master Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Master Algorithm">The Master Algorithm</a>
-        </h4>
-        <p class="fr-book-author">By Pedro Domingos</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Master Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=WpTSDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Master Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Master Algorithm">The Master Algorithm</a>
+</h4>
+<p class="fr-book-author">By Pedro Domingos</p>
         
-        <p class="fr-book-desc">Shows how varied capabilities can emerge from different techniques.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how varied capabilities can emerge from different techniques.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Master+Algorithm+by+Pedro+Domingos&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Coming+Wave&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Coming Wave</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Coming+Wave&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Coming Wave</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A4 ART PRINT Catwoman Cosplay 4 ART by Ai2 Collectible Ltd Edition 1 of 1 AP"><img src="{{ '/assets/images/marketplace-covers/f70b26eedfab611708e2.jpg' | relative_url }}" alt="Listing image for A4 ART PRINT Catwoman Cosplay 4 ART by Ai2 Collectible Ltd Edition 1 of 1 AP" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">A4 ART PRINT Catwoman Cosplay 4 ART by Ai2 Collectible Ltd Edition 1 of 1 AP</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI art print">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI art print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A4 ART PRINT Catwoman Cosplay 4 ART by Ai2 Collectible Ltd Edition 1 of 1 AP"><img src="{{ '/assets/images/marketplace-covers/f70b26eedfab611708e2.jpg' | relative_url }}" alt="Listing image for A4 ART PRINT Catwoman Cosplay 4 ART by Ai2 Collectible Ltd Edition 1 of 1 AP" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">A4 ART PRINT Catwoman Cosplay 4 ART by Ai2 Collectible Ltd Edition 1 of 1 AP</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI art print">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI art print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Graffiti Splatter Wallpaper Mural, Colorful AI Art Print Peel and Stick"><img src="{{ '/assets/images/marketplace-covers/e1118fbca0501b2f04aa.jpg' | relative_url }}" alt="Listing image for Graffiti Splatter Wallpaper Mural, Colorful AI Art Print Peel and Stick" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">Graffiti Splatter Wallpaper Mural, Colorful AI Art Print Peel and Stick</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI art print">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI art print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Graffiti Splatter Wallpaper Mural, Colorful AI Art Print Peel and Stick"><img src="{{ '/assets/images/marketplace-covers/e1118fbca0501b2f04aa.jpg' | relative_url }}" alt="Listing image for Graffiti Splatter Wallpaper Mural, Colorful AI Art Print Peel and Stick" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">Graffiti Splatter Wallpaper Mural, Colorful AI Art Print Peel and Stick</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI art print">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI art print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for STICKERBOX PRINT AI ART"><img src="{{ '/assets/images/marketplace-covers/41a86ccb3d12417dc707.jpg' | relative_url }}" alt="Listing image for STICKERBOX PRINT AI ART" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">STICKERBOX PRINT AI ART</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI art print">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI art print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for STICKERBOX PRINT AI ART"><img src="{{ '/assets/images/marketplace-covers/41a86ccb3d12417dc707.jpg' | relative_url }}" alt="Listing image for STICKERBOX PRINT AI ART" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">STICKERBOX PRINT AI ART</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI art print">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI art print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A4 ART PRINT Harley Quinn Art Nude 5 ART by Ai2 Collectible Ltd Edition 1 of 1"><img src="{{ '/assets/images/marketplace-covers/fbfe40425a64f097a9bc.jpg' | relative_url }}" alt="Listing image for A4 ART PRINT Harley Quinn Art Nude 5 ART by Ai2 Collectible Ltd Edition 1 of 1" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">A4 ART PRINT Harley Quinn Art Nude 5 ART by Ai2 Collectible Ltd Edition 1 of 1</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI art print">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI art print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A4 ART PRINT Harley Quinn Art Nude 5 ART by Ai2 Collectible Ltd Edition 1 of 1"><img src="{{ '/assets/images/marketplace-covers/fbfe40425a64f097a9bc.jpg' | relative_url }}" alt="Listing image for A4 ART PRINT Harley Quinn Art Nude 5 ART by Ai2 Collectible Ltd Edition 1 of 1" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">A4 ART PRINT Harley Quinn Art Nude 5 ART by Ai2 Collectible Ltd Edition 1 of 1</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI art print">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI art print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI art print" data-ebay-reference="task-switching-why-one-chat-feels-like-one-mind-understanding-ai-art-print" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -560,7 +560,7 @@ This is one of the reasons a single chat box can make narrow AI systems look mor
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -580,7 +580,7 @@ This is one of the reasons a single chat box can make narrow AI systems look mor
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -612,7 +612,7 @@ This is one of the reasons a single chat box can make narrow AI systems look mor
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -664,7 +664,7 @@ This is one of the reasons a single chat box can make narrow AI systems look mor
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -709,7 +709,7 @@ This is one of the reasons a single chat box can make narrow AI systems look mor
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -750,116 +750,116 @@ This is one of the reasons a single chat box can make narrow AI systems look mor
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: developers.openai.com  
    Title: function calling  
-   Link: <a href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow">https://developers.openai.com/api/docs/guides/function-calling</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI DevelopersFunction calling | OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</p></details>
+   Link:<a href="https://developers.openai.com/api/docs/guides/function-calling" target="_blank" rel="noopener noreferrer nofollow">https://developers.openai.com/api/docs/guides/function-calling</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI DevelopersFunction calling | OpenAI API7 Aug 2025 — Tool calling is a multi-step conversation between your application and a model...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Title: arXiv Tool Talk: Evaluating Tool-Usage in a Conversational Setting  
-   Link: <a href="https://arxiv.org/abs/2311.10775" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2311.10775</a>  
+   Link:<a href="https://arxiv.org/abs/2311.10775" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2311.10775</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: zendesk.com  
    Title: What is a conversational interface?  
-   Link: <a href="https://www.zendesk.com/blog/customer-service/support/conversational-interface/" target="_blank" rel="noopener noreferrer nofollow">https://www.zendesk.com/blog/customer-service/support/conversational-interface/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What is a conversational interface?April 16, 2026 — 23 Mar 2024 — Conversational user interfaces can be built with AI, natural lan...</p></details>
+   Link:<a href="https://www.zendesk.com/blog/customer-service/support/conversational-interface/" target="_blank" rel="noopener noreferrer nofollow">https://www.zendesk.com/blog/customer-service/support/conversational-interface/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is a conversational interface?April 16, 2026 — 23 Mar 2024 — Conversational user interfaces can be built with AI, natural lan...</p></details>
    Published: April 16, 2026  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: docs.mendix.com  
    Title: conversational ui  
-   Link: <a href="https://docs.mendix.com/agents/genai-for-mx/conversational-ui/" target="_blank" rel="noopener noreferrer nofollow">https://docs.mendix.com/agents/genai-for-mx/conversational-ui/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Mendix DocumentationConversational UI4 Jun 2026 — Describes the Conversational UI marketplace module that assists developers in implement...</p></details>
+   Link:<a href="https://docs.mendix.com/agents/genai-for-mx/conversational-ui/" target="_blank" rel="noopener noreferrer nofollow">https://docs.mendix.com/agents/genai-for-mx/conversational-ui/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mendix DocumentationConversational UI4 Jun 2026 — Describes the Conversational UI marketplace module that assists developers in implement...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2202.09895" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2202.09895</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital LibraryFebruary 20, 2022...</p></details>
+   Link:<a href="https://arxiv.org/abs/2202.09895" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2202.09895</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UX Research on Conversational Human-AI Interaction: A Literature Review of the ACM Digital LibraryFebruary 20, 2022...</p></details>
    Published: February 20, 2022  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: techcommunity.microsoft.com  
    Title: choosing the right tool a comparative analysis of the assistants api chat compl  
-   Link: <a href="https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/choosing-the-right-tool-a-comparative-analysis-of-the-assistants-api--chat-compl/4140438" target="_blank" rel="noopener noreferrer nofollow">https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/choosing-the-right-tool-a-comparative-analysis-of-the-assistants-api--chat-compl/4140438</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Azure OpenAI Assistants API vs Chat Completions API15 May 2024 — Function calling allows your LLM to interact with predefined functions (...</p></details>
+   Link:<a href="https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/choosing-the-right-tool-a-comparative-analysis-of-the-assistants-api--chat-compl/4140438" target="_blank" rel="noopener noreferrer nofollow">https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/choosing-the-right-tool-a-comparative-analysis-of-the-assistants-api--chat-compl/4140438</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Azure OpenAI Assistants API vs Chat Completions API15 May 2024 — Function calling allows your LLM to interact with predefined functions (...</p></details>
    Published: May 2024  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: community.make.com  
    Title: openai assistants with function calling  
-   Link: <a href="https://community.make.com/t/openai-assistants-with-function-calling/55083" target="_blank" rel="noopener noreferrer nofollow">https://community.make.com/t/openai-assistants-with-function-calling/55083</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>assistants with function calling - Questions15 Sept 2024 — Here is the [documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) that will give you directions how to get started wit...</p></details>
+   Link:<a href="https://community.make.com/t/openai-assistants-with-function-calling/55083" target="_blank" rel="noopener noreferrer nofollow">https://community.make.com/t/openai-assistants-with-function-calling/55083</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>assistants with function calling - Questions15 Sept 2024 — Here is the [documentation](&amp;#123;&amp;#123; &#x27;paper-safety/&#x27; | relative_url &amp;#125;&amp;#125;) that will give you directions how to get started wit...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/list/cs.HC/new" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/list/cs.HC/new</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Human-Computer InteractionThe paper introduces Interaction-Centered Intelligence as a framework for understanding human-AI co-creation, c...</p></details>
+   Link:<a href="https://arxiv.org/list/cs.HC/new" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/list/cs.HC/new</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Human-Computer InteractionThe paper introduces Interaction-Centered Intelligence as a framework for understanding human-AI co-creation, c...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: community.openai.com  
    Title: diff between assistants tools and function calling  
-   Link: <a href="https://community.openai.com/t/diff-between-assistants-tools-and-function-calling/566648" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/diff-between-assistants-tools-and-function-calling/566648</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>API20 Dec 2023 — I am just wondering if I switch to only using the function calling will the AI still be able to call other functions to...</p></details>
+   Link:<a href="https://community.openai.com/t/diff-between-assistants-tools-and-function-calling/566648" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/diff-between-assistants-tools-and-function-calling/566648</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>API20 Dec 2023 — I am just wondering if I switch to only using the function calling will the AI still be able to call other functions to...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: research-portal.uu.nl  
-   Link: <a href="https://research-portal.uu.nl/ws/files/236821994/10.1201_9781003490685-7_chapterpdf.pdf" target="_blank" rel="noopener noreferrer nofollow">https://research-portal.uu.nl/ws/files/236821994/10.1201_9781003490685-7_chapterpdf.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>uu.nl7 Conversational Agentsby AP Chaves · 2024 · Cited by 1 — The human-computer interaction (HCI) field plays a crucial role in the con...</p></details>
+   Link:<a href="https://research-portal.uu.nl/ws/files/236821994/10.1201_9781003490685-7_chapterpdf.pdf" target="_blank" rel="noopener noreferrer nofollow">https://research-portal.uu.nl/ws/files/236821994/10.1201_9781003490685-7_chapterpdf.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>uu.nl7 Conversational Agentsby AP Chaves · 2024 · Cited by 1 — The human-computer interaction (HCI) field plays a crucial role in the con...</p></details>
 
 ### Additional References
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: ai-sdk.dev  
-   Link: <a href="https://ai-sdk.dev/docs/ai-sdk-ui/chatbot-tool-usage" target="_blank" rel="noopener noreferrer nofollow">https://ai-sdk.dev/docs/ai-sdk-ui/chatbot-tool-usage</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Chatbot Tool UsageWith useChat and streamText, you can use tools in your chatbot application. The AI SDK supports three types of tools in...</p></details>
+   Link:<a href="https://ai-sdk.dev/docs/ai-sdk-ui/chatbot-tool-usage" target="_blank" rel="noopener noreferrer nofollow">https://ai-sdk.dev/docs/ai-sdk-ui/chatbot-tool-usage</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Chatbot Tool UsageWith useChat and streamText, you can use tools in your chatbot application. The AI SDK supports three types of tools in...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/391753997_Conversational_AI_and_the_Future_of_Intelligent_Chatbots_Bridging_Human-Machine_Interaction_with_CCAI" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/391753997_Conversational_AI_and_the_Future_of_Intelligent_Chatbots_Bridging_Human-Machine_Interaction_with_CCAI</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Conversational AI and the Future of Intelligent ChatbotsThis comprehensive article examines the evolution and future trajectory of conver...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/391753997_Conversational_AI_and_the_Future_of_Intelligent_Chatbots_Bridging_Human-Machine_Interaction_with_CCAI" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/391753997_Conversational_AI_and_the_Future_of_Intelligent_Chatbots_Bridging_Human-Machine_Interaction_with_CCAI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Conversational AI and the Future of Intelligent ChatbotsThis comprehensive article examines the evolution and future trajectory of conver...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/the-modern-scientist/everything-you-need-to-know-about-openai-function-calling-and-assistants-api-55c02570a21c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/the-modern-scientist/everything-you-need-to-know-about-openai-function-calling-and-assistants-api-55c02570a21c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Everything you need to know about OpenAI function calling...This article delves into the intricate world of OpenAI&#x27;s Chat Completions an...</p></details>
+   Link:<a href="https://medium.com/the-modern-scientist/everything-you-need-to-know-about-openai-function-calling-and-assistants-api-55c02570a21c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/the-modern-scientist/everything-you-need-to-know-about-openai-function-calling-and-assistants-api-55c02570a21c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Everything you need to know about OpenAI function calling...This article delves into the intricate world of OpenAI&#x27;s Chat Completions an...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/UXDesign/comments/1tne1zm/is_chat_actually_the_right_interface_for_ainative/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/UXDesign/comments/1tne1zm/is_chat_actually_the_right_interface_for_ainative/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Is chat actually the right interface for AI-native software?I keep thinking that today’s ChatGPT-style interface feels a bit like a comma...</p></details>
+   Link:<a href="https://www.reddit.com/r/UXDesign/comments/1tne1zm/is_chat_actually_the_right_interface_for_ainative/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/UXDesign/comments/1tne1zm/is_chat_actually_the_right_interface_for_ainative/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Is chat actually the right interface for AI-native software?I keep thinking that today’s ChatGPT-style interface feels a bit like a comma...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/why-the-chat-ai-surge-is-breaking-enterprise-tech-as-we-know-it" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/why-the-chat-ai-surge-is-breaking-enterprise-tech-as-we-know-it</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These outdated systems lack essential capabilities like modern APIs, searchable metadata, and explainable access, making integration with...</p></details>
+   Link:<a href="https://www.techradar.com/pro/why-the-chat-ai-surge-is-breaking-enterprise-tech-as-we-know-it" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/why-the-chat-ai-surge-is-breaking-enterprise-tech-as-we-know-it</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These outdated systems lack essential capabilities like modern APIs, searchable metadata, and explainable access, making integration with...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=pI1yUiNKyDA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=pI1yUiNKyDA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI Function Calling Explained: Chat Completions...Dive into the world of AI chatbots with our detailed tutorial on OpenAI&#x27;s Function...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=pI1yUiNKyDA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=pI1yUiNKyDA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI Function Calling Explained: Chat Completions...Dive into the world of AI chatbots with our detailed tutorial on OpenAI&#x27;s Function...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=p0I-hwZSWMs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=p0I-hwZSWMs</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Function Calling with OpenAI APIs | A Crash CourseIn this video I&#x27;m going to do a quick introduction to function calling with the openi apis...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=p0I-hwZSWMs" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=p0I-hwZSWMs</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Function Calling with OpenAI APIs | A Crash CourseIn this video I&#x27;m going to do a quick introduction to function calling with the openi apis...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: aakashgupta.medium.com  
    Title: the chatbot era is already over heres what s replacing it 85e176769e04  
-   Link: <a href="https://aakashgupta.medium.com/the-chatbot-era-is-already-over-heres-what-s-replacing-it-85e176769e04" target="_blank" rel="noopener noreferrer nofollow">https://aakashgupta.medium.com/the-chatbot-era-is-already-over-heres-what-s-replacing-it-85e176769e04</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Chatbot Era Is Already Over. Here&#x27;s What&#x27;s Replacing It.Once AI embeds into your workflow, switching becomes painful. With chatbots, swit...</p></details>
+   Link:<a href="https://aakashgupta.medium.com/the-chatbot-era-is-already-over-heres-what-s-replacing-it-85e176769e04" target="_blank" rel="noopener noreferrer nofollow">https://aakashgupta.medium.com/the-chatbot-era-is-already-over-heres-what-s-replacing-it-85e176769e04</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Chatbot Era Is Already Over. Here&#x27;s What&#x27;s Replacing It.Once AI embeds into your workflow, switching becomes painful. With chatbots, swit...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: linkedin.com  
    Title: I was curious who's building AI interfaces that aren't chat.1  
-   Link: <a href="https://www.linkedin.com/posts/hnshah_i-was-curious-whos-building-ai-interfaces-activity-7332910552324743168-Y0Hl" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/hnshah_i-was-curious-whos-building-ai-interfaces-activity-7332910552324743168-Y0Hl</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Auto-Built UIs - AI creates the interface you need on the fly. Instead of fixed screens, it builds buttons, inputs, and views based on yo...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/hnshah_i-was-curious-whos-building-ai-interfaces-activity-7332910552324743168-Y0Hl" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/hnshah_i-was-curious-whos-building-ai-interfaces-activity-7332910552324743168-Y0Hl</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Auto-Built UIs - AI creates the interface you need on the fly. Instead of fixed screens, it builds buttons, inputs, and views based on yo...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: gettingstarted.ai  
    Title: openai ai assistants api function calling tool tutorial  
-   Link: <a href="https://www.gettingstarted.ai/openai-ai-assistants-api-function-calling-tool-tutorial/" target="_blank" rel="noopener noreferrer nofollow">https://www.gettingstarted.ai/openai-ai-assistants-api-function-calling-tool-tutorial/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Getting Started with AIOpenAI Function Calling Example using the Assistants API6 Dec 2023 — In this tutorial, we will see how we can leve...</p></details>
+   Link:<a href="https://www.gettingstarted.ai/openai-ai-assistants-api-function-calling-tool-tutorial/" target="_blank" rel="noopener noreferrer nofollow">https://www.gettingstarted.ai/openai-ai-assistants-api-function-calling-tool-tutorial/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Getting Started with AIOpenAI Function Calling Example using the Assistants API6 Dec 2023 — In this tutorial, we will see how we can leve...</p></details>

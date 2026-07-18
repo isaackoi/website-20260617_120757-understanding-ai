@@ -294,19 +294,19 @@ image: /assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9
 
 ## Introduction
 
-Before an AI system is deployed, one of the most important questions is not how powerful the model is, but whether anyone can clearly explain where its data came from, how it was trained, what it was tested on, and where it is likely to fail. Dataset datasheets and model cards were developed to answer those questions. They are [documentation]({{ 'paper-safety/' | relative_url }}) standards designed to make AI systems more transparent, helping organisations decide whether a model is suitable for a particular use before it affects real people. Rather than treating AI as a black box, these documents expose key design choices, assumptions, and limitations that might otherwise remain hidden. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
+Before an AI system is deployed, one of the most important questions is not how powerful the model is, but whether anyone can clearly explain where its data came from, how it was trained, what it was tested on, and where it is likely to fail. Dataset datasheets and model cards were developed to answer those questions. They are [documentation]({{ 'paper-safety/' | relative_url }}) standards designed to make AI systems more transparent, helping organisations decide whether a model is suitable for a particular use before it affects real people. Rather than treating AI as a black box, these documents expose key design choices, assumptions, and limitations that might otherwise remain hidden.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9c82c-Illustration-1-dark.svg" | relative_url }}" alt="Model Cards illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9c82c-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9c82c-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-For governance and risk management, this matters because many deployment failures arise not from a lack of technical sophistication but from a [mismatch]({{ 'mismatch/' | relative_url }}) between how a system was built and how it is actually used. Documentation cannot guarantee that an AI system is safe or fair, but it can make important risks visible before deployment [decisions]({{ 'decisions/' | relative_url }}) are made. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management FrameworkNIST has developed a framework to better manage risks to individuals, organizations, and society associat...</span></span></span>
+For governance and risk management, this matters because many deployment failures arise not from a lack of technical sophistication but from a [mismatch]({{ 'mismatch/' | relative_url }}) between how a system was built and how it is actually used. Documentation cannot guarantee that an AI system is safe or fair, but it can make important risks visible before deployment [decisions]({{ 'decisions/' | relative_url }}) are made.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management FrameworkNIST has developed a framework to better manage risks to individuals, organizations, and society associat...</span></span></span>
 
 ## What AI labels should tell us before launch
 
 The idea behind datasheets and model cards is similar to the labels that accompany medicines, electrical equipment, or industrial components. Users need information about intended use, testing conditions, limitations, and known risks before deciding whether a system can be trusted in a particular setting.
 
-The proposal for “Datasheets for Datasets” emerged from concerns that [machine-learning]({{ 'machine-learning/' | relative_url }}) datasets were often shared without adequate information about their origins, collection methods, composition, or intended uses. The authors argued that every dataset should be accompanied by structured documentation covering why it was created, how it was assembled, what populations it contains, and where it should or should not be used. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Microsoft]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
+The proposal for “Datasheets for Datasets” emerged from concerns that [machine-learning]({{ 'machine-learning/' | relative_url }}) datasets were often shared without adequate information about their origins, collection methods, composition, or intended uses. The authors argued that every dataset should be accompanied by structured documentation covering why it was created, how it was assembled, what populations it contains, and where it should or should not be used.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Microsoft]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
 
-A related proposal, “Model Cards for Model Reporting”, focused on trained models rather than datasets. Model cards were designed to describe a model’s intended uses, evaluation procedures, performance characteristics, limitations, and known risks. The goal was to help decision-makers understand not merely that a model works, but under what conditions it works and for whom. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.03993" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACM Digital Library]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Model Cards for Model Reporting</span><span class="citation-popover-snippet">arXiv Model Cards for Model Reporting</span></span></span>
+A related proposal, “Model Cards for Model Reporting”, focused on trained models rather than datasets. Model cards were designed to describe a model’s intended uses, evaluation procedures, performance characteristics, limitations, and known risks. The goal was to help decision-makers understand not merely that a model works, but under what conditions it works and for whom.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.03993" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ACM Digital Library]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Model Cards for Model Reporting</span><span class="citation-popover-snippet">arXiv Model Cards for Model Reporting</span></span></span>
 
 ## What datasheets disclose about datasets
 
@@ -314,7 +314,7 @@ Datasets are often treated as raw inputs, yet they encode many of the assumption
 
 ### Where the data came from
 
-A useful datasheet explains the motivation for creating a dataset, who collected it, how the information was obtained, and whether individuals consented to its use where relevant. It should also identify funding sources, collection methods, and any significant preprocessing or filtering steps. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2mlr3 Fairness]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
+A useful datasheet explains the motivation for creating a dataset, who collected it, how the information was obtained, and whether individuals consented to its use where relevant. It should also identify funding sources, collection methods, and any significant preprocessing or filtering steps.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2mlr3 Fairness]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
 
 This information matters because two datasets may appear similar while reflecting very different populations or collection practices. Without documentation, organisations may unknowingly deploy models trained on data that does not resemble their target environment.
 
@@ -323,13 +323,13 @@ This information matters because two datasets may appear similar while reflectin
 
 ### Who and what the dataset represents
 
-Datasheets typically describe dataset composition, including the types of examples included, the size of the dataset, and any known gaps or imbalances. This helps reviewers determine whether important groups, locations, languages, or scenarios are under-represented. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/1803.09010.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: microsoft.com">[Microsoft+2MDSD4Health]</a><span class="citation-popover" role="note"><span class="citation-popover-source">microsoft.com</span><span class="citation-popover-snippet">Datasheets for Datasetsby T Gebru · Cited by 4580 — The questions are divided into seven categories: motivation for dataset crea...</span></span></span>
+Datasheets typically describe dataset composition, including the types of examples included, the size of the dataset, and any known gaps or imbalances. This helps reviewers determine whether important groups, locations, languages, or scenarios are under-represented.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/1803.09010.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: microsoft.com">[Microsoft+2MDSD4Health]</a><span class="citation-popover" role="note"><span class="citation-popover-source">microsoft.com</span><span class="citation-popover-snippet">Datasheets for Datasetsby T Gebru · Cited by 4580 — The questions are divided into seven categories: motivation for dataset crea...</span></span></span>
 
 For example, a model intended for global deployment may have been trained primarily on data from a small number of countries. A deployment team that sees this information before launch can investigate whether additional testing or retraining is necessary.
 
 ### Recommended and unsuitable uses
 
-A dataset may be appropriate for one task and inappropriate for another. Datasheets encourage creators to document recommended uses and known limitations. This helps prevent “dataset drift”, where information collected for one purpose is later reused [in contexts]({{ 'in-context-learning/' | relative_url }}) for which it was never designed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Overleaf]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
+A dataset may be appropriate for one task and inappropriate for another. Datasheets encourage creators to document recommended uses and known limitations. This helps prevent “dataset drift”, where information collected for one purpose is later reused [in contexts]({{ 'in-context-learning/' | relative_url }}) for which it was never designed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Overleaf]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
 
 From a governance perspective, this is valuable because it shifts [attention]({{ 'attention/' | relative_url }}) from raw accuracy claims to questions of fitness for purpose.
 
@@ -341,13 +341,13 @@ While datasheets focus on training data, model cards focus on the behaviour of t
 <img src="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9c82c-Illustration-2-dark.svg" | relative_url }}" alt="Model Cards illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9c82c-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9c82c-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Intended use and deployment boundaries
 
-A model card should explain what the model was designed to do and, equally importantly, what it was not designed to do. Intended-use statements help organisations avoid deploying systems in settings that differ substantially from the conditions under which they were developed and tested. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.03993" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2IAPP.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Model Cards for Model Reporting</span><span class="citation-popover-snippet">arXiv Model Cards for Model Reporting</span></span></span>
+A model card should explain what the model was designed to do and, equally importantly, what it was not designed to do. Intended-use statements help organisations avoid deploying systems in settings that differ substantially from the conditions under which they were developed and tested.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.03993" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2IAPP.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Model Cards for Model Reporting</span><span class="citation-popover-snippet">arXiv Model Cards for Model Reporting</span></span></span>
 
 This may seem straightforward, but many deployment problems stem from using a model outside its validated scope. A model built to assist human reviewers, for example, may be unsuitable as a fully automated decision-maker.
 
 ### How performance was measured
 
-Aggregate accuracy figures can hide important weaknesses. Model cards therefore encourage disclosure of evaluation procedures, benchmark datasets, testing environments, and performance metrics. They also promote reporting across different demographic and contextual groups rather than relying on a single headline score. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.03993" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Model Cards for Model Reporting</span><span class="citation-popover-snippet">arXiv Model Cards for Model Reporting</span></span></span>
+Aggregate accuracy figures can hide important weaknesses. Model cards therefore encourage disclosure of evaluation procedures, benchmark datasets, testing environments, and performance metrics. They also promote reporting across different demographic and contextual groups rather than relying on a single headline score.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.03993" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ResearchGate]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Model Cards for Model Reporting</span><span class="citation-popover-snippet">arXiv Model Cards for Model Reporting</span></span></span>
 
 This information allows deployment teams to ask practical questions: Was the model tested on populations similar to ours? Were edge cases evaluated? Were error rates consistent across groups?
 
@@ -356,7 +356,7 @@ This information allows deployment teams to ask practical questions: Was the mod
 
 ### Known limitations and failure modes
 
-A well-designed model card documents situations in which performance degrades or uncertainty increases. This may include limitations related to language coverage, environmental conditions, demographic variation, data quality, or adversarial inputs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://alan-turing-institute.github.io/tea-techniques/techniques/model-cards/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: alan-turing-institute.github.io">[Alan Turing Institute+2Practical AI Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">alan-turing-institute.github.io</span><span class="citation-popover-title">Alan Turing Institute Model Cards</span><span class="citation-popover-snippet">Alan Turing InstituteModel Cards - TEA TechniquesModel cards are standardised documentation frameworks that systematically document machi...</span></span></span>
+A well-designed model card documents situations in which performance degrades or uncertainty increases. This may include limitations related to language coverage, environmental conditions, demographic variation, data quality, or adversarial inputs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://alan-turing-institute.github.io/tea-techniques/techniques/model-cards/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: alan-turing-institute.github.io">[Alan Turing Institute+2Practical AI Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">alan-turing-institute.github.io</span><span class="citation-popover-title">Alan Turing Institute Model Cards</span><span class="citation-popover-snippet">Alan Turing InstituteModel Cards - TEA TechniquesModel cards are standardised documentation frameworks that systematically document machi...</span></span></span>
 
 For governance purposes, these disclosures help organisations design safeguards, monitoring procedures, and human oversight mechanisms before deployment rather than after a failure occurs.
 
@@ -377,9 +377,9 @@ Before deployment, reviewers typically need to answer questions such as:
 
 </div>
 
-Datasheets and model cards provide structured evidence that helps answer these questions. They transform deployment reviews from informal trust in a developer's claims into a more auditable process based on documented information. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
+Datasheets and model cards provide structured evidence that helps answer these questions. They transform deployment reviews from informal trust in a developer's claims into a more auditable process based on documented information.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
 
-Their importance has grown alongside broader AI governance frameworks. The NIST AI Risk Management Framework, for example, emphasises documentation, transparency, measurement, and traceability as part of [responsible AI]({{ 'responsible-ai/' | relative_url }}) risk management. Documentation helps organisations map risks, evaluate evidence, and justify deployment decisions in a systematic way. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2ETO AGORA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management FrameworkNIST has developed a framework to better manage risks to individuals, organizations, and society associat...</span></span></span>
+Their importance has grown alongside broader AI governance frameworks. The NIST AI Risk Management Framework, for example, emphasises documentation, transparency, measurement, and traceability as part of [responsible AI]({{ 'responsible-ai/' | relative_url }}) risk management. Documentation helps organisations map risks, evaluate evidence, and justify deployment decisions in a systematic way.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2ETO AGORA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management FrameworkNIST has developed a framework to better manage risks to individuals, organizations, and society associat...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9c82c-Illustration-3-dark.svg" | relative_url }}" alt="Model Cards illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9c82c-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_ai_documentat_b9c82c-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -387,207 +387,207 @@ Their importance has grown alongside broader AI governance frameworks. The NIST 
 
 Datasheets and model cards improve transparency, but they are not a substitute for rigorous testing, monitoring, or governance.
 
-A well-written model card may reveal that a model performs poorly in certain conditions, but the document itself does not fix the problem. Likewise, a datasheet can disclose sampling biases without eliminating them. Documentation helps organisations recognise risks; it does not automatically mitigate them. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
+A well-written model card may reveal that a model performs poorly in certain conditions, but the document itself does not fix the problem. Likewise, a datasheet can disclose sampling biases without eliminating them. Documentation helps organisations recognise risks; it does not automatically mitigate them.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
 
-There is also a risk of treating documentation as a compliance checklist rather than a meaningful governance tool. Researchers studying AI risk management have warned that documentation practices can become superficial if organisations focus on appearances rather than substantive evaluation and risk reduction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2401.15229" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Evolving AI Risk Management: A Maturity Model based on the NIST AI Risk Management FrameworkJanuary 26, 2024...</span><span class="citation-popover-meta">Published: January 26, 2024</span></span></span>
+There is also a risk of treating documentation as a compliance checklist rather than a meaningful governance tool. Researchers studying AI risk management have warned that documentation practices can become superficial if organisations focus on appearances rather than substantive evaluation and risk reduction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2401.15229" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Evolving AI Risk Management: A Maturity Model based on the NIST AI Risk Management FrameworkJanuary 26, 2024...</span><span class="citation-popover-meta">Published: January 26, 2024</span></span></span>
 
-Another limitation is that documentation depends on truthful and complete reporting. A model card is only as useful as the evidence behind it. For this reason, many governance discussions increasingly emphasise audits, reproducible testing, and traceable records alongside documentation requirements. Emerging assurance approaches seek to supplement descriptive reports with stronger forms of verifiable evidence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2511.12668" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">AI Bill of Materials and Beyond: Systematizing Security Assurance through the AI Risk Scanning (AIRS) FrameworkNovember 16, 2025...</span><span class="citation-popover-meta">Published: November 16, 2025</span></span></span>
+Another limitation is that documentation depends on truthful and complete reporting. A model card is only as useful as the evidence behind it. For this reason, many governance discussions increasingly emphasise audits, reproducible testing, and traceable records alongside documentation requirements. Emerging assurance approaches seek to supplement descriptive reports with stronger forms of verifiable evidence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2511.12668" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">AI Bill of Materials and Beyond: Systematizing Security Assurance through the AI Risk Scanning (AIRS) FrameworkNovember 16, 2025...</span><span class="citation-popover-meta">Published: November 16, 2025</span></span></span>
 
-Even with these limitations, dataset datasheets and model cards remain among the most practical tools available for understanding an AI system before deployment. They make hidden assumptions visible, clarify intended uses, expose performance limits, and provide a structured basis for deciding whether a system is ready for real-world use. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
+Even with these limitations, dataset datasheets and model cards remain among the most practical tools available for understanding an AI system before deployment. They make hidden assumptions visible, clarify intended uses, expose performance limits, and provide a structured basis for deciding whether a system is ready for real-world use.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Datasheets for Datasets</span><span class="citation-popover-snippet">Datasheets for DatasetsMarch 23, 2018...</span><span class="citation-popover-meta">Published: March 23, 2018</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/iNtgunGg86o" title="Model cards with vetiver for transparent, responsible reporting" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=iNtgunGg86o" target="_blank" rel="noopener noreferrer">Model cards with vetiver for transparent, responsible reporting</a></p><p class="youtube-embed-meta">Channel: Posit PBC</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=iNtgunGg86o" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=iNtgunGg86o">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to What AI labels should tell US before launch. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to What AI labels should tell US before launch. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
-        </h4>
-        <p class="fr-book-author">By Kate Crawford</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
+</h4>
+<p class="fr-book-author">By Kate Crawford</p>
         
-        <p class="fr-book-desc">Explains data origins, AI systems, transparency, accountability, and governance concerns behind documentation efforts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains data origins, AI systems, transparency, accountability, and governance concerns behind documentation efforts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
-        <p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
-        <p class="fr-book-desc">Provides foundational coverage of learning objectives and evaluation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
+<p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
+<p class="fr-book-desc">Provides foundational coverage of learning objectives and evaluation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Snake Oil on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_lxOEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Snake Oil" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Snake Oil">AI Snake Oil</a>
-        </h4>
-        <p class="fr-book-author">By Arvind Narayanan, Sayash Kapoor</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Snake Oil on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_lxOEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Snake Oil" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Snake Oil">AI Snake Oil</a>
+</h4>
+<p class="fr-book-author">By Arvind Narayanan, Sayash Kapoor</p>
         
-        <p class="fr-book-desc">Helps readers evaluate claims, limitations, testing results, and deployment risks that model cards seek to communicate.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Helps readers evaluate claims, limitations, testing results, and deployment risks that model cards seek to communicate.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Snake+Oil+by+Arvind+Narayanan&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Demonstrates why transparency and disclosure matter before automated systems affect people.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Demonstrates why transparency and disclosure matter before automated systems affect people.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Snake+Oil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Snake Oil</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Snake+Oil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Snake Oil</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift"><img src="{{ '/assets/images/marketplace-covers/ad0dfd27ba88ed2c11d3.jpg' | relative_url }}" alt="Listing image for Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift"><img src="{{ '/assets/images/marketplace-covers/ad0dfd27ba88ed2c11d3.jpg' | relative_url }}" alt="Listing image for Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Computer Science T-Shirt Men&#x27;s Funny Binary Slogan Tee Programmer Software Gift</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Cybernetics Brain T-Shirt Engineer Ingenieur Computer Science Scientist Fun"><img src="{{ '/assets/images/marketplace-covers/0017f14aea47f86cd653.jpg' | relative_url }}" alt="Listing image for Cybernetics Brain T-Shirt Engineer Ingenieur Computer Science Scientist Fun" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Cybernetics Brain T-Shirt Engineer Ingenieur Computer Science Scientist Fun</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Cybernetics Brain T-Shirt Engineer Ingenieur Computer Science Scientist Fun"><img src="{{ '/assets/images/marketplace-covers/0017f14aea47f86cd653.jpg' | relative_url }}" alt="Listing image for Cybernetics Brain T-Shirt Engineer Ingenieur Computer Science Scientist Fun" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Cybernetics Brain T-Shirt Engineer Ingenieur Computer Science Scientist Fun</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for It&#x27;s Not A Bug T-Shirt Fun Geek Nerd Computer Science Scientist Admin Coder"><img src="{{ '/assets/images/marketplace-covers/0188f818e6ff9dd4c784.jpg' | relative_url }}" alt="Listing image for It&#x27;s Not A Bug T-Shirt Fun Geek Nerd Computer Science Scientist Admin Coder" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">It&#x27;s Not A Bug T-Shirt Fun Geek Nerd Computer Science Scientist Admin Coder</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for It&#x27;s Not A Bug T-Shirt Fun Geek Nerd Computer Science Scientist Admin Coder"><img src="{{ '/assets/images/marketplace-covers/0188f818e6ff9dd4c784.jpg' | relative_url }}" alt="Listing image for It&#x27;s Not A Bug T-Shirt Fun Geek Nerd Computer Science Scientist Admin Coder" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">It&#x27;s Not A Bug T-Shirt Fun Geek Nerd Computer Science Scientist Admin Coder</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee"><img src="{{ '/assets/images/marketplace-covers/b9988d05c78fcd56c908.jpg' | relative_url }}" alt="Listing image for Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee"><img src="{{ '/assets/images/marketplace-covers/b9988d05c78fcd56c908.jpg' | relative_url }}" alt="Listing image for Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Funny Programmer Tech T-Shirt, Coder Offline Humor Computer Science Gift Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science t shirt" data-ebay-reference="model-cards-what-ai-labels-should-tell-us-before-launch-understanding-computer-science-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -603,7 +603,7 @@ Even with these limitations, dataset datasheets and model cards remain among the
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -623,7 +623,7 @@ Even with these limitations, dataset datasheets and model cards remain among the
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -655,7 +655,7 @@ Even with these limitations, dataset datasheets and model cards remain among the
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -707,7 +707,7 @@ Even with these limitations, dataset datasheets and model cards remain among the
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -752,7 +752,7 @@ Even with these limitations, dataset datasheets and model cards remain among the
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -793,225 +793,225 @@ Even with these limitations, dataset datasheets and model cards remain among the
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv Datasheets for Datasets  
-   Link: <a href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1803.09010</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for DatasetsMarch 23, 2018...</p></details>
+   Link:<a href="https://arxiv.org/abs/1803.09010" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1803.09010</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for DatasetsMarch 23, 2018...</p></details>
    Published: March 23, 2018  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
    Title: arXiv Model Cards for Model Reporting  
-   Link: <a href="https://arxiv.org/abs/1810.03993" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1810.03993</a>  
+   Link:<a href="https://arxiv.org/abs/1810.03993" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1810.03993</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management FrameworkNIST has developed a framework to better manage risks to individuals, organizations, and society associat...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management FrameworkNIST has developed a framework to better manage risks to individuals, organizations, and society associat...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: agora.eto.tech  
    Title: AGORANIST AI Risk Management Framework  
-   Link: <a href="https://agora.eto.tech/instrument/772" target="_blank" rel="noopener noreferrer nofollow">https://agora.eto.tech/instrument/772</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ETO AGORANIST AI Risk Management Framework - ETO AGORAAI risk measurements include documenting aspects of systems... MEASURE bolster AI...</p></details>
+   Link:<a href="https://agora.eto.tech/instrument/772" target="_blank" rel="noopener noreferrer nofollow">https://agora.eto.tech/instrument/772</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ETO AGORANIST AI Risk Management Framework - ETO AGORAAI risk measurements include documenting aspects of systems... MEASURE bolster AI...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: microsoft.com  
-   Link: <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/1803.09010.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/1803.09010.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasetsby T Gebru · Cited by 4580 — The questions are divided into seven categories: motivation for dataset crea...</p></details>
+   Link:<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/1803.09010.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2019/01/1803.09010.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasetsby T Gebru · Cited by 4580 — The questions are divided into seven categories: motivation for dataset crea...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: dl.acm.org  
-   Link: <a href="https://dl.acm.org/doi/10.1145/3287560.3287596" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.1145/3287560.3287596</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryModel Cards for Model Reporting | Proceedings of the...by M Mitchell · 2019 · Cited by 4162 — In this paper, we propo...</p></details>
+   Link:<a href="https://dl.acm.org/doi/10.1145/3287560.3287596" target="_blank" rel="noopener noreferrer nofollow">https://dl.acm.org/doi/10.1145/3287560.3287596</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACM Digital LibraryModel Cards for Model Reporting | Proceedings of the...by M Mitchell · 2019 · Cited by 4162 — In this paper, we propo...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/1810.03993" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1810.03993</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards for Model Reportingby M Mitchell · 2018 · Cited by 4162 — Model cards also disclose the context in which models are intended...</p></details>
+   Link:<a href="https://arxiv.org/pdf/1810.03993" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1810.03993</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards for Model Reportingby M Mitchell · 2018 · Cited by 4162 — Model cards also disclose the context in which models are intended...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: mdsd4health.com  
    Title: Datasheets for Datasets  
-   Link: <a href="https://www.mdsd4health.com/modules/module-3-mdsd-methods-mediums-pt-i/datasheets-for-datasets" target="_blank" rel="noopener noreferrer nofollow">https://www.mdsd4health.com/modules/module-3-mdsd-methods-mediums-pt-i/datasheets-for-datasets</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasets are documents that disclose the motivation, composition, collection process, recommended uses of a dat...</p></details>
+   Link:<a href="https://www.mdsd4health.com/modules/module-3-mdsd-methods-mediums-pt-i/datasheets-for-datasets" target="_blank" rel="noopener noreferrer nofollow">https://www.mdsd4health.com/modules/module-3-mdsd-methods-mediums-pt-i/datasheets-for-datasets</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasets are documents that disclose the motivation, composition, collection process, recommended uses of a dat...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: overleaf.com  
-   Link: <a href="https://www.overleaf.com/latex/templates/datasheet-for-dataset-template/jgqyyzyprxth" target="_blank" rel="noopener noreferrer nofollow">https://www.overleaf.com/latex/templates/datasheet-for-dataset-template/jgqyyzyprxth</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheet for dataset templateDocument [the dataset] motivation, composition, collection process, recommended uses, and so on. [They] hav...</p></details>
+   Link:<a href="https://www.overleaf.com/latex/templates/datasheet-for-dataset-template/jgqyyzyprxth" target="_blank" rel="noopener noreferrer nofollow">https://www.overleaf.com/latex/templates/datasheet-for-dataset-template/jgqyyzyprxth</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheet for dataset templateDocument [the dataset] motivation, composition, collection process, recommended uses, and so on. [They] hav...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/1803.09010" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1803.09010</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasetsby T Gebru · 2018 · Cited by 4541 — dataset be accompanied with a datasheet that documents its motivation, com- po...</p></details>
+   Link:<a href="https://arxiv.org/pdf/1803.09010" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/1803.09010</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasetsby T Gebru · 2018 · Cited by 4541 — dataset be accompanied with a datasheet that documents its motivation, com- po...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: iapp.org  
    Title: 5 things to know about ai model cards  
-   Link: <a href="https://iapp.org/news/a/5-things-to-know-about-ai-model-cards" target="_blank" rel="noopener noreferrer nofollow">https://iapp.org/news/a/5-things-to-know-about-ai-model-cards</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>23 Aug 2023 — Model cards are short documents provided with machine learning models that explain the context in which the models are inte...</p></details>
+   Link:<a href="https://iapp.org/news/a/5-things-to-know-about-ai-model-cards" target="_blank" rel="noopener noreferrer nofollow">https://iapp.org/news/a/5-things-to-know-about-ai-model-cards</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>23 Aug 2023 — Model cards are short documents provided with machine learning models that explain the context in which the models are inte...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/328189552_Model_Cards_for_Model_Reporting" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/328189552_Model_Cards_for_Model_Reporting</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards for Model ReportingConcurrently, the proposal of Model cards are concise reports accompanying ML models that detail their int...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/328189552_Model_Cards_for_Model_Reporting" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/328189552_Model_Cards_for_Model_Reporting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards for Model ReportingConcurrently, the proposal of Model cards are concise reports accompanying ML models that detail their int...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: practical-ai-act.eu  
-   Link: <a href="https://practical-ai-act.eu/latest/engineering-practice/model-cards/" target="_blank" rel="noopener noreferrer nofollow">https://practical-ai-act.eu/latest/engineering-practice/model-cards/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Model cardsModel cards are a somewhat standardized form of documentation that provide a comprehensive overview of an AI model, including...</p></details>
+   Link:<a href="https://practical-ai-act.eu/latest/engineering-practice/model-cards/" target="_blank" rel="noopener noreferrer nofollow">https://practical-ai-act.eu/latest/engineering-practice/model-cards/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model cardsModel cards are a somewhat standardized form of documentation that provide a comprehensive overview of an AI model, including...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2401.15229" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2401.15229</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Evolving AI Risk Management: A Maturity Model based on the NIST AI Risk Management FrameworkJanuary 26, 2024...</p></details>
+   Link:<a href="https://arxiv.org/abs/2401.15229" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2401.15229</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evolving AI Risk Management: A Maturity Model based on the NIST AI Risk Management FrameworkJanuary 26, 2024...</p></details>
    Published: January 26, 2024  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2511.12668" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2511.12668</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Bill of Materials and Beyond: Systematizing Security Assurance through the AI Risk Scanning (AIRS) FrameworkNovember 16, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2511.12668" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2511.12668</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Bill of Materials and Beyond: Systematizing Security Assurance through the AI Risk Scanning (AIRS) FrameworkNovember 16, 2025...</p></details>
    Published: November 16, 2025  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: researchgate.net  
    Title: 324055506 Datasheets for Datasets  
-   Link: <a href="https://www.researchgate.net/publication/324055506_Datasheets_for_Datasets" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/324055506_Datasheets_for_Datasets</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasets3 May 2026 — We propose the concept of a datasheet for datasets, a short document to accompany public datasets, co...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/324055506_Datasheets_for_Datasets" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/324055506_Datasheets_for_Datasets</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasets3 May 2026 — We propose the concept of a datasheet for datasets, a short document to accompany public datasets, co...</p></details>
    Published: May 2026  
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/386668632_Datasheets_for_Datasets" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/386668632_Datasheets_for_Datasets</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for DatasetsBy analogy, we propose that every dataset be accompanied with a datasheet that documents its motivation, compositi...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/386668632_Datasheets_for_Datasets" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/386668632_Datasheets_for_Datasets</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for DatasetsBy analogy, we propose that every dataset be accompanied with a datasheet that documents its motivation, compositi...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: youtube.com  
    Title: Model Cards for Model Reporting  
-   Link: <a href="https://www.youtube.com/watch?v=saAUB_MG2d0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=saAUB_MG2d0</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasets help ML engineers notice and understand ethical issues in training data...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=saAUB_MG2d0" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=saAUB_MG2d0</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Datasheets for Datasets help ML engineers notice and understand ethical issues in training data...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: ainowinstitute.org  
    Title: datasheets for datasets  
-   Link: <a href="https://ainowinstitute.org/publications/datasheets-for-datasets" target="_blank" rel="noopener noreferrer nofollow">https://ainowinstitute.org/publications/datasheets-for-datasets</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>22 Feb 2023 — every dataset be accompanied with a datasheet that documents its motivation, composition, collection process, recommended u...</p></details>
+   Link:<a href="https://ainowinstitute.org/publications/datasheets-for-datasets" target="_blank" rel="noopener noreferrer nofollow">https://ainowinstitute.org/publications/datasheets-for-datasets</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>22 Feb 2023 — every dataset be accompanied with a datasheet that documents its motivation, composition, collection process, recommended u...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: mlr3fairness.mlr-org.com  
    Title: mlr3 Fairness Datasheet for dataset “add dataset name here”  
-   Link: <a href="https://mlr3fairness.mlr-org.com/articles/datasheet/datasheet.html" target="_blank" rel="noopener noreferrer nofollow">https://mlr3fairness.mlr-org.com/articles/datasheet/datasheet.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>mlr3 FairnessDatasheet for dataset “add dataset name here” - mlr3fairnessMotivation Composition Collection process Preprocessing/cleaning...</p></details>
+   Link:<a href="https://mlr3fairness.mlr-org.com/articles/datasheet/datasheet.html" target="_blank" rel="noopener noreferrer nofollow">https://mlr3fairness.mlr-org.com/articles/datasheet/datasheet.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>mlr3 FairnessDatasheet for dataset “add dataset name here” - mlr3fairnessMotivation Composition Collection process Preprocessing/cleaning...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: aisecurityandsafety.org  
    Title: datasheets for datasets  
-   Link: <a href="https://aisecurityandsafety.org/en/glossary/datasheets-for-datasets/" target="_blank" rel="noopener noreferrer nofollow">https://aisecurityandsafety.org/en/glossary/datasheets-for-datasets/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Security &amp; Safety DirectoryDatasheets for Datasets — AI Governance Definition &amp; Guide27 Mar 2026 — Standardized documentation for mach...</p></details>
+   Link:<a href="https://aisecurityandsafety.org/en/glossary/datasheets-for-datasets/" target="_blank" rel="noopener noreferrer nofollow">https://aisecurityandsafety.org/en/glossary/datasheets-for-datasets/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Security &amp; Safety DirectoryDatasheets for Datasets — AI Governance Definition &amp; Guide27 Mar 2026 — Standardized documentation for mach...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: verifywise.ai  
-   Link: <a href="https://verifywise.ai/de/ai-governance-library/transparency-and-documentation/model-cards-paper" target="_blank" rel="noopener noreferrer nofollow">https://verifywise.ai/de/ai-governance-library/transparency-and-documentation/model-cards-paper</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards for Model Reporting | KI-Governance-BibliothekModel cards provide standardized documentation covering intended uses, performa...</p></details>
+   Link:<a href="https://verifywise.ai/de/ai-governance-library/transparency-and-documentation/model-cards-paper" target="_blank" rel="noopener noreferrer nofollow">https://verifywise.ai/de/ai-governance-library/transparency-and-documentation/model-cards-paper</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards for Model Reporting | KI-Governance-BibliothekModel cards provide standardized documentation covering intended uses, performa...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: alan-turing-institute.github.io  
    Title: Alan Turing Institute Model Cards  
-   Link: <a href="https://alan-turing-institute.github.io/tea-techniques/techniques/model-cards/" target="_blank" rel="noopener noreferrer nofollow">https://alan-turing-institute.github.io/tea-techniques/techniques/model-cards/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Alan Turing InstituteModel Cards - TEA TechniquesModel cards are standardised documentation frameworks that systematically document machi...</p></details>
+   Link:<a href="https://alan-turing-institute.github.io/tea-techniques/techniques/model-cards/" target="_blank" rel="noopener noreferrer nofollow">https://alan-turing-institute.github.io/tea-techniques/techniques/model-cards/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Alan Turing InstituteModel Cards - TEA TechniquesModel cards are standardised documentation frameworks that systematically document machi...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: emergentmind.com  
    Title: model cards for model reporting  
-   Link: <a href="https://www.emergentmind.com/topics/model-cards-for-model-reporting" target="_blank" rel="noopener noreferrer nofollow">https://www.emergentmind.com/topics/model-cards-for-model-reporting</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards for Reporting AI Models18 Mar 2026 — They enable transparency and regulatory compliance by including sections on intended use...</p></details>
+   Link:<a href="https://www.emergentmind.com/topics/model-cards-for-model-reporting" target="_blank" rel="noopener noreferrer nofollow">https://www.emergentmind.com/topics/model-cards-for-model-reporting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards for Reporting AI Models18 Mar 2026 — They enable transparency and regulatory compliance by including sections on intended use...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: sentinelone.com  
    Title: nist ai risk management framework  
-   Link: <a href="https://www.sentinelone.com/cybersecurity-101/cybersecurity/nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://www.sentinelone.com/cybersecurity-101/cybersecurity/nist-ai-risk-management-framework/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What is the NIST AI Risk Management Framework?Oct 14, 2025 — The NIST artificial intelligence risk management framework (AI RMF) guides o...</p></details>
+   Link:<a href="https://www.sentinelone.com/cybersecurity-101/cybersecurity/nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://www.sentinelone.com/cybersecurity-101/cybersecurity/nist-ai-risk-management-framework/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is the NIST AI Risk Management Framework?Oct 14, 2025 — The NIST artificial intelligence risk management framework (AI RMF) guides o...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: github.com  
-   Link: <a href="https://github.com/AudreyBeard/Datasheets-for-Datasets-Template/blob/master/refs.bib" target="_blank" rel="noopener noreferrer nofollow">https://github.com/AudreyBeard/Datasheets-for-Datasets-Template/blob/master/refs.bib</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AudreyBeard/Datasheets-for-Datasets-Templateevery dataset be accompanied with a datasheet that documents its motivation, composition, col...</p></details>
+   Link:<a href="https://github.com/AudreyBeard/Datasheets-for-Datasets-Template/blob/master/refs.bib" target="_blank" rel="noopener noreferrer nofollow">https://github.com/AudreyBeard/Datasheets-for-Datasets-Template/blob/master/refs.bib</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AudreyBeard/Datasheets-for-Datasets-Templateevery dataset be accompanied with a datasheet that documents its motivation, composition, col...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: ui.adsabs.harvard.edu  
-   Link: <a href="https://ui.adsabs.harvard.edu/abs/2018arXiv180309010G/abstract" target="_blank" rel="noopener noreferrer nofollow">https://ui.adsabs.harvard.edu/abs/2018arXiv180309010G/abstract</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>for Datasets - ADSby T Gebru · 2018 · Cited by 4536 — We propose that every dataset be accompanied with a datasheet that documents its mo...</p></details>
+   Link:<a href="https://ui.adsabs.harvard.edu/abs/2018arXiv180309010G/abstract" target="_blank" rel="noopener noreferrer nofollow">https://ui.adsabs.harvard.edu/abs/2018arXiv180309010G/abstract</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>for Datasets - ADSby T Gebru · 2018 · Cited by 4536 — We propose that every dataset be accompanied with a datasheet that documents its mo...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: edwinwenink.github.io  
    Title: model card  
-   Link: <a href="https://edwinwenink.github.io/ai-ethics-tool-landscape/tools/model-card/" target="_blank" rel="noopener noreferrer nofollow">https://edwinwenink.github.io/ai-ethics-tool-landscape/tools/model-card/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>s for Model Reporting13 Jul 2021 — Model cards are short documents accompanying trained machine learning models that provide benchmarked...</p></details>
+   Link:<a href="https://edwinwenink.github.io/ai-ethics-tool-landscape/tools/model-card/" target="_blank" rel="noopener noreferrer nofollow">https://edwinwenink.github.io/ai-ethics-tool-landscape/tools/model-card/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>s for Model Reporting13 Jul 2021 — Model cards are short documents accompanying trained machine learning models that provide benchmarked...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: info4940.infosci.cornell.edu  
    Title: model card  
-   Link: <a href="https://info4940.infosci.cornell.edu/project/proj-01/model-card.html" target="_blank" rel="noopener noreferrer nofollow">https://info4940.infosci.cornell.edu/project/proj-01/model-card.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>card9 Nov 2025 — It provides a summary of the model&#x27;s performance and limitations, as well as the context in which it was trained and use...</p></details>
+   Link:<a href="https://info4940.infosci.cornell.edu/project/proj-01/model-card.html" target="_blank" rel="noopener noreferrer nofollow">https://info4940.infosci.cornell.edu/project/proj-01/model-card.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>card9 Nov 2025 — It provides a summary of the model&#x27;s performance and limitations, as well as the context in which it was trained and use...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: ai-solutions.daviesmeyer.com  
    Title: datasheets for datasets  
-   Link: <a href="https://ai-solutions.daviesmeyer.com/en/glossary/datasheets-for-datasets" target="_blank" rel="noopener noreferrer nofollow">https://ai-solutions.daviesmeyer.com/en/glossary/datasheets-for-datasets</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>for Datasets Explained - HamburgStandardized documentation for ML datasets describing [provenance](&amp;#123;&amp;#123; &#x27;provenance/&#x27; | relative_url &amp;#125;&amp;#125;), composition, collection methods, recomm...</p></details>
+   Link:<a href="https://ai-solutions.daviesmeyer.com/en/glossary/datasheets-for-datasets" target="_blank" rel="noopener noreferrer nofollow">https://ai-solutions.daviesmeyer.com/en/glossary/datasheets-for-datasets</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>for Datasets Explained - HamburgStandardized documentation for ML datasets describing [provenance](&amp;#123;&amp;#123; &#x27;provenance/&#x27; | relative_url &amp;#125;&amp;#125;), composition, collection methods, recomm...</p></details>
 
 ### Additional References
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: adeptiv.ai  
-   Link: <a href="https://adeptiv.ai/nist-ai-rmf-guide-to-ai-risk-management-systems/" target="_blank" rel="noopener noreferrer nofollow">https://adeptiv.ai/nist-ai-rmf-guide-to-ai-risk-management-systems/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Governance &amp; Risk Management | NIST AI RMF GuideThe primary objective of the NIST AI RMF is to help organizations identify, assess, ma...</p></details>
+   Link:<a href="https://adeptiv.ai/nist-ai-rmf-guide-to-ai-risk-management-systems/" target="_blank" rel="noopener noreferrer nofollow">https://adeptiv.ai/nist-ai-rmf-guide-to-ai-risk-management-systems/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Governance &amp; Risk Management | NIST AI RMF GuideThe primary objective of the NIST AI RMF is to help organizations identify, assess, ma...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/model" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/model</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MODEL Definition &amp; Meaning1. a usually miniature representation of something; a plastic model of the human heart; also: a pattern of som...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/model" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/model</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MODEL Definition &amp; Meaning1. a usually miniature representation of something; a plastic model of the human heart; also: a pattern of som...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40tahirbalarabe2/model-cards-explained-b14cd7c9439e" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40tahirbalarabe2/model-cards-explained-b14cd7c9439e</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards Explained. Shoutout to Google | by TahirBy clearly stating intended use cases and out-of-scope scenarios, Model Cards help no...</p></details>
+   Link:<a href="https://medium.com/%40tahirbalarabe2/model-cards-explained-b14cd7c9439e" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40tahirbalarabe2/model-cards-explained-b14cd7c9439e</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards Explained. Shoutout to Google | by TahirBy clearly stating intended use cases and out-of-scope scenarios, Model Cards help no...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: mbrenndoerfer.com  
-   Link: <a href="https://mbrenndoerfer.com/writing/model-cards-documentation-intended-use-limitations-best-practices" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/model-cards-documentation-intended-use-limitations-best-practices</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards: Documentation, Intended Use, and LimitationsLearn how to write model cards that communicate intended use, training data, eva...</p></details>
+   Link:<a href="https://mbrenndoerfer.com/writing/model-cards-documentation-intended-use-limitations-best-practices" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/model-cards-documentation-intended-use-limitations-best-practices</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Model Cards: Documentation, Intended Use, and LimitationsLearn how to write model cards that communicate intended use, training data, eva...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: domino.ai  
-   Link: <a href="https://domino.ai/solutions/nist-risk-management" target="_blank" rel="noopener noreferrer nofollow">https://domino.ai/solutions/nist-risk-management</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI risk management frameworkDomino Governance supports the NIST AI Risk Management Framework (RMF) standards with one universal syst...</p></details>
+   Link:<a href="https://domino.ai/solutions/nist-risk-management" target="_blank" rel="noopener noreferrer nofollow">https://domino.ai/solutions/nist-risk-management</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI risk management frameworkDomino Governance supports the NIST AI Risk Management Framework (RMF) standards with one universal syst...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: docs.modulos.ai  
-   Link: <a href="https://docs.modulos.ai/frameworks/nist-ai-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://docs.modulos.ai/frameworks/nist-ai-rmf/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework 1.0 (NIST AI RMF)Complete guide to the NIST AI Risk Management Framework 1.0 (AI RMF 1.0): the four core fun...</p></details>
+   Link:<a href="https://docs.modulos.ai/frameworks/nist-ai-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://docs.modulos.ai/frameworks/nist-ai-rmf/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework 1.0 (NIST AI RMF)Complete guide to the NIST AI Risk Management Framework 1.0 (AI RMF 1.0): the four core fun...</p></details>
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: morgan-klaus.com  
-   Link: <a href="https://www.morgan-klaus.com/readings/datasheets-for-datasets.html" target="_blank" rel="noopener noreferrer nofollow">https://www.morgan-klaus.com/readings/datasheets-for-datasets.html</a>  
+   Link:<a href="https://www.morgan-klaus.com/readings/datasheets-for-datasets.html" target="_blank" rel="noopener noreferrer nofollow">https://www.morgan-klaus.com/readings/datasheets-for-datasets.html</a>  
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40akankshasinha247/model-cards-datasheets-governance-frameworks-0cda9605c94e" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40akankshasinha247/model-cards-datasheets-governance-frameworks-0cda9605c94e</a>  
+   Link:<a href="https://medium.com/%40akankshasinha247/model-cards-datasheets-governance-frameworks-0cda9605c94e" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40akankshasinha247/model-cards-datasheets-governance-frameworks-0cda9605c94e</a>  
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: panaseer.com  
-   Link: <a href="https://panaseer.com/resources/blog/delivering-responsible-ai-with-model-cards" target="_blank" rel="noopener noreferrer nofollow">https://panaseer.com/resources/blog/delivering-responsible-ai-with-model-cards</a>  
+   Link:<a href="https://panaseer.com/resources/blog/delivering-responsible-ai-with-model-cards" target="_blank" rel="noopener noreferrer nofollow">https://panaseer.com/resources/blog/delivering-responsible-ai-with-model-cards</a>  
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: ateam-oracle.com  
-   Link: <a href="https://www.ateam-oracle.com/ciso-perspectives-a-practical-guide-to-implementing-the-nist-ai-risk-management-framework-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.ateam-oracle.com/ciso-perspectives-a-practical-guide-to-implementing-the-nist-ai-risk-management-framework-ai-rmf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The NIST AI RMF provides a structured approach for addressing risks related to AI...Read more...</p></details>
+   Link:<a href="https://www.ateam-oracle.com/ciso-perspectives-a-practical-guide-to-implementing-the-nist-ai-risk-management-framework-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.ateam-oracle.com/ciso-perspectives-a-practical-guide-to-implementing-the-nist-ai-risk-management-framework-ai-rmf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The NIST AI RMF provides a structured approach for addressing risks related to AI...Read more...</p></details>

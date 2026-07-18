@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_large_languag_0eaecc_fluent_answer_ef
 
 ## Introduction
 
-Fluent chatbot answers can be useful starting points, but in medicine, law, education, and research they should never be treated as evidence simply because they sound convincing. Large [language models]({{ 'language-models/' | relative_url }}) are designed to generate plausible language, not to guarantee factual accuracy. In high-stakes situations, a polished answer can hide missing sources, outdated information, fabricated citations, or reasoning errors. Research has shown that people often rate AI-generated explanations as trustworthy and complete even when they contain inaccuracies, making [verification]({{ 'verification-cost/' | relative_url }}) especially important. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2408.15266" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">People over trust AI-generated medical responses and view them to be as valid as doctors, despite low accuracyAugust 12, 2024...</span><span class="citation-popover-meta">Published: August 12, 2024</span></span></span>
+Fluent chatbot answers can be useful starting points, but in medicine, law, education, and research they should never be treated as evidence simply because they sound convincing. Large [language models]({{ 'language-models/' | relative_url }}) are designed to generate plausible language, not to guarantee factual accuracy. In high-stakes situations, a polished answer can hide missing sources, outdated information, fabricated citations, or reasoning errors. Research has shown that people often rate AI-generated explanations as trustworthy and complete even when they contain inaccuracies, making [verification]({{ 'verification-cost/' | relative_url }}) especially important.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2408.15266" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">People over trust AI-generated medical responses and view them to be as valid as doctors, despite low accuracyAugust 12, 2024...</span><span class="citation-popover-meta">Published: August 12, 2024</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_fluent_answer_efc84b_verify_fluent_be0600-Illustration-1-dark.svg" | relative_url }}" alt="Verify Answers illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_fluent_answer_efc84b_verify_fluent_be0600-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_fluent_answer_efc84b_verify_fluent_be0600-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -292,9 +292,9 @@ The highest-priority claims to verify independently include:
 
 </div>
 
-Several recent examples illustrate why this matters. Courts have repeatedly sanctioned lawyers who submitted AI-generated citations without checking whether the cited cases actually existed. Judges have stressed that responsibility remains with the human professional, regardless of which tool generated the text. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">Judge rules both sides in lawsuit misused AI, disqualifies lawyers</span><span class="citation-popover-snippet">District Judge in Mississippi, Sharion Aycock, has disqualified all attorneys involved in a contract dispute case after discovering both...</span></span></span>
+Several recent examples illustrate why this matters. Courts have repeatedly sanctioned lawyers who submitted AI-generated citations without checking whether the cited cases actually existed. Judges have stressed that responsibility remains with the human professional, regardless of which tool generated the text.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: reuters.com">[Reuters+2Reuters]</a><span class="citation-popover" role="note"><span class="citation-popover-source">reuters.com</span><span class="citation-popover-title">Judge rules both sides in lawsuit misused AI, disqualifies lawyers</span><span class="citation-popover-snippet">District Judge in Mississippi, Sharion Aycock, has disqualified all attorneys involved in a contract dispute case after discovering both...</span></span></span>
 
-Health-related uses present similar concerns. Independent audits of medical chatbots have found weaknesses in scientific accuracy and reference quality, while researchers have shown that chatbots can confidently repeat and expand incorrect medical information. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://bmjopen.bmj.com/content/16/4/e112695" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bmjopen.bmj.com">[BMJ Open]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bmjopen.bmj.com</span><span class="citation-popover-snippet">BMJ OpenGenerative artificial intelligence-driven chatbots and...by NB Tiller · 2026 · Cited by 7 — In this independent audit, we evalua...</span></span></span>
+Health-related uses present similar concerns. Independent audits of medical chatbots have found weaknesses in scientific accuracy and reference quality, while researchers have shown that chatbots can confidently repeat and expand incorrect medical information.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://bmjopen.bmj.com/content/16/4/e112695" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: bmjopen.bmj.com">[BMJ Open]</a><span class="citation-popover" role="note"><span class="citation-popover-source">bmjopen.bmj.com</span><span class="citation-popover-snippet">BMJ OpenGenerative artificial intelligence-driven chatbots and...by NB Tiller · 2026 · Cited by 7 — In this independent audit, we evalua...</span></span></span>
 
 A useful rule is simple: if acting on the answer could harm someone, cost significant money, affect legal rights, influence grades, or alter research conclusions, verify it before relying on it.
 
@@ -333,7 +333,7 @@ Check whether:
 * The source is current enough for the topic.
 * The source comes from a reputable institution, journal, court, or organisation.
 
-Legal professionals have learned this lesson repeatedly. AI-generated citations can appear perfectly formatted while referring to non-existent cases or misrepresenting real ones. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.thomsonreuters.com/en-us/posts/technology/genai-hallucinations/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thomsonreuters.com">[Thomson Reuters+2American Bar Association]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thomsonreuters.com</span><span class="citation-popover-title">genai hallucinations</span><span class="citation-popover-snippet">Thomson ReutersGenAI hallucinations are still pervasive in legal filings, but...18 Aug 2025 — GenAI hallucinations continue to plague at...</span></span></span>
+Legal professionals have learned this lesson repeatedly. AI-generated citations can appear perfectly formatted while referring to non-existent cases or misrepresenting real ones.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.thomsonreuters.com/en-us/posts/technology/genai-hallucinations/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thomsonreuters.com">[Thomson Reuters+2American Bar Association]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thomsonreuters.com</span><span class="citation-popover-title">genai hallucinations</span><span class="citation-popover-snippet">Thomson ReutersGenAI hallucinations are still pervasive in legal filings, but...18 Aug 2025 — GenAI hallucinations continue to plague at...</span></span></span>
 
 ### Step 3: Go to the original source
 
@@ -366,7 +366,7 @@ Common failure points include:
 
 <div class="content-enhancement content-enhancement--decision" markdown="1">
 
-* Medical guidance that has been updated. <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.facebook.com/NYSBA/posts/generative-artificial-intelligence-has-now-been-part-of-the-public-legal-landsca/1397720352399152/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: facebook.com">[facebook.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">facebook.com</span><span class="citation-popover-title">generative artificial intelligence has now been part of the public legal landsca</span><span class="citation-popover-snippet">Generative artificial intelligence has now been part of the...21 Apr 2026 — The American Bar Association has issued its first ethical gu...</span></span></span>
+* Medical guidance that has been updated.<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.facebook.com/NYSBA/posts/generative-artificial-intelligence-has-now-been-part-of-the-public-legal-landsca/1397720352399152/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: facebook.com">[facebook.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">facebook.com</span><span class="citation-popover-title">generative artificial intelligence has now been part of the public legal landsca</span><span class="citation-popover-snippet">Generative artificial intelligence has now been part of the...21 Apr 2026 — The American Bar Association has issued its first ethical gu...</span></span></span>
 * Legal rules that differ by jurisdiction.
 * Educational standards that have changed.
 * Research findings superseded by newer evidence.
@@ -400,194 +400,194 @@ Be cautious when a chatbot:
 The absence of uncertainty is sometimes a stronger warning sign than the presence of uncertainty.
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How to check polished AI answers safely. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How to check polished AI answers safely. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Offers frameworks for checking and supervising AI outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Offers frameworks for checking and supervising AI outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Explains model limitations that motivate verification.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains model limitations that motivate verification.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Calling Bullshit on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=S2ZOzQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Calling Bullshit" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Calling Bullshit">Calling Bullshit</a>
-        </h4>
-        <p class="fr-book-author">By Carl T. Bergstrom, Jevin Darwin West</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Calling Bullshit on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=S2ZOzQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Calling Bullshit" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Calling Bullshit">Calling Bullshit</a>
+</h4>
+<p class="fr-book-author">By Carl T. Bergstrom, Jevin Darwin West</p>
         
-        <p class="fr-book-desc">Directly supports verification and source-checking skills.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly supports verification and source-checking skills.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Calling+Bullshit+by+Carl+T.+Bergstrom&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI Revolution in Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AY-5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The AI Revolution in Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI Revolution in Medicine">The AI Revolution in Medicine</a>
-        </h4>
-        <p class="fr-book-author">By Peter Lee, Carey Goldberg et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI Revolution in Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AY-5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The AI Revolution in Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI Revolution in Medicine">The AI Revolution in Medicine</a>
+</h4>
+<p class="fr-book-author">By Peter Lee, Carey Goldberg et al.</p>
         
-        <p class="fr-book-desc">Shows why verification matters in high-stakes contexts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows why verification matters in high-stakes contexts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+AI+Revolution+in+Medicine+by+Peter+Lee&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Calling+Bullshit&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Calling Bullshit</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Calling+Bullshit&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Calling Bullshit</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Teddy Fresh x Mast Hoodie Black Medium Artificial Intelligence AI Japanese Art M"><img src="{{ '/assets/images/marketplace-covers/850f7d327f7c0cb02d2c.jpg' | relative_url }}" alt="Listing image for Teddy Fresh x Mast Hoodie Black Medium Artificial Intelligence AI Japanese Art M" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">Teddy Fresh x Mast Hoodie Black Medium Artificial Intelligence AI Japanese Art M</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Teddy Fresh x Mast Hoodie Black Medium Artificial Intelligence AI Japanese Art M"><img src="{{ '/assets/images/marketplace-covers/850f7d327f7c0cb02d2c.jpg' | relative_url }}" alt="Listing image for Teddy Fresh x Mast Hoodie Black Medium Artificial Intelligence AI Japanese Art M" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">Teddy Fresh x Mast Hoodie Black Medium Artificial Intelligence AI Japanese Art M</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Rockstar Original Face Mask Artificial Intelligence Hoodie Size MEDIUM Black"><img src="{{ '/assets/images/marketplace-covers/dccdadffeb350af3e51a.jpg' | relative_url }}" alt="Listing image for Rockstar Original Face Mask Artificial Intelligence Hoodie Size MEDIUM Black" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">Rockstar Original Face Mask Artificial Intelligence Hoodie Size MEDIUM Black</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Rockstar Original Face Mask Artificial Intelligence Hoodie Size MEDIUM Black"><img src="{{ '/assets/images/marketplace-covers/dccdadffeb350af3e51a.jpg' | relative_url }}" alt="Listing image for Rockstar Original Face Mask Artificial Intelligence Hoodie Size MEDIUM Black" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">Rockstar Original Face Mask Artificial Intelligence Hoodie Size MEDIUM Black</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Beware The Robots Artificial Intelligence Graphic Hoodie, Sizes S-5XL"><img src="{{ '/assets/images/marketplace-covers/76a1107eee90fd9378ee.jpg' | relative_url }}" alt="Listing image for Beware The Robots Artificial Intelligence Graphic Hoodie, Sizes S-5XL" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">Beware The Robots Artificial Intelligence Graphic Hoodie, Sizes S-5XL</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Beware The Robots Artificial Intelligence Graphic Hoodie, Sizes S-5XL"><img src="{{ '/assets/images/marketplace-covers/76a1107eee90fd9378ee.jpg' | relative_url }}" alt="Listing image for Beware The Robots Artificial Intelligence Graphic Hoodie, Sizes S-5XL" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">Beware The Robots Artificial Intelligence Graphic Hoodie, Sizes S-5XL</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB HOODY HOODIE RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/383cae897cb94460f29a.jpg' | relative_url }}" alt="Listing image for SKYNET LB HOODY HOODIE RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB HOODY HOODIE RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB HOODY HOODIE RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/383cae897cb94460f29a.jpg' | relative_url }}" alt="Listing image for SKYNET LB HOODY HOODIE RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB HOODY HOODIE RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence hoodie" data-ebay-reference="verify-answers-how-to-check-polished-ai-answers-safely-understanding-artificial-intelligence-hoodie" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -603,7 +603,7 @@ The absence of uncertainty is sometimes a stronger warning sign than the presenc
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -623,7 +623,7 @@ The absence of uncertainty is sometimes a stronger warning sign than the presenc
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -655,7 +655,7 @@ The absence of uncertainty is sometimes a stronger warning sign than the presenc
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -707,7 +707,7 @@ The absence of uncertainty is sometimes a stronger warning sign than the presenc
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -752,7 +752,7 @@ The absence of uncertainty is sometimes a stronger warning sign than the presenc
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -801,7 +801,7 @@ A common hallucination pattern is the invention of:
 * Statistics.
 * Expert statements.
 
-If a citation cannot be located independently, treat the associated claim as unverified. Research on legal [hallucinations]({{ 'hallucinations/' | relative_url }}) has found that language models can produce convincing but inaccurate legal references and may not reliably recognise when they are doing so. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2401.01301" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Large Legal Fictions: Profiling Legal Hallucinations in Large Language ModelsJanuary 2, 2024...</span><span class="citation-popover-meta">Published: January 2, 2024</span></span></span>
+If a citation cannot be located independently, treat the associated claim as unverified. Research on legal [hallucinations]({{ 'hallucinations/' | relative_url }}) has found that language models can produce convincing but inaccurate legal references and may not reliably recognise when they are doing so.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2401.01301" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Large Legal Fictions: Profiling Legal Hallucinations in Large Language ModelsJanuary 2, 2024...</span><span class="citation-popover-meta">Published: January 2, 2024</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_fluent_answer_efc84b_verify_fluent_be0600-Illustration-3-dark.svg" | relative_url }}" alt="Verify Answers illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_fluent_answer_efc84b_verify_fluent_be0600-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_large_languag_0eaecc_fluent_answer_efc84b_verify_fluent_be0600-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -826,7 +826,7 @@ Specificity is not proof.
 
 Sometimes the most persuasive answer is the one that agrees with the user's assumptions.
 
-Research has shown that language models can fail to challenge incorrect premises embedded in prompts. Instead, they may generate a coherent answer based on the mistaken assumption. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2401.01301" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Large Legal Fictions: Profiling Legal Hallucinations in Large Language ModelsJanuary 2, 2024...</span><span class="citation-popover-meta">Published: January 2, 2024</span></span></span>
+Research has shown that language models can fail to challenge incorrect premises embedded in prompts. Instead, they may generate a coherent answer based on the mistaken assumption.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2401.01301" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Large Legal Fictions: Profiling Legal Hallucinations in Large Language ModelsJanuary 2, 2024...</span><span class="citation-popover-meta">Published: January 2, 2024</span></span></span>
 
 Verification should therefore include checking the question's assumptions as well as the answer.
 
@@ -850,7 +850,7 @@ A decision should pause when:
 
 </div>
 
-Health organisations and public-health authorities have repeatedly urged caution when using [generative AI]({{ 'generative-ai/' | relative_url }}) in health contexts because inaccurate outputs can affect safety and wellbeing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.who.int/news/item/16-05-2023-who-calls-for-safe-and-ethical-ai-for-health" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: who.int">[World Health Organization+2World Health Organization]</a><span class="citation-popover" role="note"><span class="citation-popover-source">who.int</span><span class="citation-popover-title">World Health Organization WHO calls for safe and ethical AI for health</span><span class="citation-popover-snippet">World Health OrganizationWHO calls for safe and ethical AI for healthMay 16, 2023 — The World Health Organization (WHO) is calling for ca...</span><span class="citation-popover-meta">Published: May 16, 2023</span></span></span>
+Health organisations and public-health authorities have repeatedly urged caution when using [generative AI]({{ 'generative-ai/' | relative_url }}) in health contexts because inaccurate outputs can affect safety and wellbeing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.who.int/news/item/16-05-2023-who-calls-for-safe-and-ethical-ai-for-health" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: who.int">[World Health Organization+2World Health Organization]</a><span class="citation-popover" role="note"><span class="citation-popover-source">who.int</span><span class="citation-popover-title">World Health Organization WHO calls for safe and ethical AI for health</span><span class="citation-popover-snippet">World Health OrganizationWHO calls for safe and ethical AI for healthMay 16, 2023 — The World Health Organization (WHO) is calling for ca...</span><span class="citation-popover-meta">Published: May 16, 2023</span></span></span>
 
 In practical terms, uncertainty should trigger escalation to a qualified professional rather than a search for a more confident chatbot response.
 
@@ -862,148 +862,148 @@ This approach recognises both the strength and the weakness of modern AI systems
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2408.15266" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2408.15266</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>People over trust AI-generated medical responses and view them to be as valid as doctors, despite low accuracyAugust 12, 2024...</p></details>
+   Link:<a href="https://arxiv.org/abs/2408.15266" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2408.15266</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>People over trust AI-generated medical responses and view them to be as valid as doctors, despite low accuracyAugust 12, 2024...</p></details>
    Published: August 12, 2024  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: bmjopen.bmj.com  
-   Link: <a href="https://bmjopen.bmj.com/content/16/4/e112695" target="_blank" rel="noopener noreferrer nofollow">https://bmjopen.bmj.com/content/16/4/e112695</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>BMJ OpenGenerative artificial intelligence-driven chatbots and...by NB Tiller · 2026 · Cited by 7 — In this independent audit, we evalua...</p></details>
+   Link:<a href="https://bmjopen.bmj.com/content/16/4/e112695" target="_blank" rel="noopener noreferrer nofollow">https://bmjopen.bmj.com/content/16/4/e112695</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>BMJ OpenGenerative artificial intelligence-driven chatbots and...by NB Tiller · 2026 · Cited by 7 — In this independent audit, we evalua...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: reuters.com  
    Title: Judge rules both sides in lawsuit misused AI, disqualifies lawyers  
-   Link: <a href="https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>District Judge in Mississippi, Sharion Aycock, has disqualified all attorneys involved in a contract dispute case after discovering both...</p></details>
+   Link:<a href="https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/legal/litigation/judge-rules-both-sides-lawsuit-misused-ai-disqualifies-lawyers-2026-06-09/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>District Judge in Mississippi, Sharion Aycock, has disqualified all attorneys involved in a contract dispute case after discovering both...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/legal/litigation/us-appeals-court-[sanctions" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/legal/litigation/us-appeals-court-[sanctions</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>appeals court sanctioned two lawyers for submitting court briefs containing fictitious, AI-generated case citations, referred to as &quot;hall...</p></details>
+   Link:<a href="https://www.reuters.com/legal/litigation/us-appeals-court-[sanctions" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/legal/litigation/us-appeals-court-[sanctions</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>appeals court sanctioned two lawyers for submitting court briefs containing fictitious, AI-generated case citations, referred to as &quot;hall...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2401.01301" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2401.01301</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Large Legal Fictions: Profiling Legal Hallucinations in Large Language ModelsJanuary 2, 2024...</p></details>
+   Link:<a href="https://arxiv.org/abs/2401.01301" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2401.01301</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Large Legal Fictions: Profiling Legal Hallucinations in Large Language ModelsJanuary 2, 2024...</p></details>
    Published: January 2, 2024  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: who.int  
    Title: World Health Organization WHO calls for safe and ethical AI for health  
-   Link: <a href="https://www.who.int/news/item/16-05-2023-who-calls-for-safe-and-ethical-ai-for-health" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/news/item/16-05-2023-who-calls-for-safe-and-ethical-ai-for-health</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>World Health OrganizationWHO calls for safe and ethical AI for healthMay 16, 2023 — The World Health Organization (WHO) is calling for ca...</p></details>
+   Link:<a href="https://www.who.int/news/item/16-05-2023-who-calls-for-safe-and-ethical-ai-for-health" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/news/item/16-05-2023-who-calls-for-safe-and-ethical-ai-for-health</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>World Health OrganizationWHO calls for safe and ethical AI for healthMay 16, 2023 — The World Health Organization (WHO) is calling for ca...</p></details>
    Published: May 16, 2023  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: who.int  
-   Link: <a href="https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>World Health OrganizationWHO releases AI ethics and governance guidance for...Jan 18, 2024 — The guidance outlines over 40 recommendatio...</p></details>
+   Link:<a href="https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>World Health OrganizationWHO releases AI ethics and governance guidance for...Jan 18, 2024 — The guidance outlines over 40 recommendatio...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: who.int  
-   Link: <a href="https://www.who.int/publications/i/item/9789240084759" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/publications/i/item/9789240084759</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>World Health OrganizationEthics and governance of artificial intelligence for health25 Mar 2025 — This guidance addresses one type of gen...</p></details>
+   Link:<a href="https://www.who.int/publications/i/item/9789240084759" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/publications/i/item/9789240084759</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>World Health OrganizationEthics and governance of artificial intelligence for health25 Mar 2025 — This guidance addresses one type of gen...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: who.int  
-   Link: <a href="https://www.who.int/" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/</a>  
+   Link:<a href="https://www.who.int/" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: who.int  
-   Link: <a href="https://www.who.int/publications/i/item/9789240029200" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/publications/i/item/9789240029200</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Ethics and governance of artificial intelligence for healthJun 28, 2021 — The WHO guidance on Ethics &amp; Governance of Artificial Intellige...</p></details>
+   Link:<a href="https://www.who.int/publications/i/item/9789240029200" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/publications/i/item/9789240029200</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Ethics and governance of artificial intelligence for healthJun 28, 2021 — The WHO guidance on Ethics &amp; Governance of Artificial Intellige...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: americanbar.org  
    Title: aba issues first ethics guidance ai tools  
-   Link: <a href="https://www.americanbar.org/news/abanews/aba-news-archives/2024/07/aba-issues-first-ethics-guidance-ai-tools/" target="_blank" rel="noopener noreferrer nofollow">https://www.americanbar.org/news/abanews/aba-news-archives/2024/07/aba-issues-first-ethics-guidance-ai-tools/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>American Bar AssociationABA issues first ethics guidance on a lawyer&#x27;s use of AI toolsJul 29, 2024 — This opinion identifies some ethical...</p></details>
+   Link:<a href="https://www.americanbar.org/news/abanews/aba-news-archives/2024/07/aba-issues-first-ethics-guidance-ai-tools/" target="_blank" rel="noopener noreferrer nofollow">https://www.americanbar.org/news/abanews/aba-news-archives/2024/07/aba-issues-first-ethics-guidance-ai-tools/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>American Bar AssociationABA issues first ethics guidance on a lawyer&#x27;s use of AI toolsJul 29, 2024 — This opinion identifies some ethical...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: thomsonreuters.com  
    Title: genai hallucinations  
-   Link: <a href="https://www.thomsonreuters.com/en-us/posts/technology/genai-hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://www.thomsonreuters.com/en-us/posts/technology/genai-hallucinations/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Thomson ReutersGenAI hallucinations are still pervasive in legal filings, but...18 Aug 2025 — GenAI hallucinations continue to plague at...</p></details>
+   Link:<a href="https://www.thomsonreuters.com/en-us/posts/technology/genai-hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://www.thomsonreuters.com/en-us/posts/technology/genai-hallucinations/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Thomson ReutersGenAI hallucinations are still pervasive in legal filings, but...18 Aug 2025 — GenAI hallucinations continue to plague at...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: americanbar.org  
-   Link: <a href="https://www.americanbar.org/groups/gpsolo/resources/magazine/2026-may-jun/suspect-hallucination-when-generative-ai-finds-perfect-case/" target="_blank" rel="noopener noreferrer nofollow">https://www.americanbar.org/groups/gpsolo/resources/magazine/2026-may-jun/suspect-hallucination-when-generative-ai-finds-perfect-case/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>American Bar AssociationTechno Ethics: What to Do When Generative AI Finds You...3 days ago — Many jurisdictions have enacted explicit r...</p></details>
+   Link:<a href="https://www.americanbar.org/groups/gpsolo/resources/magazine/2026-may-jun/suspect-hallucination-when-generative-ai-finds-perfect-case/" target="_blank" rel="noopener noreferrer nofollow">https://www.americanbar.org/groups/gpsolo/resources/magazine/2026-may-jun/suspect-hallucination-when-generative-ai-finds-perfect-case/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>American Bar AssociationTechno Ethics: What to Do When Generative AI Finds You...3 days ago — Many jurisdictions have enacted explicit r...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: forbes.com  
-   Link: <a href="https://www.forbes.com/sites/lanceeliot/2024/01/24/world-health-organization-who-lays-out-crucial-warnings-about-the-use-of-generative-ai-and-large-language-models-in-medicine-and-health/" target="_blank" rel="noopener noreferrer nofollow">https://www.forbes.com/sites/lanceeliot/2024/01/24/world-health-organization-who-lays-out-crucial-warnings-about-the-use-of-generative-ai-and-large-language-models-in-medicine-and-health/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>World Health Organization (WHO) Lays Out Crucial...Jan 24, 2024 — The World health Organization (WHO) has come out with a vital report o...</p></details>
+   Link:<a href="https://www.forbes.com/sites/lanceeliot/2024/01/24/world-health-organization-who-lays-out-crucial-warnings-about-the-use-of-generative-ai-and-large-language-models-in-medicine-and-health/" target="_blank" rel="noopener noreferrer nofollow">https://www.forbes.com/sites/lanceeliot/2024/01/24/world-health-organization-who-lays-out-crucial-warnings-about-the-use-of-generative-ai-and-large-language-models-in-medicine-and-health/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>World Health Organization (WHO) Lays Out Crucial...Jan 24, 2024 — The World health Organization (WHO) has come out with a vital report o...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: americanbar.org  
    Title: aba ethics generative ai 0125wl  
-   Link: <a href="https://www.americanbar.org/advocacy/governmental_legislative_work/publications/washingtonletter/january-25-wl/aba-ethics-generative-ai-0125wl/" target="_blank" rel="noopener noreferrer nofollow">https://www.americanbar.org/advocacy/governmental_legislative_work/publications/washingtonletter/january-25-wl/aba-ethics-generative-ai-0125wl/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ABA Ethics Opinion on Generative AI28 Jan 2025 — The opinion also cautions that use by several lawyers of the same GAI tool may result in...</p></details>
+   Link:<a href="https://www.americanbar.org/advocacy/governmental_legislative_work/publications/washingtonletter/january-25-wl/aba-ethics-generative-ai-0125wl/" target="_blank" rel="noopener noreferrer nofollow">https://www.americanbar.org/advocacy/governmental_legislative_work/publications/washingtonletter/january-25-wl/aba-ethics-generative-ai-0125wl/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ABA Ethics Opinion on Generative AI28 Jan 2025 — The opinion also cautions that use by several lawyers of the same GAI tool may result in...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: americanbar.org  
-   Link: <a href="https://www.americanbar.org/groups/litigation/resources/litigation-news/2025/lawyer-sanctioned-failure-catch-ai-hallucination/" target="_blank" rel="noopener noreferrer nofollow">https://www.americanbar.org/groups/litigation/resources/litigation-news/2025/lawyer-sanctioned-failure-catch-ai-hallucination/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Lawyer Sanctioned for Failure to Catch AI “Hallucination”Mar 13, 2025 — Federal court says attorney violated Rule 11&#x27;s requirement to verify...</p></details>
+   Link:<a href="https://www.americanbar.org/groups/litigation/resources/litigation-news/2025/lawyer-sanctioned-failure-catch-ai-hallucination/" target="_blank" rel="noopener noreferrer nofollow">https://www.americanbar.org/groups/litigation/resources/litigation-news/2025/lawyer-sanctioned-failure-catch-ai-hallucination/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Lawyer Sanctioned for Failure to Catch AI “Hallucination”Mar 13, 2025 — Federal court says attorney violated Rule 11&#x27;s requirement to verify...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=W8N3oJGCrrw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=W8N3oJGCrrw</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI reveals huge amounts of fraud in medical research | DW News...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=W8N3oJGCrrw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=W8N3oJGCrrw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI reveals huge amounts of fraud in medical research | DW News...</p></details>
 
 ### Additional References
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: cdc.gov  
-   Link: <a href="https://www.cdc.gov/ai/resources/considerations-for-genai-in-public-health.html" target="_blank" rel="noopener noreferrer nofollow">https://www.cdc.gov/ai/resources/considerations-for-genai-in-public-health.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Considerations for Generative AI in Public HealthThis guide is designed to help state, tribal, local, and territorial (STLT) public healt...</p></details>
+   Link:<a href="https://www.cdc.gov/ai/resources/considerations-for-genai-in-public-health.html" target="_blank" rel="noopener noreferrer nofollow">https://www.cdc.gov/ai/resources/considerations-for-genai-in-public-health.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Considerations for Generative AI in Public HealthThis guide is designed to help state, tribal, local, and territorial (STLT) public healt...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: ailegalauthority.com  
-   Link: <a href="https://ailegalauthority.com/ai-hallucination-legal-consequences/" target="_blank" rel="noopener noreferrer nofollow">https://ailegalauthority.com/ai-hallucination-legal-consequences/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hallucination in Legal Contexts: Court Cases, Sanctions...This page catalogs the legal definition, structural mechanics, causal pathw...</p></details>
+   Link:<a href="https://ailegalauthority.com/ai-hallucination-legal-consequences/" target="_blank" rel="noopener noreferrer nofollow">https://ailegalauthority.com/ai-hallucination-legal-consequences/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hallucination in Legal Contexts: Court Cases, Sanctions...This page catalogs the legal definition, structural mechanics, causal pathw...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: sidgs.com  
-   Link: <a href="https://sidgs.com/article/ai-hallucinations-explained-risks-every-enterprise-must-address/" target="_blank" rel="noopener noreferrer nofollow">https://sidgs.com/article/ai-hallucinations-explained-risks-every-enterprise-must-address/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hallucinations in the Enterprise: Risks ExplainedExplore the risks of AI hallucinations in enterprise- from regulatory and financial i...</p></details>
+   Link:<a href="https://sidgs.com/article/ai-hallucinations-explained-risks-every-enterprise-must-address/" target="_blank" rel="noopener noreferrer nofollow">https://sidgs.com/article/ai-hallucinations-explained-risks-every-enterprise-must-address/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hallucinations in the Enterprise: Risks ExplainedExplore the risks of AI hallucinations in enterprise- from regulatory and financial i...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: damiencharlotin.com  
-   Link: <a href="https://www.damiencharlotin.com/hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://www.damiencharlotin.com/hallucinations/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hallucination Cases DatabaseThe most comprehensive database of AI hallucination cases in law: legal decisions from courts worldwide, s...</p></details>
+   Link:<a href="https://www.damiencharlotin.com/hallucinations/" target="_blank" rel="noopener noreferrer nofollow">https://www.damiencharlotin.com/hallucinations/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hallucination Cases DatabaseThe most comprehensive database of AI hallucination cases in law: legal decisions from courts worldwide, s...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: verifywise.ai  
-   Link: <a href="https://verifywise.ai/lexicon/ai-output-[validation" target="_blank" rel="noopener noreferrer nofollow">https://verifywise.ai/lexicon/ai-output-[validation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to validate AI output: methods, checklists and toolsHow to validate AI output: techniques, automated checks, human-in-the-loop review...</p></details>
+   Link:<a href="https://verifywise.ai/lexicon/ai-output-[validation" target="_blank" rel="noopener noreferrer nofollow">https://verifywise.ai/lexicon/ai-output-[validation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to validate AI output: methods, checklists and toolsHow to validate AI output: techniques, automated checks, human-in-the-loop review...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: mountsinai.org  
-   Link: <a href="https://www.mountsinai.org/about/newsroom/2025/ai-chatbots-can-run-with-medical-misinformation-study-finds-highlighting-the-need-for-stronger-safeguards" target="_blank" rel="noopener noreferrer nofollow">https://www.mountsinai.org/about/newsroom/2025/ai-chatbots-can-run-with-medical-misinformation-study-finds-highlighting-the-need-for-stronger-safeguards</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mount Sinai Health SystemAI Chatbots Can Run With Medical Misinformation, Study...Aug 6, 2025 — “What we saw across the board is that AI...</p></details>
+   Link:<a href="https://www.mountsinai.org/about/newsroom/2025/ai-chatbots-can-run-with-medical-misinformation-study-finds-highlighting-the-need-for-stronger-safeguards" target="_blank" rel="noopener noreferrer nofollow">https://www.mountsinai.org/about/newsroom/2025/ai-chatbots-can-run-with-medical-misinformation-study-finds-highlighting-the-need-for-stronger-safeguards</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mount Sinai Health SystemAI Chatbots Can Run With Medical Misinformation, Study...Aug 6, 2025 — “What we saw across the board is that AI...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: debevoisedatablog.com  
-   Link: <a href="https://www.debevoisedatablog.com/2024/08/05/guidelines-on-the-use-of-generative-ai-tools-by-professionals-from-the-american-bar-association/" target="_blank" rel="noopener noreferrer nofollow">https://www.debevoisedatablog.com/2024/08/05/guidelines-on-the-use-of-generative-ai-tools-by-professionals-from-the-american-bar-association/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Guidelines on the Use of Generative AI Tools...Aug 5, 2024 — Lawyers must disclose their use of generative AI tools if asked by the clie...</p></details>
+   Link:<a href="https://www.debevoisedatablog.com/2024/08/05/guidelines-on-the-use-of-generative-ai-tools-by-professionals-from-the-american-bar-association/" target="_blank" rel="noopener noreferrer nofollow">https://www.debevoisedatablog.com/2024/08/05/guidelines-on-the-use-of-generative-ai-tools-by-professionals-from-the-american-bar-association/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Guidelines on the Use of Generative AI Tools...Aug 5, 2024 — Lawyers must disclose their use of generative AI tools if asked by the clie...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: ebglaw.com  
-   Link: <a href="https://www.ebglaw.com/insights/publications/the-legal-vision-for-the-future-or-an-ai-hallucination-navigating-the-complexities-of-attorney-ethics-and-use-of-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.ebglaw.com/insights/publications/the-legal-vision-for-the-future-or-an-ai-hallucination-navigating-the-complexities-of-attorney-ethics-and-use-of-artificial-intelligence</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Legal Vision for the Future or an AI Hallucination...2 Apr 2024 — The legal community has observed how AI hallucinations can infuse...</p></details>
+   Link:<a href="https://www.ebglaw.com/insights/publications/the-legal-vision-for-the-future-or-an-ai-hallucination-navigating-the-complexities-of-attorney-ethics-and-use-of-artificial-intelligence" target="_blank" rel="noopener noreferrer nofollow">https://www.ebglaw.com/insights/publications/the-legal-vision-for-the-future-or-an-ai-hallucination-navigating-the-complexities-of-attorney-ethics-and-use-of-artificial-intelligence</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Legal Vision for the Future or an AI Hallucination...2 Apr 2024 — The legal community has observed how AI hallucinations can infuse...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: facebook.com  
    Title: generative artificial intelligence has now been part of the public legal landsca  
-   Link: <a href="https://www.facebook.com/NYSBA/posts/generative-artificial-intelligence-has-now-been-part-of-the-public-legal-landsca/1397720352399152/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/NYSBA/posts/generative-artificial-intelligence-has-now-been-part-of-the-public-legal-landsca/1397720352399152/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative artificial intelligence has now been part of the...21 Apr 2026 — The American Bar Association has issued its first ethical gu...</p></details>
+   Link:<a href="https://www.facebook.com/NYSBA/posts/generative-artificial-intelligence-has-now-been-part-of-the-public-legal-landsca/1397720352399152/" target="_blank" rel="noopener noreferrer nofollow">https://www.facebook.com/NYSBA/posts/generative-artificial-intelligence-has-now-been-part-of-the-public-legal-landsca/1397720352399152/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative artificial intelligence has now been part of the...21 Apr 2026 — The American Bar Association has issued its first ethical gu...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: leanlaw.co  
    Title: the hallucination problem a checklist for verifying ai generated legal citations  
-   Link: <a href="https://www.leanlaw.co/blog/the-hallucination-problem-a-checklist-for-verifying-ai-generated-legal-citations/" target="_blank" rel="noopener noreferrer nofollow">https://www.leanlaw.co/blog/the-hallucination-problem-a-checklist-for-verifying-ai-generated-legal-citations/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Citation Verification: A Law Firm ChecklistDec 5, 2025 — Legal AI tools hallucinate up to 34% of the time. Get our 6-step verification...</p></details>
+   Link:<a href="https://www.leanlaw.co/blog/the-hallucination-problem-a-checklist-for-verifying-ai-generated-legal-citations/" target="_blank" rel="noopener noreferrer nofollow">https://www.leanlaw.co/blog/the-hallucination-problem-a-checklist-for-verifying-ai-generated-legal-citations/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Citation Verification: A Law Firm ChecklistDec 5, 2025 — Legal AI tools hallucinate up to 34% of the time. Get our 6-step verification...</p></details>

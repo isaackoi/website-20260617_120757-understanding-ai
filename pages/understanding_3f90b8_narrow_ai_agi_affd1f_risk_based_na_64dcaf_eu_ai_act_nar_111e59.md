@@ -269,15 +269,15 @@ image: /assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64
 
 ## Introduction
 
-The EU AI Act is a clear example of how modern AI regulation focuses on consequences rather than technological sophistication. A system can be highly specialised, performing only one task, and still face some of the strictest legal requirements in Europe if its outputs affect people's health, safety, opportunities, or fundamental rights. Under the Act, a recruitment-screening tool, a credit-scoring model, or an AI system that helps assess eligibility for social benefits may be treated as “high-risk” even though each is a narrow AI application rather than a general-purpose system. The key question is not how intelligent the system appears, but whether errors, bias, or misuse could cause serious harm. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+The EU AI Act is a clear example of how modern AI regulation focuses on consequences rather than technological sophistication. A system can be highly specialised, performing only one task, and still face some of the strictest legal requirements in Europe if its outputs affect people's health, safety, opportunities, or fundamental rights. Under the Act, a recruitment-screening tool, a credit-scoring model, or an AI system that helps assess eligibility for social benefits may be treated as “high-risk” even though each is a narrow AI application rather than a general-purpose system. The key question is not how intelligent the system appears, but whether errors, bias, or misuse could cause serious harm.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf_eu_ai_act_nar_111e59-Illustration-1-dark.svg" | relative_url }}" alt="EU AI Act illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf_eu_ai_act_nar_111e59-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf_eu_ai_act_nar_111e59-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This approach is central to [understanding]({{ 'understanding/' | relative_url }}) [risk-based]({{ 'risk-rules/' | relative_url }}) AI governance. The Act creates special obligations for narrow systems used in sensitive settings while allowing many lower-impact applications to operate under much lighter rules. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+This approach is central to [understanding]({{ 'understanding/' | relative_url }}) [risk-based]({{ 'risk-rules/' | relative_url }}) AI governance. The Act creates special obligations for narrow systems used in sensitive settings while allowing many lower-impact applications to operate under much lighter rules.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
 ## Which narrow uses count as high risk?
 
-The AI Act identifies specific categories of AI use that can affect fundamental rights, safety, or access to important services. Many of these systems are narrow tools designed for a single purpose, yet they are classified as high-risk because of the significance of the [decisions]({{ 'decisions/' | relative_url }}) they influence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/annex/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Access to and enjoyment of essential private services and essential public services and benefits: (a) AI systems intended to be used by p...</span></span></span>
+The AI Act identifies specific categories of AI use that can affect fundamental rights, safety, or access to important services. Many of these systems are narrow tools designed for a single purpose, yet they are classified as high-risk because of the significance of the [decisions]({{ 'decisions/' | relative_url }}) they influence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/annex/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Access to and enjoyment of essential private services and essential public services and benefits: (a) AI systems intended to be used by p...</span></span></span>
 
 Examples include:
 
@@ -290,62 +290,62 @@ Examples include:
 * Certain educational assessment and admissions systems.
 * AI used in law enforcement investigations, risk assessments, or evidence evaluation.
 * Systems used in migration, asylum, visa, and border-management decisions.
-* Certain biometric identification and categorisation applications. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service DeskAI Act Service Desk - Annex III - European UnionAccess to and enjoyment of essential private services and essential pu...</span></span></span>
+* Certain biometric identification and categorisation applications.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service DeskAI Act Service Desk - Annex III - European UnionAccess to and enjoyment of essential private services and essential pu...</span></span></span>
 
 </div>
 
-What connects these examples is not their technical complexity. Many are relatively specialised [prediction]({{ 'error-harms/' | relative_url }}) or classification systems. The common factor is that their outputs can influence employment prospects, financial access, legal treatment, movement across borders, or access to essential services. A mistake in a music recommendation engine may be inconvenient; a mistake in a welfare eligibility system can have life-changing consequences. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+What connects these examples is not their technical complexity. Many are relatively specialised [prediction]({{ 'error-harms/' | relative_url }}) or classification systems. The common factor is that their outputs can influence employment prospects, financial access, legal treatment, movement across borders, or access to essential services. A mistake in a music recommendation engine may be inconvenient; a mistake in a welfare eligibility system can have life-changing consequences.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
-The Act also covers some AI systems that are safety components of regulated products such as medical devices or machinery. In these cases, a narrow AI feature can become high-risk because it contributes directly to safety-critical functions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 6: Classification Rules for High-Risk AI SystemsAI systems of the types listed in Annex III are always...</span></span></span>
+The Act also covers some AI systems that are safety components of regulated products such as medical devices or machinery. In these cases, a narrow AI feature can become high-risk because it contributes directly to safety-critical functions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 6: Classification Rules for High-Risk AI SystemsAI systems of the types listed in Annex III are always...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/yOmRWplaNDk" title="EU AI Act - High-risk Systems - AIGP Certification" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=yOmRWplaNDk" target="_blank" rel="noopener noreferrer">EU AI Act - High-risk Systems - AIGP Certification</a></p><p class="youtube-embed-meta">Channel: Dr. David, Privacy &amp; AI Educator</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=yOmRWplaNDk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=yOmRWplaNDk">Open on YouTube</a></p></div></div></div>
 
 ## What duties follow from the classification?
 
-Once a narrow AI system falls into the high-risk category, the provider and, in some cases, the deployer must meet extensive compliance requirements before and during use. The obligations focus on governance, [documentation]({{ 'paper-safety/' | relative_url }}), oversight, and risk control rather than on limiting AI capability itself. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+Once a narrow AI system falls into the high-risk category, the provider and, in some cases, the deployer must meet extensive compliance requirements before and during use. The obligations focus on governance, [documentation]({{ 'paper-safety/' | relative_url }}), oversight, and risk control rather than on limiting AI capability itself.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
 ### Risk management throughout the system lifecycle
 
-Providers must establish a formal risk-management process that identifies foreseeable harms, evaluates risks, and introduces measures to reduce them. Compliance is not a one-time approval exercise; risks must be monitored throughout the system's lifecycle. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/section/3-2/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Open source on artificialintelligenceact.eu.</span></span></span>
+Providers must establish a formal risk-management process that identifies foreseeable harms, evaluates risks, and introduces measures to reduce them. Compliance is not a one-time approval exercise; risks must be monitored throughout the system's lifecycle.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/section/3-2/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Open source on artificialintelligenceact.eu.</span></span></span>
 
-For example, a hiring-screening system would need procedures to identify and mitigate discriminatory outcomes, monitor performance, and address newly discovered problems after deployment. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-title">Artificial Intelligence Act High-level</span><span class="citation-popover-snippet">Artificial Intelligence ActHigh-level summary of the AI ActEstablish a risk management system throughout the high risk AI system&#x27;s lifecy...</span></span></span>
+For example, a hiring-screening system would need procedures to identify and mitigate discriminatory outcomes, monitor performance, and address newly discovered problems after deployment.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-title">Artificial Intelligence Act High-level</span><span class="citation-popover-snippet">Artificial Intelligence ActHigh-level summary of the AI ActEstablish a risk management system throughout the high risk AI system&#x27;s lifecy...</span></span></span>
 
 ### Data governance and quality controls
 
-The Act places strong emphasis on the quality and governance of training, validation, and testing data. The goal is to reduce inaccuracies, bias, and discriminatory outcomes that could affect people in sensitive contexts. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+The Act places strong emphasis on the quality and governance of training, validation, and testing data. The goal is to reduce inaccuracies, bias, and discriminatory outcomes that could affect people in sensitive contexts.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
-This requirement reflects a practical concern: many harmful AI outcomes originate not from sophisticated reasoning errors but from flawed data, poor sampling, or inadequate testing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+This requirement reflects a practical concern: many harmful AI outcomes originate not from sophisticated reasoning errors but from flawed data, poor sampling, or inadequate testing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf_eu_ai_act_nar_111e59-Illustration-2-dark.svg" | relative_url }}" alt="EU AI Act illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf_eu_ai_act_nar_111e59-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf_eu_ai_act_nar_111e59-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Documentation and traceability
 
-High-risk systems must generate sufficient records and documentation to allow regulators, auditors, and users to understand how the system operates and whether it complies with legal requirements. Logging and record-keeping requirements are intended to make decisions traceable rather than opaque. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+High-risk systems must generate sufficient records and documentation to allow regulators, auditors, and users to understand how the system operates and whether it complies with legal requirements. Logging and record-keeping requirements are intended to make decisions traceable rather than opaque.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
-A provider cannot simply claim that a model works; it must be able to demonstrate compliance through documented processes and technical evidence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service DeskArticle 16: Obligations of providers of high-risk AI systemsProviders of high-risk AI systems must ensure their system...</span></span></span>
+A provider cannot simply claim that a model works; it must be able to demonstrate compliance through documented processes and technical evidence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service DeskArticle 16: Obligations of providers of high-risk AI systemsProviders of high-risk AI systems must ensure their system...</span></span></span>
 
 ### Human oversight requirements
 
-A recurring theme in the Act is that high-risk systems should not operate without [meaningful]({{ 'human-review/' | relative_url }}) human control. Systems must be designed so that humans can monitor outputs, understand limitations, intervene when necessary, and avoid excessive reliance on automated recommendations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</span></span></span>
+A recurring theme in the Act is that high-risk systems should not operate without [meaningful]({{ 'human-review/' | relative_url }}) human control. Systems must be designed so that humans can monitor outputs, understand limitations, intervene when necessary, and avoid excessive reliance on automated recommendations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</span></span></span>
 
-The requirement is not merely symbolic. Human oversight mechanisms are intended to reduce situations where automated decisions become effectively unquestionable because users trust the system too readily. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</span></span></span>
+The requirement is not merely symbolic. Human oversight mechanisms are intended to reduce situations where automated decisions become effectively unquestionable because users trust the system too readily.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/S3Z5JprCJTQ" title="EU AI Act - High-risk AI Provider Obligations Articles 13-15 - AIGP Certification" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=S3Z5JprCJTQ" target="_blank" rel="noopener noreferrer">EU AI Act - High-risk AI Provider Obligations Articles 13-15 - AIGP Certification</a></p><p class="youtube-embed-meta">Channel: Dr. David, Privacy &amp; AI Educator</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=S3Z5JprCJTQ" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=S3Z5JprCJTQ">Open on YouTube</a></p></div></div></div>
 
 ### Conformity assessment and market obligations
 
-Before many high-risk systems can be placed on the EU market, providers must complete conformity-assessment procedures and demonstrate compliance with the Act's requirements. They must maintain quality-management systems, prepare declarations of conformity, and fulfil registration and record-keeping duties. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service DeskArticle 16: Obligations of providers of high-risk AI systemsProviders of high-risk AI systems must ensure their system...</span></span></span>
+Before many high-risk systems can be placed on the EU market, providers must complete conformity-assessment procedures and demonstrate compliance with the Act's requirements. They must maintain quality-management systems, prepare declarations of conformity, and fulfil registration and record-keeping duties.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service DeskArticle 16: Obligations of providers of high-risk AI systemsProviders of high-risk AI systems must ensure their system...</span></span></span>
 
-These obligations resemble the regulatory approach used for other products whose failures could create significant harms, reinforcing the idea that high-risk AI is treated as a governance and safety issue rather than merely a software issue. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service DeskArticle 16: Obligations of providers of high-risk AI systemsProviders of high-risk AI systems must ensure their system...</span></span></span>
+These obligations resemble the regulatory approach used for other products whose failures could create significant harms, reinforcing the idea that high-risk AI is treated as a governance and safety issue rather than merely a software issue.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[AI Act Service Desk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">AI Act Service DeskArticle 16: Obligations of providers of high-risk AI systemsProviders of high-risk AI systems must ensure their system...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/g0DUzgiy0ZI" title="The EU AI Act: Risk Tiers and Shifting Gears" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=g0DUzgiy0ZI" target="_blank" rel="noopener noreferrer">The EU AI Act: Risk Tiers and Shifting Gears</a></p><p class="youtube-embed-meta">Channel: Paul, Weiss Podcasts</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=g0DUzgiy0ZI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=g0DUzgiy0ZI">Open on YouTube</a></p></div></div></div>
 
 ## Why low-stakes narrow tools are treated differently
 
-The AI Act does not assume that all narrow AI is dangerous. Its structure is deliberately selective. Many specialised systems used for routine consumer functions do not fall into the high-risk category because mistakes are unlikely to threaten safety or fundamental rights. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+The AI Act does not assume that all narrow AI is dangerous. Its structure is deliberately selective. Many specialised systems used for routine consumer functions do not fall into the high-risk category because mistakes are unlikely to threaten safety or fundamental rights.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
 Examples include:
 
@@ -353,209 +353,209 @@ Examples include:
 * Product recommendation engines in online shops.
 * Many customer-service assistants.
 * Personal productivity tools.
-* Other applications whose failures typically create inconvenience rather than serious harm. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+* Other applications whose failures typically create inconvenience rather than serious harm.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
-This distinction is one of the Act's most important governance choices. Instead of imposing heavy compliance burdens on every AI application, regulators concentrate oversight on contexts where individuals may lose opportunities, services, freedom, or safety because of an AI-assisted decision. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+This distinction is one of the Act's most important governance choices. Instead of imposing heavy compliance burdens on every AI application, regulators concentrate oversight on contexts where individuals may lose opportunities, services, freedom, or safety because of an AI-assisted decision.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
-The result is a framework in which two equally narrow systems can receive very different treatment. A model that recommends songs may face minimal obligations, while a model that helps decide who receives a loan or public assistance may be subject to extensive legal duties. The difference lies in the stakes of the decision, not in whether the system appears intelligent. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+The result is a framework in which two equally narrow systems can receive very different treatment. A model that recommends songs may face minimal obligations, while a model that helps decide who receives a loan or public assistance may be subject to extensive legal duties. The difference lies in the stakes of the decision, not in whether the system appears intelligent.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf_eu_ai_act_nar_111e59-Illustration-3-dark.svg" | relative_url }}" alt="EU AI Act illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf_eu_ai_act_nar_111e59-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf_eu_ai_act_nar_111e59-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## What this reveals about risk-based AI regulation
 
-The EU AI Act demonstrates that narrow AI and high-risk AI are not opposites. Some of the most heavily regulated systems under the Act are specialised tools built for a single decision-making task. Their regulatory status comes from the potential consequences of their outputs rather than from any claim to general intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 6: Classification Rules for High-Risk AI SystemsAI systems of the types listed in Annex III are always...</span></span></span>
+The EU AI Act demonstrates that narrow AI and high-risk AI are not opposites. Some of the most heavily regulated systems under the Act are specialised tools built for a single decision-making task. Their regulatory status comes from the potential consequences of their outputs rather than from any claim to general intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 6: Classification Rules for High-Risk AI SystemsAI systems of the types listed in Annex III are always...</span></span></span>
 
-For readers trying to understand artificial intelligence governance, this is a crucial lesson. Risk-based regulation asks where and how AI is used, who is affected, and what harms could result if the system fails. Under that logic, a narrow recruitment algorithm or credit-scoring model may attract far more scrutiny than a much more capable but lower-stakes AI application. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
+For readers trying to understand artificial intelligence governance, this is a crucial lesson. Risk-based regulation asks where and how AI is used, who is affected, and what harms could result if the system fails. Under that logic, a narrow recruitment algorithm or credit-scoring model may attract far more scrutiny than a much more capable but lower-stakes AI application.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">Digital Strategy EuropeAI Act &#124; Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why narrow AI can be high risk. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why narrow AI can be high risk. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
-        </h4>
-        <p class="fr-book-author">By Kate Crawford</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
+</h4>
+<p class="fr-book-author">By Kate Crawford</p>
         
-        <p class="fr-book-desc">Explains societal impacts behind risk-based regulation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains societal impacts behind risk-based regulation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Broad background on managing AI risk.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Broad background on managing AI risk.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Provides context for why regulators focus on AI risk.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for why regulators focus on AI risk.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Shows why narrow systems can create high-risk outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows why narrow systems can create high-risk outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top"><img src="{{ '/assets/images/marketplace-covers/415bfea6289a619ab1bb.jpg' | relative_url }}" alt="Listing image for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top"><img src="{{ '/assets/images/marketplace-covers/415bfea6289a619ab1bb.jpg' | relative_url }}" alt="Listing image for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/fe4caa4fdcd791b2fb74.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/fe4caa4fdcd791b2fb74.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/aa61fc90ec322633ed9b.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/aa61fc90ec322633ed9b.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL"><img src="{{ '/assets/images/marketplace-covers/d0683946fdfc9215b99f.jpg' | relative_url }}" alt="Listing image for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL"><img src="{{ '/assets/images/marketplace-covers/d0683946fdfc9215b99f.jpg' | relative_url }}" alt="Listing image for Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Trust Me I Asked AI T-Shirt Funny Artificial intelligence Sizes Small to 5XL</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="eu-ai-act-why-narrow-ai-can-be-high-risk-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -571,7 +571,7 @@ For readers trying to understand artificial intelligence governance, this is a c
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -591,7 +591,7 @@ For readers trying to understand artificial intelligence governance, this is a c
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -623,7 +623,7 @@ For readers trying to understand artificial intelligence governance, this is a c
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -675,7 +675,7 @@ For readers trying to understand artificial intelligence governance, this is a c
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -720,7 +720,7 @@ For readers trying to understand artificial intelligence governance, this is a c
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -761,139 +761,139 @@ For readers trying to understand artificial intelligence governance, this is a c
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: digital-strategy.ec.europa.eu  
    Title: Digital Strategy Europe AI Act | Shaping Europe's digital future  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Digital Strategy EuropeAI Act | Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Digital Strategy EuropeAI Act | Shaping Europe&#x27;s digital future - European UnionHigh-risk AI systems are subject to strict obligations be...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskGuidelines on the classification of high-risk AI systemsChapter III AI Act imposes a set of requirements and obligatio...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskGuidelines on the classification of high-risk AI systemsChapter III AI Act imposes a set of requirements and obligatio...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/6/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 6: Classification Rules for High-Risk AI SystemsAI systems of the types listed in Annex III are always...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/6/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 6: Classification Rules for High-Risk AI SystemsAI systems of the types listed in Annex III are always...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/annex/3/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/annex/3/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Access to and enjoyment of essential private services and essential public services and benefits: (a) AI systems intended to be used by p...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/annex/3/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/annex/3/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Access to and enjoyment of essential private services and essential public services and benefits: (a) AI systems intended to be used by p...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskAI Act Service Desk - Annex III - European UnionAccess to and enjoyment of essential private services and essential pu...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskAI Act Service Desk - Annex III - European UnionAccess to and enjoyment of essential private services and essential pu...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/section/3-2/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/section/3-2/</a>  
+   Link:<a href="https://artificialintelligenceact.eu/section/3-2/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/section/3-2/</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: artificialintelligenceact.eu  
    Title: Artificial Intelligence Act High-level  
-   Link: <a href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/high-level-summary/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActHigh-level summary of the AI ActEstablish a risk management system throughout the high risk AI system&#x27;s lifecy...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/high-level-summary/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActHigh-level summary of the AI ActEstablish a risk management system throughout the high risk AI system&#x27;s lifecy...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskArticle 16: Obligations of providers of high-risk AI systemsProviders of high-risk AI systems must ensure their system...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-16</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskArticle 16: Obligations of providers of high-risk AI systemsProviders of high-risk AI systems must ensure their system...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/16/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/16/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Article 16: Obligations of Providers of High-Risk AI SystemsProviders of high-risk AI systems shall: (a) ensure that their high-risk AI s...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/article/16/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/16/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Article 16: Obligations of Providers of High-Risk AI SystemsProviders of high-risk AI systems shall: (a) ensure that their high-risk AI s...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: pwc.nl  
-   Link: <a href="https://www.pwc.nl/en/services/artificial-intelligence/[responsible-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.pwc.nl/en/services/artificial-intelligence/[responsible-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act - Responsible AI - TransformationThe EU AI Act classifies AI systems into four categories based on their potential risks: u...</p></details>
+   Link:<a href="https://www.pwc.nl/en/services/artificial-intelligence/[responsible-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.pwc.nl/en/services/artificial-intelligence/[responsible-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act - Responsible AI - TransformationThe EU AI Act classifies AI systems into four categories based on their potential risks: u...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: artificial-intelligence-act.com  
    Title: Under NIS 2, operators of essential and important services  
-   Link: <a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act - Updates, Compliance, TrainingThe AI Act designates certain AI systems as “high-risk” if they impact safety and fundamental ri...</p></details>
+   Link:<a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act - Updates, Compliance, TrainingThe AI Act designates certain AI systems as “high-risk” if they impact safety and fundamental ri...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
    Title: New EU Guidelines on High-Risk AI Systems  
-   Link: <a href="https://www.youtube.com/watch?v=wv2MloU7n2w" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wv2MloU7n2w</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act - High-risk Systems - AIGP Certification...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=wv2MloU7n2w" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=wv2MloU7n2w</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act - High-risk Systems - AIGP Certification...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: EU AI Act  
-   Link: <a href="https://www.youtube.com/watch?v=yOmRWplaNDk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=yOmRWplaNDk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act: Risk Tiers and Shifting Gears...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=yOmRWplaNDk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=yOmRWplaNDk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act: Risk Tiers and Shifting Gears...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
    Title: The EU AI Act: Risk Tiers and Shifting Gears  
-   Link: <a href="https://www.youtube.com/watch?v=g0DUzgiy0ZI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=g0DUzgiy0ZI</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act - High-risk AI Provider Obligations Articles 13-15...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=g0DUzgiy0ZI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=g0DUzgiy0ZI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act - High-risk AI Provider Obligations Articles 13-15...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
    Title: EU AI Act  
-   Link: <a href="https://www.youtube.com/watch?v=S3Z5JprCJTQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=S3Z5JprCJTQ</a>  
+   Link:<a href="https://www.youtube.com/watch?v=S3Z5JprCJTQ" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=S3Z5JprCJTQ</a>  
 
 ### Additional References
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: digitalsme.eu  
-   Link: <a href="https://www.digitalsme.eu/ai-act-conformity-tool/" target="_blank" rel="noopener noreferrer nofollow">https://www.digitalsme.eu/ai-act-conformity-tool/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Conformity ToolFor general-purpose AI models, the AI Act introduces transparency obligations and additional risk management measur...</p></details>
+   Link:<a href="https://www.digitalsme.eu/ai-act-conformity-tool/" target="_blank" rel="noopener noreferrer nofollow">https://www.digitalsme.eu/ai-act-conformity-tool/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Conformity ToolFor general-purpose AI models, the AI Act introduces transparency obligations and additional risk management measur...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: ai-act-law.eu  
-   Link: <a href="https://ai-act-law.eu/" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-law.eu/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act as a neatly arranged website – Legal TextAccording to Article 6 of the AI Act, high-risk AI is an AI system whose actual use poses...</p></details>
+   Link:<a href="https://ai-act-law.eu/" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-law.eu/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act as a neatly arranged website – Legal TextAccording to Article 6 of the AI Act, high-risk AI is an AI system whose actual use poses...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: allai.nl  
-   Link: <a href="https://allai.nl/wp-content/uploads/2022/04/AIA-in-depth-3a-High-Risk-AI-Classification.pdf" target="_blank" rel="noopener noreferrer nofollow">https://allai.nl/wp-content/uploads/2022/04/AIA-in-depth-3a-High-Risk-AI-Classification.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AIA in-depth #3a High-Risk AI ClassificationAlternative text for paragraph 5 ANNEX III: 5. Access to and enjoyment of essential private s...</p></details>
+   Link:<a href="https://allai.nl/wp-content/uploads/2022/04/AIA-in-depth-3a-High-Risk-AI-Classification.pdf" target="_blank" rel="noopener noreferrer nofollow">https://allai.nl/wp-content/uploads/2022/04/AIA-in-depth-3a-High-Risk-AI-Classification.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AIA in-depth #3a High-Risk AI ClassificationAlternative text for paragraph 5 ANNEX III: 5. Access to and enjoyment of essential private s...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: dataguard.com  
-   Link: <a href="https://www.dataguard.com/eu-ai-act/" target="_blank" rel="noopener noreferrer nofollow">https://www.dataguard.com/eu-ai-act/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI ActIts goal is to ensure that AI technologies operate safely, transparently, and in alignment with fundamental rights. It applies t...</p></details>
+   Link:<a href="https://www.dataguard.com/eu-ai-act/" target="_blank" rel="noopener noreferrer nofollow">https://www.dataguard.com/eu-ai-act/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI ActIts goal is to ensure that AI technologies operate safely, transparently, and in alignment with fundamental rights. It applies t...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: bundesnetzagentur.de  
-   Link: <a href="https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/09_HighRisk/start.html" target="_blank" rel="noopener noreferrer nofollow">https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/09_HighRisk/start.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>High-risk AI systemsHigh-risk AI systems must be able to be effectively overseen by natural persons, for example through...</p></details>
+   Link:<a href="https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/09_HighRisk/start.html" target="_blank" rel="noopener noreferrer nofollow">https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/09_HighRisk/start.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>High-risk AI systemsHigh-risk AI systems must be able to be effectively overseen by natural persons, for example through...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: bundesnetzagentur.de  
-   Link: <a href="https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/08_ProhibitedPractices/start.html" target="_blank" rel="noopener noreferrer nofollow">https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/08_ProhibitedPractices/start.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Prohibited practicesThe AI Act provides for three exceptions to the general prohibition on the use of real-time remote biometric identifi...</p></details>
+   Link:<a href="https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/08_ProhibitedPractices/start.html" target="_blank" rel="noopener noreferrer nofollow">https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/AI/08_ProhibitedPractices/start.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prohibited practicesThe AI Act provides for three exceptions to the general prohibition on the use of real-time remote biometric identifi...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/eu-ai-act-already-applies-you-paulo-cavallo-ph-d--c6ntc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/eu-ai-act-already-applies-you-paulo-cavallo-ph-d--c6ntc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act Already Applies to YouHigh-risk AI systems are defined in Annex III of the Act. The list includes AI used in credit scoring...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/eu-ai-act-already-applies-you-paulo-cavallo-ph-d--c6ntc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/eu-ai-act-already-applies-you-paulo-cavallo-ph-d--c6ntc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act Already Applies to YouHigh-risk AI systems are defined in Annex III of the Act. The list includes AI used in credit scoring...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/eu-ai-act-explained-risk-based-classification-datanorth-ai-nopce" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/eu-ai-act-explained-risk-based-classification-datanorth-ai-nopce</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act explained: Risk-based classificationThe four risk categories · Examples: Social scoring, manipulative AI, real-time biometr...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/eu-ai-act-explained-risk-based-classification-datanorth-ai-nopce" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/eu-ai-act-explained-risk-based-classification-datanorth-ai-nopce</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act explained: Risk-based classificationThe four risk categories · Examples: Social scoring, manipulative AI, real-time biometr...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: ap4ai.eu  
-   Link: <a href="https://ap4ai.eu/eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://ap4ai.eu/eu-ai-act</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI actHigh-Risk AI Systems in Law Enforcement. The AIA categorizes certain AI tools in law enforcement as &quot;high-risk&quot; because of t...</p></details>
+   Link:<a href="https://ap4ai.eu/eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://ap4ai.eu/eu-ai-act</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI actHigh-Risk AI Systems in Law Enforcement. The AIA categorizes certain AI tools in law enforcement as &quot;high-risk&quot; because of t...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: cycoresecure.com  
-   Link: <a href="https://www.cycoresecure.com/frameworks/eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://www.cycoresecure.com/frameworks/eu-ai-act</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act Compliance Services &amp; ConsultingPrepare for EU AI Act compliance with expert guidance. Cycore helps tech companies classify AI...</p></details>
+   Link:<a href="https://www.cycoresecure.com/frameworks/eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://www.cycoresecure.com/frameworks/eu-ai-act</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act Compliance Services &amp; ConsultingPrepare for EU AI Act compliance with expert guidance. Cycore helps tech companies classify AI...</p></details>

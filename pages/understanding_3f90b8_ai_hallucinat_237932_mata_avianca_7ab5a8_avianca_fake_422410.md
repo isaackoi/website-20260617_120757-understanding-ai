@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab
 
 ## Introduction
 
-One of the most striking features of the *Mata v. Avianca* affair was that the disputed authorities were not obscure precedents, misquoted cases or outdated rulings. They were entirely [invented]({{ 'fake-citations-d81942/' | relative_url }}) legal [decisions]({{ 'decisions/' | relative_url }}) that looked authentic enough to be filed in a federal court. Names such as *Varghese v. China Southern Airlines*, *Shaboon v. Egyptair* and *Petersen v. Iran Air* appeared with plausible captions, court references, docket numbers, judicial authors and legal reasoning. To a reader skimming a brief, they carried many of the visual signals of genuine authority. That realism is what made the incident such a powerful example of how artificial intelligence can generate convincing but false information. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+One of the most striking features of the *Mata v. Avianca* affair was that the disputed authorities were not obscure precedents, misquoted cases or outdated rulings. They were entirely [invented]({{ 'fake-citations-d81942/' | relative_url }}) legal [decisions]({{ 'decisions/' | relative_url }}) that looked authentic enough to be filed in a federal court. Names such as *Varghese v. China Southern Airlines*, *Shaboon v. Egyptair* and *Petersen v. Iran Air* appeared with plausible captions, court references, docket numbers, judicial authors and legal reasoning. To a reader skimming a brief, they carried many of the visual signals of genuine authority. That realism is what made the incident such a powerful example of how artificial intelligence can generate convincing but false information.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab5a8_avianca_fake_422410-Illustration-1-dark.svg" | relative_url }}" alt="Fake Cases illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab5a8_avianca_fake_422410-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab5a8_avianca_fake_422410-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -286,22 +286,22 @@ The fabricated authorities cited in the filing were designed to fit naturally in
 
 </div>
 
-Additional fictional opinions later identified by the court included cases labelled *Martinez*, *Durden* and *Miller*. These were not cases that had been misunderstood or inaccurately summarised. The court concluded that they were fake opinions presented as genuine judicial decisions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+Additional fictional opinions later identified by the court included cases labelled *Martinez*, *Durden* and *Miller*. These were not cases that had been misunderstood or inaccurately summarised. The court concluded that they were fake opinions presented as genuine judicial decisions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
-What made them persuasive was their packaging. The fabricated opinions included details commonly associated with authentic legal authorities: named judges, docket numbers, procedural histories and citations to other legal sources. According to later court findings, the fake opinions contained enough superficial markers of legitimacy that they initially appeared consistent with genuine judicial decisions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+What made them persuasive was their packaging. The fabricated opinions included details commonly associated with authentic legal authorities: named judges, docket numbers, procedural histories and citations to other legal sources. According to later court findings, the fake opinions contained enough superficial markers of legitimacy that they initially appeared consistent with genuine judicial decisions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/jPtOcsx7ATw" title="The ChatGPT Fake Cases Sanctions Decision (Mata v. Avianca)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=jPtOcsx7ATw" target="_blank" rel="noopener noreferrer">The ChatGPT Fake Cases Sanctions Decision (Mata v. Avianca)</a></p><p class="youtube-embed-meta">Channel: Lawful Masses with Leonard French</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=jPtOcsx7ATw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=jPtOcsx7ATw">Open on YouTube</a></p></div></div></div>
 
 ## Fabricated Quotations and Procedural Details
 
-The false cases did more than provide invented names. They also supplied quotations, factual narratives and procedural histories that gave the appearance of real appellate reasoning. The court's [sanctions]({{ 'sanctions/' | relative_url }}) opinion examined the fake *Varghese* decision in detail and found numerous signs of fabrication beneath the surface. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+The false cases did more than provide invented names. They also supplied quotations, factual narratives and procedural histories that gave the appearance of real appellate reasoning. The court's [sanctions]({{ 'sanctions/' | relative_url }}) opinion examined the fake *Varghese* decision in detail and found numerous signs of fabrication beneath the surface.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
-The purported *Varghese* opinion was presented as an Eleventh Circuit decision written by Judge Adalberto Jordan and joined by Judges Robin Rosenbaum and Patrick Higginbotham. The opinion even carried a docket number and discussed legal issues that sounded relevant to airline litigation. Yet court investigators confirmed that no such decision existed and that no corresponding case appeared in the court's records. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+The purported *Varghese* opinion was presented as an Eleventh Circuit decision written by Judge Adalberto Jordan and joined by Judges Robin Rosenbaum and Patrick Higginbotham. The opinion even carried a docket number and discussed legal issues that sounded relevant to airline litigation. Yet court investigators confirmed that no such decision existed and that no corresponding case appeared in the court's records.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
-When Judge P. Kevin Castel reviewed the document, he highlighted problems that would be unusual in an authentic appellate opinion. The decision contained inconsistent facts, confusing procedural history and legal analysis that the court described as effectively nonsensical. One section referred to a wrongful-death claim involving one set of parties, while another abruptly shifted to a passenger denied boarding because of airline overbooking. The narrative wandered through arbitration issues and bankruptcy proceedings without a coherent structure. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+When Judge P. Kevin Castel reviewed the document, he highlighted problems that would be unusual in an authentic appellate opinion. The decision contained inconsistent facts, confusing procedural history and legal analysis that the court described as effectively nonsensical. One section referred to a wrongful-death claim involving one set of parties, while another abruptly shifted to a passenger denied boarding because of airline overbooking. The narrative wandered through arbitration issues and bankruptcy proceedings without a coherent structure.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
-These flaws became visible only after close examination. At first glance, the document resembled a real judicial opinion because it mimicked the form and language of legal writing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+These flaws became visible only after close examination. At first glance, the document resembled a real judicial opinion because it mimicked the form and language of legal writing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab5a8_avianca_fake_422410-Illustration-2-dark.svg" | relative_url }}" alt="Fake Cases illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab5a8_avianca_fake_422410-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab5a8_avianca_fake_422410-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -309,10 +309,10 @@ These flaws became visible only after close examination. At first glance, the do
 
 The fabricated authorities succeeded because they combined several credibility signals:
 
-* **Real courts and real judges.** Some opinions attributed authorship to actual federal judges, increasing apparent legitimacy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
-* **Plausible legal subject matter.** The cases discussed airline disputes and treaty issues related to the underlying litigation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
-* **Detailed procedural narratives.** Even when incoherent on closer inspection, the opinions contained enough litigation terminology to appear genuine. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
-* **Conventional legal formatting.** The documents resembled the structure of real judicial opinions, including captions, citations and references to prior proceedings. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+* **Real courts and real judges.** Some opinions attributed authorship to actual federal judges, increasing apparent legitimacy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+* **Plausible legal subject matter.** The cases discussed airline disputes and treaty issues related to the underlying litigation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+* **Detailed procedural narratives.** Even when incoherent on closer inspection, the opinions contained enough litigation terminology to appear genuine.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+* **Conventional legal formatting.** The documents resembled the structure of real judicial opinions, including captions, citations and references to prior proceedings.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
 The result was a set of authorities that looked authentic to someone relying on surface cues rather than independent [verification]({{ 'verification-cost/' | relative_url }}).
 
@@ -323,11 +323,11 @@ The result was a set of authorities that looked authentic to someone relying on 
 
 The fake cases demonstrate an important lesson about AI-generated content: authority can be simulated. Legal writing relies heavily on standard forms. A case name, citation, court designation and judicial signature create a familiar pattern that readers instinctively associate with authenticity.
 
-In the *Mata* matter, the fabricated opinions exploited those expectations. According to the sanctions opinion, the documents contained “indicia of reliability” such as proper-looking captions, judge names and detailed legal discussion. These features helped create the impression that the cases were genuine even though they were not. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+In the *Mata* matter, the fabricated opinions exploited those expectations. According to the sanctions opinion, the documents contained “indicia of reliability” such as proper-looking captions, judge names and detailed legal discussion. These features helped create the impression that the cases were genuine even though they were not.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
-The court's investigation eventually uncovered obvious contradictions. For example, the supposed *Varghese* decision included a judge who actually served on a different federal circuit court, a discrepancy that would not ordinarily appear in a legitimate opinion. Court officials also confirmed that the cited case could not be found in the relevant records. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+The court's investigation eventually uncovered obvious contradictions. For example, the supposed *Varghese* decision included a judge who actually served on a different federal circuit court, a discrepancy that would not ordinarily appear in a legitimate opinion. Court officials also confirmed that the cited case could not be found in the relevant records.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
-The significance of the episode extends beyond one lawsuit. It showed that a [generative AI]({{ 'generative-ai/' | relative_url }}) system can construct not merely a false statement but an entire supporting framework of invented authority. The fabricated cases looked real because they copied the external form of legal precedent. The incident became a widely cited example of how AI [hallucinations]({{ 'hallucinations/' | relative_url }}) can produce convincing evidence packages rather than isolated factual errors. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia+2acc.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+The significance of the episode extends beyond one lawsuit. It showed that a [generative AI]({{ 'generative-ai/' | relative_url }}) system can construct not merely a false statement but an entire supporting framework of invented authority. The fabricated cases looked real because they copied the external form of legal precedent. The incident became a widely cited example of how AI [hallucinations]({{ 'hallucinations/' | relative_url }}) can produce convincing evidence packages rather than isolated factual errors.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia+2acc.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab5a8_avianca_fake_422410-Illustration-3-dark.svg" | relative_url }}" alt="Fake Cases illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab5a8_avianca_fake_422410-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_mata_avianca_7ab5a8_avianca_fake_422410-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -335,201 +335,201 @@ The significance of the episode extends beyond one lawsuit. It showed that a [ge
 
 The enduring lesson from the fictional *Varghese*, *Shaboon* and *Petersen* decisions is not simply that AI can be wrong. Lawyers, judges and researchers already understood that factual mistakes occur. The more important discovery was that AI systems can generate entirely fictional authorities that resemble authentic sources closely enough to survive an initial review.
 
-In *Mata v. Avianca*, the problem was therefore not a mistaken interpretation of precedent. It was the creation of precedent that never existed. The fake case names, fabricated quotations and invented procedural histories demonstrated how persuasive formatting can create a false sense of legitimacy. That combination of realism and falsity is what turned these fictional cases into one of the most memorable examples of AI-generated misinformation entering a real legal proceeding. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia+2Legal AI Governance]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
+In *Mata v. Avianca*, the problem was therefore not a mistaken interpretation of precedent. It was the creation of precedent that never existed. The fake case names, fabricated quotations and invented procedural histories demonstrated how persuasive formatting can create a false sense of legitimacy. That combination of realism and falsity is what turned these fictional cases into one of the most memorable examples of AI-generated misinformation entering a real legal proceeding.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: law.justia.com">[Justia+2Legal AI Governance]</a><span class="citation-popover" role="note"><span class="citation-popover-source">law.justia.com</span><span class="citation-popover-snippet">Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</span><span class="citation-popover-meta">Published: June 22, 2023</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/2MRghyOHVMw" title="Lawyer Fined and Sanctioned for Using Chat GPT with Fake Cases." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=2MRghyOHVMw" target="_blank" rel="noopener noreferrer">Lawyer Fined and Sanctioned for Using Chat GPT with Fake Cases.</a></p><p class="youtube-embed-meta">Channel: Nate The Lawyer</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=2MRghyOHVMw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=2MRghyOHVMw">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How Fake Legal Cases Looked Real. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How Fake Legal Cases Looked Real. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The LegalTech Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MtHoDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The LegalTech Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The LegalTech Book">The LegalTech Book</a>
-        </h4>
-        <p class="fr-book-author">By Sophia Adams Bhatti, Akber Datoo et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The LegalTech Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=MtHoDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The LegalTech Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The LegalTech Book">The LegalTech Book</a>
+</h4>
+<p class="fr-book-author">By Sophia Adams Bhatti, Akber Datoo et al.</p>
         
-        <p class="fr-book-desc">Provides context for AI tools and risks in legal workflows.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for AI tools and risks in legal workflows.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+LegalTech+Book+by+Sophia+Adams+Bhatti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence and Legal Analytics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ExwsDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence and Legal Analytics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence and Legal Analytics">Artificial Intelligence and Legal Analytics</a>
-        </h4>
-        <p class="fr-book-author">By Kevin D. Ashley</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence and Legal Analytics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=ExwsDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence and Legal Analytics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence and Legal Analytics">Artificial Intelligence and Legal Analytics</a>
+</h4>
+<p class="fr-book-author">By Kevin D. Ashley</p>
         
-        <p class="fr-book-desc">Explains how legal authorities and AI-generated reasoning interact.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how legal authorities and AI-generated reasoning interact.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics+by+Kevin+D.+Ashley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Law and Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=oqB5EAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Law and Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Law and Artificial Intelligence">Law and Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Bart Custers, Eduard Fosch-Villaronga</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Law and Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=oqB5EAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Law and Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Law and Artificial Intelligence">Law and Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Bart Custers, Eduard Fosch-Villaronga</p>
         
-        <p class="fr-book-desc">Addresses AI use and governance in legal settings.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses AI use and governance in legal settings.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence+by+Bart+Custers&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Future of the Professions on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sr9pEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Future of the Professions" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Future of the Professions">The Future of the Professions</a>
-        </h4>
-        <p class="fr-book-author">By Richard Susskind, Daniel Susskind</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Future of the Professions on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=sr9pEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Future of the Professions" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Future of the Professions">The Future of the Professions</a>
+</h4>
+<p class="fr-book-author">By Richard Susskind, Daniel Susskind</p>
         
-        <p class="fr-book-desc">Places incidents like Mata v. Avianca in a wider professional context.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Places incidents like Mata v. Avianca in a wider professional context.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Future+of+the+Professions+by+Richard+Susskind&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+LegalTech+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The LegalTech Book</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence and Legal Analytics</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Law and Artificial Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+LegalTech+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The LegalTech Book</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence+and+Legal+Analytics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence and Legal Analytics</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Law+and+Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Law and Artificial Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for TECHNOLOGY! Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4f4e452124f80812aa60.jpg' | relative_url }}" alt="Listing image for TECHNOLOGY! Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">TECHNOLOGY! Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology art print">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology art print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for TECHNOLOGY! Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4f4e452124f80812aa60.jpg' | relative_url }}" alt="Listing image for TECHNOLOGY! Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">TECHNOLOGY! Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology art print">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology art print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/08f5c0970581215adb7f.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology art print">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology art print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/08f5c0970581215adb7f.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology art print">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology art print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5a8da8920d4d0a15496b.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology art print">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology art print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/5a8da8920d4d0a15496b.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology art print">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology art print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Yves Tanguy New Technology Art Print Poster Wall Decor Interior Creative Piece D"><img src="{{ '/assets/images/marketplace-covers/0f988754a26636153e97.jpg' | relative_url }}" alt="Listing image for Yves Tanguy New Technology Art Print Poster Wall Decor Interior Creative Piece D" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">Yves Tanguy New Technology Art Print Poster Wall Decor Interior Creative Piece D</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology art print">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology art print</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Yves Tanguy New Technology Art Print Poster Wall Decor Interior Creative Piece D"><img src="{{ '/assets/images/marketplace-covers/0f988754a26636153e97.jpg' | relative_url }}" alt="Listing image for Yves Tanguy New Technology Art Print Poster Wall Decor Interior Creative Piece D" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">Yves Tanguy New Technology Art Print Poster Wall Decor Interior Creative Piece D</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology art print">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology art print</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+art+print&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology art print" data-ebay-reference="fake-cases-how-fake-legal-cases-looked-real-understanding-technology-art-print" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -545,7 +545,7 @@ In *Mata v. Avianca*, the problem was therefore not a mistaken interpretation of
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -565,7 +565,7 @@ In *Mata v. Avianca*, the problem was therefore not a mistaken interpretation of
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -597,7 +597,7 @@ In *Mata v. Avianca*, the problem was therefore not a mistaken interpretation of
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -649,7 +649,7 @@ In *Mata v. Avianca*, the problem was therefore not a mistaken interpretation of
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -694,7 +694,7 @@ In *Mata v. Avianca*, the problem was therefore not a mistaken interpretation of
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -735,79 +735,79 @@ In *Mata v. Avianca*, the problem was therefore not a mistaken interpretation of
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: law.justia.com  
-   Link: <a href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow">https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</p></details>
+   Link:<a href="https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/" target="_blank" rel="noopener noreferrer nofollow">https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1%3A2022cv01461/575368/54/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca, Inc., No. 1:2022cv01461 - Document 54 (S.D.N.Y. 2023):: JustiaJune 22, 2023...</p></details>
    Published: June 22, 2023  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: acc.com  
-   Link: <a href="https://www.acc.com/resource-library/practical-lessons-attorney-ai-missteps-mata-v-avianca" target="_blank" rel="noopener noreferrer nofollow">https://www.acc.com/resource-library/practical-lessons-attorney-ai-missteps-mata-v-avianca</a>  
+   Link:<a href="https://www.acc.com/resource-library/practical-lessons-attorney-ai-missteps-mata-v-avianca" target="_blank" rel="noopener noreferrer nofollow">https://www.acc.com/resource-library/practical-lessons-attorney-ai-missteps-mata-v-avianca</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: legalaigovernance.com  
    Title: Legal AI Governance Mata v. Avianca, Inc. | Legal AI Governance  
-   Link: <a href="https://legalaigovernance.com/tracker/cases/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow">https://legalaigovernance.com/tracker/cases/mata-v-avianca/</a>  
+   Link:<a href="https://legalaigovernance.com/tracker/cases/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow">https://legalaigovernance.com/tracker/cases/mata-v-avianca/</a>  
 
 ### Additional References
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: intellectualproperty.law  
-   Link: <a href="https://www.intellectualproperty.law/2023/06/sanctions-handed-down-to-lawyers-who-cited-fake-cases-relying-on-chatgpt/" target="_blank" rel="noopener noreferrer nofollow">https://www.intellectualproperty.law/2023/06/sanctions-handed-down-to-lawyers-who-cited-fake-cases-relying-on-chatgpt/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Handed Down to Lawyers Who Cited Fake Cases, Relying on ChatGPT | Intellectual Property Law BlogJune 23, 2023...</p></details>
+   Link:<a href="https://www.intellectualproperty.law/2023/06/sanctions-handed-down-to-lawyers-who-cited-fake-cases-relying-on-chatgpt/" target="_blank" rel="noopener noreferrer nofollow">https://www.intellectualproperty.law/2023/06/sanctions-handed-down-to-lawyers-who-cited-fake-cases-relying-on-chatgpt/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Handed Down to Lawyers Who Cited Fake Cases, Relying on ChatGPT | Intellectual Property Law BlogJune 23, 2023...</p></details>
    Published: June 23, 2023  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: youtube.com  
    Title: Lawyer Fined and Sanctioned for Using Chat GPT with Fake Cases  
-   Link: <a href="http://www.youtube.com/watch?v=2MRghyOHVMw" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=2MRghyOHVMw</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A Lawyer Used ChatGPT in Court. It Backfired Sentient · 7 views How to Use ChatGPT to Ruin Your Legal Career LegalEagle · 5.9M views...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=2MRghyOHVMw" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=2MRghyOHVMw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Lawyer Used ChatGPT in Court. It Backfired Sentient · 7 views How to Use ChatGPT to Ruin Your Legal Career LegalEagle · 5.9M views...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/ChatGPT/comments/145t4b9" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ChatGPT/comments/145t4b9</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>blame ChatGPT for tricking them into citing bogus case lawJune 10, 2023...</p></details>
+   Link:<a href="https://www.reddit.com/r/ChatGPT/comments/145t4b9" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ChatGPT/comments/145t4b9</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>blame ChatGPT for tricking them into citing bogus case lawJune 10, 2023...</p></details>
    Published: June 10, 2023  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/ChatGPT/comments/145fzub" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ChatGPT/comments/145fzub</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>blame ChatGPT for tricking them into citing bogus case lawJune 9, 2023...</p></details>
+   Link:<a href="https://www.reddit.com/r/ChatGPT/comments/145fzub" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/ChatGPT/comments/145fzub</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>blame ChatGPT for tricking them into citing bogus case lawJune 9, 2023...</p></details>
    Published: June 9, 2023  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: lawra.io  
    Title: Mata v. Avianca, Inc. — Jurisprudence | Lawra — AI in Law  
-   Link: <a href="https://lawra.io/resources/jurisprudence/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow">https://lawra.io/resources/jurisprudence/mata-v-avianca/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca, Inc. — Jurisprudence | Lawra — AI in Law...</p></details>
+   Link:<a href="https://lawra.io/resources/jurisprudence/mata-v-avianca/" target="_blank" rel="noopener noreferrer nofollow">https://lawra.io/resources/jurisprudence/mata-v-avianca/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca, Inc. — Jurisprudence | Lawra — AI in Law...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: youtube.com  
    Title: Lawyer files Chat GPT DISASTER in COURT (Mata v. Avianca, Inc.)  
-   Link: <a href="http://www.youtube.com/watch?v=GExSDY6Wz9Y" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=GExSDY6Wz9Y</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The ChatGPT Fake Cases Sanctions Decision (Mata v. Avianca)...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=GExSDY6Wz9Y" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=GExSDY6Wz9Y</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The ChatGPT Fake Cases Sanctions Decision (Mata v. Avianca)...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: app.midpage.ai  
    Title: Mata v. Avianca, Inc., 678 F.Supp.3d 443  
-   Link: <a href="https://app.midpage.ai/document/mata-v-avianca-inc-10352027" target="_blank" rel="noopener noreferrer nofollow">https://app.midpage.ai/document/mata-v-avianca-inc-10352027</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca, Inc., 678 F.Supp.3d 443...</p></details>
+   Link:<a href="https://app.midpage.ai/document/mata-v-avianca-inc-10352027" target="_blank" rel="noopener noreferrer nofollow">https://app.midpage.ai/document/mata-v-avianca-inc-10352027</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mata v. Avianca, Inc., 678 F.Supp.3d 443...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: youtube.com  
    Title: The Chat GPT Fake Cases Sanctions Decision (Mata v. Avianca)  
-   Link: <a href="http://www.youtube.com/watch?v=jPtOcsx7ATw" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=jPtOcsx7ATw</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The ChatGPT &quot;Fake Cases&quot; Sanctions Hearing...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=jPtOcsx7ATw" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=jPtOcsx7ATw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The ChatGPT &quot;Fake Cases&quot; Sanctions Hearing...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
    Title: How to Use Chat GPT to Ruin Your Legal Career  
-   Link: <a href="http://www.youtube.com/watch?v=oqSYljRYDEM" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=oqSYljRYDEM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Lawyer files ChatGPT DISASTER in COURT (Mata v. Avianca, Inc.)...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=oqSYljRYDEM" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=oqSYljRYDEM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Lawyer files ChatGPT DISASTER in COURT (Mata v. Avianca, Inc.)...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
    Title: The Chat GPT "Fake Cases" Sanctions Hearing  
-   Link: <a href="http://www.youtube.com/watch?v=T5YaGACnJpg" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=T5YaGACnJpg</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Lawyer Fined and Sanctioned for Using Chat GPT with Fake Cases...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=T5YaGACnJpg" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=T5YaGACnJpg</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Lawyer Fined and Sanctioned for Using Chat GPT with Fake Cases...</p></details>

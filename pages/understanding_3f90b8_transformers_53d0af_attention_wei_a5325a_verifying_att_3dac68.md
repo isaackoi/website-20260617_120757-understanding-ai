@@ -269,17 +269,17 @@ image: /assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a53
 
 ## Introduction
 
-Attention maps can be useful for [understanding]({{ 'understanding/' | relative_url }}) what an artificial intelligence model appears to focus on, but the crucial question is whether that focus genuinely influenced the model's decision. Research on attention mechanisms has shown that visually convincing attention patterns can sometimes be unrelated to the features that actually drive a [prediction]({{ 'error-harms/' | relative_url }}). As a result, a trustworthy attention-based explanation is not one that merely looks plausible; it is one that survives independent tests of importance, causality, and consistency. Researchers increasingly evaluate attention explanations by comparing them with gradient-based attribution methods, performing ablation experiments, and creating counterfactual scenarios that test whether changing the highlighted inputs changes the model's behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
+Attention maps can be useful for [understanding]({{ 'understanding/' | relative_url }}) what an artificial intelligence model appears to focus on, but the crucial question is whether that focus genuinely influenced the model's decision. Research on attention mechanisms has shown that visually convincing attention patterns can sometimes be unrelated to the features that actually drive a [prediction]({{ 'error-harms/' | relative_url }}). As a result, a trustworthy attention-based explanation is not one that merely looks plausible; it is one that survives independent tests of importance, causality, and consistency. Researchers increasingly evaluate attention explanations by comparing them with gradient-based attribution methods, performing ablation experiments, and creating counterfactual scenarios that test whether changing the highlighted inputs changes the model's behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_verifying_att_3dac68-Illustration-1-dark.svg" | relative_url }}" alt="Verify Explanations illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_verifying_att_3dac68-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_verifying_att_3dac68-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-The practical lesson is straightforward: [attention]({{ 'attention/' | relative_url }}) should be treated as a hypothesis about what matters, not as proof. The more independent methods that support the same conclusion, the more [confidence]({{ 'confidence/' | relative_url }}) we can have that an attention visualisation reflects something real about the model's decision process. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
+The practical lesson is straightforward: [attention]({{ 'attention/' | relative_url }}) should be treated as a hypothesis about what matters, not as proof. The more independent methods that support the same conclusion, the more [confidence]({{ 'confidence/' | relative_url }}) we can have that an attention visualisation reflects something real about the model's decision process.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
 
 ## Gradient-Based Attribution Checks
 
 One of the most common ways to test an attention explanation is to compare it with gradient-based attribution methods. Gradients estimate how much a small change in an input feature would affect the model's output. If attention truly identifies important information, then highly attended features should often overlap with features that gradients identify as influential.
 
-This idea became central to the debate over attention explanations after researchers found that attention weights frequently showed weak correlation with gradient-based measures of feature importance across multiple natural-language-processing tasks. In other words, the model sometimes paid high attention to words that gradients suggested had little effect on the final prediction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
+This idea became central to the debate over attention explanations after researchers found that attention weights frequently showed weak correlation with gradient-based measures of feature importance across multiple natural-language-processing tasks. In other words, the model sometimes paid high attention to words that gradients suggested had little effect on the final prediction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
 
 When evaluating an [attention map]({{ 'attention-maps-e039cc/' | relative_url }}), several questions are useful:
 
@@ -292,13 +292,13 @@ When evaluating an [attention map]({{ 'attention-maps-e039cc/' | relative_url }}
 
 </div>
 
-Strong agreement does not prove that attention is a faithful explanation, but disagreement is often a warning sign that the attention visualisation may be highlighting a different aspect of the computation than the one actually driving the output. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
+Strong agreement does not prove that attention is a faithful explanation, but disagreement is often a warning sign that the attention visualisation may be highlighting a different aspect of the computation than the one actually driving the output.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
 
 ### Looking Beyond Raw Attention
 
-Transformer models add another complication because information becomes mixed across many layers. A token receiving attention in a later layer may already contain information gathered from several earlier tokens. To address this problem, researchers developed techniques such as attention rollout and [attention flow]({{ 'attention-flow/' | relative_url }}), which attempt to trace information through the network rather than inspecting a single attention matrix in isolation. These methods have been shown to correlate more strongly with gradients and ablation-based importance measures than raw attention weights alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
+Transformer models add another complication because information becomes mixed across many layers. A token receiving attention in a later layer may already contain information gathered from several earlier tokens. To address this problem, researchers developed techniques such as attention rollout and [attention flow]({{ 'attention-flow/' | relative_url }}), which attempt to trace information through the network rather than inspecting a single attention matrix in isolation. These methods have been shown to correlate more strongly with gradients and ablation-based importance measures than raw attention weights alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
 
-For verification purposes, this means that a trustworthy explanation should ideally remain meaningful when analysed through these more sophisticated tracing methods, not only through a single layer's heat map. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
+For verification purposes, this means that a trustworthy explanation should ideally remain meaningful when analysed through these more sophisticated tracing methods, not only through a single layer's heat map.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/PSs6nxngL6k" title="Attention for Neural Networks, Clearly Explained!!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=PSs6nxngL6k" target="_blank" rel="noopener noreferrer">Attention for Neural Networks, Clearly Explained!!!</a></p><p class="youtube-embed-meta">Channel: StatQuest with Josh Starmer</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=PSs6nxngL6k" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=PSs6nxngL6k">Open on YouTube</a></p></div></div></div>
@@ -309,7 +309,7 @@ A stronger test of trustworthiness is ablation. Instead of asking what the model
 
 Imagine an attention map highlights a specific word as crucial to a sentiment-classification decision. If removing that word barely changes the prediction, the explanation becomes difficult to defend. Conversely, if the prediction changes substantially, the attention-based interpretation gains credibility.
 
-Ablation testing focuses on causal impact rather than visual appearance. Researchers often regard it as a more direct way of measuring feature importance because it observes the consequences of removing information rather than inferring importance indirectly. Attention-flow research has used ablation-based measures as a benchmark when evaluating whether attention-derived explanations correspond to actual model behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
+Ablation testing focuses on causal impact rather than visual appearance. Researchers often regard it as a more direct way of measuring feature importance because it observes the consequences of removing information rather than inferring importance indirectly. Attention-flow research has used ablation-based measures as a benchmark when evaluating whether attention-derived explanations correspond to actual model behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
 
 Useful verification questions include:
 
@@ -322,7 +322,7 @@ Useful verification questions include:
 
 </div>
 
-When attention and ablation results point to the same inputs, confidence in the explanation increases. When they diverge sharply, the attention map may be misleading. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
+When attention and ablation results point to the same inputs, confidence in the explanation increases. When they diverge sharply, the attention map may be misleading.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_verifying_att_3dac68-Illustration-2-dark.svg" | relative_url }}" alt="Verify Explanations illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_verifying_att_3dac68-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_verifying_att_3dac68-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -332,9 +332,9 @@ Perhaps the most influential challenge to attention-based explanations comes fro
 
 The core idea is simple: if an attention map truly explains a prediction, then substantially changing the attention distribution should also change the prediction. If the model can produce essentially the same output while attending to entirely different features, the explanatory value of the original attention map becomes questionable.
 
-Research has demonstrated that models can sometimes maintain nearly identical predictions even when attention distributions are radically altered. These "[adversarial]({{ 'stress-tests/' | relative_url }}) attention" or counterfactual attention patterns suggest that multiple, very different attention configurations can be compatible with the same outcome. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
+Research has demonstrated that models can sometimes maintain nearly identical predictions even when attention distributions are radically altered. These "[adversarial]({{ 'stress-tests/' | relative_url }}) attention" or counterfactual attention patterns suggest that multiple, very different attention configurations can be compatible with the same outcome.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
 
-This does not necessarily mean attention is useless. Rather, it means that attention may not provide a unique explanation. A trustworthy attention-based interpretation should be robust: changing the highlighted focus should lead to meaningful changes in the model's behaviour. If alternative attention patterns can replace the original one without affecting the result, the explanation becomes much less convincing. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2561 — original attention weights do not provide unique explanation...</span></span></span>
+This does not necessarily mean attention is useless. Rather, it means that attention may not provide a unique explanation. A trustworthy attention-based interpretation should be robust: changing the highlighted focus should lead to meaningful changes in the model's behaviour. If alternative attention patterns can replace the original one without affecting the result, the explanation becomes much less convincing.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2561 — original attention weights do not provide unique explanation...</span></span></span>
 
 ### A Practical Counterfactual Mindset
 
@@ -349,7 +349,7 @@ When examining an attention visualisation, it helps to ask:
 
 </div>
 
-These questions move the analysis from description ("the model looked here") to causal testing ("the model needed this information"). The second question is generally more important for explanation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
+These questions move the analysis from description ("the model looked here") to causal testing ("the model needed this information"). The second question is generally more important for explanation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/Ori-Gp3pco8" title="The limitations of Vanilla Gradients | Explainable AI for Computer Vision" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=Ori-Gp3pco8" target="_blank" rel="noopener noreferrer">The limitations of Vanilla Gradients | Explainable AI for Computer Vision</a></p><p class="youtube-embed-meta">Channel: A Data Odyssey</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=Ori-Gp3pco8" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=Ori-Gp3pco8">Open on YouTube</a></p></div></div></div>
@@ -358,7 +358,7 @@ These questions move the analysis from description ("the model looked here") to 
 
 A growing consensus in explainable AI is that no single explanation method should be trusted in isolation. Attention maps, gradients, perturbation tests, and counterfactual analyses each capture different aspects of model behaviour. Their value increases when they converge on the same conclusion.
 
-This perspective emerged partly from the debate between researchers who argued that attention is not a reliable explanation and others who argued that its usefulness depends on how explanations are defined and evaluated. Even among scholars who defend some interpretive value for attention, there is broad agreement that attention alone is insufficient evidence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">We challenge many of the assumptions underlying this work.Read more</span><span class="citation-popover-snippet">ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1639 — A recent paper claims that &#x27;Attention is not Explana...</span></span></span>
+This perspective emerged partly from the debate between researchers who argued that attention is not a reliable explanation and others who argued that its usefulness depends on how explanations are defined and evaluated. Even among scholars who defend some interpretive value for attention, there is broad agreement that attention alone is insufficient evidence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">We challenge many of the assumptions underlying this work.Read more</span><span class="citation-popover-snippet">ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1639 — A recent paper claims that &#x27;Attention is not Explana...</span></span></span>
 
 A practical reliability hierarchy often looks like this:
 
@@ -372,7 +372,7 @@ A practical reliability hierarchy often looks like this:
 
 </div>
 
-As more of these checks agree, confidence in the explanation grows. If only the attention map supports the claim while other methods disagree, the interpretation should be treated cautiously. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
+As more of these checks agree, confidence in the explanation grows. If only the attention map supports the claim while other methods disagree, the interpretation should be treated cautiously.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-snippet">ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_verifying_att_3dac68-Illustration-3-dark.svg" | relative_url }}" alt="Verify Explanations illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_verifying_att_3dac68-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_attention_wei_a5325a_verifying_att_3dac68-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -389,201 +389,201 @@ An attention-based explanation is most trustworthy when it satisfies three condi
 
 </div>
 
-Attention visualisations can still be valuable for debugging models, generating hypotheses, and exploring how information flows through a network. However, the strongest evidence comes from explanations that survive verification from multiple directions. In modern AI interpretability research, trust is earned not by a colourful heat map, but by repeated agreement across independent tests of what truly influences a model's [decisions]({{ 'decisions/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
+Attention visualisations can still be valuable for debugging models, generating hypotheses, and exploring how information flows through a network. However, the strongest evidence comes from explanations that survive verification from multiple directions. In modern AI interpretability research, trust is earned not by a colourful heat map, but by repeated agreement across independent tests of what truly influences a model's [decisions]({{ 'decisions/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aclanthology.org">[ACL Anthology+2ACL Anthology]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aclanthology.org</span><span class="citation-popover-title">2020.acl main.385</span><span class="citation-popover-snippet">ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/KokBC8zBEWE" title="Attention is not not explanation + Character Eyes: Seeing Language through Character-Level Taggers |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=KokBC8zBEWE" target="_blank" rel="noopener noreferrer">Attention is not not explanation + Character Eyes: Seeing Language through Character-Level Taggers |</a></p><p class="youtube-embed-meta">Channel: LLMs Explained - Aggregate Intellect - AI.SCIENCE</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=KokBC8zBEWE" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=KokBC8zBEWE">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How Can You Check If an Attention Explanation Is Real?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How Can You Check If an Attention Explanation Is Real?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Explains transformers, attention, interpretability, and analysis techniques.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains transformers, attention, interpretability, and analysis techniques.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Designing+Machine+Learning+Systems+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Designing Machine Learning Systems on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=70KmzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Designing Machine Learning Systems" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Designing+Machine+Learning+Systems+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Designing Machine Learning Systems">Designing Machine Learning Systems</a>
-        </h4>
-        <p class="fr-book-author">By Chip Huyen</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Designing+Machine+Learning+Systems+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Designing Machine Learning Systems on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=70KmzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Designing Machine Learning Systems" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Designing+Machine+Learning+Systems+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Designing Machine Learning Systems">Designing Machine Learning Systems</a>
+</h4>
+<p class="fr-book-author">By Chip Huyen</p>
         
-        <p class="fr-book-desc">Discusses evaluation, robustness, and validating ML behavior.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Designing+Machine+Learning+Systems+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses evaluation, robustness, and validating ML behavior.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Designing+Machine+Learning+Systems+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Provides the neural-network background needed for understanding attention mechanisms.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Provides the neural-network background needed for understanding attention mechanisms.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Interpretable Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Interpretable Machine Learning">Interpretable Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Christoph Molnar</p>
+<article class="fr-book-card">
+<a class="fr-book-cover fr-book-cover-placeholder" href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Interpretable Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Interpretable Machine Learning">Interpretable Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Christoph Molnar</p>
         
-        <p class="fr-book-desc">Directly covers attribution methods, model explanations, and validation of explanations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly covers attribution methods, model explanations, and validation of explanations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Interpretable+Machine+Learning+by+Christoph+Molnar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Designing+Machine+Learning+Systems&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Designing Machine Learning Systems</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Designing+Machine+Learning+Systems&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Designing Machine Learning Systems</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for STEM Spider Robot Toy Kit DIY Educational Science Project Kids Building Gift 6+"><img src="{{ '/assets/images/marketplace-covers/2d5008516bc0d9d6228c.jpg' | relative_url }}" alt="Listing image for STEM Spider Robot Toy Kit DIY Educational Science Project Kids Building Gift 6+" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">STEM Spider Robot Toy Kit DIY Educational Science Project Kids Building Gift 6+</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for STEM Spider Robot Toy Kit DIY Educational Science Project Kids Building Gift 6+"><img src="{{ '/assets/images/marketplace-covers/2d5008516bc0d9d6228c.jpg' | relative_url }}" alt="Listing image for STEM Spider Robot Toy Kit DIY Educational Science Project Kids Building Gift 6+" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">STEM Spider Robot Toy Kit DIY Educational Science Project Kids Building Gift 6+</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car"><img src="{{ '/assets/images/marketplace-covers/526b63c9105e4b2c7bc0.jpg' | relative_url }}" alt="Listing image for 6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car"><img src="{{ '/assets/images/marketplace-covers/526b63c9105e4b2c7bc0.jpg' | relative_url }}" alt="Listing image for 6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">6 in 1 Solar Powered Boat Robot Kit DIY Educational Toy 3D Model Fan Toys Car</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Makeblock mBot STEM Educational Robot Kit – Bluetooth Version Boxed"><img src="{{ '/assets/images/marketplace-covers/45456d42d140ae8a9876.jpg' | relative_url }}" alt="Listing image for Makeblock mBot STEM Educational Robot Kit – Bluetooth Version Boxed" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">Makeblock mBot STEM Educational Robot Kit – Bluetooth Version Boxed</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Makeblock mBot STEM Educational Robot Kit – Bluetooth Version Boxed"><img src="{{ '/assets/images/marketplace-covers/45456d42d140ae8a9876.jpg' | relative_url }}" alt="Listing image for Makeblock mBot STEM Educational Robot Kit – Bluetooth Version Boxed" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">Makeblock mBot STEM Educational Robot Kit – Bluetooth Version Boxed</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Kits - Rotating Mechanical Robotics Set for , ,"><img src="{{ '/assets/images/marketplace-covers/87b0c9d1cfcdb6e7a752.jpg' | relative_url }}" alt="Listing image for Kits - Rotating Mechanical Robotics Set for , ," loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">Kits - Rotating Mechanical Robotics Set for , ,</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search <span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Kits - Rotating Mechanical Robotics Set for , ,"><img src="{{ '/assets/images/marketplace-covers/87b0c9d1cfcdb6e7a752.jpg' | relative_url }}" alt="Listing image for Kits - Rotating Mechanical Robotics Set for , ," loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">Kits - Rotating Mechanical Robotics Set for , ,</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for robotics kit">Search<span data-ebay-domain-label>eBay.co.uk</span>: robotics kit</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=robotics+kit&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="robotics kit" data-ebay-reference="verify-explanations-how-can-you-check-if-an-attention-explanation-is-real-understanding-robotics-kit" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -599,7 +599,7 @@ Attention visualisations can still be valuable for debugging models, generating 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -619,7 +619,7 @@ Attention visualisations can still be valuable for debugging models, generating 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -651,7 +651,7 @@ Attention visualisations can still be valuable for debugging models, generating 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -703,7 +703,7 @@ Attention visualisations can still be valuable for debugging models, generating 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -748,7 +748,7 @@ Attention visualisations can still be valuable for debugging models, generating 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -789,95 +789,95 @@ Attention visualisations can still be valuable for debugging models, generating 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: aclanthology.org  
-   Link: <a href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/N19-1357/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</p></details>
+   Link:<a href="https://aclanthology.org/N19-1357/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/N19-1357/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2359 — For example, learned attention weights are frequently uncorre...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: aclanthology.org  
    Title: 2020.acl main.385  
-   Link: <a href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</p></details>
+   Link:<a href="https://aclanthology.org/2020.acl-main.385/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/2020.acl-main.385/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyQuantifying Attention Flow in Transformersby S Abnar · 2020 · Cited by 1562 — We propose two methods for approximating the a...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: aclanthology.org  
    Title: We challenge many of the assumptions underlying this work.Read more  
-   Link: <a href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/D19-1002/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1639 — A recent paper claims that &#x27;Attention is not Explana...</p></details>
+   Link:<a href="https://aclanthology.org/D19-1002/" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/D19-1002/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not not Explanationby S Wiegreffe · 2019 · Cited by 1639 — A recent paper claims that &#x27;Attention is not Explana...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: aclanthology.org  
-   Link: <a href="https://aclanthology.org/N19-1357.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/N19-1357.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2561 — original attention weights do not provide unique explanation...</p></details>
+   Link:<a href="https://aclanthology.org/N19-1357.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/N19-1357.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ACL AnthologyAttention is not Explanationby S Jain · 2019 · Cited by 2561 — original attention weights do not provide unique explanation...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: scribd.com  
    Title: 2020 acl main 385  
-   Link: <a href="https://www.scribd.com/document/913571062/2020-acl-main-385" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/913571062/2020-acl-main-385</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>2020 Acl-Main 385 | PDF | Applied MathematicsQuantifying Attention Flow in Transformers. Samira Abnar Willem Zuidema. ILLC, University of...</p></details>
+   Link:<a href="https://www.scribd.com/document/913571062/2020-acl-main-385" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/913571062/2020-acl-main-385</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>2020 Acl-Main 385 | PDF | Applied MathematicsQuantifying Attention Flow in Transformers. Samira Abnar Willem Zuidema. ILLC, University of...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: github.com  
-   Link: <a href="https://github.com/sarahwie/attention" target="_blank" rel="noopener noreferrer nofollow">https://github.com/sarahwie/attention</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Code for EMNLP 2019 paper &quot;Attention is not...We&#x27;ve based our repository on the code provided by Sarthak Jain &amp; Byron Wallace for their...</p></details>
+   Link:<a href="https://github.com/sarahwie/attention" target="_blank" rel="noopener noreferrer nofollow">https://github.com/sarahwie/attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Code for EMNLP 2019 paper &quot;Attention is not...We&#x27;ve based our repository on the code provided by Sarthak Jain &amp; Byron Wallace for their...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: aclanthology.org  
-   Link: <a href="https://aclanthology.org/D19-1002.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/D19-1002.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>2019) points to possible pitfalls that may cause re- searchers to misapply attention scores as explana- tions of model...Rea...</p></details>
+   Link:<a href="https://aclanthology.org/D19-1002.pdf" target="_blank" rel="noopener noreferrer nofollow">https://aclanthology.org/D19-1002.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>2019) points to possible pitfalls that may cause re- searchers to misapply attention scores as explana- tions of model...Rea...</p></details>
 
 ### Additional References
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40yuvalpinter/attention-is-not-not-explanation-dbc25b534017" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40yuvalpinter/attention-is-not-not-explanation-dbc25b534017</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not not ExplanationAlternative (or counterfactual) attention weight configurations ought to yield corresponding changes in p...</p></details>
+   Link:<a href="https://medium.com/%40yuvalpinter/attention-is-not-not-explanation-dbc25b534017" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40yuvalpinter/attention-is-not-not-explanation-dbc25b534017</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is not not ExplanationAlternative (or counterfactual) attention weight configurations ought to yield corresponding changes in p...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: pure.uva.nl  
-   Link: <a href="https://pure.uva.nl/ws/files/178487922/2020.acl-main.385.pdf" target="_blank" rel="noopener noreferrer nofollow">https://pure.uva.nl/ws/files/178487922/2020.acl-main.385.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>uva.nlUvA-DARE (Digital Academic Repository)We propose two methods for approximating the attention to in- put tokens given attention weig...</p></details>
+   Link:<a href="https://pure.uva.nl/ws/files/178487922/2020.acl-main.385.pdf" target="_blank" rel="noopener noreferrer nofollow">https://pure.uva.nl/ws/files/178487922/2020.acl-main.385.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>uva.nlUvA-DARE (Digital Academic Repository)We propose two methods for approximating the attention to in- put tokens given attention weig...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/1003d7w/discussion_is_attention_an_explanation/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1003d7w/discussion_is_attention_an_explanation/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[Discussion] is attention an explanation?: r/MachineLearningCan we use attention weights from causal models, as explanations or causal a...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/1003d7w/discussion_is_attention_an_explanation/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1003d7w/discussion_is_attention_an_explanation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Discussion] is attention an explanation?: r/MachineLearningCan we use attention weights from causal models, as explanations or causal a...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: semanticscholar.org  
-   Link: <a href="https://www.semanticscholar.org/paper/Attention-is-not-Explanation-Jain-Wallace/1e83c20def5c84efa6d4a0d80aa3159f55cb9c3f" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Attention-is-not-Explanation-Jain-Wallace/1e83c20def5c84efa6d4a0d80aa3159f55cb9c3f</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Attention is not ExplanationThis paper disputes the claim that attention weights do not correlate with measures of feature importan...</p></details>
+   Link:<a href="https://www.semanticscholar.org/paper/Attention-is-not-Explanation-Jain-Wallace/1e83c20def5c84efa6d4a0d80aa3159f55cb9c3f" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Attention-is-not-Explanation-Jain-Wallace/1e83c20def5c84efa6d4a0d80aa3159f55cb9c3f</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Attention is not ExplanationThis paper disputes the claim that attention weights do not correlate with measures of feature importan...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: semanticscholar.org  
-   Link: <a href="https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Quantifying Attention Flow in TransformersThis paper proposes two methods for approximating the attention to input tokens given att...</p></details>
+   Link:<a href="https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Quantifying-Attention-Flow-in-Transformers-Abnar-Zuidema/76a9f336481b39515d6cea2920696f11fb686451</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[PDF] Quantifying Attention Flow in TransformersThis paper proposes two methods for approximating the attention to input tokens given att...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: scribd.com  
-   Link: <a href="https://www.scribd.com/document/539572843/1902-10186" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/539572843/1902-10186</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It argues that attention weights are often presented as explanations for model predictions...Read more...</p></details>
+   Link:<a href="https://www.scribd.com/document/539572843/1902-10186" target="_blank" rel="noopener noreferrer nofollow">https://www.scribd.com/document/539572843/1902-10186</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It argues that attention weights are often presented as explanations for model predictions...Read more...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
    Title: arXiv Attention is not Explanation  
-   Link: <a href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1902.10186</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[1902.10186] Attention is not Explanationby S Jain · 2019 · Cited by 2499 — Our findings show that standard attention modules do not prov...</p></details>
+   Link:<a href="https://arxiv.org/abs/1902.10186" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1902.10186</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[1902.10186] Attention is not Explanationby S Jain · 2019 · Cited by 2499 — Our findings show that standard attention modules do not prov...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Jain and Wallace [6] argued that attention weights should not automatically be...Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/336999161_Attention_is_not_not_Explanation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Jain and Wallace [6] argued that attention weights should not automatically be...Read more...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/331396991_Attention_is_not_Explanation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/331396991_Attention_is_not_Explanation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>However, attention does not always equal causal importance (Jain &amp; Wallace, 2019).Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/331396991_Attention_is_not_Explanation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/331396991_Attention_is_not_Explanation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>However, attention does not always equal causal importance (Jain &amp; Wallace, 2019).Read more...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: researchgate.net  
    Title: 341148976 Quantifying Attention Flow in Transformers  
-   Link: <a href="https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Quantifying Attention Flow in Transformers8 May 2020 — To understand how attention is aggregated through the network, we used atten...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/341148976_Quantifying_Attention_Flow_in_Transformers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Quantifying Attention Flow in Transformers8 May 2020 — To understand how attention is aggregated through the network, we used atten...</p></details>
    Published: May 2020  

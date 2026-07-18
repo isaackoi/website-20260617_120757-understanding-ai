@@ -294,32 +294,32 @@ image: /assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f
 
 ## Introduction
 
-Fraud-detection AI is one of the most widely used forms of artificial intelligence in everyday life. Every time a card is tapped, a transfer is initiated, or an online purchase is attempted, [machine-learning]({{ 'machine-learning/' | relative_url }}) systems may assess whether the activity resembles normal customer behaviour or known fraud patterns. These systems can stop stolen-card transactions in milliseconds and prevent large financial losses. However, the same systems can also make mistakes. A genuine customer travelling abroad, buying an unusually expensive item, or using a new device may be treated as suspicious. That is why effective fraud prevention depends not only on accurate AI models but also on clear appeal routes, human review, and ongoing monitoring of errors. AI can identify risk, but institutions still need governance processes for the people affected by incorrect [decisions]({{ 'decisions/' | relative_url }}). <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lseg.com/en/risk-intelligence/glossary/financial-crime/fraud-detection" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lseg.com">[LSEG+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lseg.com</span><span class="citation-popover-title">Fraud Detection in Finance</span><span class="citation-popover-snippet">Fraud Detection in Finance - GlossaryLearn how fraud detection protects against financial crimes using methods like AI, KYC, and AML...</span></span></span>
+Fraud-detection AI is one of the most widely used forms of artificial intelligence in everyday life. Every time a card is tapped, a transfer is initiated, or an online purchase is attempted, [machine-learning]({{ 'machine-learning/' | relative_url }}) systems may assess whether the activity resembles normal customer behaviour or known fraud patterns. These systems can stop stolen-card transactions in milliseconds and prevent large financial losses. However, the same systems can also make mistakes. A genuine customer travelling abroad, buying an unusually expensive item, or using a new device may be treated as suspicious. That is why effective fraud prevention depends not only on accurate AI models but also on clear appeal routes, human review, and ongoing monitoring of errors. AI can identify risk, but institutions still need governance processes for the people affected by incorrect [decisions]({{ 'decisions/' | relative_url }}).<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lseg.com/en/risk-intelligence/glossary/financial-crime/fraud-detection" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lseg.com">[LSEG+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lseg.com</span><span class="citation-popover-title">Fraud Detection in Finance</span><span class="citation-popover-snippet">Fraud Detection in Finance - GlossaryLearn how fraud detection protects against financial crimes using methods like AI, KYC, and AML...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50-Illustration-1-dark.svg" | relative_url }}" alt="Fraud Flags illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## How Transaction-Risk Scoring Works in Everyday Payments
 
-Modern fraud systems rarely rely on a single rule such as "block all foreign transactions". Instead, they evaluate many signals at once and generate a [risk score]({{ 'thresholds/' | relative_url }}). Payment providers describe these systems as analysing transaction history, merchant characteristics, spending patterns, device information, location data, behavioural indicators and relationships between entities across payment networks. Transactions assessed as low risk are approved, while higher-risk transactions may trigger extra [verification]({{ 'verification-cost/' | relative_url }}) or be declined. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/sg/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Visa Corporate+3Mastercard+3Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Decision Intelligence for Fraud and Risk Management Precise, real-time decisioning</span><span class="citation-popover-snippet">Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more</span></span></span>
+Modern fraud systems rarely rely on a single rule such as "block all foreign transactions". Instead, they evaluate many signals at once and generate a [risk score]({{ 'thresholds/' | relative_url }}). Payment providers describe these systems as analysing transaction history, merchant characteristics, spending patterns, device information, location data, behavioural indicators and relationships between entities across payment networks. Transactions assessed as low risk are approved, while higher-risk transactions may trigger extra [verification]({{ 'verification-cost/' | relative_url }}) or be declined.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/sg/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Visa Corporate+3Mastercard+3Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Decision Intelligence for Fraud and Risk Management Precise, real-time decisioning</span><span class="citation-popover-snippet">Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more</span></span></span>
 
-The goal is not merely to detect known fraud. Machine-learning models are designed to identify unusual combinations of signals that may indicate account takeover, stolen cards, [synthetic]({{ 'synthetic-media/' | relative_url }}) identities or other emerging threats. Compared with older rule-based approaches, AI systems can adapt more quickly when fraudsters change tactics. Mastercard states that its Decision Intelligence platform uses AI-based risk assessment in real time, while Visa similarly emphasises machine learning as a way to improve fraud detection and reduce unnecessary declines. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/sg/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Mastercard+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Decision Intelligence for Fraud and Risk Management Precise, real-time decisioning</span><span class="citation-popover-snippet">Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more</span></span></span>
+The goal is not merely to detect known fraud. Machine-learning models are designed to identify unusual combinations of signals that may indicate account takeover, stolen cards, [synthetic]({{ 'synthetic-media/' | relative_url }}) identities or other emerging threats. Compared with older rule-based approaches, AI systems can adapt more quickly when fraudsters change tactics. Mastercard states that its Decision Intelligence platform uses AI-based risk assessment in real time, while Visa similarly emphasises machine learning as a way to improve fraud detection and reduce unnecessary declines.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/sg/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Mastercard+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Decision Intelligence for Fraud and Risk Management Precise, real-time decisioning</span><span class="citation-popover-snippet">Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more</span></span></span>
 
-Research on payment authentication systems also shows how seemingly ordinary changes can affect risk assessments. Studies of 3-D Secure payment systems found that factors such as transaction location, device characteristics and transaction value can substantially alter the likelihood of a challenge, decline or card block. This illustrates why legitimate customers sometimes encounter unexpected payment interruptions even when no fraud is occurring. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2009.12390" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Investigation of 3-D Secure&#x27;s Model for Fraud Detection</span><span class="citation-popover-snippet">Investigation of 3-D Secure&#x27;s Model for Fraud DetectionSeptember 25, 2020...</span><span class="citation-popover-meta">Published: September 25, 2020</span></span></span>
+Research on payment authentication systems also shows how seemingly ordinary changes can affect risk assessments. Studies of 3-D Secure payment systems found that factors such as transaction location, device characteristics and transaction value can substantially alter the likelihood of a challenge, decline or card block. This illustrates why legitimate customers sometimes encounter unexpected payment interruptions even when no fraud is occurring.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2009.12390" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Investigation of 3-D Secure&#x27;s Model for Fraud Detection</span><span class="citation-popover-snippet">Investigation of 3-D Secure&#x27;s Model for Fraud DetectionSeptember 25, 2020...</span><span class="citation-popover-meta">Published: September 25, 2020</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/WRK_wdyrBpU" title="2 Minutes on Fraud: Episode 18 &quot;False Positives Are a Pain in the Profits&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=WRK_wdyrBpU" target="_blank" rel="noopener noreferrer">2 Minutes on Fraud: Episode 18 &quot;False Positives Are a Pain in the Profits&quot;</a></p><p class="youtube-embed-meta">Channel: KountInc</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=WRK_wdyrBpU" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=WRK_wdyrBpU">Open on YouTube</a></p></div></div></div>
 
 ## The Value and Cost of Blocking Suspicious Activity
 
-The benefit of fraud AI is straightforward: preventing criminals from stealing money. Financial institutions face enormous volumes of fraudulent activity, and manual review alone cannot operate at the speed required for modern payments. AI systems can screen transactions in fractions of a second and identify patterns across millions or billions of payment events. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Mastercard+2LSEG]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Unlike traditional rule</span><span class="citation-popover-snippet">AI is helping banks save millions by transforming payment...6 Feb 2026 — AI improves payment fraud detection by quickly analyz...</span></span></span>
+The benefit of fraud AI is straightforward: preventing criminals from stealing money. Financial institutions face enormous volumes of fraudulent activity, and manual review alone cannot operate at the speed required for modern payments. AI systems can screen transactions in fractions of a second and identify patterns across millions or billions of payment events.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Mastercard+2LSEG]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Unlike traditional rule</span><span class="citation-popover-snippet">AI is helping banks save millions by transforming payment...6 Feb 2026 — AI improves payment fraud detection by quickly analyz...</span></span></span>
 
 Yet every fraud system faces a trade-off between catching fraud and avoiding false alarms. If thresholds are too permissive, more fraudulent transactions succeed. If thresholds are too strict, legitimate customers are blocked. The latter problem is often called a false decline.
 
-False declines create costs beyond temporary inconvenience. Customers may be unable to complete purchases, access services, or make urgent payments. Merchants lose sales, and financial institutions may damage trust with their customers. Industry discussions increasingly treat false declines as a governance problem as well as a technical one because the burden falls on real people whose transactions were legitimate. Mastercard and Visa both describe reducing false positives as a major objective of modern fraud AI. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-snippet">Visa CorporateThe future of fraud detection: smarter, faster, safer &#124; VisaDiscover how AI and machine learning are reshaping fraud detect...</span></span></span>
+False declines create costs beyond temporary inconvenience. Customers may be unable to complete purchases, access services, or make urgent payments. Merchants lose sales, and financial institutions may damage trust with their customers. Industry discussions increasingly treat false declines as a governance problem as well as a technical one because the burden falls on real people whose transactions were legitimate. Mastercard and Visa both describe reducing false positives as a major objective of modern fraud AI.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: corporate.visa.com">[Visa Corporate+2Mastercard]</a><span class="citation-popover" role="note"><span class="citation-popover-source">corporate.visa.com</span><span class="citation-popover-snippet">Visa CorporateThe future of fraud detection: smarter, faster, safer &#124; VisaDiscover how AI and machine learning are reshaping fraud detect...</span></span></span>
 
-Concrete examples show why this matters. In the retail sector, AI-driven fraud tools have been introduced specifically to recover transactions previously rejected by older systems. One reported deployment recovered millions of dollars in legitimate orders by replacing rigid approve-or-decline decisions with more nuanced risk assessments and additional verification pathways. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions-2025-7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">These older systems often incorrectly decline legitimate transactions, leading to lost revenue and customer dissatisfaction. TickPick, an...</span></span></span>
+Concrete examples show why this matters. In the retail sector, AI-driven fraud tools have been introduced specifically to recover transactions previously rejected by older systems. One reported deployment recovered millions of dollars in legitimate orders by replacing rigid approve-or-decline decisions with more nuanced risk assessments and additional verification pathways.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: businessinsider.com">[Business Insider]</a><span class="citation-popover" role="note"><span class="citation-popover-source">businessinsider.com</span><span class="citation-popover-snippet">These older systems often incorrectly decline legitimate transactions, leading to lost revenue and customer dissatisfaction. TickPick, an...</span></span></span>
 
-The broader lesson is that successful fraud prevention is not measured solely by fraud losses avoided. It must also be judged by how many genuine customers can continue using payment systems without unnecessary interruption. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/global/en/business/payments/merchant-cloud/insights/ai-optimization.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Mastercard+2FinTech Futures]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-snippet">How AI driven fraud solutions and payment optimization...3 days ago — Static or overly constrictive fraud controls can block l...</span></span></span>
+The broader lesson is that successful fraud prevention is not measured solely by fraud losses avoided. It must also be judged by how many genuine customers can continue using payment systems without unnecessary interruption.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/global/en/business/payments/merchant-cloud/insights/ai-optimization.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[Mastercard+2FinTech Futures]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-snippet">How AI driven fraud solutions and payment optimization...3 days ago — Static or overly constrictive fraud controls can block l...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/X5cVaJVMayM" title="Mastercard accelerates card fraud detection with generative AI technology" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=X5cVaJVMayM" target="_blank" rel="noopener noreferrer">Mastercard accelerates card fraud detection with generative AI technology</a></p><p class="youtube-embed-meta">Channel: Mastercard News &middot; Views: 5.4K &middot; Uploaded: May 2024 &middot; Length: 1 minute 58 seconds</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=X5cVaJVMayM" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=X5cVaJVMayM">Open on YouTube</a></p></div></div></div>
@@ -341,17 +341,17 @@ An effective appeal process typically provides several layers of protection:
 
 </div>
 
-These safeguards recognise that risk scores are probabilistic judgments rather than proofs of fraud. Even highly accurate systems will produce some incorrect outcomes because fraud detection involves predicting uncertain behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lseg.com/en/risk-intelligence/glossary/financial-crime/fraud-detection" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lseg.com">[LSEG]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lseg.com</span><span class="citation-popover-title">Fraud Detection in Finance</span><span class="citation-popover-snippet">Fraud Detection in Finance - GlossaryLearn how fraud detection protects against financial crimes using methods like AI, KYC, and AML...</span></span></span>
+These safeguards recognise that risk scores are probabilistic judgments rather than proofs of fraud. Even highly accurate systems will produce some incorrect outcomes because fraud detection involves predicting uncertain behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.lseg.com/en/risk-intelligence/glossary/financial-crime/fraud-detection" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: lseg.com">[LSEG]</a><span class="citation-popover" role="note"><span class="citation-popover-source">lseg.com</span><span class="citation-popover-title">Fraud Detection in Finance</span><span class="citation-popover-snippet">Fraud Detection in Finance - GlossaryLearn how fraud detection protects against financial crimes using methods like AI, KYC, and AML...</span></span></span>
 
-Regulators have increasingly focused on accountability when automated systems influence financial decisions. In the United States, the Consumer Financial Protection Bureau has repeatedly stated that institutions cannot avoid explanation and accountability requirements simply because complex algorithms or AI models are involved. Where adverse decisions are made, organisations remain [responsible]({{ 'responsible-ai/' | relative_url }}) for providing meaningful reasons and complying with consumer-protection obligations. Consumer Financial Protection Bureau+2Consumer Financial Protection Bureau <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.consumerfinance.gov/about-us/blog/innovation-spotlight-providing-adverse-action-notices-when-using-ai-ml-models/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: consumerfinance.gov">[consumerfinance.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">consumerfinance.gov</span><span class="citation-popover-title">innovation spotlight providing adverse action notices when using ai ml models</span><span class="citation-popover-snippet">Consumer Financial Protection BureauProviding adverse action notices when using AI/ML modelsJul 7, 2020 — This blog conveys an incomplete...</span></span></span>
+Regulators have increasingly focused on accountability when automated systems influence financial decisions. In the United States, the Consumer Financial Protection Bureau has repeatedly stated that institutions cannot avoid explanation and accountability requirements simply because complex algorithms or AI models are involved. Where adverse decisions are made, organisations remain [responsible]({{ 'responsible-ai/' | relative_url }}) for providing meaningful reasons and complying with consumer-protection obligations. Consumer Financial Protection Bureau+2Consumer Financial Protection Bureau<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.consumerfinance.gov/about-us/blog/innovation-spotlight-providing-adverse-action-notices-when-using-ai-ml-models/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: consumerfinance.gov">[consumerfinance.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">consumerfinance.gov</span><span class="citation-popover-title">innovation spotlight providing adverse action notices when using ai ml models</span><span class="citation-popover-snippet">Consumer Financial Protection BureauProviding adverse action notices when using AI/ML modelsJul 7, 2020 — This blog conveys an incomplete...</span></span></span>
 
-In the United Kingdom, regulators reviewing anti-fraud controls have likewise stressed complaint handling, governance and continuous improvement rather than treating fraud technology as a complete solution on its own. Fraud prevention systems are expected to be supported by oversight, customer support processes and mechanisms for correcting mistakes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fca.org.uk">[FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fca.org.uk</span><span class="citation-popover-snippet">October 30, 2023 — 7 Nov 2023 — This publication sets out the key findings from our review of how firms mitigate the risks of APP fraud a...</span><span class="citation-popover-meta">Published: October 30, 2023</span></span></span>
+In the United Kingdom, regulators reviewing anti-fraud controls have likewise stressed complaint handling, governance and continuous improvement rather than treating fraud technology as a complete solution on its own. Fraud prevention systems are expected to be supported by oversight, customer support processes and mechanisms for correcting mistakes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fca.org.uk">[FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fca.org.uk</span><span class="citation-popover-snippet">October 30, 2023 — 7 Nov 2023 — This publication sets out the key findings from our review of how firms mitigate the risks of APP fraud a...</span><span class="citation-popover-meta">Published: October 30, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50-Illustration-2-dark.svg" | relative_url }}" alt="Fraud Flags illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## When Fraud Models Get Things Wrong
 
-False positives are not unique to financial services. Across many sectors, fraud and risk algorithms sometimes flag large numbers of legitimate cases. One widely reported example involved a UK government fraud-detection system that incorrectly identified many legitimate benefit claims for investigation, demonstrating how predictive systems can generate significant numbers of unnecessary reviews when deployed at scale. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/society/article/2024/jun/23/dwp-algorithm-wrongly-flags-200000-people-possible-fraud-error" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Official figures, revealed through freedom of information laws, indicate that two-thirds of these flagged claims were legitimate. Consequ...</span></span></span>
+False positives are not unique to financial services. Across many sectors, fraud and risk algorithms sometimes flag large numbers of legitimate cases. One widely reported example involved a UK government fraud-detection system that incorrectly identified many legitimate benefit claims for investigation, demonstrating how predictive systems can generate significant numbers of unnecessary reviews when deployed at scale.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/society/article/2024/jun/23/dwp-algorithm-wrongly-flags-200000-people-possible-fraud-error" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Official figures, revealed through freedom of information laws, indicate that two-thirds of these flagged claims were legitimate. Consequ...</span></span></span>
 
 The existence of such errors does not mean fraud AI is ineffective. Rather, it highlights the importance of measuring performance beyond raw detection rates. Institutions need to know:
 
@@ -366,211 +366,211 @@ The existence of such errors does not mean fraud AI is ineffective. Rather, it h
 
 </div>
 
-Without these measurements, organisations may overestimate the success of fraud systems while underestimating the customer harm caused by mistakes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.consumerfinance.gov/about-us/blog/innovation-spotlight-providing-adverse-action-notices-when-using-ai-ml-models/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: consumerfinance.gov">[Consumer Financial Protection Bureau+2FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">consumerfinance.gov</span><span class="citation-popover-title">innovation spotlight providing adverse action notices when using ai ml models</span><span class="citation-popover-snippet">Consumer Financial Protection BureauProviding adverse action notices when using AI/ML modelsJul 7, 2020 — This blog conveys an incomplete...</span></span></span>
+Without these measurements, organisations may overestimate the success of fraud systems while underestimating the customer harm caused by mistakes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.consumerfinance.gov/about-us/blog/innovation-spotlight-providing-adverse-action-notices-when-using-ai-ml-models/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: consumerfinance.gov">[Consumer Financial Protection Bureau+2FCA]</a><span class="citation-popover" role="note"><span class="citation-popover-source">consumerfinance.gov</span><span class="citation-popover-title">innovation spotlight providing adverse action notices when using ai ml models</span><span class="citation-popover-snippet">Consumer Financial Protection BureauProviding adverse action notices when using AI/ML modelsJul 7, 2020 — This blog conveys an incomplete...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/96k0sncyoXA" title="How it works: Visa’s artificial intelligence (A.I.) for payment authorization and fraud detection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=96k0sncyoXA" target="_blank" rel="noopener noreferrer">How it works: Visa’s artificial intelligence (A.I.) for payment authorization and fraud detection</a></p><p class="youtube-embed-meta">Channel: VisaCommunication</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=96k0sncyoXA" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=96k0sncyoXA">Open on YouTube</a></p></div></div></div>
 
 ## The Governance Challenge Behind Fraud Flags
 
-As fraudsters increasingly use AI themselves—including sophisticated impersonation techniques, automated scam campaigns and synthetic identities—financial institutions face pressure to strengthen detection capabilities. Recent UK fraud reporting has highlighted growing concerns about AI-enabled scams and the scale of financial losses they can generate. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/money/2026/jun/15/investment-fraud-uk-more-than-220m-lost-last-year-scams-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Nearly 15,000 scams were reported, often involving false opportunities in gold, property, cryptocurrencies, carbon credits, and wine. Cri...</span></span></span>
+As fraudsters increasingly use AI themselves—including sophisticated impersonation techniques, automated scam campaigns and synthetic identities—financial institutions face pressure to strengthen detection capabilities. Recent UK fraud reporting has highlighted growing concerns about AI-enabled scams and the scale of financial losses they can generate.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/money/2026/jun/15/investment-fraud-uk-more-than-220m-lost-last-year-scams-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Nearly 15,000 scams were reported, often involving false opportunities in gold, property, cryptocurrencies, carbon credits, and wine. Cri...</span></span></span>
 
 This pressure can encourage more aggressive fraud controls, but stronger detection alone is not enough. The central governance challenge is balancing security with fairness. A system that approves every transaction would eliminate false declines but invite fraud. A system that blocks every unusual transaction would reduce fraud but create unacceptable disruption for legitimate users.
 
-The practical solution is neither complete automation nor complete reliance on human judgement. Instead, modern fraud programmes increasingly combine AI-based risk scoring with appeals processes, human escalation, performance monitoring and accountability requirements. The strongest systems treat a fraud flag as the beginning of a review process rather than the final word on whether a customer should be able to access their money. Consumer Financial Protection Bureau+3Mastercard+3Visa Corporate <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[mastercard.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Unlike traditional rule</span><span class="citation-popover-snippet">AI is helping banks save millions by transforming payment...6 Feb 2026 — AI improves payment fraud detection by quickly analyz...</span></span></span>
+The practical solution is neither complete automation nor complete reliance on human judgement. Instead, modern fraud programmes increasingly combine AI-based risk scoring with appeals processes, human escalation, performance monitoring and accountability requirements. The strongest systems treat a fraud flag as the beginning of a review process rather than the final word on whether a customer should be able to access their money. Consumer Financial Protection Bureau+3Mastercard+3Visa Corporate<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mastercard.com">[mastercard.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mastercard.com</span><span class="citation-popover-title">Unlike traditional rule</span><span class="citation-popover-snippet">AI is helping banks save millions by transforming payment...6 Feb 2026 — AI improves payment fraud detection by quickly analyz...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50-Illustration-3-dark.svg" | relative_url }}" alt="Fraud Flags illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_everyday_ai_u_c3e17f_fraud_ai_paym_5f6a50-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why Fraud AI Still Needs Appeals. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why Fraud AI Still Needs Appeals. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hello World on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5l2NEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hello World" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hello World">Hello World</a>
-        </h4>
-        <p class="fr-book-author">By Hannah Fry</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hello World on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5l2NEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hello World" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hello World">Hello World</a>
+</h4>
+<p class="fr-book-author">By Hannah Fry</p>
         
-        <p class="fr-book-desc">Discusses how algorithmic decisions affect real people and why human review matters.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses how algorithmic decisions affect real people and why human review matters.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hello+World+by+Hannah+Fry&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Black Box Society on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=TumaBQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Black Box Society" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Black Box Society">The Black Box Society</a>
-        </h4>
-        <p class="fr-book-author">By Frank Pasquale</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Black Box Society on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=TumaBQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Black Box Society" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Black Box Society">The Black Box Society</a>
+</h4>
+<p class="fr-book-author">By Frank Pasquale</p>
         
-        <p class="fr-book-desc">Explores opaque automated systems and the need for oversight and accountability.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores opaque automated systems and the need for oversight and accountability.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Black+Box+Society+by+Frank+Pasquale&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Smart+Money+Method+by+Stephen+Clapham&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Smart Money Method on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1soHEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Smart Money Method" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Smart+Money+Method+by+Stephen+Clapham&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Smart Money Method">The Smart Money Method</a>
-        </h4>
-        <p class="fr-book-author">By Stephen Clapham</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Smart+Money+Method+by+Stephen+Clapham&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Smart Money Method on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=1soHEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Smart Money Method" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Smart+Money+Method+by+Stephen+Clapham&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Smart Money Method">The Smart Money Method</a>
+</h4>
+<p class="fr-book-author">By Stephen Clapham</p>
         
-        <p class="fr-book-desc">Explains risk assessment, detection of warning signs, and decision-making under uncertainty.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Smart+Money+Method+by+Stephen+Clapham&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains risk assessment, detection of warning signs, and decision-making under uncertainty.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Smart+Money+Method+by+Stephen+Clapham&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Directly examines algorithmic decisions, errors, transparency, and appeals.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly examines algorithmic decisions, errors, transparency, and appeals.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hello+World&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hello World</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Black+Box+Society&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Black Box Society</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Smart+Money+Method&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Smart Money Method</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hello+World&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hello World</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Black+Box+Society&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Black Box Society</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Smart+Money+Method&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Smart Money Method</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486"><img src="{{ '/assets/images/marketplace-covers/e454bb0a0a526ab88157.jpg' | relative_url }}" alt="Listing image for Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486"><img src="{{ '/assets/images/marketplace-covers/e454bb0a0a526ab88157.jpg' | relative_url }}" alt="Listing image for Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Binary It&#x27;s As Easy As 01 10 11 Computer Science Sticker #5486</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt"><img src="{{ '/assets/images/marketplace-covers/fb7da36081682aadc04b.jpg' | relative_url }}" alt="Listing image for What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt"><img src="{{ '/assets/images/marketplace-covers/fb7da36081682aadc04b.jpg' | relative_url }}" alt="Listing image for What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">What Part of Don_t You Understand Computer Science Lovers Gift Unisex T-Shirt</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)"><img src="{{ '/assets/images/marketplace-covers/dd6377a3b134b6e96420.jpg' | relative_url }}" alt="Listing image for Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)"><img src="{{ '/assets/images/marketplace-covers/dd6377a3b134b6e96420.jpg' | relative_url }}" alt="Listing image for Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">Decal/Decal: Computer Science Engineering Mathematics No Question (210816189)</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone"><img src="{{ '/assets/images/marketplace-covers/0435e3c1eec51d679a89.jpg' | relative_url }}" alt="Listing image for 50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for 50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone"><img src="{{ '/assets/images/marketplace-covers/0435e3c1eec51d679a89.jpg' | relative_url }}" alt="Listing image for 50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">50PCS Programming Stickers Coding Python Java Computer Science Laptop DIY Phone</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science sticker">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science sticker</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+sticker&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science sticker" data-ebay-reference="fraud-flags-why-fraud-ai-still-needs-appeals-understanding-computer-science-sticker" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -586,7 +586,7 @@ The practical solution is neither complete automation nor complete reliance on h
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -606,7 +606,7 @@ The practical solution is neither complete automation nor complete reliance on h
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -638,7 +638,7 @@ The practical solution is neither complete automation nor complete reliance on h
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -690,7 +690,7 @@ The practical solution is neither complete automation nor complete reliance on h
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -735,7 +735,7 @@ The practical solution is neither complete automation nor complete reliance on h
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -776,241 +776,241 @@ The practical solution is neither complete automation nor complete reliance on h
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: lseg.com  
    Title: Fraud Detection in Finance  
-   Link: <a href="https://www.lseg.com/en/risk-intelligence/glossary/financial-crime/fraud-detection" target="_blank" rel="noopener noreferrer nofollow">https://www.lseg.com/en/risk-intelligence/glossary/financial-crime/fraud-detection</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Fraud Detection in Finance - GlossaryLearn how fraud detection protects against financial crimes using methods like AI, KYC, and AML...</p></details>
+   Link:<a href="https://www.lseg.com/en/risk-intelligence/glossary/financial-crime/fraud-detection" target="_blank" rel="noopener noreferrer nofollow">https://www.lseg.com/en/risk-intelligence/glossary/financial-crime/fraud-detection</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fraud Detection in Finance - GlossaryLearn how fraud detection protects against financial crimes using methods like AI, KYC, and AML...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: mastercard.com  
    Title: Unlike traditional rule  
-   Link: <a href="https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI is helping banks save millions by transforming payment...6 Feb 2026 — AI improves payment fraud detection by quickly analyz...</p></details>
+   Link:<a href="https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en/news-and-trends/Insights/2026/ai-is-helping-banks-save-millions-by-transforming-payment-fraud-prevention.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI is helping banks save millions by transforming payment...6 Feb 2026 — AI improves payment fraud detection by quickly analyz...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: corporate.visa.com  
-   Link: <a href="https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Visa CorporateThe future of fraud detection: smarter, faster, safer | VisaDiscover how AI and machine learning are reshaping fraud detect...</p></details>
+   Link:<a href="https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html" target="_blank" rel="noopener noreferrer nofollow">https://corporate.visa.com/en/solutions/visa-protect/insights/fraud-detection.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Visa CorporateThe future of fraud detection: smarter, faster, safer | VisaDiscover how AI and machine learning are reshaping fraud detect...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/sg/en/[business" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/sg/en/[business</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more...</p></details>
+   Link:<a href="https://www.mastercard.com/sg/en/[business" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/sg/en/[business</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more...</p></details>
+   Link:<a href="https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/us/en/business/cybersecurity-fraud-prevention/risk-decisioning/decision-intelligence.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Make better approve/decline decisions with intelligence designed to increase accuracy and precision of fraud detection.Read more...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv Investigation of 3-D Secure's Model for Fraud Detection  
-   Link: <a href="https://arxiv.org/abs/2009.12390" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2009.12390</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Investigation of 3-D Secure&#x27;s Model for Fraud DetectionSeptember 25, 2020...</p></details>
+   Link:<a href="https://arxiv.org/abs/2009.12390" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2009.12390</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Investigation of 3-D Secure&#x27;s Model for Fraud DetectionSeptember 25, 2020...</p></details>
    Published: September 25, 2020  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/global/en/business/payments/merchant-cloud/insights/ai-optimization.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en/business/payments/merchant-cloud/insights/ai-optimization.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>How AI driven fraud solutions and payment optimization...3 days ago — Static or overly constrictive fraud controls can block l...</p></details>
+   Link:<a href="https://www.mastercard.com/global/en/business/payments/merchant-cloud/insights/ai-optimization.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en/business/payments/merchant-cloud/insights/ai-optimization.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How AI driven fraud solutions and payment optimization...3 days ago — Static or overly constrictive fraud controls can block l...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: fca.org.uk  
-   Link: <a href="https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>October 30, 2023 — 7 Nov 2023 — This publication sets out the key findings from our review of how firms mitigate the risks of APP fraud a...</p></details>
+   Link:<a href="https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud" target="_blank" rel="noopener noreferrer nofollow">https://www.fca.org.uk/publications/multi-firm-reviews/anti-fraud-controls-complaint-handling-firms-focus-app-fraud</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>October 30, 2023 — 7 Nov 2023 — This publication sets out the key findings from our review of how firms mitigate the risks of APP fraud a...</p></details>
    Published: October 30, 2023  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/in/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/in/en.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A global technology company in the payments...We connect and power a digital economy that benefits individuals, enterprises...</p></details>
+   Link:<a href="https://www.mastercard.com/in/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/in/en.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A global technology company in the payments...We connect and power a digital economy that benefits individuals, enterprises...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/global/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A global technology company in the payments industryWe connect and power a digital economy that benefits people, businesses and governmen...</p></details>
+   Link:<a href="https://www.mastercard.com/global/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/global/en.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A global technology company in the payments industryWe connect and power a digital economy that benefits people, businesses and governmen...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: mastercard.com  
    Title: US | Mastercard  
-   Link: <a href="https://www.mastercard.com/us/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/us/en.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard US | Mastercard - A global technology company in...We connect and power a digital economy that benefits people, businesses an...</p></details>
+   Link:<a href="https://www.mastercard.com/us/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/us/en.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard US | Mastercard - A global technology company in...We connect and power a digital economy that benefits people, businesses an...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/mea/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/mea/en.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>By modernising payments, improving access to capital and providing innovative, digital services, Mastercard empowers SMEs to build...Re...</p></details>
+   Link:<a href="https://www.mastercard.com/mea/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/mea/en.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>By modernising payments, improving access to capital and providing innovative, digital services, Mastercard empowers SMEs to build...Re...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: redemption.mastercard.com  
-   Link: <a href="https://redemption.mastercard.com/" target="_blank" rel="noopener noreferrer nofollow">https://redemption.mastercard.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>mastercard.comMastercardWe&#x27;re sorry but choose_shop doesn&#x27;t work properly without JavaScript enabled. Please enable it to continue. Manag...</p></details>
+   Link:<a href="https://redemption.mastercard.com/" target="_blank" rel="noopener noreferrer nofollow">https://redemption.mastercard.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>mastercard.comMastercardWe&#x27;re sorry but choose_shop doesn&#x27;t work properly without JavaScript enabled. Please enable it to continue. Manag...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: mastercard.com  
-   Link: <a href="https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Differentiated insights.Read more...</p></details>
+   Link:<a href="https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.com/content/dam/mccom/shared/business/b2b/reports/decision-intelligence-beyond-mastercard-playbook.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Differentiated insights.Read more...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: youtube.com  
-   Link: <a href="http://www.youtube.com/watch?v=96k0sncyoXA" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=96k0sncyoXA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard accelerates card fraud detection with [generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) technology...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=96k0sncyoXA" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=96k0sncyoXA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard accelerates card fraud detection with [generative AI](&amp;#123;&amp;#123; &#x27;generative-ai/&#x27; | relative_url &amp;#125;&amp;#125;) technology...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
    Title: Mastercard accelerates card fraud detection with generative AI technology  
-   Link: <a href="http://www.youtube.com/watch?v=X5cVaJVMayM" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=X5cVaJVMayM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI fraud detection false positives false declines payment processing Mastering Financial Fraud Detection: Reducing False Positives with A...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=X5cVaJVMayM" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=X5cVaJVMayM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI fraud detection false positives false declines payment processing Mastering Financial Fraud Detection: Reducing False Positives with A...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: businessinsider.com  
-   Link: <a href="https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers-2025-5" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers-2025-5</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-driven solutions have been part of Mastercard&#x27;s security tools for over a decade, with the current systems analyzing up to 160 billion...</p></details>
+   Link:<a href="https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/mastercard-ai-credit-card-fraud-detection-protects-consumers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-driven solutions have been part of Mastercard&#x27;s security tools for over a decade, with the current systems analyzing up to 160 billion...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: fintechfutures.com  
-   Link: <a href="https://www.fintechfutures.com/ai-in-fintech/mastercard-battles-fraud-false-declines-with-ai-based-tool" target="_blank" rel="noopener noreferrer nofollow">https://www.fintechfutures.com/ai-in-fintech/mastercard-battles-fraud-false-declines-with-ai-based-tool</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard Battles Fraud, False Declines with AI-Based ToolMastercard is employing artificial intelligence to improve the accuracy of rea...</p></details>
+   Link:<a href="https://www.fintechfutures.com/ai-in-fintech/mastercard-battles-fraud-false-declines-with-ai-based-tool" target="_blank" rel="noopener noreferrer nofollow">https://www.fintechfutures.com/ai-in-fintech/mastercard-battles-fraud-false-declines-with-ai-based-tool</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard Battles Fraud, False Declines with AI-Based ToolMastercard is employing artificial intelligence to improve the accuracy of rea...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: businessinsider.com  
-   Link: <a href="https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions-2025-7" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions-2025-7</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These older systems often incorrectly decline legitimate transactions, leading to lost revenue and customer dissatisfaction. TickPick, an...</p></details>
+   Link:<a href="https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/riskified-ai-fraud-detection-tickpick-falsely-declined-transactions</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These older systems often incorrectly decline legitimate transactions, leading to lost revenue and customer dissatisfaction. TickPick, an...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: consumerfinance.gov  
    Title: innovation spotlight providing adverse action notices when using ai ml models  
-   Link: <a href="https://www.consumerfinance.gov/about-us/blog/innovation-spotlight-providing-adverse-action-notices-when-using-ai-ml-models/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/about-us/blog/innovation-spotlight-providing-adverse-action-notices-when-using-ai-ml-models/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Protection BureauProviding adverse action notices when using AI/ML modelsJul 7, 2020 — This blog conveys an incomplete...</p></details>
+   Link:<a href="https://www.consumerfinance.gov/about-us/blog/innovation-spotlight-providing-adverse-action-notices-when-using-ai-ml-models/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/about-us/blog/innovation-spotlight-providing-adverse-action-notices-when-using-ai-ml-models/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Protection BureauProviding adverse action notices when using AI/ML modelsJul 7, 2020 — This blog conveys an incomplete...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: consumerfinance.gov  
-   Link: <a href="https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Protection BureauConsumer Financial Protection Circular 2022-03May 26, 2022 — ECOA and Regulation B require creditors...</p></details>
+   Link:<a href="https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Protection BureauConsumer Financial Protection Circular 2022-03May 26, 2022 — ECOA and Regulation B require creditors...</p></details>
    Published: May 26, 2022  
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/society/article/2024/jun/23/dwp-algorithm-wrongly-flags-200000-people-possible-fraud-error" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/society/article/2024/jun/23/dwp-algorithm-wrongly-flags-200000-people-possible-fraud-error</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Official figures, revealed through freedom of information laws, indicate that two-thirds of these flagged claims were legitimate. Consequ...</p></details>
+   Link:<a href="https://www.theguardian.com/society/article/2024/jun/23/dwp-algorithm-wrongly-flags-200000-people-possible-fraud-error" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/society/article/2024/jun/23/dwp-algorithm-wrongly-flags-200000-people-possible-fraud-error</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Official figures, revealed through freedom of information laws, indicate that two-thirds of these flagged claims were legitimate. Consequ...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/money/2026/jun/15/investment-fraud-uk-more-than-220m-lost-last-year-scams-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/money/2026/jun/15/investment-fraud-uk-more-than-220m-lost-last-year-scams-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Nearly 15,000 scams were reported, often involving false opportunities in gold, property, cryptocurrencies, carbon credits, and wine. Cri...</p></details>
+   Link:<a href="https://www.theguardian.com/money/2026/jun/15/investment-fraud-uk-more-than-220m-lost-last-year-scams-ai" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/money/2026/jun/15/investment-fraud-uk-more-than-220m-lost-last-year-scams-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Nearly 15,000 scams were reported, often involving false opportunities in gold, property, cryptocurrencies, carbon credits, and wine. Cri...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: consumerfinance.gov  
    Title: CFP B Acts to Protect the Public from Black-Box Credit Models Using  
-   Link: <a href="https://www.consumerfinance.gov/about-us/newsroom/cfpb-acts-to-protect-the-public-from-black-box-credit-models-using-complex-algorithms/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/about-us/newsroom/cfpb-acts-to-protect-the-public-from-black-box-credit-models-using-complex-algorithms/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Acts to Protect the Public from Black-Box Credit Models Using...May 26, 2022 — Companies relying on complex algorithms must provide...</p></details>
+   Link:<a href="https://www.consumerfinance.gov/about-us/newsroom/cfpb-acts-to-protect-the-public-from-black-box-credit-models-using-complex-algorithms/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/about-us/newsroom/cfpb-acts-to-protect-the-public-from-black-box-credit-models-using-complex-algorithms/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Acts to Protect the Public from Black-Box Credit Models Using...May 26, 2022 — Companies relying on complex algorithms must provide...</p></details>
    Published: May 26, 2022  
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: mastercard.co.kr  
-   Link: <a href="https://www.mastercard.co.kr/ko-kr.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.co.kr/ko-kr.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>결제 분야의 글로벌 기술 선도 기업우리는 안전하고 간편하며 손쉽게 접근 가능한 결제를 통해 전 세계 소비자, 사업자 및 정부에 도움이 되는 포용적인 디지털 경제를 연결하고 이끌어가고 있습니다...</p></details>
+   Link:<a href="https://www.mastercard.co.kr/ko-kr.html" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercard.co.kr/ko-kr.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>결제 분야의 글로벌 기술 선도 기업우리는 안전하고 간편하며 손쉽게 접근 가능한 결제를 통해 전 세계 소비자, 사업자 및 정부에 도움이 되는 포용적인 디지털 경제를 연결하고 이끌어가고 있습니다...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: consumerfinance.gov  
-   Link: <a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Protection Bureau28 May 2026 — The CFPB supervises covered financial institutions to assess compliance with federal co...</p></details>
+   Link:<a href="https://www.consumerfinance.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Protection Bureau28 May 2026 — The CFPB supervises covered financial institutions to assess compliance with federal co...</p></details>
    Published: May 2026  
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: consumerfinance.gov  
-   Link: <a href="https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-wells-fargo-to-pay-37-billion-for-widespread-mismanagement-of-auto-loans-mortgages-and-deposit-accounts/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-wells-fargo-to-pay-37-billion-for-widespread-mismanagement-of-auto-loans-mortgages-and-deposit-accounts/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Orders Wells Fargo to Pay $3.7 Billion for...Dec 20, 2022 — CFPB is ordering Wells Fargo Bank to pay more than $2 billion in redres...</p></details>
+   Link:<a href="https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-wells-fargo-to-pay-37-billion-for-widespread-mismanagement-of-auto-loans-mortgages-and-deposit-accounts/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/about-us/newsroom/cfpb-orders-wells-fargo-to-pay-37-billion-for-widespread-mismanagement-of-auto-loans-mortgages-and-deposit-accounts/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Orders Wells Fargo to Pay $3.7 Billion for...Dec 20, 2022 — CFPB is ordering Wells Fargo Bank to pay more than $2 billion in redres...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: consumerfinance.gov  
-   Link: <a href="https://www.consumerfinance.gov/about-us/newsroom/cfpb-comment-on-request-for-information-on-uses-opportunities-and-risks-of-artificial-intelligence-in-the-financial-services-sector/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/about-us/newsroom/cfpb-comment-on-request-for-information-on-uses-opportunities-and-risks-of-artificial-intelligence-in-the-financial-services-sector/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Comment on Request for Information on Uses...Aug 12, 2024 — Companies using emerging technologies, including those marketed as “ar...</p></details>
+   Link:<a href="https://www.consumerfinance.gov/about-us/newsroom/cfpb-comment-on-request-for-information-on-uses-opportunities-and-risks-of-artificial-intelligence-in-the-financial-services-sector/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinance.gov/about-us/newsroom/cfpb-comment-on-request-for-information-on-uses-opportunities-and-risks-of-artificial-intelligence-in-the-financial-services-sector/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Comment on Request for Information on Uses...Aug 12, 2024 — Companies using emerging technologies, including those marketed as “ar...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: openbankingexpo.com  
    Title: mastercard harnesses gen ai to detect fraud  
-   Link: <a href="https://www.openbankingexpo.com/news/mastercard-harnesses-gen-ai-to-detect-fraud/" target="_blank" rel="noopener noreferrer nofollow">https://www.openbankingexpo.com/news/mastercard-harnesses-gen-ai-to-detect-fraud/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>2 Feb 2024 — Mastercard is adopting new generative AI technology to enhance fraud detection and better protect consumers.Read more...</p></details>
+   Link:<a href="https://www.openbankingexpo.com/news/mastercard-harnesses-gen-ai-to-detect-fraud/" target="_blank" rel="noopener noreferrer nofollow">https://www.openbankingexpo.com/news/mastercard-harnesses-gen-ai-to-detect-fraud/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>2 Feb 2024 — Mastercard is adopting new generative AI technology to enhance fraud detection and better protect consumers.Read more...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Mastercard" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Mastercard</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>MastercardThroughout the world, its principal business is to process payments between the banks of merchants and the card-issuing bank...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Mastercard" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Mastercard</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MastercardThroughout the world, its principal business is to process payments between the banks of merchants and the card-issuing bank...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: mastercardconnect.com  
-   Link: <a href="https://www.mastercardconnect.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercardconnect.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard ConnectMastercard Connect is designed to help our partners—business customers like you. Whether you&#x27;re an issuer, acquirer, se...</p></details>
+   Link:<a href="https://www.mastercardconnect.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercardconnect.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastercard ConnectMastercard Connect is designed to help our partners—business customers like you. Whether you&#x27;re an issuer, acquirer, se...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: mastercardservices.com  
-   Link: <a href="https://www.mastercardservices.com/en/industries/financial-institutions/insights/fight-fraud-real-time-product-level-data" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercardservices.com/en/industries/financial-institutions/insights/fight-fraud-real-time-product-level-data</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Fight Fraud With Real-Time, Product-Level DataAnd since many fraud tools incorporate artificial intelligence, they improve their accuracy...</p></details>
+   Link:<a href="https://www.mastercardservices.com/en/industries/financial-institutions/insights/fight-fraud-real-time-product-level-data" target="_blank" rel="noopener noreferrer nofollow">https://www.mastercardservices.com/en/industries/financial-institutions/insights/fight-fraud-real-time-product-level-data</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Fight Fraud With Real-Time, Product-Level DataAnd since many fraud tools incorporate artificial intelligence, they improve their accuracy...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: mastercardbelgium.prezly.com  
    Title: mastercard rolls out artificial intelligence across its global network  
-   Link: <a href="https://mastercardbelgium.prezly.com/mastercard-rolls-out-artificial-intelligence-across-its-global-network" target="_blank" rel="noopener noreferrer nofollow">https://mastercardbelgium.prezly.com/mastercard-rolls-out-artificial-intelligence-across-its-global-network</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>alone, the value of false declines is more than 13 times the total amount lost to actual card fraud,” said Al Pascual, senior vice...Rea...</p></details>
+   Link:<a href="https://mastercardbelgium.prezly.com/mastercard-rolls-out-artificial-intelligence-across-its-global-network" target="_blank" rel="noopener noreferrer nofollow">https://mastercardbelgium.prezly.com/mastercard-rolls-out-artificial-intelligence-across-its-global-network</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>alone, the value of false declines is more than 13 times the total amount lost to actual card fraud,” said Al Pascual, senior vice...Rea...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: GOV.UK  
    Title: www.gov.uk PSF A Standards  
-   Link: <a href="https://www.gov.uk/government/publications/practitioners-standard-for-fraud-detection/psfa-standards-standard-for-fraud-detection-practitioners-html" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/government/publications/practitioners-standard-for-fraud-detection/psfa-standards-standard-for-fraud-detection-practitioners-html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Standards - Standard for Fraud Detection...27 May 2025 — Detection practitioners must use their own skills and experience, as detection...</p></details>
+   Link:<a href="https://www.gov.uk/government/publications/practitioners-standard-for-fraud-detection/psfa-standards-standard-for-fraud-detection-practitioners-html" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/government/publications/practitioners-standard-for-fraud-detection/psfa-standards-standard-for-fraud-detection-practitioners-html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Standards - Standard for Fraud Detection...27 May 2025 — Detection practitioners must use their own skills and experience, as detection...</p></details>
    Published: May 2025  
 
 ### Additional References
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: riddlecompliance.com  
-   Link: <a href="https://riddlecompliance.com/ai-and-consumer-finance-how-cfpb-is-regulating-emerging-tech/" target="_blank" rel="noopener noreferrer nofollow">https://riddlecompliance.com/ai-and-consumer-finance-how-cfpb-is-regulating-emerging-tech/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI and Consumer Finance: How CFPB Is Regulating...Explore how AI impacts consumer finance and what CFPB is doing to ensure fairness, tra...</p></details>
+   Link:<a href="https://riddlecompliance.com/ai-and-consumer-finance-how-cfpb-is-regulating-emerging-tech/" target="_blank" rel="noopener noreferrer nofollow">https://riddlecompliance.com/ai-and-consumer-finance-how-cfpb-is-regulating-emerging-tech/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI and Consumer Finance: How CFPB Is Regulating...Explore how AI impacts consumer finance and what CFPB is doing to ensure fairness, tra...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: jonesday.com  
-   Link: <a href="https://www.jonesday.com/en/insights/2023/10/cfpb-issues-aiinvolved-adverse-actions-guidance" target="_blank" rel="noopener noreferrer nofollow">https://www.jonesday.com/en/insights/2023/10/cfpb-issues-aiinvolved-adverse-actions-guidance</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Issues AI-Involved Adverse Actions GuidanceThe CFPB issued guidance for creditors that utilize AI and related complex modelling in t...</p></details>
+   Link:<a href="https://www.jonesday.com/en/insights/2023/10/cfpb-issues-aiinvolved-adverse-actions-guidance" target="_blank" rel="noopener noreferrer nofollow">https://www.jonesday.com/en/insights/2023/10/cfpb-issues-aiinvolved-adverse-actions-guidance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Issues AI-Involved Adverse Actions GuidanceThe CFPB issued guidance for creditors that utilize AI and related complex modelling in t...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: consumercouncil.org.uk  
-   Link: <a href="https://www.consumercouncil.org.uk/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumercouncil.org.uk/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Council for Northern IrelandWe are the statutory consumer body for Northern Ireland. We provide advice and information, investig...</p></details>
+   Link:<a href="https://www.consumercouncil.org.uk/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumercouncil.org.uk/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Council for Northern IrelandWe are the statutory consumer body for Northern Ireland. We provide advice and information, investig...</p></details>
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: ukfinance.org.uk  
-   Link: <a href="https://www.ukfinance.org.uk/events-training/lessons-in-building-best-in-class-fraud-solution" target="_blank" rel="noopener noreferrer nofollow">https://www.ukfinance.org.uk/events-training/lessons-in-building-best-in-class-fraud-solution</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Lessons in Building a Best-in-Class Fraud SolutionJoin us for an insightful webinar, where we delve into the critical strategies and inno...</p></details>
+   Link:<a href="https://www.ukfinance.org.uk/events-training/lessons-in-building-best-in-class-fraud-solution" target="_blank" rel="noopener noreferrer nofollow">https://www.ukfinance.org.uk/events-training/lessons-in-building-best-in-class-fraud-solution</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Lessons in Building a Best-in-Class Fraud SolutionJoin us for an insightful webinar, where we delve into the critical strategies and inno...</p></details>
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: ofcom.org.uk  
-   Link: <a href="https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/consultation-online-safety---additional-safety-measures/responses/uk-finance.pdf?v=409245" target="_blank" rel="noopener noreferrer nofollow">https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/consultation-online-safety---additional-safety-measures/responses/uk-finance.pdf?v=409245</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK FinanceThere is no modelling of false positives or appeals, while it mentions that once content that is detected to be illegal but aft...</p></details>
+   Link:<a href="https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/consultation-online-safety---additional-safety-measures/responses/uk-finance.pdf?v=409245" target="_blank" rel="noopener noreferrer nofollow">https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/consultation-online-safety---additional-safety-measures/responses/uk-finance.pdf?v=409245</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK FinanceThere is no modelling of false positives or appeals, while it mentions that once content that is detected to be illegal but aft...</p></details>
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: consumerfinancialserviceslawmonitor.com  
-   Link: <a href="https://www.consumerfinancialserviceslawmonitor.com/2023/09/cfpb-calls-for-increased-specificity-and-accuracy-on-reasons-for-credit-denials-when-lenders-employ-artificial-intelligence/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinancialserviceslawmonitor.com/2023/09/cfpb-calls-for-increased-specificity-and-accuracy-on-reasons-for-credit-denials-when-lenders-employ-artificial-intelligence/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Services Law MonitorCFPB Calls for Increased Specificity and Accuracy on...Sep 20, 2023 — The CFPB makes clear in thi...</p></details>
+   Link:<a href="https://www.consumerfinancialserviceslawmonitor.com/2023/09/cfpb-calls-for-increased-specificity-and-accuracy-on-reasons-for-credit-denials-when-lenders-employ-artificial-intelligence/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinancialserviceslawmonitor.com/2023/09/cfpb-calls-for-increased-specificity-and-accuracy-on-reasons-for-credit-denials-when-lenders-employ-artificial-intelligence/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Consumer Financial Services Law MonitorCFPB Calls for Increased Specificity and Accuracy on...Sep 20, 2023 — The CFPB makes clear in thi...</p></details>
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: consumerfinancemonitor.com  
-   Link: <a href="https://www.consumerfinancemonitor.com/2023/09/20/cfpb-revisits-adverse-action-notice-requirements-when-using-artificial-intelligence-or-complex-credit-models/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinancemonitor.com/2023/09/20/cfpb-revisits-adverse-action-notice-requirements-when-using-artificial-intelligence-or-complex-credit-models/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Revisits Adverse Action Notice Requirements When...Sep 20, 2023 — The CFPB issued Circular 2022-3 addressing Equal Credit Opportuni...</p></details>
+   Link:<a href="https://www.consumerfinancemonitor.com/2023/09/20/cfpb-revisits-adverse-action-notice-requirements-when-using-artificial-intelligence-or-complex-credit-models/" target="_blank" rel="noopener noreferrer nofollow">https://www.consumerfinancemonitor.com/2023/09/20/cfpb-revisits-adverse-action-notice-requirements-when-using-artificial-intelligence-or-complex-credit-models/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>CFPB Revisits Adverse Action Notice Requirements When...Sep 20, 2023 — The CFPB issued Circular 2022-3 addressing Equal Credit Opportuni...</p></details>
 
-42. <a id="endnote-42"></a>
+42.<a id="endnote-42"></a>
    Source: nascus.org  
-   Link: <a href="https://www.nascus.org/cfpb-summaries__trashed/circular-2023-03-adverse-action-notification-requirements-and-the-proper-use-of-the-cfpbs-sample-forms-provided-in-regulation-b/" target="_blank" rel="noopener noreferrer nofollow">https://www.nascus.org/cfpb-summaries__trashed/circular-2023-03-adverse-action-notification-requirements-and-the-proper-use-of-the-cfpbs-sample-forms-provided-in-regulation-b/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Circular 2023-03: Adverse Action Notification Requirements and the...When using artificial intelligence or complex credit models, may cr...</p></details>
+   Link:<a href="https://www.nascus.org/cfpb-summaries__trashed/circular-2023-03-adverse-action-notification-requirements-and-the-proper-use-of-the-cfpbs-sample-forms-provided-in-regulation-b/" target="_blank" rel="noopener noreferrer nofollow">https://www.nascus.org/cfpb-summaries__trashed/circular-2023-03-adverse-action-notification-requirements-and-the-proper-use-of-the-cfpbs-sample-forms-provided-in-regulation-b/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Circular 2023-03: Adverse Action Notification Requirements and the...When using artificial intelligence or complex credit models, may cr...</p></details>
 
-43. <a id="endnote-43"></a>
+43.<a id="endnote-43"></a>
    Source: goodwinlaw.com  
-   Link: <a href="https://www.goodwinlaw.com/en/insights/blogs/2024/03/interpretable-algorithms-as-a-potential-solution-to-cfpbs-guidance-on-ai-driven-credit-denials" target="_blank" rel="noopener noreferrer nofollow">https://www.goodwinlaw.com/en/insights/blogs/2024/03/interpretable-algorithms-as-a-potential-solution-to-cfpbs-guidance-on-ai-driven-credit-denials</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Interpretable Algorithms as a Potential Solution to CFPB&#x27;s...28 Mar 2024 — The Consumer Financial Protection Bureau (CFPB) issued guidan...</p></details>
+   Link:<a href="https://www.goodwinlaw.com/en/insights/blogs/2024/03/interpretable-algorithms-as-a-potential-solution-to-cfpbs-guidance-on-ai-driven-credit-denials" target="_blank" rel="noopener noreferrer nofollow">https://www.goodwinlaw.com/en/insights/blogs/2024/03/interpretable-algorithms-as-a-potential-solution-to-cfpbs-guidance-on-ai-driven-credit-denials</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Interpretable Algorithms as a Potential Solution to CFPB&#x27;s...28 Mar 2024 — The Consumer Financial Protection Bureau (CFPB) issued guidan...</p></details>
 
-44. <a id="endnote-44"></a>
+44.<a id="endnote-44"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/business/finance/britains-banks-see-fraud-cases-spike-after-refund-rules-take-effect-2026-06-14/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/business/finance/britains-banks-see-fraud-cases-spike-after-refund-rules-take-effect-2026-06-14/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>This follows the UK&#x27;s October 2024 implementation of rules mandating reimbursement of up to £85,000 for APP fraud victims, making it the...</p></details>
+   Link:<a href="https://www.reuters.com/business/finance/britains-banks-see-fraud-cases-spike-after-refund-rules-take-effect-2026-06-14/" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/business/finance/britains-banks-see-fraud-cases-spike-after-refund-rules-take-effect-2026-06-14/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This follows the UK&#x27;s October 2024 implementation of rules mandating reimbursement of up to £85,000 for APP fraud victims, making it the...</p></details>
    Published: October 2024  

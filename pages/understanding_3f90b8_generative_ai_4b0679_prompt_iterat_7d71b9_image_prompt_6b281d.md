@@ -279,13 +279,13 @@ Image-generation tools make prompt iteration unusually visible. A user can descr
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_image_prompt_6b281d-Illustration-1-dark.svg" | relative_url }}" alt="Image prompts illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_image_prompt_6b281d-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_image_prompt_6b281d-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Research, industry guidance, and user studies consistently show that successful image generation often depends on repeated refinement rather than a perfect first prompt. Users gradually specify subjects, styles, composition, lighting, colours, camera angles, and fine details while responding to what the system actually produced. The image itself becomes feedback that shapes the next instruction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helpx.adobe.com">[Adobe Help Center+2OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helpx.adobe.com</span><span class="citation-popover-title">writing effective text prompts</span><span class="citation-popover-snippet">Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</span></span></span>
+Research, industry guidance, and user studies consistently show that successful image generation often depends on repeated refinement rather than a perfect first prompt. Users gradually specify subjects, styles, composition, lighting, colours, camera angles, and fine details while responding to what the system actually produced. The image itself becomes feedback that shapes the next instruction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helpx.adobe.com">[Adobe Help Center+2OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helpx.adobe.com</span><span class="citation-popover-title">writing effective text prompts</span><span class="citation-popover-snippet">Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</span></span></span>
 
 ## From broad image ideas to specific visual briefs
 
 Most image-generation sessions begin with a relatively simple idea: a futuristic city, a fantasy landscape, a product photograph, or a character concept. Early prompts often focus on the central subject rather than every visual detail.
 
-A first prompt might be: <span class="citation-chip-wrap"><a class="citation-chip" href="https://medium.com/geekculture/what-i-learned-from-openais-course-on-prompt-engineering-prompting-guidelines-6b74f35d2695" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medium.com">[medium.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medium.com</span><span class="citation-popover-snippet">Prompt Engineering Course by OpenAIIn this first article, we will review some of the OpenAI guidelines for prompting that allow you to ma...</span></span></span>
+A first prompt might be:<span class="citation-chip-wrap"><a class="citation-chip" href="https://medium.com/geekculture/what-i-learned-from-openais-course-on-prompt-engineering-prompting-guidelines-6b74f35d2695" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: medium.com">[medium.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">medium.com</span><span class="citation-popover-snippet">Prompt Engineering Course by OpenAIIn this first article, we will review some of the OpenAI guidelines for prompting that allow you to ma...</span></span></span>
 
 > A Victorian greenhouse on Mars.
 
@@ -293,7 +293,7 @@ The resulting image gives the user something concrete to react to. After seeing 
 
 > A vast Victorian glass greenhouse on Mars at sunset, viewed from a low angle, with red dust storms in the background.
 
-As iteration continues, the prompt gradually resembles a creative brief rather than a simple description. Industry guidance from Adobe, OpenAI, and other image-generation providers encourages users to move from general concepts toward structured instructions covering subject matter, style, framing, lighting, mood, and visual details. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helpx.adobe.com">[Adobe+3Adobe Help Center+3Adobe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helpx.adobe.com</span><span class="citation-popover-title">writing effective text prompts</span><span class="citation-popover-snippet">Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</span></span></span>
+As iteration continues, the prompt gradually resembles a creative brief rather than a simple description. Industry guidance from Adobe, OpenAI, and other image-generation providers encourages users to move from general concepts toward structured instructions covering subject matter, style, framing, lighting, mood, and visual details.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helpx.adobe.com">[Adobe+3Adobe Help Center+3Adobe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helpx.adobe.com</span><span class="citation-popover-title">writing effective text prompts</span><span class="citation-popover-snippet">Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</span></span></span>
 
 A common progression looks like this:
 
@@ -308,7 +308,7 @@ A common progression looks like this:
 
 </div>
 
-Instead of imagining all these requirements in advance, users frequently discover them while reviewing generated outputs. This is one reason image prompting often feels more like directing a creative collaborator than issuing a command. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://fritz.ai/how-to-prompt-in-adobe-firefly-the-ultimate-guide/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fritz.ai">[Fritz ai+2transmedia.co.uk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fritz.ai</span><span class="citation-popover-title">how to prompt in adobe firefly the ultimate guide</span><span class="citation-popover-snippet">Start with a Clear Subject · 2. Define the Art Style · 3. Add Colors &amp; Lighting · 4. Use Camera Angles &amp; Composition · 5. Add Action &amp; Mo...</span></span></span>
+Instead of imagining all these requirements in advance, users frequently discover them while reviewing generated outputs. This is one reason image prompting often feels more like directing a creative collaborator than issuing a command.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://fritz.ai/how-to-prompt-in-adobe-firefly-the-ultimate-guide/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fritz.ai">[Fritz ai+2transmedia.co.uk]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fritz.ai</span><span class="citation-popover-title">how to prompt in adobe firefly the ultimate guide</span><span class="citation-popover-snippet">Start with a Clear Subject · 2. Define the Art Style · 3. Add Colors &amp; Lighting · 4. Use Camera Angles &amp; Composition · 5. Add Action &amp; Mo...</span></span></span>
 
 ## What users change after seeing the first image
 
@@ -331,7 +331,7 @@ Typical follow-up instructions include:
 
 </div>
 
-Because composition is immediately visible, users can evaluate it quickly and issue highly targeted corrections. Adobe's prompting guidance specifically highlights perspective, framing, and camera positioning as key controllable elements in image generation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.adobe.com/products/firefly/ai-generated-examples/image-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: adobe.com">[Adobe+2Adobe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">adobe.com</span><span class="citation-popover-title">AI image prompt examples</span><span class="citation-popover-snippet">AI image prompt examples - Adobe FireflyThese prompts use terminology around perspective, materials, lighting setups, and rendering...</span></span></span>
+Because composition is immediately visible, users can evaluate it quickly and issue highly targeted corrections. Adobe's prompting guidance specifically highlights perspective, framing, and camera positioning as key controllable elements in image generation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.adobe.com/products/firefly/ai-generated-examples/image-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: adobe.com">[Adobe+2Adobe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">adobe.com</span><span class="citation-popover-title">AI image prompt examples</span><span class="citation-popover-snippet">AI image prompt examples - Adobe FireflyThese prompts use terminology around perspective, materials, lighting setups, and rendering...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/A3Ha2Zw1cro" title="Getting Started with Writing Basic Prompts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=A3Ha2Zw1cro" target="_blank" rel="noopener noreferrer">Getting Started with Writing Basic Prompts</a></p><p class="youtube-embed-meta">Channel: Victoria White &middot; Views: 290 &middot; Uploaded: January 2025 &middot; Length: 13 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=A3Ha2Zw1cro" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=A3Ha2Zw1cro">Open on YouTube</a></p></div></div></div>
@@ -353,7 +353,7 @@ Common changes include:
 
 </div>
 
-Many prompting frameworks explicitly treat lighting as a separate control variable because it strongly affects how viewers interpret the image. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://fritz.ai/how-to-prompt-in-adobe-firefly-the-ultimate-guide/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fritz.ai">[Fritz ai+2Adobe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fritz.ai</span><span class="citation-popover-title">how to prompt in adobe firefly the ultimate guide</span><span class="citation-popover-snippet">Start with a Clear Subject · 2. Define the Art Style · 3. Add Colors &amp; Lighting · 4. Use Camera Angles &amp; Composition · 5. Add Action &amp; Mo...</span></span></span>
+Many prompting frameworks explicitly treat lighting as a separate control variable because it strongly affects how viewers interpret the image.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://fritz.ai/how-to-prompt-in-adobe-firefly-the-ultimate-guide/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fritz.ai">[Fritz ai+2Adobe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fritz.ai</span><span class="citation-popover-title">how to prompt in adobe firefly the ultimate guide</span><span class="citation-popover-snippet">Start with a Clear Subject · 2. Define the Art Style · 3. Add Colors &amp; Lighting · 4. Use Camera Angles &amp; Composition · 5. Add Action &amp; Mo...</span></span></span>
 
 ### Steering style and visual identity
 
@@ -372,7 +372,7 @@ They may shift between:
 
 </div>
 
-This kind of iteration often happens in multiple rounds because visual styles can affect many image features simultaneously. A style change may solve one problem while creating another, leading to further refinement. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helpx.adobe.com">[Adobe Help Center+2Adobe Help Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helpx.adobe.com</span><span class="citation-popover-title">writing effective text prompts</span><span class="citation-popover-snippet">Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</span></span></span>
+This kind of iteration often happens in multiple rounds because visual styles can affect many image features simultaneously. A style change may solve one problem while creating another, leading to further refinement.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helpx.adobe.com">[Adobe Help Center+2Adobe Help Center]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helpx.adobe.com</span><span class="citation-popover-title">writing effective text prompts</span><span class="citation-popover-snippet">Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_image_prompt_6b281d-Illustration-2-dark.svg" | relative_url }}" alt="Image prompts illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_image_prompt_6b281d-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_image_prompt_6b281d-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -389,7 +389,7 @@ For example, a user creating a character concept might successively adjust:
 * Accessories.
 * Pose.
 
-Each revision narrows the gap between a general concept and a specific imagined result. OpenAI's image-generation materials describe this process as rapid iteration in which users request variations and make targeted adjustments to composition, appearance, and design direction. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/academy/image-generation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">image generation</span><span class="citation-popover-snippet">Creating images with ChatGPTApr 10, 2026 — Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, an...</span></span></span>
+Each revision narrows the gap between a general concept and a specific imagined result. OpenAI's image-generation materials describe this process as rapid iteration in which users request variations and make targeted adjustments to composition, appearance, and design direction.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/academy/image-generation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">image generation</span><span class="citation-popover-snippet">Creating images with ChatGPTApr 10, 2026 — Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, an...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/WhrjJ_ibN_4" title="How to Build an OpenAI Image Generation Workflow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=WhrjJ_ibN_4" target="_blank" rel="noopener noreferrer">How to Build an OpenAI Image Generation Workflow</a></p><p class="youtube-embed-meta">Channel: The Boring Marketer &middot; Views: 677 &middot; Uploaded: May 2025 &middot; Length: 4 minutes 5 seconds</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=WhrjJ_ibN_4" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=WhrjJ_ibN_4">Open on YouTube</a></p></div></div></div>
@@ -410,7 +410,7 @@ For example:
 
 </div>
 
-This approach makes it easier to understand which instruction caused which visual change. OpenAI's image prompting guidance explicitly recommends iterative refinement rather than overloading prompts with many simultaneous modifications because smaller changes are easier to evaluate and debug. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: github.com">[GitHub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">github.com</span><span class="citation-popover-snippet">instead of overloading: Long prompts can work well, but debugging is easier when you start with a clean base prompt and refine with small...</span></span></span>
+This approach makes it easier to understand which instruction caused which visual change. OpenAI's image prompting guidance explicitly recommends iterative refinement rather than overloading prompts with many simultaneous modifications because smaller changes are easier to evaluate and debug.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: github.com">[GitHub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">github.com</span><span class="citation-popover-snippet">instead of overloading: Long prompts can work well, but debugging is easier when you start with a clean base prompt and refine with small...</span></span></span>
 
 The practice resembles experimentation. Users form a hypothesis—"the image would look better with softer lighting"—test it, inspect the result, and decide whether to keep or discard the change.
 
@@ -424,7 +424,7 @@ Image generation creates a rapid feedback loop that helps users learn how AI int
 
 A user might initially assume that "dramatic" means the same thing to the model that it means to them. After seeing several outputs, they discover that the system consistently associates the word with specific colours, lighting patterns, or compositions. They then adapt their prompts accordingly.
 
-Researchers studying image-generation workflows have found that iterative interaction helps users develop an [understanding]({{ 'understanding/' | relative_url }}) of model behaviour and achieve outputs that better match their intentions. Systems such as PromptCharm were designed specifically around this idea, using feedback and refinement loops to help users learn how prompts influence generated images. User studies reported improved alignment between generated images and user expectations when iterative refinement support was available. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.04014" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Researchers studying image-generation workflows have found that iterative interaction helps users develop an [understanding]({{ 'understanding/' | relative_url }}) of model behaviour and achieve outputs that better match their intentions. Systems such as PromptCharm were designed specifically around this idea, using feedback and refinement loops to help users learn how prompts influence generated images. User studies reported improved alignment between generated images and user expectations when iterative refinement support was available.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2403.04014" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 The learning process is often practical rather than theoretical. Users do not need to understand neural networks or diffusion models in detail. Instead, they learn relationships such as:
 
@@ -438,7 +438,7 @@ The learning process is often practical rather than theoretical. Users do not ne
 
 </div>
 
-Repeated prompting becomes a form of experimentation with the model's visual vocabulary. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helpx.adobe.com">[Adobe Help Center+2Meta AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helpx.adobe.com</span><span class="citation-popover-title">writing effective text prompts</span><span class="citation-popover-snippet">Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</span></span></span>
+Repeated prompting becomes a form of experimentation with the model's visual vocabulary.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: helpx.adobe.com">[Adobe Help Center+2Meta AI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">helpx.adobe.com</span><span class="citation-popover-title">writing effective text prompts</span><span class="citation-popover-snippet">Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/YDvOpx-XHYI" title="Going Further with Additional Image Prompting Techniques | Prompting for Generative AI | Adobe" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=YDvOpx-XHYI" target="_blank" rel="noopener noreferrer">Going Further with Additional Image Prompting Techniques | Prompting for Generative AI | Adobe</a></p><p class="youtube-embed-meta">Channel: Adobe</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=YDvOpx-XHYI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=YDvOpx-XHYI">Open on YouTube</a></p></div></div></div>
@@ -455,199 +455,199 @@ They may ask:
 
 > Show three alternative backgrounds with different moods.
 
-The goal changes from error correction to creative exploration. Multiple candidate images can inspire new ideas that were not part of the original concept. Researchers studying professional creative workflows have observed that image-generation systems are frequently used first for broad idea generation and later for detailed refinement, with different interaction styles becoming useful at different stages of a project. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2504.15189" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">LACE: Controlled Image Prompting and Iterative Refinement with GenAI for Professional Visual Art CreatorsApril 21, 2025...</span><span class="citation-popover-meta">Published: April 21, 2025</span></span></span>
+The goal changes from error correction to creative exploration. Multiple candidate images can inspire new ideas that were not part of the original concept. Researchers studying professional creative workflows have observed that image-generation systems are frequently used first for broad idea generation and later for detailed refinement, with different interaction styles becoming useful at different stages of a project.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2504.15189" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">LACE: Controlled Image Prompting and Iterative Refinement with GenAI for Professional Visual Art CreatorsApril 21, 2025...</span><span class="citation-popover-meta">Published: April 21, 2025</span></span></span>
 
-This is one reason image generation has become a prominent example of AI-assisted creativity. The prompt is not merely an input. It evolves through repeated interaction, with each generated image informing the next instruction. The final picture often reflects a chain of [decisions]({{ 'decisions/' | relative_url }}) made across many rounds rather than a single moment of inspiration. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/academy/image-generation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2wired.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">image generation</span><span class="citation-popover-snippet">Creating images with ChatGPTApr 10, 2026 — Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, an...</span></span></span>
+This is one reason image generation has become a prominent example of AI-assisted creativity. The prompt is not merely an input. It evolves through repeated interaction, with each generated image informing the next instruction. The final picture often reflects a chain of [decisions]({{ 'decisions/' | relative_url }}) made across many rounds rather than a single moment of inspiration.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/academy/image-generation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2wired.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">image generation</span><span class="citation-popover-snippet">Creating images with ChatGPTApr 10, 2026 — Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, an...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How people steer AI images one prompt at a time. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How people steer AI images one prompt at a time. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Provides broader context for AI-assisted creative workflows including image generation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides broader context for AI-assisted creative workflows including image generation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Creative+Confidence+by+Tom+Kelley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Creative Confidence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=zAJumAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Creative Confidence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Creative+Confidence+by+Tom+Kelley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Creative Confidence">Creative Confidence</a>
-        </h4>
-        <p class="fr-book-author">By Tom Kelley, David Kelley</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Creative+Confidence+by+Tom+Kelley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Creative Confidence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=zAJumAEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Creative Confidence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Creative+Confidence+by+Tom+Kelley&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Creative Confidence">Creative Confidence</a>
+</h4>
+<p class="fr-book-author">By Tom Kelley, David Kelley</p>
         
-        <p class="fr-book-desc">Aligns with learning through repeated experimentation and refinement.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Creative+Confidence+by+Tom+Kelley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Aligns with learning through repeated experimentation and refinement.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Creative+Confidence+by+Tom+Kelley&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Steal+Like+An+Artist+by+Austin+Kleon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Steal Like An Artist on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=73WqCgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Steal Like An Artist" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Steal+Like+An+Artist+by+Austin+Kleon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Steal Like An Artist">Steal Like An Artist</a>
-        </h4>
-        <p class="fr-book-author">By Austin Kleon</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Steal+Like+An+Artist+by+Austin+Kleon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Steal Like An Artist on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=73WqCgAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Steal Like An Artist" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Steal+Like+An+Artist+by+Austin+Kleon&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Steal Like An Artist">Steal Like An Artist</a>
+</h4>
+<p class="fr-book-author">By Austin Kleon</p>
         
-        <p class="fr-book-desc">Supports iterative visual idea development and creative experimentation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Steal+Like+An+Artist+by+Austin+Kleon&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Supports iterative visual idea development and creative experimentation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Steal+Like+An+Artist+by+Austin+Kleon&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Art of Prompt Engineering with ChatGPT on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Z0-hzwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Art of Prompt Engineering with ChatGPT" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Art of Prompt Engineering with ChatGPT">The Art of Prompt Engineering with ChatGPT</a>
-        </h4>
-        <p class="fr-book-author">By Nathan Hunter</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Art of Prompt Engineering with ChatGPT on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Z0-hzwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Art of Prompt Engineering with ChatGPT" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Art of Prompt Engineering with ChatGPT">The Art of Prompt Engineering with ChatGPT</a>
+</h4>
+<p class="fr-book-author">By Nathan Hunter</p>
         
-        <p class="fr-book-desc">Many prompt-design principles transfer directly to image generation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Many prompt-design principles transfer directly to image generation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Creative+Confidence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Creative Confidence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Steal+Like+An+Artist&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Steal Like An Artist</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Creative+Confidence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Creative Confidence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Steal+Like+An+Artist&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Steal Like An Artist</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/584e6830c21c579d6b70.jpg' | relative_url }}" alt="Listing image for Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/584e6830c21c579d6b70.jpg' | relative_url }}" alt="Listing image for Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence Framed Art Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for artificial intelligence Framed Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/1f4270a2c28b4260afd8.jpg' | relative_url }}" alt="Listing image for artificial intelligence Framed Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">artificial intelligence Framed Art Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for artificial intelligence Framed Art Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/1f4270a2c28b4260afd8.jpg' | relative_url }}" alt="Listing image for artificial intelligence Framed Art Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">artificial intelligence Framed Art Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4005a7e4762a7f9a9c1b.jpg' | relative_url }}" alt="Listing image for Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4005a7e4762a7f9a9c1b.jpg' | relative_url }}" alt="Listing image for Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">Copy of Artificial Intelligence Fra Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf63ca1519f106cc6880.jpg' | relative_url }}" alt="Listing image for An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/bf63ca1519f106cc6880.jpg' | relative_url }}" alt="Listing image for An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">An Artificial Intelligence Female R Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence wall art" data-ebay-reference="image-prompts-how-people-steer-ai-images-one-prompt-at-a-time-understanding-artificial-intelligence-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -663,7 +663,7 @@ This is one reason image generation has become a prominent example of AI-assiste
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -683,7 +683,7 @@ This is one reason image generation has become a prominent example of AI-assiste
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -715,7 +715,7 @@ This is one reason image generation has become a prominent example of AI-assiste
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -767,7 +767,7 @@ This is one reason image generation has become a prominent example of AI-assiste
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -812,7 +812,7 @@ This is one reason image generation has become a prominent example of AI-assiste
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -853,245 +853,245 @@ This is one reason image generation has become a prominent example of AI-assiste
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: helpx.adobe.com  
    Title: writing effective text prompts  
-   Link: <a href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow">https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</p></details>
+   Link:<a href="https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html" target="_blank" rel="noopener noreferrer nofollow">https://helpx.adobe.com/firefly/web/generate-images-with-text-to-image/generate-images-using-text-prompts/writing-effective-text-prompts.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Help CenterWrite effective text prompts for Adobe Firefly10 Apr 2026 — Learn to create descriptive, specific, and original text pro...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: OpenAI  
    Title: image generation  
-   Link: <a href="https://openai.com/academy/image-generation/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/academy/image-generation/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Creating images with ChatGPTApr 10, 2026 — Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, an...</p></details>
+   Link:<a href="https://openai.com/academy/image-generation/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/academy/image-generation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Creating images with ChatGPTApr 10, 2026 — Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, an...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2403.04014" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2403.04014</a>  
+   Link:<a href="https://arxiv.org/abs/2403.04014" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2403.04014</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: adobe.com  
    Title: AI image prompt examples  
-   Link: <a href="https://www.adobe.com/products/firefly/ai-generated-examples/image-prompts.html" target="_blank" rel="noopener noreferrer nofollow">https://www.adobe.com/products/firefly/ai-generated-examples/image-prompts.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI image prompt examples - Adobe FireflyThese prompts use terminology around perspective, materials, lighting setups, and rendering...</p></details>
+   Link:<a href="https://www.adobe.com/products/firefly/ai-generated-examples/image-prompts.html" target="_blank" rel="noopener noreferrer nofollow">https://www.adobe.com/products/firefly/ai-generated-examples/image-prompts.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI image prompt examples - Adobe FireflyThese prompts use terminology around perspective, materials, lighting setups, and rendering...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: ai.meta.com  
    Title: prompts for ai images 10 examples and tips for better results  
-   Link: <a href="https://ai.meta.com/learn/ai-creativity/prompts-for-ai-images-10-examples-and-tips-for-better-results/" target="_blank" rel="noopener noreferrer nofollow">https://ai.meta.com/learn/ai-creativity/prompts-for-ai-images-10-examples-and-tips-for-better-results/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>for AI images: 10 examples and tips for better results10 Mar 2026 — Learn how to write effective prompts for AI images to create stunning...</p></details>
+   Link:<a href="https://ai.meta.com/learn/ai-creativity/prompts-for-ai-images-10-examples-and-tips-for-better-results/" target="_blank" rel="noopener noreferrer nofollow">https://ai.meta.com/learn/ai-creativity/prompts-for-ai-images-10-examples-and-tips-for-better-results/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>for AI images: 10 examples and tips for better results10 Mar 2026 — Learn how to write effective prompts for AI images to create stunning...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: adobe.com  
    Title: generate realistic photos  
-   Link: <a href="https://www.adobe.com/learn/firefly/web/generate-realistic-photos" target="_blank" rel="noopener noreferrer nofollow">https://www.adobe.com/learn/firefly/web/generate-realistic-photos</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>with a prompt formula in Firefly1 May 2026 — Start with reference images and build out a prompt formula that controls pose, framing, ligh...</p></details>
+   Link:<a href="https://www.adobe.com/learn/firefly/web/generate-realistic-photos" target="_blank" rel="noopener noreferrer nofollow">https://www.adobe.com/learn/firefly/web/generate-realistic-photos</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>with a prompt formula in Firefly1 May 2026 — Start with reference images and build out a prompt formula that controls pose, framing, ligh...</p></details>
    Published: May 2026  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: fritz.ai  
    Title: how to prompt in adobe firefly the ultimate guide  
-   Link: <a href="https://fritz.ai/how-to-prompt-in-adobe-firefly-the-ultimate-guide/" target="_blank" rel="noopener noreferrer nofollow">https://fritz.ai/how-to-prompt-in-adobe-firefly-the-ultimate-guide/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Start with a Clear Subject · 2. Define the Art Style · 3. Add Colors &amp; Lighting · 4. Use Camera Angles &amp; Composition · 5. Add Action &amp; Mo...</p></details>
+   Link:<a href="https://fritz.ai/how-to-prompt-in-adobe-firefly-the-ultimate-guide/" target="_blank" rel="noopener noreferrer nofollow">https://fritz.ai/how-to-prompt-in-adobe-firefly-the-ultimate-guide/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Start with a Clear Subject · 2. Define the Art Style · 3. Add Colors &amp; Lighting · 4. Use Camera Angles &amp; Composition · 5. Add Action &amp; Mo...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: transmedia.co.uk  
-   Link: <a href="https://www.transmedia.co.uk/article/firefly-prompt-structures-that-work-real-examples-used-by-creative-professionals" target="_blank" rel="noopener noreferrer nofollow">https://www.transmedia.co.uk/article/firefly-prompt-structures-that-work-real-examples-used-by-creative-professionals</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Firefly Prompt Structures for Creative Teams10 Nov 2025 — Composition and camera: framing, angle, depth and negative space...</p></details>
+   Link:<a href="https://www.transmedia.co.uk/article/firefly-prompt-structures-that-work-real-examples-used-by-creative-professionals" target="_blank" rel="noopener noreferrer nofollow">https://www.transmedia.co.uk/article/firefly-prompt-structures-that-work-real-examples-used-by-creative-professionals</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Firefly Prompt Structures for Creative Teams10 Nov 2025 — Composition and camera: framing, angle, depth and negative space...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: adobe.com  
    Title: AI Art Prompts You Need to Try  
-   Link: <a href="https://www.adobe.com/uk/products/firefly/discover/ai-art-prompts.html" target="_blank" rel="noopener noreferrer nofollow">https://www.adobe.com/uk/products/firefly/discover/ai-art-prompts.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe FireflyAI art prompts can help you create compositions for product visualisations, architectural renders, concept art and much more...</p></details>
+   Link:<a href="https://www.adobe.com/uk/products/firefly/discover/ai-art-prompts.html" target="_blank" rel="noopener noreferrer nofollow">https://www.adobe.com/uk/products/firefly/discover/ai-art-prompts.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe FireflyAI art prompts can help you create compositions for product visualisations, architectural renders, concept art and much more...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: helpx.adobe.com  
    Title: Help Center Set styles for image generation  
-   Link: <a href="https://helpx.adobe.com/firefly/mobile/generate-images-with-text-to-image/customize-generated-images/set-styles-for-image-generation.html" target="_blank" rel="noopener noreferrer nofollow">https://helpx.adobe.com/firefly/mobile/generate-images-with-text-to-image/customize-generated-images/set-styles-for-image-generation.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Help CenterSet styles for image generation - Firefly10 Dec 2025 — On the home screen, tap Text to image.; Enter a text prompt in t...</p></details>
+   Link:<a href="https://helpx.adobe.com/firefly/mobile/generate-images-with-text-to-image/customize-generated-images/set-styles-for-image-generation.html" target="_blank" rel="noopener noreferrer nofollow">https://helpx.adobe.com/firefly/mobile/generate-images-with-text-to-image/customize-generated-images/set-styles-for-image-generation.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Help CenterSet styles for image generation - Firefly10 Dec 2025 — On the home screen, tap Text to image.; Enter a text prompt in t...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: developers.openai.com  
    Title: image gen models prompting guide  
-   Link: <a href="https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide" target="_blank" rel="noopener noreferrer nofollow">https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Image Generation Models Prompting GuideApr 21, 2026 — Introduction. OpenAI&#x27;s gpt-image generation models are designed for [production](&amp;#123;&amp;#123; &#x27;retrieval-failures/&#x27; | relative_url &amp;#125;&amp;#125;)-qual...</p></details>
+   Link:<a href="https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide" target="_blank" rel="noopener noreferrer nofollow">https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Image Generation Models Prompting GuideApr 21, 2026 — Introduction. OpenAI&#x27;s gpt-image generation models are designed for [production](&amp;#123;&amp;#123; &#x27;retrieval-failures/&#x27; | relative_url &amp;#125;&amp;#125;)-qual...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: github.com  
-   Link: <a href="https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb" target="_blank" rel="noopener noreferrer nofollow">https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>instead of overloading: Long prompts can work well, but debugging is easier when you start with a clean base prompt and refine with small...</p></details>
+   Link:<a href="https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb" target="_blank" rel="noopener noreferrer nofollow">https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>instead of overloading: Long prompts can work well, but debugging is easier when you start with a clean base prompt and refine with small...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2504.15189" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2504.15189</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LACE: Controlled Image Prompting and Iterative Refinement with GenAI for Professional Visual Art CreatorsApril 21, 2025...</p></details>
+   Link:<a href="https://arxiv.org/abs/2504.15189" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2504.15189</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LACE: Controlled Image Prompting and Iterative Refinement with GenAI for Professional Visual Art CreatorsApril 21, 2025...</p></details>
    Published: April 21, 2025  
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: wired.com  
-   Link: <a href="https://www.wired.com/story/dall-e-3-open-ai-chat-gpt" target="_blank" rel="noopener noreferrer nofollow">https://www.wired.com/story/dall-e-3-open-ai-chat-gpt</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The quote &#x27;Find the universe within you&#x27; is etched in bold letters across the horizon.&quot; Furthermore, OpenAI announced measures to protect...</p></details>
+   Link:<a href="https://www.wired.com/story/dall-e-3-open-ai-chat-gpt" target="_blank" rel="noopener noreferrer nofollow">https://www.wired.com/story/dall-e-3-open-ai-chat-gpt</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The quote &#x27;Find the universe within you&#x27; is etched in bold letters across the horizon.&quot; Furthermore, OpenAI announced measures to protect...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2310.08541" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.08541</a>  
+   Link:<a href="https://arxiv.org/abs/2310.08541" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.08541</a>  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2509.12446v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.12446v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Multi-Agent Based Text-to-Image Prompt Optimization15 Sept 2025 — However, to generate high-quality images, users must still craft detail...</p></details>
+   Link:<a href="https://arxiv.org/html/2509.12446v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.12446v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Multi-Agent Based Text-to-Image Prompt Optimization15 Sept 2025 — However, to generate high-quality images, users must still craft detail...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2509.13760v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.13760v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Iterative Prompt Refinement for Safer Text-to-Image...Sep 17, 2025 — This process repeats until a satisfactory image is obtained or a pr...</p></details>
+   Link:<a href="https://arxiv.org/html/2509.13760v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.13760v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Iterative Prompt Refinement for Safer Text-to-Image...Sep 17, 2025 — This process repeats until a satisfactory image is obtained or a pr...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: help.openai.com  
    Title: 10032626 prompt engineering best practices for chatgpt  
-   Link: <a href="https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt" target="_blank" rel="noopener noreferrer nofollow">https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>engineering best practices for ChatGPTThis guide provides resources to help ChatGPT users craft effective prompts for high-quality respon...</p></details>
+   Link:<a href="https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt" target="_blank" rel="noopener noreferrer nofollow">https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>engineering best practices for ChatGPTThis guide provides resources to help ChatGPT users craft effective prompts for high-quality respon...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: community.openai.com  
    Title: how are reference images used internally do i need to mention them in the prompt  
-   Link: <a href="https://community.openai.com/t/how-are-reference-images-used-internally-do-i-need-to-mention-them-in-the-prompt/1240748" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/how-are-reference-images-used-internally-do-i-need-to-mention-them-in-the-prompt/1240748</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>are reference images used internally, do I need to...Apr 24, 2025 — i have a prompt that uses two images with the edit endpoint and in i...</p></details>
+   Link:<a href="https://community.openai.com/t/how-are-reference-images-used-internally-do-i-need-to-mention-them-in-the-prompt/1240748" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/how-are-reference-images-used-internally-do-i-need-to-mention-them-in-the-prompt/1240748</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>are reference images used internally, do I need to...Apr 24, 2025 — i have a prompt that uses two images with the edit endpoint and in i...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: developers.openai.com  
    Title: prompt guidance  
-   Link: <a href="https://developers.openai.com/api/docs/guides/prompt-guidance" target="_blank" rel="noopener noreferrer nofollow">https://developers.openai.com/api/docs/guides/prompt-guidance</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>guidance | OpenAI APIThis guide focuses on prompt changes that follow from those behavior changes. The patterns here are starting points...</p></details>
+   Link:<a href="https://developers.openai.com/api/docs/guides/prompt-guidance" target="_blank" rel="noopener noreferrer nofollow">https://developers.openai.com/api/docs/guides/prompt-guidance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>guidance | OpenAI APIThis guide focuses on prompt changes that follow from those behavior changes. The patterns here are starting points...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: OpenAI  
    Title: new chatgpt images is here  
-   Link: <a href="https://openai.com/index/new-chatgpt-images-is-here/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/new-chatgpt-images-is-here/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>comThe new ChatGPT Images is here16 Dec 2025 — “GPT Image 1.5 generates high-fidelity images with strong prompt adherence, preserving com...</p></details>
+   Link:<a href="https://openai.com/index/new-chatgpt-images-is-here/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/new-chatgpt-images-is-here/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>comThe new ChatGPT Images is here16 Dec 2025 — “GPT Image 1.5 generates high-fidelity images with strong prompt adherence, preserving com...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: community.openai.com  
-   Link: <a href="https://community.openai.com/t/ways-to-prompt-consistent-image-generation-for-dall-e-api/354196" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/ways-to-prompt-consistent-image-generation-for-dall-e-api/354196</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>to prompt consistent image generation for DALL-E APISep 5, 2023 — Use adjectives, nouns, and references (both other prompts and images) w...</p></details>
+   Link:<a href="https://community.openai.com/t/ways-to-prompt-consistent-image-generation-for-dall-e-api/354196" target="_blank" rel="noopener noreferrer nofollow">https://community.openai.com/t/ways-to-prompt-consistent-image-generation-for-dall-e-api/354196</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>to prompt consistent image generation for DALL-E APISep 5, 2023 — Use adjectives, nouns, and references (both other prompts and images) w...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: adobe.com  
-   Link: <a href="https://www.adobe.com/tw/" target="_blank" rel="noopener noreferrer nofollow">https://www.adobe.com/tw/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe：創意、行銷和文件管理解決方案使用Adobe 軟體，創作精美的作品、提高工作效率，並提供引人入勝的客戶體驗。 檢視所有產品. ADOBE FOR [BUSINESS](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;). 從Adobe 開始。Read more...</p></details>
+   Link:<a href="https://www.adobe.com/tw/" target="_blank" rel="noopener noreferrer nofollow">https://www.adobe.com/tw/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe：創意、行銷和文件管理解決方案使用Adobe 軟體，創作精美的作品、提高工作效率，並提供引人入勝的客戶體驗。 檢視所有產品. ADOBE FOR [BUSINESS](&amp;#123;&amp;#123; &#x27;business-adoption/&#x27; | relative_url &amp;#125;&amp;#125;). 從Adobe 開始。Read more...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: community.adobe.com  
-   Link: <a href="https://community.adobe.com/questions-404/how-to-improve-image-quality-and-realism-in-adobe-firefly-looking-for-tips-best-practices-1477174" target="_blank" rel="noopener noreferrer nofollow">https://community.adobe.com/questions-404/how-to-improve-image-quality-and-realism-in-adobe-firefly-looking-for-tips-best-practices-1477174</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>to Improve Image Quality and Realism in...19 Nov 2025 — I’ve been spending a lot of time experimenting with Adobe Firefly recently, and...</p></details>
+   Link:<a href="https://community.adobe.com/questions-404/how-to-improve-image-quality-and-realism-in-adobe-firefly-looking-for-tips-best-practices-1477174" target="_blank" rel="noopener noreferrer nofollow">https://community.adobe.com/questions-404/how-to-improve-image-quality-and-realism-in-adobe-firefly-looking-for-tips-best-practices-1477174</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>to Improve Image Quality and Realism in...19 Nov 2025 — I’ve been spending a lot of time experimenting with Adobe Firefly recently, and...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: community.adobe.com  
    Title: how to improve prompt quality and consistency in adobe firefly 1624086  
-   Link: <a href="https://community.adobe.com/questions-404/how-to-improve-prompt-quality-and-consistency-in-adobe-firefly-1624086" target="_blank" rel="noopener noreferrer nofollow">https://community.adobe.com/questions-404/how-to-improve-prompt-quality-and-consistency-in-adobe-firefly-1624086</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>to improve prompt quality and consistency in Adobe...19 May 2026 — Has anyone noticed longer generation times or inconsistent image qual...</p></details>
+   Link:<a href="https://community.adobe.com/questions-404/how-to-improve-prompt-quality-and-consistency-in-adobe-firefly-1624086" target="_blank" rel="noopener noreferrer nofollow">https://community.adobe.com/questions-404/how-to-improve-prompt-quality-and-consistency-in-adobe-firefly-1624086</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>to improve prompt quality and consistency in Adobe...19 May 2026 — Has anyone noticed longer generation times or inconsistent image qual...</p></details>
    Published: May 2026  
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: adobe.design  
-   Link: <a href="https://adobe.design/" target="_blank" rel="noopener noreferrer nofollow">https://adobe.design/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>is the multidisciplinary, global organization behind Adobe experiences...</p></details>
+   Link:<a href="https://adobe.design/" target="_blank" rel="noopener noreferrer nofollow">https://adobe.design/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>is the multidisciplinary, global organization behind Adobe experiences...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: Wikipedia  
    Title: Adobe Inc  
-   Link: <a href="https://en.wikipedia.org/wiki/Adobe_Inc" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Adobe_Inc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Inc.It offers a wide range of programs from web design tools, photo manipulation, and vector creation to video and audio editing...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Adobe_Inc" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Adobe_Inc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Inc.It offers a wide range of programs from web design tools, photo manipulation, and vector creation to video and audio editing...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: docs.pruna.ai  
-   Link: <a href="https://docs.pruna.ai/en/stable/docs_pruna_endpoints/image_generation/advanced.html" target="_blank" rel="noopener noreferrer nofollow">https://docs.pruna.ai/en/stable/docs_pruna_endpoints/image_generation/advanced.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Generation | Pruna documentationThis comprehensive guide teaches you how to craft compelling prompts for AI image generation. Master the...</p></details>
+   Link:<a href="https://docs.pruna.ai/en/stable/docs_pruna_endpoints/image_generation/advanced.html" target="_blank" rel="noopener noreferrer nofollow">https://docs.pruna.ai/en/stable/docs_pruna_endpoints/image_generation/advanced.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generation | Pruna documentationThis comprehensive guide teaches you how to craft compelling prompts for AI image generation. Master the...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: telerik.com  
    Title: openai image generation  
-   Link: <a href="https://www.telerik.com/blogs/openai-image-generation" target="_blank" rel="noopener noreferrer nofollow">https://www.telerik.com/blogs/openai-image-generation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>10 Dec 2025 — We&#x27;ll walk through generating images from text prompts, customizing output options, iteratively refining results and displa...</p></details>
+   Link:<a href="https://www.telerik.com/blogs/openai-image-generation" target="_blank" rel="noopener noreferrer nofollow">https://www.telerik.com/blogs/openai-image-generation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>10 Dec 2025 — We&#x27;ll walk through generating images from text prompts, customizing output options, iteratively refining results and displa...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: veritaselectronicskenya.com  
-   Link: <a href="https://veritaselectronicskenya.com/blogs/news/adobe-firefly-complete-guide-to-ai-image-generation-prompts-and-creative-ai-design-in-2024?srsltid=AfmBOorf_i-cjCWVuVC9eG8lrMMMdhCjOg78PPmt0doY-EGv9LSTsKpv" target="_blank" rel="noopener noreferrer nofollow">https://veritaselectronicskenya.com/blogs/news/adobe-firefly-complete-guide-to-ai-image-generation-prompts-and-creative-ai-design-in-2024?srsltid=AfmBOorf_i-cjCWVuVC9eG8lrMMMdhCjOg78PPmt0doY-EGv9LSTsKpv</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Firefly: Complete Guide to AI Image Generation...28 Nov 2025 — An effective Firefly prompt typically follows this structure: Subje...</p></details>
+   Link:<a href="https://veritaselectronicskenya.com/blogs/news/adobe-firefly-complete-guide-to-ai-image-generation-prompts-and-creative-ai-design-in-2024?srsltid=AfmBOorf_i-cjCWVuVC9eG8lrMMMdhCjOg78PPmt0doY-EGv9LSTsKpv" target="_blank" rel="noopener noreferrer nofollow">https://veritaselectronicskenya.com/blogs/news/adobe-firefly-complete-guide-to-ai-image-generation-prompts-and-creative-ai-design-in-2024?srsltid=AfmBOorf_i-cjCWVuVC9eG8lrMMMdhCjOg78PPmt0doY-EGv9LSTsKpv</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Firefly: Complete Guide to AI Image Generation...28 Nov 2025 — An effective Firefly prompt typically follows this structure: Subje...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: capterra.com.sg  
-   Link: <a href="https://www.capterra.com.sg/software/48969/adobe-creative-cloud" target="_blank" rel="noopener noreferrer nofollow">https://www.capterra.com.sg/software/48969/adobe-creative-cloud</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Creative Cloud Pricing, Cost &amp; ReviewsAdobe Creative Cloud is a suite of creative apps and services for individuals, students, teac...</p></details>
+   Link:<a href="https://www.capterra.com.sg/software/48969/adobe-creative-cloud" target="_blank" rel="noopener noreferrer nofollow">https://www.capterra.com.sg/software/48969/adobe-creative-cloud</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Creative Cloud Pricing, Cost &amp; ReviewsAdobe Creative Cloud is a suite of creative apps and services for individuals, students, teac...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: sg.insight.com  
    Title: creative cloud  
-   Link: <a href="https://sg.insight.com/en_SG/shop/partner/adobe/creative-cloud.html" target="_blank" rel="noopener noreferrer nofollow">https://sg.insight.com/en_SG/shop/partner/adobe/creative-cloud.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Creative Cloud Suite Software | Insight SingaporeGive your teams the power of Adobe Creative Cloud software with state-of-the-art t...</p></details>
+   Link:<a href="https://sg.insight.com/en_SG/shop/partner/adobe/creative-cloud.html" target="_blank" rel="noopener noreferrer nofollow">https://sg.insight.com/en_SG/shop/partner/adobe/creative-cloud.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Creative Cloud Suite Software | Insight SingaporeGive your teams the power of Adobe Creative Cloud software with state-of-the-art t...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: img.ly  
-   Link: <a href="https://img.ly/blog/openai-gpt-4o-image-generation-api-gpt-image-1-a-complete-guide-for-creative-workflows-for-2025/" target="_blank" rel="noopener noreferrer nofollow">https://img.ly/blog/openai-gpt-4o-image-generation-api-gpt-image-1-a-complete-guide-for-creative-workflows-for-2025/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI GPT-4o Image Generation (gpt-image-1) APIApr 28, 2025 — This complete 2025 guide covers technical setup, CE.SDK integration, promp...</p></details>
+   Link:<a href="https://img.ly/blog/openai-gpt-4o-image-generation-api-gpt-image-1-a-complete-guide-for-creative-workflows-for-2025/" target="_blank" rel="noopener noreferrer nofollow">https://img.ly/blog/openai-gpt-4o-image-generation-api-gpt-image-1-a-complete-guide-for-creative-workflows-for-2025/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI GPT-4o Image Generation (gpt-image-1) APIApr 28, 2025 — This complete 2025 guide covers technical setup, CE.SDK integration, promp...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: datavizfairy.co.uk  
    Title: adobe firefly 5 tips for better [generative ai](&#123;&#123; 'generative-ai/' | relative_url &#125;&#125;) image outcomes  
-   Link: <a href="https://datavizfairy.co.uk/blog/adobe-firefly-5-tips-for-better-generative-ai-image-outcomes/" target="_blank" rel="noopener noreferrer nofollow">https://datavizfairy.co.uk/blog/adobe-firefly-5-tips-for-better-generative-ai-image-outcomes/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Firefly: 5 Tips for better Generative AI Image...28 Aug 2024 — It&#x27;s a generative AI tool that helps you quickly create custom, hig...</p></details>
+   Link:<a href="https://datavizfairy.co.uk/blog/adobe-firefly-5-tips-for-better-generative-ai-image-outcomes/" target="_blank" rel="noopener noreferrer nofollow">https://datavizfairy.co.uk/blog/adobe-firefly-5-tips-for-better-generative-ai-image-outcomes/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe Firefly: 5 Tips for better Generative AI Image...28 Aug 2024 — It&#x27;s a generative AI tool that helps you quickly create custom, hig...</p></details>
 
 ### Additional References
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/370554172_Prompt_Engineering_For_ChatGPT_A_Quick_Guide_To_Techniques_Tips_And_Best_Practices" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/370554172_Prompt_Engineering_For_ChatGPT_A_Quick_Guide_To_Techniques_Tips_And_Best_Practices</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Prompt Engineering For ChatGPT: A Quick Guide To...This article provides a comprehensive guide to mastering prompt engineering tec...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/370554172_Prompt_Engineering_For_ChatGPT_A_Quick_Guide_To_Techniques_Tips_And_Best_Practices" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/370554172_Prompt_Engineering_For_ChatGPT_A_Quick_Guide_To_Techniques_Tips_And_Best_Practices</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) Prompt Engineering For ChatGPT: A Quick Guide To...This article provides a comprehensive guide to mastering prompt engineering tec...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: openaccess.thecvf.com  
-   Link: <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_T2I-Copilot_A_Training-Free_Multi-Agent_Text-to-Image_System_for_Enhanced_Prompt_Interpretation_ICCV_2025_paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_T2I-Copilot_A_Training-Free_Multi-Agent_Text-to-Image_System_for_Enhanced_Prompt_Interpretation_ICCV_2025_paper.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>thecvf.comT2I-Copilot: A Training-Free Multi-Agent Text-to-Image System...by CY Chen · 2025 · Cited by 25 — Text-to-Image (T2I) generati...</p></details>
+   Link:<a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_T2I-Copilot_A_Training-Free_Multi-Agent_Text-to-Image_System_for_Enhanced_Prompt_Interpretation_ICCV_2025_paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://openaccess.thecvf.com/content/ICCV2025/papers/Chen_T2I-Copilot_A_Training-Free_Multi-Agent_Text-to-Image_System_for_Enhanced_Prompt_Interpretation_ICCV_2025_paper.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>thecvf.comT2I-Copilot: A Training-Free Multi-Agent Text-to-Image System...by CY Chen · 2025 · Cited by 25 — Text-to-Image (T2I) generati...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: dspy.ai  
-   Link: <a href="https://dspy.ai/tutorials/image_generation_prompting/" target="_blank" rel="noopener noreferrer nofollow">https://dspy.ai/tutorials/image_generation_prompting/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Image Generation Prompt iterationThis will take an initial desired prompt, and iteratively refine it until the image generated matches th...</p></details>
+   Link:<a href="https://dspy.ai/tutorials/image_generation_prompting/" target="_blank" rel="noopener noreferrer nofollow">https://dspy.ai/tutorials/image_generation_prompting/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Image Generation Prompt iterationThis will take an initial desired prompt, and iteratively refine it until the image generated matches th...</p></details>
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/aipartners/comments/1s6f3bd/image_prompt_refinement_guide/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/aipartners/comments/1s6f3bd/image_prompt_refinement_guide/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Image Prompt Refinement Guide: r/aipartnersImage Prompt Craft Guide. How to write prompts that actually produce high-quality images. Mos...</p></details>
+   Link:<a href="https://www.reddit.com/r/aipartners/comments/1s6f3bd/image_prompt_refinement_guide/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/aipartners/comments/1s6f3bd/image_prompt_refinement_guide/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Image Prompt Refinement Guide: r/aipartnersImage Prompt Craft Guide. How to write prompts that actually produce high-quality images. Mos...</p></details>
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/geekculture/what-i-learned-from-openais-course-on-prompt-engineering-prompting-guidelines-6b74f35d2695" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/geekculture/what-i-learned-from-openais-course-on-prompt-engineering-prompting-guidelines-6b74f35d2695</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering Course by OpenAIIn this first article, we will review some of the OpenAI guidelines for prompting that allow you to ma...</p></details>
+   Link:<a href="https://medium.com/geekculture/what-i-learned-from-openais-course-on-prompt-engineering-prompting-guidelines-6b74f35d2695" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/geekculture/what-i-learned-from-openais-course-on-prompt-engineering-prompting-guidelines-6b74f35d2695</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering Course by OpenAIIn this first article, we will review some of the OpenAI guidelines for prompting that allow you to ma...</p></details>
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=A3Ha2Zw1cro" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=A3Ha2Zw1cro</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Getting Started with Writing Basic PromptsIn this tutorial, I&#x27;ll introduce you to the art of writing basic prompts in Adobe Firefly. Lear...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=A3Ha2Zw1cro" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=A3Ha2Zw1cro</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Getting Started with Writing Basic PromptsIn this tutorial, I&#x27;ll introduce you to the art of writing basic prompts in Adobe Firefly. Lear...</p></details>
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=WhrjJ_ibN_4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=WhrjJ_ibN_4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How to Build an OpenAI Image Generation WorkflowWe&#x27;re going to walk through a brief tutorial on how you can use ChatGpt&#x27;s new GPT image 1...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=WhrjJ_ibN_4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=WhrjJ_ibN_4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How to Build an OpenAI Image Generation WorkflowWe&#x27;re going to walk through a brief tutorial on how you can use ChatGpt&#x27;s new GPT image 1...</p></details>
 
-42. <a id="endnote-42"></a>
+42.<a id="endnote-42"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40zanozanozano/definitive-guide-to-creating-an-effective-prompt-in-firefly-3-9f4229efac20" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40zanozanozano/definitive-guide-to-creating-an-effective-prompt-in-firefly-3-9f4229efac20</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Definitive Guide to Creating an Effective Prompt in Firefly 3...The prompt is simple, with a clear structure and steps that the AI consi...</p></details>
+   Link:<a href="https://medium.com/%40zanozanozano/definitive-guide-to-creating-an-effective-prompt-in-firefly-3-9f4229efac20" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40zanozanozano/definitive-guide-to-creating-an-effective-prompt-in-firefly-3-9f4229efac20</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Definitive Guide to Creating an Effective Prompt in Firefly 3...The prompt is simple, with a clear structure and steps that the AI consi...</p></details>
 
-43. <a id="endnote-43"></a>
+43.<a id="endnote-43"></a>
    Source: evolink.ai  
    Title: gpt image 1 5 guide features comparison access  
-   Link: <a href="https://evolink.ai/blog/gpt-image-1-5-guide-features-comparison-access" target="_blank" rel="noopener noreferrer nofollow">https://evolink.ai/blog/gpt-image-1-5-guide-features-comparison-access</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GPT Image 1.5 Guide25 Dec 2025 — For images containing people, GPT Image 1.5 implements facial identity preservation that maintains recog...</p></details>
+   Link:<a href="https://evolink.ai/blog/gpt-image-1-5-guide-features-comparison-access" target="_blank" rel="noopener noreferrer nofollow">https://evolink.ai/blog/gpt-image-1-5-guide-features-comparison-access</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GPT Image 1.5 Guide25 Dec 2025 — For images containing people, GPT Image 1.5 implements facial identity preservation that maintains recog...</p></details>
 
-44. <a id="endnote-44"></a>
+44.<a id="endnote-44"></a>
    Source: eatsupport.tees.ac.uk  
    Title: tees.ac.uk Adobe Firefly: User Guide  
-   Link: <a href="https://eatsupport.tees.ac.uk/staff/knowledgebase/adobe-firefly-user-guide/" target="_blank" rel="noopener noreferrer nofollow">https://eatsupport.tees.ac.uk/staff/knowledgebase/adobe-firefly-user-guide/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Firefly: User Guide - E-learning Help Guides16 Dec 2024 — Firefly&#x27;s generative AI capabilities such as generative fill, help quickly exte...</p></details>
+   Link:<a href="https://eatsupport.tees.ac.uk/staff/knowledgebase/adobe-firefly-user-guide/" target="_blank" rel="noopener noreferrer nofollow">https://eatsupport.tees.ac.uk/staff/knowledgebase/adobe-firefly-user-guide/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Firefly: User Guide - E-learning Help Guides16 Dec 2024 — Firefly&#x27;s generative AI capabilities such as generative fill, help quickly exte...</p></details>

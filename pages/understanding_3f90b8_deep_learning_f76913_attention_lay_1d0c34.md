@@ -294,7 +294,7 @@ image: /assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d
 
 ## Introduction
 
-Attention layers changed [language models]({{ 'language-models/' | relative_url }}) by altering how information moves through a neural network. Earlier sequence models, especially recurrent neural networks (RNNs) and long short-term memory networks (LSTMs), processed text one step at a time. Attention-based transformers instead allow every token in a sequence to directly examine and exchange information with other relevant tokens. This shift made training far more parallelisable, improved the handling of long-range relationships in text, and enabled the scaling that produced modern large language models. The result was not merely a performance improvement but a change in the basic mechanism used to represent language. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+Attention layers changed [language models]({{ 'language-models/' | relative_url }}) by altering how information moves through a neural network. Earlier sequence models, especially recurrent neural networks (RNNs) and long short-term memory networks (LSTMs), processed text one step at a time. Attention-based transformers instead allow every token in a sequence to directly examine and exchange information with other relevant tokens. This shift made training far more parallelisable, improved the handling of long-range relationships in text, and enabled the scaling that produced modern large language models. The result was not merely a performance improvement but a change in the basic mechanism used to represent language.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34-Illustration-1-dark.svg" | relative_url }}" alt="Attention illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -304,9 +304,9 @@ Attention layers changed [language models]({{ 'language-models/' | relative_url 
 
 Before transformers, language models usually relied on recurrence. A recurrent network reads text token by token, carrying forward an internal state that acts as a compressed memory of everything seen so far. This approach works, but it creates two important constraints.
 
-First, processing is inherently sequential. A model cannot fully process the tenth word until it has processed the ninth. That limits the amount of parallel computation available during training. Second, information from distant parts of a sentence can become harder to preserve as the sequence grows longer. Although LSTMs improved this problem, learning very long-range dependencies remained challenging. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+First, processing is inherently sequential. A model cannot fully process the tenth word until it has processed the ninth. That limits the amount of parallel computation available during training. Second, information from distant parts of a sentence can become harder to preserve as the sequence grows longer. Although LSTMs improved this problem, learning very long-range dependencies remained challenging.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-The 2017 transformer paper challenged the assumption that recurrence was necessary. Its authors proposed an architecture built entirely around attention mechanisms, removing both recurrent and convolutional sequence processing. On major machine-translation [benchmarks]({{ 'benchmarks/' | relative_url }}), the new design achieved state-of-the-art results while requiring substantially less training time and offering much greater parallelisation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The 2017 transformer paper challenged the assumption that recurrence was necessary. Its authors proposed an architecture built entirely around attention mechanisms, removing both recurrent and convolutional sequence processing. On major machine-translation [benchmarks]({{ 'benchmarks/' | relative_url }}), the new design achieved state-of-the-art results while requiring substantially less training time and offering much greater parallelisation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2NeurIPS Papers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 This was an important piece of evidence. The success of transformers showed that a language model could understand sequences without marching through them one position at a time.
 
@@ -315,13 +315,13 @@ This was an important piece of evidence. The success of transformers showed that
 
 ### How attention lets tokens exchange information
 
-An attention layer allows each token to examine other tokens in the same sequence and decide which ones matter most for the current computation. Instead of relying on a single compressed memory passed forward through time, information can travel directly between relevant positions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
+An attention layer allows each token to examine other tokens in the same sequence and decide which ones matter most for the current computation. Instead of relying on a single compressed memory passed forward through time, information can travel directly between relevant positions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
 
 Consider the sentence:
 
 *“The trophy did not fit into the suitcase because it was too small.”*
 
-[Understanding]({{ 'understanding/' | relative_url }}) the word “it” requires determining whether it refers to the trophy or the suitcase. In an attention-based model, the representation of “it” can directly incorporate information from both nouns and assign more weight to whichever one best matches the context. The connection does not need to pass through every intermediate word. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
+[Understanding]({{ 'understanding/' | relative_url }}) the word “it” requires determining whether it refers to the trophy or the suitcase. In an attention-based model, the representation of “it” can directly incorporate information from both nouns and assign more weight to whichever one best matches the context. The connection does not need to pass through every intermediate word.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
 
 This mechanism is called [self-attention]({{ 'self-attention/' | relative_url }}) because the sequence attends to itself. Each token produces signals that help determine:
 
@@ -334,7 +334,7 @@ This mechanism is called [self-attention]({{ 'self-attention/' | relative_url }}
 
 </div>
 
-Because every token can interact with many others simultaneously, the model can capture relationships across an entire sentence or document more efficiently than many earlier architectures. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
+Because every token can interact with many others simultaneously, the model can capture relationships across an entire sentence or document more efficiently than many earlier architectures.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34-Illustration-2-dark.svg" | relative_url }}" alt="Attention illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -342,13 +342,13 @@ Because every token can interact with many others simultaneously, the model can 
 
 Transformers do not use a single attention calculation. Instead, they employ multiple attention heads operating in parallel. Each head can learn a different pattern of relationships.
 
-One head may focus on grammatical agreement between subjects and verbs. Another may focus on references between [pronouns]({{ 'pronouns/' | relative_url }}) and nouns. A third may specialise in nearby context while another tracks distant context. These specialised views are then combined into a richer representation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
+One head may focus on grammatical agreement between subjects and verbs. Another may focus on references between [pronouns]({{ 'pronouns/' | relative_url }}) and nouns. A third may specialise in nearby context while another tracks distant context. These specialised views are then combined into a richer representation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
 
 The importance of this design is not that engineers manually assign these roles. Rather, the heads learn useful patterns during training. The model discovers for itself which relationships improve [prediction]({{ 'error-harms/' | relative_url }}) accuracy.
 
 ## How attention changed language-model capability
 
-The most immediate impact was scale. Because attention-based transformers can process many positions in parallel, they align well with modern graphics processors and specialised AI hardware. Researchers could train larger models on larger datasets more efficiently than with strongly sequential architectures. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+The most immediate impact was scale. Because attention-based transformers can process many positions in parallel, they align well with modern graphics processors and specialised AI hardware. Researchers could train larger models on larger datasets more efficiently than with strongly sequential architectures.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 This scaling produced several practical effects:
 
@@ -358,13 +358,13 @@ This scaling produced several practical effects:
 * Better handling of long-range context.
 * Stronger language understanding across diverse tasks.
 * More effective transfer learning from large pre-training corpora.
-* The emergence of foundation models and large language models. <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.ibm.com/think/topics/large-language-models" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">essing vast amounts of text data...</span></span></span>
+* The emergence of foundation models and large language models.<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.ibm.com/think/topics/large-language-models" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">essing vast amounts of text data...</span></span></span>
 
 </div>
 
-The transformer architecture introduced in 2017 became the basis for systems such as BERT, GPT-family models, and many later multimodal systems. Although these models differ in details, they share the core idea that attention layers are the primary mechanism for exchanging information between tokens. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
+The transformer architecture introduced in 2017 became the basis for systems such as BERT, GPT-family models, and many later multimodal systems. Although these models differ in details, they share the core idea that attention layers are the primary mechanism for exchanging information between tokens.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2Hugging Face]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
 
-An important historical point is that attention did not merely improve machine translation, the original target of the transformer paper. Researchers quickly found that the same mechanism generalised to question answering, summarisation, text generation, reasoning tasks, and eventually systems that combine language with images, audio, and other modalities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
+An important historical point is that attention did not merely improve machine translation, the original target of the transformer paper. Researchers quickly found that the same mechanism generalised to question answering, summarisation, text generation, reasoning tasks, and eventually systems that combine language with images, audio, and other modalities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/8UIWJpwNMEE" title="Transformers vs RNNs| Why Attention Replaced Recurrence in Modern NLP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=8UIWJpwNMEE" target="_blank" rel="noopener noreferrer">Transformers vs RNNs| Why Attention Replaced Recurrence in Modern NLP</a></p><p class="youtube-embed-meta">Channel: Coursesteach</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=8UIWJpwNMEE" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=8UIWJpwNMEE">Open on YouTube</a></p></div></div></div>
@@ -373,211 +373,211 @@ An important historical point is that attention did not merely improve machine t
 
 The success of attention sometimes creates a misconception that transformers replaced [deep learning]({{ 'deep-learning/' | relative_url }}). In reality, transformers are a form of deep learning.
 
-A transformer still consists of many stacked learned layers. Each layer transforms numerical representations into more useful representations for the next layer. Attention changes the nature of those transformations, but the overall principle remains the same: a deep hierarchy of learned representations built through optimisation on large datasets. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+A transformer still consists of many stacked learned layers. Each layer transforms numerical representations into more useful representations for the next layer. Attention changes the nature of those transformations, but the overall principle remains the same: a deep hierarchy of learned representations built through optimisation on large datasets.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
-Modern language models therefore remain deep neural networks. The difference is that their most important layer type is often self-attention rather than recurrence or convolution. Stacking many attention-based layers allows information to be repeatedly refined, enabling increasingly abstract representations of meaning, context, and relationships within text. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
+Modern language models therefore remain deep neural networks. The difference is that their most important layer type is often self-attention rather than recurrence or convolution. Stacking many attention-based layers allows information to be repeatedly refined, enabling increasingly abstract representations of meaning, context, and relationships within text.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You Need</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/noDGpTtGhhI" title="L2: Attention is all you need transformer architecture explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=noDGpTtGhhI" target="_blank" rel="noopener noreferrer">L2: Attention is all you need transformer architecture explained</a></p><p class="youtube-embed-meta">Channel: IIT Madras - B.S. Degree Programme</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=noDGpTtGhhI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=noDGpTtGhhI">Open on YouTube</a></p></div></div></div>
 
 ## The remaining trade-off
 
-Attention transformed language modelling, but it introduced new challenges. Standard self-attention requires computation that grows rapidly as sequences become longer, creating memory and cost pressures. Researchers have responded with variants such as sparse attention, linear attention, and [long-context]({{ 'long-context-cost/' | relative_url }}) transformer designs that reduce these costs while preserving the benefits of token-to-token communication. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2004.05150" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Longformer: The Long-Document Transformer</span><span class="citation-popover-snippet">Longformer: The Long-Document TransformerApril 10, 2020...</span><span class="citation-popover-meta">Published: April 10, 2020</span></span></span>
+Attention transformed language modelling, but it introduced new challenges. Standard self-attention requires computation that grows rapidly as sequences become longer, creating memory and cost pressures. Researchers have responded with variants such as sparse attention, linear attention, and [long-context]({{ 'long-context-cost/' | relative_url }}) transformer designs that reduce these costs while preserving the benefits of token-to-token communication.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2004.05150" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Longformer: The Long-Document Transformer</span><span class="citation-popover-snippet">Longformer: The Long-Document TransformerApril 10, 2020...</span><span class="citation-popover-meta">Published: April 10, 2020</span></span></span>
 
-Even so, the central idea remains unchanged. The breakthrough was recognising that understanding language does not require processing text strictly in order. By allowing tokens to directly exchange information through learned attention patterns, transformers changed both the architecture of language models and the practical trajectory of modern artificial intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
+Even so, the central idea remains unchanged. The breakthrough was recognising that understanding language does not require processing text strictly in order. By allowing tokens to directly exchange information through learned attention patterns, transformers changed both the architecture of language models and the practical trajectory of modern artificial intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Google Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Attention Is All You Need</span><span class="citation-popover-snippet">Attention Is All You NeedJune 12, 2017...</span><span class="citation-popover-meta">Published: June 12, 2017</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34-Illustration-3-dark.svg" | relative_url }}" alt="Attention illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_deep_learning_f76913_attention_lay_1d0c34-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to What makes attention layers different?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to What makes attention layers different?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Directly explains attention mechanisms and transformer architectures.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly explains attention mechanisms and transformer architectures.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
-        </h4>
-        <p class="fr-book-author">By Sebastian Raschka</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Build a Large Language Model (From Scratch) on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=uSUmEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Build a Large Language Model (From Scratch)" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Build a Large Language Model (From Scratch)">Build a Large Language Model (From Scratch)</a>
+</h4>
+<p class="fr-book-author">By Sebastian Raschka</p>
         
-        <p class="fr-book-desc">Explains self-attention and transformer internals in detail.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains self-attention and transformer internals in detail.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29+by+Sebastian+Raschka&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Provides the neural-network foundations behind attention layers.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Provides the neural-network foundations behind attention layers.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
-        <p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
-        <p class="fr-book-desc">Places deep learning within the wider AI landscape.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=8jZBksh-bUMC&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Stuart Jonathan Russell, Peter Norvig et al.</p>
+<p class="fr-book-popularity">Rating: 4.5/5 from 10 Google Books ratings</p>
+<p class="fr-book-desc">Places deep learning within the wider AI landscape.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Stuart+Jonathan+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Build+a+Large+Language+Model+%28From+Scratch%29&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Build a Large Language Model (From Scratch)</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Learning&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Learning</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee"><img src="{{ '/assets/images/marketplace-covers/cc76046aa1cf333f1a8e.jpg' | relative_url }}" alt="Listing image for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee"><img src="{{ '/assets/images/marketplace-covers/cc76046aa1cf333f1a8e.jpg' | relative_url }}" alt="Listing image for Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Quality “Learning” Center Funny Parody Education Quote Vintage Men&#x27;s T-Shirt Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Machine Learning T shirt I Heart Machine Learning Tee"><img src="{{ '/assets/images/marketplace-covers/8a2fa5c22d0a63287e93.jpg' | relative_url }}" alt="Listing image for I Love Machine Learning T shirt I Heart Machine Learning Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Machine Learning T shirt I Heart Machine Learning Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I Love Machine Learning T shirt I Heart Machine Learning Tee"><img src="{{ '/assets/images/marketplace-covers/8a2fa5c22d0a63287e93.jpg' | relative_url }}" alt="Listing image for I Love Machine Learning T shirt I Heart Machine Learning Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">I Love Machine Learning T shirt I Heart Machine Learning Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Got Machine Learning? T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c488c01aeb763732238d.jpg' | relative_url }}" alt="Listing image for Got Machine Learning? T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Got Machine Learning? T shirt Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Got Machine Learning? T shirt Tee"><img src="{{ '/assets/images/marketplace-covers/c488c01aeb763732238d.jpg' | relative_url }}" alt="Listing image for Got Machine Learning? T shirt Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Got Machine Learning? T shirt Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm and Study Machine Learning T shirt Funny Tee"><img src="{{ '/assets/images/marketplace-covers/5cf6b015d0c00883f639.jpg' | relative_url }}" alt="Listing image for Keep Calm and Study Machine Learning T shirt Funny Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Keep Calm and Study Machine Learning T shirt Funny Tee</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Keep Calm and Study Machine Learning T shirt Funny Tee"><img src="{{ '/assets/images/marketplace-covers/5cf6b015d0c00883f639.jpg' | relative_url }}" alt="Listing image for Keep Calm and Study Machine Learning T shirt Funny Tee" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">Keep Calm and Study Machine Learning T shirt Funny Tee</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning t shirt" data-ebay-reference="attention-what-makes-attention-layers-different-understanding-machine-learning-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -593,7 +593,7 @@ Even so, the central idea remains unchanged. The breakthrough was recognising th
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -613,7 +613,7 @@ Even so, the central idea remains unchanged. The breakthrough was recognising th
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -645,7 +645,7 @@ Even so, the central idea remains unchanged. The breakthrough was recognising th
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -697,7 +697,7 @@ Even so, the central idea remains unchanged. The breakthrough was recognising th
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -742,7 +742,7 @@ Even so, the central idea remains unchanged. The breakthrough was recognising th
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -783,124 +783,124 @@ Even so, the central idea remains unchanged. The breakthrough was recognising th
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
    Title: arXiv Attention Is All You Need  
-   Link: <a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedJune 12, 2017...</p></details>
+   Link:<a href="https://arxiv.org/abs/1706.03762" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1706.03762</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedJune 12, 2017...</p></details>
    Published: June 12, 2017  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v7</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedWe propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing...</p></details>
+   Link:<a href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v7</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedWe propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: papers.neurips.cc  
    Title: 7181 attention is all you need  
-   Link: <a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow">https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS PapersAttention is All you Needby A Vaswani · Cited by 251460 — We propose a new simple network architecture, the Transformer, ba...</p></details>
+   Link:<a href="https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf" target="_blank" rel="noopener noreferrer nofollow">https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NeurIPS PapersAttention is All you Needby A Vaswani · Cited by 251460 — We propose a new simple network architecture, the Transformer, ba...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: Wikipedia  
    Title: Attention Is All You Need  
-   Link: <a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Attention_Is_All_You_Need" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Attention_Is_All_You_Need</a>  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: Wikipedia  
    Title: Transformer (deep learning)  
-   Link: <a href="https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer (deep learning)In deep learning, the transformer is a family of artificial neural network architectures based on the multi...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer_%28deep_learning%29</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer (deep learning)In deep learning, the transformer is a family of artificial neural network architectures based on the multi...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv Longformer: The Long-Document Transformer  
-   Link: <a href="https://arxiv.org/abs/2004.05150" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2004.05150</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Longformer: The Long-Document TransformerApril 10, 2020...</p></details>
+   Link:<a href="https://arxiv.org/abs/2004.05150" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2004.05150</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Longformer: The Long-Document TransformerApril 10, 2020...</p></details>
    Published: April 10, 2020  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2310.12442" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.12442</a>  
+   Link:<a href="https://arxiv.org/abs/2310.12442" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2310.12442</a>  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2507.19595v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2507.19595v3</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Efficient Attention Mechanisms for Large Language Models7 Feb 2026 — The results in the paper show that these models can often match or e...</p></details>
+   Link:<a href="https://arxiv.org/html/2507.19595v3" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2507.19595v3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Efficient Attention Mechanisms for Large Language Models7 Feb 2026 — The results in the paper show that these models can often match or e...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Transformer" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>TransformerA transformer is a passive component that transfers electrical energy from one electrical circuit to another circuit, or mu...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Transformer" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Transformer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>TransformerA transformer is a passive component that transfers electrical energy from one electrical circuit to another circuit, or mu...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: research.google  
-   Link: <a href="https://research.google/pubs/attention-is-all-you-need/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/attention-is-all-you-need/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchAttention is All You NeedWe propose a new simple network architecture, the Transformer, based solely on attention mechanis...</p></details>
+   Link:<a href="https://research.google/pubs/attention-is-all-you-need/" target="_blank" rel="noopener noreferrer nofollow">https://research.google/pubs/attention-is-all-you-need/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Google ResearchAttention is All You NeedWe propose a new simple network architecture, the Transformer, based solely on attention mechanis...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: huggingface.co  
    Title: attention is all you need  
-   Link: <a href="https://huggingface.co/blog/Esmail-AGumaan/attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/blog/Esmail-AGumaan/attention-is-all-you-need</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>TransformersJul 2, 2024 — the Transformer Neural Network (TNN) introduced a breakthrough solution called &quot;Self-Attention&quot; in the paper &quot;A...</p></details>
+   Link:<a href="https://huggingface.co/blog/Esmail-AGumaan/attention-is-all-you-need" target="_blank" rel="noopener noreferrer nofollow">https://huggingface.co/blog/Esmail-AGumaan/attention-is-all-you-need</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>TransformersJul 2, 2024 — the Transformer Neural Network (TNN) introduced a breakthrough solution called &quot;Self-Attention&quot; in the paper &quot;A...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/the" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/the</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>a: used as a function word to indicate that a following noun or noun equivalent is definite or has been previously specified by context...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/the" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/the</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>a: used as a function word to indicate that a following noun or noun equivalent is definite or has been previously specified by context...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/large-language-models" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/large-language-models</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>essing vast amounts of text data...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/large-language-models" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/large-language-models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>essing vast amounts of text data...</p></details>
 
 ### Additional References
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: poloclub.github.io  
-   Link: <a href="https://poloclub.github.io/transformer-explainer/" target="_blank" rel="noopener noreferrer nofollow">https://poloclub.github.io/transformer-explainer/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Transformer Model Visually ExplainedWhat is a Transformer? Transformer is a neural network architecture that has fundamentally change...</p></details>
+   Link:<a href="https://poloclub.github.io/transformer-explainer/" target="_blank" rel="noopener noreferrer nofollow">https://poloclub.github.io/transformer-explainer/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LLM Transformer Model Visually ExplainedWhat is a Transformer? Transformer is a neural network architecture that has fundamentally change...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/understanding-groundbreaking-attention-all-you-need-research-disansa-becnc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/understanding-groundbreaking-attention-all-you-need-research-disansa-becnc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the Groundbreaking &#x27;Attention Is All You...The Goal is to reduce sequential computation, which forms the foundations of: E...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/understanding-groundbreaking-attention-all-you-need-research-disansa-becnc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/understanding-groundbreaking-attention-all-you-need-research-disansa-becnc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding the Groundbreaking &#x27;Attention Is All You...The Goal is to reduce sequential computation, which forms the foundations of: E...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: techradar.com  
-   Link: <a href="https://www.techradar.com/pro/what-are-transformer-models" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/what-are-transformer-models</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Transformers utilize a structure composed of encoders, decoders, and a dynamic attention mechanism, allowing more efficient handling of l...</p></details>
+   Link:<a href="https://www.techradar.com/pro/what-are-transformer-models" target="_blank" rel="noopener noreferrer nofollow">https://www.techradar.com/pro/what-are-transformer-models</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformers utilize a structure composed of encoders, decoders, and a dynamic attention mechanism, allowing more efficient handling of l...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: electronics-tutorials.ws  
-   Link: <a href="https://www.electronics-tutorials.ws/transformer/transformer-basics.html" target="_blank" rel="noopener noreferrer nofollow">https://www.electronics-tutorials.ws/transformer/transformer-basics.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer Basics and Transformer PrinciplesTransformers are electrical devices consisting of two or more coils of wire used to transfer...</p></details>
+   Link:<a href="https://www.electronics-tutorials.ws/transformer/transformer-basics.html" target="_blank" rel="noopener noreferrer nofollow">https://www.electronics-tutorials.ws/transformer/transformer-basics.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformer Basics and Transformer PrinciplesTransformers are electrical devices consisting of two or more coils of wire used to transfer...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: pub.towardsai.net  
-   Link: <a href="https://pub.towardsai.net/attention-is-all-you-need-a-deep-dive-into-the-revolutionary-transformer-architecture-52734fb355dc" target="_blank" rel="noopener noreferrer nofollow">https://pub.towardsai.net/attention-is-all-you-need-a-deep-dive-into-the-revolutionary-transformer-architecture-52734fb355dc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Dive into the Revolutionary Transformer Architecture10 Apr 2025 — The Transformer changed all that by introducing an architecture ba...</p></details>
+   Link:<a href="https://pub.towardsai.net/attention-is-all-you-need-a-deep-dive-into-the-revolutionary-transformer-architecture-52734fb355dc" target="_blank" rel="noopener noreferrer nofollow">https://pub.towardsai.net/attention-is-all-you-need-a-deep-dive-into-the-revolutionary-transformer-architecture-52734fb355dc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Deep Dive into the Revolutionary Transformer Architecture10 Apr 2025 — The Transformer changed all that by introducing an architecture ba...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/swlh/large-language-models-transformer-architecture-the-basics-2bdd84a6db17" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/swlh/large-language-models-transformer-architecture-the-basics-2bdd84a6db17</a>  
+   Link:<a href="https://medium.com/swlh/large-language-models-transformer-architecture-the-basics-2bdd84a6db17" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/swlh/large-language-models-transformer-architecture-the-basics-2bdd84a6db17</a>  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/transformers-simplified-guide-attention-all-you-need-moiz-asghar-zdvmc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/transformers-simplified-guide-attention-all-you-need-moiz-asghar-zdvmc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Transformers Simplified: A Guide to Attention Is All You NeedThe self-attention mechanism allows a model to understand the relationships...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/transformers-simplified-guide-attention-all-you-need-moiz-asghar-zdvmc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/transformers-simplified-guide-attention-all-you-need-moiz-asghar-zdvmc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Transformers Simplified: A Guide to Attention Is All You NeedThe self-attention mechanism allows a model to understand the relationships...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: amazon.com  
-   Link: <a href="https://www.amazon.com/electrical-transformer/s?k=electrical+transformer" target="_blank" rel="noopener noreferrer nofollow">https://www.amazon.com/electrical-transformer/s?k=electrical+transformer</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Electrical TransformerDiscover reliable electrical transformers for home and industrial use. Shop top-rated options with advanced protect...</p></details>
+   Link:<a href="https://www.amazon.com/electrical-transformer/s?k=electrical+transformer" target="_blank" rel="noopener noreferrer nofollow">https://www.amazon.com/electrical-transformer/s?k=electrical+transformer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Electrical TransformerDiscover reliable electrical transformers for home and industrial use. Shop top-rated options with advanced protect...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/why-attention-all-you-need-deep-dive-transformer-model-padhy-cijwc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/why-attention-all-you-need-deep-dive-transformer-model-padhy-cijwc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>how the Transformer is designed, and what makes it more efficient and scalable...Read more...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/why-attention-all-you-need-deep-dive-transformer-model-padhy-cijwc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/why-attention-all-you-need-deep-dive-transformer-model-padhy-cijwc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>how the Transformer is designed, and what makes it more efficient and scalable...Read more...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/qidpqx/d_how_to_truly_understand_attention_mechanism_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/qidpqx/d_how_to_truly_understand_attention_mechanism_in/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>However it is not that easy to fully understand, and in my opinion, somewhat unintuitive...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/qidpqx/d_how_to_truly_understand_attention_mechanism_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/qidpqx/d_how_to_truly_understand_attention_mechanism_in/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>However it is not that easy to fully understand, and in my opinion, somewhat unintuitive...</p></details>

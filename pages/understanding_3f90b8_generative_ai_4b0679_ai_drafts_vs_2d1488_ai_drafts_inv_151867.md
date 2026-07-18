@@ -273,7 +273,7 @@ One reason [generative AI]({{ 'generative-ai/' | relative_url }}) feels differen
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488_ai_drafts_inv_151867-Illustration-1-dark.svg" | relative_url }}" alt="Editing Role illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488_ai_drafts_inv_151867-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488_ai_drafts_inv_151867-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This shift changes the user's role. Instead of acting primarily as a reviewer of machine [decisions]({{ 'decisions/' | relative_url }}), the user becomes an editor of machine-generated material. The result is a more collaborative experience, even when the underlying technology is still based on statistical prediction. The important difference is not only what the AI knows, but what form its output takes and what actions that output makes possible. Research on human–AI collaboration increasingly describes this as a co-creation process rather than a simple handoff from machine to human. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12722866/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-title">PMCFrom humans to AI: understanding why AI is perceived</span><span class="citation-popover-snippet">by Y Liu · 2025 · Cited by 10 — This research aims to systematically compare human–human co-creation and human–AI co-creation in terms...</span></span></span>
+This shift changes the user's role. Instead of acting primarily as a reviewer of machine [decisions]({{ 'decisions/' | relative_url }}), the user becomes an editor of machine-generated material. The result is a more collaborative experience, even when the underlying technology is still based on statistical prediction. The important difference is not only what the AI knows, but what form its output takes and what actions that output makes possible. Research on human–AI collaboration increasingly describes this as a co-creation process rather than a simple handoff from machine to human.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12722866/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-title">PMCFrom humans to AI: understanding why AI is perceived</span><span class="citation-popover-snippet">by Y Liu · 2025 · Cited by 10 — This research aims to systematically compare human–human co-creation and human–AI co-creation in terms...</span></span></span>
 
 ## From Accepting Outputs to Revising Them
 
@@ -281,7 +281,7 @@ Traditional AI systems often produce outputs designed to be acted upon quickly. 
 
 Generative AI changes that pattern because it produces artefacts rather than verdicts. A chatbot writes a draft email. A coding assistant generates a function. An image model creates a visual concept. These outputs resemble unfinished work products rather than final answers.
 
-The distinction matters because unfinished artefacts naturally invite intervention. When users see a paragraph, they can rewrite it. When they see code, they can refactor it. When they see a presentation outline, they can reorganise it. The interaction continues rather than ending at the moment the AI responds. Researchers studying human–AI co-writing describe this as a move from isolated decisions toward an ongoing workflow in which people and AI repeatedly influence each other's contributions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hbs.edu">[Harvard Business School]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hbs.edu</span><span class="citation-popover-title">Harvard Business School Cyborgs, Centaurs and Self- Automators: The Three Modes</span><span class="citation-popover-snippet">Harvard Business SchoolCyborgs, Centaurs and Self- Automators: The Three Modes...December 11, 2025 — by S Randazzo · 2025 · Cited by 12...</span><span class="citation-popover-meta">Published: December 11, 2025</span></span></span>
+The distinction matters because unfinished artefacts naturally invite intervention. When users see a paragraph, they can rewrite it. When they see code, they can refactor it. When they see a presentation outline, they can reorganise it. The interaction continues rather than ending at the moment the AI responds. Researchers studying human–AI co-writing describe this as a move from isolated decisions toward an ongoing workflow in which people and AI repeatedly influence each other's contributions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hbs.edu">[Harvard Business School]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hbs.edu</span><span class="citation-popover-title">Harvard Business School Cyborgs, Centaurs and Self- Automators: The Three Modes</span><span class="citation-popover-snippet">Harvard Business SchoolCyborgs, Centaurs and Self- Automators: The Three Modes...December 11, 2025 — by S Randazzo · 2025 · Cited by 12...</span><span class="citation-popover-meta">Published: December 11, 2025</span></span></span>
 
 A useful way to think about the difference is that predictive AI asks, "Do you agree?" while generative AI often asks, "What would you change?"
 
@@ -294,7 +294,7 @@ Drafts occupy a valuable middle ground. They are usually incomplete enough to re
 
 This balance creates the feeling of collaboration. If an AI produced only perfect final answers, there would be little need for human participation. If it produced only fragments or random suggestions, it would not feel useful. Generative systems often succeed because they provide a starting point that is neither finished nor useless.
 
-Research on human–AI co-creation repeatedly finds that users engage with AI through cycles of suggestion, revision, and refinement rather than simple acceptance. In design, writing, and creative tasks, AI-generated material often serves as a stimulus that helps people explore alternatives and generate new ideas. The human remains [responsible]({{ 'responsible-ai/' | relative_url }}) for selecting, combining, and improving those ideas. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.adobe.com/news/an-experimental-new-design-approach-for-human-ai-co-creation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.adobe.com">[Adobe Research+2Frontiers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.adobe.com</span><span class="citation-popover-title">an experimental new design approach for human ai co creation</span><span class="citation-popover-snippet">Adobe ResearchAn experimental new design approach for human-AI co-...5 May 2025 — A new approach for designing environments where humans...</span><span class="citation-popover-meta">Published: May 2025</span></span></span>
+Research on human–AI co-creation repeatedly finds that users engage with AI through cycles of suggestion, revision, and refinement rather than simple acceptance. In design, writing, and creative tasks, AI-generated material often serves as a stimulus that helps people explore alternatives and generate new ideas. The human remains [responsible]({{ 'responsible-ai/' | relative_url }}) for selecting, combining, and improving those ideas.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://research.adobe.com/news/an-experimental-new-design-approach-for-human-ai-co-creation/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: research.adobe.com">[Adobe Research+2Frontiers]</a><span class="citation-popover" role="note"><span class="citation-popover-source">research.adobe.com</span><span class="citation-popover-title">an experimental new design approach for human ai co creation</span><span class="citation-popover-snippet">Adobe ResearchAn experimental new design approach for human-AI co-...5 May 2025 — A new approach for designing environments where humans...</span><span class="citation-popover-meta">Published: May 2025</span></span></span>
 
 This explains why many AI interfaces are conversational. Instead of delivering a single answer, they encourage iterative exchanges:
 
@@ -309,7 +309,7 @@ This explains why many AI interfaces are conversational. Instead of delivering a
 
 </div>
 
-The workflow resembles working with a junior collaborator more than consulting a calculator. Even though the AI lacks human [understanding]({{ 'understanding/' | relative_url }}), the structure of the interaction encourages collaborative behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://link.springer.com/rwe/10.1007/978-981-95-3658-0_76" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: link.springer.com">[Springer]</a><span class="citation-popover" role="note"><span class="citation-popover-source">link.springer.com</span><span class="citation-popover-snippet">Human-AI Co-Creation: A New Interaction Paradigm for...1 May 2026 — This chapter establishes human-AI co-creation as a new inter...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
+The workflow resembles working with a junior collaborator more than consulting a calculator. Even though the AI lacks human [understanding]({{ 'understanding/' | relative_url }}), the structure of the interaction encourages collaborative behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://link.springer.com/rwe/10.1007/978" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: link.springer.com">[Springer]</a><span class="citation-popover" role="note"><span class="citation-popover-source">link.springer.com</span><span class="citation-popover-snippet">Human-AI Co-Creation: A New Interaction Paradigm for...1 May 2026 — This chapter establishes human-AI co-creation as a new inter...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488_ai_drafts_inv_151867-Illustration-2-dark.svg" | relative_url }}" alt="Editing Role illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488_ai_drafts_inv_151867-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_ai_drafts_vs_2d1488_ai_drafts_inv_151867-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -319,7 +319,7 @@ People often feel more ownership over work they have modified than work they sim
 
 When a user edits an AI-generated draft, they make choices about tone, structure, emphasis, evidence, and accuracy. Those decisions help transform the output from something generated by the system into something partly shaped by the user.
 
-Interestingly, research on AI-assisted writing suggests that the amount and type of AI support can affect feelings of ownership. While more extensive AI assistance can improve productivity, some users report reduced feelings of authorship when too much of the final text originates from the system. This tension helps explain why many successful AI tools focus on drafting and suggestion rather than fully automated completion. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2402.11723" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
+Interestingly, research on AI-assisted writing suggests that the amount and type of AI support can affect feelings of ownership. While more extensive AI assistance can improve productivity, some users report reduced feelings of authorship when too much of the final text originates from the system. This tension helps explain why many successful AI tools focus on drafting and suggestion rather than fully automated completion.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2402.11723" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Open source on arxiv.org.</span></span></span>
 
 The act of editing therefore serves two purposes:
 
@@ -337,9 +337,9 @@ The invitation to edit also changes responsibility.
 
 With a predictive system, responsibility often centres on whether the prediction should be trusted. With a generative system, responsibility shifts toward reviewing and validating the generated material before using it.
 
-This is one reason many AI providers explicitly present outputs as drafts. Microsoft, for example, warns users that AI-generated content may contain mistakes and encourages [verification]({{ 'verification-cost/' | relative_url }}) of source material rather than blind acceptance. The design assumption is that humans remain responsible for checking and correcting outputs. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-application-card" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">365 copilot application card</span><span class="citation-popover-snippet">Microsoft LearnApplication card: Microsoft 365 Copilot2 Jun 2026 — An important mitigation in Microsoft 365 Copilot is to ground AI-gener...</span></span></span>
+This is one reason many AI providers explicitly present outputs as drafts. Microsoft, for example, warns users that AI-generated content may contain mistakes and encourages [verification]({{ 'verification-cost/' | relative_url }}) of source material rather than blind acceptance. The design assumption is that humans remain responsible for checking and correcting outputs.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-application-card" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">365 copilot application card</span><span class="citation-popover-snippet">Microsoft LearnApplication card: Microsoft 365 Copilot2 Jun 2026 — An important mitigation in Microsoft 365 Copilot is to ground AI-gener...</span></span></span>
 
-Recent research reinforces this caution. Studies examining AI use in professional workflows have found that large language models can introduce subtle errors, omissions, or fabricated information. These problems may not be obvious at first glance, which makes human review especially important. The safest and most effective use of generative AI often involves treating its output as editable working material rather than as an authoritative final product. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: microsoft.com">[Microsoft+2IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">microsoft.com</span><span class="citation-popover-title">lee 2025 ai critical thinking survey</span><span class="citation-popover-snippet">The rise of Generative AI (GenAI) in knowledge workflows raises questions about its impact on critical thinking skills and practices.Read...</span></span></span>
+Recent research reinforces this caution. Studies examining AI use in professional workflows have found that large language models can introduce subtle errors, omissions, or fabricated information. These problems may not be obvious at first glance, which makes human review especially important. The safest and most effective use of generative AI often involves treating its output as editable working material rather than as an authoritative final product.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: microsoft.com">[Microsoft+2IT Pro]</a><span class="citation-popover" role="note"><span class="citation-popover-source">microsoft.com</span><span class="citation-popover-title">lee 2025 ai critical thinking survey</span><span class="citation-popover-snippet">The rise of Generative AI (GenAI) in knowledge workflows raises questions about its impact on critical thinking skills and practices.Read...</span></span></span>
 
 In practice, this means that editing is not merely optional polishing. It is part of the mechanism through which generative AI is intended to be used responsibly.
 
@@ -351,201 +351,201 @@ The defining feature of a draft is that it assumes change. A prediction seeks ag
 
 Because generative AI produces editable artefacts, users become participants in the creation process rather than observers of a machine judgement. They evaluate wording, reshape ideas, correct mistakes, and inject their own goals and knowledge. The interaction becomes iterative, conversational, and collaborative.
 
-That shift from acceptance to revision helps explain why generative AI often feels less like a tool that delivers answers and more like a tool that helps create them. The technology may still rely on prediction under the hood, but the experience is fundamentally different because the output invites editing rather than mere acceptance. Harvard Business School+2hdsr.mitpress.mit.edu <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hbs.edu">[hbs.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hbs.edu</span><span class="citation-popover-title">Harvard Business School Cyborgs, Centaurs and Self- Automators: The Three Modes</span><span class="citation-popover-snippet">Harvard Business SchoolCyborgs, Centaurs and Self- Automators: The Three Modes...December 11, 2025 — by S Randazzo · 2025 · Cited by 12...</span><span class="citation-popover-meta">Published: December 11, 2025</span></span></span>
+That shift from acceptance to revision helps explain why generative AI often feels less like a tool that delivers answers and more like a tool that helps create them. The technology may still rely on prediction under the hood, but the experience is fundamentally different because the output invites editing rather than mere acceptance. Harvard Business School+2hdsr.mitpress.mit.edu<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hbs.edu">[hbs.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hbs.edu</span><span class="citation-popover-title">Harvard Business School Cyborgs, Centaurs and Self- Automators: The Three Modes</span><span class="citation-popover-snippet">Harvard Business SchoolCyborgs, Centaurs and Self- Automators: The Three Modes...December 11, 2025 — by S Randazzo · 2025 · Cited by 12...</span><span class="citation-popover-meta">Published: December 11, 2025</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/2mTJkOIMmks" title="How Collaborative AI Agents Transform the Modern Workspace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=2mTJkOIMmks" target="_blank" rel="noopener noreferrer">How Collaborative AI Agents Transform the Modern Workspace</a></p><p class="youtube-embed-meta">Channel: TextCortex: Enterprise AI Knowledge Base</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=2mTJkOIMmks" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=2mTJkOIMmks">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why AI Turns Users Into Editors. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why AI Turns Users Into Editors. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human + Machine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wpY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Human + Machine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human + Machine">Human + Machine</a>
-        </h4>
-        <p class="fr-book-author">By Paul R. Daugherty, H. James Wilson</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human + Machine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=wpY4DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Human + Machine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human + Machine">Human + Machine</a>
+</h4>
+<p class="fr-book-author">By Paul R. Daugherty, H. James Wilson</p>
         
-        <p class="fr-book-desc">Focuses on collaborative workflows between people and AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Focuses on collaborative workflows between people and AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+%2B+Machine+by+Paul+R.+Daugherty&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Explains AI as a collaborator and co-creator, matching the editor role described.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains AI as a collaborator and co-creator, matching the editor role described.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Extended+Mind+by+Annie+Murphy+Paul&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Extended Mind on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Dk-_DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Extended Mind" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Extended+Mind+by+Annie+Murphy+Paul&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Extended Mind">The Extended Mind</a>
-        </h4>
-        <p class="fr-book-author">By Annie Murphy Paul</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Extended+Mind+by+Annie+Murphy+Paul&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Extended Mind on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Dk-_DwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Extended Mind" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Extended+Mind+by+Annie+Murphy+Paul&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Extended Mind">The Extended Mind</a>
+</h4>
+<p class="fr-book-author">By Annie Murphy Paul</p>
         
-        <p class="fr-book-desc">Explores how external tools augment thinking and creativity.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Extended+Mind+by+Annie+Murphy+Paul&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores how external tools augment thinking and creativity.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Extended+Mind+by+Annie+Murphy+Paul&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
-        </h4>
-        <p class="fr-book-author">By Mustafa Suleyman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Coming Wave on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=b0y5zwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Coming Wave" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Coming Wave">The Coming Wave</a>
+</h4>
+<p class="fr-book-author">By Mustafa Suleyman</p>
         
-        <p class="fr-book-desc">Provides context for how AI changes human work and decision-making.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides context for how AI changes human work and decision-making.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Coming+Wave+by+Mustafa+Suleyman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+%2B+Machine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human + Machine</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Extended+Mind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Extended Mind</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+%2B+Machine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human + Machine</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Extended+Mind&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Extended Mind</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster."><img src="{{ '/assets/images/marketplace-covers/2a668d45483ac31aaf6d.jpg' | relative_url }}" alt="Listing image for A. I. Artificial Intelligence. Jude Law. Original UK Video Poster." loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A. I. Artificial Intelligence. Jude Law. Original UK Video Poster.</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster"><img src="{{ '/assets/images/marketplace-covers/000874dca6d2fcc04da4.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence - Jude Law - One Sheet Cinema Poster</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for A.I. Artificial Intelligence Movie Film Poster Art Print"><img src="{{ '/assets/images/marketplace-covers/fb76514b204d73a37317.jpg' | relative_url }}" alt="Listing image for A.I. Artificial Intelligence Movie Film Poster Art Print" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">A.I. Artificial Intelligence Movie Film Poster Art Print</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray"><img src="{{ '/assets/images/marketplace-covers/3c3ecd285cbeae3cd708.jpg' | relative_url }}" alt="Listing image for AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">AI - Artificial Intelligence (Poster + Slipcase) Blu-Ray</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+poster+-book+-books&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence poster -book -books" data-ebay-reference="editing-role-why-ai-turns-users-into-editors-understanding-artificial-intelligence-poster-book-books" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -561,7 +561,7 @@ That shift from acceptance to revision helps explain why generative AI often fee
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -581,7 +581,7 @@ That shift from acceptance to revision helps explain why generative AI often fee
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -613,7 +613,7 @@ That shift from acceptance to revision helps explain why generative AI often fee
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -665,7 +665,7 @@ That shift from acceptance to revision helps explain why generative AI often fee
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -710,7 +710,7 @@ That shift from acceptance to revision helps explain why generative AI often fee
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -751,141 +751,141 @@ That shift from acceptance to revision helps explain why generative AI often fee
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMCFrom humans to AI: understanding why AI is perceived  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12722866/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12722866/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>by Y Liu · 2025 · Cited by 10 — This research aims to systematically compare human–human co-creation and human–AI co-creation in terms...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12722866/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12722866/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by Y Liu · 2025 · Cited by 10 — This research aims to systematically compare human–human co-creation and human–AI co-creation in terms...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: link.springer.com  
-   Link: <a href="https://link.springer.com/rwe/10.1007/978-981-95-3658-0_76" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/rwe/10.1007/978-981-95-3658-0_76</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Human-AI Co-Creation: A New Interaction Paradigm for...1 May 2026 — This chapter establishes human-AI co-creation as a new inter...</p></details>
+   Link:<a href="https://link.springer.com/rwe/10.1007/978" target="_blank" rel="noopener noreferrer nofollow">https://link.springer.com/rwe/10.1007/978</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Human-AI Co-Creation: A New Interaction Paradigm for...1 May 2026 — This chapter establishes human-AI co-creation as a new inter...</p></details>
    Published: May 2026  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2402.11723" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2402.11723</a>  
+   Link:<a href="https://arxiv.org/abs/2402.11723" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2402.11723</a>  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: research.adobe.com  
    Title: an experimental new design approach for human ai co creation  
-   Link: <a href="https://research.adobe.com/news/an-experimental-new-design-approach-for-human-ai-co-creation/" target="_blank" rel="noopener noreferrer nofollow">https://research.adobe.com/news/an-experimental-new-design-approach-for-human-ai-co-creation/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe ResearchAn experimental new design approach for human-AI co-...5 May 2025 — A new approach for designing environments where humans...</p></details>
+   Link:<a href="https://research.adobe.com/news/an-experimental-new-design-approach-for-human-ai-co-creation/" target="_blank" rel="noopener noreferrer nofollow">https://research.adobe.com/news/an-experimental-new-design-approach-for-human-ai-co-creation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Adobe ResearchAn experimental new design approach for human-AI co-...5 May 2025 — A new approach for designing environments where humans...</p></details>
    Published: May 2025  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: learn.microsoft.com  
    Title: 365 copilot application card  
-   Link: <a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-application-card" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-application-card</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Microsoft LearnApplication card: Microsoft 365 Copilot2 Jun 2026 — An important mitigation in Microsoft 365 Copilot is to ground AI-gener...</p></details>
+   Link:<a href="https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-application-card" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/microsoft-365/copilot/microsoft-365-copilot-application-card</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Microsoft LearnApplication card: Microsoft 365 Copilot2 Jun 2026 — An important mitigation in Microsoft 365 Copilot is to ground AI-gener...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: microsoft.com  
    Title: lee 2025 ai critical thinking survey  
-   Link: <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The rise of Generative AI (GenAI) in knowledge workflows raises questions about its impact on critical thinking skills and practices.Read...</p></details>
+   Link:<a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The rise of Generative AI (GenAI) in knowledge workflows raises questions about its impact on critical thinking skills and practices.Read...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: hdsr.mitpress.mit.edu  
-   Link: <a href="https://hdsr.mitpress.mit.edu/pub/3rvlzjtw" target="_blank" rel="noopener noreferrer nofollow">https://hdsr.mitpress.mit.edu/pub/3rvlzjtw</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Effective Generative AI: The Human-Algorithm Centaurby S Saghafian · 2024 · Cited by 39 — In this article, we focus on the role of centau...</p></details>
+   Link:<a href="https://hdsr.mitpress.mit.edu/pub/3rvlzjtw" target="_blank" rel="noopener noreferrer nofollow">https://hdsr.mitpress.mit.edu/pub/3rvlzjtw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Effective Generative AI: The Human-Algorithm Centaurby S Saghafian · 2024 · Cited by 39 — In this article, we focus on the role of centau...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
    Title: arXiv Effective Generative AI: The Human-Algorithm Centaur  
-   Link: <a href="https://arxiv.org/abs/2406.10942" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2406.10942</a>  
+   Link:<a href="https://arxiv.org/abs/2406.10942" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2406.10942</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: appext.hks.harvard.edu  
-   Link: <a href="https://appext.hks.harvard.edu/publications/getFile.aspx?Id=5241" target="_blank" rel="noopener noreferrer nofollow">https://appext.hks.harvard.edu/publications/getFile.aspx?Id=5241</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI: The Human- Algorithm CentaurBeyond free-style chess, the centaur model is being widely used in a variety of applications o...</p></details>
+   Link:<a href="https://appext.hks.harvard.edu/publications/getFile.aspx?Id=5241" target="_blank" rel="noopener noreferrer nofollow">https://appext.hks.harvard.edu/publications/getFile.aspx?Id=5241</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI: The Human- Algorithm CentaurBeyond free-style chess, the centaur model is being widely used in a variety of applications o...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: hbs.edu  
    Title: Harvard [Business](&#123;&#123; 'business-adoption/' | relative_url &#125;&#125;) School Cyborgs, Centaurs and Self- Automators: The Three Modes  
-   Link: <a href="https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard Business SchoolCyborgs, Centaurs and Self- Automators: The Three Modes...December 11, 2025 — by S Randazzo · 2025 · Cited by 12...</p></details>
+   Link:<a href="https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.hbs.edu/ris/Publication%20Files/26-036_e7d0e59a-904c-49f1-b610-56eb2bdfe6f9.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Harvard Business SchoolCyborgs, Centaurs and Self- Automators: The Three Modes...December 11, 2025 — by S Randazzo · 2025 · Cited by 12...</p></details>
    Published: December 11, 2025  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: frontiersin.org  
-   Link: <a href="https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1672735/full" target="_blank" rel="noopener noreferrer nofollow">https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1672735/full</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring creativity in human–AI co-creationby N Wang · 2025 · Cited by 45 — This study emphasizes the central role of designers and offe...</p></details>
+   Link:<a href="https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1672735/full" target="_blank" rel="noopener noreferrer nofollow">https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1672735/full</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring creativity in human–AI co-creationby N Wang · 2025 · Cited by 45 — This study emphasizes the central role of designers and offe...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: itpro.com  
-   Link: <a href="https://www.itpro.com/technology/artificial-intelligence/llms-are-unreliable-delegates-microsoft-researchers-say-you-probably-shouldnt-trust-ai-with-work-documents" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/technology/artificial-intelligence/llms-are-unreliable-delegates-microsoft-researchers-say-you-probably-shouldnt-trust-ai-with-work-documents</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Their analysis, using a tool called DELEGATE-25, revealed that even advanced LLMs—such as GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro—co...</p></details>
+   Link:<a href="https://www.itpro.com/technology/artificial-intelligence/llms-are-unreliable-delegates-microsoft-researchers-say-you-probably-shouldnt-trust-ai-with-work-documents" target="_blank" rel="noopener noreferrer nofollow">https://www.itpro.com/technology/artificial-intelligence/llms-are-unreliable-delegates-microsoft-researchers-say-you-probably-shouldnt-trust-ai-with-work-documents</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Their analysis, using a tool called DELEGATE-25, revealed that even advanced LLMs—such as GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro—co...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: hbr.org  
    Title: Generative AI  
-   Link: <a href="https://hbr.org/topic/subject/generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://hbr.org/topic/subject/generative-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Find new ideas and classic advice for global leaders from the world&#x27;s best business and management experts...</p></details>
+   Link:<a href="https://hbr.org/topic/subject/generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://hbr.org/topic/subject/generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Find new ideas and classic advice for global leaders from the world&#x27;s best business and management experts...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: generativehistory.substack.com  
    Title: microsoft copilot necessitates some  
-   Link: <a href="https://generativehistory.substack.com/p/microsoft-copilot-necessitates-some" target="_blank" rel="noopener noreferrer nofollow">https://generativehistory.substack.com/p/microsoft-copilot-necessitates-some</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Copilot Necessitates Some Tough ConversationsUsers can either replace the existing text with one of these AI generated options, paste the...</p></details>
+   Link:<a href="https://generativehistory.substack.com/p/microsoft-copilot-necessitates-some" target="_blank" rel="noopener noreferrer nofollow">https://generativehistory.substack.com/p/microsoft-copilot-necessitates-some</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Copilot Necessitates Some Tough ConversationsUsers can either replace the existing text with one of these AI generated options, paste the...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: harvardbusiness.org  
    Title: ai first leadership embracing the future of work  
-   Link: <a href="https://www.harvardbusiness.org/insight/ai-first-leadership-embracing-the-future-of-work/" target="_blank" rel="noopener noreferrer nofollow">https://www.harvardbusiness.org/insight/ai-first-leadership-embracing-the-future-of-work/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI-First Leadership: Embracing the Future of Work24 Jan 2025 — AI-first leadership is crucial for harnessing AI&#x27;s potential. Leaders must...</p></details>
+   Link:<a href="https://www.harvardbusiness.org/insight/ai-first-leadership-embracing-the-future-of-work/" target="_blank" rel="noopener noreferrer nofollow">https://www.harvardbusiness.org/insight/ai-first-leadership-embracing-the-future-of-work/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI-First Leadership: Embracing the Future of Work24 Jan 2025 — AI-first leadership is crucial for harnessing AI&#x27;s potential. Leaders must...</p></details>
 
 ### Additional References
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: wiley.com  
-   Link: <a href="https://www.wiley.com/en-de/publish/article/ai-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://www.wiley.com/en-de/publish/article/ai-guidelines/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI guidelines for researchersA guide to support journal authors, editors, and peer reviewers across disciplines in making informed decisi...</p></details>
+   Link:<a href="https://www.wiley.com/en-de/publish/article/ai-guidelines/" target="_blank" rel="noopener noreferrer nofollow">https://www.wiley.com/en-de/publish/article/ai-guidelines/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI guidelines for researchersA guide to support journal authors, editors, and peer reviewers across disciplines in making informed decisi...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40bharwood/chatgpt-design-thinking-and-ccreative-human-ai-collaboration-2d701e0754b6" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40bharwood/chatgpt-design-thinking-and-ccreative-human-ai-collaboration-2d701e0754b6</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT, Design Thinking, and Human-AI Co-creationBuilding a prompting framework to facilitate Generative AI through Design Thinking alon...</p></details>
+   Link:<a href="https://medium.com/%40bharwood/chatgpt-design-thinking-and-ccreative-human-ai-collaboration-2d701e0754b6" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40bharwood/chatgpt-design-thinking-and-ccreative-human-ai-collaboration-2d701e0754b6</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ChatGPT, Design Thinking, and Human-AI Co-creationBuilding a prompting framework to facilitate Generative AI through Design Thinking alon...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: hbr.org  
-   Link: <a href="https://hbr.org/2024/09/embracing-gen-ai-at-work" target="_blank" rel="noopener noreferrer nofollow">https://hbr.org/2024/09/embracing-gen-ai-at-work</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Embracing Gen AI at WorkAccording to our research, most business functions and more than 40% of all US work activity can be augmented, au...</p></details>
+   Link:<a href="https://hbr.org/2024/09/embracing-gen-ai-at-work" target="_blank" rel="noopener noreferrer nofollow">https://hbr.org/2024/09/embracing-gen-ai-at-work</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Embracing Gen AI at WorkAccording to our research, most business functions and more than 40% of all US work activity can be augmented, au...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: elsevier.com  
-   Link: <a href="https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals" target="_blank" rel="noopener noreferrer nofollow">https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI policies for journalsDiscover Elsevier&#x27;s generative AI policies for journals. Learn how we address AI-assisted technologies...</p></details>
+   Link:<a href="https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals" target="_blank" rel="noopener noreferrer nofollow">https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI policies for journalsDiscover Elsevier&#x27;s generative AI policies for journals. Learn how we address AI-assisted technologies...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/co-creating-generative-ai-connor-makowski-g3sqe" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/co-creating-generative-ai-connor-makowski-g3sqe</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Co-Creating with Generative AIThe interaction between humans and Generative AI in article writing is a dynamic and iterative process, emp...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/co-creating-generative-ai-connor-makowski-g3sqe" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/co-creating-generative-ai-connor-makowski-g3sqe</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Co-Creating with Generative AIThe interaction between humans and Generative AI in article writing is a dynamic and iterative process, emp...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/lisablue_genai-highered-facultydevelopment-activity-7318265361697542146-tdvQ" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/lisablue_genai-highered-facultydevelopment-activity-7318265361697542146-tdvQ</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How GenAI is transforming personal and professional livesAI use is shifting from technical tasks (editing text, troubleshooting, general...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/lisablue_genai-highered-facultydevelopment-activity-7318265361697542146-tdvQ" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/lisablue_genai-highered-facultydevelopment-activity-7318265361697542146-tdvQ</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How GenAI is transforming personal and professional livesAI use is shifting from technical tasks (editing text, troubleshooting, general...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: writing.stackexchange.com  
    Title: can a work be considered not written by ai if ai was used for research and bra  
-   Link: <a href="https://writing.stackexchange.com/questions/70805/can-a-work-be-considered-not-written-by-ai-if-ai-was-used-for-research-and-bra" target="_blank" rel="noopener noreferrer nofollow">https://writing.stackexchange.com/questions/70805/can-a-work-be-considered-not-written-by-ai-if-ai-was-used-for-research-and-bra</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>a work be considered &quot;not written by AI&quot; if AI was used...7 Feb 2025 — Like many people, I&#x27;ve been experimenting with AI and using it fo...</p></details>
+   Link:<a href="https://writing.stackexchange.com/questions/70805/can-a-work-be-considered-not-written-by-ai-if-ai-was-used-for-research-and-bra" target="_blank" rel="noopener noreferrer nofollow">https://writing.stackexchange.com/questions/70805/can-a-work-be-considered-not-written-by-ai-if-ai-was-used-for-research-and-bra</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>a work be considered &quot;not written by AI&quot; if AI was used...7 Feb 2025 — Like many people, I&#x27;ve been experimenting with AI and using it fo...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=xWIIuoIS9fw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=xWIIuoIS9fw</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>HBR Guide to Generative AI for ManagersManagers who use generative AI on a daily basis are more confident in guiding their teams and orga...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=xWIIuoIS9fw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=xWIIuoIS9fw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>HBR Guide to Generative AI for ManagersManagers who use generative AI on a daily basis are more confident in guiding their teams and orga...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: youtube.com  
    Title: Collaborative Diffusion: Boosting Designerly Co-Creation with Generative AI  
-   Link: <a href="http://www.youtube.com/watch?v=o3a-rAERv50" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=o3a-rAERv50</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI human collaboration editing workflow co-creation Collaborative Diffusion: Boosting Designerly Co-Creation with Generative A...</p></details>
+   Link:<a href="http://www.youtube.com/watch?v=o3a-rAERv50" target="_blank" rel="noopener noreferrer nofollow">http://www.youtube.com/watch?v=o3a-rAERv50</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Generative AI human collaboration editing workflow co-creation Collaborative Diffusion: Boosting Designerly Co-Creation with Generative A...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40adnanmasood/operating-at-the-jagged-frontier-turning-generative-ai-into-a-force-multiplier-ee29542ddde8" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/operating-at-the-jagged-frontier-turning-generative-ai-into-a-force-multiplier-ee29542ddde8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Operating at the Jagged Frontier: Turning Generative AI...We also examine the emergent human-AI collaboration models observed (“Centaur...</p></details>
+   Link:<a href="https://medium.com/%40adnanmasood/operating-at-the-jagged-frontier-turning-generative-ai-into-a-force-multiplier-ee29542ddde8" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/operating-at-the-jagged-frontier-turning-generative-ai-into-a-force-multiplier-ee29542ddde8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Operating at the Jagged Frontier: Turning Generative AI...We also examine the emergent human-AI collaboration models observed (“Centaur...</p></details>

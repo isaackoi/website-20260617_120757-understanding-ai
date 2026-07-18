@@ -273,7 +273,7 @@ In high-stakes AI applications, human review is only [meaningful]({{ 'human-revi
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f7623_ai_override_a_cf6b8a-Illustration-1-dark.svg" | relative_url }}" alt="Audit Trails illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f7623_ai_override_a_cf6b8a-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f7623_ai_override_a_cf6b8a-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-Audit trails provide this accountability. They create a traceable history of AI-assisted [decisions]({{ 'decisions/' | relative_url }}), allowing organisations to investigate incidents, evaluate reviewer performance, identify patterns of over-reliance or unnecessary overrides, and satisfy governance requirements. Modern AI governance frameworks increasingly treat logging and traceability as core controls rather than administrative afterthoughts. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2Responsible AI Platform]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+Audit trails provide this accountability. They create a traceable history of AI-assisted [decisions]({{ 'decisions/' | relative_url }}), allowing organisations to investigate incidents, evaluate reviewer performance, identify patterns of over-reliance or unnecessary overrides, and satisfy governance requirements. Modern AI governance frameworks increasingly treat logging and traceability as core controls rather than administrative afterthoughts.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2Responsible AI Platform]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 ## Can AI Overrides Be Traced Later?
 
@@ -281,7 +281,7 @@ The answer should be yes, particularly when decisions affect health, safety, leg
 
 An audit trail is more than a timestamp showing that a human clicked “approve”. It is a structured record that preserves the chain of decision-making. If an organisation cannot determine whether a reviewer actually assessed the AI output, it becomes difficult to establish responsibility when something goes wrong.
 
-The EU AI Act places strong emphasis on traceability. High-risk AI systems must include logging capabilities that record events throughout the system lifecycle so that operation can be reconstructed and investigated when necessary. These records support oversight, post-market monitoring, incident analysis, and compliance [verification]({{ 'verification-cost/' | relative_url }}). Responsible AI Platform+2AI Act Service Desk <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiactblog.nl/en/ai-act/artikel/12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiactblog.nl">[aiactblog.nl]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiactblog.nl</span><span class="citation-popover-snippet">Responsible AI PlatformArticle 12 AI Act: Record-keeping &#124; Official text &amp; explanationArticle 12 requires high-risk AI systems to be tech...</span></span></span>
+The EU AI Act places strong emphasis on traceability. High-risk AI systems must include logging capabilities that record events throughout the system lifecycle so that operation can be reconstructed and investigated when necessary. These records support oversight, post-market monitoring, incident analysis, and compliance [verification]({{ 'verification-cost/' | relative_url }}). Responsible AI Platform+2AI Act Service Desk<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiactblog.nl/en/ai-act/artikel/12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiactblog.nl">[aiactblog.nl]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiactblog.nl</span><span class="citation-popover-snippet">Responsible AI PlatformArticle 12 AI Act: Record-keeping &#124; Official text &amp; explanationArticle 12 requires high-risk AI systems to be tech...</span></span></span>
 
 In practice, traceability serves two audiences:
 
@@ -317,7 +317,7 @@ At a minimum, a decision record should include:
 
 This level of detail allows investigators to reconstruct not only the final outcome but also the decision pathway that produced it.
 
-Research on auditable AI systems highlights the importance of recording user actions, inference events, data usage, and timestamps. Comprehensive logs help organisations trace errors back to specific inputs, system behaviours, or review decisions rather than treating failures as unexplained outcomes. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12913532/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">An auditable and source-verified framework for clinical AI...by FF Alu · 2026 · Cited by 1 — More generally, audit logs (also called...</span></span></span>
+Research on auditable AI systems highlights the importance of recording user actions, inference events, data usage, and timestamps. Comprehensive logs help organisations trace errors back to specific inputs, system behaviours, or review decisions rather than treating failures as unexplained outcomes.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12913532/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">An auditable and source-verified framework for clinical AI...by FF Alu · 2026 · Cited by 1 — More generally, audit logs (also called...</span></span></span>
 
 A useful record should also distinguish between different forms of human intervention. There is an important governance difference between:
 
@@ -380,7 +380,7 @@ Such categories make large-scale analysis possible while preserving human contex
 
 Audit trails do more than explain individual decisions. They reveal patterns in human behaviour.
 
-One recurring concern in AI governance is [automation bias]({{ 'automation-bias/' | relative_url }}): the tendency of people to accept machine recommendations too readily. Researchers and regulators increasingly recognise that human oversight is ineffective if reviewers merely rubber-stamp AI outputs. The EU AI Act specifically addresses risks associated with over-reliance on AI recommendations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+One recurring concern in AI governance is [automation bias]({{ 'automation-bias/' | relative_url }}): the tendency of people to accept machine recommendations too readily. Researchers and regulators increasingly recognise that human oversight is ineffective if reviewers merely rubber-stamp AI outputs. The EU AI Act specifically addresses risks associated with over-reliance on AI recommendations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 Audit logs help organisations measure whether oversight is functioning as intended.
 
@@ -408,11 +408,11 @@ This turns audit trails into a governance tool rather than merely a compliance a
 
 Regulatory frameworks increasingly connect accountability to documentation.
 
-The NIST AI Risk Management Framework emphasises governance, accountability, risk monitoring, and documented organisational responsibilities throughout the AI lifecycle. Effective logging supports these objectives by creating evidence that risk-management processes are actually being followed rather than merely described in policy documents. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.600 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — AI RMF profiles assist organizations in...</span></span></span>
+The NIST AI Risk Management Framework emphasises governance, accountability, risk monitoring, and documented organisational responsibilities throughout the AI lifecycle. Effective logging supports these objectives by creating evidence that risk-management processes are actually being followed rather than merely described in policy documents.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications+2NIST]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">AI.600 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — AI RMF profiles assist organizations in...</span></span></span>
 
-The EU AI Act goes further by requiring logging and record-keeping capabilities for high-risk systems so that operation can be reconstructed and monitored over time. Traceability is treated as a foundational requirement for oversight. Responsible AI Platform+2AI Act Service Desk <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiactblog.nl/en/ai-act/artikel/12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiactblog.nl">[aiactblog.nl]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiactblog.nl</span><span class="citation-popover-snippet">Responsible AI PlatformArticle 12 AI Act: Record-keeping &#124; Official text &amp; explanationArticle 12 requires high-risk AI systems to be tech...</span></span></span>
+The EU AI Act goes further by requiring logging and record-keeping capabilities for high-risk systems so that operation can be reconstructed and monitored over time. Traceability is treated as a foundational requirement for oversight. Responsible AI Platform+2AI Act Service Desk<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.aiactblog.nl/en/ai-act/artikel/12" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aiactblog.nl">[aiactblog.nl]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aiactblog.nl</span><span class="citation-popover-snippet">Responsible AI PlatformArticle 12 AI Act: Record-keeping &#124; Official text &amp; explanationArticle 12 requires high-risk AI systems to be tech...</span></span></span>
 
-In regulated sectors, audit trails also help demonstrate that human reviewers had a genuine opportunity to assess AI outputs. In healthcare, for example, regulatory guidance often stresses that professionals must be able to understand and independently assess the basis for recommendations rather than simply relying on automated outputs. Documentation showing reviewer evaluation and decision-making can therefore become part of demonstrating meaningful oversight. U.S. Food and Drug Administration+2LFH Regulatory <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fda.gov">[fda.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fda.gov</span><span class="citation-popover-title">clinical decision support software</span><span class="citation-popover-snippet">Food and Drug AdministrationClinical Decision Support Software - Guidance29 Jan 2026 — This guidance clarifies the scope of FDA&#x27;s oversig...</span></span></span>
+In regulated sectors, audit trails also help demonstrate that human reviewers had a genuine opportunity to assess AI outputs. In healthcare, for example, regulatory guidance often stresses that professionals must be able to understand and independently assess the basis for recommendations rather than simply relying on automated outputs. Documentation showing reviewer evaluation and decision-making can therefore become part of demonstrating meaningful oversight. U.S. Food and Drug Administration+2LFH Regulatory<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: fda.gov">[fda.gov]</a><span class="citation-popover" role="note"><span class="citation-popover-source">fda.gov</span><span class="citation-popover-title">clinical decision support software</span><span class="citation-popover-snippet">Food and Drug AdministrationClinical Decision Support Software - Guidance29 Jan 2026 — This guidance clarifies the scope of FDA&#x27;s oversig...</span></span></span>
 
 ## Designing Audit Trails That Remain Trustworthy
 
@@ -433,7 +433,7 @@ Organisations commonly strengthen trustworthiness through controls such as:
 
 </div>
 
-Tamper-evident logging is particularly important because audit records may later be used to establish responsibility during investigations. If records can be altered without detection, confidence in the entire oversight process is weakened. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12913532/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">An auditable and source-verified framework for clinical AI...by FF Alu · 2026 · Cited by 1 — More generally, audit logs (also called...</span></span></span>
+Tamper-evident logging is particularly important because audit records may later be used to establish responsibility during investigations. If records can be altered without detection, confidence in the entire oversight process is weakened.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12913532/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">An auditable and source-verified framework for clinical AI...by FF Alu · 2026 · Cited by 1 — More generally, audit logs (also called...</span></span></span>
 
 Another common mistake is recording too little information. A simple log entry stating that a reviewer approved an AI recommendation may satisfy operational needs but often provides little value when reconstructing a consequential decision months later.
 
@@ -443,197 +443,197 @@ Another common mistake is recording too little information. A simple log entry s
 
 Audit trails transform human oversight from an abstract governance principle into a verifiable process. They document not only what an AI system recommended but also how human reviewers responded, whether they challenged the recommendation, and why the final outcome was chosen.
 
-For high-stakes AI work, this traceability serves multiple purposes at once: it supports compliance, improves incident investigations, helps detect automation bias, and creates evidence that human oversight is functioning as intended. When organisations can clearly reconstruct AI-assisted decisions, accountability becomes demonstrable rather than merely claimed. arXiv+3Artificial Intelligence Act+3AI Act Service Desk <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[artificialintelligenceact.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+For high-stakes AI work, this traceability serves multiple purposes at once: it supports compliance, improves incident investigations, helps detect automation bias, and creates evidence that human oversight is functioning as intended. When organisations can clearly reconstruct AI-assisted decisions, accountability becomes demonstrable rather than merely claimed. arXiv+3Artificial Intelligence Act+3AI Act Service Desk<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[artificialintelligenceact.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Can AI Overrides Be Traced Later?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Can AI Overrides Be Traced Later?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Business Data Ethics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=dBXlEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Business Data Ethics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Business Data Ethics">Business Data Ethics</a>
-        </h4>
-        <p class="fr-book-author">By Dennis Hirsch, Timothy Bartley et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Business Data Ethics on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=dBXlEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Business Data Ethics" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Business Data Ethics">Business Data Ethics</a>
+</h4>
+<p class="fr-book-author">By Dennis Hirsch, Timothy Bartley et al.</p>
         
-        <p class="fr-book-desc">Addresses governance, auditability and responsible AI practices.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses governance, auditability and responsible AI practices.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Business+Data+Ethics+by+Dennis+Hirsch&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explains accountability, oversight and human intervention in AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains accountability, oversight and human intervention in AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Explores human review and oversight of AI outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores human review and oversight of AI outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=i3vpDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI Book">The AI Book</a>
-        </h4>
-        <p class="fr-book-author">By Ivana Bartoletti, Anne Leslie et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=i3vpDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI Book">The AI Book</a>
+</h4>
+<p class="fr-book-author">By Ivana Bartoletti, Anne Leslie et al.</p>
         
-        <p class="fr-book-desc">Covers compliance, risk management and traceability.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers compliance, risk management and traceability.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Business+Data+Ethics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Business Data Ethics</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Business+Data+Ethics&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Business Data Ethics</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor"><img src="{{ '/assets/images/marketplace-covers/02aabf69323230be608b.jpg' | relative_url }}" alt="Listing image for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor"><img src="{{ '/assets/images/marketplace-covers/02aabf69323230be608b.jpg' | relative_url }}" alt="Listing image for Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Enterprise D Canvas Print 16x12 - UV Printed Wall Fan Art Decor</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art"><img src="{{ '/assets/images/marketplace-covers/4b4938e18ef5ed25ab15.jpg' | relative_url }}" alt="Listing image for Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art"><img src="{{ '/assets/images/marketplace-covers/4b4938e18ef5ed25ab15.jpg' | relative_url }}" alt="Listing image for Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Post-Apocalyptic Wasteland UV Print - 16x12 Sci-Fi Survivor Industrial Wall Art</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art"><img src="{{ '/assets/images/marketplace-covers/62e7a309bd3b32d41258.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art"><img src="{{ '/assets/images/marketplace-covers/62e7a309bd3b32d41258.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial Cityscape UV Print - 16x12 Victorian Sci-Fi Wall Art</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art"><img src="{{ '/assets/images/marketplace-covers/249fbf09ccb3b6116c54.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art"><img src="{{ '/assets/images/marketplace-covers/249fbf09ccb3b6116c54.jpg' | relative_url }}" alt="Listing image for Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">Steampunk Industrial City UV Print - 16x12 Victorian Sci-Fi Airship Wall Art</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI technology wall art">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI technology wall art</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+technology+wall+art&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI technology wall art" data-ebay-reference="audit-trails-can-ai-overrides-be-traced-later-understanding-ai-technology-wall-art" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -649,7 +649,7 @@ For high-stakes AI work, this traceability serves multiple purposes at once: it 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -669,7 +669,7 @@ For high-stakes AI work, this traceability serves multiple purposes at once: it 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -701,7 +701,7 @@ For high-stakes AI work, this traceability serves multiple purposes at once: it 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -753,7 +753,7 @@ For high-stakes AI work, this traceability serves multiple purposes at once: it 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -798,7 +798,7 @@ For high-stakes AI work, this traceability serves multiple purposes at once: it 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -839,164 +839,164 @@ For high-stakes AI work, this traceability serves multiple purposes at once: it 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12913532/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12913532/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>An auditable and source-verified framework for clinical AI...by FF Alu · 2026 · Cited by 1 — More generally, audit logs (also called...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12913532/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12913532/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An auditable and source-verified framework for clinical AI...by FF Alu · 2026 · Cited by 1 — More generally, audit logs (also called...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2502.10036" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.10036</a>  
+   Link:<a href="https://arxiv.org/abs/2502.10036" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2502.10036</a>  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: nvlpubs.nist.gov  
    Title: AI.600 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — AI RMF profiles assist organizations in...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Frameworkby N AI · 2024 · Cited by 90 — AI RMF profiles assist organizations in...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>iated with artificial intelligence (AI).Read more...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>iated with artificial intelligence (AI).Read more...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: fda.gov  
    Title: clinical decision support software  
-   Link: <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software" target="_blank" rel="noopener noreferrer nofollow">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Food and Drug AdministrationClinical Decision Support Software - Guidance29 Jan 2026 — This guidance clarifies the scope of FDA&#x27;s oversig...</p></details>
+   Link:<a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software" target="_blank" rel="noopener noreferrer nofollow">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Food and Drug AdministrationClinical Decision Support Software - Guidance29 Jan 2026 — This guidance clarifies the scope of FDA&#x27;s oversig...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: arxiv.org  
    Title: arXiv Human Oversight of Artificial Intelligence and Technical Standardisation  
-   Link: <a href="https://arxiv.org/abs/2407.17481" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2407.17481</a>  
+   Link:<a href="https://arxiv.org/abs/2407.17481" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2407.17481</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-powerex-enhance" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-powerex-enhance</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>for U.S. Semiconductor Manufacturing...</p></details>
+   Link:<a href="https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-powerex-enhance" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/news-events/news/2026/06/department-commerce-announces-finalization-chips-incentives-powerex-enhance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>for U.S. Semiconductor Manufacturing...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: nvlpubs.nist.gov  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 174 — With proper controls, AI systems can mitigate and mana...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 174 — With proper controls, AI systems can mitigate and mana...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/14/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 14: Human Oversight | EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/14/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 14: Human Oversight | EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: aiactblog.nl  
-   Link: <a href="https://www.aiactblog.nl/en/ai-act/artikel/12" target="_blank" rel="noopener noreferrer nofollow">https://www.aiactblog.nl/en/ai-act/artikel/12</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>[Responsible AI](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) PlatformArticle 12 AI Act: Record-keeping | Official text &amp; explanationArticle 12 requires high-risk AI systems to be tech...</p></details>
+   Link:<a href="https://www.aiactblog.nl/en/ai-act/artikel/12" target="_blank" rel="noopener noreferrer nofollow">https://www.aiactblog.nl/en/ai-act/artikel/12</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>[Responsible AI](&amp;#123;&amp;#123; &#x27;responsible-ai/&#x27; | relative_url &amp;#125;&amp;#125;) PlatformArticle 12 AI Act: Record-keeping | Official text &amp; explanationArticle 12 requires high-risk AI systems to be tech...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-12" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-12</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>For high-risk AI systems record-keeping obligation applies. High-risk AI systems must have automatic logging capabilities to record event...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-12" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-12</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>For high-risk AI systems record-keeping obligation applies. High-risk AI systems must have automatic logging capabilities to record event...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: lfhregulatory.co.uk  
-   Link: <a href="https://lfhregulatory.co.uk/fda-clinical-decision-support-software/" target="_blank" rel="noopener noreferrer nofollow">https://lfhregulatory.co.uk/fda-clinical-decision-support-software/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LFH RegulatoryFDA Clinical Decision Support Software, When CDS Is Not...30 Mar 2026 — The software must enable the healthcare professiona...</p></details>
+   Link:<a href="https://lfhregulatory.co.uk/fda-clinical-decision-support-software/" target="_blank" rel="noopener noreferrer nofollow">https://lfhregulatory.co.uk/fda-clinical-decision-support-software/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LFH RegulatoryFDA Clinical Decision Support Software, When CDS Is Not...30 Mar 2026 — The software must enable the healthcare professiona...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-71" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-71</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>database for high-risk AI systems listed in Annex IIIThis article describes the establishment and maintenance of an EU database for high...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-71" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-71</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>database for high-risk AI systems listed in Annex IIIThis article describes the establishment and maintenance of an EU database for high...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: digital-strategy.ec.europa.eu  
    Title: eu A I Act | Shaping Europe's digital future  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Act | Shaping Europe&#x27;s digital future - European UnionThe AI Act is the first-ever legal framework on AI, which addresses the risks of AI...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Act | Shaping Europe&#x27;s digital future - European UnionThe AI Act is the first-ever legal framework on AI, which addresses the risks of AI...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11975648/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC11975648/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>US Regulation of Artificial Intelligence in Medicine...by DE Vidal · 2023 · Cited by 15 — Interpretation of FDA regulation, including ne...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11975648/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC11975648/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>US Regulation of Artificial Intelligence in Medicine...by DE Vidal · 2023 · Cited by 15 — Interpretation of FDA regulation, including ne...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: autoriteitpersoonsgegevens.nl  
    Title: eu ai act  
-   Link: <a href="https://www.autoriteitpersoonsgegevens.nl/en/themes/algorithms-ai/eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://www.autoriteitpersoonsgegevens.nl/en/themes/algorithms-ai/eu-ai-act</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>9 Apr 2025 — The EU AI Act is intended to ensure that everyone across Europe can rest assured that AI systems are secure and that fundame...</p></details>
+   Link:<a href="https://www.autoriteitpersoonsgegevens.nl/en/themes/algorithms-ai/eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://www.autoriteitpersoonsgegevens.nl/en/themes/algorithms-ai/eu-ai-act</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>9 Apr 2025 — The EU AI Act is intended to ensure that everyone across Europe can rest assured that AI systems are secure and that fundame...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: GOV.UK  
-   Link: <a href="https://www.gov.uk/eu-eea" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/eu-eea</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>in the EU and EEAThe European Union (EU) is an economic and [political](&amp;#123;&amp;#123; &#x27;political-video/&#x27; | relative_url &amp;#125;&amp;#125;) union of 27 countries. It operates an internal (or single) market...</p></details>
+   Link:<a href="https://www.gov.uk/eu-eea" target="_blank" rel="noopener noreferrer nofollow">https://www.gov.uk/eu-eea</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>in the EU and EEAThe European Union (EU) is an economic and [political](&amp;#123;&amp;#123; &#x27;political-video/&#x27; | relative_url &amp;#125;&amp;#125;) union of 27 countries. It operates an internal (or single) market...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: fda.gov  
    Title: Clinical Decision Support Software  
-   Link: <a href="https://www.fda.gov/media/109618/download" target="_blank" rel="noopener noreferrer nofollow">https://www.fda.gov/media/109618/download</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Guidance for Industry...29 Jan 2026 — In order to enable independent evaluation of its basis, the recommendation should be based on info...</p></details>
+   Link:<a href="https://www.fda.gov/media/109618/download" target="_blank" rel="noopener noreferrer nofollow">https://www.fda.gov/media/109618/download</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Guidance for Industry...29 Jan 2026 — In order to enable independent evaluation of its basis, the recommendation should be based on info...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: daera-ni.gov.uk  
-   Link: <a href="https://www.daera-ni.gov.uk/articles/european-union-eu-member-states" target="_blank" rel="noopener noreferrer nofollow">https://www.daera-ni.gov.uk/articles/european-union-eu-member-states</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>European Union (EU) Member StatesThroughout the Department of Agriculture, Environment and Rural Affairs (DAERA) website you will frequen...</p></details>
+   Link:<a href="https://www.daera-ni.gov.uk/articles/european-union-eu-member-states" target="_blank" rel="noopener noreferrer nofollow">https://www.daera-ni.gov.uk/articles/european-union-eu-member-states</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>European Union (EU) Member StatesThroughout the Department of Agriculture, Environment and Rural Affairs (DAERA) website you will frequen...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: elevateconsult.com  
    Title: nist ai risk management framework  
-   Link: <a href="https://elevateconsult.com/insights/nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://elevateconsult.com/insights/nist-ai-risk-management-framework/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI RMF: A Practical, Answer-Ready Guide6 Oct 2025 — Understand the NIST AI RMF, why it matters, and how to adopt it with a step‑by‑s...</p></details>
+   Link:<a href="https://elevateconsult.com/insights/nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://elevateconsult.com/insights/nist-ai-risk-management-framework/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI RMF: A Practical, Answer-Ready Guide6 Oct 2025 — Understand the NIST AI RMF, why it matters, and how to adopt it with a step‑by‑s...</p></details>
 
 ### Additional References
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: ismscopilot.com  
-   Link: <a href="https://www.ismscopilot.com/blog/ai-best-practices-nist-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.ismscopilot.com/blog/ai-best-practices-nist-framework</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>5 AI Best Practices for NIST FrameworkFive AI-driven practices for NIST AI RMF: automate governance, map and inventory risks, measure mod...</p></details>
+   Link:<a href="https://www.ismscopilot.com/blog/ai-best-practices-nist-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.ismscopilot.com/blog/ai-best-practices-nist-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>5 AI Best Practices for NIST FrameworkFive AI-driven practices for NIST AI RMF: automate governance, map and inventory risks, measure mod...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: censinet.com  
-   Link: <a href="https://censinet.com/perspectives/ai-in-audit-trails-monitoring-data-usage" target="_blank" rel="noopener noreferrer nofollow">https://censinet.com/perspectives/ai-in-audit-trails-monitoring-data-usage</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Audit Trails: Monitoring Data UsageWhat are the benefits of AI in audit trails? Benefits include enhanced accuracy, faster complian...</p></details>
+   Link:<a href="https://censinet.com/perspectives/ai-in-audit-trails-monitoring-data-usage" target="_blank" rel="noopener noreferrer nofollow">https://censinet.com/perspectives/ai-in-audit-trails-monitoring-data-usage</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in Audit Trails: Monitoring Data UsageWhat are the benefits of AI in audit trails? Benefits include enhanced accuracy, faster complian...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: aiuc-1.com  
-   Link: <a href="https://www.aiuc-1.com/crosswalks/nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.aiuc-1.com/crosswalks/nist-ai-rmf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AIUC-1 x NIST AI RMFThe NIST AI RMF is the United States government framework for managing AI risks throughout the AI lifecycle with four...</p></details>
+   Link:<a href="https://www.aiuc-1.com/crosswalks/nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.aiuc-1.com/crosswalks/nist-ai-rmf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AIUC-1 x NIST AI RMFThe NIST AI RMF is the United States government framework for managing AI risks throughout the AI lifecycle with four...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: compliancequest.com  
-   Link: <a href="https://www.compliancequest.com/21-cfr-part-11-compliance/" target="_blank" rel="noopener noreferrer nofollow">https://www.compliancequest.com/21-cfr-part-11-compliance/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FDA 21 CFR Part 11 Compliance Requirements and BenefitsTitle 21 CFR Part 11 compliance defines FDA standards for secure e-records, e-sign...</p></details>
+   Link:<a href="https://www.compliancequest.com/21-cfr-part-11-compliance/" target="_blank" rel="noopener noreferrer nofollow">https://www.compliancequest.com/21-cfr-part-11-compliance/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FDA 21 CFR Part 11 Compliance Requirements and BenefitsTitle 21 CFR Part 11 compliance defines FDA standards for secure e-records, e-sign...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: advisori.de  
-   Link: <a href="https://www.advisori.de/services/regulatory-compliance-management/eu-ai-act/eu-ai-act-high-risk-ai-systems/eu-ai-act-record-keeping-en" target="_blank" rel="noopener noreferrer nofollow">https://www.advisori.de/services/regulatory-compliance-management/eu-ai-act/eu-ai-act-high-risk-ai-systems/eu-ai-act-record-keeping-en</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act Record Keeping AI Regulation &amp; ComplianceMeet the documentation obligations of the EU AI Act for high-risk AI systems. ADVISORI...</p></details>
+   Link:<a href="https://www.advisori.de/services/regulatory-compliance-management/eu-ai-act/eu-ai-act-high-risk-ai-systems/eu-ai-act-record-keeping-en" target="_blank" rel="noopener noreferrer nofollow">https://www.advisori.de/services/regulatory-compliance-management/eu-ai-act/eu-ai-act-high-risk-ai-systems/eu-ai-act-record-keeping-en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act Record Keeping AI Regulation &amp; ComplianceMeet the documentation obligations of the EU AI Act for high-risk AI systems. ADVISORI...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: paloaltonetworks.com  
-   Link: <a href="https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)The NIST AI Risk Management Framework (AI RMF) is a guidance designed to improve the robustness...</p></details>
+   Link:<a href="https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)The NIST AI Risk Management Framework (AI RMF) is a guidance designed to improve the robustness...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/dr-fernando-telles_fdas-updated-clinical-decision-support-software-activity-7425028791724470272-8dmc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/dr-fernando-telles_fdas-updated-clinical-decision-support-software-activity-7425028791724470272-8dmc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Audit-Trail Verification vs Clinical Decision Support4 Feb 2026 — The FDA&#x27;s updated Clinical Decision Support (CDS) Software Guidance (Ja...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/dr-fernando-telles_fdas-updated-clinical-decision-support-software-activity-7425028791724470272-8dmc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/dr-fernando-telles_fdas-updated-clinical-decision-support-software-activity-7425028791724470272-8dmc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Audit-Trail Verification vs Clinical Decision Support4 Feb 2026 — The FDA&#x27;s updated Clinical Decision Support (CDS) Software Guidance (Ja...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: lowenstein.com  
-   Link: <a href="https://www.lowenstein.com/news-insights/publications/client-alerts/financial-services-ai-risk-management-framework-operationalizing-the-230-control-objectives-before-the-market-wakes-up-data-privacy" target="_blank" rel="noopener noreferrer nofollow">https://www.lowenstein.com/news-insights/publications/client-alerts/financial-services-ai-risk-management-framework-operationalizing-the-230-control-objectives-before-the-market-wakes-up-data-privacy</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Financial Services AI Risk Management Framework24 Feb 2026 — The framework addresses human and nonhuman identity management, role‑based a...</p></details>
+   Link:<a href="https://www.lowenstein.com/news-insights/publications/client-alerts/financial-services-ai-risk-management-framework-operationalizing-the-230-control-objectives-before-the-market-wakes-up-data-privacy" target="_blank" rel="noopener noreferrer nofollow">https://www.lowenstein.com/news-insights/publications/client-alerts/financial-services-ai-risk-management-framework-operationalizing-the-230-control-objectives-before-the-market-wakes-up-data-privacy</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Financial Services AI Risk Management Framework24 Feb 2026 — The framework addresses human and nonhuman identity management, role‑based a...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: epic.org  
-   Link: <a href="https://epic.org/framing-the-risk-management-framework-actionable-instructions-by-nist-in-the-measure-section-of-the-ai-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://epic.org/framing-the-risk-management-framework-actionable-instructions-by-nist-in-the-measure-section-of-the-ai-rmf/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Framing the Risk Management Framework: Actionable...Apr 13, 2023 — A.I. Risk Management Framework is a four-part, voluntary framework in...</p></details>
+   Link:<a href="https://epic.org/framing-the-risk-management-framework-actionable-instructions-by-nist-in-the-measure-section-of-the-ai-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://epic.org/framing-the-risk-management-framework-actionable-instructions-by-nist-in-the-measure-section-of-the-ai-rmf/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Framing the Risk Management Framework: Actionable...Apr 13, 2023 — A.I. Risk Management Framework is a four-part, voluntary framework in...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/max-foroughi_fda-guidance-for-clinical-decision-support-activity-7422725538001260545-ZUzK" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/max-foroughi_fda-guidance-for-clinical-decision-support-activity-7422725538001260545-ZUzK</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>FDA Guidance on AI in Healthcare: Non-Device CDS CriteriaNot all AI in healthcare needs FDA approval. But most teams don&#x27;t know why. The...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/max-foroughi_fda-guidance-for-clinical-decision-support-activity-7422725538001260545-ZUzK" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/max-foroughi_fda-guidance-for-clinical-decision-support-activity-7422725538001260545-ZUzK</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>FDA Guidance on AI in Healthcare: Non-Device CDS CriteriaNot all AI in healthcare needs FDA approval. But most teams don&#x27;t know why. The...</p></details>

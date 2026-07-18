@@ -288,26 +288,26 @@ image: /assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64
 
 ## Introduction
 
-Risk-based AI regulation starts from a simple idea: the most important question is not whether an AI system is narrow or general, but what happens if it makes a mistake. A narrowly focused model that helps choose job applicants, assess creditworthiness, recommend welfare investigations, support medical [decisions]({{ 'decisions/' | relative_url }}), or guide policing can have major effects on people's lives even though it performs only one task. For that reason, modern AI governance frameworks increasingly regulate systems according to their potential impact rather than their technological sophistication. The result is that some narrow AI applications face far stricter requirements than many more capable but lower-stakes systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
+Risk-based AI regulation starts from a simple idea: the most important question is not whether an AI system is narrow or general, but what happens if it makes a mistake. A narrowly focused model that helps choose job applicants, assess creditworthiness, recommend welfare investigations, support medical [decisions]({{ 'decisions/' | relative_url }}), or guide policing can have major effects on people's lives even though it performs only one task. For that reason, modern AI governance frameworks increasingly regulate systems according to their potential impact rather than their technological sophistication. The result is that some narrow AI applications face far stricter requirements than many more capable but lower-stakes systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf-Illustration-1-dark.svg" | relative_url }}" alt="Risk rules illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## Why narrow does not mean harmless
 
-Many of the most consequential AI controversies have involved systems that were highly specialised rather than broadly intelligent. Hiring-screening tools, predictive policing systems, facial recognition products, and automated benefit-fraud detection systems typically perform a limited function. Yet errors in these systems can influence employment opportunities, access to services, personal liberty, or fundamental rights. OECD policy guidance notes that AI risks include discrimination, privacy harms, safety failures, and impacts on human autonomy, regardless of whether the underlying system is narrow or general-purpose. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/ai-risks-and-incidents.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI risks and incidentsTrustworthy AI calls for governments worldwide to develop interoperable risk-based approaches to AI governance...</span></span></span>
+Many of the most consequential AI controversies have involved systems that were highly specialised rather than broadly intelligent. Hiring-screening tools, predictive policing systems, facial recognition products, and automated benefit-fraud detection systems typically perform a limited function. Yet errors in these systems can influence employment opportunities, access to services, personal liberty, or fundamental rights. OECD policy guidance notes that AI risks include discrimination, privacy harms, safety failures, and impacts on human autonomy, regardless of whether the underlying system is narrow or general-purpose.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/ai-risks-and-incidents.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI risks and incidentsTrustworthy AI calls for governments worldwide to develop interoperable risk-based approaches to AI governance...</span></span></span>
 
-This represents a shift from public discussions that often focus on hypothetical future artificial general intelligence. Regulators are generally more concerned with present-day systems that already affect real-world decisions. A narrow model that predicts loan default risk may have far greater immediate social consequences than a chatbot used for entertainment, even if the chatbot appears more intelligent. That distinction is central to risk-based regulation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
+This represents a shift from public discussions that often focus on hypothetical future artificial general intelligence. Regulators are generally more concerned with present-day systems that already affect real-world decisions. A narrow model that predicts loan default risk may have far greater immediate social consequences than a chatbot used for entertainment, even if the chatbot appears more intelligent. That distinction is central to risk-based regulation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/rbFt34UmngY" title="The NIST Artificial Intelligence Risk Management Framework (NIST AI RMF)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=rbFt34UmngY" target="_blank" rel="noopener noreferrer">The NIST Artificial Intelligence Risk Management Framework (NIST AI RMF)</a></p><p class="youtube-embed-meta">Channel: Safeshield Training</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=rbFt34UmngY" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=rbFt34UmngY">Open on YouTube</a></p></div></div></div>
 
 ## How risk-based regulation classifies AI systems
 
-The clearest example of this approach is the European Union's AI Act. Rather than dividing systems into "weak AI" and "strong AI", the Act classifies them according to levels of risk. It identifies certain applications as high risk because they can affect health, safety, or fundamental rights. These categories include AI used in education, employment, access to essential services such as credit, law enforcement, migration management, justice, critical infrastructure, and biometric identification. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe+2Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
+The clearest example of this approach is the European Union's AI Act. Rather than dividing systems into "weak AI" and "strong AI", the Act classifies them according to levels of risk. It identifies certain applications as high risk because they can affect health, safety, or fundamental rights. These categories include AI used in education, employment, access to essential services such as credit, law enforcement, migration management, justice, critical infrastructure, and biometric identification.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe+2Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
 
-A hiring-screening algorithm and a medical-device AI may be technically narrow systems, but they can still fall into the high-risk category because of the consequences of their outputs. Under this framework, the question is not "How intelligent is the AI?" but "What could happen if the AI is wrong, biased, manipulated, or misunderstood?" <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pinsentmasons.com/out-law/guides/guide-to-high-risk-ai-systems-under-the-eu-ai-act" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pinsentmasons.com">[Pinsent Masons]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pinsentmasons.com</span><span class="citation-popover-title">guide to high risk ai systems under the eu ai act</span><span class="citation-popover-snippet">Pinsent MasonsA guide to high-risk AI systems under the EU AI Act13 Feb 2024 — Providers and deployers of so-called &#x27;high-risk&#x27; AI system...</span></span></span>
+A hiring-screening algorithm and a medical-device AI may be technically narrow systems, but they can still fall into the high-risk category because of the consequences of their outputs. Under this framework, the question is not "How intelligent is the AI?" but "What could happen if the AI is wrong, biased, manipulated, or misunderstood?"<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.pinsentmasons.com/out-law/guides/guide-to-high-risk-ai-systems-under-the-eu-ai-act" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pinsentmasons.com">[Pinsent Masons]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pinsentmasons.com</span><span class="citation-popover-title">guide to high risk ai systems under the eu ai act</span><span class="citation-popover-snippet">Pinsent MasonsA guide to high-risk AI systems under the EU AI Act13 Feb 2024 — Providers and deployers of so-called &#x27;high-risk&#x27; AI system...</span></span></span>
 
-The Act also recognises that not every narrow AI tool deserves the same level of scrutiny. A recommendation engine for music playlists and an AI system helping determine eligibility for social benefits are treated differently because the potential harms are different. This proportional approach allows regulators to concentrate [oversight]({{ 'oversight/' | relative_url }}) where the stakes are highest. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
+The Act also recognises that not every narrow AI tool deserves the same level of scrutiny. A recommendation engine for music playlists and an AI system helping determine eligibility for social benefits are treated differently because the potential harms are different. This proportional approach allows regulators to concentrate [oversight]({{ 'oversight/' | relative_url }}) where the stakes are highest.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf-Illustration-2-dark.svg" | relative_url }}" alt="Risk rules illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -325,222 +325,222 @@ Common requirements include:
 
 * Human oversight mechanisms that allow people to review, override, or challenge AI-supported decisions.
 * Record-keeping and traceability to support accountability and auditing.
-* Ongoing risk management after deployment rather than one-time approval. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2Pinsent Masons]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+* Ongoing risk management after deployment rather than one-time approval.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2Pinsent Masons]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 </div>
 
-Human oversight is especially important. The EU AI Act explicitly states that oversight measures should help prevent or minimise risks to health, safety, and fundamental rights arising from high-risk AI systems. The goal is not simply to place a human in the loop symbolically, but to ensure [meaningful]({{ 'human-review/' | relative_url }}) supervision and intervention when necessary. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+Human oversight is especially important. The EU AI Act explicitly states that oversight measures should help prevent or minimise risks to health, safety, and fundamental rights arising from high-risk AI systems. The goal is not simply to place a human in the loop symbolically, but to ensure [meaningful]({{ 'human-review/' | relative_url }}) supervision and intervention when necessary.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/vVavqe2x4ys" title="RegIntopedia Spark #8: The Risk Based Approach of the EU AI Act" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=vVavqe2x4ys" target="_blank" rel="noopener noreferrer">RegIntopedia Spark #8: The Risk Based Approach of the EU AI Act</a></p><p class="youtube-embed-meta">Channel: Evil Legal</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=vVavqe2x4ys" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=vVavqe2x4ys">Open on YouTube</a></p></div></div></div>
 
 ## Risk management beyond formal regulation
 
-Not every jurisdiction has enacted comprehensive AI legislation, but many governments and organisations have adopted risk-management frameworks that follow similar logic. The US National Institute of Standards and Technology (NIST) AI Risk Management Framework, for example, encourages organisations to identify, measure, manage, and govern AI risks throughout a system's lifecycle. Its focus is on harms to individuals, organisations, and society rather than on whether a system qualifies as advanced AI. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</span></span></span>
+Not every jurisdiction has enacted comprehensive AI legislation, but many governments and organisations have adopted risk-management frameworks that follow similar logic. The US National Institute of Standards and Technology (NIST) AI Risk Management Framework, for example, encourages organisations to identify, measure, manage, and govern AI risks throughout a system's lifecycle. Its focus is on harms to individuals, organisations, and society rather than on whether a system qualifies as advanced AI.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</span></span></span>
 
-Similarly, the OECD's AI governance principles emphasise trustworthy AI, accountability, transparency, and respect for human rights. These principles support a flexible model in which safeguards become stronger as the potential consequences of AI decisions increase. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD+2OECD Legal Instruments]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI principlesThe OECD AI Principles are the first intergovernmental standard on AI. They promote innovative, trustworthy AI that resp...</span></span></span>
+Similarly, the OECD's AI governance principles emphasise trustworthy AI, accountability, transparency, and respect for human rights. These principles support a flexible model in which safeguards become stronger as the potential consequences of AI decisions increase.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.oecd.org/en/topics/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: oecd.org">[OECD+2OECD Legal Instruments]</a><span class="citation-popover" role="note"><span class="citation-popover-source">oecd.org</span><span class="citation-popover-snippet">AI principlesThe OECD AI Principles are the first intergovernmental standard on AI. They promote innovative, trustworthy AI that resp...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf-Illustration-3-dark.svg" | relative_url }}" alt="Risk rules illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_narrow_ai_agi_affd1f_risk_based_na_64dcaf-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ## The practical lesson of risk-based rules
 
-Risk-based AI governance reflects a practical reality: narrow systems can create serious harms when they influence important decisions. A model that performs a single task may still affect employment, access to finance, healthcare outcomes, criminal investigations, or public services. Because of that, modern regulatory frameworks increasingly focus on the context of use and the severity of potential consequences rather than on abstract debates about whether a system is approaching general intelligence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/annex/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActAnnex III: High-Risk AI Systems Referred to in Article 6(2)These use cases include AI used in biometrics, crit...</span></span></span>
+Risk-based AI governance reflects a practical reality: narrow systems can create serious harms when they influence important decisions. A model that performs a single task may still affect employment, access to finance, healthcare outcomes, criminal investigations, or public services. Because of that, modern regulatory frameworks increasingly focus on the context of use and the severity of potential consequences rather than on abstract debates about whether a system is approaching general intelligence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/annex/3/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2OECD]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActAnnex III: High-Risk AI Systems Referred to in Article 6(2)These use cases include AI used in biometrics, crit...</span></span></span>
 
-In practice, this means that some of the strictest AI safeguards apply not to futuristic general-purpose machines, but to specialised systems making high-stakes recommendations about real people today. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
+In practice, this means that some of the strictest AI safeguards apply not to futuristic general-purpose machines, but to specialised systems making high-stakes recommendations about real people today.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: digital-strategy.ec.europa.eu">[Digital Strategy Europe]</a><span class="citation-popover" role="note"><span class="citation-popover-source">digital-strategy.ec.europa.eu</span><span class="citation-popover-title">Digital Strategy Europe AI Act &#124; Shaping Europe&#x27;s digital future</span><span class="citation-popover-snippet">The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/selApYE-pu4" title="Module 2 Risk Based Classification of AI Systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=selApYE-pu4" target="_blank" rel="noopener noreferrer">Module 2 Risk Based Classification of AI Systems</a></p><p class="youtube-embed-meta">Channel: WhitehallTraining</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=selApYE-pu4" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=selApYE-pu4">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Narrow AI can still be high risk. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Narrow AI can still be high risk. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
-        </h4>
-        <p class="fr-book-author">By Kate Crawford</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
+</h4>
+<p class="fr-book-author">By Kate Crawford</p>
         
-        <p class="fr-book-desc">Covers societal risks and governance of AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers societal risks and governance of AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
-        </h4>
-        <p class="fr-book-author">By Stuart Russell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Human Compatible on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=BKVPEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Human Compatible" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Human Compatible">Human Compatible</a>
+</h4>
+<p class="fr-book-author">By Stuart Russell</p>
         
-        <p class="fr-book-desc">Addresses consequences of AI errors and control challenges.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses consequences of AI errors and control challenges.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Human+Compatible+by+Stuart+Russell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explores how AI systems can create harmful outcomes despite narrow goals.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores how AI systems can create harmful outcomes despite narrow goals.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Examines risks from algorithmic decision-making.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines risks from algorithmic decision-making.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Human+Compatible&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Human Compatible</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio"><img src="{{ '/assets/images/marketplace-covers/263538a280c559d0187f.jpg' | relative_url }}" alt="Listing image for GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio"><img src="{{ '/assets/images/marketplace-covers/263538a280c559d0187f.jpg' | relative_url }}" alt="Listing image for GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">GCSE Computer Science Revision Guide: Pocket Posters - The Pocket-Sized Revisio</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4960074c91e5c071f040.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/4960074c91e5c071f040.jpg' | relative_url }}" alt="Listing image for Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">Computer Science - Proud Computer S Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/2a1613ce38c8d3223f98.jpg' | relative_url }}" alt="Listing image for COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">COMPUTER SCIENCE Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science Coffee Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/369997190c529ab73ee7.jpg' | relative_url }}" alt="Listing image for Computer Science Coffee Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">Computer Science Coffee Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Computer Science Coffee Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/369997190c529ab73ee7.jpg' | relative_url }}" alt="Listing image for Computer Science Coffee Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">Computer Science Coffee Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for computer science poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: computer science poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=computer+science+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="computer science poster" data-ebay-reference="risk-rules-narrow-ai-can-still-be-high-risk-understanding-computer-science-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -556,7 +556,7 @@ In practice, this means that some of the strictest AI safeguards apply not to fu
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -576,7 +576,7 @@ In practice, this means that some of the strictest AI safeguards apply not to fu
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -608,7 +608,7 @@ In practice, this means that some of the strictest AI safeguards apply not to fu
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -660,7 +660,7 @@ In practice, this means that some of the strictest AI safeguards apply not to fu
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -705,7 +705,7 @@ In practice, this means that some of the strictest AI safeguards apply not to fu
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -746,215 +746,215 @@ In practice, this means that some of the strictest AI safeguards apply not to fu
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/ai-principles.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI principlesThe OECD AI Principles are the first intergovernmental standard on AI. They promote innovative, trustworthy AI that resp...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/ai-principles.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI principlesThe OECD AI Principles are the first intergovernmental standard on AI. They promote innovative, trustworthy AI that resp...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/ai-risks-and-incidents.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/ai-risks-and-incidents.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI risks and incidentsTrustworthy AI calls for governments worldwide to develop interoperable risk-based approaches to AI governance...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/ai-risks-and-incidents.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/ai-risks-and-incidents.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI risks and incidentsTrustworthy AI calls for governments worldwide to develop interoperable risk-based approaches to AI governance...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/ai-principles" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/ai-principles</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Principles overviewThe OECD AI Principles promote use of AI that is innovative and trustworthy and that respects human rights and democra...</p></details>
+   Link:<a href="https://oecd.ai/en/ai-principles" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/ai-principles</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Principles overviewThe OECD AI Principles promote use of AI that is innovative and trustworthy and that respects human rights and democra...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/policy-issues/artificial-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/policy-issues/artificial-intelligence.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial intelligenceAI holds the potential to address complex challenges from enhancing education and improving health care, to drivin...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/policy-issues/artificial-intelligence.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/policy-issues/artificial-intelligence.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial intelligenceAI holds the potential to address complex challenges from enhancing education and improving health care, to drivin...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: nvlpubs.nist.gov  
    Title: ai.100 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 223 — AI technologies, how- ever...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 223 — AI technologies, how- ever...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: airc.nist.gov  
    Title: AI Resource Center Executive  
-   Link: <a href="https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource CenterExecutive Summary - AIRC - NIST AI Resource CenterThe goal of the AI RMF is to offer a resource to the organizatio...</p></details>
+   Link:<a href="https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/0-ai-rmf-1-0/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Resource CenterExecutive Summary - AIRC - NIST AI Resource CenterThe goal of the AI RMF is to offer a resource to the organizatio...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: legalinstruments.oecd.org  
-   Link: <a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>OECD Legal InstrumentsRecommendation of the Council on Artificial IntelligenceOECD.AI is an inclusive hub for public policy on AI that ai...</p></details>
+   Link:<a href="https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449" target="_blank" rel="noopener noreferrer nofollow">https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OECD Legal InstrumentsRecommendation of the Council on Artificial IntelligenceOECD.AI is an inclusive hub for public policy on AI that ai...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-principles.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI principlesThe OECD AI Principles promote use of AI that is innovative and trustworthy and that respects human rights and democratic va...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/sub-issues/ai-principles.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-principles.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI principlesThe OECD AI Principles promote use of AI that is innovative and trustworthy and that respects human rights and democratic va...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Organisation for Economic Co-operation and...The OECD designs international standards and guidelines for development co-operat...</p></details>
+   Link:<a href="https://www.oecd.org/en.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Organisation for Economic Co-operation and...The OECD designs international standards and guidelines for development co-operat...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-regulatory-design-and-delivery_128691e6.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-regulatory-design-and-delivery_128691e6.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI in regulatory design and delivery: Governing with...18 Sept 2025 — Regulators can use AI to improve risk modelling to [better target](&amp;#123;&amp;#123; &#x27;better-target/&#x27; | relative_url &amp;#125;&amp;#125;) i...</p></details>
+   Link:<a href="https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-regulatory-design-and-delivery_128691e6.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/2025/06/governing-with-artificial-intelligence_398fa287/full-report/ai-in-regulatory-design-and-delivery_128691e6.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI in regulatory design and delivery: Governing with...18 Sept 2025 — Regulators can use AI to improve risk modelling to [better target](&amp;#123;&amp;#123; &#x27;better-target/&#x27; | relative_url &amp;#125;&amp;#125;) i...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: oecd.org  
-   Link: <a href="https://www.oecd.org/en/topics/sub-issues/ai-risks-and-incidents.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-risks-and-incidents.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI risks and incidentsThe OECD AI Principles are the first intergovernmental standard on AI. They promote innovative, trustworthy AI that...</p></details>
+   Link:<a href="https://www.oecd.org/en/topics/sub-issues/ai-risks-and-incidents.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/topics/sub-issues/ai-risks-and-incidents.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI risks and incidentsThe OECD AI Principles are the first intergovernmental standard on AI. They promote innovative, trustworthy AI that...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: oecd.org  
    Title: oecd due diligence guidance for responsible ai 7831bb49  
-   Link: <a href="https://www.oecd.org/en/publications/2026/02/oecd-due-diligence-guidance-for-responsible-ai_7831bb49.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/2026/02/oecd-due-diligence-guidance-for-responsible-ai_7831bb49.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>OECD Due Diligence Guidance for Responsible AI19 Feb 2026 — This report provides practical guidance to enterprises for implementing OECD...</p></details>
+   Link:<a href="https://www.oecd.org/en/publications/2026/02/oecd-due-diligence-guidance-for-responsible-ai_7831bb49.html" target="_blank" rel="noopener noreferrer nofollow">https://www.oecd.org/en/publications/2026/02/oecd-due-diligence-guidance-for-responsible-ai_7831bb49.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OECD Due Diligence Guidance for Responsible AI19 Feb 2026 — This report provides practical guidance to enterprises for implementing OECD...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: oecd.ai  
-   Link: <a href="https://oecd.ai/en/site/risk-accountability" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/site/risk-accountability</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Risk &amp; Accountability OverviewHigh-level AI risk management interoperability framework: Governing and managing risks throughout the lifec...</p></details>
+   Link:<a href="https://oecd.ai/en/site/risk-accountability" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/site/risk-accountability</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Risk &amp; Accountability OverviewHigh-level AI risk management interoperability framework: Governing and managing risks throughout the lifec...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: oecd.ai  
    Title: artificial intelligence risk management framework ai rmf 10  
-   Link: <a href="https://oecd.ai/en/catalogue/tools/artificial-intelligence-risk-management-framework-ai-rmf-10" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/tools/artificial-intelligence-risk-management-framework-ai-rmf-10</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Framework...26 Oct 2023 — The goal of the AI RMF is to offer a resource to the organizations des...</p></details>
+   Link:<a href="https://oecd.ai/en/catalogue/tools/artificial-intelligence-risk-management-framework-ai-rmf-10" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/tools/artificial-intelligence-risk-management-framework-ai-rmf-10</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence Risk Management Framework...26 Oct 2023 — The goal of the AI RMF is to offer a resource to the organizations des...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: oecd.ai  
    Title: tool [use cases](&#123;&#123; 'use-cases/' | relative_url &#125;&#125;)  
-   Link: <a href="https://oecd.ai/en/catalogue/tool-use-cases" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/tool-use-cases</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Use Cases from Tools or Trustworthy AIThis use case focuses on integrating a risk-driven approach, based on and aligning with ISO 31000 p...</p></details>
+   Link:<a href="https://oecd.ai/en/catalogue/tool-use-cases" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/tool-use-cases</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Use Cases from Tools or Trustworthy AIThis use case focuses on integrating a risk-driven approach, based on and aligning with ISO 31000 p...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: oecd.ai  
    Title: ai risk intelligence systemtm for biometric and high risk ai  
-   Link: <a href="https://oecd.ai/en/catalogue/tools/ai-risk-intelligence-systemtm-for-biometric-and-high-risk-ai" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/tools/ai-risk-intelligence-systemtm-for-biometric-and-high-risk-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Intelligence System™ for biometric and high-risk AI20 Feb 2024 — Anekanta® AI&#x27;s AI Risk Intelligence System™ which is built upon...</p></details>
+   Link:<a href="https://oecd.ai/en/catalogue/tools/ai-risk-intelligence-systemtm-for-biometric-and-high-risk-ai" target="_blank" rel="noopener noreferrer nofollow">https://oecd.ai/en/catalogue/tools/ai-risk-intelligence-systemtm-for-biometric-and-high-risk-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Intelligence System™ for biometric and high-risk AI20 Feb 2024 — Anekanta® AI&#x27;s AI Risk Intelligence System™ which is built upon...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: airc.nist.gov  
-   Link: <a href="https://airc.nist.gov/airmf-resources/airmf/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>RMF - AIRC - NIST AI Resource CenterThe AI Risk Management Framework (AI RMF) is intended for voluntary use and to improve the ability to...</p></details>
+   Link:<a href="https://airc.nist.gov/airmf-resources/airmf/" target="_blank" rel="noopener noreferrer nofollow">https://airc.nist.gov/airmf-resources/airmf/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>RMF - AIRC - NIST AI Resource CenterThe AI Risk Management Framework (AI RMF) is intended for voluntary use and to improve the ability to...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: artificial-intelligence-act.com  
    Title: E U AI Act  
-   Link: <a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act - Updates, Compliance, TrainingThe EU AI Act sets harmonised rules for the development, placement on the market and use of AI s...</p></details>
+   Link:<a href="https://www.artificial-intelligence-act.com/" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>EU AI Act - Updates, Compliance, TrainingThe EU AI Act sets harmonised rules for the development, placement on the market and use of AI s...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: artificial-intelligence-act.com  
-   Link: <a href="https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Preamble_51_to_60.html" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Preamble_51_to_60.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>s high-risk the AI systems intended to be used as safety...Read more...</p></details>
+   Link:<a href="https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Preamble_51_to_60.html" target="_blank" rel="noopener noreferrer nofollow">https://www.artificial-intelligence-act.com/Artificial_Intelligence_Act_Preamble_51_to_60.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>s high-risk the AI systems intended to be used as safety...Read more...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: digital-strategy.ec.europa.eu  
    Title: Digital Strategy Europe AI Act | Shaping Europe's digital future  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The AI Act defines 4 levels of risk for AI systems: pyramid showing the four levels of risk: Unacceptable risk; High-risk; limited...Rea...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/annex/3/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/annex/3/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActAnnex III: High-Risk AI Systems Referred to in Article 6(2)These use cases include AI used in biometrics, crit...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/annex/3/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/annex/3/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActAnnex III: High-Risk AI Systems Referred to in Article 6(2)These use cases include AI used in biometrics, crit...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskAI Act Service Desk - Annex III - European UnionHigh-risk AI systems pursuant to Article 6(2) are the AI systems liste...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/annex-3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act Service DeskAI Act Service Desk - Annex III - European UnionHigh-risk AI systems pursuant to Article 6(2) are the AI systems liste...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: pinsentmasons.com  
    Title: guide to high risk ai systems under the eu ai act  
-   Link: <a href="https://www.pinsentmasons.com/out-law/guides/guide-to-high-risk-ai-systems-under-the-eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://www.pinsentmasons.com/out-law/guides/guide-to-high-risk-ai-systems-under-the-eu-ai-act</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Pinsent MasonsA guide to high-risk AI systems under the EU AI Act13 Feb 2024 — Providers and deployers of so-called &#x27;high-risk&#x27; AI system...</p></details>
+   Link:<a href="https://www.pinsentmasons.com/out-law/guides/guide-to-high-risk-ai-systems-under-the-eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://www.pinsentmasons.com/out-law/guides/guide-to-high-risk-ai-systems-under-the-eu-ai-act</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Pinsent MasonsA guide to high-risk AI systems under the EU AI Act13 Feb 2024 — Providers and deployers of so-called &#x27;high-risk&#x27; AI system...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/high-level-summary/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActHigh-level summary of the AI ActAI systems listed under Annex III are always considered high-risk if it profil...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/high-level-summary/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActHigh-level summary of the AI ActAI systems listed under Annex III are always considered high-risk if it profil...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/14/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 14: Human Oversight | EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/14/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 14: Human Oversight | EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>on the classification of high-risk AI systemsChapter III AI Act imposes a set of requirements and obligations on providers and deployers...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/guideline-explorer</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>on the classification of high-risk AI systemsChapter III AI Act imposes a set of requirements and obligations on providers and deployers...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: intelligence.dlapiper.com  
    Title: artificial intelligence  
-   Link: <a href="https://intelligence.dlapiper.com/artificial-intelligence/?c=EU&amp;t=06-high-risk-uses" target="_blank" rel="noopener noreferrer nofollow">https://intelligence.dlapiper.com/artificial-intelligence/?c=EU&amp;t=06-high-risk-uses</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>dlapiper.comHigh-risk AI in the European Union - AI Laws of the World11 Feb 2026 — AI systems used by law enforcement for risk assessment...</p></details>
+   Link:<a href="https://intelligence.dlapiper.com/artificial-intelligence/?c=EU&amp;t=06-high-risk-uses" target="_blank" rel="noopener noreferrer nofollow">https://intelligence.dlapiper.com/artificial-intelligence/?c=EU&amp;t=06-high-risk-uses</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>dlapiper.comHigh-risk AI in the European Union - AI Laws of the World11 Feb 2026 — AI systems used by law enforcement for risk assessment...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: acuityrm.com  
    Title: eu ai act  
-   Link: <a href="https://acuityrm.com/resources/eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://acuityrm.com/resources/eu-ai-act</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act applies to any organisation placing or using AI in the EU. High-risk systems face prescriptive requirements and need...Rea...</p></details>
+   Link:<a href="https://acuityrm.com/resources/eu-ai-act" target="_blank" rel="noopener noreferrer nofollow">https://acuityrm.com/resources/eu-ai-act</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The EU AI Act applies to any organisation placing or using AI in the EU. High-risk systems face prescriptive requirements and need...Rea...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: witness.ai  
    Title: ai risk management  
-   Link: <a href="https://witness.ai/blog/ai-risk-management/" target="_blank" rel="noopener noreferrer nofollow">https://witness.ai/blog/ai-risk-management/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI RMF &amp; Key StrategiesNov 13, 2025 — Discover what AI risk management is, why it matters, and how to apply the NIST AI RMF with gov...</p></details>
+   Link:<a href="https://witness.ai/blog/ai-risk-management/" target="_blank" rel="noopener noreferrer nofollow">https://witness.ai/blog/ai-risk-management/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI RMF &amp; Key StrategiesNov 13, 2025 — Discover what AI risk management is, why it matters, and how to apply the NIST AI RMF with gov...</p></details>
 
 ### Additional References
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: privacyperfect.com  
-   Link: <a href="https://privacyperfect.com/ai-risk-management-framework-nist/" target="_blank" rel="noopener noreferrer nofollow">https://privacyperfect.com/ai-risk-management-framework-nist/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework (NIST)With the PrivacyPerfect AI Impact Assessment, you can evaluate AI systems in a consistent, transparent...</p></details>
+   Link:<a href="https://privacyperfect.com/ai-risk-management-framework-nist/" target="_blank" rel="noopener noreferrer nofollow">https://privacyperfect.com/ai-risk-management-framework-nist/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework (NIST)With the PrivacyPerfect AI Impact Assessment, you can evaluate AI systems in a consistent, transparent...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: euairisk.com  
-   Link: <a href="https://euairisk.com/resources/eu-ai-act-high-risk-classification-guide" target="_blank" rel="noopener noreferrer nofollow">https://euairisk.com/resources/eu-ai-act-high-risk-classification-guide</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Complete Guide to EU AI Act High-Risk ClassificationAn AI system qualifies as high-risk through either of two distinct paths: inclusion i...</p></details>
+   Link:<a href="https://euairisk.com/resources/eu-ai-act-high-risk-classification-guide" target="_blank" rel="noopener noreferrer nofollow">https://euairisk.com/resources/eu-ai-act-high-risk-classification-guide</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Complete Guide to EU AI Act High-Risk ClassificationAn AI system qualifies as high-risk through either of two distinct paths: inclusion i...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: paloaltonetworks.co.uk  
-   Link: <a href="https://www.paloaltonetworks.co.uk/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.co.uk/cyberpedia/nist-ai-risk-management-framework</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)The NIST AI Risk Management Framework (AI RMF) is a guidance designed to improve the robustness...</p></details>
+   Link:<a href="https://www.paloaltonetworks.co.uk/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.co.uk/cyberpedia/nist-ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)The NIST AI Risk Management Framework (AI RMF) is a guidance designed to improve the robustness...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: paloaltonetworks.com  
-   Link: <a href="https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)The NIST AI Risk Management Framework (AI RMF) is a guidance designed to improve the robustness...</p></details>
+   Link:<a href="https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)The NIST AI Risk Management Framework (AI RMF) is a guidance designed to improve the robustness...</p></details>
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/nist-ai-risk-management-framework-best-practices-dr-sunando-roy-k82gf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/nist-ai-risk-management-framework-best-practices-dr-sunando-roy-k82gf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework: Best Practices for...The NIST AI RMF 1.0 is a voluntary, flexible, and non-prescriptive framework des...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/nist-ai-risk-management-framework-best-practices-dr-sunando-roy-k82gf" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/nist-ai-risk-management-framework-best-practices-dr-sunando-roy-k82gf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework: Best Practices for...The NIST AI RMF 1.0 is a voluntary, flexible, and non-prescriptive framework des...</p></details>
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: hyperproof.io  
-   Link: <a href="https://hyperproof.io/navigating-the-nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://hyperproof.io/navigating-the-nist-ai-risk-management-framework/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Navigating the NIST AI Risk Management FrameworkUnderstand the NIST AI Risk Management Framework and learn how to govern AI risk, align s...</p></details>
+   Link:<a href="https://hyperproof.io/navigating-the-nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://hyperproof.io/navigating-the-nist-ai-risk-management-framework/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Navigating the NIST AI Risk Management FrameworkUnderstand the NIST AI Risk Management Framework and learn how to govern AI risk, align s...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: monitaur.ai  
-   Link: <a href="https://www.monitaur.ai/blog-posts/nist-ai-risk-management-framework-and-why-it-matters" target="_blank" rel="noopener noreferrer nofollow">https://www.monitaur.ai/blog-posts/nist-ai-risk-management-framework-and-why-it-matters</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What is the NIST artificial intelligence (AI) risk management...NIST has been developing the AI Risk Management Framework (RMF) to “bett...</p></details>
+   Link:<a href="https://www.monitaur.ai/blog-posts/nist-ai-risk-management-framework-and-why-it-matters" target="_blank" rel="noopener noreferrer nofollow">https://www.monitaur.ai/blog-posts/nist-ai-risk-management-framework-and-why-it-matters</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is the NIST artificial intelligence (AI) risk management...NIST has been developing the AI Risk Management Framework (RMF) to “bett...</p></details>
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: messervices.cyber.gouv.fr  
-   Link: <a href="https://messervices.cyber.gouv.fr/documents-guides/high_level_risks_analysis_ai_paris_summit.pdf" target="_blank" rel="noopener noreferrer nofollow">https://messervices.cyber.gouv.fr/documents-guides/high_level_risks_analysis_ai_paris_summit.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>trust in AI through a cyber risk-based approachIt aims to provide a high-level [synthetic](&amp;#123;&amp;#123; &#x27;synthetic-media/&#x27; | relative_url &amp;#125;&amp;#125;) and comprehensive analysis of related cyber risk...</p></details>
+   Link:<a href="https://messervices.cyber.gouv.fr/documents-guides/high_level_risks_analysis_ai_paris_summit.pdf" target="_blank" rel="noopener noreferrer nofollow">https://messervices.cyber.gouv.fr/documents-guides/high_level_risks_analysis_ai_paris_summit.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>trust in AI through a cyber risk-based approachIt aims to provide a high-level [synthetic](&amp;#123;&amp;#123; &#x27;synthetic-media/&#x27; | relative_url &amp;#125;&amp;#125;) and comprehensive analysis of related cyber risk...</p></details>
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: thoropass.com  
-   Link: <a href="https://www.thoropass.com/blog/nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.thoropass.com/blog/nist-ai-rmf</a>  
+   Link:<a href="https://www.thoropass.com/blog/nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.thoropass.com/blog/nist-ai-rmf</a>  
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: blog.bham.ac.uk  
-   Link: <a href="https://blog.bham.ac.uk/lawresearch/2024/10/real-world-cases-of-annex-iii-ai-act-applications-that-posed-risks-to-fundamental-rights/" target="_blank" rel="noopener noreferrer nofollow">https://blog.bham.ac.uk/lawresearch/2024/10/real-world-cases-of-annex-iii-ai-act-applications-that-posed-risks-to-fundamental-rights/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>World Cases of Annex III AI Act applications that posed...4 Oct 2024 — AI systems which constitute Annex III high risk systems implicate...</p></details>
+   Link:<a href="https://blog.bham.ac.uk/lawresearch/2024/10/real-world-cases-of-annex-iii-ai-act-applications-that-posed-risks-to-fundamental-rights/" target="_blank" rel="noopener noreferrer nofollow">https://blog.bham.ac.uk/lawresearch/2024/10/real-world-cases-of-annex-iii-ai-act-applications-that-posed-risks-to-fundamental-rights/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>World Cases of Annex III AI Act applications that posed...4 Oct 2024 — AI systems which constitute Annex III high risk systems implicate...</p></details>

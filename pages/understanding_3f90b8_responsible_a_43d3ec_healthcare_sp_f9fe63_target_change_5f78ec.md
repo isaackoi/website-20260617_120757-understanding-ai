@@ -269,19 +269,19 @@ image: /assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9
 
 ## Introduction
 
-One of the most important lessons in artificial intelligence is that fairness problems often begin before any model is trained. In the [healthcare]({{ 'health-proxy/' | relative_url }}) risk-scoring case that exposed large racial disparities in care allocation, the most effective remedy was not a more complex algorithm, additional demographic variables, or a sophisticated fairness adjustment. It was a change in what the model was asked to predict. Researchers found that the system had been trained to predict future healthcare spending, even though decision-makers actually wanted to identify patients with the greatest health needs. By reformulating the [prediction]({{ 'error-harms/' | relative_url }}) target to better reflect illness and medical need, much of the disparity in patient selection was reduced. This case has become a leading example of why target selection is one of the most consequential design decisions in AI systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+One of the most important lessons in artificial intelligence is that fairness problems often begin before any model is trained. In the [healthcare]({{ 'health-proxy/' | relative_url }}) risk-scoring case that exposed large racial disparities in care allocation, the most effective remedy was not a more complex algorithm, additional demographic variables, or a sophisticated fairness adjustment. It was a change in what the model was asked to predict. Researchers found that the system had been trained to predict future healthcare spending, even though decision-makers actually wanted to identify patients with the greatest health needs. By reformulating the [prediction]({{ 'error-harms/' | relative_url }}) target to better reflect illness and medical need, much of the disparity in patient selection was reduced. This case has become a leading example of why target selection is one of the most consequential design decisions in AI systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_target_change_5f78ec-Illustration-1-dark.svg" | relative_url }}" alt="Better Target illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_target_change_5f78ec-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_target_change_5f78ec-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
 ## Why reformulating the target mattered
 
-The original healthcare algorithm was successful at predicting future costs. The problem was that future costs were not the same thing as future need. Historical spending patterns reflected many factors beyond illness, including access to care, insurance coverage, provider behaviour, and longstanding inequalities in healthcare utilisation. As a result, patients with similar levels of illness could generate very different spending records. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+The original healthcare algorithm was successful at predicting future costs. The problem was that future costs were not the same thing as future need. Historical spending patterns reflected many factors beyond illness, including access to care, insurance coverage, provider behaviour, and longstanding inequalities in healthcare utilisation. As a result, patients with similar levels of illness could generate very different spending records.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
-From a [machine-learning]({{ 'machine-learning/' | relative_url }}) perspective, the model was doing exactly what it had been asked to do. It learned patterns that forecast expenditure. The mismatch arose because healthcare organisations were using those expenditure [predictions]({{ 'predictions/' | relative_url }}) as a stand-in for a different goal: deciding who needed additional medical support. This is often described as a problem formulation or target-specification error, where the operational target differs from the real-world objective. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
+From a [machine-learning]({{ 'machine-learning/' | relative_url }}) perspective, the model was doing exactly what it had been asked to do. It learned patterns that forecast expenditure. The mismatch arose because healthcare organisations were using those expenditure [predictions]({{ 'predictions/' | relative_url }}) as a stand-in for a different goal: deciding who needed additional medical support. This is often described as a problem formulation or target-specification error, where the operational target differs from the real-world objective.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
 
-Researchers showed that when patients received the same [risk score]({{ 'thresholds/' | relative_url }}), Black patients were typically sicker than White patients. The algorithm had effectively learned the healthcare system's spending patterns rather than the underlying burden of disease. After the target was changed to reflect health needs more directly, the estimated share of Black patients identified for additional care rose from 17.7% to 46.5%, demonstrating that the choice of target variable was a major source of the bias. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+Researchers showed that when patients received the same [risk score]({{ 'thresholds/' | relative_url }}), Black patients were typically sicker than White patients. The algorithm had effectively learned the healthcare system's spending patterns rather than the underlying burden of disease. After the target was changed to reflect health needs more directly, the estimated share of Black patients identified for additional care rose from 17.7% to 46.5%, demonstrating that the choice of target variable was a major source of the bias.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
-This finding shifted the discussion from “How do we fix a biased model?” to “Are we predicting the right thing in the first place?” That change in perspective has influenced responsible-AI practices far beyond healthcare. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
+This finding shifted the discussion from “How do we fix a biased model?” to “Are we predicting the right thing in the first place?” That change in perspective has influenced responsible-AI practices far beyond healthcare.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/zks3pdPN7A4" title="Dr. Stephen Pfohl - Understanding bias in health AI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=zks3pdPN7A4" target="_blank" rel="noopener noreferrer">Dr. Stephen Pfohl - Understanding bias in health AI</a></p><p class="youtube-embed-meta">Channel: Roche &middot; Views: 228 &middot; Uploaded: January 2026 &middot; Length: 30 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=zks3pdPN7A4" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=zks3pdPN7A4">Open on YouTube</a></p></div></div></div>
@@ -300,13 +300,13 @@ Examples of signals that are generally closer to medical need include:
 * Future complications associated with existing illnesses.
 * Hospitalisations and serious health events.
 * Measures of overall disease burden rather than financial expenditure.
-* Composite health-risk scores built from diagnoses and clinical records. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth+2eScholarship]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+* Composite health-risk scores built from diagnoses and clinical records.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth+2eScholarship]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
 </div>
 
-These measures are not perfect. Every health indicator is itself a simplification of a patient's condition. However, they are conceptually closer to the decision-makers' true goal: identifying patients who would benefit most from intervention. The closer a target aligns with the intended outcome, the less opportunity there is for social inequalities to enter through an indirect proxy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
+These measures are not perfect. Every health indicator is itself a simplification of a patient's condition. However, they are conceptually closer to the decision-makers' true goal: identifying patients who would benefit most from intervention. The closer a target aligns with the intended outcome, the less opportunity there is for social inequalities to enter through an indirect proxy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
 
-An important practical lesson emerges here. Developers often prefer targets that are easy to measure because they are readily available in databases. Costs, clicks, purchases, and [engagement]({{ 'engagement-goals/' | relative_url }}) metrics are attractive because they already exist. Yet convenience can hide important distortions. A target that is easy to collect may be a poor representation of the outcome that organisations actually care about. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
+An important practical lesson emerges here. Developers often prefer targets that are easy to measure because they are readily available in databases. Costs, clicks, purchases, and [engagement]({{ 'engagement-goals/' | relative_url }}) metrics are attractive because they already exist. Yet convenience can hide important distortions. A target that is easy to collect may be a poor representation of the outcome that organisations actually care about.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_target_change_5f78ec-Illustration-2-dark.svg" | relative_url }}" alt="Better Target illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_target_change_5f78ec-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_target_change_5f78ec-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -318,224 +318,224 @@ Several practical checks can help:
 
 ### Ask what decision-makers really want
 
-Before model development begins, teams should explicitly define the real-world outcome that motivates the system. If a hospital wants to identify patients needing support, then the target should reflect health status rather than expenditure. If the target and objective differ, developers should document why. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
+Before model development begins, teams should explicitly define the real-world outcome that motivates the system. If a hospital wants to identify patients needing support, then the target should reflect health status rather than expenditure. If the target and objective differ, developers should document why.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/y6eo0FZIqjk" title="Dissecting Racial Bias in an Algorithm that Guides Health Decisions for Millions" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer">Dissecting Racial Bias in an Algorithm that Guides Health Decisions for Millions</a></p><p class="youtube-embed-meta">Channel: Microsoft Research</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=y6eo0FZIqjk">Open on YouTube</a></p></div></div></div>
 
 ### Compare multiple candidate targets
 
-Rather than assuming a single proxy is correct, teams can evaluate several alternatives. For example, healthcare developers might compare models predicting spending, disease burden, hospital admissions, or future complications. Differences in outcomes across groups may reveal hidden weaknesses in a proxy target. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubmed.ncbi.nlm.nih.gov/35018571/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubmed.ncbi.nlm.nih.gov">[PubMed]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubmed.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Prediction Models for Future High-Need High-Cost Healthcare Use: a Systematic Review - PubMedJanuary 11, 2022...</span><span class="citation-popover-meta">Published: January 11, 2022</span></span></span>
+Rather than assuming a single proxy is correct, teams can evaluate several alternatives. For example, healthcare developers might compare models predicting spending, disease burden, hospital admissions, or future complications. Differences in outcomes across groups may reveal hidden weaknesses in a proxy target.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pubmed.ncbi.nlm.nih.gov/35018571/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pubmed.ncbi.nlm.nih.gov">[PubMed]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pubmed.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Prediction Models for Future High-Need High-Cost Healthcare Use: a Systematic Review - PubMedJanuary 11, 2022...</span><span class="citation-popover-meta">Published: January 11, 2022</span></span></span>
 
 ### Examine subgroup performance
 
-A proxy may appear accurate overall while failing for particular populations. Testing whether people with the same predicted score have similar underlying conditions across demographic groups can expose target-related bias before deployment. The healthcare case became visible precisely because researchers examined patients with equivalent risk scores and found substantial differences in illness burden. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+A proxy may appear accurate overall while failing for particular populations. Testing whether people with the same predicted score have similar underlying conditions across demographic groups can expose target-related bias before deployment. The healthcare case became visible precisely because researchers examined patients with equivalent risk scores and found substantial differences in illness burden.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[Chicago Booth]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_target_change_5f78ec-Illustration-3-dark.svg" | relative_url }}" alt="Better Target illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_target_change_5f78ec-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_responsible_a_43d3ec_healthcare_sp_f9fe63_target_change_5f78ec-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 ### Test for alignment, not only accuracy
 
-Traditional machine-learning metrics measure agreement between predictions and labels. However, if the labels themselves are imperfect proxies, high accuracy can be misleading. Teams should evaluate whether the target reflects the outcome decision-makers genuinely care about, not merely whether predictions match historical records. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
+Traditional machine-learning metrics measure agreement between predictions and labels. However, if the labels themselves are imperfect proxies, high accuracy can be misleading. Teams should evaluate whether the target reflects the outcome decision-makers genuinely care about, not merely whether predictions match historical records.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: montrealethics.ai">[Montreal AI Ethics Institute]</a><span class="citation-popover" role="note"><span class="citation-popover-source">montrealethics.ai</span><span class="citation-popover-snippet">Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare &#124; Montreal AI Et...</span></span></span>
 
 ## The broader AI lesson from the target change
 
 The healthcare example is often remembered as a case of algorithmic bias, but its deeper significance lies in how the bias was reduced. The strongest intervention did not involve abandoning prediction or removing machine learning from the process. Instead, it involved redefining the prediction target so that it corresponded more closely to the underlying objective.
 
-For AI practitioners, this illustrates a foundational principle: a model cannot learn the outcome people care about if it is trained to optimise something else. Fairness, usefulness, and accuracy are all influenced by how a problem is formulated. Choosing the right target is therefore not a minor technical detail. It is one of the most important design [decisions]({{ 'decisions/' | relative_url }}) in the entire AI development process. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[ResearchTrend.AI+3Chicago Booth+3eScholarship]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
+For AI practitioners, this illustrates a foundational principle: a model cannot learn the outcome people care about if it is trained to optimise something else. Fairness, usefulness, and accuracy are all influenced by how a problem is formulated. Choosing the right target is therefore not a minor technical detail. It is one of the most important design [decisions]({{ 'decisions/' | relative_url }}) in the entire AI development process.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: chicagobooth.edu">[ResearchTrend.AI+3Chicago Booth+3eScholarship]</a><span class="citation-popover" role="note"><span class="citation-popover-source">chicagobooth.edu</span><span class="citation-popover-snippet">Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center &#124; Chicago Booth...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/bcqofACB-Sk" title="Understanding Bias and Fairness in AI-enabled Healthcare Software" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=bcqofACB-Sk" target="_blank" rel="noopener noreferrer">Understanding Bias and Fairness in AI-enabled Healthcare Software</a></p><p class="youtube-embed-meta">Channel: Duke Margolis</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=bcqofACB-Sk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=bcqofACB-Sk">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to The simple target change that reduced bias. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to The simple target change that reduced bias. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Strong illustration of how choosing the wrong target creates unfair outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Strong illustration of how choosing the wrong target creates unfair outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=maTGwgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Medicine">Deep Medicine</a>
-        </h4>
-        <p class="fr-book-author">By Eric J. Topol</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Medicine on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=maTGwgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Deep Medicine" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Medicine">Deep Medicine</a>
+</h4>
+<p class="fr-book-author">By Eric J. Topol</p>
         
-        <p class="fr-book-desc">Highlights the importance of aligning AI systems with patient needs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Highlights the importance of aligning AI systems with patient needs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Medicine+by+Eric+J.+Topol&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Ethical+Algorithm+by+Michael+Kearns&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Ethical Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=QmmtDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Ethical Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Ethical+Algorithm+by+Michael+Kearns&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Ethical Algorithm">The Ethical Algorithm</a>
-        </h4>
-        <p class="fr-book-author">By Michael Kearns, Aaron Roth</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Ethical+Algorithm+by+Michael+Kearns&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Ethical Algorithm on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=QmmtDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Ethical Algorithm" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Ethical+Algorithm+by+Michael+Kearns&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Ethical Algorithm">The Ethical Algorithm</a>
+</h4>
+<p class="fr-book-author">By Michael Kearns, Aaron Roth</p>
         
-        <p class="fr-book-desc">Covers fairness-aware design and objective selection.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Ethical+Algorithm+by+Michael+Kearns&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers fairness-aware design and objective selection.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Ethical+Algorithm+by+Michael+Kearns&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=XvEdEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Atlas of AI">The Atlas of AI</a>
-        </h4>
-        <p class="fr-book-author">By Kate Crawford</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=XvEdEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Atlas of AI">The Atlas of AI</a>
+</h4>
+<p class="fr-book-author">By Kate Crawford</p>
         
-        <p class="fr-book-desc">Explains how design decisions shape outcomes and harms.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how design decisions shape outcomes and harms.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Medicine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Medicine</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Ethical+Algorithm&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Ethical Algorithm</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Weapons of Math Destruction</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Deep+Medicine&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Deep Medicine</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Ethical+Algorithm&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Ethical Algorithm</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for NEW Pixel Mug P1 AI Enhanced Smart Mug with Pixel Display"><img src="{{ '/assets/images/marketplace-covers/b0dd522b7db3e6691a9d.jpg' | relative_url }}" alt="Listing image for NEW Pixel Mug P1 AI Enhanced Smart Mug with Pixel Display" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">NEW Pixel Mug P1 AI Enhanced Smart Mug with Pixel Display</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for NEW Pixel Mug P1 AI Enhanced Smart Mug with Pixel Display"><img src="{{ '/assets/images/marketplace-covers/b0dd522b7db3e6691a9d.jpg' | relative_url }}" alt="Listing image for NEW Pixel Mug P1 AI Enhanced Smart Mug with Pixel Display" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">NEW Pixel Mug P1 AI Enhanced Smart Mug with Pixel Display</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Powered By AI And Coffee - Funny Robot/Caffeine Mug"><img src="{{ '/assets/images/marketplace-covers/760479a38717ba0cae4b.jpg' | relative_url }}" alt="Listing image for Powered By AI And Coffee - Funny Robot/Caffeine Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">Powered By AI And Coffee - Funny Robot/Caffeine Mug</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Powered By AI And Coffee - Funny Robot/Caffeine Mug"><img src="{{ '/assets/images/marketplace-covers/760479a38717ba0cae4b.jpg' | relative_url }}" alt="Listing image for Powered By AI And Coffee - Funny Robot/Caffeine Mug" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">Powered By AI And Coffee - Funny Robot/Caffeine Mug</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the"><img src="{{ '/assets/images/marketplace-covers/1515dedd74439640eac3.jpg' | relative_url }}" alt="Listing image for I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the"><img src="{{ '/assets/images/marketplace-covers/1515dedd74439640eac3.jpg' | relative_url }}" alt="Listing image for I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">I&#x27;M A PROFESSIONAL CHARTERED LIBRARIAN Mug - AI BOTS CAN&#x27;T DO THAT - One for the</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Chat GP Tea Funny AI Pun Mug Geek Novelty Coffee Cup Gift UK Made"><img src="{{ '/assets/images/marketplace-covers/5ca9f99850a8b5e80cee.jpg' | relative_url }}" alt="Listing image for Chat GP Tea Funny AI Pun Mug Geek Novelty Coffee Cup Gift UK Made" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">Chat GP Tea Funny AI Pun Mug Geek Novelty Coffee Cup Gift UK Made</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Chat GP Tea Funny AI Pun Mug Geek Novelty Coffee Cup Gift UK Made"><img src="{{ '/assets/images/marketplace-covers/5ca9f99850a8b5e80cee.jpg' | relative_url }}" alt="Listing image for Chat GP Tea Funny AI Pun Mug Geek Novelty Coffee Cup Gift UK Made" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">Chat GP Tea Funny AI Pun Mug Geek Novelty Coffee Cup Gift UK Made</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI mug">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI mug</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+mug&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI mug" data-ebay-reference="better-target-the-simple-target-change-that-reduced-bias-understanding-ai-mug" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -551,7 +551,7 @@ For AI practitioners, this illustrates a foundational principle: a model cannot 
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -571,7 +571,7 @@ For AI practitioners, this illustrates a foundational principle: a model cannot 
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -603,7 +603,7 @@ For AI practitioners, this illustrates a foundational principle: a model cannot 
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -655,7 +655,7 @@ For AI practitioners, this illustrates a foundational principle: a model cannot 
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -700,7 +700,7 @@ For AI practitioners, this illustrates a foundational principle: a model cannot 
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -741,82 +741,82 @@ For AI practitioners, this illustrates a foundational principle: a model cannot 
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: escholarship.org  
-   Link: <a href="https://escholarship.org/uc/item/6h92v832" target="_blank" rel="noopener noreferrer nofollow">https://escholarship.org/uc/item/6h92v832</a>  
+   Link:<a href="https://escholarship.org/uc/item/6h92v832" target="_blank" rel="noopener noreferrer nofollow">https://escholarship.org/uc/item/6h92v832</a>  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: researchtrend.ai  
-   Link: <a href="https://researchtrend.ai/papers/2308.02081" target="_blank" rel="noopener noreferrer nofollow">https://researchtrend.ai/papers/2308.02081</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Target specification bias, counterfactual prediction, and algorithmic fairness in healthcare | ResearchTrend.AI...</p></details>
+   Link:<a href="https://researchtrend.ai/papers/2308.02081" target="_blank" rel="noopener noreferrer nofollow">https://researchtrend.ai/papers/2308.02081</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Target specification bias, counterfactual prediction, and algorithmic fairness in healthcare | ResearchTrend.AI...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: chicagobooth.edu  
-   Link: <a href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow">https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center | Chicago Booth...</p></details>
+   Link:<a href="https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations" target="_blank" rel="noopener noreferrer nofollow">https://www.chicagobooth.edu/research/tolan/research/2019/dissecting-racial-bias-in-an-algorithm-used-to-manage-the-health-of-populations</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Chicago BoothDissecting racial bias in an algorithm used to manage the health of populations - Tolan Center | Chicago Booth...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: montrealethics.ai  
-   Link: <a href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow">https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare | Montreal AI Et...</p></details>
+   Link:<a href="https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/" target="_blank" rel="noopener noreferrer nofollow">https://montrealethics.ai/target-specification-bias-counterfactual-prediction-and-algorithmic-fairness-in-healthcare/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Montreal AI Ethics InstituteTarget specification bias, counterfactual prediction, and algorithmic fairness in healthcare | Montreal AI Et...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: pubmed.ncbi.nlm.nih.gov  
-   Link: <a href="https://pubmed.ncbi.nlm.nih.gov/35018571/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/35018571/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Prediction Models for Future High-Need High-Cost Healthcare Use: a Systematic Review - PubMedJanuary 11, 2022...</p></details>
+   Link:<a href="https://pubmed.ncbi.nlm.nih.gov/35018571/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/35018571/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prediction Models for Future High-Need High-Cost Healthcare Use: a Systematic Review - PubMedJanuary 11, 2022...</p></details>
    Published: January 11, 2022  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: Predictive cues reduce but do not eliminate intrinsic response bias  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6732222/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC6732222/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>June 21, 2019...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6732222/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC6732222/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>June 21, 2019...</p></details>
    Published: June 21, 2019  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: pubmed.ncbi.nlm.nih.gov  
-   Link: <a href="https://pubmed.ncbi.nlm.nih.gov/30845187/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/30845187/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>March 7, 2019...</p></details>
+   Link:<a href="https://pubmed.ncbi.nlm.nih.gov/30845187/" target="_blank" rel="noopener noreferrer nofollow">https://pubmed.ncbi.nlm.nih.gov/30845187/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>March 7, 2019...</p></details>
    Published: March 7, 2019  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: Wikipedia  
    Title: Algorithmic bias  
-   Link: <a href="https://en.wikipedia.org/wiki/Algorithmic_bias" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Algorithmic_bias</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Algorithmic_bias" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Algorithmic_bias</a>  
 
 ### Additional References
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: academic.oup.com  
-   Link: <a href="https://academic.oup.com/ije/article-abstract/49/6/1763/5814327" target="_blank" rel="noopener noreferrer nofollow">https://academic.oup.com/ije/article-abstract/49/6/1763/5814327</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>OUP AcademicIntersections of machine learning and epidemiological methods for health services research | International Journal of Epidemi...</p></details>
+   Link:<a href="https://academic.oup.com/ije/article-abstract/49/6/1763/5814327" target="_blank" rel="noopener noreferrer nofollow">https://academic.oup.com/ije/article-abstract/49/6/1763/5814327</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OUP AcademicIntersections of machine learning and epidemiological methods for health services research | International Journal of Epidemi...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: youtube.com  
    Title: [Understanding](&#123;&#123; 'understanding/' | relative_url &#125;&#125;) bias in health AI  
-   Link: <a href="https://www.youtube.com/watch?v=zks3pdPN7A4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zks3pdPN7A4</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Dissecting Racial Bias in an Algorithm that Guides Health Decisions for Millions - YouTube Dissecting Racial Bias in an Algorithm that Gu...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=zks3pdPN7A4" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=zks3pdPN7A4</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Dissecting Racial Bias in an Algorithm that Guides Health Decisions for Millions - YouTube Dissecting Racial Bias in an Algorithm that Gu...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: diagnprognres.biomedcentral.com  
-   Link: <a href="https://diagnprognres.biomedcentral.com/articles/10.1186/s41512-022-00119-9" target="_blank" rel="noopener noreferrer nofollow">https://diagnprognres.biomedcentral.com/articles/10.1186/s41512-022-00119-9</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ostic Research | Full TextMarch 24, 2022...</p></details>
+   Link:<a href="https://diagnprognres.biomedcentral.com/articles/10.1186/s41512-022-00119-9" target="_blank" rel="noopener noreferrer nofollow">https://diagnprognres.biomedcentral.com/articles/10.1186/s41512-022-00119-9</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ostic Research | Full TextMarch 24, 2022...</p></details>
    Published: March 24, 2022  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: youtube.com  
    Title: Dissecting Racial Bias in an Algorithm that Guides Health Decisions for Millions  
-   Link: <a href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=y6eo0FZIqjk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Ziad Obermeyer on tackling &#x27;data bottleneck&#x27; to combat AI bias...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=y6eo0FZIqjk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=y6eo0FZIqjk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Ziad Obermeyer on tackling &#x27;data bottleneck&#x27; to combat AI bias...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: youtube.com  
    Title: Ziad Obermeyer on tackling 'data bottleneck' to combat AI bias  
-   Link: <a href="https://www.youtube.com/watch?v=xWLGch3g3mA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=xWLGch3g3mA</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding Bias and Fairness in AI-enabled Healthcare Software...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=xWLGch3g3mA" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=xWLGch3g3mA</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding Bias and Fairness in AI-enabled Healthcare Software...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: youtube.com  
    Title: Understanding Bias and Fairness in AI-enabled Healthcare Software  
-   Link: <a href="https://www.youtube.com/watch?v=bcqofACB-Sk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=bcqofACB-Sk</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding bias in health AI - Dr. Stephen Pfohl...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=bcqofACB-Sk" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=bcqofACB-Sk</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding bias in health AI - Dr. Stephen Pfohl...</p></details>

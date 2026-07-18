@@ -275,7 +275,7 @@ image: /assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebb
 
 ## Introduction
 
-Keyword-based [spam filters]({{ 'spam-filters/' | relative_url }}) seem sensible at first: if unwanted emails often contain words such as “free”, “urgent”, or “winner”, why not block messages that use them? The problem is that legitimate emails use many of the same words. Airlines advertise free upgrades, employers send urgent notices, and charities announce prize draws. A filter that relies mainly on individual trigger words cannot reliably distinguish abuse from ordinary communication. This creates false positives—legitimate messages that are incorrectly treated as spam. Research and operational experience have shown that reducing these mistakes is one of the main reasons modern spam filters rely on learned patterns rather than simple keyword rules. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">A systematic literature review on spam content detection and...by S Kaddoura · 2022 · Cited by 110 — Machine learning has the ability...</span></span></span>
+Keyword-based [spam filters]({{ 'spam-filters/' | relative_url }}) seem sensible at first: if unwanted emails often contain words such as “free”, “urgent”, or “winner”, why not block messages that use them? The problem is that legitimate emails use many of the same words. Airlines advertise free upgrades, employers send urgent notices, and charities announce prize draws. A filter that relies mainly on individual trigger words cannot reliably distinguish abuse from ordinary communication. This creates false positives—legitimate messages that are incorrectly treated as spam. Research and operational experience have shown that reducing these mistakes is one of the main reasons modern spam filters rely on learned patterns rather than simple keyword rules.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">A systematic literature review on spam content detection and...by S Kaddoura · 2022 · Cited by 110 — Machine learning has the ability...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_keyword_false_721eb8-Illustration-1-dark.svg" | relative_url }}" alt="False Positives illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_keyword_false_721eb8-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_keyword_false_721eb8-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -296,9 +296,9 @@ Consider a few common examples:
 
 </div>
 
-A keyword rule sees only the word itself. It does not understand who sent the message, what other words appear nearby, whether the sender has an established reputation, or whether the message resembles known legitimate communications. As a result, it often treats ordinary messages as suspicious simply because they contain language associated with spam. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/defender-office-365/anti-spam-policies-troubleshooting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">anti spam policies troubleshooting</span><span class="citation-popover-snippet">Microsoft LearnTroubleshoot common anti-spam policy issues21 May 2026 — ASF settings that cause false positives. Advanced Spam Filter (AS...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
+A keyword rule sees only the word itself. It does not understand who sent the message, what other words appear nearby, whether the sender has an established reputation, or whether the message resembles known legitimate communications. As a result, it often treats ordinary messages as suspicious simply because they contain language associated with spam.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/defender-office-365/anti-spam-policies-troubleshooting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">anti spam policies troubleshooting</span><span class="citation-popover-snippet">Microsoft LearnTroubleshoot common anti-spam policy issues21 May 2026 — ASF settings that cause false positives. Advanced Spam Filter (AS...</span><span class="citation-popover-meta">Published: May 2026</span></span></span>
 
-This problem becomes even more severe in [business]({{ 'business-adoption/' | relative_url }}) environments. Newsletters, product announcements, invoices, event invitations, and customer support messages often contain language that overlaps with spam campaigns. Microsoft’s guidance on handling spam false positives specifically notes that legitimate bulk email and newsletters are sometimes classified as spam despite being wanted communications. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">how to handle false positives in microsoft defender for office 365</span><span class="citation-popover-snippet">Use the following steps when legitimate email is incorrectly classified as spam. Step 1: Check message headers...</span></span></span>
+This problem becomes even more severe in [business]({{ 'business-adoption/' | relative_url }}) environments. Newsletters, product announcements, invoices, event invitations, and customer support messages often contain language that overlaps with spam campaigns. Microsoft’s guidance on handling spam false positives specifically notes that legitimate bulk email and newsletters are sometimes classified as spam despite being wanted communications.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">how to handle false positives in microsoft defender for office 365</span><span class="citation-popover-snippet">Use the following steps when legitimate email is incorrectly classified as spam. Step 1: Check message headers...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/7I4qMZfGWmw" title="How Spam Filters Learn to Catch New Spam Emails" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=7I4qMZfGWmw" target="_blank" rel="noopener noreferrer">How Spam Filters Learn to Catch New Spam Emails</a></p><p class="youtube-embed-meta">Channel: Bikki Mahato</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=7I4qMZfGWmw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=7I4qMZfGWmw">Open on YouTube</a></p></div></div></div>
@@ -315,9 +315,9 @@ False positives can lead to:
 * Missed security alerts or account notifications.
 * Reduced [confidence]({{ 'confidence/' | relative_url }}) in the email system itself.
 
-Researchers and practitioners have long treated false positives as one of the most serious spam-filtering failures because users often never realise that an expected message was blocked. In reviews of spam-filtering systems, legitimate mail incorrectly classified as spam is consistently identified as a major evaluation concern. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.apricot.net/apricot2006/slides/conf/wednesday/spam-DOC_Hunt.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: apricot.net">[apricot.net]</a><span class="citation-popover" role="note"><span class="citation-popover-source">apricot.net</span><span class="citation-popover-snippet">idered to be a &#x27;false positive&#x27;; conversely, a spam message classi- fied as legitimate is considered to be a &#x27;false.Read more...</span></span></span>
+Researchers and practitioners have long treated false positives as one of the most serious spam-filtering failures because users often never realise that an expected message was blocked. In reviews of spam-filtering systems, legitimate mail incorrectly classified as spam is consistently identified as a major evaluation concern.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.apricot.net/apricot2006/slides/conf/wednesday/spam-DOC_Hunt.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: apricot.net">[apricot.net]</a><span class="citation-popover" role="note"><span class="citation-popover-source">apricot.net</span><span class="citation-popover-snippet">idered to be a &#x27;false positive&#x27;; conversely, a spam message classi- fied as legitimate is considered to be a &#x27;false.Read more...</span></span></span>
 
-The trust issue is particularly important. If users repeatedly discover valid messages in junk folders, they begin [checking]({{ 'checklists/' | relative_url }}) those folders constantly. At that point, the filter stops delivering its main benefit: reducing the effort required to manage email. Microsoft's anti-spam [documentation]({{ 'paper-safety/' | relative_url }}) also highlights situations where legitimate mail is quarantined or routed to junk because filtering signals incorrectly suggest spam behaviour. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">how to handle false positives in microsoft defender for office 365</span><span class="citation-popover-snippet">Use the following steps when legitimate email is incorrectly classified as spam. Step 1: Check message headers...</span></span></span>
+The trust issue is particularly important. If users repeatedly discover valid messages in junk folders, they begin [checking]({{ 'checklists/' | relative_url }}) those folders constantly. At that point, the filter stops delivering its main benefit: reducing the effort required to manage email. Microsoft's anti-spam [documentation]({{ 'paper-safety/' | relative_url }}) also highlights situations where legitimate mail is quarantined or routed to junk because filtering signals incorrectly suggest spam behaviour.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: learn.microsoft.com">[Microsoft Learn]</a><span class="citation-popover" role="note"><span class="citation-popover-source">learn.microsoft.com</span><span class="citation-popover-title">how to handle false positives in microsoft defender for office 365</span><span class="citation-popover-snippet">Use the following steps when legitimate email is incorrectly classified as spam. Step 1: Check message headers...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_keyword_false_721eb8-Illustration-2-dark.svg" | relative_url }}" alt="False Positives illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_keyword_false_721eb8-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_keyword_false_721eb8-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -334,7 +334,7 @@ Spammers learned this weakness early. If filters blocked obvious terms, they cou
 
 <div class="content-enhancement content-enhancement--metric" markdown="1">
 
-* Replace words with synonyms. <span class="citation-chip-wrap"><a class="citation-chip" href="https://www.perlmonks.org/?node_id=190837" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: perlmonks.org">[perlmonks.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">perlmonks.org</span><span class="citation-popover-snippet">Bayesian Filtering for SpamI read, with great interest, Paul Graham&#x27;s article on filtering for spam using a Bayesian scoring system of in...</span></span></span>
+* Replace words with synonyms.<span class="citation-chip-wrap"><a class="citation-chip" href="https://www.perlmonks.org/?node_id=190837" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: perlmonks.org">[perlmonks.org]</a><span class="citation-popover" role="note"><span class="citation-popover-source">perlmonks.org</span><span class="citation-popover-snippet">Bayesian Filtering for SpamI read, with great interest, Paul Graham&#x27;s article on filtering for spam using a Bayesian scoring system of in...</span></span></span>
 * Deliberately misspell suspicious terms.
 * Insert punctuation or unusual spacing.
 * Move promotional content into images instead of text.
@@ -342,7 +342,7 @@ Spammers learned this weakness early. If filters blocked obvious terms, they cou
 
 </div>
 
-The result was a continual cycle in which each new keyword rule encouraged a new workaround. Studies and reviews of spam-filtering technology identify this adaptability of spammers as a major limitation of rule-based approaches. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2SciTePress]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">A systematic literature review on spam content detection and...by S Kaddoura · 2022 · Cited by 110 — Machine learning has the ability...</span></span></span>
+The result was a continual cycle in which each new keyword rule encouraged a new workaround. Studies and reviews of spam-filtering technology identify this adaptability of spammers as a major limitation of rule-based approaches.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2SciTePress]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">A systematic literature review on spam content detection and...by S Kaddoura · 2022 · Cited by 110 — Machine learning has the ability...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/oZCskBpHWyk" title="Probability Part 2: Updating Your Beliefs with Bayes: Crash Course Statistics #14" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=oZCskBpHWyk" target="_blank" rel="noopener noreferrer">Probability Part 2: Updating Your Beliefs with Bayes: Crash Course Statistics #14</a></p><p class="youtube-embed-meta">Channel: CrashCourse</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=oZCskBpHWyk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=oZCskBpHWyk">Open on YouTube</a></p></div></div></div>
@@ -364,9 +364,9 @@ Instead of asking, “Does this email contain the word ‘free’?”, a learned
 
 </div>
 
-[Bayesian filters]({{ 'bayesian-filters/' | relative_url }}) were among the earliest widely deployed examples of this idea. Rather than blocking specific words, they estimate how strongly different words and patterns are associated with spam or legitimate mail and then combine that evidence into a probability score. Systems such as SpamAssassin incorporated Bayesian learning precisely because fixed rules alone could not achieve acceptable accuracy. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.kerioconnect.gfi.com/article/115475-kerio-connect-anti-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.kerioconnect.gfi.com">[Kerio Connect Support+2Hornetsecurity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.kerioconnect.gfi.com</span><span class="citation-popover-title">Kerio Connect Support Kerio Connect Anti-Spam Filters</span><span class="citation-popover-snippet">Kerio Connect SupportKerio Connect Anti-Spam FiltersMarch 18, 2025 — Kerio Connect offers two primary forms of Anti-Spam protection - the...</span><span class="citation-popover-meta">Published: March 18, 2025</span></span></span>
+[Bayesian filters]({{ 'bayesian-filters/' | relative_url }}) were among the earliest widely deployed examples of this idea. Rather than blocking specific words, they estimate how strongly different words and patterns are associated with spam or legitimate mail and then combine that evidence into a probability score. Systems such as SpamAssassin incorporated Bayesian learning precisely because fixed rules alone could not achieve acceptable accuracy.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://support.kerioconnect.gfi.com/article/115475-kerio-connect-anti-spam-filters" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: support.kerioconnect.gfi.com">[Kerio Connect Support+2Hornetsecurity]</a><span class="citation-popover" role="note"><span class="citation-popover-source">support.kerioconnect.gfi.com</span><span class="citation-popover-title">Kerio Connect Support Kerio Connect Anti-Spam Filters</span><span class="citation-popover-snippet">Kerio Connect SupportKerio Connect Anti-Spam FiltersMarch 18, 2025 — Kerio Connect offers two primary forms of Anti-Spam protection - the...</span><span class="citation-popover-meta">Published: March 18, 2025</span></span></span>
 
-This approach handles ambiguous words much better. The word “free” might contribute a small amount of suspicion, but it is unlikely to trigger blocking by itself. A message is judged by the overall pattern, not by one isolated feature. Research reviews consistently identify this ability to combine multiple weak signals as a key advantage of [machine-learning]({{ 'machine-learning/' | relative_url }})-based spam filtering. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6562150/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-title">PMCMachine learning for email spam filtering</span><span class="citation-popover-snippet">NIHby EG Dada · 2019 · Cited by 770 — Our review compares the strengths and drawbacks of existing machine learning approaches and t...</span></span></span>
+This approach handles ambiguous words much better. The word “free” might contribute a small amount of suspicion, but it is unlikely to trigger blocking by itself. A message is judged by the overall pattern, not by one isolated feature. Research reviews consistently identify this ability to combine multiple weak signals as a key advantage of [machine-learning]({{ 'machine-learning/' | relative_url }})-based spam filtering.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6562150/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-title">PMCMachine learning for email spam filtering</span><span class="citation-popover-snippet">NIHby EG Dada · 2019 · Cited by 770 — Our review compares the strengths and drawbacks of existing machine learning approaches and t...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_keyword_false_721eb8-Illustration-3-dark.svg" | relative_url }}" alt="False Positives illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_keyword_false_721eb8-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_machine_learn_d2d913_spam_filters_ebbaa7_keyword_false_721eb8-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -374,7 +374,7 @@ This approach handles ambiguous words much better. The word “free” might con
 
 Keyword-only spam filters demonstrate a broader lesson about artificial intelligence: many real-world categories cannot be captured by a short list of rules.
 
-Spam is not defined by a handful of forbidden words. It is defined by patterns that emerge across content, behaviour, reputation, structure, and context. Because legitimate emails and spam often share the same vocabulary, systems that focus on isolated keywords inevitably block some of the wrong messages. Learned models perform better because they evaluate combinations of signals and adapt as communication patterns change. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">A systematic literature review on spam content detection and...by S Kaddoura · 2022 · Cited by 110 — Machine learning has the ability...</span></span></span>
+Spam is not defined by a handful of forbidden words. It is defined by patterns that emerge across content, behaviour, reputation, structure, and context. Because legitimate emails and spam often share the same vocabulary, systems that focus on isolated keywords inevitably block some of the wrong messages. Learned models perform better because they evaluate combinations of signals and adapt as communication patterns change.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2PMC]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">A systematic literature review on spam content detection and...by S Kaddoura · 2022 · Cited by 110 — Machine learning has the ability...</span></span></span>
 
 The failure of keyword-only filtering is therefore not merely a spam problem. It illustrates why many AI systems learn from examples: the world is often too complex for simple trigger-word rules to separate categories accurately.
 
@@ -383,194 +383,194 @@ The failure of keyword-only filtering is therefore not merely a spam problem. It
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When spam rules punish real emails. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When spam rules punish real emails. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Science for Business on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=EZAtAAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Data Science for Business" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Science for Business">Data Science for Business</a>
-        </h4>
-        <p class="fr-book-author">By Foster Provost, Tom Fawcett</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Data Science for Business on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=EZAtAAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Data Science for Business" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Data Science for Business">Data Science for Business</a>
+</h4>
+<p class="fr-book-author">By Foster Provost, Tom Fawcett</p>
         
-        <p class="fr-book-desc">Discusses classification errors, including false positives and false negatives.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses classification errors, including false positives and false negatives.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Data+Science+for+Business+by+Foster+Provost&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open An Introduction to Statistical Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=g5gezgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for An Introduction to Statistical Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="An Introduction to Statistical Learning">An Introduction to Statistical Learning</a>
-        </h4>
-        <p class="fr-book-author">By Gareth James, Daniela Witten et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open An Introduction to Statistical Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=g5gezgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for An Introduction to Statistical Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="An Introduction to Statistical Learning">An Introduction to Statistical Learning</a>
+</h4>
+<p class="fr-book-author">By Gareth James, Daniela Witten et al.</p>
         
-        <p class="fr-book-desc">Explains classification performance metrics and error trade-offs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains classification performance metrics and error trade-offs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=An+Introduction+to+Statistical+Learning+by+Gareth+James&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
-        </h4>
-        <p class="fr-book-author">By Andriy Burkov</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Hundred-page Machine Learning Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=0jbxwQEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Hundred-page Machine Learning Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Hundred-page Machine Learning Book">The Hundred-page Machine Learning Book</a>
+</h4>
+<p class="fr-book-author">By Andriy Burkov</p>
         
-        <p class="fr-book-desc">Covers precision, recall, and classification mistakes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers precision, recall, and classification mistakes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Hundred-page+Machine+Learning+Book+by+Andriy+Burkov&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
-        </h4>
-        <p class="fr-book-author">By Aurélien Géron</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=OCS1twEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow">Hands-on Machine Learning with Scikit-Learn, Keras, and Tenso...</a>
+</h4>
+<p class="fr-book-author">By Aurélien Géron</p>
         
-        <p class="fr-book-desc">Shows practical evaluation of classification systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows practical evaluation of classification systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-on+Machine+Learning+with+Scikit-Learn%2C+Keras%2C+and+TensorFlow+by+Aur%C3%A9lien+G%C3%A9ron&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Science+for+Business&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Science for Business</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=An+to+Statistical+Learning+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">An to Statistical Learning books</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Data+Science+for+Business&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Data Science for Business</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=An+to+Statistical+Learning+books&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">An to Statistical Learning books</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Hundred+page+Machine+Learning+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Hundred page Machine Learning Book</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8b6ffef2772d9b97a585.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/8b6ffef2772d9b97a585.jpg' | relative_url }}" alt="Listing image for Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Something about Machine Learning or Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/1609ae8fb21f04b2f399.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/1609ae8fb21f04b2f399.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/856ff982ae7b5ba163da.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED"><img src="{{ '/assets/images/marketplace-covers/856ff982ae7b5ba163da.jpg' | relative_url }}" alt="Listing image for Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Palace Learning 3 Pack - Cable Machine Workout Posters 18&quot; x 24&quot;, LAMINATED</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/a75d9fb9aeb096f142ff.jpg' | relative_url }}" alt="Listing image for Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">Anti AI Anti Machine Learning Say N Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for machine learning poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: machine learning poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=machine+learning+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="machine learning poster" data-ebay-reference="false-positives-when-spam-rules-punish-real-emails-understanding-machine-learning-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -586,7 +586,7 @@ The failure of keyword-only filtering is therefore not merely a spam problem. It
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -606,7 +606,7 @@ The failure of keyword-only filtering is therefore not merely a spam problem. It
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -638,7 +638,7 @@ The failure of keyword-only filtering is therefore not merely a spam problem. It
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -690,7 +690,7 @@ The failure of keyword-only filtering is therefore not merely a spam problem. It
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -735,7 +735,7 @@ The failure of keyword-only filtering is therefore not merely a spam problem. It
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -776,122 +776,122 @@ The failure of keyword-only filtering is therefore not merely a spam problem. It
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: pmc.ncbi.nlm.nih.gov  
    Title: PMCMachine learning for email spam filtering  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6562150/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC6562150/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIHby EG Dada · 2019 · Cited by 770 — Our review compares the strengths and drawbacks of existing machine learning approaches and t...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6562150/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC6562150/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIHby EG Dada · 2019 · Cited by 770 — Our review compares the strengths and drawbacks of existing machine learning approaches and t...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: learn.microsoft.com  
    Title: anti spam policies troubleshooting  
-   Link: <a href="https://learn.microsoft.com/en-us/defender-office-365/anti-spam-policies-troubleshooting" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/defender-office-365/anti-spam-policies-troubleshooting</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Microsoft LearnTroubleshoot common anti-spam policy issues21 May 2026 — ASF settings that cause false positives. Advanced Spam Filter (AS...</p></details>
+   Link:<a href="https://learn.microsoft.com/en-us/defender-office-365/anti-spam-policies-troubleshooting" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/defender-office-365/anti-spam-policies-troubleshooting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Microsoft LearnTroubleshoot common anti-spam policy issues21 May 2026 — ASF settings that cause false positives. Advanced Spam Filter (AS...</p></details>
    Published: May 2026  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: learn.microsoft.com  
    Title: how to handle false positives in microsoft defender for office 365  
-   Link: <a href="https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Use the following steps when legitimate email is incorrectly classified as spam. Step 1: Check message headers...</p></details>
+   Link:<a href="https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/defender-office-365/step-by-step-guides/how-to-handle-false-positives-in-microsoft-defender-for-office-365</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Use the following steps when legitimate email is incorrectly classified as spam. Step 1: Check message headers...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: apricot.net  
-   Link: <a href="https://www.apricot.net/apricot2006/slides/conf/wednesday/spam-DOC_Hunt.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.apricot.net/apricot2006/slides/conf/wednesday/spam-DOC_Hunt.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>idered to be a &#x27;false positive&#x27;; conversely, a spam message classi- fied as legitimate is considered to be a &#x27;false.Read more...</p></details>
+   Link:<a href="https://www.apricot.net/apricot2006/slides/conf/wednesday/spam-DOC_Hunt.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.apricot.net/apricot2006/slides/conf/wednesday/spam-DOC_Hunt.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>idered to be a &#x27;false positive&#x27;; conversely, a spam message classi- fied as legitimate is considered to be a &#x27;false.Read more...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: scitepress.org  
-   Link: <a href="https://www.scitepress.org/Papers/2024/135260/135260.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.scitepress.org/Papers/2024/135260/135260.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Spam Filtering in the Modern Era: A Review of Machine...by X Wang · 2025 · Cited by 2 — This article explores the development of spam fi...</p></details>
+   Link:<a href="https://www.scitepress.org/Papers/2024/135260/135260.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.scitepress.org/Papers/2024/135260/135260.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Spam Filtering in the Modern Era: A Review of Machine...by X Wang · 2025 · Cited by 2 — This article explores the development of spam fi...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: hornetsecurity.com  
    Title: Bayesian filter  
-   Link: <a href="https://www.hornetsecurity.com/en/knowledge-base/bayesian-filter/" target="_blank" rel="noopener noreferrer nofollow">https://www.hornetsecurity.com/en/knowledge-base/bayesian-filter/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Next-Gen Microsoft 365...Bayesian filters work by analyzing email content and assigning probabilities to certain charac...</p></details>
+   Link:<a href="https://www.hornetsecurity.com/en/knowledge-base/bayesian-filter/" target="_blank" rel="noopener noreferrer nofollow">https://www.hornetsecurity.com/en/knowledge-base/bayesian-filter/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Next-Gen Microsoft 365...Bayesian filters work by analyzing email content and assigning probabilities to certain charac...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: learn.microsoft.com  
    Title: This action will help train the spam filter to recognize  
-   Link: <a href="https://learn.microsoft.com/en-us/answers/questions/5777670/spam-false-positive-how-to-remove-filter" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/answers/questions/5777670/spam-false-positive-how-to-remove-filter</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>false positive how to remove filter - Microsoft Q&amp;A16 Feb 2026 — Mark as Not Junk: Right-click on the email and select &quot;Mark as Not Junk&quot;...</p></details>
+   Link:<a href="https://learn.microsoft.com/en-us/answers/questions/5777670/spam-false-positive-how-to-remove-filter" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/answers/questions/5777670/spam-false-positive-how-to-remove-filter</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>false positive how to remove filter - Microsoft Q&amp;A16 Feb 2026 — Mark as Not Junk: Right-click on the email and select &quot;Mark as Not Junk&quot;...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: learn.microsoft.com  
    Title: anti phishing policies about  
-   Link: <a href="https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-about" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-about</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>microsoft.comAnti-phishing policies in cloud organizations14 Apr 2026 — Anti-phishing policies protect against phishing attacks by detect...</p></details>
+   Link:<a href="https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-about" target="_blank" rel="noopener noreferrer nofollow">https://learn.microsoft.com/en-us/defender-office-365/anti-phishing-policies-about</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>microsoft.comAnti-phishing policies in cloud organizations14 Apr 2026 — Anti-phishing policies protect against phishing attacks by detect...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A systematic literature review on spam content detection and...by S Kaddoura · 2022 · Cited by 110 — Machine learning has the ability...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC8802784/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A systematic literature review on spam content detection and...by S Kaddoura · 2022 · Cited by 110 — Machine learning has the ability...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: ebsco.com  
-   Link: <a href="https://www.ebsco.com/research-starters/computer-science/spam-filters" target="_blank" rel="noopener noreferrer nofollow">https://www.ebsco.com/research-starters/computer-science/spam-filters</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Spam filters | Computer Science | Research StartersFalse positives are legitimate e-mails that are mistakenly classified as spam, and fal...</p></details>
+   Link:<a href="https://www.ebsco.com/research-starters/computer-science/spam-filters" target="_blank" rel="noopener noreferrer nofollow">https://www.ebsco.com/research-starters/computer-science/spam-filters</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Spam filters | Computer Science | Research StartersFalse positives are legitimate e-mails that are mistakenly classified as spam, and fal...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: support.kerioconnect.gfi.com  
    Title: Kerio Connect Support Kerio Connect Anti-Spam Filters  
-   Link: <a href="https://support.kerioconnect.gfi.com/article/115475-kerio-connect-anti-spam-filters" target="_blank" rel="noopener noreferrer nofollow">https://support.kerioconnect.gfi.com/article/115475-kerio-connect-anti-spam-filters</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Kerio Connect SupportKerio Connect Anti-Spam FiltersMarch 18, 2025 — Kerio Connect offers two primary forms of Anti-Spam protection - the...</p></details>
+   Link:<a href="https://support.kerioconnect.gfi.com/article/115475-kerio-connect-anti-spam-filters" target="_blank" rel="noopener noreferrer nofollow">https://support.kerioconnect.gfi.com/article/115475-kerio-connect-anti-spam-filters</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Kerio Connect SupportKerio Connect Anti-Spam FiltersMarch 18, 2025 — Kerio Connect offers two primary forms of Anti-Spam protection - the...</p></details>
    Published: March 18, 2025  
 
 ### Additional References
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: perlmonks.org  
-   Link: <a href="https://www.perlmonks.org/?node_id=190837" target="_blank" rel="noopener noreferrer nofollow">https://www.perlmonks.org/?node_id=190837</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Bayesian Filtering for SpamI read, with great interest, Paul Graham&#x27;s article on filtering for spam using a Bayesian scoring system of in...</p></details>
+   Link:<a href="https://www.perlmonks.org/?node_id=190837" target="_blank" rel="noopener noreferrer nofollow">https://www.perlmonks.org/?node_id=190837</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Bayesian Filtering for SpamI read, with great interest, Paul Graham&#x27;s article on filtering for spam using a Bayesian scoring system of in...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/45878185_Effectiveness_and_Limitations_of_Statistical_Spam_Filters" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/45878185_Effectiveness_and_Limitations_of_Statistical_Spam_Filters</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Effectiveness and Limitations of Statistical Spam FiltersIn this paper we discuss the techniques involved in the design of the famous sta...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/45878185_Effectiveness_and_Limitations_of_Statistical_Spam_Filters" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/45878185_Effectiveness_and_Limitations_of_Statistical_Spam_Filters</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Effectiveness and Limitations of Statistical Spam FiltersIn this paper we discuss the techniques involved in the design of the famous sta...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: windowsforum.com  
-   Link: <a href="https://windowsforum.com/threads/exchange-online-spam-filtering-failures-risks-lessons-and-future-of-ml-security.364671/" target="_blank" rel="noopener noreferrer nofollow">https://windowsforum.com/threads/exchange-online-spam-filtering-failures-risks-lessons-and-future-of-ml-security.364671/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Exchange Online Spam Filtering Failures: Risks, Lessons...5 May 2025 — The issue traces back to a central pillar of Microsoft&#x27;s spam-det...</p></details>
+   Link:<a href="https://windowsforum.com/threads/exchange-online-spam-filtering-failures-risks-lessons-and-future-of-ml-security.364671/" target="_blank" rel="noopener noreferrer nofollow">https://windowsforum.com/threads/exchange-online-spam-filtering-failures-risks-lessons-and-future-of-ml-security.364671/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Exchange Online Spam Filtering Failures: Risks, Lessons...5 May 2025 — The issue traces back to a central pillar of Microsoft&#x27;s spam-det...</p></details>
    Published: May 2025  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arunpandianm.medium.com  
    Title: traditional programming vs machine learning spam email filtering 9d2a8baf37bd  
-   Link: <a href="https://arunpandianm.medium.com/traditional-programming-vs-machine-learning-spam-email-filtering-9d2a8baf37bd" target="_blank" rel="noopener noreferrer nofollow">https://arunpandianm.medium.com/traditional-programming-vs-machine-learning-spam-email-filtering-9d2a8baf37bd</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Programming vs. Machine Learning: Spam Email...This blog explores the difference between traditional rule-based programming and machine...</p></details>
+   Link:<a href="https://arunpandianm.medium.com/traditional-programming-vs-machine-learning-spam-email-filtering-9d2a8baf37bd" target="_blank" rel="noopener noreferrer nofollow">https://arunpandianm.medium.com/traditional-programming-vs-machine-learning-spam-email-filtering-9d2a8baf37bd</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Programming vs. Machine Learning: Spam Email...This blog explores the difference between traditional rule-based programming and machine...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: cynet.com  
    Title: 6 email filtering techniques and how to choose a filtering service  
-   Link: <a href="https://www.cynet.com/malware/6-email-filtering-techniques-and-how-to-choose-a-filtering-service/" target="_blank" rel="noopener noreferrer nofollow">https://www.cynet.com/malware/6-email-filtering-techniques-and-how-to-choose-a-filtering-service/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>7 Email Filtering Techniques &amp; How to Choose a...05-Mar-2026 — These filters operate using a combination of techniques such as keyword m...</p></details>
+   Link:<a href="https://www.cynet.com/malware/6-email-filtering-techniques-and-how-to-choose-a-filtering-service/" target="_blank" rel="noopener noreferrer nofollow">https://www.cynet.com/malware/6-email-filtering-techniques-and-how-to-choose-a-filtering-service/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>7 Email Filtering Techniques &amp; How to Choose a...05-Mar-2026 — These filters operate using a combination of techniques such as keyword m...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/278667445_Bayesian_spam_filtering_based_on_co-weighting_multi-estimations" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/278667445_Bayesian_spam_filtering_based_on_co-weighting_multi-estimations</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>spam and legitimate emails containing the token, Ns and Nl be the number of spam and...Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/278667445_Bayesian_spam_filtering_based_on_co-weighting_multi-estimations" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/278667445_Bayesian_spam_filtering_based_on_co-weighting_multi-estimations</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>spam and legitimate emails containing the token, Ns and Nl be the number of spam and...Read more...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: usenix.org  
-   Link: <a href="https://www.usenix.org/legacyurl/exploiting-machine-learning-subvert-your-spam-filter" target="_blank" rel="noopener noreferrer nofollow">https://www.usenix.org/legacyurl/exploiting-machine-learning-subvert-your-spam-filter</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ical machine learning, as used in the SpamBayes spam filter, to render it useless...</p></details>
+   Link:<a href="https://www.usenix.org/legacyurl/exploiting-machine-learning-subvert-your-spam-filter" target="_blank" rel="noopener noreferrer nofollow">https://www.usenix.org/legacyurl/exploiting-machine-learning-subvert-your-spam-filter</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ical machine learning, as used in the SpamBayes spam filter, to render it useless...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: getmailbird.com  
    Title: how machine learning spam filters analyze email  
-   Link: <a href="https://www.getmailbird.com/how-machine-learning-spam-filters-analyze-email/" target="_blank" rel="noopener noreferrer nofollow">https://www.getmailbird.com/how-machine-learning-spam-filters-analyze-email/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>How Machine Learning Spam Filters Analyze Your Email...5 Jan 2026 — Users can improve accuracy by consistently marking false positives a...</p></details>
+   Link:<a href="https://www.getmailbird.com/how-machine-learning-spam-filters-analyze-email/" target="_blank" rel="noopener noreferrer nofollow">https://www.getmailbird.com/how-machine-learning-spam-filters-analyze-email/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>How Machine Learning Spam Filters Analyze Your Email...5 Jan 2026 — Users can improve accuracy by consistently marking false positives a...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: cubepath.com  
-   Link: <a href="https://cubepath.com/docs/email-server/spamassassin-configuration" target="_blank" rel="noopener noreferrer nofollow">https://cubepath.com/docs/email-server/spamassassin-configuration</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>SpamAssassin Configuration: Complete Anti-Spam Setup...SpamAssassin provides a powerful, open-source solution for identifying an...</p></details>
+   Link:<a href="https://cubepath.com/docs/email-server/spamassassin-configuration" target="_blank" rel="noopener noreferrer nofollow">https://cubepath.com/docs/email-server/spamassassin-configuration</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>SpamAssassin Configuration: Complete Anti-Spam Setup...SpamAssassin provides a powerful, open-source solution for identifying an...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/Microsoft365Defender/comments/199u75v/increase_in_false_positives_from_antispam_policy/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/Microsoft365Defender/comments/199u75v/increase_in_false_positives_from_antispam_policy/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>nti-Spam Policy detecting benign emails as &#x27;High Confidence...</p></details>
+   Link:<a href="https://www.reddit.com/r/Microsoft365Defender/comments/199u75v/increase_in_false_positives_from_antispam_policy/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/Microsoft365Defender/comments/199u75v/increase_in_false_positives_from_antispam_policy/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>nti-Spam Policy detecting benign emails as &#x27;High Confidence...</p></details>

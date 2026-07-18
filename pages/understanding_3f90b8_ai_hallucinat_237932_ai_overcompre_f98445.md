@@ -294,7 +294,7 @@ image: /assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f9
 
 ## Introduction
 
-One of the less obvious ways artificial intelligence can fail is not by inventing facts, but by making complex situations appear simpler than they really are. In high-stakes fields such as law, medicine, finance and scientific research, the correct answer often depends on exceptions, conditions, probabilities and context. An AI summary may compress those details into a neat conclusion that sounds useful while quietly removing the very information that determines whether the conclusion is safe. Research on large [language models]({{ 'language-models/' | relative_url }}) has found that they frequently overgeneralise scientific findings and omit important qualifications, even when explicitly instructed to produce accurate summaries. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
+One of the less obvious ways artificial intelligence can fail is not by inventing facts, but by making complex situations appear simpler than they really are. In high-stakes fields such as law, medicine, finance and scientific research, the correct answer often depends on exceptions, conditions, probabilities and context. An AI summary may compress those details into a neat conclusion that sounds useful while quietly removing the very information that determines whether the conclusion is safe. Research on large [language models]({{ 'language-models/' | relative_url }}) has found that they frequently overgeneralise scientific findings and omit important qualifications, even when explicitly instructed to produce accurate summaries.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445-Illustration-1-dark.svg" | relative_url }}" alt="Over compression illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_ai_hallucinat_237932_ai_overcompre_f98445-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -306,7 +306,7 @@ Human experts in high-stakes professions spend much of their time dealing with e
 
 Large language models are designed to compress information into concise, readable outputs. During that compression process, qualifications often disappear. Conditional statements become general statements. Probabilities become conclusions. Rare but important exceptions become invisible.
 
-Researchers examining thousands of AI-generated summaries of scientific papers found that leading models were substantially more likely than human experts to overgeneralise findings. In many cases, the models expanded the apparent scope of results beyond what the original research supported. Newer models did not necessarily reduce this tendency. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
+Researchers examining thousands of AI-generated summaries of scientific papers found that leading models were substantially more likely than human experts to overgeneralise findings. In many cases, the models expanded the apparent scope of results beyond what the original research supported. Newer models did not necessarily reduce this tendency.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
 
 The resulting answer can be misleading without containing any obviously false sentence. The risk lies in what was left out.
 
@@ -336,17 +336,17 @@ The public attention around AI-generated fictitious legal citations highlighted 
 
 Medicine is full of conditional reasoning. A treatment that benefits most patients may be harmful for someone with a particular allergy, age profile, pregnancy status or combination of medications.
 
-Researchers and clinicians have repeatedly warned that impressive AI performance metrics can conceal limitations that become visible in real clinical settings. Medical decisions involve uncertainty, rare presentations and individual circumstances that are difficult to compress into a short recommendation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.scientificamerican.com/article/ai-in-medicine-is-overhyped/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scientificamerican.com">[Scientific American]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scientificamerican.com</span><span class="citation-popover-title">Scientific American AI in Medicine Is Overhyped &#124; Scientific American</span><span class="citation-popover-snippet">Scientific AmericanAI in Medicine Is Overhyped &#124; Scientific AmericanOctober 19, 2022...</span><span class="citation-popover-meta">Published: October 19, 2022</span></span></span>
+Researchers and clinicians have repeatedly warned that impressive AI performance metrics can conceal limitations that become visible in real clinical settings. Medical decisions involve uncertainty, rare presentations and individual circumstances that are difficult to compress into a short recommendation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.scientificamerican.com/article/ai-in-medicine-is-overhyped/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: scientificamerican.com">[Scientific American]</a><span class="citation-popover" role="note"><span class="citation-popover-source">scientificamerican.com</span><span class="citation-popover-title">Scientific American AI in Medicine Is Overhyped &#124; Scientific American</span><span class="citation-popover-snippet">Scientific AmericanAI in Medicine Is Overhyped &#124; Scientific AmericanOctober 19, 2022...</span><span class="citation-popover-meta">Published: October 19, 2022</span></span></span>
 
 An AI-generated summary might correctly describe a standard treatment pathway while failing to emphasise contraindications or unusual risk factors. A patient reading the summary could conclude that the decision is straightforward when a clinician would recognise multiple reasons for caution.
 
-The stakes are not theoretical. Medical organisations and professional bodies continue to debate responsibility and liability when AI-assisted recommendations contribute to harmful outcomes, precisely because subtle errors and omissions can have serious consequences. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Currently, under UK law, clinicians can be sued even when harm stems from AI mistakes, such as missing tumors on X-rays or incorrect dosa...</span></span></span>
+The stakes are not theoretical. Medical organisations and professional bodies continue to debate responsibility and liability when AI-assisted recommendations contribute to harmful outcomes, precisely because subtle errors and omissions can have serious consequences.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: theguardian.com">[The Guardian]</a><span class="citation-popover" role="note"><span class="citation-popover-source">theguardian.com</span><span class="citation-popover-snippet">Currently, under UK law, clinicians can be sued even when harm stems from AI mistakes, such as missing tumors on X-rays or incorrect dosa...</span></span></span>
 
 ### Finance: uncertainty becomes a tidy narrative
 
 Financial risk is often expressed through probabilities, stress scenarios and conditional assumptions. Investors and regulators are concerned not only with expected outcomes but also with low-probability events that can cause severe losses.
 
-When AI systems summarise financial information, they tend to favour coherent narratives over complex uncertainty. Risk disclosures buried in footnotes, regulatory qualifications and scenario-dependent warnings can be reduced to vague references to “headwinds” or “moderate risk”. The result is a cleaner story but a less accurate representation of exposure. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: alibaba.com">[Alibaba]</a><span class="citation-popover" role="note"><span class="citation-popover-source">alibaba.com</span><span class="citation-popover-snippet">Why Do Ai-generated Financial Summaries Oversimplify Risk And How To Add Contextual GuardrailsJanuary 5, 2026...</span><span class="citation-popover-meta">Published: January 5, 2026</span></span></span>
+When AI systems summarise financial information, they tend to favour coherent narratives over complex uncertainty. Risk disclosures buried in footnotes, regulatory qualifications and scenario-dependent warnings can be reduced to vague references to “headwinds” or “moderate risk”. The result is a cleaner story but a less accurate representation of exposure.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: alibaba.com">[Alibaba]</a><span class="citation-popover" role="note"><span class="citation-popover-source">alibaba.com</span><span class="citation-popover-snippet">Why Do Ai-generated Financial Summaries Oversimplify Risk And How To Add Contextual GuardrailsJanuary 5, 2026...</span><span class="citation-popover-meta">Published: January 5, 2026</span></span></span>
 
 This can create a false sense of certainty. A summary may accurately capture the central trend while omitting the [tail risks]({{ 'tail-risk/' | relative_url }}) that professional risk management is designed to identify.
 
@@ -358,7 +358,7 @@ In finance, the details often matter most when conditions change. A summary that
 
 Scientific papers are already summaries of uncertainty. Researchers describe limitations, [confidence]({{ 'confidence/' | relative_url }}) intervals, assumptions and alternative explanations because those details help readers judge how much trust to place in the results.
 
-Studies of AI-generated scientific summaries have found a recurring pattern: models often present tentative findings as broader conclusions than the original authors intended. Nuances about study populations, methodology and uncertainty can be lost during summarisation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
+Studies of AI-generated scientific summaries have found a recurring pattern: models often present tentative findings as broader conclusions than the original authors intended. Nuances about study populations, methodology and uncertainty can be lost during summarisation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: livescience.com">[Live Science]</a><span class="citation-popover" role="note"><span class="citation-popover-source">livescience.com</span><span class="citation-popover-snippet">Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists &#124; Live ScienceJuly 5, 2025...</span><span class="citation-popover-meta">Published: July 5, 2025</span></span></span>
 
 For example, a study conducted on a narrow population may become “evidence that X works”. A correlation may be described in language that suggests causation. A preliminary finding may sound settled.
 
@@ -415,162 +415,162 @@ The challenge is therefore not only to ask whether an AI answer is true. It is a
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to When a tidy AI answer hides the risk. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to When a tidy AI answer hides the risk. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Melanie Mitchell</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Artificial Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=65iEDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Artificial Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Artificial Intelligence">Artificial Intelligence</a>
+</h4>
+<p class="fr-book-author">By Melanie Mitchell</p>
         
-        <p class="fr-book-desc">Explains limits of AI understanding and summarisation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains limits of AI understanding and summarisation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Artificial+Intelligence+by+Melanie+Mitchell&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=KGCNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Examines oversimplification and misinterpretation in AI systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Examines oversimplification and misinterpretation in AI systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Kahneman</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Thinking, Fast and Slow on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=AV9x8XakdV0C&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Thinking, Fast and Slow" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Thinking, Fast and Slow">Thinking, Fast and Slow</a>
+</h4>
+<p class="fr-book-author">By Daniel Kahneman</p>
         
-        <p class="fr-book-desc">Explains how simplified conclusions can hide important exceptions and risks.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains how simplified conclusions can hide important exceptions and risks.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Noise+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Noise on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_KujzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Noise" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Noise+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Noise">Noise</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Kahneman, Olivier Sibony et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Noise+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Noise on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=_KujzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Noise" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Noise+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Noise">Noise</a>
+</h4>
+<p class="fr-book-author">By Daniel Kahneman, Olivier Sibony et al.</p>
         
-        <p class="fr-book-desc">Shows how apparently neat judgments can conceal uncertainty.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Noise+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how apparently neat judgments can conceal uncertainty.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Noise+by+Daniel+Kahneman&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Thinking, Fast and Slow</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Artificial+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Artificial Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Thinking%2C+Fast+and+Slow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Thinking, Fast and Slow</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack"><img src="{{ '/assets/images/marketplace-covers/8e8cf4f1dbb82a0acf8d.jpg' | relative_url }}" alt="Listing image for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack"><img src="{{ '/assets/images/marketplace-covers/8e8cf4f1dbb82a0acf8d.jpg' | relative_url }}" alt="Listing image for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack"><img src="{{ '/assets/images/marketplace-covers/6410bbade52c65ebe170.jpg' | relative_url }}" alt="Listing image for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker pack">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI sticker pack</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack"><img src="{{ '/assets/images/marketplace-covers/6410bbade52c65ebe170.jpg' | relative_url }}" alt="Listing image for Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">Biribirba Universal Brainrot AI Mystery Pack [3D Keychain, Sticker) - 2 Pack</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI sticker pack">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI sticker pack</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+sticker+pack&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI sticker pack" data-ebay-reference="over-compression-when-a-tidy-ai-answer-hides-the-risk-understanding-ai-sticker-pack" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -586,7 +586,7 @@ The challenge is therefore not only to ask whether an AI answer is true. It is a
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -606,7 +606,7 @@ The challenge is therefore not only to ask whether an AI answer is true. It is a
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -638,7 +638,7 @@ The challenge is therefore not only to ask whether an AI answer is true. It is a
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -690,7 +690,7 @@ The challenge is therefore not only to ask whether an AI answer is true. It is a
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -735,7 +735,7 @@ The challenge is therefore not only to ask whether an AI answer is true. It is a
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -776,63 +776,63 @@ The challenge is therefore not only to ask whether an AI answer is true. It is a
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: alibaba.com  
-   Link: <a href="https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html" target="_blank" rel="noopener noreferrer nofollow">https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Do Ai-generated Financial Summaries Oversimplify Risk And How To Add Contextual GuardrailsJanuary 5, 2026...</p></details>
+   Link:<a href="https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html" target="_blank" rel="noopener noreferrer nofollow">https://www.alibaba.com/product-insights/why-do-ai-generated-financial-summaries-oversimplify-risk-and-how-to-add-contextual-guardrails.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Do Ai-generated Financial Summaries Oversimplify Risk And How To Add Contextual GuardrailsJanuary 5, 2026...</p></details>
    Published: January 5, 2026  
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: livescience.com  
-   Link: <a href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists | Live ScienceJuly 5, 2025...</p></details>
+   Link:<a href="https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty" target="_blank" rel="noopener noreferrer nofollow">https://www.livescience.com/technology/artificial-intelligence/ai-chatbots-oversimplify-scientific-studies-and-gloss-over-critical-details-the-newest-models-are-especially-guilty</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Live ScienceChatbots gloss over critical details in summaries of scientific studies, say scientists | Live ScienceJuly 5, 2025...</p></details>
    Published: July 5, 2025  
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: scientificamerican.com  
    Title: Scientific American AI in Medicine Is Overhyped | Scientific American  
-   Link: <a href="https://www.scientificamerican.com/article/ai-in-medicine-is-overhyped/" target="_blank" rel="noopener noreferrer nofollow">https://www.scientificamerican.com/article/ai-in-medicine-is-overhyped/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Scientific AmericanAI in Medicine Is Overhyped | Scientific AmericanOctober 19, 2022...</p></details>
+   Link:<a href="https://www.scientificamerican.com/article/ai-in-medicine-is-overhyped/" target="_blank" rel="noopener noreferrer nofollow">https://www.scientificamerican.com/article/ai-in-medicine-is-overhyped/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Scientific AmericanAI in Medicine Is Overhyped | Scientific AmericanOctober 19, 2022...</p></details>
    Published: October 19, 2022  
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: theguardian.com  
-   Link: <a href="https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Currently, under UK law, clinicians can be sued even when harm stems from AI mistakes, such as missing tumors on X-rays or incorrect dosa...</p></details>
+   Link:<a href="https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report" target="_blank" rel="noopener noreferrer nofollow">https://www.theguardian.com/society/2026/jun/09/doctors-nhs-could-be-sued-mistakes-ai-tools-medical-protection-society-report</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Currently, under UK law, clinicians can be sued even when harm stems from AI mistakes, such as missing tumors on X-rays or incorrect dosa...</p></details>
 
 ### Additional References
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: youtube.com  
    Title: Risks of Large Language Models (LLM)  
-   Link: <a href="https://www.youtube.com/watch?v=r4kButlDLUc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=r4kButlDLUc</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Uncomfortable Truth About AI “Reasoning” | World Science Festival - YouTube The Uncomfortable Truth About AI “Reasoning” | World Scie...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=r4kButlDLUc" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=r4kButlDLUc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Uncomfortable Truth About AI “Reasoning” | World Science Festival - YouTube The Uncomfortable Truth About AI “Reasoning” | World Scie...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: scimex.org  
    Title: AI summaries of scientific research oversimplify findings  
-   Link: <a href="https://www.scimex.org/funnelback/story-push-redirector?pushAsset=1099546&amp;t=t" target="_blank" rel="noopener noreferrer nofollow">https://www.scimex.org/funnelback/story-push-redirector?pushAsset=1099546&amp;t=t</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI summaries of scientific research oversimplify findings - Scimex...</p></details>
+   Link:<a href="https://www.scimex.org/funnelback/story-push-redirector?pushAsset=1099546&amp;t=t" target="_blank" rel="noopener noreferrer nofollow">https://www.scimex.org/funnelback/story-push-redirector?pushAsset=1099546&amp;t=t</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI summaries of scientific research oversimplify findings - Scimex...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: youtube.com  
    Title: The Uncomfortable Truth About AI “Reasoning” | World Science Festival  
-   Link: <a href="https://www.youtube.com/watch?v=iFYF_e1GSGI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=iFYF_e1GSGI</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence and the future of financial stability: 3CL Seminar...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=iFYF_e1GSGI" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=iFYF_e1GSGI</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence and the future of financial stability: 3CL Seminar...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=-u8lfY-FaVU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=-u8lfY-FaVU</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>MedMisBench: Testing LLM Medical Resilience...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=-u8lfY-FaVU" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=-u8lfY-FaVU</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MedMisBench: Testing LLM Medical Resilience...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: youtube.com  
    Title: Med Mis Bench: Testing LLM Medical Resilience  
-   Link: <a href="https://www.youtube.com/watch?v=EBOiOcehhK8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=EBOiOcehhK8</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The Uncomfortable Truth About AI “Reasoning” | World Science Festival...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=EBOiOcehhK8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=EBOiOcehhK8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Uncomfortable Truth About AI “Reasoning” | World Science Festival...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: youtube.com  
    Title: Artificial Intelligence and the future of financial stability: 3CL Seminar  
-   Link: <a href="https://www.youtube.com/watch?v=4NwQ7Fma1O8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=4NwQ7Fma1O8</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Risks of Large Language Models (LLM)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=4NwQ7Fma1O8" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=4NwQ7Fma1O8</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Risks of Large Language Models (LLM)...</p></details>

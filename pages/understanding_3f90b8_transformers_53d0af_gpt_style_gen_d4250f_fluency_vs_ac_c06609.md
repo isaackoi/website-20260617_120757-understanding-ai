@@ -273,17 +273,17 @@ GPT-style [language models]({{ 'language-models/' | relative_url }}) can produce
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_fluency_vs_ac_c06609-Illustration-1-dark.svg" | relative_url }}" alt="Fluency vs Accuracy illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_fluency_vs_ac_c06609-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_fluency_vs_ac_c06609-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-A language model does not directly check whether a statement is true before generating it. Instead, it generates text that appears appropriate given the prompt and its learned statistical patterns. As a result, a response can be grammatically polished, logically organised, and highly convincing while still containing factual errors, invented details, or flawed reasoning. Researchers commonly refer to these failures as “[hallucinations]({{ 'hallucinations/' | relative_url }})” or ungrounded generations. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
+A language model does not directly check whether a statement is true before generating it. Instead, it generates text that appears appropriate given the prompt and its learned statistical patterns. As a result, a response can be grammatically polished, logically organised, and highly convincing while still containing factual errors, invented details, or flawed reasoning. Researchers commonly refer to these failures as “[hallucinations]({{ 'hallucinations/' | relative_url }})” or ungrounded generations.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
 
 ## Why Plausibility Differs from Correctness
 
 The most important distinction is that language models are optimised for plausibility, not truth.
 
-In a traditional database, a query retrieves stored information. In a GPT-style model, the answer is generated token by token. Each new token is selected because it is a likely continuation of the previous context, not because the model has independently verified the claim being made. This design allows extraordinary flexibility: the same system can write essays, answer questions, translate text, and generate code. Yet it also means that factual accuracy is not guaranteed. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
+In a traditional database, a query retrieves stored information. In a GPT-style model, the answer is generated token by token. Each new token is selected because it is a likely continuation of the previous context, not because the model has independently verified the claim being made. This design allows extraordinary flexibility: the same system can write essays, answer questions, translate text, and generate code. Yet it also means that factual accuracy is not guaranteed.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
 
-Consider a question about a historical event. The model may have encountered thousands of relevant references during training and often produces a correct answer. But if the evidence in its learned patterns is incomplete, conflicting, or weakly represented, it may generate a continuation that merely sounds like a historically accurate answer. The result can be a statement that feels authoritative despite being wrong. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Survey on Hallucination in Large Language Modelsby L Huang · 2023 · Cited by 5591 — In this survey, we begin with an innovative ta...</span></span></span>
+Consider a question about a historical event. The model may have encountered thousands of relevant references during training and often produces a correct answer. But if the evidence in its learned patterns is incomplete, conflicting, or weakly represented, it may generate a continuation that merely sounds like a historically accurate answer. The result can be a statement that feels authoritative despite being wrong.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Survey on Hallucination in Large Language Modelsby L Huang · 2023 · Cited by 5591 — In this survey, we begin with an innovative ta...</span></span></span>
 
-This explains why users sometimes encounter fabricated book titles, invented academic citations, or fictional legal cases. The model is generating text that resembles examples it has seen before, even when no genuine source exists. A well-known example involved legal filings that cited non-existent court cases generated by an AI system, demonstrating how fluent output can mask factual failure. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-snippet">Stanford HAIAI on Trial: Legal Models Hallucinate in 1 out of 6 (or More...May 23, 2024 — Large language models have a documented tenden...</span><span class="citation-popover-meta">Published: May 23, 2024</span></span></span>
+This explains why users sometimes encounter fabricated book titles, invented academic citations, or fictional legal cases. The model is generating text that resembles examples it has seen before, even when no genuine source exists. A well-known example involved legal filings that cited non-existent court cases generated by an AI system, demonstrating how fluent output can mask factual failure.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: hai.stanford.edu">[Stanford HAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">hai.stanford.edu</span><span class="citation-popover-snippet">Stanford HAIAI on Trial: Legal Models Hallucinate in 1 out of 6 (or More...May 23, 2024 — Large language models have a documented tenden...</span><span class="citation-popover-meta">Published: May 23, 2024</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/SjoxdH9qOTE" title="Why language models hallucinate, revisiting Amodei’s code prediction and AI in the job market" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=SjoxdH9qOTE" target="_blank" rel="noopener noreferrer">Why language models hallucinate, revisiting Amodei’s code prediction and AI in the job market</a></p><p class="youtube-embed-meta">Channel: IBM Technology</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=SjoxdH9qOTE" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=SjoxdH9qOTE">Open on YouTube</a></p></div></div></div>
@@ -294,17 +294,17 @@ This explains why users sometimes encounter fabricated book titles, invented aca
 
 Humans can explicitly recognise uncertainty and choose not to answer. Language models can express uncertainty in words, but their training has historically rewarded producing answers rather than abstaining.
 
-Recent research argues that many hallucinations arise because evaluation systems and benchmarks often favour attempting an answer over admitting uncertainty. When a model is rewarded for answering difficult questions, guessing can improve measured performance even if some guesses are wrong. Over time, this creates pressure toward confident responses instead of cautious ones. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
+Recent research argues that many hallucinations arise because evaluation systems and benchmarks often favour attempting an answer over admitting uncertainty. When a model is rewarded for answering difficult questions, guessing can improve measured performance even if some guesses are wrong. Over time, this creates pressure toward confident responses instead of cautious ones.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2OpenAI]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
 
-Researchers have compared this behaviour to a student taking an exam. If leaving a question blank guarantees no credit while a guess might earn points, guessing becomes rational. Similarly, language models may generate plausible responses when they lack sufficient information because their optimisation process rewards completion. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2509.04664" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Like students facing hard exam questions, large language models sometimes guess when uncertain, producing plausible yet incorrect...Read...</span></span></span>
+Researchers have compared this behaviour to a student taking an exam. If leaving a question blank guarantees no credit while a guess might earn points, guessing becomes rational. Similarly, language models may generate plausible responses when they lack sufficient information because their optimisation process rewards completion.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2509.04664" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Like students facing hard exam questions, large language models sometimes guess when uncertain, producing plausible yet incorrect...Read...</span></span></span>
 
 ### Confidence and correctness are not the same thing
 
 A common misunderstanding is to interpret confident wording as evidence of accuracy. For language models, [confidence]({{ 'confidence/' | relative_url }}) in tone and correctness of content are separate issues.
 
-The model can produce detailed explanations, precise dates, and technical vocabulary because those patterns frequently occur in training data. The linguistic signals associated with expertise are often easier to reproduce than the underlying factual relationships. Consequently, an incorrect answer may be delivered with the same polished style as a correct one. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12518350/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Survey and analysis of hallucinations in large language modelsby D Anh-Hoang · 2025 · Cited by 97 — Hallucination in Large Language Mo...</span></span></span>
+The model can produce detailed explanations, precise dates, and technical vocabulary because those patterns frequently occur in training data. The linguistic signals associated with expertise are often easier to reproduce than the underlying factual relationships. Consequently, an incorrect answer may be delivered with the same polished style as a correct one.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12518350/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: pmc.ncbi.nlm.nih.gov">[PMC+2Wikipedia]</a><span class="citation-popover" role="note"><span class="citation-popover-source">pmc.ncbi.nlm.nih.gov</span><span class="citation-popover-snippet">Survey and analysis of hallucinations in large language modelsby D Anh-Hoang · 2025 · Cited by 97 — Hallucination in Large Language Mo...</span></span></span>
 
-Research on calibration—the alignment between confidence and actual correctness—shows that large language models can be poorly calibrated in some situations, expressing greater certainty than their accuracy justifies. Improving this alignment remains an active area of research. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2503.15850" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Uncertainty Quantification and Confidence Calibration in...March 20, 2025 — by X Liu · 2025 · Cited by 147 — Uncertainty Quantifica...</span><span class="citation-popover-meta">Published: March 20, 2025</span></span></span>
+Research on calibration—the alignment between confidence and actual correctness—shows that large language models can be poorly calibrated in some situations, expressing greater certainty than their accuracy justifies. Improving this alignment remains an active area of research.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2503.15850" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Uncertainty Quantification and Confidence Calibration in...March 20, 2025 — by X Liu · 2025 · Cited by 147 — Uncertainty Quantifica...</span><span class="citation-popover-meta">Published: March 20, 2025</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_fluency_vs_ac_c06609-Illustration-2-dark.svg" | relative_url }}" alt="Fluency vs Accuracy illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_fluency_vs_ac_c06609-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_fluency_vs_ac_c06609-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -312,7 +312,7 @@ Research on calibration—the alignment between confidence and actual correctnes
 
 Not all mistakes come from missing facts. Some arise from failures in reasoning.
 
-A language model can often imitate reasoning because many examples of reasoning appear in its training data. However, generating text that resembles reasoning is not identical to performing reliable logical analysis. When problems become complex, involve many intermediate steps, or require careful tracking of constraints, the model may drift into errors while still maintaining a coherent narrative. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Survey on Hallucination in Large Language Modelsby L Huang · 2023 · Cited by 5591 — In this survey, we begin with an innovative ta...</span></span></span>
+A language model can often imitate reasoning because many examples of reasoning appear in its training data. However, generating text that resembles reasoning is not identical to performing reliable logical analysis. When problems become complex, involve many intermediate steps, or require careful tracking of constraints, the model may drift into errors while still maintaining a coherent narrative.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">A Survey on Hallucination in Large Language Modelsby L Huang · 2023 · Cited by 5591 — In this survey, we begin with an innovative ta...</span></span></span>
 
 Several common failure modes appear:
 
@@ -323,11 +323,11 @@ Several common failure modes appear:
 * **Invented connections:** The model links concepts that seem related but are not actually connected.
 * **Overgeneralisation:** Patterns that are usually true are applied where they do not belong.
 * **Context confusion:** Details from different examples become blended together.
-* **Self-reinforcement:** Once an incorrect statement appears in the generated text, subsequent tokens may build upon it as if it were true. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Hallucination_%28artificial_intelligence%29" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Hallucination (artificial intelligence</span><span class="citation-popover-snippet">Hallucination (artificial intelligence</span></span></span>
+* **Self-reinforcement:** Once an incorrect statement appears in the generated text, subsequent tokens may build upon it as if it were true.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://en.wikipedia.org/wiki/Hallucination_%28artificial_intelligence%29" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: Wikipedia">[Wikipedia+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">Wikipedia</span><span class="citation-popover-title">Hallucination (artificial intelligence</span><span class="citation-popover-snippet">Hallucination (artificial intelligence</span></span></span>
 
 </div>
 
-These failures are especially noticeable in mathematics, law, scientific explanation, and software development, where small errors can invalidate an otherwise convincing answer. Studies examining code generation have similarly found that models can produce syntactically correct code that contains subtle logical defects or incorrect assumptions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2410.09997" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in CodeOctober 13, 2024...</span><span class="citation-popover-meta">Published: October 13, 2024</span></span></span>
+These failures are especially noticeable in mathematics, law, scientific explanation, and software development, where small errors can invalidate an otherwise convincing answer. Studies examining code generation have similarly found that models can produce syntactically correct code that contains subtle logical defects or incorrect assumptions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2410.09997" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in CodeOctober 13, 2024...</span><span class="citation-popover-meta">Published: October 13, 2024</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/APWG1hEqOKk" title="Did OpenAI Just FIX Hallucinations?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=APWG1hEqOKk" target="_blank" rel="noopener noreferrer">Did OpenAI Just FIX Hallucinations?</a></p><p class="youtube-embed-meta">Channel: Prompt Engineering</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=APWG1hEqOKk" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=APWG1hEqOKk">Open on YouTube</a></p></div></div></div>
@@ -336,11 +336,11 @@ These failures are especially noticeable in mathematics, law, scientific explana
 
 A natural question is whether larger models and more training data eventually solve the issue.
 
-In practice, larger models generally become more capable and often more accurate. However, researchers and AI developers continue to observe hallucinations even in state-of-the-art systems. The problem is reduced rather than eliminated. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
+In practice, larger models generally become more capable and often more accurate. However, researchers and AI developers continue to observe hallucinations even in state-of-the-art systems. The problem is reduced rather than eliminated.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2Nature]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
 
-One reason is that language generation always involves [prediction]({{ 'error-harms/' | relative_url }}) under uncertainty. No training dataset contains every fact, every future event, every niche domain detail, or every possible combination of concepts. Eventually the model encounters situations where its learned patterns are insufficient. When that happens, the same mechanism that enables flexible generation can produce a plausible but incorrect continuation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2509.04664" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Like students facing hard exam questions, large language models sometimes guess when uncertain, producing plausible yet incorrect...Read...</span></span></span>
+One reason is that language generation always involves [prediction]({{ 'error-harms/' | relative_url }}) under uncertainty. No training dataset contains every fact, every future event, every niche domain detail, or every possible combination of concepts. Eventually the model encounters situations where its learned patterns are insufficient. When that happens, the same mechanism that enables flexible generation can produce a plausible but incorrect continuation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/pdf/2509.04664" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Like students facing hard exam questions, large language models sometimes guess when uncertain, producing plausible yet incorrect...Read...</span></span></span>
 
-Developers increasingly use techniques such as retrieval-augmented generation (RAG), external databases, citation systems, and uncertainty-aware prompting to reduce these failures. These methods help ground answers in verifiable information rather than relying solely on the model's internal statistical knowledge. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://mbrenndoerfer.com/writing/hallucination-mitigation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mbrenndoerfer.com">[Michael Brenndoerfer]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mbrenndoerfer.com</span><span class="citation-popover-title">hallucination mitigation</span><span class="citation-popover-snippet">Michael BrenndoerferHallucination Mitigation: RAG, Decoding, and Training20 Mar 2026 — Learn how to reduce LLM hallucination using retrie...</span></span></span>
+Developers increasingly use techniques such as retrieval-augmented generation (RAG), external databases, citation systems, and uncertainty-aware prompting to reduce these failures. These methods help ground answers in verifiable information rather than relying solely on the model's internal statistical knowledge.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://mbrenndoerfer.com/writing/hallucination-mitigation" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: mbrenndoerfer.com">[Michael Brenndoerfer]</a><span class="citation-popover" role="note"><span class="citation-popover-source">mbrenndoerfer.com</span><span class="citation-popover-title">hallucination mitigation</span><span class="citation-popover-snippet">Michael BrenndoerferHallucination Mitigation: RAG, Decoding, and Training20 Mar 2026 — Learn how to reduce LLM hallucination using retrie...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_fluency_vs_ac_c06609-Illustration-3-dark.svg" | relative_url }}" alt="Fluency vs Accuracy illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_fluency_vs_ac_c06609-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_gpt_style_gen_d4250f_fluency_vs_ac_c06609-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -350,201 +350,201 @@ The tendency of language models to produce fluent mistakes is not a separate fla
 
 Because GPT-style models generate likely continuations of text, they can adapt to countless tasks without task-specific programming. Yet generating likely continuations is different from establishing truth. Fluency reflects how well an answer fits learned language patterns; accuracy depends on whether those patterns correspond to reality in the specific situation.
 
-Understanding this distinction is essential for using modern AI effectively. A polished answer may be correct, partially correct, or entirely wrong. The quality of the prose is evidence that the model has generated language successfully, not proof that the information itself is true. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
+Understanding this distinction is essential for using modern AI effectively. A polished answer may be correct, partially correct, or entirely wrong. The quality of the prose is evidence that the model has generated language successfully, not proof that the information itself is true.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: OpenAI">[OpenAI+2arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">OpenAI</span><span class="citation-popover-title">why language models hallucinate</span><span class="citation-popover-snippet">Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/Lbh-RhFuAbI" title="Adam Tauman Kalai | When calibration goes awry: Hallucination in language models" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=Lbh-RhFuAbI" target="_blank" rel="noopener noreferrer">Adam Tauman Kalai | When calibration goes awry: Hallucination in language models</a></p><p class="youtube-embed-meta">Channel: Schwartz Reisman Institute</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=Lbh-RhFuAbI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=Lbh-RhFuAbI">Open on YouTube</a></p></div></div></div>
 
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why Convincing AI Responses Still Make Mistakes. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why Convincing AI Responses Still Make Mistakes. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Explores why AI outputs can diverge from human goals and truth.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores why AI outputs can diverge from human goals and truth.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Addresses generation quality, hallucinations, evaluation, and model limitations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Addresses generation quality, hallucinations, evaluation, and model limitations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
-        </h4>
-        <p class="fr-book-author">By Chip Huyen</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open AI Engineering on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=abM1EQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for AI Engineering" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="AI Engineering">AI Engineering</a>
+</h4>
+<p class="fr-book-author">By Chip Huyen</p>
         
-        <p class="fr-book-desc">Explains reliability, evaluation, and practical limits of generative systems.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains reliability, evaluation, and practical limits of generative systems.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=AI+Engineering+by+Chip+Huyen&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
-        </h4>
-        <p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
-        <p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
-        <p class="fr-book-desc">Provides theoretical foundations behind representation learning and generative models.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Deep Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Np9SDQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Deep Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Deep Learning">Deep Learning</a>
+</h4>
+<p class="fr-book-author">By Ian Goodfellow, Yoshua Bengio et al.</p>
+<p class="fr-book-popularity">Rating: 3.5/5 from 6 Google Books ratings</p>
+<p class="fr-book-desc">Provides theoretical foundations behind representation learning and generative models.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Deep+Learning+by+Ian+Goodfellow&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=AI+Engineering&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">AI Engineering</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Hold On Let Me ChatGPT This Enamel Pin Badge – Funny Tech Gift for AI Fans"><img src="{{ '/assets/images/marketplace-covers/20a1dcac74ca4ec2c183.jpg' | relative_url }}" alt="Listing image for Hold On Let Me ChatGPT This Enamel Pin Badge – Funny Tech Gift for AI Fans" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Hold On Let Me ChatGPT This Enamel Pin Badge – Funny Tech Gift for AI Fans</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Hold On Let Me ChatGPT This Enamel Pin Badge – Funny Tech Gift for AI Fans"><img src="{{ '/assets/images/marketplace-covers/20a1dcac74ca4ec2c183.jpg' | relative_url }}" alt="Listing image for Hold On Let Me ChatGPT This Enamel Pin Badge – Funny Tech Gift for AI Fans" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Hold On Let Me ChatGPT This Enamel Pin Badge – Funny Tech Gift for AI Fans</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin"><img src="{{ '/assets/images/marketplace-covers/11f1f461e7da86c8d339.jpg' | relative_url }}" alt="Listing image for Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin"><img src="{{ '/assets/images/marketplace-covers/11f1f461e7da86c8d339.jpg' | relative_url }}" alt="Listing image for Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Hold On, Let Me Chat GPT This Enamel Pin Badge | AI Funny Sarcastic Button Pin</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing"><img src="{{ '/assets/images/marketplace-covers/54124f4a58eba10c56e1.jpg' | relative_url }}" alt="Listing image for I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing"><img src="{{ '/assets/images/marketplace-covers/54124f4a58eba10c56e1.jpg' | relative_url }}" alt="Listing image for I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">I WAS AI before IT WAS COOL Enamel Pin Quotes Brooch Lapel Pins Clothing</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Terminator Movie Enamel Pin Badge Cyberdyne Systems AI Skynet Metal Alloy Brooch"><img src="{{ '/assets/images/marketplace-covers/b66fa37584007be8bf74.jpg' | relative_url }}" alt="Listing image for Terminator Movie Enamel Pin Badge Cyberdyne Systems AI Skynet Metal Alloy Brooch" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Terminator Movie Enamel Pin Badge Cyberdyne Systems AI Skynet Metal Alloy Brooch</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Terminator Movie Enamel Pin Badge Cyberdyne Systems AI Skynet Metal Alloy Brooch"><img src="{{ '/assets/images/marketplace-covers/b66fa37584007be8bf74.jpg' | relative_url }}" alt="Listing image for Terminator Movie Enamel Pin Badge Cyberdyne Systems AI Skynet Metal Alloy Brooch" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">Terminator Movie Enamel Pin Badge Cyberdyne Systems AI Skynet Metal Alloy Brooch</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI enamel pin">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI enamel pin</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+enamel+pin&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI enamel pin" data-ebay-reference="fluency-vs-accuracy-why-convincing-ai-responses-still-make-mistakes-understanding-ai-enamel-pin" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -560,7 +560,7 @@ Understanding this distinction is essential for using modern AI effectively. A p
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -580,7 +580,7 @@ Understanding this distinction is essential for using modern AI effectively. A p
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -612,7 +612,7 @@ Understanding this distinction is essential for using modern AI effectively. A p
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -664,7 +664,7 @@ Understanding this distinction is essential for using modern AI effectively. A p
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -709,7 +709,7 @@ Understanding this distinction is essential for using modern AI effectively. A p
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -750,180 +750,180 @@ Understanding this distinction is essential for using modern AI effectively. A p
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: OpenAI  
    Title: why language models hallucinate  
-   Link: <a href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</p></details>
+   Link:<a href="https://openai.com/index/why-language-models-hallucinate/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/index/why-language-models-hallucinate/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Sep 5, 2025 — OpenAI&#x27;s new research explains why language models hallucinate. The findings show how improved evaluations can enhance AI r...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2311.05232</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>A Survey on Hallucination in Large Language Modelsby L Huang · 2023 · Cited by 5591 — In this survey, we begin with an innovative ta...</p></details>
+   Link:<a href="https://arxiv.org/abs/2311.05232" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2311.05232</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Survey on Hallucination in Large Language Modelsby L Huang · 2023 · Cited by 5591 — In this survey, we begin with an innovative ta...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12518350/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12518350/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Survey and analysis of hallucinations in large language modelsby D Anh-Hoang · 2025 · Cited by 97 — Hallucination in Large Language Mo...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12518350/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12518350/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Survey and analysis of hallucinations in large language modelsby D Anh-Hoang · 2025 · Cited by 97 — Hallucination in Large Language Mo...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2509.04664" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2509.04664</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Like students facing hard exam questions, large language models sometimes guess when uncertain, producing plausible yet incorrect...Read...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2509.04664" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2509.04664</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Like students facing hard exam questions, large language models sometimes guess when uncertain, producing plausible yet incorrect...Read...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: hai.stanford.edu  
-   Link: <a href="https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Stanford HAIAI on Trial: Legal Models Hallucinate in 1 out of 6 (or More...May 23, 2024 — Large language models have a documented tenden...</p></details>
+   Link:<a href="https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries" target="_blank" rel="noopener noreferrer nofollow">https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Stanford HAIAI on Trial: Legal Models Hallucinate in 1 out of 6 (or More...May 23, 2024 — Large language models have a documented tenden...</p></details>
    Published: May 23, 2024  
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: Wikipedia  
    Title: Hallucination (artificial intelligence)  
-   Link: <a href="https://en.wikipedia.org/wiki/Hallucination_%28artificial_intelligence%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Hallucination_%28artificial_intelligence%29</a>  
+   Link:<a href="https://en.wikipedia.org/wiki/Hallucination_%28artificial_intelligence%29" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Hallucination_%28artificial_intelligence%29</a>  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: cdn.openai.com  
    Title: why language models hallucinate  
-   Link: <a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Language Models Hallucinateby AT Kalai · 2025 · Cited by 406 — Language models are known to produce overconfident, plausible fa...</p></details>
+   Link:<a href="https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf" target="_blank" rel="noopener noreferrer nofollow">https://cdn.openai.com/pdf/d04913be-3f6f-4d2b-b283-ff432ef4aaa5/why-language-models-hallucinate.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Language Models Hallucinateby AT Kalai · 2025 · Cited by 406 — Language models are known to produce overconfident, plausible fa...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
    Title: arXiv Why Language Models Hallucinate  
-   Link: <a href="https://arxiv.org/abs/2509.04664" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.04664</a>  
+   Link:<a href="https://arxiv.org/abs/2509.04664" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2509.04664</a>  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
    Title: arXiv Delusions of Large Language Models  
-   Link: <a href="https://arxiv.org/abs/2503.06709" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2503.06709</a>  
+   Link:<a href="https://arxiv.org/abs/2503.06709" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2503.06709</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2503.15850" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2503.15850</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Uncertainty Quantification and Confidence Calibration in...March 20, 2025 — by X Liu · 2025 · Cited by 147 — Uncertainty Quantifica...</p></details>
+   Link:<a href="https://arxiv.org/abs/2503.15850" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2503.15850</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Uncertainty Quantification and Confidence Calibration in...March 20, 2025 — by X Liu · 2025 · Cited by 147 — Uncertainty Quantifica...</p></details>
    Published: March 20, 2025  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2410.09997" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2410.09997</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in CodeOctober 13, 2024...</p></details>
+   Link:<a href="https://arxiv.org/abs/2410.09997" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2410.09997</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Collu-Bench: A Benchmark for Predicting Language Model Hallucinations in CodeOctober 13, 2024...</p></details>
    Published: October 13, 2024  
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: nature.com  
-   Link: <a href="https://www.nature.com/articles/s41586-026-10549-w" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-026-10549-w</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating large language models for accuracy...by AT Kalai · 2026 · Cited by 4 — Large language models sometimes produce confident, pla...</p></details>
+   Link:<a href="https://www.nature.com/articles/s41586-026-10549-w" target="_blank" rel="noopener noreferrer nofollow">https://www.nature.com/articles/s41586-026-10549-w</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Evaluating large language models for accuracy...by AT Kalai · 2026 · Cited by 4 — Large language models sometimes produce confident, pla...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Language" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Language</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LanguageLanguage is a structured system of communication that consists of grammar and vocabulary. It is the primary means by which hum...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Language" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Language</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LanguageLanguage is a structured system of communication that consists of grammar and vocabulary. It is the primary means by which hum...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: OpenAI  
-   Link: <a href="https://openai.com/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>comOpenAI | Research &amp; DeploymentWe believe our research will eventually lead to artificial general intelligence, a system that can solve...</p></details>
+   Link:<a href="https://openai.com/" target="_blank" rel="noopener noreferrer nofollow">https://openai.com/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>comOpenAI | Research &amp; DeploymentWe believe our research will eventually lead to artificial general intelligence, a system that can solve...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2510.06265v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.06265v2</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Models Hallucination: A Comprehensive...9 Oct 2025 — Hallucination refers to the generation of content by an LLM that is...</p></details>
+   Link:<a href="https://arxiv.org/html/2510.06265v2" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2510.06265v2</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Large Language Models Hallucination: A Comprehensive...9 Oct 2025 — Hallucination refers to the generation of content by an LLM that is...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2509.04664v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.04664v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why Language Models HallucinateSep 4, 2025 — Language models are known to produce overconfident, plausible falsehoods, which diminish the...</p></details>
+   Link:<a href="https://arxiv.org/html/2509.04664v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2509.04664v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why Language Models HallucinateSep 4, 2025 — Language models are known to produce overconfident, plausible falsehoods, which diminish the...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2602.11167v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.11167v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Visualizing and Benchmarking LLM Factual Hallucination...18 Jan 2026 — This study found that LLMs often generate false information, usin...</p></details>
+   Link:<a href="https://arxiv.org/html/2602.11167v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2602.11167v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Visualizing and Benchmarking LLM Factual Hallucination...18 Jan 2026 — This study found that LLMs often generate false information, usin...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: mbrenndoerfer.com  
    Title: hallucination mitigation  
-   Link: <a href="https://mbrenndoerfer.com/writing/hallucination-mitigation" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/hallucination-mitigation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferHallucination Mitigation: RAG, [Decoding](&amp;#123;&amp;#123; &#x27;decoding/&#x27; | relative_url &amp;#125;&amp;#125;), and Training20 Mar 2026 — Learn how to reduce LLM hallucination using retrie...</p></details>
+   Link:<a href="https://mbrenndoerfer.com/writing/hallucination-mitigation" target="_blank" rel="noopener noreferrer nofollow">https://mbrenndoerfer.com/writing/hallucination-mitigation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Michael BrenndoerferHallucination Mitigation: RAG, [Decoding](&amp;#123;&amp;#123; &#x27;decoding/&#x27; | relative_url &amp;#125;&amp;#125;), and Training20 Mar 2026 — Learn how to reduce LLM hallucination using retrie...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: dictionary.cambridge.org  
-   Link: <a href="https://dictionary.cambridge.org/dictionary/english/large" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english/large</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>English meaning - Cambridge DictionaryLarge (abbreviation L) is a size of clothing or other product that is bigger than average: The sh...</p></details>
+   Link:<a href="https://dictionary.cambridge.org/dictionary/english/large" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/dictionary/english/large</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>English meaning - Cambridge DictionaryLarge (abbreviation L) is a size of clothing or other product that is bigger than average: The sh...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: dictionary.cambridge.org  
-   Link: <a href="https://dictionary.cambridge.org/us/dictionary/english/language" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/us/dictionary/english/language</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>definition in the Cambridge English Dictionarya system of communication consisting of sounds, words, and grammar. She does research int...</p></details>
+   Link:<a href="https://dictionary.cambridge.org/us/dictionary/english/language" target="_blank" rel="noopener noreferrer nofollow">https://dictionary.cambridge.org/us/dictionary/english/language</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>definition in the Cambridge English Dictionarya system of communication consisting of sounds, words, and grammar. She does research int...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: britannica.com  
-   Link: <a href="https://www.britannica.com/topic/language" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/topic/language</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>of which human beings, as members of a social group and participants in...Read more...</p></details>
+   Link:<a href="https://www.britannica.com/topic/language" target="_blank" rel="noopener noreferrer nofollow">https://www.britannica.com/topic/language</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>of which human beings, as members of a social group and participants in...Read more...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: reddit.com  
    Title: Why Language Models Hallucinate  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/1namvsk/why_language_models_hallucinate_openai_pseudo/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1namvsk/why_language_models_hallucinate_openai_pseudo/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAi pseudo paperThe [predictions](&amp;#123;&amp;#123; &#x27;predictions/&#x27; | relative_url &amp;#125;&amp;#125;) are based on whatever is said to be true. The model has no ability to reason at all (CoT is not reason...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/1namvsk/why_language_models_hallucinate_openai_pseudo/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/1namvsk/why_language_models_hallucinate_openai_pseudo/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAi pseudo paperThe [predictions](&amp;#123;&amp;#123; &#x27;predictions/&#x27; | relative_url &amp;#125;&amp;#125;) are based on whatever is said to be true. The model has no ability to reason at all (CoT is not reason...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: computerworld.com  
-   Link: <a href="https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html" target="_blank" rel="noopener noreferrer nofollow">https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI admits AI hallucinations are mathematically...18 Sept 2025 — In a landmark study, OpenAI researchers reveal that large language m...</p></details>
+   Link:<a href="https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html" target="_blank" rel="noopener noreferrer nofollow">https://www.computerworld.com/article/4059383/openai-admits-ai-hallucinations-are-mathematically-inevitable-not-just-engineering-flaws.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>OpenAI admits AI hallucinations are mathematically...18 Sept 2025 — In a landmark study, OpenAI researchers reveal that large language m...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: pmc.ncbi.nlm.nih.gov  
-   Link: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12957136/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12957136/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>by TN Cash · 2025 · Cited by 25 — LLMs tend to be overconfident. LLMs—especially ChatGPT and Gemini—often fail to adjust their confide...</p></details>
+   Link:<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12957136/" target="_blank" rel="noopener noreferrer nofollow">https://pmc.ncbi.nlm.nih.gov/articles/PMC12957136/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by TN Cash · 2025 · Cited by 25 — LLMs tend to be overconfident. LLMs—especially ChatGPT and Gemini—often fail to adjust their confide...</p></details>
 
 ### Additional References
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/satyamallick_ai-hallucinations-why-language-models-sometimes-activity-7437540136567005185-DO2-" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/satyamallick_ai-hallucinations-why-language-models-sometimes-activity-7437540136567005185-DO2-</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hallucinations: Language Models&#x27; Factual FlawsLarge language models operate through next-token prediction. They tend to favor high-fre...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/satyamallick_ai-hallucinations-why-language-models-sometimes-activity-7437540136567005185-DO2-" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/satyamallick_ai-hallucinations-why-language-models-sometimes-activity-7437540136567005185-DO2-</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Hallucinations: Language Models&#x27; Factual FlawsLarge language models operate through next-token prediction. They tend to favor high-fre...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: github.com  
-   Link: <a href="https://github.com/AmourWaltz/Awesome-Reliable-LLM" target="_blank" rel="noopener noreferrer nofollow">https://github.com/AmourWaltz/Awesome-Reliable-LLM</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AmourWaltz/Awesome-Reliable-LLMModels are prone to be over-confident in predictions using maximizing likelihood (MLE) training, it is cru...</p></details>
+   Link:<a href="https://github.com/AmourWaltz/Awesome-Reliable-LLM" target="_blank" rel="noopener noreferrer nofollow">https://github.com/AmourWaltz/Awesome-Reliable-LLM</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AmourWaltz/Awesome-Reliable-LLMModels are prone to be over-confident in predictions using maximizing likelihood (MLE) training, it is cru...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: businessinsider.com  
-   Link: <a href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude-2025-9" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude-2025-9</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</p></details>
+   Link:<a href="https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/why-ai-chatbots-hallucinate-openai-chatgpt-anthropic-claude</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This test-centric optimization encourages models to provide confident but potentially incorrect outputs, rather than abstaining when unsu...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: reuters.com  
-   Link: <a href="https://www.reuters.com/technology/does-ai-[business" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/technology/does-ai-[business</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These tools, while undeniably innovative, suffer from a critical issue: hallucinations—instances where the AI generates incorrect or fabr...</p></details>
+   Link:<a href="https://www.reuters.com/technology/does-ai-[business" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/technology/does-ai-[business</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These tools, while undeniably innovative, suffer from a critical issue: hallucinations—instances where the AI generates incorrect or fabr...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: ft.com  
-   Link: <a href="https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>These errors arise from the probabilistic way the models predict the next word in a sentence, sometimes leading to plausible yet incorrec...</p></details>
+   Link:<a href="https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb" target="_blank" rel="noopener noreferrer nofollow">https://www.ft.com/content/7a4e7eae-f004-486a-987f-4a2e4dbd34fb</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>These errors arise from the probabilistic way the models predict the next word in a sentence, sometimes leading to plausible yet incorrec...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/language" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/language</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>LANGUAGE Definition &amp; Meaning3 days ago — The meaning of LANGUAGE is an organically developed system of communication used by groups of h...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/language" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/language</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>LANGUAGE Definition &amp; Meaning3 days ago — The meaning of LANGUAGE is an organically developed system of communication used by groups of h...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: ebsco.com  
-   Link: <a href="https://www.ebsco.com/research-starters/language-and-linguistics/language" target="_blank" rel="noopener noreferrer nofollow">https://www.ebsco.com/research-starters/language-and-linguistics/language</a>  
+   Link:<a href="https://www.ebsco.com/research-starters/language-and-linguistics/language" target="_blank" rel="noopener noreferrer nofollow">https://www.ebsco.com/research-starters/language-and-linguistics/language</a>  
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/haythamassem_why-language-models-hallucinatepdf-activity-7370201125955997697--izi" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/haythamassem_why-language-models-hallucinatepdf-activity-7370201125955997697--izi</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why language models hallucinate: A paper by OpenAI➡️ The paper breaks this down statistically: During pre-training, models face natural p...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/haythamassem_why-language-models-hallucinatepdf-activity-7370201125955997697--izi" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/haythamassem_why-language-models-hallucinatepdf-activity-7370201125955997697--izi</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why language models hallucinate: A paper by OpenAI➡️ The paper breaks this down statistically: During pre-training, models face natural p...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40efantinatti/why-hallucination-is-the-wrong-term-for-[ai-errors" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40efantinatti/why-hallucination-is-the-wrong-term-for-[ai-errors</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Why “Hallucination” is the wrong term for AI errorsThese terms capture the reality that LLMs recombine learned patterns without true comp...</p></details>
+   Link:<a href="https://medium.com/%40efantinatti/why-hallucination-is-the-wrong-term-for-[ai-errors" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40efantinatti/why-hallucination-is-the-wrong-term-for-[ai-errors</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Why “Hallucination” is the wrong term for AI errorsThese terms capture the reality that LLMs recombine learned patterns without true comp...</p></details>
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: kaifkohari10.medium.com  
-   Link: <a href="https://kaifkohari10.medium.com/from-next-token-prediction-to-reasoning-machines-how-llms-evolved-beyond-simple-text-generation-to-ac7cd1709ae1" target="_blank" rel="noopener noreferrer nofollow">https://kaifkohari10.medium.com/from-next-token-prediction-to-reasoning-machines-how-llms-evolved-beyond-simple-text-generation-to-ac7cd1709ae1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Next-Token Prediction to Reasoning Machines…This post is a guided tour through the major innovations that turned large language models fr...</p></details>
+   Link:<a href="https://kaifkohari10.medium.com/from-next-token-prediction-to-reasoning-machines-how-llms-evolved-beyond-simple-text-generation-to-ac7cd1709ae1" target="_blank" rel="noopener noreferrer nofollow">https://kaifkohari10.medium.com/from-next-token-prediction-to-reasoning-machines-how-llms-evolved-beyond-simple-text-generation-to-ac7cd1709ae1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Next-Token Prediction to Reasoning Machines…This post is a guided tour through the major innovations that turned large language models fr...</p></details>

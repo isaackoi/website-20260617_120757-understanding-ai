@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369
 
 ## Introduction
 
-In 2018, the Gender Shades study transformed the discussion about fairness in artificial intelligence by showing that face-analysis systems did not make mistakes equally across all people. Rather than asking whether commercial systems were accurate on average, researchers Joy Buolamwini and Timnit Gebru examined how accuracy changed when both skin tone and gender were considered together. Their results revealed a striking pattern: darker-skinned women experienced far higher error rates than any other group. In some systems, the error rate for darker-skinned women reached 34.7%, while the highest error rate for lighter-skinned men was only 0.8%. The study became a landmark because it made a previously hidden problem measurable and impossible to ignore. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
+In 2018, the Gender Shades study transformed the discussion about fairness in artificial intelligence by showing that face-analysis systems did not make mistakes equally across all people. Rather than asking whether commercial systems were accurate on average, researchers Joy Buolamwini and Timnit Gebru examined how accuracy changed when both skin tone and gender were considered together. Their results revealed a striking pattern: darker-skinned women experienced far higher error rates than any other group. In some systems, the error rate for darker-skinned women reached 34.7%, while the highest error rate for lighter-skinned men was only 0.8%. The study became a landmark because it made a previously hidden problem measurable and impossible to ignore.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369d28_gender_shades_f8899d-Illustration-1-dark.svg" | relative_url }}" alt="Gender Shades illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369d28_gender_shades_f8899d-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369d28_gender_shades_f8899d-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -279,11 +279,11 @@ Before Gender Shades, many developers and companies reported overall accuracy sc
 
 The researchers took a different approach. They created a benchmark designed to balance gender and skin type and then evaluated commercial gender-classification systems from major technology providers. Instead of reporting one overall score, they measured performance separately for four groups:
 
-* Lighter-skinned men <span class="citation-chip-wrap"><a class="citation-chip" href="https://dspace.mit.edu/bitstream/handle/1721.1/114068/1026503582-MIT.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dspace.mit.edu">[dspace.mit.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dspace.mit.edu</span><span class="citation-popover-title">1026503582 MIT</span><span class="citation-popover-snippet">IJB-A includes only 24.6% female and 4.4% darker female, and features 59.4% lighter...Read more...</span></span></span> * Lighter-skinned women <span class="citation-chip-wrap"><a class="citation-chip" href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: news.mit.edu">[news.mit.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">news.mit.edu</span><span class="citation-popover-title">study finds gender skin type bias artificial intelligence systems 0212</span><span class="citation-popover-snippet">MIT NewsStudy finds gender and skin-type bias in commercial...Feb 11, 2018 — Examination of facial-analysis software shows error rate of...</span></span></span> * Darker-skinned men <span class="citation-chip-wrap"><a class="citation-chip" href="https://thegradient.pub/gender-bias-in-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thegradient.pub">[thegradient.pub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thegradient.pub</span><span class="citation-popover-title">gender bias in ai</span><span class="citation-popover-snippet">The GradientA Brief Overview of Gender Bias in AI8 Apr 2024 —... darker female faces (with error rates up to 34.7%). In contrast, the ma...</span></span></span> * Darker-skinned women <span class="citation-chip-wrap"><a class="citation-chip" href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: news.mit.edu">[news.mit.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">news.mit.edu</span><span class="citation-popover-title">study finds gender skin type bias artificial intelligence systems 0212</span><span class="citation-popover-snippet">MIT NewsStudy finds gender and skin-type bias in commercial...Feb 11, 2018 — Examination of facial-analysis software shows error rate of...</span></span></span>
+* Lighter-skinned men<span class="citation-chip-wrap"><a class="citation-chip" href="https://dspace.mit.edu/bitstream/handle/1721.1/114068/1026503582-MIT.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: dspace.mit.edu">[dspace.mit.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">dspace.mit.edu</span><span class="citation-popover-title">1026503582 MIT</span><span class="citation-popover-snippet">IJB-A includes only 24.6% female and 4.4% darker female, and features 59.4% lighter...Read more...</span></span></span> * Lighter-skinned women<span class="citation-chip-wrap"><a class="citation-chip" href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: news.mit.edu">[news.mit.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">news.mit.edu</span><span class="citation-popover-title">study finds gender skin type bias artificial intelligence systems 0212</span><span class="citation-popover-snippet">MIT NewsStudy finds gender and skin-type bias in commercial...Feb 11, 2018 — Examination of facial-analysis software shows error rate of...</span></span></span> * Darker-skinned men<span class="citation-chip-wrap"><a class="citation-chip" href="https://thegradient.pub/gender-bias-in-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thegradient.pub">[thegradient.pub]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thegradient.pub</span><span class="citation-popover-title">gender bias in ai</span><span class="citation-popover-snippet">The GradientA Brief Overview of Gender Bias in AI8 Apr 2024 —... darker female faces (with error rates up to 34.7%). In contrast, the ma...</span></span></span> * Darker-skinned women<span class="citation-chip-wrap"><a class="citation-chip" href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: news.mit.edu">[news.mit.edu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">news.mit.edu</span><span class="citation-popover-title">study finds gender skin type bias artificial intelligence systems 0212</span><span class="citation-popover-snippet">MIT NewsStudy finds gender and skin-type bias in commercial...Feb 11, 2018 — Examination of facial-analysis software shows error rate of...</span></span></span>
 
-This method is known as an intersectional evaluation because it examines how multiple characteristics combine rather than treating them independently. The study showed that analysing gender alone or skin tone alone would have missed some of the most important disparities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
+This method is known as an intersectional evaluation because it examines how multiple characteristics combine rather than treating them independently. The study showed that analysing gender alone or skin tone alone would have missed some of the most important disparities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
 
-A crucial part of the research was its examination of the datasets used to evaluate face systems. The researchers found that widely used [benchmarks]({{ 'benchmarks/' | relative_url }}) were heavily skewed towards lighter-skinned subjects, with approximately 79.6% lighter-skinned individuals in IJB-A and 86.2% in Adience. Such imbalances created conditions in which poor performance on underrepresented groups could remain largely invisible. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research+2DSpace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
+A crucial part of the research was its examination of the datasets used to evaluate face systems. The researchers found that widely used [benchmarks]({{ 'benchmarks/' | relative_url }}) were heavily skewed towards lighter-skinned subjects, with approximately 79.6% lighter-skinned individuals in IJB-A and 86.2% in Adience. Such imbalances created conditions in which poor performance on underrepresented groups could remain largely invisible.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research+2DSpace]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/TWWsW1w-BVo" title="Gender Shades" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=TWWsW1w-BVo" target="_blank" rel="noopener noreferrer">Gender Shades</a></p><p class="youtube-embed-meta">Channel: MIT Media Lab &middot; Views: 255.7K &middot; Uploaded: February 2018 &middot; Length: 5 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=TWWsW1w-BVo" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=TWWsW1w-BVo">Open on YouTube</a></p></div></div></div>
@@ -292,11 +292,11 @@ A crucial part of the research was its examination of the datasets used to evalu
 
 The most influential finding was not simply that errors existed, but that they clustered around a specific intersection of characteristics.
 
-Across the tested systems, darker-skinned women were consistently the most misclassified group. Reported error rates ranged from roughly 20.8% to 34.7%, depending on the system. By contrast, lighter-skinned men experienced extremely low error rates, in some cases below 1%. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 11167...</span></span></span>
+Across the tested systems, darker-skinned women were consistently the most misclassified group. Reported error rates ranged from roughly 20.8% to 34.7%, depending on the system. By contrast, lighter-skinned men experienced extremely low error rates, in some cases below 1%.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 11167...</span></span></span>
 
-This mattered because the disparity could not be explained by gender alone. Women generally experienced higher error rates than men, but darker-skinned women faced substantially larger problems than lighter-skinned women. Nor could the gap be explained by skin tone alone, because darker-skinned men generally performed better than darker-skinned women. The interaction between the two categories revealed a distinct pattern of disadvantage that became visible only when both were measured together. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/gendershadesAIbias.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: classes.cs.uchicago.edu">[Computer Science Classes]</a><span class="citation-popover" role="note"><span class="citation-popover-source">classes.cs.uchicago.edu</span><span class="citation-popover-title">Darker and Lighter Error Rates. To conduct a phenotypic performance analysis</span><span class="citation-popover-snippet">Computer Science ClassesGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · Cited by 11167 — The FPR for females i...</span></span></span>
+This mattered because the disparity could not be explained by gender alone. Women generally experienced higher error rates than men, but darker-skinned women faced substantially larger problems than lighter-skinned women. Nor could the gap be explained by skin tone alone, because darker-skinned men generally performed better than darker-skinned women. The interaction between the two categories revealed a distinct pattern of disadvantage that became visible only when both were measured together.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/gendershadesAIbias.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: classes.cs.uchicago.edu">[Computer Science Classes]</a><span class="citation-popover" role="note"><span class="citation-popover-source">classes.cs.uchicago.edu</span><span class="citation-popover-title">Darker and Lighter Error Rates. To conduct a phenotypic performance analysis</span><span class="citation-popover-snippet">Computer Science ClassesGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · Cited by 11167 — The FPR for females i...</span></span></span>
 
-The study therefore challenged a common assumption in AI evaluation. A system could appear highly accurate overall while still performing poorly for a relatively small subgroup. If that subgroup was underrepresented in testing data, its experience would barely affect the headline accuracy figure. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
+The study therefore challenged a common assumption in AI evaluation. A system could appear highly accurate overall while still performing poorly for a relatively small subgroup. If that subgroup was underrepresented in testing data, its experience would barely affect the headline accuracy figure.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369d28_gender_shades_f8899d-Illustration-2-dark.svg" | relative_url }}" alt="Gender Shades illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369d28_gender_shades_f8899d-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369d28_gender_shades_f8899d-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -304,11 +304,11 @@ The study therefore challenged a common assumption in AI evaluation. A system co
 
 The most lasting contribution of Gender Shades was methodological. The study shifted [attention]({{ 'attention/' | relative_url }}) from average performance to subgroup performance.
 
-Before the study, discussions about facial-analysis bias often focused on anecdotal failures. Gender Shades provided systematic evidence. The researchers showed that the issue was measurable, reproducible and connected to how datasets and benchmarks were constructed. This changed the conversation from isolated mistakes to structural evaluation problems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">The substantial disparities in the accuracy of classifying darker females, lighter females, darker...</span></span></span>
+Before the study, discussions about facial-analysis bias often focused on anecdotal failures. Gender Shades provided systematic evidence. The researchers showed that the issue was measurable, reproducible and connected to how datasets and benchmarks were constructed. This changed the conversation from isolated mistakes to structural evaluation problems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">The substantial disparities in the accuracy of classifying darker females, lighter females, darker...</span></span></span>
 
-The study also demonstrated why intersectional testing matters. If researchers had only compared men and women, or only compared lighter and darker skin tones, they would have detected disparities but missed the full scale of the problem affecting darker-skinned women. The findings became one of the most widely cited examples of intersectional bias in [machine learning]({{ 'machine-learning/' | relative_url }}) and inspired later fairness audits across computer vision systems. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://thegradient.pub/gender-bias-in-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thegradient.pub">[The Gradient]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thegradient.pub</span><span class="citation-popover-title">gender bias in ai</span><span class="citation-popover-snippet">The GradientA Brief Overview of Gender Bias in AI8 Apr 2024 —... darker female faces (with error rates up to 34.7%). In contrast, the ma...</span></span></span>
+The study also demonstrated why intersectional testing matters. If researchers had only compared men and women, or only compared lighter and darker skin tones, they would have detected disparities but missed the full scale of the problem affecting darker-skinned women. The findings became one of the most widely cited examples of intersectional bias in [machine learning]({{ 'machine-learning/' | relative_url }}) and inspired later fairness audits across computer vision systems.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://thegradient.pub/gender-bias-in-ai/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: thegradient.pub">[The Gradient]</a><span class="citation-popover" role="note"><span class="citation-popover-source">thegradient.pub</span><span class="citation-popover-title">gender bias in ai</span><span class="citation-popover-snippet">The GradientA Brief Overview of Gender Bias in AI8 Apr 2024 —... darker female faces (with error rates up to 34.7%). In contrast, the ma...</span></span></span>
 
-Another important consequence was increased scrutiny of benchmark design. Gender Shades argued that fairness cannot be evaluated solely through overall accuracy scores. Evaluation datasets must contain sufficient representation from different groups, and results should be reported separately rather than hidden inside aggregate metrics. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
+Another important consequence was increased scrutiny of benchmark design. Gender Shades argued that fairness cannot be evaluated solely through overall accuracy scores. Evaluation datasets must contain sufficient representation from different groups, and results should be reported separately rather than hidden inside aggregate metrics.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[Proceedings of Machine Learning Research]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/UG_X_7g63rY" title="How I&#x27;m fighting bias in algorithms | Joy Buolamwini" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=UG_X_7g63rY" target="_blank" rel="noopener noreferrer">How I&#x27;m fighting bias in algorithms | Joy Buolamwini</a></p><p class="youtube-embed-meta">Channel: TED</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=UG_X_7g63rY" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=UG_X_7g63rY">Open on YouTube</a></p></div></div></div>
@@ -318,202 +318,202 @@ Another important consequence was increased scrutiny of benchmark design. Gender
 
 ## Why the evidence remains important
 
-The headline figure of 34.7% versus 0.8% became memorable because it illustrated how a seemingly successful AI system could produce very different experiences for different people. The study did not merely identify a technical flaw; it exposed a measurement blind spot. When benchmarks were dominated by lighter-skinned faces, systems could achieve impressive overall results while repeatedly failing darker-skinned women. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: news.mit.edu">[MIT News]</a><span class="citation-popover" role="note"><span class="citation-popover-source">news.mit.edu</span><span class="citation-popover-title">study finds gender skin type bias artificial intelligence systems 0212</span><span class="citation-popover-snippet">MIT NewsStudy finds gender and skin-type bias in commercial...Feb 11, 2018 — Examination of facial-analysis software shows error rate of...</span></span></span>
+The headline figure of 34.7% versus 0.8% became memorable because it illustrated how a seemingly successful AI system could produce very different experiences for different people. The study did not merely identify a technical flaw; it exposed a measurement blind spot. When benchmarks were dominated by lighter-skinned faces, systems could achieve impressive overall results while repeatedly failing darker-skinned women.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: news.mit.edu">[MIT News]</a><span class="citation-popover" role="note"><span class="citation-popover-source">news.mit.edu</span><span class="citation-popover-title">study finds gender skin type bias artificial intelligence systems 0212</span><span class="citation-popover-snippet">MIT NewsStudy finds gender and skin-type bias in commercial...Feb 11, 2018 — Examination of facial-analysis software shows error rate of...</span></span></span>
 
-For [understanding]({{ 'understanding/' | relative_url }}) artificial intelligence, Gender Shades remains a foundational case because it showed that evaluating AI is not only about how often a model is correct. It is also about asking who is being measured, who is missing from the data, and whether performance is being examined across the groups most likely to reveal hidden weaknesses. The study made darker-skinned women's error rates visible and, in doing so, changed expectations for how face AI systems should be tested and reported. Proceedings of Machine Learning Research+2Gender Shades <span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[proceedings.mlr.press]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
+For [understanding]({{ 'understanding/' | relative_url }}) artificial intelligence, Gender Shades remains a foundational case because it showed that evaluating AI is not only about how often a model is correct. It is also about asking who is being measured, who is missing from the data, and whether performance is being examined across the groups most likely to reveal hidden weaknesses. The study made darker-skinned women's error rates visible and, in doing so, changed expectations for how face AI systems should be tested and reported. Proceedings of Machine Learning Research+2Gender Shades<span class="citation-link-wrap"><a class="citation-inline-link" href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: proceedings.mlr.press">[proceedings.mlr.press]</a><span class="citation-popover" role="note"><span class="citation-popover-source">proceedings.mlr.press</span><span class="citation-popover-snippet">Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369d28_gender_shades_f8899d-Illustration-3-dark.svg" | relative_url }}" alt="Gender Shades illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369d28_gender_shades_f8899d-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_training_data_1437ec_face_dataset_369d28_gender_shades_f8899d-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to The Study That Changed Face AI Testing. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to The Study That Changed Face AI Testing. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
-        </h4>
-        <p class="fr-book-author">By Kate Crawford</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Atlas of AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G2iUzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Atlas of AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Atlas of AI">Atlas of AI</a>
+</h4>
+<p class="fr-book-author">By Kate Crawford</p>
         
-        <p class="fr-book-desc">Discusses datasets, classification, and power structures in AI.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses datasets, classification, and power structures in AI.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Atlas+of+AI+by+Kate+Crawford&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Unmasking+AI+by+Joy+Buolamwini&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Unmasking AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yGm8EAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Unmasking AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Unmasking+AI+by+Joy+Buolamwini&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Unmasking AI">Unmasking AI</a>
-        </h4>
-        <p class="fr-book-author">By Joy Buolamwini</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Unmasking+AI+by+Joy+Buolamwini&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Unmasking AI on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=yGm8EAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Unmasking AI" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Unmasking+AI+by+Joy+Buolamwini&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Unmasking AI">Unmasking AI</a>
+</h4>
+<p class="fr-book-author">By Joy Buolamwini</p>
         
-        <p class="fr-book-desc">Directly covers the research and consequences of facial-analysis bias.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Unmasking+AI+by+Joy+Buolamwini&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly covers the research and consequences of facial-analysis bias.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Unmasking+AI+by+Joy+Buolamwini&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G6-hDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
-        </h4>
-        <p class="fr-book-author">By Ruha Benjamin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Race After Technology on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=G6-hDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Race After Technology" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Race After Technology">Race After Technology</a>
+</h4>
+<p class="fr-book-author">By Ruha Benjamin</p>
         
-        <p class="fr-book-desc">Explores race, technology, and unequal algorithmic outcomes.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explores race, technology, and unequal algorithmic outcomes.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Race+After+Technology+by+Ruha+Benjamin&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Shows how aggregate metrics can hide harmful impacts.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how aggregate metrics can hide harmful impacts.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Unmasking+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Unmasking AI</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Race+After+Technology&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Race After Technology</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Atlas+of+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Atlas of AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Unmasking+AI&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Unmasking AI</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Race+After+Technology&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Race After Technology</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4"><img src="{{ '/assets/images/marketplace-covers/6d953a3ff1a79dc36277.jpg' | relative_url }}" alt="Listing image for JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4"><img src="{{ '/assets/images/marketplace-covers/6d953a3ff1a79dc36277.jpg' | relative_url }}" alt="Listing image for JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">JESUS POSTER PRINT STAINED AI GLASS WINDOW CHURCH ART RELIGION GOD SIZE -A3 A4</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ai Weiwei Artist Pop Art Poster Artist China modern"><img src="{{ '/assets/images/marketplace-covers/0b44486e3c4ef545d40f.jpg' | relative_url }}" alt="Listing image for Ai Weiwei Artist Pop Art Poster Artist China modern" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">Ai Weiwei Artist Pop Art Poster Artist China modern</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ai Weiwei Artist Pop Art Poster Artist China modern"><img src="{{ '/assets/images/marketplace-covers/0b44486e3c4ef545d40f.jpg' | relative_url }}" alt="Listing image for Ai Weiwei Artist Pop Art Poster Artist China modern" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">Ai Weiwei Artist Pop Art Poster Artist China modern</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture"><img src="{{ '/assets/images/marketplace-covers/69fcdeaefa137f143035.jpg' | relative_url }}" alt="Listing image for AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture"><img src="{{ '/assets/images/marketplace-covers/69fcdeaefa137f143035.jpg' | relative_url }}" alt="Listing image for AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">AI Fantasy Beautiful Women Art Poster - #256# Gaming Girl Printed Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for FANTASY HOT SEXY GIRL POSTER AI ADULT EROTIC ART SIZE A4 A3 A2 A1"><img src="{{ '/assets/images/marketplace-covers/87571175dc0ab215abcb.jpg' | relative_url }}" alt="Listing image for FANTASY HOT SEXY GIRL POSTER AI ADULT EROTIC ART SIZE A4 A3 A2 A1" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">FANTASY HOT SEXY GIRL POSTER AI ADULT EROTIC ART SIZE A4 A3 A2 A1</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for FANTASY HOT SEXY GIRL POSTER AI ADULT EROTIC ART SIZE A4 A3 A2 A1"><img src="{{ '/assets/images/marketplace-covers/87571175dc0ab215abcb.jpg' | relative_url }}" alt="Listing image for FANTASY HOT SEXY GIRL POSTER AI ADULT EROTIC ART SIZE A4 A3 A2 A1" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">FANTASY HOT SEXY GIRL POSTER AI ADULT EROTIC ART SIZE A4 A3 A2 A1</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI poster" data-ebay-reference="gender-shades-the-study-that-changed-face-ai-testing-understanding-ai-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -529,7 +529,7 @@ For [understanding]({{ 'understanding/' | relative_url }}) artificial intelligen
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -549,7 +549,7 @@ For [understanding]({{ 'understanding/' | relative_url }}) artificial intelligen
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -581,7 +581,7 @@ For [understanding]({{ 'understanding/' | relative_url }}) artificial intelligen
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -633,7 +633,7 @@ For [understanding]({{ 'understanding/' | relative_url }}) artificial intelligen
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -678,7 +678,7 @@ For [understanding]({{ 'understanding/' | relative_url }}) artificial intelligen
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -719,156 +719,156 @@ For [understanding]({{ 'understanding/' | relative_url }}) artificial intelligen
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: news.mit.edu  
    Title: study finds gender skin type bias artificial intelligence systems 0212  
-   Link: <a href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212" target="_blank" rel="noopener noreferrer nofollow">https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>MIT NewsStudy finds gender and skin-type bias in commercial...Feb 11, 2018 — Examination of facial-analysis software shows error rate of...</p></details>
+   Link:<a href="https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212" target="_blank" rel="noopener noreferrer nofollow">https://news.mit.edu/2018/study-finds-gender-skin-type-bias-artificial-intelligence-systems-0212</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>MIT NewsStudy finds gender and skin-type bias in commercial...Feb 11, 2018 — Examination of facial-analysis software shows error rate of...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: dspace.mit.edu  
    Title: 1026503582 MIT  
-   Link: <a href="https://dspace.mit.edu/bitstream/handle/1721.1/114068/1026503582-MIT.pdf" target="_blank" rel="noopener noreferrer nofollow">https://dspace.mit.edu/bitstream/handle/1721.1/114068/1026503582-MIT.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>IJB-A includes only 24.6% female and 4.4% darker female, and features 59.4% lighter...Read more...</p></details>
+   Link:<a href="https://dspace.mit.edu/bitstream/handle/1721.1/114068/1026503582-MIT.pdf" target="_blank" rel="noopener noreferrer nofollow">https://dspace.mit.edu/bitstream/handle/1721.1/114068/1026503582-MIT.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>IJB-A includes only 24.6% female and 4.4% darker female, and features 59.4% lighter...Read more...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: who.int  
-   Link: <a href="https://www.who.int/health-topics/gender" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/health-topics/gender</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Gender and healthGender refers to the characteristics of women, men, girls and boys that are socially constructed. This includes norms, b...</p></details>
+   Link:<a href="https://www.who.int/health-topics/gender" target="_blank" rel="noopener noreferrer nofollow">https://www.who.int/health-topics/gender</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gender and healthGender refers to the characteristics of women, men, girls and boys that are socially constructed. This includes norms, b...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: proceedings.mlr.press  
-   Link: <a href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</p></details>
+   Link:<a href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 10758...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: proceedings.mlr.press  
-   Link: <a href="https://proceedings.mlr.press/v81/buolamwini18a" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The substantial disparities in the accuracy of classifying darker females, lighter females, darker...</p></details>
+   Link:<a href="https://proceedings.mlr.press/v81/buolamwini18a" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The substantial disparities in the accuracy of classifying darker females, lighter females, darker...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: proceedings.mlr.press  
-   Link: <a href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 11167...</p></details>
+   Link:<a href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf" target="_blank" rel="noopener noreferrer nofollow">https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Proceedings of Machine Learning ResearchGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · 2018 · Cited by 11167...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: classes.cs.uchicago.edu  
    Title: Darker and Lighter Error Rates. To conduct a phenotypic performance analysis  
-   Link: <a href="https://www.classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/gendershadesAIbias.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/gendershadesAIbias.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Computer Science ClassesGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · Cited by 11167 — The FPR for females i...</p></details>
+   Link:<a href="https://www.classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/gendershadesAIbias.pdf" target="_blank" rel="noopener noreferrer nofollow">https://www.classes.cs.uchicago.edu/archive/2020/winter/20370-1/readings/gendershadesAIbias.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Computer Science ClassesGender Shades: Intersectional Accuracy Disparities in...by J Buolamwini · Cited by 11167 — The FPR for females i...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: thegradient.pub  
    Title: gender bias in ai  
-   Link: <a href="https://thegradient.pub/gender-bias-in-ai/" target="_blank" rel="noopener noreferrer nofollow">https://thegradient.pub/gender-bias-in-ai/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The GradientA Brief Overview of Gender Bias in AI8 Apr 2024 —... darker female faces (with error rates up to 34.7%). In contrast, the ma...</p></details>
+   Link:<a href="https://thegradient.pub/gender-bias-in-ai/" target="_blank" rel="noopener noreferrer nofollow">https://thegradient.pub/gender-bias-in-ai/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The GradientA Brief Overview of Gender Bias in AI8 Apr 2024 —... darker female faces (with error rates up to 34.7%). In contrast, the ma...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: gendershades.org  
-   Link: <a href="https://gendershades.org/" target="_blank" rel="noopener noreferrer nofollow">https://gendershades.org/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Gender ShadesGender Shades. Home Results Research Paper Dataset. How well do IBM, Microsoft, and Face++ AI services guess the gender of a...</p></details>
+   Link:<a href="https://gendershades.org/" target="_blank" rel="noopener noreferrer nofollow">https://gendershades.org/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gender ShadesGender Shades. Home Results Research Paper Dataset. How well do IBM, Microsoft, and Face++ AI services guess the gender of a...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: studocu.com  
-   Link: <a href="https://www.studocu.com/en-us/document/stanford-university/game-studies-issues-in-design-technology-and-player-creativity/gender-shades-intersectional-accuracy-disparities-in-ml-algorithms-mlr-2018/144319630" target="_blank" rel="noopener noreferrer nofollow">https://www.studocu.com/en-us/document/stanford-university/game-studies-issues-in-design-technology-and-player-creativity/gender-shades-intersectional-accuracy-disparities-in-ml-algorithms-mlr-2018/144319630</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>t accuracy disparities based on gender and skin type.Read more...</p></details>
+   Link:<a href="https://www.studocu.com/en-us/document/stanford-university/game-studies-issues-in-design-technology-and-player-creativity/gender-shades-intersectional-accuracy-disparities-in-ml-algorithms-mlr-2018/144319630" target="_blank" rel="noopener noreferrer nofollow">https://www.studocu.com/en-us/document/stanford-university/game-studies-issues-in-design-technology-and-player-creativity/gender-shades-intersectional-accuracy-disparities-in-ml-algorithms-mlr-2018/144319630</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>t accuracy disparities based on gender and skin type.Read more...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: gendershades.org  
-   Link: <a href="https://gendershades.org/overview.html" target="_blank" rel="noopener noreferrer nofollow">https://gendershades.org/overview.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Gender ShadesTable of subgroup error rates. IBM. IBM had the largest gap in accuracy, with a difference of 34.4% in error rate between li...</p></details>
+   Link:<a href="https://gendershades.org/overview.html" target="_blank" rel="noopener noreferrer nofollow">https://gendershades.org/overview.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gender ShadesTable of subgroup error rates. IBM. IBM had the largest gap in accuracy, with a difference of 34.4% in error rate between li...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: ars.electronica.art  
-   Link: <a href="https://ars.electronica.art/outofthebox/en/gender-shades/" target="_blank" rel="noopener noreferrer nofollow">https://ars.electronica.art/outofthebox/en/gender-shades/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Gender Shades – Out of the BoxThe study reveals that popular applications that are already part of the programming display obvious discri...</p></details>
+   Link:<a href="https://ars.electronica.art/outofthebox/en/gender-shades/" target="_blank" rel="noopener noreferrer nofollow">https://ars.electronica.art/outofthebox/en/gender-shades/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gender Shades – Out of the BoxThe study reveals that popular applications that are already part of the programming display obvious discri...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Gender" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Gender</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GenderGender is the range of social, psychological, cultural, and behavioral aspects of being a man (or boy), woman (or girl), or port...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Gender" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Gender</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GenderGender is the range of social, psychological, cultural, and behavioral aspects of being a man (or boy), woman (or girl), or port...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: digitalgovernmenthub.org  
-   Link: <a href="https://digitalgovernmenthub.org/library/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification/" target="_blank" rel="noopener noreferrer nofollow">https://digitalgovernmenthub.org/library/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>7%), while lighter-skinned males have much lower error rates (as low as 0.8%)...</p></details>
+   Link:<a href="https://digitalgovernmenthub.org/library/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification/" target="_blank" rel="noopener noreferrer nofollow">https://digitalgovernmenthub.org/library/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>7%), while lighter-skinned males have much lower error rates (as low as 0.8%)...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2505.20637" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2505.20637</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Gender Shades study exemplified this, showing error rates of 34.7% for darker-skinned women versus 0.8% for lighter- skinned men in...Re...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2505.20637" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2505.20637</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gender Shades study exemplified this, showing error rates of 34.7% for darker-skinned women versus 0.8% for lighter- skinned men in...Re...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=TWWsW1w-BVo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TWWsW1w-BVo</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Gender ShadesThe Gender Shades Project pilots an intersectional approach to inclusive product testing for AI. Gender Shades is a prelimin...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=TWWsW1w-BVo" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=TWWsW1w-BVo</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gender ShadesThe Gender Shades Project pilots an intersectional approach to inclusive product testing for AI. Gender Shades is a prelimin...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: scispace.com  
-   Link: <a href="https://scispace.com/papers/gender-shades-intersectional-accuracy-disparities-in-4qgeu0c1i3" target="_blank" rel="noopener noreferrer nofollow">https://scispace.com/papers/gender-shades-intersectional-accuracy-disparities-in-4qgeu0c1i3</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>while the most accurate result is for light-skinned men, in commercial...Read more...</p></details>
+   Link:<a href="https://scispace.com/papers/gender-shades-intersectional-accuracy-disparities-in-4qgeu0c1i3" target="_blank" rel="noopener noreferrer nofollow">https://scispace.com/papers/gender-shades-intersectional-accuracy-disparities-in-4qgeu0c1i3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>while the most accurate result is for light-skinned men, in commercial...Read more...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: opencasebook.org  
-   Link: <a href="https://opencasebook.org/casebooks/2554-governing-digital-technology/resources/5.1.2.2-gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification-by-joy-buolamwini-and-timnit-gebru-conference-of-fairness-accountability-and-transparency-2018/" target="_blank" rel="noopener noreferrer nofollow">https://opencasebook.org/casebooks/2554-governing-digital-technology/resources/5.1.2.2-gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification-by-joy-buolamwini-and-timnit-gebru-conference-of-fairness-accountability-and-transparency-2018/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>fication” by Joy Buolamwini and Timnit Gebru, Conference of Fairness...Read more...</p></details>
+   Link:<a href="https://opencasebook.org/casebooks/2554-governing-digital-technology/resources/5.1.2.2-gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification-by-joy-buolamwini-and-timnit-gebru-conference-of-fairness-accountability-and-transparency-2018/" target="_blank" rel="noopener noreferrer nofollow">https://opencasebook.org/casebooks/2554-governing-digital-technology/resources/5.1.2.2-gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classification-by-joy-buolamwini-and-timnit-gebru-conference-of-fairness-accountability-and-transparency-2018/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>fication” by Joy Buolamwini and Timnit Gebru, Conference of Fairness...Read more...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: bibbase.org  
    Title: Buolamwini, J. & Gebru, T. Proceedings of Machine Learning Research.Read more  
-   Link: <a href="https://bibbase.org/network/publication/buolamwini-gebru-gendershadesintersectionalaccuracydisparitiesincommercialgenderclassification-2018" target="_blank" rel="noopener noreferrer nofollow">https://bibbase.org/network/publication/buolamwini-gebru-gendershadesintersectionalaccuracydisparitiesincommercialgenderclassification-2018</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Gender Shades: Intersectional Accuracy Disparities in...Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classifi...</p></details>
+   Link:<a href="https://bibbase.org/network/publication/buolamwini-gebru-gendershadesintersectionalaccuracydisparitiesincommercialgenderclassification-2018" target="_blank" rel="noopener noreferrer nofollow">https://bibbase.org/network/publication/buolamwini-gebru-gendershadesintersectionalaccuracydisparitiesincommercialgenderclassification-2018</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Gender Shades: Intersectional Accuracy Disparities in...Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classifi...</p></details>
 
 ### Additional References
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: openaccess.thecvf.com  
-   Link: <a href="https://openaccess.thecvf.com/content/WACV2023W/DVPBA/papers/Gbekevi_Analyzing_the_Impact_of_Gender_Misclassification_on_Face_Recognition_Accuracy_WACVW_2023_paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://openaccess.thecvf.com/content/WACV2023W/DVPBA/papers/Gbekevi_Analyzing_the_Impact_of_Gender_Misclassification_on_Face_Recognition_Accuracy_WACVW_2023_paper.pdf</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>the Impact of Gender Misclassification on Face...by AEE Gbekevi · 2023 · Cited by 4 — The maximum er- ror rate for darker-skin-tone fema...</p></details>
+   Link:<a href="https://openaccess.thecvf.com/content/WACV2023W/DVPBA/papers/Gbekevi_Analyzing_the_Impact_of_Gender_Misclassification_on_Face_Recognition_Accuracy_WACVW_2023_paper.pdf" target="_blank" rel="noopener noreferrer nofollow">https://openaccess.thecvf.com/content/WACV2023W/DVPBA/papers/Gbekevi_Analyzing_the_Impact_of_Gender_Misclassification_on_Face_Recognition_Accuracy_WACVW_2023_paper.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>the Impact of Gender Misclassification on Face...by AEE Gbekevi · 2023 · Cited by 4 — The maximum er- ror rate for darker-skin-tone fema...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: just-tech.ssrc.org  
-   Link: <a href="https://just-tech.ssrc.org/citation/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classi%EF%AC%81cation/" target="_blank" rel="noopener noreferrer nofollow">https://just-tech.ssrc.org/citation/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classi%EF%AC%81cation/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Just TechGender Shades: Intersectional Accuracy Disparities in...We ﬁnd that these datasets are overwhelmingly composed of lighter-skinn...</p></details>
+   Link:<a href="https://just-tech.ssrc.org/citation/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classi%EF%AC%81cation/" target="_blank" rel="noopener noreferrer nofollow">https://just-tech.ssrc.org/citation/gender-shades-intersectional-accuracy-disparities-in-commercial-gender-classi%EF%AC%81cation/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Just TechGender Shades: Intersectional Accuracy Disparities in...We ﬁnd that these datasets are overwhelmingly composed of lighter-skinn...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: merriam-webster.com  
-   Link: <a href="https://www.merriam-webster.com/dictionary/gender" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/gender</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>GENDER Definition &amp; MeaningThe meaning of GENDER is a subclass within a grammatical class (such as noun, pronoun, adjective, or verb) of...</p></details>
+   Link:<a href="https://www.merriam-webster.com/dictionary/gender" target="_blank" rel="noopener noreferrer nofollow">https://www.merriam-webster.com/dictionary/gender</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>GENDER Definition &amp; MeaningThe meaning of GENDER is a subclass within a grammatical class (such as noun, pronoun, adjective, or verb) of...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: maquinacoes.rafaelg.net.br  
-   Link: <a href="https://maquinacoes.rafaelg.net.br/gender-shades" target="_blank" rel="noopener noreferrer nofollow">https://maquinacoes.rafaelg.net.br/gender-shades</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The substantial disparities in the accuracy of classifying darker females, lighter females, darker...Read more...</p></details>
+   Link:<a href="https://maquinacoes.rafaelg.net.br/gender-shades" target="_blank" rel="noopener noreferrer nofollow">https://maquinacoes.rafaelg.net.br/gender-shades</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The substantial disparities in the accuracy of classifying darker females, lighter females, darker...Read more...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: klover.ai  
    Title: dr timnit gebru translating gender shades into corporate governance  
-   Link: <a href="https://www.klover.ai/dr-timnit-gebru-translating-gender-shades-into-corporate-governance/" target="_blank" rel="noopener noreferrer nofollow">https://www.klover.ai/dr-timnit-gebru-translating-gender-shades-into-corporate-governance/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Timnit Gebru: Translating &#x27;Gender Shades&#x27; into...23 Jun 2025 — Facial recognition systems failed darker-skinned women not because of mal...</p></details>
+   Link:<a href="https://www.klover.ai/dr-timnit-gebru-translating-gender-shades-into-corporate-governance/" target="_blank" rel="noopener noreferrer nofollow">https://www.klover.ai/dr-timnit-gebru-translating-gender-shades-into-corporate-governance/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Timnit Gebru: Translating &#x27;Gender Shades&#x27; into...23 Jun 2025 — Facial recognition systems failed darker-skinned women not because of mal...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/323722163_Gender_shades_intersectional_phenotypic_and_demographic_evaluation_of_face_datasets_and_gender_classifiers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/323722163_Gender_shades_intersectional_phenotypic_and_demographic_evaluation_of_face_datasets_and_gender_classifiers</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>IJB-A includes only 24.6% female and 4.4% darker female, and features 59.4% lighter...Read more...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/323722163_Gender_shades_intersectional_phenotypic_and_demographic_evaluation_of_face_datasets_and_gender_classifiers" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/323722163_Gender_shades_intersectional_phenotypic_and_demographic_evaluation_of_face_datasets_and_gender_classifiers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>IJB-A includes only 24.6% female and 4.4% darker female, and features 59.4% lighter...Read more...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: medium.com  
    Title: Diversity, Equity, and Inclusion — A Human Factors Imperative  
-   Link: <a href="https://medium.com/%40dennishenry/diversity-equity-and-inclusion-a-human-factors-imperative-for-better-outcomes-40267ea8fc7c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40dennishenry/diversity-equity-and-inclusion-a-human-factors-imperative-for-better-outcomes-40267ea8fc7c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>error rate of 20–34% in identifying darker-skinned female faces, but error rates near 0% for lighter-skinned male faces (Buolamwini &amp; Geb...</p></details>
+   Link:<a href="https://medium.com/%40dennishenry/diversity-equity-and-inclusion-a-human-factors-imperative-for-better-outcomes-40267ea8fc7c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40dennishenry/diversity-equity-and-inclusion-a-human-factors-imperative-for-better-outcomes-40267ea8fc7c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>error rate of 20–34% in identifying darker-skinned female faces, but error rates near 0% for lighter-skinned male faces (Buolamwini &amp; Geb...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: semanticscholar.org  
-   Link: <a href="https://www.semanticscholar.org/paper/Gender-Shades%3A-Intersectional-Accuracy-Disparities-Buolamwini-Gebru/18858cc936947fc96b5c06bbe3c6c2faa5614540" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Gender-Shades%3A-Intersectional-Accuracy-Disparities-Buolamwini-Gebru/18858cc936947fc96b5c06bbe3c6c2faa5614540</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ghter females, darker males, and lighter males in gender classiﬁcation systems...</p></details>
+   Link:<a href="https://www.semanticscholar.org/paper/Gender-Shades%3A-Intersectional-Accuracy-Disparities-Buolamwini-Gebru/18858cc936947fc96b5c06bbe3c6c2faa5614540" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Gender-Shades%3A-Intersectional-Accuracy-Disparities-Buolamwini-Gebru/18858cc936947fc96b5c06bbe3c6c2faa5614540</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ghter females, darker males, and lighter males in gender classiﬁcation systems...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/pdf/2304.07175" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2304.07175</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring Causes of Demographic Variations In Face...by G Pangelinan · 2023 · Cited by 10 — males were only 0.8%, while error rates for...</p></details>
+   Link:<a href="https://arxiv.org/pdf/2304.07175" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/pdf/2304.07175</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Exploring Causes of Demographic Variations In Face...by G Pangelinan · 2023 · Cited by 10 — males were only 0.8%, while error rates for...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: semanticscholar.org  
-   Link: <a href="https://www.semanticscholar.org/paper/Gender-shades-%3A-intersectional-phenotypic-and-of-Buolamwini/a73bc5398c1ecf9ab8c755ad6af4d7e4774ca7ec" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Gender-shades-%3A-intersectional-phenotypic-and-of-Buolamwini/a73bc5398c1ecf9ab8c755ad6af4d7e4774ca7ec</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>mparing gender classification accuracies of females vs males and darker...</p></details>
+   Link:<a href="https://www.semanticscholar.org/paper/Gender-shades-%3A-intersectional-phenotypic-and-of-Buolamwini/a73bc5398c1ecf9ab8c755ad6af4d7e4774ca7ec" target="_blank" rel="noopener noreferrer nofollow">https://www.semanticscholar.org/paper/Gender-shades-%3A-intersectional-phenotypic-and-of-Buolamwini/a73bc5398c1ecf9ab8c755ad6af4d7e4774ca7ec</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>mparing gender classification accuracies of females vs males and darker...</p></details>

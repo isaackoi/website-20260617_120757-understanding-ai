@@ -273,7 +273,7 @@ image: /assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_revision_prom_00efb4-Illustration-1-dark.svg" | relative_url }}" alt="Revision prompts illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_revision_prom_00efb4-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_revision_prom_00efb4-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-This shift matters because it changes the role of the user. Instead of trying to write a perfect prompt upfront, people increasingly use AI as a collaborator in a cycle of drafting, reviewing, and refining. Research, industry guidance, and practical workflows consistently emphasise that prompt engineering is an iterative process in which feedback from one version informs the next. IBM+2Amazon Web Services, Inc. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/iterative-prompting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Iterative Prompting? &#124; IBMIterative prompting converts AI interaction into a structured, step-by-step iterative process, refin...</span></span></span>
+This shift matters because it changes the role of the user. Instead of trying to write a perfect prompt upfront, people increasingly use AI as a collaborator in a cycle of drafting, reviewing, and refining. Research, industry guidance, and practical workflows consistently emphasise that prompt engineering is an iterative process in which feedback from one version informs the next. IBM+2Amazon Web Services, Inc.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/iterative-prompting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[ibm.com]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Iterative Prompting? &#124; IBMIterative prompting converts AI interaction into a structured, step-by-step iterative process, refin...</span></span></span>
 
 ## What Changes After the First Output
 
@@ -293,7 +293,7 @@ This is why experienced users often avoid asking an AI to “make it better”. 
 
 </div>
 
-The revision process narrows uncertainty. Each prompt removes ambiguity and increases alignment between the user's intent and the output. Anthropic's prompt-engineering guidance and IBM's discussions of iterative prompting both emphasise refinement through clearer instructions, feedback, and success criteria rather than relying on a single perfect prompt. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: platform.claude.com">[Claude+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">platform.claude.com</span><span class="citation-popover-title">Prompt engineering overview</span><span class="citation-popover-snippet">Prompt engineering overview - Claude API DocsThis guide focuses on success criteria that are controllable through prompt engineerin...</span></span></span>
+The revision process narrows uncertainty. Each prompt removes ambiguity and increases alignment between the user's intent and the output. Anthropic's prompt-engineering guidance and IBM's discussions of iterative prompting both emphasise refinement through clearer instructions, feedback, and success criteria rather than relying on a single perfect prompt.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: platform.claude.com">[Claude+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">platform.claude.com</span><span class="citation-popover-title">Prompt engineering overview</span><span class="citation-popover-snippet">Prompt engineering overview - Claude API DocsThis guide focuses on success criteria that are controllable through prompt engineerin...</span></span></span>
 
 ## Why Specific Revision Prompts Work Better Than General Ones
 
@@ -311,7 +311,7 @@ By contrast, a focused revision prompt defines the desired change. For example:
 
 > Reorganise this article into five sections with descriptive headings. Keep the existing information but make the argument easier to follow.
 
-The second version gives the model a measurable objective. Industry guidance from Anthropic, Amazon Bedrock, and IBM repeatedly stresses specificity, explicit constraints, and iterative refinement because they reduce guesswork and produce more predictable results. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic+2AWS Documentation]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">prompt engineering for business performance</span><span class="citation-popover-snippet">Prompt engineering for business performance29 Feb 2024 — Prompt engineering is an important tool for any business seeking to opt...</span></span></span>
+The second version gives the model a measurable objective. Industry guidance from Anthropic, Amazon Bedrock, and IBM repeatedly stresses specificity, explicit constraints, and iterative refinement because they reduce guesswork and produce more predictable results.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: anthropic.com">[Anthropic+2AWS Documentation]</a><span class="citation-popover" role="note"><span class="citation-popover-source">anthropic.com</span><span class="citation-popover-title">prompt engineering for business performance</span><span class="citation-popover-snippet">Prompt engineering for business performance29 Feb 2024 — Prompt engineering is an important tool for any business seeking to opt...</span></span></span>
 
 In practice, successful revision often follows a pattern:
 
@@ -353,7 +353,7 @@ Users frequently revise by specifying:
 
 For example, a generic explanation can become a board-level briefing, a classroom lesson, or a marketing article simply by revising the tone instructions.
 
-Anthropic's [documentation]({{ 'paper-safety/' | relative_url }}) notes that models respond more reliably when users clearly specify audience, purpose, and desired style rather than expecting the model to infer them. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: platform.claude.com">[Claude]</a><span class="citation-popover" role="note"><span class="citation-popover-source">platform.claude.com</span><span class="citation-popover-title">Prompt engineering overview</span><span class="citation-popover-snippet">Prompt engineering overview - Claude API DocsThis guide focuses on success criteria that are controllable through prompt engineerin...</span></span></span>
+Anthropic's [documentation]({{ 'paper-safety/' | relative_url }}) notes that models respond more reliably when users clearly specify audience, purpose, and desired style rather than expecting the model to infer them.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: platform.claude.com">[Claude]</a><span class="citation-popover" role="note"><span class="citation-popover-source">platform.claude.com</span><span class="citation-popover-title">Prompt engineering overview</span><span class="citation-popover-snippet">Prompt engineering overview - Claude API DocsThis guide focuses on success criteria that are controllable through prompt engineerin...</span></span></span>
 
 ### Adding Structure
 
@@ -394,7 +394,7 @@ Examples include:
 
 </div>
 
-Research and practitioner guidance consistently show that adding constraints after reviewing an initial draft often produces stronger results than attempting to predict every requirement before generation begins. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aws.amazon.com/blogs/machine-learning/implementing-advanced-prompt-engineering-with-amazon-bedrock/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aws.amazon.com">[Amazon Web Services, Inc.+2Medium]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aws.amazon.com</span><span class="citation-popover-snippet">Amazon Web Services, Inc.Implementing advanced prompt engineering with Amazon...Aug 30, 2024 — Prompt engineering is an iterative proces...</span></span></span>
+Research and practitioner guidance consistently show that adding constraints after reviewing an initial draft often produces stronger results than attempting to predict every requirement before generation begins.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aws.amazon.com/blogs/machine-learning/implementing-advanced-prompt-engineering-with-amazon-bedrock/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aws.amazon.com">[Amazon Web Services, Inc.+2Medium]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aws.amazon.com</span><span class="citation-popover-snippet">Amazon Web Services, Inc.Implementing advanced prompt engineering with Amazon...Aug 30, 2024 — Prompt engineering is an iterative proces...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/GdxBJ4H-6cw" title="Serverless GenAI Prompt Chaining with Step Functions! Awesome content from AWS!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=GdxBJ4H-6cw" target="_blank" rel="noopener noreferrer">Serverless GenAI Prompt Chaining with Step Functions! Awesome content from AWS!</a></p><p class="youtube-embed-meta">Channel: AWS Made Easy Livestream &middot; Views: 217 &middot; Uploaded: June 2024 &middot; Length: 40 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=GdxBJ4H-6cw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=GdxBJ4H-6cw">Open on YouTube</a></p></div></div></div>
@@ -419,7 +419,7 @@ A typical workflow might look like this:
 
 The key point is that each prompt addresses one editing objective. The user acts as an editor, directing [attention]({{ 'attention/' | relative_url }}) to the next problem rather than asking for undefined improvement.
 
-This approach mirrors findings from the research literature. The Self-Refine framework demonstrated that large language models can improve their outputs through repeated cycles of feedback and revision, with iterative refinement outperforming one-shot generation across multiple tasks. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2303.17651" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Self-Refine: Iterative Refinement with Self-Feedback</span><span class="citation-popover-snippet">Self-Refine: Iterative Refinement with Self-FeedbackMarch 30, 2023...</span><span class="citation-popover-meta">Published: March 30, 2023</span></span></span>
+This approach mirrors findings from the research literature. The Self-Refine framework demonstrated that large language models can improve their outputs through repeated cycles of feedback and revision, with iterative refinement outperforming one-shot generation across multiple tasks.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2303.17651" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv Self-Refine: Iterative Refinement with Self-Feedback</span><span class="citation-popover-snippet">Self-Refine: Iterative Refinement with Self-FeedbackMarch 30, 2023...</span><span class="citation-popover-meta">Published: March 30, 2023</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_revision_prom_00efb4-Illustration-3-dark.svg" | relative_url }}" alt="Revision prompts illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_revision_prom_00efb4-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_generative_ai_4b0679_prompt_iterat_7d71b9_revision_prom_00efb4-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -443,7 +443,7 @@ A first image often captures the general concept but misses important details. U
 
 The process resembles art direction more than traditional drawing. The user reviews the result, identifies a specific mismatch between intention and output, and writes a prompt to correct that mismatch.
 
-Research into AI-assisted image creation suggests that prompting becomes a learnable creative skill. Users improve results not by issuing longer initial instructions but by repeatedly evaluating outputs and refining descriptions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2303.13534" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Prompting AI Art: An Investigation into the Creative Skill of Prompt EngineeringMarch 13, 2023...</span><span class="citation-popover-meta">Published: March 13, 2023</span></span></span>
+Research into AI-assisted image creation suggests that prompting becomes a learnable creative skill. Users improve results not by issuing longer initial instructions but by repeatedly evaluating outputs and refining descriptions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2303.13534" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Prompting AI Art: An Investigation into the Creative Skill of Prompt EngineeringMarch 13, 2023...</span><span class="citation-popover-meta">Published: March 13, 2023</span></span></span>
 
 ## Common Revision Loops in Code
 
@@ -464,7 +464,7 @@ After reviewing the result, the revisions become increasingly specific:
 
 Notice that later prompts are informed by inspection of the actual output. Requirements that were difficult to anticipate become obvious once a working draft exists.
 
-Many development workflows therefore resemble a conversation between human reviewer and AI assistant. The initial generation creates momentum, while revision prompts gradually move the code toward [production]({{ 'retrieval-failures/' | relative_url }}) quality. AWS guidance on prompt chaining similarly treats complex tasks as sequences of refinement stages rather than single interactions. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aws.amazon.com/blogs/machine-learning/building-generative-ai-prompt-chaining-workflows-with-human-in-the-loop/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aws.amazon.com">[Amazon Web Services, Inc.+2AWS Documentation]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aws.amazon.com</span><span class="citation-popover-snippet">Amazon Web Services, Inc.Building Generative AI prompt chaining workflows with...In this blog post, you will learn about prompt chaining...</span></span></span>
+Many development workflows therefore resemble a conversation between human reviewer and AI assistant. The initial generation creates momentum, while revision prompts gradually move the code toward [production]({{ 'retrieval-failures/' | relative_url }}) quality. AWS guidance on prompt chaining similarly treats complex tasks as sequences of refinement stages rather than single interactions.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aws.amazon.com/blogs/machine-learning/building-generative-ai-prompt-chaining-workflows-with-human-in-the-loop/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aws.amazon.com">[Amazon Web Services, Inc.+2AWS Documentation]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aws.amazon.com</span><span class="citation-popover-snippet">Amazon Web Services, Inc.Building Generative AI prompt chaining workflows with...In this blog post, you will learn about prompt chaining...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/SC3pHo-CycI" title="AWS re:Invent 2025 - Implementing Human-in-the-Loop Controls for Multi-Agent AI Systems (CNS428)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=SC3pHo-CycI" target="_blank" rel="noopener noreferrer">AWS re:Invent 2025 - Implementing Human-in-the-Loop Controls for Multi-Agent AI Systems (CNS428)</a></p><p class="youtube-embed-meta">Channel: AWS Events</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=SC3pHo-CycI" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=SC3pHo-CycI">Open on YouTube</a></p></div></div></div>
@@ -475,9 +475,9 @@ At a deeper level, revision prompting works because it creates a feedback loop.
 
 The user evaluates the output against a goal, identifies the gap, and communicates that gap through the next prompt. The AI then produces a revised version, which generates new information about what still needs improvement.
 
-IBM describes iterative prompting as a structured process built around refinement and feedback loops rather than isolated requests. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/iterative-prompting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Iterative Prompting? &#124; IBMIterative prompting converts AI interaction into a structured, step-by-step iterative process, refin...</span></span></span>
+IBM describes iterative prompting as a structured process built around refinement and feedback loops rather than isolated requests.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/iterative-prompting" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is Iterative Prompting? &#124; IBMIterative prompting converts AI interaction into a structured, step-by-step iterative process, refin...</span></span></span>
 
-Researchers studying prompt-development tools have observed similar patterns. Systems such as ChainForge and PromptAid were designed around experimentation, comparison, testing, and iterative refinement because effective prompting often emerges through repeated evaluation rather than immediate success. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2309.09128" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">ChainForge: A Visual Toolkit for Prompt Engineering and LLM Hypothesis TestingSeptember 17, 2023...</span><span class="citation-popover-meta">Published: September 17, 2023</span></span></span>
+Researchers studying prompt-development tools have observed similar patterns. Systems such as ChainForge and PromptAid were designed around experimentation, comparison, testing, and iterative refinement because effective prompting often emerges through repeated evaluation rather than immediate success.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/2309.09128" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">ChainForge: A Visual Toolkit for Prompt Engineering and LLM Hypothesis TestingSeptember 17, 2023...</span><span class="citation-popover-meta">Published: September 17, 2023</span></span></span>
 
 The result is a creative workflow that resembles editing, directing, and reviewing more than traditional command execution.
 
@@ -487,197 +487,197 @@ A common misconception is that better AI results come from crafting a flawless i
 
 In reality, many experienced users treat the first prompt as a starting point rather than a final specification. The first output reveals what the model understood, what it missed, and what needs clarification. Revision prompts then supply the missing information.
 
-The most productive mindset is therefore not “How do I write the perfect prompt?” but “What is the next most important improvement to make?” Each revision narrows the gap between draft and finished work. Through repeated cycles of targeted feedback, constraints, restructuring, and refinement, prompt iteration becomes less about generating content and more about shaping it into its final form. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://aws.amazon.com/blogs/machine-learning/implementing-advanced-prompt-engineering-with-amazon-bedrock/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aws.amazon.com">[Amazon Web Services, Inc.+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aws.amazon.com</span><span class="citation-popover-snippet">Amazon Web Services, Inc.Implementing advanced prompt engineering with Amazon...Aug 30, 2024 — Prompt engineering is an iterative proces...</span></span></span>
+The most productive mindset is therefore not “How do I write the perfect prompt?” but “What is the next most important improvement to make?” Each revision narrows the gap between draft and finished work. Through repeated cycles of targeted feedback, constraints, restructuring, and refinement, prompt iteration becomes less about generating content and more about shaping it into its final form.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://aws.amazon.com/blogs/machine-learning/implementing-advanced-prompt-engineering-with-amazon-bedrock/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: aws.amazon.com">[Amazon Web Services, Inc.+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">aws.amazon.com</span><span class="citation-popover-snippet">Amazon Web Services, Inc.Implementing advanced prompt engineering with Amazon...Aug 30, 2024 — Prompt engineering is an iterative proces...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Why better prompts usually come after the first draft. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Why better prompts usually come after the first draft. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Explains iterative AI workflows built around revision and feedback.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains iterative AI workflows built around revision and feedback.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Art of Prompt Engineering with ChatGPT on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Z0-hzwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Art of Prompt Engineering with ChatGPT" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Art of Prompt Engineering with ChatGPT">The Art of Prompt Engineering with ChatGPT</a>
-        </h4>
-        <p class="fr-book-author">By Nathan Hunter</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Art of Prompt Engineering with ChatGPT on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Z0-hzwEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Art of Prompt Engineering with ChatGPT" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Art of Prompt Engineering with ChatGPT">The Art of Prompt Engineering with ChatGPT</a>
+</h4>
+<p class="fr-book-author">By Nathan Hunter</p>
         
-        <p class="fr-book-desc">Directly addresses refining prompts after reviewing outputs.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses refining prompts after reviewing outputs.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT+by+Nathan+Hunter&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=On+Writing+Well+by+William+Zinsser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open On Writing Well on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Kih6AAAAIAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for On Writing Well" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=On+Writing+Well+by+William+Zinsser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="On Writing Well">On Writing Well</a>
-        </h4>
-        <p class="fr-book-author">By William Zinsser</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=On+Writing+Well+by+William+Zinsser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open On Writing Well on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Kih6AAAAIAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for On Writing Well" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=On+Writing+Well+by+William+Zinsser&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="On Writing Well">On Writing Well</a>
+</h4>
+<p class="fr-book-author">By William Zinsser</p>
         
-        <p class="fr-book-desc">Strong focus on revision, clarity, and iterative improvement.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=On+Writing+Well+by+William+Zinsser&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Strong focus on revision, clarity, and iterative improvement.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=On+Writing+Well+by+William+Zinsser&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Bird+by+Bird+by+Anne+Lamott&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Bird by Bird on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=W3egDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Bird by Bird" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Bird+by+Bird+by+Anne+Lamott&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Bird by Bird">Bird by Bird</a>
-        </h4>
-        <p class="fr-book-author">By Anne Lamott</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Bird+by+Bird+by+Anne+Lamott&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Bird by Bird on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=W3egDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Bird by Bird" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Bird+by+Bird+by+Anne+Lamott&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Bird by Bird">Bird by Bird</a>
+</h4>
+<p class="fr-book-author">By Anne Lamott</p>
         
-        <p class="fr-book-desc">Emphasises drafting first and improving through revision cycles.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Bird+by+Bird+by+Anne+Lamott&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Emphasises drafting first and improving through revision cycles.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Bird+by+Bird+by+Anne+Lamott&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Art of Prompt Engineering with ChatGPT</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=On+Writing+Well&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">On Writing Well</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Art+of+Prompt+Engineering+with+ChatGPT&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Art of Prompt Engineering with ChatGPT</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=On+Writing+Well&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">On Writing Well</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01"><img src="{{ '/assets/images/marketplace-covers/edc94c9624d3c7474e2e.jpg' | relative_url }}" alt="Listing image for REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01"><img src="{{ '/assets/images/marketplace-covers/edc94c9624d3c7474e2e.jpg' | relative_url }}" alt="Listing image for REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">REPLAY Mens Husqvarna Graphic Zip Hoodie Sweater Medium Black Cotton AI01</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ghostbusters Men&#x27;s Size Medium I Ain&#x27;t Afraid of No Ghost Black Sweatshirt New"><img src="{{ '/assets/images/marketplace-covers/1b72875f7ad693cec3e4.jpg' | relative_url }}" alt="Listing image for Ghostbusters Men&#x27;s Size Medium I Ain&#x27;t Afraid of No Ghost Black Sweatshirt New" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">Ghostbusters Men&#x27;s Size Medium I Ain&#x27;t Afraid of No Ghost Black Sweatshirt New</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Ghostbusters Men&#x27;s Size Medium I Ain&#x27;t Afraid of No Ghost Black Sweatshirt New"><img src="{{ '/assets/images/marketplace-covers/1b72875f7ad693cec3e4.jpg' | relative_url }}" alt="Listing image for Ghostbusters Men&#x27;s Size Medium I Ain&#x27;t Afraid of No Ghost Black Sweatshirt New" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">Ghostbusters Men&#x27;s Size Medium I Ain&#x27;t Afraid of No Ghost Black Sweatshirt New</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17"><img src="{{ '/assets/images/marketplace-covers/333441c1d36b578dc041.jpg' | relative_url }}" alt="Listing image for Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17"><img src="{{ '/assets/images/marketplace-covers/333441c1d36b578dc041.jpg' | relative_url }}" alt="Listing image for Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">Converse Mens Graphic Hoodie Jumper Large Grey Cotton AI17</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ADIDAS Mens Zip Hoodie Sweater Large Black AI05"><img src="{{ '/assets/images/marketplace-covers/344107c3af04f73e796e.jpg' | relative_url }}" alt="Listing image for ADIDAS Mens Zip Hoodie Sweater Large Black AI05" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">ADIDAS Mens Zip Hoodie Sweater Large Black AI05</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search <span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ADIDAS Mens Zip Hoodie Sweater Large Black AI05"><img src="{{ '/assets/images/marketplace-covers/344107c3af04f73e796e.jpg' | relative_url }}" alt="Listing image for ADIDAS Mens Zip Hoodie Sweater Large Black AI05" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">ADIDAS Mens Zip Hoodie Sweater Large Black AI05</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for AI hoodie">Search<span data-ebay-domain-label>eBay.co.uk</span>: AI hoodie</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=AI+hoodie&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="AI hoodie" data-ebay-reference="revision-prompts-why-better-prompts-usually-come-after-the-first-draft-understanding-ai-hoodie" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -693,7 +693,7 @@ The most productive mindset is therefore not “How do I write the perfect promp
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -713,7 +713,7 @@ The most productive mindset is therefore not “How do I write the perfect promp
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -745,7 +745,7 @@ The most productive mindset is therefore not “How do I write the perfect promp
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -797,7 +797,7 @@ The most productive mindset is therefore not “How do I write the perfect promp
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -842,7 +842,7 @@ The most productive mindset is therefore not “How do I write the perfect promp
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -883,253 +883,253 @@ The most productive mindset is therefore not “How do I write the perfect promp
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/iterative-prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/iterative-prompting</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What is Iterative Prompting? | IBMIterative prompting converts AI interaction into a structured, step-by-step iterative process, refin...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/iterative-prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/iterative-prompting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is Iterative Prompting? | IBMIterative prompting converts AI interaction into a structured, step-by-step iterative process, refin...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: aws.amazon.com  
-   Link: <a href="https://aws.amazon.com/blogs/machine-learning/implementing-advanced-prompt-engineering-with-amazon-bedrock/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/implementing-advanced-prompt-engineering-with-amazon-bedrock/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Web Services, Inc.Implementing advanced prompt engineering with Amazon...Aug 30, 2024 — Prompt engineering is an iterative proces...</p></details>
+   Link:<a href="https://aws.amazon.com/blogs/machine-learning/implementing-advanced-prompt-engineering-with-amazon-bedrock/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/implementing-advanced-prompt-engineering-with-amazon-bedrock/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Web Services, Inc.Implementing advanced prompt engineering with Amazon...Aug 30, 2024 — Prompt engineering is an iterative proces...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: platform.claude.com  
    Title: Prompt engineering overview  
-   Link: <a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener noreferrer nofollow">https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering overview - Claude API DocsThis guide focuses on success criteria that are controllable through prompt engineerin...</p></details>
+   Link:<a href="https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener noreferrer nofollow">https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering overview - Claude API DocsThis guide focuses on success criteria that are controllable through prompt engineerin...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/prompt-engineering</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>systems to create specific, high-quality outputs...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/prompt-engineering</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>systems to create specific, high-quality outputs...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: anthropic.com  
    Title: prompt engineering for [business](&#123;&#123; 'business-adoption/' | relative_url &#125;&#125;) performance  
-   Link: <a href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompt-engineering-for-business-performance</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for business performance29 Feb 2024 — Prompt engineering is an important tool for any business seeking to opt...</p></details>
+   Link:<a href="https://www.anthropic.com/news/prompt-engineering-for-business-performance" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/news/prompt-engineering-for-business-performance</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt engineering for business performance29 Feb 2024 — Prompt engineering is an important tool for any business seeking to opt...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: docs.aws.amazon.com  
    Title: AWS Documentation Prompt engineering concepts  
-   Link: <a href="https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html" target="_blank" rel="noopener noreferrer nofollow">https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AWS DocumentationPrompt engineering concepts - Amazon BedrockPrompt engineering refers to the practice of optimizing textual input to a L...</p></details>
+   Link:<a href="https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html" target="_blank" rel="noopener noreferrer nofollow">https://docs.aws.amazon.com/bedrock/latest/userguide/prompt-engineering-guidelines.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AWS DocumentationPrompt engineering concepts - Amazon BedrockPrompt engineering refers to the practice of optimizing textual input to a L...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: ibm.com  
    Title: prompt engineering  
-   Link: <a href="https://www.ibm.com/think/prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/prompt-engineering</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>The 2026 Guide to Prompt EngineeringThis guide will help you design, refine and optimize prompts that drive meaningful results—whether yo...</p></details>
+   Link:<a href="https://www.ibm.com/think/prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/prompt-engineering</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The 2026 Guide to Prompt EngineeringThis guide will help you design, refine and optimize prompts that drive meaningful results—whether yo...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/promptlayer/prompt-engineering-with-anthropic-claude-5399da57461d" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/promptlayer/prompt-engineering-with-anthropic-claude-5399da57461d</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering with Anthropic ClaudePrompt Engineering with Anthropic Claude · Tip #1: Use XML tags · Tip #2: Be specific rather than...</p></details>
+   Link:<a href="https://medium.com/promptlayer/prompt-engineering-with-anthropic-claude-5399da57461d" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/promptlayer/prompt-engineering-with-anthropic-claude-5399da57461d</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering with Anthropic ClaudePrompt Engineering with Anthropic Claude · Tip #1: Use XML tags · Tip #2: Be specific rather than...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
    Title: arXiv Self-Refine: Iterative Refinement with Self-Feedback  
-   Link: <a href="https://arxiv.org/abs/2303.17651" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2303.17651</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Self-Refine: Iterative Refinement with Self-FeedbackMarch 30, 2023...</p></details>
+   Link:<a href="https://arxiv.org/abs/2303.17651" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2303.17651</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Self-Refine: Iterative Refinement with Self-FeedbackMarch 30, 2023...</p></details>
    Published: March 30, 2023  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2303.13534" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2303.13534</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompting AI Art: An Investigation into the Creative Skill of Prompt EngineeringMarch 13, 2023...</p></details>
+   Link:<a href="https://arxiv.org/abs/2303.13534" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2303.13534</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompting AI Art: An Investigation into the Creative Skill of Prompt EngineeringMarch 13, 2023...</p></details>
    Published: March 13, 2023  
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: aws.amazon.com  
-   Link: <a href="https://aws.amazon.com/blogs/machine-learning/building-generative-ai-prompt-chaining-workflows-with-human-in-the-loop/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/building-generative-ai-prompt-chaining-workflows-with-human-in-the-loop/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Web Services, Inc.Building Generative AI prompt chaining workflows with...In this blog post, you will learn about prompt chaining...</p></details>
+   Link:<a href="https://aws.amazon.com/blogs/machine-learning/building-generative-ai-prompt-chaining-workflows-with-human-in-the-loop/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/building-generative-ai-prompt-chaining-workflows-with-human-in-the-loop/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Amazon Web Services, Inc.Building Generative AI prompt chaining workflows with...In this blog post, you will learn about prompt chaining...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: docs.aws.amazon.com  
    Title: AWS Documentation Workflow for prompt chaining  
-   Link: <a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/workflow-for-prompt-chaining.html" target="_blank" rel="noopener noreferrer nofollow">https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/workflow-for-prompt-chaining.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AWS DocumentationWorkflow for prompt chaining - AWS Prescriptive GuidancePrompt chaining breaks complex tasks into sequential LLM steps...</p></details>
+   Link:<a href="https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/workflow-for-prompt-chaining.html" target="_blank" rel="noopener noreferrer nofollow">https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/workflow-for-prompt-chaining.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AWS DocumentationWorkflow for prompt chaining - AWS Prescriptive GuidancePrompt chaining breaks complex tasks into sequential LLM steps...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: docs.aws.amazon.com  
-   Link: <a href="https://docs.aws.amazon.com/step-functions/latest/dg/sample-bedrock-prompt-chaining.html" target="_blank" rel="noopener noreferrer nofollow">https://docs.aws.amazon.com/step-functions/latest/dg/sample-bedrock-prompt-chaining.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AWS DocumentationPerform AI prompt-chaining with Amazon BedrockThis sample project demonstrates how you can integrate with Amazon Bedrock...</p></details>
+   Link:<a href="https://docs.aws.amazon.com/step-functions/latest/dg/sample-bedrock-prompt-chaining.html" target="_blank" rel="noopener noreferrer nofollow">https://docs.aws.amazon.com/step-functions/latest/dg/sample-bedrock-prompt-chaining.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AWS DocumentationPerform AI prompt-chaining with Amazon BedrockThis sample project demonstrates how you can integrate with Amazon Bedrock...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2309.09128" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2309.09128</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ChainForge: A Visual Toolkit for Prompt Engineering and LLM Hypothesis TestingSeptember 17, 2023...</p></details>
+   Link:<a href="https://arxiv.org/abs/2309.09128" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2309.09128</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ChainForge: A Visual Toolkit for Prompt Engineering and LLM Hypothesis TestingSeptember 17, 2023...</p></details>
    Published: September 17, 2023  
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/2304.01964" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2304.01964</a>  
+   Link:<a href="https://arxiv.org/abs/2304.01964" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/2304.01964</a>  
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: anthropic.com  
    Title: effective context engineering for ai agents  
-   Link: <a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Sep 29, 2025 — Prompt engineering refers to methods for writing and organizing LLM instructions for optimal outcomes (see our docs for an...</p></details>
+   Link:<a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Sep 29, 2025 — Prompt engineering refers to methods for writing and organizing LLM instructions for optimal outcomes (see our docs for an...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: anthropic.com  
-   Link: <a href="https://www.anthropic.com/institute/recursive-self-improvement" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/institute/recursive-self-improvement</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>supply the goal, especially around full...</p></details>
+   Link:<a href="https://www.anthropic.com/institute/recursive-self-improvement" target="_blank" rel="noopener noreferrer nofollow">https://www.anthropic.com/institute/recursive-self-improvement</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>supply the goal, especially around full...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: aws.amazon.com  
-   Link: <a href="https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-constructs-for-agentic-workflows-in-[healthcare" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-constructs-for-agentic-workflows-in-[healthcare</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>amazon.comHuman-in-the-loop constructs for agentic workflows...8 Apr 2026 — In this post, you will learn four practical approaches to im...</p></details>
+   Link:<a href="https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-constructs-for-agentic-workflows-in-[healthcare" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-constructs-for-agentic-workflows-in-[healthcare</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>amazon.comHuman-in-the-loop constructs for agentic workflows...8 Apr 2026 — In this post, you will learn four practical approaches to im...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: aws.amazon.com  
-   Link: <a href="https://aws.amazon.com/blogs/machine-learning/incorporate-offline-and-online-human-machine-workflows-into-your-generative-ai-applications-on-aws/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/incorporate-offline-and-online-human-machine-workflows-into-your-generative-ai-applications-on-aws/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>offline and online human – machine workflows...14 May 2024 — This blog post uses RLHF as an offline human-in-the-loop approach and the n...</p></details>
+   Link:<a href="https://aws.amazon.com/blogs/machine-learning/incorporate-offline-and-online-human-machine-workflows-into-your-generative-ai-applications-on-aws/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/incorporate-offline-and-online-human-machine-workflows-into-your-generative-ai-applications-on-aws/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>offline and online human – machine workflows...14 May 2024 — This blog post uses RLHF as an offline human-in-the-loop approach and the n...</p></details>
    Published: May 2024  
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: aws.amazon.com  
-   Link: <a href="https://aws.amazon.com/tr/video/watch/de313da02ff/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/tr/video/watch/de313da02ff/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Step Functions for Generative AIThe session provides practical insights into using Step Functions for prompt chaining and building resili...</p></details>
+   Link:<a href="https://aws.amazon.com/tr/video/watch/de313da02ff/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/tr/video/watch/de313da02ff/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Step Functions for Generative AIThe session provides practical insights into using Step Functions for prompt chaining and building resili...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: aws.amazon.com  
-   Link: <a href="https://aws.amazon.com/video/watch/de313da02ff/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/video/watch/de313da02ff/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Step Functions for Generative AIWe&#x27;re gonna talk about state persistence and visibility and how to introduce humans as part of your workf...</p></details>
+   Link:<a href="https://aws.amazon.com/video/watch/de313da02ff/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/video/watch/de313da02ff/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Step Functions for Generative AIWe&#x27;re gonna talk about state persistence and visibility and how to introduce humans as part of your workf...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: aws.amazon.com  
-   Link: <a href="https://aws.amazon.com/blogs/machine-learning/category/application-services/aws-step-functions/page/2/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/category/application-services/aws-step-functions/page/2/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>by Veda Raman and Uma Ramadoss on 17 MAY 2024 in Amazon Bedrock, AWS Step Functions...Read more...</p></details>
+   Link:<a href="https://aws.amazon.com/blogs/machine-learning/category/application-services/aws-step-functions/page/2/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/category/application-services/aws-step-functions/page/2/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>by Veda Raman and Uma Ramadoss on 17 MAY 2024 in Amazon Bedrock, AWS Step Functions...Read more...</p></details>
    Published: MAY 2024  
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: aws.amazon.com  
    Title: build a multi tenant generative ai environment for your enterprise on aws  
-   Link: <a href="https://aws.amazon.com/blogs/machine-learning/build-a-multi-tenant-generative-ai-environment-for-your-enterprise-on-aws/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/build-a-multi-tenant-generative-ai-environment-for-your-enterprise-on-aws/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>a multi-tenant generative AI environment for your...7 Nov 2024 — You can use AWS Step Functions to orchestrate the chaining workflows an...</p></details>
+   Link:<a href="https://aws.amazon.com/blogs/machine-learning/build-a-multi-tenant-generative-ai-environment-for-your-enterprise-on-aws/" target="_blank" rel="noopener noreferrer nofollow">https://aws.amazon.com/blogs/machine-learning/build-a-multi-tenant-generative-ai-environment-for-your-enterprise-on-aws/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>a multi-tenant generative AI environment for your...7 Nov 2024 — You can use AWS Step Functions to orchestrate the chaining workflows an...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40inturinikhilnageshwar/beyond-the-words-how-prompt-engineering-and-iterative-refinement-build-exceptional-ai-agents-55e11c4afe26" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40inturinikhilnageshwar/beyond-the-words-how-prompt-engineering-and-iterative-refinement-build-exceptional-ai-agents-55e11c4afe26</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It requires a sophisticated, iterative process that many practitioners now call...Read more...</p></details>
+   Link:<a href="https://medium.com/%40inturinikhilnageshwar/beyond-the-words-how-prompt-engineering-and-iterative-refinement-build-exceptional-ai-agents-55e11c4afe26" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40inturinikhilnageshwar/beyond-the-words-how-prompt-engineering-and-iterative-refinement-build-exceptional-ai-agents-55e11c4afe26</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It requires a sophisticated, iterative process that many practitioners now call...Read more...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40aadilrsk/the-complete-guide-to-prompt-engineering-from-beginner-to-expert-b27bf9155c4c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40aadilrsk/the-complete-guide-to-prompt-engineering-from-beginner-to-expert-b27bf9155c4c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The Complete Guide to Prompt EngineeringKey Insight: Each iteration adds constraints based on what&#x27;s missing. Refinement Checklist: Is th...</p></details>
+   Link:<a href="https://medium.com/%40aadilrsk/the-complete-guide-to-prompt-engineering-from-beginner-to-expert-b27bf9155c4c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40aadilrsk/the-complete-guide-to-prompt-engineering-from-beginner-to-expert-b27bf9155c4c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The Complete Guide to Prompt EngineeringKey Insight: Each iteration adds constraints based on what&#x27;s missing. Refinement Checklist: Is th...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40NAITIVE/mastering-complex-tasks-the-art-of-prompt-chaining-97edc4594757" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40NAITIVE/mastering-complex-tasks-the-art-of-prompt-chaining-97edc4594757</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Mastering Complex Tasks: The Art of Prompt ChainingPrompt chaining is the technique of breaking down complex tasks into smaller, more man...</p></details>
+   Link:<a href="https://medium.com/%40NAITIVE/mastering-complex-tasks-the-art-of-prompt-chaining-97edc4594757" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40NAITIVE/mastering-complex-tasks-the-art-of-prompt-chaining-97edc4594757</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Mastering Complex Tasks: The Art of Prompt ChainingPrompt chaining is the technique of breaking down complex tasks into smaller, more man...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: techwithibrahim.medium.com  
    Title: the art of agent prompting lessons from anthropics ai team e8c9ac4db3f3  
-   Link: <a href="https://techwithibrahim.medium.com/the-art-of-agent-prompting-lessons-from-anthropics-ai-team-e8c9ac4db3f3" target="_blank" rel="noopener noreferrer nofollow">https://techwithibrahim.medium.com/the-art-of-agent-prompting-lessons-from-anthropics-ai-team-e8c9ac4db3f3</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>According to Anthropic, prompt engineering is about refining how we communicate...Read more...</p></details>
+   Link:<a href="https://techwithibrahim.medium.com/the-art-of-agent-prompting-lessons-from-anthropics-ai-team-e8c9ac4db3f3" target="_blank" rel="noopener noreferrer nofollow">https://techwithibrahim.medium.com/the-art-of-agent-prompting-lessons-from-anthropics-ai-team-e8c9ac4db3f3</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>According to Anthropic, prompt engineering is about refining how we communicate...Read more...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/artificial-intelligence-and-just-all-about-it/aws-bedrock-bootcamp-genai-from-zero-to-hero-21-hands-on-demos-7df7608b6f96" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/artificial-intelligence-and-just-all-about-it/aws-bedrock-bootcamp-genai-from-zero-to-hero-21-hands-on-demos-7df7608b6f96</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AWS Bedrock Bootcamp: GenAI from Zero to HeroA practical, code-first journey through every major Amazon Bedrock feature — from your first...</p></details>
+   Link:<a href="https://medium.com/artificial-intelligence-and-just-all-about-it/aws-bedrock-bootcamp-genai-from-zero-to-hero-21-hands-on-demos-7df7608b6f96" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/artificial-intelligence-and-just-all-about-it/aws-bedrock-bootcamp-genai-from-zero-to-hero-21-hands-on-demos-7df7608b6f96</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AWS Bedrock Bootcamp: GenAI from Zero to HeroA practical, code-first journey through every major Amazon Bedrock feature — from your first...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/prompt-engineering-techniques" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/prompt-engineering-techniques</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering TechniquesPrompt engineering techniques are strategies used to design and structure prompts, input queries or instruct...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/prompt-engineering-techniques" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/prompt-engineering-techniques</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Prompt Engineering TechniquesPrompt engineering techniques are strategies used to design and structure prompts, input queries or instruct...</p></details>
 
-30. <a id="endnote-30"></a>
+30.<a id="endnote-30"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/tutorials/iterative-prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/tutorials/iterative-prompting</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Instead of...Read more...</p></details>
+   Link:<a href="https://www.ibm.com/think/tutorials/iterative-prompting" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/tutorials/iterative-prompting</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Instead of...Read more...</p></details>
 
-31. <a id="endnote-31"></a>
+31.<a id="endnote-31"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/jafarnajafov_anthropic-dropped-a-free-guide-on-prompt-activity-7327746889968168961-jLuL" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/jafarnajafov_anthropic-dropped-a-free-guide-on-prompt-activity-7327746889968168961-jLuL</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Anthropic&#x27;s free guide on Prompt EngineeringAnthropic dropped a free guide on Prompt Engineering and it&#x27;s insanely useful. Learn how to w...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/jafarnajafov_anthropic-dropped-a-free-guide-on-prompt-activity-7327746889968168961-jLuL" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/jafarnajafov_anthropic-dropped-a-free-guide-on-prompt-activity-7327746889968168961-jLuL</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Anthropic&#x27;s free guide on Prompt EngineeringAnthropic dropped a free guide on Prompt Engineering and it&#x27;s insanely useful. Learn how to w...</p></details>
 
-32. <a id="endnote-32"></a>
+32.<a id="endnote-32"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/khizer-abbas_breaking-anthropic-just-dropped-prompt-engineering-activity-7343909072116617217-G7eD" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/khizer-abbas_breaking-anthropic-just-dropped-prompt-engineering-activity-7343909072116617217-G7eD</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>ases. Here&#x27;s what&#x27;s inside...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/khizer-abbas_breaking-anthropic-just-dropped-prompt-engineering-activity-7343909072116617217-G7eD" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/khizer-abbas_breaking-anthropic-just-dropped-prompt-engineering-activity-7343909072116617217-G7eD</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ases. Here&#x27;s what&#x27;s inside...</p></details>
 
-33. <a id="endnote-33"></a>
+33.<a id="endnote-33"></a>
    Source: axios.com  
    Title: Anthropic says Mythos can turn software patches into exploits in minutes  
-   Link: <a href="https://www.axios.com/2026/06/08/exclusive-anthropics-mythos-can-exploit-new-flaws-in-hours" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2026/06/08/exclusive-anthropics-mythos-can-exploit-new-flaws-in-hours</a>  
+   Link:<a href="https://www.axios.com/2026/06/08/exclusive-anthropics-mythos-can-exploit-new-flaws-in-hours" target="_blank" rel="noopener noreferrer nofollow">https://www.axios.com/2026/06/08/exclusive-anthropics-mythos-can-exploit-new-flaws-in-hours</a>  
 
-34. <a id="endnote-34"></a>
+34.<a id="endnote-34"></a>
    Source: reuters.com  
    Title: Anthropic moves toward IPO, stepping up race with Open AI  
-   Link: <a href="https://www.reuters.com/[business/ai" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/[business/ai</a>  
+   Link:<a href="https://www.reuters.com/[business/ai" target="_blank" rel="noopener noreferrer nofollow">https://www.reuters.com/[business/ai</a>  
 
-35. <a id="endnote-35"></a>
+35.<a id="endnote-35"></a>
    Source: observer.com  
    Title: Anthropic Philosopher Amanda Askell Says Claude May Replace Her Job One Day  
-   Link: <a href="https://observer.com/2026/06/anthropics-philosopher-amanda-askell-ai-replacing-humanity-work/" target="_blank" rel="noopener noreferrer nofollow">https://observer.com/2026/06/anthropics-philosopher-amanda-askell-ai-replacing-humanity-work/</a>  
+   Link:<a href="https://observer.com/2026/06/anthropics-philosopher-amanda-askell-ai-replacing-humanity-work/" target="_blank" rel="noopener noreferrer nofollow">https://observer.com/2026/06/anthropics-philosopher-amanda-askell-ai-replacing-humanity-work/</a>  
 
-36. <a id="endnote-36"></a>
+36.<a id="endnote-36"></a>
    Source: mirascope.com  
    Title: prompt iteration  
-   Link: <a href="https://mirascope.com/blog/prompt-iteration" target="_blank" rel="noopener noreferrer nofollow">https://mirascope.com/blog/prompt-iteration</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>A Guide to Prompt Iteration: Strategies and Examples26 Nov 2025 — Iterative prompting is the process of refining a model&#x27;s response throu...</p></details>
+   Link:<a href="https://mirascope.com/blog/prompt-iteration" target="_blank" rel="noopener noreferrer nofollow">https://mirascope.com/blog/prompt-iteration</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>A Guide to Prompt Iteration: Strategies and Examples26 Nov 2025 — Iterative prompting is the process of refining a model&#x27;s response throu...</p></details>
 
-37. <a id="endnote-37"></a>
+37.<a id="endnote-37"></a>
    Source: Wikipedia  
-   Link: <a href="https://en.wikipedia.org/wiki/Anthropic" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Anthropic</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AnthropicAnthropic PBC is an American artificial intelligence (AI) company headquartered in San Francisco, California. It has develope...</p></details>
+   Link:<a href="https://en.wikipedia.org/wiki/Anthropic" target="_blank" rel="noopener noreferrer nofollow">https://en.wikipedia.org/wiki/Anthropic</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AnthropicAnthropic PBC is an American artificial intelligence (AI) company headquartered in San Francisco, California. It has develope...</p></details>
 
 ### Additional References
 
-38. <a id="endnote-38"></a>
+38.<a id="endnote-38"></a>
    Source: aws-news.com  
-   Link: <a href="https://aws-news.com/article/2026-04-08-human-in-the-loop-constructs-for-agentic-workflows-in-healthcare-and-life-sciences" target="_blank" rel="noopener noreferrer nofollow">https://aws-news.com/article/2026-04-08-human-in-the-loop-constructs-for-agentic-workflows-in-healthcare-and-life-sciences</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Human-in-the-loop constructs for agentic workflows in...8 Apr 2026 — AWS presents four human-in-the-loop patterns for AI agents in healt...</p></details>
+   Link:<a href="https://aws-news.com/article/2026-04-08-human-in-the-loop-constructs-for-agentic-workflows-in-healthcare-and-life-sciences" target="_blank" rel="noopener noreferrer nofollow">https://aws-news.com/article/2026-04-08-human-in-the-loop-constructs-for-agentic-workflows-in-healthcare-and-life-sciences</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Human-in-the-loop constructs for agentic workflows in...8 Apr 2026 — AWS presents four human-in-the-loop patterns for AI agents in healt...</p></details>
 
-39. <a id="endnote-39"></a>
+39.<a id="endnote-39"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/pulse/ai-agents-context-human-in-the-loop-decision-making-de-ridder-zpqqc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ai-agents-context-human-in-the-loop-decision-making-de-ridder-zpqqc</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Agents, Context, and Human-in-the-Loop Decision MakingEscalation of Ambiguities: A well-designed and safe agent (Building Generative A...</p></details>
+   Link:<a href="https://www.linkedin.com/pulse/ai-agents-context-human-in-the-loop-decision-making-de-ridder-zpqqc" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/pulse/ai-agents-context-human-in-the-loop-decision-making-de-ridder-zpqqc</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Agents, Context, and Human-in-the-Loop Decision MakingEscalation of Ambiguities: A well-designed and safe agent (Building Generative A...</p></details>
 
-40. <a id="endnote-40"></a>
+40.<a id="endnote-40"></a>
    Source: businessinsider.com  
-   Link: <a href="https://www.businessinsider.com/anthropic-guide-prompt-engineering-2025-7" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/anthropic-guide-prompt-engineering-2025-7</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>The guide likens Claude to a &quot;brilliant but new employee with amnesia,&quot; emphasizing the need for explicit, well-structured prompts. To en...</p></details>
+   Link:<a href="https://www.businessinsider.com/anthropic-guide-prompt-engineering" target="_blank" rel="noopener noreferrer nofollow">https://www.businessinsider.com/anthropic-guide-prompt-engineering</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>The guide likens Claude to a &quot;brilliant but new employee with amnesia,&quot; emphasizing the need for explicit, well-structured prompts. To en...</p></details>
 
-41. <a id="endnote-41"></a>
+41.<a id="endnote-41"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/PromptEngineering/comments/12a5j34/iterative_prompt_creator/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/PromptEngineering/comments/12a5j34/iterative_prompt_creator/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Iterative Prompt Creator: r/PromptEngineeringThe goal is to create a prompt that is clear, concise, and easy for me to understand, while...</p></details>
+   Link:<a href="https://www.reddit.com/r/PromptEngineering/comments/12a5j34/iterative_prompt_creator/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/PromptEngineering/comments/12a5j34/iterative_prompt_creator/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Iterative Prompt Creator: r/PromptEngineeringThe goal is to create a prompt that is clear, concise, and easy for me to understand, while...</p></details>
 
-42. <a id="endnote-42"></a>
+42.<a id="endnote-42"></a>
    Source: cloudthat.com  
    Title: scaling generative ai applications with prompt chaining in amazon bedrock  
-   Link: <a href="https://www.cloudthat.com/resources/blog/scaling-generative-ai-applications-with-prompt-chaining-in-amazon-bedrock/" target="_blank" rel="noopener noreferrer nofollow">https://www.cloudthat.com/resources/blog/scaling-generative-ai-applications-with-prompt-chaining-in-amazon-bedrock/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Scaling Generative AI Applications with Prompt Chaining in...30 Oct 2025 — A structured, multi-step workflow is created by automatically...</p></details>
+   Link:<a href="https://www.cloudthat.com/resources/blog/scaling-generative-ai-applications-with-prompt-chaining-in-amazon-bedrock/" target="_blank" rel="noopener noreferrer nofollow">https://www.cloudthat.com/resources/blog/scaling-generative-ai-applications-with-prompt-chaining-in-amazon-bedrock/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Scaling Generative AI Applications with Prompt Chaining in...30 Oct 2025 — A structured, multi-step workflow is created by automatically...</p></details>
 
-43. <a id="endnote-43"></a>
+43.<a id="endnote-43"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=GdxBJ4H-6cw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=GdxBJ4H-6cw</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Serverless GenAI Prompt Chaining with Step Functions...Using step functions and serverless generative AI to really show how they can cha...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=GdxBJ4H-6cw" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=GdxBJ4H-6cw</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Serverless GenAI Prompt Chaining with Step Functions...Using step functions and serverless generative AI to really show how they can cha...</p></details>
 
-44. <a id="endnote-44"></a>
+44.<a id="endnote-44"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=hkhDdcM5V94" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=hkhDdcM5V94</a>  
+   Link:<a href="https://www.youtube.com/watch?v=hkhDdcM5V94" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=hkhDdcM5V94</a>  
 
-45. <a id="endnote-45"></a>
+45.<a id="endnote-45"></a>
    Source: github.com  
-   Link: <a href="https://github.com/thibaultyou/prompt-blueprint/blob/main/guides/anthropic-best-practices__chatgpt-4_5.md" target="_blank" rel="noopener noreferrer nofollow">https://github.com/thibaultyou/prompt-blueprint/blob/main/guides/anthropic-best-practices__chatgpt-4_5.md</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Rarely will your first prompt be the perfect one. Embrace a cycle of draft → test → refine. Here are tips for...</p></details>
+   Link:<a href="https://github.com/thibaultyou/prompt-blueprint/blob/main/guides/anthropic-best-practices__chatgpt-4_5.md" target="_blank" rel="noopener noreferrer nofollow">https://github.com/thibaultyou/prompt-blueprint/blob/main/guides/anthropic-best-practices__chatgpt-4_5.md</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Rarely will your first prompt be the perfect one. Embrace a cycle of draft → test → refine. Here are tips for...</p></details>
 
-46. <a id="endnote-46"></a>
+46.<a id="endnote-46"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/AIBizHub/comments/1jz9890/prompt_engineering_best_practices_from_anthropic/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/AIBizHub/comments/1jz9890/prompt_engineering_best_practices_from_anthropic/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Structure matters, context is king, and iteration is your friend. Also, most people...Read more...</p></details>
+   Link:<a href="https://www.reddit.com/r/AIBizHub/comments/1jz9890/prompt_engineering_best_practices_from_anthropic/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/AIBizHub/comments/1jz9890/prompt_engineering_best_practices_from_anthropic/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Structure matters, context is king, and iteration is your friend. Also, most people...Read more...</p></details>
 
-47. <a id="endnote-47"></a>
+47.<a id="endnote-47"></a>
    Source: github.com  
-   Link: <a href="https://github.com/aws-samples/amazon-bedrock-serverless-prompt-chaining" target="_blank" rel="noopener noreferrer nofollow">https://github.com/aws-samples/amazon-bedrock-serverless-prompt-chaining</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>y scalable generative AI applications with prompt chaining and Amazon Bedrock.Read more...</p></details>
+   Link:<a href="https://github.com/aws-samples/amazon-bedrock-serverless-prompt-chaining" target="_blank" rel="noopener noreferrer nofollow">https://github.com/aws-samples/amazon-bedrock-serverless-prompt-chaining</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>y scalable generative AI applications with prompt chaining and Amazon Bedrock.Read more...</p></details>

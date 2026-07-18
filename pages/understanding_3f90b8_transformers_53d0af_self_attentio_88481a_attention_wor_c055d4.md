@@ -269,33 +269,33 @@ image: /assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_884
 
 ## Introduction
 
-When a word has multiple possible meanings, [attention]({{ 'attention/' | relative_url }}) weights help a Transformer decide which meaning fits the current context. A word such as “bank” could refer to a financial institution or the side of a river. Rather than assigning one fixed meaning to the token, the model compares it with other tokens in the sentence and gives different amounts of attention to different contextual clues. The resulting attention weights act like a relevance map, indicating which surrounding words should influence the interpretation most strongly. This is one of the key ways [self-attention]({{ 'self-attention/' | relative_url }}) turns a generic token into a context-sensitive representation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ApX Machine Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
+When a word has multiple possible meanings, [attention]({{ 'attention/' | relative_url }}) weights help a Transformer decide which meaning fits the current context. A word such as “bank” could refer to a financial institution or the side of a river. Rather than assigning one fixed meaning to the token, the model compares it with other tokens in the sentence and gives different amounts of attention to different contextual clues. The resulting attention weights act like a relevance map, indicating which surrounding words should influence the interpretation most strongly. This is one of the key ways [self-attention]({{ 'self-attention/' | relative_url }}) turns a generic token into a context-sensitive representation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2ApX Machine Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_88481a_attention_wor_c055d4-Illustration-1-dark.svg" | relative_url }}" alt="Word Context illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_88481a_attention_wor_c055d4-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_88481a_attention_wor_c055d4-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
-In the broader mechanism of self-attention, every token can connect directly to nearby or distant words. For ambiguous words, the important question is not whether a connection exists, but which connections receive the greatest weight. Those weights help the model select the context that resolves uncertainty and supports the correct meaning. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
+In the broader mechanism of self-attention, every token can connect directly to nearby or distant words. For ambiguous words, the important question is not whether a connection exists, but which connections receive the greatest weight. Those weights help the model select the context that resolves uncertainty and supports the correct meaning.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
 
 ## Why the Same Token Can Mean Different Things
 
-Many words are polysemous: they carry several related or unrelated meanings. Humans resolve this naturally through context. Modern [language models]({{ 'language-models/' | relative_url }}) do something similar by creating contextual representations rather than relying on a single stored definition for each word. Research on contextualised embeddings, including BERT-based systems, shows that the same word can occupy different regions of the model’s representation space depending on surrounding context, allowing distinct meanings to emerge from usage rather than from a fixed dictionary entry. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Pair Code]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</span><span class="citation-popover-meta">Published: September 23, 2019</span></span></span>
+Many words are polysemous: they carry several related or unrelated meanings. Humans resolve this naturally through context. Modern [language models]({{ 'language-models/' | relative_url }}) do something similar by creating contextual representations rather than relying on a single stored definition for each word. Research on contextualised embeddings, including BERT-based systems, shows that the same word can occupy different regions of the model’s representation space depending on surrounding context, allowing distinct meanings to emerge from usage rather than from a fixed dictionary entry.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Pair Code]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</span><span class="citation-popover-meta">Published: September 23, 2019</span></span></span>
 
 Consider these sentences:
 
 * “She deposited money at the bank.”
 * “They sat on the bank of the river.”
 
-The token “bank” begins as the same vocabulary item in both cases. What changes is the context available around it. Words such as “deposited” and “money” provide evidence for one meaning, while “river” provides evidence for another. Self-attention allows the model to measure the relevance of these clues directly. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/attention-mechanism" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is an attention mechanism?An attention mechanism is a machine learning technique that directs deep learning models, like transfor...</span></span></span>
+The token “bank” begins as the same vocabulary item in both cases. What changes is the context available around it. Words such as “deposited” and “money” provide evidence for one meaning, while “river” provides evidence for another. Self-attention allows the model to measure the relevance of these clues directly.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.ibm.com/think/topics/attention-mechanism" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ibm.com">[IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ibm.com</span><span class="citation-popover-snippet">What is an attention mechanism?An attention mechanism is a machine learning technique that directs deep learning models, like transfor...</span></span></span>
 
-The result is that the representation of “bank” after attention is no longer a generic word embedding. It becomes a context-dependent representation that reflects the specific meaning needed in that sentence. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</span><span class="citation-popover-meta">Published: September 23, 2019</span></span></span>
+The result is that the representation of “bank” after attention is no longer a generic word embedding. It becomes a context-dependent representation that reflects the specific meaning needed in that sentence.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</span><span class="citation-popover-meta">Published: September 23, 2019</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/E5Z7FQp7AQQ" title="What is CNN in deep learning? Convolutional Neural Network Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=E5Z7FQp7AQQ" target="_blank" rel="noopener noreferrer">What is CNN in deep learning? Convolutional Neural Network Explained</a></p><p class="youtube-embed-meta">Channel: Learn With Jay &middot; Views: 279.5K &middot; Uploaded: September 2021 &middot; Length: 6 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=E5Z7FQp7AQQ" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=E5Z7FQp7AQQ">Open on YouTube</a></p></div></div></div>
 
 ## How Query-Key Scores Become Context Weights
 
-The mechanism begins when the ambiguous token generates a query vector. Every token in the sentence also provides a key vector and a value vector. The model compares the query with each key using a similarity calculation based on scaled dot products. Larger similarity scores indicate that a token may contain information useful for interpreting the current word. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Dive into Deep Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
+The mechanism begins when the ambiguous token generates a query vector. Every token in the sentence also provides a key vector and a value vector. The model compares the query with each key using a similarity calculation based on scaled dot products. Larger similarity scores indicate that a token may contain information useful for interpreting the current word.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Dive into Deep Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
 
-The scores are then passed through a softmax function. This converts the raw scores into attention weights that sum to one. Tokens with higher relevance receive larger weights, while less relevant tokens receive smaller ones. The model then forms a weighted combination of the value vectors, allowing highly relevant context to contribute more strongly to the final representation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[DEV Community+3arXiv+3Medium]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
+The scores are then passed through a softmax function. This converts the raw scores into attention weights that sum to one. Tokens with higher relevance receive larger weights, while less relevant tokens receive smaller ones. The model then forms a weighted combination of the value vectors, allowing highly relevant context to contribute more strongly to the final representation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[DEV Community+3arXiv+3Medium]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
 
 A simplified interpretation is:
 
@@ -310,7 +310,7 @@ A simplified interpretation is:
 
 </div>
 
-Because every token can be considered simultaneously, the model is not restricted to immediate neighbours. A useful clue several words away can receive more weight than a nearby but irrelevant word. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2PixelBank]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
+Because every token can be considered simultaneously, the model is not restricted to immediate neighbours. A useful clue several words away can receive more weight than a nearby but irrelevant word.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2PixelBank]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_88481a_attention_wor_c055d4-Illustration-2-dark.svg" | relative_url }}" alt="Word Context illustration 2" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_88481a_attention_wor_c055d4-Illustration-2-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_88481a_attention_wor_c055d4-Illustration-2-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -318,9 +318,9 @@ Because every token can be considered simultaneously, the model is not restricte
 
 The “bank” example illustrates how attention can favour different clues in different contexts.
 
-In “She deposited money at the bank”, attention may assign substantial weight to words such as “deposited” and “money”. These tokens strongly signal the financial sense. Their value vectors contribute heavily to the updated representation of “bank”. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
+In “She deposited money at the bank”, attention may assign substantial weight to words such as “deposited” and “money”. These tokens strongly signal the financial sense. Their value vectors contribute heavily to the updated representation of “bank”.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
 
-In “They sat on the bank of the river”, attention can shift towards “river”. Even though the token is identical, the attention pattern changes because the query-key similarities change. The resulting representation moves towards the geographical meaning instead of the financial one. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://apxml.com/courses/introduction-to-transformer-models/chapter-2-self-attention-multi-head-attention/scaled-dot-product-attention" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: apxml.com">[ApX Machine Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">apxml.com</span><span class="citation-popover-title">Ap X Machine Learning Scaled Dot-Product Attention Mechanism Scaled Dot-Product Attention is the core calculation mechanism for self-atte</span><span class="citation-popover-snippet">It computes how much each element in a sequence should attend to every ...Read more</span></span></span>
+In “They sat on the bank of the river”, attention can shift towards “river”. Even though the token is identical, the attention pattern changes because the query-key similarities change. The resulting representation moves towards the geographical meaning instead of the financial one.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://apxml.com/courses/introduction-to-transformer-models/chapter-2-self-attention-multi-head-attention/scaled-dot-product-attention" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: apxml.com">[ApX Machine Learning]</a><span class="citation-popover" role="note"><span class="citation-popover-source">apxml.com</span><span class="citation-popover-title">Ap X Machine Learning Scaled Dot-Product Attention Mechanism Scaled Dot-Product Attention is the core calculation mechanism for self-atte</span><span class="citation-popover-snippet">It computes how much each element in a sequence should attend to every ...Read more</span></span></span>
 
 The same process helps with many other ambiguities:
 
@@ -333,220 +333,220 @@ The same process helps with many other ambiguities:
 
 </div>
 
-In each case, attention weights help identify which surrounding words contain the strongest evidence for the intended interpretation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</span><span class="citation-popover-meta">Published: September 23, 2019</span></span></span>
+In each case, attention weights help identify which surrounding words contain the strongest evidence for the intended interpretation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</span><span class="citation-popover-meta">Published: September 23, 2019</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/U1omz0B9FTw" title="Logistic Regression Machine Learning Example | Simply Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=U1omz0B9FTw" target="_blank" rel="noopener noreferrer">Logistic Regression Machine Learning Example | Simply Explained</a></p><p class="youtube-embed-meta">Channel: Learn With Jay &middot; Views: 106.9K &middot; Uploaded: January 2021 &middot; Length: 6 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=U1omz0B9FTw" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=U1omz0B9FTw">Open on YouTube</a></p></div></div></div>
 
 ## Why Attention Is Helpful but Not the Whole Story
 
-A common simplification is that attention alone performs word-sense disambiguation. In practice, the situation is more subtle. Research examining attention during machine translation found that attention does not always place most of its weight directly on the context words that humans might expect. Instead, important contextual information can already be encoded inside the hidden representations produced by earlier layers. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.07595" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">An Analysis of Attention Mechanisms: The Case of Word Sense Disambiguation in Neural Machine TranslationOctober 17, 2018...</span><span class="citation-popover-meta">Published: October 17, 2018</span></span></span>
+A common simplification is that attention alone performs word-sense disambiguation. In practice, the situation is more subtle. Research examining attention during machine translation found that attention does not always place most of its weight directly on the context words that humans might expect. Instead, important contextual information can already be encoded inside the hidden representations produced by earlier layers.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.07595" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">An Analysis of Attention Mechanisms: The Case of Word Sense Disambiguation in Neural Machine TranslationOctober 17, 2018...</span><span class="citation-popover-meta">Published: October 17, 2018</span></span></span>
 
-Studies of BERT and related models also show that some attention heads appear to specialise in linguistic relationships such as syntax, reference tracking, or structural dependencies. Different heads can focus on different aspects of the sentence, providing multiple perspectives that together support interpretation. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1906.04341" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv What Does BERT Look At? An Analysis of BERT&#x27;s Attention</span><span class="citation-popover-snippet">What Does BERT Look At? An Analysis of BERT&#x27;s AttentionJune 11, 2019...</span><span class="citation-popover-meta">Published: June 11, 2019</span></span></span>
+Studies of BERT and related models also show that some attention heads appear to specialise in linguistic relationships such as syntax, reference tracking, or structural dependencies. Different heads can focus on different aspects of the sentence, providing multiple perspectives that together support interpretation.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1906.04341" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-title">arXiv What Does BERT Look At? An Analysis of BERT&#x27;s Attention</span><span class="citation-popover-snippet">What Does BERT Look At? An Analysis of BERT&#x27;s AttentionJune 11, 2019...</span><span class="citation-popover-meta">Published: June 11, 2019</span></span></span>
 
-This means that attention weights are best understood as part of a larger system. They help route information from relevant context, but the model’s ability to resolve ambiguity also depends on the contextual representations learned throughout training. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.07595" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">An Analysis of Attention Mechanisms: The Case of Word Sense Disambiguation in Neural Machine TranslationOctober 17, 2018...</span><span class="citation-popover-meta">Published: October 17, 2018</span></span></span>
+This means that attention weights are best understood as part of a larger system. They help route information from relevant context, but the model’s ability to resolve ambiguity also depends on the contextual representations learned throughout training.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1810.07595" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">An Analysis of Attention Mechanisms: The Case of Word Sense Disambiguation in Neural Machine TranslationOctober 17, 2018...</span><span class="citation-popover-meta">Published: October 17, 2018</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/0PjHri8tc1c" title="L19.4.2 Self-Attention and Scaled Dot-Product Attention" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=0PjHri8tc1c" target="_blank" rel="noopener noreferrer">L19.4.2 Self-Attention and Scaled Dot-Product Attention</a></p><p class="youtube-embed-meta">Channel: Sebastian Raschka &middot; Views: 24.9K &middot; Uploaded: May 2021 &middot; Length: 16 minutes</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=0PjHri8tc1c" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=0PjHri8tc1c">Open on YouTube</a></p></div></div></div>
 
 ## What Changes After Attention Has Done Its Work
 
-The most important outcome is that the model no longer treats a word as having one fixed meaning. After attention combines information from relevant context, the token becomes a contextualised representation tailored to its current usage. Two occurrences of the same word can therefore end up with very different internal representations even though they share the same vocabulary entry. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Pair Code]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</span><span class="citation-popover-meta">Published: September 23, 2019</span></span></span>
+The most important outcome is that the model no longer treats a word as having one fixed meaning. After attention combines information from relevant context, the token becomes a contextualised representation tailored to its current usage. Two occurrences of the same word can therefore end up with very different internal representations even though they share the same vocabulary entry.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2Pair Code]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</span><span class="citation-popover-meta">Published: September 23, 2019</span></span></span>
 
-From the perspective of [understanding]({{ 'understanding/' | relative_url }}) artificial intelligence, this is one of the central strengths of self-attention. Attention weights allow a model to identify which contextual clues matter most for an ambiguous word and to use those clues when constructing meaning. Instead of relying on rigid definitions, the model continually reshapes word representations according to context, making language understanding far more flexible and precise. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
+From the perspective of [understanding]({{ 'understanding/' | relative_url }}) artificial intelligence, this is one of the central strengths of self-attention. Attention weights allow a model to identify which contextual clues matter most for an ambiguous word and to use those clues when constructing meaning. Instead of relying on rigid definitions, the model continually reshapes word representations according to context, making language understanding far more flexible and precise.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: arxiv.org">[arXiv+2IBM]</a><span class="citation-popover" role="note"><span class="citation-popover-source">arxiv.org</span><span class="citation-popover-snippet">Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_88481a_attention_wor_c055d4-Illustration-3-dark.svg" | relative_url }}" alt="Word Context illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_88481a_attention_wor_c055d4-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_transformers_53d0af_self_attentio_88481a_attention_wor_c055d4-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to How Attention Resolves Ambiguous Words. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to How Attention Resolves Ambiguous Words. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
-        </h4>
-        <p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Hands-On Large Language Models on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=iE8hEQAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for Hands-On Large Language Models" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Hands-On Large Language Models">Hands-On Large Language Models</a>
+</h4>
+<p class="fr-book-author">By Jay Alammar, Maarten Grootendorst</p>
         
-        <p class="fr-book-desc">Provides intuitive examples of contextual token interpretation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Provides intuitive examples of contextual token interpretation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Hands-On+Large+Language+Models+by+Jay+Alammar&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
-        </h4>
-        <p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Natural Language Processing with Transformers on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=7hhyzgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Natural Language Processing with Transformers" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Natural Language Processing with Transformers">Natural Language Processing with Transformers</a>
+</h4>
+<p class="fr-book-author">By Lewis Tunstall, Leandro von Werra et al.</p>
         
-        <p class="fr-book-desc">Shows how transformers resolve meaning through context.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Shows how transformers resolve meaning through context.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers+by+Lewis+Tunstall&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Speech and Language Processing: Pearson New International Edition PDF eBook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5c5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Speech and Language Processing: Pearson New International Edition PDF eBook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Speech and Language Processing: Pearson New International Edition PDF eBook">Speech and Language Processing: Pearson New International Edi...</a>
-        </h4>
-        <p class="fr-book-author">By Daniel Jurafsky, James H. Martin</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Speech and Language Processing: Pearson New International Edition PDF eBook on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=5c5JEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Speech and Language Processing: Pearson New International Edition PDF eBook" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Speech and Language Processing: Pearson New International Edition PDF eBook">Speech and Language Processing: Pearson New International Edi...</a>
+</h4>
+<p class="fr-book-author">By Daniel Jurafsky, James H. Martin</p>
         
-        <p class="fr-book-desc">Covers ambiguity, word meaning, and contextual interpretation.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers ambiguity, word meaning, and contextual interpretation.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook+by+Daniel+Jurafsky&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Dqe_zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Machine Learning">Transformers for Machine Learning</a>
-        </h4>
-        <p class="fr-book-author">By Uday Kamath, Kenneth L. Graham et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Transformers for Machine Learning on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=Dqe_zgEACAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Transformers for Machine Learning" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Transformers for Machine Learning">Transformers for Machine Learning</a>
+</h4>
+<p class="fr-book-author">By Uday Kamath, Kenneth L. Graham et al.</p>
         
-        <p class="fr-book-desc">Explains attention-based contextual representations.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains attention-based contextual representations.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Transformers+for+Machine+Learning+by+Uday+Kamath&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Speech and Language Processing: Pearson New International Edition PDF eBook</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=Hands+On+Large+Language+Models&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Hands On Large Language Models</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Natural+Language+Processing+with+Transformers&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Natural Language Processing with Transformers</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Speech+and+Language+Processing%3A+Pearson+New+International+Edition+PDF+eBook&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Speech and Language Processing: Pearson New International Edition PDF eBook</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/fe4caa4fdcd791b2fb74.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/fe4caa4fdcd791b2fb74.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/aa61fc90ec322633ed9b.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC"><img src="{{ '/assets/images/marketplace-covers/aa61fc90ec322633ed9b.jpg' | relative_url }}" alt="Listing image for SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">SKYNET LB MENS T SHIRT RETRO CYBERDYNE ARTIFICIAL INTELLIGENCE ARNIE CLASSIC</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY"><img src="{{ '/assets/images/marketplace-covers/95f715df35fa193ddaab.jpg' | relative_url }}" alt="Listing image for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY"><img src="{{ '/assets/images/marketplace-covers/95f715df35fa193ddaab.jpg' | relative_url }}" alt="Listing image for ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">ARTIFICIAL INTELLIGENCE MALE ADULTS BLACK T SHIRT | NOVELTY | GIFT | BIRTHDAY</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top"><img src="{{ '/assets/images/marketplace-covers/415bfea6289a619ab1bb.jpg' | relative_url }}" alt="Listing image for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search <span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top"><img src="{{ '/assets/images/marketplace-covers/415bfea6289a619ab1bb.jpg' | relative_url }}" alt="Listing image for AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">AI Evolution Of Intelligence Tshirt Artificial Intelligence Robot Technology Top</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for artificial intelligence t shirt">Search<span data-ebay-domain-label>eBay.co.uk</span>: artificial intelligence t shirt</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=artificial+intelligence+t+shirt&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="artificial intelligence t shirt" data-ebay-reference="word-context-how-attention-resolves-ambiguous-words-understanding-artificial-intelligence-t-shirt" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -562,7 +562,7 @@ From the perspective of [understanding]({{ 'understanding/' | relative_url }}) a
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -582,7 +582,7 @@ From the perspective of [understanding]({{ 'understanding/' | relative_url }}) a
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -614,7 +614,7 @@ From the perspective of [understanding]({{ 'understanding/' | relative_url }}) a
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -666,7 +666,7 @@ From the perspective of [understanding]({{ 'understanding/' | relative_url }}) a
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -711,7 +711,7 @@ From the perspective of [understanding]({{ 'understanding/' | relative_url }}) a
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -752,160 +752,160 @@ From the perspective of [understanding]({{ 'understanding/' | relative_url }}) a
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v7</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</p></details>
+   Link:<a href="https://arxiv.org/html/1706.03762v7" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/1706.03762v7</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You NeedWe call our particular attention &quot;Scaled Dot-Product Attention&quot; (Figure 2). The input consists of queries a...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: ibm.com  
-   Link: <a href="https://www.ibm.com/think/topics/attention-mechanism" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/attention-mechanism</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What is an attention mechanism?An attention mechanism is a [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) technique that directs [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
+   Link:<a href="https://www.ibm.com/think/topics/attention-mechanism" target="_blank" rel="noopener noreferrer nofollow">https://www.ibm.com/think/topics/attention-mechanism</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is an attention mechanism?An attention mechanism is a [machine learning](&amp;#123;&amp;#123; &#x27;machine-learning/&#x27; | relative_url &amp;#125;&amp;#125;) technique that directs [deep learning](&amp;#123;&amp;#123; &#x27;deep-learning/&#x27; | relative_url &amp;#125;&amp;#125;)...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: pixelbank.dev  
-   Link: <a href="https://pixelbank.dev/concepts/attention" target="_blank" rel="noopener noreferrer nofollow">https://pixelbank.dev/concepts/attention</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need — TransformersSelf-attention is the core operation of the Transformer. It allows every token in a sequ...</p></details>
+   Link:<a href="https://pixelbank.dev/concepts/attention" target="_blank" rel="noopener noreferrer nofollow">https://pixelbank.dev/concepts/attention</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need — TransformersSelf-attention is the core operation of the Transformer. It allows every token in a sequ...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1909.10430</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</p></details>
+   Link:<a href="https://arxiv.org/abs/1909.10430" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1909.10430</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Does BERT Make Any Sense? Interpretable Word Sense Disambiguation with Contextualized EmbeddingsSeptember 23, 2019...</p></details>
    Published: September 23, 2019  
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40saraswatp/understanding-scaled-dot-product-attention-in-transformer-models-5fe02b0f150c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40saraswatp/understanding-scaled-dot-product-attention-in-transformer-models-5fe02b0f150c</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>ghts to compute a weighted sum of the values.Read more...</p></details>
+   Link:<a href="https://medium.com/%40saraswatp/understanding-scaled-dot-product-attention-in-transformer-models-5fe02b0f150c" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40saraswatp/understanding-scaled-dot-product-attention-in-transformer-models-5fe02b0f150c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>ghts to compute a weighted sum of the values.Read more...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: dev.to  
    Title: decodingattention is all you need 2eog  
-   Link: <a href="https://dev.to/kaustubhyerkade/decodingattention-is-all-you-need-2eog" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/kaustubhyerkade/decodingattention-is-all-you-need-2eog</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>DEV CommunityDecoding the &quot;Attention Is All You Need&quot;......27 May 2025 — Scaled Dot-Product Attention For each token, attention scores ar...</p></details>
+   Link:<a href="https://dev.to/kaustubhyerkade/decodingattention-is-all-you-need-2eog" target="_blank" rel="noopener noreferrer nofollow">https://dev.to/kaustubhyerkade/decodingattention-is-all-you-need-2eog</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>DEV CommunityDecoding the &quot;Attention Is All You Need&quot;......27 May 2025 — Scaled Dot-Product Attention For each token, attention scores ar...</p></details>
    Published: May 2025  
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/abs/1810.07595" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1810.07595</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>An Analysis of Attention Mechanisms: The Case of Word Sense Disambiguation in Neural Machine TranslationOctober 17, 2018...</p></details>
+   Link:<a href="https://arxiv.org/abs/1810.07595" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1810.07595</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An Analysis of Attention Mechanisms: The Case of Word Sense Disambiguation in Neural Machine TranslationOctober 17, 2018...</p></details>
    Published: October 17, 2018  
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: arxiv.org  
    Title: arXiv What Does BERT Look At? An Analysis of BERT's Attention  
-   Link: <a href="https://arxiv.org/abs/1906.04341" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1906.04341</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>What Does BERT Look At? An Analysis of BERT&#x27;s AttentionJune 11, 2019...</p></details>
+   Link:<a href="https://arxiv.org/abs/1906.04341" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1906.04341</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What Does BERT Look At? An Analysis of BERT&#x27;s AttentionJune 11, 2019...</p></details>
    Published: June 11, 2019  
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: arxiv.org  
    Title: arXiv Do Attention Heads in BERT Track Syntactic Dependencies?  
-   Link: <a href="https://arxiv.org/abs/1911.12246" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1911.12246</a>  
+   Link:<a href="https://arxiv.org/abs/1911.12246" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/abs/1911.12246</a>  
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: jvgd.medium.com  
    Title: scaled dot product attention explained 3fb250f1acd1  
-   Link: <a href="https://jvgd.medium.com/scaled-dot-product-attention-explained-3fb250f1acd1" target="_blank" rel="noopener noreferrer nofollow">https://jvgd.medium.com/scaled-dot-product-attention-explained-3fb250f1acd1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>This key idea of this attention mechanism is to...Read more...</p></details>
+   Link:<a href="https://jvgd.medium.com/scaled-dot-product-attention-explained-3fb250f1acd1" target="_blank" rel="noopener noreferrer nofollow">https://jvgd.medium.com/scaled-dot-product-attention-explained-3fb250f1acd1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>This key idea of this attention mechanism is to...Read more...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: medium.com  
    Title: The paper explicitly motivates this scaling. Step 3: softmax.Read more  
-   Link: <a href="https://medium.com/%40adnanmasood/attention-is-all-you-need-explained-like-youre-smart-and-busy-2a3d7436144f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/attention-is-all-you-need-explained-like-youre-smart-and-busy-2a3d7436144f</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need, explained like you&#x27;re smart and...Because dot products grow with dimension; scaling keeps softmax gradients h...</p></details>
+   Link:<a href="https://medium.com/%40adnanmasood/attention-is-all-you-need-explained-like-youre-smart-and-busy-2a3d7436144f" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40adnanmasood/attention-is-all-you-need-explained-like-youre-smart-and-busy-2a3d7436144f</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Is All You Need, explained like you&#x27;re smart and...Because dot products grow with dimension; scaling keeps softmax gradients h...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: kumarshivam-66534.medium.com  
-   Link: <a href="https://kumarshivam-66534.medium.com/mastering-attention-mechanisms-how-transformers-understand-context-in-[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://kumarshivam-66534.medium.com/mastering-attention-mechanisms-how-transformers-understand-context-in-[generative-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Mechanisms: How Transformers...Words are converted into numerical vectors that capture semantic meaning. These vectors can com...</p></details>
+   Link:<a href="https://kumarshivam-66534.medium.com/mastering-attention-mechanisms-how-transformers-understand-context-in-[generative-ai" target="_blank" rel="noopener noreferrer nofollow">https://kumarshivam-66534.medium.com/mastering-attention-mechanisms-how-transformers-understand-context-in-[generative-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention Mechanisms: How Transformers...Words are converted into numerical vectors that capture semantic meaning. These vectors can com...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/%40kavierim/transformers-from-scratch-part-2-scaled-dot-product-attention-6c0634ce79af" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kavierim/transformers-from-scratch-part-2-scaled-dot-product-attention-6c0634ce79af</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>uld attend to every other element.Read more...</p></details>
+   Link:<a href="https://medium.com/%40kavierim/transformers-from-scratch-part-2-scaled-dot-product-attention-6c0634ce79af" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/%40kavierim/transformers-from-scratch-part-2-scaled-dot-product-attention-6c0634ce79af</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>uld attend to every other element.Read more...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: medium.com  
-   Link: <a href="https://medium.com/synapse-dev/understanding-bert-transformer-attention-isnt-all-you-need-5839ebd396db" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/synapse-dev/understanding-bert-transformer-attention-isnt-all-you-need-5839ebd396db</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding BERT Transformer: Attention isn&#x27;t all you needBERT uses 12 separate attention mechanism for each layer. In other cases, a g...</p></details>
+   Link:<a href="https://medium.com/synapse-dev/understanding-bert-transformer-attention-isnt-all-you-need-5839ebd396db" target="_blank" rel="noopener noreferrer nofollow">https://medium.com/synapse-dev/understanding-bert-transformer-attention-isnt-all-you-need-5839ebd396db</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Understanding BERT Transformer: Attention isn&#x27;t all you needBERT uses 12 separate attention mechanism for each layer. In other cases, a g...</p></details>
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: arxiv.org  
-   Link: <a href="https://arxiv.org/html/2312.00680v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2312.00680v1</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Contextualized Word Senses: From Attention to...The neural architectures of language models are becoming increasingly complex, especiall...</p></details>
+   Link:<a href="https://arxiv.org/html/2312.00680v1" target="_blank" rel="noopener noreferrer nofollow">https://arxiv.org/html/2312.00680v1</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Contextualized Word Senses: From Attention to...The neural architectures of language models are becoming increasingly complex, especiall...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: apxml.com  
-   Link: <a href="https://apxml.com/courses/introduction-to-transformer-models/chapter-2-self-attention-[multi-head" target="_blank" rel="noopener noreferrer nofollow">https://apxml.com/courses/introduction-to-transformer-models/chapter-2-self-attention-[multi-head</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>It computes how much each element in a sequence should attend to every...Read more...</p></details>
+   Link:<a href="https://apxml.com/courses/introduction-to-transformer-models/chapter-2-self-attention-[multi-head" target="_blank" rel="noopener noreferrer nofollow">https://apxml.com/courses/introduction-to-transformer-models/chapter-2-self-attention-[multi-head</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>It computes how much each element in a sequence should attend to every...Read more...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: pair-code.github.io  
-   Link: <a href="https://pair-code.github.io/interpretability/context-atlas/blogpost/" target="_blank" rel="noopener noreferrer nofollow">https://pair-code.github.io/interpretability/context-atlas/blogpost/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Language, Context, and Geometry in Neural NetworksThe crisp clusters seen in the visualizations above suggest that BERT may create simple...</p></details>
+   Link:<a href="https://pair-code.github.io/interpretability/context-atlas/blogpost/" target="_blank" rel="noopener noreferrer nofollow">https://pair-code.github.io/interpretability/context-atlas/blogpost/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Language, Context, and Geometry in Neural NetworksThe crisp clusters seen in the visualizations above suggest that BERT may create simple...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: d2l.ai  
    Title: Dive into Deep Learning11.3  
-   Link: <a href="https://d2l.ai/chapter_attention-mechanisms-and-transformers/attention-scoring-functions.html" target="_blank" rel="noopener noreferrer nofollow">https://d2l.ai/chapter_attention-mechanisms-and-transformers/attention-scoring-functions.html</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>11.3. Attention Scoring FunctionsTo ensure that the variance of the dot product still remains 1 regardless of vector length, we use the s...</p></details>
+   Link:<a href="https://d2l.ai/chapter_attention-mechanisms-and-transformers/attention-scoring-functions.html" target="_blank" rel="noopener noreferrer nofollow">https://d2l.ai/chapter_attention-mechanisms-and-transformers/attention-scoring-functions.html</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>11.3. Attention Scoring FunctionsTo ensure that the variance of the dot product still remains 1 regardless of vector length, we use the s...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: jaketae.github.io  
-   Link: <a href="https://jaketae.github.io/study/transformer/" target="_blank" rel="noopener noreferrer nofollow">https://jaketae.github.io/study/transformer/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is All You Need20 Jan 2021 — The short answer is that multi-head self-attention is nothing but a parallel repetition of self-at...</p></details>
+   Link:<a href="https://jaketae.github.io/study/transformer/" target="_blank" rel="noopener noreferrer nofollow">https://jaketae.github.io/study/transformer/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention is All You Need20 Jan 2021 — The short answer is that multi-head self-attention is nothing but a parallel repetition of self-at...</p></details>
 
 ### Additional References
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: researchgate.net  
-   Link: <a href="https://www.researchgate.net/publication/334117983_An_Analysis_of_Attention_Mechanisms_The_Case_of_Word_Sense_Disambiguation_in_Neural_Machine_Translation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/334117983_An_Analysis_of_Attention_Mechanisms_The_Case_of_Word_Sense_Disambiguation_in_Neural_Machine_Translation</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) An Analysis of Attention Mechanisms: The Case of...1 Nov 2018 — Existing research on the interpretability of Transformers in machi...</p></details>
+   Link:<a href="https://www.researchgate.net/publication/334117983_An_Analysis_of_Attention_Mechanisms_The_Case_of_Word_Sense_Disambiguation_in_Neural_Machine_Translation" target="_blank" rel="noopener noreferrer nofollow">https://www.researchgate.net/publication/334117983_An_Analysis_of_Attention_Mechanisms_The_Case_of_Word_Sense_Disambiguation_in_Neural_Machine_Translation</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>(PDF) An Analysis of Attention Mechanisms: The Case of...1 Nov 2018 — Existing research on the interpretability of Transformers in machi...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: youtu.be  
-   Link: <a href="https://youtu.be/1il-s4mgNdI?si=XaVxj6bsdy3VkgEX" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/1il-s4mgNdI?si=XaVxj6bsdy3VkgEX</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>If you&#x27;re interested in the herculean task of interpreting what these large networks might actually be doing, the Transformer Circuits po...</p></details>
+   Link:<a href="https://youtu.be/1il-s4mgNdI?si=XaVxj6bsdy3VkgEX" target="_blank" rel="noopener noreferrer nofollow">https://youtu.be/1il-s4mgNdI?si=XaVxj6bsdy3VkgEX</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>If you&#x27;re interested in the herculean task of interpreting what these large networks might actually be doing, the Transformer Circuits po...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=0PjHri8tc1c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0PjHri8tc1c</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>L19.4.2 Self-Attention and Scaled Dot-Product AttentionWe are now introducing three trainable weight matrices that are multiplied with th...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=0PjHri8tc1c" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=0PjHri8tc1c</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>L19.4.2 Self-Attention and Scaled Dot-Product AttentionWe are now introducing three trainable weight matrices that are multiplied with th...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=eMlx5fFNoYc&amp;vl=en" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=eMlx5fFNoYc&amp;vl=en</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Attention in transformers, step-by-step | Deep Learning...The attention block allows the model to move information encoded in one embedd...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=eMlx5fFNoYc&amp;vl=en" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=eMlx5fFNoYc&amp;vl=en</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Attention in transformers, step-by-step | Deep Learning...The attention block allows the model to move information encoded in one embedd...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=mlk0rddP3L4&amp;list=PLuhqtP7jdD8CftMk831qdE8BlIteSaNzD&amp;t=0s" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=mlk0rddP3L4&amp;list=PLuhqtP7jdD8CftMk831qdE8BlIteSaNzD&amp;t=0s</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;✔ Complete Logistic Regression Playlist: [https://www.youtube.com/watch?v=U1omz0B9FTw&amp;list=PLuhqtP7jdD8Chy7QIo5U0zzKP8-emLdny&amp;t=0s...&quot;](https://www.youtube.com/watch?v=U1omz0B9FTw&amp;list=PLuhqtP7jdD8Chy7QIo5U0zzKP8-emLdny&amp;t=0s...&quot;)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=mlk0rddP3L4&amp;list=PLuhqtP7jdD8CftMk831qdE8BlIteSaNzD&amp;t=0s" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=mlk0rddP3L4&amp;list=PLuhqtP7jdD8CftMk831qdE8BlIteSaNzD&amp;t=0s</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;✔ Complete Logistic Regression Playlist: [https://www.youtube.com/watch?v=U1omz0B9FTw&amp;list=PLuhqtP7jdD8Chy7QIo5U0zzKP8-emLdny&amp;t=0s...&quot;](https://www.youtube.com/watch?v=U1omz0B9FTw&amp;list=PLuhqtP7jdD8Chy7QIo5U0zzKP8-emLdny&amp;t=0s...&quot;)...</p></details>
 
-25. <a id="endnote-25"></a>
+25.<a id="endnote-25"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=U1omz0B9FTw&amp;list=PLuhqtP7jdD8Chy7QIo5U0zzKP8-emLdny&amp;t=0s" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=U1omz0B9FTw&amp;list=PLuhqtP7jdD8Chy7QIo5U0zzKP8-emLdny&amp;t=0s</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;✔ Complete Linear Regression Playlist: [https://www.youtube.com/watch?v=nwD5U2WxTdk&amp;list=PLuhqtP7jdD8AFocJuxC6_Zz0HepAWL9cF&amp;t=0s...&quot;](https://www.youtube.com/watch?v=nwD5U2WxTdk&amp;list=PLuhqtP7jdD8AFocJuxC6_Zz0HepAWL9cF&amp;t=0s...&quot;)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=U1omz0B9FTw&amp;list=PLuhqtP7jdD8Chy7QIo5U0zzKP8-emLdny&amp;t=0s" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=U1omz0B9FTw&amp;list=PLuhqtP7jdD8Chy7QIo5U0zzKP8-emLdny&amp;t=0s</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;✔ Complete Linear Regression Playlist: [https://www.youtube.com/watch?v=nwD5U2WxTdk&amp;list=PLuhqtP7jdD8AFocJuxC6_Zz0HepAWL9cF&amp;t=0s...&quot;](https://www.youtube.com/watch?v=nwD5U2WxTdk&amp;list=PLuhqtP7jdD8AFocJuxC6_Zz0HepAWL9cF&amp;t=0s...&quot;)...</p></details>
 
-26. <a id="endnote-26"></a>
+26.<a id="endnote-26"></a>
    Source: aryanupadhyay.com  
    Title: scaled dot product attention explained why we divide by dₖ in transformers  
-   Link: <a href="https://www.aryanupadhyay.com/post/scaled-dot-product-attention-explained-why-we-divide-by-d%E2%82%96-in-transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.aryanupadhyay.com/post/scaled-dot-product-attention-explained-why-we-divide-by-d%E2%82%96-in-transformers</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>In the original research paper Attention Is All You Need, the core idea remains the same, but there is...Read more...</p></details>
+   Link:<a href="https://www.aryanupadhyay.com/post/scaled-dot-product-attention-explained-why-we-divide-by-d%E2%82%96-in-transformers" target="_blank" rel="noopener noreferrer nofollow">https://www.aryanupadhyay.com/post/scaled-dot-product-attention-explained-why-we-divide-by-d%E2%82%96-in-transformers</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>In the original research paper Attention Is All You Need, the core idea remains the same, but there is...Read more...</p></details>
 
-27. <a id="endnote-27"></a>
+27.<a id="endnote-27"></a>
    Source: reddit.com  
-   Link: <a href="https://www.reddit.com/r/MachineLearning/comments/qidpqx/d_how_to_truly_understand_attention_mechanism_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/qidpqx/d_how_to_truly_understand_attention_mechanism_in/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>However it is not that easy to fully understand, and in my opinion, somewhat unintuitive...</p></details>
+   Link:<a href="https://www.reddit.com/r/MachineLearning/comments/qidpqx/d_how_to_truly_understand_attention_mechanism_in/" target="_blank" rel="noopener noreferrer nofollow">https://www.reddit.com/r/MachineLearning/comments/qidpqx/d_how_to_truly_understand_attention_mechanism_in/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>However it is not that easy to fully understand, and in my opinion, somewhat unintuitive...</p></details>
 
-28. <a id="endnote-28"></a>
+28.<a id="endnote-28"></a>
    Source: youtube.com  
-   Link: <a href="https://www.youtube.com/watch?v=E5Z7FQp7AQQ&amp;list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu&amp;t=0s" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=E5Z7FQp7AQQ&amp;list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu&amp;t=0s</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;✔ Complete Neural Network: [https://www.youtube.com/watch?v=mlk0rddP3L4&amp;list=PLuhqtP7jdD8CftMk831qdE8BlIteSaNzD&amp;t=0s...&quot;](https://www.youtube.com/watch?v=mlk0rddP3L4&amp;list=PLuhqtP7jdD8CftMk831qdE8BlIteSaNzD&amp;t=0s...&quot;)...</p></details>
+   Link:<a href="https://www.youtube.com/watch?v=E5Z7FQp7AQQ&amp;list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu&amp;t=0s" target="_blank" rel="noopener noreferrer nofollow">https://www.youtube.com/watch?v=E5Z7FQp7AQQ&amp;list=PLuhqtP7jdD8CD6rOWy20INGM44kULvrHu&amp;t=0s</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>&quot;✔ Complete Neural Network: [https://www.youtube.com/watch?v=mlk0rddP3L4&amp;list=PLuhqtP7jdD8CftMk831qdE8BlIteSaNzD&amp;t=0s...&quot;](https://www.youtube.com/watch?v=mlk0rddP3L4&amp;list=PLuhqtP7jdD8CftMk831qdE8BlIteSaNzD&amp;t=0s...&quot;)...</p></details>
 
-29. <a id="endnote-29"></a>
+29.<a id="endnote-29"></a>
    Source: stats.stackexchange.com  
    Title: I've tried searching online, but all the resources  
-   Link: <a href="https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms" target="_blank" rel="noopener noreferrer nofollow">https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>exactly are keys, queries, and values in attention...13 Aug 2019 — How should one understand the keys, queries, and values that are ofte...</p></details>
+   Link:<a href="https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms" target="_blank" rel="noopener noreferrer nofollow">https://stats.stackexchange.com/questions/421935/what-exactly-are-keys-queries-and-values-in-attention-mechanisms</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>exactly are keys, queries, and values in attention...13 Aug 2019 — How should one understand the keys, queries, and values that are ofte...</p></details>

@@ -269,7 +269,7 @@ image: /assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f
 
 ## Introduction
 
-Not every AI output requires a person to check it before use. A spelling suggestion, a low-risk workflow recommendation, or an automatically generated meeting summary can often be accepted with minimal [oversight]({{ 'oversight/' | relative_url }}). The situation changes when AI influences [decisions]({{ 'decisions/' | relative_url }}) that affect a person's rights, safety, health, finances, education, employment, access to services, or other significant opportunities. In these contexts, human review is not merely a good practice; it is increasingly treated as a core safeguard in governance frameworks and regulations. The key question is not whether humans should always review AI, but when they must intervene before a decision takes effect. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+Not every AI output requires a person to check it before use. A spelling suggestion, a low-risk workflow recommendation, or an automatically generated meeting summary can often be accepted with minimal [oversight]({{ 'oversight/' | relative_url }}). The situation changes when AI influences [decisions]({{ 'decisions/' | relative_url }}) that affect a person's rights, safety, health, finances, education, employment, access to services, or other significant opportunities. In these contexts, human review is not merely a good practice; it is increasingly treated as a core safeguard in governance frameworks and regulations. The key question is not whether humans should always review AI, but when they must intervene before a decision takes effect.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f7623_ai_review_tri_9c05b7-Illustration-1-dark.svg" | relative_url }}" alt="Review Triggers illustration 1" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f7623_ai_review_tri_9c05b7-Illustration-1-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f7623_ai_review_tri_9c05b7-Illustration-1-light.svg" | relative_url }}" loading="eager" decoding="sync" fetchpriority="high">
@@ -277,7 +277,7 @@ This page focuses on the practical triggers for human review in high-stakes AI w
 
 ## High-Impact Decisions That Should Not Be Automated Alone
 
-The strongest case for mandatory human review arises when an AI system can materially affect a person's life. Regulatory frameworks increasingly classify such applications as high-risk because errors can create lasting harm to health, safety, legal rights, or fundamental opportunities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+The strongest case for mandatory human review arises when an AI system can materially affect a person's life. Regulatory frameworks increasingly classify such applications as high-risk because errors can create lasting harm to health, safety, legal rights, or fundamental opportunities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2Artificial Intelligence Act]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 Human review is generally expected when AI contributes to decisions such as:
 
@@ -290,13 +290,13 @@ Human review is generally expected when AI contributes to decisions such as:
 * Student admissions, educational placement, or assessment decisions.
 * Access to public benefits, housing assistance, or government services.
 * Law enforcement, border control, or security-related assessments.
-* Decisions that can significantly restrict an individual's rights or opportunities. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+* Decisions that can significantly restrict an individual's rights or opportunities.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[Artificial Intelligence Act+2ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 </div>
 
 A useful implementation principle is to ask: *Would a reasonable person consider the outcome important enough to challenge if it were wrong?* If the answer is yes, a human review stage is usually justified.
 
-The UK Information Commissioner's Office (ICO) highlights a related threshold through rules governing solely automated decisions that have legal or similarly significant effects on individuals. Such decisions attract special safeguards because the consequences extend beyond convenience and directly influence people's lives. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-title">ICORights related to automated decision making including ...The UK GDPR restricts you from making solely automated decisions, including t</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on ...Read more</span></span></span>
+The UK Information Commissioner's Office (ICO) highlights a related threshold through rules governing solely automated decisions that have legal or similarly significant effects on individuals. Such decisions attract special safeguards because the consequences extend beyond convenience and directly influence people's lives.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/individual-rights/individual-rights/rights-related-to-automated-decision-making-including-profiling/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-title">ICORights related to automated decision making including ...The UK GDPR restricts you from making solely automated decisions, including t</span><span class="citation-popover-snippet">hose based on profiling, that have a legal or similarly significant effect on ...Read more</span></span></span>
 
 ## Risk Signals That Trigger Review Before Action
 
@@ -317,7 +317,7 @@ This approach concentrates human attention where it is most valuable instead of 
 
 The potential impact of an error matters more than the statistical likelihood of an error.
 
-A medical recommendation that could influence surgery, a decision to deny benefits, or a recommendation to terminate employment should receive review even if the system appears highly accurate overall. High-consequence decisions deserve additional scrutiny because a single mistake may cause disproportionate harm. Human oversight requirements in the EU AI Act are specifically designed to reduce risks to health, safety, and fundamental rights in such situations. Artificial Intelligence Act+2AI Act Service Desk <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[artificialintelligenceact.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+A medical recommendation that could influence surgery, a decision to deny benefits, or a recommendation to terminate employment should receive review even if the system appears highly accurate overall. High-consequence decisions deserve additional scrutiny because a single mistake may cause disproportionate harm. Human oversight requirements in the EU AI Act are specifically designed to reduce risks to health, safety, and fundamental rights in such situations. Artificial Intelligence Act+2AI Act Service Desk<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[artificialintelligenceact.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 ### When Data Is Incomplete or Unusual
 
@@ -344,7 +344,7 @@ These situations frequently require contextual judgement that automated systems 
 
 Human review should also be triggered when outputs suggest possible discrimination, unequal treatment, or unexplained disparities between groups.
 
-For instance, if an AI-assisted hiring tool disproportionately rejects applicants from particular backgrounds, reviewers should investigate before decisions are finalised. Human oversight is intended not only to catch technical errors but also to identify social and ethical harms that may not be visible through performance metrics alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">review is important in the AI lifecycle.Read more...</span></span></span>
+For instance, if an AI-assisted hiring tool disproportionately rejects applicants from particular backgrounds, reviewers should investigate before decisions are finalised. Human oversight is intended not only to catch technical errors but also to identify social and ethical harms that may not be visible through performance metrics alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ico.org.uk">[ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ico.org.uk</span><span class="citation-popover-snippet">review is important in the AI lifecycle.Read more...</span></span></span>
 
 ### When the AI Overrides Established Expectations
 
@@ -370,7 +370,7 @@ In these cases, the discrepancy itself becomes the reason for review.
 
 A common misconception is that adding a person somewhere in the workflow automatically creates accountability. Research and policy discussions increasingly reject this assumption.
 
-People frequently display automation bias: a tendency to trust machine recommendations even when warning signs are present. If reviewers are overloaded, poorly trained, or lack authority to reject [AI outputs]({{ 'ai-outputs/' | relative_url }}), the review process may provide little real protection. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tandfonline.com/doi/full/10.1080/17579961.2023.2245683" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tandfonline.com">[Taylor &amp; Francis Online]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tandfonline.com</span><span class="citation-popover-snippet">Taylor &amp; Francis Online&#x27;Human oversight&#x27; in the EU artificial intelligence actby L Enqvist · 2023 · Cited by 119 — Article 14(4)(b) requi...</span></span></span>
+People frequently display automation bias: a tendency to trust machine recommendations even when warning signs are present. If reviewers are overloaded, poorly trained, or lack authority to reject [AI outputs]({{ 'ai-outputs/' | relative_url }}), the review process may provide little real protection.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.tandfonline.com/doi/full/10.1080/17579961.2023.2245683" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: tandfonline.com">[Taylor &amp; Francis Online]</a><span class="citation-popover" role="note"><span class="citation-popover-source">tandfonline.com</span><span class="citation-popover-snippet">Taylor &amp; Francis Online&#x27;Human oversight&#x27; in the EU artificial intelligence actby L Enqvist · 2023 · Cited by 119 — Article 14(4)(b) requi...</span></span></span>
 
 Meaningful review requires reviewers to:
 
@@ -381,13 +381,13 @@ Meaningful review requires reviewers to:
 * See the information used by the AI.
 * Recognise uncertainty and limitations.
 * Possess authority to change the outcome.
-* Be accountable for the final decision. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">ai.100 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 215 — Human roles and responsibi...</span></span></span>
+* Be accountable for the final decision.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nvlpubs.nist.gov">[NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nvlpubs.nist.gov</span><span class="citation-popover-title">ai.100 1</span><span class="citation-popover-snippet">NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 215 — Human roles and responsibi...</span></span></span>
 
 </div>
 
 A reviewer who merely clicks "approve" without examining evidence is not exercising oversight. In practice, that person becomes an administrative checkpoint rather than a safeguard.
 
-The EU AI Act explicitly reflects this concern by requiring systems to support human operators in monitoring, interpreting, and overriding AI outputs while remaining aware of the risk of over-reliance. AI Act Service Desk+2Taylor &amp; Francis Online <span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</span></span></span>
+The EU AI Act explicitly reflects this concern by requiring systems to support human operators in monitoring, interpreting, and overriding AI outputs while remaining aware of the risk of over-reliance. AI Act Service Desk+2Taylor &amp; Francis Online<span class="citation-link-wrap"><a class="citation-inline-link" href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: ai-act-service-desk.ec.europa.eu">[ai-act-service-desk.ec.europa.eu]</a><span class="citation-popover" role="note"><span class="citation-popover-source">ai-act-service-desk.ec.europa.eu</span><span class="citation-popover-snippet">High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</span></span></span>
 
 
 <img src="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f7623_ai_review_tri_9c05b7-Illustration-3-dark.svg" | relative_url }}" alt="Review Triggers illustration 3" data-theme-src-dark="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f7623_ai_review_tri_9c05b7-Illustration-3-dark.svg" | relative_url }}" data-theme-src-light="{{ "/assets/images/understanding_3f90b8_business_ai_a_ecaea3_human_validat_3f7623_ai_review_tri_9c05b7-Illustration-3-light.svg" | relative_url }}" loading="lazy" decoding="async" fetchpriority="low">
@@ -403,7 +403,7 @@ Risk levelReview approachLow impact, easily reversible decisionsMinimal or sampl
 
 This structure allows organisations to focus human attention where mistakes matter most while maintaining efficiency for routine tasks.
 
-The NIST AI Risk Management Framework similarly emphasises managing AI risk according to context, impact, and organisational responsibilities rather than applying identical controls everywhere. Clear assignment of human roles and responsibilities is a central part of effective oversight. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</span></span></span>
+The NIST AI Risk Management Framework similarly emphasises managing AI risk according to context, impact, and organisational responsibilities rather than applying identical controls everywhere. Clear assignment of human roles and responsibilities is a central part of effective oversight.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: nist.gov">[NIST+2NIST Publications]</a><span class="citation-popover" role="note"><span class="citation-popover-source">nist.gov</span><span class="citation-popover-snippet">AI Risk Management Framework &#124; NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</span></span></span>
 
 
 <div class="youtube-embed-container youtube-embed-fallback"><div class="youtube-embed-card"><div class="youtube-embed-frame"><iframe src="https://www.youtube.com/embed/tdSw16TPpl4" title="The AI Frontier No One Warned You About" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="youtube-embed-footer"><p class="youtube-embed-title"><a href="https://www.youtube.com/watch?v=tdSw16TPpl4" target="_blank" rel="noopener noreferrer">The AI Frontier No One Warned You About</a></p><p class="youtube-embed-meta">Channel: Human Capital Innovations</p><p class="youtube-embed-actions"><a class="youtube-embed-watch-link" href="https://www.youtube.com/watch?v=tdSw16TPpl4" target="_blank" rel="noopener noreferrer" title="https://www.youtube.com/watch?v=tdSw16TPpl4">Open on YouTube</a></p></div></div></div>
@@ -421,197 +421,197 @@ A simple implementation rule is that human review should occur whenever one of t
 
 </div>
 
-When these triggers are present, human review becomes more than a compliance requirement. It serves as a mechanism for bringing contextual judgement, accountability, and ethical responsibility into decisions that AI systems cannot safely make alone. <span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[NIST+3Artificial Intelligence Act+3ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
+When these triggers are present, human review becomes more than a compliance requirement. It serves as a mechanism for bringing contextual judgement, accountability, and ethical responsibility into decisions that AI systems cannot safely make alone.<span class="citation-link-wrap"><a class="citation-inline-link" href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow" aria-label="View source: artificialintelligenceact.eu">[NIST+3Artificial Intelligence Act+3ICO]</a><span class="citation-popover" role="note"><span class="citation-popover-source">artificialintelligenceact.eu</span><span class="citation-popover-snippet">Artificial Intelligence ActArticle 14: Human Oversight &#124; EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</span></span></span>
 
 <section class="further-reading-section" data-page-toc-exclude aria-labelledby="further-reading-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">Amazon book picks</p>
-        <h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
-      </div>
-      <p class="fr-intro">Books and field guides related to Which AI Decisions Need Human Review?. Use these as the next step if you want deeper reading beyond the article.</p>
-    </div>
-    <div class="fr-books-grid">
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">Amazon book picks</p>
+<h3 class="fr-heading" id="further-reading-title">Further Reading</h3>
+</div>
+<p class="fr-intro">Books and field guides related to Which AI Decisions Need Human Review?. Use these as the next step if you want deeper reading beyond the article.</p>
+</div>
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
-        </h4>
-        <p class="fr-book-author">By Brian Christian</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The Alignment Problem on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=9GSNEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for The Alignment Problem" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The Alignment Problem">The Alignment Problem</a>
+</h4>
+<p class="fr-book-author">By Brian Christian</p>
         
-        <p class="fr-book-desc">Directly addresses where human judgment must constrain AI decisions.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Directly addresses where human judgment must constrain AI decisions.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+Alignment+Problem+by+Brian+Christian&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
-        </h4>
-        <p class="fr-book-author">By Ethan Mollick</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Co-Intelligence on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=r13gEAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Co-Intelligence" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Co-Intelligence">Co-Intelligence</a>
+</h4>
+<p class="fr-book-author">By Ethan Mollick</p>
         
-        <p class="fr-book-desc">Discusses practical human-in-the-loop AI use.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Discusses practical human-in-the-loop AI use.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Co-Intelligence+by+Ethan+Mollick&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=i3vpDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI Book">The AI Book</a>
-        </h4>
-        <p class="fr-book-author">By Ivana Bartoletti, Anne Leslie et al.</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open The AI Book on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=i3vpDwAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;edge=curl&amp;source=gbs_api" alt="Cover for The AI Book" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="The AI Book">The AI Book</a>
+</h4>
+<p class="fr-book-author">By Ivana Bartoletti, Anne Leslie et al.</p>
         
-        <p class="fr-book-desc">Covers risk-based review and AI governance frameworks.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Covers risk-based review and AI governance frameworks.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=The+AI+Book+by+Ivana+Bartoletti&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
-      <div class="fr-book-info">
-        <h4 class="fr-book-title">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
-        </h4>
-        <p class="fr-book-author">By Cathy O&#x27;Neil</p>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" aria-label="Open Weapons of Math Destruction on Amazon"><span class="fr-book-cover-fallback">Book</span><img class="fr-book-cover-thumb" src="https://books.google.com/books/content?id=CxD-DAAAQBAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api" alt="Cover for Weapons of Math Destruction" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="this.hidden=true;this.closest('.fr-book-cover').classList.add('fr-book-cover-placeholder');"></a>
+<div class="fr-book-info">
+<h4 class="fr-book-title">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer" title="Weapons of Math Destruction">Weapons of Math Destruction</a>
+</h4>
+<p class="fr-book-author">By Cathy O&#x27;Neil</p>
         
-        <p class="fr-book-desc">Explains why high-impact decisions need human oversight.</p>
-        <div class="fr-book-actions">
-          <a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+<p class="fr-book-desc">Explains why high-impact decisions need human oversight.</p>
+<div class="fr-book-actions">
+<a href="https://www.amazon.com/s?k=Weapons+of+Math+Destruction+by+Cathy+O%27Neil&amp;i=stripbooks&amp;tag=searcht-20" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
             See on Amazon
-          </a>
-        </div>
-      </div>
-    </article>
-    </div>
-    <div class="fr-section-footer">
-      <div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a> <a class="fr-browse-more" href="https://www.amazon.com/s?k=The+AI+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The AI Book</a></div>
-      <p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
-    </div>
-  </div>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<div class="fr-browse-links" aria-label="Browse more on Amazon"><span class="fr-browse-links-label">Browse more on Amazon:</span><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+Alignment+Problem&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The Alignment Problem</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=Co+Intelligence&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">Co Intelligence</a><a class="fr-browse-more" href="https://www.amazon.com/s?k=The+AI+Book&amp;i=stripbooks&amp;tag=searcht-20" target="_blank" rel="sponsored noopener noreferrer">The AI Book</a></div>
+<p class="fr-disclosure">As an Amazon Associate I earn from qualifying purchases.</p>
+</div>
+</div>
 </section>
 
 <section class="further-reading-section" data-page-toc-exclude data-ebay-localized-links data-ebay-visual-market="EBAY_GB" aria-labelledby="merchant-block-title">
-  <div class="fr-section-shell">
-    <div class="fr-section-header">
-      <div class="fr-section-heading">
-        <p class="fr-section-kicker">eBay marketplace picks</p>
-        <h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
-      </div>
-      <p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
+<div class="fr-section-shell">
+<div class="fr-section-header">
+<div class="fr-section-heading">
+<p class="fr-section-kicker">eBay marketplace picks</p>
+<h3 class="fr-heading" id="merchant-block-title">Marketplace Samples</h3>
+</div>
+<p class="fr-intro">Example marketplace items related to this page. Use the search link to explore similar finds on eBay.</p>
 
-      <div class="fr-ebay-market-toolbar">
-        <label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
-        <div class="fr-ebay-market-picker">
-          <span class="fr-ebay-market-current">Using <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
-          <button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
-            <span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
-            <span data-ebay-trigger-market-label>USA</span>
-          </button>
-          <select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
-            <option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
-          </select>
-          <div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
-            <button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="fr-ebay-market-toolbar">
+<label class="fr-ebay-market-label" for="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie">Shop location</label>
+<div class="fr-ebay-market-picker">
+<span class="fr-ebay-market-current">Using<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-selected-market-flag aria-hidden="true"></span><strong data-ebay-selected-market-label>USA</strong></span>
+<button type="button" class="fr-ebay-market-trigger" data-ebay-market-trigger aria-haspopup="listbox" aria-expanded="false">
+<span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" data-ebay-trigger-market-flag aria-hidden="true"></span>
+<span data-ebay-trigger-market-label>USA</span>
+</button>
+<select class="fr-ebay-market-select" id="ebay-market-select-ebay-us-ebay-gb-ebay-ca-ebay-au-ebay-ie" data-ebay-market-select aria-label="Choose eBay shop location">
+<option value="EBAY_US" selected>USA</option><option value="EBAY_GB">UK</option><option value="EBAY_CA">Canada</option><option value="EBAY_AU">Australia</option><option value="EBAY_IE">Ireland</option>
+</select>
+<div class="fr-ebay-market-menu" data-ebay-market-menu role="listbox" hidden>
+<button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_US" aria-selected="true"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-us" aria-hidden="true"></span><span>USA</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_GB" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-gb" aria-hidden="true"></span><span>UK</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_CA" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ca" aria-hidden="true"></span><span>Canada</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_AU" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-au" aria-hidden="true"></span><span>Australia</span></button><button type="button" class="fr-ebay-market-option" role="option" data-ebay-market-option="EBAY_IE" aria-selected="false"><span class="fr-ebay-market-flag fr-ebay-market-flag--ebay-ie" aria-hidden="true"></span><span>Ireland</span></button>
+</div>
+</div>
+</div>
+</div>
 
-    <div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
-      <div class="fr-books-grid">
+<div class="fr-ebay-market-panel" data-ebay-market-panel="EBAY_GB" data-ebay-market-default="1">
+<div class="fr-books-grid">
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/52587c8494bbf9efb04f.jpg' | relative_url }}" alt="Listing image for RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/52587c8494bbf9efb04f.jpg' | relative_url }}" alt="Listing image for RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">RETRO TECHNOLOGY Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9e5e14d28187b4342672.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/9e5e14d28187b4342672.jpg' | relative_url }}" alt="Listing image for Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Technology Framed Art Print Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology background Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/890622061eb194f571ce.jpg' | relative_url }}" alt="Listing image for Technology background Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Technology background Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for Technology background Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/890622061eb194f571ce.jpg' | relative_url }}" alt="Listing image for Technology background Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">Technology background Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
 
-    <article class="fr-book-card">
-      <a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/6e1f60225a82588553d0.jpg' | relative_url }}" alt="Listing image for yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
-      <div class="fr-book-info">
-        <p class="fr-book-kicker">Example eBay listing</p>
-        <h4 class="fr-book-title">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture</a>
-        </h4>
-        <a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search <span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
-        <div class="fr-book-actions">
-          <a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
-            Browse similar on <span data-ebay-domain-label>eBay.co.uk</span>
-          </a>
-        </div>
-      </div>
-    </article>
-      </div>
-      <div class="fr-section-footer">
-        <a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">
-          Browse more on <span data-ebay-domain-label>eBay.co.uk</span>
-        </a>
-        <p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
+<article class="fr-book-card">
+<a class="fr-book-cover" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Browse similar items on eBay for yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture"><img src="{{ '/assets/images/marketplace-covers/6e1f60225a82588553d0.jpg' | relative_url }}" alt="Listing image for yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture" loading="lazy" decoding="async" fetchpriority="low"></a>
+<div class="fr-book-info">
+<p class="fr-book-kicker">Example eBay listing</p>
+<h4 class="fr-book-title">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">yellow technology tree Framed Art P Framed Wall Art Poster Canvas Print Picture</a>
+</h4>
+<a class="fr-book-fit" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer" aria-label="Search eBay for technology poster">Search<span data-ebay-domain-label>eBay.co.uk</span>: technology poster</a>
+<div class="fr-book-actions">
+<a href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" class="fr-amazon-btn" target="_blank" rel="sponsored noopener noreferrer">
+            Browse similar on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+<div class="fr-section-footer">
+<a class="fr-browse-more" href="https://www.ebay.co.uk/sch/i.html?_nkw=technology+poster&amp;mkevt=1&amp;mkcid=1&amp;mkrid=710-53481-19255-0&amp;campid=5339151051&amp;customid=review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster&amp;toolid=10001" data-ebay-localized-link="1" data-ebay-query="technology poster" data-ebay-reference="review-triggers-which-ai-decisions-need-human-review-understanding-technology-poster" target="_blank" rel="sponsored noopener noreferrer">
+          Browse more on<span data-ebay-domain-label>eBay.co.uk</span>
+</a>
+<p class="fr-disclosure">Example items shown for inspiration; availability and pricing can change. Branchoria may earn a commission if you purchase through outbound eBay links.</p>
+</div>
+</div>
+</div>
+<script type="text/javascript">
 (function () {
   if (window.PhoenixAffiliateLocation) return;
   var localeMarketMap = {"de": "EBAY_DE", "de-at": "EBAY_AT", "de-ch": "EBAY_CH", "de-de": "EBAY_DE", "en": "EBAY_US", "en-au": "EBAY_AU", "en-ca": "EBAY_CA", "en-gb": "EBAY_GB", "en-ie": "EBAY_IE", "en-nz": "EBAY_AU", "en-uk": "EBAY_GB", "en-us": "EBAY_US", "es": "EBAY_ES", "es-es": "EBAY_ES", "fr": "EBAY_FR", "fr-be": "EBAY_BE", "fr-ca": "EBAY_CA", "fr-fr": "EBAY_FR", "it": "EBAY_IT", "it-it": "EBAY_IT", "nl": "EBAY_NL", "nl-be": "EBAY_BE", "nl-nl": "EBAY_NL"};
@@ -627,7 +627,7 @@ When these triggers are present, human review becomes more than a compliance req
       if (navigator.languages && navigator.languages.length) languages = Array.prototype.slice.call(navigator.languages);
       else if (navigator.language) languages = [navigator.language];
     } catch (err) {}
-    for (var i = 0; i < languages.length; i += 1) {
+    for (var i = 0; i< languages.length; i += 1) {
       var normalized = normalize(languages[i]);
       if (!normalized) continue;
       if (localeMarketMap[normalized]) {
@@ -647,7 +647,7 @@ When these triggers are present, human review becomes more than a compliance req
     var tz = '';
     try { tz = String(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (err) {}
     if (!tz) return '';
-    for (var i = 0; i < timezoneRules.length; i += 1) {
+    for (var i = 0; i< timezoneRules.length; i += 1) {
       var rule = timezoneRules[i] || {};
       try {
         if (new RegExp(rule.pattern).test(tz)) return rule.market;
@@ -679,7 +679,7 @@ When these triggers are present, human review becomes more than a compliance req
   };
 })();
 </script>
-  <script type="text/javascript">
+<script type="text/javascript">
 (function () {
   var sections = document.querySelectorAll('[data-ebay-localized-links]');
   if (!sections.length) return;
@@ -731,7 +731,7 @@ When these triggers are present, human review becomes more than a compliance req
   }
   function applyMarket(section, marketId, persist) {
     var available = availableMarkets(section);
-    if (available.indexOf(marketId) < 0) marketId = available[0] || defaultMarket;
+    if (available.indexOf(marketId)< 0) marketId = available[0] || defaultMarket;
     Array.prototype.slice.call(section.querySelectorAll('[data-ebay-localized-link]')).forEach(function (link) {
       var query = link.getAttribute('data-ebay-query') || '';
       var reference = link.getAttribute('data-ebay-reference') || '';
@@ -776,7 +776,7 @@ When these triggers are present, human review becomes more than a compliance req
         storageKey: 'phoenix-ebay-market',
         defaultMarket: defaultMarket
       });
-    } else if (available.indexOf(defaultMarket) < 0) {
+    } else if (available.indexOf(defaultMarket)< 0) {
       marketId = available[0] || defaultMarket;
     }
     var select = section.querySelector('[data-ebay-market-select]');
@@ -817,127 +817,127 @@ When these triggers are present, human review becomes more than a compliance req
 
 ## Endnotes
 
-1. <a id="endnote-1"></a>
+1.<a id="endnote-1"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-organisations/[uk-gdpr" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/[uk-gdpr</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>hose based on profiling, that have a legal or similarly significant effect on...Read more...</p></details>
+   Link:<a href="https://ico.org.uk/for-organisations/[uk-gdpr" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/[uk-gdpr</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>hose based on profiling, that have a legal or similarly significant effect on...Read more...</p></details>
 
-2. <a id="endnote-2"></a>
+2.<a id="endnote-2"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>review is important in the AI lifecycle.Read more...</p></details>
+   Link:<a href="https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/advice-and-services/audits/data-protection-audit-framework/toolkits/artificial-intelligence/human-review/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>review is important in the AI lifecycle.Read more...</p></details>
 
-3. <a id="endnote-3"></a>
+3.<a id="endnote-3"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</p></details>
+   Link:<a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/itl/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management Framework | NISTNIST has developed a framework to better manage risks to individuals, organizations, and society a...</p></details>
 
-4. <a id="endnote-4"></a>
+4.<a id="endnote-4"></a>
    Source: nvlpubs.nist.gov  
    Title: ai.100 1  
-   Link: <a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 215 — Human roles and responsibi...</p></details>
+   Link:<a href="https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf" target="_blank" rel="noopener noreferrer nofollow">https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST PublicationsArtificial Intelligence Risk Management Framework (AI RMF 1.0)by N AI · 2023 · Cited by 215 — Human roles and responsibi...</p></details>
 
-5. <a id="endnote-5"></a>
+5.<a id="endnote-5"></a>
    Source: nist.gov  
-   Link: <a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
+   Link:<a href="https://www.nist.gov/" target="_blank" rel="noopener noreferrer nofollow">https://www.nist.gov/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>National Institute of Standards and TechnologyNIST promotes U.S. innovation and industrial competitiveness by advancing measurement scien...</p></details>
 
-6. <a id="endnote-6"></a>
+6.<a id="endnote-6"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/14/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 14: Human Oversight | EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/article/14/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/14/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Artificial Intelligence ActArticle 14: Human Oversight | EU Artificial Intelligence ActHuman oversight shall aim to prevent or minimise t...</p></details>
 
-7. <a id="endnote-7"></a>
+7.<a id="endnote-7"></a>
    Source: ai-act-service-desk.ec.europa.eu  
-   Link: <a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</p></details>
+   Link:<a href="https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-14</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>High-risk AI systems must be designed to allow human oversight during their operation to minimise risks to health, safety, and fundamenta...</p></details>
 
-8. <a id="endnote-8"></a>
+8.<a id="endnote-8"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/6/</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>An AI system is considered high-risk if it is used as a safety component of a product, or if it is a...Read more...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/article/6/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/article/6/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>An AI system is considered high-risk if it is used as a safety component of a product, or if it is a...Read more...</p></details>
 
-9. <a id="endnote-9"></a>
+9.<a id="endnote-9"></a>
    Source: tandfonline.com  
-   Link: <a href="https://www.tandfonline.com/doi/full/10.1080/17579961.2023.2245683" target="_blank" rel="noopener noreferrer nofollow">https://www.tandfonline.com/doi/full/10.1080/17579961.2023.2245683</a>  
-   <details class="endnote-snippet"><summary>Source snippet</summary><p>Taylor &amp; Francis Online&#x27;Human oversight&#x27; in the EU artificial intelligence actby L Enqvist · 2023 · Cited by 119 — Article 14(4)(b) requi...</p></details>
+   Link:<a href="https://www.tandfonline.com/doi/full/10.1080/17579961.2023.2245683" target="_blank" rel="noopener noreferrer nofollow">https://www.tandfonline.com/doi/full/10.1080/17579961.2023.2245683</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Taylor &amp; Francis Online&#x27;Human oversight&#x27; in the EU artificial intelligence actby L Enqvist · 2023 · Cited by 119 — Article 14(4)(b) requi...</p></details>
 
-10. <a id="endnote-10"></a>
+10.<a id="endnote-10"></a>
    Source: artificialintelligenceact.eu  
-   Link: <a href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/high-level-summary/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Design their high risk AI system to achieve appropriate levels of accuracy...Read more...</p></details>
+   Link:<a href="https://artificialintelligenceact.eu/high-level-summary/" target="_blank" rel="noopener noreferrer nofollow">https://artificialintelligenceact.eu/high-level-summary/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Design their high risk AI system to achieve appropriate levels of accuracy...Read more...</p></details>
 
-11. <a id="endnote-11"></a>
+11.<a id="endnote-11"></a>
    Source: sentinelone.com  
    Title: nist ai risk management framework  
-   Link: <a href="https://www.sentinelone.com/cybersecurity-101/cybersecurity/nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://www.sentinelone.com/cybersecurity-101/cybersecurity/nist-ai-risk-management-framework/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>What is the NIST AI Risk Management Framework?14 Oct 2025 — Modern AI security platforms can implement NIST principles automatically, red...</p></details>
+   Link:<a href="https://www.sentinelone.com/cybersecurity-101/cybersecurity/nist-ai-risk-management-framework/" target="_blank" rel="noopener noreferrer nofollow">https://www.sentinelone.com/cybersecurity-101/cybersecurity/nist-ai-risk-management-framework/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>What is the NIST AI Risk Management Framework?14 Oct 2025 — Modern AI security platforms can implement NIST principles automatically, red...</p></details>
 
-12. <a id="endnote-12"></a>
+12.<a id="endnote-12"></a>
    Source: digital-strategy.ec.europa.eu  
    Title: eu A I Act | Shaping Europe's digital future  
-   Link: <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>Act | Shaping Europe&#x27;s digital future - European UnionThe AI Act is the first-ever legal framework on AI, which addresses the risks of AI...</p></details>
+   Link:<a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer nofollow">https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>Act | Shaping Europe&#x27;s digital future - European UnionThe AI Act is the first-ever legal framework on AI, which addresses the risks of AI...</p></details>
 
-13. <a id="endnote-13"></a>
+13.<a id="endnote-13"></a>
    Source: ico.org.uk  
-   Link: <a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>to protect data subjects from solely automated decision making.Read more...</p></details>
+   Link:<a href="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/" target="_blank" rel="noopener noreferrer nofollow">https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-fairness-in-ai/what-is-the-impact-of-article-22-of-the-uk-gdpr-on-fairness/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>to protect data subjects from solely automated decision making.Read more...</p></details>
 
-14. <a id="endnote-14"></a>
+14.<a id="endnote-14"></a>
    Source: aiact.algolia.com  
    Title: article 14  
-   Link: <a href="https://aiact.algolia.com/article-14/" target="_blank" rel="noopener noreferrer nofollow">https://aiact.algolia.com/article-14/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>14: Human Oversight | AI Act made searchable by...Human oversight shall aim at preventing or minimising the risk s to health, safety or...</p></details>
+   Link:<a href="https://aiact.algolia.com/article-14/" target="_blank" rel="noopener noreferrer nofollow">https://aiact.algolia.com/article-14/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>14: Human Oversight | AI Act made searchable by...Human oversight shall aim at preventing or minimising the risk s to health, safety or...</p></details>
 
 ### Additional References
 
-15. <a id="endnote-15"></a>
+15.<a id="endnote-15"></a>
    Source: ai-act-law.eu  
-   Link: <a href="https://ai-act-law.eu/" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-law.eu/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act as a neatly arranged website – Legal TextAccording to Article 6 of the AI Act, high-risk AI is an AI system whose actual use poses...</p></details>
+   Link:<a href="https://ai-act-law.eu/" target="_blank" rel="noopener noreferrer nofollow">https://ai-act-law.eu/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Act as a neatly arranged website – Legal TextAccording to Article 6 of the AI Act, high-risk AI is an AI system whose actual use poses...</p></details>
 
-16. <a id="endnote-16"></a>
+16.<a id="endnote-16"></a>
    Source: paloaltonetworks.com  
-   Link: <a href="https://www.paloaltonetworks.com/cyberpedia/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/ai-risk-management-framework</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management FrameworkAn AI risk management framework provides a comprehensive set of practices for identifying, analyzing, and mit...</p></details>
+   Link:<a href="https://www.paloaltonetworks.com/cyberpedia/ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AI Risk Management FrameworkAn AI risk management framework provides a comprehensive set of practices for identifying, analyzing, and mit...</p></details>
 
-17. <a id="endnote-17"></a>
+17.<a id="endnote-17"></a>
    Source: avolutionsoftware.com  
-   Link: <a href="https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (RMF)The NIST AI RMF is built around four core functions: Govern: Establish AI policies, roles, respons...</p></details>
+   Link:<a href="https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/" target="_blank" rel="noopener noreferrer nofollow">https://www.avolutionsoftware.com/our-resources/nist-ai-risk-management-framework-rmf/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (RMF)The NIST AI RMF is built around four core functions: Govern: Establish AI policies, roles, respons...</p></details>
 
-18. <a id="endnote-18"></a>
+18.<a id="endnote-18"></a>
    Source: paloaltonetworks.com  
-   Link: <a href="https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)They include principles like ensuring data quality, fostering transparency in AI decision-makin...</p></details>
+   Link:<a href="https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework" target="_blank" rel="noopener noreferrer nofollow">https://www.paloaltonetworks.com/cyberpedia/nist-ai-risk-management-framework</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>NIST AI Risk Management Framework (AI RMF)They include principles like ensuring data quality, fostering transparency in AI decision-makin...</p></details>
 
-19. <a id="endnote-19"></a>
+19.<a id="endnote-19"></a>
    Source: streamlex.eu  
-   Link: <a href="https://streamlex.eu/articles/aia-en-art-14/" target="_blank" rel="noopener noreferrer nofollow">https://streamlex.eu/articles/aia-en-art-14/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>AIA Article 14. Human oversightHuman oversight shall aim to prevent or minimise the risks to health, safety or fundamental rights that ma...</p></details>
+   Link:<a href="https://streamlex.eu/articles/aia-en-art-14/" target="_blank" rel="noopener noreferrer nofollow">https://streamlex.eu/articles/aia-en-art-14/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>AIA Article 14. Human oversightHuman oversight shall aim to prevent or minimise the risks to health, safety or fundamental rights that ma...</p></details>
 
-20. <a id="endnote-20"></a>
+20.<a id="endnote-20"></a>
    Source: linkedin.com  
-   Link: <a href="https://www.linkedin.com/posts/information-commissioner%27s-office_yesterday-we-published-our-new-draft-automated-activity-7445095815812964352-G3P5" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/information-commissioner%27s-office_yesterday-we-published-our-new-draft-automated-activity-7445095815812964352-G3P5</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK GDPR Update: Automated Decision-Making GuidanceYesterday we published our new draft automated decision-making (ADM), including profili...</p></details>
+   Link:<a href="https://www.linkedin.com/posts/information-commissioner%27s-office_yesterday-we-published-our-new-draft-automated-activity-7445095815812964352-G3P5" target="_blank" rel="noopener noreferrer nofollow">https://www.linkedin.com/posts/information-commissioner%27s-office_yesterday-we-published-our-new-draft-automated-activity-7445095815812964352-G3P5</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK GDPR Update: Automated Decision-Making GuidanceYesterday we published our new draft automated decision-making (ADM), including profili...</p></details>
 
-21. <a id="endnote-21"></a>
+21.<a id="endnote-21"></a>
    Source: hunton.com  
-   Link: <a href="https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-draft-guidance-on-profiling-tools-for-online-safety" target="_blank" rel="noopener noreferrer nofollow">https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-draft-guidance-on-profiling-tools-for-online-safety</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK ICO Publishes Draft Guidance on Profiling Tools for...The Guidance aims to assist organizations with their compliance with the UK Onl...</p></details>
+   Link:<a href="https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-draft-guidance-on-profiling-tools-for-online-safety" target="_blank" rel="noopener noreferrer nofollow">https://www.hunton.com/privacy-and-cybersecurity-law-blog/uk-ico-publishes-draft-guidance-on-profiling-tools-for-online-safety</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK ICO Publishes Draft Guidance on Profiling Tools for...The Guidance aims to assist organizations with their compliance with the UK Onl...</p></details>
 
-22. <a id="endnote-22"></a>
+22.<a id="endnote-22"></a>
    Source: committees.parliament.uk  
-   Link: <a href="https://committees.parliament.uk/writtenevidence/114059/html/" target="_blank" rel="noopener noreferrer nofollow">https://committees.parliament.uk/writtenevidence/114059/html/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK Parliament CommitteesThe ICO&#x27;s approach to regulating AI and [engagement](&amp;#123;&amp;#123; &#x27;engagement-goals/&#x27; | relative_url &amp;#125;&amp;#125;)...Where individuals are subject to solely automated decisions...</p></details>
+   Link:<a href="https://committees.parliament.uk/writtenevidence/114059/html/" target="_blank" rel="noopener noreferrer nofollow">https://committees.parliament.uk/writtenevidence/114059/html/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK Parliament CommitteesThe ICO&#x27;s approach to regulating AI and [engagement](&amp;#123;&amp;#123; &#x27;engagement-goals/&#x27; | relative_url &amp;#125;&amp;#125;)...Where individuals are subject to solely automated decisions...</p></details>
 
-23. <a id="endnote-23"></a>
+23.<a id="endnote-23"></a>
    Source: insideprivacy.com  
-   Link: <a href="https://www.insideprivacy.com/united-kingdom-2/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/" target="_blank" rel="noopener noreferrer nofollow">https://www.insideprivacy.com/united-kingdom-2/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/</a>  
-    <details class="endnote-snippet"><summary>Source snippet</summary><p>UK ICO Consults on Draft Automated Decision-Making...24 Apr 2026 — The Draft Guidance also clarifies that whether a decision has “signif...</p></details>
+   Link:<a href="https://www.insideprivacy.com/united-kingdom-2/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/" target="_blank" rel="noopener noreferrer nofollow">https://www.insideprivacy.com/united-kingdom-2/uk-ico-consults-on-draft-automated-decision-making-guidance-and-sets-expectations-for-adm-in-recruitment/</a>  
+<details class="endnote-snippet"><summary>Source snippet</summary><p>UK ICO Consults on Draft Automated Decision-Making...24 Apr 2026 — The Draft Guidance also clarifies that whether a decision has “signif...</p></details>
 
-24. <a id="endnote-24"></a>
+24.<a id="endnote-24"></a>
    Source: thoropass.com  
-   Link: <a href="https://www.thoropass.com/blog/nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.thoropass.com/blog/nist-ai-rmf</a>  
+   Link:<a href="https://www.thoropass.com/blog/nist-ai-rmf" target="_blank" rel="noopener noreferrer nofollow">https://www.thoropass.com/blog/nist-ai-rmf</a>  
